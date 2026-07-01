@@ -1,0 +1,18 @@
+id: shot006
+duration: 6
+purpose: 结束第一段，留下悬念。
+characters:
+  - Sothis
+  - Byleth
+location: DreamSanctuary
+framing: 双人宽镜头
+camera:
+  movement: static_fade_out
+  notes: 主角站在画面前景，苏谛斯坐在石座上，最后淡出。
+image: >
+  主角站在画面前景。苏谛斯坐在古老石座上。两人隔着梦境空间互相注视。
+  绿色粒子缓缓飘过，画面逐渐淡出。
+action: >
+  两人静静对视，无对白。
+dialogue: null
+status: ready_for_generation

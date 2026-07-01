@@ -1,0 +1,17 @@
+id: shot001
+duration: 4
+purpose: 建立梦境空间，让观众知道这里不是现实世界。
+characters:
+  - Sothis
+location: DreamSanctuary
+framing: 超广角
+camera:
+  movement: slow_push_in
+  notes: 缓慢推进，几乎没有人物动作。
+image: >
+  漆黑而空旷的空间中，漂浮着古老的石质平台。平台中央是一座古老石座。
+  苏谛斯安静地坐在那里。空气中漂浮着微弱的绿色粒子。远处几乎没有边界，只能看到无尽黑暗。
+action: >
+  苏谛斯静坐，头发与衣摆轻轻飘动。
+dialogue: null
+status: ready_for_generation

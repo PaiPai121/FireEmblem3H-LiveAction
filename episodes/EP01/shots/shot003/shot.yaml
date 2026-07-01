@@ -1,0 +1,18 @@
+id: shot003
+duration: 5
+purpose: 苏谛斯第一次开口。
+characters:
+  - Sothis
+location: DreamSanctuary
+framing: 近景
+camera:
+  movement: subtle_push_in
+  notes: 镜头已经来到苏谛斯面前。
+image: >
+  苏谛斯注视着主角。嘴角没有笑意，而是好奇。
+action: >
+  轻轻眨眼，嘴唇自然说话。
+dialogue:
+  character: Sothis
+  text: 汝在那里做什么？
+status: ready_for_generation

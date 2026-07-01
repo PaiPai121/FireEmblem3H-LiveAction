@@ -1,0 +1,18 @@
+id: shot005
+duration: 5
+purpose: 苏谛斯开始意识到眼前的人是真实存在的。
+characters:
+  - Sothis
+location: DreamSanctuary
+framing: 近景
+camera:
+  movement: subtle_push_in
+  notes: 切回苏谛斯，稳定近景。
+image: >
+  苏谛斯微微皱眉，身体稍微前倾，眼神认真地打量主角。
+action: >
+  微微皱眉，稍微前倾，认真观察。
+dialogue:
+  character: Sothis
+  text: 呼啊……虽然不知道汝为何会来到这里……
+status: ready_for_generation

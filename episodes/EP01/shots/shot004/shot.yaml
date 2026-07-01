@@ -1,0 +1,16 @@
+id: shot004
+duration: 4
+purpose: 第一次展示主角。
+characters:
+  - Byleth
+location: DreamSanctuary
+framing: 固定中景
+camera:
+  movement: breathing_static
+  notes: 略微呼吸式运镜。
+image: >
+  主角站在梦境之中。没有说话，只是安静地看着苏谛斯。
+action: >
+  主角静止，凝视苏谛斯。
+dialogue: null
+status: ready_for_generation

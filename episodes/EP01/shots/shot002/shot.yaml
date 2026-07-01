@@ -1,0 +1,17 @@
+id: shot002
+duration: 4
+purpose: 苏谛斯察觉到有人进入梦境。
+characters:
+  - Sothis
+location: DreamSanctuary
+framing: 中近景
+camera:
+  movement: slow_push_in
+  notes: 继续缓慢推进，轻微景深。
+image: >
+  苏谛斯坐在古老石座上，缓缓抬起头。她的视线第一次望向镜头方向，
+  也就是主角所在的位置。神情带着一点疑惑。
+action: >
+  缓慢抬头，看向镜头方向。
+dialogue: null
+status: ready_for_generation
