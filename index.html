@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fire Emblem Three Houses Live Action Asset Review</title>
+    <link rel="stylesheet" href="site/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Live Action Asset Review</p>
+        <h1>风花雪月真人化素材检阅</h1>
+      </div>
+      <nav class="tabs" aria-label="素材视图">
+        <button class="tab is-active" data-view="characters" type="button">角色</button>
+        <button class="tab" data-view="episode" type="button">EP01</button>
+        <button class="tab" data-view="documents" type="button">文档</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="筛选">
+        <label class="search">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="角色、阵营、阶段、路径">
+        </label>
+        <label>
+          <span>阵营</span>
+          <select id="factionFilter"></select>
+        </label>
+        <label>
+          <span>阶段</span>
+          <select id="eraFilter"></select>
+        </label>
+        <label>
+          <span>显示</span>
+          <select id="statusFilter">
+            <option value="all">全部</option>
+            <option value="selected">定稿图</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="stats" id="stats" aria-label="统计"></section>
+
+      <section id="charactersView" class="view is-active">
+        <div class="section-head">
+          <h2>角色定稿</h2>
+          <p>使用仓库中各角色的 <code>selected.png</code>，按阵营和阶段筛选。</p>
+        </div>
+        <div class="grid" id="characterGrid"></div>
+      </section>
+
+      <section id="episodeView" class="view">
+        <div class="section-head">
+          <h2>EP01 制作包</h2>
+          <p>梦境初遇的关键场景参考、镜头资料和生成文档。</p>
+        </div>
+        <div class="episode-layout">
+          <div class="feature" id="episodeFeature"></div>
+          <div class="shot-list" id="shotList"></div>
+        </div>
+      </section>
+
+      <section id="documentsView" class="view">
+        <div class="section-head">
+          <h2>制作文档</h2>
+          <p>点击可在浏览器中打开仓库内 Markdown / YAML 文件。</p>
+        </div>
+        <div class="docs" id="docsList"></div>
+      </section>
+    </main>
+
+    <dialog id="previewDialog">
+      <button class="icon-button close" id="closeDialog" type="button" aria-label="关闭">×</button>
+      <img id="previewImage" alt="">
+      <div class="preview-meta">
+        <h3 id="previewTitle"></h3>
+        <p id="previewPath"></p>
+      </div>
+    </dialog>
+
+    <script src="site/data.js"></script>
+    <script src="site/app.js"></script>
+  </body>
+</html>
