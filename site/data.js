@@ -118,6 +118,7 @@ window.ASSET_REVIEW_DATA = {
     ["角色资产索引", "production/character_asset_index.yaml"],
     ["角色生成记录", "production/角色生成记录.md"],
     ["资产审计与重构方案", "production/资产审计与重构方案.md"],
+    ["还原度审计与重生成计划", "production/还原度审计与重生成计划.md"],
     ["风花雪月角色总表", "production/风花雪月角色总表.md"],
     ["角色目录说明", "assets/characters/README.md"],
     ["梦境空间提示词", "assets/locations/DreamSanctuary/EP01_梦境空间提示词.md"],
