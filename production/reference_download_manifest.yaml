@@ -1,0 +1,74 @@
+---
+version: 1
+updated: 2026-07-04
+policy:
+  local_output_root: references/official_local
+  publish_to_github_pages: false
+  note: Official source art is for private production reference only. Do not commit downloaded files unless rights are cleared.
+characters:
+  - id: Byleth
+    name_zh: 贝雷丝 / 贝雷特
+    character_root: assets/characters/protagonist/Byleth
+    sources:
+      - label: Fire Emblem Wiki Byleth
+        page_url: https://fireemblemwiki.org/wiki/Byleth
+        direct_url: https://cdn.fireemblemwiki.org/6/6a/FETH_Byleth_m_f.png
+        stage: professor
+      - label: Nintendo product page
+        page_url: https://www.nintendo.com/us/store/products/fire-emblem-three-houses-switch/
+        stage: general
+  - id: Sothis
+    name_zh: 苏谛斯
+    character_root: assets/characters/divine/Sothis
+    sources:
+      - label: Fire Emblem Wiki Sothis
+        page_url: https://fireemblemwiki.org/wiki/Sothis
+        direct_url: https://cdn.fireemblemwiki.org/c/c5/FETH_Sothis.png
+        stage: dream
+      - label: Existing local official set
+        local_path: assets/characters/divine/Sothis/references/official
+        stage: dream
+  - id: Edelgard
+    name_zh: 艾黛尔贾特
+    character_root: assets/characters/black_eagles/Edelgard
+    sources:
+      - label: Fire Emblem Wiki Edelgard
+        page_url: https://fireemblemwiki.org/wiki/Edelgard
+        direct_url: https://cdn.fireemblemwiki.org/c/ce/FETH_Edelgard_02.png
+        stage: academy
+      - label: Nintendo product page
+        page_url: https://www.nintendo.com/us/store/products/fire-emblem-three-houses-switch/
+        stage: academy
+  - id: Dimitri
+    name_zh: 迪米特里
+    character_root: assets/characters/blue_lions/Dimitri
+    sources:
+      - label: Fire Emblem Wiki Dimitri
+        page_url: https://fireemblemwiki.org/wiki/Dimitri
+        direct_url: https://cdn.fireemblemwiki.org/4/48/FETH_Dimitri_02.png
+        stage: academy
+      - label: Nintendo product page
+        page_url: https://www.nintendo.com/us/store/products/fire-emblem-three-houses-switch/
+        stage: academy
+  - id: Claude
+    name_zh: 库罗德
+    character_root: assets/characters/golden_deer/Claude
+    sources:
+      - label: Fire Emblem Wiki Claude
+        page_url: https://fireemblemwiki.org/wiki/Claude
+        direct_url: https://cdn.fireemblemwiki.org/2/26/FETH_Claude_02.png
+        stage: academy
+      - label: Nintendo product page
+        page_url: https://www.nintendo.com/us/store/products/fire-emblem-three-houses-switch/
+        stage: academy
+  - id: Rhea
+    name_zh: 蕾雅
+    character_root: assets/characters/church_of_seiros/Rhea
+    sources:
+      - label: Fire Emblem Wiki Rhea
+        page_url: https://fireemblemwiki.org/wiki/Rhea
+        direct_url: https://cdn.fireemblemwiki.org/0/0d/FETH_Rhea_02.png
+        stage: archbishop
+      - label: Nintendo product page
+        page_url: https://www.nintendo.com/us/store/products/fire-emblem-three-houses-switch/
+        stage: general

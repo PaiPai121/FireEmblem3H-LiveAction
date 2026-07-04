@@ -1,0 +1,5 @@
+# Local-only official reference images. Do not publish copyrighted source art.
+**/references/official_local/
+
+# Local OS/editor files.
+.DS_Store
