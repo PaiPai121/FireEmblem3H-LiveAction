@@ -1,5 +1,5 @@
 window.ASSET_REVIEW_DATA = {
-  updated: "2026-07-04",
+  updated: "2026-07-08",
   characters: [
     ["Byleth", "贝雷丝 / 贝雷特", "protagonist", "professor", "assets/characters/protagonist/Byleth/professor/selected.png"],
     ["Byleth", "贝雷丝 / 贝雷特", "protagonist", "enlightened", "assets/characters/protagonist/Byleth/enlightened/selected.png"],
@@ -63,14 +63,21 @@ window.ASSET_REVIEW_DATA = {
     ["Flayn", "芙莲", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Flayn/academy/selected.png"],
     ["Flayn", "芙莲", "church_of_seiros", "war", "assets/characters/church_of_seiros/Flayn/war/selected.png"],
     ["Hanneman", "汉尼曼", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Hanneman/academy/selected.png"],
+    ["Hanneman", "汉尼曼", "church_of_seiros", "war", "assets/characters/church_of_seiros/Hanneman/war/selected.png"],
     ["Manuela", "玛努艾拉", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Manuela/academy/selected.png"],
+    ["Manuela", "玛努艾拉", "church_of_seiros", "war", "assets/characters/church_of_seiros/Manuela/war/selected.png"],
     ["Alois", "阿洛伊斯", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Alois/academy/selected.png"],
+    ["Alois", "阿洛伊斯", "church_of_seiros", "war", "assets/characters/church_of_seiros/Alois/war/selected.png"],
     ["Catherine", "卡多莉奴", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Catherine/academy/selected.png"],
+    ["Catherine", "卡多莉奴", "church_of_seiros", "war", "assets/characters/church_of_seiros/Catherine/war/selected.png"],
     ["Shamir", "萨米亚", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Shamir/academy/selected.png"],
+    ["Shamir", "萨米亚", "church_of_seiros", "war", "assets/characters/church_of_seiros/Shamir/war/selected.png"],
     ["Cyril", "西里尔", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Cyril/academy/selected.png"],
     ["Cyril", "西里尔", "church_of_seiros", "war", "assets/characters/church_of_seiros/Cyril/war/selected.png"],
     ["Gilbert", "吉尔伯特", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Gilbert/academy/selected.png"],
+    ["Gilbert", "吉尔伯特", "church_of_seiros", "war", "assets/characters/church_of_seiros/Gilbert/war/selected.png"],
     ["Jeritza", "杰里扎", "church_of_seiros", "academy", "assets/characters/church_of_seiros/Jeritza/academy/selected.png"],
+    ["Jeritza", "杰里扎", "church_of_seiros", "war", "assets/characters/church_of_seiros/Jeritza/war/selected.png"],
     ["SeirosSoldier", "赛罗司士兵", "church_of_seiros", "legacy_ep01", "assets/characters/church_of_seiros/SeirosSoldier/selected.png"],
     ["DeathKnight", "死神骑士", "antagonists", "concept", "assets/characters/antagonists/DeathKnight/selected.png"],
     ["FlameEmperor", "炎帝", "antagonists", "concept", "assets/characters/antagonists/FlameEmperor/selected.png"],
@@ -80,6 +87,47 @@ window.ASSET_REVIEW_DATA = {
     ["Thales", "塔列斯", "antagonists", "concept", "assets/characters/antagonists/Thales/selected.png"],
     ["Nemesis", "涅梅西斯", "antagonists", "concept", "assets/characters/antagonists/Nemesis/selected.png"],
     ["BanditSoldier", "盗贼杂兵", "extras", "legacy_ep01", "assets/characters/extras/BanditSoldier/selected.png"]
+    ,["Yuri", "尤里", "ashen_wolves", "academy", "assets/characters/ashen_wolves/Yuri/academy/selected.png"]
+    ,["Yuri", "尤里", "ashen_wolves", "war", "assets/characters/ashen_wolves/Yuri/war/selected.png"]
+    ,["Balthus", "巴鲁塔扎尔", "ashen_wolves", "academy", "assets/characters/ashen_wolves/Balthus/academy/selected.png"]
+    ,["Balthus", "巴鲁塔扎尔", "ashen_wolves", "war", "assets/characters/ashen_wolves/Balthus/war/selected.png"]
+    ,["Constance", "康丝坦洁", "ashen_wolves", "academy", "assets/characters/ashen_wolves/Constance/academy/selected.png"]
+    ,["Constance", "康丝坦洁", "ashen_wolves", "war", "assets/characters/ashen_wolves/Constance/war/selected.png"]
+    ,["Hapi", "哈琵", "ashen_wolves", "academy", "assets/characters/ashen_wolves/Hapi/academy/selected.png"]
+    ,["Hapi", "哈琵", "ashen_wolves", "war", "assets/characters/ashen_wolves/Hapi/war/selected.png"]
+    ,["Anna", "安娜", "merchants", "academy", "assets/characters/merchants/Anna/academy/selected.png"]
+    ,["Anna", "安娜", "merchants", "war", "assets/characters/merchants/Anna/war/selected.png"]
+    ,["Gatekeeper", "门卫", "church_of_seiros", "legacy_ep01", "assets/characters/church_of_seiros/Gatekeeper/legacy_ep01/selected.png"]
+    ,["Rodrigue", "罗德利古", "kingdom", "war", "assets/characters/kingdom/Rodrigue/war/selected.png"]
+    ,["Judith", "朱迪特", "alliance", "war", "assets/characters/alliance/Judith/war/selected.png"]
+    ,["Nader", "纳德尔", "almyra", "war", "assets/characters/almyra/Nader/war/selected.png"]
+    ,["Cornelia", "科尔妮莉亚", "antagonists", "concept", "assets/characters/antagonists/Cornelia/concept/selected.png"]
+    ,["Lonato", "罗纳特", "kingdom", "legacy_ep01", "assets/characters/kingdom/Lonato/legacy_ep01/selected.png"]
+    ,["Miklan", "米克兰", "antagonists", "legacy_ep01", "assets/characters/antagonists/Miklan/legacy_ep01/selected.png"]
+    ,["Monica", "莫妮卡", "black_eagles", "war", "assets/characters/black_eagles/Monica/war/selected.png"]
+    ,["Tomas", "托马修", "church_of_seiros", "legacy_ep01", "assets/characters/church_of_seiros/Tomas/legacy_ep01/selected.png"]
+    ,["Aelfric", "阿尔法德", "church_of_seiros", "concept", "assets/characters/church_of_seiros/Aelfric/concept/selected.png"]
+    ,["Randolph", "兰道夫", "empire", "war", "assets/characters/empire/Randolph/war/selected.png"]
+    ,["Ladislava", "拉蒂丝拉瓦", "empire", "war", "assets/characters/empire/Ladislava/war/selected.png"]
+    ,["Fleche", "芙蕾伽", "empire", "war", "assets/characters/empire/Fleche/war/selected.png"]
+    ,["Acheron", "阿刻戎", "alliance", "war", "assets/characters/alliance/Acheron/war/selected.png"]
+    ,["Metodey", "梅托杰", "antagonists", "legacy_ep01", "assets/characters/antagonists/Metodey/legacy_ep01/selected.png"]
+    ,["Pallardo", "帕拉尔多", "merchants", "legacy_ep01", "assets/characters/merchants/Pallardo/legacy_ep01/selected.png"]
+    ,["IoniusIX", "伊欧尼亚斯九世", "empire", "concept", "assets/characters/empire/IoniusIX/concept/selected.png"]
+    ,["Lambert", "兰贝尔", "kingdom", "war", "assets/characters/kingdom/Lambert/war/selected.png"]
+    ,["Sitri", "西特莉", "church_of_seiros", "concept", "assets/characters/church_of_seiros/Sitri/concept/selected.png"]
+    ,["Abysskeeper", "深渊门卫", "abyss", "legacy_ep01", "assets/characters/abyss/Abysskeeper/legacy_ep01/selected.png"]
+    ,["Gwendal", "格温达尔", "kingdom", "war", "assets/characters/kingdom/Gwendal/war/selected.png"]
+    ,["Myson", "缪森", "antagonists", "legacy_ep01", "assets/characters/antagonists/Myson/legacy_ep01/selected.png"]
+    ,["Chilon", "奇隆", "antagonists", "legacy_ep01", "assets/characters/antagonists/Chilon/legacy_ep01/selected.png"]
+    ,["Bias", "比阿斯", "antagonists", "legacy_ep01", "assets/characters/antagonists/Bias/legacy_ep01/selected.png"]
+    ,["Odesse", "奥德赛", "antagonists", "legacy_ep01", "assets/characters/antagonists/Odesse/legacy_ep01/selected.png"]
+    ,["Pittacus", "庇塔库斯", "antagonists", "legacy_ep01", "assets/characters/antagonists/Pittacus/legacy_ep01/selected.png"]
+    ,["Agastya", "阿加斯提亚", "antagonists", "concept", "assets/characters/antagonists/Agastya/concept/selected.png"]
+    ,["Verrat", "维拉特", "antagonists", "concept", "assets/characters/antagonists/Verrat/concept/selected.png"]
+    ,["BaronOchs", "奥克斯男爵", "kingdom", "legacy_ep01", "assets/characters/kingdom/BaronOchs/legacy_ep01/selected.png"]
+    ,["BaronDominic", "多米尼克男爵", "kingdom", "legacy_ep01", "assets/characters/kingdom/BaronDominic/legacy_ep01/selected.png"]
+    ,["DukeAegir", "艾吉尔公爵", "empire", "war", "assets/characters/empire/DukeAegir/war/selected.png"]
   ],
   episodeAssets: [
     {
@@ -87,6 +135,114 @@ window.ASSET_REVIEW_DATA = {
       label: "梦境空间场景参考",
       path: "assets/locations/DreamSanctuary/EP01_scene_reference.png",
       note: "EP01 的唯一场景参考。"
+    },
+    {
+      title: "Garreg Mach Mountain Road",
+      label: "EP02 第一幕 加尔古玛库外景山道",
+      path: "assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference_v2_sunlit.png",
+      note: "推荐明亮版，作为 EP02 第一幕入学山道默认参考。"
+    },
+    {
+      title: "Garreg Mach Exterior Overview",
+      label: "加尔古玛库修道院外景总览",
+      path: "assets/locations/GarregMachExteriorOverview/shared/scene_reference.png",
+      note: "共享外景总览，可用于 EP02 转场和后续章节地点交代。"
+    },
+    {
+      title: "Monastery Main Gate Plaza",
+      label: "EP02 第一幕 修道院正门广场",
+      path: "assets/locations/MonasteryMainGatePlaza/EP02_act01/scene_reference.png",
+      note: "正式入门、学院门槛和教会权威的广场参考。"
+    },
+    {
+      title: "Monastery Main Cloister",
+      label: "EP02 第一幕 修道院主回廊",
+      path: "assets/locations/MonasteryMainCloister/EP02_act01/scene_reference.png",
+      note: "修道院内部主通道和学院日常空间参考。"
+    },
+    {
+      title: "Cathedral Antechamber",
+      label: "EP02 第一幕 大圣堂前厅",
+      path: "assets/locations/MonasteryCathedralAntechamber/EP02_act01/scene_reference.png",
+      note: "进入教会核心前的门槛空间参考。"
+    },
+    {
+      title: "Officers Academy Classroom",
+      label: "EP02 第一幕 士官学校教室",
+      path: "assets/locations/EP02/act01/OfficersAcademyClassroom/scene_reference.png",
+      note: "章节优先目录版本，课堂和纹章教学参考。"
+    },
+    {
+      title: "Three Houses Courtyard",
+      label: "EP02 第一幕 三学级公共庭院",
+      path: "assets/locations/EP02/act01/ThreeHousesCourtyard/scene_reference.png",
+      note: "章节优先目录版本，学生日常庭院参考。"
+    },
+    {
+      title: "Training Ground",
+      label: "EP02 第一幕 训练场",
+      path: "assets/locations/EP02/act01/TrainingGround/scene_reference.png",
+      note: "章节优先目录版本，武器训练和靶场参考。"
+    },
+    {
+      title: "Cathedral Interior",
+      label: "EP02 第一幕 大教堂内部",
+      path: "assets/locations/EP02/act01/CathedralInterior/scene_reference.png",
+      note: "章节优先目录版本，大教堂主空间参考。"
+    },
+    {
+      title: "Dining Hall",
+      label: "EP02 第一幕 食堂",
+      path: "assets/locations/EP02/act01/DiningHall/scene_reference.png",
+      note: "章节优先目录版本，学院生活区食堂参考。"
+    },
+    {
+      title: "Dormitory Corridor",
+      label: "EP02 第一幕 宿舍走廊",
+      path: "assets/locations/EP02/act01/DormitoryCorridor/scene_reference.png",
+      note: "章节优先目录版本，学生宿舍通道参考。"
+    },
+    {
+      title: "Library",
+      label: "EP02 第一幕 图书馆",
+      path: "assets/locations/EP02/act01/Library/scene_reference.png",
+      note: "章节优先目录版本，修道院图书馆参考。"
+    },
+    {
+      title: "Marketplace",
+      label: "EP02 第一幕 市场",
+      path: "assets/locations/EP02/act01/Marketplace/scene_reference.png",
+      note: "章节优先目录版本，商人街和补给摊位参考。"
+    },
+    {
+      title: "Greenhouse",
+      label: "EP02 第一幕 温室",
+      path: "assets/locations/EP02/act01/Greenhouse/scene_reference.png",
+      note: "章节优先目录版本，植物培育和温室参考。"
+    },
+    {
+      title: "Fishing Pond",
+      label: "EP02 第一幕 钓鱼池",
+      path: "assets/locations/EP02/act01/FishingPond/scene_reference.png",
+      note: "章节优先目录版本，修道院水边活动参考。"
+    },
+    {
+      title: "Stables",
+      label: "EP02 第一幕 马厩",
+      path: "assets/locations/EP02/act01/Stables/scene_reference.png",
+      note: "章节优先目录版本，骑乘装备和马厩参考。"
+    },
+    {
+      title: "Knights Hall",
+      label: "EP02 第一幕 骑士团大厅",
+      path: "assets/locations/EP02/act01/KnightsHall/scene_reference.png",
+      note: "章节优先目录版本，赛罗司骑士团军事空间参考。"
+    },
+    {
+      title: "War-Ruined Monastery",
+      label: "战争篇 废墟修道院",
+      path: "assets/locations/war/shared/WarRuinedMonastery/scene_reference.png",
+      note: "战争篇共享版本，五年后回归和废墟转场参考。"
     },
     {
       title: "Shot001",
@@ -116,6 +272,11 @@ window.ASSET_REVIEW_DATA = {
     ["EP01 今日生成任务", "production/EP01/今日生成任务.md"],
     ["角色与官方参考", "production/EP01/角色与官方参考.md"],
     ["角色资产索引", "production/character_asset_index.yaml"],
+    ["场景资产索引", "production/scene_asset_index.yaml"],
+    ["道具资产索引", "production/prop_asset_index.yaml"],
+    ["角色素材审计 2026-07-07", "production/角色素材审计_2026-07-07.md"],
+    ["人像全量缺口清单", "production/人像全量缺口清单.md"],
+    ["Selected 同步 Manifest", "production/selected_sync_manifest_2026-07-07.tsv"],
     ["角色生成记录", "production/角色生成记录.md"],
     ["资产审计与重构方案", "production/资产审计与重构方案.md"],
     ["还原度审计与重生成计划", "production/还原度审计与重生成计划.md"],

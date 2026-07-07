@@ -9,6 +9,13 @@ const factionNames = {
   divine: "神性 / 梦境",
   antagonists: "反派",
   extras: "群众",
+  ashen_wolves: "灰狼",
+  merchants: "商人",
+  alliance: "雷斯塔联盟",
+  almyra: "阿尔米拉",
+  empire: "阿德剌斯忒亚帝国",
+  kingdom: "法嘉斯神圣王国",
+  abyss: "深渊",
 };
 
 const eraNames = {
@@ -22,6 +29,8 @@ const eraNames = {
   war_broken: "崩坏战争篇",
   dream: "梦境",
   concept: "概念版",
+  ancient: "古代",
+  mercenary: "佣兵",
   legacy_ep01: "EP01 旧版"
 };
 
@@ -40,6 +49,7 @@ const els = {
   status: document.querySelector("#statusFilter"),
   stats: document.querySelector("#stats"),
   grid: document.querySelector("#characterGrid"),
+  locationStats: document.querySelector("#locationStats"),
   episodeFeature: document.querySelector("#episodeFeature"),
   shotList: document.querySelector("#shotList"),
   docsList: document.querySelector("#docsList"),
@@ -55,6 +65,8 @@ function normalizeCharacter(row) {
 }
 
 const characters = data.characters.map(normalizeCharacter);
+const locationAssets = data.episodeAssets.filter((item) => item.path.startsWith("assets/locations/"));
+const historicalFrameAssets = data.episodeAssets.filter((item) => !item.path.startsWith("assets/locations/"));
 
 function uniqueOptions(items, key, labelMap) {
   const values = [...new Set(items.map((item) => item[key]))].sort();
@@ -71,7 +83,7 @@ function cardTemplate(item) {
   return `
     <article class="asset-card">
       <button class="image-button" type="button" data-preview="${item.path}" data-title="${item.nameZh} / ${item.id}" data-path="${item.path}">
-        <img src="${item.path}" alt="${item.nameZh} ${era}" loading="lazy">
+        <img src="${item.path}" alt="${item.nameZh} ${era}" loading="lazy" data-path="${item.path}">
       </button>
       <div class="card-body">
         <div>
@@ -86,6 +98,10 @@ function cardTemplate(item) {
       </div>
     </article>
   `;
+}
+
+function imageErrorTemplate(path) {
+  return `<div class="image-error">Missing image<br><span>${path}</span></div>`;
 }
 
 function matches(item) {
@@ -116,10 +132,19 @@ function renderCharacters() {
 }
 
 function renderEpisode() {
-  els.episodeFeature.innerHTML = data.episodeAssets.map((item) => `
-    <article class="feature-item">
+  const ep02Count = locationAssets.filter((item) => item.path.includes("/EP02/")).length;
+  const warCount = locationAssets.filter((item) => item.path.includes("/war/")).length;
+  els.locationStats.innerHTML = `
+    <div><strong>${locationAssets.length}</strong><span>地点参考</span></div>
+    <div><strong>${ep02Count}</strong><span>EP02 地点</span></div>
+    <div><strong>${warCount}</strong><span>战争篇地点</span></div>
+    <div><strong>${historicalFrameAssets.length}</strong><span>历史镜头图</span></div>
+  `;
+
+  const locationHtml = locationAssets.map((item) => `
+    <article class="feature-item location-item">
       <button class="image-button" type="button" data-preview="${item.path}" data-title="${item.label}" data-path="${item.path}">
-        <img src="${item.path}" alt="${item.label}" loading="lazy">
+        <img src="${item.path}" alt="${item.label}" loading="eager" data-path="${item.path}">
       </button>
       <div>
         <p class="eyebrow">${item.title}</p>
@@ -129,6 +154,25 @@ function renderEpisode() {
       </div>
     </article>
   `).join("");
+
+  const legacyHtml = historicalFrameAssets.length ? `
+    <div class="feature-group-title">历史镜头图</div>
+    ${historicalFrameAssets.map((item) => `
+      <article class="feature-item compact-feature">
+        <button class="image-button" type="button" data-preview="${item.path}" data-title="${item.label}" data-path="${item.path}">
+          <img src="${item.path}" alt="${item.label}" loading="eager" data-path="${item.path}">
+        </button>
+        <div>
+          <p class="eyebrow">${item.title}</p>
+          <h3>${item.label}</h3>
+          <p>${item.note}</p>
+          <a href="${item.path}" target="_blank" rel="noreferrer">${item.path}</a>
+        </div>
+      </article>
+    `).join("")}
+  ` : "";
+
+  els.episodeFeature.innerHTML = locationHtml + legacyHtml;
 
   els.shotList.innerHTML = data.shots.map(([shot, duration, purpose, path]) => `
     <a class="shot-row" href="${path}" target="_blank" rel="noreferrer">
@@ -171,6 +215,12 @@ fillSelect(els.era, uniqueOptions(characters, "era", eraNames));
 renderCharacters();
 renderEpisode();
 renderDocs();
+
+document.addEventListener("error", (event) => {
+  const img = event.target;
+  if (!(img instanceof HTMLImageElement) || !img.dataset.path) return;
+  img.closest(".image-button").innerHTML = imageErrorTemplate(img.dataset.path);
+}, true);
 
 els.search.addEventListener("input", (event) => {
   state.query = event.target.value.trim().toLowerCase();

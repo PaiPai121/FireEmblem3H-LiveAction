@@ -1,0 +1,35 @@
+---
+version: 1
+updated: 2026-07-07
+status_definitions:
+  text_only: 只有文字说明，尚无可用视觉资产。
+  missing: 尚未生成可用视觉资产。
+props:
+  - id: TrainingWeapons_EP01
+    name_zh: EP01 训练武器
+    category: weapons
+    status: text_only
+    doc: assets/props/EP01_训练武器.md
+    needed_assets:
+      - training_sword_reference.png
+      - training_lance_reference.png
+      - training_axe_reference.png
+      - training_bow_reference.png
+    notes: 目前只有训练武器说明文档，缺独立视觉参考图。
+missing_priority:
+  - id: ChurchOfSeirosCrestAndFlags
+    name_zh: 赛罗司教会纹章 / 旗帜
+    category: heraldry
+    status: missing
+  - id: ThreeHouseBadges
+    name_zh: 三学级徽章
+    category: heraldry
+    status: missing
+  - id: EmpireKingdomAllianceFlags
+    name_zh: 帝国、王国、联盟旗帜
+    category: heraldry
+    status: missing
+  - id: HeroRelics
+    name_zh: 英雄遗产 / 重要武器
+    category: weapons
+    status: missing

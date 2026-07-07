@@ -1,0 +1,269 @@
+---
+version: 1
+updated: 2026-07-07
+status_definitions:
+  reference_ready: 已有可用场景参考图，可用于镜头提示词和统一氛围。
+  needs_variants: 已有基础参考，但还需要角度、时间、镜头用途变体。
+  missing: 尚未生成可用视觉资产。
+scenes:
+  - id: DreamSanctuary
+    name_zh: 梦境空间
+    episode: EP01
+    act: dream
+    location_group: dream
+    status: reference_ready
+    path: assets/locations/DreamSanctuary
+    selected_reference: assets/locations/DreamSanctuary/EP01_scene_reference.png
+    prompt_doc: assets/locations/DreamSanctuary/EP01_梦境空间提示词.md
+    dimensions: 1672x941
+    sha256: c763020dd3e67029332a5ec2199ff32b6c82582e86b2dbc719918e9a1fa4c58c
+    notes: EP01 梦境场景主参考。
+  - id: GarregMachMountainRoad_EP02_act01
+    name_zh: 加尔古玛库外景山道
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_exterior
+    status: reference_ready
+    path: assets/locations/GarregMachMountainRoad/EP02_act01
+    selected_reference: assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference_v2_sunlit.png
+    alternates:
+      - assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference.png
+    prompt_doc: assets/locations/GarregMachMountainRoad/EP02_act01/EP02_第一幕_加尔古玛库外景山道提示词.md
+    dimensions: 1867x842
+    sha256: 06282749512c2f7fbdd540c9e139ebb244188cab7889334acf746417344f5e5c
+    notes: V2 明亮版推荐作为 EP02 第一幕默认参考，氛围更接近清晨入学与修道院入口。
+  - id: MonasteryMainGatePlaza_EP02_act01
+    name_zh: 修道院正门广场
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_monastery
+    status: reference_ready
+    path: assets/locations/MonasteryMainGatePlaza/EP02_act01
+    selected_reference: assets/locations/MonasteryMainGatePlaza/EP02_act01/scene_reference.png
+    prompt_doc: assets/locations/MonasteryMainGatePlaza/EP02_act01/EP02_第一幕_修道院正门广场提示词.md
+    dimensions: 1870x841
+    sha256: d5a5ac7a946a063f90fb9b8a585e4c7db5af475dab73dfab775ddf20cd878ede
+    notes: EP02 第一幕正式入门、学院门槛和教会权威的广场参考。
+  - id: MonasteryMainCloister_EP02_act01
+    name_zh: 修道院主回廊
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_monastery
+    status: reference_ready
+    path: assets/locations/MonasteryMainCloister/EP02_act01
+    selected_reference: assets/locations/MonasteryMainCloister/EP02_act01/scene_reference.png
+    prompt_doc: assets/locations/MonasteryMainCloister/EP02_act01/EP02_第一幕_修道院主回廊提示词.md
+    dimensions: 1877x838
+    sha256: 7d325d2182ae5f0bfe0c5b02f443b65bfa8ade68670d55e9a92d2d89bcc05eee
+    notes: EP02 第一幕修道院内部主通道和学院日常空间参考。
+  - id: MonasteryCathedralAntechamber_EP02_act01
+    name_zh: 大圣堂前厅
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_monastery
+    status: reference_ready
+    path: assets/locations/MonasteryCathedralAntechamber/EP02_act01
+    selected_reference: assets/locations/MonasteryCathedralAntechamber/EP02_act01/scene_reference.png
+    prompt_doc: assets/locations/MonasteryCathedralAntechamber/EP02_act01/EP02_第一幕_大圣堂前厅提示词.md
+    dimensions: 1872x840
+    sha256: 5095cd005dbf5ab76822b005d1a2a608e6610441b39a5b59cdc42b11cc159c19
+    notes: EP02 第一幕进入教会核心前的门槛空间参考。
+  - id: GarregMachExteriorOverview
+    name_zh: 加尔古玛库修道院外景总览
+    episode: shared
+    act: shared
+    location_group: garreg_mach_exterior
+    status: reference_ready
+    path: assets/locations/GarregMachExteriorOverview/shared
+    selected_reference: assets/locations/GarregMachExteriorOverview/shared/scene_reference.png
+    prompt_doc: assets/locations/GarregMachExteriorOverview/shared/加尔古玛库修道院外景总览提示词.md
+    dimensions: 1672x941
+    sha256: 550e5e3108a5b21233463be574ab935482231c62edaa1b65207e78e537c320a1
+    notes: Garreg Mach 共享外景总览参考，可用于 EP02 转场、远景 establishing shot 和后续章节地点交代。
+  - id: OfficersAcademyClassroom_EP02_act01
+    name_zh: 士官学校教室 / 讲堂
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_academy
+    status: reference_ready
+    path: assets/locations/EP02/act01/OfficersAcademyClassroom
+    selected_reference: assets/locations/EP02/act01/OfficersAcademyClassroom/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/OfficersAcademyClassroom/prompt.md
+    dimensions: 1672x941
+    sha256: f035889f4e1de358c304290cf8f7efceae18fd797311df3ec913d922ac96a7d3
+    notes: EP02 第一幕课堂/讲堂参考，采用章节优先目录。
+  - id: ThreeHousesCourtyard_EP02_act01
+    name_zh: 三学级公共庭院
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_academy
+    status: reference_ready
+    path: assets/locations/EP02/act01/ThreeHousesCourtyard
+    selected_reference: assets/locations/EP02/act01/ThreeHousesCourtyard/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/ThreeHousesCourtyard/prompt.md
+    dimensions: 1672x941
+    sha256: a3083903a3db5828d92be664be52b0c1188fe27bce71fd657155d54b89c8cb17
+    notes: EP02 第一幕三学级学生日常庭院参考，采用章节优先目录。
+  - id: TrainingGround_EP02_act01
+    name_zh: 训练场
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_academy
+    status: reference_ready
+    path: assets/locations/EP02/act01/TrainingGround
+    selected_reference: assets/locations/EP02/act01/TrainingGround/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/TrainingGround/prompt.md
+    dimensions: 1672x941
+    sha256: 6ee2eebcb6232cfa8a68be8b39f575756aa92d6942858248d179fcd96d3a273f
+    notes: EP02 第一幕训练武器、靶场和学院训练环境参考，采用章节优先目录。
+  - id: CathedralInterior_EP02_act01
+    name_zh: 大教堂内部
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_cathedral
+    status: reference_ready
+    path: assets/locations/EP02/act01/CathedralInterior
+    selected_reference: assets/locations/EP02/act01/CathedralInterior/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/CathedralInterior/prompt.md
+    dimensions: 1672x941
+    sha256: dc16b12e58793aa709d1d8f86dc179d31ec61194dd9ce5ce8a062629a74c8d4c
+    notes: EP02 第一幕大教堂内部主参考，采用章节优先目录。
+  - id: DiningHall_EP02_act01
+    name_zh: 食堂
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_living
+    status: reference_ready
+    path: assets/locations/EP02/act01/DiningHall
+    selected_reference: assets/locations/EP02/act01/DiningHall/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/DiningHall/prompt.md
+    dimensions: 1672x941
+    sha256: ebad77c668976fa07ce9d8d5c3e686adaa7c455e87162aaad802d4448b73ae85
+    notes: EP02 第一幕生活区食堂参考，采用章节优先目录。
+  - id: DormitoryCorridor_EP02_act01
+    name_zh: 学生宿舍走廊
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_living
+    status: reference_ready
+    path: assets/locations/EP02/act01/DormitoryCorridor
+    selected_reference: assets/locations/EP02/act01/DormitoryCorridor/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/DormitoryCorridor/prompt.md
+    dimensions: 1672x941
+    sha256: 91f534c7efc0577406a143764b6a6838f5051d34b3af253fdd5e7c5c6d65a7cb
+    notes: EP02 第一幕宿舍区通道参考，采用章节优先目录。
+  - id: Library_EP02_act01
+    name_zh: 图书馆
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_living
+    status: reference_ready
+    path: assets/locations/EP02/act01/Library
+    selected_reference: assets/locations/EP02/act01/Library/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/Library/prompt.md
+    dimensions: 1672x941
+    sha256: 9ea48b1e153f36f52c22c023db2fac14894f40d60fcb838a9a7392a231d53d11
+    notes: EP02 第一幕修道院图书馆参考，采用章节优先目录。
+  - id: Marketplace_EP02_act01
+    name_zh: 市场 / 商人街
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_services
+    status: reference_ready
+    path: assets/locations/EP02/act01/Marketplace
+    selected_reference: assets/locations/EP02/act01/Marketplace/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/Marketplace/prompt.md
+    dimensions: 1672x941
+    sha256: ec7425f015a740f913387cdf37bd8c81e7934cdc53073539ccc58261eabaae97
+    notes: EP02 第一幕商人街和补给摊位参考，采用章节优先目录。
+  - id: Greenhouse_EP02_act01
+    name_zh: 温室 / 植物园
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_services
+    status: reference_ready
+    path: assets/locations/EP02/act01/Greenhouse
+    selected_reference: assets/locations/EP02/act01/Greenhouse/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/Greenhouse/prompt.md
+    dimensions: 1672x941
+    sha256: 40b274aacaee9b84d82b670f955288931fc739973c7cbba0758f84cd3a79f6e5
+    notes: EP02 第一幕温室与植物培育参考，采用章节优先目录。
+  - id: FishingPond_EP02_act01
+    name_zh: 钓鱼池
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_services
+    status: reference_ready
+    path: assets/locations/EP02/act01/FishingPond
+    selected_reference: assets/locations/EP02/act01/FishingPond/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/FishingPond/prompt.md
+    dimensions: 1672x941
+    sha256: 992d82274953dd62d3f1394917b9ad4762df2808033ebdc9b778e87bacb46839
+    notes: EP02 第一幕钓鱼池和修道院水边活动参考，采用章节优先目录。
+  - id: Stables_EP02_act01
+    name_zh: 马厩
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_services
+    status: reference_ready
+    path: assets/locations/EP02/act01/Stables
+    selected_reference: assets/locations/EP02/act01/Stables/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/Stables/prompt.md
+    dimensions: 1672x941
+    sha256: e81ae0e875bcaf1aaaf4a7afc66bed49b40a9606f543518489b96a2cc4fc0f31
+    notes: EP02 第一幕马厩和骑乘装备参考，采用章节优先目录。
+  - id: KnightsHall_EP02_act01
+    name_zh: 赛罗司骑士团大厅
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_military
+    status: reference_ready
+    path: assets/locations/EP02/act01/KnightsHall
+    selected_reference: assets/locations/EP02/act01/KnightsHall/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/KnightsHall/prompt.md
+    dimensions: 1672x941
+    sha256: 6ec8a00548f44654adac30902e90673bc2a493f3aa14ad7722d6399239781ac1
+    notes: EP02 第一幕骑士团军事空间参考，采用章节优先目录。
+  - id: WarRuinedMonastery_shared
+    name_zh: 战争篇废墟修道院
+    episode: war
+    act: shared
+    location_group: garreg_mach_war
+    status: reference_ready
+    path: assets/locations/war/shared/WarRuinedMonastery
+    selected_reference: assets/locations/war/shared/WarRuinedMonastery/scene_reference.png
+    prompt_doc: assets/locations/war/shared/WarRuinedMonastery/prompt.md
+    dimensions: 1672x941
+    sha256: ad9eb5e1327540b3fe5dec4853ebc77aeb525e33e7ce3c402df50afe79215583
+    notes: 战争篇共享废墟修道院参考，可用于五年后回归、战后转场和废墟 establishing shot。
+missing_priority:
+  - id: OfficersAcademyClassroom
+    name_zh: 士官学校教室 / 讲堂
+    episode: shared
+    status: reference_ready
+    notes: EP02 act01 已补章节优先目录版本。
+  - id: ThreeHousesCourtyard
+    name_zh: 三学级公共庭院
+    episode: shared
+    status: reference_ready
+    notes: EP02 act01 已补章节优先目录版本。
+  - id: TrainingGround
+    name_zh: 训练场
+    episode: shared
+    status: reference_ready
+    notes: EP02 act01 已补章节优先目录版本。
+  - id: CathedralInterior
+    name_zh: 大教堂内部
+    episode: shared
+    status: reference_ready
+    notes: EP02 act01 已补章节优先目录版本。
+  - id: DiningHallDormitoryLibrary
+    name_zh: 食堂 / 宿舍 / 图书馆
+    episode: shared
+    status: reference_ready
+    notes: EP02 act01 已补食堂、宿舍走廊、图书馆，并额外补市场、温室、钓鱼池、马厩、骑士团大厅。
+  - id: WarRuinedMonastery
+    name_zh: 战争篇废墟修道院
+    episode: war
+    status: reference_ready
+    notes: war/shared 已补章节共享版本。

@@ -1,5 +1,6 @@
 # Local-only official reference images. Do not publish copyrighted source art.
 **/references/official_local/
+production/local_reference_review.html
 
 # Local OS/editor files.
 .DS_Store
