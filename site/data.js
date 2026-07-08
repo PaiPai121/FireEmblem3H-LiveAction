@@ -1,5 +1,5 @@
 window.ASSET_REVIEW_DATA = {
-  updated: "2026-07-08",
+  updated: "2026-07-09",
   characters: [
     ["Byleth", "贝雷丝 / 贝雷特", "protagonist", "professor", "assets/characters/protagonist/Byleth/professor/selected.png"],
     ["Byleth", "贝雷丝 / 贝雷特", "protagonist", "enlightened", "assets/characters/protagonist/Byleth/enlightened/selected.png"],
