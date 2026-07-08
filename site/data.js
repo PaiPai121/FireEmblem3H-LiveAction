@@ -359,6 +359,7 @@ window.ASSET_REVIEW_DATA = {
     ["角色与官方参考", "production/EP01/角色与官方参考.md"],
     ["角色资产索引", "production/character_asset_index.yaml"],
     ["场景资产索引", "production/scene_asset_index.yaml"],
+    ["全章节地点资产规划", "production/全章节地点资产规划_2026-07-09.md"],
     ["道具资产索引", "production/prop_asset_index.yaml"],
     ["角色素材审计 2026-07-07", "production/角色素材审计_2026-07-07.md"],
     ["人像全量缺口清单", "production/人像全量缺口清单.md"],

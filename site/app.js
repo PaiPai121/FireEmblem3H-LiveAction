@@ -72,11 +72,39 @@ const locationGroupLabels = {
   EP01: "EP01",
   EP02: "EP02",
   EP03: "EP03",
+  EP04: "EP04",
+  EP05: "EP05",
+  EP06: "EP06",
+  EP07: "EP07",
+  EP08: "EP08",
+  EP09: "EP09",
+  EP10: "EP10",
+  EP11: "EP11",
+  EP12: "EP12",
   shared: "共享地点",
   war: "战争篇",
+  paralogues: "外传地点",
+  dlc: "DLC 地点",
 };
 
-const locationGroupOrder = ["EP01", "EP02", "EP03", "shared", "war"];
+const locationGroupOrder = [
+  "EP01",
+  "EP02",
+  "EP03",
+  "EP04",
+  "EP05",
+  "EP06",
+  "EP07",
+  "EP08",
+  "EP09",
+  "EP10",
+  "EP11",
+  "EP12",
+  "shared",
+  "war",
+  "paralogues",
+  "dlc",
+];
 
 function uniqueOptions(items, key, labelMap) {
   const values = [...new Set(items.map((item) => item[key]))].sort();
@@ -145,14 +173,17 @@ function renderEpisode() {
   const ep01Count = locationAssets.filter((item) => item.episode === "EP01").length;
   const ep02Count = locationAssets.filter((item) => item.episode === "EP02").length;
   const ep03Count = locationAssets.filter((item) => item.episode === "EP03").length;
+  const laterEpisodeCount = locationAssets.filter((item) => /^EP(0[4-9]|1[0-2])$/.test(item.episode)).length;
   const sharedCount = locationAssets.filter((item) => item.episode === "shared").length;
   const warCount = locationAssets.filter((item) => item.episode === "war").length;
+  const auxiliaryCount = locationAssets.filter((item) => item.episode === "paralogues" || item.episode === "dlc").length;
   els.locationStats.innerHTML = `
     <div><strong>${locationAssets.length}</strong><span>地点参考</span></div>
     <div><strong>${ep01Count}</strong><span>EP01 地点</span></div>
     <div><strong>${ep02Count}</strong><span>EP02 地点</span></div>
     <div><strong>${ep03Count}</strong><span>EP03 地点</span></div>
-    <div><strong>${sharedCount + warCount}</strong><span>共享 / 战争篇</span></div>
+    <div><strong>${laterEpisodeCount}</strong><span>EP04-EP12</span></div>
+    <div><strong>${sharedCount + warCount + auxiliaryCount}</strong><span>共享 / 战争 / 支线</span></div>
     <div><strong>${historicalFrameAssets.length}</strong><span>历史镜头图</span></div>
   `;
 
