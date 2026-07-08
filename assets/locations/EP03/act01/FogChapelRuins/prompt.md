@@ -1,0 +1,3 @@
+# EP03 act01 雾中小圣堂废墟提示词
+
+Use case: historical-scene. Asset type: Fire Emblem Three Houses live-action location reference for web asset library. Primary request: EP03 act01 fog chapel ruins, a small sacred site near Magdred Way tied to the rebellion. Scene/backdrop: ruined medieval stone chapel on a forest hill, cracked archway, wet steps, moss, candles sheltered from rain, torn church cloth, fog rolling through broken stained-glass windows, distant battlefield road below. Composition: cinematic 16:9 wide shot, slightly low angle toward the ruined chapel entrance, photorealistic live-action fantasy film concept art, no main characters. Mood: sacred but ominous, cold mist, gray dawn. Avoid: modern objects, electric lights, readable text, watermark, logo, anime style.

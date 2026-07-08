@@ -1,6 +1,6 @@
 ---
 version: 1
-updated: 2026-07-08
+updated: 2026-07-09
 status_definitions:
   reference_ready: 已有可用场景参考图，可用于镜头提示词和统一氛围。
   needs_variants: 已有基础参考，但还需要角度、时间、镜头用途变体。
@@ -249,6 +249,66 @@ scenes:
     dimensions: 1672x941
     sha256: ad9eb5e1327540b3fe5dec4853ebc77aeb525e33e7ce3c402df50afe79215583
     notes: 战争篇共享废墟修道院参考，可用于五年后回归、战后转场和废墟 establishing shot。
+  - id: MagdredWayFogRoad_EP03_act01
+    name_zh: 马格德雷德雾道
+    episode: EP03
+    act: act01
+    location_group: magdred_way
+    status: reference_ready
+    path: assets/locations/EP03/act01/MagdredWayFogRoad
+    selected_reference: assets/locations/EP03/act01/MagdredWayFogRoad/scene_reference.png
+    prompt_doc: assets/locations/EP03/act01/MagdredWayFogRoad/prompt.md
+    dimensions: 1672x941
+    sha256: d1875e8b00a073241b519d04830afadbe8b9600e30aeefdb894cf286abd35056
+    notes: EP03 第一幕罗纳特叛乱章节的雾中林道和行军入口参考。
+  - id: FaerghusBorderVillage_EP03_act01
+    name_zh: 法嘉斯边境村
+    episode: EP03
+    act: act01
+    location_group: faerghus_border
+    status: reference_ready
+    path: assets/locations/EP03/act01/FaerghusBorderVillage
+    selected_reference: assets/locations/EP03/act01/FaerghusBorderVillage/scene_reference.png
+    prompt_doc: assets/locations/EP03/act01/FaerghusBorderVillage/prompt.md
+    dimensions: 1672x941
+    sha256: 0e61e081ef2f55dcb99ebc29bfd4950d302607ae3e92138d5a7429de5a4ba2c4
+    notes: EP03 第一幕叛乱前的北方边境村落和王国地方氛围参考。
+  - id: WesternChurchRebelCamp_EP03_act01
+    name_zh: 西方教会叛军营地
+    episode: EP03
+    act: act01
+    location_group: western_church_rebellion
+    status: reference_ready
+    path: assets/locations/EP03/act01/WesternChurchRebelCamp
+    selected_reference: assets/locations/EP03/act01/WesternChurchRebelCamp/scene_reference.png
+    prompt_doc: assets/locations/EP03/act01/WesternChurchRebelCamp/prompt.md
+    dimensions: 1672x941
+    sha256: 1e56eca9e390cf81d7c76076163842c030f319845c768fdac19af26a13b65441
+    notes: EP03 第一幕罗纳特起义势力的林中营地、补给和旗帜参考。
+  - id: LonatoBattlefieldRidge_EP03_act01
+    name_zh: 罗纳特叛乱战场山脊
+    episode: EP03
+    act: act01
+    location_group: western_church_rebellion
+    status: reference_ready
+    path: assets/locations/EP03/act01/LonatoBattlefieldRidge
+    selected_reference: assets/locations/EP03/act01/LonatoBattlefieldRidge/scene_reference.png
+    prompt_doc: assets/locations/EP03/act01/LonatoBattlefieldRidge/prompt.md
+    dimensions: 1672x941
+    sha256: 9a2f02f15e71f2daf35f3335ecac00332cffc17a3845859581734d655d744545
+    notes: EP03 第一幕雾中交战主区域，可作为战斗 establishing shot 参考。
+  - id: FogChapelRuins_EP03_act01
+    name_zh: 雾中小圣堂废墟
+    episode: EP03
+    act: act01
+    location_group: western_church_rebellion
+    status: reference_ready
+    path: assets/locations/EP03/act01/FogChapelRuins
+    selected_reference: assets/locations/EP03/act01/FogChapelRuins/scene_reference.png
+    prompt_doc: assets/locations/EP03/act01/FogChapelRuins/prompt.md
+    dimensions: 1672x941
+    sha256: 462ecf8097eae624a4e4f946d8ab69c077d7b8391e10f73f56b33982dbf768e2
+    notes: EP03 第一幕战场附近的宗教废墟和肃杀转场参考。
 missing_priority:
   - id: OfficersAcademyClassroom
     name_zh: 士官学校教室 / 讲堂

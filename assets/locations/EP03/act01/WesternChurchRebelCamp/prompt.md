@@ -1,0 +1,3 @@
+# EP03 act01 西方教会叛军营地提示词
+
+Use case: historical-scene. Asset type: Fire Emblem Three Houses live-action location reference for web asset library. Primary request: EP03 act01 Western Church rebel field camp for Lonato's uprising. Scene/backdrop: hidden medieval rebel camp in a foggy forest clearing, canvas tents, rough palisade stakes, wet campfires, weapon racks with spears and bows, plain white church banners altered for rebellion, muddy ground, stacked supply crates. Composition: cinematic 16:9 wide shot from slightly elevated angle, no main characters in foreground, photorealistic live-action fantasy film concept art. Mood: secretive, tense, cold mist, dawn light. Avoid: modern military gear, guns, vehicles, electric lights, text, watermark, logo, anime style.

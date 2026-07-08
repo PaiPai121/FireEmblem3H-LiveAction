@@ -275,6 +275,46 @@ window.ASSET_REVIEW_DATA = {
       note: "章节优先目录版本，赛罗司骑士团军事空间参考。"
     },
     {
+      title: "Magdred Way Fog Road",
+      label: "EP03 第一幕 马格德雷德雾道",
+      episode: "EP03",
+      act: "act01",
+      path: "assets/locations/EP03/act01/MagdredWayFogRoad/scene_reference.png",
+      note: "罗纳特叛乱章节的雾中林道和行军入口参考。"
+    },
+    {
+      title: "Faerghus Border Village",
+      label: "EP03 第一幕 法嘉斯边境村",
+      episode: "EP03",
+      act: "act01",
+      path: "assets/locations/EP03/act01/FaerghusBorderVillage/scene_reference.png",
+      note: "叛乱前的北方边境村落和王国地方氛围参考。"
+    },
+    {
+      title: "Western Church Rebel Camp",
+      label: "EP03 第一幕 西方教会叛军营地",
+      episode: "EP03",
+      act: "act01",
+      path: "assets/locations/EP03/act01/WesternChurchRebelCamp/scene_reference.png",
+      note: "罗纳特起义势力的林中营地、补给和旗帜参考。"
+    },
+    {
+      title: "Lonato Battlefield Ridge",
+      label: "EP03 第一幕 罗纳特叛乱战场山脊",
+      episode: "EP03",
+      act: "act01",
+      path: "assets/locations/EP03/act01/LonatoBattlefieldRidge/scene_reference.png",
+      note: "雾中交战主区域，可作为战斗 establishing shot 参考。"
+    },
+    {
+      title: "Fog Chapel Ruins",
+      label: "EP03 第一幕 雾中小圣堂废墟",
+      episode: "EP03",
+      act: "act01",
+      path: "assets/locations/EP03/act01/FogChapelRuins/scene_reference.png",
+      note: "战场附近的宗教废墟和肃杀转场参考。"
+    },
+    {
       title: "Garreg Mach Exterior Overview",
       label: "共享 加尔古玛库修道院外景总览",
       episode: "shared",

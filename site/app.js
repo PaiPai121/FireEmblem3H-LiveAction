@@ -71,11 +71,12 @@ const historicalFrameAssets = data.episodeAssets.filter((item) => !item.path.sta
 const locationGroupLabels = {
   EP01: "EP01",
   EP02: "EP02",
+  EP03: "EP03",
   shared: "共享地点",
   war: "战争篇",
 };
 
-const locationGroupOrder = ["EP01", "EP02", "shared", "war"];
+const locationGroupOrder = ["EP01", "EP02", "EP03", "shared", "war"];
 
 function uniqueOptions(items, key, labelMap) {
   const values = [...new Set(items.map((item) => item[key]))].sort();
@@ -143,12 +144,14 @@ function renderCharacters() {
 function renderEpisode() {
   const ep01Count = locationAssets.filter((item) => item.episode === "EP01").length;
   const ep02Count = locationAssets.filter((item) => item.episode === "EP02").length;
+  const ep03Count = locationAssets.filter((item) => item.episode === "EP03").length;
   const sharedCount = locationAssets.filter((item) => item.episode === "shared").length;
   const warCount = locationAssets.filter((item) => item.episode === "war").length;
   els.locationStats.innerHTML = `
     <div><strong>${locationAssets.length}</strong><span>地点参考</span></div>
     <div><strong>${ep01Count}</strong><span>EP01 地点</span></div>
     <div><strong>${ep02Count}</strong><span>EP02 地点</span></div>
+    <div><strong>${ep03Count}</strong><span>EP03 地点</span></div>
     <div><strong>${sharedCount + warCount}</strong><span>共享 / 战争篇</span></div>
     <div><strong>${historicalFrameAssets.length}</strong><span>历史镜头图</span></div>
   `;
