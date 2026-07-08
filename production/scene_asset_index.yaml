@@ -1,6 +1,6 @@
 ---
 version: 1
-updated: 2026-07-07
+updated: 2026-07-08
 status_definitions:
   reference_ready: 已有可用场景参考图，可用于镜头提示词和统一氛围。
   needs_variants: 已有基础参考，但还需要角度、时间、镜头用途变体。
@@ -12,9 +12,9 @@ scenes:
     act: dream
     location_group: dream
     status: reference_ready
-    path: assets/locations/DreamSanctuary
-    selected_reference: assets/locations/DreamSanctuary/EP01_scene_reference.png
-    prompt_doc: assets/locations/DreamSanctuary/EP01_梦境空间提示词.md
+    path: assets/locations/EP01/dream/DreamSanctuary
+    selected_reference: assets/locations/EP01/dream/DreamSanctuary/scene_reference.png
+    prompt_doc: assets/locations/EP01/dream/DreamSanctuary/prompt.md
     dimensions: 1672x941
     sha256: c763020dd3e67029332a5ec2199ff32b6c82582e86b2dbc719918e9a1fa4c58c
     notes: EP01 梦境场景主参考。
@@ -24,23 +24,36 @@ scenes:
     act: act01
     location_group: garreg_mach_exterior
     status: reference_ready
-    path: assets/locations/GarregMachMountainRoad/EP02_act01
-    selected_reference: assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference_v2_sunlit.png
+    path: assets/locations/EP02/act01/GarregMachMountainRoad
+    selected_reference: assets/locations/EP02/act01/GarregMachMountainRoad/scene_reference.png
     alternates:
       - assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference.png
-    prompt_doc: assets/locations/GarregMachMountainRoad/EP02_act01/EP02_第一幕_加尔古玛库外景山道提示词.md
+      - assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference_v2_sunlit.png
+    prompt_doc: assets/locations/EP02/act01/GarregMachMountainRoad/prompt.md
     dimensions: 1867x842
     sha256: 06282749512c2f7fbdd540c9e139ebb244188cab7889334acf746417344f5e5c
     notes: V2 明亮版推荐作为 EP02 第一幕默认参考，氛围更接近清晨入学与修道院入口。
+  - id: GarregMachExteriorOverview_EP02_act01
+    name_zh: 加尔古玛库修道院外景总览
+    episode: EP02
+    act: act01
+    location_group: garreg_mach_exterior
+    status: reference_ready
+    path: assets/locations/EP02/act01/GarregMachExteriorOverview
+    selected_reference: assets/locations/EP02/act01/GarregMachExteriorOverview/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/GarregMachExteriorOverview/prompt.md
+    dimensions: 1672x941
+    sha256: 550e5e3108a5b21233463be574ab935482231c62edaa1b65207e78e537c320a1
+    notes: EP02 第一幕章节优先目录版本，用于修道院远景建立镜头。
   - id: MonasteryMainGatePlaza_EP02_act01
     name_zh: 修道院正门广场
     episode: EP02
     act: act01
     location_group: garreg_mach_monastery
     status: reference_ready
-    path: assets/locations/MonasteryMainGatePlaza/EP02_act01
-    selected_reference: assets/locations/MonasteryMainGatePlaza/EP02_act01/scene_reference.png
-    prompt_doc: assets/locations/MonasteryMainGatePlaza/EP02_act01/EP02_第一幕_修道院正门广场提示词.md
+    path: assets/locations/EP02/act01/MonasteryMainGatePlaza
+    selected_reference: assets/locations/EP02/act01/MonasteryMainGatePlaza/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/MonasteryMainGatePlaza/prompt.md
     dimensions: 1870x841
     sha256: d5a5ac7a946a063f90fb9b8a585e4c7db5af475dab73dfab775ddf20cd878ede
     notes: EP02 第一幕正式入门、学院门槛和教会权威的广场参考。
@@ -50,9 +63,9 @@ scenes:
     act: act01
     location_group: garreg_mach_monastery
     status: reference_ready
-    path: assets/locations/MonasteryMainCloister/EP02_act01
-    selected_reference: assets/locations/MonasteryMainCloister/EP02_act01/scene_reference.png
-    prompt_doc: assets/locations/MonasteryMainCloister/EP02_act01/EP02_第一幕_修道院主回廊提示词.md
+    path: assets/locations/EP02/act01/MonasteryMainCloister
+    selected_reference: assets/locations/EP02/act01/MonasteryMainCloister/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/MonasteryMainCloister/prompt.md
     dimensions: 1877x838
     sha256: 7d325d2182ae5f0bfe0c5b02f443b65bfa8ade68670d55e9a92d2d89bcc05eee
     notes: EP02 第一幕修道院内部主通道和学院日常空间参考。
@@ -62,9 +75,9 @@ scenes:
     act: act01
     location_group: garreg_mach_monastery
     status: reference_ready
-    path: assets/locations/MonasteryCathedralAntechamber/EP02_act01
-    selected_reference: assets/locations/MonasteryCathedralAntechamber/EP02_act01/scene_reference.png
-    prompt_doc: assets/locations/MonasteryCathedralAntechamber/EP02_act01/EP02_第一幕_大圣堂前厅提示词.md
+    path: assets/locations/EP02/act01/MonasteryCathedralAntechamber
+    selected_reference: assets/locations/EP02/act01/MonasteryCathedralAntechamber/scene_reference.png
+    prompt_doc: assets/locations/EP02/act01/MonasteryCathedralAntechamber/prompt.md
     dimensions: 1872x840
     sha256: 5095cd005dbf5ab76822b005d1a2a608e6610441b39a5b59cdc42b11cc159c19
     notes: EP02 第一幕进入教会核心前的门槛空间参考。
@@ -74,9 +87,9 @@ scenes:
     act: shared
     location_group: garreg_mach_exterior
     status: reference_ready
-    path: assets/locations/GarregMachExteriorOverview/shared
-    selected_reference: assets/locations/GarregMachExteriorOverview/shared/scene_reference.png
-    prompt_doc: assets/locations/GarregMachExteriorOverview/shared/加尔古玛库修道院外景总览提示词.md
+    path: assets/locations/shared/GarregMachExteriorOverview
+    selected_reference: assets/locations/shared/GarregMachExteriorOverview/scene_reference.png
+    prompt_doc: assets/locations/shared/GarregMachExteriorOverview/prompt.md
     dimensions: 1672x941
     sha256: 550e5e3108a5b21233463be574ab935482231c62edaa1b65207e78e537c320a1
     notes: Garreg Mach 共享外景总览参考，可用于 EP02 转场、远景 establishing shot 和后续章节地点交代。

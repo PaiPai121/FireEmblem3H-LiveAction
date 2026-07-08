@@ -133,114 +133,160 @@ window.ASSET_REVIEW_DATA = {
     {
       title: "Dream Sanctuary",
       label: "梦境空间场景参考",
-      path: "assets/locations/DreamSanctuary/EP01_scene_reference.png",
+      episode: "EP01",
+      act: "dream",
+      path: "assets/locations/EP01/dream/DreamSanctuary/scene_reference.png",
       note: "EP01 的唯一场景参考。"
     },
     {
       title: "Garreg Mach Mountain Road",
       label: "EP02 第一幕 加尔古玛库外景山道",
-      path: "assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference_v2_sunlit.png",
+      episode: "EP02",
+      act: "act01",
+      path: "assets/locations/EP02/act01/GarregMachMountainRoad/scene_reference.png",
       note: "推荐明亮版，作为 EP02 第一幕入学山道默认参考。"
     },
     {
       title: "Garreg Mach Exterior Overview",
-      label: "加尔古玛库修道院外景总览",
-      path: "assets/locations/GarregMachExteriorOverview/shared/scene_reference.png",
-      note: "共享外景总览，可用于 EP02 转场和后续章节地点交代。"
+      label: "EP02 第一幕 加尔古玛库修道院外景总览",
+      episode: "EP02",
+      act: "act01",
+      path: "assets/locations/EP02/act01/GarregMachExteriorOverview/scene_reference.png",
+      note: "章节优先目录版本，用于 EP02 转场和修道院建立镜头。"
     },
     {
       title: "Monastery Main Gate Plaza",
       label: "EP02 第一幕 修道院正门广场",
-      path: "assets/locations/MonasteryMainGatePlaza/EP02_act01/scene_reference.png",
+      episode: "EP02",
+      act: "act01",
+      path: "assets/locations/EP02/act01/MonasteryMainGatePlaza/scene_reference.png",
       note: "正式入门、学院门槛和教会权威的广场参考。"
     },
     {
       title: "Monastery Main Cloister",
       label: "EP02 第一幕 修道院主回廊",
-      path: "assets/locations/MonasteryMainCloister/EP02_act01/scene_reference.png",
+      episode: "EP02",
+      act: "act01",
+      path: "assets/locations/EP02/act01/MonasteryMainCloister/scene_reference.png",
       note: "修道院内部主通道和学院日常空间参考。"
     },
     {
       title: "Cathedral Antechamber",
       label: "EP02 第一幕 大圣堂前厅",
-      path: "assets/locations/MonasteryCathedralAntechamber/EP02_act01/scene_reference.png",
+      episode: "EP02",
+      act: "act01",
+      path: "assets/locations/EP02/act01/MonasteryCathedralAntechamber/scene_reference.png",
       note: "进入教会核心前的门槛空间参考。"
     },
     {
       title: "Officers Academy Classroom",
       label: "EP02 第一幕 士官学校教室",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/OfficersAcademyClassroom/scene_reference.png",
       note: "章节优先目录版本，课堂和纹章教学参考。"
     },
     {
       title: "Three Houses Courtyard",
       label: "EP02 第一幕 三学级公共庭院",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/ThreeHousesCourtyard/scene_reference.png",
       note: "章节优先目录版本，学生日常庭院参考。"
     },
     {
       title: "Training Ground",
       label: "EP02 第一幕 训练场",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/TrainingGround/scene_reference.png",
       note: "章节优先目录版本，武器训练和靶场参考。"
     },
     {
       title: "Cathedral Interior",
       label: "EP02 第一幕 大教堂内部",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/CathedralInterior/scene_reference.png",
       note: "章节优先目录版本，大教堂主空间参考。"
     },
     {
       title: "Dining Hall",
       label: "EP02 第一幕 食堂",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/DiningHall/scene_reference.png",
       note: "章节优先目录版本，学院生活区食堂参考。"
     },
     {
       title: "Dormitory Corridor",
       label: "EP02 第一幕 宿舍走廊",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/DormitoryCorridor/scene_reference.png",
       note: "章节优先目录版本，学生宿舍通道参考。"
     },
     {
       title: "Library",
       label: "EP02 第一幕 图书馆",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/Library/scene_reference.png",
       note: "章节优先目录版本，修道院图书馆参考。"
     },
     {
       title: "Marketplace",
       label: "EP02 第一幕 市场",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/Marketplace/scene_reference.png",
       note: "章节优先目录版本，商人街和补给摊位参考。"
     },
     {
       title: "Greenhouse",
       label: "EP02 第一幕 温室",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/Greenhouse/scene_reference.png",
       note: "章节优先目录版本，植物培育和温室参考。"
     },
     {
       title: "Fishing Pond",
       label: "EP02 第一幕 钓鱼池",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/FishingPond/scene_reference.png",
       note: "章节优先目录版本，修道院水边活动参考。"
     },
     {
       title: "Stables",
       label: "EP02 第一幕 马厩",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/Stables/scene_reference.png",
       note: "章节优先目录版本，骑乘装备和马厩参考。"
     },
     {
       title: "Knights Hall",
       label: "EP02 第一幕 骑士团大厅",
+      episode: "EP02",
+      act: "act01",
       path: "assets/locations/EP02/act01/KnightsHall/scene_reference.png",
       note: "章节优先目录版本，赛罗司骑士团军事空间参考。"
     },
     {
+      title: "Garreg Mach Exterior Overview",
+      label: "共享 加尔古玛库修道院外景总览",
+      episode: "shared",
+      act: "shared",
+      path: "assets/locations/shared/GarregMachExteriorOverview/scene_reference.png",
+      note: "共享外景总览，可用于后续章节地点交代。"
+    },
+    {
       title: "War-Ruined Monastery",
       label: "战争篇 废墟修道院",
+      episode: "war",
+      act: "shared",
       path: "assets/locations/war/shared/WarRuinedMonastery/scene_reference.png",
       note: "战争篇共享版本，五年后回归和废墟转场参考。"
     },
@@ -282,7 +328,7 @@ window.ASSET_REVIEW_DATA = {
     ["还原度审计与重生成计划", "production/还原度审计与重生成计划.md"],
     ["风花雪月角色总表", "production/风花雪月角色总表.md"],
     ["角色目录说明", "assets/characters/README.md"],
-    ["梦境空间提示词", "assets/locations/DreamSanctuary/EP01_梦境空间提示词.md"],
+    ["梦境空间提示词", "assets/locations/EP01/dream/DreamSanctuary/prompt.md"],
     ["修道院场景提示词", "assets/locations/Monastery/EP01_场景参考提示词.md"],
     ["EP01 训练武器", "assets/props/EP01_训练武器.md"]
   ]

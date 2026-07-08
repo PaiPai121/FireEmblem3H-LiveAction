@@ -122,7 +122,7 @@ select {
 .stats,
 .location-stats {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 12px;
   margin-bottom: 28px;
 }
@@ -257,7 +257,15 @@ select {
   gap: 14px;
 }
 
+.feature-group {
+  display: grid;
+  gap: 14px;
+}
+
 .feature-group-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 12px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
@@ -265,6 +273,16 @@ select {
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.feature-group-title span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0;
 }
 
 .feature-item {

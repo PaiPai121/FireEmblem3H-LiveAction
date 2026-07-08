@@ -4,8 +4,8 @@
 
 - 苏谛斯优先候选：`assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png` 或 `assets/characters/divine/Sothis/dream/legacy_ep01/candidate_04.png`
 - 贝雷丝 / 贝雷特优先候选：`assets/characters/protagonist/Byleth/professor/legacy_ep01/v1_candidate_04.png`
-- 场景：`assets/locations/DreamSanctuary/EP01_梦境空间提示词.md`
-- 场景参考图：`assets/locations/DreamSanctuary/EP01_scene_reference.png`
+- 场景：`assets/locations/EP01/dream/DreamSanctuary/prompt.md`
+- 场景参考图：`assets/locations/EP01/dream/DreamSanctuary/scene_reference.png`
 
 ## 通用风格
 

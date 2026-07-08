@@ -68,6 +68,15 @@ const characters = data.characters.map(normalizeCharacter);
 const locationAssets = data.episodeAssets.filter((item) => item.path.startsWith("assets/locations/"));
 const historicalFrameAssets = data.episodeAssets.filter((item) => !item.path.startsWith("assets/locations/"));
 
+const locationGroupLabels = {
+  EP01: "EP01",
+  EP02: "EP02",
+  shared: "共享地点",
+  war: "战争篇",
+};
+
+const locationGroupOrder = ["EP01", "EP02", "shared", "war"];
+
 function uniqueOptions(items, key, labelMap) {
   const values = [...new Set(items.map((item) => item[key]))].sort();
   return [["all", "全部"], ...values.map((value) => [value, labelMap[value] || value])];
@@ -132,16 +141,19 @@ function renderCharacters() {
 }
 
 function renderEpisode() {
-  const ep02Count = locationAssets.filter((item) => item.path.includes("/EP02/")).length;
-  const warCount = locationAssets.filter((item) => item.path.includes("/war/")).length;
+  const ep01Count = locationAssets.filter((item) => item.episode === "EP01").length;
+  const ep02Count = locationAssets.filter((item) => item.episode === "EP02").length;
+  const sharedCount = locationAssets.filter((item) => item.episode === "shared").length;
+  const warCount = locationAssets.filter((item) => item.episode === "war").length;
   els.locationStats.innerHTML = `
     <div><strong>${locationAssets.length}</strong><span>地点参考</span></div>
+    <div><strong>${ep01Count}</strong><span>EP01 地点</span></div>
     <div><strong>${ep02Count}</strong><span>EP02 地点</span></div>
-    <div><strong>${warCount}</strong><span>战争篇地点</span></div>
+    <div><strong>${sharedCount + warCount}</strong><span>共享 / 战争篇</span></div>
     <div><strong>${historicalFrameAssets.length}</strong><span>历史镜头图</span></div>
   `;
 
-  const locationHtml = locationAssets.map((item) => `
+  const locationCardTemplate = (item) => `
     <article class="feature-item location-item">
       <button class="image-button" type="button" data-preview="${item.path}" data-title="${item.label}" data-path="${item.path}">
         <img src="${item.path}" alt="${item.label}" loading="eager" data-path="${item.path}">
@@ -153,7 +165,18 @@ function renderEpisode() {
         <a href="${item.path}" target="_blank" rel="noreferrer">${item.path}</a>
       </div>
     </article>
-  `).join("");
+  `;
+
+  const locationHtml = locationGroupOrder.map((group) => {
+    const items = locationAssets.filter((item) => item.episode === group);
+    if (!items.length) return "";
+    return `
+      <section class="feature-group">
+        <div class="feature-group-title">${locationGroupLabels[group]} <span>${items.length}</span></div>
+        ${items.map(locationCardTemplate).join("")}
+      </section>
+    `;
+  }).join("");
 
   const legacyHtml = historicalFrameAssets.length ? `
     <div class="feature-group-title">历史镜头图</div>
