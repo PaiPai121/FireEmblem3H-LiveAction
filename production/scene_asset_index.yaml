@@ -309,6 +309,306 @@ scenes:
     dimensions: 1672x941
     sha256: 462ecf8097eae624a4e4f946d8ab69c077d7b8391e10f73f56b33982dbf768e2
     notes: EP03 第一幕战场附近的宗教废墟和肃杀转场参考。
+  - id: RemireForestRoad_prologue
+    name_zh: 雷米尔附近森林道路
+    episode: prologue
+    act: encounter
+    location_group: remire_countryside
+    status: reference_ready
+    path: assets/locations/prologue/encounter/RemireForestRoad
+    selected_reference: assets/locations/prologue/encounter/RemireForestRoad/scene_reference.png
+    prompt_doc: assets/locations/prologue/encounter/RemireForestRoad/prompt.md
+    dimensions: 1672x941
+    sha256: a432dca518d9dfe6978ccd554d91ed63030055bd4c011f70d0a32af1d1d7b745
+    notes: 佣兵遭遇与开场森林道路参考。
+  - id: MockBattleGrounds_EP02_act02
+    name_zh: 学级模拟战场
+    episode: EP02
+    act: act02
+    location_group: garreg_mach_academy
+    status: reference_ready
+    path: assets/locations/EP02/act02/MockBattleGrounds
+    selected_reference: assets/locations/EP02/act02/MockBattleGrounds/scene_reference.png
+    prompt_doc: assets/locations/EP02/act02/MockBattleGrounds/prompt.md
+    dimensions: 1672x941
+    sha256: 5a4f034a045a8afccba006e0ca05c5575a3b3f2f27dea1bd290ceeecab485545
+    notes: 三学级初次模拟战的训练场地参考。
+  - id: RedCanyonZanado_EP02_act03
+    name_zh: 红谷扎纳德
+    episode: EP02
+    act: act03
+    location_group: zanado_red_canyon
+    status: reference_ready
+    path: assets/locations/EP02/act03/RedCanyonZanado
+    selected_reference: assets/locations/EP02/act03/RedCanyonZanado/scene_reference.png
+    prompt_doc: assets/locations/EP02/act03/RedCanyonZanado/prompt.md
+    dimensions: 1672x941
+    sha256: 167ee2137382fab39b884ac4023162d5880036f9595d32d8aecfcea5abec66e4
+    notes: 红谷扎纳德与古代遗迹峡谷参考。
+  - id: SeirosTomb_EP04_act01
+    name_zh: 圣墓入口与地下墓室
+    episode: EP04
+    act: act01
+    location_group: seiros_tomb
+    status: reference_ready
+    path: assets/locations/EP04/act01/SeirosTomb
+    selected_reference: assets/locations/EP04/act01/SeirosTomb/scene_reference.png
+    prompt_doc: assets/locations/EP04/act01/SeirosTomb/prompt.md
+    dimensions: 1672x941
+    sha256: f243a5afd0d083a146afd8fc2d9a642f8f219a5ff727acad987dd126bbcf0c39
+    notes: 女神再诞仪式章节的圣墓入口和地下墓室参考。
+  - id: ConandTower_EP05_act01
+    name_zh: 黑风塔
+    episode: EP05
+    act: act01
+    location_group: conand_tower
+    status: reference_ready
+    path: assets/locations/EP05/act01/ConandTower
+    selected_reference: assets/locations/EP05/act01/ConandTower/scene_reference.png
+    prompt_doc: assets/locations/EP05/act01/ConandTower/prompt.md
+    dimensions: 1672x941
+    sha256: e752e5a167d4dfa60774b280b84f9f003b2be44bd4aa64ddf771d1c1cfc0be83
+    notes: 米克兰线的高塔、山道和风暴氛围参考。
+  - id: UndergroundChamber_EP06_act01
+    name_zh: 修道院地下密室
+    episode: EP06
+    act: act01
+    location_group: garreg_mach_underground
+    status: reference_ready
+    path: assets/locations/EP06/act01/UndergroundChamber
+    selected_reference: assets/locations/EP06/act01/UndergroundChamber/scene_reference.png
+    prompt_doc: assets/locations/EP06/act01/UndergroundChamber/prompt.md
+    dimensions: 1672x941
+    sha256: 5eac2d76611f4b9019d60d7583a96ccc7c3e4911044701f9f9367c56cf54b95b
+    notes: 死神骑士事件的地下通道和密室参考。
+  - id: GronderField_EP07_act01
+    name_zh: 古隆达兹平原
+    episode: EP07
+    act: act01
+    location_group: gronder_field
+    status: reference_ready
+    path: assets/locations/EP07/act01/GronderField
+    selected_reference: assets/locations/EP07/act01/GronderField/scene_reference.png
+    prompt_doc: assets/locations/EP07/act01/GronderField/prompt.md
+    dimensions: 1672x941
+    sha256: 9acd6b28f1ba4d8642338feddfc676844f4fa0d9f49ba711ec43a5783a97c9bb
+    notes: 鹰狮鹿学级战的平原战场参考。
+  - id: RemireVillageChaos_EP08_act01
+    name_zh: 雷米尔村异变
+    episode: EP08
+    act: act01
+    location_group: remire_village
+    status: reference_ready
+    path: assets/locations/EP08/act01/RemireVillageChaos
+    selected_reference: assets/locations/EP08/act01/RemireVillageChaos/scene_reference.png
+    prompt_doc: assets/locations/EP08/act01/RemireVillageChaos/prompt.md
+    dimensions: 1672x941
+    sha256: a2dee1df9e150eec89039ef1d62258761a5095753fe7d30097f5dd8239af0463
+    notes: 雷米尔村失控事件的夜间村落参考。
+  - id: UnusedChapel_EP09_act01
+    name_zh: 废弃礼拜堂
+    episode: EP09
+    act: act01
+    location_group: unused_chapel
+    status: reference_ready
+    path: assets/locations/EP09/act01/UnusedChapel
+    selected_reference: assets/locations/EP09/act01/UnusedChapel/scene_reference.png
+    prompt_doc: assets/locations/EP09/act01/UnusedChapel/prompt.md
+    dimensions: 1672x941
+    sha256: 4251bedf7cf9574719a169e77049445828e804bc68297d437d237d8aa74a6bf2
+    notes: 杰拉尔特遇袭前后的废弃礼拜堂参考。
+  - id: SealedForest_EP10_act01
+    name_zh: 封印森林
+    episode: EP10
+    act: act01
+    location_group: sealed_forest
+    status: reference_ready
+    path: assets/locations/EP10/act01/SealedForest
+    selected_reference: assets/locations/EP10/act01/SealedForest/scene_reference.png
+    prompt_doc: assets/locations/EP10/act01/SealedForest/prompt.md
+    dimensions: 1672x941
+    sha256: 2d0f16cbe64e0751e14106fd94af5b345af4abb3badbf2f7c88e80cc6f1be4ef
+    notes: 封印森林与索龙事件的魔性森林参考。
+  - id: HolyTomb_EP11_act01
+    name_zh: 圣墓深处
+    episode: EP11
+    act: act01
+    location_group: holy_tomb
+    status: reference_ready
+    path: assets/locations/EP11/act01/HolyTomb
+    selected_reference: assets/locations/EP11/act01/HolyTomb/scene_reference.png
+    prompt_doc: assets/locations/EP11/act01/HolyTomb/prompt.md
+    dimensions: 1672x941
+    sha256: 6d22d64fc2a896f579671936230351455d12772be2c9ec494d87d9454a1ad3eb
+    notes: 纹章石与圣墓真相揭示的地下大厅参考。
+  - id: GarregMachBattlefield_EP12_act01
+    name_zh: 加尔古玛库战场
+    episode: EP12
+    act: act01
+    location_group: garreg_mach_war
+    status: reference_ready
+    path: assets/locations/EP12/act01/GarregMachBattlefield
+    selected_reference: assets/locations/EP12/act01/GarregMachBattlefield/scene_reference.png
+    prompt_doc: assets/locations/EP12/act01/GarregMachBattlefield/prompt.md
+    dimensions: 1672x941
+    sha256: fa1a3256caa59bb44f1e64e6713fbb92baa528fadc2e673771a7c11c0c2d1677
+    notes: 学院篇终局的修道院战火状态参考。
+  - id: RuinsOfGarregMachDawn_shared
+    name_zh: 黎明重逢加尔古玛库废墟
+    episode: war
+    act: shared
+    location_group: garreg_mach_war
+    status: reference_ready
+    path: assets/locations/war/shared/RuinsOfGarregMachDawn
+    selected_reference: assets/locations/war/shared/RuinsOfGarregMachDawn/scene_reference.png
+    prompt_doc: assets/locations/war/shared/RuinsOfGarregMachDawn/prompt.md
+    dimensions: 1672x941
+    sha256: 1cdada349b32f97e92ff76f215c6d0cd03968a18f0972b607721644976da4184
+    notes: 五年后黎明重逢与废墟修道院参考。
+  - id: GarregMachWarCommand_shared
+    name_zh: 加尔古玛库据点
+    episode: war
+    act: shared
+    location_group: garreg_mach_war
+    status: reference_ready
+    path: assets/locations/war/shared/GarregMachWarCommand
+    selected_reference: assets/locations/war/shared/GarregMachWarCommand/scene_reference.png
+    prompt_doc: assets/locations/war/shared/GarregMachWarCommand/prompt.md
+    dimensions: 1672x941
+    sha256: d051843e399e083ce35f4435745680ba00f67aba430560a0bf9596e4108a3cc1
+    notes: 战争篇修道院据点、补给和指挥空间参考。
+  - id: AilellValleyOfTorment_shared
+    name_zh: 灼热山谷阿里尔
+    episode: war
+    act: shared
+    location_group: ailell_valley
+    status: reference_ready
+    path: assets/locations/war/shared/AilellValleyOfTorment
+    selected_reference: assets/locations/war/shared/AilellValleyOfTorment/scene_reference.png
+    prompt_doc: assets/locations/war/shared/AilellValleyOfTorment/prompt.md
+    dimensions: 1672x941
+    sha256: f138090c0b08554b74bdc6a47366357d1a1bd8f438157edf9a5b6c75a3122b24
+    notes: 灼热山谷战场和熔岩地形参考。
+  - id: GreatBridgeOfMyrddin_shared
+    name_zh: 密尔丁大桥
+    episode: war
+    act: shared
+    location_group: myrddin_bridge
+    status: reference_ready
+    path: assets/locations/war/shared/GreatBridgeOfMyrddin
+    selected_reference: assets/locations/war/shared/GreatBridgeOfMyrddin/scene_reference.png
+    prompt_doc: assets/locations/war/shared/GreatBridgeOfMyrddin/prompt.md
+    dimensions: 1672x941
+    sha256: 3a5603306cd2617ebffcec066f1ec70b2e8440fdfd3e46e94e6e97bd40f4fbab
+    notes: 密尔丁大桥战略要冲和攻防战参考。
+  - id: FortMerceus_shared
+    name_zh: 梅利赛乌斯要塞
+    episode: war
+    act: shared
+    location_group: fort_merceus
+    status: reference_ready
+    path: assets/locations/war/shared/FortMerceus
+    selected_reference: assets/locations/war/shared/FortMerceus/scene_reference.png
+    prompt_doc: assets/locations/war/shared/FortMerceus/prompt.md
+    dimensions: 1672x941
+    sha256: 8f2cf14420482390a8e2590a0cf9df37f2c57de8ff9b0e76694c75d766f9b233
+    notes: 帝国大型要塞和攻城战参考。
+  - id: EnbarrCityStreets_shared
+    name_zh: 帝都恩巴尔街区
+    episode: war
+    act: shared
+    location_group: enbarr
+    status: reference_ready
+    path: assets/locations/war/shared/EnbarrCityStreets
+    selected_reference: assets/locations/war/shared/EnbarrCityStreets/scene_reference.png
+    prompt_doc: assets/locations/war/shared/EnbarrCityStreets/prompt.md
+    dimensions: 1672x941
+    sha256: fe14b51fef0d2789bfd8f013aa896c9175642cb66127f55944dfb5bb5b6d8ad1
+    notes: 帝都恩巴尔城市巷战和皇宫入口参考。
+  - id: ImperialThroneRoom_shared
+    name_zh: 帝国皇宫王座厅
+    episode: war
+    act: shared
+    location_group: enbarr_palace
+    status: reference_ready
+    path: assets/locations/war/shared/ImperialThroneRoom
+    selected_reference: assets/locations/war/shared/ImperialThroneRoom/scene_reference.png
+    prompt_doc: assets/locations/war/shared/ImperialThroneRoom/prompt.md
+    dimensions: 1672x941
+    sha256: c0006e06b1d8f10f326d6a361e05ac990453a493ba1bb27d4ad611a3d7587bfb
+    notes: 艾黛尔贾特决战王座厅参考。
+  - id: ShambhalaUndergroundCity_shared
+    name_zh: 香巴拉地下都市
+    episode: war
+    act: shared
+    location_group: shambhala
+    status: reference_ready
+    path: assets/locations/war/shared/ShambhalaUndergroundCity
+    selected_reference: assets/locations/war/shared/ShambhalaUndergroundCity/scene_reference.png
+    prompt_doc: assets/locations/war/shared/ShambhalaUndergroundCity/prompt.md
+    dimensions: 1672x941
+    sha256: 67495f933e0b0d1c9c9931be079176c1617170cb7c9814d8cdc8019decd1eab7
+    notes: 暗黑蠢动者地下都市和终盘真相参考。
+  - id: DeirdruPortCity_shared
+    name_zh: 迪亚朵港湾都市
+    episode: war
+    act: shared
+    location_group: deirdru
+    status: reference_ready
+    path: assets/locations/war/shared/DeirdruPortCity
+    selected_reference: assets/locations/war/shared/DeirdruPortCity/scene_reference.png
+    prompt_doc: assets/locations/war/shared/DeirdruPortCity/prompt.md
+    dimensions: 1672x941
+    sha256: 22a0040165e73cf69a8735f2d4fe496ee2bca3b289d8d863ff1d6aba9f9c9e79
+    notes: 雷斯塔联盟港湾都市和围城参考。
+  - id: FhirdiadCapital_shared
+    name_zh: 菲尔帝亚王都
+    episode: war
+    act: shared
+    location_group: fhirdiad
+    status: reference_ready
+    path: assets/locations/war/shared/FhirdiadCapital
+    selected_reference: assets/locations/war/shared/FhirdiadCapital/scene_reference.png
+    prompt_doc: assets/locations/war/shared/FhirdiadCapital/prompt.md
+    dimensions: 1672x941
+    sha256: fda142006315b10a62db614a457a61518114d2546690e9ef30ce6ede832ddd1a
+    notes: 法嘉斯王都终章与围城参考。
+  - id: ArianrhodFortressCity_CF
+    name_zh: 阿里安罗德白银城塞
+    episode: war
+    act: crimson_flower
+    location_group: arianrhod
+    status: reference_ready
+    path: assets/locations/war/crimson_flower/ArianrhodFortressCity
+    selected_reference: assets/locations/war/crimson_flower/ArianrhodFortressCity/scene_reference.png
+    prompt_doc: assets/locations/war/crimson_flower/ArianrhodFortressCity/prompt.md
+    dimensions: 1672x941
+    sha256: b59f88276ec6e64fdbea487667d6d93d5dbee67b90d959301e01f3e8f8af6b23
+    notes: 红花路线白银城塞与雪地要塞参考。
+  - id: TailteanPlains_CF
+    name_zh: 塔尔丁平原
+    episode: war
+    act: crimson_flower
+    location_group: tailtean_plains
+    status: reference_ready
+    path: assets/locations/war/crimson_flower/TailteanPlains
+    selected_reference: assets/locations/war/crimson_flower/TailteanPlains/scene_reference.png
+    prompt_doc: assets/locations/war/crimson_flower/TailteanPlains/prompt.md
+    dimensions: 1672x941
+    sha256: bf2c11bd1edabf6ee4248c26ae85c3bd647e5a621f3ea4fa86a660d8dafd502e
+    notes: 红花路线终盘暴雨平原战场参考。
+  - id: SwampsOfVengeance_VW
+    name_zh: 复仇沼泽
+    episode: war
+    act: verdant_wind
+    location_group: swamps_of_vengeance
+    status: reference_ready
+    path: assets/locations/war/verdant_wind/SwampsOfVengeance
+    selected_reference: assets/locations/war/verdant_wind/SwampsOfVengeance/scene_reference.png
+    prompt_doc: assets/locations/war/verdant_wind/SwampsOfVengeance/prompt.md
+    dimensions: 1672x941
+    sha256: f3ca89dc94804ee309136313b6e4108cf81d3151cdad1f23095681bf625e633a
+    notes: 翠风路线终章远古沼泽战场参考。
 missing_priority:
   - id: OfficersAcademyClassroom
     name_zh: 士官学校教室 / 讲堂

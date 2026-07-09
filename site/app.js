@@ -69,6 +69,7 @@ const locationAssets = data.episodeAssets.filter((item) => item.path.startsWith(
 const historicalFrameAssets = data.episodeAssets.filter((item) => !item.path.startsWith("assets/locations/"));
 
 const locationGroupLabels = {
+  prologue: "序章",
   EP01: "EP01",
   EP02: "EP02",
   EP03: "EP03",
@@ -88,6 +89,7 @@ const locationGroupLabels = {
 };
 
 const locationGroupOrder = [
+  "prologue",
   "EP01",
   "EP02",
   "EP03",
@@ -170,6 +172,7 @@ function renderCharacters() {
 }
 
 function renderEpisode() {
+  const prologueCount = locationAssets.filter((item) => item.episode === "prologue").length;
   const ep01Count = locationAssets.filter((item) => item.episode === "EP01").length;
   const ep02Count = locationAssets.filter((item) => item.episode === "EP02").length;
   const ep03Count = locationAssets.filter((item) => item.episode === "EP03").length;
@@ -179,6 +182,7 @@ function renderEpisode() {
   const auxiliaryCount = locationAssets.filter((item) => item.episode === "paralogues" || item.episode === "dlc").length;
   els.locationStats.innerHTML = `
     <div><strong>${locationAssets.length}</strong><span>地点参考</span></div>
+    <div><strong>${prologueCount}</strong><span>序章地点</span></div>
     <div><strong>${ep01Count}</strong><span>EP01 地点</span></div>
     <div><strong>${ep02Count}</strong><span>EP02 地点</span></div>
     <div><strong>${ep03Count}</strong><span>EP03 地点</span></div>

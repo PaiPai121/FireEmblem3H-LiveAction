@@ -315,6 +315,206 @@ window.ASSET_REVIEW_DATA = {
       note: "战场附近的宗教废墟和肃杀转场参考。"
     },
     {
+      title: "Remire Forest Road",
+      label: "序章 雷米尔附近森林道路",
+      episode: "prologue",
+      act: "encounter",
+      path: "assets/locations/prologue/encounter/RemireForestRoad/scene_reference.png",
+      note: "佣兵遭遇与开场森林道路参考。"
+    },
+    {
+      title: "Mock Battle Grounds",
+      label: "EP02 第二幕 学级模拟战场",
+      episode: "EP02",
+      act: "act02",
+      path: "assets/locations/EP02/act02/MockBattleGrounds/scene_reference.png",
+      note: "三学级初次模拟战的训练场地参考。"
+    },
+    {
+      title: "Red Canyon Zanado",
+      label: "EP02 第三幕 红谷扎纳德",
+      episode: "EP02",
+      act: "act03",
+      path: "assets/locations/EP02/act03/RedCanyonZanado/scene_reference.png",
+      note: "红谷扎纳德与古代遗迹峡谷参考。"
+    },
+    {
+      title: "Seiros Tomb",
+      label: "EP04 第一幕 圣墓入口与地下墓室",
+      episode: "EP04",
+      act: "act01",
+      path: "assets/locations/EP04/act01/SeirosTomb/scene_reference.png",
+      note: "女神再诞仪式章节的圣墓入口和地下墓室参考。"
+    },
+    {
+      title: "Conand Tower",
+      label: "EP05 第一幕 黑风塔",
+      episode: "EP05",
+      act: "act01",
+      path: "assets/locations/EP05/act01/ConandTower/scene_reference.png",
+      note: "米克兰线的高塔、山道和风暴氛围参考。"
+    },
+    {
+      title: "Underground Chamber",
+      label: "EP06 第一幕 修道院地下密室",
+      episode: "EP06",
+      act: "act01",
+      path: "assets/locations/EP06/act01/UndergroundChamber/scene_reference.png",
+      note: "死神骑士事件的地下通道和密室参考。"
+    },
+    {
+      title: "Gronder Field",
+      label: "EP07 第一幕 古隆达兹平原",
+      episode: "EP07",
+      act: "act01",
+      path: "assets/locations/EP07/act01/GronderField/scene_reference.png",
+      note: "鹰狮鹿学级战的平原战场参考。"
+    },
+    {
+      title: "Remire Village Chaos",
+      label: "EP08 第一幕 雷米尔村异变",
+      episode: "EP08",
+      act: "act01",
+      path: "assets/locations/EP08/act01/RemireVillageChaos/scene_reference.png",
+      note: "雷米尔村失控事件的夜间村落参考。"
+    },
+    {
+      title: "Unused Chapel",
+      label: "EP09 第一幕 废弃礼拜堂",
+      episode: "EP09",
+      act: "act01",
+      path: "assets/locations/EP09/act01/UnusedChapel/scene_reference.png",
+      note: "杰拉尔特遇袭前后的废弃礼拜堂参考。"
+    },
+    {
+      title: "Sealed Forest",
+      label: "EP10 第一幕 封印森林",
+      episode: "EP10",
+      act: "act01",
+      path: "assets/locations/EP10/act01/SealedForest/scene_reference.png",
+      note: "封印森林与索龙事件的魔性森林参考。"
+    },
+    {
+      title: "Holy Tomb",
+      label: "EP11 第一幕 圣墓深处",
+      episode: "EP11",
+      act: "act01",
+      path: "assets/locations/EP11/act01/HolyTomb/scene_reference.png",
+      note: "纹章石与圣墓真相揭示的地下大厅参考。"
+    },
+    {
+      title: "Garreg Mach Battlefield",
+      label: "EP12 第一幕 加尔古玛库战场",
+      episode: "EP12",
+      act: "act01",
+      path: "assets/locations/EP12/act01/GarregMachBattlefield/scene_reference.png",
+      note: "学院篇终局的修道院战火状态参考。"
+    },
+    {
+      title: "Ruins of Garreg Mach Dawn",
+      label: "战争篇 黎明重逢加尔古玛库废墟",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/RuinsOfGarregMachDawn/scene_reference.png",
+      note: "五年后黎明重逢与废墟修道院参考。"
+    },
+    {
+      title: "Garreg Mach War Command",
+      label: "战争篇 加尔古玛库据点",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/GarregMachWarCommand/scene_reference.png",
+      note: "战争篇修道院据点、补给和指挥空间参考。"
+    },
+    {
+      title: "Ailell Valley of Torment",
+      label: "战争篇 灼热山谷阿里尔",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/AilellValleyOfTorment/scene_reference.png",
+      note: "灼热山谷战场和熔岩地形参考。"
+    },
+    {
+      title: "Great Bridge of Myrddin",
+      label: "战争篇 密尔丁大桥",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/GreatBridgeOfMyrddin/scene_reference.png",
+      note: "密尔丁大桥战略要冲和攻防战参考。"
+    },
+    {
+      title: "Fort Merceus",
+      label: "战争篇 梅利赛乌斯要塞",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/FortMerceus/scene_reference.png",
+      note: "帝国大型要塞和攻城战参考。"
+    },
+    {
+      title: "Enbarr City Streets",
+      label: "战争篇 帝都恩巴尔街区",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/EnbarrCityStreets/scene_reference.png",
+      note: "帝都恩巴尔城市巷战和皇宫入口参考。"
+    },
+    {
+      title: "Imperial Throne Room",
+      label: "战争篇 帝国皇宫王座厅",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/ImperialThroneRoom/scene_reference.png",
+      note: "艾黛尔贾特决战王座厅参考。"
+    },
+    {
+      title: "Shambhala Underground City",
+      label: "战争篇 香巴拉地下都市",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/ShambhalaUndergroundCity/scene_reference.png",
+      note: "暗黑蠢动者地下都市和终盘真相参考。"
+    },
+    {
+      title: "Deirdru Port City",
+      label: "战争篇 迪亚朵港湾都市",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/DeirdruPortCity/scene_reference.png",
+      note: "雷斯塔联盟港湾都市和围城参考。"
+    },
+    {
+      title: "Fhirdiad Capital",
+      label: "战争篇 菲尔帝亚王都",
+      episode: "war",
+      act: "shared",
+      path: "assets/locations/war/shared/FhirdiadCapital/scene_reference.png",
+      note: "法嘉斯王都终章与围城参考。"
+    },
+    {
+      title: "Arianrhod Fortress City",
+      label: "红花路线 阿里安罗德白银城塞",
+      episode: "war",
+      act: "crimson_flower",
+      path: "assets/locations/war/crimson_flower/ArianrhodFortressCity/scene_reference.png",
+      note: "红花路线白银城塞与雪地要塞参考。"
+    },
+    {
+      title: "Tailtean Plains",
+      label: "红花路线 塔尔丁平原",
+      episode: "war",
+      act: "crimson_flower",
+      path: "assets/locations/war/crimson_flower/TailteanPlains/scene_reference.png",
+      note: "红花路线终盘暴雨平原战场参考。"
+    },
+    {
+      title: "Swamps of Vengeance",
+      label: "翠风路线 复仇沼泽",
+      episode: "war",
+      act: "verdant_wind",
+      path: "assets/locations/war/verdant_wind/SwampsOfVengeance/scene_reference.png",
+      note: "翠风路线终章远古沼泽战场参考。"
+    },
+    {
       title: "Garreg Mach Exterior Overview",
       label: "共享 加尔古玛库修道院外景总览",
       episode: "shared",
