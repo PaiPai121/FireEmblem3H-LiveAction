@@ -1,0 +1,11 @@
+{
+  "shot": "Shot029",
+  "title": "Sylvain / Ingrid Side Flank",
+  "duration_seconds": 12,
+  "image_path": "episodes/EP02/generated/p1_mock_battle_v1/Shot029_SylvainIngridSideFlank.png",
+  "prompt": "Sylvain moves loosely to draw attention during a nonlethal drill while Ingrid steps precisely into position from the side. Their training poles remain safe and controlled. The contrast is personality-driven: Sylvain fluid, Ingrid disciplined.\n\nCamera: lateral tracking motion.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No blood, gore, lethal impact, battlefield carnage, or real injury. Avoid: stabbing impact, blood, lethal spear work. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot029.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot029.md",
+  "risk_notes": []
+}

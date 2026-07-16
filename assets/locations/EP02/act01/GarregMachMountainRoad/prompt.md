@@ -4,7 +4,7 @@
 
 生成文件：
 
-- `scene_reference.png`
+- `GarregMachMountainRoad_reference.png`
 - `scene_reference_v2_sunlit.png`：推荐作为 EP02 第一幕默认参考。整体更接近原游戏中加尔古玛库外景的明亮、清透、学院入口氛围。
 
 Prompt:

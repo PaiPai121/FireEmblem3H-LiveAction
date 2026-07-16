@@ -1,0 +1,254 @@
+[
+  {
+    "shot": "Shot001",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot001.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot001.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot001.mp4"
+  },
+  {
+    "shot": "Shot002",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot002.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot002.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot002.mp4"
+  },
+  {
+    "shot": "Shot003",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot003.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot003.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot003.mp4"
+  },
+  {
+    "shot": "Shot004",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot004.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot004.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot004.mp4"
+  },
+  {
+    "shot": "Shot005",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot005.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot005.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot005.mp4"
+  },
+  {
+    "shot": "Shot006",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot006.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot006.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot006.mp4"
+  },
+  {
+    "shot": "Shot007",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot007.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot007.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot007.mp4"
+  },
+  {
+    "shot": "Shot008",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot008.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot008.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot008.mp4"
+  },
+  {
+    "shot": "Shot009",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot009.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot009.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot009.mp4"
+  },
+  {
+    "shot": "Shot010",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot010.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot010.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot010.mp4"
+  },
+  {
+    "shot": "Shot011",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot011.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot011.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot011.mp4"
+  },
+  {
+    "shot": "Shot012",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot012.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot012.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot012.mp4"
+  },
+  {
+    "shot": "Shot013",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot013.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot013.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot013.mp4"
+  },
+  {
+    "shot": "Shot014",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot014.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot014.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot014.mp4"
+  },
+  {
+    "shot": "Shot015",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot015.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot015.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot015.mp4"
+  },
+  {
+    "shot": "Shot016",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot016.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot016.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot016.mp4"
+  },
+  {
+    "shot": "Shot017",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot017.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot017.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot017.mp4"
+  },
+  {
+    "shot": "Shot018",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot018.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot018.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot018.mp4"
+  },
+  {
+    "shot": "Shot019",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot019.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot019.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot019.mp4"
+  },
+  {
+    "shot": "Shot020",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot020.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot020.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot020.mp4"
+  },
+  {
+    "shot": "Shot021",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot021.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot021.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot021.mp4"
+  },
+  {
+    "shot": "Shot022",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot022.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot022.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot022.mp4"
+  },
+  {
+    "shot": "Shot023",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot023.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot023.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot023.mp4"
+  },
+  {
+    "shot": "Shot024",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot024.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot024.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot024.mp4"
+  },
+  {
+    "shot": "Shot025",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot025.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot025.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot025.mp4"
+  },
+  {
+    "shot": "Shot026",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot026.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot026.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot026.mp4"
+  },
+  {
+    "shot": "Shot027",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot027.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot027.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot027.mp4"
+  },
+  {
+    "shot": "Shot028",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot028.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot028.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot028.mp4"
+  },
+  {
+    "shot": "Shot029",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot029.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot029.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot029.mp4"
+  },
+  {
+    "shot": "Shot030",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot030.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot030.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot030.mp4"
+  },
+  {
+    "shot": "Shot031",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot031.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot031.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot031.mp4"
+  },
+  {
+    "shot": "Shot032",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot032.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot032.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot032.mp4"
+  },
+  {
+    "shot": "Shot033",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot033.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot033.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot033.mp4"
+  },
+  {
+    "shot": "Shot034",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot034.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot034.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot034.mp4"
+  },
+  {
+    "shot": "Shot035",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot035.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot035.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot035.mp4"
+  },
+  {
+    "shot": "Shot036",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot036.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot036.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot036.mp4"
+  },
+  {
+    "shot": "Shot037",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot037.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot037.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot037.mp4"
+  },
+  {
+    "shot": "Shot038",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot038.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot038.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot038.mp4"
+  },
+  {
+    "shot": "Shot039",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot039.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot039.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot039.mp4"
+  },
+  {
+    "shot": "Shot040",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot040.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot040.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot040.mp4"
+  },
+  {
+    "shot": "Shot041",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot041.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot041.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot041.mp4"
+  },
+  {
+    "shot": "Shot042",
+    "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot042.md",
+    "payload_file": "episodes/EP02/video_payloads_cinematic_v2_2026-07-16/Shot042.json",
+    "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot042.mp4"
+  }
+]

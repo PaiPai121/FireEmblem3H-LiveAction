@@ -1,35 +1,77 @@
 ---
 version: 1
-updated: 2026-07-07
+updated: '2026-07-16'
 status_definitions:
   text_only: 只有文字说明，尚无可用视觉资产。
   missing: 尚未生成可用视觉资产。
 props:
-  - id: TrainingWeapons_EP01
-    name_zh: EP01 训练武器
-    category: weapons
-    status: text_only
-    doc: assets/props/EP01_训练武器.md
-    needed_assets:
-      - training_sword_reference.png
-      - training_lance_reference.png
-      - training_axe_reference.png
-      - training_bow_reference.png
-    notes: 目前只有训练武器说明文档，缺独立视觉参考图。
-missing_priority:
-  - id: ChurchOfSeirosCrestAndFlags
-    name_zh: 赛罗司教会纹章 / 旗帜
-    category: heraldry
-    status: missing
-  - id: ThreeHouseBadges
-    name_zh: 三学级徽章
-    category: heraldry
-    status: missing
-  - id: EmpireKingdomAllianceFlags
-    name_zh: 帝国、王国、联盟旗帜
-    category: heraldry
-    status: missing
-  - id: HeroRelics
-    name_zh: 英雄遗产 / 重要武器
-    category: weapons
-    status: missing
+- id: MercenaryBadge_EP02
+  name_zh: EP02 佣兵徽章
+  category: personal_prop
+  status: ready
+  image: assets/props/EP02/mercenary_badge/mercenary_badge_reference.png
+  needed_for:
+  - episodes/EP02 Shot021
+  notes: Jeralt 放在桌上的旧佣兵徽章；无可读文字，抽象佣兵纹样，适合近景插入。
+- id: TrainingWeapons_EP02
+  name_zh: EP02 训练武器组
+  category: weapons
+  status: ready
+  image: assets/props/EP02/training_weapons/training_weapons_reference.png
+  needed_for:
+  - episodes/EP02 Shot023
+  - episodes/EP02 Shot025-034
+  notes: 包含钝剑、木制练习长枪、训练盾、训练弓、钝头箭、皮手套和哨子。
+- id: TrainingWeapons_EP01
+  name_zh: EP01 训练武器
+  category: weapons
+  status: text_only
+  doc: assets/props/EP01_训练武器.md
+  needed_assets:
+  - training_sword_reference.png
+  - training_lance_reference.png
+  - training_axe_reference.png
+  - training_bow_reference.png
+  notes: 目前只有训练武器说明文档，缺独立视觉参考图。
+- id: ChurchOfSeirosCrestAndFlags
+  name_zh: 赛罗司教会纹章 / 旗帜
+  category: heraldry
+  status: ready
+  image: assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png
+  needed_for:
+  - church banners
+  - cathedral
+  - audience hall
+  - teacher appointment
+  notes: 教会纹章、蓝金白旗帜和仪式悬旗；无可读文字。
+- id: ThreeHouseBadges
+  name_zh: 三学级徽章
+  category: heraldry
+  status: ready
+  image: assets/props/shared/three_house_badges/three_house_badges_reference.png
+  needed_for:
+  - student uniforms
+  - house introductions
+  - mock battle teams
+  notes: 黑鹫、青狮、金鹿徽章、胸针、肩章、腰牌和刺绣贴片参考。
+- id: EmpireKingdomAllianceFlags
+  name_zh: 帝国、王国、联盟旗帜
+  category: heraldry
+  status: ready
+  image: assets/props/shared/empire_kingdom_alliance_flags/empire_kingdom_alliance_flags_reference.png
+  needed_for:
+  - three-house comparison
+  - mock battle field dressing
+  - war councils
+  notes: 帝国红黑、王国蓝银、联盟金绿旗帜和战旗参考；无可读文字。
+- id: HeroRelics
+  name_zh: 英雄遗产 / 重要武器
+  category: weapons
+  status: ready
+  image: assets/props/shared/hero_relics/hero_relics_reference.png
+  needed_for:
+  - relic foreshadowing
+  - weapon closeups
+  - future episodes
+  notes: 英雄遗产和重要武器的真人化材质参考，不直接复制具体游戏武器。
+missing_priority: []

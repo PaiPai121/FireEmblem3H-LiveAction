@@ -1,0 +1,394 @@
+[
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Claude",
+    "klass": "barbarossa",
+    "output_path": "assets/characters/golden_deer/Claude/barbarossa/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Hilda",
+    "klass": "fighter",
+    "output_path": "assets/characters/golden_deer/Hilda/fighter/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Hilda",
+    "klass": "brigand",
+    "output_path": "assets/characters/golden_deer/Hilda/brigand/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Hilda",
+    "klass": "warrior",
+    "output_path": "assets/characters/golden_deer/Hilda/warrior/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Hilda",
+    "klass": "wyvern_lord",
+    "output_path": "assets/characters/golden_deer/Hilda/wyvern_lord/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Ignatz",
+    "klass": "archer",
+    "output_path": "assets/characters/golden_deer/Ignatz/archer/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Ignatz",
+    "klass": "sniper",
+    "output_path": "assets/characters/golden_deer/Ignatz/sniper/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Ignatz",
+    "klass": "assassin",
+    "output_path": "assets/characters/golden_deer/Ignatz/assassin/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Ignatz",
+    "klass": "bow_knight",
+    "output_path": "assets/characters/golden_deer/Ignatz/bow_knight/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Leonie",
+    "klass": "soldier",
+    "output_path": "assets/characters/golden_deer/Leonie/soldier/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Leonie",
+    "klass": "cavalier",
+    "output_path": "assets/characters/golden_deer/Leonie/cavalier/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Leonie",
+    "klass": "paladin",
+    "output_path": "assets/characters/golden_deer/Leonie/paladin/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Leonie",
+    "klass": "bow_knight",
+    "output_path": "assets/characters/golden_deer/Leonie/bow_knight/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lorenz",
+    "klass": "soldier",
+    "output_path": "assets/characters/golden_deer/Lorenz/soldier/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lorenz",
+    "klass": "cavalier",
+    "output_path": "assets/characters/golden_deer/Lorenz/cavalier/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lorenz",
+    "klass": "paladin",
+    "output_path": "assets/characters/golden_deer/Lorenz/paladin/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lorenz",
+    "klass": "dark_knight",
+    "output_path": "assets/characters/golden_deer/Lorenz/dark_knight/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lysithea",
+    "klass": "monk",
+    "output_path": "assets/characters/golden_deer/Lysithea/monk/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lysithea",
+    "klass": "mage",
+    "output_path": "assets/characters/golden_deer/Lysithea/mage/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lysithea",
+    "klass": "warlock",
+    "output_path": "assets/characters/golden_deer/Lysithea/warlock/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Lysithea",
+    "klass": "gremory",
+    "output_path": "assets/characters/golden_deer/Lysithea/gremory/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Marianne",
+    "klass": "monk",
+    "output_path": "assets/characters/golden_deer/Marianne/monk/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Marianne",
+    "klass": "priest",
+    "output_path": "assets/characters/golden_deer/Marianne/priest/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Marianne",
+    "klass": "bishop",
+    "output_path": "assets/characters/golden_deer/Marianne/bishop/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Marianne",
+    "klass": "holy_knight",
+    "output_path": "assets/characters/golden_deer/Marianne/holy_knight/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Raphael",
+    "klass": "fighter",
+    "output_path": "assets/characters/golden_deer/Raphael/fighter/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Raphael",
+    "klass": "brawler",
+    "output_path": "assets/characters/golden_deer/Raphael/brawler/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Raphael",
+    "klass": "grappler",
+    "output_path": "assets/characters/golden_deer/Raphael/grappler/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 4,
+    "faction": "golden_deer",
+    "character": "Raphael",
+    "klass": "war_master",
+    "output_path": "assets/characters/golden_deer/Raphael/war_master/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Balthus",
+    "klass": "fighter",
+    "output_path": "assets/characters/ashen_wolves/Balthus/fighter/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Balthus",
+    "klass": "brawler",
+    "output_path": "assets/characters/ashen_wolves/Balthus/brawler/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Balthus",
+    "klass": "grappler",
+    "output_path": "assets/characters/ashen_wolves/Balthus/grappler/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Balthus",
+    "klass": "war_monk",
+    "output_path": "assets/characters/ashen_wolves/Balthus/war_monk/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Constance",
+    "klass": "mage",
+    "output_path": "assets/characters/ashen_wolves/Constance/mage/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Constance",
+    "klass": "warlock",
+    "output_path": "assets/characters/ashen_wolves/Constance/warlock/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Constance",
+    "klass": "dark_flier",
+    "output_path": "assets/characters/ashen_wolves/Constance/dark_flier/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Constance",
+    "klass": "gremory",
+    "output_path": "assets/characters/ashen_wolves/Constance/gremory/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Hapi",
+    "klass": "mage",
+    "output_path": "assets/characters/ashen_wolves/Hapi/mage/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Hapi",
+    "klass": "valkyrie",
+    "output_path": "assets/characters/ashen_wolves/Hapi/valkyrie/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Hapi",
+    "klass": "dark_knight",
+    "output_path": "assets/characters/ashen_wolves/Hapi/dark_knight/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Hapi",
+    "klass": "gremory",
+    "output_path": "assets/characters/ashen_wolves/Hapi/gremory/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Yuri",
+    "klass": "myrmidon",
+    "output_path": "assets/characters/ashen_wolves/Yuri/myrmidon/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Yuri",
+    "klass": "thief",
+    "output_path": "assets/characters/ashen_wolves/Yuri/thief/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Yuri",
+    "klass": "trickster",
+    "output_path": "assets/characters/ashen_wolves/Yuri/trickster/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 5,
+    "faction": "ashen_wolves",
+    "character": "Yuri",
+    "klass": "dancer",
+    "output_path": "assets/characters/ashen_wolves/Yuri/dancer/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 6,
+    "faction": "merchants",
+    "character": "Anna",
+    "klass": "thief",
+    "output_path": "assets/characters/merchants/Anna/thief/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 6,
+    "faction": "merchants",
+    "character": "Anna",
+    "klass": "trickster",
+    "output_path": "assets/characters/merchants/Anna/trickster/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 6,
+    "faction": "merchants",
+    "character": "Anna",
+    "klass": "assassin",
+    "output_path": "assets/characters/merchants/Anna/assassin/selected.png",
+    "status": "missing"
+  },
+  {
+    "priority": 6,
+    "faction": "merchants",
+    "character": "Anna",
+    "klass": "bow_knight",
+    "output_path": "assets/characters/merchants/Anna/bow_knight/selected.png",
+    "status": "missing"
+  }
+]

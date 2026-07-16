@@ -4,7 +4,7 @@
 
 生成文件：
 
-- `scene_reference.png`
+- `MonasteryCathedralAntechamber_reference.png`
 
 游戏资料参考点：
 

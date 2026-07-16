@@ -1,0 +1,21 @@
+# Shot037 Church Observation
+
+Duration: 12s
+Image: `episodes/EP02/generated/p0_rhea_youth_v2/Shot037_ChurchObservation_RheaYouth_v2.png`
+Output: `episodes/EP02/video_outputs/cinematic_v2/Shot037.mp4`
+Block: Observation Echo
+Audio bridge: distant training fades into night corridor and green shimmer
+
+## Prompt
+
+Rhea and Seteth watch from the edge of the academy training ground after the mock battle. Rhea appears serene, almost satisfied; Seteth remains cautious. The Blue Lions are small in the distance, recovering from training. The feeling is surveillance, not celebration. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.
+
+Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.
+
+Cinematic continuity: Block=Observation Echo. Transition in: surveillance reframes training as church interest. Transition out: green shimmer prelap into night corridor. Screen/camera rule: long-lens surveillance into night subjective unease. Audio bridge: distant training fades into night corridor and green shimmer. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
+
+Camera: long-lens compressed hold with a subtle drift from students to Rhea and Seteth.
+
+## Negative Prompt
+
+No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: cheering, public announcement, battle aftermath, injuries. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.

@@ -4,7 +4,7 @@
 
 生成文件：
 
-- `scene_reference.png`
+- `MonasteryMainGatePlaza_reference.png`
 
 Prompt:
 

@@ -1,0 +1,11 @@
+{
+  "shot": "Shot015",
+  "title": "Felix / Sylvain Exchange",
+  "duration_seconds": 12,
+  "image_path": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot015_FelixSylvainExchange_v2.png",
+  "prompt": "Felix holds a cold, cutting gaze toward Byleth while Sylvain softens the tension with relaxed body language. Felix should move very little: a slight head turn or narrowed eyes is enough. Sylvain gives a small sideways glance, trying to keep the exchange socially smooth.\n\nCamera: steady medium two-shot with Byleth shoulder foreground.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: Felix smiling, aggressive lunging, adult hardboiled styling. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot015.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot015.md",
+  "risk_notes": []
+}

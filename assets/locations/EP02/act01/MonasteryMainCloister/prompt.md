@@ -4,7 +4,7 @@
 
 生成文件：
 
-- `scene_reference.png`
+- `MonasteryMainCloister_reference.png`
 
 参考方向：
 

@@ -1,0 +1,114 @@
+{
+  "batch_id": "batch_03_blue_lions_intro_class",
+  "title": "Blue Lions intro and classroom bridge",
+  "shots": [
+    {
+      "shot": "Shot011",
+      "title": "Black Eagles Comparison",
+      "duration": "10 seconds",
+      "still": "episodes/EP02/generated/p1_student_intro_v1/Shot011_BlackEaglesComparison.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p1_act01_2026-07-13.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Slow controlled push-in across the academy courtyard. Edelgard remains composed in the foreground while Hubert stands slightly behind like a quiet shadow. Background students cross softly out of focus. Keep the mood political and restrained, with no overt threat. Minimal facial movement: Edelgard watches, Hubert observes.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "slow push-in, long lens, stable.",
+      "avoid": "villain posing, sudden gestures, war costumes, text. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot012",
+      "title": "Golden Deer Comparison",
+      "duration": "10 seconds",
+      "still": "episodes/EP02/generated/p1_student_intro_v1/Shot012_GoldenDeerComparison.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p1_act01_2026-07-13.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Claude shifts his weight casually near the stone archway and gives a small knowing smile toward Byleth. Background Golden Deer students continue quiet conversation. The movement should feel relaxed but observant, as if Claude is testing the new teacher without saying much.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "slight lateral drift, relaxed handheld stability.",
+      "avoid": "comic exaggeration, broad waving, modern charm gestures. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot013",
+      "title": "Blue Lions Lineup",
+      "duration": "12 seconds",
+      "still": "episodes/EP02/generated/p1_grounded_identity_v3/Shot013_BlueLionsLineup_grounded_v3.png",
+      "source_package": "episodes/EP02/generated/p1_youth_identity_v2/review.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Slow lateral move across the Blue Lions group in the courtyard. Each student makes a small readable reaction: Dimitri attentive, Dedue still and protective, Felix guarded, Sylvain relaxed, Mercedes warm, Annette eager, Ashe shy, Ingrid disciplined. Keep identities stable and youthful.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nDedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and powerfully built, a calm shield-wall guardian beside Dimitri, not a slim student.",
+      "camera": "smooth side glide, medium-wide.",
+      "avoid": "face morphing, characters changing order, war-phase styling. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging. No skinny Dedue, no narrow shoulders, no average schoolboy body, no ordinary slim soldier build."
+    },
+    {
+      "shot": "Shot014",
+      "title": "Dimitri Greeting",
+      "duration": "16 seconds",
+      "still": "episodes/EP02/generated/p1_student_intro_v1/Shot014_DimitriGreeting.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p1_act01_2026-07-13.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Dimitri steps forward and bows with formal sincerity while Dedue remains quietly behind him. Byleth stands calm in the foreground. Dimitri's expression is polite, responsible, and young, with only a faint weight behind the courtesy.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nDedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and powerfully built, a calm shield-wall guardian beside Dimitri, not a slim student.",
+      "camera": "gentle push from Byleth's side toward Dimitri.",
+      "avoid": "royal arrogance, older king styling, dramatic combat tension. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging. No skinny Dedue, no narrow shoulders, no average schoolboy body, no ordinary slim soldier build."
+    },
+    {
+      "shot": "Shot015",
+      "title": "Felix / Sylvain Exchange",
+      "duration": "12 seconds",
+      "still": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot015_FelixSylvainExchange_v2.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p1_act01_2026-07-13.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Felix holds a cold, cutting gaze toward Byleth while Sylvain softens the tension with relaxed body language. Felix should move very little: a slight head turn or narrowed eyes is enough. Sylvain gives a small sideways glance, trying to keep the exchange socially smooth.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "steady medium two-shot with Byleth shoulder foreground.",
+      "avoid": "Felix smiling, aggressive lunging, adult hardboiled styling. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot016",
+      "title": "Blue Lions Reaction Montage",
+      "duration": "14 seconds",
+      "still": "episodes/EP02/generated/p1_grounded_identity_v3/Shot016_BlueLionsReaction_grounded_v3.png",
+      "source_package": "episodes/EP02/generated/p1_youth_identity_v2/review.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Create a soft reaction montage from the still: Mercedes offers a gentle reassuring look, Annette reacts with nervous energy, Ashe watches earnestly, and Ingrid remains serious and attentive. Keep Mercedes youthful and warm; keep Ashe boyish with pale ash-gray hair.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "subtle rack focus between faces, no fast cuts inside the generated clip.",
+      "avoid": "aging Mercedes, brown- or blond-haired Ashe, overdramatic expressions. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot022",
+      "title": "First Class Wide",
+      "duration": "10 seconds",
+      "still": "episodes/EP02/generated/p1_youth_identity_v2/Shot022_FirstClassWide_youth_identity_v2.png",
+      "source_package": "episodes/EP02/generated/p1_youth_identity_v2/review.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Byleth stands before the seated Blue Lions in the academy classroom. Students shift slightly in their seats and look toward the new teacher. The room should feel formal but tense with curiosity. Byleth is calm, direct, and unreadable.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "slow classroom push-in from behind Byleth.",
+      "avoid": "comedic classroom behavior, modern school props, subtitles. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot023",
+      "title": "Training Sword Insert",
+      "duration": "10 seconds",
+      "still": "episodes/EP02/generated/p1_student_intro_v1/Shot023_TrainingSwordInsert.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p1_act01_2026-07-13.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Byleth places or slides a training sword onto the wooden desk with deliberate calm. Students' hands or sleeves remain still around the edges of the frame. The motion should be quiet and decisive, signaling that the lesson will move to practice.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "low close insert, slight push toward the sword.",
+      "avoid": "sharp lethal blade emphasis, blood, sparks, text. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot024",
+      "title": "Felix Stands",
+      "duration": "8 seconds",
+      "still": "episodes/EP02/generated/p1_grounded_identity_v3/Shot024_FelixStands_grounded_v3.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p1_act01_2026-07-13.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "identity drift watch item",
+      "video_prompt": "Felix rises from his desk with restrained impatience, interested for the first time. Other Blue Lions students watch from behind. His movement should be controlled and youthful, with a cold narrow gaze rather than open aggression.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "small upward tilt following Felix standing.",
+      "avoid": "older face, drawn weapon, villain pose. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    }
+  ]
+}

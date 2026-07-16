@@ -14,7 +14,34 @@ status_definitions:
   concept_v1: 已生成第一轮概念图，需要后续细化
   candidates_v4: 已按问题修正生成的第四轮候选图，需要人工审片后决定是否选用
   concept_v2: 已生成第二轮细化概念图，可作为主参考继续深化
+  candidates_youth_beauty_v2: 已按年轻化与美化规范生成并同步 selected
+  candidates_robust_v2: 已按体格/轮廓反馈强化并同步 selected
+  candidates_twin_tail_fix_v2: 已按官方发型反馈修正并同步 selected
 global_rules:
+  casting_aesthetic:
+    priority: 身份锚点第一，年轻美貌第二，写实粗粝最后
+    academy_students:
+    - 视觉年龄保持 16-20 岁少年少女感
+    - 皮肤干净、五官精致、镜头友好，允许影视化美化
+    - 通过制服、发型、饰件和姿态区分角色，不通过成熟脸、皱纹或粗糙皮肤增加戏剧性
+    war_students:
+    - 视觉年龄保持 20-23 岁青年感
+    - 战争压力通过服装磨损、姿态、光线、场景和眼神表达
+    - 禁止把战争篇处理成中年、疲惫、老态或风霜脸
+    church_adults:
+    - 教会成人保持优雅、干净、镜头友好
+    - Rhea 为二十多岁绝美神性外观；Seteth 为精致青年/青年熟男权威感，不能老人化
+    global_negative_traits:
+    - middle-aged unless canonically required
+    - old face
+    - wrinkles
+    - tired eye bags
+    - harsh pores
+    - weathered skin
+    - gaunt face
+    - matronly
+    - gritty realism
+    - generic medieval extra
   academy:
     age_range: 15-18
     required_traits:
@@ -45,13 +72,13 @@ characters:
   path: assets/characters/protagonist/Byleth
   eras:
     professor:
-      status: candidates_v1
+      status: candidates_youth_beauty_v2
       path: assets/characters/protagonist/Byleth/professor
       selected_candidate: assets/characters/protagonist/Byleth/professor/selected.png
       needs_regeneration: false
-      notes: EP01 可临时使用；后续需要区分 mercenary、professor、enlightened 版本。
-      candidate_set: assets/characters/protagonist/Byleth/professor/candidates_v1
-      latest_candidate: assets/characters/protagonist/Byleth/professor/candidates_v1/candidate_01.png
+      notes: youth beauty v2 已同步 selected；比旧版更年轻、脸部更清晰，保留冷静教授和黑衣身份锚点。后续仍可区分 mercenary、professor、enlightened 版本。
+      candidate_set: assets/characters/protagonist/Byleth/professor/candidates_youth_beauty_v2
+      latest_candidate: assets/characters/protagonist/Byleth/professor/candidates_youth_beauty_v2/candidate_01.png
     enlightened:
       status: candidates_v1
       path: assets/characters/protagonist/Byleth/enlightened
@@ -66,8 +93,12 @@ characters:
   path: assets/characters/protagonist/Jeralt
   eras:
     mercenary:
-      status: legacy_ep01
-      path: assets/characters/protagonist/Jeralt/mercenary/legacy_ep01
+      status: candidates_reference_v1
+      path: assets/characters/protagonist/Jeralt/mercenary
+      candidate_set: assets/characters/protagonist/Jeralt/mercenary/candidates_reference_v1
+      latest_candidate: assets/characters/protagonist/Jeralt/mercenary/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/protagonist/Jeralt/mercenary/legacy_ep01
+      notes: reference v1 已生成，官方发型后辫、脸疤、白毛领、橙色外袍和灰色护肩识别强于 legacy_ep01。
       selected_candidate: assets/characters/protagonist/Jeralt/mercenary/legacy_ep01/candidate_02.png
       needs_regeneration: false
 - id: Sothis
@@ -96,11 +127,13 @@ characters:
       notes: v3 年龄感明显优于旧版，可作为学院篇候选；最终仍需审片后复制为 selected.png。
       selected_candidate: assets/characters/black_eagles/Edelgard/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/black_eagles/Edelgard/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Edelgard/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Edelgard/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Edelgard/war/candidates_reference_v1
+      latest_candidate: assets/characters/black_eagles/Edelgard/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Edelgard/war/candidates_v1
+      notes: official war reference pass 已同步 selected；金绿头饰、银发、红披风和红黑帝国军装优先于旧泛银发骑士方向。
       selected_candidate: assets/characters/black_eagles/Edelgard/war/selected.png
     emperor:
       status: candidates_v1
@@ -123,11 +156,13 @@ characters:
       notes: 学院篇新版候选已生成。
       selected_candidate: assets/characters/black_eagles/Hubert/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/black_eagles/Hubert/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Hubert/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Hubert/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Hubert/war/candidates_reference_v1
+      latest_candidate: assets/characters/black_eagles/Hubert/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Hubert/war/candidates_v1
+      notes: official war reference pass 已同步 selected；遮眼黑发、高领黑军装、披风和青绿色斜带优先于旧泛黑暗参谋方向。
       selected_candidate: assets/characters/black_eagles/Hubert/war/selected.png
 - id: Ferdinand
   name_zh: 菲尔迪南特
@@ -143,11 +178,13 @@ characters:
       notes: 学院篇新版候选已生成。
       selected_candidate: assets/characters/black_eagles/Ferdinand/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/black_eagles/Ferdinand/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Ferdinand/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Ferdinand/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Ferdinand/war/candidates_reference_v1
+      latest_candidate: assets/characters/black_eagles/Ferdinand/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Ferdinand/war/candidates_v1
+      notes: official war reference pass 已同步 selected；长橙发、银甲、红黑贵族军装和金色胸饰优先于旧短发红披风士兵方向。
       selected_candidate: assets/characters/black_eagles/Ferdinand/war/selected.png
 - id: Linhardt
   name_zh: 林哈尔特
@@ -163,11 +200,13 @@ characters:
       notes: 学院篇新版候选已生成。
       selected_candidate: assets/characters/black_eagles/Linhardt/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/black_eagles/Linhardt/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Linhardt/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Linhardt/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Linhardt/war/candidates_reference_v1
+      latest_candidate: assets/characters/black_eagles/Linhardt/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/black_eagles/Linhardt/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；青绿色贵族学者外套、白衬衫和困倦青年感优先于 candidate_01 的黑袍方向。
       selected_candidate: assets/characters/black_eagles/Linhardt/war/selected.png
 - id: Caspar
   name_zh: 卡斯帕尔
@@ -183,11 +222,13 @@ characters:
       notes: 学院篇新版候选已生成。
       selected_candidate: assets/characters/black_eagles/Caspar/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/black_eagles/Caspar/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Caspar/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Caspar/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Caspar/war/candidates_reference_v1
+      latest_candidate: assets/characters/black_eagles/Caspar/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/black_eagles/Caspar/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；青蓝短发、银甲、酒红内层和热血近战轮廓优先于 candidate_01 的黑皮甲方向。
       selected_candidate: assets/characters/black_eagles/Caspar/war/selected.png
 - id: Bernadetta
   name_zh: 贝尔娜提塔
@@ -203,11 +244,13 @@ characters:
       notes: 学院篇新版候选已生成。
       selected_candidate: assets/characters/black_eagles/Bernadetta/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/black_eagles/Bernadetta/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Bernadetta/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Bernadetta/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Bernadetta/war/candidates_reference_v1
+      latest_candidate: assets/characters/black_eagles/Bernadetta/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/black_eagles/Bernadetta/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；紫发、金色胸前面板、紫外层和紧张弓手姿态优先于 candidate_01 的暗色逃亡者方向。
       selected_candidate: assets/characters/black_eagles/Bernadetta/war/selected.png
 - id: Dorothea
   name_zh: 多洛缇雅
@@ -224,11 +267,13 @@ characters:
       notes: reference v1 已生成，官方学院篇服装识别强于 v3。
       selected_candidate: assets/characters/black_eagles/Dorothea/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/black_eagles/Dorothea/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Dorothea/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Dorothea/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Dorothea/war/candidates_reference_v1
+      latest_candidate: assets/characters/black_eagles/Dorothea/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/black_eagles/Dorothea/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；红黑歌姬法师服、长棕发、舞台气质和乐谱道具优先于 candidate_01 的保守黑红法师方向。
       selected_candidate: assets/characters/black_eagles/Dorothea/war/selected.png
 - id: Petra
   name_zh: 佩托拉
@@ -236,20 +281,22 @@ characters:
   path: assets/characters/black_eagles/Petra
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_skin_tone_fix_v2
       path: assets/characters/black_eagles/Petra/academy
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Petra/academy/candidates_reference_v1
-      latest_candidate: assets/characters/black_eagles/Petra/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/black_eagles/Petra/academy/candidates_v3
-      notes: reference v1 已生成，官方学院篇发型、脸纹和服装识别强于 v3。
+      candidate_set: assets/characters/black_eagles/Petra/academy/candidates_skin_tone_fix_v2
+      latest_candidate: assets/characters/black_eagles/Petra/academy/candidates_skin_tone_fix_v2/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Petra/academy/candidates_reference_v1
+      notes: skin tone fix v2 已同步 selected；回应观众反馈，肤色锁定为官方暖褐/蜜棕，不再偏深黑，同时保留学院篇紫发、脸纹、制服和敏捷气质。
       selected_candidate: assets/characters/black_eagles/Petra/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_skin_tone_fix_v2
       path: assets/characters/black_eagles/Petra/war
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Petra/war/candidates_v1
-      latest_candidate: assets/characters/black_eagles/Petra/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/black_eagles/Petra/war/candidates_skin_tone_fix_v2
+      latest_candidate: assets/characters/black_eagles/Petra/war/candidates_skin_tone_fix_v2/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Petra/war/candidates_reference_v1
+      notes: skin tone fix v2 已同步 selected；回应观众反馈，战争篇肤色锁定为官方暖褐/蜜棕，不再偏深黑，同时保留紫色高马尾、金橙首饰、布里基特猎手服和红黑轻装。
       selected_candidate: assets/characters/black_eagles/Petra/war/selected.png
 - id: Dimitri
   name_zh: 迪米特里
@@ -285,20 +332,22 @@ characters:
   path: assets/characters/blue_lions/Dedue
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_robust_v2
       path: assets/characters/blue_lions/Dedue/academy
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Dedue/academy/candidates_reference_v1
-      latest_candidate: assets/characters/blue_lions/Dedue/academy/candidates_reference_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Dedue/academy/candidates_robust_v2
+      latest_candidate: assets/characters/blue_lions/Dedue/academy/candidates_robust_v2/candidate_01.png
       previous_candidate_set: assets/characters/blue_lions/Dedue/academy/candidates_v3
-      notes: reference v1 已生成，官方白发低马尾、耳饰和学院制服识别强于 v3。
+      notes: robust v2 已同步 selected；回应观众反馈，强化宽肩、厚胸、粗壮手臂和盾墙体格，同时保留白发、耳饰和青狮学院制服。
       selected_candidate: assets/characters/blue_lions/Dedue/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_robust_v2
       path: assets/characters/blue_lions/Dedue/war
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Dedue/war/candidates_v1
-      latest_candidate: assets/characters/blue_lions/Dedue/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Dedue/war/candidates_robust_v2
+      latest_candidate: assets/characters/blue_lions/Dedue/war/candidates_robust_v2/candidate_01.png
+      previous_candidate_set: assets/characters/blue_lions/Dedue/war/candidates_v1
+      notes: robust v2 已同步 selected；在白/蓝护甲、蓝颈部围巾、彩色绳结基础上强化重装守护者体格，禁止瘦窄或普通士兵化。
       selected_candidate: assets/characters/blue_lions/Dedue/war/selected.png
 - id: Felix
   name_zh: 菲力克斯
@@ -306,20 +355,22 @@ characters:
   path: assets/characters/blue_lions/Felix
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_grounded_face_v3
       path: assets/characters/blue_lions/Felix/academy
       needs_regeneration: false
       candidate_set: assets/characters/blue_lions/Felix/academy/candidates_reference_v1
       latest_candidate: assets/characters/blue_lions/Felix/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/blue_lions/Felix/academy/candidates_v3
-      notes: reference v1 已生成，官方束发、白袖和黑背心识别强于 v3。
+      previous_candidate_set: assets/characters/blue_lions/Felix/academy/candidates_youth_beauty_v2
+      notes: grounded face v3 已同步 selected；回应观众反馈，撤回 youth_beauty_v2 的二次元/AI 偶像脸方向，恢复更自然的真人电影脸，同时保留束发、白袖、黑背心和剑士身份。
       selected_candidate: assets/characters/blue_lions/Felix/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/blue_lions/Felix/war
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Felix/war/candidates_v1
-      latest_candidate: assets/characters/blue_lions/Felix/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Felix/war/candidates_reference_v1
+      latest_candidate: assets/characters/blue_lions/Felix/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/blue_lions/Felix/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；棕外套、毛领、青绿色内搭和轻甲剑士轮廓优先于 candidate_01 的黑甲剑士方向。
       selected_candidate: assets/characters/blue_lions/Felix/war/selected.png
 - id: Ashe
   name_zh: 亚修
@@ -333,14 +384,16 @@ characters:
       candidate_set: assets/characters/blue_lions/Ashe/academy/candidates_reference_v1
       latest_candidate: assets/characters/blue_lions/Ashe/academy/candidates_reference_v1/candidate_01.png
       previous_candidate_set: assets/characters/blue_lions/Ashe/academy/candidates_v3
-      notes: reference v1 已生成，官方蓝色 hood、米色胸前面板、短裤和弓箭身份识别强于 v3。
+      notes: reference v1 已同步 selected；回应观众反馈，学院篇锁定官方浅灰紫/银灰短发、蓝色 hood、米色胸前面板、短裤和弓箭身份，禁止回到暖浅棕或金棕发。
       selected_candidate: assets/characters/blue_lions/Ashe/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/blue_lions/Ashe/war
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Ashe/war/candidates_v1
-      latest_candidate: assets/characters/blue_lions/Ashe/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Ashe/war/candidates_reference_v1
+      latest_candidate: assets/characters/blue_lions/Ashe/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/blue_lions/Ashe/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；银灰发、紫围巾、酒红轻甲和温和弓手气质优先于 candidate_01 的棕发蓝斗篷方向。
       selected_candidate: assets/characters/blue_lions/Ashe/war/selected.png
 - id: Sylvain
   name_zh: 希尔凡
@@ -357,11 +410,13 @@ characters:
       notes: reference v1 已生成，官方红橙发、开襟制服和随性姿态识别强于 v3。
       selected_candidate: assets/characters/blue_lions/Sylvain/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/blue_lions/Sylvain/war
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Sylvain/war/candidates_v1
-      latest_candidate: assets/characters/blue_lions/Sylvain/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Sylvain/war/candidates_reference_v1
+      latest_candidate: assets/characters/blue_lions/Sylvain/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/blue_lions/Sylvain/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；银胸甲、暗肩甲、青绿色领口和长枪骑士轮廓优先于 candidate_01 的长外套贵族方向。
       selected_candidate: assets/characters/blue_lions/Sylvain/war/selected.png
 - id: Mercedes
   name_zh: 梅尔赛德司
@@ -378,11 +433,13 @@ characters:
       notes: reference v1 已生成，官方侧马尾、白领巾和米色披肩识别强于 v3。
       selected_candidate: assets/characters/blue_lions/Mercedes/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_grounded_face_v3
       path: assets/characters/blue_lions/Mercedes/war
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Mercedes/war/candidates_v1
-      latest_candidate: assets/characters/blue_lions/Mercedes/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Mercedes/war/candidates_reference_v1
+      latest_candidate: assets/characters/blue_lions/Mercedes/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/blue_lions/Mercedes/war/candidates_youth_beauty_v2
+      notes: grounded face v3 已同步 selected；回应观众反馈，撤回 youth_beauty_v2 的二次元/AI 娃娃脸方向，恢复更自然的真人电影脸，同时保留战争篇修女帽、白纱、白高领、棕黑衣身和蓝耳坠。
       selected_candidate: assets/characters/blue_lions/Mercedes/war/selected.png
 - id: Annette
   name_zh: 雅妮特
@@ -399,11 +456,13 @@ characters:
       notes: reference v1 已生成，官方双侧卷发、米色胸前面板和学生表情识别强于 v3。
       selected_candidate: assets/characters/blue_lions/Annette/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/blue_lions/Annette/war
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Annette/war/candidates_v1
-      latest_candidate: assets/characters/blue_lions/Annette/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Annette/war/candidates_reference_v1
+      latest_candidate: assets/characters/blue_lions/Annette/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/blue_lions/Annette/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；橙披肩、白毛边、蓝蝴蝶结和年轻学者法师轮廓优先于 candidate_01 的深蓝法师方向。
       selected_candidate: assets/characters/blue_lions/Annette/war/selected.png
 - id: Ingrid
   name_zh: 英谷莉特
@@ -420,11 +479,13 @@ characters:
       notes: reference v1 已生成，官方全身短裙、蓝色长袜、长枪和学院制服识别强于 v3。
       selected_candidate: assets/characters/blue_lions/Ingrid/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/blue_lions/Ingrid/war
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Ingrid/war/candidates_v1
-      latest_candidate: assets/characters/blue_lions/Ingrid/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/blue_lions/Ingrid/war/candidates_reference_v1
+      latest_candidate: assets/characters/blue_lions/Ingrid/war/candidates_reference_v1/candidate_02.png
+      previous_candidate_set: assets/characters/blue_lions/Ingrid/war/candidates_v1
+      notes: candidate_02 已按官方战争篇立绘重做并同步 selected；棕毛领、银灰甲、白高领和青绿色饰件优先于 candidate_01 的泛蓝骑士方向。
       selected_candidate: assets/characters/blue_lions/Ingrid/war/selected.png
 - id: Claude
   name_zh: 库罗德
@@ -441,11 +502,13 @@ characters:
       notes: v3 已符合学院篇少年感方向；最终仍需审片后复制为 selected.png。
       selected_candidate: assets/characters/golden_deer/Claude/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Claude/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Claude/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Claude/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Claude/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Claude/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Claude/war/candidates_v1
+      notes: official war reference pass 已同步 selected；白领巾、金肩甲、金黑联盟领袖服和年轻谋略家气质强于旧泛棕斗篷方向。
       selected_candidate: assets/characters/golden_deer/Claude/war/selected.png
     leader:
       status: candidates_v1
@@ -469,11 +532,13 @@ characters:
       notes: reference v1 已生成，官方紫色贵族 bob、红玫瑰和学院制服识别强于 v3。
       selected_candidate: assets/characters/golden_deer/Lorenz/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Lorenz/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Lorenz/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Lorenz/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Lorenz/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Lorenz/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Lorenz/war/candidates_v1
+      notes: official war reference pass 已同步 selected；紫长发、银紫贵族甲和红玫瑰胸针强于旧泛紫甲骑士方向。
       selected_candidate: assets/characters/golden_deer/Lorenz/war/selected.png
 - id: Raphael
   name_zh: 拉斐尔
@@ -490,11 +555,13 @@ characters:
       notes: reference v1 已生成，官方宽肩体格、白衬衫和黑背带识别强于 v3。
       selected_candidate: assets/characters/golden_deer/Raphael/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Raphael/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Raphael/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Raphael/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Raphael/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Raphael/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Raphael/war/candidates_v1
+      notes: official war reference pass 已同步 selected；短金发、开朗壮汉脸、黄黑胸前绑带和重拳斗士轮廓强于旧泛重甲壮汉方向。
       selected_candidate: assets/characters/golden_deer/Raphael/war/selected.png
 - id: Ignatz
   name_zh: 伊古纳兹
@@ -511,11 +578,13 @@ characters:
       notes: reference v1 已生成，官方浅绿发、圆眼镜和艺术学生气质识别强于 v3。
       selected_candidate: assets/characters/golden_deer/Ignatz/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Ignatz/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Ignatz/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Ignatz/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Ignatz/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Ignatz/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Ignatz/war/candidates_v1
+      notes: official war reference pass 已同步 selected；圆眼镜、浅绿发、绿斗篷、白衬衫和画册/弓手身份强于旧泛暗色游侠方向。
       selected_candidate: assets/characters/golden_deer/Ignatz/war/selected.png
 - id: Lysithea
   name_zh: 莉丝缇亚
@@ -532,11 +601,13 @@ characters:
       notes: reference v1 已生成，官方白发、粉眼和年少天才气质识别强于 v3。
       selected_candidate: assets/characters/golden_deer/Lysithea/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Lysithea/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Lysithea/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Lysithea/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Lysithea/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Lysithea/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Lysithea/war/candidates_v1
+      notes: official war reference pass 已同步 selected；年轻脸、白紫长发、紫黑法师服和书本/魔法学者身份强于旧泛黑袍法师方向。
       selected_candidate: assets/characters/golden_deer/Lysithea/war/selected.png
 - id: Marianne
   name_zh: 玛莉安奴
@@ -553,11 +624,13 @@ characters:
       notes: reference v1 已生成，官方浅蓝发、编发冠和忧郁气质识别强于 v3。
       selected_candidate: assets/characters/golden_deer/Marianne/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Marianne/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Marianne/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Marianne/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Marianne/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Marianne/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Marianne/war/candidates_v1
+      notes: official war reference pass 已同步 selected；蓝发编髻、金色胸饰、白高领和海军蓝神职服强于旧灰暗战场少女方向。
       selected_candidate: assets/characters/golden_deer/Marianne/war/selected.png
 - id: Hilda
   name_zh: 希尔妲
@@ -565,20 +638,22 @@ characters:
   path: assets/characters/golden_deer/Hilda
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_grounded_twin_tail_v3
       path: assets/characters/golden_deer/Hilda/academy
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_reference_v1
-      latest_candidate: assets/characters/golden_deer/Hilda/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_v3
-      notes: reference v1 已生成，官方粉色双马尾、短裙、蓝袜和斧头识别强于 v3。
+      candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_grounded_twin_tail_v3
+      latest_candidate: assets/characters/golden_deer/Hilda/academy/candidates_grounded_twin_tail_v3/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_twin_tail_fix_v2
+      notes: grounded twin-tail v3 已同步 selected；保留学院篇官方粉色双马尾方向，同时降低 twin-tail fix v2 的娃娃脸/AI 精修感，转向更自然的真人电影选角。
       selected_candidate: assets/characters/golden_deer/Hilda/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Hilda/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Hilda/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Hilda/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Hilda/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Hilda/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Hilda/war/candidates_v1
+      notes: official war reference pass 已同步 selected；粉色高马尾、红黑战斗服和斧战士气质强于旧泛粉发贵族方向。
       selected_candidate: assets/characters/golden_deer/Hilda/war/selected.png
 - id: Leonie
   name_zh: 雷欧妮
@@ -595,11 +670,13 @@ characters:
       notes: reference v1 已生成，官方短橙发、年轻女性身份和佣兵学生气质识别强于 v4。
       selected_candidate: assets/characters/golden_deer/Leonie/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/golden_deer/Leonie/war
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Leonie/war/candidates_v1
-      latest_candidate: assets/characters/golden_deer/Leonie/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/golden_deer/Leonie/war/candidates_reference_v1
+      latest_candidate: assets/characters/golden_deer/Leonie/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Leonie/war/candidates_v1
+      notes: official war reference pass 已同步 selected；短橙发、棕斗篷、蓝内层和佣兵猎手气质强于旧泛女佣兵方向。
       selected_candidate: assets/characters/golden_deer/Leonie/war/selected.png
 - id: Rhea
   name_zh: 蕾雅
@@ -607,18 +684,22 @@ characters:
   path: assets/characters/church_of_seiros/Rhea
   eras:
     academy:
-      status: candidates_v1
+      status: candidates_youth_v2
       path: assets/characters/church_of_seiros/Rhea/academy
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Rhea/academy/candidates_v1
-      latest_candidate: assets/characters/church_of_seiros/Rhea/academy/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/church_of_seiros/Rhea/academy/candidates_youth_v2
+      latest_candidate: assets/characters/church_of_seiros/Rhea/academy/candidates_youth_v2/candidate_01.png
+      previous_candidate_set: assets/characters/church_of_seiros/Rhea/academy/candidates_v1
+      notes: youth v2 已同步 selected；按官方大司教参考修正为二十多岁外观，龙族古老性通过神圣威压表达，不通过老态表达。
       selected_candidate: assets/characters/church_of_seiros/Rhea/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_youth_v2
       path: assets/characters/church_of_seiros/Rhea/war
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Rhea/war/candidates_v1
-      latest_candidate: assets/characters/church_of_seiros/Rhea/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/church_of_seiros/Rhea/war/candidates_youth_v2
+      latest_candidate: assets/characters/church_of_seiros/Rhea/war/candidates_youth_v2/candidate_01.png
+      previous_candidate_set: assets/characters/church_of_seiros/Rhea/war/candidates_v1
+      notes: youth v2 已同步 selected；无独立常规人形 war portrait，按 official archbishop reference 定义为 late-war command 状态。战争压力只通过指挥室背景、光线和眼神表达，禁止皱纹、眼袋、疲惫纹和中年骨相。
       selected_candidate: assets/characters/church_of_seiros/Rhea/war/selected.png
 - id: Seteth
   name_zh: 西提司
@@ -626,20 +707,22 @@ characters:
   path: assets/characters/church_of_seiros/Seteth
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth_beauty_v2
       path: assets/characters/church_of_seiros/Seteth/academy
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Seteth/academy/candidates_reference_v1
-      latest_candidate: assets/characters/church_of_seiros/Seteth/academy/candidates_reference_v1/candidate_01.png
+      candidate_set: assets/characters/church_of_seiros/Seteth/academy/candidates_youth_beauty_v2
+      latest_candidate: assets/characters/church_of_seiros/Seteth/academy/candidates_youth_beauty_v2/candidate_01.png
       previous_candidate_set: assets/characters/church_of_seiros/Seteth/academy/candidates_v1
-      notes: reference v1 已生成，官方绿发、深蓝教会长外套、金饰和米色披风内衬识别强于 candidates_v1。
+      notes: youth beauty v2 已同步 selected；修正旧 selected 全身构图脸小问题，保留绿发、深蓝教会长外套、金饰和米色披风内衬，气质为精致权威而非老人化。
       selected_candidate: assets/characters/church_of_seiros/Seteth/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/church_of_seiros/Seteth/war
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Seteth/war/candidates_v1
-      latest_candidate: assets/characters/church_of_seiros/Seteth/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/church_of_seiros/Seteth/war/candidates_reference_v1
+      latest_candidate: assets/characters/church_of_seiros/Seteth/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/church_of_seiros/Seteth/war/candidates_v1
+      notes: reference v1 已生成并同步 selected；无独立 war portrait，沿用 official academy 识别点做战时指挥版，深蓝高领官服、金线胸饰、米色披风内衬和绿发短须优先于旧白袍军师方向。
       selected_candidate: assets/characters/church_of_seiros/Seteth/war/selected.png
 - id: Flayn
   name_zh: 芙莲
@@ -656,11 +739,13 @@ characters:
       notes: reference v1 已生成，官方薄荷绿长发、双金色发饰、黑色宽袖和米色蝴蝶结识别强于 candidates_v1。
       selected_candidate: assets/characters/church_of_seiros/Flayn/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/church_of_seiros/Flayn/war
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Flayn/war/candidates_v1
-      latest_candidate: assets/characters/church_of_seiros/Flayn/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/church_of_seiros/Flayn/war/candidates_reference_v1
+      latest_candidate: assets/characters/church_of_seiros/Flayn/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/church_of_seiros/Flayn/war/candidates_v1
+      notes: reference v1 已生成并同步 selected；无独立 war portrait，沿用 official academy 识别点做战时避难/医护版，薄荷长发、双金发饰、黑宽袖、米色蝴蝶结和年轻脸优先于旧绿斗篷圣女方向。
       selected_candidate: assets/characters/church_of_seiros/Flayn/war/selected.png
 - id: Hanneman
   name_zh: 汉尼曼
@@ -683,29 +768,29 @@ characters:
       candidate_set: assets/characters/church_of_seiros/Hanneman/war/candidates_reference_v1
       latest_candidate: assets/characters/church_of_seiros/Hanneman/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/church_of_seiros/Hanneman/war/selected.png
-      notes: 战争篇补齐；保留学者识别点，服装转为战时旅行/法师外套。
+      notes: 战争篇补齐；保留学者识别点，服装转为战时旅行/法师外套。2026-07-12 已同步 selected 到 candidate_01。
 - id: Manuela
   name_zh: 玛努艾拉
   faction: church_of_seiros
   path: assets/characters/church_of_seiros/Manuela
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth_elegance_v2
       path: assets/characters/church_of_seiros/Manuela/academy
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Manuela/academy/candidates_reference_v1
-      latest_candidate: assets/characters/church_of_seiros/Manuela/academy/candidates_reference_v1/candidate_02.png
+      candidate_set: assets/characters/church_of_seiros/Manuela/academy/candidates_youth_elegance_v2
+      latest_candidate: assets/characters/church_of_seiros/Manuela/academy/candidates_youth_elegance_v2/candidate_01.png
       previous_candidate_set: assets/characters/church_of_seiros/Manuela/academy/candidates_v1
-      notes: reference v1 已生成，candidate_02 的官方短波波发、颈饰、白肩披、橙色绑带和教鞭识别强于 candidates_v1。
+      notes: youth elegance v2 已同步 selected；保留官方短波波发、泪痣、颈饰、白肩披、橙色绑带和教鞭，去掉偏老疲态，保持优雅年轻教师感。
       selected_candidate: assets/characters/church_of_seiros/Manuela/academy/selected.png
     war:
-      status: candidates_reference_v1
+      status: candidates_youth_elegance_v2
       path: assets/characters/church_of_seiros/Manuela/war
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Manuela/war/candidates_reference_v1
-      latest_candidate: assets/characters/church_of_seiros/Manuela/war/candidates_reference_v1/candidate_01.png
+      candidate_set: assets/characters/church_of_seiros/Manuela/war/candidates_youth_elegance_v2
+      latest_candidate: assets/characters/church_of_seiros/Manuela/war/candidates_youth_elegance_v2/candidate_01.png
       selected_candidate: assets/characters/church_of_seiros/Manuela/war/selected.png
-      notes: 战争篇补齐；保留医师/歌剧演员识别点，服装转为战时医务与旅行披风。
+      notes: youth elegance v2 已同步 selected；保留医师/教师识别点和黑红战时服装，但去掉额纹、眼袋、老态与疲惫中年感。
 - id: Alois
   name_zh: 阿洛伊斯
   faction: church_of_seiros
@@ -727,7 +812,7 @@ characters:
       candidate_set: assets/characters/church_of_seiros/Alois/war/candidates_reference_v1
       latest_candidate: assets/characters/church_of_seiros/Alois/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/church_of_seiros/Alois/war/selected.png
-      notes: 战争篇补齐；教会骑士甲和开朗老兵气质清楚。
+      notes: 战争篇补齐；教会骑士甲和开朗老兵气质清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Catherine
   name_zh: 卡多莉奴
   faction: church_of_seiros
@@ -749,7 +834,7 @@ characters:
       candidate_set: assets/characters/church_of_seiros/Catherine/war/candidates_reference_v1
       latest_candidate: assets/characters/church_of_seiros/Catherine/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/church_of_seiros/Catherine/war/selected.png
-      notes: 战争篇补齐；雷霆骑士、白灰教会甲和剑士气质清楚。
+      notes: 战争篇补齐；雷霆骑士、白灰教会甲和剑士气质清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Shamir
   name_zh: 萨米亚
   faction: church_of_seiros
@@ -771,7 +856,7 @@ characters:
       candidate_set: assets/characters/church_of_seiros/Shamir/war/candidates_reference_v1
       latest_candidate: assets/characters/church_of_seiros/Shamir/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/church_of_seiros/Shamir/war/selected.png
-      notes: 战争篇补齐；冷静狙击手、深色弓手装和教会佣兵气质清楚。
+      notes: 战争篇补齐；冷静狙击手、深色弓手装和教会佣兵气质清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Cyril
   name_zh: 西里尔
   faction: church_of_seiros
@@ -787,11 +872,13 @@ characters:
       notes: reference v1 已生成，官方棕肤少年、米色工作服和勤恳气质识别强于 candidates_v1。
       selected_candidate: assets/characters/church_of_seiros/Cyril/academy/selected.png
     war:
-      status: candidates_v1
+      status: candidates_reference_v1
       path: assets/characters/church_of_seiros/Cyril/war
       needs_regeneration: false
-      candidate_set: assets/characters/church_of_seiros/Cyril/war/candidates_v1
-      latest_candidate: assets/characters/church_of_seiros/Cyril/war/candidates_v1/candidate_01.png
+      candidate_set: assets/characters/church_of_seiros/Cyril/war/candidates_reference_v1
+      latest_candidate: assets/characters/church_of_seiros/Cyril/war/candidates_reference_v1/candidate_01.png
+      previous_candidate_set: assets/characters/church_of_seiros/Cyril/war/candidates_v1
+      notes: official war reference pass 已同步 selected；棕肤少年、短深发、青色高领、棕肩甲和箭袋识别强于旧成年绿斗篷弓手方向。
       selected_candidate: assets/characters/church_of_seiros/Cyril/war/selected.png
 - id: Gilbert
   name_zh: 吉尔伯特
@@ -814,7 +901,7 @@ characters:
       candidate_set: assets/characters/church_of_seiros/Gilbert/war/candidates_reference_v1
       latest_candidate: assets/characters/church_of_seiros/Gilbert/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/church_of_seiros/Gilbert/war/selected.png
-      notes: 战争篇补齐；法嘉斯老骑士、重甲和悔罪感清楚。
+      notes: 战争篇补齐；法嘉斯老骑士、重甲和悔罪感清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Jeritza
   name_zh: 杰里扎
   faction: church_of_seiros
@@ -836,7 +923,7 @@ characters:
       candidate_set: assets/characters/church_of_seiros/Jeritza/war/candidates_reference_v1
       latest_candidate: assets/characters/church_of_seiros/Jeritza/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/church_of_seiros/Jeritza/war/selected.png
-      notes: 战争篇补齐；Three Hopes 参考，保留苍白金发、黑红帝国军装和死神骑士压迫感。
+      notes: 战争篇补齐；Three Hopes 参考，保留苍白金发、黑红帝国军装和死神骑士压迫感。2026-07-12 已同步 selected 到 candidate_01。
 - id: SeirosSoldier
   name_zh: 赛罗司士兵
   faction: church_of_seiros
@@ -955,6 +1042,28 @@ characters:
       path: assets/characters/extras/BanditSoldier/legacy_ep01
       needs_regeneration: false
       selected_candidate: assets/characters/extras/BanditSoldier/selected.png
+- id: ChurchKnightExtra
+  name_zh: 教会骑士群演
+  faction: extras
+  path: assets/characters/extras/ChurchKnightExtra
+  eras:
+    legacy_ep02:
+      status: ready_for_ep02
+      path: assets/characters/extras/ChurchKnightExtra/legacy_ep02
+      needs_regeneration: false
+      selected_candidate: assets/characters/extras/ChurchKnightExtra/legacy_ep02/selected.png
+      notes: EP02 广场、山道护送与守卫群演；白银教会甲、蓝白披挂、长枪和头盔识别清楚。
+- id: AcademyStudentExtra
+  name_zh: 士官学校学生群演
+  faction: extras
+  path: assets/characters/extras/AcademyStudentExtra
+  eras:
+    legacy_ep02:
+      status: ready_for_ep02
+      path: assets/characters/extras/AcademyStudentExtra/legacy_ep02
+      needs_regeneration: false
+      selected_candidate: assets/characters/extras/AcademyStudentExtra/legacy_ep02/selected.png
+      notes: EP02 庭院、回廊、训练场背景学生群演；黑白学院制服与红蓝黄三学级色带可用于人群密度。
 - id: Yuri
   name_zh: 尤里
   faction: ashen_wolves
@@ -975,7 +1084,7 @@ characters:
       candidate_set: assets/characters/ashen_wolves/Yuri/war/candidates_reference_v1
       latest_candidate: assets/characters/ashen_wolves/Yuri/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/ashen_wolves/Yuri/war/selected.png
-      notes: 战争篇补齐；Three Hopes 参考，成年地下领袖和紫黑盗贼装识别清楚。
+      notes: 战争篇补齐；Three Hopes 参考，成年地下领袖和紫黑盗贼装识别清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Balthus
   name_zh: 巴鲁塔扎尔
   faction: ashen_wolves
@@ -996,7 +1105,7 @@ characters:
       candidate_set: assets/characters/ashen_wolves/Balthus/war/candidates_reference_v1
       latest_candidate: assets/characters/ashen_wolves/Balthus/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/ashen_wolves/Balthus/war/selected.png
-      notes: 战争篇补齐；Three Hopes 参考，成年拳斗士体格、开放式战斗服和豪放气质清楚。
+      notes: 战争篇补齐；Three Hopes 参考，成年拳斗士体格、开放式战斗服和豪放气质清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Constance
   name_zh: 康丝坦洁
   faction: ashen_wolves
@@ -1017,7 +1126,7 @@ characters:
       candidate_set: assets/characters/ashen_wolves/Constance/war/candidates_reference_v1
       latest_candidate: assets/characters/ashen_wolves/Constance/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/ashen_wolves/Constance/war/selected.png
-      notes: 战争篇补齐；Three Hopes 小头像参考，成年贵族术士、金色卷发和黑白紫法袍清楚。
+      notes: 战争篇补齐；Three Hopes 小头像参考，成年贵族术士、金色卷发和黑白紫法袍清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Hapi
   name_zh: 哈琵
   faction: ashen_wolves
@@ -1038,7 +1147,7 @@ characters:
       candidate_set: assets/characters/ashen_wolves/Hapi/war/candidates_reference_v1
       latest_candidate: assets/characters/ashen_wolves/Hapi/war/candidates_reference_v1/candidate_01.png
       selected_candidate: assets/characters/ashen_wolves/Hapi/war/selected.png
-      notes: 战争篇补齐；Three Hopes 参考，成年疲惫表情、粉紫长发和暗色地下法师服清楚。
+      notes: 战争篇补齐；Three Hopes 参考，成年疲惫表情、粉紫长发和暗色地下法师服清楚。2026-07-12 已同步 selected 到 candidate_01。
 - id: Anna
   name_zh: 安娜
   faction: merchants

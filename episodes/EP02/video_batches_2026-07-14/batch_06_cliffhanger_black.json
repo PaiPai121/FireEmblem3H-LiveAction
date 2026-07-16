@@ -1,0 +1,42 @@
+{
+  "batch_id": "batch_06_cliffhanger_black",
+  "title": "Conspiracy cliffhanger and black hold",
+  "shots": [
+    {
+      "shot": "Shot040",
+      "title": "Kostas Kneels",
+      "duration": "18 seconds",
+      "still": "episodes/EP02/generated/p0_v1/Shot040_KostasKneels.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p0_spine_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Kostas kneels in wet stone and low fog, furious and afraid, looking up from below. The Flame Emperor stands above him in the red horned mask and black-red cloak, calm and dominant. Torchlight flickers against ruins and armor. The power relationship is clear: Kostas is disposable, the masked figure is in control.",
+      "camera": "low-angle slow push from Kostas toward the Flame Emperor silhouette.",
+      "avoid": "gore, torture imagery, monster redesign, exposed identity. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot041",
+      "title": "Flame Emperor Mask Close-Up",
+      "duration": "14 seconds",
+      "still": "episodes/EP02/generated/p0_v1/Shot041_FlameEmperorMask.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p0_spine_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "The Flame Emperor mask dominates the frame in cold fog and low torchlight. The figure remains still, calculating, and unreadable. Wet stone blurs behind the mask. End the episode on the masked presence, with only slight cloak movement and firelight reflection.",
+      "camera": "very slow push into the mask, ending in a hard cut to black.",
+      "avoid": "identity reveal, ordinary knight redesign, readable text, exaggerated monster movement. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot042",
+      "title": "Hard Cut To Black",
+      "duration": "4 seconds",
+      "still": "",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "black-only, no still",
+      "video_prompt": "Hard cut to black after the Flame Emperor mask close-up. Hold black with low-frequency sound design. No image content, no text, no logo.",
+      "camera": "none.",
+      "avoid": "credits, title card, UI, watermark. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "batch_id": "batch_03_blue_lions_intro_class",
+  "title": "Blue Lions intro and classroom bridge",
+  "payloads": [
+    {
+      "shot": "Shot011",
+      "title": "Black Eagles Comparison",
+      "duration_seconds": 10,
+      "image_path": "episodes/EP02/generated/p1_student_intro_v1/Shot011_BlackEaglesComparison.png",
+      "prompt": "Slow controlled push-in across the academy courtyard. Edelgard remains composed in the foreground while Hubert stands slightly behind like a quiet shadow. Background students cross softly out of focus. Keep the mood political and restrained, with no overt threat. Minimal facial movement: Edelgard watches, Hubert observes.\n\nCamera: slow push-in, long lens, stable.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: villain posing, sudden gestures, war costumes, text.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot011.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot011.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot012",
+      "title": "Golden Deer Comparison",
+      "duration_seconds": 10,
+      "image_path": "episodes/EP02/generated/p1_student_intro_v1/Shot012_GoldenDeerComparison.png",
+      "prompt": "Claude shifts his weight casually near the stone archway and gives a small knowing smile toward Byleth. Background Golden Deer students continue quiet conversation. The movement should feel relaxed but observant, as if Claude is testing the new teacher without saying much.\n\nCamera: slight lateral drift, relaxed handheld stability.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: comic exaggeration, broad waving, modern charm gestures.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot012.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot012.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot013",
+      "title": "Blue Lions Lineup",
+      "duration_seconds": 12,
+      "image_path": "episodes/EP02/generated/p1_grounded_identity_v3/Shot013_BlueLionsLineup_grounded_v3.png",
+      "prompt": "Slow lateral move across the Blue Lions group in the courtyard. Each student makes a small readable reaction: Dimitri attentive, Dedue still and protective, Felix guarded, Sylvain relaxed, Mercedes warm, Annette eager, Ashe shy, Ingrid disciplined. Keep identities stable and youthful.\n\nCamera: smooth side glide, medium-wide.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: face morphing, characters changing order, war-phase styling.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot013.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot013.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot014",
+      "title": "Dimitri Greeting",
+      "duration_seconds": 16,
+      "image_path": "episodes/EP02/generated/p1_student_intro_v1/Shot014_DimitriGreeting.png",
+      "prompt": "Dimitri steps forward and bows with formal sincerity while Dedue remains quietly behind him. Byleth stands calm in the foreground. Dimitri's expression is polite, responsible, and young, with only a faint weight behind the courtesy.\n\nCamera: gentle push from Byleth's side toward Dimitri.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: royal arrogance, older king styling, dramatic combat tension.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot014.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot014.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot015",
+      "title": "Felix / Sylvain Exchange",
+      "duration_seconds": 12,
+      "image_path": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot015_FelixSylvainExchange_v2.png",
+      "prompt": "Felix holds a cold, cutting gaze toward Byleth while Sylvain softens the tension with relaxed body language. Felix should move very little: a slight head turn or narrowed eyes is enough. Sylvain gives a small sideways glance, trying to keep the exchange socially smooth.\n\nCamera: steady medium two-shot with Byleth shoulder foreground.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: Felix smiling, aggressive lunging, adult hardboiled styling.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot015.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot015.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot016",
+      "title": "Blue Lions Reaction Montage",
+      "duration_seconds": 14,
+      "image_path": "episodes/EP02/generated/p1_grounded_identity_v3/Shot016_BlueLionsReaction_grounded_v3.png",
+      "prompt": "Create a soft reaction montage from the still: Mercedes offers a gentle reassuring look, Annette reacts with nervous energy, Ashe watches earnestly, and Ingrid remains serious and attentive. Keep Mercedes youthful and warm; keep Ashe boyish with pale ash-gray hair.\n\nCamera: subtle rack focus between faces, no fast cuts inside the generated clip.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: aging Mercedes, brown- or blond-haired Ashe, overdramatic expressions.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot016.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot016.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot022",
+      "title": "First Class Wide",
+      "duration_seconds": 10,
+      "image_path": "episodes/EP02/generated/p1_student_intro_v1/Shot022_FirstClassWide.png",
+      "prompt": "Byleth stands before the seated Blue Lions in the academy classroom. Students shift slightly in their seats and look toward the new teacher. The room should feel formal but tense with curiosity. Byleth is calm, direct, and unreadable.\n\nCamera: slow classroom push-in from behind Byleth.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: comedic classroom behavior, modern school props, subtitles.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot022.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot022.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot023",
+      "title": "Training Sword Insert",
+      "duration_seconds": 10,
+      "image_path": "episodes/EP02/generated/p1_student_intro_v1/Shot023_TrainingSwordInsert.png",
+      "prompt": "Byleth places or slides a training sword onto the wooden desk with deliberate calm. Students' hands or sleeves remain still around the edges of the frame. The motion should be quiet and decisive, signaling that the lesson will move to practice.\n\nCamera: low close insert, slight push toward the sword.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No blood, gore, lethal impact, battlefield carnage, or real injury. Avoid: sharp lethal blade emphasis, blood, sparks, text.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot023.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot023.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot024",
+      "title": "Felix Stands",
+      "duration_seconds": 8,
+      "image_path": "episodes/EP02/generated/p1_grounded_identity_v3/Shot024_FelixStands_grounded_v3.png",
+      "prompt": "Felix rises from his desk with restrained impatience, interested for the first time. Other Blue Lions students watch from behind. His movement should be controlled and youthful, with a cold narrow gaze rather than open aggression.\n\nCamera: small upward tilt following Felix standing.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: older face, drawn weapon, villain pose.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot024.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot024.md",
+      "risk_notes": [
+        "Watch for identity drift during motion."
+      ]
+    }
+  ]
+}

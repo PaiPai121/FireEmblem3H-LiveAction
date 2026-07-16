@@ -4,7 +4,7 @@
 
 生成文件：
 
-- `scene_reference.png`
+- `GarregMachExteriorOverview_reference.png`
 
 Prompt:
 

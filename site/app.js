@@ -52,6 +52,9 @@ const els = {
   locationStats: document.querySelector("#locationStats"),
   episodeFeature: document.querySelector("#episodeFeature"),
   shotList: document.querySelector("#shotList"),
+  storyboardStats: document.querySelector("#storyboardStats"),
+  storyboardLinks: document.querySelector("#storyboardLinks"),
+  storyboardGrid: document.querySelector("#storyboardGrid"),
   docsList: document.querySelector("#docsList"),
   dialog: document.querySelector("#previewDialog"),
   previewImage: document.querySelector("#previewImage"),
@@ -65,8 +68,25 @@ function normalizeCharacter(row) {
 }
 
 const characters = data.characters.map(normalizeCharacter);
+const eraPriority = [
+  "academy",
+  "professor",
+  "war",
+  "war_broken",
+  "lord",
+  "leader",
+  "king",
+  "emperor",
+  "enlightened",
+  "dream",
+  "concept",
+  "legacy_ep01",
+  "selected",
+];
+const characterGroups = buildCharacterGroups(characters);
 const locationAssets = data.episodeAssets.filter((item) => item.path.startsWith("assets/locations/"));
 const historicalFrameAssets = data.episodeAssets.filter((item) => !item.path.startsWith("assets/locations/"));
+const ep02Storyboard = window.EP02_STORYBOARD_DATA || { shots: [], blockContactSheets: [] };
 
 const locationGroupLabels = {
   prologue: "序章",
@@ -117,24 +137,91 @@ function fillSelect(select, options) {
   select.innerHTML = options.map(([value, label]) => `<option value="${value}">${label}</option>`).join("");
 }
 
-function cardTemplate(item) {
-  const faction = factionNames[item.faction] || item.faction;
-  const era = eraNames[item.era] || item.era;
+function eraLabel(era) {
+  return eraNames[era] || era.replaceAll("_", " ");
+}
+
+function buildCharacterGroups(items) {
+  const map = new Map();
+  for (const item of items) {
+    const key = `${item.faction}:${item.id}`;
+    if (!map.has(key)) {
+      map.set(key, {
+        id: item.id,
+        nameZh: item.nameZh,
+        faction: item.faction,
+        variants: [],
+      });
+    }
+    map.get(key).variants.push(item);
+  }
+  return [...map.values()].map((group) => ({
+    ...group,
+    variants: group.variants.sort((a, b) => {
+      const aRank = eraPriority.includes(a.era) ? eraPriority.indexOf(a.era) : eraPriority.length;
+      const bRank = eraPriority.includes(b.era) ? eraPriority.indexOf(b.era) : eraPriority.length;
+      if (aRank !== bRank) return aRank - bRank;
+      return a.era.localeCompare(b.era);
+    }),
+  }));
+}
+
+function variantForGroup(group) {
+  if (state.era !== "all") {
+    const matched = group.variants.find((variant) => variant.era === state.era);
+    if (matched) return matched;
+  }
+  return group.variants[0];
+}
+
+function matchesCharacterGroup(group) {
+  const text = [
+    group.id,
+    group.nameZh,
+    group.faction,
+    ...group.variants.flatMap((variant) => [variant.era, variant.path]),
+  ].join(" ").toLowerCase();
+  return (!state.query || text.includes(state.query))
+    && (state.faction === "all" || group.faction === state.faction)
+    && (state.era === "all" || group.variants.some((variant) => variant.era === state.era))
+    && (state.status === "all" || group.variants.some((variant) => variant.status === state.status));
+}
+
+function characterCardTemplate(group) {
+  const faction = factionNames[group.faction] || group.faction;
+  const selected = variantForGroup(group);
+  const variantButtons = group.variants.map((variant) => {
+    const isActive = variant.era === selected.era;
+    return `
+      <button class="variant-chip ${isActive ? "is-active" : ""}" type="button"
+        data-character-id="${group.id}"
+        data-character-faction="${group.faction}"
+        data-variant-era="${variant.era}"
+        data-variant-path="${variant.path}"
+        data-variant-label="${eraLabel(variant.era)}">
+        ${eraLabel(variant.era)}
+      </button>
+    `;
+  }).join("");
   return `
-    <article class="asset-card">
-      <button class="image-button" type="button" data-preview="${item.path}" data-title="${item.nameZh} / ${item.id}" data-path="${item.path}">
-        <img src="${item.path}" alt="${item.nameZh} ${era}" loading="lazy" data-path="${item.path}">
+    <article class="asset-card character-card" data-character-id="${group.id}" data-character-faction="${group.faction}">
+      <button class="image-button" type="button" data-preview="${selected.path}" data-title="${group.nameZh} / ${group.id} / ${eraLabel(selected.era)}" data-path="${selected.path}">
+        <img src="${selected.path}" alt="${group.nameZh} ${eraLabel(selected.era)}" loading="lazy" data-path="${selected.path}">
       </button>
       <div class="card-body">
         <div>
-          <h3>${item.nameZh}</h3>
-          <p>${item.id}</p>
+          <h3>${group.nameZh}</h3>
+          <p>${group.id}</p>
         </div>
         <div class="chips">
           <span>${faction}</span>
-          <span>${era}</span>
+          <span class="active-era">${eraLabel(selected.era)}</span>
+          <span>${group.variants.length} 张</span>
         </div>
-        <a class="path" href="${item.path}" target="_blank" rel="noreferrer">${item.path}</a>
+        <div class="variant-switcher" aria-label="${group.nameZh} 职业 / 阶段切换">
+          ${variantButtons}
+        </div>
+        <a class="path" href="${selected.path}" target="_blank" rel="noreferrer">${selected.path}</a>
       </div>
     </article>
   `;
@@ -152,11 +239,67 @@ function matches(item) {
     && (state.status === "all" || item.status === state.status);
 }
 
+function matchesText(fields) {
+  if (!state.query) return true;
+  return fields.filter(Boolean).join(" ").toLowerCase().includes(state.query);
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function multiline(value) {
+  return escapeHtml(value).replace(/\n/g, "<br>");
+}
+
+function matchesEpisodeAsset(item) {
+  return matchesText([item.title, item.label, item.episode, item.act, item.path, item.note]);
+}
+
+function matchesShot([shot, duration, purpose, path]) {
+  return matchesText([shot, duration, purpose, path]);
+}
+
+function matchesStoryboardShot(item) {
+  return matchesText([
+    item.shot,
+    item.title,
+    item.act,
+    item.scene,
+    item.purposeZh,
+    item.visual,
+    item.duration,
+    item.status,
+    item.riskNotes,
+    item.videoPrompt,
+    item.generationPrompt,
+    item.negativePrompt,
+    item.keyFrameIntent,
+    item.keyFramePrompt,
+    item.camera,
+    item.sourceRef,
+    item.priority,
+    item.locationAsset,
+    item.characters,
+    item.outputNeeded,
+    item.scriptSceneTitle,
+    item.scriptSceneBody,
+    item.shotDialogue,
+    item.avoid,
+  ]);
+}
+
 function renderStats(filtered) {
+  const variants = filtered.flatMap((group) => group.variants);
   const factions = new Set(filtered.map((item) => item.faction)).size;
-  const eras = new Set(filtered.map((item) => item.era)).size;
+  const eras = new Set(variants.map((item) => item.era)).size;
   els.stats.innerHTML = `
-    <div><strong>${filtered.length}</strong><span>当前素材</span></div>
+    <div><strong>${filtered.length}</strong><span>当前角色</span></div>
     <div><strong>${characters.length}</strong><span>角色图总数</span></div>
     <div><strong>${factions}</strong><span>当前阵营</span></div>
     <div><strong>${eras}</strong><span>当前阶段</span></div>
@@ -164,31 +307,34 @@ function renderStats(filtered) {
 }
 
 function renderCharacters() {
-  const filtered = characters.filter(matches);
+  const filtered = characterGroups.filter(matchesCharacterGroup);
   renderStats(filtered);
   els.grid.innerHTML = filtered.length
-    ? filtered.map(cardTemplate).join("")
+    ? filtered.map(characterCardTemplate).join("")
     : `<p class="empty">没有匹配的素材。</p>`;
 }
 
 function renderEpisode() {
-  const prologueCount = locationAssets.filter((item) => item.episode === "prologue").length;
-  const ep01Count = locationAssets.filter((item) => item.episode === "EP01").length;
-  const ep02Count = locationAssets.filter((item) => item.episode === "EP02").length;
-  const ep03Count = locationAssets.filter((item) => item.episode === "EP03").length;
-  const laterEpisodeCount = locationAssets.filter((item) => /^EP(0[4-9]|1[0-2])$/.test(item.episode)).length;
-  const sharedCount = locationAssets.filter((item) => item.episode === "shared").length;
-  const warCount = locationAssets.filter((item) => item.episode === "war").length;
-  const auxiliaryCount = locationAssets.filter((item) => item.episode === "paralogues" || item.episode === "dlc").length;
+  const filteredLocations = locationAssets.filter(matchesEpisodeAsset);
+  const filteredHistoricalFrames = historicalFrameAssets.filter(matchesEpisodeAsset);
+  const filteredShots = data.shots.filter(matchesShot);
+  const prologueCount = filteredLocations.filter((item) => item.episode === "prologue").length;
+  const ep01Count = filteredLocations.filter((item) => item.episode === "EP01").length;
+  const ep02Count = filteredLocations.filter((item) => item.episode === "EP02").length;
+  const ep03Count = filteredLocations.filter((item) => item.episode === "EP03").length;
+  const laterEpisodeCount = filteredLocations.filter((item) => /^EP(0[4-9]|1[0-2])$/.test(item.episode)).length;
+  const sharedCount = filteredLocations.filter((item) => item.episode === "shared").length;
+  const warCount = filteredLocations.filter((item) => item.episode === "war").length;
+  const auxiliaryCount = filteredLocations.filter((item) => item.episode === "paralogues" || item.episode === "dlc").length;
   els.locationStats.innerHTML = `
-    <div><strong>${locationAssets.length}</strong><span>地点参考</span></div>
+    <div><strong>${filteredLocations.length}</strong><span>地点参考</span></div>
     <div><strong>${prologueCount}</strong><span>序章地点</span></div>
     <div><strong>${ep01Count}</strong><span>EP01 地点</span></div>
     <div><strong>${ep02Count}</strong><span>EP02 地点</span></div>
     <div><strong>${ep03Count}</strong><span>EP03 地点</span></div>
     <div><strong>${laterEpisodeCount}</strong><span>EP04-EP12</span></div>
     <div><strong>${sharedCount + warCount + auxiliaryCount}</strong><span>共享 / 战争 / 支线</span></div>
-    <div><strong>${historicalFrameAssets.length}</strong><span>历史镜头图</span></div>
+    <div><strong>${filteredHistoricalFrames.length}</strong><span>历史镜头图</span></div>
   `;
 
   const locationCardTemplate = (item) => `
@@ -206,7 +352,7 @@ function renderEpisode() {
   `;
 
   const locationHtml = locationGroupOrder.map((group) => {
-    const items = locationAssets.filter((item) => item.episode === group);
+    const items = filteredLocations.filter((item) => item.episode === group);
     if (!items.length) return "";
     return `
       <section class="feature-group">
@@ -216,9 +362,9 @@ function renderEpisode() {
     `;
   }).join("");
 
-  const legacyHtml = historicalFrameAssets.length ? `
+  const legacyHtml = filteredHistoricalFrames.length ? `
     <div class="feature-group-title">历史镜头图</div>
-    ${historicalFrameAssets.map((item) => `
+    ${filteredHistoricalFrames.map((item) => `
       <article class="feature-item compact-feature">
         <button class="image-button" type="button" data-preview="${item.path}" data-title="${item.label}" data-path="${item.path}">
           <img src="${item.path}" alt="${item.label}" loading="eager" data-path="${item.path}">
@@ -233,15 +379,150 @@ function renderEpisode() {
     `).join("")}
   ` : "";
 
-  els.episodeFeature.innerHTML = locationHtml + legacyHtml;
+  els.episodeFeature.innerHTML = locationHtml || legacyHtml
+    ? locationHtml + legacyHtml
+    : `<p class="empty">没有匹配的地点素材。</p>`;
 
-  els.shotList.innerHTML = data.shots.map(([shot, duration, purpose, path]) => `
+  els.shotList.innerHTML = filteredShots.length ? filteredShots.map(([shot, duration, purpose, path]) => `
     <a class="shot-row" href="${path}" target="_blank" rel="noreferrer">
       <strong>${shot}</strong>
       <span>${duration}</span>
       <p>${purpose}</p>
     </a>
-  `).join("");
+  `).join("") : `<p class="empty">没有匹配的镜头。</p>`;
+}
+
+function renderStoryboard() {
+  const shots = ep02Storyboard.shots.filter(matchesStoryboardShot);
+  const visibleStillCount = shots.filter((shot) => shot.still).length;
+  const riskCount = shots.filter((shot) => shot.riskNotes).length;
+  const actCount = new Set(shots.map((shot) => shot.act)).size;
+  const scriptCount = shots.filter((shot) => shot.scriptSceneTitle).length;
+  const promptCount = shots.filter((shot) => shot.videoPrompt).length;
+  const payloadPromptCount = shots.filter((shot) => shot.generationPrompt).length;
+  const continuityCount = shots.filter((shot) => shot.transitionIn || shot.transitionOut || shot.audioBridge).length;
+  const keyFrameCount = shots.filter((shot) => (shot.frameSet || []).some((frame) => frame.role === "key" && frame.path)).length;
+
+  els.storyboardStats.innerHTML = `
+    <div><strong>${shots.length}</strong><span>当前镜头</span></div>
+    <div><strong>${visibleStillCount}</strong><span>有首帧</span></div>
+    <div><strong>${keyFrameCount}</strong><span>有关键帧图</span></div>
+    <div><strong>${scriptCount}</strong><span>有剧本映射</span></div>
+    <div><strong>${payloadPromptCount || promptCount}</strong><span>有AI提示词</span></div>
+    <div><strong>${continuityCount}</strong><span>有连续性</span></div>
+    <div><strong>${riskCount}</strong><span>有风险备注</span></div>
+    <div><strong>${actCount}</strong><span>段落</span></div>
+  `;
+
+  els.storyboardLinks.innerHTML = `
+    <a href="${ep02Storyboard.reviewHtml}" target="_blank" rel="noreferrer">打开全片接触表</a>
+    ${ep02Storyboard.timeline ? `<a href="${ep02Storyboard.timeline}" target="_blank" rel="noreferrer">Cinematic V2 时间线</a>` : ""}
+    ${ep02Storyboard.continuityBrief ? `<a href="${ep02Storyboard.continuityBrief}" target="_blank" rel="noreferrer">电影连续性通告</a>` : ""}
+    ${ep02Storyboard.runbook ? `<a href="${ep02Storyboard.runbook}" target="_blank" rel="noreferrer">V2 生产 Runbook</a>` : ""}
+    <button class="text-button" type="button" data-preview="${ep02Storyboard.fullContactSheet}" data-title="EP02 全片分镜总览" data-path="${ep02Storyboard.fullContactSheet}">预览总览图</button>
+    ${ep02Storyboard.blockContactSheets.map(([label, path]) => `
+      <button class="text-button" type="button" data-preview="${path}" data-title="${label}" data-path="${path}">${label}</button>
+    `).join("")}
+  `;
+
+  els.storyboardGrid.innerHTML = shots.length ? shots.map((shot) => {
+    const still = shot.still ? `
+      <button class="image-button" type="button" data-preview="${shot.still}" data-title="${shot.shot} ${shot.title}" data-path="${shot.still}">
+        <img src="${shot.still}" alt="${shot.shot} ${shot.title}" loading="lazy" data-path="${shot.still}">
+      </button>
+    ` : `<div class="storyboard-placeholder">BLACK<br><span>${shot.shot}</span></div>`;
+    const frameStrip = (shot.frameSet || []).map((frame) => {
+      const title = `${shot.shot} ${frame.label}`;
+      const visual = frame.path ? `
+        <button class="frame-thumb" type="button" data-preview="${frame.path}" data-title="${title}" data-path="${frame.path}">
+          <img src="${frame.path}" alt="${title}" loading="lazy" data-path="${frame.path}">
+        </button>
+      ` : `
+        <div class="frame-thumb frame-placeholder">
+          <span>${escapeHtml(frame.status || "planned")}</span>
+        </div>
+      `;
+      return `
+        <div class="frame-card ${frame.path ? "is-ready" : "is-planned"}">
+          ${visual}
+          <div>
+            <strong>${escapeHtml(frame.label)}</strong>
+            <span>${escapeHtml(frame.status || "")}</span>
+            <p>${escapeHtml(frame.intent || "")}</p>
+          </div>
+        </div>
+      `;
+    }).join("");
+    const risk = shot.riskNotes ? `<span class="risk-chip">WATCH</span>` : "";
+    return `
+      <article class="storyboard-card">
+        ${still}
+        <div class="storyboard-body">
+          <div class="storyboard-title">
+            <div>
+              <p class="eyebrow">${shot.act.replaceAll("_", " ")}</p>
+              <h3>${shot.shot} - ${shot.title}</h3>
+            </div>
+            ${risk}
+          </div>
+          <dl class="storyboard-meta">
+            <div><dt>源片</dt><dd>${shot.sourceRef || ""}</dd></div>
+            <div><dt>优先</dt><dd>${shot.priority || ""}</dd></div>
+            <div><dt>时长</dt><dd>${shot.durationZh || shot.duration || ""}</dd></div>
+            <div><dt>版本</dt><dd>${shot.cinematicBlock || ep02Storyboard.productionMode || ""}</dd></div>
+            <div><dt>场景</dt><dd>${shot.scene || ""}</dd></div>
+            <div><dt>目的</dt><dd>${shot.purposeZh || ""}</dd></div>
+            <div><dt>画面</dt><dd>${shot.visual || ""}</dd></div>
+            <div><dt>镜头</dt><dd>${shot.cameraZh || shot.camera || ""}</dd></div>
+            <div><dt>对白</dt><dd>${shot.shotDialogue || "无"}</dd></div>
+            <div><dt>关键</dt><dd>${shot.keyFrameIntent || "待补"}</dd></div>
+            <div class="asset-line"><dt>地点</dt><dd>${shot.locationAsset || ""}</dd></div>
+            <div class="asset-line"><dt>角色</dt><dd>${shot.characters || ""}</dd></div>
+            <div class="asset-line"><dt>输出</dt><dd>${shot.outputNeeded || ""}</dd></div>
+            <div><dt>风险</dt><dd>${shot.riskNotes || "无"}</dd></div>
+          </dl>
+          <details class="continuity-details">
+            <summary>电影连续性</summary>
+            <dl class="continuity-list">
+              <div><dt>入点</dt><dd>${escapeHtml(shot.transitionIn || "")}</dd></div>
+              <div><dt>出点</dt><dd>${escapeHtml(shot.transitionOut || "")}</dd></div>
+              <div><dt>轴线</dt><dd>${escapeHtml(shot.screenDirectionRule || "")}</dd></div>
+              <div><dt>声桥</dt><dd>${escapeHtml(shot.audioBridge || "")}</dd></div>
+              <div><dt>余量</dt><dd>${shot.editorialHandlesSeconds ? `${shot.editorialHandlesSeconds} 秒` : ""}</dd></div>
+            </dl>
+          </details>
+          <details class="script-details">
+            <summary>对应剧本</summary>
+            <p class="script-scene-title">${escapeHtml(shot.scriptSceneTitle || "未映射")}</p>
+            <div class="script-block">${multiline(shot.scriptSceneBody || shot.scriptSceneExcerpt || "")}</div>
+          </details>
+          <details class="prompt-details">
+            <summary>AI生成提示词</summary>
+            <div class="prompt-grid">
+              <div>
+                <h4>Execution Prompt</h4>
+                <p>${multiline(shot.generationPrompt || shot.videoPrompt || "")}</p>
+              </div>
+              <div>
+                <h4>Camera</h4>
+                <p>${multiline(shot.camera || shot.cameraZh || "")}</p>
+              </div>
+              <div class="avoid">
+                <h4>Negative Prompt / Avoid</h4>
+                <p>${multiline(shot.negativePrompt || shot.avoid || "")}</p>
+              </div>
+              <div>
+                <h4>Key Frame Prompt</h4>
+                <p>${multiline(shot.keyFramePrompt || "")}</p>
+              </div>
+            </div>
+          </details>
+          <div class="frame-strip">${frameStrip}</div>
+          ${shot.still ? `<a class="path" href="${shot.still}" target="_blank" rel="noreferrer">${shot.still}</a>` : ""}
+        </div>
+      </article>
+    `;
+  }).join("") : `<p class="empty">没有匹配的 EP02 分镜。</p>`;
 }
 
 function renderDocs() {
@@ -271,10 +552,37 @@ function openPreview(path, title) {
   els.dialog.showModal();
 }
 
+function switchCharacterVariant(button) {
+  const card = button.closest(".character-card");
+  if (!card) return;
+  const path = button.dataset.variantPath;
+  const label = button.dataset.variantLabel;
+  const title = `${card.querySelector("h3")?.textContent || ""} / ${card.dataset.characterId} / ${label}`;
+  const imageButton = card.querySelector(".image-button");
+  const image = card.querySelector(".image-button img");
+  const pathLink = card.querySelector(".path");
+  const activeEra = card.querySelector(".active-era");
+
+  imageButton.dataset.preview = path;
+  imageButton.dataset.title = title;
+  imageButton.dataset.path = path;
+  image.src = path;
+  image.alt = title;
+  image.dataset.path = path;
+  pathLink.href = path;
+  pathLink.textContent = path;
+  activeEra.textContent = label;
+
+  card.querySelectorAll(".variant-chip").forEach((chip) => {
+    chip.classList.toggle("is-active", chip === button);
+  });
+}
+
 fillSelect(els.faction, uniqueOptions(characters, "faction", factionNames));
 fillSelect(els.era, uniqueOptions(characters, "era", eraNames));
 renderCharacters();
 renderEpisode();
+renderStoryboard();
 renderDocs();
 
 document.addEventListener("error", (event) => {
@@ -286,6 +594,8 @@ document.addEventListener("error", (event) => {
 els.search.addEventListener("input", (event) => {
   state.query = event.target.value.trim().toLowerCase();
   renderCharacters();
+  renderEpisode();
+  renderStoryboard();
 });
 els.faction.addEventListener("change", (event) => {
   state.faction = event.target.value;
@@ -303,6 +613,11 @@ document.querySelectorAll(".tab").forEach((tab) => {
   tab.addEventListener("click", () => setView(tab.dataset.view));
 });
 document.addEventListener("click", (event) => {
+  const variantButton = event.target.closest(".variant-chip");
+  if (variantButton) {
+    switchCharacterVariant(variantButton);
+    return;
+  }
   const button = event.target.closest("[data-preview]");
   if (!button) return;
   openPreview(button.dataset.preview, button.dataset.title);

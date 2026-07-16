@@ -1,0 +1,11 @@
+{
+  "shot": "Shot032",
+  "title": "Dedue Guards Dimitri",
+  "duration_seconds": 12,
+  "image_path": "episodes/EP02/generated/p1_mock_battle_v1/Shot032_DedueGuardsDimitri.png",
+  "prompt": "Dedue calmly sets a defensive station with a padded shield while Dimitri stands just behind him, composed and attentive. Background students rehearse spacing. The loyalty is visible through positioning, not aggression.\n\nCamera: medium push from shield to Dimitri.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nDedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and powerfully built, a calm shield-wall guardian beside Dimitri, not a slim student.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No blood, gore, lethal impact, battlefield carnage, or real injury. Avoid: brutal block impact, injury, battlefield threat. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging. No skinny Dedue, no narrow shoulders, no average schoolboy body, no ordinary slim soldier build.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot032.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot032.md",
+  "risk_notes": []
+}

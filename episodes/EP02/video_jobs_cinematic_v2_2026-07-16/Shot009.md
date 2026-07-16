@@ -1,0 +1,30 @@
+# Shot009 - Main Cloister Daily Life Cinematic V2 Job
+
+Duration: 12 seconds
+Handles: 2 seconds
+Image: `episodes/EP02/generated/p2_connectors_v2/Shot009_MainCloisterDailyLife_v2.png`
+Output: `episodes/EP02/video_outputs/cinematic_v2/Shot009.mp4`
+
+## Cinematic Continuity
+
+- Block: Monastery Daily Life
+- Transition in: bells carry into daily cloister motion
+- Transition out: pan/flow cut to faculty interruption
+- Screen / camera rule: lateral observer movement through cloisters
+- Audio bridge: students, robes, soft chatter
+
+## Prompt
+
+Use this still as a montage concept, not a literal multi-panel frame. Generate a continuous main cloister daily-life shot: students cross with books, staff move quietly, sunlight falls through arches, banners hang still, and Byleth moves through the space as an observer. The monastery feels orderly, beautiful, and watched.
+
+Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.
+
+Cinematic continuity: Block=Monastery Daily Life. Transition in: bells carry into daily cloister motion. Transition out: pan/flow cut to faculty interruption. Screen/camera rule: lateral observer movement through cloisters. Audio bridge: students, robes, soft chatter. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
+
+## Camera
+
+smooth lateral glide through the cloister.
+
+## Negative Prompt
+
+No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: split-screen panels, collage layout, readable text, modern school behavior. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.

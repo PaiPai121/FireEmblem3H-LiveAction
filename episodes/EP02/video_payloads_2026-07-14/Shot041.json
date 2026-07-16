@@ -1,0 +1,11 @@
+{
+  "shot": "Shot041",
+  "title": "Flame Emperor Mask Close-Up",
+  "duration_seconds": 14,
+  "image_path": "episodes/EP02/generated/p0_v1/Shot041_FlameEmperorMask.png",
+  "prompt": "The Flame Emperor mask dominates the frame in cold fog and low torchlight. The figure remains still, calculating, and unreadable. Wet stone blurs behind the mask. End the episode on the masked presence, with only slight cloak movement and firelight reflection.\n\nCamera: very slow push into the mask, ending in a hard cut to black.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: identity reveal, ordinary knight redesign, readable text, exaggerated monster movement. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot041.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot041.md",
+  "risk_notes": []
+}

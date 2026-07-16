@@ -1,0 +1,10 @@
+batch_id,title,shot_count,shots,json,md
+batch_01_arrival,Arrival,4,Shot001 Shot002 Shot003 Shot004,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_01_arrival.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_01_arrival.md
+batch_02_church_authority,Church Authority,4,Shot005 Shot006 Shot007 Shot008,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_02_church_authority.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_02_church_authority.md
+batch_03_monastery_daily_life,Monastery Daily Life,2,Shot009 Shot010,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_03_monastery_daily_life.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_03_monastery_daily_life.md
+batch_04_three_houses,Three Houses,9,Shot011 Shot012 Shot013 Shot014 Shot015 Shot016 Shot017 Shot018 Shot019,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_04_three_houses.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_04_three_houses.md
+batch_05_private_warning,Private Warning,2,Shot020 Shot021,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_05_private_warning.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_05_private_warning.md
+batch_06_first_class,First Class,3,Shot022 Shot023 Shot024,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_06_first_class.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_06_first_class.md
+batch_07_mock_battle,Mock Battle,12,Shot025 Shot026 Shot027 Shot028 Shot029 Shot030 Shot031 Shot032 Shot033 Shot034 Shot035 Shot036,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_07_mock_battle.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_07_mock_battle.md
+batch_08_observation_echo,Observation Echo,3,Shot037 Shot038 Shot039,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_08_observation_echo.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_08_observation_echo.md
+batch_09_conspiracy,Conspiracy,3,Shot040 Shot041 Shot042,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_09_conspiracy.json,episodes/EP02/video_batches_cinematic_v2_2026-07-16/batch_09_conspiracy.md

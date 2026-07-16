@@ -1,0 +1,15 @@
+{
+  "shot": "Shot042",
+  "title": "Hard Cut To Black",
+  "duration_seconds": 4,
+  "image_path": "",
+  "prompt": "Hard cut to black after the Flame Emperor mask close-up. Hold black with low-frequency sound design. No image content, no text, no logo.\n\nCinematic continuity: Block=Conspiracy. Transition in: hard black impact. Transition out: hold black tail. Screen/camera rule: low-angle secret exchange; final push into mask and hard black. Audio bridge: low fog, torch, sub hit to black. Generate with 0s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: none.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: credits, title card, UI, watermark. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot042.mp4",
+  "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot042.md",
+  "cinematic_block": "Conspiracy",
+  "transition_in": "hard black impact",
+  "transition_out": "hold black tail",
+  "editorial_handles_seconds": 0,
+  "risk_notes": "black-only, no still"
+}

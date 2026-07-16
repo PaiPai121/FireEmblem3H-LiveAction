@@ -1,0 +1,11 @@
+{
+  "shot": "Shot040",
+  "title": "Kostas Kneels",
+  "duration_seconds": 18,
+  "image_path": "episodes/EP02/generated/p0_v1/Shot040_KostasKneels.png",
+  "prompt": "Kostas kneels in wet stone and low fog, furious and afraid, looking up from below. The Flame Emperor stands above him in the red horned mask and black-red cloak, calm and dominant. Torchlight flickers against ruins and armor. The power relationship is clear: Kostas is disposable, the masked figure is in control.\n\nCamera: low-angle slow push from Kostas toward the Flame Emperor silhouette.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: gore, torture imagery, monster redesign, exposed identity. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot040.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot040.md",
+  "risk_notes": []
+}

@@ -4,3 +4,6 @@ production/local_reference_review.html
 
 # Local OS/editor files.
 .DS_Store
+
+# Generated video outputs are large local artifacts; keep prompts, queues, and QA docs tracked.
+episodes/*/video_outputs/

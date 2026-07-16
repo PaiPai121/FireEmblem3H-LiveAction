@@ -1,0 +1,13 @@
+{
+  "shot": "Shot042",
+  "title": "Hard Cut To Black",
+  "duration_seconds": 4,
+  "image_path": "",
+  "prompt": "Hard cut to black after the Flame Emperor mask close-up. Hold black with low-frequency sound design. No image content, no text, no logo.\n\nCamera: none.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: credits, title card, UI, watermark. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot042.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot042.md",
+  "risk_notes": [
+    "Black-only shot; no image input required."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "shot": "Shot001",
+  "title": "Garreg Mach Exterior Road",
+  "duration_seconds": 8,
+  "image_path": "episodes/EP02/generated/p2_connectors_v1/Shot001_GarregMachExteriorRoad.png",
+  "prompt": "Morning fog drifts across the mountain road as Garreg Mach monastery rises in the distance. Tiny escort silhouettes move slowly along the path. The monastery should feel sacred, remote, and politically imposing.\n\nCamera: wide slow push toward the distant monastery.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: modern roads, readable signs, fantasy monsters. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot001.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot001.md",
+  "risk_notes": []
+}

@@ -1,0 +1,11 @@
+{
+  "shot": "Shot016",
+  "title": "Blue Lions Reaction Montage",
+  "duration_seconds": 14,
+  "image_path": "episodes/EP02/generated/p1_grounded_identity_v3/Shot016_BlueLionsReaction_grounded_v3.png",
+  "prompt": "Create a soft reaction montage from the still: Mercedes offers a gentle reassuring look, Annette reacts with nervous energy, Ashe watches earnestly, and Ingrid remains serious and attentive. Keep Mercedes youthful and warm; keep Ashe boyish with pale ash-gray hair.\n\nCamera: subtle rack focus between faces, no fast cuts inside the generated clip.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: aging Mercedes, brown- or blond-haired Ashe, overdramatic expressions. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot016.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot016.md",
+  "risk_notes": []
+}

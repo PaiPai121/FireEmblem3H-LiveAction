@@ -188,7 +188,7 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
 • 已创建 EP02 第一幕场景素材目录并归档图片：
 
-  assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference.png
+  assets/locations/GarregMachMountainRoad/EP02_act01/GarregMachMountainRoad_reference.png
 
   提示词与约束记录在：
 
@@ -206,7 +206,7 @@ Last login: Sat Jul  4 17:52:55 on ttys000
   不覆盖旧图，方便对比。
 
 • Viewed Image
-  └ assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference.png
+  └ assets/locations/GarregMachMountainRoad/EP02_act01/GarregMachMountainRoad_reference.png
 
 • 我看了现图，问题主要是左侧岩壁和前景泥地压得太黑，雾也偏灰冷。新版本会把天气设成晴朗清晨、柔和阳光穿过薄雾，泥地保留湿润但不阴沉。
 
@@ -302,7 +302,7 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
   assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference_v2_sunlit.png
 
-  新版尺寸 1867x842，整体是晴朗清晨、蓝天薄雾、阳光照亮岩壁和山道，更接近游戏里加尔古玛库外景的明亮学院入口感。旧版 assets/locations/GarregMachMountainRoad/EP02_act01/scene_reference.png 我保留为阴冷压迫备
+  新版尺寸 1867x842，整体是晴朗清晨、蓝天薄雾、阳光照亮岩壁和山道，更接近游戏里加尔古玛库外景的明亮学院入口感。旧版 assets/locations/GarregMachMountainRoad/EP02_act01/GarregMachMountainRoad_reference.png 我保留为阴冷压迫备
   选。
 
   提示词文档也已更新，标注 scene_reference_v2_sunlit.png 为 EP02 第一幕推荐默认参考。
@@ -458,8 +458,8 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
 • 素材和说明都已落盘。我最后确认文件尺寸、目录内容和 git 状态。
 
-• Ran file assets/locations/MonasteryMainGatePlaza/EP02_act01/scene_reference.png
-  └ assets/locations/MonasteryMainGatePlaza/EP02_act01/scene_reference.png: PNG image data, 1870 x 841, 8-bit/color RGB, non-interlaced
+• Ran file assets/locations/MonasteryMainGatePlaza/EP02_act01/MonasteryMainGatePlaza_reference.png
+  └ assets/locations/MonasteryMainGatePlaza/EP02_act01/MonasteryMainGatePlaza_reference.png: PNG image data, 1870 x 841, 8-bit/color RGB, non-interlaced
 
 • Explored
   └ List EP02_act01
@@ -471,7 +471,7 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
 • 已生成并归档“修道院正门广场”场景素材：
 
-  assets/locations/MonasteryMainGatePlaza/EP02_act01/scene_reference.png
+  assets/locations/MonasteryMainGatePlaza/EP02_act01/MonasteryMainGatePlaza_reference.png
 
   提示词与制作约束记录在：
 
@@ -663,8 +663,8 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
 • 素材已归档，最后确认尺寸、目录和 git 状态。
 
-• Ran file assets/locations/MonasteryMainCloister/EP02_act01/scene_reference.png
-  └ assets/locations/MonasteryMainCloister/EP02_act01/scene_reference.png: PNG image data, 1877 x 838, 8-bit/color RGB, non-interlaced
+• Ran file assets/locations/MonasteryMainCloister/EP02_act01/MonasteryMainCloister_reference.png
+  └ assets/locations/MonasteryMainCloister/EP02_act01/MonasteryMainCloister_reference.png: PNG image data, 1877 x 838, 8-bit/color RGB, non-interlaced
 
 • Explored
   └ List EP02_act01
@@ -674,7 +674,7 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
 • 已生成并归档“修道院主回廊”场景素材：
 
-  assets/locations/MonasteryMainCloister/EP02_act01/scene_reference.png
+  assets/locations/MonasteryMainCloister/EP02_act01/MonasteryMainCloister_reference.png
 
   提示词与约束记录在：
 
@@ -873,8 +873,8 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
 • 素材和文档已写入。我再做最终文件检查，包括目录内容和 git 状态。
 
-• Ran file assets/locations/MonasteryCathedralAntechamber/EP02_act01/scene_reference.png
-  └ assets/locations/MonasteryCathedralAntechamber/EP02_act01/scene_reference.png: PNG image data, 1872 x 840, 8-bit/color RGB, non-interlaced
+• Ran file assets/locations/MonasteryCathedralAntechamber/EP02_act01/MonasteryCathedralAntechamber_reference.png
+  └ assets/locations/MonasteryCathedralAntechamber/EP02_act01/MonasteryCathedralAntechamber_reference.png: PNG image data, 1872 x 840, 8-bit/color RGB, non-interlaced
 
 • Explored
   └ List EP02_act01
@@ -886,7 +886,7 @@ Last login: Sat Jul  4 17:52:55 on ttys000
 
 • 已生成并归档“大圣堂前厅”场景素材：
 
-  assets/locations/MonasteryCathedralAntechamber/EP02_act01/scene_reference.png
+  assets/locations/MonasteryCathedralAntechamber/EP02_act01/MonasteryCathedralAntechamber_reference.png
 
   提示词与游戏资料参考点记录在：
 

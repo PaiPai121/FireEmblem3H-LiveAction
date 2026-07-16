@@ -1,0 +1,98 @@
+{
+  "batch_id": "batch_02_church_choice_spine",
+  "title": "Church authority and house choice spine",
+  "payloads": [
+    {
+      "shot": "Shot005",
+      "title": "Rhea Authority",
+      "duration_seconds": 10,
+      "image_path": "episodes/EP02/generated/p0_rhea_youth_v2/Shot005_RheaAuthority_youth_v2.png",
+      "prompt": "Rhea stands centered in the cathedral antechamber, serene and unreadable, while Seteth holds a watchful position behind her. Candlelight and stained-glass glow move subtly across stone and fabric. Rhea barely moves: a small breath and a calm turn of the eyes are enough. The shot should establish gentle but immovable church authority.\n\nCamera: slow symmetrical push-in from a low angle. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: villain grin, throne-room excess, aggressive gestures, text. Avoid old Rhea, middle-aged Rhea, tired priestess face, wrinkles, eye bags.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot005.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot005.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot006",
+      "title": "Old Acquaintance",
+      "duration_seconds": 20,
+      "image_path": "episodes/EP02/generated/p0_church_identity_v2/Shot006_OldAcquaintance_RheaYouth_v2.png",
+      "prompt": "Rhea faces Jeralt with calm recognition; Jeralt remains guarded and uncomfortable, refusing to fully relax. Byleth stands beside Jeralt, silent and unreadable. Seteth watches from Rhea's side. The motion is restrained: Rhea inclines her head slightly, Jeralt's shoulders tense, Byleth observes.\n\nCamera: slow cross-axis drift between Rhea's light and Jeralt's shadow. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: melodrama, shouting, exaggerated bowing, sudden confrontation. Avoid old Rhea, middle-aged Rhea, tired priestess face, wrinkles, eye bags.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot006.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot006.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot007",
+      "title": "Seteth Suspicion",
+      "duration_seconds": 18,
+      "image_path": "episodes/EP02/generated/p0_church_identity_v2/Shot007_SetethSuspicion_RheaYouth_v2.png",
+      "prompt": "Seteth studies Byleth and Jeralt with restrained suspicion. His face remains controlled, administrative, and precise rather than hostile. Byleth and Jeralt remain partially out of focus in the foreground, while Rhea is a calm bright presence deeper in the hall.\n\nCamera: medium-close hold with a slight push toward Seteth's eyes. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: exaggerated scowl, villain framing, comedic suspicion. Avoid old Rhea, middle-aged Rhea, tired priestess face, wrinkles, eye bags.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot007.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot007.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot008",
+      "title": "Teacher Appointment",
+      "duration_seconds": 12,
+      "image_path": "episodes/EP02/generated/p0_church_identity_v2/Shot008_TeacherAppointment_RheaYouth_v2.png",
+      "prompt": "Rhea offers Byleth the teaching post with a small ceremonial gesture. Byleth receives the offer in composed silence. Jeralt's profile tightens beside Byleth, clearly uneasy. The invitation should feel like destiny and trap at the same time.\n\nCamera: slow push from Rhea's gesture to Byleth and Jeralt. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: written contracts, magical UI, overacting, visible modern props. Avoid old Rhea, middle-aged Rhea, tired priestess face, wrinkles, eye bags.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot008.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot008.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot017",
+      "title": "House Choice Ceremony",
+      "duration_seconds": 12,
+      "image_path": "episodes/EP02/generated/p0_rhea_youth_v2/Shot017_HouseChoiceCeremony_identity_locked_v4.png",
+      "prompt": "Rhea presides over the formal choice ceremony. Edelgard, Dimitri, and Claude stand in separated visual zones, each with distinct energy: Edelgard composed and political, Dimitri sincere and dutiful, Claude relaxed and watchful. Byleth's attention slowly settles toward Dimitri. Preserve all three leaders' academy-phase youth and identity.\n\nCamera: wide ceremonial hold with a subtle focus pull toward Dimitri. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: game selection menu, floating icons, text, leader face swaps. Avoid old Rhea, middle-aged Rhea, tired priestess face, wrinkles, eye bags.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot017.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot017.md",
+      "risk_notes": [
+        "Protect house leader / Blue Lions identity in motion."
+      ]
+    },
+    {
+      "shot": "Shot018",
+      "title": "Choice Moment",
+      "duration_seconds": 10,
+      "image_path": "episodes/EP02/generated/p0_v1/Shot018_ChoiceMoment.png",
+      "prompt": "Byleth looks toward Dimitri across the hall. Dimitri receives the gaze with surprise, gratitude, and restrained responsibility. The moment should make the Blue Lions choice feel human, not mechanical. Keep Dimitri young, noble, sincere, and not war-phase.\n\nCamera: intimate close decision shot, shallow depth of field.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: exaggerated smile, kingly older styling, menu-like presentation.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot018.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot018.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot019",
+      "title": "Dimitri Accepts Teacher",
+      "duration_seconds": 12,
+      "image_path": "episodes/EP02/generated/p0_choice_v2/Shot019_DimitriAcceptsTeacher_v2.png",
+      "prompt": "Dimitri steps forward and bows formally to Byleth. Dedue stands close behind, silent and protective. Felix watches with skeptical intensity, and Sylvain eases the tension with relaxed posture. Keep the Blue Lions young and recognizable, using the later v2 Felix direction if identity drifts.\n\nCamera: medium-wide hold, slight push toward Dimitri's bow.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: war armor, aged faces, Felix smiling warmly, over-formal court spectacle.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot019.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot019.md",
+      "risk_notes": [
+        "Protect house leader / Blue Lions identity in motion."
+      ]
+    },
+    {
+      "shot": "Shot037",
+      "title": "Church Observation",
+      "duration_seconds": 12,
+      "image_path": "episodes/EP02/generated/p0_rhea_youth_v2/Shot037_ChurchObservation_RheaYouth_v2.png",
+      "prompt": "Rhea and Seteth watch from the edge of the academy training ground after the mock battle. Rhea appears serene, almost satisfied; Seteth remains cautious. The Blue Lions are small in the distance, recovering from training. The feeling is surveillance, not celebration.\n\nCamera: long-lens compressed hold with a subtle drift from students to Rhea and Seteth. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: cheering, public announcement, battle aftermath, injuries. Avoid old Rhea, middle-aged Rhea, tired priestess face, wrinkles, eye bags.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot037.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot037.md",
+      "risk_notes": []
+    }
+  ]
+}

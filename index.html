@@ -15,6 +15,7 @@
       <nav class="tabs" aria-label="素材视图">
         <button class="tab is-active" data-view="characters" type="button">角色</button>
         <button class="tab" data-view="episode" type="button">地点</button>
+        <button class="tab" data-view="storyboard" type="button">EP02分镜</button>
         <button class="tab" data-view="documents" type="button">文档</button>
       </nav>
     </header>
@@ -47,7 +48,7 @@
       <section id="charactersView" class="view is-active">
         <div class="section-head">
           <h2>角色定稿</h2>
-          <p>使用仓库中各角色的 <code>selected.png</code>，按阵营和阶段筛选。</p>
+          <p>每个角色默认显示主形象，卡片内可切换学院篇、战争篇和职业定妆照。</p>
         </div>
         <div class="grid" id="characterGrid"></div>
       </section>
@@ -62,6 +63,16 @@
           <div class="feature" id="episodeFeature"></div>
           <div class="shot-list" id="shotList"></div>
         </div>
+      </section>
+
+      <section id="storyboardView" class="view">
+        <div class="section-head">
+          <h2>EP02 全集分镜</h2>
+          <p>按 Shot001-Shot042 浏览当前视频队列首帧、对应剧本、镜头调度、AI生成提示词、资产依赖和风险备注。</p>
+        </div>
+        <section class="location-stats" id="storyboardStats" aria-label="分镜统计"></section>
+        <div class="storyboard-links" id="storyboardLinks"></div>
+        <div class="storyboard-grid" id="storyboardGrid"></div>
       </section>
 
       <section id="documentsView" class="view">
@@ -83,6 +94,7 @@
     </dialog>
 
     <script src="site/data.js"></script>
+    <script src="site/ep02_storyboard_data.js"></script>
     <script src="site/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,11 @@
+{
+  "shot": "Shot023",
+  "title": "Training Sword Insert",
+  "duration_seconds": 10,
+  "image_path": "episodes/EP02/generated/p1_student_intro_v1/Shot023_TrainingSwordInsert.png",
+  "prompt": "Byleth places or slides a training sword onto the wooden desk with deliberate calm. Students' hands or sleeves remain still around the edges of the frame. The motion should be quiet and decisive, signaling that the lesson will move to practice.\n\nCamera: low close insert, slight push toward the sword.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No blood, gore, lethal impact, battlefield carnage, or real injury. Avoid: sharp lethal blade emphasis, blood, sparks, text. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot023.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot023.md",
+  "risk_notes": []
+}

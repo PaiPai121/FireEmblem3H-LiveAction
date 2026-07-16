@@ -1,0 +1,28 @@
+# Shot005 - Rhea Authority Cinematic V2 Job
+
+Duration: 10 seconds
+Handles: 2 seconds
+Image: `episodes/EP02/generated/p0_rhea_youth_v2/Shot005_RheaAuthority_youth_v2.png`
+Output: `episodes/EP02/video_outputs/cinematic_v2/Shot005.mp4`
+
+## Cinematic Continuity
+
+- Block: Church Authority
+- Transition in: architectural match cut from gate authority to church authority
+- Transition out: hold center axis before dialogue begins
+- Screen / camera rule: center-axis authority; Rhea holds still while others react around her
+- Audio bridge: cathedral reverb, candle hush
+
+## Prompt
+
+Rhea stands centered in the cathedral antechamber, serene and unreadable, while Seteth holds a watchful position behind her. Candlelight and stained-glass glow move subtly across stone and fabric. Rhea barely moves: a small breath and a calm turn of the eyes are enough. The shot should establish gentle but immovable church authority. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.
+
+Cinematic continuity: Block=Church Authority. Transition in: architectural match cut from gate authority to church authority. Transition out: hold center axis before dialogue begins. Screen/camera rule: center-axis authority; Rhea holds still while others react around her. Audio bridge: cathedral reverb, candle hush. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
+
+## Camera
+
+slow symmetrical push-in from a low angle.
+
+## Negative Prompt
+
+No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: villain grin, throne-room excess, aggressive gestures, text. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.

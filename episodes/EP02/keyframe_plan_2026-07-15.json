@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "updated": "2026-07-16",
+  "policy": "Each EP02 shot should expose at least a start frame and one key action/emotion frame. Complex shots may later add end frames.",
+  "frames": [
+    {
+      "shot": "Shot001",
+      "title": "Garreg Mach Exterior Road",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot001_GarregMachExteriorRoad.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot001_GarregMachExteriorRoad_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：进入/注视关系成立的瞬间，晨雾山道，远处修道院尖塔显现",
+      "keyFramePrompt": "关键帧：进入/注视关系成立的瞬间，晨雾山道，远处修道院尖塔显现\nScene: 加尔古玛库外景山道. Characters: use selected assets and preserve identity. Camera: 宽银幕低机位缓慢推进. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot002",
+      "title": "Jeralt And Byleth Travel",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot002_JeraltBylethTravel.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot002_JeraltAndBylethTravel_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：进入/注视关系成立的瞬间，Jeralt 与 Byleth 并行，教会骑士在前引路",
+      "keyFramePrompt": "关键帧：进入/注视关系成立的瞬间，Jeralt 与 Byleth 并行，教会骑士在前引路\nScene: 山道. Characters: use selected assets and preserve identity. Camera: 中景跟拍. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot003",
+      "title": "Main Gate Arrival",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot003_MainGateArrival.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot003_MainGateArrival_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：进入/注视关系成立的瞬间，石质广场、列队守卫、学生旁观",
+      "keyFramePrompt": "关键帧：进入/注视关系成立的瞬间，石质广场、列队守卫、学生旁观\nScene: 正门广场. Characters: use selected assets and preserve identity. Camera: 横移穿过人群视线. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot004",
+      "title": "Dimitri First Nod",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot004_DimitriFirstNod.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot004_DimitriFirstNod_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：进入/注视关系成立的瞬间，Dimitri 远处停步点头",
+      "keyFramePrompt": "关键帧：进入/注视关系成立的瞬间，Dimitri 远处停步点头\nScene: 正门广场. Characters: use selected assets and preserve identity. Camera: 中远景切近景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot005",
+      "title": "Rhea Authority",
+      "startFrame": "episodes/EP02/generated/p0_rhea_youth_v2/Shot005_RheaAuthority_youth_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot005_RheaAuthority_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：权力关系最清楚的一瞬，Rhea 权威登场",
+      "keyFramePrompt": "关键帧：权力关系最清楚的一瞬，Rhea 权威登场\nScene: 大圣堂前厅. Characters: use selected assets and preserve identity. Camera: 低机位中轴构图. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot006",
+      "title": "Old Acquaintance",
+      "startFrame": "episodes/EP02/generated/p0_church_identity_v2/Shot006_OldAcquaintance_RheaYouth_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot006_OldAcquaintance_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：权力关系最清楚的一瞬，Rhea 与 Jeralt 旧识关系",
+      "keyFramePrompt": "关键帧：权力关系最清楚的一瞬，Rhea 与 Jeralt 旧识关系\nScene: 大圣堂前厅. Characters: use selected assets and preserve identity. Camera: 正反打. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot007",
+      "title": "Seteth Suspicion",
+      "startFrame": "episodes/EP02/generated/p0_church_identity_v2/Shot007_SetethSuspicion_RheaYouth_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot007_SetethSuspicion_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：权力关系最清楚的一瞬，Byleth 被邀请成为教师",
+      "keyFramePrompt": "关键帧：权力关系最清楚的一瞬，Byleth 被邀请成为教师\nScene: 大圣堂前厅. Characters: use selected assets and preserve identity. Camera: 稳定近景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot008",
+      "title": "Teacher Appointment",
+      "startFrame": "episodes/EP02/generated/p0_church_identity_v2/Shot008_TeacherAppointment_RheaYouth_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot008_TeacherAppointment_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：权力关系最清楚的一瞬，Byleth 接受任命",
+      "keyFramePrompt": "关键帧：权力关系最清楚的一瞬，Byleth 接受任命\nScene: 大圣堂前厅. Characters: use selected assets and preserve identity. Camera: 慢推. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot009",
+      "title": "Main Cloister Daily Life",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v2/Shot009_MainCloisterDailyLife_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot009_MainCloisterDailyLife_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，彩窗、壁画、学生穿行",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，彩窗、壁画、学生穿行\nScene: 主回廊. Characters: use selected assets and preserve identity. Camera: 蒙太奇. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot010",
+      "title": "Faculty Introduction",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v2/Shot010_FacultyIntroduction_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot010_FacultyIntroduction_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，Hanneman 兴奋靠近，Manuela 打断",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，Hanneman 兴奋靠近，Manuela 打断\nScene: 主回廊. Characters: use selected assets and preserve identity. Camera: 手持轻喜剧节奏. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot011",
+      "title": "Black Eagles Comparison",
+      "startFrame": "episodes/EP02/generated/p1_student_intro_v1/Shot011_BlackEaglesComparison.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot011_BlackEaglesComparison_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，Edelgard 与 Hubert 冷静注视",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，Edelgard 与 Hubert 冷静注视\nScene: 三学级庭院. Characters: use selected assets and preserve identity. Camera: 远景压缩构图. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot012",
+      "title": "Golden Deer Comparison",
+      "startFrame": "episodes/EP02/generated/p1_student_intro_v1/Shot012_GoldenDeerComparison.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot012_GoldenDeerComparison_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，Claude 笑着观察",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，Claude 笑着观察\nScene: 三学级庭院. Characters: use selected assets and preserve identity. Camera: 中近景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot013",
+      "title": "Blue Lions Lineup",
+      "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot013_BlueLionsLineup_grounded_v3.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot013_BlueLionsLineup_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，Dimitri、Dedue、Felix、Sylvain 等站成松散阵列",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，Dimitri、Dedue、Felix、Sylvain 等站成松散阵列\nScene: 三学级庭院. Characters: use selected assets and preserve identity. Camera: 横移逐个带过. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot014",
+      "title": "Dimitri Greeting",
+      "startFrame": "episodes/EP02/generated/p1_student_intro_v1/Shot014_DimitriGreeting.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot014_DimitriGreeting_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，Dimitri 上前行礼，Dedue在后",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，Dimitri 上前行礼，Dedue在后\nScene: 三学级庭院. Characters: use selected assets and preserve identity. Camera: 正反打. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot015",
+      "title": "Felix / Sylvain Exchange",
+      "startFrame": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot015_FelixSylvainExchange_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot015_FelixSylvainExchange_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，Felix 冷言，Sylvain缓和",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，Felix 冷言，Sylvain缓和\nScene: 三学级庭院. Characters: use selected assets and preserve identity. Camera: 双人中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot016",
+      "title": "Blue Lions Reaction Montage",
+      "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot016_BlueLionsReaction_grounded_v3.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot016_BlueLionsReaction_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：角色反应或身份读点最清楚的一瞬，Mercedes、Annette、Ashe、Ingrid 的反应",
+      "keyFramePrompt": "关键帧：角色反应或身份读点最清楚的一瞬，Mercedes、Annette、Ashe、Ingrid 的反应\nScene: 三学级庭院. Characters: use selected assets and preserve identity. Camera: 快速特写组. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot017",
+      "title": "House Choice Ceremony",
+      "startFrame": "episodes/EP02/generated/p0_rhea_youth_v2/Shot017_HouseChoiceCeremony_identity_locked_v4.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot017_HouseChoiceCeremony_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：Byleth 选择青狮后，三学级选择的仪式感",
+      "keyFramePrompt": "关键帧：Byleth 选择青狮后，三学级选择的仪式感\nScene: 接见厅. Characters: use selected assets and preserve identity. Camera: 宽镜头. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot018",
+      "title": "Choice Moment",
+      "startFrame": "episodes/EP02/generated/p0_v1/Shot018_ChoiceMoment.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot018_ChoiceMoment_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：Byleth 选择青狮后，Byleth 选择 Blue Lions",
+      "keyFramePrompt": "关键帧：Byleth 选择青狮后，Byleth 选择 Blue Lions\nScene: 接见厅. Characters: use selected assets and preserve identity. Camera: POV 到 Dimitri. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot019",
+      "title": "Dimitri Accepts Teacher",
+      "startFrame": "episodes/EP02/generated/p1_youth_identity_v2/Shot019_DimitriAcceptsTeacher_youth_identity_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot019_DimitriAcceptsTeacher_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：Byleth 选择青狮后，Dimitri 接受新教师",
+      "keyFramePrompt": "关键帧：Byleth 选择青狮后，Dimitri 接受新教师\nScene: 接见厅. Characters: use selected assets and preserve identity. Camera: 中近景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot020",
+      "title": "Jeralt Private Warning",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot020_JeraltPrivateWarning.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot020_JeraltPrivateWarning_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：课堂关系变化最清楚的一瞬，夜色、书架、Jeralt 关门",
+      "keyFramePrompt": "关键帧：课堂关系变化最清楚的一瞬，夜色、书架、Jeralt 关门\nScene: 图书室 / 教师室. Characters: use selected assets and preserve identity. Camera: 静态压迫构图. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot021",
+      "title": "Mercenary Badge Insert",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot021_MercenaryBadgeInsert.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot021_MercenaryBadgeInsert_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：课堂关系变化最清楚的一瞬，Jeralt 放下旧佣兵徽章",
+      "keyFramePrompt": "关键帧：课堂关系变化最清楚的一瞬，Jeralt 放下旧佣兵徽章\nScene: 图书室 / 教师室. Characters: use selected assets and preserve identity. Camera: 插入特写. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot022",
+      "title": "First Class Wide",
+      "startFrame": "episodes/EP02/generated/p1_youth_identity_v2/Shot022_FirstClassWide_youth_identity_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot022_FirstClassWide_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：课堂关系变化最清楚的一瞬，Blue Lions 坐成一排",
+      "keyFramePrompt": "关键帧：课堂关系变化最清楚的一瞬，Blue Lions 坐成一排\nScene: 教室. Characters: use selected assets and preserve identity. Camera: 教室正面中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot023",
+      "title": "Training Sword Insert",
+      "startFrame": "episodes/EP02/generated/p1_student_intro_v1/Shot023_TrainingSwordInsert.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot023_TrainingSwordInsert_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：课堂关系变化最清楚的一瞬，Byleth 放下训练剑",
+      "keyFramePrompt": "关键帧：课堂关系变化最清楚的一瞬，Byleth 放下训练剑\nScene: 教室. Characters: use selected assets and preserve identity. Camera: 低机位插入. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot024",
+      "title": "Felix Stands",
+      "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot024_FelixStands_grounded_v3.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot024_FelixStands_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：课堂关系变化最清楚的一瞬，Felix 起身",
+      "keyFramePrompt": "关键帧：课堂关系变化最清楚的一瞬，Felix 起身\nScene: 教室. Characters: use selected assets and preserve identity. Camera: 近景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot025",
+      "title": "Mock Battle Setup",
+      "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot025_MockBattleSetup.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot025_MockBattleSetup_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，三学级列队、教师观察",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，三学级列队、教师观察\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 宽镜头. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot026",
+      "title": "Blue Lions Formation",
+      "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot026_BlueLionsFormation_grounded_v3.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot026_BlueLionsFormation_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Byleth 安排学生位置",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Byleth 安排学生位置\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 俯拍到中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot027",
+      "title": "Ashe Archer Support",
+      "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot027_AsheArcherSupport_grounded_v3.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot027_AsheArcherSuppression_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Ashe 在高处拉弓",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Ashe 在高处拉弓\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 快切. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot028",
+      "title": "Annette / Mercedes Support",
+      "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot028_AnnetteMercedesSupport.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot028_AnnetteMercedesSupport_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Annette 紧张施法，Mercedes 稳住她",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Annette 紧张施法，Mercedes 稳住她\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 双人中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot029",
+      "title": "Sylvain / Ingrid Side Flank",
+      "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot029_SylvainIngridSideFlank.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot029_SylvainIngridFlank_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Sylvain 吸引对手，Ingrid 切入",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Sylvain 吸引对手，Ingrid 切入\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 横向运动. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot030",
+      "title": "Felix Breaks Formation",
+      "startFrame": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot030_FelixBreaksFormation_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot030_FelixBreaksFormation_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 脱离阵型",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 脱离阵型\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 手持跟拍. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot031",
+      "title": "Byleth Stops Felix",
+      "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot031_BylethStopsFelix_grounded_v3.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot031_BylethStopsFelix_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战战术关系最清楚的一瞬，Felix 在教师手势前停步，改为无冲突的训练暂停姿态。",
+      "keyFramePrompt": "安全版关键帧：Felix 在训练边线前主动停步，Byleth 以教师手势示意暂停；无武器碰撞、无受伤、无血、无致命攻击。"
+    },
+    {
+      "shot": "Shot032",
+      "title": "Dedue Guards Dimitri",
+      "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot032_DedueGuardsDimitri.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot032_DedueGuardsDimitri_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dedue 挡下侧面攻击",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dedue 挡下侧面攻击\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot033",
+      "title": "Dimitri Restraint",
+      "startFrame": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot033_DimitriRestraint_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot033_DimitriRestraint_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 几乎过度攻击，看到 Byleth 手势后收剑",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 几乎过度攻击，看到 Byleth 手势后收剑\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 慢动作一瞬. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot034",
+      "title": "Exercise Ends",
+      "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot034_ExerciseEnds.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot034_ExerciseEnds_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，对手退后，Blue Lions 稳住阵线",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，对手退后，Blue Lions 稳住阵线\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 宽镜头. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot035",
+      "title": "Felix Respect Beat",
+      "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot035_FelixRespectBeat_grounded_v3.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot035_FelixRespectBeat_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 看着 Byleth",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 看着 Byleth\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 近景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot036",
+      "title": "Dimitri Dark-Line Beat",
+      "startFrame": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot036_DimitriDarkLineBeat_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot036_DimitriDarkLineBeat_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 行礼，手仍握紧剑柄",
+      "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 行礼，手仍握紧剑柄\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 手部特写到面部. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot037",
+      "title": "Church Observation",
+      "startFrame": "episodes/EP02/generated/p0_rhea_youth_v2/Shot037_ChurchObservation_RheaYouth_v2.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot037_ChurchObservation_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：神秘/监视感最强的一瞬，两人在远处看 Byleth",
+      "keyFramePrompt": "关键帧：神秘/监视感最强的一瞬，两人在远处看 Byleth\nScene: 训练场边缘. Characters: use selected assets and preserve identity. Camera: 长焦压缩. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot038",
+      "title": "Green Consciousness Flicker",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot038_GreenConsciousnessFlicker.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot038_GreenConsciousnessFlicker_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：神秘/监视感最强的一瞬，烛光一闪，绿色光影掠过",
+      "keyFramePrompt": "关键帧：神秘/监视感最强的一瞬，烛光一闪，绿色光影掠过\nScene: 主回廊夜. Characters: use selected assets and preserve identity. Camera: 主观镜头. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot039",
+      "title": "Empty Night Cloister Echo",
+      "startFrame": "episodes/EP02/generated/p2_connectors_v1/Shot039_EmptyNightCloisterEcho.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot039_EmptyNightCloisterEcho_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：神秘/监视感最强的一瞬，Byleth 停步，空廊回声",
+      "keyFramePrompt": "关键帧：神秘/监视感最强的一瞬，Byleth 停步，空廊回声\nScene: 主回廊夜. Characters: use selected assets and preserve identity. Camera: 静态. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot040",
+      "title": "Kostas Kneels",
+      "startFrame": "episodes/EP02/generated/p0_v1/Shot040_KostasKneels.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot040_KostasKneels_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：章末阴谋信息最清楚的一瞬，Kostas 跪地，Flame Emperor 俯视",
+      "keyFramePrompt": "关键帧：章末阴谋信息最清楚的一瞬，Kostas 跪地，Flame Emperor 俯视\nScene: 山间废墟夜. Characters: use selected assets and preserve identity. Camera: 低角度反派镜头. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot041",
+      "title": "Flame Emperor Mask Close-Up",
+      "startFrame": "episodes/EP02/generated/p0_v1/Shot041_FlameEmperorMask.png",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot041_FlameEmperorMaskCloseUp_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：章末阴谋信息最清楚的一瞬，红面具近景",
+      "keyFramePrompt": "关键帧：章末阴谋信息最清楚的一瞬，红面具近景\nScene: 山间废墟夜. Characters: use selected assets and preserve identity. Camera: 缓慢推近. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot042",
+      "title": "Hard Cut To Black",
+      "startFrame": "",
+      "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot042_HardCutToBlack_keyframe_v1.png",
+      "endFrame": "",
+      "keyFrameStatus": "ready",
+      "keyFrameIntent": "关键帧：章末阴谋信息最清楚的一瞬，切黑",
+      "keyFramePrompt": "关键帧：章末阴谋信息最清楚的一瞬，切黑\nScene: 黑场. Characters: use selected assets and preserve identity. Camera: 硬切. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    }
+  ]
+}

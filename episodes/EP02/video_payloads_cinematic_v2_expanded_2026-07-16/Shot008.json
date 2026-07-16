@@ -1,0 +1,17 @@
+{
+  "shot": "Shot008",
+  "title": "Teacher Appointment",
+  "duration_seconds": 12,
+  "image_path": "episodes/EP02/generated/p0_church_identity_v2/Shot008_TeacherAppointment_RheaYouth_v2.png",
+  "prompt": "Rhea offers Byleth the teaching post with a small ceremonial gesture. Byleth receives the offer in composed silence. Jeralt's profile tightens beside Byleth, clearly uneasy. The invitation should feel like destiny and trap at the same time. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.\n\nCinematic continuity: Block=Church Authority. Transition in: Byleth receives offer in stillness. Transition out: sound bridge of monastery bells into cloister. Screen/camera rule: center-axis authority; Rhea holds still while others react around her. Audio bridge: cathedral reverb, candle hush. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: slow push from Rhea's gesture to Byleth and Jeralt.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: written contracts, magical UI, overacting, visible modern props. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot008.mp4",
+  "job_file": "episodes/EP02/video_jobs_cinematic_v2_expanded_2026-07-16/Shot008.md",
+  "cinematic_block": "Church Authority",
+  "transition_in": "Byleth receives offer in stillness",
+  "transition_out": "sound bridge of monastery bells into cloister",
+  "screen_direction_rule": "center-axis authority; Rhea holds still while others react around her",
+  "audio_bridge": "cathedral reverb, candle hush",
+  "editorial_handles_seconds": 2,
+  "risk_notes": ""
+}

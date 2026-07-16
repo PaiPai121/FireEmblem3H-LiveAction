@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch_06_cliffhanger_black",
+  "title": "Conspiracy cliffhanger and black hold",
+  "payloads": [
+    {
+      "shot": "Shot040",
+      "title": "Kostas Kneels",
+      "duration_seconds": 18,
+      "image_path": "episodes/EP02/generated/p0_v1/Shot040_KostasKneels.png",
+      "prompt": "Kostas kneels in wet stone and low fog, furious and afraid, looking up from below. The Flame Emperor stands above him in the red horned mask and black-red cloak, calm and dominant. Torchlight flickers against ruins and armor. The power relationship is clear: Kostas is disposable, the masked figure is in control.\n\nCamera: low-angle slow push from Kostas toward the Flame Emperor silhouette.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: gore, torture imagery, monster redesign, exposed identity.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot040.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot040.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot041",
+      "title": "Flame Emperor Mask Close-Up",
+      "duration_seconds": 14,
+      "image_path": "episodes/EP02/generated/p0_v1/Shot041_FlameEmperorMask.png",
+      "prompt": "The Flame Emperor mask dominates the frame in cold fog and low torchlight. The figure remains still, calculating, and unreadable. Wet stone blurs behind the mask. End the episode on the masked presence, with only slight cloak movement and firelight reflection.\n\nCamera: very slow push into the mask, ending in a hard cut to black.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: identity reveal, ordinary knight redesign, readable text, exaggerated monster movement.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot041.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot041.md",
+      "risk_notes": []
+    },
+    {
+      "shot": "Shot042",
+      "title": "Hard Cut To Black",
+      "duration_seconds": 4,
+      "image_path": "",
+      "prompt": "Hard cut to black after the Flame Emperor mask close-up. Hold black with low-frequency sound design. No image content, no text, no logo.\n\nCamera: none.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: credits, title card, UI, watermark.",
+      "output_path": "episodes/EP02/video_outputs/first_pass/Shot042.mp4",
+      "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot042.md",
+      "risk_notes": [
+        "Black-only shot; no image input required."
+      ]
+    }
+  ]
+}

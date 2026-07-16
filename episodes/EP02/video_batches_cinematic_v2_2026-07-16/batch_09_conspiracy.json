@@ -1,0 +1,51 @@
+{
+  "batch_id": "batch_09_conspiracy",
+  "title": "Conspiracy",
+  "shots": [
+    {
+      "shot": "Shot040",
+      "title": "Kostas Kneels",
+      "duration_seconds": 24,
+      "image_path": "episodes/EP02/generated/p0_v1/Shot040_KostasKneels.png",
+      "prompt": "Kostas kneels in wet stone and low fog, furious and afraid, looking up from below. The Flame Emperor stands above him in the red horned mask and black-red cloak, calm and dominant. Torchlight flickers against ruins and armor. The power relationship is clear: Kostas is disposable, the masked figure is in control.\n\nCinematic continuity: Block=Conspiracy. Transition in: wet ruins shock after quiet corridor. Transition out: torchlight motivates mask push. Screen/camera rule: low-angle secret exchange; final push into mask and hard black. Audio bridge: low fog, torch, sub hit to black. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: low-angle slow push from Kostas toward the Flame Emperor silhouette.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: gore, torture imagery, monster redesign, exposed identity. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+      "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot040.mp4",
+      "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot040.md",
+      "cinematic_block": "Conspiracy",
+      "transition_in": "wet ruins shock after quiet corridor",
+      "transition_out": "torchlight motivates mask push",
+      "editorial_handles_seconds": 2,
+      "risk_notes": ""
+    },
+    {
+      "shot": "Shot041",
+      "title": "Flame Emperor Mask Close-Up",
+      "duration_seconds": 20,
+      "image_path": "episodes/EP02/generated/p0_v1/Shot041_FlameEmperorMask.png",
+      "prompt": "The Flame Emperor mask dominates the frame in cold fog and low torchlight. The figure remains still, calculating, and unreadable. Wet stone blurs behind the mask. End the episode on the masked presence, with only slight cloak movement and firelight reflection.\n\nCinematic continuity: Block=Conspiracy. Transition in: slow push into mask. Transition out: hard cut to black with sub hit. Screen/camera rule: low-angle secret exchange; final push into mask and hard black. Audio bridge: low fog, torch, sub hit to black. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: very slow push into the mask, ending in a hard cut to black.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: identity reveal, ordinary knight redesign, readable text, exaggerated monster movement. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+      "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot041.mp4",
+      "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot041.md",
+      "cinematic_block": "Conspiracy",
+      "transition_in": "slow push into mask",
+      "transition_out": "hard cut to black with sub hit",
+      "editorial_handles_seconds": 2,
+      "risk_notes": ""
+    },
+    {
+      "shot": "Shot042",
+      "title": "Hard Cut To Black",
+      "duration_seconds": 4,
+      "image_path": "",
+      "prompt": "Hard cut to black after the Flame Emperor mask close-up. Hold black with low-frequency sound design. No image content, no text, no logo.\n\nCinematic continuity: Block=Conspiracy. Transition in: hard black impact. Transition out: hold black tail. Screen/camera rule: low-angle secret exchange; final push into mask and hard black. Audio bridge: low fog, torch, sub hit to black. Generate with 0s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: none.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: credits, title card, UI, watermark. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+      "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot042.mp4",
+      "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot042.md",
+      "cinematic_block": "Conspiracy",
+      "transition_in": "hard black impact",
+      "transition_out": "hold black tail",
+      "editorial_handles_seconds": 0,
+      "risk_notes": "black-only, no still"
+    }
+  ]
+}

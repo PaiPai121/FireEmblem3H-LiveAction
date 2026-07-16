@@ -1,0 +1,11 @@
+{
+  "shot": "Shot030",
+  "title": "Felix Breaks Formation",
+  "duration_seconds": 12,
+  "image_path": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot030_FelixBreaksFormation_v2.png",
+  "prompt": "Felix steps too far ahead of the planned formation, impatient and confident. The Blue Lions line behind him shifts in response. Felix keeps a padded training marker low and safe; the danger is tactical disobedience, not lethal violence.\n\nCamera: handheld-like forward drift following Felix's step.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No blood, gore, lethal impact, battlefield carnage, or real injury. Avoid: sharp sword attack, injury, older face. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot030.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot030.md",
+  "risk_notes": []
+}

@@ -1,0 +1,13 @@
+{
+  "shot": "Shot019",
+  "title": "Dimitri Accepts Teacher",
+  "duration_seconds": 12,
+  "image_path": "episodes/EP02/generated/p1_youth_identity_v2/Shot019_DimitriAcceptsTeacher_youth_identity_v2.png",
+  "prompt": "Dimitri steps forward and bows formally to Byleth. Dedue stands close behind, silent and protective. Felix watches with skeptical intensity, and Sylvain eases the tension with relaxed posture. Keep the Blue Lions young and recognizable, using the later v2 Felix direction if identity drifts.\n\nCamera: medium-wide hold, slight push toward Dimitri's bow.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nDedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and powerfully built, a calm shield-wall guardian beside Dimitri, not a slim student.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: war armor, aged faces, Felix smiling warmly, over-formal court spectacle. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging. No skinny Dedue, no narrow shoulders, no average schoolboy body, no ordinary slim soldier build.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot019.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot019.md",
+  "risk_notes": [
+    "Protect house leader / Blue Lions identity in motion."
+  ]
+}

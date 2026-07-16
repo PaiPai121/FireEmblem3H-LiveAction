@@ -1,0 +1,10 @@
+batch,blocks,shot_count,shots
+batch_01_arrival,Arrival,4,Shot001 Shot002 Shot003 Shot004
+batch_02_church_authority,Church Authority,4,Shot005 Shot006 Shot007 Shot008
+batch_03_monastery_daily_life,Monastery Daily Life,2,Shot009 Shot010
+batch_04_three_houses,Three Houses,9,Shot011 Shot012 Shot013 Shot014 Shot015 Shot016 Shot017 Shot018 Shot019
+batch_05_private_warning,Private Warning,2,Shot020 Shot021
+batch_06_first_class,First Class,3,Shot022 Shot023 Shot024
+batch_07_mock_battle_expanded,Mock Battle+Mock Battle Expanded,19,Shot025 Shot025A Shot026 Shot026B Shot027 Shot027B Shot028 Shot029 Shot029B Shot030 Shot030B Shot031 Shot032 Shot032B Shot033 Shot034 Shot034B Shot035 Shot036
+batch_08_observation_echo,Observation Echo,3,Shot037 Shot038 Shot039
+batch_09_conspiracy,Conspiracy,3,Shot040 Shot041 Shot042

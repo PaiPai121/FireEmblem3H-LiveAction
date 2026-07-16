@@ -1,0 +1,126 @@
+{
+  "batch_id": "batch_05_connectors_atmosphere",
+  "title": "Arrival, monastery life, warning, and night echo",
+  "shots": [
+    {
+      "shot": "Shot001",
+      "title": "Garreg Mach Exterior Road",
+      "duration": "8 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot001_GarregMachExteriorRoad.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Morning fog drifts across the mountain road as Garreg Mach monastery rises in the distance. Tiny escort silhouettes move slowly along the path. The monastery should feel sacred, remote, and politically imposing.",
+      "camera": "wide slow push toward the distant monastery.",
+      "avoid": "modern roads, readable signs, fantasy monsters. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot002",
+      "title": "Jeralt And Byleth Travel",
+      "duration": "10 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot002_JeraltBylethTravel.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Jeralt and Byleth walk along the stone mountain road behind Church knight escorts. Jeralt glances toward the monastery with guarded suspicion; Byleth remains quiet and unreadable. Cloaks and banners move lightly in the wind.",
+      "camera": "medium-wide tracking move from the side and slightly behind.",
+      "avoid": "galloping action, battle tension, cheerful travel montage. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot003",
+      "title": "Main Gate Arrival",
+      "duration": "8 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot003_MainGateArrival.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Byleth and Jeralt enter the main gate plaza under the gaze of guards and academy students. The crowd remains controlled and quiet. The shot should feel like arrival into a place where everyone watches newcomers.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "slow forward move through the gate toward the plaza.",
+      "avoid": "crowd chaos, public celebration, readable banners. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot004",
+      "title": "Dimitri First Nod",
+      "duration": "8 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot004_DimitriFirstNod.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Dimitri notices Byleth and Jeralt from a respectful distance and gives a small polite nod. Byleth remains partly foregrounded. The moment is brief, courteous, and easy to miss, planting the first Blue Lions connection.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "shallow focus from Byleth's side toward Dimitri.",
+      "avoid": "formal bow, older king styling, dramatic recognition. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot009",
+      "title": "Main Cloister Daily Life",
+      "duration": "12 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot009_MainCloisterDailyLife.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "generate continuous shot, not split-screen",
+      "video_prompt": "Use this still as a montage concept, not a literal multi-panel frame. Generate a continuous main cloister daily-life shot: students cross with books, staff move quietly, sunlight falls through arches, banners hang still, and Byleth moves through the space as an observer. The monastery feels orderly, beautiful, and watched.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "smooth lateral glide through the cloister.",
+      "avoid": "split-screen panels, collage layout, readable text, modern school behavior. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot010",
+      "title": "Faculty Introduction",
+      "duration": "12 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot010_FacultyIntroduction.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Hanneman approaches Byleth with eager scholarly curiosity while Manuela interrupts or redirects him with practiced confidence. Byleth remains calm between them. Keep the rhythm lighter than the church scenes but still grounded.",
+      "camera": "medium three-shot, slight handheld warmth.",
+      "avoid": "slapstick, exaggerated flirting, modern comedy. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot020",
+      "title": "Jeralt Private Warning",
+      "duration": "18 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot020_JeraltPrivateWarning.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "In the dim teacher office or library, Jeralt closes the door or stands near it, then warns Byleth with fatherly concern and political suspicion. Byleth listens silently. Candlelight flickers across books and armor.",
+      "camera": "static tense composition with a small push toward Jeralt.",
+      "avoid": "shouting, melodrama, readable book text. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot021",
+      "title": "Mercenary Badge Insert",
+      "duration": "10 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot021_MercenaryBadgeInsert.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Jeralt's gloved hand places the old mercenary badge on the wooden desk. The metal settles with weight near candlelight, maps, and closed books. The insert should feel personal and ominous, connecting Byleth's past to the monastery.",
+      "camera": "close insert, tiny push toward the badge.",
+      "avoid": "readable writing, magical glow, modern props. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot038",
+      "title": "Green Consciousness Flicker",
+      "duration": "14 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot038_GreenConsciousnessFlicker.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "Byleth stands alone in the night cloister as candle flames dim and emerald-green reflections ripple across the stone floor and windows. The effect suggests an inner voice or memory without showing a full body. Byleth turns slightly, alert but controlled.",
+      "camera": "slow subjective drift through the corridor toward Byleth.",
+      "avoid": "full ghost body, readable text, horror jump scare. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    },
+    {
+      "shot": "Shot039",
+      "title": "Empty Night Cloister Echo",
+      "duration": "12 seconds",
+      "still": "episodes/EP02/generated/p2_connectors_v1/Shot039_EmptyNightCloisterEcho.png",
+      "source_package": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "status": "ready_for_video_test",
+      "risk_notes": "",
+      "video_prompt": "After the green light fades, the night cloister is almost empty. Moonlight and candles stretch down the corridor. Byleth is alone or just leaving frame; a faint distant blond student silhouette may pass at the edge, suggesting Dimitri without confirming it.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+      "camera": "static long corridor hold with slight candle movement.",
+      "avoid": "explicit ghost, monster, chase, readable text. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging."
+    }
+  ]
+}

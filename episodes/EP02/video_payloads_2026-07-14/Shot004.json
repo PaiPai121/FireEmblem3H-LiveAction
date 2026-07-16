@@ -1,0 +1,11 @@
+{
+  "shot": "Shot004",
+  "title": "Dimitri First Nod",
+  "duration_seconds": 8,
+  "image_path": "episodes/EP02/generated/p2_connectors_v1/Shot004_DimitriFirstNod.png",
+  "prompt": "Dimitri notices Byleth and Jeralt from a respectful distance and gives a small polite nod. Byleth remains partly foregrounded. The moment is brief, courteous, and easy to miss, planting the first Blue Lions connection.\n\nCamera: shallow focus from Byleth's side toward Dimitri.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: formal bow, older king styling, dramatic recognition. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+  "output_path": "episodes/EP02/video_outputs/first_pass/Shot004.mp4",
+  "job_file": "episodes/EP02/video_jobs_2026-07-14/Shot004.md",
+  "risk_notes": []
+}

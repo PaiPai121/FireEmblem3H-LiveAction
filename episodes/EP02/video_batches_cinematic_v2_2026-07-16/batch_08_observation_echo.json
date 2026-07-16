@@ -1,0 +1,51 @@
+{
+  "batch_id": "batch_08_observation_echo",
+  "title": "Observation Echo",
+  "shots": [
+    {
+      "shot": "Shot037",
+      "title": "Church Observation",
+      "duration_seconds": 12,
+      "image_path": "episodes/EP02/generated/p0_rhea_youth_v2/Shot037_ChurchObservation_RheaYouth_v2.png",
+      "prompt": "Rhea and Seteth watch from the edge of the academy training ground after the mock battle. Rhea appears serene, almost satisfied; Seteth remains cautious. The Blue Lions are small in the distance, recovering from training. The feeling is surveillance, not celebration. Rhea must remain a breathtakingly beautiful young adult woman in her mid-20s with smooth youthful skin; express ancient dragon divinity through calm sacred authority, not wrinkles, eye bags, tired texture, or middle-aged features.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nCinematic continuity: Block=Observation Echo. Transition in: surveillance reframes training as church interest. Transition out: green shimmer prelap into night corridor. Screen/camera rule: long-lens surveillance into night subjective unease. Audio bridge: distant training fades into night corridor and green shimmer. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: long-lens compressed hold with a subtle drift from students to Rhea and Seteth.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: cheering, public announcement, battle aftermath, injuries. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+      "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot037.mp4",
+      "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot037.md",
+      "cinematic_block": "Observation Echo",
+      "transition_in": "surveillance reframes training as church interest",
+      "transition_out": "green shimmer prelap into night corridor",
+      "editorial_handles_seconds": 2,
+      "risk_notes": ""
+    },
+    {
+      "shot": "Shot038",
+      "title": "Green Consciousness Flicker",
+      "duration_seconds": 18,
+      "image_path": "episodes/EP02/generated/p2_connectors_v1/Shot038_GreenConsciousnessFlicker.png",
+      "prompt": "Byleth stands alone in the night cloister as candle flames dim and emerald-green reflections ripple across the stone floor and windows. The effect suggests an inner voice or memory without showing a full body. Byleth turns slightly, alert but controlled.\n\nCinematic continuity: Block=Observation Echo. Transition in: green shimmer carries into Byleth subjectivity. Transition out: sound drops to empty corridor echo. Screen/camera rule: long-lens surveillance into night subjective unease. Audio bridge: distant training fades into night corridor and green shimmer. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: slow subjective drift through the corridor toward Byleth.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: full ghost body, readable text, horror jump scare. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+      "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot038.mp4",
+      "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot038.md",
+      "cinematic_block": "Observation Echo",
+      "transition_in": "green shimmer carries into Byleth subjectivity",
+      "transition_out": "sound drops to empty corridor echo",
+      "editorial_handles_seconds": 2,
+      "risk_notes": ""
+    },
+    {
+      "shot": "Shot039",
+      "title": "Empty Night Cloister Echo",
+      "duration_seconds": 16,
+      "image_path": "episodes/EP02/generated/p2_connectors_v1/Shot039_EmptyNightCloisterEcho.png",
+      "prompt": "After the green light fades, the night cloister is almost empty. Moonlight and candles stretch down the corridor. Byleth is alone or just leaving frame; a faint distant blond student silhouette may pass at the edge, suggesting Dimitri without confirming it.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nCinematic continuity: Block=Observation Echo. Transition in: hold empty echo after Sothis line. Transition out: smash cut to wet night ruins. Screen/camera rule: long-lens surveillance into night subjective unease. Audio bridge: distant training fades into night corridor and green shimmer. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: static long corridor hold with slight candle movement.",
+      "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: explicit ghost, monster, chase, readable text. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
+      "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot039.mp4",
+      "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot039.md",
+      "cinematic_block": "Observation Echo",
+      "transition_in": "hold empty echo after Sothis line",
+      "transition_out": "smash cut to wet night ruins",
+      "editorial_handles_seconds": 2,
+      "risk_notes": ""
+    }
+  ]
+}
