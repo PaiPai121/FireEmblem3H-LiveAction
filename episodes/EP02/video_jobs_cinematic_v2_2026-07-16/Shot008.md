@@ -1,17 +1,10 @@
-# Shot008 - Teacher Appointment Cinematic V2 Job
+# Shot008 Teacher Appointment
 
-Duration: 12 seconds
-Handles: 2 seconds
+Duration: 12s
 Image: `episodes/EP02/generated/p0_church_identity_v2/Shot008_TeacherAppointment_RheaYouth_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot008.mp4`
-
-## Cinematic Continuity
-
-- Block: Church Authority
-- Transition in: Byleth receives offer in stillness
-- Transition out: sound bridge of monastery bells into cloister
-- Screen / camera rule: center-axis authority; Rhea holds still while others react around her
-- Audio bridge: cathedral reverb, candle hush
+Block: Church Authority
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Rhea offers Byleth the teaching post with a small ceremonial gesture. Byleth rec
 
 Cinematic continuity: Block=Church Authority. Transition in: Byleth receives offer in stillness. Transition out: sound bridge of monastery bells into cloister. Screen/camera rule: center-axis authority; Rhea holds still while others react around her. Audio bridge: cathedral reverb, candle hush. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-slow push from Rhea's gesture to Byleth and Jeralt.
+Camera: slow push from Rhea's gesture to Byleth and Jeralt.
 
 ## Negative Prompt
 

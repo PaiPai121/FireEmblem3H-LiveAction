@@ -1,0 +1,1976 @@
+{
+  "version": "2026-07-19",
+  "scope": "EP02 Scene09 Mock Battle, Shot025-Shot036",
+  "policy": "Do not mark old/source PNG or SVG layout frames as final generated production frames. Existing non-production images are references only. Only newly generated and QA-reviewed raster frames may be qa_passed.",
+  "shots": [
+    {
+      "shot": "Shot025",
+      "title": "Mock Battle Setup",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Sylvain",
+        "Ingrid",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Edelgard",
+        "Claude",
+        "Hanneman",
+        "Manuela"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_mock_battle_v1/Shot025_MockBattleSetup.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot025_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot025_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot025_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot025A",
+      "title": "Canon 20x22 Field Map",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Edelgard",
+        "Claude",
+        "Hanneman",
+        "Manuela"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025A_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025A_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot025A_Canon20x22FieldMap.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot025A_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot025A_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot025A_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot026",
+      "title": "Blue Lions Formation",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Sylvain",
+        "Ingrid",
+        "Ashe",
+        "Annette",
+        "Mercedes"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_grounded_identity_v3/Shot026_BlueLionsFormation_grounded_v3.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot026B",
+      "title": "Byleth Southeast Route Call",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Sylvain",
+        "Ingrid",
+        "Ashe",
+        "Annette",
+        "Mercedes"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot026B_SoutheastRouteCall.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot026C",
+      "title": "Blue Lions Horn Charge",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot026C_BlueLionsHornCharge.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot026C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot027",
+      "title": "Ashe Archer Support",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Ashe",
+        "Dorothea",
+        "Lorenz",
+        "Ignatz"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Dorothea",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Dorothea/academy/selected.png",
+          "continuity_note": "Black Eagles mage, elegant academy support movement"
+        },
+        {
+          "name": "Lorenz",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Lorenz/academy/selected.png",
+          "continuity_note": "purple-haired noble, formal posture, center-west first wave"
+        },
+        {
+          "name": "Ignatz",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Ignatz/academy/selected.png",
+          "continuity_note": "glasses-wearing archer, cautious ranged support"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_grounded_identity_v3/Shot027_AsheArcherSupport_grounded_v3.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot027B",
+      "title": "First Moving Enemy Wave",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Ferdinand",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired Black Eagles lancer, first moving wave lead"
+        },
+        {
+          "name": "Edelgard",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "Black Eagles commander, axe-ready discipline"
+        },
+        {
+          "name": "Hubert",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "Black Eagles dark magic/book support, no melee weapon"
+        },
+        {
+          "name": "Dorothea",
+          "asset": "assets/characters/black_eagles/Dorothea/academy/selected.png",
+          "continuity_note": "Black Eagles support caster, composed academy student"
+        },
+        {
+          "name": "Dimitri",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "blond Blue Lions prince, long training lance, central pressure"
+        },
+        {
+          "name": "Dedue",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "broad Blue Lions shield anchor"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027B_FirstMovingEnemyWave.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot027C",
+      "title": "Dimitri Dedue First Contact",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Dimitri",
+        "Dedue",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027C_DimitriDedueFirstContact.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot027D",
+      "title": "Dimitri Forces One Step Back",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ferdinand"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027D_DimitriForcesOneStepBack.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027D_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027D_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot027D_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot028",
+      "title": "Annette / Mercedes Support",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Annette",
+        "Mercedes"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_mock_battle_v1/Shot028_AnnetteMercedesSupport.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot028B",
+      "title": "Black Eagles Stabilize Center",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot028B_BlackEaglesStabilizeCenter.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot028C",
+      "title": "Felix Side Cut Held",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Felix",
+        "Ferdinand"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot028C_FelixSideCutHeld.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot028C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot029",
+      "title": "Sylvain / Ingrid Side Flank",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Sylvain",
+        "Ingrid",
+        "Claude",
+        "Hilda"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Sylvain",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired Blue Lions lancer, flank containment"
+        },
+        {
+          "name": "Ingrid",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde Blue Lions lancer, disciplined route cutter with long training lance"
+        },
+        {
+          "name": "Claude",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "Golden Deer leader, bow pressure from thicket"
+        },
+        {
+          "name": "Hilda",
+          "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+          "continuity_note": "youth identity v4 pink twin ponytails, compact training axe if visible"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_mock_battle_v1/Shot029_SylvainIngridSideFlank.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot029B",
+      "title": "Sylvain Ingrid Thicket Flank",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Sylvain",
+        "Ingrid",
+        "Claude",
+        "Hilda"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Hilda",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+          "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+        },
+        {
+          "name": "Lorenz",
+          "asset": "assets/characters/golden_deer/Lorenz/academy/selected.png",
+          "continuity_note": "Golden Deer academy-age side-line student, formal lance pressure supporting Hilda"
+        },
+        {
+          "name": "Ignatz",
+          "asset": "assets/characters/golden_deer/Ignatz/academy/selected.png",
+          "continuity_note": "Golden Deer academy-age archer support, careful route-denial arrows from cover"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029B_ThicketFlank.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot029C",
+      "title": "Claude Reads Blue Lions Stretch",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Claude",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029C_ClaudeReadsStretch.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot029D",
+      "title": "Ashe Observation Point Suppressed",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Ashe",
+        "Claude"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029D_AsheObservationSuppressed.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029D_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029D_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot029D_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot030",
+      "title": "Felix Breaks Formation",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Felix"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot030_FelixBreaksFormation_v2.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot030B",
+      "title": "Felix Breaks Toward Northeast Trigger",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Felix",
+        "Hanneman",
+        "Manuela"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot030B_NortheastTrigger.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot030C",
+      "title": "Support Route Cut",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Annette",
+        "Mercedes",
+        "Dimitri",
+        "Dedue"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot030C_SupportRouteCut.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot030C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot031",
+      "title": "Byleth Stops Felix",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Felix",
+        "Dedue"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_grounded_identity_v3/Shot031_BylethStopsFelix_grounded_v3.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot031_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot031_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot031_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot031B",
+      "title": "Byleth Refuses Recall",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Sylvain",
+        "Ingrid",
+        "Ashe",
+        "Annette",
+        "Mercedes"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot031B_BylethRefusesRecall.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot031B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot031B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot031B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot032",
+      "title": "Dedue Guards Dimitri",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Dedue",
+        "Dimitri",
+        "Hubert",
+        "Ferdinand",
+        "Mercedes"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        },
+        {
+          "name": "Mercedes",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, short clean white healing light from cover"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_mock_battle_v1/Shot032_DedueGuardsDimitri.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no visible wounds, no lethal combat, no gore, no war-phase armor. No wrong weapons: Dimitri must not use a sword, Dedue must not use a slim weapon, Ferdinand must not use a bow, Hubert must not use a melee weapon, Mercedes must not use a staff as a spear or any offensive beam. No camera-facing hero pose when enemies are ahead; every fighter must face the actual threat line. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid.",
+      "generation_note": "Weapon/facing v2 generated and locally reviewed on 2026-07-19: start frame keeps Mercedes unlit and ready; keyframe adds a short healing line to Dedue's shield arm/shoulder guard while Dimitri and Dedue keep facing enemy pressure."
+    },
+    {
+      "shot": "Shot032B",
+      "title": "Dimitri Dedue Northeast Hold",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Dimitri",
+        "Dedue",
+        "Hubert",
+        "Ferdinand"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032B_NortheastHold.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot032C",
+      "title": "Black Eagles Pressure Golden Deer",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Edelgard",
+        "Hubert",
+        "Claude",
+        "Hilda"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Hilda",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+          "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+        },
+        {
+          "name": "Dorothea",
+          "asset": "assets/characters/black_eagles/Dorothea/academy/selected.png",
+          "continuity_note": "Black Eagles academy-age support caster, composed short support rhythm beside Edelgard and Hubert"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032C_BlackEaglesPressureGoldenDeer.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot032D",
+      "title": "Two Adjacent Battle Lines",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Sylvain",
+        "Ingrid",
+        "Ashe",
+        "Claude",
+        "Hubert"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032D_TwoAdjacentBattleLines.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032D_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032D_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032D_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot032E",
+      "title": "First Three-Way Entanglement",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Sylvain",
+        "Ingrid",
+        "Hilda",
+        "Hubert"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Hilda",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+          "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032E_FirstThreeWayEntanglement.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032E_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032E_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot032E_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot033",
+      "title": "Dimitri Restraint",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Hanneman",
+        "Manuela"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot033_DimitriRestraint_v2.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot033B",
+      "title": "Byleth Calls Cut Teachers",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix",
+        "Dimitri",
+        "Dedue",
+        "Hanneman",
+        "Manuela"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, dark teal hair, tactical anchor"
+        },
+        {
+          "name": "Ashe",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "silver-haired Blue Lions archer, lower-left suppression angle"
+        },
+        {
+          "name": "Ingrid",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde Blue Lions lancer, disciplined route cutter with long training lance"
+        },
+        {
+          "name": "Felix",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-haired Blue Lions swordsman, stair-base intercept"
+        },
+        {
+          "name": "Dimitri",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "blond Blue Lions prince, long training lance, central pressure"
+        },
+        {
+          "name": "Dedue",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "broad Blue Lions shield anchor"
+        },
+        {
+          "name": "Hanneman",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher on healing platform, spell focus"
+        },
+        {
+          "name": "Manuela",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "adult teacher healer, poised support judge near healing sigil"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033B_BylethCallsCutTeachers.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot033C",
+      "title": "Ashe Suppresses Hanneman",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Ashe",
+        "Hanneman"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Ashe",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "silver-haired Blue Lions archer, lower-left suppression angle"
+        },
+        {
+          "name": "Hanneman",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher on healing platform, spell focus"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033C_AsheSuppressesHanneman.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot033D",
+      "title": "Ingrid Drives Manuela Off Tile",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Ingrid",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde Blue Lions lancer, disciplined route cutter with long training lance"
+        },
+        {
+          "name": "Manuela",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "adult teacher healer, poised support judge near healing sigil"
+        },
+        {
+          "name": "Sylvain",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired Blue Lions lancer, flank containment"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033D_IngridDrivesManuela.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033D_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033D_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot033D_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot034",
+      "title": "Exercise Ends",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Felix",
+        "Edelgard",
+        "Claude",
+        "Hanneman",
+        "Manuela"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_mock_battle_v1/Shot034_ExerciseEnds.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot034B",
+      "title": "Faculty Heal Tile Rout",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Hanneman",
+        "Manuela",
+        "Edelgard",
+        "Claude"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034B_FacultyHealTileRout.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034B_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034B_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034B_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot034C",
+      "title": "Felix Opens Stairs For Dimitri",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Felix",
+        "Ferdinand",
+        "Dimitri",
+        "Dedue",
+        "Hanneman"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034C_FelixOpensStairs.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034C_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034C_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034C_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot034D",
+      "title": "Byleth Breaks Hanneman Spell",
+      "status": "qa_passed",
+      "priority": "P0",
+      "required_characters": [
+        "Byleth",
+        "Hanneman",
+        "Dimitri",
+        "Dedue"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034D_BylethBreaksHannemanSpell.svg",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034D_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034D_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot034D_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot035",
+      "title": "Felix Respect Beat",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Felix",
+        "Dimitri"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot035_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot035_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_grounded_identity_v3/Shot035_FelixRespectBeat_grounded_v3.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot035_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot035_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot035_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    },
+    {
+      "shot": "Shot036",
+      "title": "Dimitri Dark-Line Beat",
+      "status": "qa_passed",
+      "priority": "P1",
+      "required_characters": [
+        "Byleth",
+        "Dimitri",
+        "Rhea",
+        "Seteth"
+      ],
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Rhea",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+          "continuity_note": "archbishop observer, distant authority if visible"
+        },
+        {
+          "name": "Seteth",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+          "continuity_note": "stern older church administrator, short beard/mustache, not idol-like"
+        }
+      ],
+      "planned_start_frame_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot036_start.png",
+      "planned_keyframe_output": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot036_keyframe.png",
+      "start_frame_asset_status": "qa_asset_exists",
+      "keyframe_asset_status": "asset_exists_check_qa_manifest",
+      "legacy_or_layout_reference": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot036_DimitriDarkLineBeat_v2.png",
+      "start_frame_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot036_start_frame_prompt.md",
+      "keyframe_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot036_keyframe_prompt.md",
+      "video_prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/delivery_prompts/Shot036_video_prompt.md",
+      "negative_prompt": "No game UI, no subtitles, no text, no watermark, no modern objects. No generic medieval soldiers, no adult aging of students, no face swaps, no wrong hair colors, no costume drift. No blood, no lethal wounds, no battlefield gore, no war-phase armor unless explicitly in character lock. Do not show a small fenced training yard, target range, podium arena, boxing ring, isolated duel stage, or game grid. Avoid confusing crowd piles; keep tactical lines readable.",
+      "generation_note": ""
+    }
+  ]
+}

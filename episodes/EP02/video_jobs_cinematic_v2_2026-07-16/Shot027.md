@@ -1,17 +1,10 @@
-# Shot027 - Ashe Archer Support Cinematic V2 Job
+# Shot027 Ashe Archer Support
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p1_grounded_identity_v3/Shot027_AsheArcherSupport_grounded_v3.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot027.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: gesture motivates Ashe bow action
-- Transition out: bowstring snap cuts to support magic
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Mock Battle. Transition in: gesture motivates Ashe bow action. Transition out: bowstring snap cuts to support magic. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-tight action push with slight bow-string movement.
+Camera: tight action push with slight bow-string movement.
 
 ## Negative Prompt
 

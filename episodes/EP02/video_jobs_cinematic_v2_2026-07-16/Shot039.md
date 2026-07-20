@@ -1,17 +1,10 @@
-# Shot039 - Empty Night Cloister Echo Cinematic V2 Job
+# Shot039 Empty Night Cloister Echo
 
-Duration: 16 seconds
-Handles: 2 seconds
+Duration: 16s
 Image: `episodes/EP02/generated/p2_connectors_v1/Shot039_EmptyNightCloisterEcho.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot039.mp4`
-
-## Cinematic Continuity
-
-- Block: Observation Echo
-- Transition in: hold empty echo after Sothis line
-- Transition out: smash cut to wet night ruins
-- Screen / camera rule: long-lens surveillance into night subjective unease
-- Audio bridge: distant training fades into night corridor and green shimmer
+Block: Observation Echo
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Observation Echo. Transition in: hold empty echo after Sothis line. Transition out: smash cut to wet night ruins. Screen/camera rule: long-lens surveillance into night subjective unease. Audio bridge: distant training fades into night corridor and green shimmer. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-static long corridor hold with slight candle movement.
+Camera: static long corridor hold with slight candle movement.
 
 ## Negative Prompt
 

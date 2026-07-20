@@ -2,72 +2,64 @@
 
 日期：2026-07-15
 
-用途：生成 EP02 第二幕学级模拟战场的功能区场景资产。
+2026-07-17 修正：本文件废弃“训练功能区”思路。学级模拟战应按原作 `Rivalry of the Houses` 的户外战棋地图影视化处理，而不是 Formation Yard / Archery Range / Magic Practice Lane / Side Flank Lane 等小训练场。
 
 通用要求：
 
-- Live-action cinematic fantasy academy training ground.
-- Garreg Mach monastery style: stone walls, blue banners, Gothic academy architecture, bright outdoor daylight.
-- Controlled school exercise, not battlefield.
+- Live-action cinematic fantasy academy mock battle map.
+- Garreg Mach monastery style: stone walls, Gothic academy architecture, bright outdoor daylight.
+- One continuous outdoor tactical field: southeast start, mid-west pressure line, thickets, low stone walls, slopes, northeast heal tile+ faculty line.
+- Controlled school exercise, nonlethal wooden/blunted weapons, but not target practice.
 - No blood, no corpses, no lethal combat, no game grid UI, no readable text, no watermark, no modern objects.
-- No main characters in foreground. Small student silhouettes are acceptable only for scale.
+- No straw target lanes, padded obstacle courses, chalk boundaries, or isolated teacher arena.
 
-## 1. MockBattleGrounds_FormationYard
-
-Path:
-
-- `assets/locations/EP02/act02/MockBattleGrounds_FormationYard/`
-
-Prompt:
-
-Wide live-action cinematic reference of Garreg Mach academy mock battle formation yard. A broad central training field inside monastery walls, marked by subtle chalk boundary lines, wooden weapon racks, padded shield racks, blue academy banners, a small teacher whistle table, and three separated student formation zones. The space is clearly for a controlled class exercise, with open ground for line formation and teachers observing from the side. Bright daylight, dust, stone walls, Gothic academy architecture. No game grid, no battlefield carnage, no readable text.
-
-## 2. MockBattleGrounds_ArcheryRange
+## 1. MockBattleGrounds / 原作式总览
 
 Path:
 
-- `assets/locations/EP02/act02/MockBattleGrounds_ArcheryRange/`
+- `assets/locations/EP02/act02/MockBattleGrounds/`
 
 Prompt:
 
-Live-action cinematic reference of a safe academy archery range within Garreg Mach training grounds. Straw targets, padded shield targets, blunt practice arrows, arrow recovery boxes, low wooden rails, and a slightly raised archer support platform at the side of the field. Clear empty target lane with no person in the path. Blue banners, monastery stone wall, daylight dust, students only as tiny distant silhouettes. Controlled school exercise mood, no lethal arrows, no blood, no game UI.
+Wide live-action cinematic reference of the Garreg Mach academy mock battle map, adapted from the Rivalry of the Houses battle. Blue Lions would start from the southeast edge; the mid-west route has moving enemy pressure; wooded thickets and low stone walls create Golden Deer cover; the northeast contains a dangerous approach and subtle heal-tile-like faculty support ground. The field is one continuous outdoor tactical map, supervised and nonlethal, not a set of training ranges. Bright daylight, monastery stone walls, dust, Gothic academy architecture. No game grid, no straw targets, no chalk lanes, no arena, no battlefield carnage, no readable text.
 
-## 3. MockBattleGrounds_MagicPracticeLane
+## 2. Mid-West Pressure / 中西部第一波
 
 Path:
 
-- `assets/locations/EP02/act02/MockBattleGrounds_MagicPracticeLane/`
+- `assets/locations/EP02/act02/MockBattleGrounds_BlueVsGolden_FlankRange/`
 
 Prompt:
 
-Live-action cinematic reference of a Garreg Mach academy magic practice lane beside the training field. Stone practice circles, low rune-like training markers without readable text, small lantern-like ward targets, sand buckets, padded posts, and a safe open lane separated from the main field. It should feel designed for controlled beginner magic practice, not battlefield spellcasting. Bright daylight, blue banners, monastery stone architecture, soft dust. No huge explosions, no game UI, no readable text, no modern objects.
+Live-action cinematic reference of the mid-west pressure line on the Garreg Mach academy mock battle map. Grass, uneven dirt paths, low stone walls, sparse trees, and a small natural rise create a place where Ashe can pressure Dorothea, Lorenz, and Ignatz as they move first. Yellow markers may sit deeper in thicket cover, but this is not an archery range or target lane. Controlled nonlethal academy exercise mood, bright daylight, monastery wall in the background. No straw targets, no padded shield targets, no person-in-target-lane composition, no blood, no game UI.
 
-## 4. MockBattleGrounds_SideFlankLane
+## 3. Thicket Flank / 林地与掩体
 
 Path:
 
-- `assets/locations/EP02/act02/MockBattleGrounds_SideFlankLane/`
+- `assets/locations/EP02/act02/MockBattleGrounds_BlueVsGolden_FlankRange/`
 
 Prompt:
 
-Live-action cinematic reference of a side-flank drill lane at Garreg Mach training grounds. A long narrow training corridor along the edge of the field, bordered by low wooden rails, padded shield dummies, short obstacle posts, flags, and stone wall shadows. The lane should clearly support lateral movement, feints, and controlled nonlethal practice weapon drills. Bright outdoor daylight, blue academy banners, dust, monastery architecture. No real battle, no sharp weapon impact, no blood, no game UI.
+Live-action cinematic reference of a wooded thicket flank on the Garreg Mach academy mock battle map. Long grass, trees, low stone walls, and sloped ground give Golden Deer students cover and allow Sylvain/Ingrid to lure and cut through the flank. Yellow house markers should be subtle and embedded in terrain, not training flags in a lane. The space must feel like part of the same outdoor map. No obstacle course, no straw targets, no chalk boundaries, no battlefield gore, no game UI.
 
-## 5. MockBattleGrounds_DefensiveStation
+## 4. Northeast Trigger Approach / 东北触发入口
 
 Path:
 
-- `assets/locations/EP02/act02/MockBattleGrounds_DefensiveStation/`
+- `assets/locations/EP02/act02/MockBattleGrounds_BlueVsBlack_TacticalLane/`
 
 Prompt:
 
-Live-action cinematic reference of a defensive practice station inside Garreg Mach training grounds. Padded shields, shield racks, blunt practice lances, upright soft striking posts, a marked defensive semicircle, and enough open space for a protector to stand before a partner. Background hints of the larger training field and blue banners maintain continuity. Bright daylight, stone walls, academy exercise mood. No injury, no lethal weapons, no battlefield carnage, no game UI, no readable text.
+Live-action cinematic reference of the northeast trigger approach on the Garreg Mach academy mock battle map. Stone steps, low walls, grass, worn dirt paths, and distant red-black markers make the route feel dangerous: pushing too far would draw multiple enemy groups. Blue Lions would enter from the southeast side, with Byleth able to stop Felix before the opening. This is a tactical choke point, not a straight training corridor. No chalk lanes, no padded dummies, no isolated duel arena, no blood, no game UI.
 
-## 6. MockBattleGrounds_ObservationEdge
+## 5. Heal Tile+ Faculty Line / 教师治疗地形线
 
 Path:
 
-- `assets/locations/EP02/act02/MockBattleGrounds_ObservationEdge/`
+- `assets/locations/EP02/act02/MockBattleGrounds_BlueVsBlack_TacticalLane/`
+- `assets/locations/EP02/act02/MockBattleGrounds_BlackVsGolden_Backfield/`
 
 Prompt:
 
-Live-action cinematic reference from the observation edge of Garreg Mach training grounds. A raised stone walkway or shaded cloister edge overlooks the training field below. Foreground has carved stone rail, blue banners, and formal church viewing position; distant students train in small silhouettes on the field. The image should feel like authority watching youth being shaped. Long-lens political surveillance mood, bright outdoor training field, no battle carnage, no game UI, no text.
+Live-action cinematic reference of the northeast faculty support line on the Garreg Mach academy mock battle map. A slightly raised stone area with subtle healing sigils marks Hanneman and Manuela's heal tile+ positions. The surrounding field has low stone walls, grass, thickets, and red-black/yellow enemy depth. The space should support a rout finish where the teachers leave the healing ground and students lower training weapons. No judge podium, no ring, no arena, no target range, no lethal injury, no readable text.

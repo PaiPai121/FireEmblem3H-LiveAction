@@ -15,7 +15,7 @@
       <nav class="tabs" aria-label="素材视图">
         <button class="tab is-active" data-view="characters" type="button">角色</button>
         <button class="tab" data-view="episode" type="button">地点</button>
-        <button class="tab" data-view="storyboard" type="button">EP02分镜</button>
+        <button class="tab" data-view="storyboard" type="button">分镜看板</button>
         <button class="tab" data-view="documents" type="button">文档</button>
       </nav>
     </header>
@@ -67,10 +67,21 @@
 
       <section id="storyboardView" class="view">
         <div class="section-head">
-          <h2>EP02 全集分镜</h2>
-          <p>按 Shot001-Shot042 浏览当前视频队列首帧、对应剧本、镜头调度、AI生成提示词、资产依赖和风险备注。</p>
+          <h2>完整分镜看板</h2>
+          <p>按 EP → Scene → Shot 浏览当前视频队列首帧、对应剧本、镜头调度、AI生成提示词、资产依赖和风险备注。</p>
         </div>
+        <section class="storyboard-controls" aria-label="分镜看板筛选">
+          <label>
+            <span>EP</span>
+            <select id="storyboardEpisodeFilter"></select>
+          </label>
+          <label>
+            <span>Scene</span>
+            <select id="storyboardSceneFilter"></select>
+          </label>
+        </section>
         <section class="location-stats" id="storyboardStats" aria-label="分镜统计"></section>
+        <div class="scene-board" id="sceneBoard"></div>
         <div class="storyboard-links" id="storyboardLinks"></div>
         <div class="storyboard-grid" id="storyboardGrid"></div>
       </section>

@@ -1,17 +1,10 @@
-# Shot036 - Dimitri Dark-Line Beat Cinematic V2 Job
+# Shot036 Dimitri Dark-Line Beat
 
-Duration: 20 seconds
-Handles: 2 seconds
+Duration: 20s
 Image: `episodes/EP02/generated/p1_blue_lions_identity_v2/Shot036_DimitriDarkLineBeat_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot036.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: Dimitri politeness reveals strain
-- Transition out: long-lens cut to Rhea/Seteth observing
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Mock Battle. Transition in: Dimitri politeness reveals strain. Transition out: long-lens cut to Rhea/Seteth observing. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-close-medium hold, slight tilt from clenched hand to polite face.
+Camera: close-medium hold, slight tilt from clenched hand to polite face.
 
 ## Negative Prompt
 

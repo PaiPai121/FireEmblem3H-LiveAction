@@ -369,6 +369,13 @@ window.ASSET_REVIEW_DATA = {
       "Edelgard",
       "艾黛尔贾特",
       "black_eagles",
+      "weapon_fullbody",
+      "assets/characters/black_eagles/Edelgard/weapon_fullbody/selected.png"
+    ],
+    [
+      "Edelgard",
+      "艾黛尔贾特",
+      "black_eagles",
       "wyvern_lord",
       "assets/characters/black_eagles/Edelgard/wyvern_lord/selected.png"
     ],
@@ -593,6 +600,13 @@ window.ASSET_REVIEW_DATA = {
       "Annette",
       "雅妮特",
       "blue_lions",
+      "weapon_fullbody",
+      "assets/characters/blue_lions/Annette/weapon_fullbody/selected.png"
+    ],
+    [
+      "Annette",
+      "雅妮特",
+      "blue_lions",
       "wyvern_rider",
       "assets/characters/blue_lions/Annette/wyvern_rider/selected.png"
     ],
@@ -630,6 +644,13 @@ window.ASSET_REVIEW_DATA = {
       "blue_lions",
       "war",
       "assets/characters/blue_lions/Ashe/war/selected.png"
+    ],
+    [
+      "Ashe",
+      "亚修",
+      "blue_lions",
+      "weapon_fullbody",
+      "assets/characters/blue_lions/Ashe/weapon_fullbody/selected.png"
     ],
     [
       "Ashe",
@@ -681,6 +702,13 @@ window.ASSET_REVIEW_DATA = {
       "assets/characters/blue_lions/Dedue/war_master/selected.png"
     ],
     [
+      "Dedue",
+      "杜笃",
+      "blue_lions",
+      "weapon_fullbody",
+      "assets/characters/blue_lions/Dedue/weapon_fullbody/selected.png"
+    ],
+    [
       "Dimitri",
       "迪米特里",
       "blue_lions",
@@ -730,6 +758,13 @@ window.ASSET_REVIEW_DATA = {
       "assets/characters/blue_lions/Dimitri/war_broken/selected.png"
     ],
     [
+      "Dimitri",
+      "迪米特里",
+      "blue_lions",
+      "weapon_fullbody",
+      "assets/characters/blue_lions/Dimitri/weapon_fullbody/selected.png"
+    ],
+    [
       "Felix",
       "菲力克斯",
       "blue_lions",
@@ -772,6 +807,13 @@ window.ASSET_REVIEW_DATA = {
       "assets/characters/blue_lions/Felix/war/selected.png"
     ],
     [
+      "Felix",
+      "菲力克斯",
+      "blue_lions",
+      "weapon_fullbody",
+      "assets/characters/blue_lions/Felix/weapon_fullbody/selected.png"
+    ],
+    [
       "Ingrid",
       "英谷莉特",
       "blue_lions",
@@ -812,6 +854,13 @@ window.ASSET_REVIEW_DATA = {
       "blue_lions",
       "war",
       "assets/characters/blue_lions/Ingrid/war/selected.png"
+    ],
+    [
+      "Ingrid",
+      "英谷莉特",
+      "blue_lions",
+      "weapon_fullbody",
+      "assets/characters/blue_lions/Ingrid/weapon_fullbody/selected.png"
     ],
     [
       "Mercedes",
@@ -1195,6 +1244,13 @@ window.ASSET_REVIEW_DATA = {
       "Claude",
       "库罗德",
       "golden_deer",
+      "barbarossa",
+      "assets/characters/golden_deer/Claude/barbarossa/selected.png"
+    ],
+    [
+      "Claude",
+      "库罗德",
+      "golden_deer",
       "leader",
       "assets/characters/golden_deer/Claude/leader/selected.png"
     ],
@@ -1216,6 +1272,13 @@ window.ASSET_REVIEW_DATA = {
       "Claude",
       "库罗德",
       "golden_deer",
+      "weapon_fullbody",
+      "assets/characters/golden_deer/Claude/weapon_fullbody/selected.png"
+    ],
+    [
+      "Claude",
+      "库罗德",
+      "golden_deer",
       "wyvern_rider",
       "assets/characters/golden_deer/Claude/wyvern_rider/selected.png"
     ],
@@ -1230,8 +1293,36 @@ window.ASSET_REVIEW_DATA = {
       "Hilda",
       "希尔妲",
       "golden_deer",
+      "brigand",
+      "assets/characters/golden_deer/Hilda/brigand/selected.png"
+    ],
+    [
+      "Hilda",
+      "希尔妲",
+      "golden_deer",
+      "fighter",
+      "assets/characters/golden_deer/Hilda/fighter/selected.png"
+    ],
+    [
+      "Hilda",
+      "希尔妲",
+      "golden_deer",
       "war",
       "assets/characters/golden_deer/Hilda/war/selected.png"
+    ],
+    [
+      "Hilda",
+      "希尔妲",
+      "golden_deer",
+      "warrior",
+      "assets/characters/golden_deer/Hilda/warrior/selected.png"
+    ],
+    [
+      "Hilda",
+      "希尔妲",
+      "golden_deer",
+      "wyvern_lord",
+      "assets/characters/golden_deer/Hilda/wyvern_lord/selected.png"
     ],
     [
       "Ignatz",
@@ -1239,6 +1330,34 @@ window.ASSET_REVIEW_DATA = {
       "golden_deer",
       "academy",
       "assets/characters/golden_deer/Ignatz/academy/selected.png"
+    ],
+    [
+      "Ignatz",
+      "伊古纳兹",
+      "golden_deer",
+      "archer",
+      "assets/characters/golden_deer/Ignatz/archer/selected.png"
+    ],
+    [
+      "Ignatz",
+      "伊古纳兹",
+      "golden_deer",
+      "assassin",
+      "assets/characters/golden_deer/Ignatz/assassin/selected.png"
+    ],
+    [
+      "Ignatz",
+      "伊古纳兹",
+      "golden_deer",
+      "bow_knight",
+      "assets/characters/golden_deer/Ignatz/bow_knight/selected.png"
+    ],
+    [
+      "Ignatz",
+      "伊古纳兹",
+      "golden_deer",
+      "sniper",
+      "assets/characters/golden_deer/Ignatz/sniper/selected.png"
     ],
     [
       "Ignatz",
@@ -1258,6 +1377,34 @@ window.ASSET_REVIEW_DATA = {
       "Leonie",
       "雷欧妮",
       "golden_deer",
+      "bow_knight",
+      "assets/characters/golden_deer/Leonie/bow_knight/selected.png"
+    ],
+    [
+      "Leonie",
+      "雷欧妮",
+      "golden_deer",
+      "cavalier",
+      "assets/characters/golden_deer/Leonie/cavalier/selected.png"
+    ],
+    [
+      "Leonie",
+      "雷欧妮",
+      "golden_deer",
+      "paladin",
+      "assets/characters/golden_deer/Leonie/paladin/selected.png"
+    ],
+    [
+      "Leonie",
+      "雷欧妮",
+      "golden_deer",
+      "soldier",
+      "assets/characters/golden_deer/Leonie/soldier/selected.png"
+    ],
+    [
+      "Leonie",
+      "雷欧妮",
+      "golden_deer",
       "war",
       "assets/characters/golden_deer/Leonie/war/selected.png"
     ],
@@ -1267,6 +1414,34 @@ window.ASSET_REVIEW_DATA = {
       "golden_deer",
       "academy",
       "assets/characters/golden_deer/Lorenz/academy/selected.png"
+    ],
+    [
+      "Lorenz",
+      "洛廉兹",
+      "golden_deer",
+      "cavalier",
+      "assets/characters/golden_deer/Lorenz/cavalier/selected.png"
+    ],
+    [
+      "Lorenz",
+      "洛廉兹",
+      "golden_deer",
+      "dark_knight",
+      "assets/characters/golden_deer/Lorenz/dark_knight/selected.png"
+    ],
+    [
+      "Lorenz",
+      "洛廉兹",
+      "golden_deer",
+      "paladin",
+      "assets/characters/golden_deer/Lorenz/paladin/selected.png"
+    ],
+    [
+      "Lorenz",
+      "洛廉兹",
+      "golden_deer",
+      "soldier",
+      "assets/characters/golden_deer/Lorenz/soldier/selected.png"
     ],
     [
       "Lorenz",
@@ -1286,8 +1461,36 @@ window.ASSET_REVIEW_DATA = {
       "Lysithea",
       "莉丝缇亚",
       "golden_deer",
+      "gremory",
+      "assets/characters/golden_deer/Lysithea/gremory/selected.png"
+    ],
+    [
+      "Lysithea",
+      "莉丝缇亚",
+      "golden_deer",
+      "mage",
+      "assets/characters/golden_deer/Lysithea/mage/selected.png"
+    ],
+    [
+      "Lysithea",
+      "莉丝缇亚",
+      "golden_deer",
+      "monk",
+      "assets/characters/golden_deer/Lysithea/monk/selected.png"
+    ],
+    [
+      "Lysithea",
+      "莉丝缇亚",
+      "golden_deer",
       "war",
       "assets/characters/golden_deer/Lysithea/war/selected.png"
+    ],
+    [
+      "Lysithea",
+      "莉丝缇亚",
+      "golden_deer",
+      "warlock",
+      "assets/characters/golden_deer/Lysithea/warlock/selected.png"
     ],
     [
       "Marianne",
@@ -1393,6 +1596,13 @@ window.ASSET_REVIEW_DATA = {
       "protagonist",
       "professor",
       "assets/characters/protagonist/Byleth/professor/selected.png"
+    ],
+    [
+      "Byleth",
+      "贝雷丝 / 贝雷特",
+      "protagonist",
+      "weapon_fullbody",
+      "assets/characters/protagonist/Byleth/weapon_fullbody/selected.png"
     ]
   ],
   "episodeAssets": [
@@ -1662,11 +1872,11 @@ window.ASSET_REVIEW_DATA = {
     },
     {
       "title": "Mock Battle Grounds",
-      "label": "EP02 第二幕 学级模拟战场",
+      "label": "EP02 第二幕 学级模拟战场 Canon Map",
       "episode": "EP02",
       "act": "act02",
-      "path": "assets/locations/EP02/act02/MockBattleGrounds/MockBattleGrounds_reference.png",
-      "note": "三学级初次模拟战的训练场地参考。"
+      "path": "assets/locations/EP02/act02/MockBattleGrounds_CanonMap/MockBattleGrounds_CanonMap_reference.svg",
+      "note": "当前主用资产：原作式户外战棋地图示意，含东南起点、中西线、林地/thicket、东北触发区、heal tile+ 教师线。"
     },
     {
       "title": "Audience Hall Choice Ceremony",
@@ -1678,35 +1888,35 @@ window.ASSET_REVIEW_DATA = {
     },
     {
       "title": "Training Ground Formation Yard",
-      "label": "EP02 第二幕 训练场列队区",
+      "label": "EP02 第二幕 旧训练场列队资产",
       "episode": "EP02",
       "act": "act02",
       "path": "assets/locations/EP02/act02/TrainingGround_FormationYard/TrainingGround_FormationYard_reference.png",
-      "note": "Shot025-026、Shot034 的规则宣布、列队和演习结束空间。"
+      "note": "旧资产：不作为当前学级模拟战主空间；当前以 MockBattleGrounds 原作式地图方案为准。"
     },
     {
       "title": "Training Ground Archery Range",
-      "label": "EP02 第二幕 训练场弓术靶道",
+      "label": "EP02 第二幕 旧弓术靶道资产",
       "episode": "EP02",
       "act": "act02",
       "path": "assets/locations/EP02/act02/TrainingGround_ArcheryRange/TrainingGround_ArcheryRange_reference.png",
-      "note": "Shot027 Ashe 弓术训练靶道，明确安全非致命训练环境。"
+      "note": "旧资产：不作为当前 Shot027 主空间；当前改为中西部第一波敌人与自然高点压制。"
     },
     {
       "title": "Training Ground Target Range",
-      "label": "EP02 第二幕 训练场靶场明确版",
+      "label": "EP02 第二幕 旧靶场明确版",
       "episode": "EP02",
       "act": "act02",
       "path": "assets/locations/EP02/act02/TrainingGround_TargetRange/TrainingGround_TargetRange_reference.png",
-      "note": "Shot027 Ashe 弓术支援；草靶、软垫盾靶、箭架和钝箭回收区都清楚可见。"
+      "note": "旧资产：不作为当前模拟战主空间；避免把学级模拟战误读为靶场训练。"
     },
     {
       "title": "Training Ground Magic Practice Lane",
-      "label": "EP02 第二幕 训练场魔法练习道",
+      "label": "EP02 第二幕 旧魔法练习道资产",
       "episode": "EP02",
       "act": "act02",
       "path": "assets/locations/EP02/act02/TrainingGround_MagicPracticeLane/TrainingGround_MagicPracticeLane_reference.png",
-      "note": "Shot028 Annette / Mercedes 魔法支援练习区。"
+      "note": "旧资产：当前 Shot028 应落在同一张户外模拟战地图的东南后线支援位。"
     },
     {
       "title": "Training Ground Side Flank Lane",
@@ -1935,6 +2145,14 @@ window.ASSET_REVIEW_DATA = {
       "label": "苏谛斯近景",
       "path": "episodes/EP01/shots/shot003/assets/generated_legacy.png",
       "note": "历史生成素材，保留作检阅。"
+    },
+    {
+      "title": "Mock Battle Grounds Canon Map Master",
+      "label": "EP02 第二幕 学级模拟战场 Canon Map 生产背景母版",
+      "episode": "EP02",
+      "act": "act02",
+      "path": "assets/locations/EP02/act02/MockBattleGrounds_CanonMap/MockBattleGrounds_CanonMap_master_2026-07-19.png",
+      "note": "Scene09 主用 raster 背景资产：东南起点、中央低墙通道、西侧林地、东北高台和石阶同框；旧 SVG 只作为坐标示意。"
     }
   ],
   "shots": [
@@ -2083,6 +2301,78 @@ window.ASSET_REVIEW_DATA = {
     [
       "人物职业变体生成队列",
       "production/人物职业变体生成队列_2026-07-16.md"
+    ],
+    [
+      "EP02 学级模拟战原作地图修正方案",
+      "episodes/EP02/mock_battle_canon_map_plan_2026-07-17.md"
+    ],
+    [
+      "EP02 学级模拟战打斗剧本",
+      "episodes/EP02/mock_battle_tactical_fight_script_2026-07-17.md"
+    ],
+    [
+      "EP02 Scene09 模拟战详细分镜与关键帧设计",
+      "episodes/EP02/scene09_mock_battle_storyboard_detail_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 全镜头起始帧关键帧视频提示词交付清单",
+      "episodes/EP02/scene09_full_frame_and_video_prompts_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 起始帧关键帧二审交付审计",
+      "episodes/EP02/scene09_frame_delivery_audit_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 二次视觉QA报告",
+      "episodes/EP02/scene09_secondary_visual_qa_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 朝向连续性规则",
+      "episodes/EP02/scene09_direction_continuity_pass_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 本地逐图人工审核",
+      "episodes/EP02/scene09_manual_image_review_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 武器与朝向合理性审核",
+      "episodes/EP02/scene09_weapon_and_facing_audit_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 视频预检包",
+      "episodes/EP02/scene09_video_preflight_package_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 Animatic 时间与剪辑计划",
+      "episodes/EP02/scene09_animatic_timing_plan_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 视频失败判定标准",
+      "episodes/EP02/scene09_video_failure_criteria_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 对白与表演节奏",
+      "episodes/EP02/scene09_dialogue_performance_pass_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 视频前深审计",
+      "episodes/EP02/scene09_pre_video_deep_audit_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 角色胜负与退场账本",
+      "episodes/EP02/scene09_character_outcome_exit_plan_2026-07-19.md"
+    ],
+    [
+      "EP02 Scene09 创作逻辑复审与降级清单",
+      "episodes/EP02/scene09_creative_logic_audit_2026-07-20.md"
+    ],
+    [
+      "EP02 Scene09 全量重建范围",
+      "episodes/EP02/scene09_full_rebuild_scope_2026-07-20.md"
+    ],
+    [
+      "EP02 Scene09 审核合成结论",
+      "episodes/EP02/scene09_audit_synthesis_2026-07-20.md"
     ]
   ]
 };

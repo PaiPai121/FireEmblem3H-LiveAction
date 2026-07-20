@@ -800,7 +800,7 @@
     "identity_reference": "assets/characters/golden_deer/Claude/academy/selected.png",
     "secondary_reference": "assets/characters/golden_deer/Claude/war/selected.png",
     "output_path": "assets/characters/golden_deer/Claude/barbarossa/selected.png",
-    "status": "missing",
+    "status": "ready",
     "prompt": "Create a live-action character costume portrait for Claude (库罗德) as barbarossa. Use assets/characters/golden_deer/Claude/academy/selected.png as the face and hair identity anchor; preserve the same face, hair color, hairstyle recognition points, age impression, and beauty level. Change only class costume, weapon silhouette, posture, and accessories for the barbarossa class. Full body or three-quarter body studio reference, neutral cinematic lighting, clean production design, no background clutter. Youth guard: academy/student characters stay 16-20; war-age variants stay 20-23, attractive and not aged. Avoid anime face, AI polish, wrinkles, weathered skin, wrong hair color, identity drift, cosplay fabric, generic medieval armor."
   },
   {
@@ -812,7 +812,7 @@
     "identity_reference": "assets/characters/golden_deer/Hilda/academy/selected.png",
     "secondary_reference": "assets/characters/golden_deer/Hilda/war/selected.png",
     "output_path": "assets/characters/golden_deer/Hilda/fighter/selected.png",
-    "status": "missing",
+    "status": "ready",
     "prompt": "Create a live-action character costume portrait for Hilda (希尔妲) as fighter. Use assets/characters/golden_deer/Hilda/academy/selected.png as the face and hair identity anchor; preserve the same face, hair color, hairstyle recognition points, age impression, and beauty level. Change only class costume, weapon silhouette, posture, and accessories for the fighter class. Full body or three-quarter body studio reference, neutral cinematic lighting, clean production design, no background clutter. Youth guard: academy/student characters stay 16-20; war-age variants stay 20-23, attractive and not aged. Avoid anime face, AI polish, wrinkles, weathered skin, wrong hair color, identity drift, cosplay fabric, generic medieval armor."
   },
   {
@@ -824,7 +824,7 @@
     "identity_reference": "assets/characters/golden_deer/Hilda/academy/selected.png",
     "secondary_reference": "assets/characters/golden_deer/Hilda/war/selected.png",
     "output_path": "assets/characters/golden_deer/Hilda/brigand/selected.png",
-    "status": "missing",
+    "status": "ready",
     "prompt": "Create a live-action character costume portrait for Hilda (希尔妲) as brigand. Use assets/characters/golden_deer/Hilda/academy/selected.png as the face and hair identity anchor; preserve the same face, hair color, hairstyle recognition points, age impression, and beauty level. Change only class costume, weapon silhouette, posture, and accessories for the brigand class. Full body or three-quarter body studio reference, neutral cinematic lighting, clean production design, no background clutter. Youth guard: academy/student characters stay 16-20; war-age variants stay 20-23, attractive and not aged. Avoid anime face, AI polish, wrinkles, weathered skin, wrong hair color, identity drift, cosplay fabric, generic medieval armor."
   },
   {
@@ -836,7 +836,7 @@
     "identity_reference": "assets/characters/golden_deer/Hilda/academy/selected.png",
     "secondary_reference": "assets/characters/golden_deer/Hilda/war/selected.png",
     "output_path": "assets/characters/golden_deer/Hilda/warrior/selected.png",
-    "status": "missing",
+    "status": "ready",
     "prompt": "Create a live-action character costume portrait for Hilda (希尔妲) as warrior. Use assets/characters/golden_deer/Hilda/academy/selected.png as the face and hair identity anchor; preserve the same face, hair color, hairstyle recognition points, age impression, and beauty level. Change only class costume, weapon silhouette, posture, and accessories for the warrior class. Full body or three-quarter body studio reference, neutral cinematic lighting, clean production design, no background clutter. Youth guard: academy/student characters stay 16-20; war-age variants stay 20-23, attractive and not aged. Avoid anime face, AI polish, wrinkles, weathered skin, wrong hair color, identity drift, cosplay fabric, generic medieval armor."
   },
   {
@@ -848,7 +848,7 @@
     "identity_reference": "assets/characters/golden_deer/Hilda/academy/selected.png",
     "secondary_reference": "assets/characters/golden_deer/Hilda/war/selected.png",
     "output_path": "assets/characters/golden_deer/Hilda/wyvern_lord/selected.png",
-    "status": "missing",
+    "status": "ready",
     "prompt": "Create a live-action character costume portrait for Hilda (希尔妲) as wyvern_lord. Use assets/characters/golden_deer/Hilda/academy/selected.png as the face and hair identity anchor; preserve the same face, hair color, hairstyle recognition points, age impression, and beauty level. Change only class costume, weapon silhouette, posture, and accessories for the wyvern_lord class. Full body or three-quarter body studio reference, neutral cinematic lighting, clean production design, no background clutter. Youth guard: academy/student characters stay 16-20; war-age variants stay 20-23, attractive and not aged. Avoid anime face, AI polish, wrinkles, weathered skin, wrong hair color, identity drift, cosplay fabric, generic medieval armor."
   },
   {

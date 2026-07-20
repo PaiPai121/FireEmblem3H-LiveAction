@@ -39,7 +39,9 @@ const state = {
   query: "",
   faction: "all",
   era: "all",
-  status: "all"
+  status: "all",
+  storyboardEpisode: "EP02",
+  storyboardScene: "all"
 };
 
 const els = {
@@ -53,6 +55,9 @@ const els = {
   episodeFeature: document.querySelector("#episodeFeature"),
   shotList: document.querySelector("#shotList"),
   storyboardStats: document.querySelector("#storyboardStats"),
+  storyboardEpisode: document.querySelector("#storyboardEpisodeFilter"),
+  storyboardScene: document.querySelector("#storyboardSceneFilter"),
+  sceneBoard: document.querySelector("#sceneBoard"),
   storyboardLinks: document.querySelector("#storyboardLinks"),
   storyboardGrid: document.querySelector("#storyboardGrid"),
   docsList: document.querySelector("#docsList"),
@@ -87,6 +92,14 @@ const characterGroups = buildCharacterGroups(characters);
 const locationAssets = data.episodeAssets.filter((item) => item.path.startsWith("assets/locations/"));
 const historicalFrameAssets = data.episodeAssets.filter((item) => !item.path.startsWith("assets/locations/"));
 const ep02Storyboard = window.EP02_STORYBOARD_DATA || { shots: [], blockContactSheets: [] };
+const storyboardEpisodes = [
+  {
+    id: "EP02",
+    label: "EP02",
+    title: "EP02 全集分镜",
+    data: ep02Storyboard,
+  },
+];
 
 const locationGroupLabels = {
   prologue: "序章",
@@ -266,6 +279,7 @@ function matchesShot([shot, duration, purpose, path]) {
 }
 
 function matchesStoryboardShot(item) {
+  const sceneMatch = state.storyboardScene === "all" || item.scriptSceneTitle === state.storyboardScene;
   return matchesText([
     item.shot,
     item.title,
@@ -279,8 +293,21 @@ function matchesStoryboardShot(item) {
     item.videoPrompt,
     item.generationPrompt,
     item.negativePrompt,
+    item.productionFrameIntent,
+    item.productionFramePrompt,
+    item.startKeyAssociation,
     item.keyFrameIntent,
     item.keyFramePrompt,
+    item.productionStatus,
+    item.productionPriority,
+    item.productionKeyframePath,
+    item.productionStartFramePath,
+    item.payloadProductionStatus,
+    item.payloadProductionImagePath,
+    item.payloadBlockedSourceImagePath,
+    item.payloadProductionPromptFile,
+    ...(item.characterReferenceAssets || []).flatMap((ref) => [ref.name, ref.asset, ref.continuity_note]),
+    ...(item.subframes || []).flatMap((subframe) => [subframe.id, subframe.title, subframe.description, subframe.output_keyframe]),
     item.camera,
     item.sourceRef,
     item.priority,
@@ -291,7 +318,57 @@ function matchesStoryboardShot(item) {
     item.scriptSceneBody,
     item.shotDialogue,
     item.avoid,
+  ]) && sceneMatch;
+}
+
+function selectedStoryboardEpisode() {
+  return storyboardEpisodes.find((episode) => episode.id === state.storyboardEpisode) || storyboardEpisodes[0];
+}
+
+function sceneNumber(title) {
+  const match = String(title || "").match(/^Scene\s+(\d+)/);
+  return match ? Number(match[1]) : 999;
+}
+
+function buildSceneGroups(shots) {
+  const groups = new Map();
+  for (const shot of shots) {
+    const key = shot.scriptSceneTitle || "未映射";
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+    groups.get(key).push(shot);
+  }
+  return [...groups.entries()]
+    .map(([title, items]) => ({ title, items }))
+    .sort((a, b) => sceneNumber(a.title) - sceneNumber(b.title) || a.title.localeCompare(b.title));
+}
+
+function formatSeconds(seconds) {
+  if (!seconds) return "0 秒";
+  const minutes = Math.floor(seconds / 60);
+  const rest = seconds % 60;
+  if (!minutes) return `${rest} 秒`;
+  return rest ? `${minutes} 分 ${rest} 秒` : `${minutes} 分`;
+}
+
+function fillStoryboardFilters() {
+  fillSelect(els.storyboardEpisode, storyboardEpisodes.map((episode) => [episode.id, episode.label]));
+  els.storyboardEpisode.value = state.storyboardEpisode;
+  fillStoryboardSceneFilter();
+}
+
+function fillStoryboardSceneFilter() {
+  const episode = selectedStoryboardEpisode();
+  const groups = buildSceneGroups(episode.data.shots || []);
+  fillSelect(els.storyboardScene, [
+    ["all", "全部 Scene"],
+    ...groups.map((group) => [group.title, group.title]),
   ]);
+  if (!groups.some((group) => group.title === state.storyboardScene)) {
+    state.storyboardScene = "all";
+  }
+  els.storyboardScene.value = state.storyboardScene;
 }
 
 function renderStats(filtered) {
@@ -393,7 +470,12 @@ function renderEpisode() {
 }
 
 function renderStoryboard() {
-  const shots = ep02Storyboard.shots.filter(matchesStoryboardShot);
+  const episode = selectedStoryboardEpisode();
+  const episodeData = episode.data || { shots: [], blockContactSheets: [] };
+  const allEpisodeShots = episodeData.shots || [];
+  const sceneGroups = buildSceneGroups(allEpisodeShots);
+  const shots = allEpisodeShots.filter(matchesStoryboardShot);
+  const visibleSceneGroups = buildSceneGroups(shots);
   const visibleStillCount = shots.filter((shot) => shot.still).length;
   const riskCount = shots.filter((shot) => shot.riskNotes).length;
   const actCount = new Set(shots.map((shot) => shot.act)).size;
@@ -402,33 +484,90 @@ function renderStoryboard() {
   const payloadPromptCount = shots.filter((shot) => shot.generationPrompt).length;
   const continuityCount = shots.filter((shot) => shot.transitionIn || shot.transitionOut || shot.audioBridge).length;
   const keyFrameCount = shots.filter((shot) => (shot.frameSet || []).some((frame) => frame.role === "key" && frame.path)).length;
+  const subframeCount = shots.reduce((sum, shot) => sum + (shot.subframes || []).length, 0);
+  const referenceLockedCount = shots.filter((shot) => (shot.characterReferenceAssets || []).length).length;
+  const totalSeconds = shots.reduce((sum, shot) => sum + (Number(shot.durationSeconds) || 0), 0);
 
   els.storyboardStats.innerHTML = `
+    <div><strong>${episode.label}</strong><span>当前 EP</span></div>
+    <div><strong>${state.storyboardScene === "all" ? sceneGroups.length : 1}</strong><span>当前 Scene</span></div>
     <div><strong>${shots.length}</strong><span>当前镜头</span></div>
     <div><strong>${visibleStillCount}</strong><span>有首帧</span></div>
     <div><strong>${keyFrameCount}</strong><span>有关键帧图</span></div>
+    <div><strong>${subframeCount}</strong><span>子分镜</span></div>
+    <div><strong>${referenceLockedCount}</strong><span>人物锁脸</span></div>
     <div><strong>${scriptCount}</strong><span>有剧本映射</span></div>
     <div><strong>${payloadPromptCount || promptCount}</strong><span>有AI提示词</span></div>
     <div><strong>${continuityCount}</strong><span>有连续性</span></div>
     <div><strong>${riskCount}</strong><span>有风险备注</span></div>
     <div><strong>${actCount}</strong><span>段落</span></div>
+    <div><strong>${formatSeconds(totalSeconds)}</strong><span>估算时长</span></div>
   `;
 
+  els.sceneBoard.innerHTML = visibleSceneGroups.length ? visibleSceneGroups.map((group) => {
+    const groupSeconds = group.items.reduce((sum, shot) => sum + (Number(shot.durationSeconds) || 0), 0);
+    const first = group.items[0];
+    const last = group.items[group.items.length - 1];
+    const stills = group.items
+      .filter((shot) => shot.displayImagePath || shot.still)
+      .slice(0, 5)
+      .map((shot) => `
+        <button class="scene-thumb" type="button" data-preview="${shot.displayImagePath || shot.still}" data-title="${shot.shot} ${shot.title}" data-path="${shot.displayImagePath || shot.still}">
+          <img src="${shot.displayImagePath || shot.still}" alt="${shot.shot} ${shot.title}" loading="lazy" data-path="${shot.displayImagePath || shot.still}">
+        </button>
+      `).join("");
+    return `
+      <article class="scene-card">
+        <div class="scene-card-head">
+          <div>
+            <p class="eyebrow">${episode.label}</p>
+            <h3>${escapeHtml(group.title)}</h3>
+          </div>
+          <button class="text-button scene-filter-button" type="button" data-scene-filter="${escapeHtml(group.title)}">只看本 Scene</button>
+        </div>
+        <dl class="scene-card-meta">
+          <div><dt>镜头</dt><dd>${group.items.length}</dd></div>
+          <div><dt>范围</dt><dd>${first.shot} - ${last.shot}</dd></div>
+          <div><dt>时长</dt><dd>${formatSeconds(groupSeconds)}</dd></div>
+        </dl>
+        <div class="scene-thumb-strip">${stills || `<span class="empty-inline">暂无首帧</span>`}</div>
+      </article>
+    `;
+  }).join("") : `<p class="empty">没有匹配的 Scene。</p>`;
+
   els.storyboardLinks.innerHTML = `
-    <a href="${ep02Storyboard.reviewHtml}" target="_blank" rel="noreferrer">打开全片接触表</a>
-    ${ep02Storyboard.timeline ? `<a href="${ep02Storyboard.timeline}" target="_blank" rel="noreferrer">Cinematic V2 时间线</a>` : ""}
-    ${ep02Storyboard.continuityBrief ? `<a href="${ep02Storyboard.continuityBrief}" target="_blank" rel="noreferrer">电影连续性通告</a>` : ""}
-    ${ep02Storyboard.runbook ? `<a href="${ep02Storyboard.runbook}" target="_blank" rel="noreferrer">V2 生产 Runbook</a>` : ""}
-    <button class="text-button" type="button" data-preview="${ep02Storyboard.fullContactSheet}" data-title="EP02 全片分镜总览" data-path="${ep02Storyboard.fullContactSheet}">预览总览图</button>
-    ${ep02Storyboard.blockContactSheets.map(([label, path]) => `
+    <a href="${episodeData.reviewHtml}" target="_blank" rel="noreferrer">打开全片接触表</a>
+    ${episodeData.timeline ? `<a href="${episodeData.timeline}" target="_blank" rel="noreferrer">Cinematic V2 时间线</a>` : ""}
+    ${episodeData.continuityBrief ? `<a href="${episodeData.continuityBrief}" target="_blank" rel="noreferrer">电影连续性通告</a>` : ""}
+    ${episodeData.runbook ? `<a href="${episodeData.runbook}" target="_blank" rel="noreferrer">V2 生产 Runbook</a>` : ""}
+    ${episodeData.mockBattleProductionKeyframes ? `<a href="${episodeData.mockBattleProductionKeyframes}" target="_blank" rel="noreferrer">Scene09 关键帧生产队列</a>` : ""}
+    ${episodeData.mockBattleSubframePlan ? `<a href="${episodeData.mockBattleSubframePlan}" target="_blank" rel="noreferrer">Scene09 子分镜计划</a>` : ""}
+    ${episodeData.mockBattleP0ReferenceBoards ? `<a href="${episodeData.mockBattleP0ReferenceBoards}" target="_blank" rel="noreferrer">Scene09 P0 人物参考板</a>` : ""}
+    ${episodeData.mockBattleFullRebuildScope ? `<a href="${episodeData.mockBattleFullRebuildScope}" target="_blank" rel="noreferrer">Scene09 全量重建范围</a>` : ""}
+    ${episodeData.mockBattleAuditSynthesis ? `<a href="${episodeData.mockBattleAuditSynthesis}" target="_blank" rel="noreferrer">Scene09 审核合成</a>` : ""}
+    ${episodeData.mockBattleSecondaryVisualQa ? `<a href="${episodeData.mockBattleSecondaryVisualQa}" target="_blank" rel="noreferrer">Scene09 二次视觉QA</a>` : ""}
+    ${episodeData.mockBattleCreativeLogicAudit ? `<a href="${episodeData.mockBattleCreativeLogicAudit}" target="_blank" rel="noreferrer">Scene09 创作复审</a>` : ""}
+    ${episodeData.mockBattleDirectionContinuity ? `<a href="${episodeData.mockBattleDirectionContinuity}" target="_blank" rel="noreferrer">Scene09 朝向连续性</a>` : ""}
+    ${episodeData.mockBattleWeaponFacingAudit ? `<a href="${episodeData.mockBattleWeaponFacingAudit}" target="_blank" rel="noreferrer">Scene09 武器/朝向审核</a>` : ""}
+    ${episodeData.mockBattleManualImageReview ? `<a href="${episodeData.mockBattleManualImageReview}" target="_blank" rel="noreferrer">Scene09 本地图审</a>` : ""}
+    ${episodeData.mockBattlePreVideoDeepAudit ? `<a href="${episodeData.mockBattlePreVideoDeepAudit}" target="_blank" rel="noreferrer">Scene09 视频前深审计</a>` : ""}
+    ${episodeData.mockBattleCharacterOutcomeExitPlan ? `<a href="${episodeData.mockBattleCharacterOutcomeExitPlan}" target="_blank" rel="noreferrer">Scene09 角色退场账本</a>` : ""}
+    ${episodeData.mockBattleVideoPreflight ? `<a href="${episodeData.mockBattleVideoPreflight}" target="_blank" rel="noreferrer">Scene09 视频预检包</a>` : ""}
+    ${episodeData.mockBattleAnimaticTiming ? `<a href="${episodeData.mockBattleAnimaticTiming}" target="_blank" rel="noreferrer">Scene09 Animatic</a>` : ""}
+    ${episodeData.mockBattleDialoguePerformance ? `<a href="${episodeData.mockBattleDialoguePerformance}" target="_blank" rel="noreferrer">Scene09 对白表演</a>` : ""}
+    ${episodeData.mockBattleVideoFailureCriteria ? `<a href="${episodeData.mockBattleVideoFailureCriteria}" target="_blank" rel="noreferrer">Scene09 视频失败标准</a>` : ""}
+    ${episodeData.mockBattleBackgroundMaster ? `<button class="text-button" type="button" data-preview="${episodeData.mockBattleBackgroundMaster}" data-title="Scene09 战场背景母版" data-path="${episodeData.mockBattleBackgroundMaster}">预览战场母版</button>` : ""}
+    <button class="text-button" type="button" data-preview="${episodeData.fullContactSheet}" data-title="${episode.label} 全片分镜总览" data-path="${episodeData.fullContactSheet}">预览总览图</button>
+    ${(episodeData.blockContactSheets || []).map(([label, path]) => `
       <button class="text-button" type="button" data-preview="${path}" data-title="${label}" data-path="${path}">${label}</button>
     `).join("")}
   `;
 
   els.storyboardGrid.innerHTML = shots.length ? shots.map((shot) => {
-    const still = shot.still ? `
-      <button class="image-button" type="button" data-preview="${shot.still}" data-title="${shot.shot} ${shot.title}" data-path="${shot.still}">
-        <img src="${shot.still}" alt="${shot.shot} ${shot.title}" loading="lazy" data-path="${shot.still}">
+    const displayImage = shot.displayImagePath || shot.still || "";
+    const still = displayImage ? `
+      <button class="image-button" type="button" data-preview="${displayImage}" data-title="${shot.shot} ${shot.title}" data-path="${displayImage}">
+        <img src="${displayImage}" alt="${shot.shot} ${shot.title}" loading="lazy" data-path="${displayImage}">
       </button>
     ` : `<div class="storyboard-placeholder">BLACK<br><span>${shot.shot}</span></div>`;
     const frameStrip = (shot.frameSet || []).map((frame) => {
@@ -454,6 +593,27 @@ function renderStoryboard() {
       `;
     }).join("");
     const risk = shot.riskNotes ? `<span class="risk-chip">WATCH</span>` : "";
+    const characterReferences = (shot.characterReferenceAssets || []).map((ref) => `
+      <a href="${ref.asset}" target="_blank" rel="noreferrer">
+        <strong>${escapeHtml(ref.name)}</strong>
+        <span>${escapeHtml(ref.asset)}</span>
+      </a>
+    `).join("");
+    const qaChecks = (shot.productionQaChecks || []).map((check) => `
+      <li>${escapeHtml(check)}</li>
+    `).join("");
+    const primaryFrameIntent = shot.productionFrameIntent || shot.keyFrameIntent || "待补";
+    const subframes = (shot.subframes || []).map((subframe) => `
+      <div class="subframe-row">
+        <div>
+          <strong>${escapeHtml(subframe.id)} ${escapeHtml(subframe.title)}</strong>
+          <p>${escapeHtml(subframe.description)}</p>
+        </div>
+        ${subframe.output_keyframe
+          ? `<a href="${subframe.output_keyframe}" target="_blank" rel="noreferrer">${escapeHtml(subframe.output_keyframe)}</a>`
+          : `<span class="planned-output">${escapeHtml(subframe.output_status || "planned")} ${escapeHtml(subframe.planned_output_keyframe || "")}</span>`}
+      </div>
+    `).join("");
     return `
       <article class="storyboard-card">
         ${still}
@@ -470,17 +630,52 @@ function renderStoryboard() {
             <div><dt>优先</dt><dd>${shot.priority || ""}</dd></div>
             <div><dt>时长</dt><dd>${shot.durationZh || shot.duration || ""}</dd></div>
             <div><dt>版本</dt><dd>${shot.cinematicBlock || ep02Storyboard.productionMode || ""}</dd></div>
+            <div><dt>生产</dt><dd>${shot.productionStatus || "未入队"}</dd></div>
+            <div><dt>展示</dt><dd>${shot.displayImageSource || ""}</dd></div>
+            <div><dt>QA</dt><dd>${shot.productionQaStatus || shot.displayImageStatus || ""}</dd></div>
+            <div><dt>Payload</dt><dd>${shot.payloadProductionStatus || ""}</dd></div>
+            <div><dt>生产优先</dt><dd>${shot.productionPriority || shot.priority || ""}</dd></div>
             <div><dt>场景</dt><dd>${shot.scene || ""}</dd></div>
             <div><dt>目的</dt><dd>${shot.purposeZh || ""}</dd></div>
             <div><dt>画面</dt><dd>${shot.visual || ""}</dd></div>
             <div><dt>镜头</dt><dd>${shot.cameraZh || shot.camera || ""}</dd></div>
             <div><dt>对白</dt><dd>${shot.shotDialogue || "无"}</dd></div>
-            <div><dt>关键</dt><dd>${shot.keyFrameIntent || "待补"}</dd></div>
+            <div><dt>关键</dt><dd>${escapeHtml(primaryFrameIntent)}</dd></div>
+            <div><dt>帧关联</dt><dd>${escapeHtml(shot.startKeyAssociation || "")}</dd></div>
             <div class="asset-line"><dt>地点</dt><dd>${shot.locationAsset || ""}</dd></div>
             <div class="asset-line"><dt>角色</dt><dd>${shot.characters || ""}</dd></div>
             <div class="asset-line"><dt>输出</dt><dd>${shot.outputNeeded || ""}</dd></div>
+            <div class="asset-line"><dt>产出帧</dt><dd>${shot.productionKeyframePath || ""}</dd></div>
+            <div class="asset-line"><dt>目标首帧</dt><dd>${shot.payloadProductionImagePath || shot.productionStartFramePath || ""}</dd></div>
+            <div class="asset-line"><dt>阻断源</dt><dd>${shot.payloadBlockedSourceImagePath || ""}</dd></div>
+            <div class="asset-line"><dt>Prompt</dt><dd>${shot.payloadProductionPromptFile || ""}</dd></div>
             <div><dt>风险</dt><dd>${shot.riskNotes || "无"}</dd></div>
           </dl>
+          <details class="reference-details">
+            <summary>生产 QA</summary>
+            <div class="qa-panel">
+              <p>${escapeHtml(shot.productionQaStatus || shot.displayImageStatus || "未记录")}</p>
+              <ul>${qaChecks || `<li>暂无 QA 检查条目。</li>`}</ul>
+            </div>
+          </details>
+          <details class="reference-details">
+            <summary>历史关键描述</summary>
+            <div class="legacy-frame-note">
+              <p>${escapeHtml(shot.keyFrameIntent || "暂无历史描述。")}</p>
+            </div>
+          </details>
+          <details class="reference-details">
+            <summary>人物资产锁定</summary>
+            <div class="reference-grid">
+              ${characterReferences || `<p class="empty-inline">暂无人物参考资产。</p>`}
+            </div>
+          </details>
+          <details class="subframe-details">
+            <summary>子分镜 / 电影节奏</summary>
+            <div class="subframe-list">
+              ${subframes || `<p class="empty-inline">暂无子分镜。</p>`}
+            </div>
+          </details>
           <details class="continuity-details">
             <summary>电影连续性</summary>
             <dl class="continuity-list">
@@ -580,6 +775,7 @@ function switchCharacterVariant(button) {
 
 fillSelect(els.faction, uniqueOptions(characters, "faction", factionNames));
 fillSelect(els.era, uniqueOptions(characters, "era", eraNames));
+fillStoryboardFilters();
 renderCharacters();
 renderEpisode();
 renderStoryboard();
@@ -609,6 +805,16 @@ els.status.addEventListener("change", (event) => {
   state.status = event.target.value;
   renderCharacters();
 });
+els.storyboardEpisode.addEventListener("change", (event) => {
+  state.storyboardEpisode = event.target.value;
+  state.storyboardScene = "all";
+  fillStoryboardSceneFilter();
+  renderStoryboard();
+});
+els.storyboardScene.addEventListener("change", (event) => {
+  state.storyboardScene = event.target.value;
+  renderStoryboard();
+});
 document.querySelectorAll(".tab").forEach((tab) => {
   tab.addEventListener("click", () => setView(tab.dataset.view));
 });
@@ -616,6 +822,13 @@ document.addEventListener("click", (event) => {
   const variantButton = event.target.closest(".variant-chip");
   if (variantButton) {
     switchCharacterVariant(variantButton);
+    return;
+  }
+  const sceneFilterButton = event.target.closest("[data-scene-filter]");
+  if (sceneFilterButton) {
+    state.storyboardScene = sceneFilterButton.dataset.sceneFilter;
+    els.storyboardScene.value = state.storyboardScene;
+    renderStoryboard();
     return;
   }
   const button = event.target.closest("[data-preview]");

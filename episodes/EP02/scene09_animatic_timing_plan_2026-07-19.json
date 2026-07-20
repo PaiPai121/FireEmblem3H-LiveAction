@@ -1,0 +1,223 @@
+{
+  "version": "2026-07-19",
+  "scope": "EP02 Scene09 low-cost animatic timing plan",
+  "total_duration_seconds": 266,
+  "rows": [
+    {
+      "shot": "Shot025",
+      "duration_seconds": 10,
+      "animatic_motion": "High establishing hold, tiny flag and student movement",
+      "dialogue_performance": "Manuela: '木制武器。倒地、出界、教师判定，立刻退出。治疗石台是目标。' Hanneman: '我和 Manuela 会负责治疗与裁定。'",
+      "sound_bridge": "Teacher rule audio starts before cut",
+      "cut_point": "Cut on Manuela's objective line"
+    },
+    {
+      "shot": "Shot026",
+      "duration_seconds": 12,
+      "animatic_motion": "Push down to Byleth's mud map, hand draws the central lane",
+      "dialogue_performance": "Byleth: '先拿通道。' Felix: '如果机会已经出现呢？' Byleth: '机会不等于命令。'",
+      "sound_bridge": "Quiet before horn",
+      "cut_point": "Cut on Byleth: '先拿通道。'"
+    },
+    {
+      "shot": "Shot026C",
+      "duration_seconds": 9,
+      "animatic_motion": "Low forward track with Dimitri/Dedue moving away from camera",
+      "dialogue_performance": "No dialogue; let the horn and first formation movement carry it.",
+      "sound_bridge": "Horn hit, first footfalls",
+      "cut_point": "Cut as Black Eagles enter same lane"
+    },
+    {
+      "shot": "Shot027",
+      "duration_seconds": 10,
+      "animatic_motion": "Ashe high point side/back scan; bow stays low while he checks west thicket and central lane",
+      "dialogue_performance": "Ashe, low: '明白。' No Golden Deer reveal line yet.",
+      "sound_bridge": "Bowstring tension",
+      "cut_point": "Cut on his overwatch setup"
+    },
+    {
+      "shot": "Shot027C",
+      "duration_seconds": 10,
+      "animatic_motion": "Side-on controlled first contact, shield/lance stop line",
+      "dialogue_performance": "Ferdinand: '黑鹫不会被一次冲锋打开！'",
+      "sound_bridge": "Wood shield thud",
+      "cut_point": "Cut on Ferdinand refusing collapse"
+    },
+    {
+      "shot": "Shot027D",
+      "duration_seconds": 8,
+      "animatic_motion": "Felix half-step side cut, Byleth voice freezes him",
+      "dialogue_performance": "Byleth: 'Felix。' Felix: '啧。' Byleth: '等他回身。'",
+      "sound_bridge": "Sword stop",
+      "cut_point": "Cut when Felix obeys"
+    },
+    {
+      "shot": "Shot028",
+      "duration_seconds": 12,
+      "animatic_motion": "Support line tracks along wall; Annette/Mercedes stay low",
+      "dialogue_performance": "Mercedes: '呼吸。跟着老师的信号走。' Annette: '我会跟上。'",
+      "sound_bridge": "Breath and distant impacts",
+      "cut_point": "Cut before arrows interrupt"
+    },
+    {
+      "shot": "Shot029",
+      "duration_seconds": 12,
+      "animatic_motion": "Brief wide setup only: Sylvain/Ingrid right flank prepares for west/left Golden Deer pressure; keep readable weapons as long training lances",
+      "dialogue_performance": "Sylvain: '也就是说，我们是被人切后路之前的后路。' Ingrid: '少说一句，脚步会更快。'",
+      "sound_bridge": "Distant thicket movement",
+      "cut_point": "Cut before weapon ambiguity can dominate; detailed Golden Deer flank reveal belongs to Shot029B"
+    },
+    {
+      "shot": "Shot029C",
+      "duration_seconds": 9,
+      "animatic_motion": "Claude in thicket, eyeline checks Blue rear then Black side",
+      "dialogue_performance": "Claude: '正面打得这么认真，那我只好帮你们都轻松一点。'",
+      "sound_bridge": "Thicket rustle",
+      "cut_point": "Cut on bow draw"
+    },
+    {
+      "shot": "Shot029D",
+      "duration_seconds": 8,
+      "animatic_motion": "Claude's first arrow pins Ashe's observation point and forces him off the high mark",
+      "dialogue_performance": "Ashe: '金鹿在侧面！'",
+      "sound_bridge": "Arrow hits wood before the line",
+      "cut_point": "Cut on Ashe leaving the high point"
+    },
+    {
+      "shot": "Shot029B",
+      "duration_seconds": 9,
+      "animatic_motion": "Hilda, Lorenz, and Ignatz expand Golden Deer pressure from thicket while Claude relocates",
+      "dialogue_performance": "Sylvain: 'Claude 可真会挑时候。' Ingrid: '他挑的是两边的缝。'",
+      "sound_bridge": "Brush and wooden weapon movement",
+      "cut_point": "Cut on Sylvain/Ingrid turning to contain Hilda/Lorenz"
+    },
+    {
+      "shot": "Shot030C",
+      "duration_seconds": 8,
+      "animatic_motion": "Two Golden Deer arrows alter both teams' support routes",
+      "dialogue_performance": "Mercedes: '别停在空地上。' Annette: '右侧也有人！'",
+      "sound_bridge": "Arrow wood clacks",
+      "cut_point": "Cut on Mercedes pulling Annette down"
+    },
+    {
+      "shot": "Shot031",
+      "duration_seconds": 10,
+      "animatic_motion": "Byleth crosses Felix's vector side-on, no lecture pose",
+      "dialogue_performance": "Byleth: '你再走十步，两边都会动。'",
+      "sound_bridge": "Short command",
+      "cut_point": "Cut on Felix stopping"
+    },
+    {
+      "shot": "Shot031B",
+      "duration_seconds": 10,
+      "animatic_motion": "Byleth points two lines: central pressure and side containment",
+      "dialogue_performance": "Byleth: 'Dimitri，继续压。Dedue，别让口子合上。' Dimitri: '继续？' Byleth: '他们等你回头。别给。'",
+      "sound_bridge": "Commands bridge into next shot",
+      "cut_point": "Cut on Dimitri continuing forward"
+    },
+    {
+      "shot": "Shot032",
+      "duration_seconds": 12,
+      "animatic_motion": "Dedue shield dips, Dimitri nearly turns, Mercedes short-heals shield arm, shield rises",
+      "dialogue_performance": "Dimitri: '杜笃--' Dedue: '殿下，看前面。' Mercedes: 'Dedue，肩膀可以动了吗？' Dedue: '足够。请继续。'",
+      "sound_bridge": "Shield thud, white-magic shimmer",
+      "cut_point": "Cut when lance line returns forward"
+    },
+    {
+      "shot": "Shot032C",
+      "duration_seconds": 9,
+      "animatic_motion": "Hubert turns pressure west into thicket; Golden Deer must move",
+      "dialogue_performance": "Edelgard: 'Hubert。' Hubert: '明白。'",
+      "sound_bridge": "Dark magic low rumble",
+      "cut_point": "Cut on Claude displaced"
+    },
+    {
+      "shot": "Shot032D",
+      "duration_seconds": 10,
+      "animatic_motion": "High oblique compression of three lines, no crowd pile",
+      "dialogue_performance": "No foreground dialogue; keep distant calls indistinct.",
+      "sound_bridge": "Layered weapon taps",
+      "cut_point": "Cut when lanes touch central obstacle"
+    },
+    {
+      "shot": "Shot032E",
+      "duration_seconds": 10,
+      "animatic_motion": "Byleth redirects Blue Lions through chaos toward Black Eagles/Golden Deer overlap",
+      "dialogue_performance": "Byleth: '不要追金鹿。把黑鹫往他们那边压。'",
+      "sound_bridge": "Byleth command, mixed footwork",
+      "cut_point": "Cut on exploit becoming visible"
+    },
+    {
+      "shot": "Shot033",
+      "duration_seconds": 14,
+      "animatic_motion": "Dimitri nears the platform but Byleth's palm-down gesture keeps him from overpressing",
+      "dialogue_performance": "Heavy breathing; no extra line yet. Byleth's restraint is visual.",
+      "sound_bridge": "Breath tightens under battle sound",
+      "cut_point": "Cut when Dimitri recognizes the restraint signal"
+    },
+    {
+      "shot": "Shot033B",
+      "duration_seconds": 8,
+      "animatic_motion": "Byleth points to teacher platform, separate Blue lanes peel off",
+      "dialogue_performance": "Byleth: '现在。切老师。'",
+      "sound_bridge": "Command: '现在。切老师。'",
+      "cut_point": "Cut on Ashe/Ingrid/Felix reactions"
+    },
+    {
+      "shot": "Shot033C",
+      "duration_seconds": 8,
+      "animatic_motion": "Ashe lower-left to Hanneman upper-right suppression",
+      "dialogue_performance": "Hanneman: '哦？先封我的角度。'",
+      "sound_bridge": "Bow snap, spell shimmer breaks",
+      "cut_point": "Cut after spell angle blocked"
+    },
+    {
+      "shot": "Shot033D",
+      "duration_seconds": 8,
+      "animatic_motion": "Ingrid lance cuts Manuela's return route without hitting her",
+      "dialogue_performance": "Manuela: '真是一点都不温柔的学生。' Ingrid: '规则允许。'",
+      "sound_bridge": "Foot slide, light spell stop",
+      "cut_point": "Cut on Manuela side-step"
+    },
+    {
+      "shot": "Shot034C",
+      "duration_seconds": 9,
+      "animatic_motion": "Felix checks Ferdinand at the stair base; neither is knocked out",
+      "dialogue_performance": "Ferdinand: '让开！' Felix: '你太吵了。'",
+      "sound_bridge": "Three wooden weapon contacts",
+      "cut_point": "Cut as Ferdinand's route is sealed"
+    },
+    {
+      "shot": "Shot034D",
+      "duration_seconds": 9,
+      "animatic_motion": "Byleth taps Hanneman's wrist with sheathed blade",
+      "dialogue_performance": "Hanneman: '判断得很好。'",
+      "sound_bridge": "Small spell crack",
+      "cut_point": "Cut on Hanneman accepting call"
+    },
+    {
+      "shot": "Shot034",
+      "duration_seconds": 10,
+      "animatic_motion": "Wide de-escalation, weapons lower, teachers off tile; Black Eagles and Golden Deer stand down with dignity",
+      "dialogue_performance": "Ending whistle; Claude: '真不像第一堂课。' Edelgard: '青狮赢了。但不是因为他们最会冲。'",
+      "sound_bridge": "Ending whistle",
+      "cut_point": "Cut to post-battle reaction"
+    },
+    {
+      "shot": "Shot035",
+      "duration_seconds": 10,
+      "animatic_motion": "Felix close reaction after action; camera-facing now acceptable",
+      "dialogue_performance": "Felix: '你不是只会碰巧救人。'",
+      "sound_bridge": "Breath settles",
+      "cut_point": "Cut on his respect line"
+    },
+    {
+      "shot": "Shot036",
+      "duration_seconds": 12,
+      "animatic_motion": "Dimitri lowers lance; hand tension lingers after Byleth already used the restraint command in Shot033/Shot034D action",
+      "dialogue_performance": "Dimitri: '今日我学到的，不只是战斗方式。'",
+      "sound_bridge": "Quiet field tone",
+      "cut_point": "End on unresolved emotional note"
+    }
+  ]
+}

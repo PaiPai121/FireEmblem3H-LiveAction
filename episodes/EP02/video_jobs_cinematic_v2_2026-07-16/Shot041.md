@@ -1,17 +1,10 @@
-# Shot041 - Flame Emperor Mask Close-Up Cinematic V2 Job
+# Shot041 Flame Emperor Mask Close-Up
 
-Duration: 20 seconds
-Handles: 2 seconds
+Duration: 20s
 Image: `episodes/EP02/generated/p0_v1/Shot041_FlameEmperorMask.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot041.mp4`
-
-## Cinematic Continuity
-
-- Block: Conspiracy
-- Transition in: slow push into mask
-- Transition out: hard cut to black with sub hit
-- Screen / camera rule: low-angle secret exchange; final push into mask and hard black
-- Audio bridge: low fog, torch, sub hit to black
+Block: Conspiracy
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ The Flame Emperor mask dominates the frame in cold fog and low torchlight. The f
 
 Cinematic continuity: Block=Conspiracy. Transition in: slow push into mask. Transition out: hard cut to black with sub hit. Screen/camera rule: low-angle secret exchange; final push into mask and hard black. Audio bridge: low fog, torch, sub hit to black. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-very slow push into the mask, ending in a hard cut to black.
+Camera: very slow push into the mask, ending in a hard cut to black.
 
 ## Negative Prompt
 

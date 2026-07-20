@@ -6,12 +6,10 @@
   "prompt": "Byleth and Jeralt enter the main gate plaza under the gaze of guards and academy students. The crowd remains controlled and quiet. The shot should feel like arrival into a place where everyone watches newcomers.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nCinematic continuity: Block=Arrival. Transition in: continue forward movement through gate. Transition out: eyeline cut to Dimitri noticing them. Screen/camera rule: left-to-right pilgrimage; Byleth and Jeralt move into watched space. Audio bridge: low wind, distant bells, boots on stone. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: slow forward move through the gate toward the plaza.",
   "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: crowd chaos, public celebration, readable banners. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
   "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot003.mp4",
-  "job_file": "episodes/EP02/video_jobs_cinematic_v2_expanded_2026-07-16/Shot003.md",
+  "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot003.md",
   "cinematic_block": "Arrival",
   "transition_in": "continue forward movement through gate",
   "transition_out": "eyeline cut to Dimitri noticing them",
-  "screen_direction_rule": "left-to-right pilgrimage; Byleth and Jeralt move into watched space",
-  "audio_bridge": "low wind, distant bells, boots on stone",
   "editorial_handles_seconds": 2,
   "risk_notes": ""
 }

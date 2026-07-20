@@ -2,7 +2,11 @@
 
 日期：2026-07-15
 
-目标：把“学级模拟战”从普通训练场戏升级成可拍摄的三方演习。每两个学级之间都要有明确战斗地点和分镜功能。
+目标：把“学级模拟战”从普通训练场戏升级成可拍摄的三方演习。2026-07-17 修正：不要再按小训练场或两两分区来理解；这里保留 Blue Lions 面对两学级压力的分镜功能，但空间必须是一张连续的原作式户外战棋地图。
+
+## 2026-07-17 修正
+
+原作青狮线模拟战不是多个小训练场分区，也不是教师擂台。它是一张 20x22 规模的户外地图：Blue Lions 从东南边缘出发，中西线有会主动压上的敌人，西/中部有林地与 thicket，东北区域有 Hanneman/Manuela 所在的 heal tile+ 与敌方主力。影视化要保持这张地图的连续性。
 
 ## 战斗关系
 
@@ -16,16 +20,17 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 
 ## 场地总结构
 
-模拟战场应该像学院里的“分区演习场”，不是一块平地：
+模拟战场应该像学院里的“战棋地图”，不是一块平地，也不是几块训练靶道：
 
-- 中央：规则宣布和三学级起始阵型
-- 东侧：Blue Lions vs Black Eagles 的正面战术走廊
-- 西侧：Blue Lions vs Golden Deer 的机动/弓术侧翼区
-- 南侧或高台：Black Eagles vs Golden Deer 的远景对照区
+- 东南：Blue Lions 起始边线
+- 中西线：Dorothea、Lorenz、Ignatz 的第一波主动推进
+- 西/中部：Claude/Hilda 所在的林地与 thicket
+- 东北：Black Eagles 与教师单位压上的危险触发区
+- 东北内侧：Hanneman/Manuela 的 heal tile+ 支援线
 - 边缘：教师/教会观察点
-- 内侧：防守练习位和安全撤出通道
+- 内侧：撤出通道与教会治疗者待命区
 
-## Pair Zone 1 - Blue Lions vs Black Eagles
+## Map Zone 1 - 东北 Black Eagles / 教师压力线
 
 建议资产：
 
@@ -33,17 +38,17 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 
 用途：
 
-- Dimitri / Dedue 的正面压力
-- Felix 前突
+- Felix 误冲东北触发区
 - Byleth 制止 Felix
-- Black Eagles 作为纪律严密的对手
+- Dedue/Dimitri 进入东北入口
+- Hanneman/Manuela 的 heal tile+ 支援线
 
 视觉逻辑：
 
-- 更直线、更规则、更压迫。
-- 木盾、软垫障碍、短旗帜形成正面推进线。
-- 红黑训练旗在远侧，蓝旗在近侧。
-- 对抗感强，但仍是安全训练。
+- 不是训练走廊，而是通往东北敌群的地图入口。
+- 石阶、低墙、草地断面和治疗纹地面形成压迫。
+- 红黑阵线与教师单位在远侧；蓝狮从近侧谨慎推进。
+- 对抗感强，但仍是学院模拟战，无血腥。
 
 可对应镜头：
 
@@ -52,7 +57,7 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 - Shot031：Byleth 在战术走廊中制止 Felix。
 - Shot032/033：Dedue/Dimitri 在正面压力线中出现。
 
-## Pair Zone 2 - Blue Lions vs Golden Deer
+## Map Zone 2 - 中西部 Golden Deer 林地 / thicket
 
 建议资产：
 
@@ -60,15 +65,15 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 
 用途：
 
-- Ashe 弓术支援
+- Ashe 高点压制第一波主动敌人
 - Sylvain/Ingrid 侧翼
-- Golden Deer 作为机动、松散、会诱导走位的对手
+- Claude/Hilda 借林地和 thicket 诱导走位
 
 视觉逻辑：
 
-- 更开阔、更斜向，带弓术靶道、低木栏、侧翼通路。
-- 黄旗在远侧，蓝旗在近侧。
-- 有靶区和安全射线，明确不会射向人体。
+- 更开阔、更斜向，有树丛、草坡、低石墙和视线遮挡。
+- 黄旗或金鹿标识在远侧，但不能像靶道。
+- 箭矢以压制路线和视野为主，不表现真实伤害。
 
 可对应镜头：
 
@@ -76,7 +81,7 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 - Shot029：Sylvain/Ingrid 侧翼。
 - Shot034：演习结束时可以看到这条侧翼线收束。
 
-## Pair Zone 3 - Black Eagles vs Golden Deer
+## Map Zone 3 - 北侧敌方纵深 / 全歼收束
 
 建议资产：
 
@@ -84,15 +89,15 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 
 用途：
 
-- 背景对照，说明三方演习不是只有青狮在打。
-- Black Eagles 的纪律 vs Golden Deer 的灵活形成视觉差异。
+- 背景对照，说明青狮面对的是两学级和教师单位组成的整张地图。
+- 展示 Edelgard、Claude 与残余学生最终放下武器，完成 rout。
 
 视觉逻辑：
 
 - 远景或中远景。
-- 红黑旗与黄旗分列两侧。
-- 学生用软垫盾、木枪、训练弓做非致命演练。
-- 不需要近景角色戏。
+- 红黑旗与黄旗在北侧不同纵深，不要做成独立训练区。
+- 学生用钝刃、训练弓和护具进行非致命演练。
+- 可让 Hanneman/Manuela 的 heal tile+ 位于前景或中景，提示最终要切断教师支援线。
 
 可对应镜头：
 
@@ -104,51 +109,51 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 
 这些不是必须替换现有 Shot025-037，而是用于视频生成或剪辑时增强战斗空间。
 
-### Shot025A - Three-Way Field Map
+### Shot025A - Canon 20x22 Field Map
 
-目的：建立三学级不是排队摆拍，而是分区演习。
+目的：建立三学级不是排队摆拍，而是在同一张原作式户外地图上行动。
 
-画面：俯视或高位宽镜，三块训练区以旗帜和木栏分开。Blue Lions 在近侧，Black Eagles 与 Golden Deer 分别在两翼。
+画面：俯视或高位宽镜，Blue Lions 在东南，第一波敌人位于中西线，东北有教师和敌方主力。
 
-地点：FormationYard
+地点：MockBattleGrounds
 
-### Shot026B - Byleth Assigns Opponents
+### Shot026B - Byleth Southeast Route Call
 
-目的：Byleth 不只是排队，而是在安排 Blue Lions 如何应对不同学级。
+目的：Byleth 不只是排队，而是在东南起点安排路线并警告不要过早触发东北敌群。
 
-画面：Byleth 指向两条战线，Dimitri/Dedue 看向 Black Eagles，Ashe/Sylvain/Ingrid 看向 Golden Deer。
+画面：Byleth 在泥地画图，Dimitri/Dedue 看向东北，Ashe/Sylvain/Ingrid 看向中西线。
 
-地点：FormationYard 到 TacticalLane 交界
+地点：MockBattleGrounds 东南起点
 
-### Shot027B - Ashe Safe Target Lane
+### Shot027B - First Moving Enemy Wave
 
-目的：把 Ashe 的弓术从“朝人射箭”改成“压制靶道/迫使对方移动”。
+目的：表现 Dorothea、Lorenz、Ignatz 会先压上，Blue Lions 需要先清中线。
 
-画面：Ashe 瞄准软垫靶或盾靶，Golden Deer 学生在远处调整位置。
+画面：Ashe 在高处压住中西线，三名敌方学生从林地和石路间推进。
 
 地点：BlueVsGolden_FlankRange
 
-### Shot029B - Sylvain/Ingrid Flank Against Golden Deer
+### Shot029B - Sylvain/Ingrid Thicket Flank
 
 目的：让侧翼动作有明确对手和空间方向。
 
-画面：Sylvain 吸引一个黄旗侧学生的注意，Ingrid 从低木栏旁切入安全位置。
+画面：Sylvain 引出林地中的金鹿对手，Ingrid 从草坡和低墙间切入，Claude/Hilda 的 thicket 位置被迫暴露。
 
 地点：BlueVsGolden_FlankRange
 
-### Shot030B - Felix Breaks Toward Black Eagles
+### Shot030B - Felix Breaks Toward Northeast Trigger
 
-目的：Felix 的失位有更明确的目标：他想正面挑战纪律严明的 Black Eagles。
+目的：Felix 的失位有更明确的战术后果：他差点提前触发东北敌群。
 
-画面：Felix 迈出蓝线，红黑旗方向的学生后退调整，Byleth 已经注意到。
+画面：Felix 冲向东北石阶和治疗纹地形方向，红黑旗与教师身影在远处出现，Byleth 已经注意到。
 
 地点：BlueVsBlack_TacticalLane
 
-### Shot034B - Other Houses Lower Weapons
+### Shot034B - Faculty Heal Tile Rout
 
-目的：演习结束时不只 Blue Lions 收束，另外两学级也同步停止。
+目的：明确“攻下 Hanneman/Manuela”不是攻擂台，而是迫使 heal tile+ 上的教师支援线退让，并完成全歼。
 
-画面：远处 Black Eagles / Golden Deer 放下训练器材，教师哨声结束三方演习。
+画面：Hanneman 和 Manuela 离开治疗纹地面，Edelgard、Claude 与残余学生放下训练武器，教师哨声结束。
 
 地点：BlackVsGolden_Backfield
 
@@ -156,19 +161,19 @@ EP02 是青狮线，所以 Blue Lions 的两条对抗线是主线，Black Eagles
 
 | Shot | 原功能 | 建议地点 |
 | --- | --- | --- |
-| Shot025 | 规则建立 | FormationYard + Three-Way Field Map |
-| Shot026 | Blue Lions 阵型 | FormationYard / TacticalLane entrance |
-| Shot027 | Ashe 弓术 | BlueVsGolden_FlankRange |
-| Shot028 | Annette/Mercedes 支援 | MagicPracticeLane near Blue rear line |
-| Shot029 | Sylvain/Ingrid 侧翼 | BlueVsGolden_FlankRange |
-| Shot030 | Felix 失位 | BlueVsBlack_TacticalLane |
-| Shot031 | Byleth 制止 Felix | BlueVsBlack_TacticalLane |
-| Shot032 | Dedue 守 Dimitri | DefensiveStation / BlueVsBlack line |
-| Shot033 | Dimitri 压住锋芒 | DefensiveStation / BlueVsBlack line |
-| Shot034 | 演习结束 | FormationYard plus BlackVsGolden backfield |
-| Shot035 | Felix 承认 Byleth | TacticalLane edge |
-| Shot036 | Dimitri 暗线 | DefensiveStation |
-| Shot037 | 教会观察 | ObservationEdge overlooking all zones |
+| Shot025 | 规则建立 | 原作式户外地图总览 |
+| Shot026 | Blue Lions 阵型 | 东南起点 |
+| Shot027 | Ashe 弓术 | 中西线高点 / 第一波主动敌人 |
+| Shot028 | Annette/Mercedes 支援 | 东南后线支援位 |
+| Shot029 | Sylvain/Ingrid 侧翼 | 西/中部林地与 thicket |
+| Shot030 | Felix 失位 | 东北触发区入口 |
+| Shot031 | Byleth 制止 Felix | 东北触发区入口 |
+| Shot032 | Dedue 守 Dimitri | 东北入口 |
+| Shot033 | Dimitri 压住锋芒 | 东北 heal tile+ 支援线前 |
+| Shot034 | 演习结束 | Hanneman/Manuela heal tile+ 与北侧敌方纵深 |
+| Shot035 | Felix 承认 Byleth | 地图边缘 |
+| Shot036 | Dimitri 暗线 | 地图边缘 |
+| Shot037 | 教会观察 | 观察边线俯看整张地图 |
 
 ## 生成优先级
 

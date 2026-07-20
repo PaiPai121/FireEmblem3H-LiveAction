@@ -1,17 +1,10 @@
-# Shot018 - Choice Moment Cinematic V2 Job
+# Shot018 Choice Moment
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p0_v1/Shot018_ChoiceMoment.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot018.mp4`
-
-## Cinematic Continuity
-
-- Block: Three Houses
-- Transition in: Byleth POV chooses Blue Lions
-- Transition out: cut on Dimitri receiving choice
-- Screen / camera rule: Byleth POV scans class groups then resolves on Blue Lions
-- Audio bridge: courtyard ambience, banners, restrained footsteps
+Block: Three Houses
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Three Houses. Transition in: Byleth POV chooses Blue Lions. Transition out: cut on Dimitri receiving choice. Screen/camera rule: Byleth POV scans class groups then resolves on Blue Lions. Audio bridge: courtyard ambience, banners, restrained footsteps. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-intimate close decision shot, shallow depth of field.
+Camera: intimate close decision shot, shallow depth of field.
 
 ## Negative Prompt
 

@@ -1,0 +1,2600 @@
+{
+  "date": "2026-07-17",
+  "scope": "P0 Scene09 production raster keyframes. Generate these before any video run.",
+  "production_dir": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17",
+  "prompt_dir": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts",
+  "shots": [
+    {
+      "shot": "Shot026C",
+      "title": "Blue Lions Horn Charge",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot026C_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot026C.A",
+          "title": "Horn / release",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_A_keyframe.png",
+          "description": "Blue Lions explode from the southeast start as the horn hits; Dimitri and Dedue take the first two steps before anyone else reacts.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot026C.B",
+          "title": "Front accelerates",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_B_keyframe.png",
+          "description": "Dimitri and Dedue pull ahead toward the central outer choke while Felix shadows on the open side and Ashe breaks for a height advantage.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot026C.C",
+          "title": "Support line follows",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_C_keyframe.png",
+          "description": "Annette and Mercedes move under cover, young and tense, keeping the rear connected to the charge.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot026C.D",
+          "title": "Black Eagles ahead",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_D_keyframe.png",
+          "description": "The Black Eagles are visible trying to claim the same lane, making the collision feel intentional rather than accidental.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot027C",
+      "title": "Dimitri Dedue First Contact",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot027C_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot027C.A",
+          "title": "Lane convergence",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_A_keyframe.png",
+          "description": "Dimitri and Dedue arrive first at the central outer passage as Edelgard's front line braces.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Edelgard",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+              "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot027C.B",
+          "title": "First contact",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_B_keyframe.png",
+          "description": "Training lance and shield hit the Black Eagles front rank with controlled nonlethal force.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Edelgard",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+              "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot027C.C",
+          "title": "Command depth",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_C_keyframe.png",
+          "description": "Edelgard, Hubert, and Ferdinand remain readable behind the line, not panicked.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Edelgard",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+              "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot027C.D",
+          "title": "Felix waits",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_D_keyframe.png",
+          "description": "Felix is framed on the side gap, coiled to enter but still under Byleth's timing.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Edelgard",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+              "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot027D",
+      "title": "Dimitri Forces One Step Back",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot027D_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot027D.A",
+          "title": "Entry geography",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_A_keyframe.png",
+          "description": "Establish the exact geography for Dimitri Forces One Step Back: Dimitri forces one measured half-step back; Dedue seals breakthrough; Felix waits at side-cut line.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot027D.B",
+          "title": "Action peak",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_B_keyframe.png",
+          "description": "Show the tactical peak with Dimitri, Dedue, Felix, Ferdinand using their locked character assets and academy costumes.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot027D.C",
+          "title": "Reaction / cut point",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_C_keyframe.png",
+          "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot029C",
+      "title": "Claude Reads Blue Lions Stretch",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot029C_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot029C.A",
+          "title": "Entry geography",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_A_keyframe.png",
+          "description": "Establish the exact geography for Claude Reads Blue Lions Stretch: Claude over-shoulder from forest cover reading the gap between Blue Lions front and support group.",
+          "character_reference_assets": [
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot029C.B",
+          "title": "Action peak",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_B_keyframe.png",
+          "description": "Show the tactical peak with Claude, Dimitri, Dedue, Felix, Ashe using their locked character assets and academy costumes.",
+          "character_reference_assets": [
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot029C.C",
+          "title": "Reaction / cut point",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_C_keyframe.png",
+          "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+          "character_reference_assets": [
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot029D",
+      "title": "Ashe Observation Point Suppressed",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot029D_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot029D.A",
+          "title": "Claude's sightline",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_A_keyframe.png",
+          "description": "Claude's bow angle is from thicket cover toward Ashe's observation perch, cutting information rather than hunting Dimitri.",
+          "character_reference_assets": [
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot029D.B",
+          "title": "Arrow impact",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_B_keyframe.png",
+          "description": "The training arrow strikes near Ashe's cover and forces him to duck off the clean observation line.",
+          "character_reference_assets": [
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot029D.C",
+          "title": "Rear-line danger",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_C_keyframe.png",
+          "description": "Annette and Mercedes see that their movement route is now exposed.",
+          "character_reference_assets": [
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot029D.D",
+          "title": "Flank opens",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_D_keyframe.png",
+          "description": "Sylvain and Ingrid begin to turn, making the side-front split readable.",
+          "character_reference_assets": [
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot030C",
+      "title": "Support Route Cut",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot030C_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot030C.A",
+          "title": "Route exposed",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_A_keyframe.png",
+          "description": "A Golden Deer shot or feint lands across the Blue Lions support corridor between front and rear.",
+          "character_reference_assets": [
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot030C.B",
+          "title": "Annette disruption",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_B_keyframe.png",
+          "description": "Annette's wind magic flickers under pressure, then starts to stabilize.",
+          "character_reference_assets": [
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot030C.C",
+          "title": "Mercedes chooses cover",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_C_keyframe.png",
+          "description": "Mercedes moves the support line laterally instead of retreating, keeping healing range alive.",
+          "character_reference_assets": [
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot030C.D",
+          "title": "Byleth reads two fronts",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_D_keyframe.png",
+          "description": "Byleth is framed between the central fight and flank pressure, refusing a full recall.",
+          "character_reference_assets": [
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot031B",
+      "title": "Byleth Refuses Recall",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot031B_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Annette",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+          "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+        },
+        {
+          "name": "Mercedes",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+          "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot031B.A",
+          "title": "Entry geography",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_A_keyframe.png",
+          "description": "Establish the exact geography for Byleth Refuses Recall: Byleth stands between two forming battle lines giving split orders, refusing to recall the main attack.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot031B.B",
+          "title": "Action peak",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_B_keyframe.png",
+          "description": "Show the tactical peak with Byleth, Dimitri, Dedue, Felix, Sylvain using their locked character assets and academy costumes.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot031B.C",
+          "title": "Reaction / cut point",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_C_keyframe.png",
+          "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Annette",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+              "continuity_note": "petite peach-orange-haired 18-year-old mage, nervous-to-stable wind magic"
+            },
+            {
+              "name": "Mercedes",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+              "continuity_note": "gentle blonde 18-year-old healer, soft but decisive rear-line support"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot032D",
+      "title": "Two Adjacent Battle Lines",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot032D_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot032D.A",
+          "title": "Entry geography",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_A_keyframe.png",
+          "description": "Establish the exact geography for Two Adjacent Battle Lines: two adjacent battle lines visible: Blue Lions vs Black Eagles central, Blue Lions right vs Golden Deer with Black Eagles mobile pressure.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot032D.B",
+          "title": "Action peak",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_B_keyframe.png",
+          "description": "Show the tactical peak with Dimitri, Dedue, Felix, Sylvain, Ingrid using their locked character assets and academy costumes.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot032D.C",
+          "title": "Reaction / cut point",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_C_keyframe.png",
+          "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+          "character_reference_assets": [
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Claude",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+              "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot032E",
+      "title": "First Three-Way Entanglement",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot032E_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        },
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Hilda",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+          "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot032E.A",
+          "title": "Black Eagles shift sideways",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_A_keyframe.png",
+          "description": "The Blue Lions push forces the Black Eagles to move laterally out of their original clean formation.",
+          "character_reference_assets": [
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Hilda",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+              "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot032E.B",
+          "title": "Golden Deer cover compressed",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_B_keyframe.png",
+          "description": "That sideways movement eats into Claude and Hilda's safe thicket shooting space.",
+          "character_reference_assets": [
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Hilda",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+              "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot032E.C",
+          "title": "First entanglement",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_C_keyframe.png",
+          "description": "Blue Lions flank holders, Black Eagles mobile pressure, and Golden Deer side group collide around adjacent barriers.",
+          "character_reference_assets": [
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Hilda",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+              "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot032E.D",
+          "title": "Still readable",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_D_keyframe.png",
+          "description": "The frame keeps two nearby battle lines readable instead of making a single crowd pile.",
+          "character_reference_assets": [
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            },
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Hilda",
+              "phase": "academy",
+              "asset": "assets/characters/golden_deer/Hilda/academy/selected.png",
+              "continuity_note": "pink-haired axe student, flank pressure from thicket cover"
+            },
+            {
+              "name": "Hubert",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+              "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot033B",
+      "title": "Byleth Calls Cut Teachers",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot033B_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot033B.A",
+          "title": "Entry geography",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_A_keyframe.png",
+          "description": "Establish the exact geography for Byleth Calls Cut Teachers: Byleth points to northeast raised healing stone platform; Hanneman and Manuela are visible as support system.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            },
+            {
+              "name": "Manuela",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+              "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot033B.B",
+          "title": "Action peak",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_B_keyframe.png",
+          "description": "Show the tactical peak with Byleth, Hanneman, Manuela using their locked character assets and academy costumes.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            },
+            {
+              "name": "Manuela",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+              "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot033B.C",
+          "title": "Reaction / cut point",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_C_keyframe.png",
+          "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            },
+            {
+              "name": "Manuela",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+              "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot033C",
+      "title": "Ashe Suppresses Hanneman",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot033C_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Ashe",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot033C.A",
+          "title": "Entry geography",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_A_keyframe.png",
+          "description": "Establish the exact geography for Ashe Suppresses Hanneman: Ashe fires controlled arrows to suppress Hanneman casting angle; wind magic bursts on stone steps.",
+          "character_reference_assets": [
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot033C.B",
+          "title": "Action peak",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_B_keyframe.png",
+          "description": "Show the tactical peak with Ashe, Hanneman using their locked character assets and academy costumes.",
+          "character_reference_assets": [
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot033C.C",
+          "title": "Reaction / cut point",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_C_keyframe.png",
+          "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+          "character_reference_assets": [
+            {
+              "name": "Ashe",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+              "continuity_note": "ash-gray-haired archer, observation high point and suppression shots"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot033D",
+      "title": "Ingrid Drives Manuela Off Tile",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot033D_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Ingrid",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+          "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        },
+        {
+          "name": "Sylvain",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+          "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot033D.A",
+          "title": "Manuela on heal tile",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_A_keyframe.png",
+          "description": "Manuela is visible as a beautiful adult teacher on the raised support position, not an abstract map marker.",
+          "character_reference_assets": [
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Manuela",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+              "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot033D.B",
+          "title": "Ingrid closes",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_B_keyframe.png",
+          "description": "Ingrid enters with disciplined lance movement, cutting off Manuela's easiest retreat route.",
+          "character_reference_assets": [
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Manuela",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+              "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot033D.C",
+          "title": "Support link snaps",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_C_keyframe.png",
+          "description": "The healing angle from Manuela to Hanneman's platform weakens as Ingrid forces her step off the tile.",
+          "character_reference_assets": [
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Manuela",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+              "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot033D.D",
+          "title": "Dimitri route opens",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_D_keyframe.png",
+          "description": "Dimitri and Dedue can now start the stair push toward the teachers.",
+          "character_reference_assets": [
+            {
+              "name": "Ingrid",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+              "continuity_note": "blonde disciplined lancer, precise side entry and teacher-platform cut-off"
+            },
+            {
+              "name": "Manuela",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+              "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+            },
+            {
+              "name": "Sylvain",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+              "continuity_note": "red-orange-haired lancer, draws flank pressure and turns serious under threat"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot034C",
+      "title": "Felix Opens Stairs For Dimitri",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot034C_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Felix",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+          "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot034C.A",
+          "title": "Entry geography",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_A_keyframe.png",
+          "description": "Establish the exact geography for Felix Opens Stairs For Dimitri: Felix intercepts Ferdinand at base of stone stairs, opening path for Dimitri and Dedue to climb.",
+          "character_reference_assets": [
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot034C.B",
+          "title": "Action peak",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_B_keyframe.png",
+          "description": "Show the tactical peak with Felix, Ferdinand, Dimitri, Dedue, Hanneman using their locked character assets and academy costumes.",
+          "character_reference_assets": [
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot034C.C",
+          "title": "Reaction / cut point",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_C_keyframe.png",
+          "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+          "character_reference_assets": [
+            {
+              "name": "Felix",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+              "continuity_note": "dark-blue-haired duelist, sharp side-cut tension, restrained from overextending"
+            },
+            {
+              "name": "Ferdinand",
+              "phase": "academy",
+              "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+              "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    },
+    {
+      "shot": "Shot034D",
+      "title": "Byleth Breaks Hanneman Spell",
+      "output_start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_start.png",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_keyframe.png",
+      "prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot034D_prompt.md",
+      "character_reference_assets": [
+        {
+          "name": "Byleth",
+          "phase": "academy",
+          "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+          "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+        },
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        }
+      ],
+      "subframes": [
+        {
+          "id": "Shot034D.A",
+          "title": "Hanneman casting angle",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_A_keyframe.png",
+          "description": "Hanneman raises wind/Sagittae from the elevated heal-tile position while Ashe suppresses his line.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot034D.B",
+          "title": "Byleth intercepts",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_B_keyframe.png",
+          "description": "Byleth cuts into the spell angle with training-steel precision, stopping the support system rather than injuring the teacher.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot034D.C",
+          "title": "Dimitri contains",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_C_keyframe.png",
+          "description": "Dimitri arrives with weapon lowered enough to show restraint and victory control.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        },
+        {
+          "id": "Shot034D.D",
+          "title": "Rout signal",
+          "status": "needs_production_raster_keyframe",
+          "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_D_keyframe.png",
+          "description": "Manuela has stepped off the tile and the remaining students lower weapons, making the rout cinematic and clear.",
+          "character_reference_assets": [
+            {
+              "name": "Byleth",
+              "phase": "academy",
+              "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+              "continuity_note": "calm professor commander, continuity anchor between front and flank lines"
+            },
+            {
+              "name": "Hanneman",
+              "phase": "academy",
+              "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+              "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+            },
+            {
+              "name": "Dimitri",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+              "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+            },
+            {
+              "name": "Dedue",
+              "phase": "academy",
+              "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+              "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+            }
+          ],
+          "continuity_rules": [
+            "Use listed selected.png character assets as face, hair, age, and costume references.",
+            "Keep the canon-map geography continuous across adjacent subframes.",
+            "No SVG, no map labels, no UI, no small training-yard composition."
+          ]
+        }
+      ]
+    }
+  ]
+}

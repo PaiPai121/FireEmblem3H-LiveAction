@@ -1,17 +1,10 @@
-# Shot021 - Mercenary Badge Insert Cinematic V2 Job
+# Shot021 Mercenary Badge Insert
 
-Duration: 15 seconds
-Handles: 2 seconds
+Duration: 15s
 Image: `episodes/EP02/generated/p2_connectors_v1/Shot021_MercenaryBadgeInsert.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot021.mp4`
-
-## Cinematic Continuity
-
-- Block: Private Warning
-- Transition in: badge drop becomes punctuation
-- Transition out: hard morning classroom cut on same table plane
-- Screen / camera rule: static pressure and silence; cuts land on objects and withheld reactions
-- Audio bridge: door close, paper, badge drop, night room tone
+Block: Private Warning
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Jeralt's gloved hand places the old mercenary badge on the wooden desk. The meta
 
 Cinematic continuity: Block=Private Warning. Transition in: badge drop becomes punctuation. Transition out: hard morning classroom cut on same table plane. Screen/camera rule: static pressure and silence; cuts land on objects and withheld reactions. Audio bridge: door close, paper, badge drop, night room tone. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-close insert, tiny push toward the badge.
+Camera: close insert, tiny push toward the badge.
 
 ## Negative Prompt
 

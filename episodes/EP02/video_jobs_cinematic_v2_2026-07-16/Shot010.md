@@ -1,17 +1,10 @@
-# Shot010 - Faculty Introduction Cinematic V2 Job
+# Shot010 Faculty Introduction
 
-Duration: 12 seconds
-Handles: 2 seconds
+Duration: 12s
 Image: `episodes/EP02/generated/p2_connectors_v2/Shot010_FacultyIntroduction_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot010.mp4`
-
-## Cinematic Continuity
-
-- Block: Monastery Daily Life
-- Transition in: continue lateral cloister rhythm
-- Transition out: cut on Manuela redirect toward courtyard
-- Screen / camera rule: lateral observer movement through cloisters
-- Audio bridge: students, robes, soft chatter
+Block: Monastery Daily Life
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Hanneman approaches Byleth with eager scholarly curiosity while Manuela interrup
 
 Cinematic continuity: Block=Monastery Daily Life. Transition in: continue lateral cloister rhythm. Transition out: cut on Manuela redirect toward courtyard. Screen/camera rule: lateral observer movement through cloisters. Audio bridge: students, robes, soft chatter. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-medium three-shot, slight handheld warmth.
+Camera: medium three-shot, slight handheld warmth.
 
 ## Negative Prompt
 

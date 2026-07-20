@@ -1,17 +1,10 @@
-# Shot032 - Dedue Guards Dimitri Cinematic V2 Job
+# Shot032 Dedue Guards Dimitri
 
-Duration: 16 seconds
-Handles: 2 seconds
+Duration: 16s
 Image: `episodes/EP02/generated/p1_mock_battle_v1/Shot032_DedueGuardsDimitri.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot032.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: correction echoes in Dedue defensive discipline
-- Transition out: cut to Dimitri pressure building
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -23,9 +16,7 @@ Dedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and po
 
 Cinematic continuity: Block=Mock Battle. Transition in: correction echoes in Dedue defensive discipline. Transition out: cut to Dimitri pressure building. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-medium push from shield to Dimitri.
+Camera: medium push from shield to Dimitri.
 
 ## Negative Prompt
 

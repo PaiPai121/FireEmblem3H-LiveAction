@@ -1,17 +1,10 @@
-# Shot017 - House Choice Ceremony Cinematic V2 Job
+# Shot017 House Choice Ceremony
 
-Duration: 20 seconds
-Handles: 2 seconds
+Duration: 20s
 Image: `episodes/EP02/generated/p0_rhea_youth_v2/Shot017_HouseChoiceCeremony_identity_locked_v4.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot017.mp4`
-
-## Cinematic Continuity
-
-- Block: Three Houses
-- Transition in: ceremonial room tone replaces courtyard
-- Transition out: eyeline/POV cut to Dimitri choice
-- Screen / camera rule: Byleth POV scans class groups then resolves on Blue Lions
-- Audio bridge: courtyard ambience, banners, restrained footsteps
+Block: Three Houses
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Three Houses. Transition in: ceremonial room tone replaces courtyard. Transition out: eyeline/POV cut to Dimitri choice. Screen/camera rule: Byleth POV scans class groups then resolves on Blue Lions. Audio bridge: courtyard ambience, banners, restrained footsteps. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-wide ceremonial hold with a subtle focus pull toward Dimitri.
+Camera: wide ceremonial hold with a subtle focus pull toward Dimitri.
 
 ## Negative Prompt
 

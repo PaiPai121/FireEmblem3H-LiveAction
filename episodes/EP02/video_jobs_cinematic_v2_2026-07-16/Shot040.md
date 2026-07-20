@@ -1,17 +1,10 @@
-# Shot040 - Kostas Kneels Cinematic V2 Job
+# Shot040 Kostas Kneels
 
-Duration: 24 seconds
-Handles: 2 seconds
+Duration: 24s
 Image: `episodes/EP02/generated/p0_v1/Shot040_KostasKneels.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot040.mp4`
-
-## Cinematic Continuity
-
-- Block: Conspiracy
-- Transition in: wet ruins shock after quiet corridor
-- Transition out: torchlight motivates mask push
-- Screen / camera rule: low-angle secret exchange; final push into mask and hard black
-- Audio bridge: low fog, torch, sub hit to black
+Block: Conspiracy
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Kostas kneels in wet stone and low fog, furious and afraid, looking up from belo
 
 Cinematic continuity: Block=Conspiracy. Transition in: wet ruins shock after quiet corridor. Transition out: torchlight motivates mask push. Screen/camera rule: low-angle secret exchange; final push into mask and hard black. Audio bridge: low fog, torch, sub hit to black. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-low-angle slow push from Kostas toward the Flame Emperor silhouette.
+Camera: low-angle slow push from Kostas toward the Flame Emperor silhouette.
 
 ## Negative Prompt
 

@@ -1,12 +1,14 @@
 const fs = require("fs");
 
 const queuePath = "episodes/EP02/video_generation_queue_cinematic_v2_2026-07-16.json";
-const payloadPath = "episodes/EP02/video_payloads_cinematic_v2_2026-07-16.json";
+const payloadPath = "episodes/EP02/video_payloads_cinematic_v2_expanded_2026-07-16.json";
 const supplementalPath = "episodes/EP02/mock_battle_expanded_storyboard_2026-07-16.json";
 const shotListPath = "episodes/EP02/shot_list.md";
 const matrixPath = "episodes/EP02/shot_asset_matrix.md";
 const scriptPath = "episodes/EP02/script.md";
 const keyframePlanPath = "episodes/EP02/keyframe_plan_2026-07-15.json";
+const productionKeyframeQueuePath = "episodes/EP02/mock_battle_keyframe_production_queue_2026-07-17.json";
+const productionKeyframeQaPath = "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/qa_manifest.json";
 const outputPath = "site/ep02_storyboard_data.js";
 
 function parseMarkdownTable(path) {
@@ -124,6 +126,13 @@ const keyframePlan = fs.existsSync(keyframePlanPath)
   ? JSON.parse(fs.readFileSync(keyframePlanPath, "utf8"))
   : { frames: [] };
 const keyframeMap = new Map((keyframePlan.frames || []).map((item) => [item.shot, item]));
+const productionKeyframeQueue = fs.existsSync(productionKeyframeQueuePath)
+  ? JSON.parse(fs.readFileSync(productionKeyframeQueuePath, "utf8"))
+  : [];
+const productionKeyframeQa = fs.existsSync(productionKeyframeQaPath)
+  ? JSON.parse(fs.readFileSync(productionKeyframeQaPath, "utf8")).shots || {}
+  : {};
+const productionKeyframeMap = new Map(productionKeyframeQueue.map((item) => [item.shot, item]));
 const shotMeta = parseShotList();
 const matrix = parseMatrix();
 const scriptScenes = parseScriptScenes();
@@ -136,22 +145,49 @@ const shots = queue.map((item) => {
   const meta = shotMeta.get(item.shot) || {};
   const payload = payloadMap.get(item.shot) || {};
   const keyframes = keyframeMap.get(item.shot) || {};
-  const keyFramePath = keyframes.keyFrame || (suffix ? item.still : "");
+  const productionKeyframe = productionKeyframeMap.get(item.shot) || {};
+  const productionQa = productionKeyframeQa[item.shot] || {};
+  const productionOutput = productionKeyframe.output_keyframe || "";
+  const productionStartOutput = productionKeyframe.output_start_frame || "";
+  const productionExists = productionOutput ? fs.existsSync(productionOutput) : false;
+  const productionStartExists = productionStartOutput ? fs.existsSync(productionStartOutput) : false;
+  const displayedStill = productionExists ? productionOutput : (item.still || "");
+  const displayedStillStatus = productionExists
+    ? (productionQa.status || productionKeyframe.status || "production_draft")
+    : (item.still ? "legacy_source" : "missing");
+  const displayedStillSource = productionExists ? "production_keyframe" : "legacy_or_layout_source";
+  const keyFramePath = productionExists ? productionOutput : (keyframes.keyFrame || (suffix ? item.still : ""));
+  const productionFrameIntent = productionExists
+    ? (productionKeyframe.purpose || productionKeyframe.title || item.title || "")
+    : "";
+  const productionFramePrompt = productionExists
+    ? (productionKeyframe.production_prompt || "")
+    : "";
+  const subframes = (productionKeyframe.subframes || []).map((subframe) => {
+    const outputKeyframe = subframe.output_keyframe || "";
+    const outputExists = outputKeyframe ? fs.existsSync(outputKeyframe) : false;
+    return {
+      ...subframe,
+      output_keyframe: outputExists ? outputKeyframe : "",
+      planned_output_keyframe: outputExists ? "" : (outputKeyframe ? outputKeyframe.split("/").pop() : ""),
+      output_status: outputExists ? "ready" : "planned",
+    };
+  });
   const frameSet = [
     {
       role: "start",
       label: "起始帧",
-      path: keyframes.startFrame || item.still || "",
-      status: keyframes.startFrame || item.still ? "ready" : "missing",
-      intent: "镜头进入时的构图与空间关系",
+      path: productionStartExists ? productionStartOutput : (keyframes.startFrame || item.still || ""),
+      status: productionStartExists ? (productionQa.status || productionKeyframe.status || "production_draft") : (keyframes.startFrame || item.still ? "ready" : "missing"),
+      intent: productionStartExists ? "production start frame: 镜头进入时的构图与空间关系，必须与关键帧保持同一动作链路" : "镜头进入时的构图与空间关系",
     },
     {
       role: "key",
       label: "关键帧",
       path: keyFramePath,
-      status: keyframes.keyFrameStatus || (keyFramePath ? "ready" : "planned"),
-      intent: keyframes.keyFrameIntent || (suffix ? item.outputNeeded || item.title || "" : ""),
-      prompt: keyframes.keyFramePrompt || (suffix ? item.video_prompt || "" : ""),
+      status: productionExists ? displayedStillStatus : (keyframes.keyFrameStatus || (keyFramePath ? "ready" : "planned")),
+      intent: productionExists ? productionFrameIntent : (keyframes.keyFrameIntent || (suffix ? item.outputNeeded || item.title || "" : "")),
+      prompt: productionExists ? (productionFramePrompt || keyframes.keyFramePrompt || item.video_prompt || "") : (keyframes.keyFramePrompt || (suffix ? item.video_prompt || "" : "")),
     },
     {
       role: "end",
@@ -171,11 +207,30 @@ const shots = queue.map((item) => {
     durationSeconds: item.duration_seconds || "",
     status: item.status,
     still: item.still || "",
+    displayImagePath: displayedStill,
+    displayImageStatus: displayedStillStatus,
+    displayImageSource: displayedStillSource,
+    productionQaStatus: productionQa.status || "",
+    productionQaChecks: productionQa.checks || [],
+    productionQaIssues: productionQa.issues || [],
     frameSet,
+    productionStatus: productionKeyframe.status || "",
+    productionPriority: productionKeyframe.priority || "",
+    productionKeyframePath: productionKeyframe.output_keyframe || "",
+    productionStartFramePath: productionKeyframe.output_start_frame || "",
+    productionFrameIntent,
+    productionFramePrompt,
+    startKeyAssociation: productionQa.start_key_association || "",
+    characterReferenceAssets: productionKeyframe.character_reference_assets || [],
+    subframes,
     keyFrameIntent: keyframes.keyFrameIntent || (suffix ? item.outputNeeded || item.title || "" : ""),
     keyFramePrompt: keyframes.keyFramePrompt || (suffix ? item.video_prompt || "" : ""),
     sourcePackage: item.source_package,
     outputPath: payload.output_path || item.output_path || "",
+    payloadProductionStatus: payload.production_status || "",
+    payloadProductionImagePath: payload.production_image_path || "",
+    payloadBlockedSourceImagePath: payload.blocked_source_image_path || "",
+    payloadProductionPromptFile: payload.production_prompt_file || "",
     cinematicBlock: item.cinematic_block || payload.cinematic_block || "",
     transitionIn: item.transition_in || payload.transition_in || "",
     transitionOut: item.transition_out || payload.transition_out || "",
@@ -204,14 +259,31 @@ const payload = {
   continuityBrief: "episodes/EP02/cinematic_continuity_pass_2026-07-16.md",
   runbook: "episodes/EP02/video_production_runbook_cinematic_v2_expanded_2026-07-16.md",
   mockBattleExpandedPlan: supplementalPath,
+  mockBattleProductionKeyframes: productionKeyframeQueuePath,
+  mockBattleSubframePlan: "episodes/EP02/mock_battle_subframe_plan_2026-07-17.md",
+  mockBattleFullPromptDelivery: "episodes/EP02/scene09_full_frame_and_video_prompts_2026-07-19.md",
+  mockBattleFullRebuildScope: "episodes/EP02/scene09_full_rebuild_scope_2026-07-20.md",
+  mockBattleAuditSynthesis: "episodes/EP02/scene09_audit_synthesis_2026-07-20.md",
+  mockBattleSecondaryVisualQa: "episodes/EP02/scene09_secondary_visual_qa_2026-07-19.md",
+  mockBattleCreativeLogicAudit: "episodes/EP02/scene09_creative_logic_audit_2026-07-20.md",
+  mockBattleDirectionContinuity: "episodes/EP02/scene09_direction_continuity_pass_2026-07-19.md",
+  mockBattleWeaponFacingAudit: "episodes/EP02/scene09_weapon_and_facing_audit_2026-07-19.md",
+  mockBattleManualImageReview: "episodes/EP02/scene09_manual_image_review_2026-07-19.md",
+  mockBattlePreVideoDeepAudit: "episodes/EP02/scene09_pre_video_deep_audit_2026-07-19.md",
+  mockBattleCharacterOutcomeExitPlan: "episodes/EP02/scene09_character_outcome_exit_plan_2026-07-19.md",
+  mockBattleVideoPreflight: "episodes/EP02/scene09_video_preflight_package_2026-07-19.md",
+  mockBattleAnimaticTiming: "episodes/EP02/scene09_animatic_timing_plan_2026-07-19.md",
+  mockBattleVideoFailureCriteria: "episodes/EP02/scene09_video_failure_criteria_2026-07-19.md",
+  mockBattleDialoguePerformance: "episodes/EP02/scene09_dialogue_performance_pass_2026-07-19.md",
+  mockBattleBackgroundMaster: "assets/locations/EP02/act02/MockBattleGrounds_CanonMap/MockBattleGrounds_CanonMap_master_2026-07-19.png",
+  mockBattleP0ReferenceBoards: "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/reference_boards/index.html",
   reviewHtml: "episodes/EP02/generated/full_episode_storyboard_2026-07-14/review.html",
   fullContactSheet: "episodes/EP02/generated/full_episode_storyboard_2026-07-14/00_full_episode_ordered.png",
   blockContactSheets: [
     ["到达与教会", "episodes/EP02/generated/full_episode_storyboard_2026-07-14/01_arrival_church.png"],
     ["学级与选择", "episodes/EP02/generated/full_episode_storyboard_2026-07-14/02_houses_choice.png"],
     ["警告与课堂", "episodes/EP02/generated/full_episode_storyboard_2026-07-14/03_warning_class.png"],
-    ["模拟战", "episodes/EP02/generated/full_episode_storyboard_2026-07-14/04_mock_battle.png"],
-    ["模拟战扩展", "episodes/EP02/generated/mock_battle_expanded_v1/contact_sheet_mock_battle_expanded_2026-07-16.png"],
+    ["模拟战 Canon Map", "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/contact_sheet_mock_battle_canon_map_2026-07-17.svg"],
     ["结尾", "episodes/EP02/generated/full_episode_storyboard_2026-07-14/05_ending.png"],
   ],
   shots,

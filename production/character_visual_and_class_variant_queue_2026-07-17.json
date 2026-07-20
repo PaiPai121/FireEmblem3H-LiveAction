@@ -1,0 +1,74 @@
+{
+  "date": "2026-07-17",
+  "scope": "Next production queue for high-risk character visuals and visible class-variant gaps.",
+  "visual_regeneration": [
+    {
+      "priority": "P0",
+      "character": "Mercedes",
+      "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "problem": "Reads too mature and polished for an academy-age Mercedes.",
+      "direction": "18-year-old academy student, softer rounder face, gentle healer presence, less glam portrait, preserve blonde side ponytail and warm modest expression.",
+      "outputTarget": "assets/characters/blue_lions/Mercedes/academy/candidates_young_18_v4/"
+    },
+    {
+      "priority": "P0",
+      "character": "Seteth",
+      "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "problem": "Too young, too model-like, too beautiful.",
+      "direction": "Older severe church administrator, stern eyes, sharper authority, short beard/mustache, clerical restraint, not romantic hero, not student-like.",
+      "outputTarget": "assets/characters/church_of_seiros/Seteth/academy/candidates_severe_admin_v3/"
+    },
+    {
+      "priority": "P1",
+      "character": "Annette",
+      "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+      "problem": "Usable, but can still read too polished/mature.",
+      "direction": "18-year-old academy student, petite, rounder youthful face, energetic but slightly awkward charm, less adult glam.",
+      "outputTarget": "assets/characters/blue_lions/Annette/academy/candidates_young_18_v4/"
+    },
+    {
+      "priority": "P1",
+      "character": "Manuela",
+      "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+      "problem": "Usable, but can carry more former-opera-star beauty and confidence.",
+      "direction": "More glamorous and beautiful adult teacher, confident theatrical presence, still tasteful academy faculty styling.",
+      "outputTarget": "assets/characters/church_of_seiros/Manuela/academy/candidates_stage_beauty_v3/"
+    }
+  ],
+  "scene09_asset_rule": {
+    "blockedImagePathPatterns": [
+      "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/*.svg",
+      "episodes/EP02/generated/p1_mock_battle_v1/*.png"
+    ],
+    "replacementTarget": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/",
+    "readyCondition": "Payload image_path points to a production raster cinematic keyframe that matches the revised Scene09 tactical script."
+  },
+  "class_variant_gaps": {
+    "P0_church_of_seiros": [
+      "Catherine",
+      "Shamir",
+      "Seteth",
+      "Flayn",
+      "Manuela",
+      "Jeritza",
+      "Hanneman",
+      "Alois",
+      "Gilbert",
+      "Rhea",
+      "Cyril"
+    ],
+    "P1_golden_deer": [
+      "Lysithea",
+      "Marianne",
+      "Leonie",
+      "Lorenz",
+      "Raphael",
+      "Ignatz"
+    ],
+    "P2_other_sparse": [
+      "Monica",
+      "Ashen Wolves",
+      "Anna and merchants"
+    ]
+  }
+}

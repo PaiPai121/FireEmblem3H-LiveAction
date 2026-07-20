@@ -1,17 +1,10 @@
-# Shot007 - Seteth Suspicion Cinematic V2 Job
+# Shot007 Seteth Suspicion
 
-Duration: 24 seconds
-Handles: 2 seconds
+Duration: 24s
 Image: `episodes/EP02/generated/p0_church_identity_v2/Shot007_SetethSuspicion_RheaYouth_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot007.mp4`
-
-## Cinematic Continuity
-
-- Block: Church Authority
-- Transition in: continue Rhea/Jeralt tension into Seteth scrutiny
-- Transition out: cut on Seteth gaze toward Byleth
-- Screen / camera rule: center-axis authority; Rhea holds still while others react around her
-- Audio bridge: cathedral reverb, candle hush
+Block: Church Authority
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Seteth studies Byleth and Jeralt with restrained suspicion. His face remains con
 
 Cinematic continuity: Block=Church Authority. Transition in: continue Rhea/Jeralt tension into Seteth scrutiny. Transition out: cut on Seteth gaze toward Byleth. Screen/camera rule: center-axis authority; Rhea holds still while others react around her. Audio bridge: cathedral reverb, candle hush. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-medium-close hold with a slight push toward Seteth's eyes.
+Camera: medium-close hold with a slight push toward Seteth's eyes.
 
 ## Negative Prompt
 

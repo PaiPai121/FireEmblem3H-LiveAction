@@ -1,17 +1,10 @@
-# Shot004 - Dimitri First Nod Cinematic V2 Job
+# Shot004 Dimitri First Nod
 
-Duration: 8 seconds
-Handles: 2 seconds
+Duration: 8s
 Image: `episodes/EP02/generated/p2_connectors_v1/Shot004_DimitriFirstNod.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot004.mp4`
-
-## Cinematic Continuity
-
-- Block: Arrival
-- Transition in: Byleth-side eyeline catches Dimitri
-- Transition out: cut on Dimitri nod toward church interior stillness
-- Screen / camera rule: left-to-right pilgrimage; Byleth and Jeralt move into watched space
-- Audio bridge: low wind, distant bells, boots on stone
+Block: Arrival
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Arrival. Transition in: Byleth-side eyeline catches Dimitri. Transition out: cut on Dimitri nod toward church interior stillness. Screen/camera rule: left-to-right pilgrimage; Byleth and Jeralt move into watched space. Audio bridge: low wind, distant bells, boots on stone. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-shallow focus from Byleth's side toward Dimitri.
+Camera: shallow focus from Byleth's side toward Dimitri.
 
 ## Negative Prompt
 

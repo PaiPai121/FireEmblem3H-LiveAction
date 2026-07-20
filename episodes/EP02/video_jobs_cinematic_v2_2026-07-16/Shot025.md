@@ -1,17 +1,10 @@
-# Shot025 - Mock Battle Setup Cinematic V2 Job
+# Shot025 Mock Battle Setup
 
-Duration: 15 seconds
-Handles: 2 seconds
+Duration: 15s
 Image: `episodes/EP02/generated/p1_mock_battle_v1/Shot025_MockBattleSetup.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot025.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: whistle carries us outside
-- Transition out: cut to Byleth assigning formation
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Mock Battle. Transition in: whistle carries us outside. Transition out: cut to Byleth assigning formation. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-slow crane-like rise or gentle wide push.
+Camera: slow crane-like rise or gentle wide push.
 
 ## Negative Prompt
 

@@ -1,17 +1,10 @@
-# Shot001 - Garreg Mach Exterior Road Cinematic V2 Job
+# Shot001 Garreg Mach Exterior Road
 
-Duration: 8 seconds
-Handles: 2 seconds
+Duration: 8s
 Image: `episodes/EP02/generated/p2_connectors_v1/Shot001_GarregMachExteriorRoad.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot001.mp4`
-
-## Cinematic Continuity
-
-- Block: Arrival
-- Transition in: fade in from black on fog
-- Transition out: cut on forward movement to travelers
-- Screen / camera rule: left-to-right pilgrimage; Byleth and Jeralt move into watched space
-- Audio bridge: low wind, distant bells, boots on stone
+Block: Arrival
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Morning fog drifts across the mountain road as Garreg Mach monastery rises in th
 
 Cinematic continuity: Block=Arrival. Transition in: fade in from black on fog. Transition out: cut on forward movement to travelers. Screen/camera rule: left-to-right pilgrimage; Byleth and Jeralt move into watched space. Audio bridge: low wind, distant bells, boots on stone. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-wide slow push toward the distant monastery.
+Camera: wide slow push toward the distant monastery.
 
 ## Negative Prompt
 

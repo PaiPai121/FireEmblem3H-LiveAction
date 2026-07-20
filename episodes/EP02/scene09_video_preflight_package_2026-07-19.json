@@ -1,0 +1,293 @@
+{
+  "version": "2026-07-19",
+  "scope": "EP02 Scene09 high-risk video preflight before direct generation",
+  "policy": "Resolve the blocking still issues and run these high-risk shots first. Do not run the full Scene09 video batch until these pass motion QA.",
+  "shared_locks": [
+    "Use start/key stills from episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/ as visual anchors.",
+    "Background master: assets/locations/EP02/act02/MockBattleGrounds_CanonMap/MockBattleGrounds_CanonMap_master_2026-07-19.png.",
+    "Coordinate lock: north is screen top; Blue Lions move lower-right to center/upper-right; Black Eagles resist from north/right-depth toward center/southwest; Golden Deer enter from west/screen-left and pressure both sides.",
+    "Weapon locks: Dimitri long training lance; Dedue large padded shield; Felix wooden sword; Sylvain and Ingrid training lances; Ashe bow; Mercedes empty-hand white healing only; Annette wind magic/book focus; Hubert magic hand/book focus; Ferdinand lance; Claude bow; Hilda axe; Hanneman spell focus; Manuela white magic.",
+    "Academy-age lock: all named students must read as academy-age teenagers/late teens, not mature adults, adult models, war-phase veterans, or teacher-age characters.",
+    "Competitive dignity lock: Black Eagles and Golden Deer must look competent and dangerous. Blue Lions win narrowly by objective timing, not because the other houses collapse or act foolishly.",
+    "Hilda lock: use assets/characters/golden_deer/Hilda/academy/selected.png youth identity v4 as the visual authority; reject older/mature Hilda faces in any Hilda-visible shot.",
+    "No character should rotate to face camera unless the camera is explicitly positioned on the enemy side. If a threat is ahead or in depth, defenders must face that threat.",
+    "Supervised academy mock battle only: no blood, no visible wounds, no lethal strikes, no collapse, no gore."
+  ],
+  "first_video_batch_order": [
+    {
+      "shot": "Shot029",
+      "title": "Wide Flank Setup Lance Monitor",
+      "duration_seconds": 12,
+      "priority": "preflight_flank_weapon_monitor",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot029_video_prompt_v2.md",
+      "why": "The still is usable as a wide flank setup, but Ingrid's weapon silhouette can read short-blade if animated too close. Use Shot029B for the detailed Golden Deer flank highlight.",
+      "dialogue_performance": [
+        "Sylvain: '也就是说，我们是被人切后路之前的后路。'",
+        "Ingrid: '少说一句，脚步会更快。'",
+        "Performance: this is the moment their casual flank guard becomes serious; do not stage it as a victory beat."
+      ],
+      "failure_criteria": [
+        "Ingrid or Sylvain holds a sword, dagger, short blade, axe, bow, or magic focus instead of a long training lance.",
+        "Ingrid faces camera while Golden Deer pressure is coming from west/screen-left.",
+        "Golden Deer are fully revealed here in a way that duplicates Shot029B's high-light.",
+        "The shot shows Golden Deer attacking only Blue Lions with no later implication that Black Eagles side lanes are also threatened."
+      ]
+    },
+    {
+      "shot": "Shot029B",
+      "title": "Hilda And Claude Thicket Pressure",
+      "duration_seconds": 9,
+      "priority": "blocking_hilda_youth_regen",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot029B_video_prompt_v2.md",
+      "why": "Start/key were regenerated after the Hilda youth identity v4 replacement. Motion must preserve academy-age Hilda and the west-thicket pressure logic.",
+      "dialogue_performance": [
+        "Sylvain: 'Claude 可真会挑时候。'",
+        "Ingrid: '他挑的是两边的缝。'",
+        "Performance: Hilda should look playful and sharp, not comic relief and not adult-warrior severe."
+      ],
+      "failure_criteria": [
+        "Hilda reads as a mature adult, teacher-age, war-phase fighter, or adult glamour model.",
+        "Hilda loses pink twin ponytails, Golden Deer academy uniform, or wooden training axe.",
+        "Golden Deer pressure only Blue Lions and no longer disturb Black Eagles.",
+        "Sylvain or Ingrid face camera while the west threat is active."
+      ]
+    },
+    {
+      "shot": "Shot027",
+      "title": "Ashe Archer Support",
+      "duration_seconds": 10,
+      "priority": "preflight_01",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot027_video_prompt_v2.md",
+      "why": "Ashe can drift into portrait posing or aim away from the west/center threat once animated.",
+      "dialogue_performance": [
+        "Ashe, under breath: '明白。'",
+        "Performance: keep this as quiet overwatch setup. Do not reveal Golden Deer in dialogue until Shot029D after Claude's first arrow lands."
+      ],
+      "failure_criteria": [
+        "Ashe looks into camera for the action beat instead of watching the field.",
+        "Bow points away from west/center threat or becomes a sword/lance.",
+        "The high-point geography disappears into an isolated portrait.",
+        "The shot shows a hit on a person, blood, or lethal impact."
+      ]
+    },
+    {
+      "shot": "Shot027B",
+      "title": "Named Black Eagles Enemy Wave",
+      "duration_seconds": 8,
+      "priority": "creative_logic_regen_enemy_wave",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot027B_video_prompt_v2.md",
+      "why": "Start/key were regenerated after creative review rejected the prior anonymous crowd / unstable lookalike enemy wave.",
+      "dialogue_performance": [
+        "No foreground dialogue.",
+        "Performance: this is enemy-wave geography. It should make Black Eagles disciplined and readable, not generic."
+      ],
+      "failure_criteria": [
+        "More than six foreground-readable students appear as an anonymous crowd.",
+        "Ferdinand, Edelgard, Hubert, or Dorothea drift into wrong weapons or wrong house colors.",
+        "Blue Lions mix into the Black Eagles line instead of remaining separate.",
+        "The shot becomes impact/contact rather than approach."
+      ]
+    },
+    {
+      "shot": "Shot032",
+      "title": "Dedue Guards Dimitri",
+      "duration_seconds": 12,
+      "priority": "preflight_02",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot032_video_prompt_v2.md",
+      "why": "This is the signature warrior-healer beat; motion must read as shield-line recovery, not medical aftermath or offensive magic.",
+      "dialogue_performance": [
+        "Dimitri: '杜笃--'",
+        "Dedue: '殿下，看前面。'",
+        "Mercedes: 'Dedue，肩膀可以动了吗？'",
+        "Dedue: '足够。请继续。'",
+        "Performance: Dimitri's first word should almost break formation; Dedue's reply restores discipline; Mercedes is calm because she is solving a tactical problem, not reacting to a tragic wound."
+      ],
+      "failure_criteria": [
+        "Mercedes glows in the start frame or steps into open ground.",
+        "Healing light attaches to Dimitri's lance or becomes an offensive beam.",
+        "Dedue collapses, bleeds, shows a wound, or turns away from enemy pressure.",
+        "Dimitri changes to a sword or turns into a camera-facing portrait.",
+        "Black Eagles pressure disappears, making the facing logic unreadable."
+      ]
+    },
+    {
+      "shot": "Shot030C",
+      "title": "Support Route Cut",
+      "duration_seconds": 8,
+      "priority": "blocking_mercedes_weapon_regen",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot030C_video_prompt_v2.md",
+      "why": "Start/key were regenerated to remove Mercedes staff/focus risk. Motion must preserve empty-hand support magic from cover.",
+      "dialogue_performance": [
+        "Mercedes: '别停在空地上。'",
+        "Annette: '右侧也有人！'",
+        "Performance: Mercedes is practical and calm; Annette is startled but not helpless."
+      ],
+      "failure_criteria": [
+        "Mercedes holds a staff, spear, jeweled rod, or weapon-like focus.",
+        "Mercedes fires offensive magic instead of helping Annette stay in cover.",
+        "Annette and Mercedes stand exposed in open ground after the arrows land.",
+        "Any student reads as an adult rather than an academy-age student."
+      ]
+    },
+    {
+      "shot": "Shot032C",
+      "title": "Black Eagles Counterpressure",
+      "duration_seconds": 9,
+      "priority": "preflight_black_eagles_highlight",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot032C_video_prompt_v2.md",
+      "why": "Start/key were regenerated to strengthen the Black Eagles high-light while preserving Golden Deer competence and Hilda youth identity v4.",
+      "dialogue_performance": [
+        "Edelgard: 'Hubert。'",
+        "Hubert: '明白。'",
+        "Performance: calm controlled Black Eagles counterplay. They look competent, not cruel, and Golden Deer are pressured but not humiliated."
+      ],
+      "failure_criteria": [
+        "Edelgard, Hubert, or Dorothea disappears from the counterpressure beat.",
+        "Hubert becomes a melee fighter or uses a sword/lance instead of magic hand/book focus.",
+        "Hilda reads as a mature adult, loses youth identity v4, or loses the compact training axe.",
+        "Claude and Hilda look defeated, comic, or incompetent instead of forced to relocate.",
+        "Black Eagles overpower Golden Deer with violent injury or turn the shot into a villain beat.",
+        "The camera reverses map logic so Golden Deer no longer originate from west/screen-left."
+      ]
+    },
+    {
+      "shot": "Shot033B",
+      "title": "Byleth Command Reaction",
+      "duration_seconds": 8,
+      "priority": "creative_logic_regen_teacher_command",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot033B_video_prompt_v2.md",
+      "why": "Start/key were regenerated after creative review rejected the prior Byleth camera-facing point pose and missing Blue Lions execution response.",
+      "dialogue_performance": [
+        "Byleth: '现在。切老师。'",
+        "Performance: clipped order, no speech. The frame must show students acting on it."
+      ],
+      "failure_criteria": [
+        "Byleth faces camera as a lone pointing portrait.",
+        "Blue Lions do not visibly react or peel into routes.",
+        "Hanneman and Manuela become boss-like attack casters.",
+        "The teacher-platform objective is not readable."
+      ]
+    },
+    {
+      "shot": "Shot033C",
+      "title": "Ashe Suppresses Hanneman",
+      "duration_seconds": 8,
+      "priority": "preflight_03",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot033C_video_prompt_v2.md",
+      "why": "The stills pass, but video can turn the suppression into generic melee or make the line-of-fire ambiguous.",
+      "dialogue_performance": [
+        "Hanneman: '哦？先封我的角度。'",
+        "Performance: Hanneman sounds intrigued rather than hurt. Ashe does not shout; his action answers Byleth's command."
+      ],
+      "failure_criteria": [
+        "Ashe enters melee range or changes weapon.",
+        "Hanneman becomes a sword/lance duelist instead of a spellcaster.",
+        "The arrow hits a person or shows injury.",
+        "The lower-left to upper-right line reverses or becomes unclear."
+      ]
+    },
+    {
+      "shot": "Shot033D",
+      "title": "Ingrid Routes Manuela Off Tile",
+      "duration_seconds": 8,
+      "priority": "creative_logic_regen_manuela_route_cut",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot033D_video_prompt_v2.md",
+      "why": "Keyframe was regenerated after creative review found Ingrid passive and Manuela attacking Sylvain instead of being routed off the heal tile.",
+      "dialogue_performance": [
+        "Manuela: '真是一点都不温柔的学生。'",
+        "Ingrid: '抱歉，老师。规则允许。'",
+        "Performance: Manuela is amused and surprised; Ingrid is formal, not aggressive."
+      ],
+      "failure_criteria": [
+        "Ingrid becomes a passive observer instead of route cutter.",
+        "Manuela attacks Sylvain or another student as the main action.",
+        "Ingrid uses a sword/short blade instead of long training lance.",
+        "Manuela is hit, injured, humiliated, or knocked down.",
+        "The healing sigil / route objective is not visible."
+      ]
+    },
+    {
+      "shot": "Shot032D",
+      "title": "Two Adjacent Battle Lines",
+      "duration_seconds": 10,
+      "priority": "preflight_04",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot032D_video_prompt_v2.md",
+      "why": "The strategic read depends on three readable lanes; video drift can collapse it into an unmotivated crowd.",
+      "dialogue_performance": [
+        "No foreground dialogue. Use distant overlapping calls only.",
+        "Performance: this is a tactical geography shot; dialogue should not pull the viewer away from the three readable lanes."
+      ],
+      "failure_criteria": [
+        "All students merge into an unreadable crowd pile.",
+        "Golden Deer attack only Blue Lions and no longer pressure Black Eagles.",
+        "Black Eagles stop resisting Blue Lions or stop answering Golden Deer.",
+        "House colors and weapon roles become indistinct.",
+        "Camera rotates enough to break north/top and west/left continuity."
+      ]
+    },
+    {
+      "shot": "Shot032E",
+      "title": "First Three-Way Entanglement",
+      "duration_seconds": 10,
+      "priority": "preflight_05",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot032E_video_prompt_v2.md",
+      "why": "This is the tactical exploit: Blue Lions win by using Golden Deer disruption, not by chasing Golden Deer or raw overpowering.",
+      "dialogue_performance": [
+        "Byleth: '不要追金鹿。把黑鹫往他们那边压。'",
+        "Performance: Byleth is clipped and unemotional. The line explains the win condition: exploit Golden Deer disruption instead of chasing them."
+      ],
+      "failure_criteria": [
+        "Blue Lions chase Golden Deer into the west thicket.",
+        "Golden Deer only attack Blue Lions and never pressure Black Eagles.",
+        "Black Eagles become passive victims instead of reacting against both sides.",
+        "Hilda reads older than the academy students or loses the youth identity v4 look.",
+        "The shot becomes a random melee with no readable lanes.",
+        "Any weapon changes away from the canon locks."
+      ]
+    },
+    {
+      "shot": "Shot034D",
+      "title": "Byleth Interrupts Hanneman",
+      "duration_seconds": 9,
+      "priority": "blocking_byleth_weapon_regen",
+      "start_frame": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_start.png",
+      "keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_keyframe.png",
+      "prompt_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/video_preflight_v2/Shot034D_video_prompt_v2.md",
+      "why": "Keyframe was regenerated to avoid bare-hand/high-five ambiguity. Motion must keep the visible sheathed-sword wrist/forearm tap.",
+      "dialogue_performance": [
+        "Hanneman: '判断得很好。'",
+        "Performance: Hanneman is impressed by the tactical read, not hurt."
+      ],
+      "failure_criteria": [
+        "Byleth uses bare hands, a slap, punch, or high-five gesture.",
+        "The sheathed sword is absent or cropped out.",
+        "Hanneman becomes a melee fighter or falls/injures himself.",
+        "Dimitri is shown delivering the interrupt instead of Byleth."
+      ]
+    }
+  ]
+}

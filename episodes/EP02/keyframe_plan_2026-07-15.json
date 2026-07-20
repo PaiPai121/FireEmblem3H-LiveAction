@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-07-16",
-  "policy": "Each EP02 shot should expose at least a start frame and one key action/emotion frame. Complex shots may later add end frames.",
+  "updated": "2026-07-17",
+  "policy": "Scene09 current SVG/layout frames and legacy training-ground keyframes are not production-ready. Only raster frames generated against the current canon-map mock-battle script may be marked ready.",
   "frames": [
     {
       "shot": "Shot001",
@@ -249,9 +249,19 @@
       "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot025_MockBattleSetup.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot025_MockBattleSetup_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，三学级列队、教师观察",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，三学级列队、教师观察",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，三学级列队、教师观察\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 宽镜头. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot025A",
+      "title": "Canon 20x22 Field Map",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot025A_Canon20x22FieldMap.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot025A_Canon_20x22_Field_Map_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Canon mock battle field map storyboard still",
+      "keyFramePrompt": "关键帧：High-angle cinematic storyboard of the Garreg Mach academy mock battle adapted from the Rivalry of the Houses map. Blue Lions start on the southeast edge; the mid-west lane shows early enemy movement; wooded thickets and low stone walls mark Golden Deer cover; the northeast contains red-black Black Eagles pressure and two faculty heal-tile positions. It is supervised and nonlethal with wooden or blunted weapons, but the geography is one continuous outdoor tactical field, not separate target ranges. Youthful academy students, no UI.\nCamera: high wide establishing shot, slow tactical tilt down\nAvoid: game grid, real blood, lethal battlefield, anonymous adult soldiers, old faces, modern objects, text, watermark"
     },
     {
       "shot": "Shot026",
@@ -259,9 +269,29 @@
       "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot026_BlueLionsFormation_grounded_v3.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot026_BlueLionsFormation_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Byleth 安排学生位置",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Byleth 安排学生位置",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Byleth 安排学生位置\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 俯拍到中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot026B",
+      "title": "Byleth Southeast Route Call",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot026B_SoutheastRouteCall.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot026B_Byleth_Southeast_Route_Call_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Southeast route-call storyboard still",
+      "keyFramePrompt": "关键帧：Byleth crouches with the Blue Lions at the southeast start of the academy mock battle map, drawing a quick route in dirt. Dimitri and Dedue look toward the northeast approach; Ashe, Sylvain, and Ingrid look toward the mid-west thicket line; Annette and Mercedes hold the rear. Byleth points first to the center-west pressure lane, then stops Felix from staring down the northeast opening. The scene establishes tactical restraint before the battle begins. Keep all students youthful and identity-locked.\nCamera: medium-wide over Byleth shoulder with the map route and distant northeast visible\nAvoid: generic crowd, wrong hair colors, war armor, old faces, chaotic battle, text, watermark"
+    },
+    {
+      "shot": "Shot026C",
+      "title": "Blue Lions Horn Charge",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot026C_BlueLionsHornCharge.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot026C_Blue_Lions_Horn_Charge_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Blue Lions Horn Charge storyboard action beat",
+      "keyFramePrompt": "关键帧：号角后 Blue Lions 抢先向中央外缘通道推进，不等黑鹫靠近。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Blue Lions sprint from southeast start toward the central outer choke after the horn. Dimitri and Dedue lead, Felix shadows on the side, Ashe climbs for observation, Annette and Mercedes follow under cover. Black Eagles are visible ahead preparing to take the same lane. Controlled academy mock battle, one continuous outdoor tactical field.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot027",
@@ -269,9 +299,39 @@
       "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot027_AsheArcherSupport_grounded_v3.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot027_AsheArcherSuppression_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Ashe 在高处拉弓",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Ashe 在高处拉弓",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Ashe 在高处拉弓\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 快切. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot027B",
+      "title": "First Moving Enemy Wave",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027B_FirstMovingEnemyWave.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot027B_First_Moving_Enemy_Wave_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：First moving enemy wave storyboard still",
+      "keyFramePrompt": "关键帧：Ashe reaches a natural high point on the mid-west side of the Garreg Mach mock battle map as Dorothea, Lorenz, and Ignatz begin moving from the center-west lane. Ashe uses a wooden training bow and disciplined sightline to slow their advance without lethal injury. Behind him, Annette and Mercedes hold the Blue Lions rear line. The environment is grass, stone path, low wall, and thicket cover, not an archery range. Youthful academy students, controlled nonlethal exercise.\nCamera: long-lens archer profile with enemy movement depth below\nAvoid: straw targets, target lanes, shooting arrows into bodies, brown hair Ashe, blond Ashe, modern archery gear, lethal injury, text, watermark"
+    },
+    {
+      "shot": "Shot027C",
+      "title": "Dimitri Dedue First Contact",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027C_DimitriDedueFirstContact.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot027C_Dimitri_Dedue_First_Contact_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Dimitri Dedue First Contact storyboard action beat",
+      "keyFramePrompt": "关键帧：Dimitri 与 Dedue 在狭窄通道正面撞上黑鹫前排。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Dimitri and Dedue reach the narrow central outer passage first and collide with the Black Eagles front line. Dimitri lowers a training lance; Dedue sets a broad shield. Edelgard, Ferdinand, and Hubert are visible behind the first rank, stable and not panicking.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot027D",
+      "title": "Dimitri Forces One Step Back",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027D_DimitriForcesOneStepBack.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot027D_Dimitri_Forces_One_Step_Back_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Dimitri Forces One Step Back storyboard action beat",
+      "keyFramePrompt": "关键帧：Dimitri 逼黑鹫前排退半步，Dedue 稳住突破口。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Dimitri drives the Black Eagles front line back one measured step with nonlethal training force while Dedue seals the gap with his shield. The Black Eagles bend but do not break. Felix waits at the side rather than chasing.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot028",
@@ -279,9 +339,29 @@
       "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot028_AnnetteMercedesSupport.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot028_AnnetteMercedesSupport_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Annette 紧张施法，Mercedes 稳住她",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Annette 紧张施法，Mercedes 稳住她",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Annette 紧张施法，Mercedes 稳住她\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 双人中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot028B",
+      "title": "Black Eagles Stabilize Center",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot028B_BlackEaglesStabilizeCenter.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot028B_Black_Eagles_Stabilize_Center_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Black Eagles Stabilize Center storyboard action beat",
+      "keyFramePrompt": "关键帧：Hubert 与 Ferdinand 把中央线重新稳住，Edelgard判断局势。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Hubert raises dark magic pressure from behind the Black Eagles front while Ferdinand pulls the line back into formation. Edelgard steps forward, reading Byleth and the Blue Lions attack. The central passage remains contested.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot028C",
+      "title": "Felix Side Cut Held",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot028C_FelixSideCutHeld.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot028C_Felix_Side_Cut_Held_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Felix Side Cut Held storyboard action beat",
+      "keyFramePrompt": "关键帧：Felix 找到侧面缝隙，按 Byleth 节奏停在接触线。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Felix slips toward the Black Eagles side gap with a wooden sword, sees the opening, but holds at the contact line rather than diving alone. His restraint is tense and unwilling. Byleth is a calm anchor in the background.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot029",
@@ -289,9 +369,39 @@
       "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot029_SylvainIngridSideFlank.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot029_SylvainIngridFlank_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Sylvain 吸引对手，Ingrid 切入",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Sylvain 吸引对手，Ingrid 切入",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Sylvain 吸引对手，Ingrid 切入\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 横向运动. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot029B",
+      "title": "Sylvain Ingrid Thicket Flank",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029B_ThicketFlank.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot029B_Sylvain_Ingrid_Thicket_Flank_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Thicket flank storyboard still",
+      "keyFramePrompt": "关键帧：Blue Lions push through the mid-west thicket zone. Sylvain with red-orange hair draws a Golden Deer opponent out of tree cover with relaxed spear movement while Ingrid, blonde and disciplined with a lance, cuts through long grass and low stone walls into a safe flanking position. Claude and Hilda are suggested deeper in the wooded cover by yellow markers and youthful silhouettes. This is controlled academy sparring on a tactical map, not a training lane.\nCamera: lateral tracking frame through grass, stone wall, and thicket cover\nAvoid: straw targets, obstacle course, real stabbing, blood, generic faceless soldiers, wrong Sylvain hair, old faces, chaotic war, text, watermark"
+    },
+    {
+      "shot": "Shot029C",
+      "title": "Claude Reads Blue Lions Stretch",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029C_ClaudeReadsStretch.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot029C_Claude_Reads_Blue_Lions_Stretch_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Claude Reads Blue Lions Stretch storyboard action beat",
+      "keyFramePrompt": "关键帧：Claude 从林地看见青狮前排和支援组之间的距离。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Claude watches from wooded Golden Deer cover and identifies the gap between Dimitri-Dedue-Felix pressing forward and Ashe-Annette-Mercedes moving behind them. He is not choosing a weak victim; he is reading overextension.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot029D",
+      "title": "Ashe Observation Point Suppressed",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029D_AsheObservationSuppressed.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot029D_Ashe_Observation_Point_Suppressed_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Ashe Observation Point Suppressed storyboard action beat",
+      "keyFramePrompt": "关键帧：Claude 的箭钉在 Ashe 高点前，迫使 Ashe 离开观察位。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: A Golden Deer arrow strikes the wooden rail just ahead of Ashe observation position, forcing Ashe to duck away and lose the clean sightline. The shot keeps impact nonlethal and shows Claude controlling space rather than trying to injure Ashe.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot030",
@@ -299,9 +409,29 @@
       "startFrame": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot030_FelixBreaksFormation_v2.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot030_FelixBreaksFormation_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 脱离阵型",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 脱离阵型",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 脱离阵型\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 手持跟拍. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot030B",
+      "title": "Felix Breaks Toward Northeast Trigger",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot030B_NortheastTrigger.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot030B_Felix_Breaks_Toward_Northeast_Trigger_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Felix northeast trigger storyboard still",
+      "keyFramePrompt": "关键帧：Felix breaks out of the Blue Lions formation toward the northeast trigger approach of the Garreg Mach mock battle map. He is a youthful dark-blue-haired duelist in black vest and white sleeves, moving too far ahead with a wooden training sword. Ahead are stone steps, low walls, red-black Black Eagles markers, distant Golden Deer depth, and the faint silhouettes of Hanneman and Manuela near healing sigil ground. Byleth is visible in the background noticing the mistake. Nonlethal academy exercise only.\nCamera: handheld-like forward drift following Felix toward the northeast opening\nAvoid: straight training corridor, chalk lane, red-haired Felix, lethal attack, blood, war armor, older faces, generic soldiers, text, watermark"
+    },
+    {
+      "shot": "Shot030C",
+      "title": "Support Route Cut",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot030C_SupportRouteCut.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot030C_Support_Route_Cut_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Support Route Cut storyboard action beat",
+      "keyFramePrompt": "关键帧：箭落在 Annette 和 Mercedes 的移动线上，切断支援直路。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: The second Golden Deer shot lands in the corridor Annette and Mercedes need to use, forcing them to stop and change cover. Annette clutches her spell focus; Mercedes redirects her calmly behind a low wall. Dimitri and Dedue remain ahead, visibly separated.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot031",
@@ -309,9 +439,19 @@
       "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot031_BylethStopsFelix_grounded_v3.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot031_BylethStopsFelix_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战战术关系最清楚的一瞬，Felix 在教师手势前停步，改为无冲突的训练暂停姿态。",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战战术关系最清楚的一瞬，Felix 在教师手势前停步，改为无冲突的训练暂停姿态。",
       "keyFramePrompt": "安全版关键帧：Felix 在训练边线前主动停步，Byleth 以教师手势示意暂停；无武器碰撞、无受伤、无血、无致命攻击。"
+    },
+    {
+      "shot": "Shot031B",
+      "title": "Byleth Refuses Recall",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot031B_BylethRefusesRecall.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot031B_Byleth_Refuses_Recall_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Byleth Refuses Recall storyboard action beat",
+      "keyFramePrompt": "关键帧：Byleth 不撤主力，只抽 Sylvain/Ingrid/Ashe 稳侧翼。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Byleth stands between the two forming lines and gives split orders: Dimitri and Dedue keep pressure on Black Eagles; Felix holds contact; Sylvain and Ingrid turn right; Ashe relocates to find Claude; Annette and Mercedes move cover instead of retreating.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot032",
@@ -319,9 +459,49 @@
       "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot032_DedueGuardsDimitri.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot032_DedueGuardsDimitri_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dedue 挡下侧面攻击",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dedue 挡下侧面攻击",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dedue 挡下侧面攻击\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 中景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot032B",
+      "title": "Dimitri Dedue Northeast Hold",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032B_NortheastHold.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot032B_Dimitri_Dedue_Northeast_Hold_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Northeast defensive hold storyboard still",
+      "keyFramePrompt": "关键帧：At the northeast approach, Dedue, very tall, broad-shouldered, white-haired and shield-wall strong, blocks a padded strike with a large training shield while Dimitri, youthful blond prince, holds back behind him with restrained lance posture. Red-black Black Eagles pressure and distant faculty heal-tile silhouettes create depth beyond the low stone wall. The moment shows Blue Lions defensive discipline under Byleth teaching, not a random duel.\nCamera: medium-wide shield-line angle with Dimitri behind Dedue and northeast depth beyond\nAvoid: skinny Dedue, old Dimitri, straight training lane, lethal injury, blood, generic armor, wrong hair colors, text, watermark"
+    },
+    {
+      "shot": "Shot032C",
+      "title": "Black Eagles Pressure Golden Deer",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032C_BlackEaglesPressureGoldenDeer.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot032C_Black_Eagles_Pressure_Golden_Deer_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Black Eagles Pressure Golden Deer storyboard action beat",
+      "keyFramePrompt": "关键帧：Edelgard 抽小股力量，Hubert 魔法压制金鹿射击位。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Edelgard signals without abandoning the central fight. Hubert redirects a dark magic line toward the wooded Golden Deer shooting position while a quick Black Eagles student moves along the side route. Claude and Hilda lose safe firing comfort.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot032D",
+      "title": "Two Adjacent Battle Lines",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032D_TwoAdjacentBattleLines.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot032D_Two_Adjacent_Battle_Lines_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Two Adjacent Battle Lines storyboard action beat",
+      "keyFramePrompt": "关键帧：正面青狮压黑鹫；侧面金鹿切青狮，黑鹫机动组压金鹿。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: A tactical wide shows two adjacent battle lines: Dimitri-Dedue-Felix pressing Black Eagles at the central choke, and Sylvain-Ingrid-Ashe contesting Golden Deer near side obstacles while a Black Eagles mobile student threatens Golden Deer from another angle. The lines are close enough to affect each other but not a crowd pileup.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot032E",
+      "title": "First Three-Way Entanglement",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032E_FirstThreeWayEntanglement.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot032E_First_Three_Way_Entanglement_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：First Three-Way Entanglement storyboard action beat",
+      "keyFramePrompt": "关键帧：黑鹫横向调整压缩金鹿空间，三方在低墙木栏间接触。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Blue Lions pressure forces Black Eagles to adjust laterally; that movement squeezes the Golden Deer safe shooting zone. Hilda leaves cover, Ingrid blocks, a Black Eagles mobile student cuts in, and Sylvain turns between both threats. This is the first real local three-way entanglement among obstacles.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot033",
@@ -329,9 +509,39 @@
       "startFrame": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot033_DimitriRestraint_v2.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot033_DimitriRestraint_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 几乎过度攻击，看到 Byleth 手势后收剑",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 几乎过度攻击，看到 Byleth 手势后收剑",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 几乎过度攻击，看到 Byleth 手势后收剑\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 慢动作一瞬. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot033B",
+      "title": "Byleth Calls Cut Teachers",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033B_BylethCallsCutTeachers.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot033B_Byleth_Calls_Cut_Teachers_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Byleth Calls Cut Teachers storyboard action beat",
+      "keyFramePrompt": "关键帧：Byleth 在双线稳定后指向东北治疗石台。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: After the two lines hold, Byleth shifts the command gesture toward the raised northeast healing-stone platform where Hanneman and Manuela are ready to catch retreating students. The Blue Lions understand the win condition: cut the support line.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot033C",
+      "title": "Ashe Suppresses Hanneman",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033C_AsheSuppressesHanneman.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot033C_Ashe_Suppresses_Hanneman_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Ashe Suppresses Hanneman storyboard action beat",
+      "keyFramePrompt": "关键帧：Ashe 连续两箭压住 Hanneman，Sagittae 未能完整展开。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Ashe relocates and fires two controlled training arrows toward Hanneman casting angle. Hanneman begins Sagittae-like wind magic but must break the clean line, the spell flashing against stone steps instead of stopping Blue Lions.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot033D",
+      "title": "Ingrid Drives Manuela Off Tile",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033D_IngridDrivesManuela.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot033D_Ingrid_Drives_Manuela_Off_Tile_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Ingrid Drives Manuela Off Tile storyboard action beat",
+      "keyFramePrompt": "关键帧：Ingrid 从侧翼穿出，迫使 Manuela 离开治疗纹。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Ingrid bursts from the flank and places her lance line across Manuela retreat path, forcing Manuela to step off the healing sigil to protect a cut-off student. Manuela answers with restrained white magic/Nosferatu pressure toward Sylvain.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot034",
@@ -339,9 +549,39 @@
       "startFrame": "episodes/EP02/generated/p1_mock_battle_v1/Shot034_ExerciseEnds.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot034_ExerciseEnds_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，对手退后，Blue Lions 稳住阵线",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，对手退后，Blue Lions 稳住阵线",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，对手退后，Blue Lions 稳住阵线\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 宽镜头. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
+    },
+    {
+      "shot": "Shot034B",
+      "title": "Faculty Heal Tile Rout",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034B_FacultyHealTileRout.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot034B_Faculty_Heal_Tile_Rout_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Faculty heal-tile rout storyboard still",
+      "keyFramePrompt": "关键帧：End-whistle wide storyboard of the Garreg Mach academy mock battle rout finish. Hanneman steps away from a subtle healing-sigil stone tile after casting wind magic; Manuela lowers her hand from white magic support and leaves the adjacent heal-tile ground. Around them, Edelgard, Claude, Black Eagles and Golden Deer students lower wooden or blunted weapons, acknowledging Blue Lions pressure. The field remains one continuous outdoor tactical map with thickets, stone paths, low walls, and monastery background. Supervised nonlethal exercise, no UI.\nCamera: wide northeast finish with heal-tile foreground and enemy groups lowering weapons in depth\nAvoid: judge podium, teacher arena, separate ring, real war, blood, adult soldiers, missing house colors, chaotic crowd, text, watermark"
+    },
+    {
+      "shot": "Shot034C",
+      "title": "Felix Opens Stairs For Dimitri",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034C_FelixOpensStairs.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot034C_Felix_Opens_Stairs_For_Dimitri_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Felix Opens Stairs For Dimitri storyboard action beat",
+      "keyFramePrompt": "关键帧：Felix 截住 Ferdinand，让 Dimitri/Dedue 有路上台。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Felix intercepts Ferdinand at the base of the raised stone steps, locking him in a fast wooden-blade exchange long enough for Dimitri and Dedue to climb toward Hanneman. Felix is sharp but contained; no lethal strike.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
+    },
+    {
+      "shot": "Shot034D",
+      "title": "Byleth Breaks Hanneman Spell",
+      "startFrame": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034D_BylethBreaksHannemanSpell.svg",
+      "keyFrame": "episodes/EP02/generated/mock_battle_action_keyframes_2026-07-17/Shot034D_Byleth_Breaks_Hanneman_Spell_keyframe.svg",
+      "endFrame": "",
+      "keyFrameStatus": "layout_draft_needs_production_raster",
+      "keyFrameIntent": "布局草稿，不能作为 AI 视频关键帧：关键帧：Byleth Breaks Hanneman Spell storyboard action beat",
+      "keyFramePrompt": "关键帧：Byleth 从侧面进入盲区，用剑鞘点断 Hanneman 最后术式。 Youthful academy students, controlled nonlethal exercise, no UI.\nCamera: Byleth enters Hanneman blind side on the raised healing platform and taps Hanneman wrist or staff hand with a sheathed blade, interrupting the last spell without injury. Dimitri holds position rather than overstriking. Dedue covers the stairs.\nAvoid: game UI, text, watermark, lethal injury, blood, modern objects, old faces, wrong house colors, generic adult soldiers, separate small training yard"
     },
     {
       "shot": "Shot035",
@@ -349,8 +589,8 @@
       "startFrame": "episodes/EP02/generated/p1_grounded_identity_v3/Shot035_FelixRespectBeat_grounded_v3.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot035_FelixRespectBeat_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 看着 Byleth",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 看着 Byleth",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Felix 看着 Byleth\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 近景. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
     },
     {
@@ -359,8 +599,8 @@
       "startFrame": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot036_DimitriDarkLineBeat_v2.png",
       "keyFrame": "episodes/EP02/generated/keyframes_v1/Shot036_DimitriDarkLineBeat_keyframe_v1.png",
       "endFrame": "",
-      "keyFrameStatus": "ready",
-      "keyFrameIntent": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 行礼，手仍握紧剑柄",
+      "keyFrameStatus": "legacy_mismatch_needs_regeneration",
+      "keyFrameIntent": "旧版训练场/旧剧本关键帧，不能作为当前 Canon Map 模拟战视频资产：关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 行礼，手仍握紧剑柄",
       "keyFramePrompt": "关键帧：模拟战动作完成或战术关系最清楚的一瞬，Dimitri 行礼，手仍握紧剑柄\nScene: 训练场. Characters: use selected assets and preserve identity. Camera: 手部特写到面部. Generate a cinematic live-action storyboard key frame distinct from the start frame, showing the peak action or emotional beat. Keep academy students youthful and identity-locked. Avoid UI, text, watermark, modern objects, face swaps, old faces, and wrong costumes."
     },
     {

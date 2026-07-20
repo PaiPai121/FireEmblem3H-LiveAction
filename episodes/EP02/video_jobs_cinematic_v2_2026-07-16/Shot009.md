@@ -1,17 +1,10 @@
-# Shot009 - Main Cloister Daily Life Cinematic V2 Job
+# Shot009 Main Cloister Daily Life
 
-Duration: 12 seconds
-Handles: 2 seconds
+Duration: 12s
 Image: `episodes/EP02/generated/p2_connectors_v2/Shot009_MainCloisterDailyLife_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot009.mp4`
-
-## Cinematic Continuity
-
-- Block: Monastery Daily Life
-- Transition in: bells carry into daily cloister motion
-- Transition out: pan/flow cut to faculty interruption
-- Screen / camera rule: lateral observer movement through cloisters
-- Audio bridge: students, robes, soft chatter
+Block: Monastery Daily Life
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Monastery Daily Life. Transition in: bells carry into daily cloister motion. Transition out: pan/flow cut to faculty interruption. Screen/camera rule: lateral observer movement through cloisters. Audio bridge: students, robes, soft chatter. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-smooth lateral glide through the cloister.
+Camera: smooth lateral glide through the cloister.
 
 ## Negative Prompt
 

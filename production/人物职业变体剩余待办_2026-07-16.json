@@ -2,46 +2,6 @@
   {
     "priority": 4,
     "faction": "golden_deer",
-    "character": "Claude",
-    "klass": "barbarossa",
-    "output_path": "assets/characters/golden_deer/Claude/barbarossa/selected.png",
-    "status": "missing"
-  },
-  {
-    "priority": 4,
-    "faction": "golden_deer",
-    "character": "Hilda",
-    "klass": "fighter",
-    "output_path": "assets/characters/golden_deer/Hilda/fighter/selected.png",
-    "status": "missing"
-  },
-  {
-    "priority": 4,
-    "faction": "golden_deer",
-    "character": "Hilda",
-    "klass": "brigand",
-    "output_path": "assets/characters/golden_deer/Hilda/brigand/selected.png",
-    "status": "missing"
-  },
-  {
-    "priority": 4,
-    "faction": "golden_deer",
-    "character": "Hilda",
-    "klass": "warrior",
-    "output_path": "assets/characters/golden_deer/Hilda/warrior/selected.png",
-    "status": "missing"
-  },
-  {
-    "priority": 4,
-    "faction": "golden_deer",
-    "character": "Hilda",
-    "klass": "wyvern_lord",
-    "output_path": "assets/characters/golden_deer/Hilda/wyvern_lord/selected.png",
-    "status": "missing"
-  },
-  {
-    "priority": 4,
-    "faction": "golden_deer",
     "character": "Ignatz",
     "klass": "archer",
     "output_path": "assets/characters/golden_deer/Ignatz/archer/selected.png",

@@ -1,17 +1,174 @@
 {
   "shot": "Shot034B",
-  "title": "Black Eagles Golden Deer Lower Weapons",
+  "title": "Faculty Heal Tile Rout",
   "duration_seconds": 8,
-  "image_path": "episodes/EP02/generated/mock_battle_expanded_v1/Shot034B_OtherHousesLowerWeapons.png",
-  "prompt": "At the end whistle, the backfield Black Eagles vs Golden Deer sparring zone stops at the same time as the Blue Lions action. Youthful Black Eagles students with red-black sashes and Golden Deer students with yellow sashes lower padded weapons and training bows. Teachers and knights watch from the edge. The wide frame proves the mock battle involved all three houses, not just Blue Lions drills.\n\nCinematic continuity: Block=Mock Battle Expanded. Transition in: ending whistle carries from Blue Lions line to backfield. Transition out: cut back to Felix/Byleth aftermath. Screen/camera rule: backfield is behind main action; both red-black and yellow groups lower weapons toward center. Audio bridge: whistle tail, wood weapons lowering, student breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. Show tactical pressure through blocking, posture, sound and editing rather than aging faces.",
-  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; use controlled academy sparring only, no blood or lethal injury. Avoid: real war, blood, adult soldiers, missing house colors, chaotic crowd, text, watermark",
+  "image_path": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034B_FacultyHealTileRout.svg",
+  "prompt": "End-whistle wide storyboard of the Garreg Mach academy mock battle rout finish. Hanneman steps away from a subtle healing-sigil stone tile after casting wind magic; Manuela lowers her hand from white magic support and leaves the adjacent heal-tile ground. Around them, Edelgard, Claude, Black Eagles and Golden Deer students lower wooden or blunted weapons, acknowledging Blue Lions pressure. The field remains one continuous outdoor tactical map with thickets, stone paths, low walls, and monastery background. Supervised nonlethal exercise, no UI.\n\nCinematic continuity: Block=Mock Battle Expanded. Transition in: ending whistle carries from Dimitri restraint to faculty support line. Transition out: cut back to Felix/Byleth aftermath. Screen/camera rule: faculty heal-tile line is northeast foreground/midground; other enemies lower weapons deeper across the same map. Audio bridge: whistle tail, wood weapons lowering, student breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. Show tactical pressure through blocking, posture, sound and editing rather than aging faces.\n\nCamera: wide northeast finish with heal-tile foreground and enemy groups lowering weapons in depth\n\nScene09 production gate: do not generate final video from the blocked source image if it is SVG or legacy training-yard raster. Use production_image_path after a real cinematic raster keyframe is generated and QA-approved.\nCharacter continuity gate: every named character must match the listed selected.png reference assets for face, hair, age, costume silhouette, and color accents.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; use controlled academy sparring only, no blood or lethal injury. Avoid: judge podium, teacher arena, separate ring, real war, blood, adult soldiers, missing house colors, chaotic crowd, text, watermark",
   "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot034B.mp4",
   "job_file": "episodes/EP02/video_jobs_cinematic_v2_expanded_2026-07-16/Shot034B.md",
   "cinematic_block": "Mock Battle Expanded",
-  "transition_in": "ending whistle carries from Blue Lions line to backfield",
+  "transition_in": "ending whistle carries from Dimitri restraint to faculty support line",
   "transition_out": "cut back to Felix/Byleth aftermath",
-  "screen_direction_rule": "backfield is behind main action; both red-black and yellow groups lower weapons toward center",
+  "screen_direction_rule": "faculty heal-tile line is northeast foreground/midground; other enemies lower weapons deeper across the same map",
   "audio_bridge": "whistle tail, wood weapons lowering, student breaths",
   "editorial_handles_seconds": 2,
-  "risk_notes": "Must show other classmates stop too, proving three-house battle scope."
+  "risk_notes": "Must show Hanneman and Manuela leaving heal tile+ and other enemies yielding; no judge podium or arena.",
+  "production_status": "blocked_needs_production_raster",
+  "blocked_source_image_path": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034B_FacultyHealTileRout.svg",
+  "production_image_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_start.png",
+  "production_keyframe_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_keyframe.png",
+  "production_prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot034B_prompt.md",
+  "character_reference_assets": [
+    {
+      "name": "Hanneman",
+      "phase": "academy",
+      "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+      "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+    },
+    {
+      "name": "Manuela",
+      "phase": "academy",
+      "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+      "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+    },
+    {
+      "name": "Edelgard",
+      "phase": "academy",
+      "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+      "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+    },
+    {
+      "name": "Claude",
+      "phase": "academy",
+      "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+      "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+    }
+  ],
+  "subframes": [
+    {
+      "id": "Shot034B.A",
+      "title": "Entry geography",
+      "status": "needs_production_raster_keyframe",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_A_keyframe.png",
+      "description": "Establish the exact geography for Faculty Heal Tile Rout: Hanneman and Manuela step off heal tile; Edelgard and Claude lower weapons in depth.",
+      "character_reference_assets": [
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        }
+      ],
+      "continuity_rules": [
+        "Use listed selected.png character assets as face, hair, age, and costume references.",
+        "Keep the canon-map geography continuous across adjacent subframes.",
+        "No SVG, no map labels, no UI, no small training-yard composition."
+      ]
+    },
+    {
+      "id": "Shot034B.B",
+      "title": "Action peak",
+      "status": "needs_production_raster_keyframe",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_B_keyframe.png",
+      "description": "Show the tactical peak with Hanneman, Manuela, Edelgard, Claude using their locked character assets and academy costumes.",
+      "character_reference_assets": [
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        }
+      ],
+      "continuity_rules": [
+        "Use listed selected.png character assets as face, hair, age, and costume references.",
+        "Keep the canon-map geography continuous across adjacent subframes.",
+        "No SVG, no map labels, no UI, no small training-yard composition."
+      ]
+    },
+    {
+      "id": "Shot034B.C",
+      "title": "Reaction / cut point",
+      "status": "needs_production_raster_keyframe",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_C_keyframe.png",
+      "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+      "character_reference_assets": [
+        {
+          "name": "Hanneman",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+          "continuity_note": "older scholarly teacher, wind/Sagittae angle on raised heal-tile platform"
+        },
+        {
+          "name": "Manuela",
+          "phase": "academy",
+          "asset": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+          "continuity_note": "beautiful adult former-opera-star teacher, white magic support near heal tile"
+        },
+        {
+          "name": "Edelgard",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+          "continuity_note": "silver-haired Black Eagles leader, red cape and visible red pants, composed command"
+        },
+        {
+          "name": "Claude",
+          "phase": "academy",
+          "asset": "assets/characters/golden_deer/Claude/academy/selected.png",
+          "continuity_note": "brown-haired Golden Deer leader, tactical smile, reads overextension from cover"
+        }
+      ],
+      "continuity_rules": [
+        "Use listed selected.png character assets as face, hair, age, and costume references.",
+        "Keep the canon-map geography continuous across adjacent subframes.",
+        "No SVG, no map labels, no UI, no small training-yard composition."
+      ]
+    }
+  ],
+  "production_acceptance_criteria": [
+    "Raster image, not SVG or diagram.",
+    "Matches current Scene09 canon-map mock battle script.",
+    "Clear tactical geography and screen direction.",
+    "No small training yard look.",
+    "Characters listed in required_characters are visually represented or intentionally staged in depth.",
+    "Usable as first/keyframe input for AI video generation.",
+    "Every visible named character matches the listed selected.png character reference asset.",
+    "Main shot and subframes preserve face, hair, age, costume, and color continuity."
+  ]
 }

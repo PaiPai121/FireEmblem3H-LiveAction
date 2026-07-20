@@ -1,17 +1,10 @@
-# Shot035 - Felix Respect Beat Cinematic V2 Job
+# Shot035 Felix Respect Beat
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p1_grounded_identity_v3/Shot035_FelixRespectBeat_grounded_v3.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot035.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: Felix held gaze after exercise
-- Transition out: cut to Dimitri hand/face dark-line
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Mock Battle. Transition in: Felix held gaze after exercise. Transition out: cut to Dimitri hand/face dark-line. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-medium close hold, slight rack focus from Byleth to Felix.
+Camera: medium close hold, slight rack focus from Byleth to Felix.
 
 ## Negative Prompt
 

@@ -1,17 +1,10 @@
-# Shot012 - Golden Deer Comparison Cinematic V2 Job
+# Shot012 Golden Deer Comparison
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p1_student_intro_v1/Shot012_GoldenDeerComparison.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot012.mp4`
-
-## Cinematic Continuity
-
-- Block: Three Houses
-- Transition in: same courtyard axis, Claude returns gaze
-- Transition out: eyeline pan/cut to Blue Lions
-- Screen / camera rule: Byleth POV scans class groups then resolves on Blue Lions
-- Audio bridge: courtyard ambience, banners, restrained footsteps
+Block: Three Houses
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Three Houses. Transition in: same courtyard axis, Claude returns gaze. Transition out: eyeline pan/cut to Blue Lions. Screen/camera rule: Byleth POV scans class groups then resolves on Blue Lions. Audio bridge: courtyard ambience, banners, restrained footsteps. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-slight lateral drift, relaxed handheld stability.
+Camera: slight lateral drift, relaxed handheld stability.
 
 ## Negative Prompt
 

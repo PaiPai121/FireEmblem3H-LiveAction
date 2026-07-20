@@ -1,17 +1,10 @@
-# Shot005 - Rhea Authority Cinematic V2 Job
+# Shot005 Rhea Authority
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p0_rhea_youth_v2/Shot005_RheaAuthority_youth_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot005.mp4`
-
-## Cinematic Continuity
-
-- Block: Church Authority
-- Transition in: architectural match cut from gate authority to church authority
-- Transition out: hold center axis before dialogue begins
-- Screen / camera rule: center-axis authority; Rhea holds still while others react around her
-- Audio bridge: cathedral reverb, candle hush
+Block: Church Authority
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Rhea stands centered in the cathedral antechamber, serene and unreadable, while 
 
 Cinematic continuity: Block=Church Authority. Transition in: architectural match cut from gate authority to church authority. Transition out: hold center axis before dialogue begins. Screen/camera rule: center-axis authority; Rhea holds still while others react around her. Audio bridge: cathedral reverb, candle hush. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-slow symmetrical push-in from a low angle.
+Camera: slow symmetrical push-in from a low angle.
 
 ## Negative Prompt
 

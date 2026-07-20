@@ -1,18 +1,20 @@
-# Shot025A Three-Way Field Map
+# Shot025A Canon 20x22 Field Map
 
 Duration: 8s
-Image: `episodes/EP02/generated/mock_battle_expanded_v1/Shot025A_ThreeWayFieldMap.png`
+Image: `episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot025A_Canon20x22FieldMap.svg`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot025A.mp4`
 Block: Mock Battle Expanded
 Audio bridge: whistle, training wood, distant student movement
 
 ## Prompt
 
-High-angle cinematic storyboard of the Officers Academy mock battle field divided into three safe training zones. Blue Lions occupy the near center, Black Eagles line up along a straight tactical lane with red-black flags, Golden Deer hold a looser flank range with yellow flags. Wooden barriers, padded shields, target lanes, staff observation edge, and chalk boundary lines make it clear this is a supervised academy exercise, not lethal war. Youthful students, no UI.
+High-angle cinematic storyboard of the Garreg Mach academy mock battle adapted from the Rivalry of the Houses map. Blue Lions start on the southeast edge; the mid-west lane shows early enemy movement; wooded thickets and low stone walls mark Golden Deer cover; the northeast contains red-black Black Eagles pressure and two faculty heal-tile positions. It is supervised and nonlethal with wooden or blunted weapons, but the geography is one continuous outdoor tactical field, not separate target ranges. Youthful academy students, no UI.
 
-Cinematic continuity: Block=Mock Battle Expanded. Transition in: whistle carries from classroom cut into field overview. Transition out: cut on Byleth pointing to opponent lanes. Screen/camera rule: establish three-zone geography: Blue near center, Black Eagles right lane, Golden Deer left flank, observation edge high rear. Audio bridge: whistle, training wood, distant student movement. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
+Cinematic continuity: Block=Mock Battle Expanded. Transition in: whistle carries from classroom cut into field overview. Transition out: cut on Byleth marking the southeast route in dirt. Screen/camera rule: establish southeast Blue Lions start, mid-west first pressure, wooded thickets, and northeast heal-tile danger as one continuous map. Audio bridge: whistle, training wood, distant student movement. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
 Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. Show tactical pressure through blocking, posture, sound and editing rather than aging faces.
+
+Camera: high wide establishing shot, slow tactical tilt down
 
 ## Negative Prompt
 

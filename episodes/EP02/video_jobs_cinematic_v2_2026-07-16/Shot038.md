@@ -1,17 +1,10 @@
-# Shot038 - Green Consciousness Flicker Cinematic V2 Job
+# Shot038 Green Consciousness Flicker
 
-Duration: 18 seconds
-Handles: 2 seconds
+Duration: 18s
 Image: `episodes/EP02/generated/p2_connectors_v1/Shot038_GreenConsciousnessFlicker.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot038.mp4`
-
-## Cinematic Continuity
-
-- Block: Observation Echo
-- Transition in: green shimmer carries into Byleth subjectivity
-- Transition out: sound drops to empty corridor echo
-- Screen / camera rule: long-lens surveillance into night subjective unease
-- Audio bridge: distant training fades into night corridor and green shimmer
+Block: Observation Echo
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Byleth stands alone in the night cloister as candle flames dim and emerald-green
 
 Cinematic continuity: Block=Observation Echo. Transition in: green shimmer carries into Byleth subjectivity. Transition out: sound drops to empty corridor echo. Screen/camera rule: long-lens surveillance into night subjective unease. Audio bridge: distant training fades into night corridor and green shimmer. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-slow subjective drift through the corridor toward Byleth.
+Camera: slow subjective drift through the corridor toward Byleth.
 
 ## Negative Prompt
 

@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-07-18T10:35:16.227Z",
+  "total": 36,
+  "generated": 9,
+  "missing": [
+    "Bernadetta",
+    "Caspar",
+    "Dorothea",
+    "Ferdinand",
+    "Hubert",
+    "Linhardt",
+    "Petra",
+    "Mercedes",
+    "Sylvain",
+    "Hilda",
+    "Ignatz",
+    "Leonie",
+    "Lorenz",
+    "Lysithea",
+    "Marianne",
+    "Raphael",
+    "Alois",
+    "Catherine",
+    "Cyril",
+    "Flayn",
+    "Gilbert",
+    "Hanneman",
+    "Jeritza",
+    "Manuela",
+    "Rhea",
+    "Seteth",
+    "Shamir"
+  ],
+  "generated_names": [
+    "Edelgard",
+    "Annette",
+    "Ashe",
+    "Dedue",
+    "Dimitri",
+    "Felix",
+    "Ingrid",
+    "Claude",
+    "Byleth"
+  ],
+  "rejected_notes": {
+    "Annette": [
+      "assets/characters/blue_lions/Annette/weapon_fullbody/rejected/v1_too_tall.png"
+    ],
+    "Felix": [
+      "assets/characters/blue_lions/Felix/weapon_fullbody/rejected/v1_too_old.png"
+    ]
+  }
+}

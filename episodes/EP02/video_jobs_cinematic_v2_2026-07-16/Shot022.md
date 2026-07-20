@@ -1,17 +1,10 @@
-# Shot022 - First Class Wide Cinematic V2 Job
+# Shot022 First Class Wide
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p1_youth_identity_v2/Shot022_FirstClassWide_youth_identity_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot022.mp4`
-
-## Cinematic Continuity
-
-- Block: First Class
-- Transition in: desk/table match from badge to classroom desks
-- Transition out: cut when Byleth reaches training sword
-- Screen / camera rule: front-of-class geometry; Byleth controls tempo, Felix breaks stillness
-- Audio bridge: chair scrape, wood desk, short breath
+Block: First Class
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=First Class. Transition in: desk/table match from badge to classroom desks. Transition out: cut when Byleth reaches training sword. Screen/camera rule: front-of-class geometry; Byleth controls tempo, Felix breaks stillness. Audio bridge: chair scrape, wood desk, short breath. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-slow classroom push-in from behind Byleth.
+Camera: slow classroom push-in from behind Byleth.
 
 ## Negative Prompt
 

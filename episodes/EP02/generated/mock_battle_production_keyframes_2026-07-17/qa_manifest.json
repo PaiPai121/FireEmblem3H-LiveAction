@@ -1,0 +1,651 @@
+{
+  "version": "2026-07-17",
+  "policy": "Only qa_passed assets may be exposed to the AI-video payload or the production storyboard board.",
+  "shots": {
+    "Shot026C": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Dimitri hair tone is slightly lighter than reference; acceptable for production keyframe, track for continuity polish.",
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot026C_start_candidate_v1.png",
+      "start_key_association": "start shows Blue Lions planted before the horn-call advance; keyframe advances into first controlled formation movement."
+    },
+    "Shot027C": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_keyframe.png",
+      "checks": [
+        "Start frame shows Blue Lions and Black Eagles separated before controlled drill contact.",
+        "Keyframe advances to close controlled practice-weapon standoff without injury or impact.",
+        "Dimitri, Dedue, Edelgard, Ferdinand and Hubert remain readable with correct team positions.",
+        "Central outer passage and low-wall geography remain coherent between start and key."
+      ],
+      "notes": [
+        "Start generated as new raster asset on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot027C_start_candidate_v1.png",
+      "start_key_association": "start shows approach into central passage; keyframe advances to first controlled practice-weapon line with same opposing teams and direction"
+    },
+    "Shot027D": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Older issue about extra dark shape is no longer blocking for web review.",
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot027D_start_candidate_v1.png",
+      "start_key_association": "start keeps Dimitri and Dedue separated from Black Eagles before pressure; keyframe advances into the Blue Lions forcing one controlled step back."
+    },
+    "Shot029D": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_keyframe.png",
+      "previous_rejected_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/rejected/Shot029D_keyframe_v1_wrong_arrow_physics.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/rejected/Shot029D_keyframe_v2_extra_arrow_tail.png"
+      ],
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot029D_start_candidate_v1.png",
+      "start_key_association": "start holds Ashe at observation before line-of-sight pressure; keyframe advances into the observation point being suppressed.",
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ]
+    },
+    "Shot029C": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_keyframe.png",
+      "previous_rejected_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/rejected/Shot029C_keyframe_v1_wrong_dimitri_weapon.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/rejected/Shot029C_keyframe_v2_double_padded_staff.png"
+      ],
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot029C_start_candidate_v1.png",
+      "start_key_association": "start shows Claude reading both Blue Lions stretch and Black Eagles center; keyframe advances into Golden Deer disruption planning.",
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ]
+    },
+    "Shot033B": {
+      "status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_keyframe.png",
+      "checks": [
+        "Regenerated start/key after creative review rejected Byleth camera-facing point pose.",
+        "Byleth now reads as side/back tactical anchor between student lanes and teacher platform.",
+        "Blue Lions execution response is visible: Ashe, Ingrid, Felix, Dimitri, and Dedue route actions begin.",
+        "Hanneman and Manuela read as objective/judges on the healing platform, not boss casters.",
+        "No injury, blood, UI, text, or lethal contact."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot033B_start_candidate_command_reaction_v2.png",
+      "start_key_association": "start shows Byleth recognizing the teacher-platform objective; key advances into Blue Lions peeling to separate routes on Byleth command.",
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied.",
+        "2026-07-20 creative logic replacement after user review flagged semantic/identity/facing problems."
+      ],
+      "candidate_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot033B_keyframe_candidate_command_reaction_v2.png",
+      "creative_regen_backup_dir": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-20_creative_logic"
+    },
+    "Shot033C": {
+      "status": "qa_passed_after_creative_logic_regen_2026-07-20_video_monitor",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_keyframe.png",
+      "checks": [
+        "Regenerated keyframe after creative review found Hanneman magic could read as active beam.",
+        "Ashe bowline runs lower-left to upper-right toward the spell angle, not Hanneman body.",
+        "Arrow disruption lands on the stone step / spell marker, with Hanneman upright and unhurt.",
+        "Video prompt must preserve local spell interruption and avoid turning shimmer into an attack beam.",
+        "No injury, blood, UI, text, or lethal contact."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot033C_start_candidate_v1.png",
+      "start_key_association": "start holds Ashe observing the teacher platform; key advances into arrow suppression of Hanneman spell angle at the step.",
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied.",
+        "2026-07-20 creative logic replacement after user review flagged semantic/identity/facing problems."
+      ],
+      "candidate_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot033C_keyframe_candidate_arrow_suppression_v2.png",
+      "creative_regen_backup_dir": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-20_creative_logic"
+    },
+    "Shot033D": {
+      "status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_keyframe.png",
+      "previous_rejected_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/rejected/Shot033D_keyframe_v1_ambiguous_magic.png",
+      "checks": [
+        "Regenerated keyframe after creative review found Ingrid passive and Manuela attacking Sylvain.",
+        "Ingrid is now the active route cutter with a long training lance across Manuela return path.",
+        "Manuela side-steps off the healing sigil with support magic fading, composed and unhurt.",
+        "Sylvain is background containment only, not Manuela target.",
+        "No injury, blood, UI, text, or lethal contact."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot033D_start_candidate_v1.png",
+      "start_key_association": "start shows Ingrid approaching the teacher platform route; key advances into Ingrid blocking Manuela return path off the healing sigil.",
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied.",
+        "2026-07-20 creative logic replacement after user review flagged semantic/identity/facing problems."
+      ],
+      "candidate_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot033D_keyframe_candidate_route_cut_v2.png",
+      "creative_regen_backup_dir": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-20_creative_logic"
+    },
+    "Shot031B": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot031B_start_candidate_v1.png",
+      "start_key_association": "start shows Byleth weighing recall with the formation expecting a pullback; keyframe advances into the decision to keep pressure forward.",
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ]
+    },
+    "Shot032D": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot032D_start_candidate_v1.png",
+      "start_key_association": "start shows two adjacent lines still separated and readable; keyframe advances into the lines compressing into the same tactical space.",
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ]
+    },
+    "Shot030C": {
+      "status": "qa_passed_after_emptyhands_regen",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_keyframe.png",
+      "checks": [
+        "Start/key regenerated to remove premature Mercedes glow and staff-like prop risk.",
+        "Mercedes remains empty-handed support behind the low wall.",
+        "Annette keeps a book/wind focus and ducks behind cover after route-marker arrows land.",
+        "Dimitri/Dedue continue facing north/right-depth pressure.",
+        "No injury, blood, UI, text, logo, or war-phase armor are visible."
+      ],
+      "notes": [
+        "Replaced official start/key on 2026-07-19 after local review flagged Mercedes staff/prop risk."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot030C_start_candidate_emptyhands_v2.png",
+      "start_key_association": "start shows support route open with Mercedes empty-handed; keyframe advances into safe arrows marking the route cut while Mercedes pulls Annette down behind cover.",
+      "candidate_key": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot030C_keyframe_candidate_emptyhands_v2.png",
+      "previous_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot030C_start_before_emptyhands_v2.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot030C_keyframe_before_emptyhands_v2.png"
+      ]
+    },
+    "Shot032E": {
+      "status": "qa_passed_after_hilda_youth_v4_regen",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_keyframe.png",
+      "checks": [
+        "Start/key regenerated after Hilda youth identity v4 replacement.",
+        "Hilda reads academy-age and has a visible compact padded training axe.",
+        "Claude bow, Sylvain/Ingrid lances, and Hubert magic/book roles are readable.",
+        "Golden Deer, Blue Lions, and Black Eagles remain separated into three readable lanes.",
+        "No injury, blood, UI, text, logo, war armor, or humiliating rout is visible."
+      ],
+      "notes": [
+        "Replaced official start/key on 2026-07-20 because prior Shot032E was Hilda-stale and high risk for crowd-pile drift."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot032E_start_candidate_hilda_youth_v4.png",
+      "start_key_association": "start holds three lines separated around central obstacles; keyframe advances into controlled three-way compression with Hilda v4 and readable house roles.",
+      "candidate_key": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot032E_keyframe_candidate_hilda_youth_v4.png",
+      "previous_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot032E_start_before_hilda_youth_v4.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot032E_keyframe_before_hilda_youth_v4.png"
+      ]
+    },
+    "Shot034C": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Visible weapons are minimized due image safety filtering; video prompt should restore padded academy practice weapons.",
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot034C_start_candidate_v1.png",
+      "start_key_association": "start shows Felix seeing the stair lane before opening it; keyframe advances into Felix creating the route for Dimitri."
+    },
+    "Shot034D": {
+      "status": "qa_passed_after_sheathed_wrist_regen",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_keyframe.png",
+      "checks": [
+        "Keyframe regenerated to show a visible sheathed training sword contacting Hanneman wrist/forearm area.",
+        "The gesture no longer reads as bare-hand high five or slap.",
+        "Hanneman remains upright and composed; Dimitri/Dedue do not steal the action.",
+        "No injury, blood, UI, text, logo, or war-phase armor are visible."
+      ],
+      "notes": [
+        "Replaced official keyframe on 2026-07-19 after local review flagged bare-hand/high-five ambiguity."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot034D_start_candidate_v1.png",
+      "start_key_association": "start shows Hanneman practice spell forming as Byleth approaches; keyframe advances into Byleth stopping the spell angle with a visible sheathed sword.",
+      "candidate_key": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot034D_keyframe_candidate_sheathed_wrist_v2.png",
+      "previous_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot034D_keyframe_before_sheathed_wrist_v2.png"
+      ]
+    },
+    "Shot026": {
+      "status": "qa_passed",
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026_start.png",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026_keyframe.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot026_start_candidate_v1.png",
+      "checks": [
+        "Start frame clearly shows Byleth drawing the dirt map with Blue Lions gathered around him.",
+        "Keyframe clearly shows Byleth command beat with Blue Lions assigned into roles on the same outdoor mock-battle field.",
+        "Both frames show no combat, injury, UI, text, or modern objects.",
+        "Character roles are readable: Dimitri lance, Dedue shield, Felix sword, Ashe archer, Annette/Mercedes rear support."
+      ],
+      "start_key_association": "start shows the route briefing beginning at the dirt map; keyframe advances to the command-response moment after roles are assigned",
+      "notes": [
+        "Association is narrative-continuous but not same-camera; generate a same-camera keyframe later if video interpolation requires stricter continuity."
+      ]
+    },
+    "Shot036": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot036_keyframe.png",
+      "checks": [
+        "Dimitri, Dedue and Byleth are readable in the intended post-drill emotional beat.",
+        "Start and keyframe preserve nearly identical camera, blocking, background students and teacher platform.",
+        "The motion relationship is clear: Dimitri settles from raised practice lance tension into Byleth stop-signal restraint.",
+        "No injury, blood, attack contact, UI, text or modern objects are visible."
+      ],
+      "notes": [
+        "Start generated as new raster asset on 2026-07-19; keyframe previously generated as new production raster and now start-linked."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot036_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot036_start_candidate_v1.png",
+      "start_key_association": "same-camera pair; start holds Dimitri tension before full restraint, keyframe settles under Byleth open-hand signal"
+    },
+    "Shot032": {
+      "status": "qa_passed",
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_start.png",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_keyframe.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot032_start_candidate_v2.png",
+      "candidate_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot032_keyframe_candidate_v2.png",
+      "replaced_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19/Shot032_start_before_weapon_facing_v2.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19/Shot032_keyframe_before_weapon_facing_v2.png"
+      ],
+      "checks": [
+        "Start frame keeps Mercedes behind low-wall cover with no premature healing light, preserving start-to-key progression.",
+        "Keyframe adds a short white healing line from Mercedes empty hands to Dedue shield arm/shoulder guard; it is support magic, not an offensive beam.",
+        "Dedue remains a broad upright shield-wall anchor facing Black Eagles pressure ahead/right-depth; no blood, wound, or collapse is shown.",
+        "Dimitri remains behind Dedue with a long blunted training lance and keeps his body line toward the enemy/front rather than posing to camera.",
+        "Black Eagles pressure is visible ahead/right-depth with Hubert as mage and Ferdinand as lance student, facing the defenders.",
+        "Camera and geography preserve the low wall, central lane, instructor platform depth, and supervised academy training context."
+      ],
+      "start_key_association": "same low-medium rear-left camera and blocking; keyframe advances the start by adding Mercedes healing light to Dedue shield arm/shoulder guard while the enemy pressure remains in front",
+      "notes": [
+        "V2 generated with built-in image generation and locally reviewed on 2026-07-19 for weapon/facing logic.",
+        "Prior v1 official frames are preserved in backups_2026-07-19. V1 was readable but start had premature healing light and the key light could read too close to Dimitri lance."
+      ]
+    },
+    "Shot025": {
+      "status": "qa_passed",
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025_start.png",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025_keyframe.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot025_start_candidate_v1.png",
+      "checks": [
+        "Wide outdoor Garreg Mach mock-battle geography is readable: paths, low walls, thickets, instructor platform and house banners.",
+        "Start frame is quieter and more establishing; keyframe advances to three-house lineup and ready state.",
+        "No combat contact, injuries, UI, text, or modern objects are visible.",
+        "Start and keyframe preserve broad high-angle tactical geography suitable for opening the mock battle sequence."
+      ],
+      "start_key_association": "start establishes empty/quiet tactical field; keyframe advances the same geography into three-house entry and lineup",
+      "notes": [
+        "Start generated as new raster asset on 2026-07-19; keyframe is existing production raster, now QA-linked with start."
+      ]
+    },
+    "Shot025A": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025A_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025A_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot025A_start_candidate_v1.png",
+      "start_key_association": "start establishes full practice-grid geography and separated house positions; keyframe advances into canon-map tactical layout emphasis."
+    },
+    "Shot026B": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026B_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot026B_start_candidate_v1.png",
+      "start_key_association": "start holds Byleth before issuing southeast route direction; keyframe advances into the route call being executed."
+    },
+    "Shot027": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot027_start_candidate_v1.png",
+      "start_key_association": "start places Ashe at support position with practice bow lowered; keyframe advances into active support coverage without impact."
+    },
+    "Shot027B": {
+      "status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_keyframe.png",
+      "checks": [
+        "Regenerated start/key after creative review rejected anonymous crowd / unstable lookalikes.",
+        "Start/key now show a compact named Black Eagles wave with Blue Lions separated in foreground/depth.",
+        "Ferdinand, Edelgard, Hubert, and Dorothea roles are readable without a mass of unidentified students.",
+        "Direction remains Black Eagles north/right-depth toward center, Blue Lions lower/center facing them.",
+        "No injury, blood, UI, text, or lethal contact."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied.",
+        "2026-07-20 creative logic replacement after user review flagged semantic/identity/facing problems."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot027B_start_candidate_named_wave_v2.png",
+      "start_key_association": "start shows compact named Black Eagles line before movement; key advances into Ferdinand-led first moving wave toward Blue Lions.",
+      "candidate_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot027B_keyframe_candidate_named_wave_v2.png",
+      "creative_regen_backup_dir": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-20_creative_logic"
+    },
+    "Shot028": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot028_start_candidate_v1.png",
+      "start_key_association": "start shows Annette and Mercedes readying support light; keyframe advances into the support beat without injury or impact."
+    },
+    "Shot028B": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028B_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot028B_start_candidate_v1.png",
+      "start_key_association": "start shows Edelgard organizing the center; keyframe advances into Black Eagles stabilizing under pressure."
+    },
+    "Shot028C": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028C_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot028C_start_candidate_v1.png",
+      "start_key_association": "start holds Felix before committing to the side lane; keyframe advances into the side cut being checked."
+    },
+    "Shot029": {
+      "status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_keyframe.png",
+      "checks": [
+        "Regenerated start/key after creative review rejected old mannequin-like faces and Ingrid short-blade silhouette.",
+        "Sylvain and Ingrid are Blue Lions flank guards with long training lances in both start and key.",
+        "Both face west/northwest toward Golden Deer thicket pressure instead of camera.",
+        "Golden Deer remain partial/thicket pressure only; Shot029B still carries the detailed flank high-light.",
+        "No injury, blood, UI, text, or lethal contact."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied.",
+        "2026-07-20 creative logic replacement after user review flagged semantic/identity/facing problems."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot029_start_candidate_lance_identity_v2.png",
+      "start_key_association": "start holds Sylvain/Ingrid guarding west thicket with long lances; key advances into their pivot as Golden Deer pressure becomes visible.",
+      "candidate_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-20/Shot029_keyframe_candidate_lance_identity_v2.png",
+      "creative_regen_backup_dir": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-20_creative_logic"
+    },
+    "Shot029B": {
+      "status": "qa_passed_after_hilda_youth_v4_regen",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_keyframe.png",
+      "checks": [
+        "Start/key regenerated after Hilda youth identity v4 replacement.",
+        "Hilda reads academy-age with pink twin ponytails and Golden Deer uniform.",
+        "Golden Deer originate west/screen-left; Sylvain/Ingrid face the west-side movement.",
+        "No injury, blood, UI, text, logo, or war-phase armor are visible."
+      ],
+      "notes": [
+        "Replaced official start/key on 2026-07-19 because prior Hilda-visible frames were stale after youth identity v4."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot029B_start_candidate_youth_v4.png",
+      "start_key_association": "start holds Golden Deer in thicket cover; keyframe advances into Hilda stepping out while Sylvain/Ingrid turn to contain the west-side pressure.",
+      "candidate_key": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot029B_keyframe_candidate_youth_v4.png",
+      "previous_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot029B_start_before_hilda_youth_v4.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot029B_keyframe_before_hilda_youth_v4.png"
+      ]
+    },
+    "Shot030": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot030_start_candidate_v1.png",
+      "start_key_association": "start catches Felix before leaving formation; keyframe advances into the formation break impulse."
+    },
+    "Shot030B": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030B_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot030B_start_candidate_v1.png",
+      "start_key_association": "start establishes the open northeast route before Felix steps toward it; keyframe advances into the northeast trigger beat."
+    },
+    "Shot031": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot031_start_candidate_v1.png",
+      "start_key_association": "start catches Byleth just before stopping Felix; keyframe advances into the intervention beat."
+    },
+    "Shot032B": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Dimitri practice weapon reads slightly slender; acceptable for web keyframe, keep video prompt explicit about padded academy gear.",
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot032B_start_candidate_v1.png",
+      "start_key_association": "start shows Dimitri and Dedue steady and unhurt near the northeast hold; keyframe advances into that lane being tested."
+    },
+    "Shot032C": {
+      "status": "qa_passed_after_black_eagles_highlight_regen",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_keyframe.png",
+      "checks": [
+        "Start/key regenerated to strengthen Black Eagles highlight and replace Hilda-visible stale frame.",
+        "Edelgard, Hubert, and Dorothea each have readable tactical function.",
+        "Claude and Hilda remain competent and give ground from thicket without being humiliated.",
+        "Hilda uses youth identity v4 and has a visible compact padded training axe.",
+        "No injury, blood, UI, text, logo, war armor, or adult student face is visible."
+      ],
+      "notes": [
+        "Replaced official start/key on 2026-07-20 to make Black Eagles counterpressure a clear house highlight and remove stale Hilda issue."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot032C_start_candidate_black_eagles_highlight_v2.png",
+      "start_key_association": "start shows Edelgard signaling Hubert before the counterpressure; keyframe advances into Hubert/Dorothea squeezing Claude/Hilda out of their safe thicket angle.",
+      "candidate_key": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/blocking_regen_2026-07-19/Shot032C_keyframe_candidate_black_eagles_highlight_v2.png",
+      "previous_assets": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot032C_start_before_black_eagles_highlight_v2.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/backups_2026-07-19_hilda_youth/Shot032C_keyframe_before_black_eagles_highlight_v2.png"
+      ]
+    },
+    "Shot033": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot033_start_candidate_v1.png",
+      "start_key_association": "start isolates Dimitri before choosing restraint; keyframe advances into the restraint beat under Dedue and Byleth’s watch."
+    },
+    "Shot034": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot034_start_candidate_v1.png",
+      "start_key_association": "start holds the whole field just before the call; keyframe advances into the exercise end and Blue Lions win state."
+    },
+    "Shot034B": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot034B_start_candidate_v1.png",
+      "start_key_association": "start establishes the faculty heal tile route still open; keyframe advances into that route being sealed by Blue Lions positioning."
+    },
+    "Shot035": {
+      "status": "qa_passed",
+      "asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot035_keyframe.png",
+      "checks": [
+        "Start frame is a new generated raster asset, not copied from a legacy/source PNG.",
+        "Frame reads as a supervised academy drill setup or pre-movement state.",
+        "No injury, blood, attack impact, UI, text, logo or modern objects are visible.",
+        "Start frame can progress into the existing QA-passed keyframe for the same shot."
+      ],
+      "notes": [
+        "Generated as new raster start frame on 2026-07-19; no legacy/source frame copied."
+      ],
+      "start_asset": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot035_start.png",
+      "candidate_start": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/candidates_2026-07-19/Shot035_start_candidate_v1.png",
+      "start_key_association": "start shows Felix before acknowledging Byleth; keyframe advances into the restrained respect beat after victory."
+    }
+  },
+  "updated_at": "2026-07-19T21:40:00+08:00"
+}

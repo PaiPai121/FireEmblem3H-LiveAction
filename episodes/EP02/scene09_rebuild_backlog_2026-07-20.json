@@ -1,0 +1,87 @@
+{
+  "version": "2026-07-20",
+  "status": "full_rebuild_required",
+  "policy": "All current Scene09 official start/key images are layout references only. Do not use them for paid video generation until rebuilt and creatively re-audited.",
+  "audit_synthesis": "episodes/EP02/scene09_audit_synthesis_2026-07-20.md",
+  "quality_gates": [
+    "identity_matches_selected_assets",
+    "weapon_lock_clear",
+    "facing_matches_threat_or_objective",
+    "tactical_action_matches_script",
+    "character_contribution_or_exit_visible",
+    "three_houses_remain_competent"
+  ],
+  "priority_batches": [
+    {
+      "batch": "objective_chain",
+      "purpose": "Rebuild the teacher-platform win condition so Blue Lions' narrow victory is legible.",
+      "shots": ["Shot032", "Shot033B", "Shot033C", "Shot033D", "Shot034C", "Shot034D", "Shot034B", "Shot034"]
+    },
+    {
+      "batch": "three_house_pressure",
+      "purpose": "Rebuild how Black Eagles and Golden Deer both pressure the field before Blue Lions exploit the window.",
+      "shots": ["Shot027B", "Shot027C", "Shot028B", "Shot029C", "Shot029D", "Shot029B", "Shot032C", "Shot032D", "Shot032E"]
+    },
+    {
+      "batch": "missing_character_coverage",
+      "purpose": "Add or strengthen visual proof for Annette, Dorothea, Lorenz, Ignatz, Hilda exit, Black Eagles exit, Golden Deer exit.",
+      "shots": ["Shot032A", "Shot032C_Dorothea", "Shot029B_LorenzIgnatz", "Shot034_GoldenDeerExit", "Shot034_BlackEaglesExit"]
+    },
+    {
+      "batch": "independent_audit_hotspots",
+      "purpose": "Use independent frame audit as a priority signal, not as a narrowed scope.",
+      "shots": ["Shot027C", "Shot028", "Shot031B", "Shot032E", "Shot034C", "Shot035", "Shot036"]
+    },
+    {
+      "batch": "setup_and_reactions",
+      "purpose": "Rebuild setup, restraint, support routes, and aftermath after the tactical core works.",
+      "shots": ["Shot025", "Shot025A", "Shot026", "Shot026B", "Shot026C", "Shot027", "Shot027D", "Shot028", "Shot028C", "Shot029", "Shot030", "Shot030B", "Shot030C", "Shot031", "Shot031B", "Shot032B", "Shot033", "Shot035", "Shot036"]
+    }
+  ],
+  "character_gaps": [
+    {
+      "character": "Annette",
+      "gap": "No strong visual of wind/dust support contribution.",
+      "required_shot": "Shot032A or Shot030C rebuild"
+    },
+    {
+      "character": "Dorothea",
+      "gap": "No clear contribution or stand-down frame.",
+      "required_shot": "Shot032C_Dorothea and Shot034_BlackEaglesExit"
+    },
+    {
+      "character": "Lorenz",
+      "gap": "Formal lane threat and dignified halt are not visible.",
+      "required_shot": "Shot029B_LorenzIgnatz or Shot034_GoldenDeerExit"
+    },
+    {
+      "character": "Ignatz",
+      "gap": "Precise route arrows and bow-lowering exit blend into Claude's role.",
+      "required_shot": "Shot029B_LorenzIgnatz, Shot030C rebuild, or Shot034_GoldenDeerExit"
+    },
+    {
+      "character": "Hilda",
+      "gap": "Dignified playful exit is mostly textual.",
+      "required_shot": "Shot034_GoldenDeerExit"
+    },
+    {
+      "character": "Edelgard",
+      "gap": "Stand-down and command response need stronger visual proof.",
+      "required_shot": "Shot032C rebuild and Shot034_BlackEaglesExit"
+    }
+  ],
+  "blocked_outputs": [
+    "episodes/EP02/video_outputs/cinematic_v2/Shot025.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot026.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot027.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot028.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot029.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot030.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot031.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot032.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot033.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot034.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot035.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot036.mp4"
+  ]
+}

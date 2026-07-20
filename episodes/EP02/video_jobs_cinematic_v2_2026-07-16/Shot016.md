@@ -1,17 +1,10 @@
-# Shot016 - Blue Lions Reaction Montage Cinematic V2 Job
+# Shot016 Blue Lions Reaction Montage
 
-Duration: 22 seconds
-Handles: 2 seconds
+Duration: 22s
 Image: `episodes/EP02/generated/p1_grounded_identity_v3/Shot016_BlueLionsReaction_grounded_v3.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot016.mp4`
-
-## Cinematic Continuity
-
-- Block: Three Houses
-- Transition in: reaction montage breathes after Felix tension
-- Transition out: audio dip into choice hall
-- Screen / camera rule: Byleth POV scans class groups then resolves on Blue Lions
-- Audio bridge: courtyard ambience, banners, restrained footsteps
+Block: Three Houses
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Three Houses. Transition in: reaction montage breathes after Felix tension. Transition out: audio dip into choice hall. Screen/camera rule: Byleth POV scans class groups then resolves on Blue Lions. Audio bridge: courtyard ambience, banners, restrained footsteps. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-subtle rack focus between faces, no fast cuts inside the generated clip.
+Camera: subtle rack focus between faces, no fast cuts inside the generated clip.
 
 ## Negative Prompt
 

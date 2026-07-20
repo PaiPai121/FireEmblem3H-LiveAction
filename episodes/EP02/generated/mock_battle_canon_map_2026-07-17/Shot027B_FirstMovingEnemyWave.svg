@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="grass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#40583b"/><stop offset="0.55" stop-color="#7d8251"/><stop offset="1" stop-color="#5c6a44"/></linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#77756c"/><stop offset="1" stop-color="#3d403d"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="#1f2a27"/>
+  <rect x="28" y="92" width="1544" height="720" rx="18" fill="url(#grass)" stroke="#aeb18a" stroke-width="3"/>
+  <path d="M85 168 C325 95 513 155 735 126 C986 92 1192 125 1518 104 L1518 210 C1213 195 985 214 760 190 C528 166 326 225 85 254 Z" fill="url(#stone)" opacity="0.85"/>
+  <path d="M1160 105 L1518 105 L1518 318 C1408 292 1307 300 1190 326 C1160 258 1148 179 1160 105 Z" fill="#2f3b34" opacity="0.9"/>
+  <path d="M126 658 C312 615 468 608 617 645 C794 688 922 665 1072 628 C1227 590 1378 605 1508 664" fill="none" stroke="#d8d1a7" stroke-width="28" opacity="0.22"/>
+  <path d="M972 735 C992 605 1060 505 1148 416 C1240 324 1340 280 1492 245" fill="none" stroke="#d8d1a7" stroke-width="26" opacity="0.2"/>
+  <path d="M330 730 C398 610 467 535 560 470 C664 398 762 378 880 360" fill="none" stroke="#d8d1a7" stroke-width="22" opacity="0.18"/>
+  <g opacity="0.86">
+    <circle cx="440" cy="382" r="82" fill="#1f3d2c"/><circle cx="520" cy="330" r="78" fill="#244932"/><circle cx="615" cy="410" r="96" fill="#1f3d2c"/><circle cx="720" cy="340" r="66" fill="#2b5237"/>
+    <circle cx="1032" cy="214" r="64" fill="#203a2c"/><circle cx="1100" cy="282" r="76" fill="#2a4b35"/><circle cx="1224" cy="244" r="64" fill="#203a2c"/>
+  </g>
+  <g opacity="0.5" stroke="#b9b08b" stroke-width="10" stroke-linecap="round">
+    <path d="M300 520 L452 486"/><path d="M712 562 L846 528"/><path d="M1010 430 L1160 394"/><path d="M1230 536 L1394 500"/>
+  </g>
+  <g opacity="0.35" filter="url(#shadow)">
+    <path d="M1072 680 L1448 680 L1510 782 L1000 782 Z" fill="#173a63" stroke="#9fc4ff" stroke-width="4"/>
+    <text x="1252" y="728" fill="#eff7ff" font-size="34" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">Blue Lions 东南起点</text>
+    <text x="1252" y="766" fill="#c8ddff" font-size="22" font-family="Arial, sans-serif" text-anchor="middle">Byleth 规划路线：先清中线</text>
+  </g>
+  <g opacity="1" filter="url(#shadow)">
+    <path d="M230 482 C350 430 480 442 600 508 L548 608 C404 565 300 576 190 618 Z" fill="#a66a38" stroke="#ffd097" stroke-width="4"/>
+    <text x="390" y="524" fill="#fff7df" font-size="31" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">中西线第一波</text>
+    <text x="390" y="560" fill="#fff0c4" font-size="22" font-family="Arial, sans-serif" text-anchor="middle">Dorothea / Lorenz / Ignatz 主动压上</text>
+  </g>
+  <g opacity="0.35" filter="url(#shadow)">
+    <path d="M312 220 C480 162 658 200 806 295 C720 410 570 470 390 432 C314 370 286 300 312 220 Z" fill="#1f5b36" stroke="#b6f2a6" stroke-width="4"/>
+    <text x="548" y="286" fill="#efffe8" font-size="33" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">林地 / thicket</text>
+    <text x="548" y="324" fill="#cff5be" font-size="22" font-family="Arial, sans-serif" text-anchor="middle">Claude / Hilda 机动位</text>
+  </g>
+  <g opacity="0.35" filter="url(#shadow)">
+    <path d="M980 365 C1116 320 1238 332 1350 410 L1295 522 C1185 472 1080 472 952 520 Z" fill="#6b2730" stroke="#ff9ba7" stroke-width="4"/>
+    <text x="1152" y="414" fill="#fff2f3" font-size="32" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">东北触发区</text>
+    <text x="1152" y="451" fill="#ffd1d6" font-size="22" font-family="Arial, sans-serif" text-anchor="middle">Felix 误冲会拉动两组敌人</text>
+  </g>
+  <g opacity="0.35" filter="url(#shadow)">
+    <path d="M900 538 L1088 502 L1166 616 L964 660 Z" fill="#385f7f" stroke="#add8ff" stroke-width="4"/>
+    <text x="1030" y="578" fill="#f0f9ff" font-size="30" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">东北入口盾线</text>
+    <text x="1030" y="612" fill="#d7ecff" font-size="21" font-family="Arial, sans-serif" text-anchor="middle">Dedue / Dimitri 稳住阵线</text>
+  </g>
+  <g opacity="0.35" filter="url(#shadow)">
+    <rect x="1230" y="192" width="236" height="134" rx="18" fill="#efe6bd" stroke="#fff9da" stroke-width="5"/>
+    <circle cx="1287" cy="258" r="34" fill="none" stroke="#87c88a" stroke-width="8"/><circle cx="1408" cy="258" r="34" fill="none" stroke="#87c88a" stroke-width="8"/>
+    <text x="1348" y="226" fill="#39382d" font-size="25" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">Heal tile+</text>
+    <text x="1348" y="305" fill="#39382d" font-size="21" font-family="Arial, sans-serif" text-anchor="middle">Hanneman / Manuela</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="1230" y="160" fill="#ffb7bd" font-size="24" opacity="0.82">Black Eagles 北侧纵深</text>
+    <text x="540" y="170" fill="#ffe494" font-size="24" opacity="0.82">Golden Deer 林地纵深</text>
+    <text x="816" y="825" fill="#f2ead0" font-size="24" opacity="0.7">不是训练靶场 / 不是擂台 / 不是小分区：一张连续户外战棋地图</text>
+  </g>
+  <g opacity="0.9">
+    <circle cx="1130" cy="700" r="12" fill="#83b5ff"/><circle cx="1182" cy="710" r="12" fill="#83b5ff"/><circle cx="1234" cy="704" r="12" fill="#83b5ff"/>
+    <circle cx="374" cy="488" r="12" fill="#ffcf69"/><circle cx="448" cy="500" r="12" fill="#ffcf69"/><circle cx="520" cy="528" r="12" fill="#ffcf69"/>
+    <circle cx="1075" cy="430" r="12" fill="#f26473"/><circle cx="1140" cy="418" r="12" fill="#f26473"/><circle cx="1210" cy="438" r="12" fill="#f26473"/>
+  </g>
+  <rect x="28" y="92" width="1544" height="720" rx="18" fill="none" stroke="#f8f0c6" stroke-width="4" opacity="0.22"/>
+  <rect x="28" y="22" width="1544" height="58" rx="12" fill="#101817" opacity="0.86"/>
+  <text x="58" y="61" fill="#f7f0d4" font-size="31" font-family="Arial, sans-serif" font-weight="700">Shot027B First Moving Enemy Wave</text>
+  <text x="1540" y="60" fill="#d7cfa8" font-size="20" font-family="Arial, sans-serif" text-anchor="end">Dorothea / Lorenz / Ignatz 从中西线主动压上，Ashe 抢高点压制</text>
+</svg>

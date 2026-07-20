@@ -1,17 +1,10 @@
-# Shot026 - Blue Lions Formation Cinematic V2 Job
+# Shot026 Blue Lions Formation
 
-Duration: 20 seconds
-Handles: 2 seconds
+Duration: 20s
 Image: `episodes/EP02/generated/p1_grounded_identity_v3/Shot026_BlueLionsFormation_grounded_v3.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot026.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: continue field axis from wide setup
-- Transition out: cut on Byleth gesture toward Ashe lane
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -23,9 +16,7 @@ Dedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and po
 
 Cinematic continuity: Block=Mock Battle. Transition in: continue field axis from wide setup. Transition out: cut on Byleth gesture toward Ashe lane. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-medium-wide orbit or subtle push.
+Camera: medium-wide orbit or subtle push.
 
 ## Negative Prompt
 

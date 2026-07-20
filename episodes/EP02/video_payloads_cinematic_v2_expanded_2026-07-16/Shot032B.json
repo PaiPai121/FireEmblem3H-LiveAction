@@ -1,17 +1,174 @@
 {
   "shot": "Shot032B",
-  "title": "Dimitri Dedue Pressure Against Black Eagles",
+  "title": "Dimitri Dedue Northeast Hold",
   "duration_seconds": 10,
-  "image_path": "episodes/EP02/generated/mock_battle_expanded_v1/Shot032B_DimitriDeduePressureVsBlackEagles.png",
-  "prompt": "Blue Lions vs Black Eagles pressure beat. Dedue, very tall, broad-shouldered, white-haired and shield-wall strong, blocks a padded strike with a large training shield while Dimitri, youthful blond prince, holds back behind him with restrained lance posture. Black Eagles students with red-black sashes press from the opposite side in disciplined formation. The moment shows Blue Lions defensive discipline under Byleth teaching.\n\nCinematic continuity: Block=Mock Battle Expanded. Transition in: Byleth correction redirects attention to disciplined defense. Transition out: Dimitri restraint beat follows from Dedue shield block. Screen/camera rule: Black Eagles pressure comes right-to-left; Dedue stops it; Dimitri stays anchored behind shield line. Audio bridge: shield thud, controlled breath, training weapons. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. Show tactical pressure through blocking, posture, sound and editing rather than aging faces.",
-  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; use controlled academy sparring only, no blood or lethal injury. Avoid: skinny Dedue, old Dimitri, lethal injury, blood, generic armor, wrong hair colors, text, watermark",
+  "image_path": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032B_NortheastHold.svg",
+  "prompt": "At the northeast approach, Dedue, very tall, broad-shouldered, white-haired and shield-wall strong, blocks a padded strike with a large training shield while Dimitri, youthful blond prince, holds back behind him with restrained lance posture. Red-black Black Eagles pressure and distant faculty heal-tile silhouettes create depth beyond the low stone wall. The moment shows Blue Lions defensive discipline under Byleth teaching, not a random duel.\n\nCinematic continuity: Block=Mock Battle Expanded. Transition in: Byleth correction redirects attention to disciplined northeast hold. Transition out: Dimitri restraint beat follows from Dedue shield block. Screen/camera rule: Northeast pressure comes right/deep to left/near; Dedue stops it; Dimitri stays anchored behind shield line. Audio bridge: shield thud, controlled breath, training weapons. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. Show tactical pressure through blocking, posture, sound and editing rather than aging faces.\n\nCamera: medium-wide shield-line angle with Dimitri behind Dedue and northeast depth beyond\n\nScene09 production gate: do not generate final video from the blocked source image if it is SVG or legacy training-yard raster. Use production_image_path after a real cinematic raster keyframe is generated and QA-approved.\nCharacter continuity gate: every named character must match the listed selected.png reference assets for face, hair, age, costume silhouette, and color accents.",
+  "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; use controlled academy sparring only, no blood or lethal injury. Avoid: skinny Dedue, old Dimitri, straight training lane, lethal injury, blood, generic armor, wrong hair colors, text, watermark",
   "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot032B.mp4",
   "job_file": "episodes/EP02/video_jobs_cinematic_v2_expanded_2026-07-16/Shot032B.md",
   "cinematic_block": "Mock Battle Expanded",
-  "transition_in": "Byleth correction redirects attention to disciplined defense",
+  "transition_in": "Byleth correction redirects attention to disciplined northeast hold",
   "transition_out": "Dimitri restraint beat follows from Dedue shield block",
-  "screen_direction_rule": "Black Eagles pressure comes right-to-left; Dedue stops it; Dimitri stays anchored behind shield line",
+  "screen_direction_rule": "Northeast pressure comes right/deep to left/near; Dedue stops it; Dimitri stays anchored behind shield line",
   "audio_bridge": "shield thud, controlled breath, training weapons",
   "editorial_handles_seconds": 2,
-  "risk_notes": "Needs Dedue robust and Dimitri controlled, plus visible Black Eagles opponent line."
+  "risk_notes": "Needs Dedue robust and Dimitri controlled, plus visible northeast enemy pressure and faculty line beyond.",
+  "production_status": "blocked_needs_production_raster",
+  "blocked_source_image_path": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032B_NortheastHold.svg",
+  "production_image_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_start.png",
+  "production_keyframe_path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_keyframe.png",
+  "production_prompt_file": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/prompts/Shot032B_prompt.md",
+  "character_reference_assets": [
+    {
+      "name": "Dimitri",
+      "phase": "academy",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+    },
+    {
+      "name": "Dedue",
+      "phase": "academy",
+      "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+    },
+    {
+      "name": "Hubert",
+      "phase": "academy",
+      "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+      "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+    },
+    {
+      "name": "Ferdinand",
+      "phase": "academy",
+      "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+      "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+    }
+  ],
+  "subframes": [
+    {
+      "id": "Shot032B.A",
+      "title": "Entry geography",
+      "status": "needs_production_raster_keyframe",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_A_keyframe.png",
+      "description": "Establish the exact geography for Dimitri Dedue Northeast Hold: Dimitri held behind Dedue shield line, northeast pressure and faculty platform beyond.",
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "continuity_rules": [
+        "Use listed selected.png character assets as face, hair, age, and costume references.",
+        "Keep the canon-map geography continuous across adjacent subframes.",
+        "No SVG, no map labels, no UI, no small training-yard composition."
+      ]
+    },
+    {
+      "id": "Shot032B.B",
+      "title": "Action peak",
+      "status": "needs_production_raster_keyframe",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_B_keyframe.png",
+      "description": "Show the tactical peak with Dimitri, Dedue, Hubert, Ferdinand using their locked character assets and academy costumes.",
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "continuity_rules": [
+        "Use listed selected.png character assets as face, hair, age, and costume references.",
+        "Keep the canon-map geography continuous across adjacent subframes.",
+        "No SVG, no map labels, no UI, no small training-yard composition."
+      ]
+    },
+    {
+      "id": "Shot032B.C",
+      "title": "Reaction / cut point",
+      "status": "needs_production_raster_keyframe",
+      "output_keyframe": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_C_keyframe.png",
+      "description": "End on the reaction or reposition that motivates the next shot while preserving screen direction.",
+      "character_reference_assets": [
+        {
+          "name": "Dimitri",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "continuity_note": "youthful blond Blue Lions prince, training lance, aggressive but controlled"
+        },
+        {
+          "name": "Dedue",
+          "phase": "academy",
+          "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "continuity_note": "tall broad guardian, dark skin, white hair, shield-wall posture"
+        },
+        {
+          "name": "Hubert",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Hubert/academy/selected.png",
+          "continuity_note": "dark-haired Black Eagles mage, pressure caster behind front line"
+        },
+        {
+          "name": "Ferdinand",
+          "phase": "academy",
+          "asset": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+          "continuity_note": "orange-haired noble cavalry student, stabilizes and intercepts Felix"
+        }
+      ],
+      "continuity_rules": [
+        "Use listed selected.png character assets as face, hair, age, and costume references.",
+        "Keep the canon-map geography continuous across adjacent subframes.",
+        "No SVG, no map labels, no UI, no small training-yard composition."
+      ]
+    }
+  ],
+  "production_acceptance_criteria": [
+    "Raster image, not SVG or diagram.",
+    "Matches current Scene09 canon-map mock battle script.",
+    "Clear tactical geography and screen direction.",
+    "No small training yard look.",
+    "Characters listed in required_characters are visually represented or intentionally staged in depth.",
+    "Usable as first/keyframe input for AI video generation.",
+    "Every visible named character matches the listed selected.png character reference asset.",
+    "Main shot and subframes preserve face, hair, age, costume, and color continuity."
+  ]
 }

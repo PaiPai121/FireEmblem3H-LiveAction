@@ -1,17 +1,10 @@
-# Shot013 - Blue Lions Lineup Cinematic V2 Job
+# Shot013 Blue Lions Lineup
 
-Duration: 12 seconds
-Handles: 2 seconds
+Duration: 12s
 Image: `episodes/EP02/generated/p1_grounded_identity_v3/Shot013_BlueLionsLineup_grounded_v3.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot013.mp4`
-
-## Cinematic Continuity
-
-- Block: Three Houses
-- Transition in: Byleth POV resolves on Blue Lions lineup
-- Transition out: cut on Dimitri stepping out
-- Screen / camera rule: Byleth POV scans class groups then resolves on Blue Lions
-- Audio bridge: courtyard ambience, banners, restrained footsteps
+Block: Three Houses
+Audio bridge: undefined
 
 ## Prompt
 
@@ -23,9 +16,7 @@ Dedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and po
 
 Cinematic continuity: Block=Three Houses. Transition in: Byleth POV resolves on Blue Lions lineup. Transition out: cut on Dimitri stepping out. Screen/camera rule: Byleth POV scans class groups then resolves on Blue Lions. Audio bridge: courtyard ambience, banners, restrained footsteps. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-smooth side glide, medium-wide.
+Camera: smooth side glide, medium-wide.
 
 ## Negative Prompt
 

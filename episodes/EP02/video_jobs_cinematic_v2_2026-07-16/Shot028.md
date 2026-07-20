@@ -1,17 +1,10 @@
-# Shot028 - Annette / Mercedes Support Cinematic V2 Job
+# Shot028 Annette / Mercedes Support
 
-Duration: 14 seconds
-Handles: 2 seconds
+Duration: 14s
 Image: `episodes/EP02/generated/p1_mock_battle_v1/Shot028_AnnetteMercedesSupport.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot028.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: bowstring snap answered by magic flare
-- Transition out: cut on Mercedes steadying Annette to flank motion
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Mock Battle. Transition in: bowstring snap answered by magic flare. Transition out: cut on Mercedes steadying Annette to flank motion. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-intimate medium shot, slight push toward the hands and glow.
+Camera: intimate medium shot, slight push toward the hands and glow.
 
 ## Negative Prompt
 

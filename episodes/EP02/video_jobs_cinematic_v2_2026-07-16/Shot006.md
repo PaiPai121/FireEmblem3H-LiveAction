@@ -1,17 +1,10 @@
-# Shot006 - Old Acquaintance Cinematic V2 Job
+# Shot006 Old Acquaintance
 
-Duration: 30 seconds
-Handles: 2 seconds
+Duration: 30s
 Image: `episodes/EP02/generated/p0_church_identity_v2/Shot006_OldAcquaintance_RheaYouth_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot006.mp4`
-
-## Cinematic Continuity
-
-- Block: Church Authority
-- Transition in: cut on Rhea recognition line
-- Transition out: reaction cut on Jeralt tension
-- Screen / camera rule: center-axis authority; Rhea holds still while others react around her
-- Audio bridge: cathedral reverb, candle hush
+Block: Church Authority
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Rhea faces Jeralt with calm recognition; Jeralt remains guarded and uncomfortabl
 
 Cinematic continuity: Block=Church Authority. Transition in: cut on Rhea recognition line. Transition out: reaction cut on Jeralt tension. Screen/camera rule: center-axis authority; Rhea holds still while others react around her. Audio bridge: cathedral reverb, candle hush. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-slow cross-axis drift between Rhea's light and Jeralt's shadow.
+Camera: slow cross-axis drift between Rhea's light and Jeralt's shadow.
 
 ## Negative Prompt
 

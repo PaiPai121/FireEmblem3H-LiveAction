@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#111820"/>
+  <rect x="48" y="42" width="1184" height="636" rx="14" fill="#f7f9fb"/>
+  <path d="M130 520 C310 430 430 460 570 360 S820 210 1140 170" fill="none" stroke="#717e87" stroke-width="46" stroke-linecap="round" opacity="0.35"/>
+  <rect x="190" y="392" width="300" height="104" rx="10" fill="#315f91"/>
+  <rect x="520" y="284" width="300" height="104" rx="10" fill="#8d2634"/>
+  <rect x="790" y="178" width="300" height="104" rx="10" fill="#c49a31"/>
+  <rect x="870" y="440" width="260" height="96" rx="10" fill="#fff" stroke="#65a37b" stroke-width="10"/>
+  <path d="M340 440 L642 336" stroke="#315f91" stroke-width="18" stroke-linecap="round" marker-end="url(#a1)"/>
+  <path d="M940 230 L685 337" stroke="#c49a31" stroke-width="16" stroke-linecap="round" marker-end="url(#a2)"/>
+  <path d="M675 337 L930 229" stroke="#8d2634" stroke-width="14" stroke-linecap="round" stroke-dasharray="28 12" marker-end="url(#a3)"/>
+  <circle cx="642" cy="336" r="82" fill="none" stroke="#1e2329" stroke-width="8" opacity="0.8"/>
+  <circle cx="642" cy="336" r="18" fill="#1e2329"/>
+  <defs>
+    <marker id="a1" markerWidth="14" markerHeight="14" refX="10" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#315f91"/></marker>
+    <marker id="a2" markerWidth="14" markerHeight="14" refX="10" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#c49a31"/></marker>
+    <marker id="a3" markerWidth="14" markerHeight="14" refX="10" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8d2634"/></marker>
+  </defs>
+  <text x="86" y="102" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#9c2f39">KEY FRAME</text>
+  <text x="86" y="150" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="#1e2329">Shot030B  Felix Breaks Toward Northeast Trigger</text>
+  <text x="86" y="198" font-family="Arial, sans-serif" font-size="24" fill="#41505c">Felix northeast trigger storyboard still</text>
+  <text x="232" y="455" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#fff">Blue Lions pressure</text>
+  <text x="552" y="348" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#fff">Black Eagles line</text>
+  <text x="830" y="242" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#fff">Golden Deer flank</text>
+  <text x="898" y="500" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#34745d">Faculty heal tile+</text>
+</svg>

@@ -6,12 +6,10 @@
   "prompt": "Create a soft reaction montage from the still: Mercedes offers a gentle reassuring look, Annette reacts with nervous energy, Ashe watches earnestly, and Ingrid remains serious and attentive. Keep Mercedes youthful and warm; keep Ashe boyish with pale ash-gray hair.\n\nYouth/beauty guard: Keep academy students youthful, attractive, clean-skinned and official-game-inspired. For war phase students, keep them early-20s and beautiful; show pressure through costume, posture, lighting and setting, not through aging.\n\nCinematic continuity: Block=Three Houses. Transition in: reaction montage breathes after Felix tension. Transition out: audio dip into choice hall. Screen/camera rule: Byleth POV scans class groups then resolves on Blue Lions. Audio bridge: courtyard ambience, banners, restrained footsteps. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.\n\nCamera: subtle rack focus between faces, no fast cuts inside the generated clip.",
   "negative_prompt": "No game UI, no subtitles, no readable text, no watermark, no modern objects. No identity drift, face swaps, costume drift, extra limbs, warped hands, flickering faces, or sudden style changes. Avoid: aging Mercedes, brown- or blond-haired Ashe, overdramatic expressions. No middle-aged face unless canonically required, no old face, no wrinkles, no tired eye bags, no harsh pores, no weathered skin, no gaunt face, no matronly look, no gritty realism, no generic medieval extra. Keep academy students youthful, attractive, clean-skinned and official-game-inspired; for war phase students, keep them early-20s and beautiful, showing war pressure through costume, posture, lighting and setting, not through aging.",
   "output_path": "episodes/EP02/video_outputs/cinematic_v2/Shot016.mp4",
-  "job_file": "episodes/EP02/video_jobs_cinematic_v2_expanded_2026-07-16/Shot016.md",
+  "job_file": "episodes/EP02/video_jobs_cinematic_v2_2026-07-16/Shot016.md",
   "cinematic_block": "Three Houses",
   "transition_in": "reaction montage breathes after Felix tension",
   "transition_out": "audio dip into choice hall",
-  "screen_direction_rule": "Byleth POV scans class groups then resolves on Blue Lions",
-  "audio_bridge": "courtyard ambience, banners, restrained footsteps",
   "editorial_handles_seconds": 2,
   "risk_notes": ""
 }

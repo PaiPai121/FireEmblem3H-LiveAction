@@ -1,17 +1,10 @@
-# Shot002 - Jeralt And Byleth Travel Cinematic V2 Job
+# Shot002 Jeralt And Byleth Travel
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p2_connectors_v1/Shot002_JeraltBylethTravel.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot002.mp4`
-
-## Cinematic Continuity
-
-- Block: Arrival
-- Transition in: match road movement from Shot001
-- Transition out: cut as monastery wall fills frame
-- Screen / camera rule: left-to-right pilgrimage; Byleth and Jeralt move into watched space
-- Audio bridge: low wind, distant bells, boots on stone
+Block: Arrival
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Jeralt and Byleth walk along the stone mountain road behind Church knight escort
 
 Cinematic continuity: Block=Arrival. Transition in: match road movement from Shot001. Transition out: cut as monastery wall fills frame. Screen/camera rule: left-to-right pilgrimage; Byleth and Jeralt move into watched space. Audio bridge: low wind, distant bells, boots on stone. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-medium-wide tracking move from the side and slightly behind.
+Camera: medium-wide tracking move from the side and slightly behind.
 
 ## Negative Prompt
 

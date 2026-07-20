@@ -387,6 +387,13 @@ select {
   margin-bottom: 18px;
 }
 
+.storyboard-controls {
+  display: grid;
+  grid-template-columns: minmax(160px, 220px) minmax(260px, 420px);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
 .storyboard-links a,
 .text-button {
   min-height: 38px;
@@ -406,6 +413,92 @@ select {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   gap: 16px;
+}
+
+.scene-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.scene-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 14px;
+}
+
+.scene-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.scene-card h3 {
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+.scene-filter-button {
+  flex: 0 0 auto;
+  min-height: 34px;
+  padding: 7px 10px;
+  font-size: 12px;
+}
+
+.scene-card-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.scene-card-meta div {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px;
+  background: #fbfcfd;
+}
+
+.scene-card-meta dt {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.scene-card-meta dd {
+  margin: 2px 0 0;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.scene-thumb-strip {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.scene-thumb {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0;
+  background: #dfe4ea;
+  cursor: zoom-in;
+}
+
+.scene-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.empty-inline {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .storyboard-card {
@@ -511,6 +604,54 @@ select {
   color: var(--muted);
   font-size: 13px;
   line-height: 1.5;
+}
+
+.reference-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.reference-grid a,
+.subframe-row {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+  text-decoration: none;
+}
+
+.reference-grid strong,
+.subframe-row strong {
+  font-size: 13px;
+}
+
+.reference-grid span,
+.subframe-row a,
+.subframe-row p {
+  overflow-wrap: anywhere;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.subframe-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.subframe-row {
+  grid-template-columns: minmax(0, 1.6fr) minmax(160px, 1fr);
+  align-items: start;
+}
+
+.subframe-row p {
+  margin: 3px 0 0;
 }
 
 .continuity-list {
@@ -719,6 +860,35 @@ dialog img {
   overflow-wrap: anywhere;
 }
 
+.qa-panel,
+.legacy-frame-note {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.qa-panel p,
+.legacy-frame-note p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.qa-panel ul {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.planned-output {
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
 .icon-button.close {
   position: absolute;
   top: 10px;
@@ -746,6 +916,7 @@ dialog img {
   }
 
   .controls,
+  .storyboard-controls,
   .stats,
   .location-stats,
   .episode-layout,

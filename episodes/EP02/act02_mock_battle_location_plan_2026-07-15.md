@@ -2,91 +2,96 @@
 
 日期：2026-07-15
 
-结论：第二幕学级模拟战场需要拆成多个功能区。当前 `MockBattleGrounds_reference.png` 只能做总览，不能稳定支撑 Shot025-037 的连续动作戏。
+结论修正：第二幕学级模拟战场不能拆成多个小训练功能区。当前 `MockBattleGrounds_reference.png` 需要升级为原作式户外战棋地图总览，再用局部镜头表现东南起点、中西线、林地/thicket、东北 heal tile+ 等区域。
 
-## 为什么要拆
+## 2026-07-17 纠偏
 
-模拟战不是单个空地，它在影视化里承担三件事：
+本文件 2026-07-15 的“Formation Yard / Archery Range / Magic Practice Lane / Side Flank Lane”思路过于训练场化，不符合原作学级模拟战。保留“需要多个可拍摄局部”的生产诉求，但局部必须属于同一张地图，而不是彼此独立的小训练场。
 
-- 让观众看懂规则：这是学院训练，不是真战场。
-- 让动作戏有地理逻辑：弓手、侧翼、支援、前压、防守必须在空间上成立。
+## 为什么仍需要局部
+
+模拟战不是单个空地，也不是多个训练靶场。它在影视化里承担三件事：
+
+- 让观众看懂规则：这是学院模拟战，不是真战场。
+- 让动作戏有地理逻辑：东南起点、中西部第一波、林地、东北触发区和治疗地形必须在空间上成立。
 - 让角色关系落地：Byleth 的教学、Felix 的失位、Dimitri 的锋芒、Dedue 的守护，都需要不同机位和功能区。
 
-如果只用一个训练场总参考，视频生成容易出现：
+如果只用一个远景总参考，视频生成容易出现：
 
 - 所有动作像发生在同一块草地上。
 - 弓术、魔法、侧翼和阵型没有空间区别。
 - 镜头之间方向感混乱。
-- 打斗戏容易漂成真实战场或中世纪乱斗。
+- 打斗戏容易漂成真实战场、中世纪乱斗，或误回到训练场靶道。
 
 ## 推荐场地结构
 
-### 1. Formation Yard / 队列规则区
+### 1. Southeast Start / 东南起点
 
 用途：
 
 - Shot025：模拟战规则建立
-- Shot026：Byleth 安排 Blue Lions 阵型
-- Shot034：演习结束
+- Shot026：Byleth 安排 Blue Lions 路线
+- Shot035/036：战后人物反应
 
 视觉要点：
 
-- 开阔训练场中央。
-- 三学级分区列队。
-- 武器架、盾架、哨台、教师观察点。
-- 地面有浅色粉线或木桩边界，但不要游戏网格。
+- 东南边缘地势略低，能看见北侧/西侧远处压力。
+- Byleth 可在泥地上画简图。
+- 有训练武器和教会治疗者，但不要做成操场列队。
+- 地面可有自然路径、石路、草坡，不能有游戏网格。
 
-### 2. Archery Range / 弓术靶道
+### 2. Mid-West Pressure Line / 中西部第一波
 
 用途：
 
-- Shot027：Ashe 远程压制
+- Shot027：Dorothea、Lorenz、Ignatz 主动压上
+- Shot028：Annette/Mercedes 稳住后线
 
 视觉要点：
 
-- 草靶、软垫盾靶、箭壶、钝箭回收箱。
-- 侧边或略高的平台，让 Ashe 有“支援位”。
-- 明确没有人站在射击路径里。
+- 草坡、石路、低墙和稀疏树丛组成推进线。
+- Ashe 的高点是自然地形或低石阶，不是弓术靶场。
+- 训练箭表现为压制路线和打断推进，不表现伤害命中。
 
-### 3. Magic Practice Lane / 魔法练习区
-
-用途：
-
-- Shot028：Annette/Mercedes 支援
-
-视觉要点：
-
-- 石板圆环或低矮训练标记。
-- 小型安全魔法练习灯/护符靶。
-- 背景和主战区有距离，避免魔法支援像战场爆炸。
-
-### 4. Side Flank Lane / 侧翼通道
+### 3. Thicket / 林地与掩体
 
 用途：
 
 - Shot029：Sylvain/Ingrid 侧翼
-- Shot030：Felix 失位前突
-- Shot031：Byleth 制止 Felix
+- Claude/Hilda 的机动与诱导
 
 视觉要点：
 
-- 训练场边缘的长向通道。
-- 木栏、低矮障碍、盾靶和旗帜形成运动方向。
-- 足够窄，让“脱离阵型”和“侧翼切入”看得懂。
+- 树丛、长草、低石墙、斜坡。
+- 黄旗或金鹿标识只做阵营识别，不要像训练标牌。
+- 需要能表现“藏在 thicket 后等待触发”的位置感。
 
-### 5. Defensive Station / 防守练习位
+### 4. Northeast Trigger Approach / 东北触发入口
 
 用途：
 
-- Shot032：Dedue 守护 Dimitri
-- Shot033：Dimitri 压住锋芒
-- Shot036：Dimitri 暗线
+- Shot030：Felix 失位前突
+- Shot031：Byleth 制止 Felix
+- Shot032：Dedue/Dimitri 进入压力线
 
 视觉要点：
 
-- 盾牌架、软垫盾、训练长杆。
-- 比主场地更靠内侧，适合中景和手部特写。
-- 背景仍能看到 Blue Lions 学生，保持同一场训练连续性。
+- 不是训练通道，而是通向北侧敌群的石阶/坡道/低墙缺口。
+- 远处能隐约看到红黑旗、黄旗和教师身影。
+- 视觉上必须说明 Felix 再推进会让两组敌人同时动。
+
+### 5. Heal Tile+ Faculty Line / 教师治疗地形线
+
+用途：
+
+- Shot033：Dimitri 压住锋芒
+- Shot034：Hanneman/Manuela 退让，完成 rout
+
+视觉要点：
+
+- 刻有治疗纹或白魔法纹样的石地/台阶，不是擂台。
+- Hanneman 施放 Sagittae/Wind，Manuela 使用 Nosferatu/Heal/Ward 支援。
+- Blue Lions 目标是迫使两人离开治疗地形并切断支援，不是击倒裁判。
 
 ### 6. Observation Edge / 教会观察边线
 
@@ -96,19 +101,18 @@
 
 视觉要点：
 
-- 训练场高处或柱廊边缘。
+- 模拟战地图高处或柱廊边缘。
 - 前景 Rhea/Seteth，远处训练场学生小而清楚。
 - 长焦压缩，政治监视感强。
 
-## 资产生成清单
+## 资产生成清单修正
 
-建议在 `assets/locations/EP02/act02/` 下新增：
+已有/建议复用的地图局部：
 
-- `MockBattleGrounds_FormationYard/`
-- `MockBattleGrounds_ArcheryRange/`
-- `MockBattleGrounds_MagicPracticeLane/`
-- `MockBattleGrounds_SideFlankLane/`
-- `MockBattleGrounds_DefensiveStation/`
+- `MockBattleGrounds/`：整张原作式户外地图总览
+- `MockBattleGrounds_BlueVsGolden_FlankRange/`：中西部林地与 thicket
+- `MockBattleGrounds_BlueVsBlack_TacticalLane/`：东北触发入口与教师压力线
+- `MockBattleGrounds_BlackVsGolden_Backfield/`：北侧敌方纵深与 rout 收束
 - `MockBattleGrounds_ObservationEdge/`
 
 每个目录至少包含：
@@ -120,32 +124,32 @@
 
 | Shot | 当前地点 | 建议地点 |
 | --- | --- | --- |
-| Shot025 | TrainingGround / MockBattleGrounds | FormationYard |
-| Shot026 | TrainingGround | FormationYard |
-| Shot027 | TrainingGround | ArcheryRange |
-| Shot028 | TrainingGround | MagicPracticeLane |
-| Shot029 | TrainingGround | SideFlankLane |
-| Shot030 | TrainingGround | SideFlankLane |
-| Shot031 | TrainingGround | SideFlankLane |
-| Shot032 | TrainingGround | DefensiveStation |
-| Shot033 | TrainingGround | DefensiveStation |
-| Shot034 | TrainingGround | FormationYard |
-| Shot035 | TrainingGround | SideFlankLane or FormationYard edge |
-| Shot036 | TrainingGround | DefensiveStation |
-| Shot037 | TrainingGround edge | ObservationEdge |
+| Shot025 | TrainingGround / MockBattleGrounds | 原作式户外地图总览 |
+| Shot026 | TrainingGround | 东南起点 |
+| Shot027 | TrainingGround | 中西部第一波压力线 |
+| Shot028 | TrainingGround | 东南后线支援位 |
+| Shot029 | TrainingGround | 林地 / thicket |
+| Shot030 | TrainingGround | 东北触发入口 |
+| Shot031 | TrainingGround | 东北触发入口 |
+| Shot032 | TrainingGround | 东北入口盾线 |
+| Shot033 | TrainingGround | 教师 heal tile+ 前 |
+| Shot034 | TrainingGround | 教师 heal tile+ 与北侧敌方纵深 |
+| Shot035 | TrainingGround | 地图边缘 |
+| Shot036 | TrainingGround | 地图边缘 |
+| Shot037 | TrainingGround edge | 观察边线俯看整张地图 |
 
 ## 生成优先级
 
 P0：
 
-1. FormationYard
-2. ArcheryRange
-3. SideFlankLane
-4. DefensiveStation
+1. `MockBattleGrounds` 原作式总览
+2. 中西部林地 / thicket
+3. 东北触发入口
+4. Heal tile+ 教师支援线
 
 P1：
 
-5. MagicPracticeLane
+5. 东南后线支援位
 6. ObservationEdge
 
-原因：P0 四个区覆盖大多数动作镜头和空间连续性。MagicPracticeLane 和 ObservationEdge 重要，但可以在第二轮接入。
+原因：P0 四个区覆盖原作地图逻辑和关键战术误区。后线支援与观察边线重要，但可以在第二轮接入。

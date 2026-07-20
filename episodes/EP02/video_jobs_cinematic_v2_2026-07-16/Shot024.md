@@ -1,17 +1,10 @@
-# Shot024 - Felix Stands Cinematic V2 Job
+# Shot024 Felix Stands
 
-Duration: 8 seconds
-Handles: 2 seconds
+Duration: 8s
 Image: `episodes/EP02/generated/p1_grounded_identity_v3/Shot024_FelixStands_grounded_v3.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot024.mp4`
-
-## Cinematic Continuity
-
-- Block: First Class
-- Transition in: chair scrape breaks silence
-- Transition out: whistle prelap to training field
-- Screen / camera rule: front-of-class geometry; Byleth controls tempo, Felix breaks stillness
-- Audio bridge: chair scrape, wood desk, short breath
+Block: First Class
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=First Class. Transition in: chair scrape breaks silence. Transition out: whistle prelap to training field. Screen/camera rule: front-of-class geometry; Byleth controls tempo, Felix breaks stillness. Audio bridge: chair scrape, wood desk, short breath. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-small upward tilt following Felix standing.
+Camera: small upward tilt following Felix standing.
 
 ## Negative Prompt
 

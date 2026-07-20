@@ -1,17 +1,10 @@
-# Shot037 - Church Observation Cinematic V2 Job
+# Shot037 Church Observation
 
-Duration: 12 seconds
-Handles: 2 seconds
+Duration: 12s
 Image: `episodes/EP02/generated/p0_rhea_youth_v2/Shot037_ChurchObservation_RheaYouth_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot037.mp4`
-
-## Cinematic Continuity
-
-- Block: Observation Echo
-- Transition in: surveillance reframes training as church interest
-- Transition out: green shimmer prelap into night corridor
-- Screen / camera rule: long-lens surveillance into night subjective unease
-- Audio bridge: distant training fades into night corridor and green shimmer
+Block: Observation Echo
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Observation Echo. Transition in: surveillance reframes training as church interest. Transition out: green shimmer prelap into night corridor. Screen/camera rule: long-lens surveillance into night subjective unease. Audio bridge: distant training fades into night corridor and green shimmer. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-long-lens compressed hold with a subtle drift from students to Rhea and Seteth.
+Camera: long-lens compressed hold with a subtle drift from students to Rhea and Seteth.
 
 ## Negative Prompt
 

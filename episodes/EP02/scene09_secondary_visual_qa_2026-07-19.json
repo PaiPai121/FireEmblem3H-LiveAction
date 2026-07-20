@@ -1,0 +1,1057 @@
+{
+  "summary": {
+    "version": "2026-07-19",
+    "scope": "EP02 Scene09 mock battle start/keyframe secondary visual QA",
+    "total": 36,
+    "passed": 36,
+    "needs_review": 0,
+    "policy": "Pass requires qa_passed production status, qa_passed manifest status, existing 16:9 raster start/key PNGs, four or more QA checks, and recorded start-key association. This is file-delivery QA, not creative/cinematic approval.",
+    "remaining_video_gate": "Generate motion samples before treating any shot as final video-ready."
+  },
+  "rows": [
+    {
+      "shot": "Shot025",
+      "title": "Mock Battle Setup",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025_start.png",
+        "exists": true,
+        "bytes": 2977295,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025_keyframe.png",
+        "exists": true,
+        "bytes": 2945328,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start establishes empty/quiet tactical field; keyframe advances the same geography into three-house entry and lineup",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot025A",
+      "title": "Canon 20x22 Field Map",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025A_start.png",
+        "exists": true,
+        "bytes": 2870235,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot025A_keyframe.png",
+        "exists": true,
+        "bytes": 3119138,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start establishes full practice-grid geography and separated house positions; keyframe advances into canon-map tactical layout emphasis.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot026",
+      "title": "Blue Lions Formation",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026_start.png",
+        "exists": true,
+        "bytes": 2657919,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026_keyframe.png",
+        "exists": true,
+        "bytes": 2719947,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows the route briefing beginning at the dirt map; keyframe advances to the command-response moment after roles are assigned",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot026B",
+      "title": "Byleth Southeast Route Call",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026B_start.png",
+        "exists": true,
+        "bytes": 2065690,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026B_keyframe.png",
+        "exists": true,
+        "bytes": 2642517,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start holds Byleth before issuing southeast route direction; keyframe advances into the route call being executed.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot026C",
+      "title": "Blue Lions Horn Charge",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_start.png",
+        "exists": true,
+        "bytes": 2767885,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot026C_keyframe.png",
+        "exists": true,
+        "bytes": 2736270,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Blue Lions planted before the horn-call advance; keyframe advances into first controlled formation movement.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot027",
+      "title": "Ashe Archer Support",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_start.png",
+        "exists": true,
+        "bytes": 1905955,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027_keyframe.png",
+        "exists": true,
+        "bytes": 2373836,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start places Ashe at support position with practice bow lowered; keyframe advances into active support coverage without impact.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot027B",
+      "title": "First Moving Enemy Wave",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_start.png",
+        "exists": true,
+        "bytes": 2741476,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_keyframe.png",
+        "exists": true,
+        "bytes": 2834215,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start shows compact named Black Eagles line before movement; key advances into Ferdinand-led first moving wave toward Blue Lions.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot027C",
+      "title": "Dimitri Dedue First Contact",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_start.png",
+        "exists": true,
+        "bytes": 2863891,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027C_keyframe.png",
+        "exists": true,
+        "bytes": 2632085,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows approach into central passage; keyframe advances to first controlled practice-weapon line with same opposing teams and direction",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot027D",
+      "title": "Dimitri Forces One Step Back",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_start.png",
+        "exists": true,
+        "bytes": 2647449,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027D_keyframe.png",
+        "exists": true,
+        "bytes": 2553469,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start keeps Dimitri and Dedue separated from Black Eagles before pressure; keyframe advances into the Blue Lions forcing one controlled step back.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot028",
+      "title": "Annette / Mercedes Support",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_start.png",
+        "exists": true,
+        "bytes": 2335005,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_keyframe.png",
+        "exists": true,
+        "bytes": 2424384,
+        "width": 1672,
+        "height": 940
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Annette and Mercedes readying support light; keyframe advances into the support beat without injury or impact.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot028B",
+      "title": "Black Eagles Stabilize Center",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028B_start.png",
+        "exists": true,
+        "bytes": 2702090,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028B_keyframe.png",
+        "exists": true,
+        "bytes": 2744100,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Edelgard organizing the center; keyframe advances into Black Eagles stabilizing under pressure.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot028C",
+      "title": "Felix Side Cut Held",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028C_start.png",
+        "exists": true,
+        "bytes": 2248782,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028C_keyframe.png",
+        "exists": true,
+        "bytes": 2720420,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start holds Felix before committing to the side lane; keyframe advances into the side cut being checked.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot029",
+      "title": "Sylvain / Ingrid Side Flank",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_start.png",
+        "exists": true,
+        "bytes": 2847206,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_keyframe.png",
+        "exists": true,
+        "bytes": 2850073,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start holds Sylvain/Ingrid guarding west thicket with long lances; key advances into their pivot as Golden Deer pressure becomes visible.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot029B",
+      "title": "Sylvain Ingrid Thicket Flank",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_hilda_youth_v4_regen",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_start.png",
+        "exists": true,
+        "bytes": 2905508,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_keyframe.png",
+        "exists": true,
+        "bytes": 2798529,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start holds Golden Deer in thicket cover; keyframe advances into Hilda stepping out while Sylvain/Ingrid turn to contain the west-side pressure.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot029C",
+      "title": "Claude Reads Blue Lions Stretch",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_start.png",
+        "exists": true,
+        "bytes": 2274270,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029C_keyframe.png",
+        "exists": true,
+        "bytes": 2253558,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Claude reading both Blue Lions stretch and Black Eagles center; keyframe advances into Golden Deer disruption planning.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot029D",
+      "title": "Ashe Observation Point Suppressed",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_start.png",
+        "exists": true,
+        "bytes": 2380286,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029D_keyframe.png",
+        "exists": true,
+        "bytes": 2414136,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start holds Ashe at observation before line-of-sight pressure; keyframe advances into the observation point being suppressed.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot030",
+      "title": "Felix Breaks Formation",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030_start.png",
+        "exists": true,
+        "bytes": 2005405,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030_keyframe.png",
+        "exists": true,
+        "bytes": 2982413,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start catches Felix before leaving formation; keyframe advances into the formation break impulse.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot030B",
+      "title": "Felix Breaks Toward Northeast Trigger",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030B_start.png",
+        "exists": true,
+        "bytes": 2976537,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030B_keyframe.png",
+        "exists": true,
+        "bytes": 2923492,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start establishes the open northeast route before Felix steps toward it; keyframe advances into the northeast trigger beat.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot030C",
+      "title": "Support Route Cut",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_emptyhands_regen",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_start.png",
+        "exists": true,
+        "bytes": 2736552,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_keyframe.png",
+        "exists": true,
+        "bytes": 2660722,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start shows support route open with Mercedes empty-handed; keyframe advances into safe arrows marking the route cut while Mercedes pulls Annette down behind cover.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot031",
+      "title": "Byleth Stops Felix",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031_start.png",
+        "exists": true,
+        "bytes": 2137614,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031_keyframe.png",
+        "exists": true,
+        "bytes": 2705617,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start catches Byleth just before stopping Felix; keyframe advances into the intervention beat.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot031B",
+      "title": "Byleth Refuses Recall",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_start.png",
+        "exists": true,
+        "bytes": 2545039,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_keyframe.png",
+        "exists": true,
+        "bytes": 2703643,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Byleth weighing recall with the formation expecting a pullback; keyframe advances into the decision to keep pressure forward.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot032",
+      "title": "Dedue Guards Dimitri",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_start.png",
+        "exists": true,
+        "bytes": 2836546,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032_keyframe.png",
+        "exists": true,
+        "bytes": 2438798,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 6,
+      "start_key_association": "same low-medium rear-left camera and blocking; keyframe advances the start by adding Mercedes healing light to Dedue shield arm/shoulder guard while the enemy pressure remains in front",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot032B",
+      "title": "Dimitri Dedue Northeast Hold",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_start.png",
+        "exists": true,
+        "bytes": 2976076,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032B_keyframe.png",
+        "exists": true,
+        "bytes": 2743635,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Dimitri and Dedue steady and unhurt near the northeast hold; keyframe advances into that lane being tested.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot032C",
+      "title": "Black Eagles Pressure Golden Deer",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_black_eagles_highlight_regen",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_start.png",
+        "exists": true,
+        "bytes": 3109503,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_keyframe.png",
+        "exists": true,
+        "bytes": 3098420,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start shows Edelgard signaling Hubert before the counterpressure; keyframe advances into Hubert/Dorothea squeezing Claude/Hilda out of their safe thicket angle.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot032D",
+      "title": "Two Adjacent Battle Lines",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_start.png",
+        "exists": true,
+        "bytes": 3277960,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032D_keyframe.png",
+        "exists": true,
+        "bytes": 3035911,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows two adjacent lines still separated and readable; keyframe advances into the lines compressing into the same tactical space.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot032E",
+      "title": "First Three-Way Entanglement",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_hilda_youth_v4_regen",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_start.png",
+        "exists": true,
+        "bytes": 3204026,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_keyframe.png",
+        "exists": true,
+        "bytes": 3083002,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start holds three lines separated around central obstacles; keyframe advances into controlled three-way compression with Hilda v4 and readable house roles.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot033",
+      "title": "Dimitri Restraint",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033_start.png",
+        "exists": true,
+        "bytes": 2058534,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033_keyframe.png",
+        "exists": true,
+        "bytes": 2407126,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start isolates Dimitri before choosing restraint; keyframe advances into the restraint beat under Dedue and Byleth’s watch.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot033B",
+      "title": "Byleth Calls Cut Teachers",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_start.png",
+        "exists": true,
+        "bytes": 2769704,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_keyframe.png",
+        "exists": true,
+        "bytes": 2968529,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start shows Byleth recognizing the teacher-platform objective; key advances into Blue Lions peeling to separate routes on Byleth command.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot033C",
+      "title": "Ashe Suppresses Hanneman",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_creative_logic_regen_2026-07-20_video_monitor",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_start.png",
+        "exists": true,
+        "bytes": 2395246,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_keyframe.png",
+        "exists": true,
+        "bytes": 2415193,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start holds Ashe observing the teacher platform; key advances into arrow suppression of Hanneman spell angle at the step.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot033D",
+      "title": "Ingrid Drives Manuela Off Tile",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_creative_logic_regen_2026-07-20",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_start.png",
+        "exists": true,
+        "bytes": 2609350,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_keyframe.png",
+        "exists": true,
+        "bytes": 2748091,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 5,
+      "start_key_association": "start shows Ingrid approaching the teacher platform route; key advances into Ingrid blocking Manuela return path off the healing sigil.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot034",
+      "title": "Exercise Ends",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034_start.png",
+        "exists": true,
+        "bytes": 3088422,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034_keyframe.png",
+        "exists": true,
+        "bytes": 2825827,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start holds the whole field just before the call; keyframe advances into the exercise end and Blue Lions win state.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot034B",
+      "title": "Faculty Heal Tile Rout",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_start.png",
+        "exists": true,
+        "bytes": 2806104,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034B_keyframe.png",
+        "exists": true,
+        "bytes": 2724200,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start establishes the faculty heal tile route still open; keyframe advances into that route being sealed by Blue Lions positioning.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot034C",
+      "title": "Felix Opens Stairs For Dimitri",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_start.png",
+        "exists": true,
+        "bytes": 2536060,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_keyframe.png",
+        "exists": true,
+        "bytes": 2325502,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Felix seeing the stair lane before opening it; keyframe advances into Felix creating the route for Dimitri.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot034D",
+      "title": "Byleth Breaks Hanneman Spell",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed_after_sheathed_wrist_regen",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_start.png",
+        "exists": true,
+        "bytes": 2599775,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_keyframe.png",
+        "exists": true,
+        "bytes": 2238300,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Hanneman practice spell forming as Byleth approaches; keyframe advances into Byleth stopping the spell angle with a visible sheathed sword.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot035",
+      "title": "Felix Respect Beat",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot035_start.png",
+        "exists": true,
+        "bytes": 2134678,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot035_keyframe.png",
+        "exists": true,
+        "bytes": 2574469,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "start shows Felix before acknowledging Byleth; keyframe advances into the restrained respect beat after victory.",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    },
+    {
+      "shot": "Shot036",
+      "title": "Dimitri Dark-Line Beat",
+      "status": "secondary_review_passed",
+      "production_status": "qa_passed",
+      "qa_status": "qa_passed",
+      "start": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot036_start.png",
+        "exists": true,
+        "bytes": 2032690,
+        "width": 1672,
+        "height": 941
+      },
+      "key": {
+        "path": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot036_keyframe.png",
+        "exists": true,
+        "bytes": 2091745,
+        "width": 1672,
+        "height": 941
+      },
+      "start_gate": "pass",
+      "key_gate": "pass",
+      "check_count": 4,
+      "start_key_association": "same-camera pair; start holds Dimitri tension before full restraint, keyframe settles under Byleth open-hand signal",
+      "notes": [
+        "Second-pass desk review validates delivery integrity, dimensions, file weight, QA checks and start-to-key association.",
+        "Video-motion continuity still requires generated video samples; this review does not certify final video motion."
+      ]
+    }
+  ]
+}

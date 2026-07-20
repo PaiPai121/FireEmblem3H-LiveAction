@@ -1,17 +1,10 @@
-# Shot019 - Dimitri Accepts Teacher Cinematic V2 Job
+# Shot019 Dimitri Accepts Teacher
 
-Duration: 12 seconds
-Handles: 2 seconds
+Duration: 12s
 Image: `episodes/EP02/generated/p1_youth_identity_v2/Shot019_DimitriAcceptsTeacher_youth_identity_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot019.mp4`
-
-## Cinematic Continuity
-
-- Block: Three Houses
-- Transition in: Dimitri bows into new bond
-- Transition out: night door close into Jeralt warning
-- Screen / camera rule: Byleth POV scans class groups then resolves on Blue Lions
-- Audio bridge: courtyard ambience, banners, restrained footsteps
+Block: Three Houses
+Audio bridge: undefined
 
 ## Prompt
 
@@ -23,9 +16,7 @@ Dedue body lock: Dedue must be very tall, broad-shouldered, thick-chested and po
 
 Cinematic continuity: Block=Three Houses. Transition in: Dimitri bows into new bond. Transition out: night door close into Jeralt warning. Screen/camera rule: Byleth POV scans class groups then resolves on Blue Lions. Audio bridge: courtyard ambience, banners, restrained footsteps. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-medium-wide hold, slight push toward Dimitri's bow.
+Camera: medium-wide hold, slight push toward Dimitri's bow.
 
 ## Negative Prompt
 

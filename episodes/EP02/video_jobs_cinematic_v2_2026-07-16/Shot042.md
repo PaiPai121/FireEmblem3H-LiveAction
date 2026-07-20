@@ -1,17 +1,10 @@
-# Shot042 - Hard Cut To Black Cinematic V2 Job
+# Shot042 Hard Cut To Black
 
-Duration: 4 seconds
-Handles: 0 seconds
+Duration: 4s
 Image: ``
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot042.mp4`
-
-## Cinematic Continuity
-
-- Block: Conspiracy
-- Transition in: hard black impact
-- Transition out: hold black tail
-- Screen / camera rule: low-angle secret exchange; final push into mask and hard black
-- Audio bridge: low fog, torch, sub hit to black
+Block: Conspiracy
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ Hard cut to black after the Flame Emperor mask close-up. Hold black with low-fre
 
 Cinematic continuity: Block=Conspiracy. Transition in: hard black impact. Transition out: hold black tail. Screen/camera rule: low-angle secret exchange; final push into mask and hard black. Audio bridge: low fog, torch, sub hit to black. Generate with 0s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-none.
+Camera: none.
 
 ## Negative Prompt
 

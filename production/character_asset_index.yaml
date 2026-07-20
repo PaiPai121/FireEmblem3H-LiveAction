@@ -17,6 +17,7 @@ status_definitions:
   candidates_youth_beauty_v2: 已按年轻化与美化规范生成并同步 selected
   candidates_robust_v2: 已按体格/轮廓反馈强化并同步 selected
   candidates_twin_tail_fix_v2: 已按官方发型反馈修正并同步 selected
+  candidates_youth18_2026-07-18: 已按学院篇统一 18 岁视觉年龄重生并同步 selected
 global_rules:
   casting_aesthetic:
     priority: 身份锚点第一，年轻美貌第二，写实粗粝最后
@@ -148,12 +149,13 @@ characters:
   path: assets/characters/black_eagles/Hubert
   eras:
     academy:
-      status: candidates_v3
+      status: candidates_youth18_2026-07-18
       path: assets/characters/black_eagles/Hubert/academy
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Hubert/academy/candidates_v3
-      latest_candidate: assets/characters/black_eagles/Hubert/academy/candidates_v3/candidate_01.png
-      notes: 学院篇新版候选已生成。
+      candidate_set: assets/characters/black_eagles/Hubert/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/black_eagles/Hubert/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Hubert/academy/candidates_v3
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留遮眼黑发、黑鹫制服和阴郁参谋气质，但不再读成成年顾问。
       selected_candidate: assets/characters/black_eagles/Hubert/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -170,12 +172,13 @@ characters:
   path: assets/characters/black_eagles/Ferdinand
   eras:
     academy:
-      status: candidates_v3
+      status: candidates_youth18_2026-07-18
       path: assets/characters/black_eagles/Ferdinand/academy
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Ferdinand/academy/candidates_v3
-      latest_candidate: assets/characters/black_eagles/Ferdinand/academy/candidates_v3/candidate_01.png
-      notes: 学院篇新版候选已生成。
+      candidate_set: assets/characters/black_eagles/Ferdinand/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/black_eagles/Ferdinand/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Ferdinand/academy/candidates_v3
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留橙发、贵族自信和黑鹫制服，但不再读成成年骑士军官。
       selected_candidate: assets/characters/black_eagles/Ferdinand/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -192,12 +195,13 @@ characters:
   path: assets/characters/black_eagles/Linhardt
   eras:
     academy:
-      status: candidates_v3
+      status: candidates_youth18_2026-07-18
       path: assets/characters/black_eagles/Linhardt/academy
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Linhardt/academy/candidates_v3
-      latest_candidate: assets/characters/black_eagles/Linhardt/academy/candidates_v3/candidate_01.png
-      notes: 学院篇新版候选已生成。
+      candidate_set: assets/characters/black_eagles/Linhardt/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/black_eagles/Linhardt/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Linhardt/academy/candidates_v3
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留绿发和困倦学者气质，但避免疲惫成人教士感。
       selected_candidate: assets/characters/black_eagles/Linhardt/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -258,13 +262,13 @@ characters:
   path: assets/characters/black_eagles/Dorothea
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth18_2026-07-18
       path: assets/characters/black_eagles/Dorothea/academy
       needs_regeneration: false
-      candidate_set: assets/characters/black_eagles/Dorothea/academy/candidates_reference_v1
-      latest_candidate: assets/characters/black_eagles/Dorothea/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/black_eagles/Dorothea/academy/candidates_v3
-      notes: reference v1 已生成，官方学院篇服装识别强于 v3。
+      candidate_set: assets/characters/black_eagles/Dorothea/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/black_eagles/Dorothea/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/black_eagles/Dorothea/academy/candidates_reference_v1
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留长棕发、红耳饰和歌姬魅力，但不再读成成熟成人演员。
       selected_candidate: assets/characters/black_eagles/Dorothea/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -332,13 +336,13 @@ characters:
   path: assets/characters/blue_lions/Dedue
   eras:
     academy:
-      status: candidates_robust_v2
+      status: candidates_youth18_2026-07-18
       path: assets/characters/blue_lions/Dedue/academy
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Dedue/academy/candidates_robust_v2
-      latest_candidate: assets/characters/blue_lions/Dedue/academy/candidates_robust_v2/candidate_01.png
-      previous_candidate_set: assets/characters/blue_lions/Dedue/academy/candidates_v3
-      notes: robust v2 已同步 selected；回应观众反馈，强化宽肩、厚胸、粗壮手臂和盾墙体格，同时保留白发、耳饰和青狮学院制服。
+      candidate_set: assets/characters/blue_lions/Dedue/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/blue_lions/Dedue/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/blue_lions/Dedue/academy/candidates_robust_v2
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留高大强壮体格、白发和青狮制服，但脸部不再读成成年侍从/老练护卫。
       selected_candidate: assets/characters/blue_lions/Dedue/academy/selected.png
     war:
       status: candidates_robust_v2
@@ -424,13 +428,13 @@ characters:
   path: assets/characters/blue_lions/Mercedes
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth18_fidelity_v2_2026-07-19
       path: assets/characters/blue_lions/Mercedes/academy
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Mercedes/academy/candidates_reference_v1
-      latest_candidate: assets/characters/blue_lions/Mercedes/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/blue_lions/Mercedes/academy/candidates_v3
-      notes: reference v1 已生成，官方侧马尾、白领巾和米色披肩识别强于 v3。
+      candidate_set: assets/characters/blue_lions/Mercedes/academy/candidates_youth18_fidelity_v2_2026-07-19
+      latest_candidate: assets/characters/blue_lions/Mercedes/academy/candidates_youth18_fidelity_v2_2026-07-19/candidate_01.png
+      previous_candidate_set: assets/characters/blue_lions/Mercedes/academy/candidates_youth18_2026-07-18
+      notes: youth18_fidelity_v2 已同步 selected；修正 2026-07-18 版妆发服装漂移问题，在 18 岁脸龄下保留浅金侧束发、黑金发结、白高领领巾、金色胸前线条、米色披肩、蓝线纹和青狮制服。
       selected_candidate: assets/characters/blue_lions/Mercedes/academy/selected.png
     war:
       status: candidates_grounded_face_v3
@@ -447,13 +451,13 @@ characters:
   path: assets/characters/blue_lions/Annette
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth18_2026-07-18
       path: assets/characters/blue_lions/Annette/academy
       needs_regeneration: false
-      candidate_set: assets/characters/blue_lions/Annette/academy/candidates_reference_v1
-      latest_candidate: assets/characters/blue_lions/Annette/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/blue_lions/Annette/academy/candidates_v3
-      notes: reference v1 已生成，官方双侧卷发、米色胸前面板和学生表情识别强于 v3。
+      candidate_set: assets/characters/blue_lions/Annette/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/blue_lions/Annette/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/blue_lions/Annette/academy/candidates_reference_v1
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留橙发、双侧卷发和努力学生气质，修正旧图偏 20+ 成人感。
       selected_candidate: assets/characters/blue_lions/Annette/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -523,13 +527,13 @@ characters:
   path: assets/characters/golden_deer/Lorenz
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth18_2026-07-18
       path: assets/characters/golden_deer/Lorenz/academy
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Lorenz/academy/candidates_reference_v1
-      latest_candidate: assets/characters/golden_deer/Lorenz/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/golden_deer/Lorenz/academy/candidates_v3
-      notes: reference v1 已生成，官方紫色贵族 bob、红玫瑰和学院制服识别强于 v3。
+      candidate_set: assets/characters/golden_deer/Lorenz/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/golden_deer/Lorenz/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Lorenz/academy/candidates_reference_v1
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留紫色贵族 bob、红玫瑰和学院制服，但不再读成成年廷臣。
       selected_candidate: assets/characters/golden_deer/Lorenz/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -546,13 +550,13 @@ characters:
   path: assets/characters/golden_deer/Raphael
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth18_2026-07-18
       path: assets/characters/golden_deer/Raphael/academy
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Raphael/academy/candidates_reference_v1
-      latest_candidate: assets/characters/golden_deer/Raphael/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/golden_deer/Raphael/academy/candidates_v3
-      notes: reference v1 已生成，官方宽肩体格、白衬衫和黑背带识别强于 v3。
+      candidate_set: assets/characters/golden_deer/Raphael/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/golden_deer/Raphael/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Raphael/academy/candidates_reference_v1
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留宽肩壮硕体格和开朗气质，但脸部不再读成 20+ 成年壮汉。
       selected_candidate: assets/characters/golden_deer/Raphael/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -638,13 +642,13 @@ characters:
   path: assets/characters/golden_deer/Hilda
   eras:
     academy:
-      status: candidates_grounded_twin_tail_v3
+      status: candidates_youth_identity_v4_2026-07-19
       path: assets/characters/golden_deer/Hilda/academy
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_grounded_twin_tail_v3
-      latest_candidate: assets/characters/golden_deer/Hilda/academy/candidates_grounded_twin_tail_v3/candidate_01.png
-      previous_candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_twin_tail_fix_v2
-      notes: grounded twin-tail v3 已同步 selected；保留学院篇官方粉色双马尾方向，同时降低 twin-tail fix v2 的娃娃脸/AI 精修感，转向更自然的真人电影选角。
+      candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_youth_identity_v4_2026-07-19
+      latest_candidate: assets/characters/golden_deer/Hilda/academy/candidates_youth_identity_v4_2026-07-19/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Hilda/academy/candidates_grounded_twin_tail_v3
+      notes: youth identity v4 已同步 selected；修正 grounded twin-tail v3 仍偏成熟的问题，保持粉色双马尾、学院制服、金鹿色块和训练斧，同时强化学院篇学生脸龄。
       selected_candidate: assets/characters/golden_deer/Hilda/academy/selected.png
     war:
       status: candidates_reference_v1
@@ -661,13 +665,13 @@ characters:
   path: assets/characters/golden_deer/Leonie
   eras:
     academy:
-      status: candidates_reference_v1
+      status: candidates_youth18_2026-07-18
       path: assets/characters/golden_deer/Leonie/academy
       needs_regeneration: false
-      candidate_set: assets/characters/golden_deer/Leonie/academy/candidates_reference_v1
-      latest_candidate: assets/characters/golden_deer/Leonie/academy/candidates_reference_v1/candidate_01.png
-      previous_candidate_set: assets/characters/golden_deer/Leonie/academy/candidates_v4
-      notes: reference v1 已生成，官方短橙发、年轻女性身份和佣兵学生气质识别强于 v4。
+      candidate_set: assets/characters/golden_deer/Leonie/academy/candidates_youth18_2026-07-18
+      latest_candidate: assets/characters/golden_deer/Leonie/academy/candidates_youth18_2026-07-18/candidate_01.png
+      previous_candidate_set: assets/characters/golden_deer/Leonie/academy/candidates_reference_v1
+      notes: youth18 已同步 selected；按所有学院篇学生向 18 岁靠拢的口径重生，保留短橙发、弓手/佣兵学生气质和金鹿制服，但不再读成成年雇佣兵。
       selected_candidate: assets/characters/golden_deer/Leonie/academy/selected.png
     war:
       status: candidates_reference_v1

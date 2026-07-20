@@ -1,17 +1,10 @@
-# Shot020 - Jeralt Private Warning Cinematic V2 Job
+# Shot020 Jeralt Private Warning
 
-Duration: 30 seconds
-Handles: 2 seconds
+Duration: 30s
 Image: `episodes/EP02/generated/p2_connectors_v1/Shot020_JeraltPrivateWarning.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot020.mp4`
-
-## Cinematic Continuity
-
-- Block: Private Warning
-- Transition in: door close starts private warning
-- Transition out: cut on Jeralt hand reaching badge
-- Screen / camera rule: static pressure and silence; cuts land on objects and withheld reactions
-- Audio bridge: door close, paper, badge drop, night room tone
+Block: Private Warning
+Audio bridge: undefined
 
 ## Prompt
 
@@ -19,9 +12,7 @@ In the dim teacher office or library, Jeralt closes the door or stands near it, 
 
 Cinematic continuity: Block=Private Warning. Transition in: door close starts private warning. Transition out: cut on Jeralt hand reaching badge. Screen/camera rule: static pressure and silence; cuts land on objects and withheld reactions. Audio bridge: door close, paper, badge drop, night room tone. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-static tense composition with a small push toward Jeralt.
+Camera: static tense composition with a small push toward Jeralt.
 
 ## Negative Prompt
 

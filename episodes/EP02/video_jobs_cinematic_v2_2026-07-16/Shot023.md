@@ -1,17 +1,10 @@
-# Shot023 - Training Sword Insert Cinematic V2 Job
+# Shot023 Training Sword Insert
 
-Duration: 10 seconds
-Handles: 2 seconds
+Duration: 10s
 Image: `episodes/EP02/generated/p1_student_intro_v1/Shot023_TrainingSwordInsert.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot023.mp4`
-
-## Cinematic Continuity
-
-- Block: First Class
-- Transition in: low insert interrupts classroom stillness
-- Transition out: cut on Felix reacting to sword
-- Screen / camera rule: front-of-class geometry; Byleth controls tempo, Felix breaks stillness
-- Audio bridge: chair scrape, wood desk, short breath
+Block: First Class
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=First Class. Transition in: low insert interrupts classroom stillness. Transition out: cut on Felix reacting to sword. Screen/camera rule: front-of-class geometry; Byleth controls tempo, Felix breaks stillness. Audio bridge: chair scrape, wood desk, short breath. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-low close insert, slight push toward the sword.
+Camera: low close insert, slight push toward the sword.
 
 ## Negative Prompt
 

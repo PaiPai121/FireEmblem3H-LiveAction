@@ -1,17 +1,10 @@
-# Shot030 - Felix Breaks Formation Cinematic V2 Job
+# Shot030 Felix Breaks Formation
 
-Duration: 17 seconds
-Handles: 2 seconds
+Duration: 17s
 Image: `episodes/EP02/generated/p1_blue_lions_identity_v2/Shot030_FelixBreaksFormation_v2.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot030.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: Felix exits formation in same screen direction
-- Transition out: cut on Byleth stepping into path
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Mock Battle. Transition in: Felix exits formation in same screen direction. Transition out: cut on Byleth stepping into path. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-handheld-like forward drift following Felix's step.
+Camera: handheld-like forward drift following Felix's step.
 
 ## Negative Prompt
 

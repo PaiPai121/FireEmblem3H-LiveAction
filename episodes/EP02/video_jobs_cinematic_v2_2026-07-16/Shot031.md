@@ -1,17 +1,10 @@
-# Shot031 - Byleth Stops Felix Cinematic V2 Job
+# Shot031 Byleth Stops Felix
 
-Duration: 15 seconds
-Handles: 2 seconds
+Duration: 15s
 Image: `episodes/EP02/generated/p1_grounded_identity_v3/Shot031_BylethStopsFelix_grounded_v3.png`
 Output: `episodes/EP02/video_outputs/cinematic_v2/Shot031.mp4`
-
-## Cinematic Continuity
-
-- Block: Mock Battle
-- Transition in: Byleth interrupts screen direction cleanly
-- Transition out: hold beat then cut to Dedue shield line
-- Screen / camera rule: left-to-right tactical geography; action returns to Byleth as anchor
-- Audio bridge: whistle, training weapons, bowstring, controlled breaths
+Block: Mock Battle
+Audio bridge: undefined
 
 ## Prompt
 
@@ -21,9 +14,7 @@ Youth/beauty guard: Keep academy students youthful, attractive, clean-skinned an
 
 Cinematic continuity: Block=Mock Battle. Transition in: Byleth interrupts screen direction cleanly. Transition out: hold beat then cut to Dedue shield line. Screen/camera rule: left-to-right tactical geography; action returns to Byleth as anchor. Audio bridge: whistle, training weapons, bowstring, controlled breaths. Generate with 2s editorial handle where possible; begin and end with usable motion, not a frozen poster. Maintain direction, eyelines, and spatial geography from adjacent shots.
 
-## Camera
-
-quick controlled stop, then hold.
+Camera: quick controlled stop, then hold.
 
 ## Negative Prompt
 
