@@ -1,0 +1,20 @@
+{
+  "id": "SH003",
+  "order": 3,
+  "status": "monitor_required",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SH003.mp4",
+  "edit_in": "从女贝老师视线切入剑的俯视图。",
+  "edit_out": "切到她在板上区分固定中心与自由中心。",
+  "audio_anchor": "",
+  "continuity_previous": "KAK-BYLETH-PROMPT-SH002",
+  "continuity_next": "KAK-BYLETH-PROMPT-SH004",
+  "model_notes": [
+    "Use these PNGs as storyboard/diagrammatic image-to-video inputs.",
+    "Preserve the text, diagram geometry, Female Byleth reference panel, and start/key/end action chain.",
+    "This package is suitable for storyboard animatic or explanatory video generation; photoreal/cinematic repaint remains an optional later style pass."
+  ],
+  "reject_if": [],
+  "review_status": "superseded_pending_motion_qa",
+  "approval_note": "旧版交接包仅作历史参考；当前权威入口为真实帧中文审查页，视频出片需先通过运动 QA。"
+}

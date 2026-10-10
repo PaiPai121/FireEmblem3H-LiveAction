@@ -1,0 +1,82 @@
+# 分镜规格：SH002
+
+镜头编号：SH002
+阶段：真实帧锁定视频提示词包
+状态：真实帧已生成，提示词已就绪
+依赖：女贝老师二维挂谷分镜表
+剧情节点：学生接住问题
+成片作用：三位学生接住问题，梅尔赛德斯说出圆盘直觉，为 SH003 的固定中心错误直觉铺路。
+时长目标：8 秒
+地点：加尔古·玛库训练场边缘
+可见角色：女贝老师; 艾黛尔 academy; 莉丝缇亚 academy; 梅尔赛德斯 academy
+
+身份锁：
+- 女贝老师只使用女版教授形象，不使用男贝。
+- 女贝老师参考：assets/characters/protagonist/BylethFemale/professor/selected.png。
+- 需要全身姿态、手套或持剑动作时，使用：assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png。
+- 可见学生阵容锁定为艾黛尔、莉丝缇亚、梅尔赛德斯，不得替换成其他学生或普通学生。
+
+资产引用：
+- assets/characters/protagonist/BylethFemale/professor/selected.png
+- assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png
+- assets/characters/black_eagles/Edelgard/academy/selected.png
+- assets/characters/golden_deer/Lysithea/academy/selected.png
+- assets/characters/blue_lions/Mercedes/academy/selected.png
+
+起始帧意图：
+接 SH001 收势后，三位学生看向女贝老师和木剑轨迹，问题刚刚落到他们身上。
+
+关键帧意图：
+梅尔赛德斯温和地提出圆盘直觉：扫过的地方至少像一个圆。
+
+结束帧意图：
+女贝老师微微点头，视线带向即将出现的俯视固定中心旋转图。
+
+摄影机：
+低三分之四中景，木剑大前景，女贝老师在后景清晰。
+
+调度：
+艾黛尔、莉丝缇亚、梅尔赛德斯作为三学级代表在画面中可辨认；梅尔赛德斯开口，艾黛尔和莉丝缇亚看向木剑扫过的方向。
+
+画面方向：
+女贝老师面向画面右下方的木剑，艾黛尔、莉丝缇亚、梅尔赛德斯在画面后方形成稳定三人组。
+
+数学图形锁：
+- This is a reaction bridge into the fixed-center circle intuition. Do not formalize unit endpoints here; keep the wooden sword as the object just demonstrated in SH001.
+
+动作峰值：
+梅尔赛德斯说出“像一个圆”的直觉，三位学生视线汇向木剑扫过区域的一刻。
+
+中文台词 / 音频锚点：
+梅尔赛德斯: 扫过的地方，至少像一个圆吧？
+
+剪入：
+接 SH001 收势视线，切到三位学生的低机位反应。
+
+剪出：
+从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。
+
+连续性要求：
+- 上一镜头: SH001 （剑花引题）.
+- 下一镜头: SH003 （圆盘直觉）.
+- 保持上方规定的画面方向和视觉主体交接。
+- Student roster is visible and locked: 艾黛尔, 莉丝缇亚, and 梅尔赛德斯 must match the listed selected.png assets, not generic students or shoulder silhouettes.
+
+运动风险：
+- Student reaction can become too static; keep eyelines tied to SH001 sword flourish.
+- Current generated SH002 frames are blocked if any visible student fails to match 艾黛尔/莉丝缇亚/梅尔赛德斯 academy selected assets.
+- AI 视频可能过度装饰数学图形；必须保持几何关系、端点标记、δ/α 标签、并集/重叠关系清楚可读。
+- 如果女贝老师可见，必须监看跨帧和相邻镜头中的身份漂移。
+
+拒绝条件：
+- 女贝老师身份漂移或表情变成明显微笑，则拒绝。
+- 起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。
+- 镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。
+- 女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。
+- 艾黛尔, 莉丝缇亚, or 梅尔赛德斯 becomes a generic house-color student, wrong costume, wrong hair/face, or is replaced by another student
+- SH002 repeats the full SH001 question instead of functioning as student reaction
+
+真实帧来源：
+- 起始帧：real_frames/SH002/start.png
+- 关键帧：real_frames/SH002/key.png
+- 结束帧：real_frames/SH002/end.png

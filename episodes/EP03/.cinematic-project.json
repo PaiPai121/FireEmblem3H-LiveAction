@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "project": "EP03",
+  "layout": "legacy",
+  "canonical_source_root": ".",
+  "generated_root": "generated",
+  "delivery_root": "delivery",
+  "web_root": "web",
+  "shared_asset_roots": [
+    "../../assets"
+  ],
+  "canonical_preview": "web/index.html",
+  "boundary_note": "EP03 is a project-local cinematic sequence; selected character/location assets are copied into production_system/shared_references from the repository canonical asset bank for generation validation."
+}

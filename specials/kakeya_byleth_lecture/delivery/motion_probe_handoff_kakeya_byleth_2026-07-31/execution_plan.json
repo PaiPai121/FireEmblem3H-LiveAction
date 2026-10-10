@@ -1,0 +1,11 @@
+{
+  "package_id": "motion_probe_handoff_kakeya_byleth_2026-07-31",
+  "strategy": "motion_probe",
+  "status": "superseded_by_one_pass_budget_policy",
+  "note": "用户已决定不单独付费生成 3 秒运动探针；保留本包只作历史/备用检查，不作为当前主提交路径。",
+  "preferred_package": "delivery/one_pass_full_video_handoff_kakeya_byleth_2026-07-31",
+  "total_shots": 34,
+  "probe_duration_seconds": 3,
+  "total_probe_duration_seconds": 102,
+  "full_runtime_seconds": 492
+}

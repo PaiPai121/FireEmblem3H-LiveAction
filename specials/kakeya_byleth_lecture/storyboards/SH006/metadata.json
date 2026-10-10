@@ -1,0 +1,52 @@
+{
+  "id": "SH006",
+  "order": 6,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S2",
+  "timecode": "00:55-01:07",
+  "duration_seconds": 12,
+  "script_beat": "Deltoid reveal",
+  "shot_purpose": "引入优美的三尖内摆线候选，但不把它误称为最终答案。",
+  "location": "Classroom chalkboard",
+  "characters_visible": "Female Byleth; optional offscreen Lysithea only",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH006/frame_spec.md",
+  "prompt_path": "storyboards/SH006/prompt.md",
+  "negative_prompt_path": "storyboards/SH006/negative_prompt.md",
+  "start_frame": "storyboards/SH006/start.png",
+  "key_frame": "storyboards/SH006/key.png",
+  "end_frame": "storyboards/SH006/end.png",
+  "expected_clip": "clips/SH006.mp4",
+  "edit_in": "由 SH005 的方向扇面变形为曲线。",
+  "edit_out": "推入 deltoid 内部的切线弦。",
+  "screen_direction": "曲线按顺时针生成，三尖均匀分布。",
+  "mathematical_locks": [
+    "Deltoid must be a true three-cusped hypocycloid-style region; show unit chord scale with a = 1/4 and area A = pi/8; never use radius 1/3 as the unit-needle scale."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy",
+    "student_identity_scope",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH005",
+    "next": "SH007",
+    "in": "由 SH005 的方向扇面变形为曲线。",
+    "out": "推入 deltoid 内部的切线弦。"
+  },
+  "reject_if": [
+    "Deltoid shape must be recognizable",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "deltoid, unit chord, a = 1/4, or A = pi/8 are missing or scaled incorrectly"
+  ]
+}

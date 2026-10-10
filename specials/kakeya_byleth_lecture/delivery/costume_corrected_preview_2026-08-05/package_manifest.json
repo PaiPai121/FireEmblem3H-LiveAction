@@ -1,0 +1,52 @@
+{
+  "package_id": "costume_corrected_preview_kakeya_byleth_2026-08-05",
+  "title": "女贝老师服装修正与关键剧情候选预览",
+  "status": "candidate_review_required",
+  "created": "2026-08-05",
+  "scope": "Costume-corrected Female Byleth lookdev candidate plus regenerated SH001, SH002, and SH010 start/key/end frame candidates.",
+  "not_for_video_reason": "Only SH001, SH002, and SH010 have been regenerated with the corrected costume candidate. The remaining 31 shots still require visual regeneration or explicit promotion after review.",
+  "lookdev_candidate": {
+    "id": "BylethFemale_costume_corrected_candidate_01",
+    "path": "../../../../assets/characters/protagonist/BylethFemale/costume_corrected_lookdev/candidates_2026-08-05/candidate_01.png",
+    "review_status": "needs_human_review"
+  },
+  "shots": [
+    {
+      "id": "SH001",
+      "title": "女贝老师开场剑花提出问题",
+      "status": "candidate_review_required",
+      "start_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH001/start.png",
+      "key_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH001/key.png",
+      "end_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH001/end.png",
+      "dialogue_anchor": "女贝老师：今天我们不练普通挥剑。我们考虑一个新问题：让这把一单位长的训练剑转个 180 度掉头，它扫过的区域能小到什么程度？",
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "SH002",
+      "title": "三位学生围绕木剑提出直觉问题",
+      "status": "candidate_review_required",
+      "start_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH002/start.png",
+      "key_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH002/key.png",
+      "end_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH002/end.png",
+      "dialogue_anchor": "梅尔赛德斯提出圆盘直觉，莉丝缇亚检查单位长度，艾黛尔保留对“最小”的怀疑。",
+      "review_status": "needs_human_review",
+      "rejected_candidates": [
+        {
+          "path": "../../regenerated_frames/costume_corrected_2026-08-05/rejected/SH002_end_rejected_student_weapon.png",
+          "reason": "Student weapon appeared in a classroom discussion frame."
+        }
+      ]
+    },
+    {
+      "id": "SH010",
+      "title": "艾黛尔指出三尖候选仍缺下界证明",
+      "status": "candidate_review_required",
+      "start_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH010/start.png",
+      "key_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH010/key.png",
+      "end_frame": "../../regenerated_frames/costume_corrected_2026-08-05/SH010/end.png",
+      "dialogue_anchor": "艾黛尔：优雅，不等于最小。我还没听到：为什么不能再小？如果边界允许凹进去，空隙也许还能被重复利用。",
+      "review_status": "needs_human_review"
+    }
+  ],
+  "review": "../../production_system/reviews/costume_corrected_SH001_candidate_review_2026-08-05.md"
+}

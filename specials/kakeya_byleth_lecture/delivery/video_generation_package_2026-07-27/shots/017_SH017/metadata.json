@@ -1,0 +1,20 @@
+{
+  "id": "SH017",
+  "order": 17,
+  "status": "monitor_required",
+  "duration_seconds": 14,
+  "expected_clip": "clips/SH017.mp4",
+  "edit_in": "从 SH016 底边准备切分处接入。",
+  "edit_out": "切到小三角形水平滑动。",
+  "audio_anchor": "",
+  "continuity_previous": "KAK-BYLETH-PROMPT-SH016",
+  "continuity_next": "KAK-BYLETH-PROMPT-SH018",
+  "model_notes": [
+    "Use these PNGs as storyboard/diagrammatic image-to-video inputs.",
+    "Preserve the text, diagram geometry, Female Byleth reference panel, and start/key/end action chain.",
+    "This package is suitable for storyboard animatic or explanatory video generation; photoreal/cinematic repaint remains an optional later style pass."
+  ],
+  "reject_if": [],
+  "review_status": "superseded_pending_motion_qa",
+  "approval_note": "旧版交接包仅作历史参考；当前权威入口为真实帧中文审查页，视频出片需先通过运动 QA。"
+}

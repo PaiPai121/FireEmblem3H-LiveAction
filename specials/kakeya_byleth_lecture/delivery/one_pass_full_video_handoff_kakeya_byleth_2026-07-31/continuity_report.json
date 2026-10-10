@@ -1,0 +1,204 @@
+{
+  "package_id": "one_pass_full_video_handoff_kakeya_byleth_2026-07-31",
+  "status": "post_generation_qa_required",
+  "pairs": [
+    {
+      "from": "SH001",
+      "to": "SH002",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH002",
+      "to": "SH003",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH003",
+      "to": "SH004",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH004",
+      "to": "SH005",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH005",
+      "to": "SH006",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH006",
+      "to": "SH007",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH007",
+      "to": "SH008",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH008",
+      "to": "SH009",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH009",
+      "to": "SH010",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH010",
+      "to": "SH011",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH011",
+      "to": "SH012",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH012",
+      "to": "SH013",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH013",
+      "to": "SH014",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH014",
+      "to": "SH015",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH015",
+      "to": "SH016",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH016",
+      "to": "SH017",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH017",
+      "to": "SH018",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH018",
+      "to": "SH019",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH019",
+      "to": "SH020",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH020",
+      "to": "SH021",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH021",
+      "to": "SH022",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH022",
+      "to": "SH023",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH023",
+      "to": "SH024",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH024",
+      "to": "SH025",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH025",
+      "to": "SH026",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH026",
+      "to": "SH027",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH027",
+      "to": "SH028",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH028",
+      "to": "SH029",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH029",
+      "to": "SH030",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH030",
+      "to": "SH031",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH031",
+      "to": "SH032",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH032",
+      "to": "SH033",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH033",
+      "to": "SH034",
+      "decision": "check_after_generation",
+      "check": "全时长生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "project": "Byleth Teaches the 2D Needle Problem",
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-27",
+  "target": "prompt_asset_package",
+  "status": "frames_pending",
+  "total_shots": 34,
+  "frame_status": {
+    "start_frames": "pending",
+    "key_frames": "pending",
+    "end_frames": "pending",
+    "clips": "pending"
+  },
+  "character_locks": {
+    "byleth_female_professor": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "byleth_female_weapon_fullbody": "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+    "banned_identity": [
+      "male Byleth",
+      "mature adult mentor",
+      "ordinary student Byleth",
+      "generic sorceress"
+    ]
+  },
+  "mathematical_scope": [
+    "2D Kakeya needle problem only",
+    "deltoid candidate with a=1/4 and A=pi/8",
+    "convex optimum: equilateral triangle of height 1",
+    "Besicovitch/Perron tree: cut, slide, overlap, iterate",
+    "delta-tube overlap and dimension = 2",
+    "impact tied to maximal averages, wave packets, tube overlap, and combinatorial geometry"
+  ],
+  "shot_directories": [
+    "storyboards/SH001",
+    "storyboards/SH002",
+    "storyboards/SH003",
+    "storyboards/SH004",
+    "storyboards/SH005",
+    "storyboards/SH006",
+    "storyboards/SH007",
+    "storyboards/SH008",
+    "storyboards/SH009",
+    "storyboards/SH010",
+    "storyboards/SH011",
+    "storyboards/SH012",
+    "storyboards/SH013",
+    "storyboards/SH014",
+    "storyboards/SH015",
+    "storyboards/SH016",
+    "storyboards/SH017",
+    "storyboards/SH018",
+    "storyboards/SH019",
+    "storyboards/SH020",
+    "storyboards/SH021",
+    "storyboards/SH022",
+    "storyboards/SH023",
+    "storyboards/SH024",
+    "storyboards/SH025",
+    "storyboards/SH026",
+    "storyboards/SH027",
+    "storyboards/SH028",
+    "storyboards/SH029",
+    "storyboards/SH030",
+    "storyboards/SH031",
+    "storyboards/SH032",
+    "storyboards/SH033",
+    "storyboards/SH034"
+  ],
+  "manifests": {
+    "video_delivery_manifest": "production_system/video_delivery_manifest.json",
+    "artifact_manifest": "production_system/artifact_manifest.json",
+    "review_manifest": "production_system/review_manifest.json"
+  },
+  "notes": "Text prompt asset package is complete. Real start/key/end PNG frames remain frames_pending."
+}

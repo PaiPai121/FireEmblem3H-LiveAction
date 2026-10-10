@@ -1,0 +1,162 @@
+{
+  "version": 3,
+  "mode": "combat",
+  "scene_id": "EP03_SHOT025_029_NONLETHAL_INTERCEPTION",
+  "geography": {
+    "arena": "wet muddy ridge road with the Blue Lions and female Byleth compressed on the lower slope, two rebel guards in the middle road, and Lonato isolated on the upper ridge",
+    "master_shot_id": "Shot025",
+    "axis": "the lower student line faces uphill toward the middle guard line and upper-ridge Lonato; Ashe holds the lower-right flank; Catherine enters from the lower-left",
+    "camera_side": "north side of the road axis; no mirror or camera-side crossing"
+  },
+  "fighters": [
+    {
+      "id": "Ashe",
+      "role": "attacker",
+      "weapon_id": "academy_bow_and_one_arrow",
+      "starting_position": "lower-right flank, far below the two rebel guards and Lonato",
+      "facing": "uphill toward the empty road before the guard line",
+      "screen_side": "right"
+    },
+    {
+      "id": "Lonato",
+      "role": "defender",
+      "weapon_id": "ordinary_sword_and_heraldic_shield",
+      "starting_position": "upper ridge, behind the two rebel guards and a long muddy buffer",
+      "facing": "downhill toward the lower road, shield leading and sword low",
+      "screen_side": "left"
+    },
+    {
+      "id": "RebelGuardNear",
+      "role": "defender",
+      "weapon_id": "long_rebel_weapon",
+      "starting_position": "middle road, between Ashe and Lonato, nearer the lower slope",
+      "facing": "across the road toward the entering lower-left flank",
+      "screen_side": "center"
+    },
+    {
+      "id": "RebelGuardShield",
+      "role": "defender",
+      "weapon_id": "round_rebel_shield",
+      "starting_position": "middle road, offset from RebelGuardNear and between Ashe and Lonato",
+      "facing": "downhill toward the lower formation",
+      "screen_side": "center"
+    },
+    {
+      "id": "Catherine",
+      "role": "attacker",
+      "weapon_id": "Thunderbrand",
+      "starting_position": "lower-left fog lane, outside Lonato's sword reach until Shot028 contact",
+      "facing": "uphill toward the nearer rebel guard's long weapon",
+      "screen_side": "left"
+    },
+    {
+      "id": "BylethFemale",
+      "role": "control_line",
+      "weapon_id": "Sword_of_the_Creator",
+      "starting_position": "bottom rear command layer, well behind the student formation and every contact lane",
+      "facing": "uphill toward the open retreat line",
+      "screen_side": "right"
+    }
+  ],
+  "beats": [
+    {
+      "id": "CB026",
+      "shot_id": "Shot026",
+      "attacker": "Ashe",
+      "defender": "Lonato",
+      "action": "Ashe raises and nocks one arrow toward empty ground before the middle rebel guard line, then refuses to release",
+      "target": "empty muddy road before the two guards, never a body or shield",
+      "target_region": "lower-middle road, visibly below and far in front of Lonato",
+      "distance_before": "a long lower-slope-to-upper-ridge road buffer with two guards physically between Ashe and Lonato",
+      "attack_direction": "lower-right to upper-left, stopping before the guard line",
+      "contact": false,
+      "near_miss_result": "No release and no body contact; the nocked arrow makes Ashe's restraint readable and hands the same lower-right mark to Shot027",
+      "defender_reaction": "Lonato checks his forward step behind the guards without raising his sword",
+      "recovery": "Ashe lowers the nocked bow slightly while the two guards hold the middle road and leave a lower-left entry seam",
+      "state_after": "one nocked arrow, two guards still between Ashe and Lonato, Lonato upright and distant",
+      "camera_read": "keep Ashe, both guards, Lonato, feet, and the long road buffer legible together",
+      "frame_chain": {
+        "start": "storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/start_frame.png",
+        "key": "storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/key_frame.png",
+        "end": "storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+      }
+    },
+    {
+      "id": "CB027",
+      "shot_id": "Shot027",
+      "attacker": "Catherine",
+      "defender": "RebelGuardNear",
+      "action": "Catherine enters from the lower-left and redirects the nearer rebel guard's long weapon with Thunderbrand; the second guard retreats one step and Lonato remains behind the line",
+      "target": "the nearer rebel guard's long weapon shaft and hands",
+      "target_region": "middle road, left-center, away from every body and before Lonato's position",
+      "distance_before": "Catherine begins outside the guard's reach; Lonato remains behind two guards and a visible uphill gap",
+      "attack_direction": "lower-left to upper-right, short lateral weapon redirect",
+      "contact": true,
+      "contact_mode": "weapon_weapon",
+      "contact_point": "Thunderbrand meets the long weapon shaft near the guard's hands without entering his torso",
+      "contact_frame": "Shot027_KEY",
+      "contact_result": "the long weapon is pushed off the road line, RebelGuardNear yields one step, and Catherine opens a controlled lane toward Lonato without touching him",
+      "attacker_weapon": "Thunderbrand",
+      "defender_weapon": "long_rebel_weapon",
+      "defender_reaction": "RebelGuardShield retreats half a step to keep his shield between Catherine and Lonato; Lonato raises his shield and keeps his ordinary sword ready but does not swing",
+      "recovery": "Catherine settles on the guard line only after the redirect; Ashe holds the nocked arrow behind her and the two guards remain visible behind or beside the new lane",
+      "state_after": "both guards displaced but readable, Catherine at the near edge of Lonato's approach, Lonato still upright and not yet disarmed",
+      "camera_read": "show Catherine's entry, the long weapon redirect, both guards' physical reaction, and Lonato's remaining separation as one continuous geography",
+      "frame_chain": {
+        "start": "storyboards/Shot027/critical_reaudit_regen_v7_2026-09-02/start_frame.png",
+        "key": "storyboards/Shot027/critical_reaudit_regen_v7_2026-09-02/key_frame.png",
+        "end": "storyboards/Shot027/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+      }
+    },
+    {
+      "id": "CB028",
+      "shot_id": "Shot028",
+      "attacker": "Catherine",
+      "defender": "Lonato",
+      "action": "after the nearer guard is redirected, Catherine makes one short controlled entry while the second guard still holds the uphill buffer and catches Lonato's ordinary sword at the guard with Thunderbrand to disarm him",
+      "target": "Lonato's sword guard and right weapon hand",
+      "target_region": "forearm height, never Lonato's neck or torso",
+      "distance_before": "Catherine and Lonato begin about three metres apart with open mud between them; exactly two unfeatured rebel guards remain visible as the physical buffer, and no other named performer enters the contact coverage",
+      "attack_direction": "lower-left to upper-right, short diagonal into the sword guard",
+      "contact": true,
+      "contact_mode": "weapon_weapon",
+      "contact_point": "Thunderbrand's guard meets the ordinary sword guard at Lonato's right forearm height",
+      "contact_frame": "Shot028_KEY",
+      "contact_result": "Lonato's ordinary sword rotates out of his hand and drops onto the mud; Thunderbrand stays under Catherine's control and Lonato keeps his shield attached",
+      "attacker_weapon": "Thunderbrand",
+      "defender_weapon": "ordinary_sword",
+      "defender_reaction": "Lonato's right shoulder opens and his rear foot slips half a step; he remains upright and uninjured",
+      "recovery": "Catherine lowers Thunderbrand along the dropped-weapon line; both unfeatured guards remain visible withdrawing behind the barriers; female Byleth remains outside the contact coverage and does not touch Lonato",
+      "state_after": "ordinary sword on mud, Lonato upright but losing balance, Catherine one step laterally away, shield still on Lonato's arm, both guards still readable in the background",
+      "camera_read": "pre-contact distance first, unobstructed guard contact second, dropped sword and upright imbalance third",
+      "frame_chain": {
+        "start": "storyboards/Shot028/critical_reaudit_regen_v8_2026-09-03/start_frame.png",
+        "key": "storyboards/Shot028/critical_reaudit_regen_v8_2026-09-03/key_frame.png",
+        "end": "storyboards/Shot028/critical_reaudit_regen_v8_2026-09-03/end_frame.png"
+      }
+    },
+    {
+      "id": "CB029",
+      "shot_id": "Shot029",
+      "attacker": "Catherine",
+      "defender": "Lonato",
+      "action": "Catherine has exited offscreen; Lonato's post-disarm momentum lowers him onto one knee",
+      "target": "Lonato's balance and planted knee, not his body as a strike target",
+      "target_region": "mud beneath Lonato's near knee and shield hand",
+      "distance_before": "Catherine has left the frame; Dimitri, Ashe, and female Byleth remain layered several metres away",
+      "attack_direction": "no new swing; the existing disarm momentum carries Lonato downward",
+      "contact": false,
+      "near_miss_result": "There is no new attack or body contact; the kneel is a visible recovery from the disarm, with shield and hand catching the mud",
+      "defender_reaction": "Lonato bends the near knee, catches himself with the shield hand, and lowers his gaze",
+      "recovery": "Dimitri becomes a lateral safety barrier, Ashe lowers his bow farther back, and female Byleth watches from the rear; Catherine does not return",
+      "state_after": "Lonato fully kneeling and isolated, sword remains on mud, Catherine absent, witnesses stay layered and non-celebratory",
+      "camera_read": "START inherits the upright imbalance, KEY shows knee and hand meeting mud, END widens to the quiet layered aftermath",
+      "frame_chain": {
+        "start": "storyboards/Shot029/critical_reaudit_regen_v7_2026-09-02/start_frame.png",
+        "key": "storyboards/Shot029/critical_reaudit_regen_v7_2026-09-02/key_frame.png",
+        "end": "storyboards/Shot029/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+      }
+    }
+  ],
+  "previs_review_surface": "generated/action_choreography_board_shots026_029_2026-08-24.png"
+}

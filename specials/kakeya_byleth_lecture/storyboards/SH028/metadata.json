@@ -1,0 +1,46 @@
+{
+  "id": "SH028",
+  "order": 28,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S5",
+  "timecode": "06:28-06:43",
+  "duration_seconds": 15,
+  "script_beat": "Dimension idea",
+  "shot_purpose": "通过网格计数解释面积可为零但尺度复杂度仍满的二维维数直觉。",
+  "location": "Abstract chalk grid",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH028/frame_spec.md",
+  "prompt_path": "storyboards/SH028/prompt.md",
+  "negative_prompt_path": "storyboards/SH028/negative_prompt.md",
+  "start_frame": "storyboards/SH028/start.png",
+  "key_frame": "storyboards/SH028/key.png",
+  "end_frame": "storyboards/SH028/end.png",
+  "expected_clip": "clips/SH028.mp4",
+  "edit_in": "从估计式右侧的图形像素化进网格。",
+  "edit_out": "网格整理成黑板上二维定理。",
+  "screen_direction": "镜头向网格中心推进，集合不消失。",
+  "mathematical_locks": [
+    "Zero area is not nonexistence; delta-tube diagrams must show delta width, alpha angle, gold overlap patch, and dimension equals 2 in the final 2D statement."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH027",
+    "next": "SH029",
+    "in": "从估计式右侧的图形像素化进网格。",
+    "out": "网格整理成黑板上二维定理。"
+  },
+  "reject_if": [
+    "Hausdorff term too sudden",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "delta, alpha, overlap, zero-area caution, or dimension = 2 claim is invisible or wrong"
+  ]
+}

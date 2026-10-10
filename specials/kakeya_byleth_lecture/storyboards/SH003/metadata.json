@@ -1,0 +1,46 @@
+{
+  "id": "SH003",
+  "order": 3,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S1",
+  "timecode": "00:18-00:30",
+  "duration_seconds": 12,
+  "script_beat": "Naive circular intuition",
+  "shot_purpose": "呈现固定中心旋转会扫出圆盘这个直觉答案。",
+  "location": "Stone floor diagram overlay",
+  "characters_visible": "No full character; diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH003/frame_spec.md",
+  "prompt_path": "storyboards/SH003/prompt.md",
+  "negative_prompt_path": "storyboards/SH003/negative_prompt.md",
+  "start_frame": "storyboards/SH003/start.png",
+  "key_frame": "storyboards/SH003/key.png",
+  "end_frame": "storyboards/SH003/end.png",
+  "expected_clip": "clips/SH003.mp4",
+  "edit_in": "从女贝老师视线切入剑的俯视图。",
+  "edit_out": "切到她在板上区分固定中心与自由中心。",
+  "screen_direction": "旋转保持围绕中央，所有角度从水平开始顺时针出现。",
+  "mathematical_locks": [
+    "Unit segment must be visibly length 1 with two endpoints; the condition is all directions, not a fixed center unless shown as a rejected intuition."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "student_identity_scope"
+  ],
+  "continuity": {
+    "previous": "SH002",
+    "next": "SH004",
+    "in": "从女贝老师视线切入剑的俯视图。",
+    "out": "切到她在板上区分固定中心与自由中心。"
+  },
+  "reject_if": [
+    "Circle may look like final answer",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "the unit segment loses visible endpoints or becomes a decorative sword without length meaning"
+  ]
+}

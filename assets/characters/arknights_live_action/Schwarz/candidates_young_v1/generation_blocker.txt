@@ -1,0 +1,3 @@
+Schwarz generation blocker:
+- previous attempts: repeated network failures, then output moderation blocked as sexual.
+- status: pending conservative retry before final QA; do not promote without candidate image.

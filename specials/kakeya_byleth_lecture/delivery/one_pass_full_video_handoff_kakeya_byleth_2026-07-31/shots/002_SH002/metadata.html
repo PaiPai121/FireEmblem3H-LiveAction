@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SH002 后台资料：元数据</title>
+  <style>
+    body{margin:0;background:#f6f8fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:28px 22px 48px}
+    h1{margin:0 0 8px;font-size:24px;letter-spacing:0}.meta{margin:0 0 18px;color:#596779;line-height:1.6;font-weight:700}
+    .note{border:1px solid #d6dfeb;border-left:4px solid #174ea6;background:#fff;border-radius:8px;padding:12px 14px;margin:0 0 18px;line-height:1.65}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #d6dfeb;border-radius:8px;padding:18px;line-height:1.7;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    a{color:#174ea6;font-weight:800;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SH002 后台资料：元数据</h1>
+    <div class="meta">类型：元数据 · 编码：UTF-8 · 原始文件：<a href="metadata.json">metadata.json</a></div>
+    <div class="note">这是脚本、manifest 和网页使用的后台数据，通常不用手动复制给视频模型。</div>
+    <pre>{
+  &quot;镜头编号&quot;: &quot;SH002&quot;,
+  &quot;顺序&quot;: 2,
+  &quot;生成时长秒&quot;: 8,
+  &quot;提交状态&quot;: &quot;one_pass_full_length_pending&quot;,
+  &quot;成片作用&quot;: &quot;三位学生接住问题，梅尔赛德斯说出圆盘直觉，为 SH003 的固定中心错误直觉铺路。&quot;,
+  &quot;可见主体&quot;: &quot;女贝老师、艾黛尔、莉丝缇亚、梅尔赛德斯、木制训练剑&quot;,
+  &quot;摄影机&quot;: &quot;低三分之四中景，木剑大前景，女贝老师在后景清晰。&quot;,
+  &quot;剪入&quot;: &quot;接 SH001 收势视线，切到三位学生的低机位反应。&quot;,
+  &quot;剪出&quot;: &quot;从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。&quot;,
+  &quot;中文台词或音频锚点&quot;: &quot;梅尔赛德斯: \&quot;扫过的地方，至少像一个圆吧？\&quot;&quot;,
+  &quot;逐句台词&quot;: {
+    &quot;01_梅尔赛德斯&quot;: &quot;扫过的地方，至少像一个圆吧？&quot;
+  },
+  &quot;主要检查&quot;: &quot;检查三位学生接住 SH001 的问题，梅尔赛德斯的圆盘直觉能自然引到 SH003。&quot;,
+  &quot;三帧变化审计&quot;: null,
+  &quot;角色身份视觉审查&quot;: {
+    &quot;decision&quot;: &quot;approved_replacement&quot;,
+    &quot;review&quot;: &quot;production_system/reviews/candidate_promotion_review_2026-08-04.md&quot;,
+    &quot;candidate&quot;: &quot;identity_v1&quot;,
+    &quot;candidate_frames&quot;: &quot;regenerated_frame_candidates/SH002_identity_v1/&quot;,
+    &quot;previous_frames_archive&quot;: &quot;real_frames_replaced/2026-08-04_identity_regeneration/SH002/&quot;,
+    &quot;no_character_cutout_or_matting&quot;: true,
+    &quot;findings&quot;: [
+      &quot;独立审查通过：女贝老师、艾黛尔、莉丝缇亚、梅尔赛德斯身份明显贴近 selected asset。&quot;,
+      &quot;三帧连续性成立，无数学/中文文字风险。&quot;
+    ]
+  },
+  &quot;拒绝条件&quot;: [
+    &quot;女贝老师身份漂移或表情变成明显微笑，则拒绝。&quot;,
+    &quot;起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。&quot;,
+    &quot;镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。&quot;,
+    &quot;女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。&quot;,
+    &quot;艾黛尔, 莉丝缇亚, or 梅尔赛德斯 becomes a generic house-color student, wrong costume, wrong hair/face, or is replaced by another student&quot;,
+    &quot;SH002 repeats the full SH001 question instead of functioning as student reaction&quot;
+  ],
+  &quot;批准说明&quot;: &quot;预算限制下不做 3 秒探针，直接提交完整时长。生成后必须逐镜头 QA；不通过的镜头再单独重生。&quot;
+}
+</pre>
+  </main>
+</body>
+</html>

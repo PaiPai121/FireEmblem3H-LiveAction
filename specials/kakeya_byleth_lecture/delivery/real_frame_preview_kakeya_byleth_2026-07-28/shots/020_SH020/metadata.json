@@ -1,0 +1,54 @@
+{
+  "镜头编号": "SH020",
+  "顺序": 20,
+  "状态": "真实帧已完成，待运动监看",
+  "审查状态": "identity_regenerated_monitor_required",
+  "时长秒": 10,
+  "预计视频片段": "clips/SH020.mp4",
+  "剧情节点": "学生质疑",
+  "成片作用": "学生替观众追问“这算不算作弊”，女贝老师回答：看方向，不看原位置。",
+  "可见主体": "艾黛尔、莉丝缇亚、梅尔赛德斯围在沙盘边",
+  "摄影机": "中景过肩，沙盘仍在画面下半部。",
+  "剪入": "从 SH019 重叠图拉出到人物。",
+  "剪出": "沿木尺指向切到纯方向审计。",
+  "中文台词或音频锚点": "艾黛尔: \"但这样还是同一个问题吗？\" 女贝老师: \"看方向，不看原来的位置。\"",
+  "逐句台词": {
+    "01_艾黛尔": "但这样还是同一个问题吗？",
+    "02_女贝老师": "看方向，不看原来的位置。切分没有删方向。平移没有转方向。",
+    "03_旁白 / 女贝老师": "真正连续转动时，再用很窄的连接走廊把动作接起来；走廊面积也能做得任意小。"
+  },
+  "主要检查": "检查三位学生围沙盘互动；木尺指向绿色方向带而不是原位置。",
+  "上一镜头": "SH019",
+  "下一镜头": "SH021",
+  "拒绝条件": [
+    "台词过长、挤压画面节奏，则拒绝。",
+    "起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。",
+    "镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。",
+    "女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。",
+    "艾黛尔, 莉丝缇亚, or 梅尔赛德斯 becomes a generic house-color student, wrong costume, wrong hair/face, or is replaced by another student",
+    "佩龙树的切分、平移、重叠或方向保持逻辑被画错，则拒绝。"
+  ],
+  "真实帧来源": {
+    "起始帧": "real_frames/SH020/start.png",
+    "关键帧": "real_frames/SH020/key.png",
+    "结束帧": "real_frames/SH020/end.png"
+  },
+  "角色身份视觉审查": {
+    "decision": "promoted_monitor_required",
+    "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+    "candidate": "identity_v1",
+    "candidate_frames": "regenerated_frame_candidates/SH020_identity_v1/",
+    "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH020/",
+    "no_character_cutout_or_matting": true,
+    "findings": [
+      "独立审查：四人身份整体贴近 selected asset，显著优于旧帧。",
+      "佩龙树 碎片和绿色方向带作为讲解视觉可读，但桌面细节复杂，需监看运动中是否跳动。"
+    ]
+  },
+  "提示词来源": "real_video_prompts/SH020/prompt.md",
+  "模型提示词来源": "real_video_prompts/SH020/model_prompt.md",
+  "负面提示词来源": "real_video_prompts/SH020/negative_prompt.md",
+  "来源标记": "regenerated_whole_frame_candidate_identity_v1_promoted_2026-08-04",
+  "需要质检": "是",
+  "批准说明": "尚未批准直接出片。本页是真实三帧预览，用于视觉、数学和运动监看前审查。"
+}

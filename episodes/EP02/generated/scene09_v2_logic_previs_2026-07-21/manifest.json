@@ -1,0 +1,50 @@
+[
+  {
+    "shot": "Shot032",
+    "phase": "start",
+    "path": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/Shot032_start_logic_previs.png",
+    "status": "logic_previs_only_not_final_keyframe",
+    "uses_selected_character_assets": true,
+    "purpose": "Dedue shield strain before Mercedes heal"
+  },
+  {
+    "shot": "Shot032",
+    "phase": "key",
+    "path": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/Shot032_key_logic_previs.png",
+    "status": "logic_previs_only_not_final_keyframe",
+    "uses_selected_character_assets": true,
+    "purpose": "short heal restores shield line"
+  },
+  {
+    "shot": "Shot032A",
+    "phase": "start",
+    "path": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/Shot032A_start_logic_previs.png",
+    "status": "logic_previs_only_not_final_keyframe",
+    "uses_selected_character_assets": true,
+    "purpose": "Golden Deer arrow lane pins support"
+  },
+  {
+    "shot": "Shot032A",
+    "phase": "key",
+    "path": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/Shot032A_key_logic_previs.png",
+    "status": "logic_previs_only_not_final_keyframe",
+    "uses_selected_character_assets": true,
+    "purpose": "Annette dust cover lets Ashe recover angle"
+  },
+  {
+    "shot": "Shot033B",
+    "phase": "start",
+    "path": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/Shot033B_start_logic_previs.png",
+    "status": "logic_previs_only_not_final_keyframe",
+    "uses_selected_character_assets": true,
+    "purpose": "objective window opens but routes not yet cut"
+  },
+  {
+    "shot": "Shot033B",
+    "phase": "key",
+    "path": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/Shot033B_key_logic_previs.png",
+    "status": "logic_previs_only_not_final_keyframe",
+    "uses_selected_character_assets": true,
+    "purpose": "Byleth orders separate teacher-cut routes"
+  }
+]

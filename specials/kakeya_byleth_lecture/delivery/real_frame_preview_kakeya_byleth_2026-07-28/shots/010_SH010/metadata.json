@@ -1,0 +1,53 @@
+{
+  "镜头编号": "SH010",
+  "顺序": 10,
+  "状态": "真实帧已完成，待运动监看",
+  "审查状态": "identity_regenerated_monitor_required",
+  "时长秒": 9,
+  "预计视频片段": "clips/SH010.mp4",
+  "剧情节点": "候选受到质疑",
+  "成片作用": "艾黛尔提出数学质疑：还没证明三尖内摆线不能再小，并指出非凸空隙可能被重复利用。",
+  "可见主体": "艾黛尔质疑 / 女贝老师停顿",
+  "摄影机": "交替近景，先艾黛尔可辨认发问，再切女贝老师静止表情。",
+  "剪入": "从 SH009 的“候选”标记切入。",
+  "剪出": "随她转身切到地面绳边界。",
+  "中文台词或音频锚点": "艾黛尔: \"优雅，不等于最小。我还没听到：为什么不能再小？\"",
+  "逐句台词": {
+    "01_艾黛尔": "优雅，不等于最小。我还没听到：为什么不能再小？",
+    "02_艾黛尔": "如果边界允许凹进去，空隙也许还能被重复利用。"
+  },
+  "主要检查": "检查艾黛尔可见发问，女贝老师停顿，三尖候选板书仍可读。",
+  "上一镜头": "SH009",
+  "下一镜头": "SH011",
+  "拒绝条件": [
+    "visible 艾黛尔 does not match assets/characters/black_eagles/艾黛尔/academy/selected.png",
+    "起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。",
+    "镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。",
+    "女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。",
+    "三尖内摆线、一单位弦、a = 1/4 或 A = pi/8 缺失或尺度错误，则拒绝。"
+  ],
+  "真实帧来源": {
+    "起始帧": "real_frames/SH010/start.png",
+    "关键帧": "real_frames/SH010/key.png",
+    "结束帧": "real_frames/SH010/end.png"
+  },
+  "角色身份视觉审查": {
+    "decision": "promoted_monitor_required",
+    "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+    "candidate": "identity_v3",
+    "candidate_frames": "regenerated_frame_candidates/SH010_identity_v3/",
+    "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH010/",
+    "no_character_cutout_or_matting": true,
+    "findings": [
+      "独立审查：人物不是抠图/拼贴感，女贝老师与艾黛尔身份成立，三帧连续性好。",
+      "三尖内摆线 基本像三尖内摆线候选，但仍需监看是否被读成尖三角。",
+      "A = π/8 属数学符号，不是英文句子；仍标记文字风险监看。"
+    ]
+  },
+  "提示词来源": "real_video_prompts/SH010/prompt.md",
+  "模型提示词来源": "real_video_prompts/SH010/model_prompt.md",
+  "负面提示词来源": "real_video_prompts/SH010/negative_prompt.md",
+  "来源标记": "regenerated_whole_frame_candidate_identity_v3_promoted_2026-08-04",
+  "需要质检": "是",
+  "批准说明": "尚未批准直接出片。本页是真实三帧预览，用于视觉、数学和运动监看前审查。"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "SH033",
+  "order": 33,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S7",
+  "timecode": "07:50-08:04",
+  "duration_seconds": 14,
+  "script_beat": "Final image",
+  "shot_purpose": "回到开头木剑，用多方向结构收束核心意义。",
+  "location": "Training ground stone floor",
+  "characters_visible": "Wooden sword; no full character",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH033/frame_spec.md",
+  "prompt_path": "storyboards/SH033/prompt.md",
+  "negative_prompt_path": "storyboards/SH033/negative_prompt.md",
+  "start_frame": "storyboards/SH033/start.png",
+  "key_frame": "storyboards/SH033/key.png",
+  "end_frame": "storyboards/SH033/end.png",
+  "expected_clip": "clips/SH033.mp4",
+  "edit_in": "从女贝老师视线匹配切到木剑。",
+  "edit_out": "淡出到羊皮纸标题卡。",
+  "screen_direction": "方向扇围绕剑展开但不旋转镜头。",
+  "mathematical_locks": [
+    "Impact must stay tied to proof mechanisms: tube overlap, maximal averages, wave packets, Kakeya maximal-function intuition, and combinatorial geometry; no loose daily-life claims."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH032",
+    "next": "SH034",
+    "in": "从女贝老师视线匹配切到木剑。",
+    "out": "淡出到羊皮纸标题卡。"
+  },
+  "reject_if": [
+    "Keep readable",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "impact is presented as a loose life metaphor instead of proof-derived tube/wave/maximal-average structure"
+  ]
+}

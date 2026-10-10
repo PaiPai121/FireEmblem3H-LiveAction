@@ -1,0 +1,51 @@
+{
+  "id": "SH016",
+  "order": 16,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S4",
+  "timecode": "03:18-03:31",
+  "duration_seconds": 13,
+  "script_beat": "Perron setup",
+  "shot_purpose": "把 Perron 树作为非凸碎片的方向账本引入：一个三角形保存一段连续方向。",
+  "location": "Training ground sand table",
+  "characters_visible": "Female Byleth hands only; sand-table diagram",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH016/frame_spec.md",
+  "prompt_path": "storyboards/SH016/prompt.md",
+  "negative_prompt_path": "storyboards/SH016/negative_prompt.md",
+  "start_frame": "storyboards/SH016/start.png",
+  "key_frame": "storyboards/SH016/key.png",
+  "end_frame": "storyboards/SH016/end.png",
+  "expected_clip": "clips/SH016.mp4",
+  "edit_in": "从非凸碎片对比图推入沙盘。",
+  "edit_out": "底边刻度声接切分镜头。",
+  "screen_direction": "顶点在画面上方，底边在下方；方向线自上向下展开。",
+  "mathematical_locks": [
+    "Perron tree proof must keep direction coverage visible: cut assigns direction intervals, slide translates without rotation, overlap shrinks union area without deleting directions."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH015",
+    "next": "SH017",
+    "in": "从非凸碎片对比图推入沙盘。",
+    "out": "底边刻度声接切分镜头。"
+  },
+  "reject_if": [
+    "Direction meaning unclear unless green lines visible",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "Perron cut, slide, overlap, or direction-preservation logic is visually broken"
+  ]
+}

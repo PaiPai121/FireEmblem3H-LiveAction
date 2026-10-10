@@ -1,0 +1,51 @@
+{
+  "id": "SH023",
+  "order": 23,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S4",
+  "timecode": "05:08-05:28",
+  "duration_seconds": 20,
+  "script_beat": "Classical conclusion",
+  "shot_purpose": "给出二维原始面积问题的颠覆结论：没有最小正面积，并提醒小面积走廊补连续转动。",
+  "location": "Garreg Mach classroom",
+  "characters_visible": "Female Byleth",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH023/frame_spec.md",
+  "prompt_path": "storyboards/SH023/prompt.md",
+  "negative_prompt_path": "storyboards/SH023/negative_prompt.md",
+  "start_frame": "storyboards/SH023/start.png",
+  "key_frame": "storyboards/SH023/key.png",
+  "end_frame": "storyboards/SH023/end.png",
+  "expected_clip": "clips/SH023.mp4",
+  "edit_in": "从 SH022 树状碎片匹配切到黑板。",
+  "edit_out": "结论里的“面积”二字切到零面积提示。",
+  "screen_direction": "女贝老师站画面左，结论在画面右，避免遮挡。",
+  "mathematical_locks": [
+    "Perron tree proof must keep direction coverage visible: cut assigns direction intervals, slide translates without rotation, overlap shrinks union area without deleting directions."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH022",
+    "next": "SH024",
+    "in": "从 SH022 树状碎片匹配切到黑板。",
+    "out": "结论里的“面积”二字切到零面积提示。"
+  },
+  "reject_if": [
+    "Needs exact wording",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "Perron cut, slide, overlap, or direction-preservation logic is visually broken"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "SH032",
+  "order": 32,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S7",
+  "timecode": "07:32-07:50",
+  "duration_seconds": 18,
+  "script_beat": "Name reveal",
+  "shot_purpose": "在证明直觉建立后揭示问题名称。",
+  "location": "Garreg Mach classroom",
+  "characters_visible": "Female Byleth",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH032/frame_spec.md",
+  "prompt_path": "storyboards/SH032/prompt.md",
+  "negative_prompt_path": "storyboards/SH032/negative_prompt.md",
+  "start_frame": "storyboards/SH032/start.png",
+  "key_frame": "storyboards/SH032/key.png",
+  "end_frame": "storyboards/SH032/end.png",
+  "expected_clip": "clips/SH032.mp4",
+  "edit_in": "从 SH031 文字退淡接空黑板。",
+  "edit_out": "女贝老师视线把镜头带回地面木剑。",
+  "screen_direction": "标题在画面右侧出现，女贝老师在左侧。",
+  "mathematical_locks": [
+    "Impact must stay tied to proof mechanisms: tube overlap, maximal averages, wave packets, Kakeya maximal-function intuition, and combinatorial geometry; no loose daily-life claims."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH031",
+    "next": "SH033",
+    "in": "从 SH031 文字退淡接空黑板。",
+    "out": "女贝老师视线把镜头带回地面木剑。"
+  },
+  "reject_if": [
+    "Revealing too late is okay",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "impact is presented as a loose life metaphor instead of proof-derived tube/wave/maximal-average structure"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "SH027",
+  "order": 27,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S5",
+  "timecode": "06:12-06:28",
+  "duration_seconds": 16,
+  "script_beat": "Key estimate",
+  "shot_purpose": "从图形交叠推导 δ-管估计，连接方向差和重叠面积。",
+  "location": "Diagram board",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH027/frame_spec.md",
+  "prompt_path": "storyboards/SH027/prompt.md",
+  "negative_prompt_path": "storyboards/SH027/negative_prompt.md",
+  "start_frame": "storyboards/SH027/start.png",
+  "key_frame": "storyboards/SH027/key.png",
+  "end_frame": "storyboards/SH027/end.png",
+  "expected_clip": "clips/SH027.mp4",
+  "edit_in": "从 SH026 金色重叠区直接接公式。",
+  "edit_out": "重叠图像素化成小网格。",
+  "screen_direction": "公式从重叠图右侧出现，不覆盖图形。",
+  "mathematical_locks": [
+    "Zero area is not nonexistence; delta-tube diagrams must show delta width, alpha angle, gold overlap patch, and dimension equals 2 in the final 2D statement."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH026",
+    "next": "SH028",
+    "in": "从 SH026 金色重叠区直接接公式。",
+    "out": "重叠图像素化成小网格。"
+  },
+  "reject_if": [
+    "Use C instead of hard symbol if needed",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "delta, alpha, overlap, zero-area caution, or dimension = 2 claim is invisible or wrong"
+  ]
+}

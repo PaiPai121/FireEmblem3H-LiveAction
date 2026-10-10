@@ -1,0 +1,80 @@
+{
+  "status": "blocked_needs_identity_regeneration",
+  "created_at": "2026-08-02",
+  "reviewer_role": "character-identity-visual-reviewer",
+  "reviewed_contact_sheets": [
+    "production_system/reviews/SH002_identity_contact_sheet_2026-08-02.png",
+    "production_system/reviews/character_identity_contact_sheet_2026-08-02.png"
+  ],
+  "required_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+    "assets/characters/black_eagles/Edelgard/academy/selected.png",
+    "assets/characters/golden_deer/Lysithea/academy/selected.png",
+    "assets/characters/blue_lions/Mercedes/academy/selected.png"
+  ],
+  "blocked_shots": [
+    {
+      "id": "SH002",
+      "decision": "blocked_needs_identity_regeneration",
+      "visible_characters": [
+        "Female Byleth",
+        "Edelgard",
+        "Lysithea",
+        "Mercedes"
+      ],
+      "findings": [
+        "Female Byleth is broadly recognizable, but the frame is not sufficient to approve the whole shot because the visible student trio fails asset fidelity.",
+        "Edelgard reads as a generic pale-blonde red-cloak student, not the academy asset with black-red uniform, red leggings, and exact face/hair lock.",
+        "Lysithea reads as a generic white-haired student; costume and face are not tightly matched to the academy selected asset.",
+        "Mercedes reads as a generic blonde beige-cloak student; silhouette, face, and outfit do not tightly match the academy selected asset.",
+        "Source frame spec previously allowed shoulder silhouettes while the generated frame shows fully visible students, creating an audit/spec contradiction."
+      ]
+    },
+    {
+      "id": "SH010",
+      "decision": "blocked_needs_identity_regeneration",
+      "visible_characters": [
+        "Female Byleth",
+        "Edelgard"
+      ],
+      "findings": [
+        "Edelgard is a visible speaking character but reads as a generic red-cloak noble/student rather than the academy selected asset.",
+        "The previous source frame spec treated the student as optional silhouette, which is incompatible with a visible Edelgard dialogue beat.",
+        "Byleth is broadly readable but the shot cannot pass because the speaking student's identity is not asset-locked."
+      ]
+    },
+    {
+      "id": "SH020",
+      "decision": "blocked_needs_identity_regeneration",
+      "visible_characters": [
+        "Female Byleth",
+        "Edelgard",
+        "Lysithea",
+        "Mercedes"
+      ],
+      "findings": [
+        "All three students are fully visible around the sand table, so shoulder-silhouette tolerance does not apply.",
+        "Edelgard, Lysithea, and Mercedes are only house-color approximations and do not pass exact academy selected-asset fidelity.",
+        "Because SH020 is a student objection beat, generic replacements weaken both story logic and continuity."
+      ]
+    },
+    {
+      "id": "SH032",
+      "decision": "blocked_needs_identity_regeneration",
+      "visible_characters": [
+        "Female Byleth",
+        "Edelgard",
+        "Lysithea",
+        "Mercedes"
+      ],
+      "findings": [
+        "The students are visible in the name-reveal reaction shot, but are not asset-faithful enough to approve.",
+        "The previous source frame spec listed only Female Byleth, while the generated frame visibly includes all three students.",
+        "The board is useful, but the character layer must be regenerated or composited from approved assets before video submission."
+      ]
+    }
+  ],
+  "pass_shots": [],
+  "decision": "Do not submit SH002, SH010, SH020, or SH032 to video generation until start/key/end frames are regenerated or composited from exact selected assets."
+}

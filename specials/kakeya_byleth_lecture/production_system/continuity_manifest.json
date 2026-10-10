@@ -1,0 +1,902 @@
+{
+  "version": 1,
+  "project": "Byleth Teaches the 2D Needle Problem",
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-27",
+  "pairs": [
+    {
+      "id": "KAK-BYLETH-PROMPT-SH001->KAK-BYLETH-PROMPT-SH002",
+      "from": "KAK-BYLETH-PROMPT-SH001",
+      "to": "KAK-BYLETH-PROMPT-SH002",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH002->KAK-BYLETH-PROMPT-SH003",
+      "from": "KAK-BYLETH-PROMPT-SH002",
+      "to": "KAK-BYLETH-PROMPT-SH003",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH003->KAK-BYLETH-PROMPT-SH004",
+      "from": "KAK-BYLETH-PROMPT-SH003",
+      "to": "KAK-BYLETH-PROMPT-SH004",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH004->KAK-BYLETH-PROMPT-SH005",
+      "from": "KAK-BYLETH-PROMPT-SH004",
+      "to": "KAK-BYLETH-PROMPT-SH005",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH005->KAK-BYLETH-PROMPT-SH006",
+      "from": "KAK-BYLETH-PROMPT-SH005",
+      "to": "KAK-BYLETH-PROMPT-SH006",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH006->KAK-BYLETH-PROMPT-SH007",
+      "from": "KAK-BYLETH-PROMPT-SH006",
+      "to": "KAK-BYLETH-PROMPT-SH007",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH007->KAK-BYLETH-PROMPT-SH008",
+      "from": "KAK-BYLETH-PROMPT-SH007",
+      "to": "KAK-BYLETH-PROMPT-SH008",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH008->KAK-BYLETH-PROMPT-SH009",
+      "from": "KAK-BYLETH-PROMPT-SH008",
+      "to": "KAK-BYLETH-PROMPT-SH009",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH009->KAK-BYLETH-PROMPT-SH010",
+      "from": "KAK-BYLETH-PROMPT-SH009",
+      "to": "KAK-BYLETH-PROMPT-SH010",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH010->KAK-BYLETH-PROMPT-SH011",
+      "from": "KAK-BYLETH-PROMPT-SH010",
+      "to": "KAK-BYLETH-PROMPT-SH011",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH011->KAK-BYLETH-PROMPT-SH012",
+      "from": "KAK-BYLETH-PROMPT-SH011",
+      "to": "KAK-BYLETH-PROMPT-SH012",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH012->KAK-BYLETH-PROMPT-SH013",
+      "from": "KAK-BYLETH-PROMPT-SH012",
+      "to": "KAK-BYLETH-PROMPT-SH013",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH013->KAK-BYLETH-PROMPT-SH014",
+      "from": "KAK-BYLETH-PROMPT-SH013",
+      "to": "KAK-BYLETH-PROMPT-SH014",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH014->KAK-BYLETH-PROMPT-SH015",
+      "from": "KAK-BYLETH-PROMPT-SH014",
+      "to": "KAK-BYLETH-PROMPT-SH015",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH015->KAK-BYLETH-PROMPT-SH016",
+      "from": "KAK-BYLETH-PROMPT-SH015",
+      "to": "KAK-BYLETH-PROMPT-SH016",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH016->KAK-BYLETH-PROMPT-SH017",
+      "from": "KAK-BYLETH-PROMPT-SH016",
+      "to": "KAK-BYLETH-PROMPT-SH017",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH017->KAK-BYLETH-PROMPT-SH018",
+      "from": "KAK-BYLETH-PROMPT-SH017",
+      "to": "KAK-BYLETH-PROMPT-SH018",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH018->KAK-BYLETH-PROMPT-SH019",
+      "from": "KAK-BYLETH-PROMPT-SH018",
+      "to": "KAK-BYLETH-PROMPT-SH019",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH019->KAK-BYLETH-PROMPT-SH020",
+      "from": "KAK-BYLETH-PROMPT-SH019",
+      "to": "KAK-BYLETH-PROMPT-SH020",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH020->KAK-BYLETH-PROMPT-SH021",
+      "from": "KAK-BYLETH-PROMPT-SH020",
+      "to": "KAK-BYLETH-PROMPT-SH021",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH021->KAK-BYLETH-PROMPT-SH022",
+      "from": "KAK-BYLETH-PROMPT-SH021",
+      "to": "KAK-BYLETH-PROMPT-SH022",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH022->KAK-BYLETH-PROMPT-SH023",
+      "from": "KAK-BYLETH-PROMPT-SH022",
+      "to": "KAK-BYLETH-PROMPT-SH023",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH023->KAK-BYLETH-PROMPT-SH024",
+      "from": "KAK-BYLETH-PROMPT-SH023",
+      "to": "KAK-BYLETH-PROMPT-SH024",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH024->KAK-BYLETH-PROMPT-SH025",
+      "from": "KAK-BYLETH-PROMPT-SH024",
+      "to": "KAK-BYLETH-PROMPT-SH025",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH025->KAK-BYLETH-PROMPT-SH026",
+      "from": "KAK-BYLETH-PROMPT-SH025",
+      "to": "KAK-BYLETH-PROMPT-SH026",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH026->KAK-BYLETH-PROMPT-SH027",
+      "from": "KAK-BYLETH-PROMPT-SH026",
+      "to": "KAK-BYLETH-PROMPT-SH027",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH027->KAK-BYLETH-PROMPT-SH028",
+      "from": "KAK-BYLETH-PROMPT-SH027",
+      "to": "KAK-BYLETH-PROMPT-SH028",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH028->KAK-BYLETH-PROMPT-SH029",
+      "from": "KAK-BYLETH-PROMPT-SH028",
+      "to": "KAK-BYLETH-PROMPT-SH029",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH029->KAK-BYLETH-PROMPT-SH030",
+      "from": "KAK-BYLETH-PROMPT-SH029",
+      "to": "KAK-BYLETH-PROMPT-SH030",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH030->KAK-BYLETH-PROMPT-SH031",
+      "from": "KAK-BYLETH-PROMPT-SH030",
+      "to": "KAK-BYLETH-PROMPT-SH031",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH031->KAK-BYLETH-PROMPT-SH032",
+      "from": "KAK-BYLETH-PROMPT-SH031",
+      "to": "KAK-BYLETH-PROMPT-SH032",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH032->KAK-BYLETH-PROMPT-SH033",
+      "from": "KAK-BYLETH-PROMPT-SH032",
+      "to": "KAK-BYLETH-PROMPT-SH033",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH033->KAK-BYLETH-PROMPT-SH034",
+      "from": "KAK-BYLETH-PROMPT-SH033",
+      "to": "KAK-BYLETH-PROMPT-SH034",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pass",
+        "edit_handoff": "pass",
+        "math_sequence_logic": "pass",
+        "identity_continuity": "pass",
+        "frame_chain": "pass",
+        "real_frame_end_start_handoff": "spot_pass",
+        "motion_continuity": "monitor_required",
+        "final_video_approval": "not_approved"
+      },
+      "notes": "Real-frame end/start contact sheet review found no P0 continuity break, but still-frame continuity is not final video approval.",
+      "status": "monitor_required",
+      "updated_at": "2026-07-28",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or clip QA before promoting this pair to approved_for_video.",
+        "Verify labels, diagrams, and Byleth identity survive generated interpolation."
+      ]
+    }
+  ],
+  "status": "real_frame_continuity_monitor_required",
+  "updated_at": "2026-07-28",
+  "notes": "Prompt/layout-stage continuity approvals were superseded by real-frame continuity review. All pairs are monitor_required until motion/clip continuity QA passes."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "SH026",
+  "order": 26,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S5",
+  "timecode": "05:58-06:12",
+  "duration_seconds": 14,
+  "script_beat": "Tube overlap by angle",
+  "shot_purpose": "展示两根 δ-管的重叠与夹角 alpha 有关。",
+  "location": "Clean diagram space",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH026/frame_spec.md",
+  "prompt_path": "storyboards/SH026/prompt.md",
+  "negative_prompt_path": "storyboards/SH026/negative_prompt.md",
+  "start_frame": "storyboards/SH026/start.png",
+  "key_frame": "storyboards/SH026/key.png",
+  "end_frame": "storyboards/SH026/end.png",
+  "expected_clip": "clips/SH026.mp4",
+  "edit_in": "从 SH025 的单管接入第二条管。",
+  "edit_out": "金色重叠区上方出现估计式。",
+  "screen_direction": "左小角、右大角，读图顺序固定。",
+  "mathematical_locks": [
+    "Zero area is not nonexistence; delta-tube diagrams must show delta width, alpha angle, gold overlap patch, and dimension equals 2 in the final 2D statement."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH025",
+    "next": "SH027",
+    "in": "从 SH025 的单管接入第二条管。",
+    "out": "金色重叠区上方出现估计式。"
+  },
+  "reject_if": [
+    "Must show two cases",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "delta, alpha, overlap, zero-area caution, or dimension = 2 claim is invisible or wrong"
+  ]
+}

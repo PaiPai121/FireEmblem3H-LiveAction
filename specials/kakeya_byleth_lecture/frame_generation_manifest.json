@@ -1,0 +1,406 @@
+{
+  "version": 1,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-27",
+  "status": "pilot_all_real_frames_generated_review_required",
+  "global_status": "identity_blockers_replaced_motion_and_visual_qa_required",
+  "notes": "All 34 shots have real start/key/end frames. Identity blockers SH002, SH010, SH020, and SH032 were replaced from regenerated whole-frame candidates on 2026-08-04; SH010 and SH020 remain monitor-required.",
+  "shots": [
+    {
+      "id": "SH001",
+      "real_start_frame": "real_frames/SH001/start.png",
+      "real_key_frame": "real_frames/SH001/key.png",
+      "real_end_frame": "real_frames/SH001/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_byleth_sword_flourish_opening_2026-08-04",
+      "review_status": "needs_visual_motion_qa",
+      "notes": "Revised real generated opening: Female Byleth stands in the training courtyard and performs a smooth wooden-sword flourish to turn the sword 180 degrees, then asks how small the swept area can be. No floor baseline, no red endpoints, no formulas. Check Byleth identity, sword continuity, 180-degree flourish readability, and handoff to student reaction."
+    },
+    {
+      "id": "SH002",
+      "real_start_frame": "real_frames/SH002/start.png",
+      "real_key_frame": "real_frames/SH002/key.png",
+      "real_end_frame": "real_frames/SH002/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_student_circle_reaction_2026-08-04",
+      "review_status": "needs_visual_motion_qa",
+      "notes": "Revised real generated student reaction: after SH001 sword-flourish question, Mercedes raises the circle intuition while Edelgard and Lysithea attend. Check student identity, Mercedes speaking beat, Byleth foreground continuity, and handoff to SH003 fixed-center circle.",
+      "identity_visual_audit": {
+        "decision": "approved_replacement",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v1",
+        "candidate_frames": "regenerated_frame_candidates/SH002_identity_v1/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH002/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查通过：女贝老师、艾黛尔、莉丝缇亚、梅尔赛德斯身份明显贴近 selected asset。",
+          "三帧连续性成立，无数学/中文文字风险。"
+        ]
+      }
+    },
+    {
+      "id": "SH003",
+      "real_start_frame": "real_frames/SH003/start.png",
+      "real_key_frame": "real_frames/SH003/key.png",
+      "real_end_frame": "real_frames/SH003/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real top-down stone-floor fixed-center circle intuition with deterministic rotating sword and disk overlays. Check circle is framed as rejected intuition, not final answer."
+    },
+    {
+      "id": "SH004",
+      "real_start_frame": "real_frames/SH004/start.png",
+      "real_key_frame": "real_frames/SH004/key.png",
+      "real_end_frame": "real_frames/SH004/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_byleth_board_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real Female Byleth chalkboard base with deterministic fixed-center crossed out vs movable-center icons. Check no deltoid contamination and rule refinement clarity."
+    },
+    {
+      "id": "SH005",
+      "real_start_frame": "real_frames/SH005/start.png",
+      "real_key_frame": "real_frames/SH005/key.png",
+      "real_end_frame": "real_frames/SH005/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_byleth_board_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real Female Byleth chalkboard base with deterministic all-direction unit-segment fan. Check fan readability and full-unit segment condition."
+    },
+    {
+      "id": "SH006",
+      "real_start_frame": "real_frames/SH006/start.png",
+      "real_key_frame": "real_frames/SH006/key.png",
+      "real_end_frame": "real_frames/SH006/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated Female Byleth chalkboard base with deterministic deltoid reveal overlays. Check three-cusp deltoid readability, candidate-only wording, and continuity into tangent-chord shot."
+    },
+    {
+      "id": "SH007",
+      "real_start_frame": "real_frames/SH007/start.png",
+      "real_key_frame": "real_frames/SH007/key.png",
+      "real_end_frame": "real_frames/SH007/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated diagram base with deterministic deltoid and red chord overlays. Earlier single key pilot is superseded; check chord containment and tangent-mechanism readability."
+    },
+    {
+      "id": "SH008",
+      "real_start_frame": "real_frames/SH008/start.png",
+      "real_key_frame": "real_frames/SH008/key.png",
+      "real_end_frame": "real_frames/SH008/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated parchment base with deterministic scale-lock overlay. Check four equal a segments, 4a=1, a=1/4, and unit chord readability."
+    },
+    {
+      "id": "SH009",
+      "real_start_frame": "real_frames/SH009/start.png",
+      "real_key_frame": "real_frames/SH009/key.png",
+      "real_end_frame": "real_frames/SH009/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated chalkboard base with deterministic area/candidate overlay. Check A=pi/8, unit red chord containment, and candidate-only framing."
+    },
+    {
+      "id": "SH010",
+      "real_start_frame": "real_frames/SH010/start.png",
+      "real_key_frame": "real_frames/SH010/key.png",
+      "real_end_frame": "real_frames/SH010/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "regenerated_whole_frame_candidate_identity_v3_promoted_2026-08-04",
+      "review_status": "identity_regenerated_monitor_required",
+      "notes": "独立审查：人物不是抠图/拼贴感，女贝老师与艾黛尔身份成立，三帧连续性好。 deltoid 基本像三尖内摆线候选，但仍需监看是否被读成尖三角。 A = π/8 属数学符号，不是英文句子；仍标记文字风险监看。",
+      "identity_visual_audit": {
+        "decision": "promoted_monitor_required",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v3",
+        "candidate_frames": "regenerated_frame_candidates/SH010_identity_v3/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH010/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查：人物不是抠图/拼贴感，女贝老师与艾黛尔身份成立，三帧连续性好。",
+          "deltoid 基本像三尖内摆线候选，但仍需监看是否被读成尖三角。",
+          "A = π/8 属数学符号，不是英文句子；仍标记文字风险监看。"
+        ]
+      }
+    },
+    {
+      "id": "SH011",
+      "real_start_frame": "real_frames/SH011/start.png",
+      "real_key_frame": "real_frames/SH011/key.png",
+      "real_end_frame": "real_frames/SH011/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated training-floor base with deterministic concavity-to-convex-hull overlays. Check that rope-pull concept and convex constraint switch are clear."
+    },
+    {
+      "id": "SH012",
+      "real_start_frame": "real_frames/SH012/start.png",
+      "real_key_frame": "real_frames/SH012/key.png",
+      "real_end_frame": "real_frames/SH012/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated diagram base with deterministic convex/nonconvex two-point line test. Check left pass/right fail readability."
+    },
+    {
+      "id": "SH013",
+      "real_start_frame": "real_frames/SH013/start.png",
+      "real_key_frame": "real_frames/SH013/key.png",
+      "real_end_frame": "real_frames/SH013/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated equilateral-triangle optimum diagram. Check height 1, direction ghosts, and convex-only disclaimer."
+    },
+    {
+      "id": "SH014",
+      "real_start_frame": "real_frames/SH014/start.png",
+      "real_key_frame": "real_frames/SH014/key.png",
+      "real_end_frame": "real_frames/SH014/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated parchment formula sequence. Check s=2/sqrt(3), A=1/sqrt(3), and formula spacing."
+    },
+    {
+      "id": "SH015",
+      "real_start_frame": "real_frames/SH015/start.png",
+      "real_key_frame": "real_frames/SH015/key.png",
+      "real_end_frame": "real_frames/SH015/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_diagram_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Corrected split-screen convex/nonconvex diagram. Left now shows the same triangular fragments inside a filled convex hull; right keeps nonconvex gaps before Perron handoff."
+    },
+    {
+      "id": "SH016",
+      "real_start_frame": "real_frames/SH016/start.png",
+      "real_key_frame": "real_frames/SH016/key.png",
+      "real_end_frame": "real_frames/SH016/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated Perron setup start/key/end frame set with Female Byleth and sand-table direction fan. Must be checked for identity, shot continuity, and math readability before promotion."
+    },
+    {
+      "id": "SH017",
+      "real_start_frame": "real_frames/SH017/start.png",
+      "real_key_frame": "real_frames/SH017/key.png",
+      "real_end_frame": "real_frames/SH017/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated Perron cut-step start/key/end set. Check base subdivision, shared apex, and direction coverage."
+    },
+    {
+      "id": "SH018",
+      "real_start_frame": "real_frames/SH018/start.png",
+      "real_key_frame": "real_frames/SH018/key.png",
+      "real_end_frame": "real_frames/SH018/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated Perron slide-step start/key/end set. Check translation arrows, parallel direction preservation, and no rotation."
+    },
+    {
+      "id": "SH019",
+      "real_start_frame": "real_frames/SH019/start.png",
+      "real_key_frame": "real_frames/SH019/key.png",
+      "real_end_frame": "real_frames/SH019/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated Perron overlap-step start/key/end set. Strong cinematic look, but math QA must verify translated overlap and union-shrink clarity."
+    },
+    {
+      "id": "SH020",
+      "real_start_frame": "real_frames/SH020/start.png",
+      "real_key_frame": "real_frames/SH020/key.png",
+      "real_end_frame": "real_frames/SH020/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "regenerated_whole_frame_candidate_identity_v1_promoted_2026-08-04",
+      "review_status": "identity_regenerated_monitor_required",
+      "notes": "独立审查：四人身份整体贴近 selected asset，显著优于旧帧。 Perron 碎片和绿色方向带作为讲解视觉可读，但桌面细节复杂，需监看运动中是否跳动。",
+      "identity_visual_audit": {
+        "decision": "promoted_monitor_required",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v1",
+        "candidate_frames": "regenerated_frame_candidates/SH020_identity_v1/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH020/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查：四人身份整体贴近 selected asset，显著优于旧帧。",
+          "Perron 碎片和绿色方向带作为讲解视觉可读，但桌面细节复杂，需监看运动中是否跳动。"
+        ]
+      }
+    },
+    {
+      "id": "SH021",
+      "real_start_frame": "real_frames/SH021/start.png",
+      "real_key_frame": "real_frames/SH021/key.png",
+      "real_end_frame": "real_frames/SH021/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated direction-audit diagram. Check that lower segmented interval has no visual coverage gaps and preserves left-to-right direction order."
+    },
+    {
+      "id": "SH022",
+      "real_start_frame": "real_frames/SH022/start.png",
+      "real_key_frame": "real_frames/SH022/key.png",
+      "real_end_frame": "real_frames/SH022/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated iteration-acceleration diagram. Check repeated shrink, full direction ruler, and no misleading piece rotation."
+    },
+    {
+      "id": "SH023",
+      "real_start_frame": "real_frames/SH023/start.png",
+      "real_key_frame": "real_frames/SH023/key.png",
+      "real_end_frame": "real_frames/SH023/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_with_local_text_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated classical-conclusion shot with deterministic chalk text overlay. Check Byleth continuity, diagram correctness, and overlay readability."
+    },
+    {
+      "id": "SH024",
+      "real_start_frame": "real_frames/SH024/start.png",
+      "real_key_frame": "real_frames/SH024/key.png",
+      "real_end_frame": "real_frames/SH024/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_parchment_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real parchment base with deterministic zero-area caution graphic. Check area-zero is not portrayed as nonexistence or motion disappearance."
+    },
+    {
+      "id": "SH025",
+      "real_start_frame": "real_frames/SH025/start.png",
+      "real_key_frame": "real_frames/SH025/key.png",
+      "real_end_frame": "real_frames/SH025/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated delta-tube base with deterministic segment/tube/delta overlays. Check delta label readability and unit-segment endpoints."
+    },
+    {
+      "id": "SH026",
+      "real_start_frame": "real_frames/SH026/start.png",
+      "real_key_frame": "real_frames/SH026/key.png",
+      "real_end_frame": "real_frames/SH026/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay_corrected_alpha_labels",
+      "review_status": "math_visual_qa_spot_pass_monitor_required",
+      "notes": "Corrected tube-overlap comparison labels from ambiguous small/large a-style alpha mark to explicit small alpha / large alpha. Check left small-alpha overlap vs right large-alpha overlap remains clear."
+    },
+    {
+      "id": "SH027",
+      "real_start_frame": "real_frames/SH027/start.png",
+      "real_key_frame": "real_frames/SH027/key.png",
+      "real_end_frame": "real_frames/SH027/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real generated key-estimate diagram with deterministic overlap <= C delta^2 / alpha overlay. Formula was corrected to avoid alpha being misread as a."
+    },
+    {
+      "id": "SH028",
+      "real_start_frame": "real_frames/SH028/start.png",
+      "real_key_frame": "real_frames/SH028/key.png",
+      "real_end_frame": "real_frames/SH028/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated dimension-intuition grid sequence with deterministic hit-cell and multidirection overlays. Check that zero area is not portrayed as disappearance."
+    },
+    {
+      "id": "SH029",
+      "real_start_frame": "real_frames/SH029/start.png",
+      "real_key_frame": "real_frames/SH029/key.png",
+      "real_end_frame": "real_frames/SH029/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "built_in_imagegen_base_with_deterministic_math_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real generated Female Byleth theorem-board sequence with deterministic area/dimension text. Check final 2D statement readability and Byleth continuity."
+    },
+    {
+      "id": "SH030",
+      "real_start_frame": "real_frames/SH030/start.png",
+      "real_key_frame": "real_frames/SH030/key.png",
+      "real_end_frame": "real_frames/SH030/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_byleth_board_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real Female Byleth chalkboard base with deterministic tube-overlap, maximal-average, and wave-packet triptych. Check impact remains proof-related, not loose life metaphor."
+    },
+    {
+      "id": "SH031",
+      "real_start_frame": "real_frames/SH031/start.png",
+      "real_key_frame": "real_frames/SH031/key.png",
+      "real_end_frame": "real_frames/SH031/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_classroom_base_with_deterministic_math_overlay",
+      "review_status": "needs_math_visual_qa",
+      "notes": "Real classroom board base with deterministic tube overlap, maximal averages, and wave packet icons. Check terms are legible and tied to Kakeya proof structures."
+    },
+    {
+      "id": "SH032",
+      "real_start_frame": "real_frames/SH032/start.png",
+      "real_key_frame": "real_frames/SH032/key.png",
+      "real_end_frame": "real_frames/SH032/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "regenerated_whole_frame_candidate_identity_v2_promoted_2026-08-04",
+      "review_status": "identity_regenerated_visual_review_passed",
+      "notes": "独立审查通过：人物不是抠图/拼贴感，课堂空间完整。 四名角色身份对背影课堂反应足够成立，中文标题自然，无英文/日文，无明显黑板补丁。",
+      "identity_visual_audit": {
+        "decision": "approved_replacement",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v2",
+        "candidate_frames": "regenerated_frame_candidates/SH032_identity_v2/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH032/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查通过：人物不是抠图/拼贴感，课堂空间完整。",
+          "四名角色身份对背影课堂反应足够成立，中文标题自然，无英文/日文，无明显黑板补丁。"
+        ]
+      }
+    },
+    {
+      "id": "SH033",
+      "real_start_frame": "real_frames/SH033/start.png",
+      "real_key_frame": "real_frames/SH033/key.png",
+      "real_end_frame": "real_frames/SH033/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_topdown_stone_base_with_deterministic_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real top-down stone-floor final sword frame with deterministic all-direction fan and zero-area ghost pattern. Check continuity back to opening sword."
+    },
+    {
+      "id": "SH034",
+      "real_start_frame": "real_frames/SH034/start.png",
+      "real_key_frame": "real_frames/SH034/key.png",
+      "real_end_frame": "real_frames/SH034/end.png",
+      "status": "pilot_full_shot_generated_review_required",
+      "source": "real_generated_parchment_base_with_deterministic_title_overlay",
+      "review_status": "needs_visual_qa",
+      "notes": "Real parchment end card with deterministic closing thesis text. Check readability and restrained final framing."
+    }
+  ],
+  "remaining_scope": {
+    "total_shots": 34,
+    "frames_per_shot": 3,
+    "total_required_real_frames": 102,
+    "generated_real_frames": 102,
+    "remaining_real_frames": 0
+  }
+}

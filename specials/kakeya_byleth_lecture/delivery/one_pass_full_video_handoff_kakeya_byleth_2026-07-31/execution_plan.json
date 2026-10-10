@@ -1,0 +1,26 @@
+{
+  "package_id": "one_pass_full_video_handoff_kakeya_byleth_2026-07-31",
+  "strategy": "one_pass_full_length",
+  "status": "clips_pending",
+  "total_shots": 34,
+  "total_duration_seconds": 303,
+  "required_env": "VIDEO_MODEL_CLI_ARGV_JSON",
+  "frame_progression_audit": {
+    "status": "progression_passed",
+    "path": "production_system/reviews/frame_progression_audit_2026-08-01.json",
+    "summary": {
+      "total_shots": 34,
+      "low_progression_count": 0,
+      "watch_count": 0,
+      "clear_count": 34,
+      "missing_count": 0
+    }
+  },
+  "steps": [
+    "Set VIDEO_MODEL_CLI_ARGV_JSON to the real image-to-video command template.",
+    "Run execution_commands.sh from this package directory, or submit rows from submission_queue.csv manually.",
+    "Generate each expected clip under clips/full/.",
+    "Run post-generation QA using one_pass_qa_checklist.md.",
+    "Regenerate failed shots individually; do not regenerate the whole sequence unless multiple adjacent clips share the same upstream issue."
+  ]
+}

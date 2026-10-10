@@ -1,0 +1,46 @@
+{
+  "id": "SH015",
+  "order": 15,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S3",
+  "timecode": "03:05-03:18",
+  "duration_seconds": 13,
+  "script_beat": "Why convex is expensive",
+  "shot_purpose": "用凸性会填满空隙，自然引出去掉凸性后的碎片问题。",
+  "location": "Diagram space",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH015/frame_spec.md",
+  "prompt_path": "storyboards/SH015/prompt.md",
+  "negative_prompt_path": "storyboards/SH015/negative_prompt.md",
+  "start_frame": "storyboards/SH015/start.png",
+  "key_frame": "storyboards/SH015/key.png",
+  "end_frame": "storyboards/SH015/end.png",
+  "expected_clip": "clips/SH015.mp4",
+  "edit_in": "从面积公式切到对比图。",
+  "edit_out": "右侧碎片 morph 成大等腰三角形。",
+  "screen_direction": "左侧面积膨胀，右侧碎片向画面中心过渡。",
+  "mathematical_locks": [
+    "Convex triangle is only the convex-restricted optimum; equilateral triangle height is 1, side length is 2/sqrt(3), area is 1/sqrt(3)."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "student_identity_scope"
+  ],
+  "continuity": {
+    "previous": "SH014",
+    "next": "SH016",
+    "in": "从面积公式切到对比图。",
+    "out": "右侧碎片 morph 成大等腰三角形。"
+  },
+  "reject_if": [
+    "Abstract split needs labels",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "the equilateral triangle is implied to solve the unrestricted non-convex problem"
+  ]
+}

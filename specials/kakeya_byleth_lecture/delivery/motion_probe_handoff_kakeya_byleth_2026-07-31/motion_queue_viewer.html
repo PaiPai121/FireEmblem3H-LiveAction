@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>二维挂谷运动探针交接包</title>
+  <style>
+    body{margin:0;background:#f5f7fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    header{padding:28px 32px;background:#fff;border-bottom:1px solid #d9e1ee}
+    h1{margin:0;font-size:34px}.sub{color:#657386;font-weight:700;margin-top:8px}
+    main{padding:24px 32px}.stats{display:grid;grid-template-columns:repeat(5,minmax(120px,1fr));gap:12px;margin-bottom:20px}
+    .stat{background:#fff;border:1px solid #d9e1ee;border-radius:8px;padding:14px}.stat b{display:block;font-size:24px}
+    .links{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.links a{background:#fff;border:1px solid #cbd6e6;border-radius:7px;padding:10px 12px;color:#1456a8;text-decoration:none;font-weight:800}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #d9e1ee;border-radius:8px;overflow:hidden}
+    th,td{text-align:left;border-bottom:1px solid #e6ecf5;padding:10px 12px;vertical-align:top}th{background:#eef3fa}
+    td:nth-child(4){max-width:460px}.note{background:#fff;border:1px solid #d9e1ee;border-radius:8px;padding:16px;margin:0 0 18px}
+    code{background:#edf2f8;border-radius:4px;padding:2px 5px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>二维挂谷运动探针交接包</h1>
+    <div class="sub">motion_probe_handoff_kakeya_byleth_2026-07-31 · 状态：superseded_by_one_pass_budget_policy · 只用于 3 秒运动试跑，不是最终出片批准</div>
+  </header>
+  <main>
+    <div class="stats">
+      <div class="stat"><b>34</b><span>镜头</span></div>
+      <div class="stat"><b>102</b><span>探针总秒数</span></div>
+      <div class="stat"><b>492</b><span>原计划秒数</span></div>
+      <div class="stat"><b>0</b><span>已生成片段</span></div>
+      <div class="stat"><b>QA</b><span>待运动监看</span></div>
+    </div>
+    <div class="note">
+      本包把 34 个镜头压成每镜头 3 秒运动探针，用来先检查女贝老师与三位学生身份、数学图形、中文台词节奏、标签稳定和相邻剪辑。真实视频模型命令配置前，状态保持 <code>clips_pending</code>。
+    </div>
+    <div class="links">
+      <a href="RUNBOOK.md">运行说明</a>
+      <a href="submission_queue.csv">提交队列 CSV</a>
+      <a href="submission_payload.jsonl">提交载荷 JSONL</a>
+      <a href="execution_plan.json">执行计划</a>
+      <a href="execution_commands.sh">执行命令</a>
+      <a href="../one_pass_full_video_handoff_kakeya_byleth_2026-07-31/full_video_queue_viewer.html">一次性全时长包</a>
+      <a href="../real_frame_preview_kakeya_byleth_2026-07-28/asset_viewer.html">返回真实帧审查页</a>
+    </div>
+    <table>
+      <thead><tr><th>#</th><th>镜头</th><th>时长</th><th>主要检查</th><th>三帧</th><th>文本资产</th></tr></thead>
+      <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="shots/001_SH001/model_prompt.md">SH001</a></td>
+      <td>3s / 原 8s</td>
+      <td>检查女贝老师必须在开场起始帧可见，随后木剑端点、单位长度提示和落剑动作链稳定。</td>
+      <td><a href="shots/001_SH001/start_frame.png">起始</a> · <a href="shots/001_SH001/key_frame.png">关键</a> · <a href="shots/001_SH001/end_frame.png">结束</a></td>
+      <td><a href="shots/001_SH001/prompt.md">审查提示词</a> · <a href="shots/001_SH001/negative_prompt.md">负面</a> · <a href="shots/001_SH001/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="shots/002_SH002/model_prompt.md">SH002</a></td>
+      <td>3s / 原 10s</td>
+      <td>检查女贝老师向艾黛尔、莉丝缇亚、梅尔赛德斯提出问题；木剑两端点必须清楚。</td>
+      <td><a href="shots/002_SH002/start_frame.png">起始</a> · <a href="shots/002_SH002/key_frame.png">关键</a> · <a href="shots/002_SH002/end_frame.png">结束</a></td>
+      <td><a href="shots/002_SH002/prompt.md">审查提示词</a> · <a href="shots/002_SH002/negative_prompt.md">负面</a> · <a href="shots/002_SH002/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="shots/003_SH003/model_prompt.md">SH003</a></td>
+      <td>3s / 原 12s</td>
+      <td>检查圆盘只作为错误直觉，不要被误认为最终答案。</td>
+      <td><a href="shots/003_SH003/start_frame.png">起始</a> · <a href="shots/003_SH003/key_frame.png">关键</a> · <a href="shots/003_SH003/end_frame.png">结束</a></td>
+      <td><a href="shots/003_SH003/prompt.md">审查提示词</a> · <a href="shots/003_SH003/negative_prompt.md">负面</a> · <a href="shots/003_SH003/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="shots/004_SH004/model_prompt.md">SH004</a></td>
+      <td>3s / 原 12s</td>
+      <td>检查固定中心被划掉、中心可移动的规则清楚。</td>
+      <td><a href="shots/004_SH004/start_frame.png">起始</a> · <a href="shots/004_SH004/key_frame.png">关键</a> · <a href="shots/004_SH004/end_frame.png">结束</a></td>
+      <td><a href="shots/004_SH004/prompt.md">审查提示词</a> · <a href="shots/004_SH004/negative_prompt.md">负面</a> · <a href="shots/004_SH004/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="shots/005_SH005/model_prompt.md">SH005</a></td>
+      <td>3s / 原 13s</td>
+      <td>检查每个方向都有完整一单位线段，方向扇不要拥挤。</td>
+      <td><a href="shots/005_SH005/start_frame.png">起始</a> · <a href="shots/005_SH005/key_frame.png">关键</a> · <a href="shots/005_SH005/end_frame.png">结束</a></td>
+      <td><a href="shots/005_SH005/prompt.md">审查提示词</a> · <a href="shots/005_SH005/negative_prompt.md">负面</a> · <a href="shots/005_SH005/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="shots/006_SH006/model_prompt.md">SH006</a></td>
+      <td>3s / 原 12s</td>
+      <td>检查三尖内摆线是候选区域，莉丝缇亚提问不干扰图形。</td>
+      <td><a href="shots/006_SH006/start_frame.png">起始</a> · <a href="shots/006_SH006/key_frame.png">关键</a> · <a href="shots/006_SH006/end_frame.png">结束</a></td>
+      <td><a href="shots/006_SH006/prompt.md">审查提示词</a> · <a href="shots/006_SH006/negative_prompt.md">负面</a> · <a href="shots/006_SH006/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="shots/007_SH007/model_prompt.md">SH007</a></td>
+      <td>3s / 原 15s</td>
+      <td>检查红色切线弦始终在三尖内摆线区域内。</td>
+      <td><a href="shots/007_SH007/start_frame.png">起始</a> · <a href="shots/007_SH007/key_frame.png">关键</a> · <a href="shots/007_SH007/end_frame.png">结束</a></td>
+      <td><a href="shots/007_SH007/prompt.md">审查提示词</a> · <a href="shots/007_SH007/negative_prompt.md">负面</a> · <a href="shots/007_SH007/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="shots/008_SH008/model_prompt.md">SH008</a></td>
+      <td>3s / 原 14s</td>
+      <td>检查 4a=1 与 a=1/4 尺度关系清楚。</td>
+      <td><a href="shots/008_SH008/start_frame.png">起始</a> · <a href="shots/008_SH008/key_frame.png">关键</a> · <a href="shots/008_SH008/end_frame.png">结束</a></td>
+      <td><a href="shots/008_SH008/prompt.md">审查提示词</a> · <a href="shots/008_SH008/negative_prompt.md">负面</a> · <a href="shots/008_SH008/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="shots/009_SH009/model_prompt.md">SH009</a></td>
+      <td>3s / 原 16s</td>
+      <td>检查 A=pi/8 是候选面积，不说成最终最小。</td>
+      <td><a href="shots/009_SH009/start_frame.png">起始</a> · <a href="shots/009_SH009/key_frame.png">关键</a> · <a href="shots/009_SH009/end_frame.png">结束</a></td>
+      <td><a href="shots/009_SH009/prompt.md">审查提示词</a> · <a href="shots/009_SH009/negative_prompt.md">负面</a> · <a href="shots/009_SH009/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="shots/010_SH010/model_prompt.md">SH010</a></td>
+      <td>3s / 原 14s</td>
+      <td>检查艾黛尔可见发问，女贝老师停顿，三尖候选板书仍可读。</td>
+      <td><a href="shots/010_SH010/start_frame.png">起始</a> · <a href="shots/010_SH010/key_frame.png">关键</a> · <a href="shots/010_SH010/end_frame.png">结束</a></td>
+      <td><a href="shots/010_SH010/prompt.md">审查提示词</a> · <a href="shots/010_SH010/negative_prompt.md">负面</a> · <a href="shots/010_SH010/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="shots/011_SH011/model_prompt.md">SH011</a></td>
+      <td>3s / 原 12s</td>
+      <td>检查凹陷区域被拉成凸边界的概念清楚。</td>
+      <td><a href="shots/011_SH011/start_frame.png">起始</a> · <a href="shots/011_SH011/key_frame.png">关键</a> · <a href="shots/011_SH011/end_frame.png">结束</a></td>
+      <td><a href="shots/011_SH011/prompt.md">审查提示词</a> · <a href="shots/011_SH011/negative_prompt.md">负面</a> · <a href="shots/011_SH011/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><a href="shots/012_SH012/model_prompt.md">SH012</a></td>
+      <td>3s / 原 18s</td>
+      <td>检查两点连线是否离开区域的凸性测试清楚。</td>
+      <td><a href="shots/012_SH012/start_frame.png">起始</a> · <a href="shots/012_SH012/key_frame.png">关键</a> · <a href="shots/012_SH012/end_frame.png">结束</a></td>
+      <td><a href="shots/012_SH012/prompt.md">审查提示词</a> · <a href="shots/012_SH012/negative_prompt.md">负面</a> · <a href="shots/012_SH012/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="shots/013_SH013/model_prompt.md">SH013</a></td>
+      <td>3s / 原 16s</td>
+      <td>检查高为 1 的等边三角形只属于凸区域最优。</td>
+      <td><a href="shots/013_SH013/start_frame.png">起始</a> · <a href="shots/013_SH013/key_frame.png">关键</a> · <a href="shots/013_SH013/end_frame.png">结束</a></td>
+      <td><a href="shots/013_SH013/prompt.md">审查提示词</a> · <a href="shots/013_SH013/negative_prompt.md">负面</a> · <a href="shots/013_SH013/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td><a href="shots/014_SH014/model_prompt.md">SH014</a></td>
+      <td>3s / 原 13s</td>
+      <td>检查 s=2/sqrt(3) 与 A=1/sqrt(3) 公式间距。</td>
+      <td><a href="shots/014_SH014/start_frame.png">起始</a> · <a href="shots/014_SH014/key_frame.png">关键</a> · <a href="shots/014_SH014/end_frame.png">结束</a></td>
+      <td><a href="shots/014_SH014/prompt.md">审查提示词</a> · <a href="shots/014_SH014/negative_prompt.md">负面</a> · <a href="shots/014_SH014/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td><a href="shots/015_SH015/model_prompt.md">SH015</a></td>
+      <td>3s / 原 13s</td>
+      <td>检查左侧凸包补满空隙、右侧非凸碎片保留空隙。</td>
+      <td><a href="shots/015_SH015/start_frame.png">起始</a> · <a href="shots/015_SH015/key_frame.png">关键</a> · <a href="shots/015_SH015/end_frame.png">结束</a></td>
+      <td><a href="shots/015_SH015/prompt.md">审查提示词</a> · <a href="shots/015_SH015/negative_prompt.md">负面</a> · <a href="shots/015_SH015/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td><a href="shots/016_SH016/model_prompt.md">SH016</a></td>
+      <td>3s / 原 13s</td>
+      <td>检查佩龙树初始三角形和方向扇可读。</td>
+      <td><a href="shots/016_SH016/start_frame.png">起始</a> · <a href="shots/016_SH016/key_frame.png">关键</a> · <a href="shots/016_SH016/end_frame.png">结束</a></td>
+      <td><a href="shots/016_SH016/prompt.md">审查提示词</a> · <a href="shots/016_SH016/negative_prompt.md">负面</a> · <a href="shots/016_SH016/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td><a href="shots/017_SH017/model_prompt.md">SH017</a></td>
+      <td>3s / 原 14s</td>
+      <td>检查切分后方向区间没有被删掉。</td>
+      <td><a href="shots/017_SH017/start_frame.png">起始</a> · <a href="shots/017_SH017/key_frame.png">关键</a> · <a href="shots/017_SH017/end_frame.png">结束</a></td>
+      <td><a href="shots/017_SH017/prompt.md">审查提示词</a> · <a href="shots/017_SH017/negative_prompt.md">负面</a> · <a href="shots/017_SH017/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td><a href="shots/018_SH018/model_prompt.md">SH018</a></td>
+      <td>3s / 原 15s</td>
+      <td>检查碎片只平移不旋转。</td>
+      <td><a href="shots/018_SH018/start_frame.png">起始</a> · <a href="shots/018_SH018/key_frame.png">关键</a> · <a href="shots/018_SH018/end_frame.png">结束</a></td>
+      <td><a href="shots/018_SH018/prompt.md">审查提示词</a> · <a href="shots/018_SH018/negative_prompt.md">负面</a> · <a href="shots/018_SH018/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td><a href="shots/019_SH019/model_prompt.md">SH019</a></td>
+      <td>3s / 原 16s</td>
+      <td>检查重叠缩小面积，同时方向没有丢。</td>
+      <td><a href="shots/019_SH019/start_frame.png">起始</a> · <a href="shots/019_SH019/key_frame.png">关键</a> · <a href="shots/019_SH019/end_frame.png">结束</a></td>
+      <td><a href="shots/019_SH019/prompt.md">审查提示词</a> · <a href="shots/019_SH019/negative_prompt.md">负面</a> · <a href="shots/019_SH019/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td><a href="shots/020_SH020/model_prompt.md">SH020</a></td>
+      <td>3s / 原 14s</td>
+      <td>检查三位学生围沙盘互动；木尺指向绿色方向带而不是原位置。</td>
+      <td><a href="shots/020_SH020/start_frame.png">起始</a> · <a href="shots/020_SH020/key_frame.png">关键</a> · <a href="shots/020_SH020/end_frame.png">结束</a></td>
+      <td><a href="shots/020_SH020/prompt.md">审查提示词</a> · <a href="shots/020_SH020/negative_prompt.md">负面</a> · <a href="shots/020_SH020/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td><a href="shots/021_SH021/model_prompt.md">SH021</a></td>
+      <td>3s / 原 18s</td>
+      <td>检查方向区间前后仍被完整覆盖。</td>
+      <td><a href="shots/021_SH021/start_frame.png">起始</a> · <a href="shots/021_SH021/key_frame.png">关键</a> · <a href="shots/021_SH021/end_frame.png">结束</a></td>
+      <td><a href="shots/021_SH021/prompt.md">审查提示词</a> · <a href="shots/021_SH021/negative_prompt.md">负面</a> · <a href="shots/021_SH021/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td><a href="shots/022_SH022/model_prompt.md">SH022</a></td>
+      <td>3s / 原 20s</td>
+      <td>检查切分、平移、重叠的迭代顺序不要过快。</td>
+      <td><a href="shots/022_SH022/start_frame.png">起始</a> · <a href="shots/022_SH022/key_frame.png">关键</a> · <a href="shots/022_SH022/end_frame.png">结束</a></td>
+      <td><a href="shots/022_SH022/prompt.md">审查提示词</a> · <a href="shots/022_SH022/negative_prompt.md">负面</a> · <a href="shots/022_SH022/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td><a href="shots/023_SH023/model_prompt.md">SH023</a></td>
+      <td>3s / 原 20s</td>
+      <td>检查结论是没有最小正面积，不是三尖内摆线获胜。</td>
+      <td><a href="shots/023_SH023/start_frame.png">起始</a> · <a href="shots/023_SH023/key_frame.png">关键</a> · <a href="shots/023_SH023/end_frame.png">结束</a></td>
+      <td><a href="shots/023_SH023/prompt.md">审查提示词</a> · <a href="shots/023_SH023/negative_prompt.md">负面</a> · <a href="shots/023_SH023/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td><a href="shots/024_SH024/model_prompt.md">SH024</a></td>
+      <td>3s / 原 14s</td>
+      <td>检查面积为零不是集合不存在。</td>
+      <td><a href="shots/024_SH024/start_frame.png">起始</a> · <a href="shots/024_SH024/key_frame.png">关键</a> · <a href="shots/024_SH024/end_frame.png">结束</a></td>
+      <td><a href="shots/024_SH024/prompt.md">审查提示词</a> · <a href="shots/024_SH024/negative_prompt.md">负面</a> · <a href="shots/024_SH024/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td><a href="shots/025_SH025/model_prompt.md">SH025</a></td>
+      <td>3s / 原 16s</td>
+      <td>检查 δ 管宽度清楚。</td>
+      <td><a href="shots/025_SH025/start_frame.png">起始</a> · <a href="shots/025_SH025/key_frame.png">关键</a> · <a href="shots/025_SH025/end_frame.png">结束</a></td>
+      <td><a href="shots/025_SH025/prompt.md">审查提示词</a> · <a href="shots/025_SH025/negative_prompt.md">负面</a> · <a href="shots/025_SH025/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td><a href="shots/026_SH026/model_prompt.md">SH026</a></td>
+      <td>3s / 原 14s</td>
+      <td>检查角度 α 与重叠长度的关系清楚。</td>
+      <td><a href="shots/026_SH026/start_frame.png">起始</a> · <a href="shots/026_SH026/key_frame.png">关键</a> · <a href="shots/026_SH026/end_frame.png">结束</a></td>
+      <td><a href="shots/026_SH026/prompt.md">审查提示词</a> · <a href="shots/026_SH026/negative_prompt.md">负面</a> · <a href="shots/026_SH026/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td><a href="shots/027_SH027/model_prompt.md">SH027</a></td>
+      <td>3s / 原 16s</td>
+      <td>检查 重叠 <= C δ^2 / α 与图中金色重叠区对应。</td>
+      <td><a href="shots/027_SH027/start_frame.png">起始</a> · <a href="shots/027_SH027/key_frame.png">关键</a> · <a href="shots/027_SH027/end_frame.png">结束</a></td>
+      <td><a href="shots/027_SH027/prompt.md">审查提示词</a> · <a href="shots/027_SH027/negative_prompt.md">负面</a> · <a href="shots/027_SH027/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td><a href="shots/028_SH028/model_prompt.md">SH028</a></td>
+      <td>3s / 原 15s</td>
+      <td>检查面积可消失但尺度复杂度仍高的直觉清楚。</td>
+      <td><a href="shots/028_SH028/start_frame.png">起始</a> · <a href="shots/028_SH028/key_frame.png">关键</a> · <a href="shots/028_SH028/end_frame.png">结束</a></td>
+      <td><a href="shots/028_SH028/prompt.md">审查提示词</a> · <a href="shots/028_SH028/negative_prompt.md">负面</a> · <a href="shots/028_SH028/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td><a href="shots/029_SH029/model_prompt.md">SH029</a></td>
+      <td>3s / 原 12s</td>
+      <td>检查二维结论“面积可为 0，维数为 2”不被过度解释。</td>
+      <td><a href="shots/029_SH029/start_frame.png">起始</a> · <a href="shots/029_SH029/key_frame.png">关键</a> · <a href="shots/029_SH029/end_frame.png">结束</a></td>
+      <td><a href="shots/029_SH029/prompt.md">审查提示词</a> · <a href="shots/029_SH029/negative_prompt.md">负面</a> · <a href="shots/029_SH029/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td><a href="shots/030_SH030/model_prompt.md">SH030</a></td>
+      <td>3s / 原 20s</td>
+      <td>检查影响部分仍围绕细管重叠、平均、波包，不变成生活比喻。</td>
+      <td><a href="shots/030_SH030/start_frame.png">起始</a> · <a href="shots/030_SH030/key_frame.png">关键</a> · <a href="shots/030_SH030/end_frame.png">结束</a></td>
+      <td><a href="shots/030_SH030/prompt.md">审查提示词</a> · <a href="shots/030_SH030/negative_prompt.md">负面</a> · <a href="shots/030_SH030/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td><a href="shots/031_SH031/model_prompt.md">SH031</a></td>
+      <td>3s / 原 17s</td>
+      <td>检查最大平均、波包、细管重叠三组概念可读。</td>
+      <td><a href="shots/031_SH031/start_frame.png">起始</a> · <a href="shots/031_SH031/key_frame.png">关键</a> · <a href="shots/031_SH031/end_frame.png">结束</a></td>
+      <td><a href="shots/031_SH031/prompt.md">审查提示词</a> · <a href="shots/031_SH031/negative_prompt.md">负面</a> · <a href="shots/031_SH031/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td><a href="shots/032_SH032/model_prompt.md">SH032</a></td>
+      <td>3s / 原 18s</td>
+      <td>检查中文标题“挂谷针问题”可读，三位学生有反应，不能出现英文标题。</td>
+      <td><a href="shots/032_SH032/start_frame.png">起始</a> · <a href="shots/032_SH032/key_frame.png">关键</a> · <a href="shots/032_SH032/end_frame.png">结束</a></td>
+      <td><a href="shots/032_SH032/prompt.md">审查提示词</a> · <a href="shots/032_SH032/negative_prompt.md">负面</a> · <a href="shots/032_SH032/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td><a href="shots/033_SH033/model_prompt.md">SH033</a></td>
+      <td>3s / 原 14s</td>
+      <td>检查结尾回到木剑和多方向结构，蓝色零面积影子不可消失。</td>
+      <td><a href="shots/033_SH033/start_frame.png">起始</a> · <a href="shots/033_SH033/key_frame.png">关键</a> · <a href="shots/033_SH033/end_frame.png">结束</a></td>
+      <td><a href="shots/033_SH033/prompt.md">审查提示词</a> · <a href="shots/033_SH033/negative_prompt.md">负面</a> · <a href="shots/033_SH033/metadata.json">元数据</a></td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td><a href="shots/034_SH034/model_prompt.md">SH034</a></td>
+      <td>3s / 原 8s</td>
+      <td>检查结尾命题清楚：面积可以小到消失，方向复杂度不会消失。</td>
+      <td><a href="shots/034_SH034/start_frame.png">起始</a> · <a href="shots/034_SH034/key_frame.png">关键</a> · <a href="shots/034_SH034/end_frame.png">结束</a></td>
+      <td><a href="shots/034_SH034/prompt.md">审查提示词</a> · <a href="shots/034_SH034/negative_prompt.md">负面</a> · <a href="shots/034_SH034/metadata.json">元数据</a></td>
+    </tr></tbody>
+    </table>
+  </main>
+</body>
+</html>

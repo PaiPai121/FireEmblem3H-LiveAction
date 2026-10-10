@@ -1,0 +1,50 @@
+{
+  "id": "SH012",
+  "order": 12,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S3",
+  "timecode": "02:18-02:36",
+  "duration_seconds": 18,
+  "script_beat": "Convex definition",
+  "shot_purpose": "用两点连线解释凸性，降低门槛。",
+  "location": "Diagram board",
+  "characters_visible": "Diagram only; Byleth pointer optional",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH012/frame_spec.md",
+  "prompt_path": "storyboards/SH012/prompt.md",
+  "negative_prompt_path": "storyboards/SH012/negative_prompt.md",
+  "start_frame": "storyboards/SH012/start.png",
+  "key_frame": "storyboards/SH012/key.png",
+  "end_frame": "storyboards/SH012/end.png",
+  "expected_clip": "clips/SH012.mp4",
+  "edit_in": "从绳索凹口消失切入。",
+  "edit_out": "左侧凸形变形为等边三角形。",
+  "screen_direction": "读图从左到右，绿色通过、红色失败。",
+  "mathematical_locks": [
+    "Convex triangle is only the convex-restricted optimum; equilateral triangle height is 1, side length is 2/sqrt(3), area is 1/sqrt(3)."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH011",
+    "next": "SH013",
+    "in": "从绳索凹口消失切入。",
+    "out": "左侧凸形变形为等边三角形。"
+  },
+  "reject_if": [
+    "Too elementary but necessary",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "the equilateral triangle is implied to solve the unrestricted non-convex problem"
+  ]
+}

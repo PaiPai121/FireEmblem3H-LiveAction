@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f1df"/>
+      <stop offset="1" stop-color="#e9f2f1"/>
+    </linearGradient>
+    <linearGradient id="portraitFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#d9cfbd" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f7a5a"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.42"/>
+  <rect x="36" y="34" width="1208" height="64" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="60" y="76" fill="#a8322a" font-size="28" font-weight="900">SH003 · KEY · 训练谜题</text>
+  <text x="1020" y="76" fill="#6b4300" font-size="18" font-weight="850">layout_reference</text>
+  
+  <rect x="56" y="132" width="1168" height="372" rx="8" fill="#fffdfa" stroke="#cfc5b6" stroke-width="2"/>
+  <g transform="translate(56, 132)">
+    <rect x="0" y="0" width="1168" height="372" rx="8" fill="#efe7d8"/>
+    <line x1="233.60000000000002" y1="193.44" x2="934.4000000000001" y2="193.44" stroke="#a8322a" stroke-width="5"/>
+    <circle cx="233.60000000000002" cy="193.44" r="9" fill="#a8322a"/>
+    <circle cx="934.4000000000001" cy="193.44" r="9" fill="#a8322a"/>
+    <line x1="541.4075749818553" y1="434.9936456588344" x2="626.5924250181447" y2="-48.1136456588344" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="461.35999999999996" y1="405.8587110402471" x2="706.64" y2="-18.978711040247106" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="396.1046189917771" y1="351.10294490391436" x2="771.8953810082229" y2="35.77705509608566" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="353.5121939736324" y1="277.33070075492003" x2="814.4878060263676" y2="109.54929924507998" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="338.72" y1="193.44" x2="829.28" y2="193.44" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="353.5121939736324" y1="109.54929924507998" x2="814.4878060263676" y2="277.33070075492003" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="396.1046189917771" y1="35.77705509608566" x2="771.8953810082229" y2="351.10294490391436" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="461.35999999999996" y1="-18.978711040247106" x2="706.64" y2="405.8587110402471" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="541.4075749818553" y1="-48.1136456588344" x2="626.5924250181447" y2="434.9936456588344" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/>
+    <g transform="translate(584 193.44) rotate(-28)">
+      <rect x="-256.96" y="-13" width="513.92" height="26" rx="8" fill="#8b5e34"/>
+      <circle cx="-256.96" cy="0" r="8" fill="#a8322a"/>
+      <circle cx="256.96" cy="0" r="8" fill="#a8322a"/>
+    </g>
+    <text x="34" y="52" fill="#0f5d7e" font-size="30" font-weight="900">unit length = 1</text>
+  </g>
+  <rect x="56" y="526" width="1168" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="80" y="562" fill="#0f5d7e" font-size="18" font-weight="900">Shot Purpose</text>
+  <text x="80" y="594" fill="#263241" font-size="23" font-weight="650">呈现固定中心旋转会扫出圆盘这个直觉答案。</text>
+  <rect x="56" y="526" width="240" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="76" y="562" fill="#1f7a5a" font-size="18" font-weight="900">Frame Intent</text>
+  <text x="76" y="594" fill="#263241" font-size="18" font-weight="650">红剑围绕固定中心快速扫过多个角度，淡蓝圆盘逐渐填满。</text>
+  <text x="58" y="690" fill="#657386" font-size="16" font-weight="700">Visible storyboard frame for web review; final cinematic PNG generation remains pending.</text>
+</svg>

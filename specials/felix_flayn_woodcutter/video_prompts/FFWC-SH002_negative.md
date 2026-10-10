@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no smug Flayn, no cruel Felix, no visible subtitles, no captions, no text, no watermarks, no logos, no modern tools, no romance framing, no extra students taking focus, no camera spin, no mouth distortion.

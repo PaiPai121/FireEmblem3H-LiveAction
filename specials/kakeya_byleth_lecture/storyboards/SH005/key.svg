@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f1df"/>
+      <stop offset="1" stop-color="#e9f2f1"/>
+    </linearGradient>
+    <linearGradient id="portraitFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#d9cfbd" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f7a5a"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.42"/>
+  <rect x="36" y="34" width="1208" height="64" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="60" y="76" fill="#a8322a" font-size="28" font-weight="900">SH005 · KEY · 训练谜题</text>
+  <text x="1020" y="76" fill="#6b4300" font-size="18" font-weight="850">layout_reference</text>
+  
+    <g>
+      <rect x="56" y="132" width="260" height="520" rx="8" fill="#16191d"/>
+      <image href="../../../../assets/characters/protagonist/BylethFemale/professor/selected.png" x="56" y="132" width="260" height="520" preserveAspectRatio="xMidYMid slice" opacity="0.82"/>
+      <rect x="56" y="132" width="260" height="520" rx="8" fill="url(#portraitFade)"/>
+      <text x="76" y="606" fill="#f8fafc" font-size="25" font-weight="800">Female Byleth</text>
+      <text x="76" y="638" fill="#dbeafe" font-size="17" font-weight="650">teal hair · green eyes · professor coat</text>
+    </g>
+  
+  <rect x="352" y="132" width="872" height="372" rx="8" fill="#fffdfa" stroke="#cfc5b6" stroke-width="2"/>
+  <g transform="translate(352, 132)">
+    <rect x="0" y="0" width="872" height="372" rx="8" fill="#efe7d8"/>
+    <line x1="174.4" y1="193.44" x2="697.6" y2="193.44" stroke="#a8322a" stroke-width="5"/>
+    <circle cx="174.4" cy="193.44" r="9" fill="#a8322a"/>
+    <circle cx="697.6" cy="193.44" r="9" fill="#a8322a"/>
+    <line x1="404.2015457056317" y1="373.7779957315955" x2="467.7984542943683" y2="13.102004268404471" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="344.44" y1="352.0265719410064" x2="527.5600000000001" y2="34.853428058993586" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="295.72194157605276" y1="311.14726708579906" x2="576.2780584239472" y2="75.73273291420092" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="263.92348728168446" y1="256.07072864579646" x2="608.0765127183156" y2="130.80927135420353" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="252.88" y1="193.44" x2="619.12" y2="193.44" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="263.92348728168446" y1="130.80927135420353" x2="608.0765127183156" y2="256.07072864579646" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="295.72194157605276" y1="75.73273291420092" x2="576.2780584239472" y2="311.14726708579906" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="344.44" y1="34.853428058993586" x2="527.5600000000001" y2="352.0265719410064" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/><line x1="404.2015457056317" y1="13.102004268404471" x2="467.7984542943683" y2="373.7779957315955" stroke="#1f7a5a" stroke-width="3" opacity="0.35"/>
+    <g transform="translate(436 193.44) rotate(-28)">
+      <rect x="-191.84" y="-13" width="383.68" height="26" rx="8" fill="#8b5e34"/>
+      <circle cx="-191.84" cy="0" r="8" fill="#a8322a"/>
+      <circle cx="191.84" cy="0" r="8" fill="#a8322a"/>
+    </g>
+    <text x="34" y="52" fill="#0f5d7e" font-size="30" font-weight="900">unit length = 1</text>
+  </g>
+  <rect x="352" y="526" width="872" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="376" y="562" fill="#0f5d7e" font-size="18" font-weight="900">Shot Purpose</text>
+  <text x="376" y="594" fill="#263241" font-size="23" font-weight="650">把连续转动改写为所有方向都有完整一单位线段。</text>
+  <rect x="56" y="526" width="260" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="76" y="562" fill="#1f7a5a" font-size="18" font-weight="900">Frame Intent</text>
+  <text x="76" y="594" fill="#263241" font-size="18" font-weight="650">绿色幽灵线段在不同角度依次出现，每条都保留完整端点。</text>
+  <text x="58" y="690" fill="#657386" font-size="16" font-weight="700">Visible storyboard frame for web review; final cinematic PNG generation remains pending.</text>
+</svg>

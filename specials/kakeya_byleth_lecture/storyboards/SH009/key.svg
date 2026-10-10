@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f1df"/>
+      <stop offset="1" stop-color="#e9f2f1"/>
+    </linearGradient>
+    <linearGradient id="portraitFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#d9cfbd" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f7a5a"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.42"/>
+  <rect x="36" y="34" width="1208" height="64" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="60" y="76" fill="#a8322a" font-size="28" font-weight="900">SH009 · KEY · Deltoid</text>
+  <text x="1020" y="76" fill="#6b4300" font-size="18" font-weight="850">layout_reference</text>
+  
+    <g>
+      <rect x="56" y="132" width="260" height="520" rx="8" fill="#16191d"/>
+      <image href="../../../../assets/characters/protagonist/BylethFemale/professor/selected.png" x="56" y="132" width="260" height="520" preserveAspectRatio="xMidYMid slice" opacity="0.82"/>
+      <rect x="56" y="132" width="260" height="520" rx="8" fill="url(#portraitFade)"/>
+      <text x="76" y="606" fill="#f8fafc" font-size="25" font-weight="800">Female Byleth</text>
+      <text x="76" y="638" fill="#dbeafe" font-size="17" font-weight="650">teal hair · green eyes · professor coat</text>
+    </g>
+  
+  <rect x="352" y="132" width="872" height="372" rx="8" fill="#fffdfa" stroke="#cfc5b6" stroke-width="2"/>
+  <g transform="translate(352, 132)">
+    <rect x="0" y="0" width="872" height="372" rx="8" fill="#f7fbff"/>
+    <path d="M579.9,197.2 L579.8,197.2 L579.6,197.2 L579.1,197.2 L578.5,197.2 L577.8,197.3 L576.8,197.3 L575.7,197.4 L574.4,197.5 L573.0,197.7 L571.4,197.9 L569.6,198.1 L567.7,198.4 L565.7,198.8 L563.5,199.2 L561.2,199.6 L558.7,200.1 L556.1,200.7 L553.4,201.3 L550.5,202.0 L547.5,202.8 L544.5,203.7 L541.3,204.6 L538.0,205.6 L534.7,206.6 L531.2,207.8 L527.7,209.0 L524.2,210.3 L520.5,211.7 L516.8,213.1 L513.1,214.6 L509.3,216.2 L505.5,217.9 L501.6,219.6 L497.7,221.5 L493.9,223.3 L490.0,225.3 L486.1,227.3 L482.2,229.4 L478.4,231.5 L474.5,233.7 L470.7,235.9 L466.9,238.2 L463.2,240.5 L459.5,242.9 L455.9,245.2 L452.3,247.7 L448.8,250.1 L445.4,252.6 L442.0,255.0 L438.8,257.5 L435.6,260.0 L432.5,262.5 L429.4,265.0 L426.5,267.4 L423.7,269.8 L421.0,272.3 L418.4,274.6 L415.9,277.0 L413.5,279.2 L411.3,281.5 L409.1,283.7 L407.1,285.8 L405.2,287.8 L403.4,289.8 L401.7,291.7 L400.2,293.5 L398.7,295.2 L397.4,296.8 L396.2,298.3 L395.1,299.7 L394.1,301.0 L393.3,302.1 L392.5,303.2 L391.9,304.1 L391.4,304.9 L390.9,305.5 L390.6,306.0 L390.4,306.4 L390.2,306.6 L390.2,306.7 L390.2,306.6 L390.4,306.4 L390.6,306.0 L390.8,305.5 L391.2,304.8 L391.6,303.9 L392.1,302.9 L392.6,301.8 L393.2,300.4 L393.8,298.9 L394.5,297.3 L395.2,295.5 L395.9,293.6 L396.7,291.5 L397.5,289.2 L398.3,286.8 L399.1,284.3 L399.9,281.6 L400.7,278.8 L401.5,275.8 L402.3,272.8 L403.1,269.5 L403.9,266.2 L404.6,262.8 L405.4,259.2 L406.1,255.6 L406.7,251.8 L407.4,248.0 L408.0,244.1 L408.5,240.1 L409.0,236.0 L409.5,231.8 L409.9,227.6 L410.3,223.4 L410.6,219.1 L410.8,214.7 L411.0,210.4 L411.2,206.0 L411.3,201.6 L411.3,197.2 L411.3,192.7 L411.2,188.3 L411.0,183.9 L410.8,179.6 L410.6,175.2 L410.3,170.9 L409.9,166.7 L409.5,162.5 L409.0,158.3 L408.5,154.3 L408.0,150.2 L407.4,146.3 L406.7,142.5 L406.1,138.7 L405.4,135.1 L404.6,131.5 L403.9,128.1 L403.1,124.8 L402.3,121.6 L401.5,118.5 L400.7,115.5 L399.9,112.7 L399.1,110.0 L398.3,107.5 L397.5,105.1 L396.7,102.9 L395.9,100.8 L395.2,98.8 L394.5,97.0 L393.8,95.4 L393.2,93.9 L392.6,92.6 L392.1,91.4 L391.6,90.4 L391.2,89.5 L390.8,88.8 L390.6,88.3 L390.4,87.9 L390.2,87.7 L390.2,87.6 L390.2,87.7 L390.4,87.9 L390.6,88.3 L390.9,88.8 L391.4,89.4 L391.9,90.2 L392.5,91.1 L393.3,92.2 L394.1,93.4 L395.1,94.6 L396.2,96.0 L397.4,97.5 L398.7,99.1 L400.2,100.8 L401.7,102.6 L403.4,104.5 L405.2,106.5 L407.1,108.5 L409.1,110.7 L411.3,112.8 L413.5,115.1 L415.9,117.4 L418.4,119.7 L421.0,122.1 L423.7,124.5 L426.5,126.9 L429.4,129.4 L432.5,131.8 L435.6,134.3 L438.8,136.8 L442.0,139.3 L445.4,141.7 L448.8,144.2 L452.3,146.7 L455.9,149.1 L459.5,151.5 L463.2,153.8 L466.9,156.1 L470.7,158.4 L474.5,160.6 L478.4,162.8 L482.2,165.0 L486.1,167.0 L490.0,169.0 L493.9,171.0 L497.7,172.9 L501.6,174.7 L505.5,176.4 L509.3,178.1 L513.1,179.7 L516.8,181.2 L520.5,182.7 L524.2,184.0 L527.7,185.3 L531.2,186.6 L534.7,187.7 L538.0,188.8 L541.3,189.8 L544.5,190.7 L547.5,191.5 L550.5,192.3 L553.4,193.0 L556.1,193.6 L558.7,194.2 L561.2,194.7 L563.5,195.2 L565.7,195.5 L567.7,195.9 L569.6,196.2 L571.4,196.4 L573.0,196.6 L574.4,196.8 L575.7,196.9 L576.8,197.0 L577.8,197.1 L578.5,197.1 L579.1,197.1 L579.6,197.2 L579.8,197.2 L579.9,197.2 Z" fill="#d9ecf7" stroke="#0f5d7e" stroke-width="7"/>
+    <g transform="translate(453.44 197.16) rotate(-34)">
+      <line x1="-113.83200000000001" y1="0" x2="113.83200000000001" y2="0" stroke="#a8322a" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="7" fill="#1f7a5a"/>
+    </g>
+    <text x="34" y="52" fill="#0f5d7e" font-size="30" font-weight="900">deltoid candidate</text>
+    <text x="34" y="92" fill="#263241" font-size="24" font-weight="800">A = pi/8, candidate only</text>
+  </g>
+  <rect x="352" y="526" width="872" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="376" y="562" fill="#0f5d7e" font-size="18" font-weight="900">Shot Purpose</text>
+  <text x="376" y="594" fill="#263241" font-size="23" font-weight="650">给出第一个候选面积 pi/8，并保留它只是候选的语气。</text>
+  <rect x="56" y="526" width="260" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="76" y="562" fill="#1f7a5a" font-size="18" font-weight="900">Frame Intent</text>
+  <text x="76" y="594" fill="#263241" font-size="18" font-weight="650">金色面积洗过整个区域，公式 A = pi/8 随填色落定。</text>
+  <text x="58" y="690" fill="#657386" font-size="16" font-weight="700">Visible storyboard frame for web review; final cinematic PNG generation remains pending.</text>
+</svg>

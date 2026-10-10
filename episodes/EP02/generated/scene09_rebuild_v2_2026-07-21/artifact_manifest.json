@@ -1,0 +1,1402 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "generated_at": "2026-07-21",
+  "artifacts": [
+    {
+      "id": "EP02-SC09-Shot025",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/01_Shot025_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/01_Shot025_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": null,
+        "next": "EP02-SC09-Shot025A",
+        "in": "Wide high-angle mock battle field: southeast Blue Lions start, north/northeast Black Eagles, west Golden Deer thicket, northeast teacher healing sigil.",
+        "out": "Manuela raises hand on sigil; Hanneman checks wood weapons; all three houses look toward lanes."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot025."
+    },
+    {
+      "id": "EP02-SC09-Shot025A",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot025",
+        "next": "EP02-SC09-Shot026",
+        "in": "Clean cinematic map-like plate of low walls, west thicket, central channel, northeast steps and sigil.",
+        "out": "Small colored house markers settle into their start zones."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot025A."
+    },
+    {
+      "id": "EP02-SC09-Shot026",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot025A",
+        "next": "EP02-SC09-Shot026B",
+        "in": "Byleth kneels over mud map, Blue Lions semicircle; stones mark lanes.",
+        "out": "Byleth points first center, then west flank, then northeast platform; students look at assigned directions."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot026."
+    },
+    {
+      "id": "EP02-SC09-Shot026B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot026",
+        "next": "EP02-SC09-Shot026C",
+        "in": "Byleth rises at southeast line, back/side to camera, eyes on northeast objective.",
+        "out": "Dimitri/Dedue prepare center, support line crouches behind low wall, Sylvain/Ingrid angle west."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot026B."
+    },
+    {
+      "id": "EP02-SC09-Shot026C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot026B",
+        "next": "EP02-SC09-Shot027",
+        "in": "Horn starts; Blue Lions launch from southeast in separated lanes.",
+        "out": "Dimitri lance and Dedue shield reach central channel; Felix stays behind line; support remains low."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot026C."
+    },
+    {
+      "id": "EP02-SC09-Shot027",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot026C",
+        "next": "EP02-SC09-Shot027B",
+        "in": "Ashe climbs half-height position, bow angled toward center while eyes check west thicket.",
+        "out": "Ashe notices branch movement west but has not been hit by Claude's arrow."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot027."
+    },
+    {
+      "id": "EP02-SC09-Shot027B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot027",
+        "next": "EP02-SC09-Shot027C",
+        "in": "Ferdinand, Edelgard, Hubert, Dorothea enter named formation from north; no unknown crowd.",
+        "out": "Ferdinand plants lance at channel; Edelgard holds axe low; Hubert/Dorothea set support angles."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot027B."
+    },
+    {
+      "id": "EP02-SC09-Shot027C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot027B",
+        "next": "EP02-SC09-Shot027D",
+        "in": "Dimitri/Dedue close on Ferdinand's line at central low wall.",
+        "out": "Wood lance and shield impact; Ferdinand yields half-step but holds; Edelgard and Hubert remain controlled behind."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot027C."
+    },
+    {
+      "id": "EP02-SC09-Shot027D",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot027C",
+        "next": "EP02-SC09-Shot028",
+        "in": "Felix begins to pass Dedue's shield line; Byleth calls from side.",
+        "out": "Felix freezes sword one palm from Ferdinand's armor; Ferdinand turns to cover."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot027D."
+    },
+    {
+      "id": "EP02-SC09-Shot028",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot027D",
+        "next": "EP02-SC09-Shot028B",
+        "in": "Annette and Mercedes move behind southeast low wall, Mercedes empty-handed, Annette holding book.",
+        "out": "First arrow/pressure forces them lower; Mercedes pulls Annette out of open line."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot028."
+    },
+    {
+      "id": "EP02-SC09-Shot028B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot028",
+        "next": "EP02-SC09-Shot028C",
+        "in": "Edelgard watches Blue pressure and side thicket; Hubert spell at channel edge; Dorothea waits.",
+        "out": "Edelgard signals; Hubert pressure slows Dimitri; Dorothea keeps support angle."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot028B."
+    },
+    {
+      "id": "EP02-SC09-Shot028C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot028B",
+        "next": "EP02-SC09-Shot029",
+        "in": "Felix watches Ferdinand's line shift from behind Dedue.",
+        "out": "Byleth's hand keeps him from lunging; Felix's sword lowers a fraction."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot028C."
+    },
+    {
+      "id": "EP02-SC09-Shot029",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot028C",
+        "next": "EP02-SC09-Shot029C",
+        "in": "Sylvain relaxed posture fades as west threat appears; Ingrid already pivots lance west/northwest.",
+        "out": "Both guard Annette/Mercedes' side without chasing."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot029."
+    },
+    {
+      "id": "EP02-SC09-Shot029C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot029",
+        "next": "EP02-SC09-Shot029D",
+        "in": "Claude half-kneels in west thicket, looking east/southeast through branches at Blue stretch and Black side gap.",
+        "out": "Claude draws bow across both lines, smile controlled."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot029C."
+    },
+    {
+      "id": "EP02-SC09-Shot029D",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot029C",
+        "next": "EP02-SC09-Shot029B",
+        "in": "Ashe steady on half-height point, unaware arrowline is about to cut him off.",
+        "out": "Claude's arrow hits wood in front of Ashe; Ashe recoils and leaves point; second line hints Black Eagles side pressure."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot029D."
+    },
+    {
+      "id": "EP02-SC09-Shot029B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/16_Shot029B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/16_Shot029B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot029D",
+        "next": "EP02-SC09-Shot030",
+        "in": "Hilda youth v4 steps from west rail with axe low; Lorenz and Ignatz align beside her.",
+        "out": "Lorenz threatens Sylvain/Ingrid lane; Ignatz arrow marks Black Eagles side route; Hilda pressures both lines."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot029B."
+    },
+    {
+      "id": "EP02-SC09-Shot030",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot029B",
+        "next": "EP02-SC09-Shot030B",
+        "in": "Felix sees northeast opening beyond Ferdinand.",
+        "out": "Byleth moves into intercept route before Felix crosses too far."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot030."
+    },
+    {
+      "id": "EP02-SC09-Shot030B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot030",
+        "next": "EP02-SC09-Shot030C",
+        "in": "Felix's boot reaches contact-line edge.",
+        "out": "Byleth's sheathed sword or forearm blocks his path side-on."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot030B."
+    },
+    {
+      "id": "EP02-SC09-Shot030C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot030B",
+        "next": "EP02-SC09-Shot031",
+        "in": "Ignatz draws careful arrow from west; Annette/Mercedes route visible behind low wall; Black side route visible deeper.",
+        "out": "Arrow lands between support path and Black side route, forcing both to adjust."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot030C."
+    },
+    {
+      "id": "EP02-SC09-Shot031",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot030C",
+        "next": "EP02-SC09-Shot031B",
+        "in": "Felix pushes toward gap; Byleth crosses from center.",
+        "out": "Byleth's sheathed sword stops Felix at chest-line distance; Felix glares toward route, not camera."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot031."
+    },
+    {
+      "id": "EP02-SC09-Shot031B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot031",
+        "next": "EP02-SC09-Shot032",
+        "in": "Central and west-side lines both under pressure; Byleth between them.",
+        "out": "Byleth gestures forward with one hand and west-containment with the other; Blue Lions split correctly."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot031B."
+    },
+    {
+      "id": "EP02-SC09-Shot032",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/22_Shot032_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/22_Shot032_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot031B",
+        "next": "EP02-SC09-Shot032A",
+        "in": "Dedue's shield dips under Ferdinand/Hubert pressure; Dimitri starts to turn; Mercedes behind low wall prepares empty hands.",
+        "out": "Short white healing line reaches Dedue's shield arm; Dedue raises shield back into place; Dimitri faces forward again."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot032."
+    },
+    {
+      "id": "EP02-SC09-Shot032A",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot032",
+        "next": "EP02-SC09-Shot032B",
+        "in": "Annette crouches beside Mercedes, book open, still tense.",
+        "out": "Controlled wind/dust rises along low wall; Ashe moves through cover to regain bow angle."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot032A."
+    },
+    {
+      "id": "EP02-SC09-Shot032B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/24_Shot032B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/24_Shot032B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot032A",
+        "next": "EP02-SC09-Shot032C",
+        "in": "Dimitri/Dedue push from center toward northeast steps, teacher sigil visible above.",
+        "out": "Dedue holds lower stair pressure while Dimitri maintains lance line, not overreaching."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot032B."
+    },
+    {
+      "id": "EP02-SC09-Shot032C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/25_Shot032C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/25_Shot032C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot032B",
+        "next": "EP02-SC09-Shot032D",
+        "in": "Edelgard sees Golden Deer exploiting both sides and raises small signal.",
+        "out": "Hubert dark magic hits west thicket; Dorothea's controlled spell slows Hilda; Claude/Hilda shift but stay dignified."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot032C."
+    },
+    {
+      "id": "EP02-SC09-Shot032D",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot032C",
+        "next": "EP02-SC09-Shot032E",
+        "in": "High oblique view: Blue center, Black center/side, Golden west all separate.",
+        "out": "Arrows/spell/dust show three lines compressing toward central obstacles."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot032D."
+    },
+    {
+      "id": "EP02-SC09-Shot032E",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot032D",
+        "next": "EP02-SC09-Shot033",
+        "in": "Golden Deer, Black Eagles, Blue Lions all contest low wall/rail zone; Blue still holds center.",
+        "out": "Byleth points Black Eagles pressure toward Golden Deer zone while refusing chase west."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot032E."
+    },
+    {
+      "id": "EP02-SC09-Shot033",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot032E",
+        "next": "EP02-SC09-Shot033B",
+        "in": "Dimitri's lance pressure nears Hanneman's steps; hand tight.",
+        "out": "Byleth palm-down in his peripheral view; Dimitri checks force without stopping objective push."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot033."
+    },
+    {
+      "id": "EP02-SC09-Shot033B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot033",
+        "next": "EP02-SC09-Shot033C",
+        "in": "Two lines briefly stable; northeast platform open for a beat.",
+        "out": "Byleth points to teacher platform; Ashe/Ingrid/Felix each react into separate routes."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot033B."
+    },
+    {
+      "id": "EP02-SC09-Shot033C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot033B",
+        "next": "EP02-SC09-Shot033D",
+        "in": "Hanneman starts faculty spell from sigil, white geometry forming.",
+        "out": "Ashe arrow hits step/marker near casting line, interrupting angle without hitting teacher."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot033C."
+    },
+    {
+      "id": "EP02-SC09-Shot033D",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot033C",
+        "next": "EP02-SC09-Shot034C",
+        "in": "Manuela lifts one hand beside the healing sigil and forms a brief dark-white Nosferatu pressure line toward Sylvain, preparing to step back onto the route.",
+        "out": "Ingrid's lance line stops Manuela's return path before the spell pressure can reset the lane; Manuela smiles and halts by rule, unhurt."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot033D."
+    },
+    {
+      "id": "EP02-SC09-Shot034C",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot033D",
+        "next": "EP02-SC09-Shot034D",
+        "in": "Ferdinand tries to sprint/step toward northeast stairs for回援.",
+        "out": "Felix slides laterally and locks the route with wooden sword; Ferdinand upright, frustrated but strong."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot034C."
+    },
+    {
+      "id": "EP02-SC09-Shot034D",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot034C",
+        "next": "EP02-SC09-Shot034B",
+        "in": "Hanneman's spell reforms after Ashe suppression; Byleth enters blind side with sheathed sword.",
+        "out": "Sheathed sword taps Hanneman's wrist/forearm; spell breaks white; Hanneman looks impressed."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot034D."
+    },
+    {
+      "id": "EP02-SC09-Shot034B",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "monitor_required",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_end.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot034D",
+        "next": "EP02-SC09-Shot034E",
+        "in": "Hanneman's separate faculty lane is already broken; Manuela's own lane was route-cut and remains absent.",
+        "out": "Hanneman lowers both hands and steps back from his spell circle; Byleth and Dimitri confirm the objective ruling without striking."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Patched 2026-07-27: Hanneman-only single-lane faculty ruling. Manuela is absent; the teachers are never staged as an allied pair.",
+      "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_start.png",
+      "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_key.png",
+      "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_end.png",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Hanneman"
+      ],
+      "audio_anchor": "Whistle tail. Byleth: \"判定，青狮守住。\" Dimitri tired breath. Hanneman: \"这一线，我认输。\" No Manuela voice in this shot.",
+      "video_prompt": "Single-lane Hanneman ruling. Byleth and Dimitri stop at Hanneman's separate faculty objective lane while Hanneman concedes the nonlethal mock-battle objective from his own marker only. Manuela is absent and route-cut offscreen; never stage Hanneman and Manuela as a pair, shared objective defenders, or allied combat partners. Dimitri lowers his blunt training lance and exhales, exhausted; Byleth gives a clipped nonlethal ruling gesture.",
+      "dialogue_audio": "Whistle tail. Byleth: \"判定，青狮守住。\" Dimitri tired breath. Hanneman: \"这一线，我认输。\" No Manuela voice in this shot.",
+      "note": "Byleth, Dimitri, and Hanneman resolve Hanneman's separate faculty lane; Manuela remains offscreen on her own route and never appears beside him.",
+      "primary_check": "Visible named-only: Byleth, Dimitri, Hanneman. Byleth and Dimitri resolve Hanneman's separate faculty lane; Manuela remains offscreen and never reads as paired with him. Reject if any extra readable human appears.",
+      "reject_if": [
+        "Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.",
+        "Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.",
+        "Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.",
+        "Reject if anyone outside Byleth, Dimitri, and Hanneman appears.",
+        "Reject if Manuela appears in any readable form, or if any other teacher or student extra appears.",
+        "Reject if Hanneman and Manuela stand together, share a sigil, or are treated as allied combatants.",
+        "Reject if Dedue, Ingrid, or other spent/offscreen characters appear in readable form.",
+        "Reject if Hanneman keeps an active spell angle, appears injured, or is merged with Manuela into one shared objective marker."
+      ],
+      "characters": [
+        {
+          "name": "Byleth"
+        },
+        {
+          "name": "Dimitri"
+        },
+        {
+          "name": "Hanneman"
+        }
+      ]
+    },
+    {
+      "id": "EP02-SC09-Shot034E",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/35_Shot034E_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/35_Shot034E_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot034B",
+        "next": "EP02-SC09-Shot034F",
+        "in": "Claude's thicket angle gone; Hilda at rail; Lorenz held outside lance line; Ignatz with arrow ready.",
+        "out": "Claude lowers bow smiling; Hilda dusts armor; Lorenz halts upright; Ignatz returns arrow to quiver."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot034E."
+    },
+    {
+      "id": "EP02-SC09-Shot034F",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/36_Shot034F_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/36_Shot034F_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot034E",
+        "next": "EP02-SC09-Shot034G",
+        "in": "Edelgard sees teachers off sigil; Hubert/Dorothea/Ferdinand still ready.",
+        "out": "Edelgard signals; Dorothea stops final spell note; Hubert steps back calculating; Ferdinand keeps lance steady behind Felix block."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot034F."
+    },
+    {
+      "id": "EP02-SC09-Shot034G",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/37_Shot034G_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/37_Shot034G_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot034F",
+        "next": "EP02-SC09-Shot034",
+        "in": "Blue Lions hold winning lanes without chasing.",
+        "out": "Annette closes book; Mercedes drops healing light after checking Dedue; Sylvain lowers lance; Ingrid still watches route; Ashe lowers bow."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot034G."
+    },
+    {
+      "id": "EP02-SC09-Shot034",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/38_Shot034_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/38_Shot034_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot034G",
+        "next": "EP02-SC09-Shot035",
+        "in": "Wide three-house field with teachers off sigil and all lanes readable.",
+        "out": "All houses lower weapons in place; Blue Lions occupy objective routes, Black Eagles and Golden Deer remain ordered."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot034."
+    },
+    {
+      "id": "EP02-SC09-Shot035",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot034",
+        "next": "EP02-SC09-Shot036",
+        "in": "Felix watches Byleth after lowering wooden sword.",
+        "out": "Felix gives short line, still guarded but no immediate rebuttal."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot035."
+    },
+    {
+      "id": "EP02-SC09-Shot036",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "needs_generation",
+      "created_by": "codex-storyboard-production",
+      "created_at": "2026-07-21",
+      "paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/40_Shot036_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/40_Shot036_key.png"
+      ],
+      "source_refs": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+        "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+      ],
+      "depends_on": [
+        "EP02-SC09-SHOOTING-SCRIPT-V2",
+        "EP02-SC09-SHOT-LIST-V2"
+      ],
+      "continuity": {
+        "previous": "EP02-SC09-Shot035",
+        "next": null,
+        "in": "Dimitri lowers lance and bows to Byleth; hand remains tight.",
+        "out": "Close hand tension then face; Byleth notices quietly."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "weapon_drift",
+        "screen_direction",
+        "crowd_growth"
+      ],
+      "notes": "Fresh v2 start/key frame pair for Shot036."
+    }
+  ]
+}

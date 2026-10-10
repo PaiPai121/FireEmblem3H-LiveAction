@@ -1,0 +1,52 @@
+{
+  "id": "SH001",
+  "order": 1,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S1",
+  "timecode": "00:00-00:10",
+  "duration_seconds": 10,
+  "script_beat": "Sword flourish hook",
+  "shot_purpose": "让女贝老师先用身体动作把“转个一百八十度掉头”变成观众能感到的动作问题，再引出扫过区域能否更小的数学问题。",
+  "location": "Garreg Mach training ground",
+  "characters_visible": "Female Byleth; wooden practice sword",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH001/frame_spec.md",
+  "prompt_path": "storyboards/SH001/prompt.md",
+  "negative_prompt_path": "storyboards/SH001/negative_prompt.md",
+  "start_frame": "storyboards/SH001/start.png",
+  "key_frame": "storyboards/SH001/key.png",
+  "end_frame": "storyboards/SH001/end.png",
+  "expected_clip": "clips/SH001.mp4",
+  "edit_in": "从黑场淡入到训练场全身中景，女贝老师已站定持剑。",
+  "edit_out": "在女贝老师收势并看向学生后，切到三位学生对“扫过区域”的直觉反应。",
+  "screen_direction": "木剑从画面右下起势，经身体前方扫过，到画面左侧收势；收势后女贝老师视线转向学生所在方向，准备切到 SH002。",
+  "mathematical_locks": [
+    "The wooden practice sword must remain a single straight rigid segment throughout the flourish.",
+    "This opening demonstrates a 180-degree turn and swept area; do not add formal endpoint marks, chalk baselines, circles, or formulas in this shot."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": null,
+    "next": "SH002",
+    "in": "从黑场淡入到训练场全身中景，女贝老师已站定持剑。",
+    "out": "在女贝老师收势并看向学生后，切到三位学生对“扫过区域”的直觉反应。"
+  },
+  "reject_if": [
+    "Byleth is kneeling by a floor baseline or placing the sword between red endpoint marks",
+    "the shot adds chalk floor measurement marks, red endpoints, formulas, subtitles, modern UI, or explanatory labels",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "the wooden sword transforms, bends, disappears, or becomes a magical/combat weapon rather than a straight practice sword"
+  ]
+}

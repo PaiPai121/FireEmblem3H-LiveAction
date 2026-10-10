@@ -1,0 +1,467 @@
+{
+  "review_id": "KAK-BYLETH-FRAME-PROGRESSION-2026-08-01",
+  "created_at": "2026-08-01",
+  "status": "progression_passed",
+  "method": "Downsample each start/key/end PNG to 320x180 and compute mean absolute RGB difference for each pair.",
+  "thresholds": {
+    "low_progression_requires_revision": "min pair < 1.0 or average pair < 2.0",
+    "watch_motion_generation": "min pair < 2.0 or average pair < 4.0",
+    "progression_clear": "all other complete frame triplets"
+  },
+  "summary": {
+    "total_shots": 34,
+    "low_progression_count": 0,
+    "watch_count": 0,
+    "clear_count": 34,
+    "missing_count": 0
+  },
+  "shots": [
+    {
+      "id": "SH001",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 47.44,
+        "key_end": 11.06,
+        "start_end": 48.45
+      },
+      "min_pair_mean_abs_diff": 11.06,
+      "average_pair_mean_abs_diff": 35.65,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH002",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 7.54,
+        "key_end": 3.99,
+        "start_end": 7.91
+      },
+      "min_pair_mean_abs_diff": 3.99,
+      "average_pair_mean_abs_diff": 6.48,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH003",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 14.22,
+        "key_end": 7.02,
+        "start_end": 19.1
+      },
+      "min_pair_mean_abs_diff": 7.02,
+      "average_pair_mean_abs_diff": 13.45,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH004",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.16,
+        "key_end": 4.85,
+        "start_end": 8.39
+      },
+      "min_pair_mean_abs_diff": 4.16,
+      "average_pair_mean_abs_diff": 5.8,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH005",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 3.87,
+        "key_end": 3.97,
+        "start_end": 7.17
+      },
+      "min_pair_mean_abs_diff": 3.87,
+      "average_pair_mean_abs_diff": 5.0,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH006",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 6.82,
+        "key_end": 2.67,
+        "start_end": 8.26
+      },
+      "min_pair_mean_abs_diff": 2.67,
+      "average_pair_mean_abs_diff": 5.92,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH007",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 5.04,
+        "key_end": 2.82,
+        "start_end": 5.34
+      },
+      "min_pair_mean_abs_diff": 2.82,
+      "average_pair_mean_abs_diff": 4.4,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH008",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 8.57,
+        "key_end": 11.18,
+        "start_end": 17.11
+      },
+      "min_pair_mean_abs_diff": 8.57,
+      "average_pair_mean_abs_diff": 12.29,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH009",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 9.28,
+        "key_end": 2.71,
+        "start_end": 10.74
+      },
+      "min_pair_mean_abs_diff": 2.71,
+      "average_pair_mean_abs_diff": 7.58,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH010",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 21.38,
+        "key_end": 21.74,
+        "start_end": 20.21
+      },
+      "min_pair_mean_abs_diff": 20.21,
+      "average_pair_mean_abs_diff": 21.11,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH011",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 5.24,
+        "key_end": 3.85,
+        "start_end": 4.86
+      },
+      "min_pair_mean_abs_diff": 3.85,
+      "average_pair_mean_abs_diff": 4.65,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH012",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 3.14,
+        "key_end": 5.51,
+        "start_end": 8.36
+      },
+      "min_pair_mean_abs_diff": 3.14,
+      "average_pair_mean_abs_diff": 5.67,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH013",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 3.34,
+        "key_end": 4.89,
+        "start_end": 7.83
+      },
+      "min_pair_mean_abs_diff": 3.34,
+      "average_pair_mean_abs_diff": 5.35,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH014",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 8.96,
+        "key_end": 10.61,
+        "start_end": 16.99
+      },
+      "min_pair_mean_abs_diff": 8.96,
+      "average_pair_mean_abs_diff": 12.19,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH015",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 5.6,
+        "key_end": 7.69,
+        "start_end": 2.52
+      },
+      "min_pair_mean_abs_diff": 2.52,
+      "average_pair_mean_abs_diff": 5.27,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH016",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 60.61,
+        "key_end": 41.2,
+        "start_end": 55.26
+      },
+      "min_pair_mean_abs_diff": 41.2,
+      "average_pair_mean_abs_diff": 52.36,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH017",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 6.28,
+        "key_end": 5.2,
+        "start_end": 7.65
+      },
+      "min_pair_mean_abs_diff": 5.2,
+      "average_pair_mean_abs_diff": 6.38,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH018",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.15,
+        "key_end": 5.64,
+        "start_end": 4.37
+      },
+      "min_pair_mean_abs_diff": 4.15,
+      "average_pair_mean_abs_diff": 4.72,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH019",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.31,
+        "key_end": 5.45,
+        "start_end": 6.24
+      },
+      "min_pair_mean_abs_diff": 4.31,
+      "average_pair_mean_abs_diff": 5.33,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH020",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 7.4,
+        "key_end": 6.11,
+        "start_end": 5.13
+      },
+      "min_pair_mean_abs_diff": 5.13,
+      "average_pair_mean_abs_diff": 6.21,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH021",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.71,
+        "key_end": 9.2,
+        "start_end": 8.93
+      },
+      "min_pair_mean_abs_diff": 4.71,
+      "average_pair_mean_abs_diff": 7.61,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH022",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 6.15,
+        "key_end": 7.92,
+        "start_end": 9.76
+      },
+      "min_pair_mean_abs_diff": 6.15,
+      "average_pair_mean_abs_diff": 7.94,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH023",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 3.5,
+        "key_end": 7.5,
+        "start_end": 7.05
+      },
+      "min_pair_mean_abs_diff": 3.5,
+      "average_pair_mean_abs_diff": 6.02,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH024",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 9.0,
+        "key_end": 10.71,
+        "start_end": 17.38
+      },
+      "min_pair_mean_abs_diff": 9.0,
+      "average_pair_mean_abs_diff": 12.36,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH025",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 6.55,
+        "key_end": 6.19,
+        "start_end": 12.47
+      },
+      "min_pair_mean_abs_diff": 6.19,
+      "average_pair_mean_abs_diff": 8.4,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH026",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 8.61,
+        "key_end": 2.96,
+        "start_end": 10.76
+      },
+      "min_pair_mean_abs_diff": 2.96,
+      "average_pair_mean_abs_diff": 7.44,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH027",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 5.02,
+        "key_end": 3.57,
+        "start_end": 4.68
+      },
+      "min_pair_mean_abs_diff": 3.57,
+      "average_pair_mean_abs_diff": 4.42,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH028",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 8.91,
+        "key_end": 9.27,
+        "start_end": 9.21
+      },
+      "min_pair_mean_abs_diff": 8.91,
+      "average_pair_mean_abs_diff": 9.13,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH029",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.43,
+        "key_end": 2.73,
+        "start_end": 5.62
+      },
+      "min_pair_mean_abs_diff": 2.73,
+      "average_pair_mean_abs_diff": 4.26,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH030",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.09,
+        "key_end": 2.18,
+        "start_end": 5.92
+      },
+      "min_pair_mean_abs_diff": 2.18,
+      "average_pair_mean_abs_diff": 4.06,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH031",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.6,
+        "key_end": 6.44,
+        "start_end": 10.55
+      },
+      "min_pair_mean_abs_diff": 4.6,
+      "average_pair_mean_abs_diff": 7.2,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH032",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 4.93,
+        "key_end": 9.78,
+        "start_end": 11.76
+      },
+      "min_pair_mean_abs_diff": 4.93,
+      "average_pair_mean_abs_diff": 8.82,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH033",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 7.33,
+        "key_end": 6.65,
+        "start_end": 12.71
+      },
+      "min_pair_mean_abs_diff": 6.65,
+      "average_pair_mean_abs_diff": 8.9,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    },
+    {
+      "id": "SH034",
+      "status": "progression_clear",
+      "zh_status": "变化清楚",
+      "pair_mean_abs_diff": {
+        "start_key": 6.53,
+        "key_end": 7.06,
+        "start_end": 4.49
+      },
+      "min_pair_mean_abs_diff": 4.49,
+      "average_pair_mean_abs_diff": 6.03,
+      "note_zh": "三帧差异足够支撑起始、动作峰值和结束状态。"
+    }
+  ],
+  "notes_zh": [
+    "这是三帧变化审计，不替代人工视觉审查。",
+    "低帧差不一定是重复文件；它表示起始帧、关键帧、结束帧给视频模型的动作锚点太接近。",
+    "预算限制下一次性生成全片时，低帧差镜头应先修订三帧或至少加强模型提示词中的动作峰值。"
+  ]
+}

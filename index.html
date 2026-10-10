@@ -13,12 +13,17 @@
         <h1>风花雪月真人化素材检阅</h1>
       </div>
       <nav class="tabs" aria-label="素材视图">
-        <button class="tab is-active" data-view="characters" type="button">角色</button>
-        <button class="tab" data-view="episode" type="button">地点</button>
-        <button class="tab" data-view="storyboard" type="button">分镜看板</button>
-        <button class="tab" data-view="documents" type="button">文档</button>
+        <a class="tab is-active" data-view="characters" href="#charactersView">角色</a>
+        <a class="tab" data-view="episode" href="#episodeView">地点</a>
+        <a class="tab" data-view="storyboard" href="#storyboardView">分镜看板</a>
+        <a class="tab" data-view="kakeyaSpecial" href="#kakeyaSpecialView">二维挂谷</a>
+        <a class="tab" data-view="supportComedy" href="#supportComedyView">支援喜剧</a>
+        <a class="tab" data-view="documents" href="#documentsView">文档</a>
       </nav>
     </header>
+    <aside class="protocol-notice" id="protocolNotice" hidden>
+      当前是 file:// 本地文件打开；移动端审片建议使用 http://localhost:8765/index.html#supportComedyView 或同局域网地址，文本预览会按 UTF-8 显示。
+    </aside>
 
     <main>
       <section class="controls" aria-label="筛选">
@@ -93,6 +98,33 @@
         </div>
         <div class="docs" id="docsList"></div>
       </section>
+
+      <section id="kakeyaSpecialView" class="view">
+        <div class="section-head">
+          <h2>女贝老师二维挂谷专题</h2>
+          <p>34 镜头、102 张真实起始/关键/结束帧的科普短片审片面板，学生阵容锁定为艾黛尔、莉丝缇亚、梅尔赛德斯。</p>
+        </div>
+        <section class="location-stats" id="kakeyaStats" aria-label="二维挂谷统计"></section>
+        <div class="kakeya-panel" id="kakeyaPanel"></div>
+      </section>
+
+      <section id="supportComedyView" class="view">
+        <div class="section-head">
+          <h2>支援喜剧小剧场</h2>
+          <p>按学级汇总 Seedance video_generation_package，含实际 start / key / end 分镜帧、提交队列、Runbook 和审计报告。</p>
+        </div>
+        <section class="location-stats" id="supportComedyStats" aria-label="支援喜剧统计"></section>
+        <section class="support-picker" aria-label="选择支援面板">
+          <label>
+            <span>支援面板</span>
+            <select id="supportPackageSelect"></select>
+          </label>
+          <a id="supportPackageOpen" href="#" target="_blank" rel="noreferrer">打开所选面板</a>
+        </section>
+        <div class="support-series-grid" id="supportSeriesList"></div>
+        <div class="storyboard-links" id="supportComedyLinks"></div>
+        <div class="support-grid" id="supportComedyGrid"></div>
+      </section>
     </main>
 
     <dialog id="previewDialog">
@@ -106,6 +138,8 @@
 
     <script src="site/data.js"></script>
     <script src="site/ep02_storyboard_data.js"></script>
+    <script src="site/ep03_storyboard_data.js"></script>
+    <script src="site/support_comedy_data.js"></script>
     <script src="site/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f1df"/>
+      <stop offset="1" stop-color="#e9f2f1"/>
+    </linearGradient>
+    <linearGradient id="portraitFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#d9cfbd" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f7a5a"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.42"/>
+  <rect x="36" y="34" width="1208" height="64" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="60" y="76" fill="#a8322a" font-size="28" font-weight="900">SH034 · KEY · 揭名</text>
+  <text x="1020" y="76" fill="#6b4300" font-size="18" font-weight="850">layout_reference</text>
+  
+  <rect x="56" y="132" width="1168" height="372" rx="8" fill="#fffdfa" stroke="#cfc5b6" stroke-width="2"/>
+  <g transform="translate(56, 132)">
+    <rect x="0" y="0" width="1168" height="372" rx="8" fill="#fffdfa"/>
+    <g transform="translate(584 186)">
+      <line x1="-1.6449455806147248e-14" y1="85.56" x2="1.6449455806147248e-14" y2="-85.56" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-69.52914827634118" y1="82.64461369729268" x2="69.52914827634118" y2="-82.64461369729268" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-134.32000000000002" y1="74.09713354779657" x2="134.32000000000002" y2="-74.09713354779657" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-189.95716569795414" y1="60.500056198321" x2="189.95716569795414" y2="-60.500056198321" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-232.64906447265162" y1="42.779999999999994" x2="232.64906447265162" y2="-42.779999999999994" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-259.48631397429534" y1="22.144557498971675" x2="259.48631397429534" y2="-22.144557498971675" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-268.64" y1="0" x2="268.64" y2="0" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-259.48631397429534" y1="-22.144557498971675" x2="259.48631397429534" y2="22.144557498971675" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-232.64906447265162" y1="-42.779999999999994" x2="232.64906447265162" y2="42.779999999999994" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-189.95716569795414" y1="-60.500056198321" x2="189.95716569795414" y2="60.500056198321" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-134.32000000000002" y1="-74.09713354779657" x2="134.32000000000002" y2="74.09713354779657" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-69.52914827634118" y1="-82.64461369729268" x2="69.52914827634118" y2="82.64461369729268" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/><line x1="-1.6449455806147248e-14" y1="-85.56" x2="1.6449455806147248e-14" y2="85.56" stroke="#1f7a5a" stroke-width="4" opacity="0.22"/>
+      <line x1="-256.96" y1="0" x2="256.96" y2="0" stroke="#a8322a" stroke-width="12" stroke-linecap="round"/>
+    </g>
+    <text x="151.84" y="81.84" fill="#1f2937" font-size="34" font-weight="900">面积可以小到消失；方向复杂度不会消失。</text>
+    <text x="151.84" y="122.76" fill="#657386" font-size="25" font-weight="750">not the needle, but the overlap of all directions</text>
+  </g>
+  <rect x="56" y="526" width="1168" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="80" y="562" fill="#0f5d7e" font-size="18" font-weight="900">Shot Purpose</text>
+  <text x="80" y="594" fill="#263241" font-size="23" font-weight="650">用一句话收束全片论点，形成可记住的结尾。</text>
+  <rect x="56" y="526" width="240" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="76" y="562" fill="#1f7a5a" font-size="18" font-weight="900">Frame Intent</text>
+  <text x="76" y="594" fill="#263241" font-size="18" font-weight="650">收束句以手写粉笔质感显现，红色单位线段在下方画出。</text>
+  <text x="58" y="690" fill="#657386" font-size="16" font-weight="700">Visible storyboard frame for web review; final cinematic PNG generation remains pending.</text>
+</svg>

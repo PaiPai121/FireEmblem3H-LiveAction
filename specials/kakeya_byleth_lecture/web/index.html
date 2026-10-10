@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>女贝老师讲二维转针问题｜分镜制作看板</title>
+  <style>
+    :root {
+      --ink: #111827;
+      --muted: #657386;
+      --paper: #f7f3ea;
+      --panel: #fffdfa;
+      --line: #d7d0c3;
+      --blue: #0f5d7e;
+      --red: #a8322a;
+      --green: #1f7a5a;
+      --gold: #b7791f;
+      --shadow: 0 16px 45px rgba(28, 25, 23, .11);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(168, 50, 42, .045) 0 1px, transparent 1px 78px),
+        linear-gradient(0deg, rgba(15, 93, 126, .04) 0 1px, transparent 1px 78px),
+        var(--paper);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+    }
+
+    header {
+      min-height: 88vh;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
+      gap: 28px;
+      width: min(1360px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 38px 0 28px;
+      align-items: stretch;
+    }
+
+    .brief, .hero-visual, .panel, .shot, .script-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 253, 250, .92);
+      box-shadow: var(--shadow);
+    }
+
+    .brief {
+      padding: clamp(24px, 4vw, 48px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 620px;
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      color: var(--red);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 880px;
+      font-family: ui-serif, "Songti SC", "Noto Serif CJK SC", Georgia, serif;
+      font-size: clamp(34px, 5vw, 72px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 780px;
+      margin: 22px 0 0;
+      color: #384152;
+      font-size: clamp(17px, 2vw, 22px);
+      line-height: 1.65;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .stat {
+      padding: 14px;
+      border: 1px solid #e4ddd0;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .stat b {
+      display: block;
+      font-size: 24px;
+      line-height: 1.1;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .thesis {
+      margin-top: 24px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--green);
+      background: #eef8f2;
+      color: #14382b;
+      font-family: ui-serif, "Songti SC", Georgia, serif;
+      font-size: 20px;
+      line-height: 1.55;
+    }
+
+    .stage-warning {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border: 1px solid #e2b35d;
+      border-radius: 8px;
+      background: #fff7e6;
+      color: #5f3b06;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .hero-visual {
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      min-height: 620px;
+    }
+
+    .portrait {
+      position: relative;
+      min-height: 430px;
+      background: #16191d;
+    }
+
+    .portrait img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      opacity: .88;
+    }
+
+    .portrait::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 30%, rgba(12, 16, 20, .78));
+    }
+
+    .visual-caption {
+      position: absolute;
+      left: 22px;
+      right: 22px;
+      bottom: 20px;
+      z-index: 1;
+      color: #fff;
+    }
+
+    .visual-caption strong {
+      display: block;
+      font-size: 18px;
+    }
+
+    .visual-caption span {
+      color: #d9e4ea;
+      font-size: 13px;
+    }
+
+    .diagram-strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border-top: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .diagram-strip img {
+      width: 100%;
+      height: 170px;
+      object-fit: contain;
+      padding: 10px;
+      border-right: 1px solid var(--line);
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 8;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: rgba(247, 243, 234, .92);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-inner {
+      width: min(1360px, calc(100% - 40px));
+      margin: 0 auto;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+
+    .nav-inner a {
+      white-space: nowrap;
+      text-decoration: none;
+      color: #263241;
+      border: 1px solid #d4cabb;
+      background: #fffaf2;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    main {
+      width: min(1360px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 28px 0 70px;
+    }
+
+    section { scroll-margin-top: 76px; }
+
+    h2 {
+      margin: 42px 0 16px;
+      font-family: ui-serif, "Songti SC", Georgia, serif;
+      font-size: clamp(26px, 3vw, 42px);
+      letter-spacing: 0;
+    }
+
+    .panel {
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+
+    .sequence-grid {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(150px, 1fr));
+      gap: 10px;
+    }
+
+    .sequence {
+      min-height: 120px;
+      padding: 14px;
+      border-radius: 8px;
+      border: 1px solid #ddd4c5;
+      background: #fff;
+    }
+
+    .sequence strong {
+      display: block;
+      color: var(--red);
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    .sequence span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 12px 0 18px;
+    }
+
+    button {
+      border: 1px solid #cfc5b6;
+      border-radius: 6px;
+      background: #fff;
+      color: #172033;
+      padding: 8px 11px;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    button.active {
+      color: #fff;
+      border-color: var(--blue);
+      background: var(--blue);
+    }
+
+    .shots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 14px;
+    }
+
+    .thumb {
+      border: 1px solid #c9bdac;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fffaf2;
+    }
+
+    .frame-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0;
+    }
+
+    .frame-strip figure {
+      margin: 0;
+      min-width: 0;
+      border-right: 1px solid #d7d0c3;
+      background: #fffdfa;
+    }
+
+    .frame-strip figure:last-child {
+      border-right: 0;
+    }
+
+    .frame-strip img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      display: block;
+    }
+
+    .frame-strip figcaption {
+      padding: 5px 6px;
+      color: #6b5c4b;
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-align: center;
+      text-transform: uppercase;
+      border-top: 1px solid #e2d8c8;
+      background: #fff7e6;
+    }
+
+    .thumb-note {
+      padding: 7px 9px;
+      color: #6b4300;
+      font-size: 11px;
+      font-weight: 800;
+      background: #fff7e6;
+      border-top: 1px solid #e2d8c8;
+    }
+
+    .shot {
+      padding: 16px;
+      min-height: 310px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .shot-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .shot-id {
+      color: var(--red);
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: .04em;
+    }
+
+    .time {
+      color: var(--muted);
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .shot h3 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.25;
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .shot p {
+      margin: 0;
+      color: #263241;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      border-radius: 999px;
+      padding: 4px 8px;
+      background: #f0f5f8;
+      color: var(--blue);
+      font-size: 11px;
+      font-weight: 750;
+    }
+
+    .status-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .status {
+      border-radius: 6px;
+      padding: 5px 8px;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      border: 1px solid #d4cabb;
+      background: #fff;
+    }
+
+    .status.frames_pending {
+      color: #6b4300;
+      border-color: #e2b35d;
+      background: #fff7e6;
+    }
+
+    .status.prompt_ready {
+      color: #14532d;
+      border-color: #8fc8a5;
+      background: #eef8f2;
+    }
+
+    .status.needs_review {
+      color: #7f1d1d;
+      border-color: #f0a3a3;
+      background: #fff1f1;
+    }
+
+    .status.layout_reference {
+      color: #3d2866;
+      border-color: #c7b7e8;
+      background: #f7f3ff;
+    }
+
+    .status.approved_for_video,
+    .status.visual_review_passed {
+      color: #064e3b;
+      border-color: #6ee7b7;
+      background: #ecfdf5;
+    }
+
+    .status.pilot_generated_review_required,
+    .status.pilot_full_shot_generated_review_required,
+    .status.needs_visual_qa,
+    .status.needs_math_visual_qa {
+      color: #7c2d12;
+      border-color: #fdba74;
+      background: #fff7ed;
+    }
+
+    .asset-links {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .asset-links a {
+      min-height: 34px;
+      display: grid;
+      place-items: center;
+      border: 1px solid #d4cabb;
+      border-radius: 6px;
+      background: #fffaf2;
+      color: #263241;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .script-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 16px;
+    }
+
+    .script-panel {
+      padding: 18px;
+      max-height: 620px;
+      overflow: auto;
+    }
+
+    .script-panel pre {
+      margin: 0;
+      white-space: pre-wrap;
+      font: 14px/1.65 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: #1e293b;
+    }
+
+    .review-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+    }
+
+    .requirements-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .req-card {
+      padding: 16px;
+      border: 1px solid #d8cfbf;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .req-card b {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--blue);
+    }
+
+    .review-item {
+      padding: 14px;
+      border: 1px solid #d8cfbf;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .review-item b {
+      color: var(--green);
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 980px) {
+      header, .script-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .sequence-grid {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      }
+
+      .brief, .hero-visual {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brief">
+      <div>
+        <p class="eyebrow">KAK-BYLETH-LECTURE · Costume Fix Candidate · Review Required</p>
+        <h1>女贝老师讲二维转针问题：完整分镜制作看板</h1>
+        <p class="subtitle">一支 7.5-8.5 分钟的风花雪月风格科普短片：从训练剑谜题进入 deltoid、凸区域、Perron 树、δ-管与二维维数结论，最后揭示它叫挂谷针问题。</p>
+      </div>
+      <div>
+        <div class="stats">
+          <div class="stat"><b id="shotCount">34</b><span>分镜镜头</span></div>
+          <div class="stat"><b id="realFrameCount">0/102</b><span>真实帧进度</span></div>
+          <div class="stat"><b>7</b><span>叙事段落</span></div>
+          <div class="stat"><b>8m</b><span>目标片长</span></div>
+          <div class="stat"><b id="reviewCount">7</b><span>独立审查</span></div>
+        </div>
+        <div class="stage-warning">最新纠错状态：旧 34 镜头包因女贝老师服装漂移仍被阻塞；现在新增服装修正定妆候选，以及 SH001、SH002、SH010 三组关键候选。确认这个方向后，才能批量重生其余镜头。</div>
+        <div class="thesis">意义不在针本身，而在多方向细长结构能怎样重叠。</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="portrait">
+        <img src="../../../assets/characters/protagonist/BylethFemale/costume_corrected_lookdev/candidates_2026-08-05/candidate_01.png" alt="女贝老师服装修正定妆候选">
+        <div class="visual-caption">
+          <strong>服装修正定妆候选</strong>
+          <span>短披肩、高领、露腹上衣、金色胸饰、银色护臂、短裤/纹样袜与单膝护具为本轮重点。</span>
+        </div>
+      </div>
+      <div class="diagram-strip">
+        <img src="../../../docs/kakeya_figures/fig5_perron_one_step.svg" alt="Perron tree one step">
+        <img src="../../../docs/kakeya_figures/fig7_davies_tubes.svg" alt="Delta tube overlap">
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="#sequences">结构</a>
+      <a href="../delivery/costume_corrected_preview_2026-08-05/asset_viewer.html">服装修正预览</a>
+      <a href="#requirements">生成要求</a>
+      <a href="#shots">34 镜头</a>
+      <a href="#script">旁白对白</a>
+      <a href="#production">制作锁</a>
+      <a href="#review">审查</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="sequences">
+      <h2>七段结构</h2>
+      <div class="sequence-grid" id="sequenceGrid"></div>
+    </section>
+
+    <section id="requirements">
+      <h2>镜头生成要求</h2>
+      <div class="panel">
+        <p class="small">按 cinematic-production-pipeline，镜头不是“写一句画面描述”就能生成。每个镜头必须证明一个故事、动作、剪辑或数学解释功能，并且要有 start/key/end 意图、身份锁、运动风险和拒绝条件。</p>
+        <div class="requirements-grid">
+          <div class="req-card"><b>plan_package</b><p class="small">已完成：bible、提纲、导演阐释、34 镜头文字分镜、制作说明、manifest、独立 review。</p></div>
+          <div class="req-card"><b>prompt_asset_package</b><p class="small">已完成：每镜头 frame_spec、prompt、negative prompt、包 manifest、视频 prompt QA。</p></div>
+          <div class="req-card"><b>real frame generation</b><p class="small">已完成：34 镜头共 102 张真实 start/key/end 图像。当前状态为真实帧审查完成后的监看阶段，视频片段仍需模型试跑与运动 QA，尚不标记 approved_for_video。</p></div>
+        </div>
+      </div>
+      <div class="script-panel"><pre id="requirementsText">Loading requirements...</pre></div>
+    </section>
+
+    <section id="shots">
+      <h2>完整分镜</h2>
+      <div class="panel">
+        <div class="filters" id="filters"></div>
+        <p class="small">每张镜头卡都包含：证明功能、主体、机位、可见动作、声音锚点、生成风险，以及 frame spec / prompt / negative prompt 链接。点击筛选可以按叙事段落查看。</p>
+      </div>
+      <div class="shots" id="shotGrid"></div>
+    </section>
+
+    <section id="script">
+      <h2>旁白与对白</h2>
+      <div class="script-grid">
+        <div class="script-panel"><pre id="scriptText">Loading script...</pre></div>
+        <div class="script-panel"><pre id="outlineText">Loading outline...</pre></div>
+      </div>
+    </section>
+
+    <section id="production">
+      <h2>制作锁与风险</h2>
+      <div class="script-panel"><pre id="productionText">Loading production notes...</pre></div>
+    </section>
+
+    <section id="review">
+      <h2>计划包审查</h2>
+      <div class="review-list" id="reviewList"></div>
+      <div class="script-panel"><pre id="reviewText">Loading review...</pre></div>
+    </section>
+  </main>
+
+  <script>
+    const paths = {
+      shotList: "../shot_list.md",
+      script: "../voiceover_dialogue_script.md",
+      outline: "../outline.md",
+      production: "../production_notes.md",
+      review: "../production_system/reviews/prompt_asset_package_review_2026-07-27.md",
+      reviewManifest: "../production_system/review_manifest.json",
+      requirements: "../shot_generation_requirements.md",
+      promptManifest: "../prompt_asset_package_manifest.json",
+      deliveryManifest: "../production_system/video_delivery_manifest.json",
+      frameGenerationManifest: "../frame_generation_manifest.json"
+    };
+
+    const sequenceLabels = [
+      { id: "ALL", label: "全部", range: [1, 34] },
+      { id: "S1", label: "S1 训练谜题", range: [1, 5] },
+      { id: "S2", label: "S2 Deltoid", range: [6, 10] },
+      { id: "S3", label: "S3 凸区域", range: [11, 15] },
+      { id: "S4", label: "S4 Perron", range: [16, 23] },
+      { id: "S5", label: "S5 δ-管", range: [24, 29] },
+      { id: "S6", label: "S6 影响", range: [30, 31] },
+      { id: "S7", label: "S7 揭名", range: [32, 34] }
+    ];
+
+    const sequenceColor = {
+      S1: "#a8322a",
+      S2: "#0f5d7e",
+      S3: "#1f7a5a",
+      S4: "#b7791f",
+      S5: "#3b5b92",
+      S6: "#5f4b8b",
+      S7: "#1f2937"
+    };
+
+    const escapeHtml = (value) => value
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+
+    async function fetchText(path) {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(`${path}: ${response.status}`);
+      return response.text();
+    }
+
+    function splitRow(row) {
+      return row
+        .trim()
+        .replace(/^\|/, "")
+        .replace(/\|$/, "")
+        .split("|")
+        .map((cell) => cell.trim().replace(/`([^`]+)`/g, "$1"));
+    }
+
+    function parseTable(markdown, heading) {
+      const lines = markdown.split(/\r?\n/);
+      const start = lines.findIndex((line) => line.trim() === heading);
+      if (start < 0) return [];
+      const tableStart = lines.findIndex((line, index) => index > start && line.trim().startsWith("|"));
+      if (tableStart < 0) return [];
+      const rows = [];
+      for (let i = tableStart; i < lines.length; i += 1) {
+        if (!lines[i].trim().startsWith("|")) break;
+        if (/^\|\s*-/.test(lines[i])) continue;
+        rows.push(splitRow(lines[i]));
+      }
+      const [header, ...body] = rows;
+      return body.map((cells) => Object.fromEntries(header.map((key, i) => [key, cells[i] || ""])));
+    }
+
+    function shotNumber(shot) {
+      return Number((shot.Shot || "").replace(/\D/g, ""));
+    }
+
+    function sequenceForShot(n) {
+      return sequenceLabels.find((seq) => seq.id !== "ALL" && n >= seq.range[0] && n <= seq.range[1])?.id || "S1";
+    }
+
+    function renderSequences(sequences) {
+      const grid = document.querySelector("#sequenceGrid");
+      grid.innerHTML = sequences.map((seq) => `
+        <div class="sequence">
+          <strong>${escapeHtml(seq.Seq)}</strong>
+          <p>${escapeHtml(seq.Function)}</p>
+          <span>${escapeHtml(seq.Runtime)}</span>
+        </div>
+      `).join("");
+    }
+
+    function renderFilters(shots, deliveryById) {
+      const filters = document.querySelector("#filters");
+      filters.innerHTML = sequenceLabels.map((seq, index) => `
+        <button type="button" class="${index === 0 ? "active" : ""}" data-seq="${seq.id}">${escapeHtml(seq.label)}</button>
+      `).join("");
+      filters.addEventListener("click", (event) => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        filters.querySelectorAll("button").forEach((item) => item.classList.remove("active"));
+        button.classList.add("active");
+        renderShots(shots, deliveryById, filters.realFramesById || new Map(), button.dataset.seq);
+      });
+    }
+
+    function renderShots(shots, deliveryById = new Map(), realFramesById = new Map(), filter = "ALL") {
+      const grid = document.querySelector("#shotGrid");
+      const filtered = shots.filter((shot) => {
+        const seq = sequenceForShot(shotNumber(shot));
+        return filter === "ALL" || seq === filter;
+      });
+      grid.innerHTML = filtered.map((shot) => {
+        const n = shotNumber(shot);
+        const seq = sequenceForShot(n);
+        const delivery = deliveryById.get(shot.Shot) || {};
+        const realFrame = realFramesById.get(shot.Shot) || {};
+        const status = delivery.status || "needs_review";
+        const reviewStatus = delivery.review_status || "needs_review";
+        const specPath = delivery.frame_spec_path ? `../${delivery.frame_spec_path}` : "#";
+        const promptPath = delivery.prompt_path ? `../${delivery.prompt_path}` : "#";
+        const negativePath = delivery.negative_prompt_path ? `../${delivery.negative_prompt_path}` : "#";
+        const layoutStart = realFrame.real_start_frame ? `../${realFrame.real_start_frame}` : delivery.start_frame ? `../${delivery.start_frame}` : delivery.layout_start_frame ? `../${delivery.layout_start_frame}` : "";
+        const layoutKey = realFrame.real_key_frame ? `../${realFrame.real_key_frame}` : delivery.key_frame ? `../${delivery.key_frame}` : delivery.layout_key_frame ? `../${delivery.layout_key_frame}` : "";
+        const layoutEnd = realFrame.real_end_frame ? `../${realFrame.real_end_frame}` : delivery.end_frame ? `../${delivery.end_frame}` : delivery.layout_end_frame ? `../${delivery.layout_end_frame}` : "";
+        const realFrameSlots = ["real_start_frame", "real_key_frame", "real_end_frame"].filter((key) => realFrame[key]).length;
+        const thumbNote = realFrameSlots === 3
+          ? "real pilot start/key/end shown · QA pending"
+          : realFrameSlots > 0
+            ? `real pilot ${realFrameSlots}/3 shown · remaining slots use layout reference`
+            : "layout reference only · real frame generation pending";
+        const frameStrip = [layoutStart, layoutKey, layoutEnd].every(Boolean)
+          ? `<div class="frame-strip">
+              <figure><img src="${escapeHtml(layoutStart)}" alt="${escapeHtml(shot.Shot || "")} start frame"><figcaption>${realFrame.real_start_frame ? "real start pilot" : "start"}</figcaption></figure>
+              <figure><img src="${escapeHtml(layoutKey)}" alt="${escapeHtml(shot.Shot || "")} key frame"><figcaption>${realFrame.real_key_frame ? "real key pilot" : "key"}</figcaption></figure>
+              <figure><img src="${escapeHtml(layoutEnd)}" alt="${escapeHtml(shot.Shot || "")} end frame"><figcaption>${realFrame.real_end_frame ? "real end pilot" : "end"}</figcaption></figure>
+            </div>
+            <div class="thumb-note">${escapeHtml(thumbNote)}</div>`
+          : `<div class="thumb-note">frames pending · layout reference missing</div>`;
+        return `
+          <article class="shot" style="border-top: 5px solid ${sequenceColor[seq]}">
+            <div class="thumb">${frameStrip}</div>
+            <div class="shot-top">
+              <div>
+                <div class="shot-id">${escapeHtml(shot.Shot || "")}</div>
+                <h3>${escapeHtml(shot.Beat || "")}</h3>
+              </div>
+              <div class="time">${escapeHtml(shot.Time || "")}</div>
+            </div>
+            <div class="status-row">
+              <span class="status ${escapeHtml(status)}">${escapeHtml(status)}</span>
+              <span class="status prompt_ready">${escapeHtml(reviewStatus)}</span>
+              ${delivery.layout_frame_status ? `<span class="status layout_reference">${escapeHtml(delivery.layout_frame_status)}</span>` : ""}
+              ${realFrame.status ? `<span class="status ${escapeHtml(realFrame.status)}">${escapeHtml(realFrame.status)}</span>` : ""}
+            </div>
+            <div class="asset-links">
+              <a href="${escapeHtml(specPath)}" target="_blank" rel="noreferrer">frame spec</a>
+              <a href="${escapeHtml(promptPath)}" target="_blank" rel="noreferrer">prompt</a>
+              <a href="${escapeHtml(negativePath)}" target="_blank" rel="noreferrer">negative</a>
+            </div>
+            <div><div class="label">证明 / 叙事功能</div><p>${escapeHtml(shot.Purpose || "")}</p></div>
+            <div><div class="label">主体与机位</div><p>${escapeHtml(shot.Subject || "")} · ${escapeHtml(shot.Camera || "")}</p></div>
+            <div><div class="label">可见动作</div><p>${escapeHtml(shot["Blocking / Visual Action"] || "")}</p></div>
+            <div><div class="label">声音锚点</div><p>${escapeHtml(shot["Dialogue / Audio Anchor"] || "")}</p></div>
+            <div class="tag-row">
+              <span class="tag">${seq}</span>
+              <span class="tag">${escapeHtml(shot.Risks || "risk noted")}</span>
+            </div>
+          </article>
+        `;
+      }).join("");
+      document.querySelector("#shotCount").textContent = shots.length;
+    }
+
+    function stripFrontMatter(text) {
+      return text.replace(/^# .+\n\n/, "");
+    }
+
+    function renderReviewManifest(jsonText) {
+      const data = JSON.parse(jsonText);
+      const list = document.querySelector("#reviewList");
+      list.innerHTML = data.reviews.map((review) => `
+        <div class="review-item">
+          <b>${escapeHtml(review.decision)}</b>
+          <p>${escapeHtml(review.reviewer_role)}</p>
+          <p class="small">${escapeHtml(review.notes || "")}</p>
+        </div>
+      `).join("");
+      document.querySelector("#reviewCount").textContent = data.reviews.length;
+    }
+
+    async function init() {
+      try {
+        const [shotMd, scriptMd, outlineMd, productionMd, reviewMd, reviewJson, requirementsMd, deliveryJson, frameGenerationJson] = await Promise.all([
+          fetchText(paths.shotList),
+          fetchText(paths.script),
+          fetchText(paths.outline),
+          fetchText(paths.production),
+          fetchText(paths.review),
+          fetchText(paths.reviewManifest),
+          fetchText(paths.requirements),
+          fetchText(paths.deliveryManifest),
+          fetchText(paths.frameGenerationManifest)
+        ]);
+        const sequences = parseTable(shotMd, "## Sequence Map");
+        const shots = parseTable(shotMd, "## Shot List");
+        const delivery = JSON.parse(deliveryJson);
+        const deliveryById = new Map((delivery.shots || []).map((shot) => [shot.id, shot]));
+        const frameGeneration = JSON.parse(frameGenerationJson);
+        const realFramesById = new Map((frameGeneration.shots || []).map((shot) => [shot.id, shot]));
+        const frameScope = frameGeneration.remaining_scope || {};
+        renderSequences(sequences);
+        renderFilters(shots, deliveryById);
+        document.querySelector("#filters").realFramesById = realFramesById;
+        renderShots(shots, deliveryById, realFramesById);
+        document.querySelector("#realFrameCount").textContent = `${frameScope.generated_real_frames || 0}/${frameScope.total_required_real_frames || 102}`;
+        document.querySelector("#scriptText").textContent = stripFrontMatter(scriptMd);
+        document.querySelector("#outlineText").textContent = stripFrontMatter(outlineMd);
+        document.querySelector("#productionText").textContent = stripFrontMatter(productionMd);
+        document.querySelector("#reviewText").textContent = stripFrontMatter(reviewMd);
+        document.querySelector("#requirementsText").textContent = stripFrontMatter(requirementsMd);
+        renderReviewManifest(reviewJson);
+      } catch (error) {
+        document.querySelector("main").innerHTML = `<div class="panel">页面载入失败：${escapeHtml(error.message)}</div>`;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

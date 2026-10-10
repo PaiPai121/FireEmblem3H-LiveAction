@@ -1,0 +1,50 @@
+{
+  "id": "SH005",
+  "order": 5,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S1",
+  "timecode": "00:42-00:55",
+  "duration_seconds": 13,
+  "script_beat": "Direction coverage",
+  "shot_purpose": "把连续转动改写为所有方向都有完整一单位线段。",
+  "location": "Classroom diagram board",
+  "characters_visible": "Female Byleth as small side silhouette; diagram dominant",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH005/frame_spec.md",
+  "prompt_path": "storyboards/SH005/prompt.md",
+  "negative_prompt_path": "storyboards/SH005/negative_prompt.md",
+  "start_frame": "storyboards/SH005/start.png",
+  "key_frame": "storyboards/SH005/key.png",
+  "end_frame": "storyboards/SH005/end.png",
+  "expected_clip": "clips/SH005.mp4",
+  "edit_in": "从 SH004 的可移动中心箭头接入。",
+  "edit_out": "绿色扇面收束成三尖曲线的第一笔。",
+  "screen_direction": "方向从左下到右上逐步展开。",
+  "mathematical_locks": [
+    "Unit segment must be visibly length 1 with two endpoints; the condition is all directions, not a fixed center unless shown as a rejected intuition."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH004",
+    "next": "SH006",
+    "in": "从 SH004 的可移动中心箭头接入。",
+    "out": "绿色扇面收束成三尖曲线的第一笔。"
+  },
+  "reject_if": [
+    "Too many ghost swords clutter frame",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "the unit segment loses visible endpoints or becomes a decorative sword without length meaning"
+  ]
+}

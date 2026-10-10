@@ -3,8 +3,8 @@
     "version": "2026-07-19",
     "policy": "A Scene09 shot is complete only when start frame and keyframe are newly generated production rasters, QA passed, and start-key association is recorded.",
     "total": 36,
-    "complete": 36,
-    "incomplete": 0
+    "complete": 26,
+    "incomplete": 10
   },
   "rows": [
     {
@@ -142,8 +142,8 @@
     {
       "shot": "Shot027B",
       "title": "First Moving Enemy Wave",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot027B_keyframe.png",
       "checks": {
@@ -151,7 +151,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -159,7 +159,9 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot027C",
@@ -274,8 +276,8 @@
     {
       "shot": "Shot029",
       "title": "Sylvain / Ingrid Side Flank",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029_keyframe.png",
       "checks": {
@@ -283,7 +285,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -291,13 +293,15 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot029B",
       "title": "Sylvain Ingrid Thicket Flank",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot029B_keyframe.png",
       "checks": {
@@ -305,7 +309,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -313,7 +317,9 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot029C",
@@ -406,8 +412,8 @@
     {
       "shot": "Shot030C",
       "title": "Support Route Cut",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot030C_keyframe.png",
       "checks": {
@@ -415,7 +421,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -423,7 +429,9 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot031",
@@ -516,8 +524,8 @@
     {
       "shot": "Shot032C",
       "title": "Black Eagles Pressure Golden Deer",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032C_keyframe.png",
       "checks": {
@@ -525,7 +533,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -533,7 +541,9 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot032D",
@@ -560,8 +570,8 @@
     {
       "shot": "Shot032E",
       "title": "First Three-Way Entanglement",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot032E_keyframe.png",
       "checks": {
@@ -569,7 +579,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -577,7 +587,9 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot033",
@@ -604,8 +616,8 @@
     {
       "shot": "Shot033B",
       "title": "Byleth Calls Cut Teachers",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033B_keyframe.png",
       "checks": {
@@ -613,7 +625,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -621,13 +633,15 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot033C",
       "title": "Ashe Suppresses Hanneman",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033C_keyframe.png",
       "checks": {
@@ -635,7 +649,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -643,13 +657,15 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot033D",
       "title": "Ingrid Drives Manuela Off Tile",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot033D_keyframe.png",
       "checks": {
@@ -657,7 +673,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -665,7 +681,9 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot034",
@@ -736,8 +754,8 @@
     {
       "shot": "Shot034D",
       "title": "Byleth Breaks Hanneman Spell",
-      "complete": true,
-      "status": "complete_qa_passed",
+      "complete": false,
+      "status": "incomplete",
       "startPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_start.png",
       "keyPath": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034D_keyframe.png",
       "checks": {
@@ -745,7 +763,7 @@
         "keyExists": true,
         "startIsProductionRaster": true,
         "keyIsProductionRaster": true,
-        "qaPassed": true,
+        "qaPassed": false,
         "startQaAssetMatches": true,
         "keyQaAssetMatches": true,
         "startKeyAssociationRecorded": true,
@@ -753,7 +771,9 @@
         "keyPromptExists": true,
         "videoPromptExists": true
       },
-      "missing": []
+      "missing": [
+        "qaPassed"
+      ]
     },
     {
       "shot": "Shot035",

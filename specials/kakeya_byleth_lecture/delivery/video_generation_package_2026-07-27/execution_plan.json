@@ -1,0 +1,636 @@
+{
+  "package_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27",
+  "project": "Byleth Teaches the 2D Needle Problem",
+  "package_id": "video_generation_package_2026-07-27",
+  "total_shots": 34,
+  "total_duration_seconds": 492,
+  "mode": "dry_run",
+  "concat_requested": false,
+  "final_output": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/final_edit.mp4",
+  "model_cli_configured": false,
+  "integrity": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "clip_status": {
+    "missing_count": 34,
+    "ready_for_concat": false,
+    "clips": [
+      {
+        "shot_id": "SH001",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH001.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH002",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH002.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH003",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH003.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH004",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH004.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH005",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH005.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH006",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH006.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH007",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH007.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH008",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH008.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH009",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH009.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH010",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH010.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH011",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH011.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH012",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH012.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH013",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH013.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH014",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH014.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH015",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH015.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH016",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH016.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH017",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH017.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH018",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH018.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH019",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH019.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH020",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH020.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH021",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH021.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH022",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH022.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH023",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH023.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH024",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH024.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH025",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH025.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH026",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH026.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH027",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH027.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH028",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH028.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH029",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH029.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH030",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH030.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH031",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH031.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH032",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH032.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH033",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH033.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SH034",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH034.mp4",
+        "exists": false
+      }
+    ]
+  },
+  "work_orders": [
+    {
+      "order": 1,
+      "shot_id": "SH001",
+      "duration_seconds": 8,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/001_SH001",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/001_SH001/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/001_SH001/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/001_SH001/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/001_SH001/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/001_SH001/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH001.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 2,
+      "shot_id": "SH002",
+      "duration_seconds": 10,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/002_SH002",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/002_SH002/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/002_SH002/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/002_SH002/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/002_SH002/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/002_SH002/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH002.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 3,
+      "shot_id": "SH003",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/003_SH003",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/003_SH003/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/003_SH003/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/003_SH003/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/003_SH003/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/003_SH003/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH003.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 4,
+      "shot_id": "SH004",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/004_SH004",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/004_SH004/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/004_SH004/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/004_SH004/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/004_SH004/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/004_SH004/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH004.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 5,
+      "shot_id": "SH005",
+      "duration_seconds": 13,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/005_SH005",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/005_SH005/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/005_SH005/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/005_SH005/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/005_SH005/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/005_SH005/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH005.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 6,
+      "shot_id": "SH006",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/006_SH006",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/006_SH006/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/006_SH006/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/006_SH006/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/006_SH006/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/006_SH006/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH006.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 7,
+      "shot_id": "SH007",
+      "duration_seconds": 15,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/007_SH007",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/007_SH007/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/007_SH007/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/007_SH007/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/007_SH007/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/007_SH007/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH007.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 8,
+      "shot_id": "SH008",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/008_SH008",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/008_SH008/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/008_SH008/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/008_SH008/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/008_SH008/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/008_SH008/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH008.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 9,
+      "shot_id": "SH009",
+      "duration_seconds": 16,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/009_SH009",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/009_SH009/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/009_SH009/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/009_SH009/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/009_SH009/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/009_SH009/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH009.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 10,
+      "shot_id": "SH010",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/010_SH010",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/010_SH010/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/010_SH010/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/010_SH010/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/010_SH010/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/010_SH010/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH010.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 11,
+      "shot_id": "SH011",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/011_SH011",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/011_SH011/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/011_SH011/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/011_SH011/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/011_SH011/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/011_SH011/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH011.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 12,
+      "shot_id": "SH012",
+      "duration_seconds": 18,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/012_SH012",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/012_SH012/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/012_SH012/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/012_SH012/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/012_SH012/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/012_SH012/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH012.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 13,
+      "shot_id": "SH013",
+      "duration_seconds": 16,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/013_SH013",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/013_SH013/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/013_SH013/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/013_SH013/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/013_SH013/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/013_SH013/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH013.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 14,
+      "shot_id": "SH014",
+      "duration_seconds": 13,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/014_SH014",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/014_SH014/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/014_SH014/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/014_SH014/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/014_SH014/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/014_SH014/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH014.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 15,
+      "shot_id": "SH015",
+      "duration_seconds": 13,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/015_SH015",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/015_SH015/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/015_SH015/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/015_SH015/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/015_SH015/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/015_SH015/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH015.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 16,
+      "shot_id": "SH016",
+      "duration_seconds": 13,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/016_SH016",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/016_SH016/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/016_SH016/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/016_SH016/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/016_SH016/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/016_SH016/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH016.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 17,
+      "shot_id": "SH017",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/017_SH017",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/017_SH017/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/017_SH017/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/017_SH017/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/017_SH017/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/017_SH017/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH017.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 18,
+      "shot_id": "SH018",
+      "duration_seconds": 15,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/018_SH018",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/018_SH018/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/018_SH018/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/018_SH018/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/018_SH018/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/018_SH018/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH018.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 19,
+      "shot_id": "SH019",
+      "duration_seconds": 16,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/019_SH019",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/019_SH019/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/019_SH019/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/019_SH019/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/019_SH019/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/019_SH019/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH019.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 20,
+      "shot_id": "SH020",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/020_SH020",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/020_SH020/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/020_SH020/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/020_SH020/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/020_SH020/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/020_SH020/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH020.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 21,
+      "shot_id": "SH021",
+      "duration_seconds": 18,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/021_SH021",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/021_SH021/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/021_SH021/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/021_SH021/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/021_SH021/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/021_SH021/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH021.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 22,
+      "shot_id": "SH022",
+      "duration_seconds": 20,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/022_SH022",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/022_SH022/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/022_SH022/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/022_SH022/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/022_SH022/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/022_SH022/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH022.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 23,
+      "shot_id": "SH023",
+      "duration_seconds": 20,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/023_SH023",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/023_SH023/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/023_SH023/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/023_SH023/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/023_SH023/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/023_SH023/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH023.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 24,
+      "shot_id": "SH024",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/024_SH024",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/024_SH024/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/024_SH024/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/024_SH024/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/024_SH024/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/024_SH024/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH024.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 25,
+      "shot_id": "SH025",
+      "duration_seconds": 16,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/025_SH025",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/025_SH025/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/025_SH025/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/025_SH025/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/025_SH025/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/025_SH025/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH025.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 26,
+      "shot_id": "SH026",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/026_SH026",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/026_SH026/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/026_SH026/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/026_SH026/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/026_SH026/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/026_SH026/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH026.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 27,
+      "shot_id": "SH027",
+      "duration_seconds": 16,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/027_SH027",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/027_SH027/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/027_SH027/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/027_SH027/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/027_SH027/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/027_SH027/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH027.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 28,
+      "shot_id": "SH028",
+      "duration_seconds": 15,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/028_SH028",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/028_SH028/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/028_SH028/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/028_SH028/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/028_SH028/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/028_SH028/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH028.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 29,
+      "shot_id": "SH029",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/029_SH029",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/029_SH029/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/029_SH029/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/029_SH029/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/029_SH029/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/029_SH029/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH029.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 30,
+      "shot_id": "SH030",
+      "duration_seconds": 20,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/030_SH030",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/030_SH030/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/030_SH030/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/030_SH030/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/030_SH030/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/030_SH030/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH030.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 31,
+      "shot_id": "SH031",
+      "duration_seconds": 17,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/031_SH031",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/031_SH031/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/031_SH031/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/031_SH031/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/031_SH031/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/031_SH031/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH031.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 32,
+      "shot_id": "SH032",
+      "duration_seconds": 18,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/032_SH032",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/032_SH032/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/032_SH032/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/032_SH032/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/032_SH032/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/032_SH032/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH032.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 33,
+      "shot_id": "SH033",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/033_SH033",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/033_SH033/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/033_SH033/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/033_SH033/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/033_SH033/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/033_SH033/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH033.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 34,
+      "shot_id": "SH034",
+      "duration_seconds": 8,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/034_SH034",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/034_SH034/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/034_SH034/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/034_SH034/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/034_SH034/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/shots/034_SH034/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/kakeya_byleth_lecture/delivery/video_generation_package_2026-07-27/clips/SH034.mp4",
+      "command_argv": null
+    }
+  ]
+}

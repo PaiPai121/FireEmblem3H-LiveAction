@@ -1,0 +1,20 @@
+{
+  "id": "SH023",
+  "order": 23,
+  "status": "monitor_required",
+  "duration_seconds": 20,
+  "expected_clip": "clips/SH023.mp4",
+  "edit_in": "从 SH022 树状碎片匹配切到黑板。",
+  "edit_out": "结论里的“面积”二字切到零面积提示。",
+  "audio_anchor": "",
+  "continuity_previous": "KAK-BYLETH-PROMPT-SH022",
+  "continuity_next": "KAK-BYLETH-PROMPT-SH024",
+  "model_notes": [
+    "Use these PNGs as storyboard/diagrammatic image-to-video inputs.",
+    "Preserve the text, diagram geometry, Female Byleth reference panel, and start/key/end action chain.",
+    "This package is suitable for storyboard animatic or explanatory video generation; photoreal/cinematic repaint remains an optional later style pass."
+  ],
+  "reject_if": [],
+  "review_status": "superseded_pending_motion_qa",
+  "approval_note": "旧版交接包仅作历史参考；当前权威入口为真实帧中文审查页，视频出片需先通过运动 QA。"
+}

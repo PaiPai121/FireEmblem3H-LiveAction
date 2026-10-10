@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SH018 后台资料：元数据</title>
+  <style>
+    body{margin:0;background:#f6f8fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:28px 22px 48px}
+    h1{margin:0 0 8px;font-size:24px;letter-spacing:0}
+    .meta{margin:0 0 18px;color:#596779;line-height:1.6;font-weight:700}
+    .note{border:1px solid #d6dfeb;border-left:4px solid #174ea6;background:#fff;border-radius:8px;padding:12px 14px;margin:0 0 18px;line-height:1.65}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #d6dfeb;border-radius:8px;padding:18px;line-height:1.7;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    a{color:#174ea6;font-weight:800;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SH018 后台资料：元数据</h1>
+    <div class="meta">类型：元数据 · 编码：UTF-8 · 原始文件：<a href="metadata.json">metadata.json</a></div>
+    <div class="note">这是脚本、manifest 和网页使用的后台数据，通常不用手动复制给视频模型。</div>
+    <pre>{
+  &quot;镜头编号&quot;: &quot;SH018&quot;,
+  &quot;顺序&quot;: 18,
+  &quot;状态&quot;: &quot;真实帧已完成，待运动监看&quot;,
+  &quot;审查状态&quot;: &quot;待视觉审查&quot;,
+  &quot;时长秒&quot;: 8,
+  &quot;预计视频片段&quot;: &quot;clips/SH018.mp4&quot;,
+  &quot;剧情节点&quot;: &quot;平移步骤&quot;,
+  &quot;成片作用&quot;: &quot;第二步平移：位置改变，但方向不变。&quot;,
+  &quot;可见主体&quot;: &quot;细三角形平移&quot;,
+  &quot;摄影机&quot;: &quot;正上方，运动轨迹线清楚。&quot;,
+  &quot;剪入&quot;: &quot;从切分后的细三角形接入。&quot;,
+  &quot;剪出&quot;: &quot;切到重叠后的并集面积。&quot;,
+  &quot;中文台词或音频锚点&quot;: &quot;女贝老师: \&quot;第二步，平移。平移不会改变方向。\&quot;&quot;,
+  &quot;逐句台词&quot;: {
+    &quot;01_女贝老师&quot;: &quot;第二步，平移。平移不会改变方向。&quot;,
+    &quot;02_音效&quot;: &quot;细碎三角片滑动。&quot;
+  },
+  &quot;主要检查&quot;: &quot;检查碎片只平移不旋转。&quot;,
+  &quot;上一镜头&quot;: &quot;SH017&quot;,
+  &quot;下一镜头&quot;: &quot;SH019&quot;,
+  &quot;拒绝条件&quot;: [
+    &quot;AI 可能误把碎片旋转，必须监看。&quot;,
+    &quot;起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。&quot;,
+    &quot;镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。&quot;,
+    &quot;佩龙树的切分、平移、重叠或方向保持逻辑被画错，则拒绝。&quot;
+  ],
+  &quot;真实帧来源&quot;: {
+    &quot;起始帧&quot;: &quot;real_frames/SH018/start.png&quot;,
+    &quot;关键帧&quot;: &quot;real_frames/SH018/key.png&quot;,
+    &quot;结束帧&quot;: &quot;real_frames/SH018/end.png&quot;
+  },
+  &quot;角色身份视觉审查&quot;: null,
+  &quot;提示词来源&quot;: &quot;real_video_prompts/SH018/prompt.md&quot;,
+  &quot;模型提示词来源&quot;: &quot;real_video_prompts/SH018/model_prompt.md&quot;,
+  &quot;负面提示词来源&quot;: &quot;real_video_prompts/SH018/negative_prompt.md&quot;,
+  &quot;来源标记&quot;: &quot;内置图像生成&quot;,
+  &quot;需要质检&quot;: &quot;是&quot;,
+  &quot;批准说明&quot;: &quot;尚未批准直接出片。本页是真实三帧预览，用于视觉、数学和运动监看前审查。&quot;
+}
+</pre>
+  </main>
+</body>
+</html>

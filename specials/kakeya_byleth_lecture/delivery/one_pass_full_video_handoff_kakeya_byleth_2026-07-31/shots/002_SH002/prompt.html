@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SH002 审查资料：提示词合同</title>
+  <style>
+    body{margin:0;background:#f6f8fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:28px 22px 48px}
+    h1{margin:0 0 8px;font-size:24px;letter-spacing:0}.meta{margin:0 0 18px;color:#596779;line-height:1.6;font-weight:700}
+    .note{border:1px solid #d6dfeb;border-left:4px solid #174ea6;background:#fff;border-radius:8px;padding:12px 14px;margin:0 0 18px;line-height:1.65}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #d6dfeb;border-radius:8px;padding:18px;line-height:1.7;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    a{color:#174ea6;font-weight:800;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SH002 审查资料：提示词合同</h1>
+    <div class="meta">类型：审查提示词 · 编码：UTF-8 · 原始文件：<a href="prompt.md">prompt.md</a></div>
+    <div class="note">这是给人和 QA 脚本核对用的提示词合同，不是首选模型输入。模型提交入口请看 model_prompt.md。</div>
+    <pre>Shot ID: SH002
+镜头编号：SH002
+
+Duration: 8 seconds
+时长：8 秒
+
+Input Frames:
+输入帧：使用包内 start_frame.png 作为起始帧，key_frame.png 作为证明/动作峰值帧，end_frame.png 作为剪出状态帧。源审查路径为 real_frames/SH002/start.png、real_frames/SH002/key.png、real_frames/SH002/end.png。只允许基于已提供三帧做运动，保持构图、角色身份、数学标记和光线，不要重新设计画面。
+
+Shot Purpose:
+镜头目的：让三位学生接住 SH001 的动作问题，先说出最自然的圆盘直觉，再切入 SH003 的固定中心图解。
+
+三帧链：
+- 起始帧：接 SH001 收势后，三位学生看向女贝老师和木剑轨迹，问题刚刚落到他们身上。
+- 关键帧：梅尔赛德斯温和地提出圆盘直觉：扫过的地方至少像一个圆。
+- 结束帧：女贝老师微微点头，视线带向即将出现的俯视固定中心旋转图。
+
+身份锁：
+- 保持女贝老师参考图一致：assets/characters/protagonist/BylethFemale/professor/selected.png。
+- 当镜头出现全身姿态、戴手套的手或持剑动作时，同时保持全身/武器参考：assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png。
+- 女贝老师必须是学院篇年轻教授形象：青绿色中长发、刘海与侧发、绿色专注眼睛、冷静克制表情、学院篇女贝雷丝官方服装结构：黑色短披肩或肩甲披风、高黑领、露出上腹空隙的黑色短上衣、胸前金色纹章饰件、银色护臂、黑色短裤或裙片、花纹黑丝袜、单侧膝甲、黑色长靴、腰带和武器挂具；不得改成普通黑色长外套。
+- 不得男性化、年龄变大、夸张大笑、重设计服装，或变成黑袍女巫、普通学生、现代教师。
+- 保持艾黛尔参考图一致：assets/characters/black_eagles/Edelgard/academy/selected.png；浅金发、红披风、黑色学院制服、黑鹫代表的克制气场。
+- 保持莉丝缇亚参考图一致：assets/characters/golden_deer/Lysithea/academy/selected.png；白发、黑金学院制服、金鹿代表的敏锐专注。
+- 保持梅尔赛德斯参考图一致：assets/characters/blue_lions/Mercedes/academy/selected.png；金发、米蓝色青狮披风、温和专注表情。
+- 学生阵容锁定为艾黛尔、莉丝缇亚、梅尔赛德斯；学生可见时不得替换成非名单角色或普通学生。
+
+数学锁：
+- 这是进入固定中心圆盘直觉的反应桥段。不要在本镜头形式化单位端点；木剑只作为 SH001 刚刚示范过的对象保留。
+
+Motion:
+运动：严格按照已提供的 start_frame -&gt; key_frame -&gt; end_frame 三帧链做运动；不要重设计构图，也不要发明另一个镜头。可见动作：艾黛尔、莉丝缇亚、梅尔赛德斯作为三学级代表接住 SH001 的剑花问题；梅尔赛德斯温和开口，艾黛尔和莉丝缇亚看向木剑扫过的方向，女贝老师保持克制回应。动作峰值：梅尔赛德斯说出“像一个圆”的直觉，三位学生视线汇向木剑扫过区域的一刻。画面方向：学生视线从女贝老师/木剑轨迹转向即将被图解化的圆盘方向。数学主体必须保持为：固定中心圆盘直觉的引入，而不是最终答案。
+
+Camera:
+摄影机：低三分之四中景，木剑大前景，女贝老师在后景清晰。。保持景别、角度和视点与输入三帧一致；只使用有动机的小运动，例如稳定停留、缓慢推进、干净的图解滑动，或输入帧已经暗示的粉笔绘制揭示。
+
+Performance:
+表演：可见表演必须克制、适合课堂讲解。女贝老师必须保持与输入帧一致的年龄、服装、姿态逻辑和视线方向。学生只按输入帧中的站位和反应轻微表演，不要抢走证明主体。表演节奏对应：梅尔赛德斯: 扫过的地方，至少像一个圆吧？
+
+Timing:
+时长执行：本镜头总长 8 秒。把梅尔赛德斯的反应安排在中段，中文台词最后一个字应落在剪出前 0.4-1.0 秒；不要在台词结束后留下长时间静止尾巴。
+
+Audio:
+音频：梅尔赛德斯: 扫过的地方，至少像一个圆吧？ 不要字幕，不要额外屏幕说明字。
+
+Continuity Locks:
+连续性锁：上一镜头：SH001。下一镜头：SH003。剪入：接 SH001 收势视线，切到三位学生的低机位反应。剪出：从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。保持学生阵容、光线、训练场质感、角色位置和木剑方向与三张输入帧一致。
+
+Reject If:
+拒绝条件：女贝老师身份漂移或表情变成明显微笑，则拒绝；起始帧、关键帧、结束帧没有形成学生接住问题的反应链，则拒绝；SH002 重复 SH001 的完整提问，而不是学生反应，则拒绝；女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝；Edelgard, Lysithea, or Mercedes becomes a generic house-color student, wrong costume, wrong hair/face, or is replaced by another student；生成片段忽略 start_frame、key_frame 或 end_frame；出现新增字幕、说明字、标志、水印、现代 UI 或不可读的乱码文字；圆盘直觉被说成最终答案，则拒绝。
+</pre>
+  </main>
+</body>
+</html>

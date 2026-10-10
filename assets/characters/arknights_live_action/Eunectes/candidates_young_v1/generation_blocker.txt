@@ -1,0 +1,4 @@
+Eunectes generation attempt log:
+- attempt 1: output moderation blocked as sexual.
+- attempt 2: conservative prompt attempted, but image tool returned network error before output.
+Status: pending retry before final QA; do not promote without candidate image.

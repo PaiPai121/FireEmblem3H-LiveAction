@@ -1,0 +1,1042 @@
+{
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-31",
+  "legacy_report_path_date": "2026-07-28",
+  "scope": {
+    "expected_shots": 34,
+    "expected_frames_per_shot": 3,
+    "expected_total_frames": 102,
+    "actual_frames": 102
+  },
+  "checks": {
+    "missing": [],
+    "bad_dimensions": [],
+    "duplicate_hashes": [],
+    "low_information": [],
+    "too_dark_or_light": []
+  },
+  "status": "integrity_passed",
+  "notes": "Machine integrity audit only. It checks file presence, dimensions, blank/low-information risk, and exact duplicate hashes; it does not replace visual, math, motion, or continuity QA.",
+  "frames": [
+    {
+      "shot": "SH001",
+      "frame": "start",
+      "path": "real_frames/SH001/start.png",
+      "hash": "998233a87204a3e732d52e231ec407d76f0bbdce34a547324cd78ce742823d88",
+      "width": 1672,
+      "height": 941,
+      "mean": 73.078,
+      "stddev": 53.862
+    },
+    {
+      "shot": "SH001",
+      "frame": "key",
+      "path": "real_frames/SH001/key.png",
+      "hash": "a0a0ef6940bdd3320561807f060d4a8063b3ddf0e9457522b5a30055b132794c",
+      "width": 1672,
+      "height": 941,
+      "mean": 83.516,
+      "stddev": 25.786
+    },
+    {
+      "shot": "SH001",
+      "frame": "end",
+      "path": "real_frames/SH001/end.png",
+      "hash": "f613cfb7623cbe685933aabfbf822dcfea933ab45b3e4d1349258edef1239ee2",
+      "width": 1672,
+      "height": 941,
+      "mean": 83.313,
+      "stddev": 20.836
+    },
+    {
+      "shot": "SH002",
+      "frame": "start",
+      "path": "real_frames/SH002/start.png",
+      "hash": "9007bc2f969fdaa084fc4d7eebd3e0a650e7aa7ebefb50bbb9bfa82f05e9765e",
+      "width": 1672,
+      "height": 941,
+      "mean": 60.527,
+      "stddev": 46.362
+    },
+    {
+      "shot": "SH002",
+      "frame": "key",
+      "path": "real_frames/SH002/key.png",
+      "hash": "6766fa47053d2a7b51fd95edaa01ad0ad861de5e87fe3e9098c18488cd0d2d74",
+      "width": 1672,
+      "height": 941,
+      "mean": 60.187,
+      "stddev": 44.672
+    },
+    {
+      "shot": "SH002",
+      "frame": "end",
+      "path": "real_frames/SH002/end.png",
+      "hash": "a866d6b95bf57f76dc7a60465ad7adb88540b17a96b63e1a741a10fa5ff84505",
+      "width": 1672,
+      "height": 941,
+      "mean": 60.513,
+      "stddev": 44.181
+    },
+    {
+      "shot": "SH003",
+      "frame": "start",
+      "path": "real_frames/SH003/start.png",
+      "hash": "1d4951c66b3bbcd8838a61282781fc141eb74a0ec5ff557f1539b9f1819b0ed7",
+      "width": 1672,
+      "height": 941,
+      "mean": 78.633,
+      "stddev": 23.813
+    },
+    {
+      "shot": "SH003",
+      "frame": "key",
+      "path": "real_frames/SH003/key.png",
+      "hash": "a847105d6162d82ecfc804d4b6d452398b00daa3cc7c28d9011a7441b2ceac68",
+      "width": 1672,
+      "height": 941,
+      "mean": 91.642,
+      "stddev": 33.903
+    },
+    {
+      "shot": "SH003",
+      "frame": "end",
+      "path": "real_frames/SH003/end.png",
+      "hash": "7772d680012f9eb2a7415318eb133bd7069f22ad7627875dc7fa3ed587c1e678",
+      "width": 1672,
+      "height": 941,
+      "mean": 90.093,
+      "stddev": 41.228
+    },
+    {
+      "shot": "SH004",
+      "frame": "start",
+      "path": "real_frames/SH004/start.png",
+      "hash": "b484f6973b6594daccf65161a3537e29eaac53ae7030fc725fac05751f148859",
+      "width": 1672,
+      "height": 941,
+      "mean": 35.752,
+      "stddev": 24.524
+    },
+    {
+      "shot": "SH004",
+      "frame": "key",
+      "path": "real_frames/SH004/key.png",
+      "hash": "0e47e0eedc39f05efb8fdff4967d460e60e16b76dac0ecea6b70707834aa2f3e",
+      "width": 1672,
+      "height": 941,
+      "mean": 39.715,
+      "stddev": 29.439
+    },
+    {
+      "shot": "SH004",
+      "frame": "end",
+      "path": "real_frames/SH004/end.png",
+      "hash": "569002027240e5b33c506a7db2c87260a878ab95439885acce9d5c89db15cd0b",
+      "width": 1672,
+      "height": 941,
+      "mean": 43.077,
+      "stddev": 37.239
+    },
+    {
+      "shot": "SH005",
+      "frame": "start",
+      "path": "real_frames/SH005/start.png",
+      "hash": "1939a13409c4f0bd7424875c8939daa72a379f383ea4dd57f8e96b11e7cfdd23",
+      "width": 1672,
+      "height": 941,
+      "mean": 35.561,
+      "stddev": 22.731
+    },
+    {
+      "shot": "SH005",
+      "frame": "key",
+      "path": "real_frames/SH005/key.png",
+      "hash": "cddf238ec409fcb927c454ea5510930cbc0edf47533f2672b3da9c34fa4dd239",
+      "width": 1672,
+      "height": 941,
+      "mean": 38.969,
+      "stddev": 24.723
+    },
+    {
+      "shot": "SH005",
+      "frame": "end",
+      "path": "real_frames/SH005/end.png",
+      "hash": "901f08cf5d48e119aab8d915b469a7dbb29467b8f735ca7de1335cb9c63f470e",
+      "width": 1672,
+      "height": 941,
+      "mean": 41.922,
+      "stddev": 31.768
+    },
+    {
+      "shot": "SH006",
+      "frame": "start",
+      "path": "real_frames/SH006/start.png",
+      "hash": "9839470819d4489fa3accc816b3a5c6f98d989cfc6273c94916df353eba76942",
+      "width": 1672,
+      "height": 941,
+      "mean": 35.894,
+      "stddev": 23.962
+    },
+    {
+      "shot": "SH006",
+      "frame": "key",
+      "path": "real_frames/SH006/key.png",
+      "hash": "941f778364f53861c345b11acfefb468eb0d29a98f2cacdb57e69d780e617791",
+      "width": 1672,
+      "height": 941,
+      "mean": 41.262,
+      "stddev": 31.234
+    },
+    {
+      "shot": "SH006",
+      "frame": "end",
+      "path": "real_frames/SH006/end.png",
+      "hash": "ab693fa6ee538abd91a9eb99eeb638f430ceb34fdd11df6164608dc2f1414e48",
+      "width": 1672,
+      "height": 941,
+      "mean": 42.893,
+      "stddev": 34.605
+    },
+    {
+      "shot": "SH007",
+      "frame": "start",
+      "path": "real_frames/SH007/start.png",
+      "hash": "41cf68df6e010375236341d405d280d2e556173a455121df310d262b11a48de7",
+      "width": 1672,
+      "height": 941,
+      "mean": 48.622,
+      "stddev": 40.364
+    },
+    {
+      "shot": "SH007",
+      "frame": "key",
+      "path": "real_frames/SH007/key.png",
+      "hash": "bbff9fae3d1effb4291282883033b08272142614435f2b26709331c2a08aeb4f",
+      "width": 1672,
+      "height": 941,
+      "mean": 52.271,
+      "stddev": 42.79
+    },
+    {
+      "shot": "SH007",
+      "frame": "end",
+      "path": "real_frames/SH007/end.png",
+      "hash": "bb8fb5f013168dccd761c269a619b374b0dbe385916015100c24cc197ce64660",
+      "width": 1672,
+      "height": 941,
+      "mean": 52.244,
+      "stddev": 42.748
+    },
+    {
+      "shot": "SH008",
+      "frame": "start",
+      "path": "real_frames/SH008/start.png",
+      "hash": "748f4a40324fadbe2fced86203d02eca48eafa5133b87e4b0dfe2c3ab3a0c2c1",
+      "width": 1672,
+      "height": 941,
+      "mean": 119.33,
+      "stddev": 63.52
+    },
+    {
+      "shot": "SH008",
+      "frame": "key",
+      "path": "real_frames/SH008/key.png",
+      "hash": "86e52d38aa884a203545e568d84fc25a5af73c4ae95e385c4e27820dc3132014",
+      "width": 1672,
+      "height": 941,
+      "mean": 126.832,
+      "stddev": 67.612
+    },
+    {
+      "shot": "SH008",
+      "frame": "end",
+      "path": "real_frames/SH008/end.png",
+      "hash": "d1b66b6e31d3864784b3e8eb8034096f9ede743b337f3ff742eb7e303a7be7e3",
+      "width": 1672,
+      "height": 941,
+      "mean": 118.227,
+      "stddev": 72.211
+    },
+    {
+      "shot": "SH009",
+      "frame": "start",
+      "path": "real_frames/SH009/start.png",
+      "hash": "be9877ff2f3de13abb54ec53121ed4e687de12ae625d06193a67be7752ef7fbb",
+      "width": 1672,
+      "height": 941,
+      "mean": 33.52,
+      "stddev": 30.789
+    },
+    {
+      "shot": "SH009",
+      "frame": "key",
+      "path": "real_frames/SH009/key.png",
+      "hash": "4fb9f4bb26aab9eb6428db7e94996cb7a0a622fdbb33e7968ca4b3af79fee296",
+      "width": 1672,
+      "height": 941,
+      "mean": 42.127,
+      "stddev": 43.361
+    },
+    {
+      "shot": "SH009",
+      "frame": "end",
+      "path": "real_frames/SH009/end.png",
+      "hash": "44330fcf072001b0ed3665da1a2390d5292e64e59d34b2e847a5c2d44edbacb7",
+      "width": 1672,
+      "height": 941,
+      "mean": 43.524,
+      "stddev": 45.894
+    },
+    {
+      "shot": "SH010",
+      "frame": "start",
+      "path": "real_frames/SH010/start.png",
+      "hash": "d98beb65a5a2912d150b5dbffd7094059326ce0faffd3eaad198cf27b95b3355",
+      "width": 1672,
+      "height": 941,
+      "mean": 35.141,
+      "stddev": 28.374
+    },
+    {
+      "shot": "SH010",
+      "frame": "key",
+      "path": "real_frames/SH010/key.png",
+      "hash": "aba85fbef35336c069b988b8947b3260b7b88b7d18ea984c497527c85af4507c",
+      "width": 1672,
+      "height": 941,
+      "mean": 30.539,
+      "stddev": 31.361
+    },
+    {
+      "shot": "SH010",
+      "frame": "end",
+      "path": "real_frames/SH010/end.png",
+      "hash": "ff96d3cb0979a6d81fbd7070e96085cee1534ec173122dcb7147ec2e44a00c56",
+      "width": 1672,
+      "height": 941,
+      "mean": 33.102,
+      "stddev": 28.352
+    },
+    {
+      "shot": "SH011",
+      "frame": "start",
+      "path": "real_frames/SH011/start.png",
+      "hash": "d7208d99ddcd3fd4c1fd23dc409d3c6e9faf25f3074ff455a2d248e77e997470",
+      "width": 1672,
+      "height": 941,
+      "mean": 104.433,
+      "stddev": 45.333
+    },
+    {
+      "shot": "SH011",
+      "frame": "key",
+      "path": "real_frames/SH011/key.png",
+      "hash": "4238bf452376fe08b35c0439ffcc10faa3676a12d7487ef19af976a90877020c",
+      "width": 1672,
+      "height": 941,
+      "mean": 109.51,
+      "stddev": 49.902
+    },
+    {
+      "shot": "SH011",
+      "frame": "end",
+      "path": "real_frames/SH011/end.png",
+      "hash": "4046e1d9d837419aaf8a79514598e0c80e216c6e02963f15560738feb40a9643",
+      "width": 1672,
+      "height": 941,
+      "mean": 108.328,
+      "stddev": 48.767
+    },
+    {
+      "shot": "SH012",
+      "frame": "start",
+      "path": "real_frames/SH012/start.png",
+      "hash": "371033f1afb8c78cbd56d7b206766d8d3ff3d5d0820bf87bdb9f4dfdbfd0ea54",
+      "width": 1672,
+      "height": 941,
+      "mean": 36.143,
+      "stddev": 29.457
+    },
+    {
+      "shot": "SH012",
+      "frame": "key",
+      "path": "real_frames/SH012/key.png",
+      "hash": "d360d8c140ba9ad8d86e4d57b9619275542057aa5ca1247bca02d2eecf83bb80",
+      "width": 1672,
+      "height": 941,
+      "mean": 39.116,
+      "stddev": 31.649
+    },
+    {
+      "shot": "SH012",
+      "frame": "end",
+      "path": "real_frames/SH012/end.png",
+      "hash": "606ac48d968411ed17b1f99b9c2d46ca50e9b852963d59a7b141a727515193e9",
+      "width": 1672,
+      "height": 941,
+      "mean": 44.075,
+      "stddev": 39.71
+    },
+    {
+      "shot": "SH013",
+      "frame": "start",
+      "path": "real_frames/SH013/start.png",
+      "hash": "cc3b26e71ee413dd1b389245b3abb4a2df6ad88a28b2c7ce4349c37f2748b2a0",
+      "width": 1672,
+      "height": 941,
+      "mean": 36.386,
+      "stddev": 31.845
+    },
+    {
+      "shot": "SH013",
+      "frame": "key",
+      "path": "real_frames/SH013/key.png",
+      "hash": "5e8f8fc794520506d40438d33266d7415599c1d775323b7c6bdcccb727ccb309",
+      "width": 1672,
+      "height": 941,
+      "mean": 39.359,
+      "stddev": 34.1
+    },
+    {
+      "shot": "SH013",
+      "frame": "end",
+      "path": "real_frames/SH013/end.png",
+      "hash": "1249df929ecb72e0545ce5ad4c6d5e181481885004ffd37307bba04f72d79d69",
+      "width": 1672,
+      "height": 941,
+      "mean": 43.512,
+      "stddev": 40.282
+    },
+    {
+      "shot": "SH014",
+      "frame": "start",
+      "path": "real_frames/SH014/start.png",
+      "hash": "5f2b81b2441e6344afa9712080c789e68d1ce00fe245cfede5a1b8a2b3dfecac",
+      "width": 1672,
+      "height": 941,
+      "mean": 119.833,
+      "stddev": 63.979
+    },
+    {
+      "shot": "SH014",
+      "frame": "key",
+      "path": "real_frames/SH014/key.png",
+      "hash": "18c26a9f9062aeb92e514e666c3e3b5ffa8b9a092c4b148d1244bc6d204bc0e9",
+      "width": 1672,
+      "height": 941,
+      "mean": 127.611,
+      "stddev": 68.078
+    },
+    {
+      "shot": "SH014",
+      "frame": "end",
+      "path": "real_frames/SH014/end.png",
+      "hash": "95d6e9117a20f94a6ddb81d1abee06e4005922fbab5328c014dfad91d11c072f",
+      "width": 1672,
+      "height": 941,
+      "mean": 119.267,
+      "stddev": 72.428
+    },
+    {
+      "shot": "SH015",
+      "frame": "start",
+      "path": "real_frames/SH015/start.png",
+      "hash": "d064419ee2bfd4481febaa4280c5e893d81da9c762127654e8deb7f48ee4340e",
+      "width": 1672,
+      "height": 941,
+      "mean": 35.971,
+      "stddev": 26.742
+    },
+    {
+      "shot": "SH015",
+      "frame": "key",
+      "path": "real_frames/SH015/key.png",
+      "hash": "58593c63c71c178984123fcf805570fc3ea6342cc82416bff9b8aaae29bf1366",
+      "width": 1672,
+      "height": 941,
+      "mean": 41.127,
+      "stddev": 34.034
+    },
+    {
+      "shot": "SH015",
+      "frame": "end",
+      "path": "real_frames/SH015/end.png",
+      "hash": "08796b8433aec6eb17ee620602a8053b27a1ada8ef12ed95105e138ef71cb54c",
+      "width": 1672,
+      "height": 941,
+      "mean": 34.871,
+      "stddev": 26.023
+    },
+    {
+      "shot": "SH016",
+      "frame": "start",
+      "path": "real_frames/SH016/start.png",
+      "hash": "c340d0c792be7958a29bb37c74fca58558b620fbb24ef69a2a52f63e32e6ea2f",
+      "width": 1672,
+      "height": 941,
+      "mean": 88.254,
+      "stddev": 76.521
+    },
+    {
+      "shot": "SH016",
+      "frame": "key",
+      "path": "real_frames/SH016/key.png",
+      "hash": "069e699d89710b49cc4f1d11b32a213cfc476fb8c45df219d6f46f6618162f02",
+      "width": 1672,
+      "height": 941,
+      "mean": 64.786,
+      "stddev": 52.731
+    },
+    {
+      "shot": "SH016",
+      "frame": "end",
+      "path": "real_frames/SH016/end.png",
+      "hash": "429ae867217bbb6fbc104b01c1f0c243772d246eff79e9d272649a49ff12e2c9",
+      "width": 1672,
+      "height": 941,
+      "mean": 59.618,
+      "stddev": 52.214
+    },
+    {
+      "shot": "SH017",
+      "frame": "start",
+      "path": "real_frames/SH017/start.png",
+      "hash": "35cc5fd944420f9c9c0ea50a3971236b3c1b7109c5b13ba5364a75618fb2ccb2",
+      "width": 1672,
+      "height": 941,
+      "mean": 76.705,
+      "stddev": 52.657
+    },
+    {
+      "shot": "SH017",
+      "frame": "key",
+      "path": "real_frames/SH017/key.png",
+      "hash": "5b1150c8a321fcb4af089be050072a800d686f0b04a729eb62c257a13ac467f4",
+      "width": 1672,
+      "height": 941,
+      "mean": 81.481,
+      "stddev": 56.747
+    },
+    {
+      "shot": "SH017",
+      "frame": "end",
+      "path": "real_frames/SH017/end.png",
+      "hash": "4fc4953e37316584f78f8b1562998aa8e98ffd13437773796d27d11f65f2dde1",
+      "width": 1672,
+      "height": 941,
+      "mean": 82.537,
+      "stddev": 56.361
+    },
+    {
+      "shot": "SH018",
+      "frame": "start",
+      "path": "real_frames/SH018/start.png",
+      "hash": "cde0ac70428214fe20e364112ef850ae8734453367a444a560bbe1285f8a9eba",
+      "width": 1672,
+      "height": 941,
+      "mean": 56.953,
+      "stddev": 44.56
+    },
+    {
+      "shot": "SH018",
+      "frame": "key",
+      "path": "real_frames/SH018/key.png",
+      "hash": "ebf0e92826b696514f95783b1f13360500351e060b545a5afb39b10d3ed0367e",
+      "width": 1672,
+      "height": 941,
+      "mean": 59.955,
+      "stddev": 47.58
+    },
+    {
+      "shot": "SH018",
+      "frame": "end",
+      "path": "real_frames/SH018/end.png",
+      "hash": "a38e341f17e653be6780853423ca48bc17df1b96e44e3d642ce3cbb939bc6364",
+      "width": 1672,
+      "height": 941,
+      "mean": 57.843,
+      "stddev": 45.426
+    },
+    {
+      "shot": "SH019",
+      "frame": "start",
+      "path": "real_frames/SH019/start.png",
+      "hash": "5eb2f7f5cf667ab170ba00c7d6fa02deeb75295a6758b128899b9fd973a57d93",
+      "width": 1672,
+      "height": 941,
+      "mean": 64.291,
+      "stddev": 47.268
+    },
+    {
+      "shot": "SH019",
+      "frame": "key",
+      "path": "real_frames/SH019/key.png",
+      "hash": "cfdc1e11edc66612e9cd63525044bbd1c6681bb05599c4abd8a8b5938edde3e8",
+      "width": 1672,
+      "height": 941,
+      "mean": 64.235,
+      "stddev": 46.965
+    },
+    {
+      "shot": "SH019",
+      "frame": "end",
+      "path": "real_frames/SH019/end.png",
+      "hash": "8bf11f02ce208f0d8c207745eda86c9a799662247a8cc5778f47a05fb9ad4d5c",
+      "width": 1672,
+      "height": 941,
+      "mean": 61.608,
+      "stddev": 45.19
+    },
+    {
+      "shot": "SH020",
+      "frame": "start",
+      "path": "real_frames/SH020/start.png",
+      "hash": "5c81a2cd33177c36d4d222e15e163409d5f41e0226f1bfa9fba4801834ca308d",
+      "width": 1672,
+      "height": 941,
+      "mean": 59.714,
+      "stddev": 53.917
+    },
+    {
+      "shot": "SH020",
+      "frame": "key",
+      "path": "real_frames/SH020/key.png",
+      "hash": "da6108dfda04e6802a74466eb67eceff8f9dd26cf422d95e29540ab8a72c0c31",
+      "width": 1672,
+      "height": 941,
+      "mean": 58.7,
+      "stddev": 53.814
+    },
+    {
+      "shot": "SH020",
+      "frame": "end",
+      "path": "real_frames/SH020/end.png",
+      "hash": "3800957b0404d172f446c7341848dae2451aac5e926a5380b2e2060716862f97",
+      "width": 1672,
+      "height": 941,
+      "mean": 58.502,
+      "stddev": 53.048
+    },
+    {
+      "shot": "SH021",
+      "frame": "start",
+      "path": "real_frames/SH021/start.png",
+      "hash": "537a8e3094f7a449320a7d595c9ee7a85716248965187bea719aacf86ebc6ede",
+      "width": 1672,
+      "height": 941,
+      "mean": 40.26,
+      "stddev": 34.066
+    },
+    {
+      "shot": "SH021",
+      "frame": "key",
+      "path": "real_frames/SH021/key.png",
+      "hash": "7c0844f86c5bafbf08a80a7c217aade07e2eb08849c87d7a18b587e3cd630422",
+      "width": 1672,
+      "height": 941,
+      "mean": 42.452,
+      "stddev": 36.197
+    },
+    {
+      "shot": "SH021",
+      "frame": "end",
+      "path": "real_frames/SH021/end.png",
+      "hash": "d4a6c51f8c6ba256be2e3c38322ad9e6a2cfa0cd3f19aebf96ac6305dadb3ba2",
+      "width": 1672,
+      "height": 941,
+      "mean": 42.057,
+      "stddev": 39.907
+    },
+    {
+      "shot": "SH022",
+      "frame": "start",
+      "path": "real_frames/SH022/start.png",
+      "hash": "8aa113a2ad9fe5892dab994a53a843bdc66dd883da68f377ec9ee28aad4d33fc",
+      "width": 1672,
+      "height": 941,
+      "mean": 34.148,
+      "stddev": 32.742
+    },
+    {
+      "shot": "SH022",
+      "frame": "key",
+      "path": "real_frames/SH022/key.png",
+      "hash": "d54b6ef0de8502341a99d6e4fc70e707c1c32843560307659c0019dd22df3d9d",
+      "width": 1672,
+      "height": 941,
+      "mean": 38.174,
+      "stddev": 35.404
+    },
+    {
+      "shot": "SH022",
+      "frame": "end",
+      "path": "real_frames/SH022/end.png",
+      "hash": "58694a8137409ac8f12da96e3dde7491ab646149d997572d4ea36262bc5ca6c8",
+      "width": 1672,
+      "height": 941,
+      "mean": 40.367,
+      "stddev": 39.356
+    },
+    {
+      "shot": "SH023",
+      "frame": "start",
+      "path": "real_frames/SH023/start.png",
+      "hash": "0b3aa1948475b669d62fbec68191760752c8217ba223e922c1f000e72cda8cb1",
+      "width": 1672,
+      "height": 941,
+      "mean": 31.933,
+      "stddev": 25.313
+    },
+    {
+      "shot": "SH023",
+      "frame": "key",
+      "path": "real_frames/SH023/key.png",
+      "hash": "6bf0c392a3ceb80cf026468660faf4d0744a0d23919698288190abcb202e2349",
+      "width": 1672,
+      "height": 941,
+      "mean": 32.542,
+      "stddev": 28.146
+    },
+    {
+      "shot": "SH023",
+      "frame": "end",
+      "path": "real_frames/SH023/end.png",
+      "hash": "9650cde07ad5c58f017d17d2ac8a49f290b88e8f761906ffd038b3338e4a5973",
+      "width": 1672,
+      "height": 941,
+      "mean": 31.956,
+      "stddev": 32.963
+    },
+    {
+      "shot": "SH024",
+      "frame": "start",
+      "path": "real_frames/SH024/start.png",
+      "hash": "703ea6d0cbad912bf1ecf983cc5c9328a5ff15c897a2c9cba0e3632f542b7bb5",
+      "width": 1672,
+      "height": 941,
+      "mean": 119.799,
+      "stddev": 63.649
+    },
+    {
+      "shot": "SH024",
+      "frame": "key",
+      "path": "real_frames/SH024/key.png",
+      "hash": "9f3beba7f95185c89c4c73598f5b2257244d5628679b3af726cc8a6615bf6fb0",
+      "width": 1672,
+      "height": 941,
+      "mean": 127.018,
+      "stddev": 67.952
+    },
+    {
+      "shot": "SH024",
+      "frame": "end",
+      "path": "real_frames/SH024/end.png",
+      "hash": "3ca73a2f11514f6caf67a3909471725f17364b14fa3cb995ca56615194796930",
+      "width": 1672,
+      "height": 941,
+      "mean": 118.94,
+      "stddev": 72.77
+    },
+    {
+      "shot": "SH025",
+      "frame": "start",
+      "path": "real_frames/SH025/start.png",
+      "hash": "3916583066bfebc17d7cc3d7c19d22776cabd9189c5eabb0cf459f5b29eefff0",
+      "width": 1672,
+      "height": 941,
+      "mean": 31.451,
+      "stddev": 24.785
+    },
+    {
+      "shot": "SH025",
+      "frame": "key",
+      "path": "real_frames/SH025/key.png",
+      "hash": "79d75479a1e4c1ce440dae54b6a1cbaf8abe1e0190b1ea46da58b1d5dfc06ece",
+      "width": 1672,
+      "height": 941,
+      "mean": 37.567,
+      "stddev": 33.048
+    },
+    {
+      "shot": "SH025",
+      "frame": "end",
+      "path": "real_frames/SH025/end.png",
+      "hash": "8df77bc2a310d87e59fcf3116965db6fb35a6e3c7e3979e22d28399e87ae3b78",
+      "width": 1672,
+      "height": 941,
+      "mean": 43.14,
+      "stddev": 42.064
+    },
+    {
+      "shot": "SH026",
+      "frame": "start",
+      "path": "real_frames/SH026/start.png",
+      "hash": "57953faad28fc6f8ae5c3dc25270da91c64c360a701fd8adea50577f592004f6",
+      "width": 1672,
+      "height": 941,
+      "mean": 35.726,
+      "stddev": 33.091
+    },
+    {
+      "shot": "SH026",
+      "frame": "key",
+      "path": "real_frames/SH026/key.png",
+      "hash": "08992ee5a9ce3721d3fdf7d179db40024c7000eb55f1dad48aebb005716adc8a",
+      "width": 1672,
+      "height": 941,
+      "mean": 41.267,
+      "stddev": 39.204
+    },
+    {
+      "shot": "SH026",
+      "frame": "end",
+      "path": "real_frames/SH026/end.png",
+      "hash": "3e63bfa8182ed6c51d671f54d807f7352a27dadf6e790315398ad03fe9083719",
+      "width": 1672,
+      "height": 941,
+      "mean": 43.254,
+      "stddev": 42.185
+    },
+    {
+      "shot": "SH027",
+      "frame": "start",
+      "path": "real_frames/SH027/start.png",
+      "hash": "ae33fef8e56c75653d5e887fd11fd2e741f51e1b443d56a3a2e4eb79e838ddb0",
+      "width": 1672,
+      "height": 941,
+      "mean": 35.527,
+      "stddev": 29.103
+    },
+    {
+      "shot": "SH027",
+      "frame": "key",
+      "path": "real_frames/SH027/key.png",
+      "hash": "9fae5fa80d4507b0de6164ee23b9d9211ca3da18f452b2a5fa0b217278cdbccf",
+      "width": 1672,
+      "height": 941,
+      "mean": 37.448,
+      "stddev": 33.798
+    },
+    {
+      "shot": "SH027",
+      "frame": "end",
+      "path": "real_frames/SH027/end.png",
+      "hash": "efbfcc6d4aed71bbae4b8c76f74545293c8a24525bddb242fdd54d679d6175df",
+      "width": 1672,
+      "height": 941,
+      "mean": 36.979,
+      "stddev": 32.701
+    },
+    {
+      "shot": "SH028",
+      "frame": "start",
+      "path": "real_frames/SH028/start.png",
+      "hash": "eb727b5c1eeb86a405f85530e80f922ff109541607c64030508b2499d7e7d24c",
+      "width": 1672,
+      "height": 941,
+      "mean": 36.852,
+      "stddev": 28.302
+    },
+    {
+      "shot": "SH028",
+      "frame": "key",
+      "path": "real_frames/SH028/key.png",
+      "hash": "3af4c318a3774dec967cb90d189926ed7b46f59b8b3bc5bf3e0a05f3d6f786cf",
+      "width": 1672,
+      "height": 941,
+      "mean": 38.905,
+      "stddev": 31.664
+    },
+    {
+      "shot": "SH028",
+      "frame": "end",
+      "path": "real_frames/SH028/end.png",
+      "hash": "bf844408adcc0515afb657665e4e9b01493413ada2a3c65e9897fb2b8d7da069",
+      "width": 1672,
+      "height": 941,
+      "mean": 39.375,
+      "stddev": 32.86
+    },
+    {
+      "shot": "SH029",
+      "frame": "start",
+      "path": "real_frames/SH029/start.png",
+      "hash": "a894f7b345338c24ecfc7fadccb89b21e6d3a7b209dd10b5186016e0baec4270",
+      "width": 1672,
+      "height": 941,
+      "mean": 29.694,
+      "stddev": 27.411
+    },
+    {
+      "shot": "SH029",
+      "frame": "key",
+      "path": "real_frames/SH029/key.png",
+      "hash": "fba8accba0a773d95cbcaba19005f4ccda3857d6e3906541ca04d253d5c45ac0",
+      "width": 1672,
+      "height": 941,
+      "mean": 33.086,
+      "stddev": 30.959
+    },
+    {
+      "shot": "SH029",
+      "frame": "end",
+      "path": "real_frames/SH029/end.png",
+      "hash": "b73f1871d70a4c893bd81b1cee12e6aae77ed00fc1d3e894f459fa7ac8cf7af0",
+      "width": 1672,
+      "height": 941,
+      "mean": 34.051,
+      "stddev": 33.464
+    },
+    {
+      "shot": "SH030",
+      "frame": "start",
+      "path": "real_frames/SH030/start.png",
+      "hash": "61f3f3ac950baf75766182525c902f07ed4151dd4970b5622240a067899ca941",
+      "width": 1672,
+      "height": 941,
+      "mean": 40.576,
+      "stddev": 31.977
+    },
+    {
+      "shot": "SH030",
+      "frame": "key",
+      "path": "real_frames/SH030/key.png",
+      "hash": "4d805786294b2837204faf1c193263b9ab539103081ff39290608014c7f20aaa",
+      "width": 1672,
+      "height": 941,
+      "mean": 44.219,
+      "stddev": 35.188
+    },
+    {
+      "shot": "SH030",
+      "frame": "end",
+      "path": "real_frames/SH030/end.png",
+      "hash": "9939681fce6f295ad7663893bf6a7a705715f6fb9ff465aefd481e4f91bf4c0e",
+      "width": 1672,
+      "height": 941,
+      "mean": 45.682,
+      "stddev": 38.325
+    },
+    {
+      "shot": "SH031",
+      "frame": "start",
+      "path": "real_frames/SH031/start.png",
+      "hash": "572d085d24153534bf350b159340db245eb41885a8e1f4f0b182535a84c54187",
+      "width": 1672,
+      "height": 941,
+      "mean": 32.962,
+      "stddev": 33.401
+    },
+    {
+      "shot": "SH031",
+      "frame": "key",
+      "path": "real_frames/SH031/key.png",
+      "hash": "8b2daf54f28fe4fe1270125fe9bf0eec35cfe001002873141e61b347ede5ec1a",
+      "width": 1672,
+      "height": 941,
+      "mean": 37.232,
+      "stddev": 38.196
+    },
+    {
+      "shot": "SH031",
+      "frame": "end",
+      "path": "real_frames/SH031/end.png",
+      "hash": "8fcc10169b4e793c413bd3d3f493236c79903bb5d4f74c87cafd33e3ec7ee001",
+      "width": 1672,
+      "height": 941,
+      "mean": 42.948,
+      "stddev": 46.491
+    },
+    {
+      "shot": "SH032",
+      "frame": "start",
+      "path": "real_frames/SH032/start.png",
+      "hash": "5e9ac451e6e479261d1c5607febb0266d752c80f12c2dcb84847a2b5d2ea8b73",
+      "width": 1672,
+      "height": 941,
+      "mean": 38.705,
+      "stddev": 34.829
+    },
+    {
+      "shot": "SH032",
+      "frame": "key",
+      "path": "real_frames/SH032/key.png",
+      "hash": "475dbb70bdc6ad03ee26c782894970b5b4547b858631d2595342263f13bc9e3a",
+      "width": 1672,
+      "height": 941,
+      "mean": 40.325,
+      "stddev": 36.473
+    },
+    {
+      "shot": "SH032",
+      "frame": "end",
+      "path": "real_frames/SH032/end.png",
+      "hash": "8526c2fe4e28b26fa6a871f0ffb54fd19f3f25cfd8bb82a1efd04e25627537c9",
+      "width": 1672,
+      "height": 941,
+      "mean": 40.234,
+      "stddev": 36.258
+    },
+    {
+      "shot": "SH033",
+      "frame": "start",
+      "path": "real_frames/SH033/start.png",
+      "hash": "b202390eafac4ce44add679896ed6b213923927f0d0b896de01b508e70042806",
+      "width": 1672,
+      "height": 941,
+      "mean": 78.708,
+      "stddev": 23.819
+    },
+    {
+      "shot": "SH033",
+      "frame": "key",
+      "path": "real_frames/SH033/key.png",
+      "hash": "d8624fa61bf5165738955131fc69bd64c278366f97e9d2101f4da06044d59147",
+      "width": 1672,
+      "height": 941,
+      "mean": 85.586,
+      "stddev": 26.071
+    },
+    {
+      "shot": "SH033",
+      "frame": "end",
+      "path": "real_frames/SH033/end.png",
+      "hash": "f436dd91970e33d42facb5a107aa6825e6b852a142a80dda63204992d483ab4e",
+      "width": 1672,
+      "height": 941,
+      "mean": 84.645,
+      "stddev": 34.567
+    },
+    {
+      "shot": "SH034",
+      "frame": "start",
+      "path": "real_frames/SH034/start.png",
+      "hash": "185de5b0542dfed7a10d5a07593e9a5695c309815d65a28829ce4158d66cb4dd",
+      "width": 1672,
+      "height": 941,
+      "mean": 126.716,
+      "stddev": 65.317
+    },
+    {
+      "shot": "SH034",
+      "frame": "key",
+      "path": "real_frames/SH034/key.png",
+      "hash": "0dc67378bb5cfafb8fc09692da5b765f46aaa93112e5cc20b70cecffa50fe5fc",
+      "width": 1672,
+      "height": 941,
+      "mean": 124.424,
+      "stddev": 64.247
+    },
+    {
+      "shot": "SH034",
+      "frame": "end",
+      "path": "real_frames/SH034/end.png",
+      "hash": "3e893b765d44c7a4e9b38a2c56b2fa4a019e14b8a1c3c3dc8556e8bb28a45be9",
+      "width": 1672,
+      "height": 941,
+      "mean": 125.071,
+      "stddev": 64.617
+    }
+  ]
+}

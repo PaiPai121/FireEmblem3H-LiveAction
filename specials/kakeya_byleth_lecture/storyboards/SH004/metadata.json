@@ -1,0 +1,50 @@
+{
+  "id": "SH004",
+  "order": 4,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S1",
+  "timecode": "00:30-00:42",
+  "duration_seconds": 12,
+  "script_beat": "Rule refinement",
+  "shot_purpose": "把固定中心旋转和中心可移动的真正问题分开。",
+  "location": "Garreg Mach classroom chalkboard",
+  "characters_visible": "Female Byleth hand and profile",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH004/frame_spec.md",
+  "prompt_path": "storyboards/SH004/prompt.md",
+  "negative_prompt_path": "storyboards/SH004/negative_prompt.md",
+  "start_frame": "storyboards/SH004/start.png",
+  "key_frame": "storyboards/SH004/key.png",
+  "end_frame": "storyboards/SH004/end.png",
+  "expected_clip": "clips/SH004.mp4",
+  "edit_in": "圆盘直觉画面硬切到粉笔板。",
+  "edit_out": "顺着粉笔箭头切到多方向线段扇面。",
+  "screen_direction": "粉笔从左边错误规则移动到右边正确规则。",
+  "mathematical_locks": [
+    "Unit segment must be visibly length 1 with two endpoints; the condition is all directions, not a fixed center unless shown as a rejected intuition."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH003",
+    "next": "SH005",
+    "in": "圆盘直觉画面硬切到粉笔板。",
+    "out": "顺着粉笔箭头切到多方向线段扇面。"
+  },
+  "reject_if": [
+    "Text too readable/modern; use simple symbols",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "the unit segment loses visible endpoints or becomes a decorative sword without length meaning"
+  ]
+}

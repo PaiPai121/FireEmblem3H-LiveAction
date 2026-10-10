@@ -1,0 +1,1863 @@
+{
+  "version": 1,
+  "project": "Byleth Teaches the 2D Needle Problem",
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-27",
+  "target": "real_frame_locked_video_prompt_package",
+  "status": "blocked_needs_revision",
+  "delivery_blocker": "Byleth costume fidelity blocker added on 2026-08-05: existing visible Female Byleth frames were generated under an overbroad black-long-coat lock and are not approved for video until reviewed/regenerated against canon academy Female Byleth clothing structure. Full visual, math, prompt, continuity, and motion QA remain required.",
+  "shots": [
+    {
+      "id": "SH001",
+      "order": 1,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S1",
+      "duration_seconds": 10,
+      "prompt_path": "real_video_prompts/SH001/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH001/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH001/frame_spec.md",
+      "metadata_path": "storyboards/SH001/metadata.json",
+      "start_frame": "storyboards/SH001/start.png",
+      "key_frame": "storyboards/SH001/key.png",
+      "end_frame": "storyboards/SH001/end.png",
+      "expected_clip": "clips/SH001.mp4",
+      "edit_in": "从黑场淡入到训练场全身中景，女贝老师已站定持剑。",
+      "edit_out": "在女贝老师收势并看向学生后，切到三位学生对“扫过区域”的直觉反应。",
+      "continuity": {
+        "previous": null,
+        "next": "SH002",
+        "in": "从黑场淡入到训练场全身中景，女贝老师已站定持剑。",
+        "out": "在女贝老师收势并看向学生后，切到三位学生对“扫过区域”的直觉反应。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH001/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_reasonable",
+        "previous_duration_seconds": 8,
+        "recommended_duration_seconds": 10,
+        "estimated_speech_seconds": 8.6,
+        "visual_minimum_seconds": 6.5,
+        "previous_slack_seconds": -0.6,
+        "revised_slack_seconds": 1.4,
+        "rationale": "新版开场包含起势、剑花一百八十度掉头、收势发问，10 秒比 8 秒更稳。",
+        "flags": [
+          "新版台词较长，8 秒偏紧"
+        ]
+      }
+    },
+    {
+      "id": "SH002",
+      "order": 2,
+      "stage": "prompt_asset_package",
+      "status": "frames_generated_review_required",
+      "sequence": "S1",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH002/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH002/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH002/frame_spec.md",
+      "metadata_path": "storyboards/SH002/metadata.json",
+      "start_frame": "real_frames/SH002/start.png",
+      "key_frame": "real_frames/SH002/key.png",
+      "end_frame": "real_frames/SH002/end.png",
+      "expected_clip": "clips/SH002.mp4",
+      "edit_in": "接 SH001 收势视线，切到三位学生的低机位反应。",
+      "edit_out": "从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。",
+      "continuity": {
+        "previous": "SH001",
+        "next": "SH003",
+        "in": "接 SH001 收势视线，切到三位学生的低机位反应。",
+        "out": "从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope",
+        "not_approved_for_video",
+        "monitor_student_identity_motion"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH002/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_reasonable",
+        "previous_duration_seconds": 10,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 3.2,
+        "visual_minimum_seconds": 4.5,
+        "previous_slack_seconds": 6.8,
+        "revised_slack_seconds": 4.8,
+        "rationale": "SH002 现在是学生反应和圆形直觉，不再承担完整提出问题。",
+        "flags": []
+      },
+      "character_identity_visual_audit": {
+        "decision": "regenerated_student_reaction_monitor_required",
+        "review": "production_system/reviews/sh001_sh002_opening_revision_2026-08-04.md",
+        "candidate_frames": "real_frames/SH002/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_sh002_student_circle_reaction/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "SH002 regenerated as a student reaction beat after SH001, with Mercedes delivering the circle intuition.",
+          "Because this is a new multi-character generated frame set, student identity and motion continuity remain monitor-required."
+        ]
+      }
+    },
+    {
+      "id": "SH003",
+      "order": 3,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S1",
+      "duration_seconds": 6,
+      "prompt_path": "real_video_prompts/SH003/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH003/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH003/frame_spec.md",
+      "metadata_path": "storyboards/SH003/metadata.json",
+      "start_frame": "storyboards/SH003/start.png",
+      "key_frame": "storyboards/SH003/key.png",
+      "end_frame": "storyboards/SH003/end.png",
+      "expected_clip": "clips/SH003.mp4",
+      "edit_in": "从女贝老师视线切入剑的俯视图。",
+      "edit_out": "切到她在板上区分固定中心与自由中心。",
+      "continuity": {
+        "previous": "SH002",
+        "next": "SH004",
+        "in": "从女贝老师视线切入剑的俯视图。",
+        "out": "切到她在板上区分固定中心与自由中心。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "student_identity_scope",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH003/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 12,
+        "recommended_duration_seconds": 6,
+        "estimated_speech_seconds": 3.59,
+        "visual_minimum_seconds": 4,
+        "previous_slack_seconds": 8,
+        "revised_slack_seconds": 2,
+        "rationale": "单句圆盘直觉，不应给 12 秒。",
+        "flags": [
+          "原时长尾巴过长"
+        ]
+      }
+    },
+    {
+      "id": "SH004",
+      "order": 4,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S1",
+      "duration_seconds": 7,
+      "prompt_path": "real_video_prompts/SH004/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH004/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH004/frame_spec.md",
+      "metadata_path": "storyboards/SH004/metadata.json",
+      "start_frame": "storyboards/SH004/start.png",
+      "key_frame": "storyboards/SH004/key.png",
+      "end_frame": "storyboards/SH004/end.png",
+      "expected_clip": "clips/SH004.mp4",
+      "edit_in": "圆盘直觉画面硬切到粉笔板。",
+      "edit_out": "顺着粉笔箭头切到多方向线段扇面。",
+      "continuity": {
+        "previous": "SH003",
+        "next": "SH005",
+        "in": "圆盘直觉画面硬切到粉笔板。",
+        "out": "顺着粉笔箭头切到多方向线段扇面。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH004/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 12,
+        "recommended_duration_seconds": 7,
+        "estimated_speech_seconds": 5.48,
+        "visual_minimum_seconds": 4.5,
+        "previous_slack_seconds": 6.52,
+        "revised_slack_seconds": 1.52,
+        "rationale": "规则澄清，一次划掉固定中心，7 秒足够。",
+        "flags": [
+          "原时长尾巴过长"
+        ]
+      }
+    },
+    {
+      "id": "SH005",
+      "order": 5,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S1",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH005/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH005/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH005/frame_spec.md",
+      "metadata_path": "storyboards/SH005/metadata.json",
+      "start_frame": "storyboards/SH005/start.png",
+      "key_frame": "storyboards/SH005/key.png",
+      "end_frame": "storyboards/SH005/end.png",
+      "expected_clip": "clips/SH005.mp4",
+      "edit_in": "从 SH004 的可移动中心箭头接入。",
+      "edit_out": "绿色扇面收束成三尖曲线的第一笔。",
+      "continuity": {
+        "previous": "SH004",
+        "next": "SH006",
+        "in": "从 SH004 的可移动中心箭头接入。",
+        "out": "绿色扇面收束成三尖曲线的第一笔。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH005/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 13,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 6.95,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 6.05,
+        "revised_slack_seconds": 1.05,
+        "rationale": "方向扇出现，需要读图停留，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH006",
+      "order": 6,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S2",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH006/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH006/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH006/frame_spec.md",
+      "metadata_path": "storyboards/SH006/metadata.json",
+      "start_frame": "storyboards/SH006/start.png",
+      "key_frame": "storyboards/SH006/key.png",
+      "end_frame": "storyboards/SH006/end.png",
+      "expected_clip": "clips/SH006.mp4",
+      "edit_in": "由 SH005 的方向扇面变形为曲线。",
+      "edit_out": "推入 deltoid 内部的切线弦。",
+      "continuity": {
+        "previous": "SH005",
+        "next": "SH007",
+        "in": "由 SH005 的方向扇面变形为曲线。",
+        "out": "推入 deltoid 内部的切线弦。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH006/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 12,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 5.24,
+        "visual_minimum_seconds": 4.5,
+        "previous_slack_seconds": 6.76,
+        "revised_slack_seconds": 2.76,
+        "rationale": "候选图形揭示，8 秒。",
+        "flags": [
+          "原时长尾巴过长"
+        ]
+      }
+    },
+    {
+      "id": "SH007",
+      "order": 7,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S2",
+      "duration_seconds": 11,
+      "prompt_path": "real_video_prompts/SH007/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH007/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH007/frame_spec.md",
+      "metadata_path": "storyboards/SH007/metadata.json",
+      "start_frame": "storyboards/SH007/start.png",
+      "key_frame": "storyboards/SH007/key.png",
+      "end_frame": "storyboards/SH007/end.png",
+      "expected_clip": "clips/SH007.mp4",
+      "edit_in": "从 SH006 deltoid 闭合处直接推入。",
+      "edit_out": "切到标尺和公式锁定弦长。",
+      "continuity": {
+        "previous": "SH006",
+        "next": "SH008",
+        "in": "从 SH006 deltoid 闭合处直接推入。",
+        "out": "切到标尺和公式锁定弦长。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH007/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 15,
+        "recommended_duration_seconds": 11,
+        "estimated_speech_seconds": 7.37,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 7.5,
+        "revised_slack_seconds": 3.5,
+        "rationale": "三尖内摆线切线弦机制较复杂，给 11 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH008",
+      "order": 8,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S2",
+      "duration_seconds": 10,
+      "prompt_path": "real_video_prompts/SH008/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH008/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH008/frame_spec.md",
+      "metadata_path": "storyboards/SH008/metadata.json",
+      "start_frame": "storyboards/SH008/start.png",
+      "key_frame": "storyboards/SH008/key.png",
+      "end_frame": "storyboards/SH008/end.png",
+      "expected_clip": "clips/SH008.mp4",
+      "edit_in": "从旋转红弦切到同一红弦的测量视角。",
+      "edit_out": "金色面积填充接上面积计算。",
+      "continuity": {
+        "previous": "SH007",
+        "next": "SH009",
+        "in": "从旋转红弦切到同一红弦的测量视角。",
+        "out": "金色面积填充接上面积计算。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH008/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 14,
+        "recommended_duration_seconds": 10,
+        "estimated_speech_seconds": 5.48,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 8,
+        "revised_slack_seconds": 4,
+        "rationale": "4a=1 尺度锁需要读公式，10 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH009",
+      "order": 9,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S2",
+      "duration_seconds": 11,
+      "prompt_path": "real_video_prompts/SH009/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH009/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH009/frame_spec.md",
+      "metadata_path": "storyboards/SH009/metadata.json",
+      "start_frame": "storyboards/SH009/start.png",
+      "key_frame": "storyboards/SH009/key.png",
+      "end_frame": "storyboards/SH009/end.png",
+      "expected_clip": "clips/SH009.mp4",
+      "edit_in": "从 SH008 的 a=1/4 公式下切。",
+      "edit_out": "切到学生反应质疑。",
+      "continuity": {
+        "previous": "SH008",
+        "next": "SH010",
+        "in": "从 SH008 的 a=1/4 公式下切。",
+        "out": "切到学生反应质疑。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH009/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 16,
+        "recommended_duration_seconds": 11,
+        "estimated_speech_seconds": 7.13,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 8.5,
+        "revised_slack_seconds": 3.5,
+        "rationale": "候选面积 pi/8 需要先后显式，11 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH010",
+      "order": 10,
+      "stage": "prompt_asset_package",
+      "status": "frames_generated_review_required",
+      "sequence": "S2",
+      "duration_seconds": 9,
+      "prompt_path": "real_video_prompts/SH010/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH010/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH010/frame_spec.md",
+      "metadata_path": "storyboards/SH010/metadata.json",
+      "start_frame": "real_frames/SH010/start.png",
+      "key_frame": "real_frames/SH010/key.png",
+      "end_frame": "real_frames/SH010/end.png",
+      "expected_clip": "clips/SH010.mp4",
+      "edit_in": "从 SH009 的“候选”标记切入。",
+      "edit_out": "随她转身切到地面绳边界。",
+      "continuity": {
+        "previous": "SH009",
+        "next": "SH011",
+        "in": "从 SH009 的“候选”标记切入。",
+        "out": "随她转身切到地面绳边界。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope",
+        "diagram_readability",
+        "not_approved_for_video",
+        "monitor_deltoid_readability",
+        "monitor_chinese_blackboard_text",
+        "monitor_math_notation_latin_A"
+      ],
+      "review_status": "identity_regenerated_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH010/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 14,
+        "recommended_duration_seconds": 9,
+        "estimated_speech_seconds": 5.91,
+        "visual_minimum_seconds": 4.5,
+        "previous_slack_seconds": 8.09,
+        "revised_slack_seconds": 3.09,
+        "rationale": "艾黛尔质疑是完整表演 beat，9 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      },
+      "character_identity_visual_audit": {
+        "decision": "promoted_monitor_required",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v3",
+        "candidate_frames": "regenerated_frame_candidates/SH010_identity_v3/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH010/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查：人物不是抠图/拼贴感，女贝老师与艾黛尔身份成立，三帧连续性好。",
+          "deltoid 基本像三尖内摆线候选，但仍需监看是否被读成尖三角。",
+          "A = π/8 属数学符号，不是英文句子；仍标记文字风险监看。"
+        ]
+      }
+    },
+    {
+      "id": "SH011",
+      "order": 11,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S3",
+      "duration_seconds": 9,
+      "prompt_path": "real_video_prompts/SH011/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH011/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH011/frame_spec.md",
+      "metadata_path": "storyboards/SH011/metadata.json",
+      "start_frame": "storyboards/SH011/start.png",
+      "key_frame": "storyboards/SH011/key.png",
+      "end_frame": "storyboards/SH011/end.png",
+      "expected_clip": "clips/SH011.mp4",
+      "edit_in": "从女贝老师转身接到地面操作。",
+      "edit_out": "切到两点连线的凸性定义图。",
+      "continuity": {
+        "previous": "SH010",
+        "next": "SH012",
+        "in": "从女贝老师转身接到地面操作。",
+        "out": "切到两点连线的凸性定义图。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH011/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 12,
+        "recommended_duration_seconds": 9,
+        "estimated_speech_seconds": 7.68,
+        "visual_minimum_seconds": 4.5,
+        "previous_slack_seconds": 4.32,
+        "revised_slack_seconds": 1.32,
+        "rationale": "先看凸特例的动机要讲清，但不拖长，9 秒。",
+        "flags": [
+          "原时长尾巴过长"
+        ]
+      }
+    },
+    {
+      "id": "SH012",
+      "order": 12,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S3",
+      "duration_seconds": 7,
+      "prompt_path": "real_video_prompts/SH012/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH012/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH012/frame_spec.md",
+      "metadata_path": "storyboards/SH012/metadata.json",
+      "start_frame": "storyboards/SH012/start.png",
+      "key_frame": "storyboards/SH012/key.png",
+      "end_frame": "storyboards/SH012/end.png",
+      "expected_clip": "clips/SH012.mp4",
+      "edit_in": "从绳索凹口消失切入。",
+      "edit_out": "左侧凸形变形为等边三角形。",
+      "continuity": {
+        "previous": "SH011",
+        "next": "SH013",
+        "in": "从绳索凹口消失切入。",
+        "out": "左侧凸形变形为等边三角形。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH012/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 18,
+        "recommended_duration_seconds": 7,
+        "estimated_speech_seconds": 4.75,
+        "visual_minimum_seconds": 4,
+        "previous_slack_seconds": 13.25,
+        "revised_slack_seconds": 2.25,
+        "rationale": "凸性定义是短图解，7 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH013",
+      "order": 13,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S3",
+      "duration_seconds": 12,
+      "prompt_path": "real_video_prompts/SH013/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH013/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH013/frame_spec.md",
+      "metadata_path": "storyboards/SH013/metadata.json",
+      "start_frame": "storyboards/SH013/start.png",
+      "key_frame": "storyboards/SH013/key.png",
+      "end_frame": "storyboards/SH013/end.png",
+      "expected_clip": "clips/SH013.mp4",
+      "edit_in": "从凸性定义左图转为三角形。",
+      "edit_out": "切到边长与面积公式。",
+      "continuity": {
+        "previous": "SH012",
+        "next": "SH014",
+        "in": "从凸性定义左图转为三角形。",
+        "out": "切到边长与面积公式。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH013/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 16,
+        "recommended_duration_seconds": 12,
+        "estimated_speech_seconds": 6.7,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 8.5,
+        "revised_slack_seconds": 4.5,
+        "rationale": "三角形能转是核心补证明，保留 12 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH014",
+      "order": 14,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S3",
+      "duration_seconds": 11,
+      "prompt_path": "real_video_prompts/SH014/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH014/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH014/frame_spec.md",
+      "metadata_path": "storyboards/SH014/metadata.json",
+      "start_frame": "storyboards/SH014/start.png",
+      "key_frame": "storyboards/SH014/key.png",
+      "end_frame": "storyboards/SH014/end.png",
+      "expected_clip": "clips/SH014.mp4",
+      "edit_in": "从三角高线标尺切入公式。",
+      "edit_out": "切到凸包填满空隙的对比图。",
+      "continuity": {
+        "previous": "SH013",
+        "next": "SH015",
+        "in": "从三角高线标尺切入公式。",
+        "out": "切到凸包填满空隙的对比图。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH014/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 13,
+        "recommended_duration_seconds": 11,
+        "estimated_speech_seconds": 7.86,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 5.14,
+        "revised_slack_seconds": 3.14,
+        "rationale": "支撑边/下界定理和公式，11 秒。",
+        "flags": [
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH015",
+      "order": 15,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S3",
+      "duration_seconds": 10,
+      "prompt_path": "real_video_prompts/SH015/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH015/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH015/frame_spec.md",
+      "metadata_path": "storyboards/SH015/metadata.json",
+      "start_frame": "storyboards/SH015/start.png",
+      "key_frame": "storyboards/SH015/key.png",
+      "end_frame": "storyboards/SH015/end.png",
+      "expected_clip": "clips/SH015.mp4",
+      "edit_in": "从面积公式切到对比图。",
+      "edit_out": "右侧碎片 morph 成大等腰三角形。",
+      "continuity": {
+        "previous": "SH014",
+        "next": "SH016",
+        "in": "从面积公式切到对比图。",
+        "out": "右侧碎片 morph 成大等腰三角形。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "student_identity_scope",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH015/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 13,
+        "recommended_duration_seconds": 10,
+        "estimated_speech_seconds": 9.04,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 3.96,
+        "revised_slack_seconds": 0.96,
+        "rationale": "凸补空隙到非凸碎片的桥，10 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH016",
+      "order": 16,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S4",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH016/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH016/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH016/frame_spec.md",
+      "metadata_path": "storyboards/SH016/metadata.json",
+      "start_frame": "storyboards/SH016/start.png",
+      "key_frame": "storyboards/SH016/key.png",
+      "end_frame": "storyboards/SH016/end.png",
+      "expected_clip": "clips/SH016.mp4",
+      "edit_in": "从非凸碎片对比图推入沙盘。",
+      "edit_out": "底边刻度声接切分镜头。",
+      "continuity": {
+        "previous": "SH015",
+        "next": "SH017",
+        "in": "从非凸碎片对比图推入沙盘。",
+        "out": "底边刻度声接切分镜头。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH016/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 13,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 4.75,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 7,
+        "revised_slack_seconds": 2,
+        "rationale": "佩龙树方向账本引入，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH017",
+      "order": 17,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S4",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH017/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH017/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH017/frame_spec.md",
+      "metadata_path": "storyboards/SH017/metadata.json",
+      "start_frame": "storyboards/SH017/start.png",
+      "key_frame": "storyboards/SH017/key.png",
+      "end_frame": "storyboards/SH017/end.png",
+      "expected_clip": "clips/SH017.mp4",
+      "edit_in": "从 SH016 底边准备切分处接入。",
+      "edit_out": "切到小三角形水平滑动。",
+      "continuity": {
+        "previous": "SH016",
+        "next": "SH018",
+        "in": "从 SH016 底边准备切分处接入。",
+        "out": "切到小三角形水平滑动。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH017/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 14,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 5.17,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 8,
+        "revised_slack_seconds": 2,
+        "rationale": "切分步骤，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH018",
+      "order": 18,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S4",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH018/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH018/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH018/frame_spec.md",
+      "metadata_path": "storyboards/SH018/metadata.json",
+      "start_frame": "storyboards/SH018/start.png",
+      "key_frame": "storyboards/SH018/key.png",
+      "end_frame": "storyboards/SH018/end.png",
+      "expected_clip": "clips/SH018.mp4",
+      "edit_in": "从切分后的细三角形接入。",
+      "edit_out": "切到重叠后的并集面积。",
+      "continuity": {
+        "previous": "SH017",
+        "next": "SH019",
+        "in": "从切分后的细三角形接入。",
+        "out": "切到重叠后的并集面积。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH018/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 15,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 4.69,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 9,
+        "revised_slack_seconds": 2,
+        "rationale": "平移步骤，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH019",
+      "order": 19,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S4",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH019/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH019/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH019/frame_spec.md",
+      "metadata_path": "storyboards/SH019/metadata.json",
+      "start_frame": "storyboards/SH019/start.png",
+      "key_frame": "storyboards/SH019/key.png",
+      "end_frame": "storyboards/SH019/end.png",
+      "expected_clip": "clips/SH019.mp4",
+      "edit_in": "从水平滑动轨迹接入。",
+      "edit_out": "切到学生质疑这个操作是否作弊。",
+      "continuity": {
+        "previous": "SH018",
+        "next": "SH020",
+        "in": "从水平滑动轨迹接入。",
+        "out": "切到学生质疑这个操作是否作弊。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH019/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 16,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 5.11,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 10,
+        "revised_slack_seconds": 2,
+        "rationale": "重叠步骤，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH020",
+      "order": 20,
+      "stage": "prompt_asset_package",
+      "status": "frames_generated_review_required",
+      "sequence": "S4",
+      "duration_seconds": 10,
+      "prompt_path": "real_video_prompts/SH020/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH020/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH020/frame_spec.md",
+      "metadata_path": "storyboards/SH020/metadata.json",
+      "start_frame": "real_frames/SH020/start.png",
+      "key_frame": "real_frames/SH020/key.png",
+      "end_frame": "real_frames/SH020/end.png",
+      "expected_clip": "clips/SH020.mp4",
+      "edit_in": "从 SH019 重叠图拉出到人物。",
+      "edit_out": "沿木尺指向切到纯方向审计。",
+      "continuity": {
+        "previous": "SH019",
+        "next": "SH021",
+        "in": "从 SH019 重叠图拉出到人物。",
+        "out": "沿木尺指向切到纯方向审计。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope",
+        "not_approved_for_video",
+        "monitor_perron_table_readability",
+        "monitor_student_identity_motion"
+      ],
+      "review_status": "identity_regenerated_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH020/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 14,
+        "recommended_duration_seconds": 10,
+        "estimated_speech_seconds": 7.82,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 6.18,
+        "revised_slack_seconds": 2.18,
+        "rationale": "学生质疑加回答，10 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      },
+      "character_identity_visual_audit": {
+        "decision": "promoted_monitor_required",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v1",
+        "candidate_frames": "regenerated_frame_candidates/SH020_identity_v1/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH020/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查：四人身份整体贴近 selected asset，显著优于旧帧。",
+          "Perron 碎片和绿色方向带作为讲解视觉可读，但桌面细节复杂，需监看运动中是否跳动。"
+        ]
+      }
+    },
+    {
+      "id": "SH021",
+      "order": 21,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S4",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH021/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH021/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH021/frame_spec.md",
+      "metadata_path": "storyboards/SH021/metadata.json",
+      "start_frame": "storyboards/SH021/start.png",
+      "key_frame": "storyboards/SH021/key.png",
+      "end_frame": "storyboards/SH021/end.png",
+      "expected_clip": "clips/SH021.mp4",
+      "edit_in": "从木尺指向方向带接入。",
+      "edit_out": "色带分段变成迭代树的第一层。",
+      "continuity": {
+        "previous": "SH020",
+        "next": "SH022",
+        "in": "从木尺指向方向带接入。",
+        "out": "色带分段变成迭代树的第一层。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH021/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 18,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 4.75,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 12,
+        "revised_slack_seconds": 2,
+        "rationale": "方向审计短图解，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH022",
+      "order": 22,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S4",
+      "duration_seconds": 12,
+      "prompt_path": "real_video_prompts/SH022/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH022/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH022/frame_spec.md",
+      "metadata_path": "storyboards/SH022/metadata.json",
+      "start_frame": "storyboards/SH022/start.png",
+      "key_frame": "storyboards/SH022/key.png",
+      "end_frame": "storyboards/SH022/end.png",
+      "expected_clip": "clips/SH022.mp4",
+      "edit_in": "从方向审计色带生长出第一层树。",
+      "edit_out": "树状碎片淡入教室黑板总结。",
+      "continuity": {
+        "previous": "SH021",
+        "next": "SH023",
+        "in": "从方向审计色带生长出第一层树。",
+        "out": "树状碎片淡入教室黑板总结。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH022/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 20,
+        "recommended_duration_seconds": 12,
+        "estimated_speech_seconds": 6.46,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 12.5,
+        "revised_slack_seconds": 4.5,
+        "rationale": "迭代加速是核心动态证明，12 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH023",
+      "order": 23,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S4",
+      "duration_seconds": 12,
+      "prompt_path": "real_video_prompts/SH023/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH023/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH023/frame_spec.md",
+      "metadata_path": "storyboards/SH023/metadata.json",
+      "start_frame": "storyboards/SH023/start.png",
+      "key_frame": "storyboards/SH023/key.png",
+      "end_frame": "storyboards/SH023/end.png",
+      "expected_clip": "clips/SH023.mp4",
+      "edit_in": "从 SH022 树状碎片匹配切到黑板。",
+      "edit_out": "结论里的“面积”二字切到零面积提示。",
+      "continuity": {
+        "previous": "SH022",
+        "next": "SH024",
+        "in": "从 SH022 树状碎片匹配切到黑板。",
+        "out": "结论里的“面积”二字切到零面积提示。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH023/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 20,
+        "recommended_duration_seconds": 12,
+        "estimated_speech_seconds": 7.61,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 12.39,
+        "revised_slack_seconds": 4.39,
+        "rationale": "任意 epsilon 与连接走廊结论，12 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH024",
+      "order": 24,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S5",
+      "duration_seconds": 7,
+      "prompt_path": "real_video_prompts/SH024/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH024/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH024/frame_spec.md",
+      "metadata_path": "storyboards/SH024/metadata.json",
+      "start_frame": "storyboards/SH024/start.png",
+      "key_frame": "storyboards/SH024/key.png",
+      "end_frame": "storyboards/SH024/end.png",
+      "expected_clip": "clips/SH024.mp4",
+      "edit_in": "从黑板结论中“面积”切入。",
+      "edit_out": "线段变粗成 delta 管。",
+      "continuity": {
+        "previous": "SH023",
+        "next": "SH025",
+        "in": "从黑板结论中“面积”切入。",
+        "out": "线段变粗成 delta 管。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH024/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 14,
+        "recommended_duration_seconds": 7,
+        "estimated_speech_seconds": 5.91,
+        "visual_minimum_seconds": 5,
+        "previous_slack_seconds": 8.09,
+        "revised_slack_seconds": 1.09,
+        "rationale": "零面积澄清短图解，7 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH025",
+      "order": 25,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S5",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH025/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH025/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH025/frame_spec.md",
+      "metadata_path": "storyboards/SH025/metadata.json",
+      "start_frame": "storyboards/SH025/start.png",
+      "key_frame": "storyboards/SH025/key.png",
+      "end_frame": "storyboards/SH025/end.png",
+      "expected_clip": "clips/SH025.mp4",
+      "edit_in": "从 SH024 线段加粗。",
+      "edit_out": "第二条管斜向进入形成交叉。",
+      "continuity": {
+        "previous": "SH024",
+        "next": "SH026",
+        "in": "从 SH024 线段加粗。",
+        "out": "第二条管斜向进入形成交叉。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH025/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 16,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 5.24,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 10,
+        "revised_slack_seconds": 2,
+        "rationale": "δ 管引入，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH026",
+      "order": 26,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S5",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH026/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH026/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH026/frame_spec.md",
+      "metadata_path": "storyboards/SH026/metadata.json",
+      "start_frame": "storyboards/SH026/start.png",
+      "key_frame": "storyboards/SH026/key.png",
+      "end_frame": "storyboards/SH026/end.png",
+      "expected_clip": "clips/SH026.mp4",
+      "edit_in": "从 SH025 的单管接入第二条管。",
+      "edit_out": "金色重叠区上方出现估计式。",
+      "continuity": {
+        "previous": "SH025",
+        "next": "SH027",
+        "in": "从 SH025 的单管接入第二条管。",
+        "out": "金色重叠区上方出现估计式。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH026/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 14,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 5.6,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 8,
+        "revised_slack_seconds": 2,
+        "rationale": "α 夹角两种情况，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH027",
+      "order": 27,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S5",
+      "duration_seconds": 11,
+      "prompt_path": "real_video_prompts/SH027/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH027/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH027/frame_spec.md",
+      "metadata_path": "storyboards/SH027/metadata.json",
+      "start_frame": "storyboards/SH027/start.png",
+      "key_frame": "storyboards/SH027/key.png",
+      "end_frame": "storyboards/SH027/end.png",
+      "expected_clip": "clips/SH027.mp4",
+      "edit_in": "从 SH026 金色重叠区直接接公式。",
+      "edit_out": "重叠图像素化成小网格。",
+      "continuity": {
+        "previous": "SH026",
+        "next": "SH028",
+        "in": "从 SH026 金色重叠区直接接公式。",
+        "out": "重叠图像素化成小网格。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH027/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 16,
+        "recommended_duration_seconds": 11,
+        "estimated_speech_seconds": 5.91,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 8.5,
+        "revised_slack_seconds": 3.5,
+        "rationale": "重叠估计推导，11 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH028",
+      "order": 28,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S5",
+      "duration_seconds": 11,
+      "prompt_path": "real_video_prompts/SH028/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH028/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH028/frame_spec.md",
+      "metadata_path": "storyboards/SH028/metadata.json",
+      "start_frame": "storyboards/SH028/start.png",
+      "key_frame": "storyboards/SH028/key.png",
+      "end_frame": "storyboards/SH028/end.png",
+      "expected_clip": "clips/SH028.mp4",
+      "edit_in": "从估计式右侧的图形像素化进网格。",
+      "edit_out": "网格整理成黑板上二维定理。",
+      "continuity": {
+        "previous": "SH027",
+        "next": "SH029",
+        "in": "从估计式右侧的图形像素化进网格。",
+        "out": "网格整理成黑板上二维定理。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH028/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 15,
+        "recommended_duration_seconds": 11,
+        "estimated_speech_seconds": 7.43,
+        "visual_minimum_seconds": 7.5,
+        "previous_slack_seconds": 7.5,
+        "revised_slack_seconds": 3.5,
+        "rationale": "网格计数/维数直觉，11 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH029",
+      "order": 29,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S5",
+      "duration_seconds": 7,
+      "prompt_path": "real_video_prompts/SH029/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH029/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH029/frame_spec.md",
+      "metadata_path": "storyboards/SH029/metadata.json",
+      "start_frame": "storyboards/SH029/start.png",
+      "key_frame": "storyboards/SH029/key.png",
+      "end_frame": "storyboards/SH029/end.png",
+      "expected_clip": "clips/SH029.mp4",
+      "edit_in": "从网格缩放匹配切到黑板。",
+      "edit_out": "公式线条转入三联影响蒙太奇。",
+      "continuity": {
+        "previous": "SH028",
+        "next": "SH030",
+        "in": "从网格缩放匹配切到黑板。",
+        "out": "公式线条转入三联影响蒙太奇。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH029/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 12,
+        "recommended_duration_seconds": 7,
+        "estimated_speech_seconds": 5.91,
+        "visual_minimum_seconds": 5,
+        "previous_slack_seconds": 6.09,
+        "revised_slack_seconds": 1.09,
+        "rationale": "二维定理短陈述，7 秒。",
+        "flags": [
+          "原时长尾巴过长"
+        ]
+      }
+    },
+    {
+      "id": "SH030",
+      "order": 30,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S6",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH030/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH030/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH030/frame_spec.md",
+      "metadata_path": "storyboards/SH030/metadata.json",
+      "start_frame": "storyboards/SH030/start.png",
+      "key_frame": "storyboards/SH030/key.png",
+      "end_frame": "storyboards/SH030/end.png",
+      "expected_clip": "clips/SH030.mp4",
+      "edit_in": "从 dimension = 2 的线条扩展到三格。",
+      "edit_out": "推入中格和右格术语的板书解释。",
+      "continuity": {
+        "previous": "SH029",
+        "next": "SH031",
+        "in": "从 dimension = 2 的线条扩展到三格。",
+        "out": "推入中格和右格术语的板书解释。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH030/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 20,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 6.21,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 13.79,
+        "revised_slack_seconds": 1.79,
+        "rationale": "影响引入，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH031",
+      "order": 31,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S6",
+      "duration_seconds": 10,
+      "prompt_path": "real_video_prompts/SH031/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH031/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH031/frame_spec.md",
+      "metadata_path": "storyboards/SH031/metadata.json",
+      "start_frame": "storyboards/SH031/start.png",
+      "key_frame": "storyboards/SH031/key.png",
+      "end_frame": "storyboards/SH031/end.png",
+      "expected_clip": "clips/SH031.mp4",
+      "edit_in": "从三联图中格/右格拉近。",
+      "edit_out": "黑板清空，只留下标题位置。",
+      "continuity": {
+        "previous": "SH030",
+        "next": "SH032",
+        "in": "从三联图中格/右格拉近。",
+        "out": "黑板清空，只留下标题位置。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH031/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 17,
+        "recommended_duration_seconds": 10,
+        "estimated_speech_seconds": 5.97,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 11,
+        "revised_slack_seconds": 4,
+        "rationale": "最大平均/波包/细管三概念，10 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH032",
+      "order": 32,
+      "stage": "prompt_asset_package",
+      "status": "frames_generated_review_required",
+      "sequence": "S7",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH032/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH032/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH032/frame_spec.md",
+      "metadata_path": "storyboards/SH032/metadata.json",
+      "start_frame": "real_frames/SH032/start.png",
+      "key_frame": "real_frames/SH032/key.png",
+      "end_frame": "real_frames/SH032/end.png",
+      "expected_clip": "clips/SH032.mp4",
+      "edit_in": "从 SH031 文字退淡接空黑板。",
+      "edit_out": "女贝老师视线把镜头带回地面木剑。",
+      "continuity": {
+        "previous": "SH031",
+        "next": "SH033",
+        "in": "从 SH031 文字退淡接空黑板。",
+        "out": "女贝老师视线把镜头带回地面木剑。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "identity_regenerated_visual_review_passed",
+      "model_prompt_path": "real_video_prompts/SH032/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 18,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 3.77,
+        "visual_minimum_seconds": 4.5,
+        "previous_slack_seconds": 13.5,
+        "revised_slack_seconds": 3.5,
+        "rationale": "最后揭示名称与学生反应，8 秒。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      },
+      "character_identity_visual_audit": {
+        "decision": "approved_replacement",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v2",
+        "candidate_frames": "regenerated_frame_candidates/SH032_identity_v2/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH032/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查通过：人物不是抠图/拼贴感，课堂空间完整。",
+          "四名角色身份对背影课堂反应足够成立，中文标题自然，无英文/日文，无明显黑板补丁。"
+        ]
+      }
+    },
+    {
+      "id": "SH033",
+      "order": 33,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S7",
+      "duration_seconds": 8,
+      "prompt_path": "real_video_prompts/SH033/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH033/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH033/frame_spec.md",
+      "metadata_path": "storyboards/SH033/metadata.json",
+      "start_frame": "storyboards/SH033/start.png",
+      "key_frame": "storyboards/SH033/key.png",
+      "end_frame": "storyboards/SH033/end.png",
+      "expected_clip": "clips/SH033.mp4",
+      "edit_in": "从女贝老师视线匹配切到木剑。",
+      "edit_out": "淡出到羊皮纸标题卡。",
+      "continuity": {
+        "previous": "SH032",
+        "next": "SH034",
+        "in": "从女贝老师视线匹配切到木剑。",
+        "out": "淡出到羊皮纸标题卡。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH033/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_monitor_required",
+        "previous_duration_seconds": 14,
+        "recommended_duration_seconds": 8,
+        "estimated_speech_seconds": 6.42,
+        "visual_minimum_seconds": 6,
+        "previous_slack_seconds": 7.58,
+        "revised_slack_seconds": 1.58,
+        "rationale": "回到木剑收束，8 秒，避免最后一句旁白过紧。",
+        "flags": [
+          "原时长尾巴过长",
+          "原时长超过 12 秒，增加一次性生成漂移风险"
+        ]
+      }
+    },
+    {
+      "id": "SH034",
+      "order": 34,
+      "stage": "prompt_asset_package",
+      "status": "real_frames_complete_monitor_required",
+      "sequence": "S7",
+      "duration_seconds": 6,
+      "prompt_path": "real_video_prompts/SH034/prompt.md",
+      "negative_prompt_path": "real_video_prompts/SH034/negative_prompt.md",
+      "frame_spec_path": "storyboards/SH034/frame_spec.md",
+      "metadata_path": "storyboards/SH034/metadata.json",
+      "start_frame": "storyboards/SH034/start.png",
+      "key_frame": "storyboards/SH034/key.png",
+      "end_frame": "storyboards/SH034/end.png",
+      "expected_clip": "clips/SH034.mp4",
+      "edit_in": "从 SH033 蓝影淡出到羊皮纸。",
+      "edit_out": "淡出黑场。",
+      "continuity": {
+        "previous": "SH033",
+        "next": null,
+        "in": "从 SH033 蓝影淡出到羊皮纸。",
+        "out": "淡出黑场。"
+      },
+      "risk_flags": [
+        "motion_review_required",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "review_status": "real_frames_complete_monitor_required",
+      "model_prompt_path": "real_video_prompts/SH034/model_prompt.md",
+      "prompt_source": "real_frame_locked_video_prompt",
+      "model_notes": [
+        "Use real_video_prompts prompt package and real_frames start/key/end frames.",
+        "Prompt locks supplied start/key/end PNGs; do not use old storyboard layout prompts for video generation.",
+        "Clip-level motion QA is still required before approved_for_video."
+      ],
+      "timing_review": {
+        "status": "retimed_reasonable",
+        "previous_duration_seconds": 8,
+        "recommended_duration_seconds": 6,
+        "estimated_speech_seconds": 0,
+        "visual_minimum_seconds": 5,
+        "previous_slack_seconds": 3,
+        "revised_slack_seconds": 1,
+        "rationale": "结尾卡保留 6 秒，给标题和最终命题稳定读完。",
+        "flags": []
+      }
+    }
+  ],
+  "total_duration_seconds": 303,
+  "target_runtime": "00:00-05:03 (303 seconds)",
+  "timing_policy": {
+    "status": "retimed_2026-08-02",
+    "reason": "Original per-shot durations contained many 14-20 second slots for one-line or simple diagram beats. Revised policy keeps most shots in 7-10 seconds, allows 11-12 seconds only for proof-heavy beats, and avoids long tail-holds for one-pass video generation.",
+    "max_duration_seconds": 12,
+    "old_total_duration_seconds": 492,
+    "new_total_duration_seconds": 303,
+    "changed_shots": 32
+  },
+  "character_identity_gate": {
+    "status": "replaced_review_required",
+    "previous_blocked_shots": [
+      "SH002",
+      "SH010",
+      "SH020",
+      "SH032"
+    ],
+    "promoted_shots": [
+      "SH002",
+      "SH010",
+      "SH020",
+      "SH032"
+    ],
+    "monitor_required": [
+      "SH010:monitor_chinese_blackboard_text",
+      "SH010:monitor_deltoid_readability",
+      "SH010:monitor_math_notation_latin_A",
+      "SH020:monitor_perron_table_readability",
+      "SH020:monitor_student_identity_motion"
+    ],
+    "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+    "note": "四个身份阻塞镜头已替换为整帧重生候选；不是 approved_for_video。"
+  },
+  "byleth_costume_fidelity_gate": {
+    "status": "blocked_needs_revision",
+    "review": "production_system/reviews/byleth_costume_fidelity_blocker_2026-08-05.md",
+    "blocker": "Old prompts used generic black professor/mercenary long coat; updated lock requires canon academy Female Byleth short capelet, high collar, cropped top with visible midriff gap, gold chest ornament, silver bracers, patterned tights, asymmetric knee guard, boots, belts and harness details.",
+    "affected_visible_byleth_shots": "all shots where Female Byleth is visible",
+    "note": "Existing frames may be layout references only until re-reviewed or regenerated."
+  }
+}

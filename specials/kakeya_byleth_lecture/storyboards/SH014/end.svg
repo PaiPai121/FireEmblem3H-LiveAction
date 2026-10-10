@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f1df"/>
+      <stop offset="1" stop-color="#e9f2f1"/>
+    </linearGradient>
+    <linearGradient id="portraitFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#d9cfbd" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f7a5a"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.42"/>
+  <rect x="36" y="34" width="1208" height="64" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="60" y="76" fill="#a8322a" font-size="28" font-weight="900">SH014 · END · 凸区域</text>
+  <text x="1020" y="76" fill="#6b4300" font-size="18" font-weight="850">layout_reference</text>
+  
+  <rect x="56" y="132" width="1168" height="372" rx="8" fill="#fffdfa" stroke="#cfc5b6" stroke-width="2"/>
+  <g transform="translate(56, 132)">
+    <rect x="0" y="0" width="1168" height="372" rx="8" fill="#f3fbf5"/>
+    <polygon points="607.36,59.52 292,305.03999999999996 922.72,305.03999999999996" fill="#e6f6ec" stroke="#1f7a5a" stroke-width="7"/>
+    <line x1="607.36" y1="59.52" x2="607.36" y2="305.03999999999996" stroke="#a8322a" stroke-width="6"/>
+    <text x="625.36" y="193.44" fill="#a8322a" font-size="28" font-weight="900">height 1</text>
+    <line x1="292" y1="327.03999999999996" x2="922.72" y2="327.03999999999996" stroke="#0f5d7e" stroke-width="4"/>
+    <text x="34" y="52" fill="#1f7a5a" font-size="30" font-weight="900">convex-only optimum</text>
+    <text x="34" y="92" fill="#263241" font-size="24" font-weight="800">s = 2/sqrt(3), A = 1/sqrt(3)</text>
+    
+  </g>
+  <rect x="56" y="526" width="1168" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="80" y="562" fill="#0f5d7e" font-size="18" font-weight="900">Shot Purpose</text>
+  <text x="80" y="594" fill="#263241" font-size="23" font-weight="650">用高等数学前的三角形公式算出凸最优面积。</text>
+  <rect x="56" y="526" width="240" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="76" y="562" fill="#1f7a5a" font-size="18" font-weight="900">Frame Intent</text>
+  <text x="76" y="594" fill="#263241" font-size="18" font-weight="650">A = 1/sqrt(3) 高亮，三角形缩到一侧。</text>
+  <text x="58" y="690" fill="#657386" font-size="16" font-weight="700">Visible storyboard frame for web review; final cinematic PNG generation remains pending.</text>
+</svg>

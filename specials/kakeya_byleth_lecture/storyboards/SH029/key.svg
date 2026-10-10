@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f1df"/>
+      <stop offset="1" stop-color="#e9f2f1"/>
+    </linearGradient>
+    <linearGradient id="portraitFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#d9cfbd" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f7a5a"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.42"/>
+  <rect x="36" y="34" width="1208" height="64" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="60" y="76" fill="#a8322a" font-size="28" font-weight="900">SH029 · KEY · δ-管</text>
+  <text x="1020" y="76" fill="#6b4300" font-size="18" font-weight="850">layout_reference</text>
+  
+    <g>
+      <rect x="56" y="132" width="260" height="520" rx="8" fill="#16191d"/>
+      <image href="../../../../assets/characters/protagonist/BylethFemale/professor/selected.png" x="56" y="132" width="260" height="520" preserveAspectRatio="xMidYMid slice" opacity="0.82"/>
+      <rect x="56" y="132" width="260" height="520" rx="8" fill="url(#portraitFade)"/>
+      <text x="76" y="606" fill="#f8fafc" font-size="25" font-weight="800">Female Byleth</text>
+      <text x="76" y="638" fill="#dbeafe" font-size="17" font-weight="650">teal hair · green eyes · professor coat</text>
+    </g>
+  
+  <rect x="352" y="132" width="872" height="372" rx="8" fill="#fffdfa" stroke="#cfc5b6" stroke-width="2"/>
+  <g transform="translate(352, 132)">
+    <rect x="0" y="0" width="872" height="372" rx="8" fill="#f7fbff"/>
+    <g transform="translate(436 193.44) rotate(0)">
+      <rect x="-296.48" y="-22" width="592.96" height="44" rx="8" fill="#8ecae6" opacity="0.55" stroke="#0f5d7e" stroke-width="4"/>
+      <line x1="-296.48" y1="0" x2="296.48" y2="0" stroke="#a8322a" stroke-width="5"/>
+    </g>
+    <g transform="translate(436 193.44) rotate(-22)">
+      <rect x="-252.88" y="-22" width="505.76" height="44" rx="8" fill="#8ecae6" opacity="0.48" stroke="#0f5d7e" stroke-width="4"/>
+    </g>
+    <ellipse cx="436" cy="193.44" rx="69.76" ry="33.48" fill="#f4c26b" opacity="0.78"/>
+    <path d="M540.64,193.44 A100 100 0 0 0 514.48,163.68" fill="none" stroke="#1f7a5a" stroke-width="5" marker-end="url(#arrow)"/>
+    <text x="558.08" y="174.84" fill="#1f7a5a" font-size="28" font-weight="900">alpha</text>
+    <line x1="156.96" y1="171.12" x2="156.96" y2="215.76" stroke="#0f5d7e" stroke-width="5"/>
+    <text x="174.4" y="200.88000000000002" fill="#0f5d7e" font-size="28" font-weight="900">delta</text>
+    <text x="34" y="52" fill="#0f5d7e" font-size="30" font-weight="900">delta tubes</text>
+    <text x="34" y="92" fill="#263241" font-size="24" font-weight="800">area may be 0, dimension = 2</text>
+  </g>
+  <rect x="352" y="526" width="872" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="376" y="562" fill="#0f5d7e" font-size="18" font-weight="900">Shot Purpose</text>
+  <text x="376" y="594" fill="#263241" font-size="23" font-weight="650">给出现代二维结果：面积可为零，但维数必须为二。</text>
+  <rect x="56" y="526" width="260" height="126" rx="8" fill="#fffdfa" stroke="#d7d0c3"/>
+  <text x="76" y="562" fill="#1f7a5a" font-size="18" font-weight="900">Frame Intent</text>
+  <text x="76" y="594" fill="#263241" font-size="18" font-weight="650">另一侧写 dimension = 2，女贝老师用粉笔连接两句话。</text>
+  <text x="58" y="690" fill="#657386" font-size="16" font-weight="700">Visible storyboard frame for web review; final cinematic PNG generation remains pending.</text>
+</svg>

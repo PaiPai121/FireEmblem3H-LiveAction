@@ -1,0 +1,515 @@
+{
+  "status": "retimed_monitor_required",
+  "created_at": "2026-08-02",
+  "reviewer_role": "video-prompt-timing-qa",
+  "old_total_duration_seconds": 492,
+  "new_total_duration_seconds": 303,
+  "changed_shots": 32,
+  "long_tail_count_before": 28,
+  "too_tight_count_after": 0,
+  "policy": {
+    "status": "retimed_2026-08-02",
+    "reason": "Original per-shot durations contained many 14-20 second slots for one-line or simple diagram beats. Revised policy keeps most shots in 7-10 seconds, allows 11-12 seconds only for proof-heavy beats, and avoids long tail-holds for one-pass video generation.",
+    "max_duration_seconds": 12,
+    "old_total_duration_seconds": 492,
+    "new_total_duration_seconds": 303,
+    "changed_shots": 32
+  },
+  "shots": [
+    {
+      "id": "SH001",
+      "previous_duration_seconds": 8,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 5.73,
+      "visual_minimum_seconds": 4.5,
+      "previous_slack_seconds": 2.27,
+      "revised_slack_seconds": 2.27,
+      "flags": [],
+      "rationale": "开场登场和落剑需要完整动作，但 8 秒足够。",
+      "audio": "女贝老师: \"今天不先挥剑。先看一把长度为一的训练剑。\""
+    },
+    {
+      "id": "SH002",
+      "previous_duration_seconds": 10,
+      "recommended_duration_seconds": 10,
+      "estimated_speech_seconds": 8.1,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 1.9,
+      "revised_slack_seconds": 1.9,
+      "flags": [],
+      "rationale": "提出原始问题，三学生反应，保留 10 秒。",
+      "audio": "女贝老师: \"让这把一单位长的训练剑，在地上转过所有方向。最少要多大地方？\""
+    },
+    {
+      "id": "SH003",
+      "previous_duration_seconds": 12,
+      "recommended_duration_seconds": 6,
+      "estimated_speech_seconds": 3.59,
+      "visual_minimum_seconds": 4,
+      "previous_slack_seconds": 8,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长"
+      ],
+      "rationale": "单句圆盘直觉，不应给 12 秒。",
+      "audio": "梅尔赛德斯: \"至少要给它一个圆吧？\""
+    },
+    {
+      "id": "SH004",
+      "previous_duration_seconds": 12,
+      "recommended_duration_seconds": 7,
+      "estimated_speech_seconds": 5.48,
+      "visual_minimum_seconds": 4.5,
+      "previous_slack_seconds": 6.52,
+      "revised_slack_seconds": 1.52,
+      "flags": [
+        "原时长尾巴过长"
+      ],
+      "rationale": "规则澄清，一次划掉固定中心，7 秒足够。",
+      "audio": "女贝老师: \"中心不必固定。只要整根剑始终在区域内。\""
+    },
+    {
+      "id": "SH005",
+      "previous_duration_seconds": 13,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 6.95,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 6.05,
+      "revised_slack_seconds": 1.05,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "方向扇出现，需要读图停留，8 秒。",
+      "audio": "女贝老师: \"真正的条件是：每个方向，都要有一条完整的一单位线段。\""
+    },
+    {
+      "id": "SH006",
+      "previous_duration_seconds": 12,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 5.24,
+      "visual_minimum_seconds": 4.5,
+      "previous_slack_seconds": 6.76,
+      "revised_slack_seconds": 2.76,
+      "flags": [
+        "原时长尾巴过长"
+      ],
+      "rationale": "候选图形揭示，8 秒。",
+      "audio": "莉丝缇亚: \"也就是说，要找一条刚好卡住它的边界？\""
+    },
+    {
+      "id": "SH007",
+      "previous_duration_seconds": 15,
+      "recommended_duration_seconds": 11,
+      "estimated_speech_seconds": 7.37,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 7.5,
+      "revised_slack_seconds": 3.5,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "三尖内摆线切线弦机制较复杂，给 11 秒。",
+      "audio": "女贝老师: \"切点沿曲线走一圈，切线方向也连续转过一圈。方向不会漏。\""
+    },
+    {
+      "id": "SH008",
+      "previous_duration_seconds": 14,
+      "recommended_duration_seconds": 10,
+      "estimated_speech_seconds": 5.48,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 8,
+      "revised_slack_seconds": 4,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "4a=1 尺度锁需要读公式，10 秒。",
+      "audio": "女贝老师: \"每条可用切线弦分成四段 a，所以弦长是四 a。\""
+    },
+    {
+      "id": "SH009",
+      "previous_duration_seconds": 16,
+      "recommended_duration_seconds": 11,
+      "estimated_speech_seconds": 7.13,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 8.5,
+      "revised_slack_seconds": 3.5,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "候选面积 pi/8 需要先后显式，11 秒。",
+      "audio": "女贝老师: \"面积公式给 A 等于二 pi a 平方，代入 a 等于四分之一，得到 pi 除以八。\""
+    },
+    {
+      "id": "SH010",
+      "previous_duration_seconds": 14,
+      "recommended_duration_seconds": 9,
+      "estimated_speech_seconds": 5.91,
+      "visual_minimum_seconds": 4.5,
+      "previous_slack_seconds": 8.09,
+      "revised_slack_seconds": 3.09,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "艾黛尔质疑是完整表演 beat，9 秒。",
+      "audio": "艾黛尔: \"优雅，不等于最小。我还没听到：为什么不能再小？\""
+    },
+    {
+      "id": "SH011",
+      "previous_duration_seconds": 12,
+      "recommended_duration_seconds": 9,
+      "estimated_speech_seconds": 7.68,
+      "visual_minimum_seconds": 4.5,
+      "previous_slack_seconds": 4.32,
+      "revised_slack_seconds": 1.32,
+      "flags": [
+        "原时长尾巴过长"
+      ],
+      "rationale": "先看凸特例的动机要讲清，但不拖长，9 秒。",
+      "audio": "女贝老师: \"一般情况太滑，我们先看一个比较规整的特例：区域不能凹进去。\""
+    },
+    {
+      "id": "SH012",
+      "previous_duration_seconds": 18,
+      "recommended_duration_seconds": 7,
+      "estimated_speech_seconds": 4.75,
+      "visual_minimum_seconds": 4,
+      "previous_slack_seconds": 13.25,
+      "revised_slack_seconds": 2.25,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "凸性定义是短图解，7 秒。",
+      "audio": "女贝老师: \"凸，就是两点之间的路不离开区域。\""
+    },
+    {
+      "id": "SH013",
+      "previous_duration_seconds": 16,
+      "recommended_duration_seconds": 12,
+      "estimated_speech_seconds": 6.7,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 8.5,
+      "revised_slack_seconds": 4.5,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "三角形能转是核心补证明，保留 12 秒。",
+      "audio": "女贝老师: \"先证明它真的能转。方向只看零到一百八十度就够了。\""
+    },
+    {
+      "id": "SH014",
+      "previous_duration_seconds": 13,
+      "recommended_duration_seconds": 11,
+      "estimated_speech_seconds": 7.86,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 5.14,
+      "revised_slack_seconds": 3.14,
+      "flags": [
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "支撑边/下界定理和公式，11 秒。",
+      "audio": "女贝老师: \"最危险的位置是沿高，长度正好是一；其余方向能截到更长线段。\""
+    },
+    {
+      "id": "SH015",
+      "previous_duration_seconds": 13,
+      "recommended_duration_seconds": 10,
+      "estimated_speech_seconds": 9.04,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 3.96,
+      "revised_slack_seconds": 0.96,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "凸补空隙到非凸碎片的桥，10 秒。",
+      "audio": "莉丝缇亚: \"那如果去掉凸性，让区域碎开呢？\" 女贝老师: \"必须记账：每个方向还在不在。\""
+    },
+    {
+      "id": "SH016",
+      "previous_duration_seconds": 13,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 4.75,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 7,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "佩龙树方向账本引入，8 秒。",
+      "audio": "女贝老师: \"这个方向账本，从一个三角形开始。\""
+    },
+    {
+      "id": "SH017",
+      "previous_duration_seconds": 14,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 5.17,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 8,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "切分步骤，8 秒。",
+      "audio": "女贝老师: \"第一步，切分。每块只负责一小段方向。\""
+    },
+    {
+      "id": "SH018",
+      "previous_duration_seconds": 15,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 4.69,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 9,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "平移步骤，8 秒。",
+      "audio": "女贝老师: \"第二步，平移。平移不会改变方向。\""
+    },
+    {
+      "id": "SH019",
+      "previous_duration_seconds": 16,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 5.11,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 10,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "重叠步骤，8 秒。",
+      "audio": "女贝老师: \"第三步，重叠。面积减少，方向没有丢。\""
+    },
+    {
+      "id": "SH020",
+      "previous_duration_seconds": 14,
+      "recommended_duration_seconds": 10,
+      "estimated_speech_seconds": 7.82,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 6.18,
+      "revised_slack_seconds": 2.18,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "学生质疑加回答，10 秒。",
+      "audio": "艾黛尔: \"但这样还是同一个问题吗？\" 女贝老师: \"看方向，不看原来的位置。\""
+    },
+    {
+      "id": "SH021",
+      "previous_duration_seconds": 18,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 4.75,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 12,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "方向审计短图解，8 秒。",
+      "audio": "女贝老师: \"切分没有删方向。平移没有转方向。\""
+    },
+    {
+      "id": "SH022",
+      "previous_duration_seconds": 20,
+      "recommended_duration_seconds": 12,
+      "estimated_speech_seconds": 6.46,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 12.5,
+      "revised_slack_seconds": 4.5,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "迭代加速是核心动态证明，12 秒。",
+      "audio": "女贝老师: \"方向尺没有缺口，金色并集面积却按指定比例下降。\""
+    },
+    {
+      "id": "SH023",
+      "previous_duration_seconds": 20,
+      "recommended_duration_seconds": 12,
+      "estimated_speech_seconds": 7.61,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 12.39,
+      "revised_slack_seconds": 4.39,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "任意 epsilon 与连接走廊结论，12 秒。",
+      "audio": "女贝老师: \"给定任何 epsilon，多迭代几轮就够；连续转动再用很窄的走廊接起来。\""
+    },
+    {
+      "id": "SH024",
+      "previous_duration_seconds": 14,
+      "recommended_duration_seconds": 7,
+      "estimated_speech_seconds": 5.91,
+      "visual_minimum_seconds": 5,
+      "previous_slack_seconds": 8.09,
+      "revised_slack_seconds": 1.09,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "零面积澄清短图解，7 秒。",
+      "audio": "女贝老师: \"面积为零，不是不存在。线段也没有平面面积。\""
+    },
+    {
+      "id": "SH025",
+      "previous_duration_seconds": 16,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 5.24,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 10,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "δ 管引入，8 秒。",
+      "audio": "女贝老师: \"要估计它，先把线段加粗成宽度 delta 的细管。\""
+    },
+    {
+      "id": "SH026",
+      "previous_duration_seconds": 14,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 5.6,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 8,
+      "revised_slack_seconds": 2,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "α 夹角两种情况，8 秒。",
+      "audio": "女贝老师: \"夹角越小，重叠越长；夹角越大，重叠越短。\""
+    },
+    {
+      "id": "SH027",
+      "previous_duration_seconds": 16,
+      "recommended_duration_seconds": 11,
+      "estimated_speech_seconds": 5.91,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 8.5,
+      "revised_slack_seconds": 3.5,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "重叠估计推导，11 秒。",
+      "audio": "女贝老师: \"长度约 delta 除以 sin alpha，乘上宽度 delta，就得到重叠面积估计。\""
+    },
+    {
+      "id": "SH028",
+      "previous_duration_seconds": 15,
+      "recommended_duration_seconds": 11,
+      "estimated_speech_seconds": 7.43,
+      "visual_minimum_seconds": 7.5,
+      "previous_slack_seconds": 7.5,
+      "revised_slack_seconds": 3.5,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "网格计数/维数直觉，11 秒。",
+      "audio": "女贝老师: \"维数先看盖住它要多少小格子；它不像普通曲线那样省格子。\""
+    },
+    {
+      "id": "SH029",
+      "previous_duration_seconds": 12,
+      "recommended_duration_seconds": 7,
+      "estimated_speech_seconds": 5.91,
+      "visual_minimum_seconds": 5,
+      "previous_slack_seconds": 6.09,
+      "revised_slack_seconds": 1.09,
+      "flags": [
+        "原时长尾巴过长"
+      ],
+      "rationale": "二维定理短陈述，7 秒。",
+      "audio": "女贝老师: \"在二维中，它可以没有面积，但维数必须是二。\""
+    },
+    {
+      "id": "SH030",
+      "previous_duration_seconds": 20,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 6.21,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 13.79,
+      "revised_slack_seconds": 1.79,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "影响引入，8 秒。",
+      "audio": "女贝老师: \"后来真正留下来的，是多方向细长结构怎样重叠。\""
+    },
+    {
+      "id": "SH031",
+      "previous_duration_seconds": 17,
+      "recommended_duration_seconds": 10,
+      "estimated_speech_seconds": 5.97,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 11,
+      "revised_slack_seconds": 4,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "最大平均/波包/细管三概念，10 秒。",
+      "audio": "女贝老师: \"调和分析和波动问题里，也会遇到这样的细管。\""
+    },
+    {
+      "id": "SH032",
+      "previous_duration_seconds": 18,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 3.77,
+      "visual_minimum_seconds": 4.5,
+      "previous_slack_seconds": 13.5,
+      "revised_slack_seconds": 3.5,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "最后揭示名称与学生反应，8 秒。",
+      "audio": "女贝老师: \"这个问题，叫挂谷针问题。\""
+    },
+    {
+      "id": "SH033",
+      "previous_duration_seconds": 14,
+      "recommended_duration_seconds": 8,
+      "estimated_speech_seconds": 6.42,
+      "visual_minimum_seconds": 6,
+      "previous_slack_seconds": 7.58,
+      "revised_slack_seconds": 1.58,
+      "flags": [
+        "原时长尾巴过长",
+        "原时长超过 12 秒，增加一次性生成漂移风险"
+      ],
+      "rationale": "回到木剑收束，8 秒，避免最后一句旁白过紧。",
+      "audio": "女贝老师旁白: \"意义不在针，而在多方向结构能怎样重叠。\""
+    },
+    {
+      "id": "SH034",
+      "previous_duration_seconds": 8,
+      "recommended_duration_seconds": 6,
+      "estimated_speech_seconds": 0,
+      "visual_minimum_seconds": 5,
+      "previous_slack_seconds": 3,
+      "revised_slack_seconds": 1,
+      "flags": [],
+      "rationale": "结尾卡保留 6 秒，给标题和最终命题稳定读完。",
+      "audio": "Final soft chord"
+    }
+  ]
+}

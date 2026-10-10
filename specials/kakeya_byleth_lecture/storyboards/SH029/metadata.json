@@ -1,0 +1,51 @@
+{
+  "id": "SH029",
+  "order": 29,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S5",
+  "timecode": "06:43-06:55",
+  "duration_seconds": 12,
+  "script_beat": "2D theorem",
+  "shot_purpose": "给出现代二维结果：面积可为零，但维数必须为二。",
+  "location": "Classroom chalkboard",
+  "characters_visible": "Female Byleth optional side profile",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH029/frame_spec.md",
+  "prompt_path": "storyboards/SH029/prompt.md",
+  "negative_prompt_path": "storyboards/SH029/negative_prompt.md",
+  "start_frame": "storyboards/SH029/start.png",
+  "key_frame": "storyboards/SH029/key.png",
+  "end_frame": "storyboards/SH029/end.png",
+  "expected_clip": "clips/SH029.mp4",
+  "edit_in": "从网格缩放匹配切到黑板。",
+  "edit_out": "公式线条转入三联影响蒙太奇。",
+  "screen_direction": "左侧面积，右侧维数，粉笔连线从左到右。",
+  "mathematical_locks": [
+    "Zero area is not nonexistence; delta-tube diagrams must show delta width, alpha angle, gold overlap patch, and dimension equals 2 in the final 2D statement."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH028",
+    "next": "SH030",
+    "in": "从网格缩放匹配切到黑板。",
+    "out": "公式线条转入三联影响蒙太奇。"
+  },
+  "reject_if": [
+    "Avoid overexplaining",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "delta, alpha, overlap, zero-area caution, or dimension = 2 claim is invisible or wrong"
+  ]
+}

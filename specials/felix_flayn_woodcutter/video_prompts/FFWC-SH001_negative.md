@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no battle enemies, no blood, no hostile Felix, no frightened Flayn, no subtitles, no captions, no text, no watermarks, no logos, no modern props, no camera spin, no mouth distortion.

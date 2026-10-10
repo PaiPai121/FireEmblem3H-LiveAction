@@ -1,0 +1,204 @@
+{
+  "package_id": "motion_probe_handoff_kakeya_byleth_2026-07-31",
+  "status": "monitor_required",
+  "pairs": [
+    {
+      "from": "SH001",
+      "to": "SH002",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH002",
+      "to": "SH003",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH003",
+      "to": "SH004",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH004",
+      "to": "SH005",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH005",
+      "to": "SH006",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH006",
+      "to": "SH007",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH007",
+      "to": "SH008",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH008",
+      "to": "SH009",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH009",
+      "to": "SH010",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH010",
+      "to": "SH011",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH011",
+      "to": "SH012",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH012",
+      "to": "SH013",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH013",
+      "to": "SH014",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH014",
+      "to": "SH015",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH015",
+      "to": "SH016",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH016",
+      "to": "SH017",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH017",
+      "to": "SH018",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH018",
+      "to": "SH019",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH019",
+      "to": "SH020",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH020",
+      "to": "SH021",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH021",
+      "to": "SH022",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH022",
+      "to": "SH023",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH023",
+      "to": "SH024",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH024",
+      "to": "SH025",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH025",
+      "to": "SH026",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH026",
+      "to": "SH027",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH027",
+      "to": "SH028",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH028",
+      "to": "SH029",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH029",
+      "to": "SH030",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH030",
+      "to": "SH031",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH031",
+      "to": "SH032",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH032",
+      "to": "SH033",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    },
+    {
+      "from": "SH033",
+      "to": "SH034",
+      "decision": "probe_required",
+      "check": "探针生成后检查剪出状态、画面方向、数学图形和角色位置是否能接上下一镜头。"
+    }
+  ]
+}

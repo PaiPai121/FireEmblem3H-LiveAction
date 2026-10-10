@@ -1,0 +1,38 @@
+{
+  "镜头编号": "SH002",
+  "顺序": 2,
+  "生成时长秒": 8,
+  "提交状态": "one_pass_full_length_pending",
+  "成片作用": "三位学生接住问题，梅尔赛德斯说出圆盘直觉，为 SH003 的固定中心错误直觉铺路。",
+  "可见主体": "女贝老师、艾黛尔、莉丝缇亚、梅尔赛德斯、木制训练剑",
+  "摄影机": "低三分之四中景，木剑大前景，女贝老师在后景清晰。",
+  "剪入": "接 SH001 收势视线，切到三位学生的低机位反应。",
+  "剪出": "从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。",
+  "中文台词或音频锚点": "梅尔赛德斯: \"扫过的地方，至少像一个圆吧？\"",
+  "逐句台词": {
+    "01_梅尔赛德斯": "扫过的地方，至少像一个圆吧？"
+  },
+  "主要检查": "检查三位学生接住 SH001 的问题，梅尔赛德斯的圆盘直觉能自然引到 SH003。",
+  "三帧变化审计": null,
+  "角色身份视觉审查": {
+    "decision": "approved_replacement",
+    "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+    "candidate": "identity_v1",
+    "candidate_frames": "regenerated_frame_candidates/SH002_identity_v1/",
+    "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH002/",
+    "no_character_cutout_or_matting": true,
+    "findings": [
+      "独立审查通过：女贝老师、艾黛尔、莉丝缇亚、梅尔赛德斯身份明显贴近 selected asset。",
+      "三帧连续性成立，无数学/中文文字风险。"
+    ]
+  },
+  "拒绝条件": [
+    "女贝老师身份漂移或表情变成明显微笑，则拒绝。",
+    "起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。",
+    "镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。",
+    "女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。",
+    "艾黛尔, 莉丝缇亚, or 梅尔赛德斯 becomes a generic house-color student, wrong costume, wrong hair/face, or is replaced by another student",
+    "SH002 repeats the full SH001 question instead of functioning as student reaction"
+  ],
+  "批准说明": "预算限制下不做 3 秒探针，直接提交完整时长。生成后必须逐镜头 QA；不通过的镜头再单独重生。"
+}

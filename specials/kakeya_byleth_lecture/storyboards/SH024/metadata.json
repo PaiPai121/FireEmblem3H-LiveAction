@@ -1,0 +1,45 @@
+{
+  "id": "SH024",
+  "order": 24,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S5",
+  "timecode": "05:28-05:42",
+  "duration_seconds": 14,
+  "script_beat": "Zero area caution",
+  "shot_purpose": "防止观众把面积为零误解为集合不存在。",
+  "location": "Clean diagram space",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH024/frame_spec.md",
+  "prompt_path": "storyboards/SH024/prompt.md",
+  "negative_prompt_path": "storyboards/SH024/negative_prompt.md",
+  "start_frame": "storyboards/SH024/start.png",
+  "key_frame": "storyboards/SH024/key.png",
+  "end_frame": "storyboards/SH024/end.png",
+  "expected_clip": "clips/SH024.mp4",
+  "edit_in": "从黑板结论中“面积”切入。",
+  "edit_out": "线段变粗成 delta 管。",
+  "screen_direction": "单线段从左侧过渡到右侧多方向集合。",
+  "mathematical_locks": [
+    "Zero area is not nonexistence; delta-tube diagrams must show delta width, alpha angle, gold overlap patch, and dimension equals 2 in the final 2D statement."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH023",
+    "next": "SH025",
+    "in": "从黑板结论中“面积”切入。",
+    "out": "线段变粗成 delta 管。"
+  },
+  "reject_if": [
+    "May imply actual turn region zero; avoid",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "delta, alpha, overlap, zero-area caution, or dimension = 2 claim is invisible or wrong"
+  ]
+}

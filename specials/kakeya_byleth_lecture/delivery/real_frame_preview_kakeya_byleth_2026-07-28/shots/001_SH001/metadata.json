@@ -1,0 +1,42 @@
+{
+  "镜头编号": "SH001",
+  "顺序": 1,
+  "状态": "真实帧已完成，待运动监看",
+  "审查状态": "needs_visual_motion_qa",
+  "时长秒": 10,
+  "预计视频片段": "clips/SH001.mp4",
+  "剧情节点": "剑花引题",
+  "成片作用": "开场：女贝老师先用舒展的木剑剑花演示一百八十度掉头，让观众先感到“扫过区域”的问题。",
+  "可见主体": "女贝老师站立持木制训练剑",
+  "摄影机": "训练场全身中景，轻微推进；保持女贝老师全身、木剑轨迹和收势方向清楚。",
+  "剪入": "从黑场淡入到训练场全身中景，女贝老师已站定持剑。",
+  "剪出": "在女贝老师收势并看向学生后，切到三位学生对“扫过区域”的直觉反应。",
+  "中文台词或音频锚点": "女贝老师: \"今天我们不练普通挥剑。我们考虑一个新问题：让这把剑转个一百八十度掉头，它扫过的区域能小到什么程度？\"",
+  "逐句台词": {
+    "01_音效": "木制训练剑划过空气，收势轻停。",
+    "02_女贝老师": "今天我们不练普通挥剑。我们考虑一个新问题：让这把剑转个一百八十度掉头，它扫过的区域能小到什么程度？"
+  },
+  "主要检查": "检查女贝老师站立持木剑开场，剑花一百八十度掉头动作清楚；不得回到地面标线或红端点。",
+  "上一镜头": "无",
+  "下一镜头": "SH002",
+  "拒绝条件": [
+    "贝老师 is kneeling by a floor baseline or placing the sword between red endpoint marks",
+    "the shot adds chalk floor measurement marks, red endpoints, formulas, subtitles, modern UI, or explanatory labels",
+    "起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。",
+    "镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。",
+    "女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。",
+    "the wooden sword transforms, bends, disappears, or becomes a magical/combat weapon rather than a straight practice sword"
+  ],
+  "真实帧来源": {
+    "起始帧": "real_frames/SH001/start.png",
+    "关键帧": "real_frames/SH001/key.png",
+    "结束帧": "real_frames/SH001/end.png"
+  },
+  "角色身份视觉审查": null,
+  "提示词来源": "real_video_prompts/SH001/prompt.md",
+  "模型提示词来源": "real_video_prompts/SH001/model_prompt.md",
+  "负面提示词来源": "real_video_prompts/SH001/negative_prompt.md",
+  "来源标记": "内置图像生成-08-04",
+  "需要质检": "是",
+  "批准说明": "尚未批准直接出片。本页是真实三帧预览，用于视觉、数学和运动监看前审查。"
+}

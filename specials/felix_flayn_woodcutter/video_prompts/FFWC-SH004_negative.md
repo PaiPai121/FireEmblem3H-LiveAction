@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no combat enemies, no unsafe blade near Flayn, no blood, no explosive wood, no goofy Felix, no subtitles, no captions, no text, no watermarks, no logos, no modern tools, no camera spin, no mouth distortion.

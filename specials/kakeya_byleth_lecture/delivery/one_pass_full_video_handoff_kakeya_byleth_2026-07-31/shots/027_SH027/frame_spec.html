@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SH027 审查资料：分镜规格</title>
+  <style>
+    body{margin:0;background:#f6f8fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:28px 22px 48px}
+    h1{margin:0 0 8px;font-size:24px;letter-spacing:0}.meta{margin:0 0 18px;color:#596779;line-height:1.6;font-weight:700}
+    .note{border:1px solid #d6dfeb;border-left:4px solid #174ea6;background:#fff;border-radius:8px;padding:12px 14px;margin:0 0 18px;line-height:1.65}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #d6dfeb;border-radius:8px;padding:18px;line-height:1.7;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    a{color:#174ea6;font-weight:800;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SH027 审查资料：分镜规格</h1>
+    <div class="meta">类型：分镜规格 · 编码：UTF-8 · 原始文件：<a href="frame_spec.md">frame_spec.md</a></div>
+    <div class="note">这是导演、数学和画面审查用的镜头规格，不是模型输入。</div>
+    <pre># 分镜规格：SH027
+
+镜头编号：SH027
+阶段：真实帧锁定视频提示词包
+状态：真实帧已生成，提示词已就绪
+依赖：女贝老师二维挂谷分镜表
+剧情节点：关键估计
+成片作用：把图像关系压成一个估计式，连接几何和分析。
+时长目标：11 秒
+地点：图解板
+可见角色：仅图解
+
+身份锁：
+- 女贝老师只使用女版教授形象，不使用男贝。
+- 女贝老师参考：assets/characters/protagonist/BylethFemale/professor/selected.png。
+- 需要全身姿态、手套或持剑动作时，使用：assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png。
+- 可见学生阵容锁定为艾黛尔、莉丝缇亚、梅尔赛德斯，不得替换成其他学生或普通学生。
+
+资产引用：
+- 图解或道具镜头，不需要角色资产。
+
+起始帧意图：
+两根管和金色重叠区保留，δ 与 α 已标出。
+
+关键帧意图：
+估计式出现时，δ、α、金色 重叠 依次闪亮对应。
+
+结束帧意图：
+公式缩到角落，重叠图保留作后续影响桥。
+
+摄影机：
+静态干净图形，公式不遮盖重叠区。
+
+调度：
+先标出 重叠 length ~ δ / sin α，再乘宽度 δ 得到 area ~ δ^2 / sin α，最后变成 重叠 &lt;= C δ^2 / α。
+
+画面方向：
+公式从重叠图右侧出现，不覆盖图形。
+
+数学图形锁：
+- 零面积不是不存在；δ 管图解必须显示 δ 宽度、α 夹角、金色重叠区域，并在二维最终结论中显示维数等于 2。
+
+动作峰值：
+公式与三个图形元素全部同步高亮的一刻。
+
+中文台词 / 音频锚点：
+女贝老师: 沿管方向交叠长度约是 δ 除以 sin α，乘上宽度 δ，就得到重叠面积估计。
+
+剪入：
+从 SH026 金色重叠区直接接公式。
+
+剪出：
+重叠图像素化成小网格。
+
+连续性要求：
+- 上一镜头: SH026 （角度与重叠）.
+- 下一镜头: SH028 （维数直觉）.
+- 保持上方规定的画面方向和视觉主体交接。
+- 不得添加未计划的指定学生；除非已有批准资产，学生台词只使用画外音或肩部剪影。
+
+运动风险：
+- 必要时使用 C 表示常数，不要强行写死难读符号。
+- AI 视频可能过度装饰数学图形；必须保持几何关系、端点标记、δ/α 标签、并集/重叠关系清楚可读。
+- 如果女贝老师可见，必须监看跨帧和相邻镜头中的身份漂移。
+
+拒绝条件：
+- 必要时使用 C 表示常数，不要强行写死难读符号。
+- 起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。
+- 镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。
+- δ、α、重叠、零面积澄清或维数等于 2 的结论不可见或错误
+
+真实帧来源：
+- 起始帧：real_frames/SH027/start.png
+- 关键帧：real_frames/SH027/key.png
+- 结束帧：real_frames/SH027/end.png
+</pre>
+  </main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "id": "SH001",
+  "status": "real_frame_prompt_ready_motion_qa_required",
+  "source_frame_spec": "storyboards/SH001/frame_spec.md",
+  "source_frames": {
+    "start_frame": "real_frames/SH001/start.png",
+    "key_frame": "real_frames/SH001/key.png",
+    "end_frame": "real_frames/SH001/end.png"
+  },
+  "prompt": "real_video_prompts/SH001/prompt.md",
+  "model_prompt": "real_video_prompts/SH001/model_prompt.md",
+  "negative_prompt": "real_video_prompts/SH001/negative_prompt.md",
+  "contract": "video-prompt-qa prompt-contract.md",
+  "approval": "monitor_required",
+  "revision": "2026-08-04_sword_flourish_opening",
+  "notes": "SH001 rewritten from floor measurement setup to standing sword-flourish hook. Use new real_frames/SH001 start/key/end."
+}

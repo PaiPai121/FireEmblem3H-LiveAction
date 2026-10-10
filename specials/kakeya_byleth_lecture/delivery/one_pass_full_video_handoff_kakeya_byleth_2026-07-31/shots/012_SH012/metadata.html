@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SH012 后台资料：元数据</title>
+  <style>
+    body{margin:0;background:#f6f8fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:28px 22px 48px}
+    h1{margin:0 0 8px;font-size:24px;letter-spacing:0}.meta{margin:0 0 18px;color:#596779;line-height:1.6;font-weight:700}
+    .note{border:1px solid #d6dfeb;border-left:4px solid #174ea6;background:#fff;border-radius:8px;padding:12px 14px;margin:0 0 18px;line-height:1.65}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #d6dfeb;border-radius:8px;padding:18px;line-height:1.7;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    a{color:#174ea6;font-weight:800;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SH012 后台资料：元数据</h1>
+    <div class="meta">类型：元数据 · 编码：UTF-8 · 原始文件：<a href="metadata.json">metadata.json</a></div>
+    <div class="note">这是脚本、manifest 和网页使用的后台数据，通常不用手动复制给视频模型。</div>
+    <pre>{
+  &quot;镜头编号&quot;: &quot;SH012&quot;,
+  &quot;顺序&quot;: 12,
+  &quot;生成时长秒&quot;: 7,
+  &quot;提交状态&quot;: &quot;one_pass_full_length_pending&quot;,
+  &quot;成片作用&quot;: &quot;用两点连线说明什么叫凸，降低理解门槛。&quot;,
+  &quot;可见主体&quot;: &quot;图形内部两点&quot;,
+  &quot;摄影机&quot;: &quot;干净二分图近景，板书符号极少。&quot;,
+  &quot;剪入&quot;: &quot;从绳索凹口消失切入。&quot;,
+  &quot;剪出&quot;: &quot;左侧凸形变形为等边三角形。&quot;,
+  &quot;中文台词或音频锚点&quot;: &quot;女贝老师: \&quot;凸，就是两点之间的路不离开区域。\&quot;&quot;,
+  &quot;逐句台词&quot;: {
+    &quot;01_旁白 / 女贝老师&quot;: &quot;凸，就是图形中任意两点之间的线段，都不离开图形。&quot;
+  },
+  &quot;主要检查&quot;: &quot;检查两点连线是否离开区域的凸性测试清楚。&quot;,
+  &quot;三帧变化审计&quot;: null,
+  &quot;角色身份视觉审查&quot;: null,
+  &quot;拒绝条件&quot;: [
+    &quot;内容基础但必要，不能因为基础而删掉。&quot;,
+    &quot;起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。&quot;,
+    &quot;镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。&quot;,
+    &quot;女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。&quot;,
+    &quot;等边三角形被暗示为非凸原问题的解，则拒绝。&quot;
+  ],
+  &quot;批准说明&quot;: &quot;预算限制下不做 3 秒探针，直接提交完整时长。生成后必须逐镜头 QA；不通过的镜头再单独重生。&quot;
+}
+</pre>
+  </main>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "id": "SH018",
+  "order": 18,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S4",
+  "timecode": "03:45-04:00",
+  "duration_seconds": 15,
+  "script_beat": "Slide step",
+  "shot_purpose": "显示平移不改变方向，是证明可复用空间的关键。",
+  "location": "Sand-table diagram",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH018/frame_spec.md",
+  "prompt_path": "storyboards/SH018/prompt.md",
+  "negative_prompt_path": "storyboards/SH018/negative_prompt.md",
+  "start_frame": "storyboards/SH018/start.png",
+  "key_frame": "storyboards/SH018/key.png",
+  "end_frame": "storyboards/SH018/end.png",
+  "expected_clip": "clips/SH018.mp4",
+  "edit_in": "从切分后的细三角形接入。",
+  "edit_out": "切到重叠后的并集面积。",
+  "screen_direction": "左侧碎片向右滑，右侧碎片向左滑，顶点高度不交换。",
+  "mathematical_locks": [
+    "Perron tree proof must keep direction coverage visible: cut assigns direction intervals, slide translates without rotation, overlap shrinks union area without deleting directions."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH017",
+    "next": "SH019",
+    "in": "从切分后的细三角形接入。",
+    "out": "切到重叠后的并集面积。"
+  },
+  "reject_if": [
+    "AI may rotate pieces accidentally",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Perron cut, slide, overlap, or direction-preservation logic is visually broken"
+  ]
+}

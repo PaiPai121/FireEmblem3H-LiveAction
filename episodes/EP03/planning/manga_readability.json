@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "project": "EP03",
+  "mode": "on",
+  "required": true,
+  "created_at": "2026-09-09",
+  "source_method_note": "Transfer the readability discipline of strong film storyboards, animation thumbnails, manga paneling, and production notebooks; do not imitate any one artist's look. Every panel must communicate task, obstacle, readable action, reaction, and changed state before final-looking rendering.",
+  "quality_reference_policy": {
+    "allowed": [
+      "public film and animation production notes",
+      "professional storyboard and layout breakdowns",
+      "published film-staging and editorial craft references"
+    ],
+    "excluded": [
+      "local support mini-theater packages",
+      "local EP02 shot packages",
+      "any prior local frame as a quality or shot-design template"
+    ],
+    "local_asset_boundary": "Local selected character, prop, and location assets may constrain identity, wardrobe, weapon, and geography only; they are not visual-quality or blocking references."
+  },
+  "method_references": [
+    {
+      "title": "Disney Animation Story",
+      "url": "https://www.disneyanimation.com/process/story/",
+      "lesson": "thumbnail narrative, emotion, timing, staging, and framing before final layout"
+    },
+    {
+      "title": "Disney Animation Layout",
+      "url": "https://disneyanimation.com/process/layout/",
+      "lesson": "stage characters, sets, props, camera, cut relation, point of view, and continuity shot by shot"
+    },
+    {
+      "title": "Academy: How To Storyboard Star Trek",
+      "url": "https://www.oscars.org/news/how-storyboard-star-trek",
+      "lesson": "make an action sequence legible as approach, conflict, recovery, and payoff"
+    },
+    {
+      "title": "Star Wars Jedi Videomatics",
+      "url": "https://www.starwars.com/video/jedi-videomatics-a-moving-storyboard",
+      "lesson": "test action flow, screen direction, and edit rhythm as a moving storyboard before final imagery"
+    },
+    {
+      "title": "ILM Art Department: Concept Art and Storyboarding",
+      "url": "https://www.ilm.com/ilm-evolutions-50-concept-art-storyboarding/",
+      "lesson": "treat storyboards as an action and logistics blueprint for the finished shot"
+    },
+    {
+      "title": "Jump Manga School Lecture 3",
+      "url": "https://jump-manga-school.hatenablog.com/entry/03",
+      "lesson": "use wide shots for position and distance, closer views for hand performance and emotion, and keep each panel immediately readable"
+    }
+  ],
+  "premise_one_sentence": "Ashe must stop the man who raised him without handing him a straight path to execution; the order becomes a physical split, then the defenders' own movement forces one controlled disarm.",
+  "reader_hook": "An order is given; before anyone charges, the battlefield visibly splits into lanes.",
+  "scene_engine": {
+    "task_or_desire": "Contain Lonato while protecting the village route and preserving Ashe's chance to choose restraint.",
+    "obstacle": "A two-guard screen and a broken wet crossing prevent a direct approach.",
+    "escalation": "The guards move first; Catherine takes their pressure; Lonato steps across only to cover a retreating guard.",
+    "visible_change": "The ordinary sword lies in the mud, Lonato is on one knee, and the witnesses remain back rather than turning the stop into an execution."
+  },
+  "characters": [
+    {
+      "id": "BylethFemale",
+      "goal": "contain",
+      "tactic": "spatial command",
+      "distinctive_behavior": "low hand signal and off-screen authority",
+      "effect_on_others": "students form a barrier and do not rush"
+    },
+    {
+      "id": "Ashe",
+      "goal": "stop Lonato without killing him",
+      "tactic": "nock toward empty ground, then lower",
+      "distinctive_behavior": "apology, held breath, no release",
+      "effect_on_others": "the guard line hesitates and Catherine enters"
+    },
+    {
+      "id": "Catherine",
+      "goal": "prevent a guard breakthrough",
+      "tactic": "intercept the nearer guard first, then receive Lonato's protective press",
+      "distinctive_behavior": "economical footwork and weapon-level leverage",
+      "effect_on_others": "the guard pair retreats and Lonato loses his ordinary sword"
+    },
+    {
+      "id": "Lonato",
+      "goal": "protect the rebellion and the guard",
+      "tactic": "shield-led step across the retreat lane",
+      "distinctive_behavior": "measured press, no wild swing",
+      "effect_on_others": "his cover position creates the one safe bind and the disarm"
+    },
+    {
+      "id": "Dimitri_Dedue",
+      "goal": "hold formation",
+      "tactic": "stop behind cover",
+      "distinctive_behavior": "half-step and lowered weapons",
+      "effect_on_others": "moral distance stays visible"
+    }
+  ],
+  "beats": [
+    {
+      "id": "B01",
+      "shots": [
+        "Shot025"
+      ],
+      "task": "Byleth's command must become a physical containment plan",
+      "obstacle": "the crossing forks and the guard screen is not yet formed",
+      "cause": "The command redirects Ashe before the guards can be allowed to open a direct lane.",
+      "action": "Dimitri and Dedue hold cover while two guards close the fork and Ashe is routed right",
+      "reaction": "the formation stops",
+      "changed_state": "two lanes exist and Lonato is beyond the screen",
+      "focal_subject": "the command's physical consequence",
+      "attention_path": "near cover -> guard screen -> far Lonato",
+      "payoff_or_handoff": "Ashe owns the near-right warning plane"
+    },
+    {
+      "id": "B02",
+      "shots": [
+        "Shot026"
+      ],
+      "task": "Ashe must make a nonlethal warning",
+      "obstacle": "the guard line blocks the direct path",
+      "cause": "The two-lane screen leaves Ashe a warning lane but removes a clean shot at Lonato.",
+      "action": "nock, draw toward empty mud, then lower without release",
+      "reaction": "one apology and held breath",
+      "changed_state": "the arrow remains nocked but the attack impulse is refused",
+      "focal_subject": "Ashe's restraint",
+      "attention_path": "bow hand -> empty mud -> guard line -> far Lonato",
+      "payoff_or_handoff": "left gap remains open for Catherine"
+    },
+    {
+      "id": "B03",
+      "shots": [
+        "Shot027"
+      ],
+      "task": "Catherine must stop the guard pressure",
+      "obstacle": "the nearer guard steps toward Ashe",
+      "cause": "The nearer guard answers Ashe's warning by pressing into the open lane.",
+      "action": "enter from left and redirect the long weapon",
+      "reaction": "near guard staggers sideways; second guard retreats",
+      "changed_state": "Catherine owns the cleared lane",
+      "focal_subject": "Catherine's guard-first intervention",
+      "attention_path": "advancing weapon -> Catherine's guard -> displaced pair",
+      "payoff_or_handoff": "Lonato sees the retreating guard and must choose whether to cover him"
+    },
+    {
+      "id": "B04",
+      "shots": [
+        "Shot028"
+      ],
+      "task": "Lonato must protect his retreating guard",
+      "obstacle": "Catherine controls the lane and the guard is exposed",
+      "cause": "The displaced guard retreats behind Lonato, forcing Lonato to cross into the controlled lane to cover him.",
+      "action": "Lonato crosses to cover the guard; one ordinary-sword press meets Thunderbrand and is turned aside",
+      "reaction": "the guard gets behind Lonato; the sword drops",
+      "changed_state": "Lonato is upright but disarmed",
+      "focal_subject": "the guard-mediated weapon bind",
+      "attention_path": "retreating guard -> Lonato's shield -> weapon contact -> mud",
+      "payoff_or_handoff": "Lonato's balance gives way into Shot029"
+    },
+    {
+      "id": "B05",
+      "shots": [
+        "Shot029"
+      ],
+      "task": "The stop must land as a human consequence",
+      "obstacle": "Lonato cannot recover his footing",
+      "cause": "The disarm removes Lonato's last stable support while the witnesses deliberately hold their distance.",
+      "action": "catch on shield and settle to one knee",
+      "reaction": "Dimitri, Ashe, and female Byleth hold back",
+      "changed_state": "quiet aftermath with open distance",
+      "focal_subject": "Lonato's loss of support",
+      "attention_path": "dropped sword -> knee and shield -> distant witnesses",
+      "payoff_or_handoff": "cut to the aftermath reaction without a victory tableau"
+    }
+  ],
+  "rough_read_paths": [
+    "planning/manga_readability_thumbnail_025_029_2026-09-09.svg",
+    "planning/manga_readability_thumbnail_025_029_2026-09-09.png",
+    "planning/animatic_plan.json"
+  ],
+  "readability_checks": {
+    "rough_pass_reviewed": true,
+    "thumbnail_readable": true,
+    "understandable_without_captions": true,
+    "one_focal_signal_per_shot": true,
+    "final_frames_pending": true,
+    "review_status": "rough_thumbnail_passed_final_frame_generation_pending",
+    "reviewed_at": "2026-09-09",
+    "reviewer_role": "independent-story-and-sequence-readability-audit"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "SH002",
+  "order": 2,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S1",
+  "timecode": "00:10-00:18",
+  "duration_seconds": 8,
+  "script_beat": "Question lands on students",
+  "shot_purpose": "让三位学生接住 SH001 的动作问题，先说出最自然的圆盘直觉，再切入 SH003 的固定中心图解。",
+  "location": "Garreg Mach training ground edge",
+  "characters_visible": "Female Byleth; optional student shoulder silhouettes",
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
+  ],
+  "frame_spec_path": "storyboards/SH002/frame_spec.md",
+  "prompt_path": "storyboards/SH002/prompt.md",
+  "negative_prompt_path": "storyboards/SH002/negative_prompt.md",
+  "start_frame": "storyboards/SH002/start.png",
+  "key_frame": "storyboards/SH002/key.png",
+  "end_frame": "storyboards/SH002/end.png",
+  "expected_clip": "clips/SH002.mp4",
+  "edit_in": "接 SH001 收势视线，切到三位学生的低机位反应。",
+  "edit_out": "从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。",
+  "screen_direction": "女贝老师面向画面右下方的木剑，学生在画面左后方虚化。",
+  "mathematical_locks": [
+    "This is a reaction bridge into the fixed-center circle intuition. Do not formalize unit endpoints here; keep the wooden sword as the object just demonstrated in SH001."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "identity_drift",
+    "math_accuracy",
+    "student_identity_scope"
+  ],
+  "continuity": {
+    "previous": "SH001",
+    "next": "SH003",
+    "in": "接 SH001 收势视线，切到三位学生的低机位反应。",
+    "out": "从梅尔赛德斯的“圆”直觉切到俯视固定中心旋转图。"
+  },
+  "reject_if": [
+    "BylethFemale identity drift; avoid smile",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Female Byleth becomes male Byleth, an adult mentor, a generic sorceress, or an ordinary student",
+    "Edelgard, Lysithea, or Mercedes becomes a generic house-color student, wrong costume, wrong hair/face, or is replaced by another student",
+    "SH002 repeats the full SH001 question instead of functioning as student reaction"
+  ]
+}

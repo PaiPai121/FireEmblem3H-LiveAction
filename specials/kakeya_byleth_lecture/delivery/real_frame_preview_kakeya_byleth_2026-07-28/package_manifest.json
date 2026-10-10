@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "package_type": "real_frame_preview",
+  "status": "blocked_needs_revision",
+  "created_at": "2026-07-28",
+  "source_manifest": "frame_generation_manifest.json",
+  "completed_shots": [
+    "SH001",
+    "SH002",
+    "SH003",
+    "SH004",
+    "SH005",
+    "SH006",
+    "SH007",
+    "SH008",
+    "SH009",
+    "SH010",
+    "SH011",
+    "SH012",
+    "SH013",
+    "SH014",
+    "SH015",
+    "SH016",
+    "SH017",
+    "SH018",
+    "SH019",
+    "SH020",
+    "SH021",
+    "SH022",
+    "SH023",
+    "SH024",
+    "SH025",
+    "SH026",
+    "SH027",
+    "SH028",
+    "SH029",
+    "SH030",
+    "SH031",
+    "SH032",
+    "SH033",
+    "SH034"
+  ],
+  "pending_shots": [],
+  "progress": {
+    "generated_real_frames": 102,
+    "total_required_real_frames": 102,
+    "remaining_real_frames": 0
+  },
+  "notes": [
+    "本预览只展示从 real_frames/ 复制来的真实起始帧、关键帧、结束帧。",
+    "storyboards/ 下的旧布局参考图不进入当前帧网格。",
+    "帧存在审计与帧变化审计分开：低帧差镜头只能说明三张图太接近，不能直接投产。",
+    "镜头必须通过视觉、数学、运动和连续性 QA 后，才能批准进入视频出片。"
+  ],
+  "frame_progression_audit": {
+    "status": "progression_passed",
+    "audit_path": "production_system/reviews/frame_progression_audit_2026-08-01.json",
+    "low_progression_count": 0,
+    "watch_count": 0
+  },
+  "shots": [
+    {
+      "id": "SH001",
+      "folder": "shots/001_SH001",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_motion_qa",
+      "duration_seconds": 10,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH002",
+      "folder": "shots/002_SH002",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_motion_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": {
+        "decision": "approved_replacement",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v1",
+        "candidate_frames": "regenerated_frame_candidates/SH002_identity_v1/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH002/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查通过：女贝老师、艾黛尔、莉丝缇亚、梅尔赛德斯身份明显贴近 selected asset。",
+          "三帧连续性成立，无数学/中文文字风险。"
+        ]
+      }
+    },
+    {
+      "id": "SH003",
+      "folder": "shots/003_SH003",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 6,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH004",
+      "folder": "shots/004_SH004",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 7,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH005",
+      "folder": "shots/005_SH005",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH006",
+      "folder": "shots/006_SH006",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH007",
+      "folder": "shots/007_SH007",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 11,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH008",
+      "folder": "shots/008_SH008",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 10,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH009",
+      "folder": "shots/009_SH009",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 11,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH010",
+      "folder": "shots/010_SH010",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "identity_regenerated_monitor_required",
+      "duration_seconds": 9,
+      "identity_visual_audit": {
+        "decision": "promoted_monitor_required",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v3",
+        "candidate_frames": "regenerated_frame_candidates/SH010_identity_v3/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH010/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查：人物不是抠图/拼贴感，女贝老师与艾黛尔身份成立，三帧连续性好。",
+          "deltoid 基本像三尖内摆线候选，但仍需监看是否被读成尖三角。",
+          "A = π/8 属数学符号，不是英文句子；仍标记文字风险监看。"
+        ]
+      }
+    },
+    {
+      "id": "SH011",
+      "folder": "shots/011_SH011",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 9,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH012",
+      "folder": "shots/012_SH012",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 7,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH013",
+      "folder": "shots/013_SH013",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 12,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH014",
+      "folder": "shots/014_SH014",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 11,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH015",
+      "folder": "shots/015_SH015",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 10,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH016",
+      "folder": "shots/016_SH016",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH017",
+      "folder": "shots/017_SH017",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH018",
+      "folder": "shots/018_SH018",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH019",
+      "folder": "shots/019_SH019",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH020",
+      "folder": "shots/020_SH020",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "identity_regenerated_monitor_required",
+      "duration_seconds": 10,
+      "identity_visual_audit": {
+        "decision": "promoted_monitor_required",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v1",
+        "candidate_frames": "regenerated_frame_candidates/SH020_identity_v1/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH020/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查：四人身份整体贴近 selected asset，显著优于旧帧。",
+          "Perron 碎片和绿色方向带作为讲解视觉可读，但桌面细节复杂，需监看运动中是否跳动。"
+        ]
+      }
+    },
+    {
+      "id": "SH021",
+      "folder": "shots/021_SH021",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH022",
+      "folder": "shots/022_SH022",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 12,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH023",
+      "folder": "shots/023_SH023",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 12,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH024",
+      "folder": "shots/024_SH024",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 7,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH025",
+      "folder": "shots/025_SH025",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH026",
+      "folder": "shots/026_SH026",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "math_visual_qa_spot_pass_monitor_required",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH027",
+      "folder": "shots/027_SH027",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 11,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH028",
+      "folder": "shots/028_SH028",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 11,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH029",
+      "folder": "shots/029_SH029",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 7,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH030",
+      "folder": "shots/030_SH030",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH031",
+      "folder": "shots/031_SH031",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_math_visual_qa",
+      "duration_seconds": 10,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH032",
+      "folder": "shots/032_SH032",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "identity_regenerated_visual_review_passed",
+      "duration_seconds": 8,
+      "identity_visual_audit": {
+        "decision": "approved_replacement",
+        "review": "production_system/reviews/candidate_promotion_review_2026-08-04.md",
+        "candidate": "identity_v2",
+        "candidate_frames": "regenerated_frame_candidates/SH032_identity_v2/",
+        "previous_frames_archive": "real_frames_replaced/2026-08-04_identity_regeneration/SH032/",
+        "no_character_cutout_or_matting": true,
+        "findings": [
+          "独立审查通过：人物不是抠图/拼贴感，课堂空间完整。",
+          "四名角色身份对背影课堂反应足够成立，中文标题自然，无英文/日文，无明显黑板补丁。"
+        ]
+      }
+    },
+    {
+      "id": "SH033",
+      "folder": "shots/033_SH033",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 8,
+      "identity_visual_audit": null
+    },
+    {
+      "id": "SH034",
+      "folder": "shots/034_SH034",
+      "status": "real_frames_complete_monitor_required",
+      "review_status": "needs_visual_qa",
+      "duration_seconds": 6,
+      "identity_visual_audit": null
+    }
+  ],
+  "byleth_costume_fidelity_gate": {
+    "status": "blocked_needs_revision",
+    "review": "production_system/reviews/byleth_costume_fidelity_blocker_2026-08-05.md",
+    "note": "Existing visible Female Byleth frames were generated before the canon academy costume lock was corrected. They are layout references only until re-reviewed or regenerated."
+  }
+}

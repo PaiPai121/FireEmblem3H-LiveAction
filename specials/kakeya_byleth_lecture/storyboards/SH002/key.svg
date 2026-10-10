@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#101820"/>
+  <text x="64" y="86" fill="#f5f7fb" font-size="42" font-weight="900">SH002 · KEY · 圆盘直觉</text>
+  <text x="64" y="152" fill="#d9e2ef" font-size="28">梅尔赛德斯：扫过的地方，至少像一个圆吧？</text>
+  <circle cx="640" cy="390" r="150" fill="none" stroke="#7eb6ff" stroke-width="16" opacity=".7"/>
+</svg>

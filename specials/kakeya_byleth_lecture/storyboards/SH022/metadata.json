@@ -1,0 +1,45 @@
+{
+  "id": "SH022",
+  "order": 22,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S4",
+  "timecode": "04:48-05:08",
+  "duration_seconds": 20,
+  "script_beat": "Iteration acceleration",
+  "shot_purpose": "展示重复 cut-slide-overlap 使面积任意小，并用 epsilon 目标表达定量收缩。",
+  "location": "Diagram-to-abstract transition",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH022/frame_spec.md",
+  "prompt_path": "storyboards/SH022/prompt.md",
+  "negative_prompt_path": "storyboards/SH022/negative_prompt.md",
+  "start_frame": "storyboards/SH022/start.png",
+  "key_frame": "storyboards/SH022/key.png",
+  "end_frame": "storyboards/SH022/end.png",
+  "expected_clip": "clips/SH022.mp4",
+  "edit_in": "从方向审计色带生长出第一层树。",
+  "edit_out": "树状碎片淡入教室黑板总结。",
+  "screen_direction": "每一轮从左到右：切分、平移、重叠；方向尺固定在底部。",
+  "mathematical_locks": [
+    "Perron tree proof must keep direction coverage visible: cut assigns direction intervals, slide translates without rotation, overlap shrinks union area without deleting directions."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH021",
+    "next": "SH023",
+    "in": "从方向审计色带生长出第一层树。",
+    "out": "树状碎片淡入教室黑板总结。"
+  },
+  "reject_if": [
+    "Too fast to understand",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Perron cut, slide, overlap, or direction-preservation logic is visually broken"
+  ]
+}

@@ -1,0 +1,1178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>女贝老师二维挂谷镜头帧预览</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #20242a; background: #f7f8fa; }
+    header { position: sticky; top: 0; z-index: 2; background: rgba(255,255,255,.96); border-bottom: 1px solid #d8dee8; padding: 16px 22px; }
+    h1 { margin: 0; font-size: 20px; letter-spacing: 0; }
+    .meta { margin-top: 4px; color: #657182; font-size: 13px; line-height: 1.5; }
+    main { max-width: 1440px; margin: 0 auto; padding: 20px 22px 40px; }
+    section { border-top: 1px solid #d8dee8; padding: 22px 0 28px; }
+    h2 { margin: 0 0 10px; font-size: 18px; letter-spacing: 0; }
+    .shot-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; color: #4f5b6a; font-size: 13px; }
+    .pill { border: 1px solid #cfd7e3; border-radius: 999px; padding: 4px 9px; background: #fff; }
+    .motion-risk { border-color: #9ec2aa; color: #21633a; background: #f3fbf5; }
+    .motion-risk.watch { border-color: #e2bd69; color: #755314; background: #fff8e7; }
+    .motion-risk.high { border-color: #d98b8b; color: #8d2727; background: #fff0f0; }
+    .story { flex-basis: 100%; color: #20242a; font-weight: 800; line-height: 1.6; }
+    .check { flex-basis: 100%; color: #344052; }
+    .dialogue { display: grid; gap: 6px; margin: 0 0 14px; border: 1px solid #d8dee8; border-left: 4px solid #174ea6; border-radius: 8px; background: #fff; padding: 12px 14px; }
+    .dialogue strong { font-size: 13px; color: #174ea6; }
+    .dialogue p { margin: 0; color: #20242a; font-size: 14px; line-height: 1.6; }
+    .dialogue b { color: #344052; }
+    .identity-block { display: grid; gap: 6px; margin: 0 0 14px; border: 1px solid #d98b8b; border-left: 4px solid #b23b3b; border-radius: 8px; background: #fff0f0; padding: 12px 14px; }
+    .identity-block strong { color: #8d2727; }
+    .identity-block p { margin: 0; color: #532424; font-size: 14px; line-height: 1.6; }
+    .identity-block a { color: #8d2727; font-weight: 900; text-decoration: none; }
+    .guide { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 16px 0; }
+    .guide article { border: 1px solid #d8dee8; border-radius: 8px; background: #fff; padding: 14px; }
+    .guide strong { display: block; margin-bottom: 6px; font-size: 14px; }
+    .guide p { margin: 0; color: #4f5b6a; font-size: 13px; line-height: 1.55; }
+    .frames { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    figure { margin: 0; border: 1px solid #d8dee8; border-radius: 8px; overflow: hidden; background: #fff; }
+    img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #eef2f7; }
+    figcaption { padding: 8px 10px; border-top: 1px solid #d8dee8; font-size: 13px; font-weight: 700; }
+    .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .links a { color: #174ea6; text-decoration: none; border: 1px solid #cfd7e3; background: #fff; border-radius: 6px; padding: 7px 10px; font-size: 13px; font-weight: 700; }
+    .asset-links { margin-top: 14px; }
+    .links a.primary-link { color: #fff; background: #174ea6; border-color: #174ea6; }
+    .secondary-links { margin-top: 8px; align-items: center; }
+    .link-note { color: #657182; font-size: 13px; font-weight: 800; }
+    .pending { color: #657182; background: #fff; border: 1px dashed #cfd7e3; border-radius: 8px; padding: 14px; }
+    @media (max-width: 900px) { .frames, .guide { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>女贝老师二维挂谷镜头帧预览</h1>
+    <div class="meta">
+      已完成真实三帧镜头：SH001-SH034。待完成：无。<br>
+      真实帧：102/102。状态：可审片帧包，仍需视频运动 QA，尚未批准直接生成成片。
+    </div>
+  </header>
+  <main>
+    <div class="pending">这个页面只展示 real_frames 下的真实起始帧/关键帧/结束帧，不展示旧 storyboard 布局卡。三位学生互动锁定为：黑鹫艾黛尔、金鹿莉丝缇亚、青狮梅尔赛德斯。</div>
+    <div class="guide" aria-label="如何阅读这个镜头资产页">
+      <article>
+        <strong>这不是成片播放器</strong>
+        <p>这里是镜头资产审查页：每个镜头展示起始帧、关键帧、结束帧，用来检查画面、数学和连续性。</p>
+      </article>
+      <article>
+        <strong>SH001 怎么看</strong>
+        <p>SH001 现在是女贝老师站立持木剑、剑花一百八十度掉头、收势发问的三帧链。第一个画面必须先有戏，而不是地面标线。</p>
+      </article>
+      <article>
+        <strong>三帧变化审计</strong>
+        <p>低帧差需修订 0 镜头，运动监看 0 镜头。低帧差不等于文件重复，而是模型缺少足够动作锚点。</p>
+      </article>
+      <article>
+        <strong>提示词按钮怎么用</strong>
+        <p>只需要提交视频模型时，点“给模型用：主提示词”和“给模型用：负面约束”。分镜规格、提示词合同、元数据都只是审查资料。</p>
+      </article>
+      <article>
+        <strong>完整顺序怎么看</strong>
+        <p>按 SH001 到 SH034 顺序看：物体建立、提出问题、候选答案、凸区域、Perron 反转、δ 管、意义和片名揭示。</p>
+      </article>
+      <article>
+        <strong>证明怎么补全</strong>
+        <p><a href="../../proof_notes_freshman_level.md">打开大一高数版证明备注</a>，核对三尖内摆线、凸三角形、Perron 树、δ 管和维数的推理桥。</p>
+      </article>
+      <article>
+        <strong>当前 QA 边界</strong>
+        <p><a href="../../production_system/reviews/full_image_script_math_qa_2026-07-31.md">打开图片/剧本/数学 QA</a>，查看哪些已校验、哪些仍需全尺寸逐图审查。</p>
+      </article>
+    </div>
+    <section id="SH001">
+      <h2>SH001 - 剑花引题</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：needs_visual_motion_qa</span>
+        <span class="pill">时长：10 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：开场：女贝老师先用舒展的木剑剑花演示一百八十度掉头，让观众先感到“扫过区域”的问题。</span>
+        <span class="check">主要检查：检查女贝老师站立持木剑开场，剑花一百八十度掉头动作清楚；不得回到地面标线或红端点。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 47.44，关键-结束 11.06，起始-结束 48.45。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>音效：</b>木制训练剑划过空气，收势轻停。</p><p><b>女贝老师：</b>今天我们不练普通挥剑。我们考虑一个新问题：让这把剑转个一百八十度掉头，它扫过的区域能小到什么程度？</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/001_SH001/start_frame.png" alt="SH001 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/001_SH001/key_frame.png" alt="SH001 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/001_SH001/end_frame.png" alt="SH001 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/001_SH001/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/001_SH001/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/001_SH001/frame_spec.html">分镜规格</a>
+        <a href="shots/001_SH001/prompt.html">提示词合同</a>
+        <a href="shots/001_SH001/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH002">
+      <h2>SH002 - 学生接住问题</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：needs_visual_motion_qa</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：三位学生接住问题，梅尔赛德斯说出圆盘直觉，为 SH003 的固定中心错误直觉铺路。</span>
+        <span class="check">主要检查：检查三位学生接住 SH001 的问题，梅尔赛德斯的圆盘直觉能自然引到 SH003。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 7.54，关键-结束 3.99，起始-结束 7.91。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>梅尔赛德斯：</b>扫过的地方，至少像一个圆吧？</p>
+      </div>
+      <div class="identity-block"><strong>角色身份阻塞</strong><p>独立审查通过：女贝老师、艾黛尔、莉丝缇亚、梅尔赛德斯身份明显贴近 selected asset。 三帧连续性成立，无数学/中文文字风险。</p><p><a href="../../production_system/reviews/candidate_promotion_review_2026-08-04.md">打开角色身份审查</a> · <a href="../../">打开对照图</a></p></div>
+      <div class="frames">
+        <figure><img src="shots/002_SH002/start_frame.png" alt="SH002 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/002_SH002/key_frame.png" alt="SH002 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/002_SH002/end_frame.png" alt="SH002 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/002_SH002/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/002_SH002/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/002_SH002/frame_spec.html">分镜规格</a>
+        <a href="shots/002_SH002/prompt.html">提示词合同</a>
+        <a href="shots/002_SH002/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH003">
+      <h2>SH003 - 圆盘直觉</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：6 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：让观众先说出最自然但不够好的圆盘直觉。</span>
+        <span class="check">主要检查：检查圆盘只作为错误直觉，不要被误认为最终答案。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 14.22，关键-结束 7.02，起始-结束 19.10。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>梅尔赛德斯：</b>至少要给它一个圆吧？</p><p><b>女贝老师：</b>如果中心固定，是圆。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/003_SH003/start_frame.png" alt="SH003 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/003_SH003/key_frame.png" alt="SH003 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/003_SH003/end_frame.png" alt="SH003 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/003_SH003/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/003_SH003/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/003_SH003/frame_spec.html">分镜规格</a>
+        <a href="shots/003_SH003/prompt.html">提示词合同</a>
+        <a href="shots/003_SH003/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH004">
+      <h2>SH004 - 规则澄清</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：7 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：澄清规则：针的中心不必固定，问题比原地旋转更自由。</span>
+        <span class="check">主要检查：检查固定中心被划掉、中心可移动的规则清楚。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.16，关键-结束 4.85，起始-结束 8.39。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>但中心不必固定。只要整根剑始终在区域内。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/004_SH004/start_frame.png" alt="SH004 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/004_SH004/key_frame.png" alt="SH004 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/004_SH004/end_frame.png" alt="SH004 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/004_SH004/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/004_SH004/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/004_SH004/frame_spec.html">分镜规格</a>
+        <a href="shots/004_SH004/prompt.html">提示词合同</a>
+        <a href="shots/004_SH004/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH005">
+      <h2>SH005 - 方向覆盖</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：把口语问题翻译成数学条件：每个方向都要有一条完整单位线段。</span>
+        <span class="check">主要检查：检查每个方向都有完整一单位线段，方向扇不要拥挤。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 3.87，关键-结束 3.97，起始-结束 7.17。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>换句话说，每个方向，都要能放下一条完整的一单位线段。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/005_SH005/start_frame.png" alt="SH005 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/005_SH005/key_frame.png" alt="SH005 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/005_SH005/end_frame.png" alt="SH005 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/005_SH005/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/005_SH005/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/005_SH005/frame_spec.html">分镜规格</a>
+        <a href="shots/005_SH005/prompt.html">提示词合同</a>
+        <a href="shots/005_SH005/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH006">
+      <h2>SH006 - 三尖内摆线候选</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：引出漂亮候选：三尖内摆线，但只说候选，不说最终答案。</span>
+        <span class="check">主要检查：检查三尖内摆线是候选区域，莉丝缇亚提问不干扰图形。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 6.82，关键-结束 2.67，起始-结束 8.26。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>莉丝缇亚：</b>那就让边界刚好卡住每个方向？</p><p><b>女贝老师：</b>一个漂亮的候选，是三尖内摆线。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/006_SH006/start_frame.png" alt="SH006 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/006_SH006/key_frame.png" alt="SH006 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/006_SH006/end_frame.png" alt="SH006 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/006_SH006/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/006_SH006/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/006_SH006/frame_spec.html">分镜规格</a>
+        <a href="shots/006_SH006/prompt.html">提示词合同</a>
+        <a href="shots/006_SH006/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH007">
+      <h2>SH007 - 切线弦机制</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：11 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：解释为什么三尖内摆线能让单位针转过所有方向。</span>
+        <span class="check">主要检查：检查红色切线弦始终在三尖内摆线区域内。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 5.04，关键-结束 2.82，起始-结束 5.34。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>沿着曲线取切线，切线截出的弦可以当作这把剑。</p><p><b>女贝老师：</b>切点沿曲线走一圈，切线方向也连续转过一圈。方向不会漏。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/007_SH007/start_frame.png" alt="SH007 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/007_SH007/key_frame.png" alt="SH007 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/007_SH007/end_frame.png" alt="SH007 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/007_SH007/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/007_SH007/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/007_SH007/frame_spec.html">分镜规格</a>
+        <a href="shots/007_SH007/prompt.html">提示词合同</a>
+        <a href="shots/007_SH007/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH008">
+      <h2>SH008 - 尺度锁定</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：10 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：锁定尺度：把候选图形和长度为 1 的针对齐。</span>
+        <span class="check">主要检查：检查 4a=1 与 a=1/4 尺度关系清楚。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 8.57，关键-结束 11.18，起始-结束 17.11。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>这里的 a 是生成三尖内摆线的尺度。每条可用切线弦正好分成四段 a。</p><p><b>女贝老师：</b>所以弦长是四 a。剑长要等于一，就取 a 等于四分之一。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/008_SH008/start_frame.png" alt="SH008 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/008_SH008/key_frame.png" alt="SH008 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/008_SH008/end_frame.png" alt="SH008 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/008_SH008/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/008_SH008/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/008_SH008/frame_spec.html">分镜规格</a>
+        <a href="shots/008_SH008/prompt.html">提示词合同</a>
+        <a href="shots/008_SH008/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH009">
+      <h2>SH009 - 候选面积</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：11 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：给出候选面积，让观众记住 pi/8 这个看似很小的数。</span>
+        <span class="check">主要检查：检查 A=pi/8 是候选面积，不说成最终最小。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 9.28，关键-结束 2.71，起始-结束 10.74。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>面积用参数曲线的面积公式算：A 等于二 pi a 平方。</p><p><b>女贝老师：</b>代入 a 等于四分之一，得到 pi 除以八。它还只是候选。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/009_SH009/start_frame.png" alt="SH009 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/009_SH009/key_frame.png" alt="SH009 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/009_SH009/end_frame.png" alt="SH009 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/009_SH009/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/009_SH009/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/009_SH009/frame_spec.html">分镜规格</a>
+        <a href="shots/009_SH009/prompt.html">提示词合同</a>
+        <a href="shots/009_SH009/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH010">
+      <h2>SH010 - 候选受到质疑</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：identity_regenerated_monitor_required</span>
+        <span class="pill">时长：9 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：艾黛尔提出数学质疑：还没证明三尖内摆线不能再小，并指出非凸空隙可能被重复利用。</span>
+        <span class="check">主要检查：检查艾黛尔可见发问，女贝老师停顿，三尖候选板书仍可读。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 21.38，关键-结束 21.74，起始-结束 20.21。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>艾黛尔：</b>优雅，不等于最小。我还没听到：为什么不能再小？</p><p><b>艾黛尔：</b>如果边界允许凹进去，空隙也许还能被重复利用。</p>
+      </div>
+      <div class="identity-block"><strong>角色身份阻塞</strong><p>独立审查：人物不是抠图/拼贴感，女贝老师与艾黛尔身份成立，三帧连续性好。 deltoid 基本像三尖内摆线候选，但仍需监看是否被读成尖三角。 A = π/8 属数学符号，不是英文句子；仍标记文字风险监看。</p><p><a href="../../production_system/reviews/candidate_promotion_review_2026-08-04.md">打开角色身份审查</a> · <a href="../../">打开对照图</a></p></div>
+      <div class="frames">
+        <figure><img src="shots/010_SH010/start_frame.png" alt="SH010 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/010_SH010/key_frame.png" alt="SH010 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/010_SH010/end_frame.png" alt="SH010 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/010_SH010/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/010_SH010/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/010_SH010/frame_spec.html">分镜规格</a>
+        <a href="shots/010_SH010/prompt.html">提示词合同</a>
+        <a href="shots/010_SH010/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH011">
+      <h2>SH011 - 切换到凸区域</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：9 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：把凸区域作为规整特例：先处理容易记账的版本，再回到一般非凸情况。</span>
+        <span class="check">主要检查：检查凹陷区域被拉成凸边界的概念清楚。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 5.24，关键-结束 3.85，起始-结束 4.86。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>很好。一般情况太滑，我们先看一个比较规整的特例。</p><p><b>女贝老师：</b>加一条规则：区域不能凹进去。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/011_SH011/start_frame.png" alt="SH011 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/011_SH011/key_frame.png" alt="SH011 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/011_SH011/end_frame.png" alt="SH011 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/011_SH011/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/011_SH011/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/011_SH011/frame_spec.html">分镜规格</a>
+        <a href="shots/011_SH011/prompt.html">提示词合同</a>
+        <a href="shots/011_SH011/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH012">
+      <h2>SH012 - 凸性定义</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：7 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：用两点连线说明什么叫凸，降低理解门槛。</span>
+        <span class="check">主要检查：检查两点连线是否离开区域的凸性测试清楚。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 3.14，关键-结束 5.51，起始-结束 8.36。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>凸，就是图形中任意两点之间的线段，都不离开图形。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/012_SH012/start_frame.png" alt="SH012 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/012_SH012/key_frame.png" alt="SH012 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/012_SH012/end_frame.png" alt="SH012 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/012_SH012/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/012_SH012/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/012_SH012/frame_spec.html">分镜规格</a>
+        <a href="shots/012_SH012/prompt.html">提示词合同</a>
+        <a href="shots/012_SH012/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH013">
+      <h2>SH013 - Triangle can turn</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：12 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：先证明高为 1 的等边三角形确实能覆盖所有方向，而不是只报面积。</span>
+        <span class="check">主要检查：检查高为 1 的等边三角形只属于凸区域最优。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 3.34，关键-结束 4.89，起始-结束 7.83。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>在凸区域里，最省的是高为一的等边三角形。</p><p><b>旁白 / 女贝老师：</b>先证明它真的能转。方向只看零到一百八十度就够了。</p><p><b>女贝老师：</b>红剑在三组支撑边之间连续滑动。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/013_SH013/start_frame.png" alt="SH013 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/013_SH013/key_frame.png" alt="SH013 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/013_SH013/end_frame.png" alt="SH013 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/013_SH013/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/013_SH013/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/013_SH013/frame_spec.html">分镜规格</a>
+        <a href="shots/013_SH013/prompt.html">提示词合同</a>
+        <a href="shots/013_SH013/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH014">
+      <h2>SH014 - Triangle area and theorem</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：11 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：说明三角形支撑边如何给出至少一单位长的截线，面积计算退到辅助位置。</span>
+        <span class="check">主要检查：检查 s=2/sqrt(3) 与 A=1/sqrt(3) 公式间距。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 8.96，关键-结束 10.61，起始-结束 16.99。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>高是一，边长是二除以根号三，面积是一除以根号三。</p><p><b>旁白 / 女贝老师：</b>最危险的位置，是它刚好沿着一条高；这时长度正好是一。其余方向能截到更长线段。</p><p><b>女贝老师：</b>凸世界的下界是定理：任何凸区域都不能比它更省。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/014_SH014/start_frame.png" alt="SH014 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/014_SH014/key_frame.png" alt="SH014 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/014_SH014/end_frame.png" alt="SH014 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/014_SH014/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/014_SH014/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/014_SH014/frame_spec.html">分镜规格</a>
+        <a href="shots/014_SH014/prompt.html">提示词合同</a>
+        <a href="shots/014_SH014/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH015">
+      <h2>SH015 - 为什么凸性昂贵</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：10 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：由“凸性会填满空隙”自然引出非凸碎片，并提出必须检查方向是否仍在。</span>
+        <span class="check">主要检查：检查左侧凸包补满空隙、右侧非凸碎片保留空隙。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 5.60，关键-结束 7.69，起始-结束 2.52。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>凸性会自动把空隙补满。所以在凸世界里，面积不能随便省。</p><p><b>莉丝缇亚：</b>那如果去掉凸性，让区域碎开呢？</p><p><b>女贝老师：</b>这正是反转的入口。但碎开之后，必须记账：每个方向还在不在。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/015_SH015/start_frame.png" alt="SH015 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/015_SH015/key_frame.png" alt="SH015 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/015_SH015/end_frame.png" alt="SH015 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/015_SH015/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/015_SH015/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/015_SH015/frame_spec.html">分镜规格</a>
+        <a href="shots/015_SH015/prompt.html">提示词合同</a>
+        <a href="shots/015_SH015/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH016">
+      <h2>SH016 - 佩龙树准备</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：把 Perron 树作为非凸碎片的方向账本引入：一个三角形先保存一段连续方向。</span>
+        <span class="check">主要检查：检查佩龙树初始三角形和方向扇可读。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 60.61，关键-结束 41.20，起始-结束 55.26。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>这个方向账本，从一个三角形开始。</p><p><b>旁白 / 女贝老师：</b>从顶点到底边，每一条线都代表一个方向。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/016_SH016/start_frame.png" alt="SH016 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/016_SH016/key_frame.png" alt="SH016 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/016_SH016/end_frame.png" alt="SH016 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/016_SH016/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/016_SH016/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/016_SH016/frame_spec.html">分镜规格</a>
+        <a href="shots/016_SH016/prompt.html">提示词合同</a>
+        <a href="shots/016_SH016/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH017">
+      <h2>SH017 - 切分步骤</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：第一步切分：把方向任务分给更细的小三角形。</span>
+        <span class="check">主要检查：检查切分后方向区间没有被删掉。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 6.28，关键-结束 5.20，起始-结束 7.65。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>第一步，切分。每块只负责一小段方向。</p><p><b>音效：</b>粉笔或沙面被切开的声音。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/017_SH017/start_frame.png" alt="SH017 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/017_SH017/key_frame.png" alt="SH017 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/017_SH017/end_frame.png" alt="SH017 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/017_SH017/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/017_SH017/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/017_SH017/frame_spec.html">分镜规格</a>
+        <a href="shots/017_SH017/prompt.html">提示词合同</a>
+        <a href="shots/017_SH017/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH018">
+      <h2>SH018 - 平移步骤</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：第二步平移：位置改变，但方向不变。</span>
+        <span class="check">主要检查：检查碎片只平移不旋转。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.15，关键-结束 5.64，起始-结束 4.37。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>第二步，平移。平移不会改变方向。</p><p><b>音效：</b>细碎三角片滑动。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/018_SH018/start_frame.png" alt="SH018 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/018_SH018/key_frame.png" alt="SH018 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/018_SH018/end_frame.png" alt="SH018 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/018_SH018/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/018_SH018/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/018_SH018/frame_spec.html">分镜规格</a>
+        <a href="shots/018_SH018/prompt.html">提示词合同</a>
+        <a href="shots/018_SH018/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH019">
+      <h2>SH019 - 重叠步骤</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：第三步重叠：面积变小，但方向覆盖仍在。</span>
+        <span class="check">主要检查：检查重叠缩小面积，同时方向没有丢。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.31，关键-结束 5.45，起始-结束 6.24。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>第三步，重叠。面积减少，方向没有丢。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/019_SH019/start_frame.png" alt="SH019 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/019_SH019/key_frame.png" alt="SH019 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/019_SH019/end_frame.png" alt="SH019 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/019_SH019/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/019_SH019/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/019_SH019/frame_spec.html">分镜规格</a>
+        <a href="shots/019_SH019/prompt.html">提示词合同</a>
+        <a href="shots/019_SH019/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH020">
+      <h2>SH020 - 学生质疑</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：identity_regenerated_monitor_required</span>
+        <span class="pill">时长：10 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：学生替观众追问“这算不算作弊”，女贝老师回答：看方向，不看原位置。</span>
+        <span class="check">主要检查：检查三位学生围沙盘互动；木尺指向绿色方向带而不是原位置。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 7.40，关键-结束 6.11，起始-结束 5.13。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>艾黛尔：</b>但这样还是同一个问题吗？</p><p><b>女贝老师：</b>看方向，不看原来的位置。切分没有删方向。平移没有转方向。</p><p><b>旁白 / 女贝老师：</b>真正连续转动时，再用很窄的连接走廊把动作接起来；走廊面积也能做得任意小。</p>
+      </div>
+      <div class="identity-block"><strong>角色身份阻塞</strong><p>独立审查：四人身份整体贴近 selected asset，显著优于旧帧。 Perron 碎片和绿色方向带作为讲解视觉可读，但桌面细节复杂，需监看运动中是否跳动。</p><p><a href="../../production_system/reviews/candidate_promotion_review_2026-08-04.md">打开角色身份审查</a> · <a href="../../">打开对照图</a></p></div>
+      <div class="frames">
+        <figure><img src="shots/020_SH020/start_frame.png" alt="SH020 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/020_SH020/key_frame.png" alt="SH020 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/020_SH020/end_frame.png" alt="SH020 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/020_SH020/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/020_SH020/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/020_SH020/frame_spec.html">分镜规格</a>
+        <a href="shots/020_SH020/prompt.html">提示词合同</a>
+        <a href="shots/020_SH020/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH021">
+      <h2>SH021 - 方向审计</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：做方向审计，确认切分和平移没有丢方向。</span>
+        <span class="check">主要检查：检查方向区间前后仍被完整覆盖。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.71，关键-结束 9.20，起始-结束 8.93。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>看方向，不看原来的位置。切分没有删方向。平移没有转方向。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/021_SH021/start_frame.png" alt="SH021 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/021_SH021/key_frame.png" alt="SH021 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/021_SH021/end_frame.png" alt="SH021 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/021_SH021/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/021_SH021/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/021_SH021/frame_spec.html">分镜规格</a>
+        <a href="shots/021_SH021/prompt.html">提示词合同</a>
+        <a href="shots/021_SH021/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH022">
+      <h2>SH022 - 迭代加速</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：12 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：展示迭代：重复切分、平移、重叠，面积可以任意小。</span>
+        <span class="check">主要检查：检查切分、平移、重叠的迭代顺序不要过快。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 6.15，关键-结束 7.92，起始-结束 9.76。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>重复切分、平移、重叠。方向尺没有缺口，金色并集面积却按我们指定的比例下降。</p><p><b>女贝老师：</b>给定任何 epsilon，只要多迭代几轮，面积就能压到 epsilon 以下。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/022_SH022/start_frame.png" alt="SH022 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/022_SH022/key_frame.png" alt="SH022 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/022_SH022/end_frame.png" alt="SH022 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/022_SH022/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/022_SH022/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/022_SH022/frame_spec.html">分镜规格</a>
+        <a href="shots/022_SH022/prompt.html">提示词合同</a>
+        <a href="shots/022_SH022/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH023">
+      <h2>SH023 - 经典结论</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：12 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：给出经典结论：原问题没有最小正面积答案。</span>
+        <span class="check">主要检查：检查结论是没有最小正面积，不是三尖内摆线获胜。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 3.50，关键-结束 7.50，起始-结束 7.05。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>所以原来的最小面积问题，没有最小正答案。</p><p><b>女贝老师：</b>小到任意正数以下，不是等于不存在。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/023_SH023/start_frame.png" alt="SH023 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/023_SH023/key_frame.png" alt="SH023 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/023_SH023/end_frame.png" alt="SH023 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/023_SH023/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/023_SH023/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/023_SH023/frame_spec.html">分镜规格</a>
+        <a href="shots/023_SH023/prompt.html">提示词合同</a>
+        <a href="shots/023_SH023/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH024">
+      <h2>SH024 - 零面积澄清</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：7 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：防误解：面积为零不是不存在。</span>
+        <span class="check">主要检查：检查面积为零不是集合不存在。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 9.00，关键-结束 10.71，起始-结束 17.38。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>但面积为零，不等于不存在。线段也没有平面面积。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/024_SH024/start_frame.png" alt="SH024 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/024_SH024/key_frame.png" alt="SH024 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/024_SH024/end_frame.png" alt="SH024 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/024_SH024/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/024_SH024/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/024_SH024/frame_spec.html">分镜规格</a>
+        <a href="shots/024_SH024/prompt.html">提示词合同</a>
+        <a href="shots/024_SH024/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH025">
+      <h2>SH025 - δ 管方法</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：引入 δ 管：把线段加粗，方便估计和比较。</span>
+        <span class="check">主要检查：检查 δ 管宽度清楚。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 6.55，关键-结束 6.19，起始-结束 12.47。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>要研究这种集合，数学家常把线段加粗一点，变成宽度为 delta 的细管。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/025_SH025/start_frame.png" alt="SH025 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/025_SH025/key_frame.png" alt="SH025 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/025_SH025/end_frame.png" alt="SH025 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/025_SH025/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/025_SH025/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/025_SH025/frame_spec.html">分镜规格</a>
+        <a href="shots/025_SH025/prompt.html">提示词合同</a>
+        <a href="shots/025_SH025/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH026">
+      <h2>SH026 - 角度与重叠</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：数学视觉抽查通过，仍需监看</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：说明两根细管的重叠和夹角有关。</span>
+        <span class="check">主要检查：检查角度 α 与重叠长度的关系清楚。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 8.61，关键-结束 2.96，起始-结束 10.76。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>两根管的夹角叫 alpha。夹角越小，重叠越长；夹角越大，重叠越短。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/026_SH026/start_frame.png" alt="SH026 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/026_SH026/key_frame.png" alt="SH026 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/026_SH026/end_frame.png" alt="SH026 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/026_SH026/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/026_SH026/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/026_SH026/frame_spec.html">分镜规格</a>
+        <a href="shots/026_SH026/prompt.html">提示词合同</a>
+        <a href="shots/026_SH026/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH027">
+      <h2>SH027 - 关键估计</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：11 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：把图像关系压成一个估计式，连接几何和分析。</span>
+        <span class="check">主要检查：检查 overlap &lt;= C delta^2 / alpha 与图中金色重叠区对应。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 5.02，关键-结束 3.57，起始-结束 4.68。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>沿管方向的交叠长度约是 delta 除以 sin alpha，宽度是 delta。</p><p><b>旁白 / 女贝老师：</b>所以面积约是 delta 平方除以 sin alpha；小角度时 sin alpha 和 alpha 同量级。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/027_SH027/start_frame.png" alt="SH027 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/027_SH027/key_frame.png" alt="SH027 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/027_SH027/end_frame.png" alt="SH027 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/027_SH027/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/027_SH027/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/027_SH027/frame_spec.html">分镜规格</a>
+        <a href="shots/027_SH027/prompt.html">提示词合同</a>
+        <a href="shots/027_SH027/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH028">
+      <h2>SH028 - 维数直觉</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：11 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：解释面积可以消失，但尺度复杂度没有消失。</span>
+        <span class="check">主要检查：检查面积可消失但尺度复杂度仍高的直觉清楚。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 8.91，关键-结束 9.27，起始-结束 9.21。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>维数先看网格变细时，需要多少小格子才能盖住它。普通曲线大约需要一除以 delta 个。</p><p><b>女贝老师：</b>这种多方向集合不能像曲线那样省格子；二维的答案是，它仍然有二维复杂度。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/028_SH028/start_frame.png" alt="SH028 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/028_SH028/key_frame.png" alt="SH028 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/028_SH028/end_frame.png" alt="SH028 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/028_SH028/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/028_SH028/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/028_SH028/frame_spec.html">分镜规格</a>
+        <a href="shots/028_SH028/prompt.html">提示词合同</a>
+        <a href="shots/028_SH028/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH029">
+      <h2>SH029 - 二维定理</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：7 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：陈述二维现代结论：面积可为 0，维数仍为 2。</span>
+        <span class="check">主要检查：检查二维结论“面积可为 0，维数为 2”不被过度解释。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.43，关键-结束 2.73，起始-结束 5.62。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>它可以没有面积，但维数必须是二。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/029_SH029/start_frame.png" alt="SH029 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/029_SH029/key_frame.png" alt="SH029 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/029_SH029/end_frame.png" alt="SH029 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/029_SH029/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/029_SH029/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/029_SH029/frame_spec.html">分镜规格</a>
+        <a href="shots/029_SH029/prompt.html">提示词合同</a>
+        <a href="shots/029_SH029/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH030">
+      <h2>SH030 - 数学影响</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：把影响收束到证明机制：多方向细管如何重叠。</span>
+        <span class="check">主要检查：检查影响部分仍围绕细管重叠、平均、波包，不变成生活比喻。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.09，关键-结束 2.18，起始-结束 5.92。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>后来真正留下来的，不是这把剑。</p><p><b>女贝老师：</b>而是一个模型：许多方向的细长结构，能怎样重叠？</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/030_SH030/start_frame.png" alt="SH030 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/030_SH030/key_frame.png" alt="SH030 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/030_SH030/end_frame.png" alt="SH030 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/030_SH030/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/030_SH030/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/030_SH030/frame_spec.html">分镜规格</a>
+        <a href="shots/030_SH030/prompt.html">提示词合同</a>
+        <a href="shots/030_SH030/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH031">
+      <h2>SH031 - 最大函数与波包</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待数学视觉审查</span>
+        <span class="pill">时长：10 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：把细管重叠连接到最大函数和波包等具体数学对象。</span>
+        <span class="check">主要检查：检查最大平均、波包、细管重叠三组概念可读。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.60，关键-结束 6.44，起始-结束 10.55。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>这进入几何测度论，帮助人们区分面积和维数。</p><p><b>旁白 / 女贝老师：</b>也进入调和分析。沿许多方向取平均时，细管的重叠会制造困难。</p><p><b>旁白 / 女贝老师：</b>在波动问题里，一个波可以拆成许多沿不同方向传播的波包。波包也像细管。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/031_SH031/start_frame.png" alt="SH031 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/031_SH031/key_frame.png" alt="SH031 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/031_SH031/end_frame.png" alt="SH031 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/031_SH031/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/031_SH031/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/031_SH031/frame_spec.html">分镜规格</a>
+        <a href="shots/031_SH031/prompt.html">提示词合同</a>
+        <a href="shots/031_SH031/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH032">
+      <h2>SH032 - 名称揭示</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：identity_regenerated_visual_review_passed</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：最后才揭示名字：挂谷针问题，让观众先理解再记名。</span>
+        <span class="check">主要检查：检查中文标题“挂谷针问题”可读，三位学生有反应，不能出现英文标题。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 4.93，关键-结束 9.78，起始-结束 11.76。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>女贝老师：</b>所以问题不是针。问题是方向。</p><p><b>女贝老师：</b>这个问题，叫挂谷针问题。</p>
+      </div>
+      <div class="identity-block"><strong>角色身份阻塞</strong><p>独立审查通过：人物不是抠图/拼贴感，课堂空间完整。 四名角色身份对背影课堂反应足够成立，中文标题自然，无英文/日文，无明显黑板补丁。</p><p><a href="../../production_system/reviews/candidate_promotion_review_2026-08-04.md">打开角色身份审查</a> · <a href="../../">打开对照图</a></p></div>
+      <div class="frames">
+        <figure><img src="shots/032_SH032/start_frame.png" alt="SH032 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/032_SH032/key_frame.png" alt="SH032 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/032_SH032/end_frame.png" alt="SH032 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/032_SH032/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/032_SH032/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/032_SH032/frame_spec.html">分镜规格</a>
+        <a href="shots/032_SH032/prompt.html">提示词合同</a>
+        <a href="shots/032_SH032/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH033">
+      <h2>SH033 - 回到木剑</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：8 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：回到开头木剑，把抽象证明和最初物体连回一起。</span>
+        <span class="check">主要检查：检查结尾回到木剑和多方向结构，蓝色零面积影子不可消失。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 7.33，关键-结束 6.65，起始-结束 12.71。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>旁白 / 女贝老师：</b>面积可以小到消失。方向的复杂度，不会消失。</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/033_SH033/start_frame.png" alt="SH033 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/033_SH033/key_frame.png" alt="SH033 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/033_SH033/end_frame.png" alt="SH033 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/033_SH033/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/033_SH033/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/033_SH033/frame_spec.html">分镜规格</a>
+        <a href="shots/033_SH033/prompt.html">提示词合同</a>
+        <a href="shots/033_SH033/metadata.html">元数据</a>
+      </div>
+    </section>
+    <section id="SH034">
+      <h2>SH034 - 结尾卡</h2>
+      <div class="shot-meta">
+        <span class="pill">状态：服装一致性阻塞，仅作 layout reference</span>
+        <span class="pill">审查：待视觉审查</span>
+        <span class="pill">时长：6 秒</span>
+        <span class="pill motion-risk">三帧变化：变化清楚</span>
+        <span class="story">成片作用：结尾命题：面积可以小到消失，方向复杂度不会消失。</span>
+        <span class="check">主要检查：检查结尾命题清楚：面积可以小到消失，方向复杂度不会消失。</span>
+        <span class="check">帧变化审计：变化清楚。起始-关键 6.53，关键-结束 7.06，起始-结束 4.49。三帧差异足够支撑起始、动作峰值和结束状态。</span>
+      </div>
+      <div class="dialogue" aria-label="中文台词和旁白">
+        <strong>中文台词 / 旁白锚点</strong>
+        <p><b>结尾卡：</b>挂谷针问题</p><p><b>结尾卡：</b>多方向结构能怎样重叠？</p>
+      </div>
+      
+      <div class="frames">
+        <figure><img src="shots/034_SH034/start_frame.png" alt="SH034 起始帧"><figcaption>起始帧</figcaption></figure>
+        <figure><img src="shots/034_SH034/key_frame.png" alt="SH034 关键帧"><figcaption>关键帧</figcaption></figure>
+        <figure><img src="shots/034_SH034/end_frame.png" alt="SH034 结束帧"><figcaption>结束帧</figcaption></figure>
+      </div>
+      <div class="links asset-links">
+        <a class="primary-link" href="shots/034_SH034/model_prompt.html">给模型用：主提示词</a>
+        <a class="primary-link" href="shots/034_SH034/negative_prompt.html">给模型用：负面约束</a>
+      </div>
+      <div class="links secondary-links">
+        <span class="link-note">审查资料：</span>
+        <a href="shots/034_SH034/frame_spec.html">分镜规格</a>
+        <a href="shots/034_SH034/prompt.html">提示词合同</a>
+        <a href="shots/034_SH034/metadata.html">元数据</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

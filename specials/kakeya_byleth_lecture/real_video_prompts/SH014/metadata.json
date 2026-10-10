@@ -1,0 +1,15 @@
+{
+  "id": "SH014",
+  "status": "real_frame_prompt_ready_motion_qa_required",
+  "source_frame_spec": "storyboards/SH014/frame_spec.md",
+  "source_frames": {
+    "start_frame": "real_frames/SH014/start.png",
+    "key_frame": "real_frames/SH014/key.png",
+    "end_frame": "real_frames/SH014/end.png"
+  },
+  "prompt": "real_video_prompts/SH014/prompt.md",
+  "model_prompt": "real_video_prompts/SH014/model_prompt.md",
+  "negative_prompt": "real_video_prompts/SH014/negative_prompt.md",
+  "contract": "video-prompt-qa prompt-contract.md",
+  "approval": "monitor_required"
+}

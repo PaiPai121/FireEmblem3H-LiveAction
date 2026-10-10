@@ -1,0 +1,222 @@
+{
+  "schema": "arknights_live_action_realism_gate_audit_v1",
+  "generatedAt": "2026-07-31T16:53:25.262Z",
+  "root": "assets/characters/arknights_live_action",
+  "summary": {
+    "selectedPassingRealismGate": 30,
+    "selectedMissingRealismGate": 0
+  },
+  "failingSelected": [],
+  "passingSelected": [
+    {
+      "rank": 1,
+      "operator": "Wiš'adel",
+      "slug": "Wisadel",
+      "status": "pass",
+      "selected": "Wisadel/selected.png"
+    },
+    {
+      "rank": 4,
+      "operator": "Texas the Omertosa",
+      "slug": "Texas_the_Omertosa",
+      "status": "pass",
+      "selected": "Texas_the_Omertosa/selected.png"
+    },
+    {
+      "rank": 5,
+      "operator": "Surtr",
+      "slug": "Surtr",
+      "status": "pass",
+      "selected": "Surtr/selected.png"
+    },
+    {
+      "rank": 7,
+      "operator": "Kal'tsit",
+      "slug": "Kaltsit",
+      "status": "pass",
+      "selected": "Kaltsit/selected.png"
+    },
+    {
+      "rank": 8,
+      "operator": "Logos",
+      "slug": "Logos",
+      "status": "pass",
+      "selected": "Logos/selected.png"
+    },
+    {
+      "rank": 10,
+      "operator": "Degenbrecher",
+      "slug": "Degenbrecher",
+      "status": "pass",
+      "selected": "Degenbrecher/selected.png"
+    },
+    {
+      "rank": 12,
+      "operator": "Nian",
+      "slug": "Nian",
+      "status": "pass",
+      "selected": "Nian/selected.png"
+    },
+    {
+      "rank": 15,
+      "operator": "SilverAsh",
+      "slug": "SilverAsh",
+      "status": "pass",
+      "selected": "SilverAsh/selected.png"
+    },
+    {
+      "rank": 16,
+      "operator": "Exusiai",
+      "slug": "Exusiai",
+      "status": "pass",
+      "selected": "Exusiai/selected.png"
+    },
+    {
+      "rank": 19,
+      "operator": "Mudrock",
+      "slug": "Mudrock",
+      "status": "pass",
+      "selected": "Mudrock/selected.png"
+    },
+    {
+      "rank": 20,
+      "operator": "Saria",
+      "slug": "Saria",
+      "status": "pass",
+      "selected": "Saria/selected.png"
+    },
+    {
+      "rank": 21,
+      "operator": "Eyjafjalla",
+      "slug": "Eyjafjalla",
+      "status": "pass",
+      "selected": "Eyjafjalla/selected.png"
+    },
+    {
+      "rank": 23,
+      "operator": "Ch'en",
+      "slug": "Chen",
+      "status": "pass",
+      "selected": "Chen/selected.png"
+    },
+    {
+      "rank": 24,
+      "operator": "Nearl the Radiant Knight",
+      "slug": "Nearl_the_Radiant_Knight",
+      "status": "pass",
+      "selected": "Nearl_the_Radiant_Knight/selected.png"
+    },
+    {
+      "rank": 32,
+      "operator": "Executor the Ex Foedere",
+      "slug": "Executor_the_Ex_Foedere",
+      "status": "pass",
+      "selected": "Executor_the_Ex_Foedere/selected.png"
+    },
+    {
+      "rank": 39,
+      "operator": "Phantom",
+      "slug": "Phantom",
+      "status": "pass",
+      "selected": "Phantom/selected.png"
+    },
+    {
+      "rank": 41,
+      "operator": "Passenger",
+      "slug": "Passenger",
+      "status": "pass",
+      "selected": "Passenger/selected.png"
+    },
+    {
+      "rank": 47,
+      "operator": "Specter the Unchained",
+      "slug": "Specter_the_Unchained",
+      "status": "pass",
+      "selected": "Specter_the_Unchained/selected.png"
+    },
+    {
+      "rank": 48,
+      "operator": "Penance",
+      "slug": "Penance",
+      "status": "pass",
+      "selected": "Penance/selected.png"
+    },
+    {
+      "rank": 50,
+      "operator": "Qiubai",
+      "slug": "Qiubai",
+      "status": "pass",
+      "selected": "Qiubai/selected.png"
+    },
+    {
+      "rank": 51,
+      "operator": "Hoederer",
+      "slug": "Hoederer",
+      "status": "pass",
+      "selected": "Hoederer/selected.png"
+    },
+    {
+      "rank": 55,
+      "operator": "Zuo Le",
+      "slug": "Zuo_Le",
+      "status": "pass",
+      "selected": "Zuo_Le/selected.png"
+    },
+    {
+      "rank": 58,
+      "operator": "Kirin R Yato",
+      "slug": "Kirin_R_Yato",
+      "status": "pass",
+      "selected": "Kirin_R_Yato/selected.png"
+    },
+    {
+      "rank": 59,
+      "operator": "Fiammetta",
+      "slug": "Fiammetta",
+      "status": "pass",
+      "selected": "Fiammetta/selected.png"
+    },
+    {
+      "rank": 61,
+      "operator": "Stainless",
+      "slug": "Stainless",
+      "status": "pass",
+      "selected": "Stainless/selected.png"
+    },
+    {
+      "rank": 62,
+      "operator": "Ebenholz",
+      "slug": "Ebenholz",
+      "status": "pass",
+      "selected": "Ebenholz/selected.png"
+    },
+    {
+      "rank": 63,
+      "operator": "Gnosis",
+      "slug": "Gnosis",
+      "status": "pass",
+      "selected": "Gnosis/selected.png"
+    },
+    {
+      "rank": 64,
+      "operator": "Flametail",
+      "slug": "Flametail",
+      "status": "pass",
+      "selected": "Flametail/selected.png"
+    },
+    {
+      "rank": 65,
+      "operator": "Saileach",
+      "slug": "Saileach",
+      "status": "pass",
+      "selected": "Saileach/selected.png"
+    },
+    {
+      "rank": 66,
+      "operator": "Fartooth",
+      "slug": "Fartooth",
+      "status": "pass",
+      "selected": "Fartooth/selected.png"
+    }
+  ]
+}

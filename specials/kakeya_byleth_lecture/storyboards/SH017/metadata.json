@@ -1,0 +1,46 @@
+{
+  "id": "SH017",
+  "order": 17,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S4",
+  "timecode": "03:31-03:45",
+  "duration_seconds": 14,
+  "script_beat": "Cut step",
+  "shot_purpose": "显示 Perron 操作第一步：切分只分配方向，不删除方向。",
+  "location": "Sand-table diagram",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH017/frame_spec.md",
+  "prompt_path": "storyboards/SH017/prompt.md",
+  "negative_prompt_path": "storyboards/SH017/negative_prompt.md",
+  "start_frame": "storyboards/SH017/start.png",
+  "key_frame": "storyboards/SH017/key.png",
+  "end_frame": "storyboards/SH017/end.png",
+  "expected_clip": "clips/SH017.mp4",
+  "edit_in": "从 SH016 底边准备切分处接入。",
+  "edit_out": "切到小三角形水平滑动。",
+  "screen_direction": "底边从左到右被切分，顶点不移动。",
+  "mathematical_locks": [
+    "Perron tree proof must keep direction coverage visible: cut assigns direction intervals, slide translates without rotation, overlap shrinks union area without deleting directions."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH016",
+    "next": "SH018",
+    "in": "从 SH016 底边准备切分处接入。",
+    "out": "切到小三角形水平滑动。"
+  },
+  "reject_if": [
+    "Cut may look like deleting directions",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Perron cut, slide, overlap, or direction-preservation logic is visually broken"
+  ]
+}

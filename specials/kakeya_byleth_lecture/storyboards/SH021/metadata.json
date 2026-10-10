@@ -1,0 +1,45 @@
+{
+  "id": "SH021",
+  "order": 21,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S4",
+  "timecode": "04:30-04:48",
+  "duration_seconds": 18,
+  "script_beat": "Direction audit",
+  "shot_purpose": "作为证明检查点：切分和平移保留方向覆盖。",
+  "location": "Clean diagram space",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH021/frame_spec.md",
+  "prompt_path": "storyboards/SH021/prompt.md",
+  "negative_prompt_path": "storyboards/SH021/negative_prompt.md",
+  "start_frame": "storyboards/SH021/start.png",
+  "key_frame": "storyboards/SH021/key.png",
+  "end_frame": "storyboards/SH021/end.png",
+  "expected_clip": "clips/SH021.mp4",
+  "edit_in": "从木尺指向方向带接入。",
+  "edit_out": "色带分段变成迭代树的第一层。",
+  "screen_direction": "上下对照，不改变左右方向顺序。",
+  "mathematical_locks": [
+    "Perron tree proof must keep direction coverage visible: cut assigns direction intervals, slide translates without rotation, overlap shrinks union area without deleting directions."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH020",
+    "next": "SH022",
+    "in": "从木尺指向方向带接入。",
+    "out": "色带分段变成迭代树的第一层。"
+  },
+  "reject_if": [
+    "This is the proof checkpoint",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Perron cut, slide, overlap, or direction-preservation logic is visually broken"
+  ]
+}

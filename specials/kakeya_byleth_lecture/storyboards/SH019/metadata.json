@@ -1,0 +1,45 @@
+{
+  "id": "SH019",
+  "order": 19,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S4",
+  "timecode": "04:00-04:16",
+  "duration_seconds": 16,
+  "script_beat": "Overlap step",
+  "shot_purpose": "显示重叠让并集面积变小，同时方向仍然存在。",
+  "location": "Sand-table diagram",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH019/frame_spec.md",
+  "prompt_path": "storyboards/SH019/prompt.md",
+  "negative_prompt_path": "storyboards/SH019/negative_prompt.md",
+  "start_frame": "storyboards/SH019/start.png",
+  "key_frame": "storyboards/SH019/key.png",
+  "end_frame": "storyboards/SH019/end.png",
+  "expected_clip": "clips/SH019.mp4",
+  "edit_in": "从水平滑动轨迹接入。",
+  "edit_out": "切到学生质疑这个操作是否作弊。",
+  "screen_direction": "碎片向中心压缩，绿色方向标尺不减少。",
+  "mathematical_locks": [
+    "Perron tree proof must keep direction coverage visible: cut assigns direction intervals, slide translates without rotation, overlap shrinks union area without deleting directions."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH018",
+    "next": "SH020",
+    "in": "从水平滑动轨迹接入。",
+    "out": "切到学生质疑这个操作是否作弊。"
+  },
+  "reject_if": [
+    "Need union outline not just pile",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "Perron cut, slide, overlap, or direction-preservation logic is visually broken"
+  ]
+}

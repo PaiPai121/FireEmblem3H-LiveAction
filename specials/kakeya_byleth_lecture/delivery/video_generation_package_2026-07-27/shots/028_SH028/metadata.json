@@ -1,0 +1,20 @@
+{
+  "id": "SH028",
+  "order": 28,
+  "status": "monitor_required",
+  "duration_seconds": 15,
+  "expected_clip": "clips/SH028.mp4",
+  "edit_in": "从估计式右侧的图形像素化进网格。",
+  "edit_out": "网格整理成黑板上二维定理。",
+  "audio_anchor": "",
+  "continuity_previous": "KAK-BYLETH-PROMPT-SH027",
+  "continuity_next": "KAK-BYLETH-PROMPT-SH029",
+  "model_notes": [
+    "Use these PNGs as storyboard/diagrammatic image-to-video inputs.",
+    "Preserve the text, diagram geometry, Female Byleth reference panel, and start/key/end action chain.",
+    "This package is suitable for storyboard animatic or explanatory video generation; photoreal/cinematic repaint remains an optional later style pass."
+  ],
+  "reject_if": [],
+  "review_status": "superseded_pending_motion_qa",
+  "approval_note": "旧版交接包仅作历史参考；当前权威入口为真实帧中文审查页，视频出片需先通过运动 QA。"
+}

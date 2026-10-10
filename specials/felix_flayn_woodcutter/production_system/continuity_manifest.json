@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "project": "felix_flayn_woodcutter",
+  "pairs": [
+    {
+      "id": "FFWC-SH001->FFWC-SH002",
+      "from": "FFWC-SH001",
+      "to": "FFWC-SH002",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pending_real_frames",
+        "identity": "pending_real_frames",
+        "setting": "pending_real_frames"
+      },
+      "notes": "Continuity to be reviewed after real frames exist."
+    },
+    {
+      "id": "FFWC-SH002->FFWC-SH003",
+      "from": "FFWC-SH002",
+      "to": "FFWC-SH003",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pending_real_frames",
+        "identity": "pending_real_frames",
+        "prop_bridge": "pending_real_frames"
+      },
+      "notes": "Woodpile reveal continuity to be reviewed after real frames exist."
+    },
+    {
+      "id": "FFWC-SH003->FFWC-SH004",
+      "from": "FFWC-SH003",
+      "to": "FFWC-SH004",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pending_real_frames",
+        "identity": "pending_real_frames",
+        "prop_bridge": "pending_real_frames"
+      },
+      "notes": "Log placement and safe sword distance to be reviewed after real frames exist."
+    },
+    {
+      "id": "FFWC-SH004->FFWC-SH005",
+      "from": "FFWC-SH004",
+      "to": "FFWC-SH005",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "monitor_required",
+      "checks": {
+        "screen_direction": "pending_real_frames",
+        "identity": "pending_real_frames",
+        "prop_bridge": "pending_real_frames"
+      },
+      "notes": "Split wood pile continuity to be reviewed after real frames exist."
+    }
+  ]
+}

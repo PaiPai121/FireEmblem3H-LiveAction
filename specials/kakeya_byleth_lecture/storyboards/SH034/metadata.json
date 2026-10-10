@@ -1,0 +1,45 @@
+{
+  "id": "SH034",
+  "order": 34,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S7",
+  "timecode": "08:04-08:12",
+  "duration_seconds": 8,
+  "script_beat": "End card",
+  "shot_purpose": "用一句话收束全片论点，形成可记住的结尾。",
+  "location": "Parchment title card",
+  "characters_visible": "No character",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH034/frame_spec.md",
+  "prompt_path": "storyboards/SH034/prompt.md",
+  "negative_prompt_path": "storyboards/SH034/negative_prompt.md",
+  "start_frame": "storyboards/SH034/start.png",
+  "key_frame": "storyboards/SH034/key.png",
+  "end_frame": "storyboards/SH034/end.png",
+  "expected_clip": "clips/SH034.mp4",
+  "edit_in": "从 SH033 蓝影淡出到羊皮纸。",
+  "edit_out": "淡出黑场。",
+  "screen_direction": "文字居中，红线段水平。",
+  "mathematical_locks": [
+    "Impact must stay tied to proof mechanisms: tube overlap, maximal averages, wave packets, Kakeya maximal-function intuition, and combinatorial geometry; no loose daily-life claims."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH033",
+    "next": null,
+    "in": "从 SH033 蓝影淡出到羊皮纸。",
+    "out": "淡出黑场。"
+  },
+  "reject_if": [
+    "No extra formulas",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "impact is presented as a loose life metaphor instead of proof-derived tube/wave/maximal-average structure"
+  ]
+}

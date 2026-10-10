@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no broad Felix grin, no mocking Flayn, no romance framing, no visible crowd focus, no subtitles, no captions, no text, no watermarks, no logos, no modern tools, no camera spin, no mouth distortion.

@@ -12,6 +12,20 @@ For production purposes, all current Scene09 start/key frames are downgraded to 
 
 Audit synthesis: `episodes/EP02/scene09_audit_synthesis_2026-07-20.md`. Independent audits can prioritize rebuild order, but they do not restore video readiness to the current batch.
 
+Generation source update, 2026-07-21:
+
+- Shootability audit: `episodes/EP02/scene09_script_shootability_audit_2026-07-21.md`
+- Shooting script v2: `episodes/EP02/scene09_shooting_script_v2_2026-07-21.md`
+- Shot list v2: `episodes/EP02/scene09_shot_list_v2_2026-07-21.md`
+
+The 2026-07-19 full prompt delivery package is historical until this v2 source is converted into fresh image briefs and locally re-audited frames.
+
+P1 source fixes applied on 2026-07-21 before generation:
+
+- Shot033D now explicitly includes Manuela's brief Nosferatu pressure beat before Ingrid cuts the return path.
+- Shot032 / Dedue-Mercedes wording now uses "shield-line restoration" and removes external cinematic-reference language from generation source.
+- Shooting Script V2 Beat15 is split into 15A Golden Deer stand-down, 15B Black Eagles stand-down, 15C Blue Lions stand-down, and 15D full-field resolution so generation follows separated exit shots.
+
 ## Why A Full Rebuild Is Needed
 
 - Many frames rely on generic or mannequin-like faces instead of the selected character assets.

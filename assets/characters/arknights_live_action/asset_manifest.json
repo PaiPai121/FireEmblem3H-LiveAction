@@ -1,0 +1,3818 @@
+{
+  "schema": "arknights_live_action_asset_manifest_v1",
+  "generatedAt": "2026-07-31T16:53:25.053Z",
+  "root": "assets/characters/arknights_live_action",
+  "qaPolicy": {
+    "referenceGate": "Do not generate or promote named operator candidates without approved visual references.",
+    "castingStyleBible": "CASTING_STYLE_BIBLE.md",
+    "realismStyleBible": "REALISM_STYLE_BIBLE.md",
+    "promotionRule": "Only selected.png is treated as production-ready, and only after reference, costume, face-diversity, realism, artifact, and downstream-usability QA. Candidate and rejected images must not enter downstream video packages.",
+    "rejectedRule": "Rejected material may be displayed only as a negative reference."
+  },
+  "roster": {
+    "count": 93,
+    "rankingSource": "provisional_manual_popularity_order; replace with selected CN/global poll when provided",
+    "rosterSourceStatus": "needs_verification_against_current_official_six_star_operator_list"
+  },
+  "stats": {
+    "total": 93,
+    "selected": 30,
+    "selected_missing_realism_gate": 0,
+    "candidate": 20,
+    "candidate_monitor_required": 24,
+    "candidate_blocked_reference": 0,
+    "candidate_blocked_revision": 1,
+    "rejected": 11,
+    "needs_reference": 2,
+    "scaffolded": 5
+  },
+  "operators": [
+    {
+      "rank": 1,
+      "operator": "Wiš'adel",
+      "slug": "Wisadel",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Wisadel/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "older W-like danger, controlled menace, charismatic edge",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Wisadel",
+      "links": {
+        "readme": "Wisadel/README.md",
+        "identityLocks": "Wisadel/identity_locks.md",
+        "usageNotes": "Wisadel/usage_notes.md",
+        "references": "Wisadel/references/"
+      },
+      "references": [
+        "Wisadel/references/wiki_terra_wisadel_base.png",
+        "Wisadel/references/wiki_terra_wisadel_elite2.png",
+        "Wisadel/references/wiki_terra_wisadel_i_am_wisadel.png",
+        "Wisadel/references/wiki_terra_wisadel_supernova.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_realism_v5",
+          "path": "Wisadel/candidates_realism_v5",
+          "images": [
+            "Wisadel/candidates_realism_v5/candidate_01.png"
+          ],
+          "review": "Wisadel/candidates_realism_v5/review.md",
+          "prompt": "Wisadel/candidates_realism_v5/prompt.md",
+          "notes": "Wisadel/candidates_realism_v5/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v1",
+          "path": "Wisadel/candidates_reference_v1",
+          "images": [
+            "Wisadel/candidates_reference_v1/candidate_01.png"
+          ],
+          "review": "Wisadel/candidates_reference_v1/review.md",
+          "prompt": null,
+          "notes": null,
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v2",
+          "path": "Wisadel/candidates_reference_v2",
+          "images": [
+            "Wisadel/candidates_reference_v2/candidate_01.png"
+          ],
+          "review": "Wisadel/candidates_reference_v2/review.md",
+          "prompt": "Wisadel/candidates_reference_v2/prompt.md",
+          "notes": "Wisadel/candidates_reference_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        },
+        {
+          "name": "candidates_reference_v3",
+          "path": "Wisadel/candidates_reference_v3",
+          "images": [
+            "Wisadel/candidates_reference_v3/candidate_01.png"
+          ],
+          "review": "Wisadel/candidates_reference_v3/review.md",
+          "prompt": "Wisadel/candidates_reference_v3/prompt.md",
+          "notes": "Wisadel/candidates_reference_v3/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        },
+        {
+          "name": "candidates_reference_v4",
+          "path": "Wisadel/candidates_reference_v4",
+          "images": [
+            "Wisadel/candidates_reference_v4/candidate_01.png"
+          ],
+          "review": "Wisadel/candidates_reference_v4/review.md",
+          "prompt": "Wisadel/candidates_reference_v4/prompt.md",
+          "notes": "Wisadel/candidates_reference_v4/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "operator": "W",
+      "slug": "W",
+      "rarity": 6,
+      "status": "needs_reference",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "dangerous grin, chaotic charm, sharp mercenary beauty",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "W",
+      "links": {
+        "readme": "W/README.md",
+        "identityLocks": "W/identity_locks.md",
+        "usageNotes": "W/usage_notes.md",
+        "references": "W/references/"
+      },
+      "references": [],
+      "candidateGroups": []
+    },
+    {
+      "rank": 3,
+      "operator": "Skadi the Corrupting Heart",
+      "slug": "Skadi_the_Corrupting_Heart",
+      "rarity": 6,
+      "status": "needs_reference",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "otherworldly, haunting, siren-like beauty",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Skadi_the_Corrupting_Heart",
+      "links": {
+        "readme": "Skadi_the_Corrupting_Heart/README.md",
+        "identityLocks": "Skadi_the_Corrupting_Heart/identity_locks.md",
+        "usageNotes": "Skadi_the_Corrupting_Heart/usage_notes.md",
+        "references": "Skadi_the_Corrupting_Heart/references/"
+      },
+      "references": [],
+      "candidateGroups": []
+    },
+    {
+      "rank": 4,
+      "operator": "Texas the Omertosa",
+      "slug": "Texas_the_Omertosa",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Texas_the_Omertosa/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "quiet, cool, exhausted-but-deadly elegance",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Texas_the_Omertosa",
+      "links": {
+        "readme": "Texas_the_Omertosa/README.md",
+        "identityLocks": "Texas_the_Omertosa/identity_locks.md",
+        "usageNotes": "Texas_the_Omertosa/usage_notes.md",
+        "references": "Texas_the_Omertosa/references/"
+      },
+      "references": [
+        "Texas_the_Omertosa/references/wiki_terra_texas_the_omertosa_base.png",
+        "Texas_the_Omertosa/references/wiki_terra_texas_the_omertosa_elite2.png",
+        "Texas_the_Omertosa/references/wiki_terra_texas_the_omertosa_icon.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Texas_the_Omertosa/candidates_base_v1",
+          "images": [
+            "Texas_the_Omertosa/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Texas_the_Omertosa/candidates_base_v1/review.md",
+          "prompt": "Texas_the_Omertosa/candidates_base_v1/prompt.md",
+          "notes": "Texas_the_Omertosa/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "operator": "Surtr",
+      "slug": "Surtr",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Surtr/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "blunt, fiery, aloof, high-impact beauty",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Surtr",
+      "links": {
+        "readme": "Surtr/README.md",
+        "identityLocks": "Surtr/identity_locks.md",
+        "usageNotes": "Surtr/usage_notes.md",
+        "references": "Surtr/references/"
+      },
+      "references": [
+        "Surtr/references/wiki_terra_surtr_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Surtr/candidates_base_v1",
+          "images": [
+            "Surtr/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Surtr/candidates_base_v1/review.md",
+          "prompt": "Surtr/candidates_base_v1/prompt.md",
+          "notes": "Surtr/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "operator": "Ch'en the Holungday",
+      "slug": "Chen_the_Holungday",
+      "rarity": 6,
+      "status": "candidate_blocked_revision",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "relaxed vacation confidence with athletic elegance",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Chen_the_Holungday",
+      "links": {
+        "readme": "Chen_the_Holungday/README.md",
+        "identityLocks": "Chen_the_Holungday/identity_locks.md",
+        "usageNotes": "Chen_the_Holungday/usage_notes.md",
+        "references": "Chen_the_Holungday/references/"
+      },
+      "references": [
+        "Chen_the_Holungday/references/wiki_terra_chen_the_holungday_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Chen_the_Holungday/candidates_base_v1",
+          "images": [],
+          "review": "Chen_the_Holungday/candidates_base_v1/review.md",
+          "prompt": "Chen_the_Holungday/candidates_base_v1/prompt.md",
+          "notes": "Chen_the_Holungday/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "operator": "Kal'tsit",
+      "slug": "Kaltsit",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Kaltsit/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "cool, intelligent, restrained, clinical elegance",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Kaltsit",
+      "links": {
+        "readme": "Kaltsit/README.md",
+        "identityLocks": "Kaltsit/identity_locks.md",
+        "usageNotes": "Kaltsit/usage_notes.md",
+        "references": "Kaltsit/references/"
+      },
+      "references": [
+        "Kaltsit/references/wiki_terra_kaltsit_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Kaltsit/candidates_base_v1",
+          "images": [
+            "Kaltsit/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Kaltsit/candidates_base_v1/review.md",
+          "prompt": "Kaltsit/candidates_base_v1/prompt.md",
+          "notes": "Kaltsit/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_v3",
+          "path": "Kaltsit/candidates_realism_v3",
+          "images": [
+            "Kaltsit/candidates_realism_v3/candidate_01.png"
+          ],
+          "review": "Kaltsit/candidates_realism_v3/review.md",
+          "prompt": "Kaltsit/candidates_realism_v3/prompt.md",
+          "notes": "Kaltsit/candidates_realism_v3/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        },
+        {
+          "name": "candidates_realism_v4",
+          "path": "Kaltsit/candidates_realism_v4",
+          "images": [
+            "Kaltsit/candidates_realism_v4/candidate_01.png"
+          ],
+          "review": "Kaltsit/candidates_realism_v4/review.md",
+          "prompt": "Kaltsit/candidates_realism_v4/prompt.md",
+          "notes": "Kaltsit/candidates_realism_v4/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_v5",
+          "path": "Kaltsit/candidates_realism_v5",
+          "images": [
+            "Kaltsit/candidates_realism_v5/candidate_01.png"
+          ],
+          "review": "Kaltsit/candidates_realism_v5/review.md",
+          "prompt": "Kaltsit/candidates_realism_v5/prompt.md",
+          "notes": "Kaltsit/candidates_realism_v5/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_young_v2",
+          "path": "Kaltsit/candidates_young_v2",
+          "images": [
+            "Kaltsit/candidates_young_v2/candidate_01.png"
+          ],
+          "review": "Kaltsit/candidates_young_v2/review.md",
+          "prompt": "Kaltsit/candidates_young_v2/prompt.md",
+          "notes": "Kaltsit/candidates_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "operator": "Logos",
+      "slug": "Logos",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Logos/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "pale, precise, mystical, intellectual elegance",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Logos",
+      "links": {
+        "readme": "Logos/README.md",
+        "identityLocks": "Logos/identity_locks.md",
+        "usageNotes": "Logos/usage_notes.md",
+        "references": "Logos/references/"
+      },
+      "references": [
+        "Logos/references/wiki_terra_logos_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Logos/candidates_base_v1",
+          "images": [
+            "Logos/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Logos/candidates_base_v1/review.md",
+          "prompt": "Logos/candidates_base_v1/prompt.md",
+          "notes": "Logos/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "operator": "Mlynar",
+      "slug": "Mlynar",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Mlynar/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "tired, mature, handsome, disillusioned authority",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Mlynar",
+      "links": {
+        "readme": "Mlynar/README.md",
+        "identityLocks": "Mlynar/identity_locks.md",
+        "usageNotes": "Mlynar/usage_notes.md",
+        "references": "Mlynar/references/"
+      },
+      "references": [
+        "Mlynar/references/wiki_terra_mlynar_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Mlynar/candidates_base_v1",
+          "images": [
+            "Mlynar/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Mlynar/candidates_base_v1/review.md",
+          "prompt": "Mlynar/candidates_base_v1/prompt.md",
+          "notes": "Mlynar/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "operator": "Degenbrecher",
+      "slug": "Degenbrecher",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Degenbrecher/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "strong, composed, knightly, severe beauty",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Degenbrecher",
+      "links": {
+        "readme": "Degenbrecher/README.md",
+        "identityLocks": "Degenbrecher/identity_locks.md",
+        "usageNotes": "Degenbrecher/usage_notes.md",
+        "references": "Degenbrecher/references/"
+      },
+      "references": [
+        "Degenbrecher/references/wiki_terra_degenbrecher_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Degenbrecher/candidates_base_v1",
+          "images": [
+            "Degenbrecher/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Degenbrecher/candidates_base_v1/review.md",
+          "prompt": "Degenbrecher/candidates_base_v1/prompt.md",
+          "notes": "Degenbrecher/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Degenbrecher/candidates_realism_young_v2",
+          "images": [
+            "Degenbrecher/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Degenbrecher/candidates_realism_young_v2/review.md",
+          "prompt": "Degenbrecher/candidates_realism_young_v2/prompt.md",
+          "notes": "Degenbrecher/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "operator": "Ling",
+      "slug": "Ling",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ling/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "mature, poetic, relaxed, wine-warm elegance",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ling",
+      "links": {
+        "readme": "Ling/README.md",
+        "identityLocks": "Ling/identity_locks.md",
+        "usageNotes": "Ling/usage_notes.md",
+        "references": "Ling/references/"
+      },
+      "references": [
+        "Ling/references/wiki_terra_ling_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ling/candidates_base_v1",
+          "images": [
+            "Ling/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ling/candidates_base_v1/review.md",
+          "prompt": "Ling/candidates_base_v1/prompt.md",
+          "notes": "Ling/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "operator": "Nian",
+      "slug": "Nian",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Nian/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "cute, pretty, mischievous young creator-director",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Nian",
+      "links": {
+        "readme": "Nian/README.md",
+        "identityLocks": "Nian/identity_locks.md",
+        "usageNotes": "Nian/usage_notes.md",
+        "references": "Nian/references/"
+      },
+      "references": [
+        "Nian/references/wiki_terra_nian_base.png",
+        "Nian/references/wiki_terra_nian_elite2.png",
+        "Nian/references/wiki_terra_nian_thunderbolt_director.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Nian/candidates_base_v1",
+          "images": [
+            "Nian/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Nian/candidates_base_v1/review.md",
+          "prompt": "Nian/candidates_base_v1/prompt.md",
+          "notes": "Nian/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_base_v10",
+          "path": "Nian/candidates_realism_base_v10",
+          "images": [
+            "Nian/candidates_realism_base_v10/candidate_01.png"
+          ],
+          "review": "Nian/candidates_realism_base_v10/review.md",
+          "prompt": "Nian/candidates_realism_base_v10/prompt.md",
+          "notes": "Nian/candidates_realism_base_v10/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v4",
+          "path": "Nian/candidates_reference_v4",
+          "images": [
+            "Nian/candidates_reference_v4/candidate_01.png",
+            "Nian/candidates_reference_v4/candidate_02_superseded.png"
+          ],
+          "review": "Nian/candidates_reference_v4/review.md",
+          "prompt": "Nian/candidates_reference_v4/prompt.md",
+          "notes": "Nian/candidates_reference_v4/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v5",
+          "path": "Nian/candidates_reference_v5",
+          "images": [
+            "Nian/candidates_reference_v5/candidate_01.png"
+          ],
+          "review": "Nian/candidates_reference_v5/review.md",
+          "prompt": "Nian/candidates_reference_v5/prompt.md",
+          "notes": "Nian/candidates_reference_v5/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v6",
+          "path": "Nian/candidates_reference_v6",
+          "images": [
+            "Nian/candidates_reference_v6/candidate_01.png"
+          ],
+          "review": "Nian/candidates_reference_v6/review.md",
+          "prompt": "Nian/candidates_reference_v6/prompt.md",
+          "notes": "Nian/candidates_reference_v6/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v7",
+          "path": "Nian/candidates_reference_v7",
+          "images": [
+            "Nian/candidates_reference_v7/candidate_01.png"
+          ],
+          "review": "Nian/candidates_reference_v7/review.md",
+          "prompt": "Nian/candidates_reference_v7/prompt.md",
+          "notes": "Nian/candidates_reference_v7/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v8",
+          "path": "Nian/candidates_reference_v8",
+          "images": [
+            "Nian/candidates_reference_v8/candidate_01.png"
+          ],
+          "review": "Nian/candidates_reference_v8/review.md",
+          "prompt": "Nian/candidates_reference_v8/prompt.md",
+          "notes": "Nian/candidates_reference_v8/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_reference_v9",
+          "path": "Nian/candidates_reference_v9",
+          "images": [
+            "Nian/candidates_reference_v9/candidate_01.png"
+          ],
+          "review": "Nian/candidates_reference_v9/review.md",
+          "prompt": "Nian/candidates_reference_v9/prompt.md",
+          "notes": "Nian/candidates_reference_v9/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "operator": "Dusk",
+      "slug": "Dusk",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Dusk/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "ethereal, introverted, painterly, distant beauty",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Dusk",
+      "links": {
+        "readme": "Dusk/README.md",
+        "identityLocks": "Dusk/identity_locks.md",
+        "usageNotes": "Dusk/usage_notes.md",
+        "references": "Dusk/references/"
+      },
+      "references": [
+        "Dusk/references/wiki_terra_dusk_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Dusk/candidates_base_v1",
+          "images": [
+            "Dusk/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Dusk/candidates_base_v1/review.md",
+          "prompt": "Dusk/candidates_base_v1/prompt.md",
+          "notes": "Dusk/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "operator": "Shu",
+      "slug": "Shu",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Shu/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Shu",
+      "links": {
+        "readme": "Shu/README.md",
+        "identityLocks": "Shu/identity_locks.md",
+        "usageNotes": "Shu/usage_notes.md",
+        "references": "Shu/references/"
+      },
+      "references": [
+        "Shu/references/wiki_terra_shu_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Shu/candidates_base_v1",
+          "images": [
+            "Shu/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Shu/candidates_base_v1/review.md",
+          "prompt": "Shu/candidates_base_v1/prompt.md",
+          "notes": "Shu/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "operator": "SilverAsh",
+      "slug": "SilverAsh",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "SilverAsh/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "refined, aristocratic, calculating presence",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "SilverAsh",
+      "links": {
+        "readme": "SilverAsh/README.md",
+        "identityLocks": "SilverAsh/identity_locks.md",
+        "usageNotes": "SilverAsh/usage_notes.md",
+        "references": "SilverAsh/references/"
+      },
+      "references": [
+        "SilverAsh/references/wiki_terra_silverash_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "SilverAsh/candidates_base_v1",
+          "images": [
+            "SilverAsh/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "SilverAsh/candidates_base_v1/review.md",
+          "prompt": "SilverAsh/candidates_base_v1/prompt.md",
+          "notes": "SilverAsh/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "SilverAsh/candidates_realism_young_v2",
+          "images": [
+            "SilverAsh/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "SilverAsh/candidates_realism_young_v2/review.md",
+          "prompt": "SilverAsh/candidates_realism_young_v2/prompt.md",
+          "notes": "SilverAsh/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        },
+        {
+          "name": "candidates_realism_young_v3",
+          "path": "SilverAsh/candidates_realism_young_v3",
+          "images": [
+            "SilverAsh/candidates_realism_young_v3/candidate_01.png"
+          ],
+          "review": "SilverAsh/candidates_realism_young_v3/review.md",
+          "prompt": "SilverAsh/candidates_realism_young_v3/prompt.md",
+          "notes": "SilverAsh/candidates_realism_young_v3/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "operator": "Exusiai",
+      "slug": "Exusiai",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Exusiai/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "sunny, energetic, mischievous, bright idol-like charm",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Exusiai",
+      "links": {
+        "readme": "Exusiai/README.md",
+        "identityLocks": "Exusiai/identity_locks.md",
+        "usageNotes": "Exusiai/usage_notes.md",
+        "references": "Exusiai/references/"
+      },
+      "references": [
+        "Exusiai/references/wiki_terra_exusiai_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Exusiai/candidates_base_v1",
+          "images": [
+            "Exusiai/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Exusiai/candidates_base_v1/review.md",
+          "prompt": "Exusiai/candidates_base_v1/prompt.md",
+          "notes": "Exusiai/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_base_v2",
+          "path": "Exusiai/candidates_base_v2",
+          "images": [
+            "Exusiai/candidates_base_v2/candidate_01.png"
+          ],
+          "review": "Exusiai/candidates_base_v2/review.md",
+          "prompt": "Exusiai/candidates_base_v2/prompt.md",
+          "notes": "Exusiai/candidates_base_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "operator": "Thorns",
+      "slug": "Thorns",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Thorns/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Thorns",
+      "links": {
+        "readme": "Thorns/README.md",
+        "identityLocks": "Thorns/identity_locks.md",
+        "usageNotes": "Thorns/usage_notes.md",
+        "references": "Thorns/references/"
+      },
+      "references": [
+        "Thorns/references/wiki_terra_thorns_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Thorns/candidates_base_v1",
+          "images": [
+            "Thorns/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Thorns/candidates_base_v1/review.md",
+          "prompt": "Thorns/candidates_base_v1/prompt.md",
+          "notes": "Thorns/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "operator": "Bagpipe",
+      "slug": "Bagpipe",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Bagpipe/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "sunny rural athletic charm, honest and bright",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Bagpipe",
+      "links": {
+        "readme": "Bagpipe/README.md",
+        "identityLocks": "Bagpipe/identity_locks.md",
+        "usageNotes": "Bagpipe/usage_notes.md",
+        "references": "Bagpipe/references/"
+      },
+      "references": [
+        "Bagpipe/references/wiki_terra_bagpipe_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Bagpipe/candidates_base_v1",
+          "images": [
+            "Bagpipe/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Bagpipe/candidates_base_v1/review.md",
+          "prompt": "Bagpipe/candidates_base_v1/prompt.md",
+          "notes": "Bagpipe/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "operator": "Mudrock",
+      "slug": "Mudrock",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Mudrock/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "quiet strength, hidden softness, armored loneliness",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Mudrock",
+      "links": {
+        "readme": "Mudrock/README.md",
+        "identityLocks": "Mudrock/identity_locks.md",
+        "usageNotes": "Mudrock/usage_notes.md",
+        "references": "Mudrock/references/"
+      },
+      "references": [
+        "Mudrock/references/wiki_terra_mudrock_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Mudrock/candidates_base_v1",
+          "images": [
+            "Mudrock/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Mudrock/candidates_base_v1/review.md",
+          "prompt": "Mudrock/candidates_base_v1/prompt.md",
+          "notes": "Mudrock/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "operator": "Saria",
+      "slug": "Saria",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Saria/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "mature, severe, protective, controlled authority",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Saria",
+      "links": {
+        "readme": "Saria/README.md",
+        "identityLocks": "Saria/identity_locks.md",
+        "usageNotes": "Saria/usage_notes.md",
+        "references": "Saria/references/"
+      },
+      "references": [
+        "Saria/references/wiki_terra_saria_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Saria/candidates_base_v1",
+          "images": [
+            "Saria/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Saria/candidates_base_v1/review.md",
+          "prompt": "Saria/candidates_base_v1/prompt.md",
+          "notes": "Saria/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Saria/candidates_realism_young_v2",
+          "images": [
+            "Saria/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Saria/candidates_realism_young_v2/review.md",
+          "prompt": "Saria/candidates_realism_young_v2/prompt.md",
+          "notes": "Saria/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v3",
+          "path": "Saria/candidates_realism_young_v3",
+          "images": [
+            "Saria/candidates_realism_young_v3/candidate_01.png"
+          ],
+          "review": "Saria/candidates_realism_young_v3/review.md",
+          "prompt": "Saria/candidates_realism_young_v3/prompt.md",
+          "notes": "Saria/candidates_realism_young_v3/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "operator": "Eyjafjalla",
+      "slug": "Eyjafjalla",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Eyjafjalla/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Eyjafjalla",
+      "links": {
+        "readme": "Eyjafjalla/README.md",
+        "identityLocks": "Eyjafjalla/identity_locks.md",
+        "usageNotes": "Eyjafjalla/usage_notes.md",
+        "references": "Eyjafjalla/references/"
+      },
+      "references": [
+        "Eyjafjalla/references/wiki_terra_eyjafjalla_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Eyjafjalla/candidates_base_v1",
+          "images": [
+            "Eyjafjalla/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Eyjafjalla/candidates_base_v1/review.md",
+          "prompt": "Eyjafjalla/candidates_base_v1/prompt.md",
+          "notes": "Eyjafjalla/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Eyjafjalla/candidates_realism_young_v2",
+          "images": [
+            "Eyjafjalla/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Eyjafjalla/candidates_realism_young_v2/review.md",
+          "prompt": "Eyjafjalla/candidates_realism_young_v2/prompt.md",
+          "notes": "Eyjafjalla/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "operator": "Blaze",
+      "slug": "Blaze",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Blaze/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Blaze",
+      "links": {
+        "readme": "Blaze/README.md",
+        "identityLocks": "Blaze/identity_locks.md",
+        "usageNotes": "Blaze/usage_notes.md",
+        "references": "Blaze/references/"
+      },
+      "references": [
+        "Blaze/references/wiki_terra_blaze_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Blaze/candidates_base_v1",
+          "images": [
+            "Blaze/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Blaze/candidates_base_v1/review.md",
+          "prompt": "Blaze/candidates_base_v1/prompt.md",
+          "notes": "Blaze/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "operator": "Ch'en",
+      "slug": "Chen",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Chen/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "disciplined, sharp, upright, heroic intensity",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Chen",
+      "links": {
+        "readme": "Chen/README.md",
+        "identityLocks": "Chen/identity_locks.md",
+        "usageNotes": "Chen/usage_notes.md",
+        "references": "Chen/references/"
+      },
+      "references": [
+        "Chen/references/wiki_terra_chen_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Chen/candidates_base_v1",
+          "images": [
+            "Chen/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Chen/candidates_base_v1/review.md",
+          "prompt": "Chen/candidates_base_v1/prompt.md",
+          "notes": "Chen/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "operator": "Nearl the Radiant Knight",
+      "slug": "Nearl_the_Radiant_Knight",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Nearl_the_Radiant_Knight/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Nearl_the_Radiant_Knight",
+      "links": {
+        "readme": "Nearl_the_Radiant_Knight/README.md",
+        "identityLocks": "Nearl_the_Radiant_Knight/identity_locks.md",
+        "usageNotes": "Nearl_the_Radiant_Knight/usage_notes.md",
+        "references": "Nearl_the_Radiant_Knight/references/"
+      },
+      "references": [
+        "Nearl_the_Radiant_Knight/references/wiki_terra_nearl_the_radiant_knight_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Nearl_the_Radiant_Knight/candidates_base_v1",
+          "images": [
+            "Nearl_the_Radiant_Knight/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Nearl_the_Radiant_Knight/candidates_base_v1/review.md",
+          "prompt": "Nearl_the_Radiant_Knight/candidates_base_v1/prompt.md",
+          "notes": "Nearl_the_Radiant_Knight/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "operator": "Horn",
+      "slug": "Horn",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Horn/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Horn",
+      "links": {
+        "readme": "Horn/README.md",
+        "identityLocks": "Horn/identity_locks.md",
+        "usageNotes": "Horn/usage_notes.md",
+        "references": "Horn/references/"
+      },
+      "references": [
+        "Horn/references/wiki_terra_horn_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Horn/candidates_base_v1",
+          "images": [
+            "Horn/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Horn/candidates_base_v1/review.md",
+          "prompt": "Horn/candidates_base_v1/prompt.md",
+          "notes": "Horn/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "operator": "Ines",
+      "slug": "Ines",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ines/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "sharp, dry, pragmatic, sly intelligence",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ines",
+      "links": {
+        "readme": "Ines/README.md",
+        "identityLocks": "Ines/identity_locks.md",
+        "usageNotes": "Ines/usage_notes.md",
+        "references": "Ines/references/"
+      },
+      "references": [
+        "Ines/references/wiki_terra_ines_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ines/candidates_base_v1",
+          "images": [
+            "Ines/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ines/candidates_base_v1/review.md",
+          "prompt": "Ines/candidates_base_v1/prompt.md",
+          "notes": "Ines/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "operator": "Typhon",
+      "slug": "Typhon",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Typhon/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "northern, focused, young hunter intensity",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Typhon",
+      "links": {
+        "readme": "Typhon/README.md",
+        "identityLocks": "Typhon/identity_locks.md",
+        "usageNotes": "Typhon/usage_notes.md",
+        "references": "Typhon/references/"
+      },
+      "references": [
+        "Typhon/references/wiki_terra_typhon_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Typhon/candidates_base_v1",
+          "images": [
+            "Typhon/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Typhon/candidates_base_v1/review.md",
+          "prompt": "Typhon/candidates_base_v1/prompt.md",
+          "notes": "Typhon/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "operator": "Virtuosa",
+      "slug": "Virtuosa",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Virtuosa/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "refined, uncanny, elegant artistic danger",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Virtuosa",
+      "links": {
+        "readme": "Virtuosa/README.md",
+        "identityLocks": "Virtuosa/identity_locks.md",
+        "usageNotes": "Virtuosa/usage_notes.md",
+        "references": "Virtuosa/references/"
+      },
+      "references": [
+        "Virtuosa/references/wiki_terra_virtuosa_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Virtuosa/candidates_base_v1",
+          "images": [
+            "Virtuosa/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Virtuosa/candidates_base_v1/review.md",
+          "prompt": "Virtuosa/candidates_base_v1/prompt.md",
+          "notes": "Virtuosa/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "operator": "Ascalon",
+      "slug": "Ascalon",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ascalon/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "shadowy, cool, controlled, assassin poise",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ascalon",
+      "links": {
+        "readme": "Ascalon/README.md",
+        "identityLocks": "Ascalon/identity_locks.md",
+        "usageNotes": "Ascalon/usage_notes.md",
+        "references": "Ascalon/references/"
+      },
+      "references": [
+        "Ascalon/references/wiki_terra_ascalon_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ascalon/candidates_base_v1",
+          "images": [
+            "Ascalon/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ascalon/candidates_base_v1/review.md",
+          "prompt": "Ascalon/candidates_base_v1/prompt.md",
+          "notes": "Ascalon/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "operator": "Goldenglow",
+      "slug": "Goldenglow",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Goldenglow/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "soft, nervous, sweet, warm youthful charm",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Goldenglow",
+      "links": {
+        "readme": "Goldenglow/README.md",
+        "identityLocks": "Goldenglow/identity_locks.md",
+        "usageNotes": "Goldenglow/usage_notes.md",
+        "references": "Goldenglow/references/"
+      },
+      "references": [
+        "Goldenglow/references/wiki_terra_goldenglow_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Goldenglow/candidates_base_v1",
+          "images": [
+            "Goldenglow/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Goldenglow/candidates_base_v1/review.md",
+          "prompt": "Goldenglow/candidates_base_v1/prompt.md",
+          "notes": "Goldenglow/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "operator": "Chongyue",
+      "slug": "Chongyue",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Chongyue/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Chongyue",
+      "links": {
+        "readme": "Chongyue/README.md",
+        "identityLocks": "Chongyue/identity_locks.md",
+        "usageNotes": "Chongyue/usage_notes.md",
+        "references": "Chongyue/references/"
+      },
+      "references": [
+        "Chongyue/references/wiki_terra_chongyue_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Chongyue/candidates_base_v1",
+          "images": [
+            "Chongyue/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Chongyue/candidates_base_v1/review.md",
+          "prompt": "Chongyue/candidates_base_v1/prompt.md",
+          "notes": "Chongyue/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "operator": "Executor the Ex Foedere",
+      "slug": "Executor_the_Ex_Foedere",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Executor_the_Ex_Foedere/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Executor_the_Ex_Foedere",
+      "links": {
+        "readme": "Executor_the_Ex_Foedere/README.md",
+        "identityLocks": "Executor_the_Ex_Foedere/identity_locks.md",
+        "usageNotes": "Executor_the_Ex_Foedere/usage_notes.md",
+        "references": "Executor_the_Ex_Foedere/references/"
+      },
+      "references": [
+        "Executor_the_Ex_Foedere/references/wiki_terra_executor_the_ex_foedere_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Executor_the_Ex_Foedere/candidates_base_v1",
+          "images": [
+            "Executor_the_Ex_Foedere/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Executor_the_Ex_Foedere/candidates_base_v1/review.md",
+          "prompt": "Executor_the_Ex_Foedere/candidates_base_v1/prompt.md",
+          "notes": "Executor_the_Ex_Foedere/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "operator": "Reed the Flame Shadow",
+      "slug": "Reed_the_Flame_Shadow",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Reed_the_Flame_Shadow/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Reed_the_Flame_Shadow",
+      "links": {
+        "readme": "Reed_the_Flame_Shadow/README.md",
+        "identityLocks": "Reed_the_Flame_Shadow/identity_locks.md",
+        "usageNotes": "Reed_the_Flame_Shadow/usage_notes.md",
+        "references": "Reed_the_Flame_Shadow/references/"
+      },
+      "references": [
+        "Reed_the_Flame_Shadow/references/wiki_terra_reed_the_flame_shadow_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Reed_the_Flame_Shadow/candidates_base_v1",
+          "images": [
+            "Reed_the_Flame_Shadow/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Reed_the_Flame_Shadow/candidates_base_v1/review.md",
+          "prompt": "Reed_the_Flame_Shadow/candidates_base_v1/prompt.md",
+          "notes": "Reed_the_Flame_Shadow/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "operator": "Irene",
+      "slug": "Irene",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Irene/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Irene",
+      "links": {
+        "readme": "Irene/README.md",
+        "identityLocks": "Irene/identity_locks.md",
+        "usageNotes": "Irene/usage_notes.md",
+        "references": "Irene/references/"
+      },
+      "references": [
+        "Irene/references/wiki_terra_irene_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Irene/candidates_base_v1",
+          "images": [
+            "Irene/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Irene/candidates_base_v1/review.md",
+          "prompt": "Irene/candidates_base_v1/prompt.md",
+          "notes": "Irene/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "operator": "Hoshiguma",
+      "slug": "Hoshiguma",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Hoshiguma/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "tall, warm, reliable, powerful mature presence",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Hoshiguma",
+      "links": {
+        "readme": "Hoshiguma/README.md",
+        "identityLocks": "Hoshiguma/identity_locks.md",
+        "usageNotes": "Hoshiguma/usage_notes.md",
+        "references": "Hoshiguma/references/"
+      },
+      "references": [
+        "Hoshiguma/references/wiki_terra_hoshiguma_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Hoshiguma/candidates_base_v1",
+          "images": [
+            "Hoshiguma/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Hoshiguma/candidates_base_v1/review.md",
+          "prompt": "Hoshiguma/candidates_base_v1/prompt.md",
+          "notes": "Hoshiguma/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "operator": "Shining",
+      "slug": "Shining",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Shining/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "serene, gentle, luminous, spiritual calm",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Shining",
+      "links": {
+        "readme": "Shining/README.md",
+        "identityLocks": "Shining/identity_locks.md",
+        "usageNotes": "Shining/usage_notes.md",
+        "references": "Shining/references/"
+      },
+      "references": [
+        "Shining/references/wiki_terra_shining_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Shining/candidates_base_v1",
+          "images": [
+            "Shining/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Shining/candidates_base_v1/review.md",
+          "prompt": "Shining/candidates_base_v1/prompt.md",
+          "notes": "Shining/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "operator": "Nightingale",
+      "slug": "Nightingale",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Nightingale/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "fragile, haunted, soft, protected elegance",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Nightingale",
+      "links": {
+        "readme": "Nightingale/README.md",
+        "identityLocks": "Nightingale/identity_locks.md",
+        "usageNotes": "Nightingale/usage_notes.md",
+        "references": "Nightingale/references/"
+      },
+      "references": [
+        "Nightingale/references/wiki_terra_nightingale_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Nightingale/candidates_base_v1",
+          "images": [
+            "Nightingale/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Nightingale/candidates_base_v1/review.md",
+          "prompt": "Nightingale/candidates_base_v1/prompt.md",
+          "notes": "Nightingale/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "operator": "Mountain",
+      "slug": "Mountain",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Mountain/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Mountain",
+      "links": {
+        "readme": "Mountain/README.md",
+        "identityLocks": "Mountain/identity_locks.md",
+        "usageNotes": "Mountain/usage_notes.md",
+        "references": "Mountain/references/"
+      },
+      "references": [
+        "Mountain/references/wiki_terra_mountain_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Mountain/candidates_base_v1",
+          "images": [
+            "Mountain/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Mountain/candidates_base_v1/review.md",
+          "prompt": "Mountain/candidates_base_v1/prompt.md",
+          "notes": "Mountain/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "operator": "Phantom",
+      "slug": "Phantom",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Phantom/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Phantom",
+      "links": {
+        "readme": "Phantom/README.md",
+        "identityLocks": "Phantom/identity_locks.md",
+        "usageNotes": "Phantom/usage_notes.md",
+        "references": "Phantom/references/"
+      },
+      "references": [
+        "Phantom/references/wiki_terra_phantom_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Phantom/candidates_base_v1",
+          "images": [
+            "Phantom/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Phantom/candidates_base_v1/review.md",
+          "prompt": "Phantom/candidates_base_v1/prompt.md",
+          "notes": "Phantom/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "operator": "Mostima",
+      "slug": "Mostima",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Mostima/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Mostima",
+      "links": {
+        "readme": "Mostima/README.md",
+        "identityLocks": "Mostima/identity_locks.md",
+        "usageNotes": "Mostima/usage_notes.md",
+        "references": "Mostima/references/"
+      },
+      "references": [
+        "Mostima/references/wiki_terra_mostima_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Mostima/candidates_base_v1",
+          "images": [
+            "Mostima/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Mostima/candidates_base_v1/review.md",
+          "prompt": "Mostima/candidates_base_v1/prompt.md",
+          "notes": "Mostima/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "operator": "Passenger",
+      "slug": "Passenger",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Passenger/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Passenger",
+      "links": {
+        "readme": "Passenger/README.md",
+        "identityLocks": "Passenger/identity_locks.md",
+        "usageNotes": "Passenger/usage_notes.md",
+        "references": "Passenger/references/"
+      },
+      "references": [
+        "Passenger/references/wiki_terra_passenger_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Passenger/candidates_base_v1",
+          "images": [
+            "Passenger/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Passenger/candidates_base_v1/review.md",
+          "prompt": "Passenger/candidates_base_v1/prompt.md",
+          "notes": "Passenger/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "operator": "Weedy",
+      "slug": "Weedy",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Weedy/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Weedy",
+      "links": {
+        "readme": "Weedy/README.md",
+        "identityLocks": "Weedy/identity_locks.md",
+        "usageNotes": "Weedy/usage_notes.md",
+        "references": "Weedy/references/"
+      },
+      "references": [
+        "Weedy/references/wiki_terra_weedy_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Weedy/candidates_base_v1",
+          "images": [
+            "Weedy/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Weedy/candidates_base_v1/review.md",
+          "prompt": "Weedy/candidates_base_v1/prompt.md",
+          "notes": "Weedy/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "operator": "Ifrit",
+      "slug": "Ifrit",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ifrit/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ifrit",
+      "links": {
+        "readme": "Ifrit/README.md",
+        "identityLocks": "Ifrit/identity_locks.md",
+        "usageNotes": "Ifrit/usage_notes.md",
+        "references": "Ifrit/references/"
+      },
+      "references": [
+        "Ifrit/references/wiki_terra_ifrit_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ifrit/candidates_base_v1",
+          "images": [
+            "Ifrit/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ifrit/candidates_base_v1/review.md",
+          "prompt": "Ifrit/candidates_base_v1/prompt.md",
+          "notes": "Ifrit/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "operator": "Angelina",
+      "slug": "Angelina",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Angelina/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Angelina",
+      "links": {
+        "readme": "Angelina/README.md",
+        "identityLocks": "Angelina/identity_locks.md",
+        "usageNotes": "Angelina/usage_notes.md",
+        "references": "Angelina/references/"
+      },
+      "references": [
+        "Angelina/references/wiki_terra_angelina_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Angelina/candidates_base_v1",
+          "images": [
+            "Angelina/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Angelina/candidates_base_v1/review.md",
+          "prompt": "Angelina/candidates_base_v1/prompt.md",
+          "notes": "Angelina/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "operator": "Siege",
+      "slug": "Siege",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Siege/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Siege",
+      "links": {
+        "readme": "Siege/README.md",
+        "identityLocks": "Siege/identity_locks.md",
+        "usageNotes": "Siege/usage_notes.md",
+        "references": "Siege/references/"
+      },
+      "references": [
+        "Siege/references/wiki_terra_siege_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Siege/candidates_base_v1",
+          "images": [
+            "Siege/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Siege/candidates_base_v1/review.md",
+          "prompt": "Siege/candidates_base_v1/prompt.md",
+          "notes": "Siege/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "operator": "Skadi",
+      "slug": "Skadi",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Skadi/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "stoic, oceanic, distant, melancholy beauty",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Skadi",
+      "links": {
+        "readme": "Skadi/README.md",
+        "identityLocks": "Skadi/identity_locks.md",
+        "usageNotes": "Skadi/usage_notes.md",
+        "references": "Skadi/references/"
+      },
+      "references": [
+        "Skadi/references/wiki_terra_skadi_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Skadi/candidates_base_v1",
+          "images": [
+            "Skadi/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Skadi/candidates_base_v1/review.md",
+          "prompt": "Skadi/candidates_base_v1/prompt.md",
+          "notes": "Skadi/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "operator": "Specter the Unchained",
+      "slug": "Specter_the_Unchained",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Specter_the_Unchained/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Specter_the_Unchained",
+      "links": {
+        "readme": "Specter_the_Unchained/README.md",
+        "identityLocks": "Specter_the_Unchained/identity_locks.md",
+        "usageNotes": "Specter_the_Unchained/usage_notes.md",
+        "references": "Specter_the_Unchained/references/"
+      },
+      "references": [
+        "Specter_the_Unchained/references/wiki_terra_specter_the_unchained_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Specter_the_Unchained/candidates_base_v1",
+          "images": [
+            "Specter_the_Unchained/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Specter_the_Unchained/candidates_base_v1/review.md",
+          "prompt": "Specter_the_Unchained/candidates_base_v1/prompt.md",
+          "notes": "Specter_the_Unchained/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "operator": "Penance",
+      "slug": "Penance",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Penance/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Penance",
+      "links": {
+        "readme": "Penance/README.md",
+        "identityLocks": "Penance/identity_locks.md",
+        "usageNotes": "Penance/usage_notes.md",
+        "references": "Penance/references/"
+      },
+      "references": [
+        "Penance/references/wiki_terra_penance_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Penance/candidates_base_v1",
+          "images": [
+            "Penance/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Penance/candidates_base_v1/review.md",
+          "prompt": "Penance/candidates_base_v1/prompt.md",
+          "notes": "Penance/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Penance/candidates_realism_young_v2",
+          "images": [
+            "Penance/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Penance/candidates_realism_young_v2/review.md",
+          "prompt": "Penance/candidates_realism_young_v2/prompt.md",
+          "notes": "Penance/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "operator": "Lin",
+      "slug": "Lin",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Lin/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Lin",
+      "links": {
+        "readme": "Lin/README.md",
+        "identityLocks": "Lin/identity_locks.md",
+        "usageNotes": "Lin/usage_notes.md",
+        "references": "Lin/references/"
+      },
+      "references": [
+        "Lin/references/wiki_terra_lin_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Lin/candidates_base_v1",
+          "images": [
+            "Lin/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Lin/candidates_base_v1/review.md",
+          "prompt": "Lin/candidates_base_v1/prompt.md",
+          "notes": "Lin/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "operator": "Qiubai",
+      "slug": "Qiubai",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Qiubai/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Qiubai",
+      "links": {
+        "readme": "Qiubai/README.md",
+        "identityLocks": "Qiubai/identity_locks.md",
+        "usageNotes": "Qiubai/usage_notes.md",
+        "references": "Qiubai/references/"
+      },
+      "references": [
+        "Qiubai/references/wiki_terra_qiubai_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Qiubai/candidates_base_v1",
+          "images": [
+            "Qiubai/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Qiubai/candidates_base_v1/review.md",
+          "prompt": "Qiubai/candidates_base_v1/prompt.md",
+          "notes": "Qiubai/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Qiubai/candidates_realism_young_v2",
+          "images": [
+            "Qiubai/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Qiubai/candidates_realism_young_v2/review.md",
+          "prompt": "Qiubai/candidates_realism_young_v2/prompt.md",
+          "notes": "Qiubai/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "operator": "Hoederer",
+      "slug": "Hoederer",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Hoederer/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Hoederer",
+      "links": {
+        "readme": "Hoederer/README.md",
+        "identityLocks": "Hoederer/identity_locks.md",
+        "usageNotes": "Hoederer/usage_notes.md",
+        "references": "Hoederer/references/"
+      },
+      "references": [
+        "Hoederer/references/wiki_terra_hoederer_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Hoederer/candidates_base_v1",
+          "images": [
+            "Hoederer/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Hoederer/candidates_base_v1/review.md",
+          "prompt": "Hoederer/candidates_base_v1/prompt.md",
+          "notes": "Hoederer/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Hoederer/candidates_realism_young_v2",
+          "images": [
+            "Hoederer/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Hoederer/candidates_realism_young_v2/review.md",
+          "prompt": "Hoederer/candidates_realism_young_v2/prompt.md",
+          "notes": "Hoederer/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "operator": "Ulpianus",
+      "slug": "Ulpianus",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ulpianus/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ulpianus",
+      "links": {
+        "readme": "Ulpianus/README.md",
+        "identityLocks": "Ulpianus/identity_locks.md",
+        "usageNotes": "Ulpianus/usage_notes.md",
+        "references": "Ulpianus/references/"
+      },
+      "references": [
+        "Ulpianus/references/wiki_terra_ulpianus_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ulpianus/candidates_base_v1",
+          "images": [
+            "Ulpianus/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ulpianus/candidates_base_v1/review.md",
+          "prompt": "Ulpianus/candidates_base_v1/prompt.md",
+          "notes": "Ulpianus/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "operator": "Nymph",
+      "slug": "Nymph",
+      "rarity": 6,
+      "status": "rejected",
+      "primaryImage": "Nymph/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "rejected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Nymph",
+      "links": {
+        "readme": "Nymph/README.md",
+        "identityLocks": "Nymph/identity_locks.md",
+        "usageNotes": "Nymph/usage_notes.md",
+        "references": "Nymph/references/"
+      },
+      "references": [
+        "Nymph/references/wiki_terra_nymph_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Nymph/candidates_base_v1",
+          "images": [
+            "Nymph/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Nymph/candidates_base_v1/review.md",
+          "prompt": "Nymph/candidates_base_v1/prompt.md",
+          "notes": "Nymph/candidates_base_v1/notes.md",
+          "rejected": true,
+          "blocked": true,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "operator": "Ray",
+      "slug": "Ray",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ray/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ray",
+      "links": {
+        "readme": "Ray/README.md",
+        "identityLocks": "Ray/identity_locks.md",
+        "usageNotes": "Ray/usage_notes.md",
+        "references": "Ray/references/"
+      },
+      "references": [
+        "Ray/references/wiki_terra_ray_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ray/candidates_base_v1",
+          "images": [
+            "Ray/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ray/candidates_base_v1/review.md",
+          "prompt": "Ray/candidates_base_v1/prompt.md",
+          "notes": "Ray/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "operator": "Zuo Le",
+      "slug": "Zuo_Le",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Zuo_Le/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Zuo_Le",
+      "links": {
+        "readme": "Zuo_Le/README.md",
+        "identityLocks": "Zuo_Le/identity_locks.md",
+        "usageNotes": "Zuo_Le/usage_notes.md",
+        "references": "Zuo_Le/references/"
+      },
+      "references": [
+        "Zuo_Le/references/wiki_terra_zuo_le_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Zuo_Le/candidates_base_v1",
+          "images": [
+            "Zuo_Le/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Zuo_Le/candidates_base_v1/review.md",
+          "prompt": "Zuo_Le/candidates_base_v1/prompt.md",
+          "notes": "Zuo_Le/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Zuo_Le/candidates_realism_young_v2",
+          "images": [
+            "Zuo_Le/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Zuo_Le/candidates_realism_young_v2/review.md",
+          "prompt": "Zuo_Le/candidates_realism_young_v2/prompt.md",
+          "notes": "Zuo_Le/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "operator": "Ela",
+      "slug": "Ela",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ela/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ela",
+      "links": {
+        "readme": "Ela/README.md",
+        "identityLocks": "Ela/identity_locks.md",
+        "usageNotes": "Ela/usage_notes.md",
+        "references": "Ela/references/"
+      },
+      "references": [
+        "Ela/references/wiki_terra_ela_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ela/candidates_base_v1",
+          "images": [
+            "Ela/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ela/candidates_base_v1/review.md",
+          "prompt": "Ela/candidates_base_v1/prompt.md",
+          "notes": "Ela/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "operator": "Ash",
+      "slug": "Ash",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Ash/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ash",
+      "links": {
+        "readme": "Ash/README.md",
+        "identityLocks": "Ash/identity_locks.md",
+        "usageNotes": "Ash/usage_notes.md",
+        "references": "Ash/references/"
+      },
+      "references": [
+        "Ash/references/wiki_terra_ash_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ash/candidates_base_v1",
+          "images": [
+            "Ash/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ash/candidates_base_v1/review.md",
+          "prompt": "Ash/candidates_base_v1/prompt.md",
+          "notes": "Ash/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "operator": "Kirin R Yato",
+      "slug": "Kirin_R_Yato",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Kirin_R_Yato/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Kirin_R_Yato",
+      "links": {
+        "readme": "Kirin_R_Yato/README.md",
+        "identityLocks": "Kirin_R_Yato/identity_locks.md",
+        "usageNotes": "Kirin_R_Yato/usage_notes.md",
+        "references": "Kirin_R_Yato/references/"
+      },
+      "references": [
+        "Kirin_R_Yato/references/wiki_terra_kirin_r_yato_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Kirin_R_Yato/candidates_base_v1",
+          "images": [
+            "Kirin_R_Yato/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Kirin_R_Yato/candidates_base_v1/review.md",
+          "prompt": "Kirin_R_Yato/candidates_base_v1/prompt.md",
+          "notes": "Kirin_R_Yato/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Kirin_R_Yato/candidates_realism_young_v2",
+          "images": [
+            "Kirin_R_Yato/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Kirin_R_Yato/candidates_realism_young_v2/review.md",
+          "prompt": "Kirin_R_Yato/candidates_realism_young_v2/prompt.md",
+          "notes": "Kirin_R_Yato/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "operator": "Fiammetta",
+      "slug": "Fiammetta",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Fiammetta/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Fiammetta",
+      "links": {
+        "readme": "Fiammetta/README.md",
+        "identityLocks": "Fiammetta/identity_locks.md",
+        "usageNotes": "Fiammetta/usage_notes.md",
+        "references": "Fiammetta/references/"
+      },
+      "references": [
+        "Fiammetta/references/wiki_terra_fiammetta_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Fiammetta/candidates_base_v1",
+          "images": [
+            "Fiammetta/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Fiammetta/candidates_base_v1/review.md",
+          "prompt": "Fiammetta/candidates_base_v1/prompt.md",
+          "notes": "Fiammetta/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Fiammetta/candidates_realism_young_v2",
+          "images": [
+            "Fiammetta/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Fiammetta/candidates_realism_young_v2/review.md",
+          "prompt": "Fiammetta/candidates_realism_young_v2/prompt.md",
+          "notes": "Fiammetta/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "operator": "Dorothy",
+      "slug": "Dorothy",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Dorothy/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Dorothy",
+      "links": {
+        "readme": "Dorothy/README.md",
+        "identityLocks": "Dorothy/identity_locks.md",
+        "usageNotes": "Dorothy/usage_notes.md",
+        "references": "Dorothy/references/"
+      },
+      "references": [
+        "Dorothy/references/wiki_terra_dorothy_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Dorothy/candidates_base_v1",
+          "images": [
+            "Dorothy/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Dorothy/candidates_base_v1/review.md",
+          "prompt": "Dorothy/candidates_base_v1/prompt.md",
+          "notes": "Dorothy/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "operator": "Stainless",
+      "slug": "Stainless",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Stainless/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Stainless",
+      "links": {
+        "readme": "Stainless/README.md",
+        "identityLocks": "Stainless/identity_locks.md",
+        "usageNotes": "Stainless/usage_notes.md",
+        "references": "Stainless/references/"
+      },
+      "references": [
+        "Stainless/references/wiki_terra_stainless_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Stainless/candidates_base_v1",
+          "images": [
+            "Stainless/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Stainless/candidates_base_v1/review.md",
+          "prompt": "Stainless/candidates_base_v1/prompt.md",
+          "notes": "Stainless/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Stainless/candidates_realism_young_v2",
+          "images": [
+            "Stainless/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Stainless/candidates_realism_young_v2/review.md",
+          "prompt": "Stainless/candidates_realism_young_v2/prompt.md",
+          "notes": "Stainless/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "operator": "Ebenholz",
+      "slug": "Ebenholz",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Ebenholz/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ebenholz",
+      "links": {
+        "readme": "Ebenholz/README.md",
+        "identityLocks": "Ebenholz/identity_locks.md",
+        "usageNotes": "Ebenholz/usage_notes.md",
+        "references": "Ebenholz/references/"
+      },
+      "references": [
+        "Ebenholz/references/wiki_terra_ebenholz_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Ebenholz/candidates_base_v1",
+          "images": [
+            "Ebenholz/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Ebenholz/candidates_base_v1/review.md",
+          "prompt": "Ebenholz/candidates_base_v1/prompt.md",
+          "notes": "Ebenholz/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Ebenholz/candidates_realism_young_v2",
+          "images": [
+            "Ebenholz/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Ebenholz/candidates_realism_young_v2/review.md",
+          "prompt": "Ebenholz/candidates_realism_young_v2/prompt.md",
+          "notes": "Ebenholz/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "operator": "Gnosis",
+      "slug": "Gnosis",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Gnosis/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Gnosis",
+      "links": {
+        "readme": "Gnosis/README.md",
+        "identityLocks": "Gnosis/identity_locks.md",
+        "usageNotes": "Gnosis/usage_notes.md",
+        "references": "Gnosis/references/"
+      },
+      "references": [
+        "Gnosis/references/wiki_terra_gnosis_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Gnosis/candidates_base_v1",
+          "images": [
+            "Gnosis/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Gnosis/candidates_base_v1/review.md",
+          "prompt": "Gnosis/candidates_base_v1/prompt.md",
+          "notes": "Gnosis/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Gnosis/candidates_realism_young_v2",
+          "images": [
+            "Gnosis/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Gnosis/candidates_realism_young_v2/review.md",
+          "prompt": "Gnosis/candidates_realism_young_v2/prompt.md",
+          "notes": "Gnosis/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "operator": "Flametail",
+      "slug": "Flametail",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Flametail/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Flametail",
+      "links": {
+        "readme": "Flametail/README.md",
+        "identityLocks": "Flametail/identity_locks.md",
+        "usageNotes": "Flametail/usage_notes.md",
+        "references": "Flametail/references/"
+      },
+      "references": [
+        "Flametail/references/wiki_terra_flametail_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Flametail/candidates_base_v1",
+          "images": [
+            "Flametail/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Flametail/candidates_base_v1/review.md",
+          "prompt": "Flametail/candidates_base_v1/prompt.md",
+          "notes": "Flametail/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Flametail/candidates_realism_young_v2",
+          "images": [
+            "Flametail/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Flametail/candidates_realism_young_v2/review.md",
+          "prompt": "Flametail/candidates_realism_young_v2/prompt.md",
+          "notes": "Flametail/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "operator": "Saileach",
+      "slug": "Saileach",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Saileach/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Saileach",
+      "links": {
+        "readme": "Saileach/README.md",
+        "identityLocks": "Saileach/identity_locks.md",
+        "usageNotes": "Saileach/usage_notes.md",
+        "references": "Saileach/references/"
+      },
+      "references": [
+        "Saileach/references/wiki_terra_saileach_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Saileach/candidates_base_v1",
+          "images": [
+            "Saileach/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Saileach/candidates_base_v1/review.md",
+          "prompt": "Saileach/candidates_base_v1/prompt.md",
+          "notes": "Saileach/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Saileach/candidates_realism_young_v2",
+          "images": [
+            "Saileach/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Saileach/candidates_realism_young_v2/review.md",
+          "prompt": "Saileach/candidates_realism_young_v2/prompt.md",
+          "notes": "Saileach/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "operator": "Fartooth",
+      "slug": "Fartooth",
+      "rarity": 6,
+      "status": "selected",
+      "primaryImage": "Fartooth/selected.png",
+      "primaryImageKind": "selected",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Fartooth",
+      "links": {
+        "readme": "Fartooth/README.md",
+        "identityLocks": "Fartooth/identity_locks.md",
+        "usageNotes": "Fartooth/usage_notes.md",
+        "references": "Fartooth/references/"
+      },
+      "references": [
+        "Fartooth/references/wiki_terra_fartooth_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Fartooth/candidates_base_v1",
+          "images": [
+            "Fartooth/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Fartooth/candidates_base_v1/review.md",
+          "prompt": "Fartooth/candidates_base_v1/prompt.md",
+          "notes": "Fartooth/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": true,
+          "monitorRequired": false
+        },
+        {
+          "name": "candidates_realism_young_v2",
+          "path": "Fartooth/candidates_realism_young_v2",
+          "images": [
+            "Fartooth/candidates_realism_young_v2/candidate_01.png"
+          ],
+          "review": "Fartooth/candidates_realism_young_v2/review.md",
+          "prompt": "Fartooth/candidates_realism_young_v2/prompt.md",
+          "notes": "Fartooth/candidates_realism_young_v2/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "operator": "Blemishine",
+      "slug": "Blemishine",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Blemishine/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Blemishine",
+      "links": {
+        "readme": "Blemishine/README.md",
+        "identityLocks": "Blemishine/identity_locks.md",
+        "usageNotes": "Blemishine/usage_notes.md",
+        "references": "Blemishine/references/"
+      },
+      "references": [
+        "Blemishine/references/wiki_terra_blemishine_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Blemishine/candidates_base_v1",
+          "images": [
+            "Blemishine/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Blemishine/candidates_base_v1/review.md",
+          "prompt": "Blemishine/candidates_base_v1/prompt.md",
+          "notes": "Blemishine/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "operator": "Pallas",
+      "slug": "Pallas",
+      "rarity": 6,
+      "status": "candidate_monitor_required",
+      "primaryImage": "Pallas/candidates_base_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Pallas",
+      "links": {
+        "readme": "Pallas/README.md",
+        "identityLocks": "Pallas/identity_locks.md",
+        "usageNotes": "Pallas/usage_notes.md",
+        "references": "Pallas/references/"
+      },
+      "references": [
+        "Pallas/references/wiki_terra_pallas_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_base_v1",
+          "path": "Pallas/candidates_base_v1",
+          "images": [
+            "Pallas/candidates_base_v1/candidate_01.png"
+          ],
+          "review": "Pallas/candidates_base_v1/review.md",
+          "prompt": "Pallas/candidates_base_v1/prompt.md",
+          "notes": "Pallas/candidates_base_v1/notes.md",
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": true
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "operator": "Mizuki",
+      "slug": "Mizuki",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Mizuki/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Mizuki",
+      "links": {
+        "readme": "Mizuki/README.md",
+        "identityLocks": "Mizuki/identity_locks.md",
+        "usageNotes": "Mizuki/usage_notes.md",
+        "references": "Mizuki/references/"
+      },
+      "references": [
+        "Mizuki/references/wiki_terra_mizuki_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Mizuki/candidates_young_v1",
+          "images": [
+            "Mizuki/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "operator": "Carnelian",
+      "slug": "Carnelian",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Carnelian/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Carnelian",
+      "links": {
+        "readme": "Carnelian/README.md",
+        "identityLocks": "Carnelian/identity_locks.md",
+        "usageNotes": "Carnelian/usage_notes.md",
+        "references": "Carnelian/references/"
+      },
+      "references": [
+        "Carnelian/references/wiki_terra_carnelian_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Carnelian/candidates_young_v1",
+          "images": [
+            "Carnelian/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "operator": "Ceobe",
+      "slug": "Ceobe",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Ceobe/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Ceobe",
+      "links": {
+        "readme": "Ceobe/README.md",
+        "identityLocks": "Ceobe/identity_locks.md",
+        "usageNotes": "Ceobe/usage_notes.md",
+        "references": "Ceobe/references/"
+      },
+      "references": [
+        "Ceobe/references/wiki_terra_ceobe_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Ceobe/candidates_young_v1",
+          "images": [
+            "Ceobe/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "operator": "Saga",
+      "slug": "Saga",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Saga/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Saga",
+      "links": {
+        "readme": "Saga/README.md",
+        "identityLocks": "Saga/identity_locks.md",
+        "usageNotes": "Saga/usage_notes.md",
+        "references": "Saga/references/"
+      },
+      "references": [
+        "Saga/references/wiki_terra_saga_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Saga/candidates_young_v1",
+          "images": [
+            "Saga/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "operator": "Archetto",
+      "slug": "Archetto",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Archetto/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Archetto",
+      "links": {
+        "readme": "Archetto/README.md",
+        "identityLocks": "Archetto/identity_locks.md",
+        "usageNotes": "Archetto/usage_notes.md",
+        "references": "Archetto/references/"
+      },
+      "references": [
+        "Archetto/references/wiki_terra_archetto_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Archetto/candidates_young_v1",
+          "images": [
+            "Archetto/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "operator": "Eunectes",
+      "slug": "Eunectes",
+      "rarity": 6,
+      "status": "scaffolded",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Eunectes",
+      "links": {
+        "readme": "Eunectes/README.md",
+        "identityLocks": "Eunectes/identity_locks.md",
+        "usageNotes": "Eunectes/usage_notes.md",
+        "references": "Eunectes/references/"
+      },
+      "references": [
+        "Eunectes/references/wiki_terra_eunectes_base.png"
+      ],
+      "candidateGroups": []
+    },
+    {
+      "rank": 75,
+      "operator": "Magallan",
+      "slug": "Magallan",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Magallan/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Magallan",
+      "links": {
+        "readme": "Magallan/README.md",
+        "identityLocks": "Magallan/identity_locks.md",
+        "usageNotes": "Magallan/usage_notes.md",
+        "references": "Magallan/references/"
+      },
+      "references": [
+        "Magallan/references/wiki_terra_magallan_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Magallan/candidates_young_v1",
+          "images": [
+            "Magallan/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "operator": "Aak",
+      "slug": "Aak",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Aak/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Aak",
+      "links": {
+        "readme": "Aak/README.md",
+        "identityLocks": "Aak/identity_locks.md",
+        "usageNotes": "Aak/usage_notes.md",
+        "references": "Aak/references/"
+      },
+      "references": [
+        "Aak/references/wiki_terra_aak_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Aak/candidates_young_v1",
+          "images": [
+            "Aak/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "operator": "Schwarz",
+      "slug": "Schwarz",
+      "rarity": 6,
+      "status": "scaffolded",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Schwarz",
+      "links": {
+        "readme": "Schwarz/README.md",
+        "identityLocks": "Schwarz/identity_locks.md",
+        "usageNotes": "Schwarz/usage_notes.md",
+        "references": "Schwarz/references/"
+      },
+      "references": [
+        "Schwarz/references/wiki_terra_schwarz_base.png"
+      ],
+      "candidateGroups": []
+    },
+    {
+      "rank": 78,
+      "operator": "Rosa",
+      "slug": "Rosa",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Rosa/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Rosa",
+      "links": {
+        "readme": "Rosa/README.md",
+        "identityLocks": "Rosa/identity_locks.md",
+        "usageNotes": "Rosa/usage_notes.md",
+        "references": "Rosa/references/"
+      },
+      "references": [
+        "Rosa/references/wiki_terra_rosa_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Rosa/candidates_young_v1",
+          "images": [
+            "Rosa/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "operator": "Hellagur",
+      "slug": "Hellagur",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Hellagur/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Hellagur",
+      "links": {
+        "readme": "Hellagur/README.md",
+        "identityLocks": "Hellagur/identity_locks.md",
+        "usageNotes": "Hellagur/usage_notes.md",
+        "references": "Hellagur/references/"
+      },
+      "references": [
+        "Hellagur/references/wiki_terra_hellagur_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Hellagur/candidates_young_v1",
+          "images": [
+            "Hellagur/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "operator": "Lee",
+      "slug": "Lee",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Lee/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Lee",
+      "links": {
+        "readme": "Lee/README.md",
+        "identityLocks": "Lee/identity_locks.md",
+        "usageNotes": "Lee/usage_notes.md",
+        "references": "Lee/references/"
+      },
+      "references": [
+        "Lee/references/wiki_terra_lee_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Lee/candidates_young_v1",
+          "images": [
+            "Lee/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "operator": "Swire the Elegant Wit",
+      "slug": "Swire_the_Elegant_Wit",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Swire_the_Elegant_Wit/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Swire_the_Elegant_Wit",
+      "links": {
+        "readme": "Swire_the_Elegant_Wit/README.md",
+        "identityLocks": "Swire_the_Elegant_Wit/identity_locks.md",
+        "usageNotes": "Swire_the_Elegant_Wit/usage_notes.md",
+        "references": "Swire_the_Elegant_Wit/references/"
+      },
+      "references": [
+        "Swire_the_Elegant_Wit/references/wiki_terra_swire_the_elegant_wit_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Swire_the_Elegant_Wit/candidates_young_v1",
+          "images": [
+            "Swire_the_Elegant_Wit/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "operator": "Eyjafjalla the Hvit Aska",
+      "slug": "Eyjafjalla_the_Hvit_Aska",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Eyjafjalla_the_Hvit_Aska/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Eyjafjalla_the_Hvit_Aska",
+      "links": {
+        "readme": "Eyjafjalla_the_Hvit_Aska/README.md",
+        "identityLocks": "Eyjafjalla_the_Hvit_Aska/identity_locks.md",
+        "usageNotes": "Eyjafjalla_the_Hvit_Aska/usage_notes.md",
+        "references": "Eyjafjalla_the_Hvit_Aska/references/"
+      },
+      "references": [
+        "Eyjafjalla_the_Hvit_Aska/references/wiki_terra_eyjafjalla_the_hvit_aska_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Eyjafjalla_the_Hvit_Aska/candidates_young_v1",
+          "images": [
+            "Eyjafjalla_the_Hvit_Aska/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "operator": "Jessica the Liberated",
+      "slug": "Jessica_the_Liberated",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Jessica_the_Liberated/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Jessica_the_Liberated",
+      "links": {
+        "readme": "Jessica_the_Liberated/README.md",
+        "identityLocks": "Jessica_the_Liberated/identity_locks.md",
+        "usageNotes": "Jessica_the_Liberated/usage_notes.md",
+        "references": "Jessica_the_Liberated/references/"
+      },
+      "references": [
+        "Jessica_the_Liberated/references/wiki_terra_jessica_the_liberated_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Jessica_the_Liberated/candidates_young_v1",
+          "images": [
+            "Jessica_the_Liberated/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "operator": "Vigil",
+      "slug": "Vigil",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Vigil/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Vigil",
+      "links": {
+        "readme": "Vigil/README.md",
+        "identityLocks": "Vigil/identity_locks.md",
+        "usageNotes": "Vigil/usage_notes.md",
+        "references": "Vigil/references/"
+      },
+      "references": [
+        "Vigil/references/wiki_terra_vigil_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Vigil/candidates_young_v1",
+          "images": [
+            "Vigil/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "operator": "Silence the Paradigmatic",
+      "slug": "Silence_the_Paradigmatic",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Silence_the_Paradigmatic/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Silence_the_Paradigmatic",
+      "links": {
+        "readme": "Silence_the_Paradigmatic/README.md",
+        "identityLocks": "Silence_the_Paradigmatic/identity_locks.md",
+        "usageNotes": "Silence_the_Paradigmatic/usage_notes.md",
+        "references": "Silence_the_Paradigmatic/references/"
+      },
+      "references": [
+        "Silence_the_Paradigmatic/references/wiki_terra_silence_the_paradigmatic_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Silence_the_Paradigmatic/candidates_young_v1",
+          "images": [
+            "Silence_the_Paradigmatic/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "operator": "Viviana",
+      "slug": "Viviana",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Viviana/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Viviana",
+      "links": {
+        "readme": "Viviana/README.md",
+        "identityLocks": "Viviana/identity_locks.md",
+        "usageNotes": "Viviana/usage_notes.md",
+        "references": "Viviana/references/"
+      },
+      "references": [
+        "Viviana/references/wiki_terra_viviana_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Viviana/candidates_young_v1",
+          "images": [
+            "Viviana/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "operator": "Lumen",
+      "slug": "Lumen",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Lumen/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Lumen",
+      "links": {
+        "readme": "Lumen/README.md",
+        "identityLocks": "Lumen/identity_locks.md",
+        "usageNotes": "Lumen/usage_notes.md",
+        "references": "Lumen/references/"
+      },
+      "references": [
+        "Lumen/references/wiki_terra_lumen_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Lumen/candidates_young_v1",
+          "images": [
+            "Lumen/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "operator": "Gladiia",
+      "slug": "Gladiia",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Gladiia/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Gladiia",
+      "links": {
+        "readme": "Gladiia/README.md",
+        "identityLocks": "Gladiia/identity_locks.md",
+        "usageNotes": "Gladiia/usage_notes.md",
+        "references": "Gladiia/references/"
+      },
+      "references": [
+        "Gladiia/references/wiki_terra_gladiia_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Gladiia/candidates_young_v1",
+          "images": [
+            "Gladiia/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "operator": "Lessing",
+      "slug": "Lessing",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Lessing/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Lessing",
+      "links": {
+        "readme": "Lessing/README.md",
+        "identityLocks": "Lessing/identity_locks.md",
+        "usageNotes": "Lessing/usage_notes.md",
+        "references": "Lessing/references/"
+      },
+      "references": [
+        "Lessing/references/wiki_terra_lessing_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Lessing/candidates_young_v1",
+          "images": [
+            "Lessing/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "operator": "Civilight Eterna",
+      "slug": "Civilight_Eterna",
+      "rarity": 6,
+      "status": "candidate",
+      "primaryImage": "Civilight_Eterna/candidates_young_v1/candidate_01.png",
+      "primaryImageKind": "candidate",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Civilight_Eterna",
+      "links": {
+        "readme": "Civilight_Eterna/README.md",
+        "identityLocks": "Civilight_Eterna/identity_locks.md",
+        "usageNotes": "Civilight_Eterna/usage_notes.md",
+        "references": "Civilight_Eterna/references/"
+      },
+      "references": [
+        "Civilight_Eterna/references/wiki_terra_civilight_eterna_base.png"
+      ],
+      "candidateGroups": [
+        {
+          "name": "candidates_young_v1",
+          "path": "Civilight_Eterna/candidates_young_v1",
+          "images": [
+            "Civilight_Eterna/candidates_young_v1/candidate_01.png"
+          ],
+          "review": null,
+          "prompt": null,
+          "notes": null,
+          "rejected": false,
+          "blocked": false,
+          "monitorRequired": false
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "operator": "Pepe",
+      "slug": "Pepe",
+      "rarity": 6,
+      "status": "scaffolded",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Pepe",
+      "links": {
+        "readme": "Pepe/README.md",
+        "identityLocks": "Pepe/identity_locks.md",
+        "usageNotes": "Pepe/usage_notes.md",
+        "references": "Pepe/references/"
+      },
+      "references": [
+        "Pepe/references/wiki_terra_pepe_base.png"
+      ],
+      "candidateGroups": []
+    },
+    {
+      "rank": 92,
+      "operator": "Narantuya",
+      "slug": "Narantuya",
+      "rarity": 6,
+      "status": "scaffolded",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Narantuya",
+      "links": {
+        "readme": "Narantuya/README.md",
+        "identityLocks": "Narantuya/identity_locks.md",
+        "usageNotes": "Narantuya/usage_notes.md",
+        "references": "Narantuya/references/"
+      },
+      "references": [
+        "Narantuya/references/wiki_terra_narantuya_base.png"
+      ],
+      "candidateGroups": []
+    },
+    {
+      "rank": 93,
+      "operator": "Marcille",
+      "slug": "Marcille",
+      "rarity": 6,
+      "status": "scaffolded",
+      "primaryImage": null,
+      "primaryImageKind": "none",
+      "beautyTypeSeed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "rankingStatus": "provisional_manual_popularity_order_not_official_poll",
+      "sourceStatus": "needs_verification_against_current_official_roster",
+      "directory": "Marcille",
+      "links": {
+        "readme": "Marcille/README.md",
+        "identityLocks": "Marcille/identity_locks.md",
+        "usageNotes": "Marcille/usage_notes.md",
+        "references": "Marcille/references/"
+      },
+      "references": [
+        "Marcille/references/wiki_terra_marcille_base.png"
+      ],
+      "candidateGroups": []
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "project": "Byleth Teaches the 2D Needle Problem",
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-27",
+  "reviews": [
+    {
+      "artifact_id": "KAK-BYLETH-BIBLE",
+      "review_id": "KAK-BYLETH-REVIEW-CANON-2026-07-27",
+      "reviewer_role": "canon-fidelity-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "byleth_identity": "pass",
+        "garreg_mach_setting": "pass",
+        "adaptation_tone": "pass",
+        "student_scope": "conditional",
+        "math_name_reveal": "pass"
+      },
+      "reviewed_paths": [
+        "project_bible.md"
+      ],
+      "notes": "Female Byleth identity locks match local BylethFemale profile and professor prompt. Student use is marked optional to reduce asset burden. Downstream prompts must explicitly use BylethFemale and avoid male Byleth references."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-SCRIPT",
+      "review_id": "KAK-BYLETH-REVIEW-STORY-2026-07-27",
+      "reviewer_role": "story-editor",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "scene_purpose": "pass",
+        "conflict": "pass",
+        "emotional_turn": "pass",
+        "visible_action": "pass",
+        "dialogue_subtext": "conditional",
+        "continuity_hooks": "pass"
+      },
+      "reviewed_paths": [
+        "voiceover_dialogue_script.md",
+        "outline.md"
+      ],
+      "notes": "Dialogue is functional and tied to visible diagram beats. Student lines are optional and should be reduced if runtime tightens."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-SHOTLIST",
+      "review_id": "KAK-BYLETH-REVIEW-DIRECTION-2026-07-27",
+      "reviewer_role": "direction-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "shot_purpose": "pass",
+        "proof_visibility": "pass",
+        "blocking": "pass",
+        "camera_motivation": "pass",
+        "runtime": "conditional",
+        "edit_continuity": "pass"
+      },
+      "reviewed_paths": [
+        "shot_list.md",
+        "director_treatment.md"
+      ],
+      "notes": "Every major proof step has a dedicated shot or shot cluster. Runtime should be monitored during animatic."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-SHOTLIST",
+      "review_id": "KAK-BYLETH-REVIEW-MATH-2026-07-27",
+      "reviewer_role": "math-accuracy-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "unit_needle_scale": "pass",
+        "deltoid_area": "pass",
+        "convex_result": "pass",
+        "perron_logic": "pass",
+        "dimension_claim": "pass",
+        "application_claims": "pass"
+      },
+      "reviewed_paths": [
+        "project_bible.md",
+        "shot_list.md",
+        "voiceover_dialogue_script.md"
+      ],
+      "notes": "Plan avoids 3D Kakeya and avoids unsupported practical application claims. It ties impact to proof mechanisms: Perron trees, delta-tubes, maximal functions, and wave packets."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-PRODUCTION-NOTES",
+      "review_id": "KAK-BYLETH-REVIEW-PRODUCTION-2026-07-27",
+      "reviewer_role": "production-manager",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "manifest_presence": "pass",
+        "asset_references": "pass",
+        "risk_register": "pass",
+        "next_stage_readiness": "pass"
+      },
+      "reviewed_paths": [
+        "production_notes.md",
+        "production_system/artifact_manifest.json"
+      ],
+      "notes": "Planning package can advance to prompt asset package. Real frames and video prompts are not yet created."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-LAYOUT-REFERENCE-FRAMES",
+      "review_id": "KAK-BYLETH-REVIEW-LAYOUT-FRAMES-2026-07-27",
+      "reviewer_role": "storyboard-layout-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "layout_reference",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Generate final cinematic PNG start/key/end frames before video submission."
+      ],
+      "rubric": {
+        "shot_count": "pass",
+        "start_key_end_presence": "pass",
+        "web_visibility": "pass",
+        "math_diagram_readability": "conditional",
+        "byleth_reference_visibility": "conditional",
+        "video_generation_readiness": "frames_pending"
+      },
+      "reviewed_paths": [
+        "storyboards/SH001/start.svg",
+        "storyboards/SH007/key.svg",
+        "storyboards/SH016/key.svg",
+        "storyboards/SH019/key.svg",
+        "storyboards/SH025/key.svg",
+        "storyboards/SH030/key.svg",
+        "storyboards/SH034/end.svg"
+      ],
+      "notes": "All 102 SVG layout frames exist and can be displayed by the web board. They are useful for explanation and layout review, but final cinematic imagery remains pending."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-PNG-FRAMESET",
+      "review_id": "KAK-BYLETH-REVIEW-PNG-FRAMES-2026-07-27",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "visual_blocked",
+      "blocking_issues": [
+        "Current PNGs are rasterized layout boards, not generated cinematic/storyboard frames.",
+        "Several frames contain visible UI/card composition and overlapping text.",
+        "Frames cannot support approved_for_video status."
+      ],
+      "required_revisions": [
+        "Generate real start/key/end frames from the prompt package.",
+        "Run visual review against shot purpose, identity, action peak, and mathematical locks before promotion."
+      ],
+      "rubric": {
+        "frame_count": "pass",
+        "dimensions": "pass",
+        "start_key_end_chain": "pass",
+        "math_diagram_readability": "pass",
+        "byleth_identity_reference": "pass",
+        "style_scope": "storyboard_animatic"
+      },
+      "reviewed_paths": [
+        "storyboards/SH001/start.png",
+        "storyboards/SH007/key.png",
+        "storyboards/SH016/key.png",
+        "storyboards/SH019/key.png",
+        "storyboards/SH025/key.png",
+        "storyboards/SH030/key.png",
+        "storyboards/SH034/end.png"
+      ],
+      "notes": "Corrective review supersedes earlier pass wording. Existing PNGs are low-fidelity layout references only."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-VIDEO-GENERATION-PACKAGE-INPUTS",
+      "review_id": "KAK-BYLETH-REVIEW-VIDEO-INPUTS-2026-07-27",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Video package inputs were built from layout-board PNGs instead of real generated frames."
+      ],
+      "required_revisions": [
+        "Replace current start/key/end PNGs with real image-generation frames.",
+        "Rebuild delivery package only after visual and continuity review passes."
+      ],
+      "rubric": {
+        "delivery_manifest": "pass",
+        "prompt_paths": "pass",
+        "negative_prompts": "pass",
+        "png_frame_paths": "pass",
+        "timing_and_edit_hooks": "pass",
+        "clips": "pending_model_run"
+      },
+      "reviewed_paths": [
+        "production_system/video_delivery_manifest.json"
+      ],
+      "notes": "Corrective review: package should not be submitted to a video model as-is."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-PNG-FRAMESET",
+      "review_id": "KAK-BYLETH-REVIEW-CORRECTIVE-FRAME-AUDIT-2026-07-27",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-corrective-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "visual_blocked",
+      "blocking_issues": [
+        "The PNGs are browser screenshots of SVG layout boards, not purpose-built cinematic frames.",
+        "They include page-like labels, duplicated text panels, and text overlap.",
+        "They do not prove character performance, cinematic blocking, or video-ready action peaks."
+      ],
+      "required_revisions": [
+        "Use image generation for actual start/key/end frames.",
+        "Keep the current PNGs only as layout_reference assets.",
+        "Do not claim video_generation_package until real frames pass visual QA."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "layout_reference": "pass",
+        "visual_storytelling": "fail",
+        "cinematic_readiness": "fail",
+        "mathematical_readability": "conditional",
+        "approval_status": "visual_blocked"
+      },
+      "reviewed_paths": [
+        "storyboards/SH007/key.png",
+        "storyboards/SH016/key.png"
+      ],
+      "notes": "Corrective audit prompted by user quality concern. The concern is valid."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-PNG-FRAMESET",
+      "review_id": "KAK-BYLETH-REVIEW-REAL-FRAME-PILOT-2026-07-27",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-real-frame-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "Only 7 of 102 required real frames exist; full package remains blocked from video_generation_package."
+      ],
+      "required_revisions": [
+        "Generate remaining real start/key/end frames under real_frames/.",
+        "Run math visual QA before promotion."
+      ],
+      "rubric": {
+        "real_frame_count": "partial",
+        "byleth_identity": "pass_on_pilot",
+        "math_readability": "conditional",
+        "video_package_readiness": "fail"
+      },
+      "reviewed_paths": [
+        "real_frames/SH007/key.png",
+        "real_frames/SH016/start.png",
+        "real_frames/SH016/key.png",
+        "real_frames/SH016/end.png",
+        "real_frames/SH017/key.png",
+        "real_frames/SH018/key.png",
+        "real_frames/SH019/key.png"
+      ],
+      "notes": "Pilot real-frame generation is underway. SH016 is the first complete real three-frame shot; SH017-SH019 currently have real key pilots only."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-REAL-FRAME-PREVIEW-2026-07-28",
+      "review_id": "KAK-BYLETH-REVIEW-REAL-FRAME-COMPLETION-2026-07-28",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-real-frame-reviewer",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "All 102 real frames exist, but visual, math, motion, and adjacent continuity QA have not passed.",
+        "The package is a real-frame review preview, not an approved video-generation package."
+      ],
+      "required_revisions": [
+        "Run full visual QA for all 34 start/key/end frame triples.",
+        "Run math visual QA for proof and impact shots.",
+        "Promote delivery shot statuses only after QA passes."
+      ],
+      "rubric": {
+        "real_frame_count": "pass_102_of_102",
+        "layout_reference_exclusion": "pass",
+        "visual_spot_check": "pilot_pass_with_risks",
+        "math_readability": "needs_full_review",
+        "video_package_readiness": "fail_monitor_required",
+        "full_contact_sheet_visual_scan": "pass_basic_nonblank_non_layout_card",
+        "corrective_revisions": "pass_sh010_sh015_revised"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/real_frame_completion_review_2026-07-28.md",
+        "delivery/real_frame_preview_kakeya_byleth_2026-07-28/asset_viewer.html",
+        "real_frames/SH001/key.png",
+        "real_frames/SH002/key.png",
+        "real_frames/SH003/key.png",
+        "real_frames/SH004/key.png",
+        "real_frames/SH030/end.png",
+        "real_frames/SH034/end.png",
+        "/tmp/kakeya_all_frames_contact_01_17.jpg",
+        "/tmp/kakeya_all_frames_contact_18_34.jpg",
+        "/tmp/kakeya_all_frames_contact_01_17_v2.jpg"
+      ],
+      "notes": "Corrective completion review: the earlier layout-card issue is fixed at frame-count/package level, and full contact sheets show no blank or old layout-card frame leakage. The work remains monitor_required until full visual, math, motion, and continuity QA."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-REAL-FRAME-PREVIEW-2026-07-28",
+      "review_id": "KAK-BYLETH-REVIEW-REAL-FRAME-INTEGRITY-2026-07-28",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-integrity-auditor",
+      "created_at": "2026-07-28",
+      "decision": "integrity_passed",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Continue with visual, math, motion, and continuity QA before video approval."
+      ],
+      "rubric": {
+        "frame_count": "pass_102_of_102",
+        "dimensions": "pass_1672x941_all_frames",
+        "exact_duplicate_hashes": "pass_none",
+        "blank_or_low_information": "pass_none",
+        "approval_status": "integrity_only_not_video_approval"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/real_frame_integrity_audit_2026-07-28.json",
+        "scripts/audit_kakeya_real_frame_integrity.js"
+      ],
+      "notes": "Machine audit verifies that the real-frame package is not missing, blank, malformed, or exact-duplicate placeholder content. It does not replace visual/math QA."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-REAL-FRAME-PREVIEW-2026-07-28",
+      "review_id": "KAK-BYLETH-REVIEW-MATH-VISUAL-SPOT-2026-07-28",
+      "reviewer_role": "math-visual-qa-agent",
+      "reviewer": "codex-math-visual-reviewer",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run full visual QA for all 34 shots at full size.",
+        "Run adjacent-shot continuity QA against real frames only.",
+        "Run motion QA before promotion to approved_for_video."
+      ],
+      "rubric": {
+        "hook_and_deltoid": "spot_pass_monitor_required",
+        "convex_segment": "spot_pass_monitor_required",
+        "perron_segment": "spot_pass_monitor_required",
+        "delta_dimension_segment": "spot_pass_after_sh026_alpha_label_fix",
+        "impact_segment": "spot_pass_monitor_required",
+        "final_video_approval": "not_approved_monitor_required"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/math_visual_qa_spot_review_2026-07-28.md",
+        "/tmp/kakeya_math_qa/hook_deltoid_SH001_010.jpg",
+        "/tmp/kakeya_math_qa/convex_SH011_015.jpg",
+        "/tmp/kakeya_math_qa/perron_SH016_023.jpg",
+        "/tmp/kakeya_math_qa/delta_dimension_SH024_029.jpg",
+        "/tmp/kakeya_math_qa/impact_reveal_SH030_034.jpg",
+        "real_frames/SH007/key.png",
+        "real_frames/SH019/key.png",
+        "real_frames/SH026/end.png"
+      ],
+      "notes": "Spot math visual QA found and fixed SH026 alpha-label ambiguity. The package is stronger but remains monitor_required until full visual, continuity, and motion QA."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-REAL-FRAME-PREVIEW-2026-07-28",
+      "review_id": "KAK-BYLETH-REVIEW-REAL-FRAME-CONTINUITY-2026-07-28",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-real-frame-continuity-reviewer",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run motion or generated-clip QA before promoting continuity pairs to approved_for_video.",
+        "Verify Byleth identity, label stability, and diagram direction through interpolation."
+      ],
+      "rubric": {
+        "adjacent_pairs_reviewed": "pass_33_of_33",
+        "missing_pair_frames": "pass_none",
+        "p0_continuity_breaks": "pass_none_found_in_contact_sheet_review",
+        "motion_continuity": "monitor_required",
+        "video_approval": "not_approved"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/real_frame_continuity_review_2026-07-28.md",
+        "/tmp/kakeya_continuity_pairs/continuity_pairs_01_11.jpg",
+        "/tmp/kakeya_continuity_pairs/continuity_pairs_12_22.jpg",
+        "/tmp/kakeya_continuity_pairs/continuity_pairs_23_33.jpg",
+        "production_system/continuity_manifest.json"
+      ],
+      "notes": "Real-frame continuity contact sheet review found no P0 adjacent-shot break. All pairs remain monitor_required pending motion/clip QA."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-REAL-FRAME-CONTACT-SHEETS-2026-07-28",
+      "review_id": "KAK-BYLETH-REVIEW-FULL-REAL-FRAME-VISUAL-AUDIT-2026-07-28",
+      "reviewer_role": "visual-material-audit-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run generated clip motion QA before approved_for_video promotion.",
+        "Verify Byleth face/costume stability and math-label stability through interpolation."
+      ],
+      "rubric": {
+        "all_real_frames_reviewed": "pass_102_of_102",
+        "layout_card_leakage": "pass_none_seen",
+        "start_key_end_progression": "pass_all_shots",
+        "math_formula_correction": "pass_sh014_key_corrected",
+        "video_approval": "monitor_required_not_approved"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/full_real_frame_visual_audit_2026-07-28.md",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/contact_sheet_manifest.json",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_01.jpg",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_02.jpg",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_03.jpg",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_04.jpg",
+        "real_frames/SH014/key.png"
+      ],
+      "notes": "Full contact-sheet review found no placeholder/layout-card leakage and prompted a correction to SH014 area-formula readability. Package remains monitor_required until clip QA."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-STUDENT-INTERACTION-CHINESE-REVISION",
+      "review_id": "KAK-BYLETH-REVIEW-STUDENT-INTERACTION-CHINESE-2026-07-29",
+      "reviewer_role": "continuity-and-localization-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-29",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run image-to-video motion QA before approved_for_video promotion."
+      ],
+      "rubric": {
+        "student_roster": "pass",
+        "female_byleth_only": "pass",
+        "chinese_dialogue": "pass",
+        "web_display_localization": "pass",
+        "math_readability": "monitor_required",
+        "downstream_video_readiness": "monitor_required"
+      },
+      "reviewed_paths": [
+        "real_frames/SH002/start.png",
+        "real_frames/SH010/key.png",
+        "real_frames/SH020/key.png",
+        "real_frames/SH032/key.png",
+        "shot_list.md",
+        "voiceover_dialogue_script.md",
+        "scripts/build_kakeya_real_frame_asset_viewer.js",
+        "production_system/reviews/student_interaction_chinese_revision_review_2026-07-29.md"
+      ],
+      "notes": "Visible student interaction is now locked to Edelgard, Lysithea, and Mercedes; spoken dialogue anchors are Chinese; the preview viewer is generated with Chinese labels and primary checks."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-REAL-FRAME-PREVIEW-2026-07-28",
+      "review_id": "KAK-BYLETH-REVIEW-FULL-IMAGE-SCRIPT-MATH-QA-2026-07-31",
+      "reviewer_role": "subagent-backed-script-math-and-image-qa",
+      "reviewer": "codex-with-subagents",
+      "created_at": "2026-07-31",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Complete 102-frame full-size human visual/math pass-fail review before approved_for_video.",
+        "Run generated-video motion/identity/math-label/adjacent-cut QA after one-pass clips exist."
+      ],
+      "rubric": {
+        "machine_frame_integrity": "pass",
+        "contact_sheet_refresh": "pass",
+        "subagent_script_math_review": "pass_no_blocking_after_revision",
+        "subagent_visual_review": "pass_integrity_gap_fullsize_approval",
+        "public_explanation_level": "pass_freshman_calculus_with_noted_nonblocking_theorem_bridges",
+        "video_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/full_image_script_math_qa_2026-07-31.md",
+        "voiceover_dialogue_script.md",
+        "shot_list.md",
+        "proof_notes_freshman_level.md",
+        "production_system/reviews/real_frame_integrity_audit_2026-07-28.json",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/contact_sheet_manifest.json",
+        "delivery/real_frame_preview_kakeya_byleth_2026-07-28/asset_viewer.html",
+        "delivery/one_pass_full_video_handoff_kakeya_byleth_2026-07-31/package_manifest.json"
+      ],
+      "notes": "Subagent-backed QA confirms revised script has no blocking issues and image package has 102 integrity-passed frames, while explicitly retaining monitor_required because full-size 102-frame human visual approval and generated-video QA remain pending."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-PROMPT-ASSET-PACKAGE",
+      "review_id": "KAK-BYLETH-REVIEW-PROMPT-QA-2026-07-27",
+      "reviewer_role": "video-prompt-qa-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract_sections": "pass",
+        "start_key_end_intents": "pass",
+        "identity_locks": "pass",
+        "negative_prompt_coverage": "pass",
+        "frame_lock_check": "unverified_frames_pending",
+        "math_accuracy_locks": "pass"
+      },
+      "reviewed_paths": [
+        "prompt_asset_package_manifest.json",
+        "production_system/video_delivery_manifest.json",
+        "storyboards/SH001/prompt.md",
+        "storyboards/SH007/prompt.md",
+        "storyboards/SH016/prompt.md",
+        "storyboards/SH019/prompt.md",
+        "storyboards/SH025/prompt.md",
+        "storyboards/SH030/prompt.md",
+        "storyboards/SH034/prompt.md"
+      ],
+      "notes": "All 34 shots have prompt/spec/negative prompt structure with start/key/end frame intents. Actual frame visual checks remain unverified until PNG generation."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-PROMPT-ASSET-PACKAGE",
+      "review_id": "KAK-BYLETH-REVIEW-MOTION-PROMPT-RISK-2026-07-27",
+      "reviewer_role": "motion-prompt-risk-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "camera_motivation": "pass",
+        "screen_direction": "pass",
+        "performance_specificity": "pass",
+        "diagram_motion_risk": "monitor_required",
+        "female_byleth_continuity": "monitor_required",
+        "downstream_video_readiness": "frames_pending"
+      },
+      "reviewed_paths": [
+        "storyboards",
+        "prompt_asset_package_manifest.json"
+      ],
+      "notes": "Prompts can move to frame generation tests. Do not mark approved_for_video until actual start/key/end images pass visual and continuity review."
+    },
+    {
+      "artifact_id": "KAK-BYLETH-REAL-FRAME-VIDEO-PROMPTS",
+      "review_id": "KAK-BYLETH-REVIEW-REAL-FRAME-VIDEO-PROMPT-QA-2026-07-28",
+      "reviewer_role": "video-prompt-qa-reviewer",
+      "reviewer": "codex",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run actual image-to-video clips from the packaged real frames.",
+        "Perform clip-level motion, identity, math, and adjacent-cut QA before any approved_for_video promotion."
+      ],
+      "rubric": {
+        "prompt_contract_sections": "pass",
+        "start_key_end_real_frame_lock": "pass",
+        "stale_storyboard_prompt_replacement": "pass",
+        "female_byleth_identity_locks": "pass",
+        "mathematical_reject_criteria": "pass",
+        "downstream_video_readiness": "monitor_required"
+      },
+      "reviewed_paths": [
+        "real_video_prompts/SH001/prompt.md",
+        "real_video_prompts/SH007/prompt.md",
+        "real_video_prompts/SH016/prompt.md",
+        "real_video_prompts/SH019/prompt.md",
+        "real_video_prompts/SH025/prompt.md",
+        "real_video_prompts/SH030/prompt.md",
+        "real_video_prompts/SH034/prompt.md",
+        "production_system/video_delivery_manifest.json"
+      ],
+      "notes": "All 34 prompts now point to real start/key/end frames and explicitly instruct the video model to animate the supplied frame chain rather than redesigning from old storyboard prompts."
+    }
+  ]
+}

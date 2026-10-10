@@ -1,0 +1,46 @@
+{
+  "id": "SH014",
+  "order": 14,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S3",
+  "timecode": "02:52-03:05",
+  "duration_seconds": 13,
+  "script_beat": "Triangle support proof",
+  "shot_purpose": "解释为什么三角形里每个方向都有至少一单位长的截线，并把面积计算降为附带。",
+  "location": "Parchment insert",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH014/frame_spec.md",
+  "prompt_path": "storyboards/SH014/prompt.md",
+  "negative_prompt_path": "storyboards/SH014/negative_prompt.md",
+  "start_frame": "storyboards/SH014/start.png",
+  "key_frame": "storyboards/SH014/key.png",
+  "end_frame": "storyboards/SH014/end.png",
+  "expected_clip": "clips/SH014.mp4",
+  "edit_in": "从三角高线标尺切入公式。",
+  "edit_out": "切到凸包填满空隙的对比图。",
+  "screen_direction": "公式从上到下逐行显现。",
+  "mathematical_locks": [
+    "Convex triangle is only the convex-restricted optimum; equilateral triangle height is 1, side length is 2/sqrt(3), area is 1/sqrt(3)."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH013",
+    "next": "SH015",
+    "in": "从三角高线标尺切入公式。",
+    "out": "切到凸包填满空隙的对比图。"
+  },
+  "reject_if": [
+    "Formula crowding",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "the equilateral triangle is implied to solve the unrestricted non-convex problem"
+  ]
+}

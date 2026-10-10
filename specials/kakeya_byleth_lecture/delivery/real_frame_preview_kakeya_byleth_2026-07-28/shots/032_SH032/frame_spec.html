@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SH032 审查资料：分镜规格</title>
+  <style>
+    body{margin:0;background:#f6f8fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:28px 22px 48px}
+    h1{margin:0 0 8px;font-size:24px;letter-spacing:0}
+    .meta{margin:0 0 18px;color:#596779;line-height:1.6;font-weight:700}
+    .note{border:1px solid #d6dfeb;border-left:4px solid #174ea6;background:#fff;border-radius:8px;padding:12px 14px;margin:0 0 18px;line-height:1.65}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #d6dfeb;border-radius:8px;padding:18px;line-height:1.7;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    a{color:#174ea6;font-weight:800;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SH032 审查资料：分镜规格</h1>
+    <div class="meta">类型：分镜规格 · 编码：UTF-8 · 原始文件：<a href="frame_spec.md">frame_spec.md</a></div>
+    <div class="note">这是导演、数学和画面审查用的镜头规格，不是模型输入。</div>
+    <pre># 分镜规格：SH032
+
+镜头编号：SH032
+阶段：真实帧锁定视频提示词包
+状态：真实帧已生成，提示词已就绪
+依赖：女贝老师二维挂谷分镜表
+剧情节点：名称揭示
+成片作用：最后才揭示名字：挂谷针问题，让观众先理解再记名。
+时长目标：8 秒
+地点：加尔古·玛库教室
+可见角色：女贝老师; 艾黛尔 academy; 莉丝缇亚 academy; 梅尔赛德斯 academy
+
+身份锁：
+- 女贝老师只使用女版教授形象，不使用男贝。
+- 女贝老师参考：assets/characters/protagonist/BylethFemale/professor/selected.png。
+- 需要全身姿态、手套或持剑动作时，使用：assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png。
+- 可见学生阵容锁定为艾黛尔、莉丝缇亚、梅尔赛德斯，不得替换成其他学生或普通学生。
+
+资产引用：
+- assets/characters/protagonist/BylethFemale/professor/selected.png
+- assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png
+- assets/characters/black_eagles/Edelgard/academy/selected.png
+- assets/characters/golden_deer/Lysithea/academy/selected.png
+- assets/characters/blue_lions/Mercedes/academy/selected.png
+
+起始帧意图：
+黑板基本清空，只剩几条淡淡方向线；艾黛尔、莉丝缇亚、梅尔赛德斯在前排背影/侧影可辨。
+
+关键帧意图：
+粉笔盒合上，标题以粉笔字写出并稳定可读。
+
+结束帧意图：
+女贝老师看向标题，艾黛尔、莉丝缇亚、梅尔赛德斯有克制反应，再看回训练剑方向。
+
+摄影机：
+中近景，女贝老师在一侧，三位学生在前景低位，标题为第一视觉层级。
+
+调度：
+粉笔盒合上的声音后，黑板上只写中文“挂谷针问题”，三位学生看向标题。
+
+画面方向：
+标题在画面右侧出现，女贝老师在左侧，三位学生背影/侧影在前景保持顺序稳定。
+
+数学图形锁：
+- 影响部分必须绑定证明机制：细管重叠、最大平均、波包、挂谷最大函数直觉和组合几何；不要松散生活化说法。
+
+动作峰值：
+“挂谷针问题”五个字完成的一刻。
+
+中文台词 / 音频锚点：
+女贝老师: 这个问题，叫挂谷针问题。
+
+剪入：
+从 SH031 文字退淡接空黑板。
+
+剪出：
+女贝老师视线把镜头带回地面木剑。
+
+连续性要求：
+- 上一镜头: SH031 （最大函数与波包）.
+- 下一镜头: SH033 （回到木剑）.
+- 保持上方规定的画面方向和视觉主体交接。
+- Student roster is visible and locked: 艾黛尔, 莉丝缇亚, and 梅尔赛德斯 must match the listed selected.png assets, not generic students or shoulder silhouettes.
+
+运动风险：
+- 最后揭示名称是允许的。
+- Current generated SH032 frames are blocked if any visible student fails to match 艾黛尔/莉丝缇亚/梅尔赛德斯 academy selected assets.
+- AI 视频可能过度装饰数学图形；必须保持几何关系、端点标记、δ/α 标签、并集/重叠关系清楚可读。
+- 如果女贝老师可见，必须监看跨帧和相邻镜头中的身份漂移。
+
+拒绝条件：
+- 最后揭示名称是允许的。
+- 起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。
+- 镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。
+- 女贝老师变成男贝、成年导师、普通魔女或普通学生，则拒绝。
+- 艾黛尔, 莉丝缇亚, or 梅尔赛德斯 becomes a generic house-color student, wrong costume, wrong hair/face, or is replaced by another student
+- 影响部分被讲成松散生活比喻，而不是证明导出的细管、波包、最大平均结构，则拒绝。
+
+真实帧来源：
+- 起始帧：real_frames/SH032/start.png
+- 关键帧：real_frames/SH032/key.png
+- 结束帧：real_frames/SH032/end.png
+</pre>
+  </main>
+</body>
+</html>

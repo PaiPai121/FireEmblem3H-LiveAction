@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "artifact_id": "FFWC-SCRIPT",
+      "review_id": "review-2026-07-28-story",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "scene_purpose": "pass",
+        "conflict": "pass",
+        "character_choice": "pass",
+        "visible_action": "pass",
+        "canon_fidelity": "pass"
+      },
+      "reviewed_paths": ["outline.md", "script.md", "dialogue_audio_beats.md"],
+      "notes": "Clear support-comedy reversal from serious training to chore challenge."
+    },
+    {
+      "artifact_id": "FFWC-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-28-prompt-qa",
+      "reviewer_role": "video-prompt-qa-agent",
+      "reviewer": "codex-video-prompt-reviewer",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": ["Actual start/key/end frame images have not been generated yet."],
+      "required_revisions": ["Generate start/key/end frames for all five shots before video delivery."],
+      "rubric": {
+        "prompt_contract": "pass",
+        "dialogue_lines": "pass",
+        "negative_prompt": "pass",
+        "max_shot_duration": "pass",
+        "no_subtitles": "pass",
+        "frame_lock": "pending_real_frames"
+      },
+      "reviewed_paths": ["prompt_asset_package_manifest.json", "frame_generation_queue.md", "video_prompts"],
+      "notes": "Prompts are structurally ready for Seedance-oriented frame generation; final video package is blocked until real frames exist."
+    }
+  ]
+}

@@ -1,0 +1,940 @@
+{
+  "schema": "arknights_live_action_six_star_roster_v0",
+  "created": "2026-07-26",
+  "ranking_source": "provisional_manual_popularity_order; replace with selected CN/global poll when provided",
+  "roster_source_status": "needs_verification_against_current_official_six_star_operator_list",
+  "directory_policy": "operator directories are not rank-prefixed so ranking can change without path churn",
+  "count": 93,
+  "operators": [
+    {
+      "popularity_rank_v0": 1,
+      "operator": "Wiš'adel",
+      "slug": "Wisadel",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "older W-like danger, controlled menace, charismatic edge",
+      "directory": "assets/characters/arknights_live_action/Wisadel"
+    },
+    {
+      "popularity_rank_v0": 2,
+      "operator": "W",
+      "slug": "W",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "dangerous grin, chaotic charm, sharp mercenary beauty",
+      "directory": "assets/characters/arknights_live_action/W"
+    },
+    {
+      "popularity_rank_v0": 3,
+      "operator": "Skadi the Corrupting Heart",
+      "slug": "Skadi_the_Corrupting_Heart",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "otherworldly, haunting, siren-like beauty",
+      "directory": "assets/characters/arknights_live_action/Skadi_the_Corrupting_Heart"
+    },
+    {
+      "popularity_rank_v0": 4,
+      "operator": "Texas the Omertosa",
+      "slug": "Texas_the_Omertosa",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "quiet, cool, exhausted-but-deadly elegance",
+      "directory": "assets/characters/arknights_live_action/Texas_the_Omertosa"
+    },
+    {
+      "popularity_rank_v0": 5,
+      "operator": "Surtr",
+      "slug": "Surtr",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "blunt, fiery, aloof, high-impact beauty",
+      "directory": "assets/characters/arknights_live_action/Surtr"
+    },
+    {
+      "popularity_rank_v0": 6,
+      "operator": "Ch'en the Holungday",
+      "slug": "Chen_the_Holungday",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "relaxed vacation confidence with athletic elegance",
+      "directory": "assets/characters/arknights_live_action/Chen_the_Holungday"
+    },
+    {
+      "popularity_rank_v0": 7,
+      "operator": "Kal'tsit",
+      "slug": "Kaltsit",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "cool, intelligent, restrained, clinical elegance",
+      "directory": "assets/characters/arknights_live_action/Kaltsit"
+    },
+    {
+      "popularity_rank_v0": 8,
+      "operator": "Logos",
+      "slug": "Logos",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "pale, precise, mystical, intellectual elegance",
+      "directory": "assets/characters/arknights_live_action/Logos"
+    },
+    {
+      "popularity_rank_v0": 9,
+      "operator": "Mlynar",
+      "slug": "Mlynar",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "tired, mature, handsome, disillusioned authority",
+      "directory": "assets/characters/arknights_live_action/Mlynar"
+    },
+    {
+      "popularity_rank_v0": 10,
+      "operator": "Degenbrecher",
+      "slug": "Degenbrecher",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "strong, composed, knightly, severe beauty",
+      "directory": "assets/characters/arknights_live_action/Degenbrecher"
+    },
+    {
+      "popularity_rank_v0": 11,
+      "operator": "Ling",
+      "slug": "Ling",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "mature, poetic, relaxed, wine-warm elegance",
+      "directory": "assets/characters/arknights_live_action/Ling"
+    },
+    {
+      "popularity_rank_v0": 12,
+      "operator": "Nian",
+      "slug": "Nian",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "cute, pretty, mischievous young creator-director",
+      "directory": "assets/characters/arknights_live_action/Nian"
+    },
+    {
+      "popularity_rank_v0": 13,
+      "operator": "Dusk",
+      "slug": "Dusk",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "ethereal, introverted, painterly, distant beauty",
+      "directory": "assets/characters/arknights_live_action/Dusk"
+    },
+    {
+      "popularity_rank_v0": 14,
+      "operator": "Shu",
+      "slug": "Shu",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Shu"
+    },
+    {
+      "popularity_rank_v0": 15,
+      "operator": "SilverAsh",
+      "slug": "SilverAsh",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "refined, aristocratic, calculating presence",
+      "directory": "assets/characters/arknights_live_action/SilverAsh"
+    },
+    {
+      "popularity_rank_v0": 16,
+      "operator": "Exusiai",
+      "slug": "Exusiai",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "sunny, energetic, mischievous, bright idol-like charm",
+      "directory": "assets/characters/arknights_live_action/Exusiai"
+    },
+    {
+      "popularity_rank_v0": 17,
+      "operator": "Thorns",
+      "slug": "Thorns",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Thorns"
+    },
+    {
+      "popularity_rank_v0": 18,
+      "operator": "Bagpipe",
+      "slug": "Bagpipe",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "sunny rural athletic charm, honest and bright",
+      "directory": "assets/characters/arknights_live_action/Bagpipe"
+    },
+    {
+      "popularity_rank_v0": 19,
+      "operator": "Mudrock",
+      "slug": "Mudrock",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "quiet strength, hidden softness, armored loneliness",
+      "directory": "assets/characters/arknights_live_action/Mudrock"
+    },
+    {
+      "popularity_rank_v0": 20,
+      "operator": "Saria",
+      "slug": "Saria",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "mature, severe, protective, controlled authority",
+      "directory": "assets/characters/arknights_live_action/Saria"
+    },
+    {
+      "popularity_rank_v0": 21,
+      "operator": "Eyjafjalla",
+      "slug": "Eyjafjalla",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Eyjafjalla"
+    },
+    {
+      "popularity_rank_v0": 22,
+      "operator": "Blaze",
+      "slug": "Blaze",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Blaze"
+    },
+    {
+      "popularity_rank_v0": 23,
+      "operator": "Ch'en",
+      "slug": "Chen",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "disciplined, sharp, upright, heroic intensity",
+      "directory": "assets/characters/arknights_live_action/Chen"
+    },
+    {
+      "popularity_rank_v0": 24,
+      "operator": "Nearl the Radiant Knight",
+      "slug": "Nearl_the_Radiant_Knight",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Nearl_the_Radiant_Knight"
+    },
+    {
+      "popularity_rank_v0": 25,
+      "operator": "Horn",
+      "slug": "Horn",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Horn"
+    },
+    {
+      "popularity_rank_v0": 26,
+      "operator": "Ines",
+      "slug": "Ines",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "sharp, dry, pragmatic, sly intelligence",
+      "directory": "assets/characters/arknights_live_action/Ines"
+    },
+    {
+      "popularity_rank_v0": 27,
+      "operator": "Typhon",
+      "slug": "Typhon",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "northern, focused, young hunter intensity",
+      "directory": "assets/characters/arknights_live_action/Typhon"
+    },
+    {
+      "popularity_rank_v0": 28,
+      "operator": "Virtuosa",
+      "slug": "Virtuosa",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "refined, uncanny, elegant artistic danger",
+      "directory": "assets/characters/arknights_live_action/Virtuosa"
+    },
+    {
+      "popularity_rank_v0": 29,
+      "operator": "Ascalon",
+      "slug": "Ascalon",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "shadowy, cool, controlled, assassin poise",
+      "directory": "assets/characters/arknights_live_action/Ascalon"
+    },
+    {
+      "popularity_rank_v0": 30,
+      "operator": "Goldenglow",
+      "slug": "Goldenglow",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "soft, nervous, sweet, warm youthful charm",
+      "directory": "assets/characters/arknights_live_action/Goldenglow"
+    },
+    {
+      "popularity_rank_v0": 31,
+      "operator": "Chongyue",
+      "slug": "Chongyue",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Chongyue"
+    },
+    {
+      "popularity_rank_v0": 32,
+      "operator": "Executor the Ex Foedere",
+      "slug": "Executor_the_Ex_Foedere",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Executor_the_Ex_Foedere"
+    },
+    {
+      "popularity_rank_v0": 33,
+      "operator": "Reed the Flame Shadow",
+      "slug": "Reed_the_Flame_Shadow",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Reed_the_Flame_Shadow"
+    },
+    {
+      "popularity_rank_v0": 34,
+      "operator": "Irene",
+      "slug": "Irene",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Irene"
+    },
+    {
+      "popularity_rank_v0": 35,
+      "operator": "Hoshiguma",
+      "slug": "Hoshiguma",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "tall, warm, reliable, powerful mature presence",
+      "directory": "assets/characters/arknights_live_action/Hoshiguma"
+    },
+    {
+      "popularity_rank_v0": 36,
+      "operator": "Shining",
+      "slug": "Shining",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "serene, gentle, luminous, spiritual calm",
+      "directory": "assets/characters/arknights_live_action/Shining"
+    },
+    {
+      "popularity_rank_v0": 37,
+      "operator": "Nightingale",
+      "slug": "Nightingale",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "fragile, haunted, soft, protected elegance",
+      "directory": "assets/characters/arknights_live_action/Nightingale"
+    },
+    {
+      "popularity_rank_v0": 38,
+      "operator": "Mountain",
+      "slug": "Mountain",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Mountain"
+    },
+    {
+      "popularity_rank_v0": 39,
+      "operator": "Phantom",
+      "slug": "Phantom",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Phantom"
+    },
+    {
+      "popularity_rank_v0": 40,
+      "operator": "Mostima",
+      "slug": "Mostima",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Mostima"
+    },
+    {
+      "popularity_rank_v0": 41,
+      "operator": "Passenger",
+      "slug": "Passenger",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Passenger"
+    },
+    {
+      "popularity_rank_v0": 42,
+      "operator": "Weedy",
+      "slug": "Weedy",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Weedy"
+    },
+    {
+      "popularity_rank_v0": 43,
+      "operator": "Ifrit",
+      "slug": "Ifrit",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Ifrit"
+    },
+    {
+      "popularity_rank_v0": 44,
+      "operator": "Angelina",
+      "slug": "Angelina",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Angelina"
+    },
+    {
+      "popularity_rank_v0": 45,
+      "operator": "Siege",
+      "slug": "Siege",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Siege"
+    },
+    {
+      "popularity_rank_v0": 46,
+      "operator": "Skadi",
+      "slug": "Skadi",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "stoic, oceanic, distant, melancholy beauty",
+      "directory": "assets/characters/arknights_live_action/Skadi"
+    },
+    {
+      "popularity_rank_v0": 47,
+      "operator": "Specter the Unchained",
+      "slug": "Specter_the_Unchained",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Specter_the_Unchained"
+    },
+    {
+      "popularity_rank_v0": 48,
+      "operator": "Penance",
+      "slug": "Penance",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Penance"
+    },
+    {
+      "popularity_rank_v0": 49,
+      "operator": "Lin",
+      "slug": "Lin",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Lin"
+    },
+    {
+      "popularity_rank_v0": 50,
+      "operator": "Qiubai",
+      "slug": "Qiubai",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Qiubai"
+    },
+    {
+      "popularity_rank_v0": 51,
+      "operator": "Hoederer",
+      "slug": "Hoederer",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Hoederer"
+    },
+    {
+      "popularity_rank_v0": 52,
+      "operator": "Ulpianus",
+      "slug": "Ulpianus",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Ulpianus"
+    },
+    {
+      "popularity_rank_v0": 53,
+      "operator": "Nymph",
+      "slug": "Nymph",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Nymph"
+    },
+    {
+      "popularity_rank_v0": 54,
+      "operator": "Ray",
+      "slug": "Ray",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Ray"
+    },
+    {
+      "popularity_rank_v0": 55,
+      "operator": "Zuo Le",
+      "slug": "Zuo_Le",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Zuo_Le"
+    },
+    {
+      "popularity_rank_v0": 56,
+      "operator": "Ela",
+      "slug": "Ela",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Ela"
+    },
+    {
+      "popularity_rank_v0": 57,
+      "operator": "Ash",
+      "slug": "Ash",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Ash"
+    },
+    {
+      "popularity_rank_v0": 58,
+      "operator": "Kirin R Yato",
+      "slug": "Kirin_R_Yato",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Kirin_R_Yato"
+    },
+    {
+      "popularity_rank_v0": 59,
+      "operator": "Fiammetta",
+      "slug": "Fiammetta",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Fiammetta"
+    },
+    {
+      "popularity_rank_v0": 60,
+      "operator": "Dorothy",
+      "slug": "Dorothy",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Dorothy"
+    },
+    {
+      "popularity_rank_v0": 61,
+      "operator": "Stainless",
+      "slug": "Stainless",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Stainless"
+    },
+    {
+      "popularity_rank_v0": 62,
+      "operator": "Ebenholz",
+      "slug": "Ebenholz",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Ebenholz"
+    },
+    {
+      "popularity_rank_v0": 63,
+      "operator": "Gnosis",
+      "slug": "Gnosis",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Gnosis"
+    },
+    {
+      "popularity_rank_v0": 64,
+      "operator": "Flametail",
+      "slug": "Flametail",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Flametail"
+    },
+    {
+      "popularity_rank_v0": 65,
+      "operator": "Saileach",
+      "slug": "Saileach",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Saileach"
+    },
+    {
+      "popularity_rank_v0": 66,
+      "operator": "Fartooth",
+      "slug": "Fartooth",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Fartooth"
+    },
+    {
+      "popularity_rank_v0": 67,
+      "operator": "Blemishine",
+      "slug": "Blemishine",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Blemishine"
+    },
+    {
+      "popularity_rank_v0": 68,
+      "operator": "Pallas",
+      "slug": "Pallas",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Pallas"
+    },
+    {
+      "popularity_rank_v0": 69,
+      "operator": "Mizuki",
+      "slug": "Mizuki",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Mizuki"
+    },
+    {
+      "popularity_rank_v0": 70,
+      "operator": "Carnelian",
+      "slug": "Carnelian",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Carnelian"
+    },
+    {
+      "popularity_rank_v0": 71,
+      "operator": "Ceobe",
+      "slug": "Ceobe",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Ceobe"
+    },
+    {
+      "popularity_rank_v0": 72,
+      "operator": "Saga",
+      "slug": "Saga",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Saga"
+    },
+    {
+      "popularity_rank_v0": 73,
+      "operator": "Archetto",
+      "slug": "Archetto",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Archetto"
+    },
+    {
+      "popularity_rank_v0": 74,
+      "operator": "Eunectes",
+      "slug": "Eunectes",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Eunectes"
+    },
+    {
+      "popularity_rank_v0": 75,
+      "operator": "Magallan",
+      "slug": "Magallan",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Magallan"
+    },
+    {
+      "popularity_rank_v0": 76,
+      "operator": "Aak",
+      "slug": "Aak",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Aak"
+    },
+    {
+      "popularity_rank_v0": 77,
+      "operator": "Schwarz",
+      "slug": "Schwarz",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Schwarz"
+    },
+    {
+      "popularity_rank_v0": 78,
+      "operator": "Rosa",
+      "slug": "Rosa",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Rosa"
+    },
+    {
+      "popularity_rank_v0": 79,
+      "operator": "Hellagur",
+      "slug": "Hellagur",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Hellagur"
+    },
+    {
+      "popularity_rank_v0": 80,
+      "operator": "Lee",
+      "slug": "Lee",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Lee"
+    },
+    {
+      "popularity_rank_v0": 81,
+      "operator": "Swire the Elegant Wit",
+      "slug": "Swire_the_Elegant_Wit",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Swire_the_Elegant_Wit"
+    },
+    {
+      "popularity_rank_v0": 82,
+      "operator": "Eyjafjalla the Hvit Aska",
+      "slug": "Eyjafjalla_the_Hvit_Aska",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Eyjafjalla_the_Hvit_Aska"
+    },
+    {
+      "popularity_rank_v0": 83,
+      "operator": "Jessica the Liberated",
+      "slug": "Jessica_the_Liberated",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Jessica_the_Liberated"
+    },
+    {
+      "popularity_rank_v0": 84,
+      "operator": "Vigil",
+      "slug": "Vigil",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Vigil"
+    },
+    {
+      "popularity_rank_v0": 85,
+      "operator": "Silence the Paradigmatic",
+      "slug": "Silence_the_Paradigmatic",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Silence_the_Paradigmatic"
+    },
+    {
+      "popularity_rank_v0": 86,
+      "operator": "Viviana",
+      "slug": "Viviana",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Viviana"
+    },
+    {
+      "popularity_rank_v0": 87,
+      "operator": "Lumen",
+      "slug": "Lumen",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Lumen"
+    },
+    {
+      "popularity_rank_v0": 88,
+      "operator": "Gladiia",
+      "slug": "Gladiia",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Gladiia"
+    },
+    {
+      "popularity_rank_v0": 89,
+      "operator": "Lessing",
+      "slug": "Lessing",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Lessing"
+    },
+    {
+      "popularity_rank_v0": 90,
+      "operator": "Civilight Eterna",
+      "slug": "Civilight_Eterna",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Civilight_Eterna"
+    },
+    {
+      "popularity_rank_v0": 91,
+      "operator": "Pepe",
+      "slug": "Pepe",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Pepe"
+    },
+    {
+      "popularity_rank_v0": 92,
+      "operator": "Narantuya",
+      "slug": "Narantuya",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Narantuya"
+    },
+    {
+      "popularity_rank_v0": 93,
+      "operator": "Marcille",
+      "slug": "Marcille",
+      "rarity": 6,
+      "source_status": "needs_verification_against_current_official_roster",
+      "ranking_status": "provisional_manual_popularity_order_not_official_poll",
+      "beauty_type_seed": "character-specific appeal to be defined before generation; avoid default AI sameface",
+      "directory": "assets/characters/arknights_live_action/Marcille"
+    }
+  ]
+}

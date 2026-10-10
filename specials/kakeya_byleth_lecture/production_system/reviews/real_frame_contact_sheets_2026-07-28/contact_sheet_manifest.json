@@ -1,0 +1,15 @@
+{
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-31",
+  "legacy_directory_date": "2026-07-28",
+  "source_manifest": "frame_generation_manifest.json",
+  "sheets": [
+    "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_01.jpg",
+    "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_02.jpg",
+    "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_03.jpg",
+    "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_04.jpg"
+  ],
+  "shot_count": 34,
+  "frame_count": 102,
+  "purpose": "Human visual QA contact sheets for real start/key/end frames."
+}

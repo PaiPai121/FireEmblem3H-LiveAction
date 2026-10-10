@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "project": "felix_flayn_woodcutter",
+  "package_id": "prompt_asset_package_2026-07-28_felix_flayn_woodcutter",
+  "status": "frames_pending",
+  "total_shots": 5,
+  "total_duration_seconds": 60,
+  "max_shot_duration_seconds": 15,
+  "target_model_profile": "Seedance image-to-video, start/key/end frame guided, no subtitles",
+  "character_assets": {
+    "Felix": "assets/characters/blue_lions/Felix/academy/selected.png",
+    "Flayn": "assets/characters/church_of_seiros/Flayn/academy/selected.png"
+  },
+  "location_assets": [
+    "assets/locations/EP02/act01/TrainingGround/TrainingGround_reference.png",
+    "assets/locations/EP02/act02/TrainingGround_TargetRange/TrainingGround_TargetRange_reference.png"
+  ],
+  "shots": [
+    {
+      "id": "FFWC-SH001",
+      "order": 1,
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/FFWC-SH001/frame_spec.md",
+      "prompt_path": "video_prompts/FFWC-SH001.md",
+      "negative_prompt_path": "video_prompts/FFWC-SH001_negative.md",
+      "start_frame": "storyboards/FFWC-SH001/start_frame.png",
+      "key_frame": "storyboards/FFWC-SH001/key_frame.png",
+      "end_frame": "storyboards/FFWC-SH001/end_frame.png",
+      "status": "frames_pending"
+    },
+    {
+      "id": "FFWC-SH002",
+      "order": 2,
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/FFWC-SH002/frame_spec.md",
+      "prompt_path": "video_prompts/FFWC-SH002.md",
+      "negative_prompt_path": "video_prompts/FFWC-SH002_negative.md",
+      "start_frame": "storyboards/FFWC-SH002/start_frame.png",
+      "key_frame": "storyboards/FFWC-SH002/key_frame.png",
+      "end_frame": "storyboards/FFWC-SH002/end_frame.png",
+      "status": "frames_pending"
+    },
+    {
+      "id": "FFWC-SH003",
+      "order": 3,
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/FFWC-SH003/frame_spec.md",
+      "prompt_path": "video_prompts/FFWC-SH003.md",
+      "negative_prompt_path": "video_prompts/FFWC-SH003_negative.md",
+      "start_frame": "storyboards/FFWC-SH003/start_frame.png",
+      "key_frame": "storyboards/FFWC-SH003/key_frame.png",
+      "end_frame": "storyboards/FFWC-SH003/end_frame.png",
+      "status": "frames_pending"
+    },
+    {
+      "id": "FFWC-SH004",
+      "order": 4,
+      "duration_seconds": 15,
+      "frame_spec": "storyboards/FFWC-SH004/frame_spec.md",
+      "prompt_path": "video_prompts/FFWC-SH004.md",
+      "negative_prompt_path": "video_prompts/FFWC-SH004_negative.md",
+      "start_frame": "storyboards/FFWC-SH004/start_frame.png",
+      "key_frame": "storyboards/FFWC-SH004/key_frame.png",
+      "end_frame": "storyboards/FFWC-SH004/end_frame.png",
+      "status": "frames_pending"
+    },
+    {
+      "id": "FFWC-SH005",
+      "order": 5,
+      "duration_seconds": 9,
+      "frame_spec": "storyboards/FFWC-SH005/frame_spec.md",
+      "prompt_path": "video_prompts/FFWC-SH005.md",
+      "negative_prompt_path": "video_prompts/FFWC-SH005_negative.md",
+      "start_frame": "storyboards/FFWC-SH005/start_frame.png",
+      "key_frame": "storyboards/FFWC-SH005/key_frame.png",
+      "end_frame": "storyboards/FFWC-SH005/end_frame.png",
+      "status": "frames_pending"
+    }
+  ]
+}

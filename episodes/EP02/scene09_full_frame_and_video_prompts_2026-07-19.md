@@ -4,6 +4,8 @@ Date: 2026-07-19
 
 Scope: EP02 Scene09 Mock Battle, Shot025-Shot036.
 
+Superseded status, 2026-07-21: this package is **historical reference only**. Do not use these prompts or listed frame assets for paid video generation. The current generation source of truth is `episodes/EP02/scene09_shot_list_v2_2026-07-21.md`, with script logic from `episodes/EP02/scene09_shooting_script_v2_2026-07-21.md` and blocking rationale from `episodes/EP02/scene09_script_shootability_audit_2026-07-21.md`.
+
 Policy: existing old/source PNG or SVG layout frames are references only. They must not be renamed or copied as final production start/key frames. A frame is final only after newly generated raster output is QA-reviewed.
 
 | Shot | Title | Start frame asset | Keyframe asset | Generation note | Prompt files |

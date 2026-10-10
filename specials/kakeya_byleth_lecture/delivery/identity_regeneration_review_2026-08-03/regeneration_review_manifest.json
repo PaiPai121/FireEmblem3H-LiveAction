@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "status": "candidate_review_required",
+  "created_at": "2026-08-03",
+  "shots": [
+    {
+      "id": "SH002",
+      "candidate": "identity_v1",
+      "decision": "可替换正式帧",
+      "reason": "独立审查通过：四人身份明显贴近 selected asset，三帧连续性成立，无数学/中文文字风险。",
+      "contact_sheet": "shots/SH002/candidate_contact_sheet.png"
+    },
+    {
+      "id": "SH010",
+      "candidate": "identity_v3",
+      "decision": "最新候选待独立复审",
+      "reason": "v2 虽可替换但有黑板补丁与 deltoid 监看风险；v3 改为整帧生成干净黑板底，再用自然粉笔数学层绘制 deltoid 与中文说明，禁止人物抠图。",
+      "contact_sheet": "shots/SH010/candidate_contact_sheet.png"
+    },
+    {
+      "id": "SH020",
+      "candidate": "identity_v1",
+      "decision": "可替换正式帧，但需运动监看",
+      "reason": "独立审查认为四人身份和三帧连续性显著优于旧版；Perron 桌面碎片和绿色方向带仍偏复杂，替换后需监看数学桌面细节是否跳动。",
+      "contact_sheet": "shots/SH020/candidate_contact_sheet.png"
+    },
+    {
+      "id": "SH032",
+      "candidate": "identity_v2",
+      "decision": "最新候选待独立复审",
+      "reason": "v1 因 key/end 黑板文字修补区域像遮罩被拒绝；v2 改为整帧生成干净黑板底，再加自然粉笔中文标题，禁止人物抠图。",
+      "contact_sheet": "shots/SH032/candidate_contact_sheet.png"
+    }
+  ],
+  "math_fixed": [
+    {
+      "id": "SH015",
+      "fix": "图中英文 convex hull / non-convex 改为中文"
+    },
+    {
+      "id": "SH025",
+      "fix": "alpha 改为 α，保留 δ 管宽"
+    },
+    {
+      "id": "SH026",
+      "fix": "small alpha / large alpha / gold overlap 改为中文与 α"
+    },
+    {
+      "id": "SH027",
+      "fix": "length / area / overlap 英文公式说明改为中文与 α/δ"
+    },
+    {
+      "id": "SH028",
+      "fix": "curve / all directions 英文说明改为中文"
+    },
+    {
+      "id": "SH029",
+      "fix": "area may be 0 / dimension = 2 改为中文"
+    },
+    {
+      "id": "SH031",
+      "fix": "tube overlap / maximal averages / wave packets 改为中文"
+    }
+  ],
+  "note": "This package is for human candidate review only. It does not promote regenerated frames to approved_for_video."
+}

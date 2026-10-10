@@ -1,0 +1,20 @@
+{
+  "id": "SH022",
+  "order": 22,
+  "status": "monitor_required",
+  "duration_seconds": 20,
+  "expected_clip": "clips/SH022.mp4",
+  "edit_in": "从方向审计色带生长出第一层树。",
+  "edit_out": "树状碎片淡入教室黑板总结。",
+  "audio_anchor": "",
+  "continuity_previous": "KAK-BYLETH-PROMPT-SH021",
+  "continuity_next": "KAK-BYLETH-PROMPT-SH023",
+  "model_notes": [
+    "Use these PNGs as storyboard/diagrammatic image-to-video inputs.",
+    "Preserve the text, diagram geometry, Female Byleth reference panel, and start/key/end action chain.",
+    "This package is suitable for storyboard animatic or explanatory video generation; photoreal/cinematic repaint remains an optional later style pass."
+  ],
+  "reject_if": [],
+  "review_status": "superseded_pending_motion_qa",
+  "approval_note": "旧版交接包仅作历史参考；当前权威入口为真实帧中文审查页，视频出片需先通过运动 QA。"
+}

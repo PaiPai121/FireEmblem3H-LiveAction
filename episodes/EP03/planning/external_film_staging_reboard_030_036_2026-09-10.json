@@ -1,0 +1,516 @@
+{
+  "version": 1,
+  "project": "EP03",
+  "revision": "external_film_staging_reboard_v1_2026-09-10",
+  "mode": "ordered_external_film_staging_reboard",
+  "status": "still_frame_visual_review_passed_motion_probe_pending",
+  "quality_reference_policy": {
+    "allowed": [
+      "public feature-film and animation production notes",
+      "professional storyboard, layout, and videomatic breakdowns",
+      "published editorial and screen-staging craft references"
+    ],
+    "excluded": [
+      "local support mini-theater packages",
+      "local EP02 shot packages",
+      "all prior local frames as quality or blocking templates"
+    ],
+    "local_asset_boundary": "Local selected assets constrain identity, wardrobe, weapon, and geography only. They are not visual-quality, pose, lens, or blocking references."
+  },
+  "method_references": [
+    {
+      "title": "Disney Animation Story",
+      "url": "https://www.disneyanimation.com/process/story/",
+      "lesson": "thumbnail narrative, emotion, timing, staging, and framing before final layout"
+    },
+    {
+      "title": "Disney Animation Layout",
+      "url": "https://disneyanimation.com/process/layout/",
+      "lesson": "stage characters, sets, props, camera, point of view, cut relation, and continuity shot by shot"
+    },
+    {
+      "title": "Academy: How To Storyboard Star Trek",
+      "url": "https://www.oscars.org/news/how-storyboard-star-trek",
+      "lesson": "make approach, conflict, recovery, and payoff legible as a physical sequence"
+    },
+    {
+      "title": "Star Wars Jedi Videomatics",
+      "url": "https://www.starwars.com/video/jedi-videomatics-a-moving-storyboard",
+      "lesson": "test screen direction, action flow, and edit rhythm before final imagery"
+    },
+    {
+      "title": "ILM Art Department: Concept Art and Storyboarding",
+      "url": "https://www.ilm.com/ilm-evolutions-50-concept-art-storyboarding/",
+      "lesson": "treat storyboards as an action and logistics blueprint"
+    },
+    {
+      "title": "Jump Manga School Lecture 3",
+      "url": "https://jump-manga-school.hatenablog.com/entry/03",
+      "lesson": "use wide views for position and distance, closer views for hands and emotion, and keep each panel instantly readable"
+    }
+  ],
+  "rough_thumbnail": {
+    "svg": "planning/external_film_staging_thumbnail_030_036_2026-09-10.svg",
+    "png": "planning/external_film_staging_thumbnail_030_036_2026-09-10.png",
+    "review": "production_system/reviews/external_film_staging_reboard_2026-09-10/rough_thumbnail_review.md",
+    "readability_rule": "Every panel has one visible verb and hands a changed physical state to the next panel."
+  },
+  "scene_engine": {
+    "task_or_desire": "After the battlefield stop, the students must carry the unresolved moral cost into the church without becoming a posed report group.",
+    "obstacle": "The institution turns a messy human stop into procedure, while each witness chooses a different physical response.",
+    "escalation": "Reaction becomes report, report becomes a quiet order, the students separate, Catherine defends procedure, Dimitri walks away, and Sothis interrupts the silence.",
+    "visible_change": "The group enters together but leaves in separate directions; the final frame replaces human authority with an uncertain spectral question."
+  },
+  "shared_frame_rules": [
+    "16:9, integrated live-action human performers, practical light, real floor contact, shared perspective, and natural material response",
+    "START, KEY, and END are different blocking states with a readable physical verb, not crop or lighting variants",
+    "female academy Byleth only wherever Byleth appears",
+    "Japanese spoken dialogue only in dialogue shots; no subtitles, UI, readable text, or game screenshot",
+    "no pasted portrait plates, no 3D render, no anime or illustration look, no poster lineup",
+    "use only local selected character/location/prop assets for identity and geography; use the external craft references only as methods"
+  ],
+  "shots": {
+    "Shot030": {
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "frame_set_id": "Shot030_external_film_staging_reboard_v1_2026-09-10",
+      "frames": {
+        "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "source_paths": {
+        "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-4a6d4422-6368-452e-aa67-6d8a1e6bf79c.png",
+        "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f0ce3d26-79e0-4b04-a3ac-5aebaff281cd.png",
+        "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-96da329f-1166-4f55-9cec-a7c1020756e8.png"
+      },
+      "reference_assets": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+        "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      ],
+      "focal_subject": "the witnesses choose not to advance",
+      "attention_path": "Catherine crossing behind -> Dimitri's stop-hand -> Ashe's released arrow -> Byleth turns toward the return route",
+      "note": "Turn the aftermath into a moving reaction: Catherine crosses to check the offscreen site, Dimitri physically holds the line, Ashe unstrings his immediate attack impulse, and Byleth leads the group toward the cathedral route. Lonato never returns.",
+      "states": {
+        "start": "Catherine is mid-crossing in the rear lane; Byleth, Dimitri, and Ashe remain staggered in the muddy foreground with weapons low.",
+        "key": "Dimitri's open palm stops any advance while Ashe slides one arrow back into the quiver; Catherine reaches the offscreen site and Byleth watches the boundary.",
+        "end": "Catherine exits; Byleth turns and takes the first step toward the cathedral route, Dimitri follows, and Ashe lingers one beat before joining."
+      },
+      "reject_if": [
+        "the three witnesses form a row or heroic tableau",
+        "Catherine crosses the foreground or Lonato reappears",
+        "any weapon rises into an attack",
+        "the frame reads as four cutout portraits on a battlefield"
+      ],
+      "status": "monitor_required",
+      "visual_audit_decision": "visual_review_passed",
+      "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+      "evidence": {
+        "start": {
+          "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-4a6d4422-6368-452e-aa67-6d8a1e6bf79c.png",
+          "output_sha256": "6c949909babec79d70d75bdcc61b22849658504b1e1f28edd44eb4db760d6604",
+          "source_sha256": "6c949909babec79d70d75bdcc61b22849658504b1e1f28edd44eb4db760d6604",
+          "decision": "visual_review_passed"
+        },
+        "key": {
+          "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f0ce3d26-79e0-4b04-a3ac-5aebaff281cd.png",
+          "output_sha256": "cb38cdff3aaeea7d983335cdd9f26c1d8c0badc1d372245f18937129d9c849c7",
+          "source_sha256": "cb38cdff3aaeea7d983335cdd9f26c1d8c0badc1d372245f18937129d9c849c7",
+          "decision": "visual_review_passed"
+        },
+        "end": {
+          "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-96da329f-1166-4f55-9cec-a7c1020756e8.png",
+          "output_sha256": "a220da98e1c9529bfc3fdf7428efc32d1e718bc82e20b41466a8c8dabe34c820",
+          "source_sha256": "a220da98e1c9529bfc3fdf7428efc32d1e718bc82e20b41466a8c8dabe34c820",
+          "decision": "visual_review_passed"
+        }
+      }
+    },
+    "Shot031": {
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "frame_set_id": "Shot031_external_film_staging_reboard_v1_2026-09-10",
+      "frames": {
+        "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "source_paths": {
+        "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a8b5204d-d2c4-4bcb-bf27-b0aedb78301d.png",
+        "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-431cb150-220d-45bb-aa3d-5341bb3b4ee0.png",
+        "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5e55f391-ff0e-4d09-9393-d68dbf7f9c54.png"
+      },
+      "reference_assets": [
+        "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+        "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+        "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ],
+      "focal_subject": "the report crosses from muddy students to institutional hands",
+      "attention_path": "closing cathedral door -> Seteth's folio -> Rhea's descending hand -> students held below",
+      "note": "Make the return a physical threshold: the cathedral door closes behind the students, Seteth crosses one step down to meet them and receives the folio from Byleth's side, then Rhea takes it and sends the group into stillness. Keep mature Seteth and female Byleth exact.",
+      "states": {
+        "start": "the five enter from the wet threshold in staggered depth; the door is still moving toward closed and Rhea waits above.",
+        "key": "Seteth is one step down with the closed folio extended; Rhea steps down to receive it while Byleth, Dimitri, and Ashe stop below.",
+        "end": "Rhea turns back toward the altar with the folio; Seteth remains between levels and the three students are left at the closed door with changed eyelines."
+      },
+      "reject_if": [
+        "the five become a ceremonial lineup",
+        "Seteth reads young or war-phase",
+        "the muddy threshold and folio handoff disappear",
+        "Rhea is framed as a theatrical villain"
+      ],
+      "status": "monitor_required",
+      "visual_audit_decision": "visual_review_passed",
+      "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+      "evidence": {
+        "start": {
+          "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a8b5204d-d2c4-4bcb-bf27-b0aedb78301d.png",
+          "output_sha256": "c98f1e729b48982aeb6c6354a58a65a00232f56b09551f7beaec11d249426160",
+          "source_sha256": "c98f1e729b48982aeb6c6354a58a65a00232f56b09551f7beaec11d249426160",
+          "decision": "visual_review_passed"
+        },
+        "key": {
+          "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-431cb150-220d-45bb-aa3d-5341bb3b4ee0.png",
+          "output_sha256": "91c3a1fff039edbe579cd8fa912b86f4b1a00842edb07f5becc28b1d2ac1de75",
+          "source_sha256": "91c3a1fff039edbe579cd8fa912b86f4b1a00842edb07f5becc28b1d2ac1de75",
+          "decision": "visual_review_passed"
+        },
+        "end": {
+          "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5e55f391-ff0e-4d09-9393-d68dbf7f9c54.png",
+          "output_sha256": "833902c93491b9296c9b99824fa3b48b5fb68072e2018685475ba8cbaf5a6a6e",
+          "source_sha256": "833902c93491b9296c9b99824fa3b48b5fb68072e2018685475ba8cbaf5a6a6e",
+          "decision": "visual_review_passed"
+        }
+      }
+    },
+    "Shot032": {
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "frame_set_id": "Shot032_external_film_staging_reboard_v1_2026-09-10",
+      "frames": {
+        "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "source_paths": {
+        "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-185121f6-aaf8-42c6-8cf6-fc731464a934.png",
+        "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-0139160e-2559-4acf-8fb6-6b7277cd60e0.png",
+        "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ac160392-553e-4812-8267-3433a408c30a.png"
+      },
+      "reference_assets": [
+        "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+        "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+        "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ],
+      "focal_subject": "a calm hand closes the moral argument",
+      "attention_path": "closed folio -> Rhea's hand -> Byleth's turn toward the side door -> Seteth's descent",
+      "note": "Separate the authority beat from Shot031: use a diagonal profile rather than a centered report pose. Rhea closes the folio against a stone rail, raises one hand to end debate, and turns away; Byleth reacts by turning toward the students' side door.",
+      "states": {
+        "start": "Seteth places the closed folio on a stone rail while Rhea stands in profile and Byleth holds low below the altar.",
+        "key": "Rhea's palm closes the folio and her raised hand stops the room; Seteth waits one step below and Byleth's eyes lift.",
+        "end": "Rhea has turned away, Seteth takes the first step down, and Byleth steps backward toward the side door with the consequence understood."
+      },
+      "reject_if": [
+        "the frame repeats Shot031's front-facing handoff",
+        "Rhea points or performs broad villain emotion",
+        "Byleth becomes male or disappears",
+        "the folio action is only implied by a close-up"
+      ],
+      "status": "monitor_required",
+      "visual_audit_decision": "visual_review_passed",
+      "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+      "evidence": {
+        "start": {
+          "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-185121f6-aaf8-42c6-8cf6-fc731464a934.png",
+          "output_sha256": "3017cd1d260a529106e0e7b78df69b1164b601fee6697bf7b6398decdf81c68b",
+          "source_sha256": "3017cd1d260a529106e0e7b78df69b1164b601fee6697bf7b6398decdf81c68b",
+          "decision": "visual_review_passed"
+        },
+        "key": {
+          "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-0139160e-2559-4acf-8fb6-6b7277cd60e0.png",
+          "output_sha256": "b6a3f7a24d4bc72362d2ab4ea7fa3fe476576f271193808022d6453c9769138e",
+          "source_sha256": "b6a3f7a24d4bc72362d2ab4ea7fa3fe476576f271193808022d6453c9769138e",
+          "decision": "visual_review_passed"
+        },
+        "end": {
+          "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ac160392-553e-4812-8267-3433a408c30a.png",
+          "output_sha256": "12109ccddfc79df1d05349b0d54ef8c1a3f0b0f7e660a4be815fd613caebbac5",
+          "source_sha256": "12109ccddfc79df1d05349b0d54ef8c1a3f0b0f7e660a4be815fd613caebbac5",
+          "decision": "visual_review_passed"
+        }
+      }
+    },
+    "Shot033": {
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "frame_set_id": "Shot033_external_film_staging_reboard_v1_2026-09-10",
+      "frames": {
+        "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "source_paths": {
+        "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-161f712b-c943-412a-8ab0-43dd57507cc1.png",
+        "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a06d2081-25fe-4f8d-995b-583346e90004.png",
+        "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-87365ca4-3660-46ba-8ea6-720af2099b26.png"
+      },
+      "reference_assets": [
+        "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "assets/characters/blue_lions/Felix/academy/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+        "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ],
+      "focal_subject": "the group breaks into four different decisions",
+      "attention_path": "half-closed authority door -> Ashe's hand leaves the latch -> Dimitri looks to Byleth -> Felix chooses the right exit",
+      "note": "Make the reaction shot a departure, not four people waiting. Ashe touches the door and lets it close, Dimitri turns to Byleth for a response, Felix chooses the open right corridor, and Byleth follows after a held beat.",
+      "states": {
+        "start": "the authority door is half-open in the far background; Ashe is nearest it, Dimitri is turned toward Byleth, Felix is already angled toward the right corridor, and Byleth holds the near left.",
+        "key": "Ashe releases the door latch as it closes; Dimitri takes a small step toward Byleth; Felix has started through the right corridor while Byleth remains the still pivot.",
+        "end": "the door is fully closed, Felix has cleared the corridor, Byleth begins after him, Dimitri looks back once, and Ashe remains by the closed door before following."
+      },
+      "reject_if": [
+        "the four stand shoulder-to-shoulder",
+        "the door or right-corridor handoff is missing",
+        "a fifth student or any authority figure enters",
+        "the frame becomes a set of isolated portraits"
+      ],
+      "status": "monitor_required",
+      "visual_audit_decision": "visual_review_passed",
+      "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+      "evidence": {
+        "start": {
+          "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-161f712b-c943-412a-8ab0-43dd57507cc1.png",
+          "output_sha256": "3e5b2d89efa840dbdf3c5242e7e9ed5d1b7e80f9a0c639667f5957b5b0aab562",
+          "source_sha256": "3e5b2d89efa840dbdf3c5242e7e9ed5d1b7e80f9a0c639667f5957b5b0aab562",
+          "decision": "visual_review_passed"
+        },
+        "key": {
+          "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a06d2081-25fe-4f8d-995b-583346e90004.png",
+          "output_sha256": "56cb1775beddfa3d337ff11650d0ac2c1e2587f1eb39dec5d233c8c05d2a5d26",
+          "source_sha256": "56cb1775beddfa3d337ff11650d0ac2c1e2587f1eb39dec5d233c8c05d2a5d26",
+          "decision": "visual_review_passed"
+        },
+        "end": {
+          "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-87365ca4-3660-46ba-8ea6-720af2099b26.png",
+          "output_sha256": "1906fc53677e8132838c0940f831323985f66762627feab82b2cdb0d49fc5090",
+          "source_sha256": "1906fc53677e8132838c0940f831323985f66762627feab82b2cdb0d49fc5090",
+          "decision": "visual_review_passed"
+        }
+      }
+    },
+    "Shot034": {
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "frame_set_id": "Shot034_external_film_staging_reboard_v1_2026-09-10",
+      "frames": {
+        "start": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "source_paths": {
+        "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-9a0de8b5-8362-4734-8c64-934ecc181e60.png",
+        "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-cce160db-5189-4145-bf15-43fd83560afd.png",
+        "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-894c5b23-53e0-45d8-b3e1-035206b967c5.png"
+      },
+      "reference_assets": [
+        "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+        "assets/props/shared/hero_relics/thunderbrand_reference.png",
+        "episodes/EP03/storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ],
+      "focal_subject": "Catherine finishes a practical weapon ritual while Ashe chooses the question",
+      "attention_path": "Ashe enters from the right corridor -> Catherine's wrapped Thunderbrand scabbard -> Ashe stops at the wet strip -> Byleth exits behind them",
+      "note": "Keep the good distance but add cause and completion: Catherine kneels to retie the wrapped Thunderbrand scabbard after the fight, Ashe crosses only to the edge of the wet strip and asks, then Catherine rises and turns to answer while Byleth clears the far arch.",
+      "states": {
+        "start": "Ashe has just stopped at the left side of the cloister; Catherine is crouched by the right column with one sheathed Thunderbrand and its cloth wrap; female Byleth is in the rear arch.",
+        "key": "Catherine finishes the wrap at knee height as Ashe stops at respectful distance and asks; Byleth begins to clear the rear arch.",
+        "end": "Catherine stands and faces Ashe with the sheathed weapon low; Ashe keeps his bow down; Byleth has entered the clear right exit lane."
+      },
+      "reject_if": [
+        "Thunderbrand is generic, drawn, duplicated, or replaced",
+        "Ashe closes into sword range",
+        "the three become a symmetrical conversation tableau",
+        "Byleth becomes male or a fourth person enters"
+      ],
+      "status": "monitor_required",
+      "visual_audit_decision": "visual_review_passed",
+      "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+      "evidence": {
+        "start": {
+          "output_path": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-9a0de8b5-8362-4734-8c64-934ecc181e60.png",
+          "output_sha256": "b5b22d070f9a8ae7de2b7e56a1f88380a3fcdf6ddb84c547801c9a486f2d480e",
+          "source_sha256": "b5b22d070f9a8ae7de2b7e56a1f88380a3fcdf6ddb84c547801c9a486f2d480e",
+          "decision": "visual_review_passed"
+        },
+        "key": {
+          "output_path": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-cce160db-5189-4145-bf15-43fd83560afd.png",
+          "output_sha256": "167618df378a1d6307018f111e2bcf7974ab4b19d8194131d6cf4bce13b0a815",
+          "source_sha256": "167618df378a1d6307018f111e2bcf7974ab4b19d8194131d6cf4bce13b0a815",
+          "decision": "visual_review_passed"
+        },
+        "end": {
+          "output_path": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-894c5b23-53e0-45d8-b3e1-035206b967c5.png",
+          "output_sha256": "9ae0ae8f70e2c96d84753d219cc44e0f1897f40e98cce0bb05840a59b79257df",
+          "source_sha256": "9ae0ae8f70e2c96d84753d219cc44e0f1897f40e98cce0bb05840a59b79257df",
+          "decision": "visual_review_passed"
+        }
+      }
+    },
+    "Shot035": {
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "frame_set_id": "Shot035_external_film_staging_reboard_v1_2026-09-10",
+      "frames": {
+        "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "source_paths": {
+        "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-dfe8823b-f503-4278-af1c-268d197403a6.png",
+        "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7f9d137a-0770-4a16-8b9d-353e2d5fad35.png",
+        "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-52414c9b-a3bb-4f42-ae0e-b72004448042.png"
+      },
+      "reference_assets": [
+        "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+        "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ],
+      "focal_subject": "Dimitri turns an abstract thought into weight on stone",
+      "attention_path": "Dimitri walking ahead -> bare hand on wet balustrade -> Byleth stops under lamp -> Dimitri disappears into arch",
+      "note": "Keep a true walking shot: Dimitri leads out of the cloister, removes one glove and braces on wet stone to speak, then deliberately leaves Byleth behind. The increasing distance is the changed state.",
+      "states": {
+        "start": "Dimitri is already moving toward the night arch; female Byleth follows several paces behind with a clear wet corridor between them.",
+        "key": "Dimitri stops, removes one glove, and presses his bare hand to the balustrade; Byleth stops under the lamp without touching him.",
+        "end": "Dimitri resumes walking into the dark arch and becomes smaller; Byleth stays under the lamp and turns to watch."
+      },
+      "reject_if": [
+        "the two collapse into a static two-shot",
+        "Dimitri never walks or touches the stone",
+        "Byleth becomes male or war-phase",
+        "the final distance is not larger than the start distance"
+      ],
+      "status": "monitor_required",
+      "visual_audit_decision": "visual_review_passed",
+      "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+      "evidence": {
+        "start": {
+          "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-dfe8823b-f503-4278-af1c-268d197403a6.png",
+          "output_sha256": "bec3a11f476d1fe11c22f8e43a97f38281bf06bc6ebcfcda8011c915bf3b1beb",
+          "source_sha256": "bec3a11f476d1fe11c22f8e43a97f38281bf06bc6ebcfcda8011c915bf3b1beb",
+          "decision": "visual_review_passed"
+        },
+        "key": {
+          "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7f9d137a-0770-4a16-8b9d-353e2d5fad35.png",
+          "output_sha256": "cd74d329a88f559cef77207faf22ab1125483df738bd3c7e3eb4de932182dc4e",
+          "source_sha256": "cd74d329a88f559cef77207faf22ab1125483df738bd3c7e3eb4de932182dc4e",
+          "decision": "visual_review_passed"
+        },
+        "end": {
+          "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-52414c9b-a3bb-4f42-ae0e-b72004448042.png",
+          "output_sha256": "c3180febf7f3e001924dbbd871b5882f1313cfafcbe1deeacd2de153c873dc8a",
+          "source_sha256": "c3180febf7f3e001924dbbd871b5882f1313cfafcbe1deeacd2de153c873dc8a",
+          "decision": "visual_review_passed"
+        }
+      }
+    },
+    "Shot036": {
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "frame_set_id": "Shot036_external_film_staging_reboard_v1_2026-09-10",
+      "frames": {
+        "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "source_paths": {
+        "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-082cb9a8-43c6-48d5-bbd1-c98216c5a93c.png",
+        "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-8af5f83f-6430-42c7-ad9d-6fcf1476e894.png",
+        "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-99903b93-5a51-4416-bec5-a4c654bfb7e3.png"
+      },
+      "reference_assets": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+        "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+        "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+        "assets/props/shared/sword_of_creator/selected.png",
+        "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ],
+      "focal_subject": "the human figure stops while the inner voice takes the air",
+      "attention_path": "Byleth crosses the empty chapel -> Sword of the Creator catches candlelight -> Sothis resolves beside her -> distant Rhea remains turned away",
+      "note": "Use a physical threshold for the mystery: female Byleth walks into a dark chapel with the sheathed Sword of the Creator at her side, stops as the candle flame bends, Sothis resolves beside her without floor contact, and distant Rhea remains a turned-away authority silhouette.",
+      "states": {
+        "start": "female Byleth crosses the near chapel threshold with the sheathed Sword of the Creator low; Rhea is distant and turned toward the Holy Tomb; Sothis is absent.",
+        "key": "Byleth stops and turns toward the bent candle flame; recognizable translucent Sothis resolves beside her in the air with no floor contact; Rhea stays distant.",
+        "end": "Sothis recedes into a small field of motes as the cathedral darkens; Byleth remains grounded and Rhea never turns to speak."
+      },
+      "reject_if": [
+        "Sothis becomes a solid companion or generic green flare",
+        "Byleth becomes male or duplicates",
+        "Rhea approaches or speaks",
+        "the Sword of the Creator is generic, duplicated, or floating"
+      ],
+      "status": "monitor_required",
+      "visual_audit_decision": "visual_review_passed",
+      "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+      "evidence": {
+        "start": {
+          "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-082cb9a8-43c6-48d5-bbd1-c98216c5a93c.png",
+          "output_sha256": "1db94d6411b41c002dd05a1e4b77b784314d62f0f6cf1db1a11510f0f5566007",
+          "source_sha256": "1db94d6411b41c002dd05a1e4b77b784314d62f0f6cf1db1a11510f0f5566007",
+          "decision": "visual_review_passed"
+        },
+        "key": {
+          "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-8af5f83f-6430-42c7-ad9d-6fcf1476e894.png",
+          "output_sha256": "e0f616b39ccbd70f85e4e0289d61014adb08521133b38aeb704e9719700414af",
+          "source_sha256": "e0f616b39ccbd70f85e4e0289d61014adb08521133b38aeb704e9719700414af",
+          "decision": "visual_review_passed"
+        },
+        "end": {
+          "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+          "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-99903b93-5a51-4416-bec5-a4c654bfb7e3.png",
+          "output_sha256": "af5ccb941b89b0ef0275ac1797001e7d1fc9809e3e239e3bbe3efc207f811409",
+          "source_sha256": "af5ccb941b89b0ef0275ac1797001e7d1fc9809e3e239e3bbe3efc207f811409",
+          "decision": "visual_review_passed"
+        }
+      }
+    }
+  },
+  "generated_at": "2026-09-10",
+  "reviewed_at": "2026-09-10",
+  "review_summary": "All 21 external film-staging reboard frames were copied, exact-file inspected, hash-matched to the local generation cache, and visually accepted. Prompt-against-frame QA and motion probes remain monitor gates."
+}

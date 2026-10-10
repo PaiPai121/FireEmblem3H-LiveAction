@@ -1,0 +1,2890 @@
+{
+  "schema": "cinematic-review-panel-v1",
+  "project_root": ".",
+  "package_id": "EP03_prompt_asset_package_current_frame_chain_2026-09-09",
+  "project": {
+    "title": "EP03 雾中的叛乱 · integrated live-action review",
+    "package_status": "monitor_required",
+    "completion_target": "prompt_asset_package",
+    "runtime_seconds": 382.20000000000005,
+    "spoken_language": "Japanese",
+    "subtitle_delivery": "none",
+    "visual_review": "108/108 static frames plus 025-029 readability reboard visually reviewed; prompt and motion probes pending",
+    "motion_readiness": "not_approved",
+    "frame_readiness": "108/108",
+    "asset_status": "29 local references declared and cached",
+    "sequence_status": "36 ordered shots; 35 transitions mapped",
+    "continuity_status": "35 adjacent handoffs mapped; motion probe pending",
+    "delivery_status": "monitor_required"
+  },
+  "package_dir": ".",
+  "canonical_entry": "web/index.html",
+  "preview_revision": 29,
+  "generated_at": "2026-09-10T12:00:00.000Z",
+  "changed_shot_ids": [
+    "Shot001",
+    "Shot002",
+    "Shot003",
+    "Shot004",
+    "Shot005",
+    "Shot006",
+    "Shot007",
+    "Shot008",
+    "Shot009",
+    "Shot010",
+    "Shot011",
+    "Shot012",
+    "Shot013",
+    "Shot014",
+    "Shot015",
+    "Shot016",
+    "Shot017",
+    "Shot018",
+    "Shot019",
+    "Shot020",
+    "Shot021",
+    "Shot022",
+    "Shot023",
+    "Shot024",
+    "Shot025",
+    "Shot026",
+    "Shot027",
+    "Shot028",
+    "Shot029",
+    "Shot030",
+    "Shot031",
+    "Shot032",
+    "Shot033",
+    "Shot034",
+    "Shot035",
+    "Shot036"
+  ],
+  "superseded_entries": [],
+  "history": [
+    {
+      "revision": 1,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [],
+      "recovery_note": "Recovered baseline revision when revision-aware refresh was enabled."
+    },
+    {
+      "revision": 2,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 3,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 4,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 5,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 6,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 7,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 8,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 9,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 10,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 11,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 12,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 13,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 14,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 15,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 16,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 17,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-03T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 18,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 19,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 20,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 21,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 22,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 23,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 24,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 25,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 26,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-09T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 27,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-10T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    },
+    {
+      "revision": 28,
+      "canonical_entry": "web/index.html",
+      "last_updated_at": "2026-09-10T12:00:00.000Z",
+      "changed_shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    }
+  ],
+  "public_paths": {},
+  "live_update": {
+    "mode": "revision_poll",
+    "manifest": "review_panel_manifest.json",
+    "interval_ms": 2000
+  },
+  "required_fields": [
+    "project-title",
+    "package-id",
+    "package-status",
+    "completion-target",
+    "shot-progress",
+    "spoken-language",
+    "subtitle-delivery",
+    "model-target",
+    "frame-readiness",
+    "visual-review",
+    "motion-readiness",
+    "asset-status",
+    "sequence-status",
+    "continuity-status",
+    "delivery-status"
+  ],
+  "shot_count": 36,
+  "shots": [
+    {
+      "id": "Shot001",
+      "order": 1,
+      "title": "梦境残响",
+      "status": "monitor_required",
+      "duration_seconds": 6.3,
+      "beat": "把上一章的神秘意识延续到本章，并用一个真正的回应动作而不是换光粒暗示 Byleth 的身世不只属于教会。",
+      "characters": "BylethFemale, Sothis",
+      "audio": "Sothis, softly in Japanese: そなたは、また何を聞いたのじゃ？",
+      "expected_clip": "clips/Shot001.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-001-1",
+          "speaker": "Sothis",
+          "text": "そなたは、また何を聞いたのじゃ？"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot002",
+      "order": 2,
+      "title": "晨钟与修道院",
+      "status": "monitor_required",
+      "duration_seconds": 10,
+      "beat": "建立本章从学院日常转入教会军事命令，用一段真实走动和推门把空间推进到 Shot003。",
+      "characters": "BylethFemale",
+      "audio": "No spoken dialogue. Morning bell, wet footsteps, distant armor, and the door hinge only.",
+      "expected_clip": "clips/Shot002.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot003",
+      "order": 3,
+      "title": "任务召集",
+      "status": "monitor_required",
+      "duration_seconds": 10.3,
+      "beat": "让任务召集成为一次具有权力转移的教会命令，而不是人物对着镜头站定说明。",
+      "characters": "Rhea, Seteth, BylethFemale, Dimitri",
+      "audio": "Rhea, in Japanese: 西方教会が、ガスパール領主ロナートを扇動し、兵を挙げさせました。",
+      "expected_clip": "clips/Shot003.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-003-1",
+          "speaker": "Rhea",
+          "text": "西方教会が、ガスパール領主ロナートを扇動し、兵を挙げさせました。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot004",
+      "order": 4,
+      "title": "养父的名字",
+      "status": "monitor_required",
+      "duration_seconds": 8.9,
+      "beat": "把任务说明压成 Ashe 的身体反应和离队方向，让信息改变人物关系和行走路线。",
+      "characters": "Ashe, BylethFemale, Dimitri",
+      "audio": "Seteth, in Japanese: ロナート卿は、かつてアッシュを養子として迎えた人物だ。",
+      "expected_clip": "clips/Shot004.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-004-1",
+          "speaker": "Seteth",
+          "text": "ロナート卿は、かつてアッシュを養子として迎えた人物だ。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot005",
+      "order": 5,
+      "title": "同行请求",
+      "status": "monitor_required",
+      "duration_seconds": 11.7,
+      "beat": "用支援小剧场式的门口阻挡、请求、让路完成同伴关系变化。",
+      "characters": "BylethFemale, Dimitri, Ashe",
+      "audio": "Dimitri, in Japanese: 先生、今日は彼と共に行かせてください。",
+      "expected_clip": "clips/Shot005.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-005-1",
+          "speaker": "Dimitri",
+          "text": "先生、今日は彼と共に行かせてください。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot006",
+      "order": 6,
+      "title": "Ashe 讲出旧恩",
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "beat": "Ashe 选择面对任务，而不是被保护在队伍外。",
+      "characters": "Ashe, BylethFemale, Dimitri",
+      "audio": "Ashe, in Japanese: 彼は、僕と弟妹に居場所をくれました。でも今の僕は、あなたの生徒です。",
+      "expected_clip": "clips/Shot006.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-006-1",
+          "speaker": "Ashe",
+          "text": "彼は、僕と弟妹に居場所をくれました。でも今の僕は、あなたの生徒です。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot007",
+      "order": 7,
+      "title": "出征准备",
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "beat": "显示这是学生第一次进入真实镇压任务。",
+      "characters": "BylethFemale, Dimitri, Dedue, Felix, Ashe, Ingrid",
+      "audio": "Belt buckles, soft metal clicks, and no idle chatter. No spoken dialogue.",
+      "expected_clip": "clips/Shot007.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot008",
+      "order": 8,
+      "title": "Catherine 入队",
+      "status": "monitor_required",
+      "duration_seconds": 11,
+      "beat": "引入教会武力的真实尺度，和学生的陌生感形成对照。",
+      "characters": "Catherine, BylethFemale, Ashe",
+      "audio": "Catherine, in Japanese: 霧の中では、私から離れすぎるな。",
+      "expected_clip": "clips/Shot008.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-008-1",
+          "speaker": "Catherine",
+          "text": "霧の中では、私から離れすぎるな。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "key": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "end": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot009",
+      "order": 9,
+      "title": "离开修道院",
+      "status": "monitor_required",
+      "duration_seconds": 10,
+      "beat": "从秩序空间转入边境雾区。",
+      "characters": "BylethFemale, Dimitri, Ashe, Catherine",
+      "audio": "Marching footsteps and wind overwhelming the fading bell. No spoken dialogue.",
+      "expected_clip": "clips/Shot009.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot010",
+      "order": 10,
+      "title": "马格德雷德雾道",
+      "status": "monitor_required",
+      "duration_seconds": 10.9,
+      "beat": "建立战场核心危险：能见度和误判。",
+      "characters": "BylethFemale, Dimitri, Dedue, Ingrid",
+      "audio": "Ingrid, in Japanese: 霧が濃すぎるわ。 Dedue, in Japanese: 足音を聞け。",
+      "expected_clip": "clips/Shot010.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-010-1",
+          "speaker": "Ingrid",
+          "text": "霧が濃すぎるわ。"
+        },
+        {
+          "id": "DL-EP03-010-2",
+          "speaker": "Dedue",
+          "text": "足音を聞け。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot011",
+      "order": 11,
+      "title": "边境村痕迹",
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "beat": "证明叛乱已影响平民，不只是教会内部争斗。",
+      "characters": "BylethFemale, Ashe, Mercedes",
+      "audio": "No spoken dialogue; a door bar drops shut.",
+      "expected_clip": "clips/Shot011.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot012",
+      "order": 12,
+      "title": "叛军营地远望",
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "beat": "让观众先看到 Lonato 的人不是普通盗匪。",
+      "characters": "BylethFemale, Ashe, SeirosSoldier",
+      "audio": "Distant prayers and armor friction. No spoken dialogue.",
+      "expected_clip": "clips/Shot012.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot013",
+      "order": 13,
+      "title": "雾中部署",
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "beat": "Byleth 把学生从情绪里拉回战术。",
+      "characters": "BylethFemale, Dimitri, Ashe, Felix, Mercedes",
+      "audio": "Byleth, in Japanese: 影を追うな。仲間の声を聞け。霧に惑わされるな。",
+      "expected_clip": "clips/Shot013.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-013-1",
+          "speaker": "Byleth",
+          "text": "影を追うな。仲間の声を聞け。霧に惑わされるな。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot014",
+      "order": 14,
+      "title": "第一箭",
+      "status": "monitor_required",
+      "duration_seconds": 8,
+      "beat": "把战斗从潜伏推入不可逆。",
+      "characters": "Dedue, Dimitri",
+      "audio": "An arrow strikes a shield; Dedue gives one short breath. No spoken dialogue.",
+      "expected_clip": "clips/Shot014.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+        "key": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+        "end": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot015",
+      "order": 15,
+      "title": "叛军压上",
+      "status": "monitor_required",
+      "duration_seconds": 8.9,
+      "beat": "让敌方有纪律和信念，避免变成杂兵靶子。",
+      "characters": "SeirosSoldier",
+      "audio": "Rebels, in Japanese: ロナート卿のために！",
+      "expected_clip": "clips/Shot015.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-015-1",
+          "speaker": "Rebels",
+          "text": "ロナート卿のために！"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+        "key": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+        "end": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot016",
+      "order": 16,
+      "title": "Dimitri 克制锋芒",
+      "status": "monitor_required",
+      "duration_seconds": 11.6,
+      "beat": "展示 Dimitri 已有危险力量，但仍听从 Byleth。",
+      "characters": "Dimitri, BylethFemale, Dedue",
+      "audio": "Byleth, in Japanese: 戦線を守れ。 Dimitri, in Japanese: 承知しました。",
+      "expected_clip": "clips/Shot016.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-016-1",
+          "speaker": "Byleth",
+          "text": "戦線を守れ。"
+        },
+        {
+          "id": "DL-EP03-016-2",
+          "speaker": "Dimitri",
+          "text": "承知しました。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "key": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "end": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot017",
+      "order": 17,
+      "title": "Ashe 认出旧徽记",
+      "status": "monitor_required",
+      "duration_seconds": 11.7,
+      "beat": "把战斗压力重新压回 Ashe 的选择。",
+      "characters": "Ashe, BylethFemale",
+      "audio": "Ashe, in Japanese: あれは……ガスパール家の紋章。",
+      "expected_clip": "clips/Shot017.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-017-1",
+          "speaker": "Ashe",
+          "text": "あれは……ガスパール家の紋章。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "key": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "end": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot018",
+      "order": 18,
+      "title": "Felix 补位",
+      "status": "monitor_required",
+      "duration_seconds": 8.9,
+      "beat": "让队友关系通过动作建立，而不是靠安慰对白。",
+      "characters": "Felix, Ashe",
+      "audio": "Felix, in Japanese: ぼんやりするな。お前の代わりに誰かが傷つくぞ。",
+      "expected_clip": "clips/Shot018.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-018-1",
+          "speaker": "Felix",
+          "text": "ぼんやりするな。お前の代わりに誰かが傷つくぞ。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+        "key": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+        "end": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot019",
+      "order": 19,
+      "title": "支援线稳住",
+      "status": "monitor_required",
+      "duration_seconds": 9.4,
+      "beat": "让后排不是背景板，承担安全撤退与视野控制。",
+      "characters": "Mercedes, Annette",
+      "audio": "Mercedes, in Japanese: こちらです！ Annette, in Japanese: 道が見えた！",
+      "expected_clip": "clips/Shot019.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-019-1",
+          "speaker": "Mercedes",
+          "text": "こちらです！"
+        },
+        {
+          "id": "DL-EP03-019-2",
+          "speaker": "Annette",
+          "text": "道が見えた！"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "key": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "end": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot020",
+      "order": 20,
+      "title": "Catherine 破雾",
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "beat": "表现 Catherine 是教会王牌，也制造学生对力量的震动。",
+      "characters": "Catherine, BylethFemale, Ashe",
+      "audio": "Thunder; the rebel line is forced apart. No spoken dialogue.",
+      "expected_clip": "clips/Shot020.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "key": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "end": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot021",
+      "order": 21,
+      "title": "Lonato 现身",
+      "status": "monitor_required",
+      "duration_seconds": 11.7,
+      "beat": "把敌方核心从叛军抽象化为 Ashe 的父亲替身。",
+      "characters": "Lonato, Ashe, Dimitri",
+      "audio": "Lonato, in Japanese: どけ。子供たちと戦うつもりはない。",
+      "expected_clip": "clips/Shot021.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-021-1",
+          "speaker": "Lonato",
+          "text": "どけ。子供たちと戦うつもりはない。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot022",
+      "order": 22,
+      "title": "Ashe 上前",
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "beat": "Ashe 主动要求对话，证明他不是被剧情拖着走。",
+      "characters": "Ashe, Lonato, Dimitri, BylethFemale",
+      "audio": "Ashe, in Japanese: ロナート様、どうか止まってください。",
+      "expected_clip": "clips/Shot022.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-022-1",
+          "speaker": "Ashe",
+          "text": "ロナート様、どうか止まってください。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "key": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "end": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot023",
+      "order": 23,
+      "title": "Lonato 拒绝",
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "beat": "让 Lonato 的叛乱有道德痛点，但不能推翻本章教会权力事实。",
+      "characters": "Lonato, Ashe",
+      "audio": "Lonato, in Japanese: 問われぬ罪は、聖なる名の陰に隠されるだけだ。",
+      "expected_clip": "clips/Shot023.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-023-1",
+          "speaker": "Lonato",
+          "text": "問われぬ罪は、聖なる名の陰に隠されるだけだ。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+        "key": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+        "end": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot024",
+      "order": 24,
+      "title": "Byleth 下令包围",
+      "status": "monitor_required",
+      "duration_seconds": 7.6,
+      "beat": "Byleth 选择保护学生与平民，接受必须结束战斗。",
+      "characters": "BylethFemale, Ashe, Lonato, Dimitri, Dedue, Ingrid",
+      "audio": "Byleth, in Japanese: 護衛を分断しろ。村道へ近づけるな。",
+      "expected_clip": "clips/Shot024.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-024-1",
+          "speaker": "Byleth",
+          "text": "護衛を分断しろ。村道へ近づけるな。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+        "key": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+        "end": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot025",
+      "order": 25,
+      "title": "命令造成分流",
+      "status": "monitor_required",
+      "duration_seconds": 8,
+      "beat": "把贝老师的包围命令变成一眼可读的两条物理路线；近侧只保留 Dimitri、Dedue 和 Ashe，洛纳托被守卫屏风与断裂地形隔在远处。",
+      "characters": "Dimitri, Dedue, Ashe, Lonato",
+      "audio": "Byleth's order resolves into boots, shield hardware, and wet wood. No new spoken dialogue.",
+      "expected_clip": "clips/Shot025.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot026",
+      "order": 26,
+      "title": "亚修选择不射",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "beat": "让 Ashe 的选择成为动作，而不是把他拍成已经瞄准 Lonato 的执行者。",
+      "characters": "Ashe, Lonato",
+      "audio": "Ashe, in Japanese: ごめんなさい。 He releases the string without firing; no other speech.",
+      "expected_clip": "clips/Shot026.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-026",
+          "speaker": "Ashe",
+          "text": "ごめんなさい。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot027",
+      "order": 27,
+      "title": "守卫先动，骑士接管",
+      "status": "monitor_required",
+      "duration_seconds": 5.5,
+      "beat": "先拍清守卫对 Ashe 造成的压力，再让 Catherine 通过实际的拨挡接管通道；Lonato 仍不被直接攻击。",
+      "characters": "Ashe, Catherine, Lonato",
+      "audio": "Silent shot: wet footfalls, armor/cloak movement, one practical metal/sheath accent, Ashe's held breath, and fog room tone. No spoken dialogue.",
+      "expected_clip": "clips/Shot027.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot028",
+      "order": 28,
+      "title": "护卫造成缴械",
+      "status": "monitor_required",
+      "duration_seconds": 8,
+      "beat": "让 Lonato 的近身行为有明确原因：他为了护住撤退的守卫才跨入 Catherine 的控制线，随后被一次武器级别的卡挡缴械。",
+      "characters": "Catherine, Lonato",
+      "audio": "Metal falls; the fog goes briefly quiet. No spoken dialogue.",
+      "expected_clip": "clips/Shot028.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot029",
+      "order": 29,
+      "title": "Lonato 倒下",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "beat": "把胜利处理成创伤而不是爽点。",
+      "characters": "Lonato, Dimitri, Ashe, BylethFemale",
+      "audio": "Ashe breathing; distant fighting stops. No spoken dialogue.",
+      "expected_clip": "clips/Shot029.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot030",
+      "order": 30,
+      "title": "战后无声",
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "beat": "让青狮第一次理解真实战斗和模拟战的差距。",
+      "characters": "BylethFemale, Dimitri, Ashe, Catherine",
+      "audio": "Wind, wet cloth, a stop-hand gesture, an arrow returned to the quiver, and fading field ambience; no spoken dialogue.",
+      "expected_clip": "clips/Shot030.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot031",
+      "order": 31,
+      "title": "回到 Rhea 面前",
+      "status": "monitor_required",
+      "duration_seconds": 13.4,
+      "beat": "教会秩序重新覆盖战场创伤。",
+      "characters": "Rhea, Seteth, BylethFemale, Dimitri, Ashe",
+      "audio": "Wet shoes, a closing door, folio movement, and Rhea's single Japanese line; no Chinese or Mandarin voice.",
+      "expected_clip": "clips/Shot031.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-031-1",
+          "speaker": "Rhea",
+          "text": "ご苦労さまでした。あなた方は信仰の安寧を守りました。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot032",
+      "order": 32,
+      "title": "西方教会处置",
+      "status": "monitor_required",
+      "duration_seconds": 11.5,
+      "beat": "明确 Rhea 的温柔外表下有不可抗拒的制裁。",
+      "characters": "Rhea, Seteth, BylethFemale",
+      "audio": "A folio closes under Rhea's palm, her Japanese order lands once, then cathedral reverb carries the turn-away tail.",
+      "expected_clip": "clips/Shot032.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-032-1",
+          "speaker": "Rhea",
+          "text": "反逆者は裁きを受けねばなりません。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot033",
+      "order": 33,
+      "title": "学生目睹代价",
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "beat": "让 Dimitri/Ashe/Byleth 对教会权威产生不同沉默。",
+      "characters": "Ashe, Dimitri, Felix, BylethFemale",
+      "audio": "Door latch, wood settling, wet footsteps, and room tone only; no spoken dialogue.",
+      "expected_clip": "clips/Shot033.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [],
+      "frame_paths": {
+        "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot034",
+      "order": 34,
+      "title": "Catherine 的信念",
+      "status": "monitor_required",
+      "duration_seconds": 12.6,
+      "beat": "补出教会武力的自我理解：忠诚、正义、危险混在一起。",
+      "characters": "Catherine, Ashe, BylethFemale",
+      "audio": "Cloth wraps the sheathed Thunderbrand; Catherine's single Japanese line lands over quiet cloister room tone.",
+      "expected_clip": "clips/Shot034.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-034-1",
+          "speaker": "Catherine",
+          "text": "私はレア様を信じている。迷いは、まだ決められない者に任せる。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot035",
+      "order": 35,
+      "title": "杀意与正义",
+      "status": "monitor_required",
+      "duration_seconds": 15,
+      "beat": "把 Dimitri 的危险自省拍成行走、停下、离开，而不是两个人并排站着交换台词。",
+      "characters": "Dimitri, BylethFemale",
+      "audio": "Night rain residue, glove against wet stone, Dimitri's single Japanese line, and a settled reverb tail.",
+      "expected_clip": "clips/Shot035.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-035-1",
+          "speaker": "Dimitri",
+          "text": "殺意が正義をまとえば、とても静かになるのですね。"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    },
+    {
+      "id": "Shot036",
+      "order": 36,
+      "title": "章末圣墓阴影",
+      "status": "monitor_required",
+      "duration_seconds": 9.3,
+      "beat": "收束并抛出下章：教会让学生看见制裁，也准备让他们看见更深秘密。",
+      "characters": "BylethFemale, Sothis, Rhea",
+      "audio": "Candle hush and cathedral reverb; Sothis speaks once in Japanese and no other voice enters.",
+      "expected_clip": "clips/Shot036.mp4",
+      "reject_if": [
+        "game screenshot or UI",
+        "pasted cutout or portrait collage",
+        "male or war-phase Byleth in a female academy shot",
+        "duplicate named performer or weapon"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP03-036-1",
+          "speaker": "Sothis",
+          "text": "そなたは、あの者を信じるのか？"
+        }
+      ],
+      "frame_paths": {
+        "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "assets": {
+        "start_frame": true,
+        "key_frame": true,
+        "end_frame": true,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": true
+      }
+    }
+  ],
+  "preview_shots": [
+    {
+      "shot_id": "Shot001",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot002",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot003",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot004",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot005",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot006",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot007",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot008",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot009",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot010",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot011",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot012",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot013",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot014",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+        "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+        "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot015",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+        "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+        "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot016",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot017",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot018",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+        "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+        "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot019",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot020",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot021",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot022",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot023",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+        "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+        "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot024",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+        "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+        "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot025",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot026",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot027",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot028",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot029",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot030",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot031",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot032",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot033",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot034",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot035",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ]
+    },
+    {
+      "shot_id": "Shot036",
+      "status": "changed",
+      "public_paths": [
+        "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      ]
+    }
+  ]
+}

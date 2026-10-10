@@ -73,13 +73,14 @@ characters:
   path: assets/characters/protagonist/Byleth
   eras:
     professor:
-      status: candidates_youth_beauty_v2
+      status: candidates_female_byleth_fidelity_v3_2026-08-05
       path: assets/characters/protagonist/Byleth/professor
       selected_candidate: assets/characters/protagonist/Byleth/professor/selected.png
       needs_regeneration: false
-      notes: youth beauty v2 已同步 selected；比旧版更年轻、脸部更清晰，保留冷静教授和黑衣身份锚点。后续仍可区分 mercenary、professor、enlightened 版本。
-      candidate_set: assets/characters/protagonist/Byleth/professor/candidates_youth_beauty_v2
-      latest_candidate: assets/characters/protagonist/Byleth/professor/candidates_youth_beauty_v2/candidate_01.png
+      notes: female_byleth_fidelity_v3 已同步 selected；修正 youth beauty v2 偏男贝/泛化黑衣美少年问题，保留女贝老师白高领、金色胸饰、粉色流苏、黑色短装、蕾丝腿袜、银色护臂、高筒靴、披风尾和剑轮廓。
+      candidate_set: assets/characters/protagonist/Byleth/professor/candidates_female_byleth_fidelity_v3_2026-08-05
+      latest_candidate: assets/characters/protagonist/Byleth/professor/candidates_female_byleth_fidelity_v3_2026-08-05/candidate_01.png
+      previous_candidate_set: assets/characters/protagonist/Byleth/professor/candidates_youth_beauty_v2
     enlightened:
       status: candidates_v1
       path: assets/characters/protagonist/Byleth/enlightened
@@ -1231,13 +1232,14 @@ characters:
   path: assets/characters/antagonists/Cornelia
   eras:
     concept:
-      status: candidates_reference_v1
+      status: candidates_young_face_restored_bodice_v5_2026-08-08
       path: assets/characters/antagonists/Cornelia/concept
       needs_regeneration: false
-      candidate_set: assets/characters/antagonists/Cornelia/concept/candidates_reference_v1
-      latest_candidate: assets/characters/antagonists/Cornelia/concept/candidates_reference_v1/candidate_01.png
+      candidate_set: assets/characters/antagonists/Cornelia/concept/candidates_young_face_restored_bodice_v5_2026-08-08
+      latest_candidate: assets/characters/antagonists/Cornelia/concept/candidates_young_face_restored_bodice_v5_2026-08-08/candidate_01.png
       selected_candidate: assets/characters/antagonists/Cornelia/concept/selected.png
-      notes: 全量人像补齐第二批；银粉发、冷艳术士、黑紫法袍和反派气质清楚。
+      previous_candidate_set: assets/characters/antagonists/Cornelia/concept/candidates_young_beauty_costume_test_v4_2026-08-08
+      notes: young face restored bodice v5；保留 v4 约25岁年轻脸和真人定妆照质感，同时按用户参考恢复更宽的酒红胸衣面片、黑色扇形蕾丝边、中央蕾丝装饰片、金边和更饱满的正式礼服上身轮廓。
 - id: Lonato
   name_zh: 罗纳特
   faction: kingdom

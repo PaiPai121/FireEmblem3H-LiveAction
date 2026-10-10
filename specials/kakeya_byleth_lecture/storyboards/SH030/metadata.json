@@ -1,0 +1,45 @@
+{
+  "id": "SH030",
+  "order": 30,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S6",
+  "timecode": "06:55-07:15",
+  "duration_seconds": 20,
+  "script_beat": "Mathematical impact",
+  "shot_purpose": "把意义落在证明机制影响的具体数学对象上。",
+  "location": "Chalk/parchment triptych",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH030/frame_spec.md",
+  "prompt_path": "storyboards/SH030/prompt.md",
+  "negative_prompt_path": "storyboards/SH030/negative_prompt.md",
+  "start_frame": "storyboards/SH030/start.png",
+  "key_frame": "storyboards/SH030/key.png",
+  "end_frame": "storyboards/SH030/end.png",
+  "expected_clip": "clips/SH030.mp4",
+  "edit_in": "从 dimension = 2 的线条扩展到三格。",
+  "edit_out": "推入中格和右格术语的板书解释。",
+  "screen_direction": "从左到右读取三格，方向线保持一致。",
+  "mathematical_locks": [
+    "Impact must stay tied to proof mechanisms: tube overlap, maximal averages, wave packets, Kakeya maximal-function intuition, and combinatorial geometry; no loose daily-life claims."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy"
+  ],
+  "continuity": {
+    "previous": "SH029",
+    "next": "SH031",
+    "in": "从 dimension = 2 的线条扩展到三格。",
+    "out": "推入中格和右格术语的板书解释。"
+  },
+  "reject_if": [
+    "Avoid pure analogy",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "impact is presented as a loose life metaphor instead of proof-derived tube/wave/maximal-average structure"
+  ]
+}

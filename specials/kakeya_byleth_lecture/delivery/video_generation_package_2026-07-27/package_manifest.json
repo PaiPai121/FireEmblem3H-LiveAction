@@ -1,0 +1,693 @@
+{
+  "version": 1,
+  "project": "Byleth Teaches the 2D Needle Problem",
+  "package_id": "video_generation_package_2026-07-27",
+  "created_at": "2026-07-27",
+  "total_shots": 34,
+  "total_duration_seconds": 492,
+  "shots": [
+    {
+      "id": "SH001",
+      "order": 1,
+      "status": "monitor_required",
+      "duration_seconds": 8,
+      "expected_clip": "clips/SH001.mp4",
+      "edit_in": "从黑场淡入到石地纹理和红线端点。",
+      "edit_out": "在木剑静止后切到低机位的女贝老师。",
+      "audio_anchor": "",
+      "continuity_previous": "",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH002",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/001_SH001",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH002",
+      "order": 2,
+      "status": "monitor_required",
+      "duration_seconds": 10,
+      "expected_clip": "clips/SH002.mp4",
+      "edit_in": "接 SH001 木剑静止，声音先进入。",
+      "edit_out": "跟随她的视线切到俯视旋转。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH001",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH003",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/002_SH002",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH003",
+      "order": 3,
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH003.mp4",
+      "edit_in": "从女贝老师视线切入剑的俯视图。",
+      "edit_out": "切到她在板上区分固定中心与自由中心。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH002",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH004",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/003_SH003",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH004",
+      "order": 4,
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH004.mp4",
+      "edit_in": "圆盘直觉画面硬切到粉笔板。",
+      "edit_out": "顺着粉笔箭头切到多方向线段扇面。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH003",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH005",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/004_SH004",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH005",
+      "order": 5,
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH005.mp4",
+      "edit_in": "从 SH004 的可移动中心箭头接入。",
+      "edit_out": "绿色扇面收束成三尖曲线的第一笔。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH004",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH006",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/005_SH005",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH006",
+      "order": 6,
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH006.mp4",
+      "edit_in": "由 SH005 的方向扇面变形为曲线。",
+      "edit_out": "推入 deltoid 内部的切线弦。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH005",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH007",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/006_SH006",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH007",
+      "order": 7,
+      "status": "monitor_required",
+      "duration_seconds": 15,
+      "expected_clip": "clips/SH007.mp4",
+      "edit_in": "从 SH006 deltoid 闭合处直接推入。",
+      "edit_out": "切到标尺和公式锁定弦长。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH006",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH008",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/007_SH007",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH008",
+      "order": 8,
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH008.mp4",
+      "edit_in": "从旋转红弦切到同一红弦的测量视角。",
+      "edit_out": "金色面积填充接上面积计算。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH007",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH009",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/008_SH008",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH009",
+      "order": 9,
+      "status": "monitor_required",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH009.mp4",
+      "edit_in": "从 SH008 的 a=1/4 公式下切。",
+      "edit_out": "切到学生反应质疑。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH008",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH010",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/009_SH009",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH010",
+      "order": 10,
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH010.mp4",
+      "edit_in": "从 SH009 的“候选”标记切入。",
+      "edit_out": "随她转身切到地面绳边界。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH009",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH011",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/010_SH010",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH011",
+      "order": 11,
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH011.mp4",
+      "edit_in": "从女贝老师转身接到地面操作。",
+      "edit_out": "切到两点连线的凸性定义图。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH010",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH012",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/011_SH011",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH012",
+      "order": 12,
+      "status": "monitor_required",
+      "duration_seconds": 18,
+      "expected_clip": "clips/SH012.mp4",
+      "edit_in": "从绳索凹口消失切入。",
+      "edit_out": "左侧凸形变形为等边三角形。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH011",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH013",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/012_SH012",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH013",
+      "order": 13,
+      "status": "monitor_required",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH013.mp4",
+      "edit_in": "从凸性定义左图转为三角形。",
+      "edit_out": "切到边长与面积公式。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH012",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH014",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/013_SH013",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH014",
+      "order": 14,
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH014.mp4",
+      "edit_in": "从三角高线标尺切入公式。",
+      "edit_out": "切到凸包填满空隙的对比图。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH013",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH015",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/014_SH014",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH015",
+      "order": 15,
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH015.mp4",
+      "edit_in": "从面积公式切到对比图。",
+      "edit_out": "右侧碎片 morph 成大等腰三角形。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH014",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH016",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/015_SH015",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH016",
+      "order": 16,
+      "status": "monitor_required",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH016.mp4",
+      "edit_in": "从非凸碎片对比图推入沙盘。",
+      "edit_out": "底边刻度声接切分镜头。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH015",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH017",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/016_SH016",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH017",
+      "order": 17,
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH017.mp4",
+      "edit_in": "从 SH016 底边准备切分处接入。",
+      "edit_out": "切到小三角形水平滑动。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH016",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH018",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/017_SH017",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH018",
+      "order": 18,
+      "status": "monitor_required",
+      "duration_seconds": 15,
+      "expected_clip": "clips/SH018.mp4",
+      "edit_in": "从切分后的细三角形接入。",
+      "edit_out": "切到重叠后的并集面积。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH017",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH019",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/018_SH018",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH019",
+      "order": 19,
+      "status": "monitor_required",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH019.mp4",
+      "edit_in": "从水平滑动轨迹接入。",
+      "edit_out": "切到学生质疑这个操作是否作弊。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH018",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH020",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/019_SH019",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH020",
+      "order": 20,
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH020.mp4",
+      "edit_in": "从 SH019 重叠图拉出到人物。",
+      "edit_out": "沿木尺指向切到纯方向审计。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH019",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH021",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/020_SH020",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH021",
+      "order": 21,
+      "status": "monitor_required",
+      "duration_seconds": 18,
+      "expected_clip": "clips/SH021.mp4",
+      "edit_in": "从木尺指向方向带接入。",
+      "edit_out": "色带分段变成迭代树的第一层。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH020",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH022",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/021_SH021",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH022",
+      "order": 22,
+      "status": "monitor_required",
+      "duration_seconds": 20,
+      "expected_clip": "clips/SH022.mp4",
+      "edit_in": "从方向审计色带生长出第一层树。",
+      "edit_out": "树状碎片淡入教室黑板总结。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH021",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH023",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/022_SH022",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH023",
+      "order": 23,
+      "status": "monitor_required",
+      "duration_seconds": 20,
+      "expected_clip": "clips/SH023.mp4",
+      "edit_in": "从 SH022 树状碎片匹配切到黑板。",
+      "edit_out": "结论里的“面积”二字切到零面积提示。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH022",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH024",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/023_SH023",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH024",
+      "order": 24,
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH024.mp4",
+      "edit_in": "从黑板结论中“面积”切入。",
+      "edit_out": "线段变粗成 delta 管。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH023",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH025",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/024_SH024",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH025",
+      "order": 25,
+      "status": "monitor_required",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH025.mp4",
+      "edit_in": "从 SH024 线段加粗。",
+      "edit_out": "第二条管斜向进入形成交叉。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH024",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH026",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/025_SH025",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH026",
+      "order": 26,
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH026.mp4",
+      "edit_in": "从 SH025 的单管接入第二条管。",
+      "edit_out": "金色重叠区上方出现估计式。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH025",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH027",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/026_SH026",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH027",
+      "order": 27,
+      "status": "monitor_required",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH027.mp4",
+      "edit_in": "从 SH026 金色重叠区直接接公式。",
+      "edit_out": "重叠图像素化成小网格。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH026",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH028",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/027_SH027",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH028",
+      "order": 28,
+      "status": "monitor_required",
+      "duration_seconds": 15,
+      "expected_clip": "clips/SH028.mp4",
+      "edit_in": "从估计式右侧的图形像素化进网格。",
+      "edit_out": "网格整理成黑板上二维定理。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH027",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH029",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/028_SH028",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH029",
+      "order": 29,
+      "status": "monitor_required",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH029.mp4",
+      "edit_in": "从网格缩放匹配切到黑板。",
+      "edit_out": "公式线条转入三联影响蒙太奇。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH028",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH030",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/029_SH029",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH030",
+      "order": 30,
+      "status": "monitor_required",
+      "duration_seconds": 20,
+      "expected_clip": "clips/SH030.mp4",
+      "edit_in": "从 dimension = 2 的线条扩展到三格。",
+      "edit_out": "推入中格和右格术语的板书解释。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH029",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH031",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/030_SH030",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH031",
+      "order": 31,
+      "status": "monitor_required",
+      "duration_seconds": 17,
+      "expected_clip": "clips/SH031.mp4",
+      "edit_in": "从三联图中格/右格拉近。",
+      "edit_out": "黑板清空，只留下标题位置。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH030",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH032",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/031_SH031",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH032",
+      "order": 32,
+      "status": "monitor_required",
+      "duration_seconds": 18,
+      "expected_clip": "clips/SH032.mp4",
+      "edit_in": "从 SH031 文字退淡接空黑板。",
+      "edit_out": "女贝老师视线把镜头带回地面木剑。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH031",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH033",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/032_SH032",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH033",
+      "order": 33,
+      "status": "monitor_required",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH033.mp4",
+      "edit_in": "从女贝老师视线匹配切到木剑。",
+      "edit_out": "淡出到羊皮纸标题卡。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH032",
+      "continuity_next": "KAK-BYLETH-PROMPT-SH034",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/033_SH033",
+      "review_status": "superseded_pending_motion_qa"
+    },
+    {
+      "id": "SH034",
+      "order": 34,
+      "status": "monitor_required",
+      "duration_seconds": 8,
+      "expected_clip": "clips/SH034.mp4",
+      "edit_in": "从 SH033 蓝影淡出到羊皮纸。",
+      "edit_out": "淡出黑场。",
+      "audio_anchor": "",
+      "continuity_previous": "KAK-BYLETH-PROMPT-SH033",
+      "continuity_next": "",
+      "model_notes": [
+        "旧版包已被真实帧中文审查页取代；优先使用 real_frame_preview_kakeya_byleth_2026-07-28 中的 prompt/model_prompt/negative_prompt。",
+        "不得把本旧包的 approved_for_video 历史状态作为当前批准依据。",
+        "视频生成前仍需运动探针与 clip-level QA。"
+      ],
+      "reject_if": [],
+      "package_dir": "shots/034_SH034",
+      "review_status": "superseded_pending_motion_qa"
+    }
+  ],
+  "status": "deprecated_monitor_handoff",
+  "package_note": "旧版视频生成交接包，仅保留作历史参考。当前权威审查入口是 real_frame_preview_kakeya_byleth_2026-07-28；所有镜头需完成视频运动 QA 后才可 promoted to approved_for_video。",
+  "review_status": "superseded_by_real_frame_preview"
+}

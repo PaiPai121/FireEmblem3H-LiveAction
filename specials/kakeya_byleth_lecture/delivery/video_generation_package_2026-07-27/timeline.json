@@ -1,0 +1,277 @@
+{
+  "total_duration_seconds": 492,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "SH001",
+      "duration_seconds": 8,
+      "expected_clip": "clips/SH001.mp4",
+      "edit_in": "从黑场淡入到石地纹理和红线端点。",
+      "edit_out": "在木剑静止后切到低机位的女贝老师。"
+    },
+    {
+      "order": 2,
+      "shot": "SH002",
+      "duration_seconds": 10,
+      "expected_clip": "clips/SH002.mp4",
+      "edit_in": "接 SH001 木剑静止，声音先进入。",
+      "edit_out": "跟随她的视线切到俯视旋转。"
+    },
+    {
+      "order": 3,
+      "shot": "SH003",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH003.mp4",
+      "edit_in": "从女贝老师视线切入剑的俯视图。",
+      "edit_out": "切到她在板上区分固定中心与自由中心。"
+    },
+    {
+      "order": 4,
+      "shot": "SH004",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH004.mp4",
+      "edit_in": "圆盘直觉画面硬切到粉笔板。",
+      "edit_out": "顺着粉笔箭头切到多方向线段扇面。"
+    },
+    {
+      "order": 5,
+      "shot": "SH005",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH005.mp4",
+      "edit_in": "从 SH004 的可移动中心箭头接入。",
+      "edit_out": "绿色扇面收束成三尖曲线的第一笔。"
+    },
+    {
+      "order": 6,
+      "shot": "SH006",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH006.mp4",
+      "edit_in": "由 SH005 的方向扇面变形为曲线。",
+      "edit_out": "推入 deltoid 内部的切线弦。"
+    },
+    {
+      "order": 7,
+      "shot": "SH007",
+      "duration_seconds": 15,
+      "expected_clip": "clips/SH007.mp4",
+      "edit_in": "从 SH006 deltoid 闭合处直接推入。",
+      "edit_out": "切到标尺和公式锁定弦长。"
+    },
+    {
+      "order": 8,
+      "shot": "SH008",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH008.mp4",
+      "edit_in": "从旋转红弦切到同一红弦的测量视角。",
+      "edit_out": "金色面积填充接上面积计算。"
+    },
+    {
+      "order": 9,
+      "shot": "SH009",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH009.mp4",
+      "edit_in": "从 SH008 的 a=1/4 公式下切。",
+      "edit_out": "切到学生反应质疑。"
+    },
+    {
+      "order": 10,
+      "shot": "SH010",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH010.mp4",
+      "edit_in": "从 SH009 的“候选”标记切入。",
+      "edit_out": "随她转身切到地面绳边界。"
+    },
+    {
+      "order": 11,
+      "shot": "SH011",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH011.mp4",
+      "edit_in": "从女贝老师转身接到地面操作。",
+      "edit_out": "切到两点连线的凸性定义图。"
+    },
+    {
+      "order": 12,
+      "shot": "SH012",
+      "duration_seconds": 18,
+      "expected_clip": "clips/SH012.mp4",
+      "edit_in": "从绳索凹口消失切入。",
+      "edit_out": "左侧凸形变形为等边三角形。"
+    },
+    {
+      "order": 13,
+      "shot": "SH013",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH013.mp4",
+      "edit_in": "从凸性定义左图转为三角形。",
+      "edit_out": "切到边长与面积公式。"
+    },
+    {
+      "order": 14,
+      "shot": "SH014",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH014.mp4",
+      "edit_in": "从三角高线标尺切入公式。",
+      "edit_out": "切到凸包填满空隙的对比图。"
+    },
+    {
+      "order": 15,
+      "shot": "SH015",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH015.mp4",
+      "edit_in": "从面积公式切到对比图。",
+      "edit_out": "右侧碎片 morph 成大等腰三角形。"
+    },
+    {
+      "order": 16,
+      "shot": "SH016",
+      "duration_seconds": 13,
+      "expected_clip": "clips/SH016.mp4",
+      "edit_in": "从非凸碎片对比图推入沙盘。",
+      "edit_out": "底边刻度声接切分镜头。"
+    },
+    {
+      "order": 17,
+      "shot": "SH017",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH017.mp4",
+      "edit_in": "从 SH016 底边准备切分处接入。",
+      "edit_out": "切到小三角形水平滑动。"
+    },
+    {
+      "order": 18,
+      "shot": "SH018",
+      "duration_seconds": 15,
+      "expected_clip": "clips/SH018.mp4",
+      "edit_in": "从切分后的细三角形接入。",
+      "edit_out": "切到重叠后的并集面积。"
+    },
+    {
+      "order": 19,
+      "shot": "SH019",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH019.mp4",
+      "edit_in": "从水平滑动轨迹接入。",
+      "edit_out": "切到学生质疑这个操作是否作弊。"
+    },
+    {
+      "order": 20,
+      "shot": "SH020",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH020.mp4",
+      "edit_in": "从 SH019 重叠图拉出到人物。",
+      "edit_out": "沿木尺指向切到纯方向审计。"
+    },
+    {
+      "order": 21,
+      "shot": "SH021",
+      "duration_seconds": 18,
+      "expected_clip": "clips/SH021.mp4",
+      "edit_in": "从木尺指向方向带接入。",
+      "edit_out": "色带分段变成迭代树的第一层。"
+    },
+    {
+      "order": 22,
+      "shot": "SH022",
+      "duration_seconds": 20,
+      "expected_clip": "clips/SH022.mp4",
+      "edit_in": "从方向审计色带生长出第一层树。",
+      "edit_out": "树状碎片淡入教室黑板总结。"
+    },
+    {
+      "order": 23,
+      "shot": "SH023",
+      "duration_seconds": 20,
+      "expected_clip": "clips/SH023.mp4",
+      "edit_in": "从 SH022 树状碎片匹配切到黑板。",
+      "edit_out": "结论里的“面积”二字切到零面积提示。"
+    },
+    {
+      "order": 24,
+      "shot": "SH024",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH024.mp4",
+      "edit_in": "从黑板结论中“面积”切入。",
+      "edit_out": "线段变粗成 delta 管。"
+    },
+    {
+      "order": 25,
+      "shot": "SH025",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH025.mp4",
+      "edit_in": "从 SH024 线段加粗。",
+      "edit_out": "第二条管斜向进入形成交叉。"
+    },
+    {
+      "order": 26,
+      "shot": "SH026",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH026.mp4",
+      "edit_in": "从 SH025 的单管接入第二条管。",
+      "edit_out": "金色重叠区上方出现估计式。"
+    },
+    {
+      "order": 27,
+      "shot": "SH027",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SH027.mp4",
+      "edit_in": "从 SH026 金色重叠区直接接公式。",
+      "edit_out": "重叠图像素化成小网格。"
+    },
+    {
+      "order": 28,
+      "shot": "SH028",
+      "duration_seconds": 15,
+      "expected_clip": "clips/SH028.mp4",
+      "edit_in": "从估计式右侧的图形像素化进网格。",
+      "edit_out": "网格整理成黑板上二维定理。"
+    },
+    {
+      "order": 29,
+      "shot": "SH029",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SH029.mp4",
+      "edit_in": "从网格缩放匹配切到黑板。",
+      "edit_out": "公式线条转入三联影响蒙太奇。"
+    },
+    {
+      "order": 30,
+      "shot": "SH030",
+      "duration_seconds": 20,
+      "expected_clip": "clips/SH030.mp4",
+      "edit_in": "从 dimension = 2 的线条扩展到三格。",
+      "edit_out": "推入中格和右格术语的板书解释。"
+    },
+    {
+      "order": 31,
+      "shot": "SH031",
+      "duration_seconds": 17,
+      "expected_clip": "clips/SH031.mp4",
+      "edit_in": "从三联图中格/右格拉近。",
+      "edit_out": "黑板清空，只留下标题位置。"
+    },
+    {
+      "order": 32,
+      "shot": "SH032",
+      "duration_seconds": 18,
+      "expected_clip": "clips/SH032.mp4",
+      "edit_in": "从 SH031 文字退淡接空黑板。",
+      "edit_out": "女贝老师视线把镜头带回地面木剑。"
+    },
+    {
+      "order": 33,
+      "shot": "SH033",
+      "duration_seconds": 14,
+      "expected_clip": "clips/SH033.mp4",
+      "edit_in": "从女贝老师视线匹配切到木剑。",
+      "edit_out": "淡出到羊皮纸标题卡。"
+    },
+    {
+      "order": 34,
+      "shot": "SH034",
+      "duration_seconds": 8,
+      "expected_clip": "clips/SH034.mp4",
+      "edit_in": "从 SH033 蓝影淡出到羊皮纸。",
+      "edit_out": "淡出黑场。"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SH021 审查资料：分镜规格</title>
+  <style>
+    body{margin:0;background:#f6f8fb;color:#1f2733;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:28px 22px 48px}
+    h1{margin:0 0 8px;font-size:24px;letter-spacing:0}.meta{margin:0 0 18px;color:#596779;line-height:1.6;font-weight:700}
+    .note{border:1px solid #d6dfeb;border-left:4px solid #174ea6;background:#fff;border-radius:8px;padding:12px 14px;margin:0 0 18px;line-height:1.65}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #d6dfeb;border-radius:8px;padding:18px;line-height:1.7;font-size:14px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    a{color:#174ea6;font-weight:800;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SH021 审查资料：分镜规格</h1>
+    <div class="meta">类型：分镜规格 · 编码：UTF-8 · 原始文件：<a href="frame_spec.md">frame_spec.md</a></div>
+    <div class="note">这是导演、数学和画面审查用的镜头规格，不是模型输入。</div>
+    <pre># 分镜规格：SH021
+
+镜头编号：SH021
+阶段：真实帧锁定视频提示词包
+状态：真实帧已生成，提示词已就绪
+依赖：女贝老师二维挂谷分镜表
+剧情节点：方向审计
+成片作用：做方向审计，确认切分和平移没有丢方向。
+时长目标：8 秒
+地点：干净图解空间
+可见角色：仅图解
+
+身份锁：
+- 女贝老师只使用女版教授形象，不使用男贝。
+- 女贝老师参考：assets/characters/protagonist/BylethFemale/professor/selected.png。
+- 需要全身姿态、手套或持剑动作时，使用：assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png。
+- 可见学生阵容锁定为艾黛尔、莉丝缇亚、梅尔赛德斯，不得替换成其他学生或普通学生。
+
+资产引用：
+- 图解或道具镜头，不需要角色资产。
+
+起始帧意图：
+上方是一整条绿色方向区间，下方为空。
+
+关键帧意图：
+下方分段绿色区间出现，和上方一一对齐，没有缺口。
+
+结束帧意图：
+两条方向尺同时高亮，标记“方向仍全在”。
+
+摄影机：
+纯图解静态，便于暂停学习。
+
+调度：
+上方显示切分前的连续绿色方向区间，下方显示滑动后的多个绿色区间拼接成同一覆盖。
+
+画面方向：
+上下对照，不改变左右方向顺序。
+
+数学图形锁：
+- 佩龙树 证明必须保持方向覆盖可见：切分分配方向区间，平移不旋转，重叠缩小并集面积且不删除方向。
+
+动作峰值：
+下方最后一个绿色缺口被补齐的一刻。
+
+中文台词 / 音频锚点：
+女贝老师: 切分没有删方向。平移没有转方向。
+
+剪入：
+从木尺指向方向带接入。
+
+剪出：
+色带分段变成迭代树的第一层。
+
+连续性要求：
+- 上一镜头: SH020 （学生质疑）.
+- 下一镜头: SH022 （迭代加速）.
+- 保持上方规定的画面方向和视觉主体交接。
+- 不得添加未计划的指定学生；除非已有批准资产，学生台词只使用画外音或肩部剪影。
+
+运动风险：
+- 这是证明检查点，不能跳过。
+- AI 视频可能过度装饰数学图形；必须保持几何关系、端点标记、δ/α 标签、并集/重叠关系清楚可读。
+- 如果女贝老师可见，必须监看跨帧和相邻镜头中的身份漂移。
+
+拒绝条件：
+- 这是证明检查点，不能跳过。
+- 起始帧、关键帧、结束帧没有形成规定动作链，则拒绝。
+- 镜头运动遮住动作峰值，或反转既定画面方向，则拒绝。
+- 佩龙树的切分、平移、重叠或方向保持逻辑被画错，则拒绝。
+
+真实帧来源：
+- 起始帧：real_frames/SH021/start.png
+- 关键帧：real_frames/SH021/key.png
+- 结束帧：real_frames/SH021/end.png
+</pre>
+  </main>
+</body>
+</html>

@@ -1,0 +1,1788 @@
+{
+  "version": 1,
+  "project": "Byleth Teaches the 2D Needle Problem",
+  "project_id": "KAK-BYLETH-LECTURE",
+  "created_at": "2026-07-27",
+  "target": "prompt_asset_package",
+  "artifacts": [
+    {
+      "id": "KAK-BYLETH-BIBLE",
+      "type": "project_bible",
+      "stage": "planning",
+      "status": "candidate_generated",
+      "created_by": "showrunner-agent",
+      "created_at": "2026-07-27",
+      "paths": [
+        "project_bible.md"
+      ],
+      "source_refs": [
+        "assets/characters/protagonist/BylethFemale/profile.md",
+        "assets/characters/protagonist/BylethFemale/professor/regeneration_prompt.md",
+        "assets/locations/EP02/act01/OfficersAcademyClassroom_TeacherPOV/prompt.md",
+        "docs/kakeya_2d_history_with_proofs.md"
+      ],
+      "depends_on": [],
+      "risk_flags": [
+        "ip_fidelity",
+        "math_accuracy",
+        "application_overclaim"
+      ],
+      "notes": "Defines concept, tone, canon locks, and mathematical locks."
+    },
+    {
+      "id": "KAK-BYLETH-OUTLINE",
+      "type": "outline",
+      "stage": "writing",
+      "status": "candidate_generated",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-27",
+      "paths": [
+        "outline.md"
+      ],
+      "source_refs": [
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-BIBLE"
+      ],
+      "risk_flags": [
+        "pacing",
+        "math_clarity"
+      ],
+      "notes": "Five-act educational cinematic structure."
+    },
+    {
+      "id": "KAK-BYLETH-SCRIPT",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "candidate_generated",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-27",
+      "paths": [
+        "voiceover_dialogue_script.md"
+      ],
+      "source_refs": [
+        "outline.md",
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-OUTLINE",
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "risk_flags": [
+        "exposition_density",
+        "student_identity_scope"
+      ],
+      "notes": "Byleth narration and optional student dialogue."
+    },
+    {
+      "id": "KAK-BYLETH-DIRECTOR-TREATMENT",
+      "type": "director_treatment",
+      "stage": "direction",
+      "status": "candidate_generated",
+      "created_by": "director-agent",
+      "created_at": "2026-07-27",
+      "paths": [
+        "director_treatment.md"
+      ],
+      "source_refs": [
+        "project_bible.md",
+        "outline.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-BIBLE",
+        "KAK-BYLETH-OUTLINE"
+      ],
+      "risk_flags": [
+        "diagram_readability",
+        "character_drift"
+      ],
+      "notes": "Cinematic and performance treatment."
+    },
+    {
+      "id": "KAK-BYLETH-SHOTLIST",
+      "type": "shot_list",
+      "stage": "storyboard",
+      "status": "candidate_generated",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-27",
+      "paths": [
+        "shot_list.md"
+      ],
+      "source_refs": [
+        "project_bible.md",
+        "outline.md",
+        "director_treatment.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-BIBLE",
+        "KAK-BYLETH-OUTLINE",
+        "KAK-BYLETH-DIRECTOR-TREATMENT"
+      ],
+      "risk_flags": [
+        "math_accuracy",
+        "diagram_animation",
+        "runtime_control"
+      ],
+      "notes": "34-shot full storyboard plan, 7:50-8:20 target runtime."
+    },
+    {
+      "id": "KAK-BYLETH-PRODUCTION-NOTES",
+      "type": "production_notes",
+      "stage": "planning",
+      "status": "candidate_generated",
+      "created_by": "production-manager",
+      "created_at": "2026-07-27",
+      "paths": [
+        "production_notes.md"
+      ],
+      "source_refs": [
+        "project_bible.md",
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-BIBLE",
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "risk_flags": [
+        "asset_scope",
+        "math_graphics"
+      ],
+      "notes": "Asset needs, identity locks, and production risk register."
+    },
+    {
+      "id": "KAK-BYLETH-LAYOUT-REFERENCE-FRAMES",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "layout_reference",
+      "created_by": "storyboard-layout-agent",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH001/start.svg",
+        "storyboards/SH001/key.svg",
+        "storyboards/SH001/end.svg",
+        "storyboards/SH002/start.svg",
+        "storyboards/SH002/key.svg",
+        "storyboards/SH002/end.svg",
+        "storyboards/SH003/start.svg",
+        "storyboards/SH003/key.svg",
+        "storyboards/SH003/end.svg",
+        "storyboards/SH004/start.svg",
+        "storyboards/SH004/key.svg",
+        "storyboards/SH004/end.svg",
+        "storyboards/SH005/start.svg",
+        "storyboards/SH005/key.svg",
+        "storyboards/SH005/end.svg",
+        "storyboards/SH006/start.svg",
+        "storyboards/SH006/key.svg",
+        "storyboards/SH006/end.svg",
+        "storyboards/SH007/start.svg",
+        "storyboards/SH007/key.svg",
+        "storyboards/SH007/end.svg",
+        "storyboards/SH008/start.svg",
+        "storyboards/SH008/key.svg",
+        "storyboards/SH008/end.svg",
+        "storyboards/SH009/start.svg",
+        "storyboards/SH009/key.svg",
+        "storyboards/SH009/end.svg",
+        "storyboards/SH010/start.svg",
+        "storyboards/SH010/key.svg",
+        "storyboards/SH010/end.svg",
+        "storyboards/SH011/start.svg",
+        "storyboards/SH011/key.svg",
+        "storyboards/SH011/end.svg",
+        "storyboards/SH012/start.svg",
+        "storyboards/SH012/key.svg",
+        "storyboards/SH012/end.svg",
+        "storyboards/SH013/start.svg",
+        "storyboards/SH013/key.svg",
+        "storyboards/SH013/end.svg",
+        "storyboards/SH014/start.svg",
+        "storyboards/SH014/key.svg",
+        "storyboards/SH014/end.svg",
+        "storyboards/SH015/start.svg",
+        "storyboards/SH015/key.svg",
+        "storyboards/SH015/end.svg",
+        "storyboards/SH016/start.svg",
+        "storyboards/SH016/key.svg",
+        "storyboards/SH016/end.svg",
+        "storyboards/SH017/start.svg",
+        "storyboards/SH017/key.svg",
+        "storyboards/SH017/end.svg",
+        "storyboards/SH018/start.svg",
+        "storyboards/SH018/key.svg",
+        "storyboards/SH018/end.svg",
+        "storyboards/SH019/start.svg",
+        "storyboards/SH019/key.svg",
+        "storyboards/SH019/end.svg",
+        "storyboards/SH020/start.svg",
+        "storyboards/SH020/key.svg",
+        "storyboards/SH020/end.svg",
+        "storyboards/SH021/start.svg",
+        "storyboards/SH021/key.svg",
+        "storyboards/SH021/end.svg",
+        "storyboards/SH022/start.svg",
+        "storyboards/SH022/key.svg",
+        "storyboards/SH022/end.svg",
+        "storyboards/SH023/start.svg",
+        "storyboards/SH023/key.svg",
+        "storyboards/SH023/end.svg",
+        "storyboards/SH024/start.svg",
+        "storyboards/SH024/key.svg",
+        "storyboards/SH024/end.svg",
+        "storyboards/SH025/start.svg",
+        "storyboards/SH025/key.svg",
+        "storyboards/SH025/end.svg",
+        "storyboards/SH026/start.svg",
+        "storyboards/SH026/key.svg",
+        "storyboards/SH026/end.svg",
+        "storyboards/SH027/start.svg",
+        "storyboards/SH027/key.svg",
+        "storyboards/SH027/end.svg",
+        "storyboards/SH028/start.svg",
+        "storyboards/SH028/key.svg",
+        "storyboards/SH028/end.svg",
+        "storyboards/SH029/start.svg",
+        "storyboards/SH029/key.svg",
+        "storyboards/SH029/end.svg",
+        "storyboards/SH030/start.svg",
+        "storyboards/SH030/key.svg",
+        "storyboards/SH030/end.svg",
+        "storyboards/SH031/start.svg",
+        "storyboards/SH031/key.svg",
+        "storyboards/SH031/end.svg",
+        "storyboards/SH032/start.svg",
+        "storyboards/SH032/key.svg",
+        "storyboards/SH032/end.svg",
+        "storyboards/SH033/start.svg",
+        "storyboards/SH033/key.svg",
+        "storyboards/SH033/end.svg",
+        "storyboards/SH034/start.svg",
+        "storyboards/SH034/key.svg",
+        "storyboards/SH034/end.svg"
+      ],
+      "source_refs": [
+        "production_system/video_delivery_manifest.json",
+        "storyboards/*/frame_spec.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "layout_reference",
+        "cinematic_frames_pending",
+        "math_accuracy"
+      ],
+      "notes": "Web-visible SVG storyboard frames for SH001-SH034 start/key/end. These are layout/proof reference frames, not final cinematic PNGs."
+    },
+    {
+      "id": "KAK-BYLETH-PNG-FRAMESET",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "monitor_required",
+      "created_by": "frame-rasterization-agent",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH001/start.png",
+        "storyboards/SH001/key.png",
+        "storyboards/SH001/end.png",
+        "storyboards/SH002/start.png",
+        "storyboards/SH002/key.png",
+        "storyboards/SH002/end.png",
+        "storyboards/SH003/start.png",
+        "storyboards/SH003/key.png",
+        "storyboards/SH003/end.png",
+        "storyboards/SH004/start.png",
+        "storyboards/SH004/key.png",
+        "storyboards/SH004/end.png",
+        "storyboards/SH005/start.png",
+        "storyboards/SH005/key.png",
+        "storyboards/SH005/end.png",
+        "storyboards/SH006/start.png",
+        "storyboards/SH006/key.png",
+        "storyboards/SH006/end.png",
+        "storyboards/SH007/start.png",
+        "storyboards/SH007/key.png",
+        "storyboards/SH007/end.png",
+        "storyboards/SH008/start.png",
+        "storyboards/SH008/key.png",
+        "storyboards/SH008/end.png",
+        "storyboards/SH009/start.png",
+        "storyboards/SH009/key.png",
+        "storyboards/SH009/end.png",
+        "storyboards/SH010/start.png",
+        "storyboards/SH010/key.png",
+        "storyboards/SH010/end.png",
+        "storyboards/SH011/start.png",
+        "storyboards/SH011/key.png",
+        "storyboards/SH011/end.png",
+        "storyboards/SH012/start.png",
+        "storyboards/SH012/key.png",
+        "storyboards/SH012/end.png",
+        "storyboards/SH013/start.png",
+        "storyboards/SH013/key.png",
+        "storyboards/SH013/end.png",
+        "storyboards/SH014/start.png",
+        "storyboards/SH014/key.png",
+        "storyboards/SH014/end.png",
+        "storyboards/SH015/start.png",
+        "storyboards/SH015/key.png",
+        "storyboards/SH015/end.png",
+        "storyboards/SH016/start.png",
+        "storyboards/SH016/key.png",
+        "storyboards/SH016/end.png",
+        "storyboards/SH017/start.png",
+        "storyboards/SH017/key.png",
+        "storyboards/SH017/end.png",
+        "storyboards/SH018/start.png",
+        "storyboards/SH018/key.png",
+        "storyboards/SH018/end.png",
+        "storyboards/SH019/start.png",
+        "storyboards/SH019/key.png",
+        "storyboards/SH019/end.png",
+        "storyboards/SH020/start.png",
+        "storyboards/SH020/key.png",
+        "storyboards/SH020/end.png",
+        "storyboards/SH021/start.png",
+        "storyboards/SH021/key.png",
+        "storyboards/SH021/end.png",
+        "storyboards/SH022/start.png",
+        "storyboards/SH022/key.png",
+        "storyboards/SH022/end.png",
+        "storyboards/SH023/start.png",
+        "storyboards/SH023/key.png",
+        "storyboards/SH023/end.png",
+        "storyboards/SH024/start.png",
+        "storyboards/SH024/key.png",
+        "storyboards/SH024/end.png",
+        "storyboards/SH025/start.png",
+        "storyboards/SH025/key.png",
+        "storyboards/SH025/end.png",
+        "storyboards/SH026/start.png",
+        "storyboards/SH026/key.png",
+        "storyboards/SH026/end.png",
+        "storyboards/SH027/start.png",
+        "storyboards/SH027/key.png",
+        "storyboards/SH027/end.png",
+        "storyboards/SH028/start.png",
+        "storyboards/SH028/key.png",
+        "storyboards/SH028/end.png",
+        "storyboards/SH029/start.png",
+        "storyboards/SH029/key.png",
+        "storyboards/SH029/end.png",
+        "storyboards/SH030/start.png",
+        "storyboards/SH030/key.png",
+        "storyboards/SH030/end.png",
+        "storyboards/SH031/start.png",
+        "storyboards/SH031/key.png",
+        "storyboards/SH031/end.png",
+        "storyboards/SH032/start.png",
+        "storyboards/SH032/key.png",
+        "storyboards/SH032/end.png",
+        "storyboards/SH033/start.png",
+        "storyboards/SH033/key.png",
+        "storyboards/SH033/end.png",
+        "storyboards/SH034/start.png",
+        "storyboards/SH034/key.png",
+        "storyboards/SH034/end.png"
+      ],
+      "source_refs": [
+        "storyboards/*/*.svg",
+        "production_system/video_delivery_manifest.json"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-LAYOUT-REFERENCE-FRAMES"
+      ],
+      "risk_flags": [
+        "storyboard_animatic_style",
+        "real_frames_complete",
+        "motion_qa_pending",
+        "not_approved_for_video"
+      ],
+      "notes": "真实 start/key/end PNG 三帧已完成并进入中文审查页；仍需视频运动 QA 后才能批准出片。"
+    },
+    {
+      "id": "KAK-BYLETH-VIDEO-GENERATION-PACKAGE-INPUTS",
+      "type": "delivery_packet",
+      "stage": "delivery",
+      "status": "monitor_required",
+      "created_by": "production-manager",
+      "created_at": "2026-07-27",
+      "paths": [
+        "production_system/video_delivery_manifest.json"
+      ],
+      "source_refs": [
+        "prompt_asset_package_manifest.json",
+        "storyboards/*/*.png"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-PNG-FRAMESET"
+      ],
+      "risk_flags": [
+        "storyboard_animatic_style",
+        "clips_pending",
+        "real_frames_complete",
+        "motion_qa_pending",
+        "not_approved_for_video"
+      ],
+      "notes": "视频提示词和真实三帧输入已齐；无实际模型片段和运动 QA，不得标记为 approved_for_video。"
+    },
+    {
+      "id": "KAK-BYLETH-REAL-FRAME-PREVIEW-2026-07-28",
+      "type": "asset_viewer",
+      "stage": "frame_generation",
+      "status": "monitor_required",
+      "created_by": "production-manager",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/real_frame_preview_kakeya_byleth_2026-07-28/asset_viewer.html",
+        "delivery/real_frame_preview_kakeya_byleth_2026-07-28/package_manifest.json"
+      ],
+      "source_refs": [
+        "frame_generation_manifest.json",
+        "real_frames/SH001",
+        "real_frames/SH002",
+        "real_frames/SH003",
+        "real_frames/SH004",
+        "real_frames/SH005",
+        "real_frames/SH006",
+        "real_frames/SH007",
+        "real_frames/SH008",
+        "real_frames/SH009",
+        "real_frames/SH010",
+        "real_frames/SH011",
+        "real_frames/SH012",
+        "real_frames/SH013",
+        "real_frames/SH014",
+        "real_frames/SH015",
+        "real_frames/SH016",
+        "real_frames/SH017",
+        "real_frames/SH018",
+        "real_frames/SH019",
+        "real_frames/SH020",
+        "real_frames/SH021",
+        "real_frames/SH022",
+        "real_frames/SH023",
+        "real_frames/SH024",
+        "real_frames/SH025",
+        "real_frames/SH026",
+        "real_frames/SH027",
+        "real_frames/SH028",
+        "real_frames/SH029",
+        "real_frames/SH030",
+        "real_frames/SH031",
+        "real_frames/SH032",
+        "real_frames/SH033",
+        "real_frames/SH034"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "needs_visual_qa",
+        "needs_math_visual_qa",
+        "not_approved_for_video"
+      ],
+      "notes": "Normal delivery-style asset viewer for all 34 shots with actual real-frame triples. It intentionally excludes layout-reference storyboard PNGs; every shot still requires visual, math, motion, and continuity QA before video approval."
+    },
+    {
+      "id": "KAK-BYLETH-REAL-FRAME-CONTACT-SHEETS-2026-07-28",
+      "type": "qa_evidence",
+      "stage": "frame_generation",
+      "status": "monitor_required",
+      "created_by": "asset-qa-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/contact_sheet_manifest.json",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_01.jpg",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_02.jpg",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_03.jpg",
+        "production_system/reviews/real_frame_contact_sheets_2026-07-28/kakeya_real_frames_contact_sheet_04.jpg",
+        "production_system/reviews/full_real_frame_visual_audit_2026-07-28.md"
+      ],
+      "source_refs": [
+        "frame_generation_manifest.json",
+        "real_frames"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-REAL-FRAME-PREVIEW-2026-07-28"
+      ],
+      "risk_flags": [
+        "visual_qa_evidence",
+        "motion_review_required",
+        "not_approved_for_video"
+      ],
+      "notes": "Four reproducible contact sheets covering all 102 real start/key/end frames, plus full visual audit notes including the SH014 formula correction."
+    },
+    {
+      "id": "KAK-BYLETH-STUDENT-INTERACTION-CHINESE-REVISION",
+      "type": "revision_package",
+      "stage": "prompt_asset_package",
+      "status": "monitor_required",
+      "created_by": "codex",
+      "created_at": "2026-07-29",
+      "paths": [
+        "real_frames/SH002",
+        "real_frames/SH010",
+        "real_frames/SH020",
+        "real_frames/SH032",
+        "production_system/reviews/student_interaction_chinese_revision_review_2026-07-29.md"
+      ],
+      "source_refs": [
+        "assets/characters/black_eagles/Edelgard/academy/selected.png",
+        "assets/characters/golden_deer/Lysithea/academy/selected.png",
+        "assets/characters/blue_lions/Mercedes/academy/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/selected.png"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-PNG-FRAMESET",
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "Student-interaction and Chinese-localization revision for SH002, SH010, SH020, and SH032."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-ASSET-PACKAGE",
+      "type": "delivery_packet",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "prompt_asset_package_manifest.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "shot_generation_requirements.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "risk_flags": [
+        "frames_pending",
+        "math_accuracy",
+        "identity_drift"
+      ],
+      "notes": "Package manifest for 34 prompt-ready shots; actual frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-VIDEO-DELIVERY-DRAFT",
+      "type": "delivery_packet",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "production_system/video_delivery_manifest.json"
+      ],
+      "source_refs": [
+        "prompt_asset_package_manifest.json"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "frames_pending"
+      ],
+      "notes": "Draft delivery manifest with expected start/key/end and clip paths."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH001",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH001/frame_spec.md",
+        "storyboards/SH001/prompt.md",
+        "storyboards/SH001/negative_prompt.md",
+        "storyboards/SH001/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": null,
+        "next": "SH002",
+        "in": "从黑场淡入到训练场中景，女贝老师已经蹲在标尺旁。",
+        "out": "在木剑静止后切到三位学生听见问题的低机位。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "SH001 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH002",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH002/frame_spec.md",
+        "storyboards/SH002/prompt.md",
+        "storyboards/SH002/negative_prompt.md",
+        "storyboards/SH002/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH001",
+        "next": "SH003",
+        "in": "接 SH001 木剑静止，声音先进入。",
+        "out": "跟随她的视线切到俯视旋转。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope"
+      ],
+      "notes": "SH002 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH003",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH003/frame_spec.md",
+        "storyboards/SH003/prompt.md",
+        "storyboards/SH003/negative_prompt.md",
+        "storyboards/SH003/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH002",
+        "next": "SH004",
+        "in": "从女贝老师视线切入剑的俯视图。",
+        "out": "切到她在板上区分固定中心与自由中心。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "student_identity_scope"
+      ],
+      "notes": "SH003 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH004",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH004/frame_spec.md",
+        "storyboards/SH004/prompt.md",
+        "storyboards/SH004/negative_prompt.md",
+        "storyboards/SH004/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH003",
+        "next": "SH005",
+        "in": "圆盘直觉画面硬切到粉笔板。",
+        "out": "顺着粉笔箭头切到多方向线段扇面。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "SH004 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH005",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH005/frame_spec.md",
+        "storyboards/SH005/prompt.md",
+        "storyboards/SH005/negative_prompt.md",
+        "storyboards/SH005/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH004",
+        "next": "SH006",
+        "in": "从 SH004 的可移动中心箭头接入。",
+        "out": "绿色扇面收束成三尖曲线的第一笔。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "SH005 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH006",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH006/frame_spec.md",
+        "storyboards/SH006/prompt.md",
+        "storyboards/SH006/negative_prompt.md",
+        "storyboards/SH006/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH005",
+        "next": "SH007",
+        "in": "由 SH005 的方向扇面变形为曲线。",
+        "out": "推入 deltoid 内部的切线弦。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope",
+        "diagram_readability"
+      ],
+      "notes": "SH006 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH007",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH007/frame_spec.md",
+        "storyboards/SH007/prompt.md",
+        "storyboards/SH007/negative_prompt.md",
+        "storyboards/SH007/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH006",
+        "next": "SH008",
+        "in": "从 SH006 deltoid 闭合处直接推入。",
+        "out": "切到标尺和公式锁定弦长。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH007 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH008",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH008/frame_spec.md",
+        "storyboards/SH008/prompt.md",
+        "storyboards/SH008/negative_prompt.md",
+        "storyboards/SH008/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH007",
+        "next": "SH009",
+        "in": "从旋转红弦切到同一红弦的测量视角。",
+        "out": "金色面积填充接上面积计算。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH008 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH009",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH009/frame_spec.md",
+        "storyboards/SH009/prompt.md",
+        "storyboards/SH009/negative_prompt.md",
+        "storyboards/SH009/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH008",
+        "next": "SH010",
+        "in": "从 SH008 的 a=1/4 公式下切。",
+        "out": "切到学生反应质疑。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH009 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH010",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH010/frame_spec.md",
+        "storyboards/SH010/prompt.md",
+        "storyboards/SH010/negative_prompt.md",
+        "storyboards/SH010/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH009",
+        "next": "SH011",
+        "in": "从 SH009 的“候选”标记切入。",
+        "out": "随她转身切到地面绳边界。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope",
+        "diagram_readability"
+      ],
+      "notes": "SH010 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH011",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH011/frame_spec.md",
+        "storyboards/SH011/prompt.md",
+        "storyboards/SH011/negative_prompt.md",
+        "storyboards/SH011/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH010",
+        "next": "SH012",
+        "in": "从女贝老师转身接到地面操作。",
+        "out": "切到两点连线的凸性定义图。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "SH011 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH012",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH012/frame_spec.md",
+        "storyboards/SH012/prompt.md",
+        "storyboards/SH012/negative_prompt.md",
+        "storyboards/SH012/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH011",
+        "next": "SH013",
+        "in": "从绳索凹口消失切入。",
+        "out": "左侧凸形变形为等边三角形。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "SH012 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH013",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH013/frame_spec.md",
+        "storyboards/SH013/prompt.md",
+        "storyboards/SH013/negative_prompt.md",
+        "storyboards/SH013/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH012",
+        "next": "SH014",
+        "in": "从凸性定义左图转为三角形。",
+        "out": "切到边长与面积公式。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH013 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH014",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH014/frame_spec.md",
+        "storyboards/SH014/prompt.md",
+        "storyboards/SH014/negative_prompt.md",
+        "storyboards/SH014/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH013",
+        "next": "SH015",
+        "in": "从三角高线标尺切入公式。",
+        "out": "切到凸包填满空隙的对比图。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH014 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH015",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH015/frame_spec.md",
+        "storyboards/SH015/prompt.md",
+        "storyboards/SH015/negative_prompt.md",
+        "storyboards/SH015/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH014",
+        "next": "SH016",
+        "in": "从面积公式切到对比图。",
+        "out": "右侧碎片 morph 成大等腰三角形。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "student_identity_scope"
+      ],
+      "notes": "SH015 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH016",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH016/frame_spec.md",
+        "storyboards/SH016/prompt.md",
+        "storyboards/SH016/negative_prompt.md",
+        "storyboards/SH016/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH015",
+        "next": "SH017",
+        "in": "从非凸碎片对比图推入沙盘。",
+        "out": "底边刻度声接切分镜头。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH016 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH017",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH017/frame_spec.md",
+        "storyboards/SH017/prompt.md",
+        "storyboards/SH017/negative_prompt.md",
+        "storyboards/SH017/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH016",
+        "next": "SH018",
+        "in": "从 SH016 底边准备切分处接入。",
+        "out": "切到小三角形水平滑动。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH017 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH018",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH018/frame_spec.md",
+        "storyboards/SH018/prompt.md",
+        "storyboards/SH018/negative_prompt.md",
+        "storyboards/SH018/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH017",
+        "next": "SH019",
+        "in": "从切分后的细三角形接入。",
+        "out": "切到重叠后的并集面积。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH018 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH019",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH019/frame_spec.md",
+        "storyboards/SH019/prompt.md",
+        "storyboards/SH019/negative_prompt.md",
+        "storyboards/SH019/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH018",
+        "next": "SH020",
+        "in": "从水平滑动轨迹接入。",
+        "out": "切到学生质疑这个操作是否作弊。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH019 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH020",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH020/frame_spec.md",
+        "storyboards/SH020/prompt.md",
+        "storyboards/SH020/negative_prompt.md",
+        "storyboards/SH020/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH019",
+        "next": "SH021",
+        "in": "从 SH019 重叠图拉出到人物。",
+        "out": "沿木尺指向切到纯方向审计。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "student_identity_scope"
+      ],
+      "notes": "SH020 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH021",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH021/frame_spec.md",
+        "storyboards/SH021/prompt.md",
+        "storyboards/SH021/negative_prompt.md",
+        "storyboards/SH021/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH020",
+        "next": "SH022",
+        "in": "从木尺指向方向带接入。",
+        "out": "色带分段变成迭代树的第一层。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH021 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH022",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH022/frame_spec.md",
+        "storyboards/SH022/prompt.md",
+        "storyboards/SH022/negative_prompt.md",
+        "storyboards/SH022/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH021",
+        "next": "SH023",
+        "in": "从方向审计色带生长出第一层树。",
+        "out": "树状碎片淡入教室黑板总结。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH022 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH023",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH023/frame_spec.md",
+        "storyboards/SH023/prompt.md",
+        "storyboards/SH023/negative_prompt.md",
+        "storyboards/SH023/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH022",
+        "next": "SH024",
+        "in": "从 SH022 树状碎片匹配切到黑板。",
+        "out": "结论里的“面积”二字切到零面积提示。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH023 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH024",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH024/frame_spec.md",
+        "storyboards/SH024/prompt.md",
+        "storyboards/SH024/negative_prompt.md",
+        "storyboards/SH024/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH023",
+        "next": "SH025",
+        "in": "从黑板结论中“面积”切入。",
+        "out": "线段变粗成 delta 管。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH024 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH025",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH025/frame_spec.md",
+        "storyboards/SH025/prompt.md",
+        "storyboards/SH025/negative_prompt.md",
+        "storyboards/SH025/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH024",
+        "next": "SH026",
+        "in": "从 SH024 线段加粗。",
+        "out": "第二条管斜向进入形成交叉。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH025 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH026",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH026/frame_spec.md",
+        "storyboards/SH026/prompt.md",
+        "storyboards/SH026/negative_prompt.md",
+        "storyboards/SH026/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH025",
+        "next": "SH027",
+        "in": "从 SH025 的单管接入第二条管。",
+        "out": "金色重叠区上方出现估计式。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH026 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH027",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH027/frame_spec.md",
+        "storyboards/SH027/prompt.md",
+        "storyboards/SH027/negative_prompt.md",
+        "storyboards/SH027/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH026",
+        "next": "SH028",
+        "in": "从 SH026 金色重叠区直接接公式。",
+        "out": "重叠图像素化成小网格。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH027 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH028",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH028/frame_spec.md",
+        "storyboards/SH028/prompt.md",
+        "storyboards/SH028/negative_prompt.md",
+        "storyboards/SH028/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH027",
+        "next": "SH029",
+        "in": "从估计式右侧的图形像素化进网格。",
+        "out": "网格整理成黑板上二维定理。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH028 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH029",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH029/frame_spec.md",
+        "storyboards/SH029/prompt.md",
+        "storyboards/SH029/negative_prompt.md",
+        "storyboards/SH029/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH028",
+        "next": "SH030",
+        "in": "从网格缩放匹配切到黑板。",
+        "out": "公式线条转入三联影响蒙太奇。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "diagram_readability"
+      ],
+      "notes": "SH029 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH030",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH030/frame_spec.md",
+        "storyboards/SH030/prompt.md",
+        "storyboards/SH030/negative_prompt.md",
+        "storyboards/SH030/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH029",
+        "next": "SH031",
+        "in": "从 dimension = 2 的线条扩展到三格。",
+        "out": "推入中格和右格术语的板书解释。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH030 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH031",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH031/frame_spec.md",
+        "storyboards/SH031/prompt.md",
+        "storyboards/SH031/negative_prompt.md",
+        "storyboards/SH031/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH030",
+        "next": "SH032",
+        "in": "从三联图中格/右格拉近。",
+        "out": "黑板清空，只留下标题位置。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "SH031 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH032",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH032/frame_spec.md",
+        "storyboards/SH032/prompt.md",
+        "storyboards/SH032/negative_prompt.md",
+        "storyboards/SH032/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH031",
+        "next": "SH033",
+        "in": "从 SH031 文字退淡接空黑板。",
+        "out": "女贝老师视线把镜头带回地面木剑。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy"
+      ],
+      "notes": "SH032 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH033",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH033/frame_spec.md",
+        "storyboards/SH033/prompt.md",
+        "storyboards/SH033/negative_prompt.md",
+        "storyboards/SH033/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH032",
+        "next": "SH034",
+        "in": "从女贝老师视线匹配切到木剑。",
+        "out": "淡出到羊皮纸标题卡。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH033 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-PROMPT-SH034",
+      "type": "video_prompt",
+      "stage": "prompt_asset_package",
+      "status": "frames_pending",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-27",
+      "paths": [
+        "storyboards/SH034/frame_spec.md",
+        "storyboards/SH034/prompt.md",
+        "storyboards/SH034/negative_prompt.md",
+        "storyboards/SH034/metadata.json"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "project_bible.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "continuity": {
+        "previous": "SH033",
+        "next": null,
+        "in": "从 SH033 蓝影淡出到羊皮纸。",
+        "out": "淡出黑场。"
+      },
+      "risk_flags": [
+        "frames_pending",
+        "motion_review_required",
+        "math_accuracy"
+      ],
+      "notes": "SH034 has start/key/end prompt contract; actual PNG frames pending."
+    },
+    {
+      "id": "KAK-BYLETH-REAL-FRAME-VIDEO-PROMPTS",
+      "type": "delivery_packet",
+      "stage": "prompt_asset_package",
+      "status": "monitor_required",
+      "created_by": "prompt-asset-producer",
+      "created_at": "2026-07-28",
+      "paths": [
+        "real_video_prompts/real_video_prompt_manifest.json",
+        "real_video_prompts",
+        "delivery/real_frame_preview_kakeya_byleth_2026-07-28/asset_viewer.html",
+        "production_system/video_delivery_manifest.json"
+      ],
+      "source_refs": [
+        "frame_generation_manifest.json",
+        "shot_list.md",
+        "storyboards/SH001/frame_spec.md",
+        "storyboards/SH007/frame_spec.md",
+        "storyboards/SH016/frame_spec.md",
+        "storyboards/SH019/frame_spec.md",
+        "storyboards/SH025/frame_spec.md",
+        "storyboards/SH030/frame_spec.md",
+        "storyboards/SH034/frame_spec.md"
+      ],
+      "depends_on": [
+        "KAK-BYLETH-PROMPT-ASSET-PACKAGE",
+        "KAK-BYLETH-SHOTLIST"
+      ],
+      "risk_flags": [
+        "motion_review_required",
+        "identity_drift",
+        "math_accuracy",
+        "not_approved_for_video"
+      ],
+      "notes": "Real-frame-locked video prompts for all 34 shots. Ready for monitored image-to-video tests; not approved for final video delivery."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+# EP03 Coverage Plan
+
+The canonical coverage order is the current 36-shot delivery manifest. Every shot carries a three-frame integrated live-action chain; no game screenshot is a delivery frame.
+
+## Global Locks
+
+- Japanese spoken language only; no Chinese or Mandarin voiceover and no burned-in subtitles.
+- Female academy Byleth is the only Byleth variant in shots that include Byleth.
+- START, KEY, and END must show a physical action progression with shared scale, floor contact, and motivated camera movement.
+- Readability gate is ON: every beat must show task/desire, visible obstacle, readable action, reaction, and changed state before final-looking approval.
+- Shot025 is a short side geography beat: Dimitri and Dedue hold near cover, two guards close the fork, Ashe is routed to the right warning plane, and Lonato remains beyond the physical screen. It is a command consequence, not a lineup or a gate-mechanics diagram.
+- Shots026-029 are one causal chain: Ashe refuses the shot, the nearer guard creates pressure, Catherine takes the guard line, Lonato crosses only to cover a retreating guard, one weapon-level bind disarms him, and the witnesses hold back for the kneel.
+
+## Ordered Coverage
+
+- **Shot001** · 梦境残响 · 6.3s · BylethFemale, Sothis
+  - Frames: `storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: cut from black -> hard cut to morning bell.
+- **Shot002** · 晨钟与修道院 · 10s · BylethFemale
+  - Frames: `storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: cut from dream eye closeup -> match cut to council doors.
+- **Shot003** · 任务召集 · 10.3s · Rhea, Seteth, BylethFemale, Dimitri
+  - Frames: `storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: doors open into cathedral -> cut on Ashe name being spoken.
+- **Shot004** · 养父的名字 · 8.9s · Ashe, BylethFemale, Dimitri
+  - Frames: `storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: cut from Rhea order -> cut to Ashe avoiding the class gaze.
+- **Shot005** · 同行请求 · 11.7s · BylethFemale, Dimitri, Ashe
+  - Frames: `storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: cut from cathedral formality -> cut to Ashe speaking.
+- **Shot006** · Ashe 讲出旧恩 · 13s · Ashe, BylethFemale, Dimitri
+  - Frames: `storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: cut from Dimitri request -> cut to march preparation.
+- **Shot007** · 出征准备 · 12s · BylethFemale, Dimitri, Dedue, Felix, Ashe, Ingrid
+  - Frames: `storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: cut from Ashe choice -> cut to Catherine entrance.
+- **Shot008** · Catherine 入队 · 11s · Catherine, BylethFemale, Ashe
+  - Frames: `storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png` / `storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png` / `storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png`
+  - Edit: cut from equipment inserts -> cut on Ashe recognizing her certainty.
+- **Shot009** · 离开修道院 · 10s · BylethFemale, Dimitri, Ashe, Catherine
+  - Frames: `storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png` / `storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png` / `storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png`
+  - Edit: cut from Catherine -> dissolve to fog road.
+- **Shot010** · 马格德雷德雾道 · 10.9s · BylethFemale, Dimitri, Dedue, Ingrid
+  - Frames: `storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png` / `storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png` / `storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png`
+  - Edit: dissolve from monastery road -> cut to village sign.
+- **Shot011** · 边境村痕迹 · 12s · BylethFemale, Ashe, Mercedes
+  - Frames: `storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png` / `storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png` / `storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png`
+  - Edit: cut from fog road -> cut to rebel camp smoke.
+- **Shot012** · 叛军营地远望 · 14s · BylethFemale, Ashe, SeirosSoldier
+  - Frames: `storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png` / `storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png` / `storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png`
+  - Edit: cut from village -> cut to Blue Lions tactical halt.
+- **Shot013** · 雾中部署 · 13s · BylethFemale, Dimitri, Ashe, Felix, Mercedes
+  - Frames: `storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png` / `storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png` / `storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png`
+  - Edit: cut from rebel camp -> cut to first arrow.
+- **Shot014** · 第一箭 · 8s · Dedue, Dimitri
+  - Frames: `storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png` / `storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png` / `storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png`
+  - Edit: cut on Byleth hand signal -> cut to advancing rebels.
+- **Shot015** · 叛军压上 · 8.9s · SeirosSoldier
+  - Frames: `storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png` / `storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png` / `storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png`
+  - Edit: cut from arrow impact -> cut to Dimitri counterline.
+- **Shot016** · Dimitri 克制锋芒 · 11.6s · Dimitri, BylethFemale, Dedue
+  - Frames: `storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png` / `storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png` / `storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png`
+  - Edit: cut from rebel pressure -> cut to Ashe sees sigil.
+- **Shot017** · Ashe 认出旧徽记 · 11.7s · Ashe, BylethFemale
+  - Frames: `storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png` / `storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png` / `storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png`
+  - Edit: cut from Dimitri halt -> cut to Felix covering him.
+- **Shot018** · Felix 补位 · 8.9s · Felix, Ashe
+  - Frames: `storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png` / `storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png` / `storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png`
+  - Edit: cut from Ashe hesitation -> cut to Annette/Mercedes support.
+- **Shot019** · 支援线稳住 · 9.4s · Mercedes, Annette
+  - Frames: `storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png` / `storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png` / `storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png`
+  - Edit: cut from Felix save -> cut to Catherine charge.
+- **Shot020** · Catherine 破雾 · 14s · Catherine, BylethFemale, Ashe
+  - Frames: `storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png` / `storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png` / `storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png`
+  - Edit: cut from support line -> cut to Lonato silhouette.
+- **Shot021** · Lonato 现身 · 11.7s · Lonato, Ashe, Dimitri
+  - Frames: `storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png` / `storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png` / `storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png`
+  - Edit: cut from Catherine lightning -> cut to Ashe stepping forward.
+- **Shot022** · Ashe 上前 · 13s · Ashe, Lonato, Dimitri, BylethFemale
+  - Frames: `storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png` / `storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png` / `storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png`
+  - Edit: cut from Lonato reveal -> cut to Lonato refusal.
+- **Shot023** · Lonato 拒绝 · 13s · Lonato, Ashe
+  - Frames: `storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png` / `storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png` / `storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png`
+  - Edit: cut from Ashe plea -> cut to Byleth command.
+- **Shot024** · Byleth 下令包围 · 7.6s · BylethFemale, Ashe, Lonato, Dimitri, Dedue, Ingrid
+  - Frames: `storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png` / `storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png` / `storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png`
+  - Edit: cut from Lonato refusal -> cut to the blocked-crossing consequence of the command.
+- **Shot025** · 命令造成分流 · 8s · Dimitri, Dedue, Ashe, Lonato
+  - Frames: `storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png` / `storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png` / `storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png`
+  - Edit: cut from Byleth's command into the command's physical split of the fork -> cut to Ashe's right-side warning plane after the guard screen closes.
+  - Readability: the command's physical consequence; attention path: near cover -> guard screen -> far Lonato.
+  - Beat chain: Byleth's command must become a physical containment plan -> the crossing forks and the guard screen is not yet formed -> Dimitri and Dedue hold cover while two guards close the fork and Ashe is routed right -> the formation stops -> two lanes exist and Lonato is beyond the screen.
+- **Shot026** · 亚修选择不射 · 6s · Ashe, Lonato
+  - Frames: `storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png` / `storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png` / `storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png`
+  - Edit: cut from the two-lane containment hold and Ashe's new right-side mark -> cut on Ashe's restraint into the nearer guard's first step.
+  - Readability: Ashe's restraint; attention path: bow hand -> empty mud -> guard line -> far Lonato.
+  - Beat chain: Ashe must make a nonlethal warning -> the guard line blocks the direct path -> nock, draw toward empty mud, then lower without release -> one apology and held breath -> the arrow remains nocked but the attack impulse is refused.
+- **Shot027** · 守卫先动，骑士接管 · 5.5s · Ashe, Catherine, Lonato
+  - Frames: `storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png` / `storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/key_frame.png` / `storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png`
+  - Edit: cut from Ashe's lowered nocked arrow and the protected two-guard buffer -> cut after Catherine owns the lane and the nearer guard is displaced.
+  - Readability: Catherine's guard-first intervention; attention path: advancing weapon -> Catherine's guard -> displaced pair.
+  - Beat chain: Catherine must stop the guard pressure -> the nearer guard steps toward Ashe -> enter from left and redirect the long weapon -> near guard staggers sideways; second guard retreats -> Catherine owns the cleared lane.
+- **Shot028** · 护卫造成缴械 · 8s · Catherine, Lonato
+  - Frames: `storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png` / `storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png` / `storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png`
+  - Edit: cut from the two-guard line clearing into the separated Catherine/Lonato lane -> cut to Lonato's dropped-sword recovery with him still upright before the kneel.
+  - Readability: the guard-mediated weapon bind; attention path: retreating guard -> Lonato's shield -> weapon contact -> mud.
+  - Beat chain: Lonato must protect his retreating guard -> Catherine controls the lane and the guard is exposed -> Lonato crosses to cover the guard; one ordinary-sword press meets Thunderbrand and is turned aside -> the guard gets behind Lonato; the sword drops -> Lonato is upright but disarmed.
+- **Shot029** · Lonato 倒下 · 6s · Lonato, Dimitri, Ashe, BylethFemale
+  - Frames: `storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png` / `storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/key_frame.png` / `storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png`
+  - Edit: cut from the ordinary sword dropped, Lonato upright -> cut to the quiet post-battle field.
+  - Readability: Lonato's loss of support; attention path: dropped sword -> knee and shield -> distant witnesses.
+  - Beat chain: The stop must land as a human consequence -> Lonato cannot recover his footing -> catch on shield and settle to one knee -> Dimitri, Ashe, and female Byleth hold back -> quiet aftermath with open distance.
+- **Shot030** · 战后无声 · 12s · BylethFemale, Dimitri, Ashe, Catherine
+  - Frames: `storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png` / `storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png` / `storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png`
+  - Edit: cut from Lonato's controlled kneel into the witnesses choosing not to advance -> cut on Byleth taking the return route toward the cathedral.
+- **Shot031** · 回到 Rhea 面前 · 13.4s · Rhea, Seteth, BylethFemale, Dimitri, Ashe
+  - Frames: `storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png` / `storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png` / `storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png`
+  - Edit: cut from the muddy return route through the cathedral threshold -> cut on Rhea turning back toward the altar with the report.
+- **Shot032** · 西方教会处置 · 11.5s · Rhea, Seteth, BylethFemale
+  - Frames: `storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png` / `storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png` / `storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png`
+  - Edit: cut from Rhea's turn and Seteth's held report between levels -> cut on Byleth stepping back toward the students' side door.
+- **Shot033** · 学生目睹代价 · 14s · Ashe, Dimitri, Felix, BylethFemale
+  - Frames: `storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png` / `storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png` / `storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png`
+  - Edit: cut from the order carried down the altar steps -> cut on Byleth taking the right corridor after the authority door closes.
+- **Shot034** · Catherine 的信念 · 12.6s · Catherine, Ashe, BylethFemale
+  - Frames: `storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png` / `storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png` / `storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png`
+  - Edit: cut from Byleth's right-corridor departure into the wet cloister -> cut on Byleth clearing the far arch and Catherine turning to answer Ashe.
+- **Shot035** · 杀意与正义 · 15s · Dimitri, BylethFemale
+  - Frames: `storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png` / `storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png` / `storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png`
+  - Edit: cut from the empty right corridor into the night cloister walk -> cut after Dimitri has left Byleth under the lamp in the dark arch.
+- **Shot036** · 章末圣墓阴影 · 9.3s · BylethFemale, Sothis, Rhea
+  - Frames: `storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png` / `storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png` / `storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png`
+  - Edit: cut from Byleth left under the night lamp into the cathedral threshold -> cut to black after Sothis recedes into motes.

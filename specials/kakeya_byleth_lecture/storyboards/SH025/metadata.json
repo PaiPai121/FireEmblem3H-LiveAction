@@ -1,0 +1,46 @@
+{
+  "id": "SH025",
+  "order": 25,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S5",
+  "timecode": "05:42-05:58",
+  "duration_seconds": 16,
+  "script_beat": "Delta-tube method",
+  "shot_purpose": "引入把线段加粗为 δ-管的估计方法。",
+  "location": "Parchment macro diagram",
+  "characters_visible": "Diagram only",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH025/frame_spec.md",
+  "prompt_path": "storyboards/SH025/prompt.md",
+  "negative_prompt_path": "storyboards/SH025/negative_prompt.md",
+  "start_frame": "storyboards/SH025/start.png",
+  "key_frame": "storyboards/SH025/key.png",
+  "end_frame": "storyboards/SH025/end.png",
+  "expected_clip": "clips/SH025.mp4",
+  "edit_in": "从 SH024 线段加粗。",
+  "edit_out": "第二条管斜向进入形成交叉。",
+  "screen_direction": "管宽向上下展开，长度方向不变。",
+  "mathematical_locks": [
+    "Zero area is not nonexistence; delta-tube diagrams must show delta width, alpha angle, gold overlap patch, and dimension equals 2 in the final 2D statement."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH024",
+    "next": "SH026",
+    "in": "从 SH024 线段加粗。",
+    "out": "第二条管斜向进入形成交叉。"
+  },
+  "reject_if": [
+    "Delta label readability",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "delta, alpha, overlap, zero-area caution, or dimension = 2 claim is invisible or wrong"
+  ]
+}

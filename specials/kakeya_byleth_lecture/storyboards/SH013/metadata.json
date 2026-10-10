@@ -1,0 +1,46 @@
+{
+  "id": "SH013",
+  "order": 13,
+  "project_id": "KAK-BYLETH-LECTURE",
+  "stage": "prompt_asset_package",
+  "status": "frames_pending",
+  "sequence": "S3",
+  "timecode": "02:36-02:52",
+  "duration_seconds": 16,
+  "script_beat": "Triangle can turn",
+  "shot_purpose": "先证明高为 1 的等边三角形确实能容纳所有方向，而不是只报面积。",
+  "location": "Clean diagram board",
+  "characters_visible": "Diagram dominant",
+  "asset_references": [],
+  "frame_spec_path": "storyboards/SH013/frame_spec.md",
+  "prompt_path": "storyboards/SH013/prompt.md",
+  "negative_prompt_path": "storyboards/SH013/negative_prompt.md",
+  "start_frame": "storyboards/SH013/start.png",
+  "key_frame": "storyboards/SH013/key.png",
+  "end_frame": "storyboards/SH013/end.png",
+  "expected_clip": "clips/SH013.mp4",
+  "edit_in": "从凸性定义左图转为三角形。",
+  "edit_out": "切到边长与面积公式。",
+  "screen_direction": "高度标尺自下而上出现，方向残影围绕中心展开。",
+  "mathematical_locks": [
+    "Convex triangle is only the convex-restricted optimum; equilateral triangle height is 1, side length is 2/sqrt(3), area is 1/sqrt(3)."
+  ],
+  "risk_flags": [
+    "frames_pending",
+    "motion_review_required",
+    "math_accuracy",
+    "diagram_readability"
+  ],
+  "continuity": {
+    "previous": "SH012",
+    "next": "SH014",
+    "in": "从凸性定义左图转为三角形。",
+    "out": "切到边长与面积公式。"
+  },
+  "reject_if": [
+    "Must show continuous direction coverage, not just static area",
+    "start/key/end frames do not form the stated action chain",
+    "camera motion hides the action peak or reverses the declared screen direction",
+    "the equilateral triangle is implied to solve the unrestricted non-convex problem"
+  ]
+}
