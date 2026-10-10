@@ -1,0 +1,53 @@
+{
+  "shot_id": "BLSC03-SH007",
+  "parent_shot": "BLSC03-SH004",
+  "segment": 1,
+  "segments_from_parent": 1,
+  "order": 7,
+  "title": "Friendship Bruise",
+  "duration_seconds": 11,
+  "timing_estimate_seconds": 11.2,
+  "timing_status": "passed",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "俺のことは、もっとわかってるだろ。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "なら、それに見合う行動をしろ。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "はいはい。人形と仲良くな。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "余計な世話だ。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC03-SH007.mp4",
+  "no_subtitles": true,
+  "visual_status": "widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png generated as three stacked horizontal widescreen frames",
+  "anchor_mean_abs_diff": {
+    "start_key": 43.93,
+    "key_end": 48.87,
+    "start_end": 43.98
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue"
+}

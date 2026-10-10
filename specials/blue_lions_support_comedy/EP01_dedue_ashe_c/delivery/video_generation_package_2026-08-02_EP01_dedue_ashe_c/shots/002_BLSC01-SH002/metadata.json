@@ -1,0 +1,63 @@
+{
+  "shot_id": "BLSC01-SH002",
+  "order": 2,
+  "title": "Castle Cook Theory",
+  "duration_seconds": 15,
+  "status": "approved_for_video",
+  "support_pair": "Dedue x Ashe",
+  "support_rank": "C",
+  "source": [
+    "https://fireemblem.fandom.com/wiki/Ashe/Supports#With_Dedue",
+    "https://fireemblem.fandom.com/wiki/Dedue/Supports#With_Ashe"
+  ],
+  "dialogue_policy": "lightly bridged adapted English; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "characters": [
+    "Dedue",
+    "Ashe"
+  ],
+  "cameo": null,
+  "location_reference": "assets/locations/EP02/act01/FishingPond/FishingPond_reference.png",
+  "character_references": {
+    "Dedue": "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "Ashe": "assets/characters/blue_lions/Ashe/academy/selected.png"
+  },
+  "identity_locks": {
+    "Dedue": "Academy-era Dedue: very tall, broad-shouldered young retainer, deep brown skin, short pale silver-white hair, calm guarded eyes, blue-black Blue Lions academy uniform, quiet protector posture, never villainous, never a brute.",
+    "Ashe": "Academy-era Ashe: youthful gentle archer student, pale silver-gray short hair, clear earnest face, Blue Lions academy uniform with light archer details, honest and curious, never golden-haired, never elderly gray-haired."
+  },
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "dialogue": [
+    {
+      "speaker": "Ashe",
+      "text": "Were you a cook at the castle? Or did your family run an inn?",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Dedue",
+      "text": "No. My sister and I helped prepare meals at home.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Ashe",
+      "text": "That's all? Then your home meals must have been incredible.",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "bridge_actions": [
+    {
+      "policy": "silent_action_bridge",
+      "text": "A pond breeze moves the basket cloth."
+    },
+    {
+      "policy": "silent_action_bridge",
+      "text": "Dedue lowers his gaze for a brief memory beat."
+    }
+  ],
+  "no_subtitles": true,
+  "expected_clip": "clips/BLSC01-SH002.mp4"
+}

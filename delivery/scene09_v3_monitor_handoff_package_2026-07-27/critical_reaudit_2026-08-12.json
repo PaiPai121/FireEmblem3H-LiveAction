@@ -1,0 +1,1181 @@
+{
+  "review_id": "scene09_critical_reaudit_2026-08-12",
+  "scene": "EP02 Scene09 学级模拟战",
+  "reviewed_at": "2026-08-12",
+  "reviewer_role": "codex_critical_visual_reaudit",
+  "trigger": "User challenged that the named bad shots were only examples and that the whole Scene09 package still has logic, face, weapon, facing, and static-pose problems.",
+  "method": "Rendered contact-sheet review of package-local 42 shot rows / 126 frames, followed by full-size inspection of named high-risk frames and downgrade of prior unsafe visual approval.",
+  "source_package": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "contact_sheets": [
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part5.png"
+  ],
+  "inherited_user_constraints": [
+    "Do not treat the user's named bad frames as the whole problem; audit all Scene09 shots.",
+    "Do not submit expensive video jobs while still frames have unresolved logic, identity, weapon, facing, or action-chain failures.",
+    "Blue Lions win narrowly; Black Eagles and Golden Deer must remain competent and receive highlights plus dignified exits.",
+    "Golden Deer attacks both Blue Lions and Black Eagles, creating the chaos that lets Blue Lions win.",
+    "Every character's win, defeat, limitation, or exit must be visually accounted for and must not contradict the post-shot battle ledger.",
+    "Hanneman and Manuela are separate faculty targets for different lanes and must not appear as side-by-side allies.",
+    "Dedue/Mercedes healing beat must read as injury, intervention, and restored shield line, not a static pose.",
+    "The main Scene09 storyboard panel must show the latest shot work directly, with Chinese titles and no backstage clutter."
+  ],
+  "supersedes": [
+    "delivery/scene09_v3_monitor_handoff_package_2026-07-27/full_local_visual_review.json",
+    "delivery/scene09_v3_monitor_handoff_package_2026-07-27/full_local_visual_review.md",
+    "production_system/reviews/scene09_v3_full_local_visual_review_2026-08-08/scene09_full_local_visual_review_2026-08-08.json",
+    "production_system/reviews/scene09_v3_full_local_visual_review_2026-08-08/scene09_full_local_visual_review_2026-08-08.md"
+  ],
+  "integrity_summary": {
+    "shots_expected": 42,
+    "shots_reviewed": 42,
+    "frames_expected": 126,
+    "frames_present": 126,
+    "missing_frame_refs": []
+  },
+  "visual_audit_coverage": {
+    "unavailable_shots": [],
+    "existing_shots_failed": [
+      "Shot027B",
+      "Shot027C",
+      "Shot029",
+      "Shot029C",
+      "Shot029B",
+      "Shot031",
+      "Shot032C",
+      "Shot032F",
+      "Shot032G",
+      "Shot033B",
+      "Shot033C",
+      "Shot033D",
+      "Shot034C",
+      "Shot034D",
+      "Shot034E",
+      "Shot034F",
+      "Shot035"
+    ],
+    "layout_reference_only": [
+      "Shot025A",
+      "Shot032B",
+      "Shot032D",
+      "Shot032E"
+    ],
+    "monitor_required": [
+      "Shot025",
+      "Shot026",
+      "Shot026B",
+      "Shot026C",
+      "Shot027",
+      "Shot027D",
+      "Shot028",
+      "Shot028B",
+      "Shot028C",
+      "Shot029D",
+      "Shot030",
+      "Shot030B",
+      "Shot030C",
+      "Shot031B",
+      "Shot032",
+      "Shot032A",
+      "Shot033",
+      "Shot034B",
+      "Shot034G",
+      "Shot034",
+      "Shot036"
+    ],
+    "visual_review_passed": []
+  },
+  "counts": {
+    "monitor_required": 21,
+    "layout_reference": 4,
+    "blocked_needs_revision": 0,
+    "rebuilt_pending_review": 17
+  },
+  "decision": "critical_reaudit_blocked_needs_revision",
+  "promotion_decision": "Do not submit motion probes or full-duration video for the whole scene. Regenerate or rewrite blocked shots first; use layout_reference shots only as geography/planning references.",
+  "problems": [
+    "The prior full local visual review was too permissive: it listed zero existing visual failures while many frame sets do not prove their declared beat.",
+    "Many start/key/end chains are static standing poses rather than action cause/effect.",
+    "Several key ledger events are not visually proven, especially Black Eagles and Golden Deer exits/captures and faculty objective rulings.",
+    "Some shots keep readable characters facing the camera or standing in display poses while the declared threat comes from another direction."
+  ],
+  "shots": [
+    {
+      "order": 1,
+      "shot": "Shot025",
+      "title_zh": "规则与三方目标确立",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/end_frame.png"
+      },
+      "story_beat": "三位级长听到离屏教师规则后，各自确认进攻路线。",
+      "visual_assessment": "三位级长清楚，但动作偏静；只适合规则建立，不能当战斗动作镜头。",
+      "camera": "中景三人横向构图，靠转头和离屏口令建立规则。",
+      "facing_screen_direction": "教师只保留离屏左右声源；三位级长不能面向同一镜头摆拍过久。",
+      "blocking_issues": [
+        "起始/关键/结束变化较小，后续视频必须用头部转向和脚步分离补足。"
+      ],
+      "required_revision": "保留为规则镜头，但视频提示必须强调三人从互相观察转为各自出发。"
+    },
+    {
+      "order": 2,
+      "shot": "Shot025A",
+      "title_zh": "战场地形与三路插入",
+      "visible_named_only": [],
+      "decision": "layout_reference",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/end_frame.png"
+      },
+      "story_beat": "交代低墙、树林、坡道、教师台和三学级路线。",
+      "visual_assessment": "战场背景资产可用，但彩色小标记更像战术图，不是可直接视频化镜头。",
+      "camera": "高位俯拍地形。",
+      "facing_screen_direction": "蓝狮从近侧推进，黑鹫从中路压出，金鹿从侧翼切入并攻击两方。",
+      "blocking_issues": [
+        "没有可读角色动作，只能当空间参考和战场母版。"
+      ],
+      "required_revision": "若要视频化，应做成无角色的战场插入或重新生成真实三路队形远景。"
+    },
+    {
+      "order": 3,
+      "shot": "Shot026",
+      "title_zh": "贝雷特分配青狮职责",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/end_frame.png"
+      },
+      "story_beat": "青狮队内分工：杜笃顶线，梅尔塞德斯支援，亚修侦查，菲力克斯机动压制。",
+      "visual_assessment": "群像信息完整，但接近静态合影。",
+      "camera": "俯视战术图的中近景。",
+      "facing_screen_direction": "所有人视线应落在地面战术图或贝雷特手势上，不应看向镜头。",
+      "blocking_issues": [
+        "人物动作不够具体，职责分配主要靠文字而不是画面证明。"
+      ],
+      "required_revision": "后续可以保留，但要补一版更明确的手势/指图/接令动作。"
+    },
+    {
+      "order": 4,
+      "shot": "Shot026B",
+      "title_zh": "青狮观察敌方来路",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "青狮从高处确认敌方远方来路。",
+      "visual_assessment": "朝向基本合理，人物背向镜头看战场；动作推进仍偏弱。",
+      "camera": "背后高位视角，展示远方路线。",
+      "facing_screen_direction": "敌人来自远方时，青狮必须看向战场而非镜头。",
+      "blocking_issues": [
+        "起止变化有限，队形散开不够明确。"
+      ],
+      "required_revision": "保留方向逻辑，重做时让侦查、前排、后排职责更可读。"
+    },
+    {
+      "order": 5,
+      "shot": "Shot026C",
+      "title_zh": "青狮分线出发",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "青狮队伍从观察点分成前压、侧翼、支援三组。",
+      "visual_assessment": "比前一镜有运动感，但部分人物仍像同时出画。",
+      "camera": "背后广角，队伍向战场下坡。",
+      "facing_screen_direction": "全队从近景高处向远景战场推进。",
+      "blocking_issues": [
+        "角色职责仍不够分明，个别人物可能在视频中漂成群众。"
+      ],
+      "required_revision": "重做优先级低于 P0，但需要给每个小组更清楚的路线。"
+    },
+    {
+      "order": 6,
+      "shot": "Shot027",
+      "title_zh": "亚修发现金鹿侧影",
+      "visible_named_only": [
+        "Ashe",
+        "Claude"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/end_frame.png"
+      },
+      "story_beat": "亚修侦查到库罗德潜伏在侧翼。",
+      "visual_assessment": "侦查关系可读，库罗德较小且隐藏；仍有身份漂移风险。",
+      "camera": "低墙侧面中景，亚修前景、库罗德远侧树林。",
+      "facing_screen_direction": "亚修视线必须朝向侧翼威胁，不看镜头。",
+      "blocking_issues": [
+        "金鹿侧影太小，若视频漂移会变成陌生人。"
+      ],
+      "required_revision": "保留为侦查镜头候选，视频前需强化库罗德弓与黄披风身份。"
+    },
+    {
+      "order": 7,
+      "shot": "Shot027B",
+      "title_zh": "黑鹫第一波压出",
+      "visible_named_only": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "黑鹫前线应该形成真正的第一波推进。",
+      "visual_assessment": "2026-08-12 重做三帧：费尔迪南特以训练枪压线，艾黛尔贾特持训练斧指挥，修伯特与朵洛缇雅后排以受控魔法压迫；四名黑鹫学生均朝青狮方向行动，无路人、无站桩合影。仍需独立视频前复审。",
+      "camera": "应改为低墙前压跟拍，而不是正面合影。",
+      "facing_screen_direction": "黑鹫应从远侧向青狮方向推进，不能全员看镜头或静站。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 8,
+      "shot": "Shot027C",
+      "title_zh": "杜笃与帝国前排接触",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "杜笃应以盾线接住黑鹫第一波，让帝国前排获得高光但被挡住。",
+      "visual_assessment": "2026-08-12 重做三帧：杜笃与帝弥托利从青狮侧正面迎击，费尔迪南特、艾黛尔贾特、修伯特从黑鹫侧压线；盾牌承压后双方半步分开，朝向和轴线成立，双方势均力敌且无人退场。仍需独立视频前复审。",
+      "camera": "应做侧向低机位，训练枪/盾/斧的接触清楚。",
+      "facing_screen_direction": "黑鹫由画面左/远侧压来，杜笃朝向来敌，迪米特里在同一防线后方。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 9,
+      "shot": "Shot027D",
+      "title_zh": "菲力克斯切入费尔迪南特",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/end_frame.png"
+      },
+      "story_beat": "菲力克斯利用杜笃挡线后的空隙切入，牵制费尔迪南特。",
+      "visual_assessment": "近景有剑/枪相交，但三帧结束状态仍偏站定。",
+      "camera": "中近景交叉武器，贝雷特只作裁判/指挥边缘。",
+      "facing_screen_direction": "菲力克斯从青狮侧切入，不越过贝雷特裁判轴线。",
+      "blocking_issues": [
+        "费尔迪南特被压制的结果不够明确。"
+      ],
+      "required_revision": "保留候选，但 end 必须显示费尔迪南特被迫后撤或举手认定受限。"
+    },
+    {
+      "order": 10,
+      "shot": "Shot028",
+      "title_zh": "安娜特与梅尔塞德斯掩护亚修",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/end_frame.png"
+      },
+      "story_beat": "安娜特施法制造掩护，梅尔塞德斯保护后排，伊格纳兹远处对射。",
+      "visual_assessment": "掩护关系可读，动作仍偏小。",
+      "camera": "低墙后排近景。",
+      "facing_screen_direction": "后排必须朝向远方射线/威胁，梅尔塞德斯不主动冲锋。",
+      "blocking_issues": [
+        "魔法烟尘有用，但人物仍像蹲姿等待。"
+      ],
+      "required_revision": "重做优先级中等：强化安娜特翻书起手、亚修借烟转移。"
+    },
+    {
+      "order": 11,
+      "shot": "Shot028B",
+      "title_zh": "艾黛尔贾特与修伯特压迫盾线",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "黑鹫拿到高光：艾黛尔贾特指挥推进，修伯特/朵洛缇雅用非致命魔法压迫杜笃与迪米特里。",
+      "visual_assessment": "攻守两边明确，但像一字排开。",
+      "camera": "攻方向守方的中远景。",
+      "facing_screen_direction": "黑鹫看向青狮盾线；杜笃/迪米特里面对来袭。",
+      "blocking_issues": [
+        "魔法压迫有，但黑鹫推进步伐不够。"
+      ],
+      "required_revision": "需要在视频提示中增加脚步推进和盾线反应，必要时重做关键帧。"
+    },
+    {
+      "order": 12,
+      "shot": "Shot028C",
+      "title_zh": "贝雷特止住菲力克斯越线",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "贝雷特把菲力克斯从过深追击中拉回，保持模拟战规则。",
+      "visual_assessment": "贝雷特手搭肩的裁判关系清楚。",
+      "camera": "背后中景，远处费尔迪南特保持安全距离。",
+      "facing_screen_direction": "菲力克斯看向远处对手，贝雷特从侧后制止。",
+      "blocking_issues": [
+        "费尔迪南特退场/受限结果仍不够强。"
+      ],
+      "required_revision": "保留候选，但需让费尔迪南特远处明确放低武器或后撤。"
+    },
+    {
+      "order": 13,
+      "shot": "Shot029",
+      "title_zh": "金鹿夹击青狮后排",
+      "visible_named_only": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/end_frame.png"
+      },
+      "story_beat": "金鹿不只是切青狮后方，也要威胁黑鹫，制造青狮险胜的乱局。",
+      "visual_assessment": "2026-08-12 重做三帧：金鹿从侧翼切入，希尔妲与洛廉兹压迫希尔凡/英谷莉特，伊格纳兹以弓线牵制黑鹫方向；青狮被迫转身守线但未崩溃，三方混战逻辑成立。希尔妲维持学院年龄。仍需独立视频前复审。",
+      "camera": "应改为侧翼纵深镜头，让金鹿从斜后方冲入。",
+      "facing_screen_direction": "金鹿从侧翼斜向进入，同时分出一路压向黑鹫。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 14,
+      "shot": "Shot029C",
+      "title_zh": "库罗德读出双线缺口",
+      "visible_named_only": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "库罗德应观察青狮和黑鹫两边缺口，准备搅局。",
+      "visual_assessment": "2026-08-12 重做三帧：库罗德位于侧高点观察两条训练线，亚修在青狮低位发现他，艾黛尔贾特在远处黑鹫线独立调度；三方空间关系清楚，不再是并肩合影。复审重点：亚修蓝狮识别需确认足够清楚。",
+      "camera": "应做库罗德前景拉弓、两条战线在远景交叉的判断镜头。",
+      "facing_screen_direction": "库罗德视线应穿过战场看双线，不应与艾黛尔贾特像同队并肩。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 15,
+      "shot": "Shot029D",
+      "title_zh": "亚修跟丢库罗德",
+      "visible_named_only": [
+        "Claude",
+        "Ashe"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/end_frame.png"
+      },
+      "story_beat": "亚修短暂发现库罗德，但库罗德利用掩体换位。",
+      "visual_assessment": "侦查/潜伏逻辑可读，人物数量干净。",
+      "camera": "亚修前景，库罗德树林阴影远景。",
+      "facing_screen_direction": "亚修看向树林侧翼，库罗德不看镜头。",
+      "blocking_issues": [
+        "三帧变化太小，缺少库罗德换位的明确动作。"
+      ],
+      "required_revision": "可保留但要重写 prompt，让库罗德从树影后撤出画，亚修转身追失。"
+    },
+    {
+      "order": 16,
+      "shot": "Shot029B",
+      "title_zh": "金鹿与青狮近身混战",
+      "visible_named_only": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "金鹿和青狮应打得势均力敌，双方都各有压制与防守。",
+      "visual_assessment": "2026-08-15 重做三帧：金鹿从画面左侧压迫青狮侧翼，希尔凡和英谷莉特在右侧转身正面接住；五名学生朝向对手/路线，非镜头摆拍。希尔妲保持学院年龄并使用扁平训练斧，洛廉兹、希尔凡、英谷莉特均为钝头训练枪/杆，伊格纳兹后排弓线不拉弦。双方势均力敌，无人退场、无击伤、无陌生人。",
+      "camera": "应改为低机位交错近身，不用正面列队。",
+      "facing_screen_direction": "青狮与金鹿必须互相面对，不能共同面向镜头。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 17,
+      "shot": "Shot030",
+      "title_zh": "菲力克斯逼退费尔迪南特",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/end_frame.png"
+      },
+      "story_beat": "菲力克斯用速度逼费尔迪南特后撤，但不羞辱对手。",
+      "visual_assessment": "近景紧张感有，结果仍需加强。",
+      "camera": "低墙旁侧向中近景。",
+      "facing_screen_direction": "两人互相面对，贝雷特在侧后保持裁判位置。",
+      "blocking_issues": [
+        "end 没有明确判定费尔迪南特退场或受限。"
+      ],
+      "required_revision": "补 end：费尔迪南特退后放低训练枪，承认被压线。"
+    },
+    {
+      "order": 18,
+      "shot": "Shot030B",
+      "title_zh": "贝雷特判定菲力克斯回线",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "贝雷特制止菲力克斯过度追击，显示青狮险胜不是碾压。",
+      "visual_assessment": "对话特写可用，但不是强动作镜头。",
+      "camera": "双人中近景，贝雷特冷静，菲力克斯收剑。",
+      "facing_screen_direction": "两人互相看，远方威胁暂时离屏。",
+      "blocking_issues": [
+        "如果作为动作镜头会太静；作为规则/性格镜头可用。"
+      ],
+      "required_revision": "保留为短对白镜头，明确菲力克斯收剑而不是继续攻击。"
+    },
+    {
+      "order": 19,
+      "shot": "Shot030C",
+      "title_zh": "伊格纳兹牵制安娜特后排",
+      "visible_named_only": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "金鹿远程高光：伊格纳兹逼迫安娜特和梅尔塞德斯低头转位。",
+      "visual_assessment": "射线方向和后排压力大致可读。",
+      "camera": "过肩射击线。",
+      "facing_screen_direction": "伊格纳兹从远侧对青狮后排，朵洛缇雅不应重新主动冲前。",
+      "blocking_issues": [
+        "角色较小，远处人物身份漂移风险高。"
+      ],
+      "required_revision": "需要在 prompt 中锁定伊格纳兹弓、安娜特书、梅尔塞德斯支援姿态。"
+    },
+    {
+      "order": 20,
+      "shot": "Shot031",
+      "title_zh": "贝雷特命令菲力克斯停手",
+      "visible_named_only": [
+        "Byleth",
+        "Felix"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/end_frame.png"
+      },
+      "story_beat": "贝雷特应明确中断菲力克斯追击，避免过线。",
+      "visual_assessment": "2026-08-12 重做三帧：贝雷特横向切入菲力克斯前压路线，关键帧以手势截住剑路，结束帧菲力克斯收剑停步；从静态对话改为明确的战术制止动作链。仍需独立视频前复审。",
+      "camera": "应改为贝雷特手势压住菲力克斯剑线的中近景。",
+      "facing_screen_direction": "菲力克斯身体仍朝对手方向，贝雷特横向切入裁判轴。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 21,
+      "shot": "Shot031B",
+      "title_zh": "贝雷特重排青狮防线",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "贝雷特在混战中重新分配青狮，准备承接杜笃受伤前的压力。",
+      "visual_assessment": "多组动作有战场感，但人物关系拥挤。",
+      "camera": "中远景带低墙遮挡。",
+      "facing_screen_direction": "贝雷特指向战场威胁，不应指向镜头。",
+      "blocking_issues": [
+        "群像身份和队形可能在视频中漂移。"
+      ],
+      "required_revision": "视频前先做短探针，尤其检查亚修、梅尔塞德斯、安娜特是否保持后排。"
+    },
+    {
+      "order": 22,
+      "shot": "Shot032",
+      "title_zh": "杜笃受伤，梅尔塞德斯治疗重建盾线",
+      "visible_named_only": [
+        "Dedue",
+        "Mercedes"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/end_frame.png"
+      },
+      "story_beat": "借鉴治疗/坦克重建的经典节奏：杜笃被压低，梅尔塞德斯冒险治疗，杜笃恢复盾线。",
+      "visual_assessment": "三帧动作链目前是全场最清楚的：压力、治疗脉冲、恢复盾线。",
+      "camera": "低机位近景，盾牌和治疗光成为视觉主轴。",
+      "facing_screen_direction": "杜笃始终面向来敌，梅尔塞德斯在后左支援，不转成主动战士。",
+      "blocking_issues": [
+        "仍需视频探针确认治疗光不会变成攻击光束，脸和制服不漂。"
+      ],
+      "required_revision": "保留为当前合格候选；视频 prompt 禁止血腥、禁止魔兽设计、禁止梅尔塞德斯冲锋。"
+    },
+    {
+      "order": 23,
+      "shot": "Shot032A",
+      "title_zh": "安娜特接力掩护亚修",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/end_frame.png"
+      },
+      "story_beat": "梅尔塞德斯治疗后消耗，安娜特接过掩护，亚修继续牵制库罗德。",
+      "visual_assessment": "风/尘掩护可读，但人物仍偏静。",
+      "camera": "低墙后排侧向。",
+      "facing_screen_direction": "支援组看向远方威胁，梅尔塞德斯保持治疗后疲态。",
+      "blocking_issues": [
+        "梅尔塞德斯不能在下一镜重新满状态主动作战。"
+      ],
+      "required_revision": "需要账本与 prompt 同步：梅尔塞德斯治疗后只支援/移动，不主动开战。"
+    },
+    {
+      "order": 24,
+      "shot": "Shot032B",
+      "title_zh": "迪米特里与杜笃逼近汉尼曼目标台",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman"
+      ],
+      "decision": "layout_reference",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "青狮向汉尼曼所属目标推进，教师只作为各自班级目标/裁定点存在。",
+      "visual_assessment": "空间关系可用，但动作像静态对视。",
+      "camera": "低位看向教师台。",
+      "facing_screen_direction": "汉尼曼单独在其目标台，不能与玛努艾拉并肩。",
+      "blocking_issues": [
+        "没有明确压制动作。",
+        "教师台更像舞台展示。"
+      ],
+      "required_revision": "重做时只保留汉尼曼一侧，key 要有安全屏障/判定动作和青狮推进结果。"
+    },
+    {
+      "order": 25,
+      "shot": "Shot032C",
+      "title_zh": "黑鹫与金鹿互相牵制",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "证明金鹿也攻击黑鹫，乱局不是单纯背刺青狮。",
+      "visual_assessment": "2026-08-13 重做三帧：金鹿位于左侧、黑鹫位于右侧，库罗德弓线压住修伯特支援，希尔妲封住朵洛缇雅路线，艾黛尔贾特被迫转身以训练斧防守；画面明确证明金鹿也攻击/牵制黑鹫，且黑鹫仍保持克制高光。仍需独立视频前复审。",
+      "camera": "应做斜向交火，黑鹫和金鹿分处两侧。",
+      "facing_screen_direction": "黑鹫与金鹿必须互相面对/交火，青狮不在这条轴上。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 26,
+      "shot": "Shot032D",
+      "title_zh": "三方混战总览",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "decision": "layout_reference",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/end_frame.png"
+      },
+      "story_beat": "从高处显示三方战线交叉，青狮利用混乱寻找胜机。",
+      "visual_assessment": "地形和队伍位置可参考，但人物过小且彩色轨迹像战术标注。",
+      "camera": "高位总览。",
+      "facing_screen_direction": "蓝狮线不能被金鹿完全切断；金鹿同时牵制黑鹫。",
+      "blocking_issues": [
+        "不能直接视频化为真实战斗镜头。"
+      ],
+      "required_revision": "作为战术插入可保留；若当实拍镜头需重生真实人群远景，不要彩色标线。"
+    },
+    {
+      "order": 27,
+      "shot": "Shot032E",
+      "title_zh": "贝雷特读出乱局机会",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ],
+      "decision": "layout_reference",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/end_frame.png"
+      },
+      "story_beat": "贝雷特从高处读局，看到金鹿与黑鹫互相牵制后给青狮机会。",
+      "visual_assessment": "调度意图可参考，但彩色轨迹过强，像 UI 地图。",
+      "camera": "贝雷特背影俯瞰战场。",
+      "facing_screen_direction": "贝雷特看向战场，不参与某一学级并肩作战。",
+      "blocking_issues": [
+        "非写实彩色弧线不适合视频生成。"
+      ],
+      "required_revision": "保留为导演地图参考；视频化需改成尘土、脚步线、旗帜和真实视线。"
+    },
+    {
+      "order": 28,
+      "shot": "Shot032F",
+      "title_zh": "菲力克斯与亚修压制修伯特",
+      "visible_named_only": [
+        "Felix",
+        "Ashe",
+        "Hubert"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/end_frame.png"
+      },
+      "story_beat": "必须明确修伯特被菲力克斯与亚修压制/失去主动参战资格。",
+      "visual_assessment": "2026-08-13 重做三帧：菲力克斯近线封住退路，亚修从远角标记施法线，修伯特在结束帧双手离开施法姿态并站到规则线外，体面接受模拟战出局。账本保持 Hubert captured_by_felix_and_ashe，后续不得再主动参战。",
+      "camera": "应做三角压制：菲力克斯近身封路，亚修远程瞄准，修伯特放低手。",
+      "facing_screen_direction": "修伯特面对压制方向，不能像旁观者。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 29,
+      "shot": "Shot032G",
+      "title_zh": "库罗德与雷欧妮截住朵洛缇雅和贝尔娜提塔",
+      "visible_named_only": [
+        "Claude",
+        "Leonie",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/end_frame.png"
+      },
+      "story_beat": "证明金鹿攻击黑鹫并截住后排，使青狮能趁乱险胜。",
+      "visual_assessment": "2026-08-14 重做三帧：金鹿从右侧压入黑鹫后场，雷欧妮以低位木杆封住规则线，库罗德只用低位弓线标记路线；多洛缇雅和贝尔娜提塔在结束帧放低法具/弓并站到线外，体面退出主动战斗。账本保持 Dorothea/Bernadetta captured_by_leonie_and_claude，后续不得再主动参战。",
+      "camera": "应做库罗德弓线和雷欧妮近身封路的交叉镜头。",
+      "facing_screen_direction": "金鹿从侧翼切向黑鹫后排，不面向镜头摆拍。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 30,
+      "shot": "Shot033",
+      "title_zh": "青狮转向教师目标",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/end_frame.png"
+      },
+      "story_beat": "迪米特里、杜笃和贝雷特确认汉尼曼目标台，准备结束目标。",
+      "visual_assessment": "方向关系可读，但仍像过场站位。",
+      "camera": "平台下方仰视。",
+      "facing_screen_direction": "汉尼曼单独在目标台；玛努艾拉不入镜。",
+      "blocking_issues": [
+        "推进动作弱，教师判定机制不够清楚。"
+      ],
+      "required_revision": "需要更清晰的目标旗/判定线/安全屏障。"
+    },
+    {
+      "order": 31,
+      "shot": "Shot033B",
+      "title_zh": "贝雷特下令分切教师目标",
+      "visible_named_only": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "贝雷特应明确指挥亚修/英谷莉特/菲力克斯分头压制教师目标。",
+      "visual_assessment": "2026-08-14 重做三帧：贝雷特从背后发出分路指令，亚修转入左侧空教师目标线，英谷莉特转入右侧空教师目标线，菲力克斯留中线封路。画面不出现汉尼曼、玛努艾拉或任何教师，避免两名教师被误读成并肩作战。",
+      "camera": "应从贝雷特背后看两条教师目标路线。",
+      "facing_screen_direction": "汉尼曼和玛努艾拉必须分属不同方向，不在同一平台并肩。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 32,
+      "shot": "Shot033C",
+      "title_zh": "亚修压制汉尼曼目标",
+      "visible_named_only": [
+        "Ashe",
+        "Hanneman"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "亚修用训练箭压制汉尼曼目标，使汉尼曼无法继续支援。",
+      "visual_assessment": "2026-08-14 重做三帧：亚修与汉尼曼处于单独左侧教师目标线，玛努艾拉完全不出现。关键帧把训练箭/判定效果落在汉尼曼前方的安全木牌与目标圈上，结束帧亚修放低弓退场，汉尼曼举手认判，证明目标线被压制但无人受伤。",
+      "camera": "应做亚修过肩箭线对汉尼曼独立平台。",
+      "facing_screen_direction": "汉尼曼只在自己的目标台，亚修从青狮侧远程压制。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 33,
+      "shot": "Shot033D",
+      "title_zh": "英谷莉特逼退玛努艾拉目标",
+      "visible_named_only": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/end_frame.png"
+      },
+      "story_beat": "英谷莉特应机动逼退玛努艾拉目标，希尔凡牵制路线。",
+      "visual_assessment": "2026-08-14 重做三帧：英谷莉特与希尔凡在另一条独立教师目标线切断玛努艾拉回援路，汉尼曼完全不出现。关键帧英谷莉特将钝木训练枪点到地面规则线而非玛努艾拉身体，希尔凡只负责占位封路；结束帧三人均收势，玛努艾拉体面认判，英谷莉特和希尔凡也按账本 spent_stood_down。",
+      "camera": "应做侧向冲刺与判定线。",
+      "facing_screen_direction": "玛努艾拉在另一条独立目标线，不与汉尼曼同台同伴式作战。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 34,
+      "shot": "Shot034C",
+      "title_zh": "菲力克斯与费尔迪南特收招",
+      "visible_named_only": [
+        "Felix",
+        "Ferdinand"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/end_frame.png"
+      },
+      "story_beat": "费尔迪南特应体面退场，菲力克斯收住锋芒。",
+      "visual_assessment": "2026-08-14 重做三帧：菲力克斯与费尔迪南特只以路线控制决出胜负，画面仅保留二人。关键帧菲力克斯用钝木训练剑压住通往台阶的路线，结束帧菲力克斯收剑退半步，费尔迪南特站立认线且保持体面；无击打、无伤害、无羞辱，费尔迪南特从主动战斗移出，菲力克斯也 spent_stood_down。",
+      "camera": "应做对峙后收招的中景。",
+      "facing_screen_direction": "两人互相面对，费尔迪南特放低训练枪，菲力克斯不追击。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 35,
+      "shot": "Shot034D",
+      "title_zh": "贝雷特确认汉尼曼判负",
+      "visible_named_only": [
+        "Byleth",
+        "Hanneman"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/end_frame.png"
+      },
+      "story_beat": "贝雷特应裁定汉尼曼目标已失守，而不是和汉尼曼并肩施法。",
+      "visual_assessment": "2026-08-14 重做三帧：汉尼曼在独立魔法练习目标圈内接受贝雷特规则判定，玛努艾拉、亚修和其他学生完全不出现。贝雷特站在侧边规则线外，关键帧指向木制目标牌/地面标记而非汉尼曼身体，结束帧汉尼曼收手体面退离目标圈；教师目标被判负但无伤害、无羞辱。",
+      "camera": "应做裁判侧面，汉尼曼独立后撤。",
+      "facing_screen_direction": "贝雷特不能像加入汉尼曼一边作战。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 36,
+      "shot": "Shot034B",
+      "title_zh": "空教师目标裁定",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/end_frame.png"
+      },
+      "story_beat": "教师目标台清空，贝雷特和迪米特里确认目标失守。",
+      "visual_assessment": "空平台逻辑成立，汉尼曼/玛努艾拉未并肩。",
+      "camera": "背后中远景看空台。",
+      "facing_screen_direction": "只有贝雷特和迪米特里可读，教师不出现。",
+      "blocking_issues": [
+        "作为空目标说明镜头可用，但缺少一声哨/旗帜落下的动作锚点。"
+      ],
+      "required_revision": "保留候选，视频提示加离屏哨声和目标旗落下，不新增教师。"
+    },
+    {
+      "order": 37,
+      "shot": "Shot034E",
+      "title_zh": "金鹿体面收势",
+      "visible_named_only": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/end_frame.png"
+      },
+      "story_beat": "金鹿应在高光后体面退场，证明他们搅乱两边但没有被贬低。",
+      "visual_assessment": "2026-08-15 重做三帧：金鹿五人作为侧翼高光后的体面收势镜头出现，克劳德给出停手信号，希尔妲保持学院年龄且使用扁平斧刃安全训练斧，洛廉兹与雷欧妮只持钝头训练枪/杆，伊格纳兹收书和弓线；无多余人物、无重启追击、无羞辱。第一版因希尔妲武器像木槌被废弃，当前三帧为第二版通过本地目检的候选。",
+      "camera": "应做五人从战线撤回、库罗德承认青狮抓住机会的动作镜头。",
+      "facing_screen_direction": "金鹿应看向战场结果或互相确认，不集体看镜头。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 38,
+      "shot": "Shot034F",
+      "title_zh": "黑鹫体面收势",
+      "visible_named_only": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/end_frame.png"
+      },
+      "story_beat": "艾黛尔贾特和费尔迪南特应体面退场，黑鹫虽败但保留压迫感。",
+      "visual_assessment": "2026-08-15 重做三帧：黑鹫只保留艾黛尔贾特与费尔迪南特，修伯特、多洛缇雅、贝尔娜提塔不回场。艾黛尔贾特以领导者姿态主动下令收势，安全训练斧始终低放/落地；费尔迪南特在已被封路后的非主动语境中持钝木杆退场，双方体面而不羞辱。",
+      "camera": "应做艾黛尔贾特收斧、费尔迪南特回到她身侧的双人镜头。",
+      "facing_screen_direction": "两人看向胜负结果或青狮方向，不看镜头摆拍。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 39,
+      "shot": "Shot034G",
+      "title_zh": "迪米特里与杜笃疲惫守住",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/end_frame.png"
+      },
+      "story_beat": "青狮险胜核心：迪米特里和杜笃都明显疲惫，但防线还在。",
+      "visual_assessment": "三人关系可读，但疲惫和险胜感不足。",
+      "camera": "贝雷特背后看迪米特里/杜笃。",
+      "facing_screen_direction": "贝雷特面对青狮，杜笃仍守盾线，迪米特里不作胜利炫耀。",
+      "blocking_issues": [
+        "需要更强的喘息、低盾、尘土和收招状态。"
+      ],
+      "required_revision": "可保留候选，但最好重做 end 强化险胜而非轻松取胜。"
+    },
+    {
+      "order": 40,
+      "shot": "Shot034",
+      "title_zh": "三位级长赛后互认",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/end_frame.png"
+      },
+      "story_beat": "迪米特里、艾黛尔贾特、库罗德在战后互相确认实力，非贬低式结尾。",
+      "visual_assessment": "三人同框清楚，但动作静。",
+      "camera": "三人中景。",
+      "facing_screen_direction": "三人互看，不看镜头；武器放低表示模拟战结束。",
+      "blocking_issues": [
+        "需要对话/呼吸节奏支撑，否则像宣传照。"
+      ],
+      "required_revision": "保留为短对白镜头，台词要体现势均力敌、青狮险胜。"
+    },
+    {
+      "order": 41,
+      "shot": "Shot035",
+      "title_zh": "菲力克斯接受贝雷特提醒",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "decision": "monitor_required_after_rebuild",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/end_frame.png"
+      },
+      "story_beat": "菲力克斯应从战斗兴奋转为克制，完成个人收束。",
+      "visual_assessment": "2026-08-15 重做三帧：菲力克斯与贝雷特只作为战后收束对话出现。菲力克斯已 spent_stood_down，训练剑始终低放/收起；贝雷特用教师式停手提醒而不接战。全镜仅二人，无其他学生回场，无新战斗、无攻击、无羞辱。",
+      "camera": "中近景，菲力克斯先握剑不服，后收剑。",
+      "facing_screen_direction": "贝雷特面对菲力克斯，背景不再有主动战斗。",
+      "blocking_issues": [],
+      "required_revision": "已完成 R1 重做；等待独立视觉复审。",
+      "remaining_issues": [
+        "新三帧尚未经过独立复审。",
+        "视频探针前仍需确认动作链、武器、朝向和人脸稳定。"
+      ]
+    },
+    {
+      "order": 42,
+      "shot": "Shot036",
+      "title_zh": "迪米特里承认险胜",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth"
+      ],
+      "decision": "monitor_required",
+      "reviewed_paths": {
+        "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/start_frame.png",
+        "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/key_frame.png",
+        "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/end_frame.png"
+      },
+      "story_beat": "迪米特里向贝雷特承认胜利很险，收束青狮获胜但尊重两班。",
+      "visual_assessment": "后战对话关系可读，动作偏静但适合作结尾。",
+      "camera": "双人中近景，迪米特里低头整理训练枪。",
+      "facing_screen_direction": "战斗已结束，双方不再冲突。",
+      "blocking_issues": [
+        "需要台词支撑尊重其他学级，否则画面信息不足。"
+      ],
+      "required_revision": "保留为结尾对白镜头，加入‘只是抓住了一瞬空隙’的台词锚点。"
+    }
+  ],
+  "updated_at": "2026-08-12T00:00:00.000Z"
+}

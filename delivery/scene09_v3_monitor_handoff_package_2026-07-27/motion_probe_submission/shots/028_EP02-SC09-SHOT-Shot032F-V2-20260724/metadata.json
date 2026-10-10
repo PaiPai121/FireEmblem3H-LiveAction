@@ -1,0 +1,218 @@
+{
+  "custom_id": "028_Shot032F_probe",
+  "order": 28,
+  "shot": "Shot032F",
+  "id": "EP02-SC09-SHOT-Shot032F-V2-20260724",
+  "title": "菲力克斯与亚修压制修伯特",
+  "probe_duration_seconds": 3,
+  "parent_full_duration_seconds": 6,
+  "visible_named_only": "Felix, Ashe, Hubert",
+  "visible_but_no_active_combat_after": "Hubert",
+  "audio_anchor": "Felix: \"到此为止。\" Ashe: \"修伯特，被包住了。\" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words.",
+  "probe_prompt_file": "motion_probe_submission/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/probe_prompt.md",
+  "negative_prompt_file": "motion_probe_submission/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/negative_prompt.md",
+  "metadata_file": "motion_probe_submission/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/metadata.json",
+  "start_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/start_frame.png",
+  "key_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/key_frame.png",
+  "end_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/end_frame.png",
+  "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/28_Shot032F_probe.mp4",
+  "parent_expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4",
+  "primary_check": "2026-08-13 重做三帧：菲力克斯近线封住退路，亚修从远角标记施法线，修伯特在结束帧双手离开施法姿态并站到规则线外，体面接受模拟战出局。账本保持 Hubert captured_by_felix_and_ashe，后续不得再主动参战。",
+  "reject_if": [
+    "Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.",
+    "Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.",
+    "Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.",
+    "Reject if any face, age, costume, house color, or weapon changes from the input frames and named references.",
+    "Reject if the action becomes lethal, bloody, humiliating, or unrelated to the start/key/end chain.",
+    "Hubert is injured, humiliated, kneeling, killed, or panicked.",
+    "Felix uses a live sword or Ashe fires a lethal arrow into Hubert's body.",
+    "Hubert remains an active caster at the end frame.",
+    "extra readable fighters confuse who captured Hubert.",
+    "Reject if this shot plays as a static pose or portrait instead of the declared start/key/end action chain.",
+    "Reject if the shot contradicts the 2026-08-12 critical re-audit required revision.",
+    "no extra people",
+    "no unnamed students",
+    "no spectators",
+    "no crowds",
+    "no readable silhouettes",
+    "no face drift",
+    "no costume drift",
+    "no weapon drift",
+    "no wrong weapons",
+    "no Ashe sitting idle",
+    "no Hubert active casting at end",
+    "no Hubert returning to combat",
+    "no projectile",
+    "no magic beam",
+    "no explosion",
+    "no contact hit",
+    "no injury",
+    "no blood",
+    "no gore",
+    "no humiliation",
+    "no lethal weapon focus",
+    "no static group portrait",
+    "no camera-facing pose",
+    "no text",
+    "no subtitles",
+    "no captions",
+    "no visible UI",
+    "no watermark",
+    "no letterbox",
+    "no pillarbox",
+    "no split panels"
+  ],
+  "battle_ledger_after": {
+    "rule_cn": "学籍模拟战账本：模拟战非致命，全部具名角色生命安全；击败/被俘/目标判负/退场只表示课堂规则下失去主动参战资格。",
+    "all_named_characters_alive": true,
+    "alive_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "still_active_or_controlling_objective_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "limited_but_not_defeated_by_house": {
+      "blue_lions": [
+        "Dimitri"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Leonie"
+      ]
+    },
+    "mock_battle_defeated_or_removed_by_house": {
+      "blue_lions": [
+        "Annette",
+        "Mercedes"
+      ],
+      "black_eagles": [
+        "Hubert"
+      ]
+    },
+    "captured_or_objective_defeated_by_house": {
+      "black_eagles": [
+        "Hubert"
+      ]
+    },
+    "stood_down_or_post_battle_by_house": {
+      "blue_lions": [
+        "Annette",
+        "Mercedes"
+      ]
+    },
+    "must_not_return_active_by_house": {
+      "blue_lions": [
+        "Annette",
+        "Mercedes"
+      ],
+      "black_eagles": [
+        "Hubert"
+      ]
+    },
+    "changed_this_shot": [
+      {
+        "name": "Hubert",
+        "status": "captured_by_felix_and_ashe",
+        "label": "captured_by_felix_and_ashe"
+      },
+      {
+        "name": "Felix",
+        "status": "captor_active",
+        "label": "captor_active"
+      },
+      {
+        "name": "Ashe",
+        "status": "captor_active",
+        "label": "captor_active"
+      }
+    ],
+    "note_cn": "安全存活/非致命：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 仍可主动参战/控制目标：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Sylvain, Ingrid; black_eagles: Edelgard, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 已击败/被俘/目标判负/退场，不可再主动战斗：blue_lions: Annette, Mercedes; black_eagles: Hubert"
+  },
+  "alive_safe_after": "command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "active_or_objective_after": "command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Sylvain, Ingrid; black_eagles: Edelgard, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "limited_after": "blue_lions: Dimitri; black_eagles: Edelgard, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Leonie",
+  "defeated_removed_after": "blue_lions: Annette, Mercedes; black_eagles: Hubert",
+  "captured_objective_defeated_after": "black_eagles: Hubert",
+  "stood_down_post_battle_after": "blue_lions: Annette, Mercedes",
+  "must_not_return_active_after": "blue_lions: Annette, Mercedes; black_eagles: Hubert",
+  "changed_this_shot": "Hubert:captured_by_felix_and_ashe; Felix:captor_active; Ashe:captor_active",
+  "no_active_combat_line": "Annette, Mercedes, Hubert",
+  "source_model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/model_prompt.md",
+  "source_negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/negative_prompt.md",
+  "source_metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/metadata.json",
+  "input_frames": {
+    "start_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/start_frame.png",
+    "key_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/key_frame.png",
+    "end_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/end_frame.png"
+  },
+  "probe_prompt_sha256": "f9708330f9307318695835e0fc3de82ca24fc1f6219ada97b36a4e6d30e7c301",
+  "negative_prompt_sha256": "5035e3e179f5d8a1d52ed66809f24e1645536c7c66edc5da6d70025bb45793a1",
+  "release_condition": "Full-duration generation remains blocked until this probe clip passes motion QA with signed clip/frame evidence."
+}

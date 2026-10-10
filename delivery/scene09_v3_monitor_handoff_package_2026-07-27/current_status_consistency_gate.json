@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-01",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "decision": "current_status_consistency_passed",
+  "problems": [],
+  "warnings": [],
+  "current_status": {
+    "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/CURRENT_STATUS_2026-08-01.md",
+    "sha256": "69d172aadf28c72efdf996cc4c26a4738ec522a16832106bcc87225e4cba4bfd"
+  },
+  "authoritative_evidence": {
+    "expected_shots": 42,
+    "clip_audit": {
+      "decision": "clips_pending",
+      "ready_clips": 0,
+      "missing_clips": 42,
+      "expected_clips": 42
+    },
+    "handoff_index": {
+      "decision": "handoff_index_file_access_passed",
+      "links_checked": 716,
+      "shot_cards": 42
+    },
+    "model_submission_index": {
+      "decision": "model_submission_index_file_access_passed",
+      "links_checked": 530,
+      "shot_cards": 42,
+      "batch_sections": 7
+    },
+    "provider_submission_freshness": "provider_submission_freshness_passed",
+    "actual_delivery_surface": "actual_delivery_surface_passed",
+    "current_hanneman_contract": {
+      "decision": "current_hanneman_contract_passed",
+      "shot": "Shot034B",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri"
+      ]
+    },
+    "after_clip_return_resume": "after_clip_return_clips_pending",
+    "video_generation_run_positive_contract": "video_generation_run_positive_contract_passed",
+    "positive_contract_isolation_gate": {
+      "decision": "positive_contract_isolation_passed",
+      "production_completion_decision": "video_generation_run_blocked_clips_pending",
+      "production_completion_highest_target": "prompt_asset_package",
+      "production_truth_gate_can_claim_video_generation_run": false,
+      "production_truth_gate_highest_target": "prompt_asset_package"
+    },
+    "report_freshness_gate": {
+      "decision": "report_freshness_passed_current_manifest",
+      "reports_checked": 58
+    },
+    "final_concat_inputs_contract": {
+      "decision": "final_concat_inputs_contract_passed",
+      "ordered_clip_signature_sha256": "96c7fa9ed9cafef60b73c4ccc4d59579e61357d12a8a5e54f3a6fa0a61e400f0",
+      "current_ordered_clip_signature_sha256": "96c7fa9ed9cafef60b73c4ccc4d59579e61357d12a8a5e54f3a6fa0a61e400f0",
+      "concat_list_preview_sha256": "9aa753edfb26b8105bbea72b40e682e865ff6e3776f0db220abd077b960292b6",
+      "current_concat_list_preview_sha256": "9aa753edfb26b8105bbea72b40e682e865ff6e3776f0db220abd077b960292b6"
+    },
+    "video_generation_run_completion": {
+      "decision": "video_generation_run_blocked_clips_pending",
+      "passed_checks": 23,
+      "total_checks": 30,
+      "source_passed_checks": 23,
+      "fixed_point_projection": false
+    },
+    "production_final_output_exists": false
+  },
+  "old_status_files": [
+    {
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/CURRENT_STATUS_2026-07-31.md",
+      "exists": true,
+      "superseded_banner": true
+    },
+    {
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/CURRENT_STATUS_2026-07-30.md",
+      "exists": true,
+      "superseded_banner": true
+    }
+  ]
+}

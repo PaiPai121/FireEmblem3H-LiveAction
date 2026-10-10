@@ -1,0 +1,98 @@
+{
+  "date": "2026-08-01",
+  "decision": "after_clip_return_resume_positive_contract_passed",
+  "expected_shots": 42,
+  "scope": "temporary nested clip_return_intake fixture; proves resume wrapper can recursively ingest all 7 returned batch folders, apply signed Codex motion evidence, and reach ready-for-concat without writing production clips or final edit",
+  "fixture_download_shape": "nested_clip_return_intake_root_with_7_returned_mp4_dirs",
+  "fixture_package_dir": "package",
+  "fixture_report_dir": "reports",
+  "fixture_download_dir": "clip_return_intake",
+  "fixture_final_output": "scene09_v3_attrition_final_edit.mp4",
+  "temp_fixture_cleaned": true,
+  "production_final_output": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+  "production_existed_before": false,
+  "production_exists_after": false,
+  "ingest_resume": {
+    "status": 0,
+    "decision": "after_clip_return_codex_motion_self_audit_required",
+    "completion_decision": "video_generation_run_blocked_downstream_qa",
+    "clips_ready": 42,
+    "motion_frames": 42
+  },
+  "apply_resume": {
+    "status": 0,
+    "decision": "after_clip_return_ready_for_concat",
+    "completion_decision": "video_generation_run_blocked_downstream_qa",
+    "clips_ready": 42,
+    "motion_frames": 42,
+    "final_concat_gate": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+    "final_concat_checks": [
+      {
+        "id": "clip_structural_integrity",
+        "label": "All expected mp4 clips exist and pass ffprobe/duration structural QA",
+        "passed": true,
+        "detail": "42/42 ready, direct ffprobe 42/42, 0 missing, 0 failed",
+        "evidence": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports/scene09_v3_generated_clip_structural_audit_2026-08-01.json"
+      },
+      {
+        "id": "motion_review_frames",
+        "label": "Start/mid/end motion review frames are extracted for every real clip",
+        "passed": true,
+        "detail": "42/42 extracted, 0 missing, 0 failed",
+        "evidence": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports/scene09_v3_clip_motion_review_assets_2026-07-28.json"
+      },
+      {
+        "id": "motion_review_decisions",
+        "label": "Every shot has a machine-readable motion_review_passed decision",
+        "passed": true,
+        "detail": "decision motion_review_passed_ready_for_concat, passed 42/42, pending 0",
+        "evidence": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports/scene09_v3_clip_motion_review_decisions_2026-07-28.json"
+      },
+      {
+        "id": "revision_queue_empty",
+        "label": "No generation, repair, Codex self-audit, blocked revision, or regeneration action remains",
+        "passed": true,
+        "detail": "0 actionable shots, decision clip_revision_queue_clear_ready_for_concat",
+        "evidence": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports/scene09_v3_clip_revision_queue_2026-07-28.json"
+      },
+      {
+        "id": "clip_provenance_gate",
+        "label": "Every existing expected clip has provider-ingest or local-model provenance matching current SHA-256",
+        "passed": true,
+        "detail": "decision clip_provenance_passed_all_expected_clips, existing 42/42, provenance rows 42/42, matched 42/42, rows digest ok, problems 0",
+        "evidence": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports/scene09_v3_clip_provenance_gate_2026-08-01.json"
+      },
+      {
+        "id": "motion_self_audit_apply_gate",
+        "label": "Codex motion self-audit decisions were validated and applied through the strict apply gate",
+        "passed": true,
+        "detail": "decision motion_self_audit_apply_passed, applied yes, passed 42/42, blocked 0, clip sig 42/42, frame sig 42/42, evidence 42/42, ledger 42/42, ledger digest ok, active-return state ok, checks 42/42, problems 0",
+        "evidence": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports/scene09_v3_motion_self_audit_apply_gate_2026-08-01.json"
+      },
+      {
+        "id": "final_concat_inputs_contract",
+        "label": "Final concat input order, duration sum, and expected clip list are locked before assembly",
+        "passed": true,
+        "detail": "decision final_concat_inputs_contract_passed, rows 42/42, unique clips 42/42, duration 252/252, signatures ok, problems 0",
+        "evidence": {
+          "report": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/package/final_concat_inputs_contract.json",
+          "current_ordered_clip_signature_sha256": "c840353e990b70549a3782e51336808099b37402c3b8f953b3bb9111e5da7959",
+          "current_concat_list_preview_sha256": "dae168aaa3375b48c6a00337f58c980b0b44904c54580303754b2bd6085a7bda"
+        }
+      },
+      {
+        "id": "final_output_not_preclaimed",
+        "label": "No final edit is claimed before the concat gate passes",
+        "passed": true,
+        "detail": "final output is absent, as expected before concat",
+        "evidence": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/final/scene09_v3_attrition_final_edit.mp4"
+      }
+    ],
+    "motion_self_audit_apply_gate": {},
+    "clip_provenance_gate": {},
+    "revision_queue_actionable": 0
+  },
+  "proposal_rows": 42,
+  "problems": [],
+  "production_report_json": "production_system/scene09_v3_attrition_package/scene09_v3_after_clip_return_resume_positive_contract_2026-08-01.json"
+}

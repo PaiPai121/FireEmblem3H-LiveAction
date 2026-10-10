@@ -1,0 +1,350 @@
+# Scene09 V3 Motion Self-Audit Apply Gate
+
+Date: 2026-08-01
+Decision: motion_self_audit_apply_blocked_clips_pending
+Apply requested: no
+Applied: no
+Proposal rows: 42/42
+Motion review passed rows: 0
+Blocked/rejected rows: 0
+
+## Problems
+
+- clips are not complete: ready 0/42, missing 42, failed 0
+- motion review frames are not complete: extracted 0/42, missing 42, failed 0
+- Shot025: unsupported decision pending_clip
+- Shot025: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot025: blocked/rejected row must include reviewer_notes
+- Shot025: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4
+- Shot025: proposal clip_signature is missing
+- Shot025: clip structural QA is not ok
+- Shot025: motion review asset status is missing_clip
+- Shot025: missing extracted review frames start, mid, end
+- Shot025A: unsupported decision pending_clip
+- Shot025A: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot025A: blocked/rejected row must include reviewer_notes
+- Shot025A: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4
+- Shot025A: proposal clip_signature is missing
+- Shot025A: clip structural QA is not ok
+- Shot025A: motion review asset status is missing_clip
+- Shot025A: missing extracted review frames start, mid, end
+- Shot026: unsupported decision pending_clip
+- Shot026: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot026: blocked/rejected row must include reviewer_notes
+- Shot026: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4
+- Shot026: proposal clip_signature is missing
+- Shot026: clip structural QA is not ok
+- Shot026: motion review asset status is missing_clip
+- Shot026: missing extracted review frames start, mid, end
+- Shot026B: unsupported decision pending_clip
+- Shot026B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot026B: blocked/rejected row must include reviewer_notes
+- Shot026B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4
+- Shot026B: proposal clip_signature is missing
+- Shot026B: clip structural QA is not ok
+- Shot026B: motion review asset status is missing_clip
+- Shot026B: missing extracted review frames start, mid, end
+- Shot026C: unsupported decision pending_clip
+- Shot026C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot026C: blocked/rejected row must include reviewer_notes
+- Shot026C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4
+- Shot026C: proposal clip_signature is missing
+- Shot026C: clip structural QA is not ok
+- Shot026C: motion review asset status is missing_clip
+- Shot026C: missing extracted review frames start, mid, end
+- Shot027: unsupported decision pending_clip
+- Shot027: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot027: blocked/rejected row must include reviewer_notes
+- Shot027: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4
+- Shot027: proposal clip_signature is missing
+- Shot027: clip structural QA is not ok
+- Shot027: motion review asset status is missing_clip
+- Shot027: missing extracted review frames start, mid, end
+- Shot027B: unsupported decision pending_clip
+- Shot027B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot027B: blocked/rejected row must include reviewer_notes
+- Shot027B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4
+- Shot027B: proposal clip_signature is missing
+- Shot027B: clip structural QA is not ok
+- Shot027B: motion review asset status is missing_clip
+- Shot027B: missing extracted review frames start, mid, end
+- Shot027C: unsupported decision pending_clip
+- Shot027C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot027C: blocked/rejected row must include reviewer_notes
+- Shot027C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4
+- Shot027C: proposal clip_signature is missing
+- Shot027C: clip structural QA is not ok
+- Shot027C: motion review asset status is missing_clip
+- Shot027C: missing extracted review frames start, mid, end
+- Shot027D: unsupported decision pending_clip
+- Shot027D: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot027D: blocked/rejected row must include reviewer_notes
+- Shot027D: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4
+- Shot027D: proposal clip_signature is missing
+- Shot027D: clip structural QA is not ok
+- Shot027D: motion review asset status is missing_clip
+- Shot027D: missing extracted review frames start, mid, end
+- Shot028: unsupported decision pending_clip
+- Shot028: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot028: blocked/rejected row must include reviewer_notes
+- Shot028: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4
+- Shot028: proposal clip_signature is missing
+- Shot028: clip structural QA is not ok
+- Shot028: motion review asset status is missing_clip
+- Shot028: missing extracted review frames start, mid, end
+- Shot028B: unsupported decision pending_clip
+- Shot028B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot028B: blocked/rejected row must include reviewer_notes
+- Shot028B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4
+- Shot028B: proposal clip_signature is missing
+- Shot028B: clip structural QA is not ok
+- Shot028B: motion review asset status is missing_clip
+- Shot028B: missing extracted review frames start, mid, end
+- Shot028C: unsupported decision pending_clip
+- Shot028C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot028C: blocked/rejected row must include reviewer_notes
+- Shot028C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4
+- Shot028C: proposal clip_signature is missing
+- Shot028C: clip structural QA is not ok
+- Shot028C: motion review asset status is missing_clip
+- Shot028C: missing extracted review frames start, mid, end
+- Shot029: unsupported decision pending_clip
+- Shot029: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot029: blocked/rejected row must include reviewer_notes
+- Shot029: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4
+- Shot029: proposal clip_signature is missing
+- Shot029: clip structural QA is not ok
+- Shot029: motion review asset status is missing_clip
+- Shot029: missing extracted review frames start, mid, end
+- Shot029C: unsupported decision pending_clip
+- Shot029C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot029C: blocked/rejected row must include reviewer_notes
+- Shot029C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4
+- Shot029C: proposal clip_signature is missing
+- Shot029C: clip structural QA is not ok
+- Shot029C: motion review asset status is missing_clip
+- Shot029C: missing extracted review frames start, mid, end
+- Shot029D: unsupported decision pending_clip
+- Shot029D: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot029D: blocked/rejected row must include reviewer_notes
+- Shot029D: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4
+- Shot029D: proposal clip_signature is missing
+- Shot029D: clip structural QA is not ok
+- Shot029D: motion review asset status is missing_clip
+- Shot029D: missing extracted review frames start, mid, end
+- Shot029B: unsupported decision pending_clip
+- Shot029B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot029B: blocked/rejected row must include reviewer_notes
+- Shot029B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4
+- Shot029B: proposal clip_signature is missing
+- Shot029B: clip structural QA is not ok
+- Shot029B: motion review asset status is missing_clip
+- Shot029B: missing extracted review frames start, mid, end
+- Shot030: unsupported decision pending_clip
+- Shot030: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot030: blocked/rejected row must include reviewer_notes
+- Shot030: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4
+- Shot030: proposal clip_signature is missing
+- Shot030: clip structural QA is not ok
+- Shot030: motion review asset status is missing_clip
+- Shot030: missing extracted review frames start, mid, end
+- Shot030B: unsupported decision pending_clip
+- Shot030B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot030B: blocked/rejected row must include reviewer_notes
+- Shot030B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4
+- Shot030B: proposal clip_signature is missing
+- Shot030B: clip structural QA is not ok
+- Shot030B: motion review asset status is missing_clip
+- Shot030B: missing extracted review frames start, mid, end
+- Shot030C: unsupported decision pending_clip
+- Shot030C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot030C: blocked/rejected row must include reviewer_notes
+- Shot030C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4
+- Shot030C: proposal clip_signature is missing
+- Shot030C: clip structural QA is not ok
+- Shot030C: motion review asset status is missing_clip
+- Shot030C: missing extracted review frames start, mid, end
+- Shot031: unsupported decision pending_clip
+- Shot031: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot031: blocked/rejected row must include reviewer_notes
+- Shot031: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4
+- Shot031: proposal clip_signature is missing
+- Shot031: clip structural QA is not ok
+- Shot031: motion review asset status is missing_clip
+- Shot031: missing extracted review frames start, mid, end
+- Shot031B: unsupported decision pending_clip
+- Shot031B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot031B: blocked/rejected row must include reviewer_notes
+- Shot031B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4
+- Shot031B: proposal clip_signature is missing
+- Shot031B: clip structural QA is not ok
+- Shot031B: motion review asset status is missing_clip
+- Shot031B: missing extracted review frames start, mid, end
+- Shot032: unsupported decision pending_clip
+- Shot032: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032: blocked/rejected row must include reviewer_notes
+- Shot032: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4
+- Shot032: proposal clip_signature is missing
+- Shot032: clip structural QA is not ok
+- Shot032: motion review asset status is missing_clip
+- Shot032: missing extracted review frames start, mid, end
+- Shot032A: unsupported decision pending_clip
+- Shot032A: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032A: blocked/rejected row must include reviewer_notes
+- Shot032A: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4
+- Shot032A: proposal clip_signature is missing
+- Shot032A: clip structural QA is not ok
+- Shot032A: motion review asset status is missing_clip
+- Shot032A: missing extracted review frames start, mid, end
+- Shot032B: unsupported decision pending_clip
+- Shot032B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032B: blocked/rejected row must include reviewer_notes
+- Shot032B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4
+- Shot032B: proposal clip_signature is missing
+- Shot032B: clip structural QA is not ok
+- Shot032B: motion review asset status is missing_clip
+- Shot032B: missing extracted review frames start, mid, end
+- Shot032C: unsupported decision pending_clip
+- Shot032C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032C: blocked/rejected row must include reviewer_notes
+- Shot032C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4
+- Shot032C: proposal clip_signature is missing
+- Shot032C: clip structural QA is not ok
+- Shot032C: motion review asset status is missing_clip
+- Shot032C: missing extracted review frames start, mid, end
+- Shot032D: unsupported decision pending_clip
+- Shot032D: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032D: blocked/rejected row must include reviewer_notes
+- Shot032D: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4
+- Shot032D: proposal clip_signature is missing
+- Shot032D: clip structural QA is not ok
+- Shot032D: motion review asset status is missing_clip
+- Shot032D: missing extracted review frames start, mid, end
+- Shot032E: unsupported decision pending_clip
+- Shot032E: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032E: blocked/rejected row must include reviewer_notes
+- Shot032E: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4
+- Shot032E: proposal clip_signature is missing
+- Shot032E: clip structural QA is not ok
+- Shot032E: motion review asset status is missing_clip
+- Shot032E: missing extracted review frames start, mid, end
+- Shot032F: unsupported decision pending_clip
+- Shot032F: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032F: blocked/rejected row must include reviewer_notes
+- Shot032F: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4
+- Shot032F: proposal clip_signature is missing
+- Shot032F: clip structural QA is not ok
+- Shot032F: motion review asset status is missing_clip
+- Shot032F: missing extracted review frames start, mid, end
+- Shot032G: unsupported decision pending_clip
+- Shot032G: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot032G: blocked/rejected row must include reviewer_notes
+- Shot032G: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4
+- Shot032G: proposal clip_signature is missing
+- Shot032G: clip structural QA is not ok
+- Shot032G: motion review asset status is missing_clip
+- Shot032G: missing extracted review frames start, mid, end
+- Shot033: unsupported decision pending_clip
+- Shot033: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot033: blocked/rejected row must include reviewer_notes
+- Shot033: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4
+- Shot033: proposal clip_signature is missing
+- Shot033: clip structural QA is not ok
+- Shot033: motion review asset status is missing_clip
+- Shot033: missing extracted review frames start, mid, end
+- Shot033B: unsupported decision pending_clip
+- Shot033B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot033B: blocked/rejected row must include reviewer_notes
+- Shot033B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4
+- Shot033B: proposal clip_signature is missing
+- Shot033B: clip structural QA is not ok
+- Shot033B: motion review asset status is missing_clip
+- Shot033B: missing extracted review frames start, mid, end
+- Shot033C: unsupported decision pending_clip
+- Shot033C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot033C: blocked/rejected row must include reviewer_notes
+- Shot033C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4
+- Shot033C: proposal clip_signature is missing
+- Shot033C: clip structural QA is not ok
+- Shot033C: motion review asset status is missing_clip
+- Shot033C: missing extracted review frames start, mid, end
+- Shot033D: unsupported decision pending_clip
+- Shot033D: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot033D: blocked/rejected row must include reviewer_notes
+- Shot033D: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4
+- Shot033D: proposal clip_signature is missing
+- Shot033D: clip structural QA is not ok
+- Shot033D: motion review asset status is missing_clip
+- Shot033D: missing extracted review frames start, mid, end
+- Shot034C: unsupported decision pending_clip
+- Shot034C: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot034C: blocked/rejected row must include reviewer_notes
+- Shot034C: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4
+- Shot034C: proposal clip_signature is missing
+- Shot034C: clip structural QA is not ok
+- Shot034C: motion review asset status is missing_clip
+- Shot034C: missing extracted review frames start, mid, end
+- Shot034D: unsupported decision pending_clip
+- Shot034D: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot034D: blocked/rejected row must include reviewer_notes
+- Shot034D: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4
+- Shot034D: proposal clip_signature is missing
+- Shot034D: clip structural QA is not ok
+- Shot034D: motion review asset status is missing_clip
+- Shot034D: missing extracted review frames start, mid, end
+- Shot034B: unsupported decision pending_clip
+- Shot034B: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot034B: blocked/rejected row must include reviewer_notes
+- Shot034B: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4
+- Shot034B: proposal clip_signature is missing
+- Shot034B: clip structural QA is not ok
+- Shot034B: motion review asset status is missing_clip
+- Shot034B: missing extracted review frames start, mid, end
+- Shot034E: unsupported decision pending_clip
+- Shot034E: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot034E: blocked/rejected row must include reviewer_notes
+- Shot034E: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4
+- Shot034E: proposal clip_signature is missing
+- Shot034E: clip structural QA is not ok
+- Shot034E: motion review asset status is missing_clip
+- Shot034E: missing extracted review frames start, mid, end
+- Shot034F: unsupported decision pending_clip
+- Shot034F: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot034F: blocked/rejected row must include reviewer_notes
+- Shot034F: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4
+- Shot034F: proposal clip_signature is missing
+- Shot034F: clip structural QA is not ok
+- Shot034F: motion review asset status is missing_clip
+- Shot034F: missing extracted review frames start, mid, end
+- Shot034G: unsupported decision pending_clip
+- Shot034G: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot034G: blocked/rejected row must include reviewer_notes
+- Shot034G: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4
+- Shot034G: proposal clip_signature is missing
+- Shot034G: clip structural QA is not ok
+- Shot034G: motion review asset status is missing_clip
+- Shot034G: missing extracted review frames start, mid, end
+- Shot034: unsupported decision pending_clip
+- Shot034: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot034: blocked/rejected row must include reviewer_notes
+- Shot034: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4
+- Shot034: proposal clip_signature is missing
+- Shot034: clip structural QA is not ok
+- Shot034: motion review asset status is missing_clip
+- Shot034: missing extracted review frames start, mid, end
+- Shot035: unsupported decision pending_clip
+- Shot035: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot035: blocked/rejected row must include reviewer_notes
+- Shot035: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4
+- Shot035: proposal clip_signature is missing
+- Shot035: clip structural QA is not ok
+- Shot035: motion review asset status is missing_clip
+- Shot035: missing extracted review frames start, mid, end
+- Shot036: unsupported decision pending_clip
+- Shot036: review_evidence incomplete: full_clip_reviewed, review_frames_checked.start, review_frames_checked.mid, review_frames_checked.end, clip_signature_verified, review_frame_signatures.start, review_frame_signatures.mid, review_frame_signatures.end
+- Shot036: blocked/rejected row must include reviewer_notes
+- Shot036: missing_clip episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4
+- Shot036: proposal clip_signature is missing
+- Shot036: clip structural QA is not ok
+- Shot036: motion review asset status is missing_clip
+- Shot036: missing extracted review frames start, mid, end

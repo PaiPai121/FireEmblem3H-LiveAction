@@ -1,0 +1,21 @@
+{
+  "decision": "current_state_language_blocked",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "site_data": "site/ep02_storyboard_data.js",
+  "app": "site/app.js",
+  "shots": 42,
+  "status_counts": {
+    "monitor_required": 21,
+    "layout_reference": 4,
+    "monitor_required_after_rebuild": 17
+  },
+  "non_approved_shots": 42,
+  "stale_historical_terms_in_manifest": {
+    "superseded_decision": 43
+  },
+  "problems": [
+    "web renderer does not expose Chinese clips-pending/full-duration-lock status"
+  ],
+  "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_current_state_language_audit_2026-08-15.json",
+  "package_report_json": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/current_state_language_audit.json"
+}

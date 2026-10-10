@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "project": "blue_lions_black_history",
+  "package_id": "video_generation_package_2026-07-26",
+  "created_at": "2026-07-26",
+  "total_shots": 5,
+  "total_duration_seconds": 60,
+  "shots": [
+    {
+      "id": "SIBH-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 10,
+      "expected_clip": "clips/SIBH-SH001.mp4",
+      "edit_in": "cut from corridor ambience",
+      "edit_out": "cut on Ingrid's offscreen interruption",
+      "audio_anchor": "Sylvain starts the social-skills lesson",
+      "continuity_previous": "",
+      "continuity_next": "SIBH-SH002",
+      "model_notes": [],
+      "reject_if": [
+        "Sylvain becomes predatory",
+        "extra visible students take focus"
+      ],
+      "package_dir": "shots/001_SIBH-SH001"
+    },
+    {
+      "id": "SIBH-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 10,
+      "expected_clip": "clips/SIBH-SH002.mp4",
+      "edit_in": "from Sylvain turning screen-left",
+      "edit_out": "cut as Ingrid opens her notes",
+      "audio_anchor": "Ingrid interrupts and claims more examples",
+      "continuity_previous": "SIBH-SH001",
+      "continuity_next": "SIBH-SH003",
+      "model_notes": [],
+      "reject_if": [
+        "Ingrid reads as jealous",
+        "Sylvain flirts with Ingrid"
+      ],
+      "package_dir": "shots/002_SIBH-SH002"
+    },
+    {
+      "id": "SIBH-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SIBH-SH003.mp4",
+      "edit_in": "from Ingrid opening notes",
+      "edit_out": "cut on Sylvain's worried offscreen glance",
+      "audio_anchor": "Ingrid says she remembers everything",
+      "continuity_previous": "SIBH-SH002",
+      "continuity_next": "SIBH-SH004",
+      "model_notes": [],
+      "reject_if": [
+        "readable text appears",
+        "Ingrid becomes cruel"
+      ],
+      "package_dir": "shots/003_SIBH-SH003"
+    },
+    {
+      "id": "SIBH-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SIBH-SH004.mp4",
+      "edit_in": "from Sylvain's worried glance",
+      "edit_out": "cut to Ingrid facing the implied class",
+      "audio_anchor": "Ingrid stacks old examples while Sylvain lowers his voice",
+      "continuity_previous": "SIBH-SH003",
+      "continuity_next": "SIBH-SH005",
+      "model_notes": [],
+      "reject_if": [
+        "dialogue lip-sync distorts faces",
+        "extra students take focus"
+      ],
+      "package_dir": "shots/004_SIBH-SH004"
+    },
+    {
+      "id": "SIBH-SH005",
+      "order": 5,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SIBH-SH005.mp4",
+      "edit_in": "cut from Sylvain asking if this is a trial",
+      "edit_out": "hold on failed recovery smile",
+      "audio_anchor": "Ingrid says not to imitate Sylvain",
+      "continuity_previous": "SIBH-SH004",
+      "continuity_next": "",
+      "model_notes": [],
+      "reject_if": [
+        "Sylvain looks devastated",
+        "ending becomes romantic"
+      ],
+      "package_dir": "shots/005_SIBH-SH005"
+    }
+  ]
+}

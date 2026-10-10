@@ -1,0 +1,1 @@
+no extra people, no crowd, no anonymous students, no spectators, no generic soldiers, no silhouettes, no face drift, no costume redesign, no weapon transformation, no sharp lethal impacts, no gore, no blood, no text, no subtitles, no watermark, no camera spin, no screen-direction reversal

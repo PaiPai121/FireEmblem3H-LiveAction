@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no modern clothing, no modern classroom props, no phones, no readable text, no subtitles, no watermarks, no logos, no extra visible crowd, no predatory expression, no romantic framing, no camera spin, no costume drift.

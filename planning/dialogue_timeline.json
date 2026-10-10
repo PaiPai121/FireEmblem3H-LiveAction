@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "scene_id": "EP03",
+  "scene_dialogue_mode": "mixed",
+  "runtime_seconds": 180,
+  "dialogue_pacing_required": true,
+  "timing_policy": {
+    "required": true,
+    "min_speech_characters_per_second": 3.5,
+    "max_speech_characters_per_second": 6.5,
+    "max_interline_silence_seconds": 0.25,
+    "max_tail_hold_seconds": 0.35,
+    "max_reaction_tail_seconds": 1.0
+  },
+  "lines": [
+    {
+      "id": "DL-EP03-026",
+      "shot_id": "Shot026",
+      "speaker": "Ashe",
+      "text": "ごめんなさい。",
+      "start_seconds": 0.0,
+      "end_seconds": 6.0,
+      "shot_local_start_seconds": 3.9,
+      "shot_local_speech_end_seconds": 5.0,
+      "shot_local_end_seconds": 5.35,
+      "speech_seconds": 1.1,
+      "pause_before_seconds": 0.0,
+      "pause_after_seconds": 0.0,
+      "listener_reaction_seconds": 0.35,
+      "delivery_mode": "single_continuous_utterance",
+      "repeat_policy": "no_repeat",
+      "allow_overlap": false,
+      "listener_reaction": "Lonato sees the lowered arrow line and checks his forward step.",
+      "visible_action": "Ashe reaches full draw, speaks without releasing, then lowers the arrow tip slightly.",
+      "cut_relation": "Cut after the restrained reaction tail into the release shot.",
+      "post_dialogue_action": "Ashe keeps the arrow nocked and hands the same shooting mark to Shot027.",
+      "cut_on": "reaction"
+    }
+  ]
+}

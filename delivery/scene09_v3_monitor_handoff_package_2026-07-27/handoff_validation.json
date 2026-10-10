@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-27",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "package_type": "monitor_handoff",
+  "source_manifest": "production_system/video_delivery_manifest.json",
+  "total_shots": 42,
+  "total_duration_seconds": 252,
+  "model_cli_configured": false,
+  "model_cli_template_validation": {
+    "ok": true,
+    "configured": false,
+    "decision": "model_cli_template_not_configured",
+    "problems": [],
+    "warnings": [
+      "VIDEO_MODEL_CLI_ARGV_JSON is not configured."
+    ],
+    "checks": [],
+    "placeholders_found": []
+  },
+  "final_assembly_gate": {
+    "expected_final_output": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+    "expected_duration_seconds": 252,
+    "final_concat_gate": "required_before_final_edit",
+    "final_edit_structural_audit": "required_after_concat",
+    "current_final_output_exists": false
+  },
+  "validation_failures": [],
+  "critical_checks": {
+    "shot034B_visible_named_only": [
+      "Byleth",
+      "Dimitri"
+    ],
+    "shot034B_source_frames": {
+      "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+      "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+      "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png"
+    },
+    "submission_queue_rows_including_header": 43,
+    "submission_payload_rows": 42,
+    "local_shot_directories": 42,
+    "shot034B_empty_objective_required": true
+  },
+  "decision": "monitor_handoff_ready_clips_pending"
+}

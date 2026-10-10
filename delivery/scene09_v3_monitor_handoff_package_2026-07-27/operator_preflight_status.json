@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "date": "2026-08-09",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "decision": "full_duration_release_pending_probe_review",
+  "can_submit_to_provider": false,
+  "can_execute_with_local_cli": false,
+  "can_claim_video_generation_package": false,
+  "can_concat_final_edit": false,
+  "highest_completed_target": "prompt_asset_package",
+  "package_status": "clips_pending",
+  "evidence": {
+    "execution_asset_integrity": {
+      "decision": "execution_asset_integrity_passed",
+      "shots_ready": 42,
+      "total_shots": 42,
+      "problems": 0,
+      "warnings": 0
+    },
+    "actual_delivery_surface_audit": {
+      "decision": "actual_delivery_surface_passed",
+      "problems": 0,
+      "evidence": [
+        "Shot034B visible roster is Byleth, Dimitri across delivery surfaces.",
+        "Shot034B Chinese title is 空教师目标裁定 across web surfaces.",
+        "Shot034B start/key/end frames use the empty faculty objective frame set or package-local model-entry frames.",
+        "Hanneman and Manuela are absent/offscreen/silent/unpaired and banned in prompts.",
+        "Submission payload contains 42 rows; real mp4 clips remain pending."
+      ]
+    },
+    "executable_prompt_semantics": {
+      "decision": "executable_prompt_semantics_passed",
+      "shots_checked": 42,
+      "problems": 0,
+      "warnings": 0
+    },
+    "current_status_consistency_gate": {
+      "decision": "current_status_consistency_passed",
+      "problems": 0,
+      "warnings": 0
+    },
+    "batch_upload_audit": {
+      "decision": "model_submission_batches_ready_for_provider_upload",
+      "rows_checked": 42,
+      "problems": 0
+    },
+    "submission_contract_gate": {
+      "decision": "submission_contract_gate_passed",
+      "expected_shots": 42,
+      "rows_checked": 42,
+      "execution_plan_rows": 42,
+      "submission_queue_rows": 42,
+      "submission_payload_rows": 42,
+      "problems": 0
+    },
+    "model_submission_index": {
+      "decision": "model_submission_index_file_access_passed",
+      "shot_cards": 42,
+      "links_checked": 530,
+      "problems": 0
+    },
+    "provider_upload_bundles": {
+      "decision": "provider_upload_bundles_ready",
+      "bundles_checked": 7,
+      "rows_checked": 42,
+      "unique_custom_ids": 42,
+      "zip_contents_checked": 7,
+      "expected_download_rows_checked": 84,
+      "manifest_digest_records_checked": 672,
+      "prompt_contract_files_checked": 84,
+      "negative_prompt_files_checked": 84,
+      "executable_negative_semantics_files_checked": 84,
+      "problems": 0
+    },
+    "provider_submission_freshness_gate": {
+      "decision": "provider_submission_freshness_passed",
+      "expected_shots": 42,
+      "model_submission_batch_rows": 42,
+      "provider_bundle_rows": 42,
+      "problems": 0,
+      "warnings": 0
+    },
+    "battle_ledger_timeline": {
+      "decision": "battle_ledger_timeline_passed",
+      "shots": 42,
+      "problems": 0
+    },
+    "model_cli_template_audit": {
+      "decision": "model_cli_template_not_configured",
+      "configured": false,
+      "can_execute_with_local_cli": false,
+      "problems": 0,
+      "warnings": 1
+    },
+    "model_cli_execution_provenance": {
+      "decision": "model_cli_execution_provenance_passed",
+      "expected_shots": 42,
+      "rows_checked": 42,
+      "unique_expected_clips": 42,
+      "problems": 0
+    },
+    "clip_status": {
+      "decision": "clips_pending",
+      "expected_clips": 42,
+      "ready_clips": 0,
+      "missing_clips": 42,
+      "failed_clips": 0
+    },
+    "clip_revision_queue": {
+      "decision": "clip_generation_or_revision_actions_required",
+      "actionable_shots": 42,
+      "counts": {
+        "generation_pending": 42
+      }
+    },
+    "clip_return_intake": {
+      "decision": "clip_return_intake_ready",
+      "batches_checked": 7,
+      "expected_clip_rows": 42,
+      "unique_custom_ids": 42,
+      "source_files_checked": 3,
+      "problems": 0
+    },
+    "clip_return_roundtrip": {
+      "decision": "clip_return_roundtrip_passed",
+      "scenarios": [
+        {
+          "strategy": "expected_filename",
+          "unique_matched_shots": 42,
+          "would_copy": 42,
+          "unsupported_video_files": 0,
+          "invalid_video_files": 0,
+          "problems": 0
+        },
+        {
+          "strategy": "custom_id_prefix",
+          "unique_matched_shots": 42,
+          "would_copy": 42,
+          "unsupported_video_files": 0,
+          "invalid_video_files": 0,
+          "problems": 0
+        },
+        {
+          "strategy": "nested_intake_root_expected_filenames",
+          "unique_matched_shots": 42,
+          "would_copy": 42,
+          "unsupported_video_files": 0,
+          "invalid_video_files": 0,
+          "problems": 0
+        },
+        {
+          "strategy": "loose_shot_name_rejected",
+          "unique_matched_shots": 0,
+          "would_copy": 0,
+          "unsupported_video_files": 0,
+          "invalid_video_files": 0,
+          "problems": 0
+        },
+        {
+          "strategy": "invalid_mp4_rejected",
+          "unique_matched_shots": 0,
+          "would_copy": 0,
+          "unsupported_video_files": 0,
+          "invalid_video_files": 1,
+          "problems": 0
+        },
+        {
+          "strategy": "unsupported_format_rejected",
+          "unique_matched_shots": 0,
+          "would_copy": 0,
+          "unsupported_video_files": 1,
+          "invalid_video_files": 0,
+          "problems": 0
+        }
+      ],
+      "problems": 0
+    },
+    "clip_provenance_gate": {
+      "decision": "clip_provenance_ready_clips_pending",
+      "expected_clips": 42,
+      "existing_clips": 0,
+      "missing_clips": 42,
+      "provenance_rows": 0,
+      "problems": 0,
+      "warnings": 0
+    },
+    "motion_self_audit_packet": {
+      "decision": "motion_self_audit_packet_ready",
+      "rows_checked": 42,
+      "full_post_shot_ledger_fields": [
+        "Alive / Safe After",
+        "Active / Controlling After",
+        "Limited But Not Defeated After",
+        "Defeated / Removed After",
+        "Captured / Objective-Defeated After",
+        "Stood Down / Post-Battle After",
+        "Must Not Return Active",
+        "Changed This Shot",
+        "No-Active-Combat Line"
+      ],
+      "critical_locks": {
+        "shot032F_hubert_captured_by_felix_and_ashe": true,
+        "shot032G_dorothea_and_bernadetta_captured_by_leonie_and_claude": true,
+        "shot034B_empty_objective_teachers_absent": true,
+        "shot034G_exhausted_dimitri_dedue_core": true
+      },
+      "problems": 0
+    },
+    "motion_self_audit_evidence_contract": {
+      "decision": "motion_self_audit_evidence_contract_passed",
+      "template_rows": 42,
+      "rows_with_review_frame_signature_keys": 42,
+      "problems": 0,
+      "warnings": 1
+    },
+    "motion_self_audit_unsigned_evidence_rejection": {
+      "decision": "motion_self_audit_unsigned_evidence_rejection_passed",
+      "rows_tested": 42,
+      "frame_signature_rejections": 126,
+      "clip_signature_rejections": 42,
+      "problems": 0,
+      "warnings": 0
+    },
+    "motion_self_audit_apply_positive_contract": {
+      "decision": "motion_self_audit_apply_positive_contract_passed",
+      "expected_shots": 42,
+      "proposal_rows": 42,
+      "applied": true,
+      "motion_review_passed": 42,
+      "problems": 0
+    },
+    "motion_self_audit_apply_gate": {
+      "decision": "motion_self_audit_apply_blocked_clips_pending",
+      "applied": false,
+      "proposal_rows": 42,
+      "passed_rows": 0,
+      "blocked_or_rejected": 0,
+      "problems": 338
+    },
+    "full_duration_release_gate": {
+      "decision": "full_duration_release_blocked_probe_review_pending",
+      "can_release_full_duration": false,
+      "expected_probe_clips": 42,
+      "playable_probe_clips": 0,
+      "review_frame_sets_ready": 0,
+      "full_duration_approvals": 0,
+      "release_exists": false,
+      "blocking_items": 4,
+      "problems": 0
+    },
+    "motion_probe_submission_ready_gate": {
+      "decision": "motion_probe_submission_ready",
+      "provider_zip_count": 7,
+      "bundled_probe_rows": 42,
+      "unique_probe_custom_ids": 42,
+      "return_batches": 7,
+      "problems": 0,
+      "warnings": 0
+    },
+    "after_clip_return_resume_positive_contract": {
+      "decision": "after_clip_return_resume_positive_contract_passed",
+      "expected_shots": 42,
+      "fixture_download_shape": "nested_clip_return_intake_root_with_7_returned_mp4_dirs",
+      "ingest_decision": "after_clip_return_codex_motion_self_audit_required",
+      "apply_decision": "after_clip_return_ready_for_concat",
+      "clips_ready": 42,
+      "motion_frames": 42,
+      "final_concat_gate": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+      "production_final_output_changed": false,
+      "problems": 0
+    },
+    "final_concat_positive_contract": {
+      "decision": "final_concat_positive_contract_passed",
+      "expected_shots": 42,
+      "gate_decision": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+      "gate_passed_checks": 8,
+      "gate_total_checks": 8,
+      "problems": 0
+    },
+    "final_edit_positive_contract": {
+      "decision": "final_edit_positive_contract_passed",
+      "expected_shots": 42,
+      "expected_duration_seconds": 252,
+      "structural_decision": "final_edit_structural_passed",
+      "structural_ok": true,
+      "production_final_output_changed": false,
+      "problems": 0
+    },
+    "video_generation_run_positive_contract": {
+      "decision": "video_generation_run_positive_contract_passed",
+      "expected_shots": 42,
+      "expected_duration_seconds": 252,
+      "completion_decision": "video_generation_run_complete",
+      "completion_passed_checks": 30,
+      "completion_total_checks": 30,
+      "highest_completed_target": "video_generation_run",
+      "production_final_output_changed": false,
+      "problems": 0
+    },
+    "positive_contract_isolation_gate": {
+      "decision": "positive_contract_isolation_passed",
+      "expected_shots": 42,
+      "production_expected_clips_existing": 0,
+      "production_final_output_exists": false,
+      "contracts_checked": 6,
+      "problems": 0,
+      "warnings": 0
+    },
+    "report_freshness_gate": {
+      "decision": "report_freshness_passed_current_manifest",
+      "reports_checked": 56,
+      "problems": 0,
+      "warnings": 0
+    },
+    "full_local_visual_review": {
+      "decision": "full_local_visual_review_passed_for_motion_probe_not_video_approved",
+      "shots_reviewed": 42,
+      "shots_expected": 42,
+      "frames_present": 126,
+      "frames_expected": 126,
+      "monitor_required": 42,
+      "problems": 0
+    },
+    "proxy_misuse_gate": {
+      "decision": "proxy_isolation_passed_clips_pending",
+      "expected_clips_existing": 0,
+      "expected_clips_missing": 42,
+      "problems": 0,
+      "warnings": 0
+    },
+    "video_generation_run_completion": {
+      "decision": "video_generation_run_blocked_clips_pending",
+      "highest_completed_target": "prompt_asset_package",
+      "passed_checks": 23,
+      "total_checks": 30,
+      "failed_checks": [
+        "full_duration_release_gate_passed",
+        "all_expected_clips_structural_pass",
+        "motion_review_frames_complete",
+        "codex_motion_self_audit_passed",
+        "revision_queue_empty",
+        "final_concat_gate_passed",
+        "final_edit_structural_passed"
+      ]
+    }
+  },
+  "full_post_shot_ledger_contract": {
+    "source_battle_ledger": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json",
+    "rows": 42,
+    "required_review_fields": [
+      "Alive / Safe After",
+      "Active / Controlling After",
+      "Limited But Not Defeated After",
+      "Defeated / Removed After",
+      "Captured / Objective-Defeated After",
+      "Stood Down / Post-Battle After",
+      "Must Not Return Active",
+      "Changed This Shot",
+      "No-Active-Combat Line"
+    ],
+    "motion_self_audit_files": [
+      "motion_self_audit/README.md",
+      "motion_self_audit/motion_self_audit_matrix.csv",
+      "motion_self_audit/decision_update_template.jsonl"
+    ],
+    "critical_locks": {
+      "shot032F_hubert_captured_by_felix_and_ashe": true,
+      "shot032G_dorothea_and_bernadetta_captured_by_leonie_and_claude": true,
+      "shot034B_empty_objective_teachers_absent": true,
+      "shot034G_exhausted_dimitri_dedue_core": true
+    },
+    "representative_after_shot_state": {
+      "Shot032F": {
+        "captured_objective_defeated_after": "black_eagles: Hubert",
+        "changed_this_shot": "Hubert:captured_by_felix_and_ashe; Felix:captor_active; Ashe:captor_active",
+        "must_not_return_active_after": "blue_lions: Annette, Mercedes; black_eagles: Hubert"
+      },
+      "Shot032G": {
+        "captured_objective_defeated_after": "black_eagles: Hubert, Dorothea, Bernadetta",
+        "changed_this_shot": "Dorothea:captured_by_leonie_and_claude; Bernadetta:captured_by_leonie_and_claude; Claude:captor_active; Leonie:captor_active",
+        "must_not_return_active_after": "blue_lions: Annette, Mercedes; black_eagles: Hubert, Dorothea, Bernadetta"
+      },
+      "Shot034B": {
+        "visible_named_only": [
+          "Byleth",
+          "Dimitri"
+        ],
+        "captured_objective_defeated_after": "black_eagles: Hubert, Dorothea, Bernadetta; hanneman_faculty_lane: Hanneman",
+        "changed_this_shot": "Dimitri:surviving_winner; Byleth:surviving_command; Hanneman:objective_defeated_separate_lane; Manuela:route_cut_offscreen_unpaired",
+        "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Hanneman, Manuela"
+      },
+      "Shot034G": {
+        "active_controlling_after": "command: Byleth; blue_lions: Dimitri, Dedue",
+        "changed_this_shot": "Dimitri:surviving_winner_exhausted; Dedue:surviving_winner_exhausted; Annette:spent_stood_down; Mercedes:spent_stood_down; Sylvain:spent_stood_down; Ingrid:spent_stood_down; Ashe:spent_stood_down",
+        "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela"
+      }
+    }
+  },
+  "next_required_external_action": "Submit/import the 7 motion-probe batches first, run probe clip structural QA and Codex probe review, then apply signed probe decisions until full_duration_release_gate passes.",
+  "after_clip_return_resume_fixture_download_shape": "nested_clip_return_intake_root_with_7_returned_mp4_dirs",
+  "after_clips_exist": [
+    "Run node scripts/ingest_scene09_v3_generated_clips.js for external downloads, if applicable.",
+    "Run node scripts/run_scene09_v3_video_pipeline.js --dry-run.",
+    "Review extracted start/mid/end motion frames and update motion decisions while preserving clip_signature and review_evidence.review_frame_signatures.start/mid/end.",
+    "Only concatenate after all 42 clips pass file QA and motion_review_passed."
+  ]
+}

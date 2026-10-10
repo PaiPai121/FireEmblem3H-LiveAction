@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blue Lions Black History Asset Viewer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #20242a;
+      --muted: #657182;
+      --line: #d8dee8;
+      --panel: #f7f9fb;
+      --accent: #1d5f8f;
+      --ok: #2f6f4e;
+      --warn: #8a5b22;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #fff;
+      line-height: 1.45;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(12px);
+    }
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: 0;
+    }
+    .meta {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .links a, .shot-links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      font-size: 13px;
+    }
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 22px 24px 40px;
+    }
+    .status {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: var(--panel);
+    }
+    .stat b {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .stat span {
+      display: block;
+      margin-top: 4px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .shot {
+      border-top: 1px solid var(--line);
+      padding: 22px 0 28px;
+    }
+    .shot-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    .purpose {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid #b8d4c4;
+      background: #eef8f1;
+      color: var(--ok);
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .frames {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      background: #edf1f5;
+    }
+    figcaption {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 10px;
+      font-size: 13px;
+      border-top: 1px solid var(--line);
+    }
+    .caption-label {
+      font-weight: 700;
+    }
+    .caption-path {
+      color: var(--muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .shot-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .reject {
+      margin-top: 10px;
+      color: var(--warn);
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      header { grid-template-columns: 1fr; }
+      .links { justify-content: flex-start; }
+      .status { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .frames { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Blue Lions Black History</h1>
+      <div class="meta">Sylvain x Ingrid comedy short - Seedance-oriented video package</div>
+    </div>
+    <nav class="links">
+      <a href="RUNBOOK.md">Runbook</a>
+      <a href="model_target_profile.md">Model Profile</a>
+      <a href="submission_queue.csv">Submission Queue</a>
+      <a href="clip_qa_checklist.md">Clip QA</a>
+      <a href="package_manifest.json">Manifest</a>
+    </nav>
+  </header>
+  <main>
+    <section class="status">
+      <div class="stat"><b>Status</b><span>Approved For Video</span></div>
+      <div class="stat"><b>Runtime</b><span>60 seconds</span></div>
+      <div class="stat"><b>Shots</b><span>5</span></div>
+      <div class="stat"><b>Frames</b><span>15 anchors</span></div>
+    </section>
+
+    <section class="shot">
+      <div class="shot-head">
+        <div>
+          <h2>001 SIBH-SH001 - Social-Skills Lesson</h2>
+          <div class="purpose">Sylvain starts a smooth public lesson before Ingrid interrupts.</div>
+        </div>
+        <span class="badge">10s</span>
+      </div>
+      <div class="frames">
+        <figure><img src="shots/001_SIBH-SH001/start_frame.png" alt="SH001 start"><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><img src="shots/001_SIBH-SH001/key_frame.png" alt="SH001 key"><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><img src="shots/001_SIBH-SH001/end_frame.png" alt="SH001 end"><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/001_SIBH-SH001/prompt.md">Prompt</a><a href="shots/001_SIBH-SH001/negative_prompt.md">Negative</a><a href="shots/001_SIBH-SH001/metadata.json">Metadata</a></div>
+      <div class="reject">Primary check: Sylvain starts the social-skills lesson.</div>
+    </section>
+
+    <section class="shot">
+      <div class="shot-head">
+        <div>
+          <h2>002 SIBH-SH002 - Ingrid Interrupts</h2>
+          <div class="purpose">Ingrid challenges Sylvain's authority and produces better examples.</div>
+        </div>
+        <span class="badge">10s</span>
+      </div>
+      <div class="frames">
+        <figure><img src="shots/002_SIBH-SH002/start_frame.png" alt="SH002 start"><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><img src="shots/002_SIBH-SH002/key_frame.png" alt="SH002 key"><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><img src="shots/002_SIBH-SH002/end_frame.png" alt="SH002 end"><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/002_SIBH-SH002/prompt.md">Prompt</a><a href="shots/002_SIBH-SH002/negative_prompt.md">Negative</a><a href="shots/002_SIBH-SH002/metadata.json">Metadata</a></div>
+      <div class="reject">Primary check: Ingrid interrupts and claims more examples.</div>
+    </section>
+
+    <section class="shot">
+      <div class="shot-head">
+        <div>
+          <h2>003 SIBH-SH003 - The Audit Begins</h2>
+          <div class="purpose">Ingrid calmly lists old examples while Sylvain tries to keep it quiet.</div>
+        </div>
+        <span class="badge">12s</span>
+      </div>
+      <div class="frames">
+        <figure><img src="shots/003_SIBH-SH003/start_frame.png" alt="SH003 start"><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><img src="shots/003_SIBH-SH003/key_frame.png" alt="SH003 key"><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><img src="shots/003_SIBH-SH003/end_frame.png" alt="SH003 end"><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/003_SIBH-SH003/prompt.md">Prompt</a><a href="shots/003_SIBH-SH003/negative_prompt.md">Negative</a><a href="shots/003_SIBH-SH003/metadata.json">Metadata</a></div>
+      <div class="reject">Primary check: notes remain blank/unreadable.</div>
+    </section>
+
+    <section class="shot">
+      <div class="shot-head">
+        <div>
+          <h2>004 SIBH-SH004 - Trial Or Lesson</h2>
+          <div class="purpose">Ingrid stacks examples; Sylvain backs into the trial joke.</div>
+        </div>
+        <span class="badge">16s</span>
+      </div>
+      <div class="frames">
+        <figure><img src="shots/004_SIBH-SH004/start_frame.png" alt="SH004 start"><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><img src="shots/004_SIBH-SH004/key_frame.png" alt="SH004 key"><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><img src="shots/004_SIBH-SH004/end_frame.png" alt="SH004 end"><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/004_SIBH-SH004/prompt.md">Prompt</a><a href="shots/004_SIBH-SH004/negative_prompt.md">Negative</a><a href="shots/004_SIBH-SH004/metadata.json">Metadata</a></div>
+      <div class="reject">Primary check: dialogue timing fits the 16s shot.</div>
+    </section>
+
+    <section class="shot">
+      <div class="shot-head">
+        <div>
+          <h2>005 SIBH-SH005 - Do Not Imitate Sylvain</h2>
+          <div class="purpose">Ingrid lands the lesson; Sylvain's recovery smile fails.</div>
+        </div>
+        <span class="badge">12s</span>
+      </div>
+      <div class="frames">
+        <figure><img src="shots/005_SIBH-SH005/start_frame.png" alt="SH005 start"><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><img src="shots/005_SIBH-SH005/key_frame.png" alt="SH005 key"><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><img src="shots/005_SIBH-SH005/end_frame.png" alt="SH005 end"><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/005_SIBH-SH005/prompt.md">Prompt</a><a href="shots/005_SIBH-SH005/negative_prompt.md">Negative</a><a href="shots/005_SIBH-SH005/metadata.json">Metadata</a></div>
+      <div class="reject">Primary check: ending stays friendship comedy, not romance.</div>
+    </section>
+  </main>
+</body>
+</html>

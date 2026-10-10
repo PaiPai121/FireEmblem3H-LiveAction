@@ -1,0 +1,5 @@
+order,shot_id,duration_seconds,prompt,negative_prompt,start_frame,key_frame,end_frame,expected_clip
+1,BLSC03-SH001,15,shots/001_BLSC03-SH001/prompt.md,shots/001_BLSC03-SH001/negative_prompt.md,shots/001_BLSC03-SH001/start_frame.png,shots/001_BLSC03-SH001/key_frame.png,shots/001_BLSC03-SH001/end_frame.png,clips/BLSC03-SH001.mp4
+2,BLSC03-SH002,15,shots/002_BLSC03-SH002/prompt.md,shots/002_BLSC03-SH002/negative_prompt.md,shots/002_BLSC03-SH002/start_frame.png,shots/002_BLSC03-SH002/key_frame.png,shots/002_BLSC03-SH002/end_frame.png,clips/BLSC03-SH002.mp4
+3,BLSC03-SH003,15,shots/003_BLSC03-SH003/prompt.md,shots/003_BLSC03-SH003/negative_prompt.md,shots/003_BLSC03-SH003/start_frame.png,shots/003_BLSC03-SH003/key_frame.png,shots/003_BLSC03-SH003/end_frame.png,clips/BLSC03-SH003.mp4
+4,BLSC03-SH004,15,shots/004_BLSC03-SH004/prompt.md,shots/004_BLSC03-SH004/negative_prompt.md,shots/004_BLSC03-SH004/start_frame.png,shots/004_BLSC03-SH004/key_frame.png,shots/004_BLSC03-SH004/end_frame.png,clips/BLSC03-SH004.mp4

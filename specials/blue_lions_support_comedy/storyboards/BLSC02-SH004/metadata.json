@@ -1,0 +1,59 @@
+{
+  "shot_id": "BLSC02-SH004",
+  "parent_shot": "BLSC02-SH003",
+  "segment": 1,
+  "segments_from_parent": 2,
+  "order": 4,
+  "title": "One Thing",
+  "duration_seconds": 8,
+  "timing_estimate_seconds": 6.7,
+  "timing_status": "passed",
+  "support_pair": "Annette x Mercedes",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Annette",
+      "text": "でも、変わってないものもあるよね。私たち……",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "もちろんよ、アニー。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC02-SH004.mp4",
+  "no_subtitles": true,
+  "visual_status": "height_repaired_widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png regenerated for EP02 Annette/Mercedes relative height repair",
+  "anchor_mean_abs_diff": {
+    "start_key": 15.82,
+    "key_end": 19.33,
+    "start_end": 17.73
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue",
+  "relative_height_lock": "Relative height lock v4: Annette is very petite and significantly shorter than Mercedes in every two-shot; Mercedes remains the taller academy senior. Annette head top should sit around Mercedes lower cheek, chin, or upper neck line. Reject if Annette appears the same height as Mercedes or only slightly shorter.",
+  "annette_height_status": "height_repaired_visual_review_passed",
+  "relative_height_review": {
+    "status": "passed",
+    "reviewer_role": "independent_visual_continuity_reviewer",
+    "review_date": "2026-08-09",
+    "finding": "Annette is significantly shorter than Mercedes across the regenerated youth_v4 frames, with stronger lower head-line contrast than youth_v3."
+  },
+  "academy_youth_lock": "Academy youth_v4 lock: both characters must read as school-phase teenage students. Annette reads 15-16, very petite and earnest; Mercedes reads 18, gentle older classmate. Reject childlike Annette, mature adult actress, adult noble portrait, motherly/nun-like, heavy makeup, sharp cheekbones, eye bags, weathered skin, or glamorous editorial styling.",
+  "academy_youth_status": "youth_v4_visual_review_passed",
+  "academy_youth_review": {
+    "status": "passed",
+    "reviewer_role": "independent_visual_identity_reviewer",
+    "review_date": "2026-08-09",
+    "finding": "Regenerated EP02 frames use youth_v4 academy assets; Annette reads as a very petite 15-16 student and Mercedes as a youthful 18-year-old older classmate without mature noblewoman, motherly, or nun-like drift."
+  }
+}

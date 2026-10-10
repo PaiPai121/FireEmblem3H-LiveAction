@@ -1,0 +1,68 @@
+{
+  "shot_id": "BLSC03-SH004",
+  "order": 4,
+  "title": "Friendship Bruise",
+  "duration_seconds": 15,
+  "status": "approved_for_video",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "source": [
+    "https://wiki.serenesforest.net/index.php/Three_Houses_Supports/Felix_Sylvain",
+    "https://fireemblem.fandom.com/wiki/Felix/Supports#With_Sylvain"
+  ],
+  "dialogue_policy": "lightly bridged adapted English with one short source-anchored phrase; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "characters": [
+    "Felix",
+    "Sylvain"
+  ],
+  "cameo": null,
+  "location_reference": "assets/locations/EP02/act01/TrainingGround/TrainingGround_reference.png",
+  "character_references": {
+    "Felix": "assets/characters/blue_lions/Felix/academy/selected.png",
+    "Sylvain": "assets/characters/blue_lions/Sylvain/academy/selected.png"
+  },
+  "identity_locks": {
+    "Felix": "Academy-era Felix: youthful sharp noble swordsman, dark blue-black tied hair, clear cold eyes, slim athletic build, Blue Lions academy uniform suited for sword practice, cutting but not villainous, never middle-aged.",
+    "Sylvain": "Academy-era Sylvain: handsome red-haired noble student, relaxed smile with tired clever eyes, Blue Lions academy uniform worn slightly casually, charming but not oily, never modern playboy."
+  },
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "That is never what I mean to do. You know me better than that.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "Then act like it.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "Fine. I will leave you and your beloved training dummy alone.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "Good.",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "bridge_actions": [
+    {
+      "policy": "silent_action_bridge",
+      "text": "Sylvain gives a small shrug."
+    },
+    {
+      "policy": "silent_action_bridge",
+      "text": "Felix strikes the dummy once after Sylvain exits."
+    }
+  ],
+  "no_subtitles": true,
+  "expected_clip": "clips/BLSC03-SH004.mp4"
+}

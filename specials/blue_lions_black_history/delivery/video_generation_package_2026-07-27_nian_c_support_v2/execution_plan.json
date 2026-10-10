@@ -1,0 +1,114 @@
+{
+  "package_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2",
+  "project": "blue_lions_black_history",
+  "package_id": "video_generation_package_2026-07-27_nian_c_support_v2",
+  "total_shots": 5,
+  "total_duration_seconds": 60,
+  "mode": "dry_run",
+  "concat_requested": false,
+  "final_output": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/final_edit.mp4",
+  "model_cli_configured": false,
+  "integrity": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "clip_status": {
+    "missing_count": 5,
+    "ready_for_concat": false,
+    "clips": [
+      {
+        "shot_id": "SIBH-SH001",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH001.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SIBH-SH002",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH002.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SIBH-SH003",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH003.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SIBH-SH004",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH004.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "SIBH-SH005",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH005.mp4",
+        "exists": false
+      }
+    ]
+  },
+  "work_orders": [
+    {
+      "order": 1,
+      "shot_id": "SIBH-SH001",
+      "duration_seconds": 9,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/001_SIBH-SH001",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/001_SIBH-SH001/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/001_SIBH-SH001/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/001_SIBH-SH001/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/001_SIBH-SH001/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/001_SIBH-SH001/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH001.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 2,
+      "shot_id": "SIBH-SH002",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/002_SIBH-SH002",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/002_SIBH-SH002/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/002_SIBH-SH002/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/002_SIBH-SH002/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/002_SIBH-SH002/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/002_SIBH-SH002/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH002.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 3,
+      "shot_id": "SIBH-SH003",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/003_SIBH-SH003",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/003_SIBH-SH003/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/003_SIBH-SH003/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/003_SIBH-SH003/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/003_SIBH-SH003/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/003_SIBH-SH003/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH003.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 4,
+      "shot_id": "SIBH-SH004",
+      "duration_seconds": 15,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/004_SIBH-SH004",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/004_SIBH-SH004/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/004_SIBH-SH004/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/004_SIBH-SH004/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/004_SIBH-SH004/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/004_SIBH-SH004/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH004.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 5,
+      "shot_id": "SIBH-SH005",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/005_SIBH-SH005",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/005_SIBH-SH005/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/005_SIBH-SH005/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/005_SIBH-SH005/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/005_SIBH-SH005/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/shots/005_SIBH-SH005/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_black_history/delivery/video_generation_package_2026-07-27_nian_c_support_v2/clips/SIBH-SH005.mp4",
+      "command_argv": null
+    }
+  ]
+}

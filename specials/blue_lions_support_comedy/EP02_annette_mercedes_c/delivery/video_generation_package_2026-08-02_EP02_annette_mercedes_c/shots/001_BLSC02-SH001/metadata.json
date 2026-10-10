@@ -1,0 +1,68 @@
+{
+  "shot_id": "BLSC02-SH001",
+  "order": 1,
+  "title": "Shopping Detour",
+  "duration_seconds": 15,
+  "status": "approved_for_video",
+  "support_pair": "Annette x Mercedes",
+  "support_rank": "C",
+  "source": [
+    "https://fireemblem.fandom.com/wiki/Annette/Supports#With_Mercedes",
+    "https://fireemblem.fandom.com/wiki/Mercedes/Supports#With_Annette"
+  ],
+  "dialogue_policy": "lightly bridged adapted English; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "characters": [
+    "Annette",
+    "Mercedes"
+  ],
+  "cameo": "Exusiai",
+  "location_reference": "assets/locations/EP02/act01/Marketplace/Marketplace_reference.png",
+  "character_references": {
+    "Annette": "assets/characters/blue_lions/Annette/academy/selected.png",
+    "Mercedes": "assets/characters/blue_lions/Mercedes/academy/selected.png"
+  },
+  "identity_locks": {
+    "Annette": "Academy-era Annette: young orange-haired magic student, bright hardworking face, Blue Lions uniform with learner details, energetic and easily flustered, never childish, never mature adult.",
+    "Mercedes": "Academy-era Mercedes: gentle young blonde healer, soft refined face, side-swept bangs, black-gold hair ribbon, white high collar, blue-black Blue Lions uniform with beige shoulder detail, warm sisterly presence, never nun-like elderly."
+  },
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "dialogue": [
+    {
+      "speaker": "Annette",
+      "text": "That trip took longer than expected, didn't it, Mercie?",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "It did. You bought nearly everything in the market.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Annette",
+      "text": "Not everything. And you helped me choose, so that makes it sensible.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "The number of bags you're carrying disagrees.",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "bridge_actions": [
+    {
+      "policy": "silent_action_bridge",
+      "text": "Annette nearly drops a bundle."
+    },
+    {
+      "policy": "silent_action_bridge",
+      "text": "Mercedes steadies one handle."
+    }
+  ],
+  "no_subtitles": true,
+  "expected_clip": "clips/BLSC02-SH001.mp4"
+}

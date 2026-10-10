@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "project": "blue_lions_black_history",
+  "package_id": "video_generation_package_2026-07-27_nian_c_support_v2",
+  "status": "approved_for_video",
+  "shots": [
+    {
+      "id": "SIBH-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 9,
+      "prompt_path": "video_prompts/SIBH-SH001.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH001_negative.md",
+      "start_frame": "storyboards/SIBH-SH001/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH001/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH001/end_frame.png",
+      "expected_clip": "clips/SIBH-SH001.mp4",
+      "edit_in": "cut from corridor ambience",
+      "edit_out": "cut on Ingrid saying Sylvain's name",
+      "audio_anchor": "Sylvain approaches Nian; Ingrid calls him offscreen",
+      "continuity_previous": "",
+      "continuity_next": "SIBH-SH002",
+      "reject_if": [
+        "Nian remains after SH001",
+        "Sylvain becomes predatory",
+        "readable tablet text appears"
+      ],
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+        "Nian cameo appears only in this shot."
+      ],
+      "primary_check": "Nian appears only as the opening cameo; Sylvain is playful, not predatory; Ingrid is heard before she enters."
+    },
+    {
+      "id": "SIBH-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/SIBH-SH002.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH002_negative.md",
+      "start_frame": "storyboards/SIBH-SH002/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH002/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH002/end_frame.png",
+      "expected_clip": "clips/SIBH-SH002.mp4",
+      "edit_in": "from Ingrid's offscreen line",
+      "edit_out": "cut as Ingrid invokes apology history",
+      "audio_anchor": "Ingrid catches Sylvain after Nian has left",
+      "continuity_previous": "SIBH-SH001",
+      "continuity_next": "SIBH-SH003",
+      "reject_if": [
+        "Nian is still visible",
+        "Ingrid reads as jealous",
+        "Sylvain flirts with Ingrid"
+      ],
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+        "Nian must not appear in this shot."
+      ],
+      "primary_check": "Nian is gone; Ingrid reads as a youthful strict friend, not jealous; Sylvain pivots from charm to damage control."
+    },
+    {
+      "id": "SIBH-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/SIBH-SH003.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH003_negative.md",
+      "start_frame": "storyboards/SIBH-SH003/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH003/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH003/end_frame.png",
+      "expected_clip": "clips/SIBH-SH003.mp4",
+      "edit_in": "from Ingrid's apology-history line",
+      "edit_out": "cut on Sylvain lowering his voice",
+      "audio_anchor": "old friend accountability and grandmother incident",
+      "continuity_previous": "SIBH-SH002",
+      "continuity_next": "SIBH-SH004",
+      "reject_if": [
+        "Ingrid becomes cruel",
+        "Sylvain becomes angry",
+        "Nian reappears"
+      ],
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+        "Nian must not appear in this shot."
+      ],
+      "primary_check": "The old-friend black-history beat lands; Ingrid stays calm, Sylvain gets embarrassed, and Nian does not reappear."
+    },
+    {
+      "id": "SIBH-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/SIBH-SH004.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH004_negative.md",
+      "start_frame": "storyboards/SIBH-SH004/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH004/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH004/end_frame.png",
+      "expected_clip": "clips/SIBH-SH004.mp4",
+      "edit_in": "from Sylvain lowering his voice",
+      "edit_out": "cut after Sylvain accepts today's defeat",
+      "audio_anchor": "scarecrow and noble-apology examples",
+      "continuity_previous": "SIBH-SH003",
+      "continuity_next": "SIBH-SH005",
+      "reject_if": [
+        "dialogue lip-sync distorts faces",
+        "Nian reappears",
+        "extra students take focus"
+      ],
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+        "Nian must not appear in this shot."
+      ],
+      "primary_check": "Ingrid calmly lists the scarecrow and noble-apology incidents; Sylvain shrinks under public pressure; Nian does not reappear."
+    },
+    {
+      "id": "SIBH-SH005",
+      "order": 5,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/SIBH-SH005.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH005_negative.md",
+      "start_frame": "storyboards/SIBH-SH005/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH005/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH005/end_frame.png",
+      "expected_clip": "clips/SIBH-SH005.mp4",
+      "edit_in": "cut from Sylvain asking if this is a trial",
+      "edit_out": "hold on failed recovery smile",
+      "audio_anchor": "Ingrid tells Sylvain to start changing now",
+      "continuity_previous": "SIBH-SH004",
+      "continuity_next": "",
+      "reject_if": [
+        "Sylvain looks devastated",
+        "Nian returns",
+        "ending becomes romantic"
+      ],
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+        "Nian must not appear in this shot."
+      ],
+      "primary_check": "Ingrid lands the real correction without cruelty; Sylvain ends sheepish but not crushed; the ending stays friendship comedy, not romance."
+    }
+  ],
+  "target_model_profile": "Seedance image-to-video, start/key/end frame guided, no subtitles",
+  "total_duration_seconds": 60
+}

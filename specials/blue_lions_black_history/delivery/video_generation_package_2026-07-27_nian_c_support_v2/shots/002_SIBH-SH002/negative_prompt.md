@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no mature Ingrid, no jealous Ingrid, no flirtatious staging between Sylvain and Ingrid, no Nian visible after SH001, no readable text on props, no subtitles, no watermarks, no logos, no modern props, no extra visible crowd stealing focus, no costume drift, no camera spin, no mouth distortion.

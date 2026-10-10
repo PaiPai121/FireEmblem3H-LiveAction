@@ -1,0 +1,43 @@
+{
+  "shot_id": "BLSC03-SH002",
+  "parent_shot": "BLSC03-SH001",
+  "segment": 2,
+  "segments_from_parent": 2,
+  "order": 2,
+  "title": "Bad Invitation",
+  "duration_seconds": 11,
+  "timing_estimate_seconds": 8.4,
+  "timing_status": "passed",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "忙しそうには見えないな。女の子に声をかけに行こうぜ。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "一人で行け。稽古の邪魔だ。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC03-SH002.mp4",
+  "no_subtitles": true,
+  "visual_status": "widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png generated as three stacked horizontal widescreen frames",
+  "anchor_mean_abs_diff": {
+    "start_key": 44.2,
+    "key_end": 41.7,
+    "start_end": 37.4
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue"
+}

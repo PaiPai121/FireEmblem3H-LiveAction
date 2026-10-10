@@ -1,0 +1,177 @@
+{
+  "episode": "EP02_annette_mercedes_c",
+  "title": "Annette x Mercedes - Too Many Bags",
+  "support_pair": "Annette x Mercedes",
+  "support_rank": "C",
+  "source_language": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; export-side only, not burned into video generation.",
+  "total_duration_seconds": 58,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BLSC02-SH001",
+      "start_seconds": 0.0,
+      "end_seconds": 4.841,
+      "speaker": "Annette",
+      "speaker_zh": "雅妮特",
+      "ja": "思ったより時間がかかっちゃったね、メーチェ。",
+      "zh_Hans": "比想象中花了更久呢，梅洁。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BLSC02-SH001",
+      "start_seconds": 5.021,
+      "end_seconds": 8.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "そうね。",
+      "zh_Hans": "是啊。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BLSC02-SH002",
+      "start_seconds": 8.0,
+      "end_seconds": 11.816,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "市場の物をほとんど買ったみたい。",
+      "zh_Hans": "感觉你差不多把市场里的东西都买下来了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BLSC02-SH002",
+      "start_seconds": 11.996,
+      "end_seconds": 15.41,
+      "speaker": "Annette",
+      "speaker_zh": "雅妮特",
+      "ja": "全部じゃないよ。メーチェも選んだでしょ。",
+      "zh_Hans": "才不是全部呢。梅洁你也帮忙选了啊。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BLSC02-SH002",
+      "start_seconds": 15.59,
+      "end_seconds": 18.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "袋はそう言ってないわ。",
+      "zh_Hans": "这些袋子可不是这么说的。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BLSC02-SH003",
+      "start_seconds": 18.0,
+      "end_seconds": 23.678,
+      "speaker": "Annette",
+      "speaker_zh": "雅妮特",
+      "ja": "メーチェと買い物してると、王都の学校を思い出すな。",
+      "zh_Hans": "和梅洁一起买东西，就会想起王都的学校呢。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BLSC02-SH003",
+      "start_seconds": 23.858,
+      "end_seconds": 27.549,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "ずいぶん昔のお話みたいね。",
+      "zh_Hans": "听起来像是很久以前的事了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BLSC02-SH003",
+      "start_seconds": 27.729,
+      "end_seconds": 30.0,
+      "speaker": "Annette",
+      "speaker_zh": "雅妮特",
+      "ja": "いろいろ変わっちゃったね。",
+      "zh_Hans": "好多东西都变了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BLSC02-SH004",
+      "start_seconds": 30.0,
+      "end_seconds": 35.414,
+      "speaker": "Annette",
+      "speaker_zh": "雅妮特",
+      "ja": "でも、変わってないものもあるよね。私たち……",
+      "zh_Hans": "不过，也有没变的东西吧。比如我们……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BLSC02-SH004",
+      "start_seconds": 35.594,
+      "end_seconds": 38.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "もちろんよ、アニー。",
+      "zh_Hans": "当然了，安妮。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BLSC02-SH005",
+      "start_seconds": 38.0,
+      "end_seconds": 45.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "今言おうとしたの。あら、誰か来るわ。",
+      "zh_Hans": "我正要这么说呢。哎呀，有人来了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BLSC02-SH006",
+      "start_seconds": 45.0,
+      "end_seconds": 47.037,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "アニー、こっちよ。",
+      "zh_Hans": "安妮，往这边。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BLSC02-SH006",
+      "start_seconds": 47.217,
+      "end_seconds": 51.801,
+      "speaker": "Annette",
+      "speaker_zh": "雅妮特",
+      "ja": "待って、パンが落ちそう。玉ねぎもかも。",
+      "zh_Hans": "等等，面包快掉了。洋葱可能也要掉了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BLSC02-SH006",
+      "start_seconds": 51.981,
+      "end_seconds": 54.783,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "じゃあ一緒に守りましょう。",
+      "zh_Hans": "那我们一起守住它们吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BLSC02-SH006",
+      "start_seconds": 54.963,
+      "end_seconds": 57.0,
+      "speaker": "Annette",
+      "speaker_zh": "雅妮特",
+      "ja": "一緒に、だね。",
+      "zh_Hans": "一起，对吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

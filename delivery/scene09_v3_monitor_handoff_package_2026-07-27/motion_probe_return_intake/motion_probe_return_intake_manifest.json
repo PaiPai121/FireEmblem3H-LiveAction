@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "date": "2026-08-01",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "status": "awaiting_motion_probe_downloads",
+  "source_files": {
+    "package_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+      "bytes": 798432,
+      "sha256": "4d873dd9794019d9e4acf31024fa563801e594a6379ded4f85f2eb470bcb9345"
+    },
+    "motion_probe_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/motion_probe_manifest.json",
+      "bytes": 357103,
+      "sha256": "21e4e903a3b4e4ec6822d8ed29c452d594acf71c66946a6f87bae1073e1b3e2f"
+    },
+    "motion_probe_provider_bundles_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/motion_probe_provider_bundles_manifest.json",
+      "bytes": 4847,
+      "sha256": "0c812e5963af3a2b8ce6845db89c58cff753e9a055298bdfb84d1c8a250ca853"
+    }
+  },
+  "total_batches": 7,
+  "total_expected_probes": 42,
+  "expected_probe_map": "motion_probe_return_intake/expected_probe_map.csv",
+  "batches": [
+    {
+      "batch_id": "probe_batch_001_shots_001-006",
+      "source_bundle_dir": "motion_probe_provider_bundles/probe_batch_001_shots_001-006",
+      "source_bundle_zip": "motion_probe_provider_bundles/probe_batch_001_shots_001-006.zip",
+      "return_dir": "motion_probe_return_intake/probe_batch_001_shots_001-006_returns",
+      "returned_mp4_dir": "motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4",
+      "expected_probe_downloads_subset": "motion_probe_return_intake/probe_batch_001_shots_001-006_returns/expected_probe_downloads_subset.csv",
+      "expected_probe_map_subset": "motion_probe_return_intake/probe_batch_001_shots_001-006_returns/expected_probe_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "001_Shot025_probe",
+        "002_Shot025A_probe",
+        "003_Shot026_probe",
+        "004_Shot026B_probe",
+        "005_Shot026C_probe",
+        "006_Shot027_probe"
+      ]
+    },
+    {
+      "batch_id": "probe_batch_002_shots_007-012",
+      "source_bundle_dir": "motion_probe_provider_bundles/probe_batch_002_shots_007-012",
+      "source_bundle_zip": "motion_probe_provider_bundles/probe_batch_002_shots_007-012.zip",
+      "return_dir": "motion_probe_return_intake/probe_batch_002_shots_007-012_returns",
+      "returned_mp4_dir": "motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4",
+      "expected_probe_downloads_subset": "motion_probe_return_intake/probe_batch_002_shots_007-012_returns/expected_probe_downloads_subset.csv",
+      "expected_probe_map_subset": "motion_probe_return_intake/probe_batch_002_shots_007-012_returns/expected_probe_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "007_Shot027B_probe",
+        "008_Shot027C_probe",
+        "009_Shot027D_probe",
+        "010_Shot028_probe",
+        "011_Shot028B_probe",
+        "012_Shot028C_probe"
+      ]
+    },
+    {
+      "batch_id": "probe_batch_003_shots_013-018",
+      "source_bundle_dir": "motion_probe_provider_bundles/probe_batch_003_shots_013-018",
+      "source_bundle_zip": "motion_probe_provider_bundles/probe_batch_003_shots_013-018.zip",
+      "return_dir": "motion_probe_return_intake/probe_batch_003_shots_013-018_returns",
+      "returned_mp4_dir": "motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4",
+      "expected_probe_downloads_subset": "motion_probe_return_intake/probe_batch_003_shots_013-018_returns/expected_probe_downloads_subset.csv",
+      "expected_probe_map_subset": "motion_probe_return_intake/probe_batch_003_shots_013-018_returns/expected_probe_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "013_Shot029_probe",
+        "014_Shot029C_probe",
+        "015_Shot029D_probe",
+        "016_Shot029B_probe",
+        "017_Shot030_probe",
+        "018_Shot030B_probe"
+      ]
+    },
+    {
+      "batch_id": "probe_batch_004_shots_019-024",
+      "source_bundle_dir": "motion_probe_provider_bundles/probe_batch_004_shots_019-024",
+      "source_bundle_zip": "motion_probe_provider_bundles/probe_batch_004_shots_019-024.zip",
+      "return_dir": "motion_probe_return_intake/probe_batch_004_shots_019-024_returns",
+      "returned_mp4_dir": "motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4",
+      "expected_probe_downloads_subset": "motion_probe_return_intake/probe_batch_004_shots_019-024_returns/expected_probe_downloads_subset.csv",
+      "expected_probe_map_subset": "motion_probe_return_intake/probe_batch_004_shots_019-024_returns/expected_probe_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "019_Shot030C_probe",
+        "020_Shot031_probe",
+        "021_Shot031B_probe",
+        "022_Shot032_probe",
+        "023_Shot032A_probe",
+        "024_Shot032B_probe"
+      ]
+    },
+    {
+      "batch_id": "probe_batch_005_shots_025-030",
+      "source_bundle_dir": "motion_probe_provider_bundles/probe_batch_005_shots_025-030",
+      "source_bundle_zip": "motion_probe_provider_bundles/probe_batch_005_shots_025-030.zip",
+      "return_dir": "motion_probe_return_intake/probe_batch_005_shots_025-030_returns",
+      "returned_mp4_dir": "motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4",
+      "expected_probe_downloads_subset": "motion_probe_return_intake/probe_batch_005_shots_025-030_returns/expected_probe_downloads_subset.csv",
+      "expected_probe_map_subset": "motion_probe_return_intake/probe_batch_005_shots_025-030_returns/expected_probe_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "025_Shot032C_probe",
+        "026_Shot032D_probe",
+        "027_Shot032E_probe",
+        "028_Shot032F_probe",
+        "029_Shot032G_probe",
+        "030_Shot033_probe"
+      ]
+    },
+    {
+      "batch_id": "probe_batch_006_shots_031-036",
+      "source_bundle_dir": "motion_probe_provider_bundles/probe_batch_006_shots_031-036",
+      "source_bundle_zip": "motion_probe_provider_bundles/probe_batch_006_shots_031-036.zip",
+      "return_dir": "motion_probe_return_intake/probe_batch_006_shots_031-036_returns",
+      "returned_mp4_dir": "motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4",
+      "expected_probe_downloads_subset": "motion_probe_return_intake/probe_batch_006_shots_031-036_returns/expected_probe_downloads_subset.csv",
+      "expected_probe_map_subset": "motion_probe_return_intake/probe_batch_006_shots_031-036_returns/expected_probe_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "031_Shot033B_probe",
+        "032_Shot033C_probe",
+        "033_Shot033D_probe",
+        "034_Shot034C_probe",
+        "035_Shot034D_probe",
+        "036_Shot034B_probe"
+      ]
+    },
+    {
+      "batch_id": "probe_batch_007_shots_037-042",
+      "source_bundle_dir": "motion_probe_provider_bundles/probe_batch_007_shots_037-042",
+      "source_bundle_zip": "motion_probe_provider_bundles/probe_batch_007_shots_037-042.zip",
+      "return_dir": "motion_probe_return_intake/probe_batch_007_shots_037-042_returns",
+      "returned_mp4_dir": "motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4",
+      "expected_probe_downloads_subset": "motion_probe_return_intake/probe_batch_007_shots_037-042_returns/expected_probe_downloads_subset.csv",
+      "expected_probe_map_subset": "motion_probe_return_intake/probe_batch_007_shots_037-042_returns/expected_probe_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "037_Shot034E_probe",
+        "038_Shot034F_probe",
+        "039_Shot034G_probe",
+        "040_Shot034_probe",
+        "041_Shot035_probe",
+        "042_Shot036_probe"
+      ]
+    }
+  ],
+  "commands": {
+    "audit_intake": "node scripts/audit_scene09_v3_motion_probe_return_intake.js",
+    "ingest_dry_run": "node scripts/ingest_scene09_v3_motion_probe_clips.js --input <returned_mp4_dir> --dry-run",
+    "ingest_apply": "node scripts/ingest_scene09_v3_motion_probe_clips.js --input <returned_mp4_dir> --apply"
+  }
+}

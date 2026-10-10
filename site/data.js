@@ -149,6 +149,216 @@ window.ASSET_REVIEW_DATA = {
       "assets/characters/antagonists/Verrat/concept/selected.png"
     ],
     [
+      "Chen",
+      "Chen",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Chen/selected.png"
+    ],
+    [
+      "Degenbrecher",
+      "Degenbrecher",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Degenbrecher/selected.png"
+    ],
+    [
+      "Ebenholz",
+      "Ebenholz",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Ebenholz/selected.png"
+    ],
+    [
+      "Executor_the_Ex_Foedere",
+      "Executor_the_Ex_Foedere",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Executor_the_Ex_Foedere/selected.png"
+    ],
+    [
+      "Exusiai",
+      "Exusiai",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Exusiai/selected.png"
+    ],
+    [
+      "Eyjafjalla",
+      "Eyjafjalla",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Eyjafjalla/selected.png"
+    ],
+    [
+      "Fartooth",
+      "Fartooth",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Fartooth/selected.png"
+    ],
+    [
+      "Fiammetta",
+      "Fiammetta",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Fiammetta/selected.png"
+    ],
+    [
+      "Flametail",
+      "Flametail",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Flametail/selected.png"
+    ],
+    [
+      "Gnosis",
+      "Gnosis",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Gnosis/selected.png"
+    ],
+    [
+      "Hoederer",
+      "Hoederer",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Hoederer/selected.png"
+    ],
+    [
+      "Kaltsit",
+      "Kaltsit",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Kaltsit/selected.png"
+    ],
+    [
+      "Kirin_R_Yato",
+      "Kirin_R_Yato",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Kirin_R_Yato/selected.png"
+    ],
+    [
+      "Logos",
+      "Logos",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Logos/selected.png"
+    ],
+    [
+      "Mudrock",
+      "Mudrock",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Mudrock/selected.png"
+    ],
+    [
+      "Nearl_the_Radiant_Knight",
+      "Nearl_the_Radiant_Knight",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Nearl_the_Radiant_Knight/selected.png"
+    ],
+    [
+      "Nian",
+      "Nian",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Nian/selected.png"
+    ],
+    [
+      "Passenger",
+      "Passenger",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Passenger/selected.png"
+    ],
+    [
+      "Penance",
+      "Penance",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Penance/selected.png"
+    ],
+    [
+      "Phantom",
+      "Phantom",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Phantom/selected.png"
+    ],
+    [
+      "Qiubai",
+      "Qiubai",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Qiubai/selected.png"
+    ],
+    [
+      "Saileach",
+      "Saileach",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Saileach/selected.png"
+    ],
+    [
+      "Saria",
+      "Saria",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Saria/selected.png"
+    ],
+    [
+      "SilverAsh",
+      "SilverAsh",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/SilverAsh/selected.png"
+    ],
+    [
+      "Specter_the_Unchained",
+      "Specter_the_Unchained",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Specter_the_Unchained/selected.png"
+    ],
+    [
+      "Stainless",
+      "Stainless",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Stainless/selected.png"
+    ],
+    [
+      "Surtr",
+      "Surtr",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Surtr/selected.png"
+    ],
+    [
+      "Texas_the_Omertosa",
+      "Texas_the_Omertosa",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Texas_the_Omertosa/selected.png"
+    ],
+    [
+      "Wisadel",
+      "Wisadel",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Wisadel/selected.png"
+    ],
+    [
+      "Zuo_Le",
+      "Zuo_Le",
+      "arknights_live_action",
+      "selected",
+      "assets/characters/arknights_live_action/Zuo_Le/selected.png"
+    ],
+    [
       "Balthus",
       "巴鲁塔扎尔",
       "ashen_wolves",
@@ -947,6 +1157,13 @@ window.ASSET_REVIEW_DATA = {
       "assets/characters/blue_lions/Sylvain/war/selected.png"
     ],
     [
+      "Nian",
+      "Nian",
+      "cameos",
+      "director",
+      "assets/characters/cameos/Nian/director/selected.png"
+    ],
+    [
       "Aelfric",
       "阿尔法德",
       "church_of_seiros",
@@ -1603,6 +1820,27 @@ window.ASSET_REVIEW_DATA = {
       "protagonist",
       "weapon_fullbody",
       "assets/characters/protagonist/Byleth/weapon_fullbody/selected.png"
+    ],
+    [
+      "BylethFemale",
+      "BylethFemale",
+      "protagonist",
+      "face_casting",
+      "assets/characters/protagonist/BylethFemale/face_casting/selected.png"
+    ],
+    [
+      "BylethFemale",
+      "BylethFemale",
+      "protagonist",
+      "professor",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png"
+    ],
+    [
+      "BylethFemale",
+      "BylethFemale",
+      "protagonist",
+      "weapon_fullbody",
+      "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png"
     ]
   ],
   "episodeAssets": [
@@ -2153,6 +2391,182 @@ window.ASSET_REVIEW_DATA = {
       "act": "act02",
       "path": "assets/locations/EP02/act02/MockBattleGrounds_CanonMap/MockBattleGrounds_CanonMap_master_2026-07-19.png",
       "note": "Scene09 主用 raster 背景资产：东南起点、中央低墙通道、西侧林地、东北高台和石阶同框；旧 SVG 只作为坐标示意。"
+    },
+    {
+      "title": "Scene09 V2 P0 Logic Previs Contact Sheet",
+      "label": "Scene09 V2 P0 逻辑预演接触表",
+      "episode": "EP02",
+      "act": "act02",
+      "path": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/contact_sheet_scene09_v2_p0_logic_previs.png",
+      "note": "Shot032, Shot032A, Shot033B 的本地资产逻辑预演；只用于审核站位、朝向、起始帧/关键帧连续性，不是最终电影关键帧。"
+    },
+    {
+      "title": "EP03 Shot001 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot001 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot001/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot001 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot002 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot002 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot002/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot002 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot003 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot003 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot003/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot003 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot004 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot004 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot004/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot004 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot005 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot005 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot005/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot005 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot006 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot006 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot006/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot006 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot007 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot007 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot007/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot007 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot008 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot008 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot008/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot008 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot009 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot009 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot009/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot009 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot010 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot010 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot010/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot010 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot011 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot011 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot011/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot011 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot012 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot012 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot012/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot012 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot013 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot013 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot013/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot013 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot014 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot014 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot014/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot014 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot015 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot015 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot015/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot015 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot016 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot016 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot016/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot016 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot017 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot017 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot017/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot017 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot018 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot018 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot018/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot018 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Shot019 Imagegen Frameset Contact Sheet",
+      "label": "EP03 Shot019 被阻断 imagegen 三帧接触表",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/storyboards/Shot019/imagegen_frameset_contact_sheet_2026-07-29.jpg",
+      "note": "Shot019 imagegen start/key/end 构图研究；未证明本地 selected.png 身份锁，状态为 blocked_needs_revision，不得作为关键帧资产使用。"
+    },
+    {
+      "title": "EP03 Local Identity Plate Atlas",
+      "label": "EP03 本地角色身份板总览",
+      "episode": "EP03",
+      "act": "asset_identity",
+      "path": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/EP03_local_identity_plate_atlas_2026-08-01.jpg",
+      "note": "EP03 角色本地 selected.png 身份板总览：源图、脸部、服装拓扑、全身轮廓；用于重做关键帧时锁定本地人物身份，状态为 layout_reference。"
+    },
+    {
+      "title": "EP03 Current Web Display Contact Sheet",
+      "label": "EP03 当前展示帧总览",
+      "episode": "EP03",
+      "act": "act01",
+      "path": "episodes/EP03/generated_storyboard_contact_sheet_current_2026-09-03.jpg",
+      "note": "EP03 当前主看板实际引用的 36 镜头、108 张 START/KEY/END 展示帧总览；每个镜头仍需 prompt-against-frame 与 motion probe，状态为 monitor_required。"
     }
   ],
   "shots": [
@@ -2373,6 +2787,134 @@ window.ASSET_REVIEW_DATA = {
     [
       "EP02 Scene09 审核合成结论",
       "episodes/EP02/scene09_audit_synthesis_2026-07-20.md"
+    ],
+    [
+      "EP02 Scene09 可拍性审核",
+      "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md"
+    ],
+    [
+      "EP02 Scene09 拍摄剧本 V2",
+      "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md"
+    ],
+    [
+      "EP02 Scene09 分镜 V2",
+      "episodes/EP02/scene09_shot_list_v2_2026-07-21.md"
+    ],
+    [
+      "EP02 Scene09 Rebuild V2 起始帧/关键帧/视频提示词队列",
+      "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/frame_and_video_prompts.md"
+    ],
+    [
+      "EP02 Scene09 Rebuild V2 生产队列 JSON",
+      "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/frame_generation_queue.json"
+    ],
+    [
+      "EP02 Scene09 Rebuild V2 QA Manifest",
+      "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+    ],
+    [
+      "EP02 Scene09 V2 P0 逻辑预演审查",
+      "episodes/EP02/scene09_v2_p0_logic_previs_review_2026-07-21.md"
+    ],
+    [
+      "EP02 Scene09 每镜头存活/退场连续性账本",
+      "episodes/EP02/scene09_roster_continuity_2026-07-23.md"
+    ],
+    [
+      "EP02 Scene09 每镜头存活/退场连续性 JSON",
+      "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/roster_continuity_by_shot.json"
+    ],
+    [
+      "EP03 剧本",
+      "episodes/EP03/script.md"
+    ],
+    [
+      "EP03 镜头表",
+      "episodes/EP03/shot_list.md"
+    ],
+    [
+      "EP03 源片拆解",
+      "episodes/EP03/source_video_breakdown.md"
+    ],
+    [
+      "EP03 视觉材料审计",
+      "episodes/EP03/visual_material_audit.md"
+    ],
+    [
+      "EP03 帧生成队列",
+      "episodes/EP03/frame_generation_queue.md"
+    ],
+    [
+      "EP03 Prompt Asset Manifest",
+      "episodes/EP03/prompt_asset_package_manifest.json"
+    ],
+    [
+      "EP03 Video Delivery Manifest",
+      "episodes/EP03/production_system/video_delivery_manifest.json"
+    ],
+    [
+      "EP03 Project Bible",
+      "episodes/EP03/project_bible.md"
+    ],
+    [
+      "EP03 Director Treatment",
+      "episodes/EP03/director_treatment.md"
+    ],
+    [
+      "EP03 Production Notes",
+      "episodes/EP03/production_notes.md"
+    ],
+    [
+      "EP03 本地资产审片包 README",
+      "episodes/EP03/delivery/local_asset_storyboard_package_2026-07-31/README.md"
+    ],
+    [
+      "EP03 本地资产审片包 Manifest",
+      "episodes/EP03/delivery/local_asset_storyboard_package_2026-07-31/manifest.json"
+    ],
+    [
+      "EP03 本地资产镜头索引",
+      "episodes/EP03/delivery/local_asset_storyboard_package_2026-07-31/shot_index.md"
+    ],
+    [
+      "EP03 本地资产审片包 QA",
+      "episodes/EP03/delivery/local_asset_storyboard_package_2026-07-31/package_review_2026-07-31.md"
+    ],
+    [
+      "EP03 身份锁关键帧重做包",
+      "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/index.html"
+    ],
+    [
+      "EP03 身份锁关键帧重做 Manifest",
+      "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/package_manifest.json"
+    ],
+    [
+      "EP03 身份锁关键帧重做队列",
+      "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/submission_queue.csv"
+    ],
+    [
+      "EP03 身份锁关键帧重做 Runbook",
+      "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/RUNBOOK.md"
+    ],
+    [
+      "EP03 身份锁提示词策略",
+      "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/prompt_policy.md"
+    ],
+    [
+      "EP03 身份锁重做 QA Checklist",
+      "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/QA_CHECKLIST.md"
+    ],
+    [
+      "EP03 本地身份板 Viewer",
+      "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/viewer.html"
+    ],
+    [
+      "EP03 本地身份板 Index",
+      "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/index.json"
+    ],
+    [
+      "EP03 本地身份板说明",
+      "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/index.md"
     ]
   ]
 };

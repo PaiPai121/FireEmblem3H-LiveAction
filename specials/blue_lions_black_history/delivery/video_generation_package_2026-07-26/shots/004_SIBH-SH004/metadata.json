@@ -1,0 +1,17 @@
+{
+  "id": "SIBH-SH004",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 16,
+  "expected_clip": "clips/SIBH-SH004.mp4",
+  "edit_in": "from Sylvain's worried glance",
+  "edit_out": "cut to Ingrid facing the implied class",
+  "audio_anchor": "Ingrid stacks old examples while Sylvain lowers his voice",
+  "continuity_previous": "SIBH-SH003",
+  "continuity_next": "SIBH-SH005",
+  "model_notes": [],
+  "reject_if": [
+    "dialogue lip-sync distorts faces",
+    "extra students take focus"
+  ]
+}

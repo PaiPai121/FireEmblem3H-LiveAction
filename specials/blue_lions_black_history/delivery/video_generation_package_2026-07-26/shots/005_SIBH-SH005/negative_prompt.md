@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no cruel laughter, no romantic framing, no kiss, no hug, no visible crowd taking focus, no subtitles, no text, no watermarks, no logos, no modern props, no costume drift, no mouth distortion, no camera spin.

@@ -1,0 +1,5517 @@
+{
+  "version": 1,
+  "date": "2026-08-09",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "status": "blocked_preflight_gate",
+  "source_package_manifest": "package_manifest.json",
+  "source_payload_manifest": "submission_payload_manifest.json",
+  "source_model_batches": "model_submission_batches/batch_manifest.json",
+  "model_target_profile": "model_target_profile.json",
+  "operator_preflight_status": "operator_preflight_status.json",
+  "total_shots": 42,
+  "expected_clips": 42,
+  "ready_clips": 0,
+  "missing_clips": 42,
+  "rows": [
+    {
+      "custom_id": "001_Shot025",
+      "order": 1,
+      "shot": "Shot025",
+      "id": "EP02-SC09-SHOT-Shot025-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/001_EP02-SC09-SHOT-Shot025-V2-20260721",
+      "model_prompt": "shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/start_frame.png",
+      "key_frame": "shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/key_frame.png",
+      "end_frame": "shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "002_Shot025A",
+      "order": 2,
+      "shot": "Shot025A",
+      "id": "EP02-SC09-SHOT-Shot025A-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721",
+      "model_prompt": "shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/start_frame.png",
+      "key_frame": "shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/key_frame.png",
+      "end_frame": "shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4",
+      "visible_named_only": [],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "003_Shot026",
+      "order": 3,
+      "shot": "Shot026",
+      "id": "EP02-SC09-SHOT-Shot026-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/003_EP02-SC09-SHOT-Shot026-V2-20260721",
+      "model_prompt": "shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/start_frame.png",
+      "key_frame": "shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/key_frame.png",
+      "end_frame": "shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "004_Shot026B",
+      "order": 4,
+      "shot": "Shot026B",
+      "id": "EP02-SC09-SHOT-Shot026B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721",
+      "model_prompt": "shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/start_frame.png",
+      "key_frame": "shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/key_frame.png",
+      "end_frame": "shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "005_Shot026C",
+      "order": 5,
+      "shot": "Shot026C",
+      "id": "EP02-SC09-SHOT-Shot026C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721",
+      "model_prompt": "shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/start_frame.png",
+      "key_frame": "shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/key_frame.png",
+      "end_frame": "shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "006_Shot027",
+      "order": 6,
+      "shot": "Shot027",
+      "id": "EP02-SC09-SHOT-Shot027-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/006_EP02-SC09-SHOT-Shot027-V2-20260721",
+      "model_prompt": "shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/start_frame.png",
+      "key_frame": "shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/key_frame.png",
+      "end_frame": "shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4",
+      "visible_named_only": [
+        "Ashe",
+        "Claude"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "007_Shot027B",
+      "order": 7,
+      "shot": "Shot027B",
+      "id": "EP02-SC09-SHOT-Shot027B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721",
+      "model_prompt": "shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/start_frame.png",
+      "key_frame": "shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/key_frame.png",
+      "end_frame": "shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4",
+      "visible_named_only": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "008_Shot027C",
+      "order": 8,
+      "shot": "Shot027C",
+      "id": "EP02-SC09-SHOT-Shot027C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721",
+      "model_prompt": "shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/start_frame.png",
+      "key_frame": "shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/key_frame.png",
+      "end_frame": "shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "009_Shot027D",
+      "order": 9,
+      "shot": "Shot027D",
+      "id": "EP02-SC09-SHOT-Shot027D-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721",
+      "model_prompt": "shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/start_frame.png",
+      "key_frame": "shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/key_frame.png",
+      "end_frame": "shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "010_Shot028",
+      "order": 10,
+      "shot": "Shot028",
+      "id": "EP02-SC09-SHOT-Shot028-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/010_EP02-SC09-SHOT-Shot028-V2-20260721",
+      "model_prompt": "shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/start_frame.png",
+      "key_frame": "shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/key_frame.png",
+      "end_frame": "shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [
+        {
+          "name": "Annette",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        },
+        {
+          "name": "Mercedes",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        }
+      ],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "011_Shot028B",
+      "order": 11,
+      "shot": "Shot028B",
+      "id": "EP02-SC09-SHOT-Shot028B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721",
+      "model_prompt": "shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/start_frame.png",
+      "key_frame": "shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/key_frame.png",
+      "end_frame": "shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "012_Shot028C",
+      "order": 12,
+      "shot": "Shot028C",
+      "id": "EP02-SC09-SHOT-Shot028C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721",
+      "model_prompt": "shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/start_frame.png",
+      "key_frame": "shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/key_frame.png",
+      "end_frame": "shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "013_Shot029",
+      "order": 13,
+      "shot": "Shot029",
+      "id": "EP02-SC09-SHOT-Shot029-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/013_EP02-SC09-SHOT-Shot029-V2-20260721",
+      "model_prompt": "shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/start_frame.png",
+      "key_frame": "shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/key_frame.png",
+      "end_frame": "shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4",
+      "visible_named_only": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "014_Shot029C",
+      "order": 14,
+      "shot": "Shot029C",
+      "id": "EP02-SC09-SHOT-Shot029C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721",
+      "model_prompt": "shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/start_frame.png",
+      "key_frame": "shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/key_frame.png",
+      "end_frame": "shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4",
+      "visible_named_only": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "015_Shot029D",
+      "order": 15,
+      "shot": "Shot029D",
+      "id": "EP02-SC09-SHOT-Shot029D-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721",
+      "model_prompt": "shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/start_frame.png",
+      "key_frame": "shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/key_frame.png",
+      "end_frame": "shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4",
+      "visible_named_only": [
+        "Claude",
+        "Ashe"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [
+        {
+          "name": "Ashe",
+          "status": "displaced",
+          "label": "displaced_but_active"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_flanker",
+          "label": "active_flanker"
+        }
+      ],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "016_Shot029B",
+      "order": 16,
+      "shot": "Shot029B",
+      "id": "EP02-SC09-SHOT-Shot029B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721",
+      "model_prompt": "shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/start_frame.png",
+      "key_frame": "shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/key_frame.png",
+      "end_frame": "shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4",
+      "visible_named_only": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "017_Shot030",
+      "order": 17,
+      "shot": "Shot030",
+      "id": "EP02-SC09-SHOT-Shot030-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/017_EP02-SC09-SHOT-Shot030-V2-20260721",
+      "model_prompt": "shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/start_frame.png",
+      "key_frame": "shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/key_frame.png",
+      "end_frame": "shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "018_Shot030B",
+      "order": 18,
+      "shot": "Shot030B",
+      "id": "EP02-SC09-SHOT-Shot030B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721",
+      "model_prompt": "shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/start_frame.png",
+      "key_frame": "shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/key_frame.png",
+      "end_frame": "shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "019_Shot030C",
+      "order": 19,
+      "shot": "Shot030C",
+      "id": "EP02-SC09-SHOT-Shot030C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721",
+      "model_prompt": "shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/start_frame.png",
+      "key_frame": "shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/key_frame.png",
+      "end_frame": "shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4",
+      "visible_named_only": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [
+        {
+          "name": "Annette",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        },
+        {
+          "name": "Mercedes",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        },
+        {
+          "name": "Dorothea",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        }
+      ],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "020_Shot031",
+      "order": 20,
+      "shot": "Shot031",
+      "id": "EP02-SC09-SHOT-Shot031-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/020_EP02-SC09-SHOT-Shot031-V2-20260721",
+      "model_prompt": "shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/start_frame.png",
+      "key_frame": "shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/key_frame.png",
+      "end_frame": "shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Felix"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "021_Shot031B",
+      "order": 21,
+      "shot": "Shot031B",
+      "id": "EP02-SC09-SHOT-Shot031B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721",
+      "model_prompt": "shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/start_frame.png",
+      "key_frame": "shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/key_frame.png",
+      "end_frame": "shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {},
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {},
+      "must_not_return_active_after": {},
+      "changed_this_shot": [],
+      "no_active_combat_line": "none"
+    },
+    {
+      "custom_id": "022_Shot032",
+      "order": 22,
+      "shot": "Shot032",
+      "id": "EP02-SC09-SHOT-Shot032-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/022_EP02-SC09-SHOT-Shot032-V2-20260721",
+      "model_prompt": "shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/start_frame.png",
+      "key_frame": "shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/key_frame.png",
+      "end_frame": "shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4",
+      "visible_named_only": [
+        "Dedue",
+        "Mercedes"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette"
+        ],
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Mercedes"
+        ]
+      },
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Mercedes"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Dedue",
+          "status": "restored_frontline",
+          "label": "restored_frontline"
+        },
+        {
+          "name": "Mercedes",
+          "status": "spent_after_heal",
+          "label": "spent_after_heal"
+        }
+      ],
+      "no_active_combat_line": "Mercedes"
+    },
+    {
+      "custom_id": "023_Shot032A",
+      "order": 23,
+      "shot": "Shot032A",
+      "id": "EP02-SC09-SHOT-Shot032A-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721",
+      "model_prompt": "shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/start_frame.png",
+      "key_frame": "shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/key_frame.png",
+      "end_frame": "shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Annette",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        },
+        {
+          "name": "Mercedes",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        },
+        {
+          "name": "Ashe",
+          "status": "restored_angle",
+          "label": "restored_angle"
+        },
+        {
+          "name": "Claude",
+          "status": "displaced",
+          "label": "displaced_but_active"
+        }
+      ],
+      "no_active_combat_line": "Annette, Mercedes"
+    },
+    {
+      "custom_id": "024_Shot032B",
+      "order": 24,
+      "shot": "Shot032B",
+      "id": "EP02-SC09-SHOT-Shot032B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721",
+      "model_prompt": "shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/start_frame.png",
+      "key_frame": "shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/key_frame.png",
+      "end_frame": "shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Annette, Mercedes"
+    },
+    {
+      "custom_id": "025_Shot032C",
+      "order": 25,
+      "shot": "Shot032C",
+      "id": "EP02-SC09-SHOT-Shot032C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721",
+      "model_prompt": "shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/start_frame.png",
+      "key_frame": "shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/key_frame.png",
+      "end_frame": "shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Annette, Mercedes"
+    },
+    {
+      "custom_id": "026_Shot032D",
+      "order": 26,
+      "shot": "Shot032D",
+      "id": "EP02-SC09-SHOT-Shot032D-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721",
+      "model_prompt": "shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/start_frame.png",
+      "key_frame": "shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/key_frame.png",
+      "end_frame": "shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "black_eagles": [
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Annette, Mercedes"
+    },
+    {
+      "custom_id": "027_Shot032E",
+      "order": 27,
+      "shot": "Shot032E",
+      "id": "EP02-SC09-SHOT-Shot032E-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721",
+      "model_prompt": "shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/start_frame.png",
+      "key_frame": "shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/key_frame.png",
+      "end_frame": "shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "captured_objective_defeated_after": {},
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Byleth",
+          "status": "active_available",
+          "label": "active"
+        },
+        {
+          "name": "Dimitri",
+          "status": "engaged",
+          "label": "engaged"
+        },
+        {
+          "name": "Edelgard",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        },
+        {
+          "name": "Claude",
+          "status": "displaced",
+          "label": "displaced_but_active"
+        },
+        {
+          "name": "Hilda",
+          "status": "pressured",
+          "label": "pressured_but_active"
+        }
+      ],
+      "no_active_combat_line": "Annette, Mercedes"
+    },
+    {
+      "custom_id": "028_Shot032F",
+      "order": 28,
+      "shot": "Shot032F",
+      "id": "EP02-SC09-SHOT-Shot032F-V2-20260724",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724",
+      "model_prompt": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/model_prompt.md",
+      "negative_prompt": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/negative_prompt.md",
+      "start_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/start_frame.png",
+      "key_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/key_frame.png",
+      "end_frame": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4",
+      "visible_named_only": [
+        "Felix",
+        "Ashe",
+        "Hubert"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Leonie"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe",
+          "label": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Felix",
+          "status": "captor_active",
+          "label": "captor_active"
+        },
+        {
+          "name": "Ashe",
+          "status": "captor_active",
+          "label": "captor_active"
+        }
+      ],
+      "no_active_combat_line": "Annette, Mercedes, Hubert"
+    },
+    {
+      "custom_id": "029_Shot032G",
+      "order": 29,
+      "shot": "Shot032G",
+      "id": "EP02-SC09-SHOT-Shot032G-V2-20260724",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724",
+      "model_prompt": "shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/model_prompt.md",
+      "negative_prompt": "shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/negative_prompt.md",
+      "start_frame": "shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/start_frame.png",
+      "key_frame": "shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/key_frame.png",
+      "end_frame": "shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4",
+      "visible_named_only": [
+        "Claude",
+        "Leonie",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude",
+          "label": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude",
+          "label": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Claude",
+          "status": "captor_active",
+          "label": "captor_active"
+        },
+        {
+          "name": "Leonie",
+          "status": "captor_active",
+          "label": "captor_active"
+        }
+      ],
+      "no_active_combat_line": "Annette, Mercedes, Hubert, Dorothea, Bernadetta"
+    },
+    {
+      "custom_id": "030_Shot033",
+      "order": 30,
+      "shot": "Shot033",
+      "id": "EP02-SC09-SHOT-Shot033-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/030_EP02-SC09-SHOT-Shot033-V2-20260721",
+      "model_prompt": "shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/start_frame.png",
+      "key_frame": "shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/key_frame.png",
+      "end_frame": "shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Annette, Mercedes, Hubert, Dorothea, Bernadetta"
+    },
+    {
+      "custom_id": "031_Shot033B",
+      "order": 31,
+      "shot": "Shot033B",
+      "id": "EP02-SC09-SHOT-Shot033B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721",
+      "model_prompt": "shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/start_frame.png",
+      "key_frame": "shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/key_frame.png",
+      "end_frame": "shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Annette, Mercedes, Hubert, Dorothea, Bernadetta"
+    },
+    {
+      "custom_id": "032_Shot033C",
+      "order": 32,
+      "shot": "Shot033C",
+      "id": "EP02-SC09-SHOT-Shot033C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721",
+      "model_prompt": "shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/start_frame.png",
+      "key_frame": "shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/key_frame.png",
+      "end_frame": "shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4",
+      "visible_named_only": [
+        "Ashe",
+        "Hanneman"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Hanneman",
+          "status": "objective_suppressed",
+          "label": "objective_suppressed"
+        },
+        {
+          "name": "Ashe",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        }
+      ],
+      "no_active_combat_line": "Ashe, Annette, Mercedes, Hubert, Dorothea, Bernadetta"
+    },
+    {
+      "custom_id": "033_Shot033D",
+      "order": 33,
+      "shot": "Shot033D",
+      "id": "EP02-SC09-SHOT-Shot033D-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721",
+      "model_prompt": "shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/start_frame.png",
+      "key_frame": "shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/key_frame.png",
+      "end_frame": "shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4",
+      "visible_named_only": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Manuela",
+          "status": "route_cut",
+          "label": "route_cut"
+        },
+        {
+          "name": "Ingrid",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        },
+        {
+          "name": "Sylvain",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        }
+      ],
+      "no_active_combat_line": "Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Dorothea, Bernadetta, Manuela"
+    },
+    {
+      "custom_id": "034_Shot034C",
+      "order": 34,
+      "shot": "Shot034C",
+      "id": "EP02-SC09-SHOT-Shot034C-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721",
+      "model_prompt": "shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/start_frame.png",
+      "key_frame": "shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/key_frame.png",
+      "end_frame": "shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4",
+      "visible_named_only": [
+        "Felix",
+        "Ferdinand"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Ferdinand"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Ferdinand",
+          "status": "defeated_by_route_block",
+          "label": "defeated_by_route_block"
+        },
+        {
+          "name": "Felix",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        }
+      ],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Manuela"
+    },
+    {
+      "custom_id": "035_Shot034D",
+      "order": 35,
+      "shot": "Shot034D",
+      "id": "EP02-SC09-SHOT-Shot034D-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721",
+      "model_prompt": "shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/start_frame.png",
+      "key_frame": "shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/key_frame.png",
+      "end_frame": "shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Hanneman"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ]
+      },
+      "limited_after": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Ferdinand"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Hanneman",
+          "status": "objective_defeated_off_sigil",
+          "label": "objective_defeated_off_sigil"
+        }
+      ],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Hanneman, Manuela"
+    },
+    {
+      "custom_id": "036_Shot034B",
+      "order": 36,
+      "shot": "Shot034B",
+      "id": "EP02-SC09-SHOT-Shot034B-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721",
+      "model_prompt": "shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/start_frame.png",
+      "key_frame": "shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/key_frame.png",
+      "end_frame": "shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ]
+      },
+      "limited_after": {
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Ferdinand"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Dimitri",
+          "status": "surviving_winner",
+          "label": "surviving_winner"
+        },
+        {
+          "name": "Byleth",
+          "status": "surviving_command",
+          "label": "surviving_command"
+        },
+        {
+          "name": "Hanneman",
+          "status": "objective_defeated_separate_lane",
+          "label": "objective_defeated_separate_lane"
+        },
+        {
+          "name": "Manuela",
+          "status": "route_cut_offscreen_unpaired",
+          "label": "route_cut_offscreen_unpaired"
+        }
+      ],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Hanneman, Manuela"
+    },
+    {
+      "custom_id": "037_Shot034E",
+      "order": 37,
+      "shot": "Shot034E",
+      "id": "EP02-SC09-SHOT-Shot034E-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721",
+      "model_prompt": "shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/start_frame.png",
+      "key_frame": "shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/key_frame.png",
+      "end_frame": "shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4",
+      "visible_named_only": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ]
+      },
+      "limited_after": {
+        "black_eagles": [
+          "Edelgard"
+        ]
+      },
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Claude",
+          "status": "stood_down_defeated_house",
+          "label": "stood_down_defeated_house"
+        },
+        {
+          "name": "Hilda",
+          "status": "stood_down_defeated_house",
+          "label": "stood_down_defeated_house"
+        },
+        {
+          "name": "Lorenz",
+          "status": "stood_down_defeated_house",
+          "label": "stood_down_defeated_house"
+        },
+        {
+          "name": "Ignatz",
+          "status": "stood_down_defeated_house",
+          "label": "stood_down_defeated_house"
+        },
+        {
+          "name": "Leonie",
+          "status": "stood_down_defeated_house",
+          "label": "stood_down_defeated_house"
+        }
+      ],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela"
+    },
+    {
+      "custom_id": "038_Shot034F",
+      "order": 38,
+      "shot": "Shot034F",
+      "id": "EP02-SC09-SHOT-Shot034F-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721",
+      "model_prompt": "shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/start_frame.png",
+      "key_frame": "shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/key_frame.png",
+      "end_frame": "shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4",
+      "visible_named_only": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Edelgard",
+          "status": "stood_down_defeated_house",
+          "label": "stood_down_defeated_house"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "defeated_by_route_block",
+          "label": "defeated_by_route_block"
+        }
+      ],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela"
+    },
+    {
+      "custom_id": "039_Shot034G",
+      "order": 39,
+      "shot": "Shot034G",
+      "id": "EP02-SC09-SHOT-Shot034G-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721",
+      "model_prompt": "shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/start_frame.png",
+      "key_frame": "shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/key_frame.png",
+      "end_frame": "shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Dimitri",
+          "status": "surviving_winner_exhausted",
+          "label": "surviving_winner_exhausted"
+        },
+        {
+          "name": "Dedue",
+          "status": "surviving_winner_exhausted",
+          "label": "surviving_winner_exhausted"
+        },
+        {
+          "name": "Annette",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        },
+        {
+          "name": "Mercedes",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        },
+        {
+          "name": "Sylvain",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        },
+        {
+          "name": "Ingrid",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        },
+        {
+          "name": "Ashe",
+          "status": "spent_stood_down",
+          "label": "spent_stood_down"
+        }
+      ],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela"
+    },
+    {
+      "custom_id": "040_Shot034",
+      "order": 40,
+      "shot": "Shot034",
+      "id": "EP02-SC09-SHOT-Shot034-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/040_EP02-SC09-SHOT-Shot034-V2-20260721",
+      "model_prompt": "shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/start_frame.png",
+      "key_frame": "shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/key_frame.png",
+      "end_frame": "shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela"
+    },
+    {
+      "custom_id": "041_Shot035",
+      "order": 41,
+      "shot": "Shot035",
+      "id": "EP02-SC09-SHOT-Shot035-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/041_EP02-SC09-SHOT-Shot035-V2-20260721",
+      "model_prompt": "shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/start_frame.png",
+      "key_frame": "shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/key_frame.png",
+      "end_frame": "shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela"
+    },
+    {
+      "custom_id": "042_Shot036",
+      "order": 42,
+      "shot": "Shot036",
+      "id": "EP02-SC09-SHOT-Shot036-V2-20260721",
+      "status": "monitor_required",
+      "duration_seconds": 6,
+      "package_dir": "shots/042_EP02-SC09-SHOT-Shot036-V2-20260721",
+      "model_prompt": "shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/model_prompt.md",
+      "negative_prompt": "shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/negative_prompt.md",
+      "start_frame": "shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/start_frame.png",
+      "key_frame": "shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/key_frame.png",
+      "end_frame": "shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/end_frame.png",
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth"
+      ],
+      "queue_status": "generation_pending",
+      "next_action": "Generate the initial monitored clip at expected_clip using model_prompt.md, negative_prompt.md, and the packaged start/key/end frames.",
+      "alive_safe_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "active_controlling_after": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ]
+      },
+      "limited_after": {},
+      "defeated_removed_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_objective_defeated_after": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_post_battle_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_after": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [],
+      "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela"
+    }
+  ]
+}

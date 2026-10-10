@@ -1,0 +1,18 @@
+{
+  "id": "SIBH-SH001",
+  "order": 1,
+  "status": "frames_complete",
+  "duration_seconds": 9,
+  "expected_clip": "clips/SIBH-SH001.mp4",
+  "edit_in": "cut from corridor ambience",
+  "edit_out": "cut on Ingrid saying Sylvain's name",
+  "audio_anchor": "Sylvain approaches Nian; Ingrid calls him offscreen",
+  "primary_check": "Nian appears only as the opening cameo; Sylvain is playful, not predatory; Ingrid is heard before she enters.",
+  "continuity_previous": "",
+  "continuity_next": "SIBH-SH002",
+  "reject_if": [
+    "Nian remains after SH001",
+    "Sylvain becomes predatory",
+    "readable tablet text appears"
+  ]
+}

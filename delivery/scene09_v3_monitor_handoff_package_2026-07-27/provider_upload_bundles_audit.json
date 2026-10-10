@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-01",
+  "decision": "provider_upload_bundles_ready",
+  "bundles_checked": 7,
+  "rows_checked": 42,
+  "unique_custom_ids": 42,
+  "zip_contents_checked": 7,
+  "expected_download_rows_checked": 84,
+  "manifest_digest_records_checked": 672,
+  "prompt_contract_files_checked": 84,
+  "negative_prompt_files_checked": 84,
+  "executable_negative_semantics_files_checked": 84,
+  "problems": [],
+  "manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles/provider_upload_bundles_manifest.json"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "shot_id": "BLSC04-SH001",
+    "start_time": 0,
+    "end_time": 7,
+    "duration_seconds": 7
+  },
+  {
+    "shot_id": "BLSC04-SH002",
+    "start_time": 7,
+    "end_time": 17,
+    "duration_seconds": 10
+  },
+  {
+    "shot_id": "BLSC04-SH003",
+    "start_time": 17,
+    "end_time": 26,
+    "duration_seconds": 9
+  },
+  {
+    "shot_id": "BLSC04-SH004",
+    "start_time": 26,
+    "end_time": 36,
+    "duration_seconds": 10
+  },
+  {
+    "shot_id": "BLSC04-SH005",
+    "start_time": 36,
+    "end_time": 45,
+    "duration_seconds": 9
+  },
+  {
+    "shot_id": "BLSC04-SH006",
+    "start_time": 45,
+    "end_time": 57,
+    "duration_seconds": 12
+  },
+  {
+    "shot_id": "BLSC04-SH007",
+    "start_time": 57,
+    "end_time": 68,
+    "duration_seconds": 11
+  }
+]

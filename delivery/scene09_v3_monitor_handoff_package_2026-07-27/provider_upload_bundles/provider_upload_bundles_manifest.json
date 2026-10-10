@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "date": "2026-08-15",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "status": "full_duration_upload_prepared_locked_probe_release_pending",
+  "source_package_manifest": "package_manifest.json",
+  "source_batch_manifest": "model_submission_batches/batch_manifest.json",
+  "source_battle_ledger": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json",
+  "return_contract": "provider_upload_bundles/RETURN_CONTRACT.md",
+  "total_batches": 7,
+  "total_shots": 42,
+  "bundle_policy": "Each directory and zip is self-contained for full-duration provider upload after full_duration_release_gate passes; returned mp4 files still require ingest and Codex motion QA.",
+  "bundles": [
+    {
+      "batch_id": "batch_001_shots_001-006",
+      "directory": "provider_upload_bundles/batch_001_shots_001-006",
+      "zip": "provider_upload_bundles/batch_001_shots_001-006.zip",
+      "zip_digest": {
+        "bytes": 49432936,
+        "sha256": "7aee2d15261644b07b821d70f7fad2186f0d2c6a0b66ea85566fab0cdb2c1d3e"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "001_Shot025",
+        "002_Shot025A",
+        "003_Shot026",
+        "004_Shot026B",
+        "005_Shot026C",
+        "006_Shot027"
+      ],
+      "files": 49,
+      "total_file_bytes": 50003975
+    },
+    {
+      "batch_id": "batch_002_shots_007-012",
+      "directory": "provider_upload_bundles/batch_002_shots_007-012",
+      "zip": "provider_upload_bundles/batch_002_shots_007-012.zip",
+      "zip_digest": {
+        "bytes": 46567285,
+        "sha256": "3623362342dade8498a581f480645300a907a306cd8ab4b65a8168e6c65dbe51"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "007_Shot027B",
+        "008_Shot027C",
+        "009_Shot027D",
+        "010_Shot028",
+        "011_Shot028B",
+        "012_Shot028C"
+      ],
+      "files": 49,
+      "total_file_bytes": 47129617
+    },
+    {
+      "batch_id": "batch_003_shots_013-018",
+      "directory": "provider_upload_bundles/batch_003_shots_013-018",
+      "zip": "provider_upload_bundles/batch_003_shots_013-018.zip",
+      "zip_digest": {
+        "bytes": 46511526,
+        "sha256": "933da8178b2157e80854705241bd03f1ee9bff9535141303b653e0b5d426a4d3"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "013_Shot029",
+        "014_Shot029C",
+        "015_Shot029D",
+        "016_Shot029B",
+        "017_Shot030",
+        "018_Shot030B"
+      ],
+      "files": 49,
+      "total_file_bytes": 47002678
+    },
+    {
+      "batch_id": "batch_004_shots_019-024",
+      "directory": "provider_upload_bundles/batch_004_shots_019-024",
+      "zip": "provider_upload_bundles/batch_004_shots_019-024.zip",
+      "zip_digest": {
+        "bytes": 46400185,
+        "sha256": "a57e98ba2596b5751adf30d2818ae8dcd2f327fa21b2f48af244195ec07bed78"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "019_Shot030C",
+        "020_Shot031",
+        "021_Shot031B",
+        "022_Shot032",
+        "023_Shot032A",
+        "024_Shot032B"
+      ],
+      "files": 49,
+      "total_file_bytes": 46975321
+    },
+    {
+      "batch_id": "batch_005_shots_025-030",
+      "directory": "provider_upload_bundles/batch_005_shots_025-030",
+      "zip": "provider_upload_bundles/batch_005_shots_025-030.zip",
+      "zip_digest": {
+        "bytes": 49191114,
+        "sha256": "d72241cbe2152f1568dbdaa64cf682968446feeca1afb9b62100bafdac194fbd"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "025_Shot032C",
+        "026_Shot032D",
+        "027_Shot032E",
+        "028_Shot032F",
+        "029_Shot032G",
+        "030_Shot033"
+      ],
+      "files": 49,
+      "total_file_bytes": 49790639
+    },
+    {
+      "batch_id": "batch_006_shots_031-036",
+      "directory": "provider_upload_bundles/batch_006_shots_031-036",
+      "zip": "provider_upload_bundles/batch_006_shots_031-036.zip",
+      "zip_digest": {
+        "bytes": 47931673,
+        "sha256": "3b40c95ce4c36951c0ee4e51486e9e241114de50a89f043b8588c6056f2c740c"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "031_Shot033B",
+        "032_Shot033C",
+        "033_Shot033D",
+        "034_Shot034C",
+        "035_Shot034D",
+        "036_Shot034B"
+      ],
+      "files": 49,
+      "total_file_bytes": 48548351
+    },
+    {
+      "batch_id": "batch_007_shots_037-042",
+      "directory": "provider_upload_bundles/batch_007_shots_037-042",
+      "zip": "provider_upload_bundles/batch_007_shots_037-042.zip",
+      "zip_digest": {
+        "bytes": 36921038,
+        "sha256": "be4a6c02ca93ba627e9e219f971d38dc82e748d39311f534d4582a02bb3d6b24"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "037_Shot034E",
+        "038_Shot034F",
+        "039_Shot034G",
+        "040_Shot034",
+        "041_Shot035",
+        "042_Shot036"
+      ],
+      "files": 49,
+      "total_file_bytes": 37441529
+    }
+  ]
+}

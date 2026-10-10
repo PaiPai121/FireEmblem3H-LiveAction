@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "packages_checked": 4,
+  "shots_checked": 27,
+  "frames_checked": 81,
+  "explicit_gates": {
+    "prompt_contract": "checked",
+    "dialogue_throughput": "checked",
+    "japanese_dialogue_language": "checked",
+    "no_placeholders": "checked",
+    "no_subtitles": "checked",
+    "max_shot_duration_15s": "checked",
+    "viewer_link_validation": "checked",
+    "manifest_validation": "checked",
+    "strict_continuity_gate": "checked",
+    "video_package_completion": "checked",
+    "frame_dimensions_1280x720": "checked",
+    "duplicate_anchor_frames": "checked",
+    "submission_queue_rows": "checked",
+    "web_chinese_subtitle_links": "checked",
+    "annette_mercedes_relative_height": "checked",
+    "annette_mercedes_academy_youth_v4": "checked",
+    "sylvain_mercedes_identity_v4": "checked"
+  },
+  "ai_frame_generation": {
+    "source_status_file": "AI_FRAME_GENERATION_STATUS.md",
+    "source_status": "complete",
+    "legacy_source_imagegen_shots": 16,
+    "timing_safe_delivery_shots": 27,
+    "timing_safe_delivery_frames": 81,
+    "frame_format": "1280x720 start/key/end anchors, split from regenerated raw_widescreen_sheet.png storyboard sheets; no artificial side fill"
+  },
+  "problems": []
+}

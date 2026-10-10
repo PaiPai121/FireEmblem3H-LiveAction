@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "date": "2026-08-15",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "status": "motion_self_audit_packet_ready_clips_pending",
+  "source_motion_decisions": "production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_decisions_2026-07-28.json",
+  "source_battle_ledger": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json",
+  "rows": 42,
+  "files": {
+    "readme": "motion_self_audit/README.md",
+    "matrix_csv": "motion_self_audit/motion_self_audit_matrix.csv",
+    "decision_update_template_jsonl": "motion_self_audit/decision_update_template.jsonl"
+  }
+}

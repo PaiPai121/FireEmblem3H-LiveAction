@@ -1,0 +1,105 @@
+{
+  "project": "blue_lions_support_comedy",
+  "artifacts": [
+    {
+      "type": "project_bible",
+      "stage": "project_bible",
+      "path": "project_bible.md"
+    },
+    {
+      "type": "outline",
+      "stage": "writing",
+      "path": "outline.md"
+    },
+    {
+      "type": "director_treatment",
+      "stage": "director_treatment",
+      "path": "director_treatment.md"
+    },
+    {
+      "type": "shot_list",
+      "stage": "shot_list",
+      "path": "shot_list.md"
+    },
+    {
+      "type": "script_scene",
+      "stage": "writing",
+      "path": "EP01_dedue_ashe_c/script.md"
+    },
+    {
+      "type": "source_audit",
+      "stage": "source_review",
+      "path": "EP01_dedue_ashe_c/source_audit.md"
+    },
+    {
+      "type": "asset_viewer",
+      "stage": "web_preview",
+      "path": "EP01_dedue_ashe_c/delivery/video_generation_package_2026-08-02_EP01_dedue_ashe_c_timing_safe_v2/asset_viewer.html"
+    },
+    {
+      "type": "dialogue_timing_audit",
+      "stage": "video_prompt_qa",
+      "path": "EP01_dedue_ashe_c/delivery/video_generation_package_2026-08-02_EP01_dedue_ashe_c_timing_safe_v2/dialogue_timing_audit.md"
+    },
+    {
+      "type": "script_scene",
+      "stage": "writing",
+      "path": "EP02_annette_mercedes_c/script.md"
+    },
+    {
+      "type": "source_audit",
+      "stage": "source_review",
+      "path": "EP02_annette_mercedes_c/source_audit.md"
+    },
+    {
+      "type": "asset_viewer",
+      "stage": "web_preview",
+      "path": "EP02_annette_mercedes_c/delivery/video_generation_package_2026-08-02_EP02_annette_mercedes_c_timing_safe_v2/asset_viewer.html"
+    },
+    {
+      "type": "dialogue_timing_audit",
+      "stage": "video_prompt_qa",
+      "path": "EP02_annette_mercedes_c/delivery/video_generation_package_2026-08-02_EP02_annette_mercedes_c_timing_safe_v2/dialogue_timing_audit.md"
+    },
+    {
+      "type": "script_scene",
+      "stage": "writing",
+      "path": "EP03_felix_sylvain_c/script.md"
+    },
+    {
+      "type": "source_audit",
+      "stage": "source_review",
+      "path": "EP03_felix_sylvain_c/source_audit.md"
+    },
+    {
+      "type": "asset_viewer",
+      "stage": "web_preview",
+      "path": "EP03_felix_sylvain_c/delivery/video_generation_package_2026-08-02_EP03_felix_sylvain_c_timing_safe_v2/asset_viewer.html"
+    },
+    {
+      "type": "dialogue_timing_audit",
+      "stage": "video_prompt_qa",
+      "path": "EP03_felix_sylvain_c/delivery/video_generation_package_2026-08-02_EP03_felix_sylvain_c_timing_safe_v2/dialogue_timing_audit.md"
+    },
+    {
+      "type": "script_scene",
+      "stage": "writing",
+      "path": "EP04_sylvain_mercedes_c/script.md"
+    },
+    {
+      "type": "source_audit",
+      "stage": "source_review",
+      "path": "EP04_sylvain_mercedes_c/source_audit.md"
+    },
+    {
+      "type": "asset_viewer",
+      "stage": "web_preview",
+      "path": "EP04_sylvain_mercedes_c/delivery/video_generation_package_2026-08-02_EP04_sylvain_mercedes_c_timing_safe_v2/asset_viewer.html"
+    },
+    {
+      "type": "dialogue_timing_audit",
+      "stage": "video_prompt_qa",
+      "path": "EP04_sylvain_mercedes_c/delivery/video_generation_package_2026-08-02_EP04_sylvain_mercedes_c_timing_safe_v2/dialogue_timing_audit.md"
+    }
+  ]
+}

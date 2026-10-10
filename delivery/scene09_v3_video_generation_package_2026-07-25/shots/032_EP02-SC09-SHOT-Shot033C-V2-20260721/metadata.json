@@ -1,0 +1,30 @@
+{
+  "id": "EP02-SC09-SHOT-Shot033C-V2-20260721",
+  "order": 32,
+  "status": "approved_for_video",
+  "duration_seconds": 6,
+  "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4",
+  "edit_in": "use start_frame as first generated frame; preserve the declared screen direction and readable named-only roster",
+  "edit_out": "hold end_frame state for final 0.5 seconds; reject generated clips that do not land on this state",
+  "audio_anchor": "Hanneman: \"哦？先封我的角度.\"",
+  "continuity_previous": "EP02-SC09-SHOT-Shot033B-V2-20260721",
+  "continuity_next": "EP02-SC09-SHOT-Shot033D-V2-20260721",
+  "model_notes": [
+    "V3 attrition prompt package; use this instead of old V2 motion_test_prompts.",
+    "Approved for video-model generation from this frame/prompt package; generated clips still require motion QA before final edit delivery.",
+    "No unnamed extras; captured characters must not reappear, and spent, stood-down, or defeated characters must not reappear as active combatants.",
+    "Nonlethal Garreg Mach mock-battle tone with training weapons only."
+  ],
+  "reject_if": [
+    "Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.",
+    "Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.",
+    "Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.",
+    "Reject if any face, age, costume, house color, or weapon changes from the input frames and named references.",
+    "Reject if the action becomes lethal, bloody, humiliating, or unrelated to the start/key/end chain.",
+    "any readable named character becomes a generic adult mannequin or wrong-age student.",
+    "any combat character faces the camera while their threat or route is elsewhere.",
+    "extra anonymous fighters appear in readable foreground or confuse house lanes.",
+    "the scene becomes lethal, bloody, or humiliating for any house.",
+    "weapon locks are broken: Ashe: training bow; Hanneman: faculty spell gesture."
+  ]
+}

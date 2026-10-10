@@ -1,0 +1,63 @@
+{
+  "shot_id": "BLSC02-SH003",
+  "order": 3,
+  "title": "Unfinished Question",
+  "duration_seconds": 15,
+  "status": "approved_for_video",
+  "support_pair": "Annette x Mercedes",
+  "support_rank": "C",
+  "source": [
+    "https://fireemblem.fandom.com/wiki/Annette/Supports#With_Mercedes",
+    "https://fireemblem.fandom.com/wiki/Mercedes/Supports#With_Annette"
+  ],
+  "dialogue_policy": "lightly bridged adapted English; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "characters": [
+    "Annette",
+    "Mercedes"
+  ],
+  "cameo": "Chen",
+  "location_reference": "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+  "character_references": {
+    "Annette": "assets/characters/blue_lions/Annette/academy/selected.png",
+    "Mercedes": "assets/characters/blue_lions/Mercedes/academy/selected.png"
+  },
+  "identity_locks": {
+    "Annette": "Academy-era Annette: young orange-haired magic student, bright hardworking face, Blue Lions uniform with learner details, energetic and easily flustered, never childish, never mature adult.",
+    "Mercedes": "Academy-era Mercedes: gentle young blonde healer, soft refined face, side-swept bangs, black-gold hair ribbon, white high collar, blue-black Blue Lions uniform with beige shoulder detail, warm sisterly presence, never nun-like elderly."
+  },
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "dialogue": [
+    {
+      "speaker": "Annette",
+      "text": "But there is one thing that hasn't changed, right? You and me...",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "Of course, Annie. I was just going to say--",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "Oh! Someone is coming this way.",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "bridge_actions": [
+    {
+      "policy": "silent_action_bridge",
+      "text": "Mercedes lifts one hand as if to reassure her."
+    },
+    {
+      "policy": "silent_action_bridge",
+      "text": "Both turn at the same time."
+    }
+  ],
+  "no_subtitles": true,
+  "expected_clip": "clips/BLSC02-SH003.mp4"
+}

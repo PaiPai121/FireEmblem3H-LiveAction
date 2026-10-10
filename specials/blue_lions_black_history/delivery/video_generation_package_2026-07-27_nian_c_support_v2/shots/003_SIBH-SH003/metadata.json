@@ -1,0 +1,24 @@
+{
+  "id": "SIBH-SH003",
+  "order": 3,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH003.mp4",
+  "edit_in": "from Ingrid's apology-history line",
+  "edit_out": "cut on Sylvain lowering his voice",
+  "audio_anchor": "old friend accountability and grandmother incident",
+  "continuity_previous": "SIBH-SH002",
+  "continuity_next": "SIBH-SH004",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+    "Nian must not appear in this shot."
+  ],
+  "reject_if": [
+    "Ingrid becomes cruel",
+    "Sylvain becomes angry",
+    "Nian reappears"
+  ],
+  "primary_check": "The old-friend black-history beat lands; Ingrid stays calm, Sylvain gets embarrassed, and Nian does not reappear."
+}

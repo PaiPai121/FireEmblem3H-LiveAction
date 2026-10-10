@@ -1,0 +1,24 @@
+{
+  "id": "SIBH-SH002",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH002.mp4",
+  "edit_in": "from Ingrid's offscreen line",
+  "edit_out": "cut as Ingrid invokes apology history",
+  "audio_anchor": "Ingrid catches Sylvain after Nian has left",
+  "continuity_previous": "SIBH-SH001",
+  "continuity_next": "SIBH-SH003",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+    "Nian must not appear in this shot."
+  ],
+  "reject_if": [
+    "Nian is still visible",
+    "Ingrid reads as jealous",
+    "Sylvain flirts with Ingrid"
+  ],
+  "primary_check": "Nian is gone; Ingrid reads as a youthful strict friend, not jealous; Sylvain pivots from charm to damage control."
+}

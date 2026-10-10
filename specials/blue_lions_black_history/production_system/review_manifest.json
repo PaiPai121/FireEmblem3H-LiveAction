@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "artifact_id": "SIBH-SCRIPT",
+      "review_id": "review-2026-07-26-story",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "scene_purpose": "pass",
+        "conflict": "pass",
+        "emotional_turn": "pass",
+        "character_choice": "pass",
+        "visible_action": "pass",
+        "dialogue_subtext": "pass",
+        "continuity_hooks": "pass",
+        "canon_fidelity": "pass"
+      },
+      "reviewed_paths": [
+        "outline.md",
+        "script.md",
+        "dialogue_audio_beats.md"
+      ],
+      "notes": "Scene has a clear comic reversal from lesson to cautionary example and preserves Sylvain/Ingrid familiarity without copying full support text."
+    },
+    {
+      "artifact_id": "SIBH-DIRECTOR-TREATMENT",
+      "review_id": "review-2026-07-26-direction",
+      "reviewer_role": "direction-reviewer-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "camera_motivation": "pass",
+        "blocking": "pass",
+        "tone_control": "pass",
+        "performance_direction": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "director_treatment.md"
+      ],
+      "notes": "Single-corridor staging is economical. Motion and lip-sync still require monitoring after frame/video generation."
+    },
+    {
+      "artifact_id": "SIBH-SHOT-LIST",
+      "review_id": "review-2026-07-26-shotlist",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "shot_purpose": "pass",
+        "action_peak": "pass",
+        "start_key_end_chain": "pass",
+        "identity_locks": "pass",
+        "screen_direction": "pass",
+        "blocking": "pass",
+        "camera_motivation": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "shot_list.md"
+      ],
+      "notes": "Five-shot structure supports the 60-second joke and keeps extra students implied to reduce generation risk."
+    },
+    {
+      "artifact_id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-26-prompt-asset-package",
+      "reviewer_role": "video-prompt-qa-agent",
+      "reviewer": "codex-video-prompt-reviewer",
+      "created_at": "2026-07-26",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "Actual start/key/end frame images have not been generated yet."
+      ],
+      "required_revisions": [
+        "Generate start/key/end frames for all five shots.",
+        "Run visual review against generated frame chains.",
+        "Promote shots to approved_for_video only after frame QA and strict continuity pass."
+      ],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_lock": "pending_real_frames",
+        "motion_camera_performance": "pass",
+        "continuity_edit_fit": "pass",
+        "negative_prompt": "pass"
+      },
+      "reviewed_paths": [
+        "prompt_asset_package_manifest.json",
+        "frame_generation_queue.md",
+        "video_prompts/SIBH-SH001.md",
+        "video_prompts/SIBH-SH001_negative.md",
+        "video_prompts/SIBH-SH002.md",
+        "video_prompts/SIBH-SH002_negative.md",
+        "video_prompts/SIBH-SH003.md",
+        "video_prompts/SIBH-SH003_negative.md",
+        "video_prompts/SIBH-SH004.md",
+        "video_prompts/SIBH-SH004_negative.md",
+        "video_prompts/SIBH-SH005.md",
+        "video_prompts/SIBH-SH005_negative.md"
+      ],
+      "notes": "Prompts are structurally ready for frame generation and later Seedance-oriented video work, but final video package is blocked until real frame assets exist."
+    },
+    {
+      "artifact_id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-26-generated-frame-visual-audit",
+      "reviewer_role": "visual-material-auditor-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "identity_preservation": "pass",
+        "setting_continuity": "pass",
+        "prop_continuity": "pass",
+        "no_subtitles_or_readable_text": "pass",
+        "cast_control": "pass",
+        "tone_control": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards/SIBH-SH001/start_frame.png",
+        "storyboards/SIBH-SH001/key_frame.png",
+        "storyboards/SIBH-SH001/end_frame.png",
+        "storyboards/SIBH-SH002/start_frame.png",
+        "storyboards/SIBH-SH002/key_frame.png",
+        "storyboards/SIBH-SH002/end_frame.png",
+        "storyboards/SIBH-SH003/start_frame.png",
+        "storyboards/SIBH-SH003/key_frame.png",
+        "storyboards/SIBH-SH003/end_frame.png",
+        "storyboards/SIBH-SH004/start_frame.png",
+        "storyboards/SIBH-SH004/key_frame.png",
+        "storyboards/SIBH-SH004/end_frame.png",
+        "storyboards/SIBH-SH005/start_frame.png",
+        "storyboards/SIBH-SH005/key_frame.png",
+        "storyboards/SIBH-SH005/end_frame.png",
+        "production_system/reviews/visual_contact_sheet_2026-07-26.jpg",
+        "production_system/reviews/visual_audit_generated_frames_2026-07-26.md"
+      ],
+      "notes": "Generated frames are approved for video generation. Watch Sylvain uniform-detail drift and dialogue lip-sync in clip QA."
+    },
+    {
+      "artifact_id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-26-video-prompt-qa-final",
+      "reviewer_role": "video-prompt-qa-agent",
+      "reviewer": "codex-video-prompt-reviewer",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "dialogue_lines": "pass",
+        "negative_prompt": "pass",
+        "frame_lock": "pass",
+        "model_target_fit": "pass"
+      },
+      "reviewed_paths": [
+        "video_prompts/SIBH-SH001.md",
+        "video_prompts/SIBH-SH001_negative.md",
+        "video_prompts/SIBH-SH002.md",
+        "video_prompts/SIBH-SH002_negative.md",
+        "video_prompts/SIBH-SH003.md",
+        "video_prompts/SIBH-SH003_negative.md",
+        "video_prompts/SIBH-SH004.md",
+        "video_prompts/SIBH-SH004_negative.md",
+        "video_prompts/SIBH-SH005.md",
+        "video_prompts/SIBH-SH005_negative.md",
+        "production_system/reviews/video_prompt_qa_2026-07-26.md"
+      ],
+      "notes": "All prompts include Japanese dialogue lines and no-subtitle instructions; package is Seedance-oriented."
+    },
+    {
+      "artifact_id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-26-strict-continuity",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "screen_direction": "pass",
+        "identity": "pass",
+        "setting": "pass",
+        "prop_bridge": "pass",
+        "extra_character_control": "pass"
+      },
+      "reviewed_paths": [
+        "production_system/continuity_manifest.json",
+        "production_system/reviews/strict_continuity_review_2026-07-26.md"
+      ],
+      "notes": "Strict continuity pass after generated frames; ready for package build."
+    },
+    {
+      "artifact_id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-27-nian-c-support-visual-audit",
+      "reviewer_role": "visual-material-auditor-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "identity_preservation": "pass",
+        "ingrid_youthfulness": "pass",
+        "setting_continuity": "pass",
+        "cast_control": "pass",
+        "no_subtitles_or_readable_text": "pass",
+        "tone_control": "pass"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/visual_contact_sheet_2026-07-27_nian_c_support_v2.jpg",
+        "storyboards/SIBH-SH001/start_frame.png",
+        "storyboards/SIBH-SH002/start_frame.png",
+        "storyboards/SIBH-SH003/start_frame.png",
+        "storyboards/SIBH-SH004/start_frame.png",
+        "storyboards/SIBH-SH005/start_frame.png",
+        "storyboards/SIBH-SH001/key_frame.png",
+        "storyboards/SIBH-SH002/key_frame.png",
+        "storyboards/SIBH-SH003/key_frame.png",
+        "storyboards/SIBH-SH004/key_frame.png",
+        "storyboards/SIBH-SH005/key_frame.png",
+        "storyboards/SIBH-SH001/end_frame.png",
+        "storyboards/SIBH-SH002/end_frame.png",
+        "storyboards/SIBH-SH003/end_frame.png",
+        "storyboards/SIBH-SH004/end_frame.png",
+        "storyboards/SIBH-SH005/end_frame.png",
+        "production_system/reviews/visual_audit_nian_c_support_v2_2026-07-27.md"
+      ],
+      "notes": "All five storyboard frame chains are approved for Seedance video generation; Nian appears only in SH001 and Ingrid remains youthful in the subsequent support recreation."
+    },
+    {
+      "artifact_id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-27-nian-c-support-prompt-qa",
+      "reviewer_role": "video-prompt-qa-agent",
+      "reviewer": "codex-video-prompt-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "dialogue_lines": "pass",
+        "negative_prompt": "pass",
+        "frame_lock": "pass",
+        "model_target_fit": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": [
+        "video_prompts/SIBH-SH001.md",
+        "video_prompts/SIBH-SH001_negative.md",
+        "video_prompts/SIBH-SH002.md",
+        "video_prompts/SIBH-SH002_negative.md",
+        "video_prompts/SIBH-SH003.md",
+        "video_prompts/SIBH-SH003_negative.md",
+        "video_prompts/SIBH-SH004.md",
+        "video_prompts/SIBH-SH004_negative.md",
+        "video_prompts/SIBH-SH005.md",
+        "video_prompts/SIBH-SH005_negative.md",
+        "production_system/reviews/video_prompt_qa_nian_c_support_v2_2026-07-27.md"
+      ],
+      "notes": "Prompts are Seedance-oriented, include Japanese adapted dialogue lines, and explicitly ban subtitles and Nian after SH001."
+    },
+    {
+      "artifact_id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-27-nian-c-support-continuity",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "screen_direction": "pass",
+        "identity": "pass",
+        "setting": "pass",
+        "prop_bridge": "pass",
+        "nian_exit": "pass",
+        "extra_character_control": "pass"
+      },
+      "reviewed_paths": [
+        "production_system/continuity_manifest.json",
+        "production_system/reviews/strict_continuity_nian_c_support_v2_2026-07-27.md"
+      ],
+      "notes": "Strict adjacent-shot continuity approved for the five-shot C-support recreation."
+    }
+  ]
+}

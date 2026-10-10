@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Scene09 探针提交/回收追踪表</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f6f7fb; }
+    main { max-width: 1380px; margin: 0 auto; padding: 24px; }
+    h1 { margin: 0 0 8px; font-size: 24px; }
+    p { color: #5f6b7a; line-height: 1.5; }
+    .stats, .batches { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 18px 0; }
+    .card { border: 1px solid #d7deea; border-radius: 8px; padding: 12px; background: white; }
+    .card strong { display: block; font-size: 20px; }
+    .card span, .card small { color: #5f6b7a; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
+    table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #d7deea; }
+    th, td { padding: 8px 9px; border-bottom: 1px solid #e7ecf4; text-align: left; vertical-align: top; font-size: 12px; }
+    th { position: sticky; top: 0; background: #eef3fa; z-index: 1; }
+    code, a { overflow-wrap: anywhere; }
+    .missing { color: #9a3412; font-weight: 800; }
+    .present { color: #166534; font-weight: 800; }
+    @media (max-width: 900px) { .stats, .batches { grid-template-columns: 1fr; } main { padding: 14px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Scene09 探针提交/回收追踪表</h1>
+  <p>用于外部 3 秒运动探针提交与回收。先提交 7 个 zip；返回 mp4 后按批次放入对应 returned_mp4 目录，先执行 dry-run，再 apply。当前表只追踪探针，不放行全时长生成。</p>
+  <section class="stats">
+    <div class="card"><strong>motion_probe_operator_tracker_ready_clips_pending</strong><span>Decision</span></div>
+    <div class="card"><strong>42</strong><span>Expected probe rows</span></div>
+    <div class="card"><strong>0/42</strong><span>Returned mp4 ready</span></div>
+    <div class="card"><strong>0/42</strong><span>Ingested probe ready</span></div>
+  </section>
+  <section class="batches">
+    
+      <div class="card">
+        <strong>probe_batch_001_shots_001-006</strong>
+        <span>001_Shot025_probe - 006_Shot027_probe</span><br>
+        <small>48.6 MB · returned 0/6</small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/probe_batch_001_shots_001-006.zip">probe_batch_001_shots_001-006.zip</a></small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4">returned_mp4</a></small>
+      </div>
+    
+      <div class="card">
+        <strong>probe_batch_002_shots_007-012</strong>
+        <span>007_Shot027B_probe - 012_Shot028C_probe</span><br>
+        <small>44.2 MB · returned 0/6</small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/probe_batch_002_shots_007-012.zip">probe_batch_002_shots_007-012.zip</a></small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4">returned_mp4</a></small>
+      </div>
+    
+      <div class="card">
+        <strong>probe_batch_003_shots_013-018</strong>
+        <span>013_Shot029_probe - 018_Shot030B_probe</span><br>
+        <small>44.5 MB · returned 0/6</small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/probe_batch_003_shots_013-018.zip">probe_batch_003_shots_013-018.zip</a></small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4">returned_mp4</a></small>
+      </div>
+    
+      <div class="card">
+        <strong>probe_batch_004_shots_019-024</strong>
+        <span>019_Shot030C_probe - 024_Shot032B_probe</span><br>
+        <small>43.1 MB · returned 0/6</small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/probe_batch_004_shots_019-024.zip">probe_batch_004_shots_019-024.zip</a></small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4">returned_mp4</a></small>
+      </div>
+    
+      <div class="card">
+        <strong>probe_batch_005_shots_025-030</strong>
+        <span>025_Shot032C_probe - 030_Shot033_probe</span><br>
+        <small>45.4 MB · returned 0/6</small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/probe_batch_005_shots_025-030.zip">probe_batch_005_shots_025-030.zip</a></small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4">returned_mp4</a></small>
+      </div>
+    
+      <div class="card">
+        <strong>probe_batch_006_shots_031-036</strong>
+        <span>031_Shot033B_probe - 036_Shot034B_probe</span><br>
+        <small>44.9 MB · returned 0/6</small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/probe_batch_006_shots_031-036.zip">probe_batch_006_shots_031-036.zip</a></small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4">returned_mp4</a></small>
+      </div>
+    
+      <div class="card">
+        <strong>probe_batch_007_shots_037-042</strong>
+        <span>037_Shot034E_probe - 042_Shot036_probe</span><br>
+        <small>38.7 MB · returned 0/6</small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/probe_batch_007_shots_037-042.zip">probe_batch_007_shots_037-042.zip</a></small><br>
+        <small><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4">returned_mp4</a></small>
+      </div>
+    
+  </section>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Batch</th>
+        <th>Shot</th>
+        <th>Expected Filename</th>
+        <th>Return</th>
+        <th>Ingest</th>
+        <th>Return Dir</th>
+        <th>Dry Run</th>
+        <th>No Active Combat</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td>1</td>
+          <td>probe_batch_001_shots_001-006<br><code>001_Shot025_probe</code></td>
+          <td>Shot025</td>
+          <td><code>01_Shot025_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>2</td>
+          <td>probe_batch_001_shots_001-006<br><code>002_Shot025A_probe</code></td>
+          <td>Shot025A</td>
+          <td><code>02_Shot025A_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>3</td>
+          <td>probe_batch_001_shots_001-006<br><code>003_Shot026_probe</code></td>
+          <td>Shot026</td>
+          <td><code>03_Shot026_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>4</td>
+          <td>probe_batch_001_shots_001-006<br><code>004_Shot026B_probe</code></td>
+          <td>Shot026B</td>
+          <td><code>04_Shot026B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>5</td>
+          <td>probe_batch_001_shots_001-006<br><code>005_Shot026C_probe</code></td>
+          <td>Shot026C</td>
+          <td><code>05_Shot026C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>6</td>
+          <td>probe_batch_001_shots_001-006<br><code>006_Shot027_probe</code></td>
+          <td>Shot027</td>
+          <td><code>06_Shot027_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_001_shots_001-006_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>7</td>
+          <td>probe_batch_002_shots_007-012<br><code>007_Shot027B_probe</code></td>
+          <td>Shot027B</td>
+          <td><code>07_Shot027B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>8</td>
+          <td>probe_batch_002_shots_007-012<br><code>008_Shot027C_probe</code></td>
+          <td>Shot027C</td>
+          <td><code>08_Shot027C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>9</td>
+          <td>probe_batch_002_shots_007-012<br><code>009_Shot027D_probe</code></td>
+          <td>Shot027D</td>
+          <td><code>09_Shot027D_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>10</td>
+          <td>probe_batch_002_shots_007-012<br><code>010_Shot028_probe</code></td>
+          <td>Shot028</td>
+          <td><code>10_Shot028_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>11</td>
+          <td>probe_batch_002_shots_007-012<br><code>011_Shot028B_probe</code></td>
+          <td>Shot028B</td>
+          <td><code>11_Shot028B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>12</td>
+          <td>probe_batch_002_shots_007-012<br><code>012_Shot028C_probe</code></td>
+          <td>Shot028C</td>
+          <td><code>12_Shot028C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_002_shots_007-012_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>13</td>
+          <td>probe_batch_003_shots_013-018<br><code>013_Shot029_probe</code></td>
+          <td>Shot029</td>
+          <td><code>13_Shot029_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>14</td>
+          <td>probe_batch_003_shots_013-018<br><code>014_Shot029C_probe</code></td>
+          <td>Shot029C</td>
+          <td><code>14_Shot029C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>15</td>
+          <td>probe_batch_003_shots_013-018<br><code>015_Shot029D_probe</code></td>
+          <td>Shot029D</td>
+          <td><code>15_Shot029D_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>16</td>
+          <td>probe_batch_003_shots_013-018<br><code>016_Shot029B_probe</code></td>
+          <td>Shot029B</td>
+          <td><code>16_Shot029B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>17</td>
+          <td>probe_batch_003_shots_013-018<br><code>017_Shot030_probe</code></td>
+          <td>Shot030</td>
+          <td><code>17_Shot030_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>18</td>
+          <td>probe_batch_003_shots_013-018<br><code>018_Shot030B_probe</code></td>
+          <td>Shot030B</td>
+          <td><code>18_Shot030B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_003_shots_013-018_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>19</td>
+          <td>probe_batch_004_shots_019-024<br><code>019_Shot030C_probe</code></td>
+          <td>Shot030C</td>
+          <td><code>19_Shot030C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>20</td>
+          <td>probe_batch_004_shots_019-024<br><code>020_Shot031_probe</code></td>
+          <td>Shot031</td>
+          <td><code>20_Shot031_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>21</td>
+          <td>probe_batch_004_shots_019-024<br><code>021_Shot031B_probe</code></td>
+          <td>Shot031B</td>
+          <td><code>21_Shot031B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4 --dry-run</code></td>
+          <td>none</td>
+        </tr>
+      
+        <tr>
+          <td>22</td>
+          <td>probe_batch_004_shots_019-024<br><code>022_Shot032_probe</code></td>
+          <td>Shot032</td>
+          <td><code>22_Shot032_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4 --dry-run</code></td>
+          <td>Mercedes</td>
+        </tr>
+      
+        <tr>
+          <td>23</td>
+          <td>probe_batch_004_shots_019-024<br><code>023_Shot032A_probe</code></td>
+          <td>Shot032A</td>
+          <td><code>23_Shot032A_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes</td>
+        </tr>
+      
+        <tr>
+          <td>24</td>
+          <td>probe_batch_004_shots_019-024<br><code>024_Shot032B_probe</code></td>
+          <td>Shot032B</td>
+          <td><code>24_Shot032B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_004_shots_019-024_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes</td>
+        </tr>
+      
+        <tr>
+          <td>25</td>
+          <td>probe_batch_005_shots_025-030<br><code>025_Shot032C_probe</code></td>
+          <td>Shot032C</td>
+          <td><code>25_Shot032C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes</td>
+        </tr>
+      
+        <tr>
+          <td>26</td>
+          <td>probe_batch_005_shots_025-030<br><code>026_Shot032D_probe</code></td>
+          <td>Shot032D</td>
+          <td><code>26_Shot032D_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes</td>
+        </tr>
+      
+        <tr>
+          <td>27</td>
+          <td>probe_batch_005_shots_025-030<br><code>027_Shot032E_probe</code></td>
+          <td>Shot032E</td>
+          <td><code>27_Shot032E_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes</td>
+        </tr>
+      
+        <tr>
+          <td>28</td>
+          <td>probe_batch_005_shots_025-030<br><code>028_Shot032F_probe</code></td>
+          <td>Shot032F</td>
+          <td><code>28_Shot032F_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes, Hubert</td>
+        </tr>
+      
+        <tr>
+          <td>29</td>
+          <td>probe_batch_005_shots_025-030<br><code>029_Shot032G_probe</code></td>
+          <td>Shot032G</td>
+          <td><code>29_Shot032G_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes, Hubert, Dorothea, Bernadetta</td>
+        </tr>
+      
+        <tr>
+          <td>30</td>
+          <td>probe_batch_005_shots_025-030<br><code>030_Shot033_probe</code></td>
+          <td>Shot033</td>
+          <td><code>30_Shot033_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_005_shots_025-030_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes, Hubert, Dorothea, Bernadetta</td>
+        </tr>
+      
+        <tr>
+          <td>31</td>
+          <td>probe_batch_006_shots_031-036<br><code>031_Shot033B_probe</code></td>
+          <td>Shot033B</td>
+          <td><code>31_Shot033B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4 --dry-run</code></td>
+          <td>Annette, Mercedes, Hubert, Dorothea, Bernadetta</td>
+        </tr>
+      
+        <tr>
+          <td>32</td>
+          <td>probe_batch_006_shots_031-036<br><code>032_Shot033C_probe</code></td>
+          <td>Shot033C</td>
+          <td><code>32_Shot033C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4 --dry-run</code></td>
+          <td>Ashe, Annette, Mercedes, Hubert, Dorothea, Bernadetta</td>
+        </tr>
+      
+        <tr>
+          <td>33</td>
+          <td>probe_batch_006_shots_031-036<br><code>033_Shot033D_probe</code></td>
+          <td>Shot033D</td>
+          <td><code>33_Shot033D_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4 --dry-run</code></td>
+          <td>Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Dorothea, Bernadetta, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>34</td>
+          <td>probe_batch_006_shots_031-036<br><code>034_Shot034C_probe</code></td>
+          <td>Shot034C</td>
+          <td><code>34_Shot034C_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>35</td>
+          <td>probe_batch_006_shots_031-036<br><code>035_Shot034D_probe</code></td>
+          <td>Shot034D</td>
+          <td><code>35_Shot034D_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Hanneman, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>36</td>
+          <td>probe_batch_006_shots_031-036<br><code>036_Shot034B_probe</code></td>
+          <td>Shot034B</td>
+          <td><code>36_Shot034B_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_006_shots_031-036_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Hanneman, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>37</td>
+          <td>probe_batch_007_shots_037-042<br><code>037_Shot034E_probe</code></td>
+          <td>Shot034E</td>
+          <td><code>37_Shot034E_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>38</td>
+          <td>probe_batch_007_shots_037-042<br><code>038_Shot034F_probe</code></td>
+          <td>Shot034F</td>
+          <td><code>38_Shot034F_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>39</td>
+          <td>probe_batch_007_shots_037-042<br><code>039_Shot034G_probe</code></td>
+          <td>Shot034G</td>
+          <td><code>39_Shot034G_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>40</td>
+          <td>probe_batch_007_shots_037-042<br><code>040_Shot034_probe</code></td>
+          <td>Shot034</td>
+          <td><code>40_Shot034_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>41</td>
+          <td>probe_batch_007_shots_037-042<br><code>041_Shot035_probe</code></td>
+          <td>Shot035</td>
+          <td><code>41_Shot035_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela</td>
+        </tr>
+      
+        <tr>
+          <td>42</td>
+          <td>probe_batch_007_shots_037-042<br><code>042_Shot036_probe</code></td>
+          <td>Shot036</td>
+          <td><code>42_Shot036_probe.mp4</code></td>
+          <td class="missing">returned_mp4_missing</td>
+          <td class="missing">ingested_probe_missing</td>
+          <td><a href="delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4">delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4</a></td>
+          <td><code>node scripts/ingest_scene09_v3_motion_probe_clips.js --input delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/probe_batch_007_shots_037-042_returns/returned_mp4 --dry-run</code></td>
+          <td>Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta, Claude, Hilda, Lorenz, Ignatz, Leonie, Hanneman, Manuela</td>
+        </tr>
+      
+    </tbody>
+  </table>
+</main>
+</body>
+</html>

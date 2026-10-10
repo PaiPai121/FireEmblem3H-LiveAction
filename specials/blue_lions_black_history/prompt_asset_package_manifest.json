@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "project": "blue_lions_black_history",
+  "package_id": "prompt_asset_package_2026-07-27_nian_c_support_v2",
+  "status": "approved_for_video",
+  "total_shots": 5,
+  "total_duration_seconds": 60,
+  "target_model_profile": "Seedance image-to-video, start/key/end frame guided, no subtitles",
+  "character_assets": {
+    "Sylvain": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+    "Ingrid": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+    "Nian": "assets/characters/arknights_live_action/Nian/candidates_reference_v5/candidate_01.png"
+  },
+  "location_assets": [
+    "assets/locations/EP02/act01/DormitoryCorridor/DormitoryCorridor_reference.png",
+    "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png"
+  ],
+  "shots": [
+    {
+      "id": "SIBH-SH001",
+      "order": 1,
+      "duration_seconds": 9,
+      "frame_spec": "storyboards/SIBH-SH001/frame_spec.md",
+      "prompt_path": "video_prompts/SIBH-SH001.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH001_negative.md",
+      "start_frame": "storyboards/SIBH-SH001/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH001/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH001/end_frame.png",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "SIBH-SH002",
+      "order": 2,
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/SIBH-SH002/frame_spec.md",
+      "prompt_path": "video_prompts/SIBH-SH002.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH002_negative.md",
+      "start_frame": "storyboards/SIBH-SH002/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH002/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH002/end_frame.png",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "SIBH-SH003",
+      "order": 3,
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/SIBH-SH003/frame_spec.md",
+      "prompt_path": "video_prompts/SIBH-SH003.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH003_negative.md",
+      "start_frame": "storyboards/SIBH-SH003/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH003/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH003/end_frame.png",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "SIBH-SH004",
+      "order": 4,
+      "duration_seconds": 15,
+      "frame_spec": "storyboards/SIBH-SH004/frame_spec.md",
+      "prompt_path": "video_prompts/SIBH-SH004.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH004_negative.md",
+      "start_frame": "storyboards/SIBH-SH004/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH004/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH004/end_frame.png",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "SIBH-SH005",
+      "order": 5,
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/SIBH-SH005/frame_spec.md",
+      "prompt_path": "video_prompts/SIBH-SH005.md",
+      "negative_prompt_path": "video_prompts/SIBH-SH005_negative.md",
+      "start_frame": "storyboards/SIBH-SH005/start_frame.png",
+      "key_frame": "storyboards/SIBH-SH005/key_frame.png",
+      "end_frame": "storyboards/SIBH-SH005/end_frame.png",
+      "status": "approved_for_video"
+    }
+  ]
+}

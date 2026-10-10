@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "project": "blue_lions_black_history",
+  "pairs": [
+    {
+      "id": "SIBH-SH001->SIBH-SH002",
+      "from": "SIBH-SH001",
+      "to": "SIBH-SH002",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "approved_for_video",
+      "checks": {
+        "screen_direction": "pass",
+        "identity": "pass",
+        "setting": "pass",
+        "performance_bridge": "pass",
+        "nian_absence_after_sh001": "pass"
+      },
+      "notes": "Nian exits in SH001 and is absent in SH002; Ingrid enters as the accountability beat begins, preserving corridor geography."
+    },
+    {
+      "id": "SIBH-SH002->SIBH-SH003",
+      "from": "SIBH-SH002",
+      "to": "SIBH-SH003",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "approved_for_video",
+      "checks": {
+        "screen_direction": "pass",
+        "identity": "pass",
+        "setting": "pass",
+        "prop_bridge": "pass",
+        "nian_absence_after_sh001": "pass"
+      },
+      "notes": "Ingrid and Sylvain hold left/right positions while the adapted C-support apology-history thread escalates."
+    },
+    {
+      "id": "SIBH-SH003->SIBH-SH004",
+      "from": "SIBH-SH003",
+      "to": "SIBH-SH004",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "approved_for_video",
+      "checks": {
+        "screen_direction": "pass",
+        "identity": "pass",
+        "setting": "pass",
+        "performance_bridge": "pass",
+        "nian_absence_after_sh001": "pass"
+      },
+      "notes": "Sylvain lowers his voice into SH004, where Ingrid continues the scarecrow and noble-apology examples without Nian or visible crowd drift."
+    },
+    {
+      "id": "SIBH-SH004->SIBH-SH005",
+      "from": "SIBH-SH004",
+      "to": "SIBH-SH005",
+      "reviewer_role": "continuity-reviewer-agent",
+      "decision": "approved_for_video",
+      "checks": {
+        "screen_direction": "pass",
+        "identity": "pass",
+        "setting": "pass",
+        "extra_character_control": "pass",
+        "nian_absence_after_sh001": "pass"
+      },
+      "notes": "The public-pressure joke resolves into Ingrid telling Sylvain to change now; posture and tone stay friendship comedy, not romance."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "episode": "EP02_annette_mercedes_c",
+  "title": "Annette x Mercedes - Too Many Bags",
+  "support_pair": "Annette x Mercedes",
+  "support_rank": "C",
+  "total_duration_seconds": 58,
+  "shot_count": 6,
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "no_subtitles": true,
+  "dialogue_policy": "lightly bridged Japanese adaptation; no claim of exact source quotation",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/%E4%BC%9A%E8%A9%B1%E9%9B%86/%E6%94%AF%E6%8F%B4%E4%BC%9A%E8%A9%B1/%E3%83%A1%E3%83%AB%E3%82%BB%E3%83%87%E3%82%B9%28%E3%83%95%E3%82%A1%E3%83%BC%E3%82%AC%E3%82%B9%E7%A5%9E%E8%81%96%E7%8E%8B%E5%9B%BD%29",
+    "https://fireemblem.fandom.com/wiki/Annette/Supports#With_Mercedes"
+  ],
+  "relative_height_lock": "Relative height lock v4: Annette is very petite and significantly shorter than Mercedes in every two-shot; Mercedes remains the taller academy senior. Annette head top should sit around Mercedes lower cheek, chin, or upper neck line. Reject if Annette appears the same height as Mercedes or only slightly shorter.",
+  "height_repair_review_status": "passed",
+  "height_repaired_shots": [
+    "BLSC02-SH001",
+    "BLSC02-SH002",
+    "BLSC02-SH003",
+    "BLSC02-SH004",
+    "BLSC02-SH005",
+    "BLSC02-SH006"
+  ],
+  "academy_youth_lock": "Academy youth_v4 lock: both characters must read as school-phase teenage students. Annette reads 15-16, very petite and earnest; Mercedes reads 18, gentle older classmate. Reject childlike Annette, mature adult actress, adult noble portrait, motherly/nun-like, heavy makeup, sharp cheekbones, eye bags, weathered skin, or glamorous editorial styling.",
+  "academy_youth_review_status": "passed",
+  "academy_youth_review_date": "2026-08-09",
+  "youth_v3_repaired_shots": [
+    "BLSC02-SH001",
+    "BLSC02-SH002",
+    "BLSC02-SH003",
+    "BLSC02-SH004",
+    "BLSC02-SH005",
+    "BLSC02-SH006"
+  ],
+  "visual_revision_notes": "EP02 youth_v4 repair passed: Annette base academy asset promoted younger and all six shots regenerated with Annette significantly lower/smaller while Mercedes remains a youthful 18-year-old academy senior.",
+  "youth_v4_repaired_shots": [
+    "BLSC02-SH001",
+    "BLSC02-SH002",
+    "BLSC02-SH003",
+    "BLSC02-SH004",
+    "BLSC02-SH005",
+    "BLSC02-SH006"
+  ]
+}

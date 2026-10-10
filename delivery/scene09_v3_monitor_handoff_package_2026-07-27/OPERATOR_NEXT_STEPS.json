@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-08-09T12:32:44.504Z",
+  "package": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "expected_shots": 42,
+  "current_phase": "clips_pending",
+  "next_action": "submit_motion_probes",
+  "status_line": "phase=clips_pending; next=submit_motion_probes; motion_probe_bundles=motion_probe_provider_bundles_ready; motion_probe_submission_ready=motion_probe_submission_ready; playable_probes=0/42; full_duration_release=no; full_duration_clips=0/42; completion=video_generation_run_blocked_clips_pending; full_local_visual_review=full_local_visual_review_passed_for_motion_probe_not_video_approved",
+  "can_submit_full_duration": false,
+  "can_run_local_cli": false,
+  "counts": {
+    "expected_probe_clips": 42,
+    "playable_probe_clips": 0,
+    "expected_full_duration_clips": 42,
+    "ready_full_duration_clips": 0,
+    "missing_full_duration_clips": 42,
+    "completion_passed_checks": 23,
+    "completion_total_checks": 30,
+    "completion_failed_checks": [
+      "full_duration_release_gate_passed",
+      "all_expected_clips_structural_pass",
+      "motion_review_frames_complete",
+      "codex_motion_self_audit_passed",
+      "revision_queue_empty",
+      "final_concat_gate_passed",
+      "final_edit_structural_passed"
+    ]
+  },
+  "gates": {
+    "operator_preflight": "full_duration_release_pending_probe_review",
+    "motion_probe_provider_bundles": "motion_probe_provider_bundles_ready",
+    "motion_probe_provider_bundles_problems": 0,
+    "motion_probe_submission_ready_gate": "motion_probe_submission_ready",
+    "motion_probe_submission_ready_gate_problems": 0,
+    "motion_probe_clip_structural": "motion_probe_clips_pending",
+    "motion_probe_review_apply_gate": "motion_probe_review_apply_blocked_clips_pending",
+    "full_duration_release_gate": "full_duration_release_blocked_probe_review_pending",
+    "generated_clip_structural_audit": "clips_pending",
+    "current_status_consistency_gate": "current_status_consistency_passed",
+    "report_freshness_gate": "report_freshness_passed_current_manifest",
+    "full_local_visual_review": "full_local_visual_review_passed_for_motion_probe_not_video_approved",
+    "video_generation_run_completion": "video_generation_run_blocked_clips_pending"
+  },
+  "blocking_items": [
+    {
+      "id": "full_duration_release_locked",
+      "active": true,
+      "evidence": "full_duration_release_blocked_probe_review_pending",
+      "detail": "Full-duration provider upload remains locked until motion probes exist, review frames are extracted, and Codex probe review writes the release artifact."
+    },
+    {
+      "id": "no_local_model_cli",
+      "active": true,
+      "evidence": "can_execute_with_local_cli=false",
+      "detail": "VIDEO_MODEL_CLI_ARGV_JSON is not configured, so the local pipeline cannot call a real video model."
+    },
+    {
+      "id": "real_clips_missing",
+      "active": true,
+      "evidence": "0/42 real clips ready; 42 missing",
+      "detail": "Expected production mp4 clips are absent and cannot be replaced by proxy animatic clips."
+    }
+  ],
+  "operator_commands": [
+    "Open delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/index.html",
+    "Submit the 7 probe zip bundles in motion_probe_provider_bundles/ to the external video provider as 3-second probe jobs.",
+    "Place returned probe mp4 files under delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/",
+    "Run: node scripts/run_scene09_v3_video_pipeline.js --dry-run"
+  ],
+  "required_links": {
+    "motion_probe_bundles_index": "motion_probe_provider_bundles/index.html",
+    "motion_probe_bundles": "motion_probe_provider_bundles/README.md",
+    "motion_probe_submission_ready_gate": "motion_probe_submission_ready_gate.md",
+    "motion_probe_submission_ready_gate_json": "motion_probe_submission_ready_gate.json",
+    "motion_probe_manifest": "motion_probe_submission/motion_probe_manifest.json",
+    "motion_probe_operator_tracker": "motion_probe_operator_tracker.html",
+    "motion_probe_operator_tracker_audit": "motion_probe_operator_tracker_audit.md",
+    "full_local_visual_review": "full_local_visual_review.md",
+    "full_local_visual_review_json": "full_local_visual_review.json",
+    "full_duration_release_gate": "full_duration_release_gate.md",
+    "provider_upload_bundles": "provider_upload_bundles/README.md",
+    "clip_return_contract": "provider_upload_bundles/RETURN_CONTRACT.md",
+    "runbook": "RUNBOOK.md"
+  }
+}

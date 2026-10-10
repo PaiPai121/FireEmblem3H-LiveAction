@@ -1,0 +1,24 @@
+{
+  "id": "SIBH-SH005",
+  "order": 5,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH005.mp4",
+  "edit_in": "cut from Sylvain asking if this is a trial",
+  "edit_out": "hold on failed recovery smile",
+  "audio_anchor": "Ingrid tells Sylvain to start changing now",
+  "continuity_previous": "SIBH-SH004",
+  "continuity_next": "",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+    "Nian must not appear in this shot."
+  ],
+  "reject_if": [
+    "Sylvain looks devastated",
+    "Nian returns",
+    "ending becomes romantic"
+  ],
+  "primary_check": "Ingrid lands the real correction without cruelty; Sylvain ends sheepish but not crushed; the ending stays friendship comedy, not romance."
+}

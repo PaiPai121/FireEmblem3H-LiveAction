@@ -1,0 +1,327 @@
+{
+  "date": "2026-08-01",
+  "decision": "final_edit_positive_contract_passed",
+  "expected_shots": 42,
+  "expected_duration_seconds": 252,
+  "scope": "temporary final mp4 fixture; no production final edit is written or claimed",
+  "fixture_package_dir": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package",
+  "fixture_report_dir": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/reports",
+  "fixture_final_output": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.mp4",
+  "production_final_output": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+  "production_existed_before": false,
+  "production_exists_after": false,
+  "structural_stdout": "{\n  \"decision\": \"final_edit_structural_passed\",\n  \"final_output\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.mp4\",\n  \"exists\": true,\n  \"ok\": true,\n  \"issue\": null,\n  \"final_concat_binding_ok\": true,\n  \"final_concat_sidecar_ok\": true,\n  \"final_concat_provenance_ok\": true,\n  \"report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/reports/scene09_v3_final_edit_structural_audit_2026-08-01.json\",\n  \"package_report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_edit_structural_audit.json\"\n}\n",
+  "structural_stderr": "",
+  "structural_result": {
+    "date": "2026-08-01",
+    "package_id": "scene09_v3_monitor_handoff_package_2026-07-27_final_edit_positive_contract_fixture",
+    "package_manifest": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/package_manifest.json",
+    "final_output": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.mp4",
+    "final_output_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.mp4",
+    "expected_duration_seconds": 252,
+    "decision": "final_edit_structural_passed",
+    "final_edit": {
+      "exists": true,
+      "ok": true,
+      "issue": null,
+      "size_bytes": 5084,
+      "sha256": "accb6e7b31ca54fbf736a4014e93c54bb524011d1a215903da1c070ad920bd52",
+      "duration_seconds": 252,
+      "expected_duration_seconds": 252,
+      "duration_delta_seconds": 0,
+      "video_codec": "h264",
+      "width": 160,
+      "height": 90,
+      "audio_codec": null
+    },
+    "final_concat_binding": {
+      "ok": true,
+      "input_contract": {
+        "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_inputs_contract.json",
+        "decision": "final_concat_inputs_contract_passed",
+        "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+        "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+      },
+      "final_concat_gate": {
+        "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_gate.json",
+        "decision": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+        "passed_checks": 8,
+        "total_checks": 8,
+        "direct_playable_clips": 42,
+        "direct_expected_clips": 42
+      },
+      "current_signatures": {
+        "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+        "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+      },
+      "problems": []
+    },
+    "final_concat_sidecar": {
+      "ok": true,
+      "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.concat.txt",
+      "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.concat.txt",
+      "exists": true,
+      "size_bytes": 5238,
+      "sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+      "expected_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+      "problems": []
+    },
+    "final_concat_provenance": {
+      "ok": true,
+      "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.provenance.json",
+      "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.provenance.json",
+      "exists": true,
+      "generated_by": "final_edit_positive_contract_fixture",
+      "mode": "fixture",
+      "final_output_sha256": "accb6e7b31ca54fbf736a4014e93c54bb524011d1a215903da1c070ad920bd52",
+      "concat_list_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+      "expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+      "current_expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+      "problems": []
+    },
+    "structural_checks": [
+      "final mp4 path exists",
+      "file is non-zero",
+      "ffprobe can parse container metadata",
+      "at least one video stream is present",
+      "duration is within +/-3s of package total duration",
+      "final concat input contract signatures match the current package manifest",
+      "final concat gate passed 8/8 against the current expected clip list before final edit approval",
+      "final edit concat sidecar exists beside the mp4 and matches the current concat list exactly",
+      "final edit concat provenance exists beside the mp4 and binds final SHA, concat-list SHA, source clip rows, and concat producer"
+    ]
+  },
+  "structural_final_sha256": "accb6e7b31ca54fbf736a4014e93c54bb524011d1a215903da1c070ad920bd52",
+  "structural_final_concat_binding": {
+    "ok": true,
+    "input_contract": {
+      "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_inputs_contract.json",
+      "decision": "final_concat_inputs_contract_passed",
+      "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+      "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+    },
+    "final_concat_gate": {
+      "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_gate.json",
+      "decision": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+      "passed_checks": 8,
+      "total_checks": 8,
+      "direct_playable_clips": 42,
+      "direct_expected_clips": 42
+    },
+    "current_signatures": {
+      "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+      "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+    },
+    "problems": []
+  },
+  "structural_final_concat_sidecar": {
+    "ok": true,
+    "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.concat.txt",
+    "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.concat.txt",
+    "exists": true,
+    "size_bytes": 5238,
+    "sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+    "expected_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+    "problems": []
+  },
+  "structural_final_concat_provenance": {
+    "ok": true,
+    "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.provenance.json",
+    "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.provenance.json",
+    "exists": true,
+    "generated_by": "final_edit_positive_contract_fixture",
+    "mode": "fixture",
+    "final_output_sha256": "accb6e7b31ca54fbf736a4014e93c54bb524011d1a215903da1c070ad920bd52",
+    "concat_list_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+    "expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+    "current_expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+    "problems": []
+  },
+  "wrong_duration_rejection": {
+    "fixture_final_output": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit_wrong_duration.mp4",
+    "structural_stdout": "{\n  \"decision\": \"final_edit_structural_blocked\",\n  \"final_output\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit_wrong_duration.mp4\",\n  \"exists\": true,\n  \"ok\": false,\n  \"issue\": \"duration_out_of_tolerance\",\n  \"final_concat_binding_ok\": true,\n  \"final_concat_sidecar_ok\": true,\n  \"final_concat_provenance_ok\": true,\n  \"report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/reports_wrong_duration/scene09_v3_final_edit_structural_audit_2026-08-01.json\",\n  \"package_report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_edit_structural_audit.json\"\n}\n",
+    "structural_stderr": "",
+    "structural_result": {
+      "date": "2026-08-01",
+      "package_id": "scene09_v3_monitor_handoff_package_2026-07-27_final_edit_positive_contract_fixture",
+      "package_manifest": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/package_manifest.json",
+      "final_output": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit_wrong_duration.mp4",
+      "final_output_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit_wrong_duration.mp4",
+      "expected_duration_seconds": 252,
+      "decision": "final_edit_structural_blocked",
+      "final_edit": {
+        "exists": true,
+        "ok": false,
+        "issue": "duration_out_of_tolerance",
+        "size_bytes": 1640,
+        "sha256": "fdd48b8b29f1520c715ad94b7fd8636de5f3fc4f2254583b2e4862247ad7e18c",
+        "duration_seconds": 10,
+        "expected_duration_seconds": 252,
+        "duration_delta_seconds": 242,
+        "video_codec": "h264",
+        "width": 160,
+        "height": 90,
+        "audio_codec": null
+      },
+      "final_concat_binding": {
+        "ok": true,
+        "input_contract": {
+          "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_inputs_contract.json",
+          "decision": "final_concat_inputs_contract_passed",
+          "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+          "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+        },
+        "final_concat_gate": {
+          "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_gate.json",
+          "decision": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+          "passed_checks": 8,
+          "total_checks": 8,
+          "direct_playable_clips": 42,
+          "direct_expected_clips": 42
+        },
+        "current_signatures": {
+          "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+          "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+        },
+        "problems": []
+      },
+      "final_concat_sidecar": {
+        "ok": true,
+        "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit.concat.txt",
+        "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit.concat.txt",
+        "exists": true,
+        "size_bytes": 5238,
+        "sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+        "expected_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+        "problems": []
+      },
+      "final_concat_provenance": {
+        "ok": true,
+        "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit.provenance.json",
+        "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit.provenance.json",
+        "exists": true,
+        "generated_by": "final_edit_positive_contract_fixture",
+        "mode": "fixture",
+        "final_output_sha256": "fdd48b8b29f1520c715ad94b7fd8636de5f3fc4f2254583b2e4862247ad7e18c",
+        "concat_list_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+        "expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+        "current_expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+        "problems": []
+      },
+      "structural_checks": [
+        "final mp4 path exists",
+        "file is non-zero",
+        "ffprobe can parse container metadata",
+        "at least one video stream is present",
+        "duration is within +/-3s of package total duration",
+        "final concat input contract signatures match the current package manifest",
+        "final concat gate passed 8/8 against the current expected clip list before final edit approval",
+        "final edit concat sidecar exists beside the mp4 and matches the current concat list exactly",
+        "final edit concat provenance exists beside the mp4 and binds final SHA, concat-list SHA, source clip rows, and concat producer"
+      ]
+    },
+    "rejected": true,
+    "issue": "duration_out_of_tolerance"
+  },
+  "tampered_provenance_rejection": {
+    "fixture_final_output": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit_tampered_provenance.mp4",
+    "structural_stdout": "{\n  \"decision\": \"final_edit_structural_blocked\",\n  \"final_output\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit_tampered_provenance.mp4\",\n  \"exists\": true,\n  \"ok\": true,\n  \"issue\": null,\n  \"final_concat_binding_ok\": true,\n  \"final_concat_sidecar_ok\": true,\n  \"final_concat_provenance_ok\": false,\n  \"report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/reports_tampered_provenance/scene09_v3_final_edit_structural_audit_2026-08-01.json\",\n  \"package_report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_edit_structural_audit.json\"\n}\n",
+    "structural_stderr": "",
+    "structural_result": {
+      "date": "2026-08-01",
+      "package_id": "scene09_v3_monitor_handoff_package_2026-07-27_final_edit_positive_contract_fixture",
+      "package_manifest": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/package_manifest.json",
+      "final_output": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit_tampered_provenance.mp4",
+      "final_output_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit_tampered_provenance.mp4",
+      "expected_duration_seconds": 252,
+      "decision": "final_edit_structural_blocked",
+      "final_edit": {
+        "exists": true,
+        "ok": true,
+        "issue": null,
+        "size_bytes": 5084,
+        "sha256": "accb6e7b31ca54fbf736a4014e93c54bb524011d1a215903da1c070ad920bd52",
+        "duration_seconds": 252,
+        "expected_duration_seconds": 252,
+        "duration_delta_seconds": 0,
+        "video_codec": "h264",
+        "width": 160,
+        "height": 90,
+        "audio_codec": null
+      },
+      "final_concat_binding": {
+        "ok": true,
+        "input_contract": {
+          "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_inputs_contract.json",
+          "decision": "final_concat_inputs_contract_passed",
+          "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+          "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+        },
+        "final_concat_gate": {
+          "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_concat_gate.json",
+          "decision": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+          "passed_checks": 8,
+          "total_checks": 8,
+          "direct_playable_clips": 42,
+          "direct_expected_clips": 42
+        },
+        "current_signatures": {
+          "ordered_clip_signature_sha256": "c6a93ea823922e0edc1d8a1b7e899df5b9394387800bf90fa6c967c3e6cd790b",
+          "concat_list_preview_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0"
+        },
+        "problems": []
+      },
+      "final_concat_sidecar": {
+        "ok": true,
+        "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit.concat.txt",
+        "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit.concat.txt",
+        "exists": true,
+        "size_bytes": 5238,
+        "sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+        "expected_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+        "problems": []
+      },
+      "final_concat_provenance": {
+        "ok": false,
+        "file": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit.provenance.json",
+        "file_absolute": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit.provenance.json",
+        "exists": true,
+        "generated_by": "final_edit_positive_contract_fixture",
+        "mode": "fixture",
+        "final_output_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "concat_list_sha256": "e58da4d03ce71b710aa4362aeebba89df46c21cc176ed92fdff71e28dadaf7f0",
+        "expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+        "current_expected_clip_file_rows_digest_sha256": "7e35d6000b24475373d54e996c377db0f5411aee4ed42092c3665a1ae360bd6d",
+        "problems": [
+          "final_output_sha256 does not match audited final mp4 SHA-256"
+        ]
+      },
+      "structural_checks": [
+        "final mp4 path exists",
+        "file is non-zero",
+        "ffprobe can parse container metadata",
+        "at least one video stream is present",
+        "duration is within +/-3s of package total duration",
+        "final concat input contract signatures match the current package manifest",
+        "final concat gate passed 8/8 against the current expected clip list before final edit approval",
+        "final edit concat sidecar exists beside the mp4 and matches the current concat list exactly",
+        "final edit concat provenance exists beside the mp4 and binds final SHA, concat-list SHA, source clip rows, and concat producer"
+      ]
+    },
+    "rejected": true,
+    "issue": "final_output_sha256_mismatch"
+  },
+  "stdout_result": {
+    "decision": "final_edit_structural_passed",
+    "final_output": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.mp4",
+    "exists": true,
+    "ok": true,
+    "issue": null,
+    "final_concat_binding_ok": true,
+    "final_concat_sidecar_ok": true,
+    "final_concat_provenance_ok": true,
+    "report_json": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/reports/scene09_v3_final_edit_structural_audit_2026-08-01.json",
+    "package_report_json": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package/final_edit_structural_audit.json"
+  },
+  "problems": []
+}

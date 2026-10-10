@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "created_at": "2026-07-31",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "source_payload": "submission_payload.jsonl",
+  "source_payload_sha256": "3e46a0299ec8f576e197d075e04ed566383b8fb6cb9ce25d68d30df59998b387",
+  "source_battle_ledger": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json",
+  "status": "clips_pending",
+  "full_duration_submission_status": "prepared_locked_probe_release_pending",
+  "batch_size": 6,
+  "total_shots": 42,
+  "total_batches": 7,
+  "total_duration_seconds": 252,
+  "provider_neutral_policy": "Each JSONL row is self-contained for full-duration submission after full_duration_release_gate passes: prompt text, negative prompt, start/key/end frame paths, visible roster lock, battle ledger state, reject criteria, and expected mp4 path.",
+  "expected_downloads_csv": "model_submission_batches/expected_downloads.csv",
+  "batches": [
+    {
+      "batch_id": "batch_001_shots_001-006",
+      "order_start": 1,
+      "order_end": 6,
+      "rows": 6,
+      "custom_ids": [
+        "001_Shot025",
+        "002_Shot025A",
+        "003_Shot026",
+        "004_Shot026B",
+        "005_Shot026C",
+        "006_Shot027"
+      ],
+      "jsonl": "model_submission_batches/batch_001_shots_001-006.jsonl",
+      "csv": "model_submission_batches/batch_001_shots_001-006.csv",
+      "runbook": "model_submission_batches/batch_001_shots_001-006.md",
+      "sha256": {
+        "jsonl": "722a4b91608afacdf0568f9eeb4e9314de7a57872c9d4badc82872bba73d874f",
+        "csv": "8c7ecaf9093e679c123828c8e3902a8dd2a9e5a262935201a42424c1706abaaa",
+        "runbook": "82afe77044c5a21902c7f1ebb5ac112282638b52813d13d7388f4369a496138d"
+      }
+    },
+    {
+      "batch_id": "batch_002_shots_007-012",
+      "order_start": 7,
+      "order_end": 12,
+      "rows": 6,
+      "custom_ids": [
+        "007_Shot027B",
+        "008_Shot027C",
+        "009_Shot027D",
+        "010_Shot028",
+        "011_Shot028B",
+        "012_Shot028C"
+      ],
+      "jsonl": "model_submission_batches/batch_002_shots_007-012.jsonl",
+      "csv": "model_submission_batches/batch_002_shots_007-012.csv",
+      "runbook": "model_submission_batches/batch_002_shots_007-012.md",
+      "sha256": {
+        "jsonl": "9807b99a9e52411270b659e1db210f065c682fbab4936e6fb5760cd5bf270faa",
+        "csv": "ff6d9a9bfa0c9eef1b5e841c35d51db43d0508b109f68144b7a35ff09c324b71",
+        "runbook": "9c1be64d67d018aa1831b15ab5340e82a383916323c5fcfcf6e46265394dc59e"
+      }
+    },
+    {
+      "batch_id": "batch_003_shots_013-018",
+      "order_start": 13,
+      "order_end": 18,
+      "rows": 6,
+      "custom_ids": [
+        "013_Shot029",
+        "014_Shot029C",
+        "015_Shot029D",
+        "016_Shot029B",
+        "017_Shot030",
+        "018_Shot030B"
+      ],
+      "jsonl": "model_submission_batches/batch_003_shots_013-018.jsonl",
+      "csv": "model_submission_batches/batch_003_shots_013-018.csv",
+      "runbook": "model_submission_batches/batch_003_shots_013-018.md",
+      "sha256": {
+        "jsonl": "8c1c129426a39d65d712b1e4d728a0d98c7ded25f3733a6a5e7976c64715ccb9",
+        "csv": "f222496f7ca959692d8ae6a221344be69fd09dd7f8449b59adf016cbbb815f86",
+        "runbook": "6bd03b88d7ee329d18883f46310ab5af072eb3c166035f66512514c6550e0556"
+      }
+    },
+    {
+      "batch_id": "batch_004_shots_019-024",
+      "order_start": 19,
+      "order_end": 24,
+      "rows": 6,
+      "custom_ids": [
+        "019_Shot030C",
+        "020_Shot031",
+        "021_Shot031B",
+        "022_Shot032",
+        "023_Shot032A",
+        "024_Shot032B"
+      ],
+      "jsonl": "model_submission_batches/batch_004_shots_019-024.jsonl",
+      "csv": "model_submission_batches/batch_004_shots_019-024.csv",
+      "runbook": "model_submission_batches/batch_004_shots_019-024.md",
+      "sha256": {
+        "jsonl": "bcd9f2a57e08a06574ba7bd7344ba8a4ec63a3842259bcea7f88ec2fd9780689",
+        "csv": "8893c2d66c32385b6209c24514f3dce3b6f063697f16a2c582d31e26a2344e71",
+        "runbook": "42461c2ad4e1ed9e7a222c33a723af9d9d4fbc66935d77baccdbde0a1d75bdc1"
+      }
+    },
+    {
+      "batch_id": "batch_005_shots_025-030",
+      "order_start": 25,
+      "order_end": 30,
+      "rows": 6,
+      "custom_ids": [
+        "025_Shot032C",
+        "026_Shot032D",
+        "027_Shot032E",
+        "028_Shot032F",
+        "029_Shot032G",
+        "030_Shot033"
+      ],
+      "jsonl": "model_submission_batches/batch_005_shots_025-030.jsonl",
+      "csv": "model_submission_batches/batch_005_shots_025-030.csv",
+      "runbook": "model_submission_batches/batch_005_shots_025-030.md",
+      "sha256": {
+        "jsonl": "e9fbb3ab26fefa6231a5158a682a0121adb8b27a16d836d0435196158d532f65",
+        "csv": "153064b3408c5fc96cc4a8adbdbd30f1f7945d16f2258c93fe9e2bff38abb55a",
+        "runbook": "e6014c66b43ac02751a07347ee020a592c104cdfa1b71218c203241c473d8292"
+      }
+    },
+    {
+      "batch_id": "batch_006_shots_031-036",
+      "order_start": 31,
+      "order_end": 36,
+      "rows": 6,
+      "custom_ids": [
+        "031_Shot033B",
+        "032_Shot033C",
+        "033_Shot033D",
+        "034_Shot034C",
+        "035_Shot034D",
+        "036_Shot034B"
+      ],
+      "jsonl": "model_submission_batches/batch_006_shots_031-036.jsonl",
+      "csv": "model_submission_batches/batch_006_shots_031-036.csv",
+      "runbook": "model_submission_batches/batch_006_shots_031-036.md",
+      "sha256": {
+        "jsonl": "e6ad12a639fc3972ca4c26bbb80cfd0c9e3df0d4e7a9dfd0fa6306fe213f4369",
+        "csv": "842bafe67db76193a7f1a8338c8b2670fd140595db686c3ce67095b103ab967e",
+        "runbook": "e8543bfb800dcdfb565029941595562d954ffde5e364962855aa6ba0a43674b5"
+      }
+    },
+    {
+      "batch_id": "batch_007_shots_037-042",
+      "order_start": 37,
+      "order_end": 42,
+      "rows": 6,
+      "custom_ids": [
+        "037_Shot034E",
+        "038_Shot034F",
+        "039_Shot034G",
+        "040_Shot034",
+        "041_Shot035",
+        "042_Shot036"
+      ],
+      "jsonl": "model_submission_batches/batch_007_shots_037-042.jsonl",
+      "csv": "model_submission_batches/batch_007_shots_037-042.csv",
+      "runbook": "model_submission_batches/batch_007_shots_037-042.md",
+      "sha256": {
+        "jsonl": "d6239b53d11d43b5a982abaf6c1dd7082841ebd4868e1ea1cf383c480ec82486",
+        "csv": "5a6b7f033bba7d64fde89b297c899b2642690ec4168f96a6be9a53902890de72",
+        "runbook": "ce44537f9704601fcd5458140f95921d114877eb87a48740aafa840f0a590a3e"
+      }
+    }
+  ]
+}

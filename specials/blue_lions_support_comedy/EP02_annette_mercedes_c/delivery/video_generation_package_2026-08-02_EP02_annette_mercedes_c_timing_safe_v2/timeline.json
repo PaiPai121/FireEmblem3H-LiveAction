@@ -1,0 +1,38 @@
+[
+  {
+    "shot_id": "BLSC02-SH001",
+    "start_time": 0,
+    "end_time": 8,
+    "duration_seconds": 8
+  },
+  {
+    "shot_id": "BLSC02-SH002",
+    "start_time": 8,
+    "end_time": 19,
+    "duration_seconds": 11
+  },
+  {
+    "shot_id": "BLSC02-SH003",
+    "start_time": 19,
+    "end_time": 31,
+    "duration_seconds": 12
+  },
+  {
+    "shot_id": "BLSC02-SH004",
+    "start_time": 31,
+    "end_time": 39,
+    "duration_seconds": 8
+  },
+  {
+    "shot_id": "BLSC02-SH005",
+    "start_time": 39,
+    "end_time": 46,
+    "duration_seconds": 7
+  },
+  {
+    "shot_id": "BLSC02-SH006",
+    "start_time": 46,
+    "end_time": 58,
+    "duration_seconds": 12
+  }
+]

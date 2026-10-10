@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no mature Ingrid, no crushed Sylvain, no cruel Ingrid, no Nian visible, no romance ending, no visible crowd taking focus, no subtitles, no text, no watermarks, no logos, no modern objects, no costume drift, no camera spin, no mouth distortion.

@@ -1,0 +1,595 @@
+{
+  "id": "EP02-SC09-SHOT-Shot034B-V2-20260721",
+  "shot": "Shot034B",
+  "order": 36,
+  "package_type": "monitor_handoff",
+  "status": "monitor_required",
+  "duration_seconds": 6,
+  "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4",
+  "edit_in": "use start_frame as first generated frame; preserve the declared screen direction and readable named-only roster",
+  "edit_out": "hold end_frame state for final 0.5 seconds; reject generated clips that do not land on this state",
+  "audio_anchor": "Claude, offscreen: \"金鹿撤出主线。\" Hilda, offscreen: \"哎，差一点就赢了。\" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words.",
+  "visible_named_only": [
+    "Byleth",
+    "Dimitri"
+  ],
+  "title": "空教师目标裁定",
+  "titleZh": "空教师目标裁定",
+  "battle_state_after": {
+    "shot": "Shot034B",
+    "visible_named_only": [
+      "Byleth",
+      "Dimitri"
+    ],
+    "active_after": [
+      "Byleth",
+      "Dimitri",
+      "Dedue",
+      "Edelgard",
+      "Claude",
+      "Hilda",
+      "Lorenz",
+      "Ignatz",
+      "Leonie"
+    ],
+    "inactive_or_removed_after": [
+      "Felix",
+      "Ashe",
+      "Annette",
+      "Mercedes",
+      "Sylvain",
+      "Ingrid",
+      "Hubert",
+      "Ferdinand",
+      "Dorothea",
+      "Bernadetta",
+      "Hanneman",
+      "Manuela"
+    ],
+    "active_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue"
+      ],
+      "black_eagles": [
+        "Edelgard"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ]
+    },
+    "inactive_by_house": {
+      "blue_lions": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "no_active_combat_after": [
+      "Felix",
+      "Ashe",
+      "Annette",
+      "Mercedes",
+      "Sylvain",
+      "Ingrid",
+      "Hubert",
+      "Ferdinand",
+      "Dorothea",
+      "Bernadetta",
+      "Hanneman",
+      "Manuela"
+    ],
+    "statuses_after": {
+      "Byleth": "surviving_command",
+      "Dimitri": "surviving_winner",
+      "Dedue": "restored_frontline",
+      "Felix": "spent_stood_down",
+      "Ashe": "spent_stood_down",
+      "Annette": "spent_stood_down",
+      "Mercedes": "spent_stood_down",
+      "Sylvain": "spent_stood_down",
+      "Ingrid": "spent_stood_down",
+      "Edelgard": "pressured",
+      "Hubert": "captured_by_felix_and_ashe",
+      "Ferdinand": "defeated_by_route_block",
+      "Dorothea": "captured_by_leonie_and_claude",
+      "Bernadetta": "captured_by_leonie_and_claude",
+      "Claude": "captor_active",
+      "Hilda": "pressured",
+      "Lorenz": "active_available",
+      "Ignatz": "active_available",
+      "Leonie": "captor_active",
+      "Hanneman": "objective_defeated_separate_lane",
+      "Manuela": "route_cut_offscreen_unpaired"
+    },
+    "note": "Shot034B: Byleth and Dimitri resolve two empty faculty objective markers; Hanneman and Manuela are absent/offscreen/silent and never paired.",
+    "result": "Blue Lions hold the objective by a narrow nonlethal ruling after Golden Deer and Black Eagles pressure each other.",
+    "battle_ledger_after": {
+      "rule_cn": "学籍模拟战账本：模拟战非致命，全部具名角色生命安全；击败/被俘/目标判负/退场只表示课堂规则下失去主动参战资格。",
+      "all_named_characters_alive": true,
+      "alive_by_house": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "still_active_or_controlling_objective_by_house": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ]
+      },
+      "limited_but_not_defeated_by_house": {
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "mock_battle_defeated_or_removed_by_house": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "captured_or_objective_defeated_by_house": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ]
+      },
+      "stood_down_or_post_battle_by_house": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Ferdinand"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "must_not_return_active_by_house": {
+        "blue_lions": [
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Dimitri",
+          "status": "surviving_winner",
+          "label": "surviving_winner"
+        },
+        {
+          "name": "Byleth",
+          "status": "surviving_command",
+          "label": "surviving_command"
+        },
+        {
+          "name": "Hanneman",
+          "status": "objective_defeated_separate_lane",
+          "label": "objective_defeated_separate_lane"
+        },
+        {
+          "name": "Manuela",
+          "status": "route_cut_offscreen_unpaired",
+          "label": "route_cut_offscreen_unpaired"
+        }
+      ],
+      "note_cn": "Shot034B 之后：全员安全存活；贝雷特与帝弥托利只裁定两个空置教师目标点；汉尼曼和玛努艾拉均已在画外/路线裁定中退场，缺席、静默、不并肩，后续不可再主动战斗。"
+    },
+    "note_cn": "Shot034B 之后：全员安全存活；贝雷特与帝弥托利只裁定两个空置教师目标点；汉尼曼和玛努艾拉均已在画外/路线裁定中退场，缺席、静默、不并肩，后续不可再主动战斗。",
+    "changed_this_shot": {
+      "Byleth": "ruling_confirms_objective_control",
+      "Dimitri": "surviving_winner",
+      "Hanneman": "absent_objective_already_cut",
+      "Manuela": "absent_objective_already_cut"
+    }
+  },
+  "continuity_previous": "EP02-SC09-SHOT-Shot034D-V2-20260721",
+  "continuity_next": "EP02-SC09-SHOT-Shot034E-V2-20260721",
+  "source_prompt_path": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034B_production_video_prompt_v3.md",
+  "source_frames": {
+    "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+    "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+    "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png"
+  },
+  "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+  "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+  "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png",
+  "frames": {
+    "start": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png"
+    },
+    "key": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png"
+    },
+    "end": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png"
+    },
+    "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+    "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+    "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png"
+  },
+  "local_files": {
+    "prompt": "prompt.md",
+    "model_prompt": "model_prompt.md",
+    "negative_prompt": "negative_prompt.md",
+    "start_frame": "start_frame.png",
+    "key_frame": "key_frame.png",
+    "end_frame": "end_frame.png"
+  },
+  "model_notes": [
+    "Visible named-only: Byleth, Dimitri.",
+    "Two far-separated faculty objective markers must be empty.",
+    "Hanneman and Manuela are absent/offscreen/silent/unpaired.",
+    "No unnamed students, extras, spectators, soldiers, crowds, or readable silhouettes."
+  ],
+  "reject_if": [
+    "Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.",
+    "Reject if anyone outside Byleth and Dimitri appears.",
+    "Two far-separated faculty objective markers must be empty.",
+    "Reject if Hanneman appears in any readable form.",
+    "Reject if Manuela appears in any readable form.",
+    "Reject if any teacher stands on a marker, speaks, or reads as a combat partner.",
+    "Reject if Hanneman and Manuela share the same platform, lane, sigil, eyeline pairing, or allied blocking.",
+    "Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.",
+    "Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat."
+  ],
+  "primary_check": "Only Byleth and Dimitri are readable; two far-separated faculty objective markers are empty; Hanneman and Manuela are absent/offscreen/silent/unpaired.",
+  "command_argv": null,
+  "characters": [
+    {
+      "name": "Byleth"
+    },
+    {
+      "name": "Dimitri"
+    }
+  ],
+  "purpose": "青狮不是击倒老师，而是在混战后占住空置目标点，由贝雷特裁定险胜。",
+  "input_frames": {
+    "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+    "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+    "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png"
+  },
+  "motion": "Empty faculty objective ruling. Byleth and Dimitri reach two separated faculty objective markers after the three-house melee; both markers are empty because the teacher lanes have already been cut. Dimitri lowers his blunt wooden training lance under Byleth's nonlethal ruling gesture, exhausted but controlled. Hanneman and Manuela stay absent, offscreen, silent, and never paired.",
+  "video_prompt": "Empty faculty objective ruling. Byleth and Dimitri reach two separated faculty objective markers after the three-house melee; both markers are empty because the teacher lanes have already been cut. Dimitri lowers his blunt wooden training lance under Byleth's nonlethal ruling gesture, exhausted but controlled. Hanneman and Manuela stay absent, offscreen, silent, and never paired.",
+  "camera": "Restrained medium-wide settle on two empty objective markers. Keep Byleth and Dimitri readable in the foreground, both facing the markers rather than posing toward camera. No teacher lane crossing and no readable background people.",
+  "performance": "Byleth clipped and procedural; Dimitri drained but upright, breathing hard, with no victory flourish. The win reads as a narrow classroom ruling, not domination of another class.",
+  "dialogue_audio": "Claude, offscreen: \"金鹿撤出主线。\" Hilda, offscreen: \"哎，差一点就赢了。\" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words.",
+  "screenDirectionRule": "Byleth and Dimitri face two empty faculty objective markers, not Hanneman, Manuela, or the camera; no teacher lane crossing.",
+  "screen_direction": "Byleth and Dimitri face two empty faculty objective markers, not Hanneman, Manuela, or the camera; no teacher lane crossing.",
+  "startKeyAssociation": "start establishes Byleth and Dimitri approaching two empty faculty objective markers; keyframe advances to Byleth's nonlethal ruling and Dimitri lowering the training lance.",
+  "riskNotes": "Must keep both faculty objective markers empty and readable; no Hanneman, no Manuela, no teacher leaving action, no judge podium, no arena, no readable background people.",
+  "characterReferenceAssets": [
+    {
+      "name": "Byleth",
+      "phase": "professor",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "continuity_note": "quiet professor-command presence, clipped nonlethal ruling gesture, no heroic pose"
+    },
+    {
+      "name": "Dimitri",
+      "phase": "academy",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "continuity_note": "academy Blue Lions leader, blunt wooden training lance lowered, exhausted but controlled"
+    }
+  ],
+  "primary_continuity_check": "Only Byleth and Dimitri are readable; two far-separated faculty objective markers are empty; Hanneman and Manuela are absent/offscreen/silent/unpaired.",
+  "negative_prompt": "no extra people, no unnamed students, no spectators, no crowds, no readable silhouettes, no text, no subtitles, no captions, no visible text, no watermark, no camera spin, no screen-direction reversal, no face drift, no costume drift, no weapon drift, no lethal hits, no lethal hit, no gore, no blood, no paired Hanneman and Manuela, no shared teacher platform, no same-lane teacher duo, no readable Hanneman, no readable Manuela, no Hanneman, no Manuela, no teachers visible, no paired teachers, no second teacher, no shared teacher sigil, no readable return of Felix, no active return of Felix, no readable return of Ashe, no active return of Ashe, no readable return of Annette, no active return of Annette, no readable return of Mercedes, no active return of Mercedes, no readable return of Sylvain, no active return of Sylvain, no readable return of Ingrid, no active return of Ingrid, no readable return of Hubert, no active return of Hubert, no readable return of Ferdinand, no active return of Ferdinand, no readable return of Dorothea, no active return of Dorothea, no readable return of Bernadetta, no active return of Bernadetta, no readable return of Hanneman, no active return of Hanneman, no readable return of Manuela, no active return of Manuela, no uncaptured return of Hubert, no uncaptured return of Dorothea, no uncaptured return of Bernadetta, no uncaptured return of Hanneman",
+  "teacher_objective_contract": {
+    "visible_named_only": [
+      "Byleth",
+      "Dimitri"
+    ],
+    "hanneman": "absent_offscreen_silent_unpaired",
+    "manuela": "absent_offscreen_silent_unpaired",
+    "objective_markers": "two far-separated faculty objective markers remain empty"
+  },
+  "note": "Shot034B: Byleth and Dimitri resolve two empty faculty objective markers; Hanneman and Manuela are absent/offscreen/silent and never paired.",
+  "battle_state_note": "Shot034B: Byleth and Dimitri resolve two empty faculty objective markers; Hanneman and Manuela are absent/offscreen/silent and never paired.",
+  "after_shot_note": "Shot034B: Byleth and Dimitri resolve two empty faculty objective markers; Hanneman and Manuela are absent/offscreen/silent and never paired.",
+  "after_shot_note_cn": "Shot034B 之后：全员安全存活；贝雷特与帝弥托利只裁定两个空置教师目标点；汉尼曼和玛努艾拉均已在画外/路线裁定中退场，缺席、静默、不并肩，后续不可再主动战斗。",
+  "visible_but_no_active_combat_after": "none",
+  "visual_review_status": "monitor_required",
+  "video_generation_readiness": "blocked_until_critical_reaudit_revisions_clear",
+  "critical_reaudit": {
+    "order": 36,
+    "shot": "Shot034B",
+    "title_zh": "空教师目标裁定",
+    "visible_named_only": [
+      "Byleth",
+      "Dimitri"
+    ],
+    "decision": "monitor_required",
+    "reviewed_paths": {
+      "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/start_frame.png",
+      "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/key_frame.png",
+      "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/end_frame.png"
+    },
+    "story_beat": "教师目标台清空，贝雷特和迪米特里确认目标失守。",
+    "visual_assessment": "空平台逻辑成立，汉尼曼/玛努艾拉未并肩。",
+    "camera": "背后中远景看空台。",
+    "facing_screen_direction": "只有贝雷特和迪米特里可读，教师不出现。",
+    "blocking_issues": [
+      "作为空目标说明镜头可用，但缺少一声哨/旗帜落下的动作锚点。"
+    ],
+    "required_revision": "保留候选，视频提示加离屏哨声和目标旗落下，不新增教师。"
+  },
+  "supersedes_prior_visual_review": "production_system/reviews/scene09_critical_reaudit_2026-08-12/scene09_critical_reaudit_2026-08-12.json",
+  "battle_ledger_after": {
+    "rule_cn": "学籍模拟战账本：模拟战非致命，全部具名角色生命安全；击败/被俘/目标判负/退场只表示课堂规则下失去主动参战资格。",
+    "all_named_characters_alive": true,
+    "alive_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "still_active_or_controlling_objective_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue"
+      ],
+      "black_eagles": [
+        "Edelgard"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ]
+    },
+    "limited_but_not_defeated_by_house": {
+      "black_eagles": [
+        "Edelgard"
+      ],
+      "golden_deer": [
+        "Hilda"
+      ]
+    },
+    "mock_battle_defeated_or_removed_by_house": {
+      "blue_lions": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "captured_or_objective_defeated_by_house": {
+      "black_eagles": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ]
+    },
+    "stood_down_or_post_battle_by_house": {
+      "blue_lions": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Ferdinand"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "must_not_return_active_by_house": {
+      "blue_lions": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "changed_this_shot": [
+      {
+        "name": "Dimitri",
+        "status": "surviving_winner",
+        "label": "surviving_winner"
+      },
+      {
+        "name": "Byleth",
+        "status": "surviving_command",
+        "label": "surviving_command"
+      },
+      {
+        "name": "Hanneman",
+        "status": "objective_defeated_separate_lane",
+        "label": "objective_defeated_separate_lane"
+      },
+      {
+        "name": "Manuela",
+        "status": "route_cut_offscreen_unpaired",
+        "label": "route_cut_offscreen_unpaired"
+      }
+    ],
+    "note_cn": "Shot034B 之后：全员安全存活；贝雷特与帝弥托利只裁定两个空置教师目标点；汉尼曼和玛努艾拉均已在画外/路线裁定中退场，缺席、静默、不并肩，后续不可再主动战斗。"
+  },
+  "alive_safe_after": "command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "active_or_objective_after": "command: Byleth; blue_lions: Dimitri, Dedue; black_eagles: Edelgard; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie",
+  "limited_after": "black_eagles: Edelgard; golden_deer: Hilda",
+  "defeated_removed_after": "blue_lions: Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Hubert, Ferdinand, Dorothea, Bernadetta; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "captured_objective_defeated_after": "black_eagles: Hubert, Dorothea, Bernadetta; hanneman_faculty_lane: Hanneman",
+  "stood_down_post_battle_after": "blue_lions: Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Ferdinand; manuela_faculty_lane: Manuela",
+  "must_not_return_active_after": "blue_lions: Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Hubert, Ferdinand, Dorothea, Bernadetta; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "changed_this_shot": "Dimitri:surviving_winner; Byleth:surviving_command; Hanneman:objective_defeated_separate_lane; Manuela:route_cut_offscreen_unpaired",
+  "no_active_combat_line": "Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid, Hubert, Ferdinand, Dorothea, Bernadetta, Hanneman, Manuela"
+}

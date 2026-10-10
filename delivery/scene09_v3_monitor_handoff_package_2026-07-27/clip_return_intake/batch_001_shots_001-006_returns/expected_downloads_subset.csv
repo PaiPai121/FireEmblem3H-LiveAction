@@ -1,0 +1,7 @@
+custom_id,shot,expected_filename,expected_clip,absolute_expected_clip,ingest_match_keys,clip_received,operator_notes
+001_Shot025,Shot025,01_Shot025.mp4,episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4,/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4,001_Shot025; Shot025; 01_Shot025.mp4,,
+002_Shot025A,Shot025A,02_Shot025A.mp4,episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4,/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4,002_Shot025A; Shot025A; 02_Shot025A.mp4,,
+003_Shot026,Shot026,03_Shot026.mp4,episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4,/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4,003_Shot026; Shot026; 03_Shot026.mp4,,
+004_Shot026B,Shot026B,04_Shot026B.mp4,episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4,/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4,004_Shot026B; Shot026B; 04_Shot026B.mp4,,
+005_Shot026C,Shot026C,05_Shot026C.mp4,episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4,/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4,005_Shot026C; Shot026C; 05_Shot026C.mp4,,
+006_Shot027,Shot027,06_Shot027.mp4,episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4,/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4,006_Shot027; Shot027; 06_Shot027.mp4,,

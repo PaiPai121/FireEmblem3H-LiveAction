@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-01",
+  "decision": "motion_probe_review_apply_positive_contract_passed",
+  "scope": "temporary probe clips and review frames only; production expected clips are untouched",
+  "source_package": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "temp_fixture_cleaned": true,
+  "expected_probe_clips": 42,
+  "positive": {
+    "status": 0,
+    "decision": "motion_probe_review_apply_passed",
+    "release_written": true,
+    "passed_rows": 42,
+    "counters": {
+      "proposal_rows": 42,
+      "probe_clip_signature_matched_rows": 42,
+      "review_frame_signature_matched_rows": 42,
+      "review_evidence_complete_rows": 42,
+      "ledger_matched_rows": 42,
+      "required_checks_complete_rows": 42,
+      "full_duration_approved_rows": 42,
+      "codex_reviewed_rows": 42
+    },
+    "release_rows": 42,
+    "release_rows_digest_sha256": "2ebafb0e2381d7c46d8380699699d9e9a4636d0010724276e4e86465182dcf30"
+  },
+  "negative_cases": [
+    {
+      "name": "stale_probe_clip_signature_rejected",
+      "rejected": true,
+      "status": 1,
+      "decision": "motion_probe_review_apply_blocked_invalid_proposal",
+      "problem_excerpt": [
+        "Shot025: probe_clip_signature missing, stale, or mismatched"
+      ]
+    },
+    {
+      "name": "stale_review_frame_signature_rejected",
+      "rejected": true,
+      "status": 1,
+      "decision": "motion_probe_review_apply_blocked_invalid_proposal",
+      "problem_excerpt": [
+        "Shot025: review_evidence incomplete: review_frame_signatures.start_stale_or_mismatch"
+      ]
+    },
+    {
+      "name": "user_reviewer_rejected",
+      "rejected": true,
+      "status": 1,
+      "decision": "motion_probe_review_apply_blocked_invalid_proposal",
+      "problem_excerpt": [
+        "Shot025: passed row must be reviewed_by Codex, not user_operator"
+      ]
+    },
+    {
+      "name": "approval_without_pass_rejected",
+      "rejected": true,
+      "status": 1,
+      "decision": "motion_probe_review_apply_blocked_invalid_proposal",
+      "problem_excerpt": [
+        "Shot025: blocked/rejected row cannot approve full duration"
+      ]
+    }
+  ],
+  "production_safety": {
+    "source_package_probe_release_exists": false,
+    "source_expected_probe_clips_existing": 0
+  },
+  "problems": [],
+  "production_report_json": "production_system/scene09_v3_attrition_package/scene09_v3_motion_probe_review_apply_positive_contract_2026-08-01.json"
+}

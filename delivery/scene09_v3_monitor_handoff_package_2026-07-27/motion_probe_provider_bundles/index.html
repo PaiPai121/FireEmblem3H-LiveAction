@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scene09 3秒 Motion Probe 提交包</title>
+  <style>
+    :root { color-scheme: light; --ink:#20242a; --muted:#5f6874; --line:#d7dde5; --paper:#f7f8fa; --panel:#fff; --blue:#235fa7; --red:#9f3f3f; }
+    * { box-sizing: border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .top { position:sticky; top:0; z-index:2; border-bottom:1px solid var(--line); background:rgba(247,248,250,.96); backdrop-filter:blur(10px); }
+    .inner, main { max-width:1440px; margin:0 auto; padding:18px 22px; }
+    h1 { margin:0 0 8px; font-size:24px; letter-spacing:0; }
+    h2 { margin:0; font-size:18px; letter-spacing:0; }
+    p { margin:0 0 6px; }
+    a { color:var(--blue); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    code { overflow-wrap:anywhere; white-space:normal; }
+    .metrics { display:grid; grid-template-columns:repeat(4,minmax(130px,1fr)); gap:10px; margin-top:12px; }
+    .metric, .batch { border:1px solid var(--line); border-radius:8px; background:var(--panel); }
+    .metric { padding:10px; min-height:72px; }
+    .metric strong { display:block; font-size:20px; }
+    .metric span, .eyebrow { color:var(--muted); font-size:12px; }
+    .warning { color:var(--red); font-weight:700; }
+    .batch { margin:18px 0; overflow:hidden; }
+    .batch header { display:flex; justify-content:space-between; gap:14px; align-items:center; padding:14px 16px; border-bottom:1px solid var(--line); }
+    .zip { display:inline-block; padding:8px 10px; border:1px solid var(--blue); border-radius:6px; font-weight:700; }
+    .meta, nav { padding:12px 16px; border-bottom:1px solid var(--line); }
+    nav { display:flex; gap:12px; flex-wrap:wrap; }
+    table { width:100%; border-collapse:collapse; }
+    th, td { padding:8px 10px; border-top:1px solid var(--line); text-align:left; vertical-align:top; }
+    th { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:0; }
+    @media (max-width: 760px) { .metrics { grid-template-columns:1fr 1fr; } .batch header { display:block; } .zip { margin-top:8px; } }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="inner">
+      <h1>Scene09 3秒 Motion Probe 提交包</h1>
+      <p class="warning">只提交 motion probe。正片 full-duration 批次仍锁定，直到 42/42 probe 返回并通过 Codex motion review。</p>
+      <div class="metrics">
+        <div class="metric"><strong>7</strong><span>probe batches</span></div>
+        <div class="metric"><strong>42</strong><span>probe shots</span></div>
+        <div class="metric"><strong>3s</strong><span>probe duration</span></div>
+        <div class="metric"><strong>7</strong><span>zip bundles</span></div>
+      </div>
+      <p><a href="README.md">README</a> · <a href="motion_probe_provider_bundles_manifest.json">provider bundles manifest</a> · <a href="../motion_probe_return_intake/README.md">return intake</a> · <a href="../OPERATOR_NEXT_STEPS.md">operator next steps</a></p>
+    </div>
+  </header>
+  <main>
+      <article class="batch" id="probe_batch_001_shots_001-006">
+        <header>
+          <div>
+            <p class="eyebrow">probe_batch_001_shots_001-006 · 6 probes</p>
+            <h2>001_Shot025_probe - 006_Shot027_probe</h2>
+          </div>
+          <a class="zip" href="probe_batch_001_shots_001-006.zip">下载 probe zip</a>
+        </header>
+        <div class="meta">
+          <p><strong>Zip sha256:</strong> <code>252a55cece10a99f24d26757bd67c032d4545eff38ff43eab7beba8d822ce328</code></p>
+          <p><strong>Zip size:</strong> 49401500 bytes</p>
+          <p><strong>返回目录:</strong> <a href="../motion_probe_return_intake/probe_batch_001_shots_001-006_returns">motion_probe_return_intake/probe_batch_001_shots_001-006_returns</a></p>
+          <p><strong>锁定:</strong> full-duration generation remains blocked until all probes pass signed Codex review.</p>
+        </div>
+        <nav>
+          <a href="probe_batch_001_shots_001-006/probe_batch.jsonl">probe_batch.jsonl</a>
+          <a href="probe_batch_001_shots_001-006/probe_batch.csv">probe_batch.csv</a>
+          <a href="probe_batch_001_shots_001-006/expected_probe_downloads.csv">expected_probe_downloads.csv</a>
+          <a href="probe_batch_001_shots_001-006/ORDERED_PROBE_UPLOAD_CHECKLIST.md">upload checklist</a>
+          <a href="probe_batch_001_shots_001-006/PROBE_RETURN_CONTRACT.md">return contract</a>
+          <a href="probe_batch_001_shots_001-006/probe_bundle_manifest.json">bundle manifest</a>
+        </nav>
+        <table>
+          <thead><tr><th>Probe</th><th>镜头</th><th>可见角色</th><th>预期返回文件</th></tr></thead>
+          <tbody>
+            
+              <tr>
+                <td><code>001_Shot025_probe</code></td>
+                <td>镜头025：规则与目标确立</td>
+                <td>Dimitri, Edelgard, Claude</td>
+                <td><code>01_Shot025_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>002_Shot025A_probe</code></td>
+                <td>镜头025A：战场地形插入</td>
+                <td>none</td>
+                <td><code>02_Shot025A_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>003_Shot026_probe</code></td>
+                <td>镜头026：贝雷特分配职责</td>
+                <td>Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid</td>
+                <td><code>03_Shot026_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>004_Shot026B_probe</code></td>
+                <td>镜头026B：青狮观察战场</td>
+                <td>Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid</td>
+                <td><code>04_Shot026B_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>005_Shot026C_probe</code></td>
+                <td>镜头026C：第一轮推进</td>
+                <td>Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid</td>
+                <td><code>05_Shot026C_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>006_Shot027_probe</code></td>
+                <td>镜头027：亚修架设掩护线</td>
+                <td>Ashe, Claude</td>
+                <td><code>06_Shot027_probe.mp4</code></td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </article>
+    
+      <article class="batch" id="probe_batch_002_shots_007-012">
+        <header>
+          <div>
+            <p class="eyebrow">probe_batch_002_shots_007-012 · 6 probes</p>
+            <h2>007_Shot027B_probe - 012_Shot028C_probe</h2>
+          </div>
+          <a class="zip" href="probe_batch_002_shots_007-012.zip">下载 probe zip</a>
+        </header>
+        <div class="meta">
+          <p><strong>Zip sha256:</strong> <code>458712a90e2a7b0cd66604deeba3115f0622f6389e0ebe31775ecc353dea69b1</code></p>
+          <p><strong>Zip size:</strong> 46535571 bytes</p>
+          <p><strong>返回目录:</strong> <a href="../motion_probe_return_intake/probe_batch_002_shots_007-012_returns">motion_probe_return_intake/probe_batch_002_shots_007-012_returns</a></p>
+          <p><strong>锁定:</strong> full-duration generation remains blocked until all probes pass signed Codex review.</p>
+        </div>
+        <nav>
+          <a href="probe_batch_002_shots_007-012/probe_batch.jsonl">probe_batch.jsonl</a>
+          <a href="probe_batch_002_shots_007-012/probe_batch.csv">probe_batch.csv</a>
+          <a href="probe_batch_002_shots_007-012/expected_probe_downloads.csv">expected_probe_downloads.csv</a>
+          <a href="probe_batch_002_shots_007-012/ORDERED_PROBE_UPLOAD_CHECKLIST.md">upload checklist</a>
+          <a href="probe_batch_002_shots_007-012/PROBE_RETURN_CONTRACT.md">return contract</a>
+          <a href="probe_batch_002_shots_007-012/probe_bundle_manifest.json">bundle manifest</a>
+        </nav>
+        <table>
+          <thead><tr><th>Probe</th><th>镜头</th><th>可见角色</th><th>预期返回文件</th></tr></thead>
+          <tbody>
+            
+              <tr>
+                <td><code>007_Shot027B_probe</code></td>
+                <td>镜头027B：黑鹫第一波压上</td>
+                <td>Ferdinand, Edelgard, Hubert, Dorothea</td>
+                <td><code>07_Shot027B_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>008_Shot027C_probe</code></td>
+                <td>镜头027C：首次接敌</td>
+                <td>Dimitri, Dedue, Ferdinand, Edelgard, Hubert</td>
+                <td><code>08_Shot027C_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>009_Shot027D_probe</code></td>
+                <td>镜头027D：菲力克斯延迟侧切</td>
+                <td>Felix, Byleth, Ferdinand, Dedue</td>
+                <td><code>09_Shot027D_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>010_Shot028_probe</code></td>
+                <td>镜头028：支援线保持纪律</td>
+                <td>Annette, Mercedes, Ignatz</td>
+                <td><code>10_Shot028_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>011_Shot028B_probe</code></td>
+                <td>镜头028B：黑鹫稳住中央</td>
+                <td>Edelgard, Hubert, Dorothea, Dimitri, Dedue</td>
+                <td><code>11_Shot028B_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>012_Shot028C_probe</code></td>
+                <td>镜头028C：菲力克斯看见后续路线</td>
+                <td>Felix, Byleth, Ferdinand, Dedue</td>
+                <td><code>12_Shot028C_probe.mp4</code></td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </article>
+    
+      <article class="batch" id="probe_batch_003_shots_013-018">
+        <header>
+          <div>
+            <p class="eyebrow">probe_batch_003_shots_013-018 · 6 probes</p>
+            <h2>013_Shot029_probe - 018_Shot030B_probe</h2>
+          </div>
+          <a class="zip" href="probe_batch_003_shots_013-018.zip">下载 probe zip</a>
+        </header>
+        <div class="meta">
+          <p><strong>Zip sha256:</strong> <code>116f5d964cd8b814371ae1355d8aa37bd2e63978242bbb4101d4a57e30bf80dc</code></p>
+          <p><strong>Zip size:</strong> 46477764 bytes</p>
+          <p><strong>返回目录:</strong> <a href="../motion_probe_return_intake/probe_batch_003_shots_013-018_returns">motion_probe_return_intake/probe_batch_003_shots_013-018_returns</a></p>
+          <p><strong>锁定:</strong> full-duration generation remains blocked until all probes pass signed Codex review.</p>
+        </div>
+        <nav>
+          <a href="probe_batch_003_shots_013-018/probe_batch.jsonl">probe_batch.jsonl</a>
+          <a href="probe_batch_003_shots_013-018/probe_batch.csv">probe_batch.csv</a>
+          <a href="probe_batch_003_shots_013-018/expected_probe_downloads.csv">expected_probe_downloads.csv</a>
+          <a href="probe_batch_003_shots_013-018/ORDERED_PROBE_UPLOAD_CHECKLIST.md">upload checklist</a>
+          <a href="probe_batch_003_shots_013-018/PROBE_RETURN_CONTRACT.md">return contract</a>
+          <a href="probe_batch_003_shots_013-018/probe_bundle_manifest.json">bundle manifest</a>
+        </nav>
+        <table>
+          <thead><tr><th>Probe</th><th>镜头</th><th>可见角色</th><th>预期返回文件</th></tr></thead>
+          <tbody>
+            
+              <tr>
+                <td><code>013_Shot029_probe</code></td>
+                <td>镜头029：青狮西侧轮转</td>
+                <td>Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz</td>
+                <td><code>13_Shot029_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>014_Shot029C_probe</code></td>
+                <td>镜头029C：库罗德读出两个缺口</td>
+                <td>Claude, Ashe, Edelgard</td>
+                <td><code>14_Shot029C_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>015_Shot029D_probe</code></td>
+                <td>镜头029D：库罗德逼退亚修</td>
+                <td>Claude, Ashe</td>
+                <td><code>15_Shot029D_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>016_Shot029B_probe</code></td>
+                <td>镜头029B：金鹿全面施压</td>
+                <td>Hilda, Lorenz, Ignatz, Sylvain, Ingrid</td>
+                <td><code>16_Shot029B_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>017_Shot030_probe</code></td>
+                <td>镜头030：菲力克斯过度前压的诱惑</td>
+                <td>Felix, Byleth, Ferdinand</td>
+                <td><code>17_Shot030_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>018_Shot030B_probe</code></td>
+                <td>镜头030B：路线触发特写</td>
+                <td>Felix, Byleth</td>
+                <td><code>18_Shot030B_probe.mp4</code></td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </article>
+    
+      <article class="batch" id="probe_batch_004_shots_019-024">
+        <header>
+          <div>
+            <p class="eyebrow">probe_batch_004_shots_019-024 · 6 probes</p>
+            <h2>019_Shot030C_probe - 024_Shot032B_probe</h2>
+          </div>
+          <a class="zip" href="probe_batch_004_shots_019-024.zip">下载 probe zip</a>
+        </header>
+        <div class="meta">
+          <p><strong>Zip sha256:</strong> <code>8ef6cf66c13423d24a296cfe4b00dec9615096d5ef5d96e36730f5a455f87820</code></p>
+          <p><strong>Zip size:</strong> 46365051 bytes</p>
+          <p><strong>返回目录:</strong> <a href="../motion_probe_return_intake/probe_batch_004_shots_019-024_returns">motion_probe_return_intake/probe_batch_004_shots_019-024_returns</a></p>
+          <p><strong>锁定:</strong> full-duration generation remains blocked until all probes pass signed Codex review.</p>
+        </div>
+        <nav>
+          <a href="probe_batch_004_shots_019-024/probe_batch.jsonl">probe_batch.jsonl</a>
+          <a href="probe_batch_004_shots_019-024/probe_batch.csv">probe_batch.csv</a>
+          <a href="probe_batch_004_shots_019-024/expected_probe_downloads.csv">expected_probe_downloads.csv</a>
+          <a href="probe_batch_004_shots_019-024/ORDERED_PROBE_UPLOAD_CHECKLIST.md">upload checklist</a>
+          <a href="probe_batch_004_shots_019-024/PROBE_RETURN_CONTRACT.md">return contract</a>
+          <a href="probe_batch_004_shots_019-024/probe_bundle_manifest.json">bundle manifest</a>
+        </nav>
+        <table>
+          <thead><tr><th>Probe</th><th>镜头</th><th>可见角色</th><th>预期返回文件</th></tr></thead>
+          <tbody>
+            
+              <tr>
+                <td><code>019_Shot030C_probe</code></td>
+                <td>镜头030C：伊古纳兹与金鹿切断路线</td>
+                <td>Ignatz, Annette, Mercedes, Dorothea</td>
+                <td><code>19_Shot030C_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>020_Shot031_probe</code></td>
+                <td>镜头031：贝雷特叫停菲力克斯</td>
+                <td>Byleth, Felix</td>
+                <td><code>20_Shot031_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>021_Shot031B_probe</code></td>
+                <td>镜头031B：贝雷特双线指挥</td>
+                <td>Byleth, Dimitri, Dedue, Sylvain, Ingrid, Annette, Mercedes</td>
+                <td><code>21_Shot031B_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>022_Shot032_probe</code></td>
+                <td>镜头032：杜笃与梅尔塞德斯重建盾线</td>
+                <td>Dedue, Mercedes</td>
+                <td><code>22_Shot032_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>023_Shot032A_probe</code></td>
+                <td>镜头032A：雅妮特扬尘掩护</td>
+                <td>Annette, Mercedes, Ashe, Claude</td>
+                <td><code>23_Shot032A_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>024_Shot032B_probe</code></td>
+                <td>镜头032B：青狮守住平台下方</td>
+                <td>Dimitri, Dedue, Hanneman</td>
+                <td><code>24_Shot032B_probe.mp4</code></td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </article>
+    
+      <article class="batch" id="probe_batch_005_shots_025-030">
+        <header>
+          <div>
+            <p class="eyebrow">probe_batch_005_shots_025-030 · 6 probes</p>
+            <h2>025_Shot032C_probe - 030_Shot033_probe</h2>
+          </div>
+          <a class="zip" href="probe_batch_005_shots_025-030.zip">下载 probe zip</a>
+        </header>
+        <div class="meta">
+          <p><strong>Zip sha256:</strong> <code>91f8b62cac8ae01e66c53cf1094ffdb479045cf108fc024a50bdf9ad9a833be3</code></p>
+          <p><strong>Zip size:</strong> 49155821 bytes</p>
+          <p><strong>返回目录:</strong> <a href="../motion_probe_return_intake/probe_batch_005_shots_025-030_returns">motion_probe_return_intake/probe_batch_005_shots_025-030_returns</a></p>
+          <p><strong>锁定:</strong> full-duration generation remains blocked until all probes pass signed Codex review.</p>
+        </div>
+        <nav>
+          <a href="probe_batch_005_shots_025-030/probe_batch.jsonl">probe_batch.jsonl</a>
+          <a href="probe_batch_005_shots_025-030/probe_batch.csv">probe_batch.csv</a>
+          <a href="probe_batch_005_shots_025-030/expected_probe_downloads.csv">expected_probe_downloads.csv</a>
+          <a href="probe_batch_005_shots_025-030/ORDERED_PROBE_UPLOAD_CHECKLIST.md">upload checklist</a>
+          <a href="probe_batch_005_shots_025-030/PROBE_RETURN_CONTRACT.md">return contract</a>
+          <a href="probe_batch_005_shots_025-030/probe_bundle_manifest.json">bundle manifest</a>
+        </nav>
+        <table>
+          <thead><tr><th>Probe</th><th>镜头</th><th>可见角色</th><th>预期返回文件</th></tr></thead>
+          <tbody>
+            
+              <tr>
+                <td><code>025_Shot032C_probe</code></td>
+                <td>镜头032C：黑鹫反击金鹿</td>
+                <td>Edelgard, Hubert, Dorothea, Claude, Hilda</td>
+                <td><code>25_Shot032C_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>026_Shot032D_probe</code></td>
+                <td>镜头032D：三线战场关系证明</td>
+                <td>Byleth, Dimitri, Edelgard, Claude</td>
+                <td><code>26_Shot032D_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>027_Shot032E_probe</code></td>
+                <td>镜头032E：贝雷特利用混战空隙</td>
+                <td>Byleth, Dimitri, Edelgard, Claude, Hilda, Hubert</td>
+                <td><code>27_Shot032E_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>028_Shot032F_probe</code></td>
+                <td>镜头032F：菲力克斯与亚修判定休伯特出局</td>
+                <td>Felix, Ashe, Hubert</td>
+                <td><code>28_Shot032F_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>029_Shot032G_probe</code></td>
+                <td>镜头032G：库罗德与雷欧妮牵制多洛缇雅和贝尔娜提塔</td>
+                <td>Claude, Leonie, Dorothea, Bernadetta</td>
+                <td><code>29_Shot032G_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>030_Shot033_probe</code></td>
+                <td>镜头033：帝弥托利在平台前克制收势</td>
+                <td>Dimitri, Byleth, Dedue, Hanneman</td>
+                <td><code>30_Shot033_probe.mp4</code></td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </article>
+    
+      <article class="batch" id="probe_batch_006_shots_031-036">
+        <header>
+          <div>
+            <p class="eyebrow">probe_batch_006_shots_031-036 · 6 probes</p>
+            <h2>031_Shot033B_probe - 036_Shot034B_probe</h2>
+          </div>
+          <a class="zip" href="probe_batch_006_shots_031-036.zip">下载 probe zip</a>
+        </header>
+        <div class="meta">
+          <p><strong>Zip sha256:</strong> <code>4a17f2526a7d537e5bb8be68dbbe5ba1d3824ac762e5fc4a64f6312fe2b5d9da</code></p>
+          <p><strong>Zip size:</strong> 47893620 bytes</p>
+          <p><strong>返回目录:</strong> <a href="../motion_probe_return_intake/probe_batch_006_shots_031-036_returns">motion_probe_return_intake/probe_batch_006_shots_031-036_returns</a></p>
+          <p><strong>锁定:</strong> full-duration generation remains blocked until all probes pass signed Codex review.</p>
+        </div>
+        <nav>
+          <a href="probe_batch_006_shots_031-036/probe_batch.jsonl">probe_batch.jsonl</a>
+          <a href="probe_batch_006_shots_031-036/probe_batch.csv">probe_batch.csv</a>
+          <a href="probe_batch_006_shots_031-036/expected_probe_downloads.csv">expected_probe_downloads.csv</a>
+          <a href="probe_batch_006_shots_031-036/ORDERED_PROBE_UPLOAD_CHECKLIST.md">upload checklist</a>
+          <a href="probe_batch_006_shots_031-036/PROBE_RETURN_CONTRACT.md">return contract</a>
+          <a href="probe_batch_006_shots_031-036/probe_bundle_manifest.json">bundle manifest</a>
+        </nav>
+        <table>
+          <thead><tr><th>Probe</th><th>镜头</th><th>可见角色</th><th>预期返回文件</th></tr></thead>
+          <tbody>
+            
+              <tr>
+                <td><code>031_Shot033B_probe</code></td>
+                <td>镜头033B：贝雷特下令切向教师目标</td>
+                <td>Byleth, Ashe, Ingrid, Felix</td>
+                <td><code>31_Shot033B_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>032_Shot033C_probe</code></td>
+                <td>镜头033C：亚修压制汉尼曼路线</td>
+                <td>Ashe, Hanneman</td>
+                <td><code>32_Shot033C_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>033_Shot033D_probe</code></td>
+                <td>镜头033D：英谷莉特切断玛努艾拉路线</td>
+                <td>Ingrid, Manuela, Sylvain</td>
+                <td><code>33_Shot033D_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>034_Shot034C_probe</code></td>
+                <td>镜头034C：菲力克斯挡下斐迪南</td>
+                <td>Felix, Ferdinand</td>
+                <td><code>34_Shot034C_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>035_Shot034D_probe</code></td>
+                <td>镜头034D：贝雷特中断教师目标反扑</td>
+                <td>Byleth, Hanneman</td>
+                <td><code>35_Shot034D_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>036_Shot034B_probe</code></td>
+                <td>镜头034B：空教师目标裁定</td>
+                <td>Byleth, Dimitri</td>
+                <td><code>36_Shot034B_probe.mp4</code></td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </article>
+    
+      <article class="batch" id="probe_batch_007_shots_037-042">
+        <header>
+          <div>
+            <p class="eyebrow">probe_batch_007_shots_037-042 · 6 probes</p>
+            <h2>037_Shot034E_probe - 042_Shot036_probe</h2>
+          </div>
+          <a class="zip" href="probe_batch_007_shots_037-042.zip">下载 probe zip</a>
+        </header>
+        <div class="meta">
+          <p><strong>Zip sha256:</strong> <code>a87333f8bee001b1c8f9fa32f4d4f0b2710c65f37bc58ebe73e4bb4542d38a2e</code></p>
+          <p><strong>Zip size:</strong> 36879164 bytes</p>
+          <p><strong>返回目录:</strong> <a href="../motion_probe_return_intake/probe_batch_007_shots_037-042_returns">motion_probe_return_intake/probe_batch_007_shots_037-042_returns</a></p>
+          <p><strong>锁定:</strong> full-duration generation remains blocked until all probes pass signed Codex review.</p>
+        </div>
+        <nav>
+          <a href="probe_batch_007_shots_037-042/probe_batch.jsonl">probe_batch.jsonl</a>
+          <a href="probe_batch_007_shots_037-042/probe_batch.csv">probe_batch.csv</a>
+          <a href="probe_batch_007_shots_037-042/expected_probe_downloads.csv">expected_probe_downloads.csv</a>
+          <a href="probe_batch_007_shots_037-042/ORDERED_PROBE_UPLOAD_CHECKLIST.md">upload checklist</a>
+          <a href="probe_batch_007_shots_037-042/PROBE_RETURN_CONTRACT.md">return contract</a>
+          <a href="probe_batch_007_shots_037-042/probe_bundle_manifest.json">bundle manifest</a>
+        </nav>
+        <table>
+          <thead><tr><th>Probe</th><th>镜头</th><th>可见角色</th><th>预期返回文件</th></tr></thead>
+          <tbody>
+            
+              <tr>
+                <td><code>037_Shot034E_probe</code></td>
+                <td>镜头034E：金鹿高光后收势</td>
+                <td>Claude, Hilda, Lorenz, Ignatz, Leonie</td>
+                <td><code>37_Shot034E_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>038_Shot034F_probe</code></td>
+                <td>镜头034F：黑鹫高光后收势</td>
+                <td>Edelgard, Ferdinand</td>
+                <td><code>38_Shot034F_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>039_Shot034G_probe</code></td>
+                <td>镜头034G：青狮核心险胜收势</td>
+                <td>Byleth, Dimitri, Dedue</td>
+                <td><code>39_Shot034G_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>040_Shot034_probe</code></td>
+                <td>镜头034：全场胜负关系落定</td>
+                <td>Dimitri, Edelgard, Claude</td>
+                <td><code>40_Shot034_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>041_Shot035_probe</code></td>
+                <td>镜头035：菲力克斯的敬意</td>
+                <td>Felix, Byleth</td>
+                <td><code>41_Shot035_probe.mp4</code></td>
+              </tr>
+            
+              <tr>
+                <td><code>042_Shot036_probe</code></td>
+                <td>镜头036：帝弥托利战后余韵</td>
+                <td>Dimitri, Byleth</td>
+                <td><code>42_Shot036_probe.mp4</code></td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </article>
+    </main>
+</body>
+</html>

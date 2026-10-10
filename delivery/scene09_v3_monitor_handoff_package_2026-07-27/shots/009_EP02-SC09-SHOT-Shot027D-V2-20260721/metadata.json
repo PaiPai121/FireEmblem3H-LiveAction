@@ -1,0 +1,373 @@
+{
+  "id": "EP02-SC09-SHOT-Shot027D-V2-20260721",
+  "shot": "Shot027D",
+  "order": 9,
+  "package_type": "monitor_handoff",
+  "status": "monitor_required",
+  "duration_seconds": 6,
+  "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4",
+  "edit_in": "use start_frame as first generated frame; preserve the declared screen direction and readable named-only roster",
+  "edit_out": "hold end_frame state for final 0.5 seconds; reject generated clips that do not land on this state",
+  "audio_anchor": "Sylvain, offscreen: \"等他回身。\" Ingrid, offscreen: \"我已经看见破绽。\" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words.",
+  "visible_named_only": [
+    "Felix",
+    "Byleth",
+    "Ferdinand",
+    "Dedue"
+  ],
+  "title": "菲力克斯切入费尔迪南特",
+  "titleZh": "菲力克斯切入费尔迪南特",
+  "battle_state_after": {
+    "shot": "Shot027D",
+    "visible_named_only": [
+      "Felix",
+      "Byleth",
+      "Ferdinand",
+      "Dedue"
+    ],
+    "active_after": [
+      "Byleth",
+      "Dimitri",
+      "Dedue",
+      "Felix",
+      "Ashe",
+      "Annette",
+      "Mercedes",
+      "Sylvain",
+      "Ingrid",
+      "Edelgard",
+      "Hubert",
+      "Ferdinand",
+      "Dorothea",
+      "Bernadetta",
+      "Claude",
+      "Hilda",
+      "Lorenz",
+      "Ignatz",
+      "Leonie",
+      "Hanneman",
+      "Manuela"
+    ],
+    "inactive_or_removed_after": [],
+    "active_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "inactive_by_house": {},
+    "no_active_combat_after": [],
+    "statuses_after": {
+      "Byleth": "active_available",
+      "Dimitri": "active_available",
+      "Dedue": "active_available",
+      "Felix": "active_available",
+      "Ashe": "active_available",
+      "Annette": "active_available",
+      "Mercedes": "active_available",
+      "Sylvain": "active_available",
+      "Ingrid": "active_available",
+      "Edelgard": "active_available",
+      "Hubert": "active_available",
+      "Ferdinand": "active_available",
+      "Dorothea": "active_available",
+      "Bernadetta": "active_available",
+      "Claude": "active_available",
+      "Hilda": "active_available",
+      "Lorenz": "active_available",
+      "Ignatz": "active_available",
+      "Leonie": "active_available",
+      "Hanneman": "active_available",
+      "Manuela": "active_available"
+    },
+    "note": "No attrition change; preserve previous battle state.",
+    "result": "",
+    "battle_ledger_after": {
+      "rule_cn": "学籍模拟战账本：模拟战非致命，全部具名角色生命安全；击败/被俘/目标判负/退场只表示课堂规则下失去主动参战资格。",
+      "all_named_characters_alive": true,
+      "alive_by_house": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "still_active_or_controlling_objective_by_house": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_but_not_defeated_by_house": {},
+      "mock_battle_defeated_or_removed_by_house": {},
+      "captured_or_objective_defeated_by_house": {},
+      "stood_down_or_post_battle_by_house": {},
+      "must_not_return_active_by_house": {},
+      "changed_this_shot": [],
+      "note_cn": "安全存活/非致命：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 仍可主动参战/控制目标：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 已击败/被俘/目标判负/退场，不可再主动战斗：none"
+    }
+  },
+  "continuity_previous": "EP02-SC09-SHOT-Shot027C-V2-20260721",
+  "continuity_next": "EP02-SC09-SHOT-Shot028-V2-20260721",
+  "source_prompt_path": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027D_production_video_prompt_v3.md",
+  "source_frames": {
+    "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+    "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+    "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_end.png"
+  },
+  "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+  "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+  "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_end.png",
+  "frames": {
+    "start": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png"
+    },
+    "key": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png"
+    },
+    "end": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_end.png"
+    },
+    "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+    "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+    "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_end.png"
+  },
+  "local_files": {
+    "prompt": "prompt.md",
+    "model_prompt": "model_prompt.md",
+    "negative_prompt": "negative_prompt.md",
+    "start_frame": "start_frame.png",
+    "key_frame": "key_frame.png",
+    "end_frame": "end_frame.png"
+  },
+  "model_notes": [
+    "V3 attrition prompt package; use this instead of old V2 motion_test_prompts.",
+    "Cleared for monitored video-model submission from this frame/prompt package; generated clips still require Codex motion self-audit before final edit delivery.",
+    "No unnamed extras; captured characters must not reappear, and spent, stood-down, or defeated characters must not reappear as active combatants.",
+    "Hanneman and Manuela are separate faculty examiners on separate lanes; keep them not side by side, never as a unit, never as allied combat partners, shared sigil defenders, or side-by-side objective defenders.",
+    "Nonlethal Garreg Mach mock-battle tone with training weapons only."
+  ],
+  "reject_if": [
+    "Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.",
+    "Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.",
+    "Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.",
+    "Reject if any face, age, costume, house color, or weapon changes from the input frames and named references.",
+    "Reject if the action becomes lethal, bloody, humiliating, or unrelated to the start/key/end chain.",
+    "any readable named character becomes a generic adult mannequin or wrong-age student.",
+    "any combat character faces the camera while their threat or route is elsewhere.",
+    "extra anonymous fighters appear in readable foreground or confuse house lanes.",
+    "the scene becomes lethal, bloody, or humiliating for any house.",
+    "weapon locks are broken: Felix: wooden training sword; Byleth: training sword or sheathed sword, command gestures; Ferdinand: training lance; Dedue: large shield, defensive body line.",
+    "Reject if this shot plays as a static pose or portrait instead of the declared start/key/end action chain.",
+    "Reject if the shot contradicts the 2026-08-12 critical re-audit required revision."
+  ],
+  "primary_check": "菲力克斯利用杜笃挡线后的空隙切入，牵制费尔迪南特。 Critical re-audit: monitor_required. 保留候选，但 end 必须显示费尔迪南特被迫后撤或举手认定受限。",
+  "command_argv": null,
+  "negative_prompt": "no extra people, no unnamed students, no spectators, no crowds, no readable silhouettes, no text, no subtitles, no captions, no visible text, no watermark, no camera spin, no screen-direction reversal, no face drift, no costume drift, no weapon drift, no lethal hits, no lethal hit, no gore, no blood, no paired Hanneman and Manuela, no shared teacher platform, no same-lane teacher duo, no readable Hanneman, no readable Manuela",
+  "visual_review_status": "monitor_required",
+  "video_generation_readiness": "blocked_until_critical_reaudit_revisions_clear",
+  "critical_reaudit": {
+    "order": 9,
+    "shot": "Shot027D",
+    "title_zh": "菲力克斯切入费尔迪南特",
+    "visible_named_only": [
+      "Felix",
+      "Byleth",
+      "Ferdinand",
+      "Dedue"
+    ],
+    "decision": "monitor_required",
+    "reviewed_paths": {
+      "start": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/start_frame.png",
+      "key": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/key_frame.png",
+      "end": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/end_frame.png"
+    },
+    "story_beat": "菲力克斯利用杜笃挡线后的空隙切入，牵制费尔迪南特。",
+    "visual_assessment": "近景有剑/枪相交，但三帧结束状态仍偏站定。",
+    "camera": "中近景交叉武器，贝雷特只作裁判/指挥边缘。",
+    "facing_screen_direction": "菲力克斯从青狮侧切入，不越过贝雷特裁判轴线。",
+    "blocking_issues": [
+      "费尔迪南特被压制的结果不够明确。"
+    ],
+    "required_revision": "保留候选，但 end 必须显示费尔迪南特被迫后撤或举手认定受限。"
+  },
+  "supersedes_prior_visual_review": "production_system/reviews/scene09_critical_reaudit_2026-08-12/scene09_critical_reaudit_2026-08-12.json",
+  "battle_ledger_after": {
+    "rule_cn": "学籍模拟战账本：模拟战非致命，全部具名角色生命安全；击败/被俘/目标判负/退场只表示课堂规则下失去主动参战资格。",
+    "all_named_characters_alive": true,
+    "alive_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "still_active_or_controlling_objective_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "limited_but_not_defeated_by_house": {},
+    "mock_battle_defeated_or_removed_by_house": {},
+    "captured_or_objective_defeated_by_house": {},
+    "stood_down_or_post_battle_by_house": {},
+    "must_not_return_active_by_house": {},
+    "changed_this_shot": [],
+    "note_cn": "安全存活/非致命：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 仍可主动参战/控制目标：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 已击败/被俘/目标判负/退场，不可再主动战斗：none"
+  },
+  "alive_safe_after": "command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "visible_but_no_active_combat_after": "none",
+  "active_or_objective_after": "command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "limited_after": "none",
+  "defeated_removed_after": "none",
+  "captured_objective_defeated_after": "none",
+  "stood_down_post_battle_after": "none",
+  "must_not_return_active_after": "none",
+  "changed_this_shot": "none",
+  "no_active_combat_line": "none",
+  "dialogue_audio": "Sylvain, offscreen: \"等他回身。\" Ingrid, offscreen: \"我已经看见破绽。\" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words."
+}

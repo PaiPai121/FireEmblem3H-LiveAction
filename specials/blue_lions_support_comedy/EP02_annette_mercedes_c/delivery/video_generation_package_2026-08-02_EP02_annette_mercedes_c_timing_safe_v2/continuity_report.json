@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "strict_continuity_gate": "passed",
+  "timing_safe_revision": true,
+  "shots_checked": 6
+}

@@ -1,0 +1,53 @@
+{
+  "shot_id": "BLSC01-SH007",
+  "parent_shot": "BLSC01-SH004",
+  "segment": 1,
+  "segments_from_parent": 1,
+  "order": 7,
+  "title": "Peculiar Friend",
+  "duration_seconds": 12,
+  "timing_estimate_seconds": 9.7,
+  "timing_status": "passed",
+  "support_pair": "Dedue x Ashe",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Dedue",
+      "text": "俺はダスカーの者だ。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Ashe",
+      "text": "知ってる。それでも友達でいられるよ。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Dedue",
+      "text": "変わった奴だ。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Ashe",
+      "text": "よく言われる。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC01-SH007.mp4",
+  "no_subtitles": true,
+  "visual_status": "widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png generated as three stacked horizontal widescreen frames",
+  "anchor_mean_abs_diff": {
+    "start_key": 38.12,
+    "key_end": 43.12,
+    "start_end": 35.86
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue"
+}

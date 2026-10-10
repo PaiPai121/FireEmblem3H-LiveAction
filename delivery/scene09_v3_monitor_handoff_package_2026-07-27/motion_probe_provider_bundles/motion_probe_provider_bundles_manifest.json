@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-15T06:32:38.191Z",
+  "decision": "motion_probe_provider_bundles_ready",
+  "source_motion_probe_manifest": "motion_probe_submission/motion_probe_manifest.json",
+  "source_motion_probe_manifest_sha256": "21e4e903a3b4e4ec6822d8ed29c452d594acf71c66946a6f87bae1073e1b3e2f",
+  "probe_duration_seconds": 3,
+  "total_batches": 7,
+  "total_shots": 42,
+  "bundle_policy": "Self-contained 3-second probe upload bundles; full-duration generation remains blocked until returned probes pass Codex motion QA.",
+  "bundles": [
+    {
+      "batch_id": "probe_batch_001_shots_001-006",
+      "directory": "motion_probe_provider_bundles/probe_batch_001_shots_001-006",
+      "zip": "motion_probe_provider_bundles/probe_batch_001_shots_001-006.zip",
+      "zip_digest": {
+        "bytes": 49401500,
+        "sha256": "252a55cece10a99f24d26757bd67c032d4545eff38ff43eab7beba8d822ce328"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "001_Shot025_probe",
+        "002_Shot025A_probe",
+        "003_Shot026_probe",
+        "004_Shot026B_probe",
+        "005_Shot026C_probe",
+        "006_Shot027_probe"
+      ],
+      "files": 42
+    },
+    {
+      "batch_id": "probe_batch_002_shots_007-012",
+      "directory": "motion_probe_provider_bundles/probe_batch_002_shots_007-012",
+      "zip": "motion_probe_provider_bundles/probe_batch_002_shots_007-012.zip",
+      "zip_digest": {
+        "bytes": 46535571,
+        "sha256": "458712a90e2a7b0cd66604deeba3115f0622f6389e0ebe31775ecc353dea69b1"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "007_Shot027B_probe",
+        "008_Shot027C_probe",
+        "009_Shot027D_probe",
+        "010_Shot028_probe",
+        "011_Shot028B_probe",
+        "012_Shot028C_probe"
+      ],
+      "files": 42
+    },
+    {
+      "batch_id": "probe_batch_003_shots_013-018",
+      "directory": "motion_probe_provider_bundles/probe_batch_003_shots_013-018",
+      "zip": "motion_probe_provider_bundles/probe_batch_003_shots_013-018.zip",
+      "zip_digest": {
+        "bytes": 46477764,
+        "sha256": "116f5d964cd8b814371ae1355d8aa37bd2e63978242bbb4101d4a57e30bf80dc"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "013_Shot029_probe",
+        "014_Shot029C_probe",
+        "015_Shot029D_probe",
+        "016_Shot029B_probe",
+        "017_Shot030_probe",
+        "018_Shot030B_probe"
+      ],
+      "files": 42
+    },
+    {
+      "batch_id": "probe_batch_004_shots_019-024",
+      "directory": "motion_probe_provider_bundles/probe_batch_004_shots_019-024",
+      "zip": "motion_probe_provider_bundles/probe_batch_004_shots_019-024.zip",
+      "zip_digest": {
+        "bytes": 46365051,
+        "sha256": "8ef6cf66c13423d24a296cfe4b00dec9615096d5ef5d96e36730f5a455f87820"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "019_Shot030C_probe",
+        "020_Shot031_probe",
+        "021_Shot031B_probe",
+        "022_Shot032_probe",
+        "023_Shot032A_probe",
+        "024_Shot032B_probe"
+      ],
+      "files": 42
+    },
+    {
+      "batch_id": "probe_batch_005_shots_025-030",
+      "directory": "motion_probe_provider_bundles/probe_batch_005_shots_025-030",
+      "zip": "motion_probe_provider_bundles/probe_batch_005_shots_025-030.zip",
+      "zip_digest": {
+        "bytes": 49155821,
+        "sha256": "91f8b62cac8ae01e66c53cf1094ffdb479045cf108fc024a50bdf9ad9a833be3"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "025_Shot032C_probe",
+        "026_Shot032D_probe",
+        "027_Shot032E_probe",
+        "028_Shot032F_probe",
+        "029_Shot032G_probe",
+        "030_Shot033_probe"
+      ],
+      "files": 42
+    },
+    {
+      "batch_id": "probe_batch_006_shots_031-036",
+      "directory": "motion_probe_provider_bundles/probe_batch_006_shots_031-036",
+      "zip": "motion_probe_provider_bundles/probe_batch_006_shots_031-036.zip",
+      "zip_digest": {
+        "bytes": 47893620,
+        "sha256": "4a17f2526a7d537e5bb8be68dbbe5ba1d3824ac762e5fc4a64f6312fe2b5d9da"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "031_Shot033B_probe",
+        "032_Shot033C_probe",
+        "033_Shot033D_probe",
+        "034_Shot034C_probe",
+        "035_Shot034D_probe",
+        "036_Shot034B_probe"
+      ],
+      "files": 42
+    },
+    {
+      "batch_id": "probe_batch_007_shots_037-042",
+      "directory": "motion_probe_provider_bundles/probe_batch_007_shots_037-042",
+      "zip": "motion_probe_provider_bundles/probe_batch_007_shots_037-042.zip",
+      "zip_digest": {
+        "bytes": 36879164,
+        "sha256": "a87333f8bee001b1c8f9fa32f4d4f0b2710c65f37bc58ebe73e4bb4542d38a2e"
+      },
+      "rows": 6,
+      "custom_ids": [
+        "037_Shot034E_probe",
+        "038_Shot034F_probe",
+        "039_Shot034G_probe",
+        "040_Shot034_probe",
+        "041_Shot035_probe",
+        "042_Shot036_probe"
+      ],
+      "files": 42
+    }
+  ]
+}

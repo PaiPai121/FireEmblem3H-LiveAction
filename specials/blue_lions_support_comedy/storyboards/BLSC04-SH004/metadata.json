@@ -1,0 +1,47 @@
+{
+  "shot_id": "BLSC04-SH004",
+  "parent_shot": "BLSC04-SH002",
+  "segment": 2,
+  "segments_from_parent": 2,
+  "order": 4,
+  "title": "Ordinary Start",
+  "duration_seconds": 9,
+  "timing_estimate_seconds": 8.8,
+  "timing_status": "passed",
+  "support_pair": "Sylvain x Mercedes",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "君のことをもっと知りたいんだ。友達として。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "それなら普通のことを聞いてちょうだい。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC04-SH004.mp4",
+  "no_subtitles": true,
+  "visual_status": "widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png regenerated for EP04 Mercedes identity_v4 repair",
+  "anchor_mean_abs_diff": {
+    "start_key": 38.43,
+    "key_end": 38.62,
+    "start_end": 26.18
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue",
+  "mercedes_identity_lock": "Mercedes identity_v4 lock: every EP04 frame must preserve Mercedes's canon academy identifiers: soft youthful rounded face, warm blue-lavender eyes, pale-blonde side-swept bangs, long side ponytail over her right shoulder, black-and-gold striped hair ribbon, white high collar and scarf, gold geometric chest trim, beige cape with blue linework, and gentle slightly absent-minded student warmth. Reject if she looks like a generic blonde church student, adult noblewoman, model, nun, or motherly healer.",
+  "mercedes_identity_status": "mercedes_identity_v4_visual_review_passed",
+  "downgrade_reason": "User feedback on 2026-08-10: EP04 Sylvain/Mercedes frames do not read as Mercedes. Prior approval downgraded because the delivered woman drifted into a generic/mature blonde church student, with unstable Mercedes hair ribbon, beige cape, face shape, and youthful student identity.",
+  "mercedes_identity_review_date": "2026-08-10"
+}

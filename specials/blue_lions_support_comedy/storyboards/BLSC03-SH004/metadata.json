@@ -1,0 +1,43 @@
+{
+  "shot_id": "BLSC03-SH004",
+  "parent_shot": "BLSC03-SH002",
+  "segment": 2,
+  "segments_from_parent": 2,
+  "order": 4,
+  "title": "Little Brother",
+  "duration_seconds": 8,
+  "timing_estimate_seconds": 4.9,
+  "timing_status": "passed",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "あの頃は素直で可愛かったのにな。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "黙れ。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC03-SH004.mp4",
+  "no_subtitles": true,
+  "visual_status": "widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png generated as three stacked horizontal widescreen frames",
+  "anchor_mean_abs_diff": {
+    "start_key": 48.42,
+    "key_end": 46.97,
+    "start_end": 22.13
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue"
+}

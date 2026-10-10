@@ -1,0 +1,45 @@
+{
+  "total_duration_seconds": 60,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "SIBH-SH001",
+      "duration_seconds": 10,
+      "expected_clip": "clips/SIBH-SH001.mp4",
+      "edit_in": "cut from corridor ambience",
+      "edit_out": "cut on Ingrid's offscreen interruption"
+    },
+    {
+      "order": 2,
+      "shot": "SIBH-SH002",
+      "duration_seconds": 10,
+      "expected_clip": "clips/SIBH-SH002.mp4",
+      "edit_in": "from Sylvain turning screen-left",
+      "edit_out": "cut as Ingrid opens her notes"
+    },
+    {
+      "order": 3,
+      "shot": "SIBH-SH003",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SIBH-SH003.mp4",
+      "edit_in": "from Ingrid opening notes",
+      "edit_out": "cut on Sylvain's worried offscreen glance"
+    },
+    {
+      "order": 4,
+      "shot": "SIBH-SH004",
+      "duration_seconds": 16,
+      "expected_clip": "clips/SIBH-SH004.mp4",
+      "edit_in": "from Sylvain's worried glance",
+      "edit_out": "cut to Ingrid facing the implied class"
+    },
+    {
+      "order": 5,
+      "shot": "SIBH-SH005",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SIBH-SH005.mp4",
+      "edit_in": "cut from Sylvain asking if this is a trial",
+      "edit_out": "hold on failed recovery smile"
+    }
+  ]
+}

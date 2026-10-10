@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "project": "blue_lions_black_history",
+  "artifacts": [
+    {
+      "id": "SIBH-BRIEF",
+      "type": "project_bible",
+      "stage": "project_bible",
+      "status": "approved_for_next_stage",
+      "created_by": "producer-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "brief.md",
+        "production_notes.md",
+        "references/source_notes.md"
+      ],
+      "source_refs": [
+        "https://wiki.serenesforest.net/index.php/Three_Houses_Supports/Sylvain_Ingrid"
+      ],
+      "depends_on": [],
+      "risk_flags": [
+        "canon_fidelity",
+        "tone_drift",
+        "romance_overstatement"
+      ],
+      "notes": "Defines the Sylvain/Ingrid black-history audit comedy short and adaptation boundaries."
+    },
+    {
+      "id": "SIBH-SCRIPT",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "outline.md",
+        "script.md",
+        "dialogue_audio_beats.md"
+      ],
+      "source_refs": [
+        "brief.md",
+        "references/source_notes.md"
+      ],
+      "depends_on": [
+        "SIBH-BRIEF"
+      ],
+      "risk_flags": [
+        "dialogue_density",
+        "tone_drift"
+      ],
+      "notes": "One-minute Japanese adapted C-support scene: Nian cameo triggers Sylvain's flirt, then Ingrid recreates the black-history accountability beat."
+    },
+    {
+      "id": "SIBH-DIRECTOR-TREATMENT",
+      "type": "director_treatment",
+      "stage": "director_treatment",
+      "status": "approved_for_next_stage",
+      "created_by": "director-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "director_treatment.md"
+      ],
+      "source_refs": [
+        "script.md"
+      ],
+      "depends_on": [
+        "SIBH-SCRIPT"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "performance_tone"
+      ],
+      "notes": "Direction rules for a Nian cameo trigger followed by a support-style Sylvain/Ingrid confrontation."
+    },
+    {
+      "id": "SIBH-SHOT-LIST",
+      "type": "shot_list",
+      "stage": "shot_list",
+      "status": "approved_for_next_stage",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "shot_list.md"
+      ],
+      "source_refs": [
+        "script.md",
+        "director_treatment.md"
+      ],
+      "depends_on": [
+        "SIBH-DIRECTOR-TREATMENT"
+      ],
+      "risk_flags": [
+        "dialogue_density",
+        "extra_character_drift",
+        "screen_direction"
+      ],
+      "notes": "Five-shot 60-second structure: Nian appears only in SH001, then the scene follows Sylvain/Ingrid C-support incidents."
+    },
+    {
+      "id": "SIBH-SH001",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "storyboards/SIBH-SH001/frame_spec.md",
+        "storyboards/SIBH-SH001/start_frame.png",
+        "storyboards/SIBH-SH001/key_frame.png",
+        "storyboards/SIBH-SH001/end_frame.png",
+        "video_prompts/SIBH-SH001.md",
+        "video_prompts/SIBH-SH001_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "SIBH-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "",
+        "next": "SIBH-SH002",
+        "in": "Nian crosses the corridor as Sylvain notices her.",
+        "out": "Nian exits while Sylvain hears Ingrid offscreen."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "over_flirtation",
+        "nian_focus_drift"
+      ],
+      "notes": "Approved Nian C-support v2 frame chain for SIBH-SH001; Nian appears only in SH001 and later shots recreate Sylvain/Ingrid C-support accountability beats."
+    },
+    {
+      "id": "SIBH-SH002",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "storyboards/SIBH-SH002/frame_spec.md",
+        "storyboards/SIBH-SH002/start_frame.png",
+        "storyboards/SIBH-SH002/key_frame.png",
+        "storyboards/SIBH-SH002/end_frame.png",
+        "video_prompts/SIBH-SH002.md",
+        "video_prompts/SIBH-SH002_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "SIBH-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "SIBH-SH001",
+        "next": "SIBH-SH003",
+        "in": "Ingrid enters after Nian has left.",
+        "out": "Ingrid invokes apology history."
+      },
+      "risk_flags": [
+        "identity_drift",
+        "romance_overstatement"
+      ],
+      "notes": "Approved Nian C-support v2 frame chain for SIBH-SH002; Nian appears only in SH001 and later shots recreate Sylvain/Ingrid C-support accountability beats."
+    },
+    {
+      "id": "SIBH-SH003",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "storyboards/SIBH-SH003/frame_spec.md",
+        "storyboards/SIBH-SH003/start_frame.png",
+        "storyboards/SIBH-SH003/key_frame.png",
+        "storyboards/SIBH-SH003/end_frame.png",
+        "video_prompts/SIBH-SH003.md",
+        "video_prompts/SIBH-SH003_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "SIBH-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "SIBH-SH002",
+        "next": "SIBH-SH004",
+        "in": "Sylvain appeals to childhood friendship.",
+        "out": "Ingrid lands the grandmother incident as Sylvain lowers his voice."
+      },
+      "risk_flags": [
+        "dialogue_density",
+        "identity_drift",
+        "ingrid_age_drift"
+      ],
+      "notes": "Approved Nian C-support v2 frame chain for SIBH-SH003; Nian appears only in SH001 and later shots recreate Sylvain/Ingrid C-support accountability beats."
+    },
+    {
+      "id": "SIBH-SH004",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "storyboards/SIBH-SH004/frame_spec.md",
+        "storyboards/SIBH-SH004/start_frame.png",
+        "storyboards/SIBH-SH004/key_frame.png",
+        "storyboards/SIBH-SH004/end_frame.png",
+        "video_prompts/SIBH-SH004.md",
+        "video_prompts/SIBH-SH004_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "SIBH-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "SIBH-SH003",
+        "next": "SIBH-SH005",
+        "in": "Sylvain asks Ingrid to lower her voice.",
+        "out": "Noble apology example lands; Sylvain admits today's defeat."
+      },
+      "risk_flags": [
+        "dialogue_density",
+        "identity_drift",
+        "extra_character_drift"
+      ],
+      "notes": "Approved Nian C-support v2 frame chain for SIBH-SH004; Nian appears only in SH001 and later shots recreate Sylvain/Ingrid C-support accountability beats."
+    },
+    {
+      "id": "SIBH-SH005",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "storyboards/SIBH-SH005/frame_spec.md",
+        "storyboards/SIBH-SH005/start_frame.png",
+        "storyboards/SIBH-SH005/key_frame.png",
+        "storyboards/SIBH-SH005/end_frame.png",
+        "video_prompts/SIBH-SH005.md",
+        "video_prompts/SIBH-SH005_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "SIBH-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "SIBH-SH004",
+        "next": "",
+        "in": "Sylvain admits today's defeat.",
+        "out": "Ingrid tells him to change now; Sylvain says he will try."
+      },
+      "risk_flags": [
+        "tone_drift",
+        "identity_drift"
+      ],
+      "notes": "Approved Nian C-support v2 frame chain for SIBH-SH005; Nian appears only in SH001 and later shots recreate Sylvain/Ingrid C-support accountability beats."
+    },
+    {
+      "id": "SIBH-PROMPT-ASSET-PACKAGE",
+      "type": "delivery_packet",
+      "stage": "delivery",
+      "status": "approved_for_video",
+      "created_by": "prompt-packager-agent",
+      "created_at": "2026-07-26",
+      "paths": [
+        "prompt_asset_package_manifest.json",
+        "frame_generation_queue.md",
+        "production_system/video_delivery_manifest.json",
+        "production_system/reviews/visual_contact_sheet_2026-07-26.jpg",
+        "storyboards/SIBH-SH001/frame_spec.md",
+        "storyboards/SIBH-SH001/start_frame.png",
+        "storyboards/SIBH-SH001/key_frame.png",
+        "storyboards/SIBH-SH001/end_frame.png",
+        "storyboards/SIBH-SH002/frame_spec.md",
+        "storyboards/SIBH-SH002/start_frame.png",
+        "storyboards/SIBH-SH002/key_frame.png",
+        "storyboards/SIBH-SH002/end_frame.png",
+        "storyboards/SIBH-SH003/frame_spec.md",
+        "storyboards/SIBH-SH003/start_frame.png",
+        "storyboards/SIBH-SH003/key_frame.png",
+        "storyboards/SIBH-SH003/end_frame.png",
+        "storyboards/SIBH-SH004/frame_spec.md",
+        "storyboards/SIBH-SH004/start_frame.png",
+        "storyboards/SIBH-SH004/key_frame.png",
+        "storyboards/SIBH-SH004/end_frame.png",
+        "storyboards/SIBH-SH005/frame_spec.md",
+        "storyboards/SIBH-SH005/start_frame.png",
+        "storyboards/SIBH-SH005/key_frame.png",
+        "storyboards/SIBH-SH005/end_frame.png",
+        "video_prompts/SIBH-SH001.md",
+        "video_prompts/SIBH-SH002.md",
+        "video_prompts/SIBH-SH003.md",
+        "video_prompts/SIBH-SH004.md",
+        "video_prompts/SIBH-SH005.md",
+        "video_prompts/SIBH-SH001_negative.md",
+        "video_prompts/SIBH-SH002_negative.md",
+        "video_prompts/SIBH-SH003_negative.md",
+        "video_prompts/SIBH-SH004_negative.md",
+        "video_prompts/SIBH-SH005_negative.md",
+        "production_system/reviews/visual_contact_sheet_2026-07-27_nian_c_support_v2.jpg",
+        "production_system/reviews/visual_audit_nian_c_support_v2_2026-07-27.md",
+        "production_system/reviews/video_prompt_qa_nian_c_support_v2_2026-07-27.md",
+        "production_system/reviews/strict_continuity_nian_c_support_v2_2026-07-27.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "director_treatment.md",
+        "production_notes.md"
+      ],
+      "depends_on": [
+        "SIBH-SHOT-LIST"
+      ],
+      "risk_flags": [
+        "clip_qa_required_after_generation",
+        "dialogue_lipsync_monitor",
+        "identity_lock_monitor"
+      ],
+      "notes": "Approved Nian cameo / Sylvain-Ingrid C-support v2 prompt and frame package for Seedance-oriented video generation."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "SIBH-SH001",
+  "order": 1,
+  "status": "approved_for_video",
+  "duration_seconds": 10,
+  "expected_clip": "clips/SIBH-SH001.mp4",
+  "edit_in": "cut from corridor ambience",
+  "edit_out": "cut on Ingrid's offscreen interruption",
+  "audio_anchor": "Sylvain starts the social-skills lesson",
+  "continuity_previous": "",
+  "continuity_next": "SIBH-SH002",
+  "model_notes": [],
+  "reject_if": [
+    "Sylvain becomes predatory",
+    "extra visible students take focus"
+  ]
+}

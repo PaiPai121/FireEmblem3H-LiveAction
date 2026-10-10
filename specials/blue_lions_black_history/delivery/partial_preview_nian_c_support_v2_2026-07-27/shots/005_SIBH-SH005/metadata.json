@@ -1,0 +1,18 @@
+{
+  "id": "SIBH-SH005",
+  "order": 5,
+  "status": "frames_complete",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH005.mp4",
+  "edit_in": "cut from Sylvain asking if this is a trial",
+  "edit_out": "hold on failed recovery smile",
+  "audio_anchor": "Ingrid tells Sylvain to start changing now",
+  "primary_check": "Ingrid lands the real correction without cruelty; Sylvain ends sheepish but not crushed; the ending stays friendship comedy, not romance.",
+  "continuity_previous": "SIBH-SH004",
+  "continuity_next": "",
+  "reject_if": [
+    "Sylvain looks devastated",
+    "Nian returns",
+    "ending becomes romantic"
+  ]
+}

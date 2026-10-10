@@ -1,0 +1,1327 @@
+{
+  "date": "2026-08-01",
+  "decision": "executable_prompt_semantics_passed",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "shots_checked": 42,
+  "problems": [],
+  "warnings": [],
+  "rows": [
+    {
+      "order": 1,
+      "shot": "Shot025",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 2,
+      "shot": "Shot025A",
+      "visible_named_only": [],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 3,
+      "shot": "Shot026",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 4,
+      "shot": "Shot026B",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 5,
+      "shot": "Shot026C",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 6,
+      "shot": "Shot027",
+      "visible_named_only": [
+        "Ashe",
+        "Claude"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 7,
+      "shot": "Shot027B",
+      "visible_named_only": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 8,
+      "shot": "Shot027C",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 9,
+      "shot": "Shot027D",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 10,
+      "shot": "Shot028",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 11,
+      "shot": "Shot028B",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 12,
+      "shot": "Shot028C",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 13,
+      "shot": "Shot029",
+      "visible_named_only": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 14,
+      "shot": "Shot029C",
+      "visible_named_only": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 15,
+      "shot": "Shot029D",
+      "visible_named_only": [
+        "Claude",
+        "Ashe"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 16,
+      "shot": "Shot029B",
+      "visible_named_only": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 17,
+      "shot": "Shot030",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 18,
+      "shot": "Shot030B",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 19,
+      "shot": "Shot030C",
+      "visible_named_only": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 20,
+      "shot": "Shot031",
+      "visible_named_only": [
+        "Byleth",
+        "Felix"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 21,
+      "shot": "Shot031B",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ],
+      "no_active_names": [],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 22,
+      "shot": "Shot032",
+      "visible_named_only": [
+        "Dedue",
+        "Mercedes"
+      ],
+      "no_active_names": [
+        "Mercedes"
+      ],
+      "captured_names": [],
+      "visible_no_active_names": [
+        "Mercedes"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 23,
+      "shot": "Shot032A",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes"
+      ],
+      "captured_names": [],
+      "visible_no_active_names": [
+        "Annette",
+        "Mercedes"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 24,
+      "shot": "Shot032B",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes"
+      ],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 25,
+      "shot": "Shot032C",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes"
+      ],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 26,
+      "shot": "Shot032D",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes"
+      ],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 27,
+      "shot": "Shot032E",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes"
+      ],
+      "captured_names": [],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 28,
+      "shot": "Shot032F",
+      "visible_named_only": [
+        "Felix",
+        "Ashe",
+        "Hubert"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes",
+        "Hubert"
+      ],
+      "captured_names": [
+        "Hubert"
+      ],
+      "visible_no_active_names": [
+        "Hubert"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 29,
+      "shot": "Shot032G",
+      "visible_named_only": [
+        "Claude",
+        "Leonie",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "visible_no_active_names": [
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 30,
+      "shot": "Shot033",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 31,
+      "shot": "Shot033B",
+      "visible_named_only": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix"
+      ],
+      "no_active_names": [
+        "Annette",
+        "Mercedes",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 32,
+      "shot": "Shot033C",
+      "visible_named_only": [
+        "Ashe",
+        "Hanneman"
+      ],
+      "no_active_names": [
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Ashe"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 33,
+      "shot": "Shot033D",
+      "visible_named_only": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ],
+      "no_active_names": [
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Sylvain",
+        "Ingrid",
+        "Manuela"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 34,
+      "shot": "Shot034C",
+      "visible_named_only": [
+        "Felix",
+        "Ferdinand"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Felix",
+        "Ferdinand"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 35,
+      "shot": "Shot034D",
+      "visible_named_only": [
+        "Byleth",
+        "Hanneman"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Hanneman"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 36,
+      "shot": "Shot034B",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 37,
+      "shot": "Shot034E",
+      "visible_named_only": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 38,
+      "shot": "Shot034F",
+      "visible_named_only": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 39,
+      "shot": "Shot034G",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 40,
+      "shot": "Shot034",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Edelgard",
+        "Claude"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 41,
+      "shot": "Shot035",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [
+        "Felix"
+      ],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    },
+    {
+      "order": 42,
+      "shot": "Shot036",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth"
+      ],
+      "no_active_names": [
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "captured_names": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta",
+        "Hanneman"
+      ],
+      "visible_no_active_names": [],
+      "executable_sections_checked": [
+        "Motion",
+        "Camera",
+        "Performance",
+        "Audio"
+      ],
+      "negative_prompt_visible_conflicts": [],
+      "visible_no_active_action_conflicts": [],
+      "web_upload_contract_checked": true,
+      "problems": 0,
+      "warnings": 0
+    }
+  ],
+  "evidence": {
+    "negative_prompts_match_model_prompts": "Each model_prompt.md Negative Prompt section must equal the package negative_prompt.md file.",
+    "web_upload_contract": "Each model_prompt.md Input Frames section must reference uploaded START/KEY/END frames and must not contain local paths, URLs, image filenames, or previous-shot dependencies.",
+    "per_shot_no_return_tokens": "Ledger-derived must-not-return names are converted into negative prompt tokens.",
+    "executable_name_scope": "Motion, Camera, Performance, and Audio cannot use non-visible names unless the sentence is an absence/offscreen/no-return lock.",
+    "visible_no_active_semantics": "Visible names that are already must-not-return-active may appear only with stand-down/post-battle/non-active context and cannot be forbidden as readable in the negative prompt."
+  },
+  "production_report_json": "production_system/scene09_v3_attrition_package/scene09_v3_executable_prompt_semantics_audit_2026-08-01.json",
+  "production_report_md": "production_system/scene09_v3_attrition_package/scene09_v3_executable_prompt_semantics_audit_2026-08-01.md"
+}

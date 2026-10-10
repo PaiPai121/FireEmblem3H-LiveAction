@@ -1,0 +1,73 @@
+{
+  "shot_id": "BLSC03-SH002",
+  "order": 2,
+  "title": "Cute Little Brother",
+  "duration_seconds": 15,
+  "status": "approved_for_video",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "source": [
+    "https://wiki.serenesforest.net/index.php/Three_Houses_Supports/Felix_Sylvain",
+    "https://fireemblem.fandom.com/wiki/Felix/Supports#With_Sylvain"
+  ],
+  "dialogue_policy": "lightly bridged adapted English with one short source-anchored phrase; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "characters": [
+    "Felix",
+    "Sylvain"
+  ],
+  "cameo": null,
+  "location_reference": "assets/locations/EP02/act01/TrainingGround/TrainingGround_reference.png",
+  "character_references": {
+    "Felix": "assets/characters/blue_lions/Felix/academy/selected.png",
+    "Sylvain": "assets/characters/blue_lions/Sylvain/academy/selected.png"
+  },
+  "identity_locks": {
+    "Felix": "Academy-era Felix: youthful sharp noble swordsman, dark blue-black tied hair, clear cold eyes, slim athletic build, Blue Lions academy uniform suited for sword practice, cutting but not villainous, never middle-aged.",
+    "Sylvain": "Academy-era Sylvain: handsome red-haired noble student, relaxed smile with tired clever eyes, Blue Lions academy uniform worn slightly casually, charming but not oily, never modern playboy."
+  },
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "I remember you following me around whenever you lost to Glenn or fought with Dimitri.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "You were so meek back then. Cute, even. Like a little brother.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "That's enough.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "What? I only meant--",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "I said enough.",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "bridge_actions": [
+    {
+      "policy": "silent_action_bridge",
+      "text": "Felix's wooden sword stops mid-lift."
+    },
+    {
+      "policy": "silent_action_bridge",
+      "text": "Sylvain raises both hands halfway."
+    }
+  ],
+  "no_subtitles": true,
+  "expected_clip": "clips/BLSC03-SH002.mp4"
+}

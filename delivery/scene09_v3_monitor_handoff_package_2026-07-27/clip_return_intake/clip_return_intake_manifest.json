@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "date": "2026-08-09",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "status": "awaiting_provider_downloads",
+  "source_files": {
+    "package_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+      "bytes": 481680,
+      "sha256": "c9e66a1c641a32d8ea88c4aab16bf39f697d733cf0ea97c2c867ce96bceec848"
+    },
+    "batch_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json",
+      "bytes": 6479,
+      "sha256": "230f30f2dd34c3a9fc7ca61454ddd63495de2bfddbde4a9a9bf1eba8a4019de8"
+    },
+    "expected_downloads": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/expected_downloads.csv",
+      "bytes": 10395,
+      "sha256": "41c8f2ded53977323e4fef0ddc948005979a39d8bc3a99edd2541b61a26a153c"
+    }
+  },
+  "total_batches": 7,
+  "total_expected_clips": 42,
+  "expected_clip_map": "clip_return_intake/expected_clip_map.csv",
+  "batches": [
+    {
+      "batch_id": "batch_001_shots_001-006",
+      "return_dir": "clip_return_intake/batch_001_shots_001-006_returns",
+      "returned_mp4_dir": "clip_return_intake/batch_001_shots_001-006_returns/returned_mp4",
+      "expected_downloads_subset": "clip_return_intake/batch_001_shots_001-006_returns/expected_downloads_subset.csv",
+      "expected_clip_map_subset": "clip_return_intake/batch_001_shots_001-006_returns/expected_clip_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "001_Shot025",
+        "002_Shot025A",
+        "003_Shot026",
+        "004_Shot026B",
+        "005_Shot026C",
+        "006_Shot027"
+      ]
+    },
+    {
+      "batch_id": "batch_002_shots_007-012",
+      "return_dir": "clip_return_intake/batch_002_shots_007-012_returns",
+      "returned_mp4_dir": "clip_return_intake/batch_002_shots_007-012_returns/returned_mp4",
+      "expected_downloads_subset": "clip_return_intake/batch_002_shots_007-012_returns/expected_downloads_subset.csv",
+      "expected_clip_map_subset": "clip_return_intake/batch_002_shots_007-012_returns/expected_clip_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "007_Shot027B",
+        "008_Shot027C",
+        "009_Shot027D",
+        "010_Shot028",
+        "011_Shot028B",
+        "012_Shot028C"
+      ]
+    },
+    {
+      "batch_id": "batch_003_shots_013-018",
+      "return_dir": "clip_return_intake/batch_003_shots_013-018_returns",
+      "returned_mp4_dir": "clip_return_intake/batch_003_shots_013-018_returns/returned_mp4",
+      "expected_downloads_subset": "clip_return_intake/batch_003_shots_013-018_returns/expected_downloads_subset.csv",
+      "expected_clip_map_subset": "clip_return_intake/batch_003_shots_013-018_returns/expected_clip_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "013_Shot029",
+        "014_Shot029C",
+        "015_Shot029D",
+        "016_Shot029B",
+        "017_Shot030",
+        "018_Shot030B"
+      ]
+    },
+    {
+      "batch_id": "batch_004_shots_019-024",
+      "return_dir": "clip_return_intake/batch_004_shots_019-024_returns",
+      "returned_mp4_dir": "clip_return_intake/batch_004_shots_019-024_returns/returned_mp4",
+      "expected_downloads_subset": "clip_return_intake/batch_004_shots_019-024_returns/expected_downloads_subset.csv",
+      "expected_clip_map_subset": "clip_return_intake/batch_004_shots_019-024_returns/expected_clip_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "019_Shot030C",
+        "020_Shot031",
+        "021_Shot031B",
+        "022_Shot032",
+        "023_Shot032A",
+        "024_Shot032B"
+      ]
+    },
+    {
+      "batch_id": "batch_005_shots_025-030",
+      "return_dir": "clip_return_intake/batch_005_shots_025-030_returns",
+      "returned_mp4_dir": "clip_return_intake/batch_005_shots_025-030_returns/returned_mp4",
+      "expected_downloads_subset": "clip_return_intake/batch_005_shots_025-030_returns/expected_downloads_subset.csv",
+      "expected_clip_map_subset": "clip_return_intake/batch_005_shots_025-030_returns/expected_clip_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "025_Shot032C",
+        "026_Shot032D",
+        "027_Shot032E",
+        "028_Shot032F",
+        "029_Shot032G",
+        "030_Shot033"
+      ]
+    },
+    {
+      "batch_id": "batch_006_shots_031-036",
+      "return_dir": "clip_return_intake/batch_006_shots_031-036_returns",
+      "returned_mp4_dir": "clip_return_intake/batch_006_shots_031-036_returns/returned_mp4",
+      "expected_downloads_subset": "clip_return_intake/batch_006_shots_031-036_returns/expected_downloads_subset.csv",
+      "expected_clip_map_subset": "clip_return_intake/batch_006_shots_031-036_returns/expected_clip_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "031_Shot033B",
+        "032_Shot033C",
+        "033_Shot033D",
+        "034_Shot034C",
+        "035_Shot034D",
+        "036_Shot034B"
+      ]
+    },
+    {
+      "batch_id": "batch_007_shots_037-042",
+      "return_dir": "clip_return_intake/batch_007_shots_037-042_returns",
+      "returned_mp4_dir": "clip_return_intake/batch_007_shots_037-042_returns/returned_mp4",
+      "expected_downloads_subset": "clip_return_intake/batch_007_shots_037-042_returns/expected_downloads_subset.csv",
+      "expected_clip_map_subset": "clip_return_intake/batch_007_shots_037-042_returns/expected_clip_map_subset.csv",
+      "rows": 6,
+      "custom_ids": [
+        "037_Shot034E",
+        "038_Shot034F",
+        "039_Shot034G",
+        "040_Shot034",
+        "041_Shot035",
+        "042_Shot036"
+      ]
+    }
+  ],
+  "commands": {
+    "audit_intake": "node scripts/audit_scene09_v3_clip_return_intake.js",
+    "dry_run_pipeline_after_ingest": "node scripts/run_scene09_v3_video_pipeline.js --dry-run"
+  }
+}

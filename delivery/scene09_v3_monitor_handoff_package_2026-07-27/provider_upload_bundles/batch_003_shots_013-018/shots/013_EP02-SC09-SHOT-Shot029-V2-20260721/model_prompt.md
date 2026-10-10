@@ -1,0 +1,116 @@
+# Shot029 Model-Ready Video Prompt
+
+Shot ID:
+EP02-SC09-SHOT-Shot029-V2-20260721
+
+Title:
+金鹿夹击青狮后排
+
+Duration:
+6 seconds. Hold the final state for the last 0.5 seconds.
+
+Input Frames:
+- Use the uploaded START frame as the first-frame anchor.
+- Use the uploaded KEY frame as the peak action/composition reference.
+- Use the uploaded END frame as the final cut-out state.
+- Animate only the uploaded START -> KEY -> END frame chain; do not rely on previous submissions, local paths, source folders, image filenames, or external reference files.
+
+Visible readable humans: Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz
+
+Allowed readable humans: Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz.
+
+Visible named-only list: Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz.
+
+Only these readable humans may appear: Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz.
+
+Motion:
+Hilda and Lorenz cut into the Blue Lions side lane while no readable Ignatz appears and the far Black Eagles lane remains pressured only as offscreen route context. Sylvain and Ingrid pivot and hold guard to protect Annette. The shot ends in a tense standoff: Golden Deer has disrupted the route, Blue Lions have not collapsed.
+
+Camera:
+Medium-wide diagonal side-lane view, restrained push or settle only.
+
+Performance:
+Evenly matched mock-battle pressure. No humiliation, no collapse, no victory pose.
+
+Audio:
+Hilda: "蓝狮也不能只盯着前面吧？" Lorenz: "黑鹫那边也在我们的线里。" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words.
+
+Continuity Locks:
+- Only these readable humans may appear: Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz.
+- No unnamed students, extras, spectators, soldiers, crowds, or readable silhouettes.
+- Preserve faces, costumes, academy age, house colors, training weapons, geography, and screen direction.
+- Nonlethal mock battle only: no blood, gore, humiliation, or lethal hits.
+- Hanneman and Manuela are separate faculty examiners; never side by side, sharing one sigil, or allied partners.
+- No-active-combat after this shot must match the post-shot battle ledger.
+- Visible But No Active Combat After: none.
+- Must not return active after this shot: none.
+- Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.
+- Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.
+- Hanneman must stay absent/offscreen unless listed as readable in this shot.
+- Manuela must stay absent/offscreen unless listed as readable in this shot.
+
+Attrition State After This Shot:
+- All named characters remain alive and safe under mock-battle rules.
+- Alive/safe by group: command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela.
+- Visible But No Active Combat After: none.
+- No-active-combat after this shot: none.
+- Still active or objective-controlling: command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela.
+- Limited but not defeated: blue_lions: Annette, Mercedes.
+- Defeated/removed: none.
+- Captured/objective-defeated: none.
+- Stood down/post-battle: none.
+- Must not return active: none.
+- Changed this shot: none.
+
+Reject If:
+- Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or readable silhouette appears.
+- Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.
+- Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.
+- Reject if the action becomes lethal, bloody, humiliating, or unrelated to the uploaded start/key/end chain.
+- Reject if any face, academy age, costume, house color, or weapon changes from the input frames and named references.
+- Reject if any combat character faces the camera while their threat or route is elsewhere.
+- Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.
+- Reject if any face, age, costume, house color, or weapon changes from the input frames and named references.
+- Reject if the action becomes lethal, bloody, humiliating, or unrelated to the start/key/end chain.
+- any readable named character becomes a generic adult mannequin or wrong-age student.
+- any combat character faces the camera while their threat or route is elsewhere.
+- extra anonymous fighters appear in readable foreground or confuse house lanes.
+- the scene becomes lethal, bloody, or humiliating for any house.
+- weapon locks are broken: Sylvain: training lance; Ingrid: training lance; Annette: book and wind/dust magic; Mercedes: empty hands and short white healing light; Hilda: training axe, youthful academy appearance; Lorenz: training lance.
+- Reject if this shot plays as a static pose or portrait instead of the declared start/key/end action chain.
+- Reject if the shot contradicts the 2026-08-12 critical re-audit required revision.
+- no extra people
+- no unnamed students
+- no spectators
+- no crowds
+- no readable silhouettes
+- no face drift
+- no costume drift
+- no weapon drift
+- no wrong weapons
+- no Hilda old face
+- no mature glam Hilda
+- no wrinkles
+- no generic adult face
+- no Ignatz melee weapon
+- no Annette weapon
+- no single-target-only attack on Blue Lions
+- no lethal hit
+- no blood
+- no gore
+- no injury
+- no humiliation
+- no static group portrait
+- no camera-facing performance
+- no screen-direction reversal
+- no text
+- no subtitles
+- no captions
+- no visible UI
+- no watermark
+- no letterbox
+- no pillarbox
+- no split panels
+
+Negative Prompt:
+no extra people, no unnamed students, no spectators, no crowds, no readable silhouettes, no text, no subtitles, no captions, no visible text, no watermark, no camera spin, no screen-direction reversal, no face drift, no costume drift, no weapon drift, no lethal hits, no lethal hit, no gore, no blood, no paired Hanneman and Manuela, no shared teacher platform, no same-lane teacher duo, no readable Hanneman, no readable Manuela

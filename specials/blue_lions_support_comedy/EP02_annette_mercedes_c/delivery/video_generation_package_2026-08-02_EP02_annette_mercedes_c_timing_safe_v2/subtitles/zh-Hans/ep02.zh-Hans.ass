@@ -1,0 +1,28 @@
+[Script Info]
+Title: Annette x Mercedes - Too Many Bags zh-Hans subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Noto Sans CJK SC,48,&H00FFFFFF,&H000000FF,&HAA000000,&H66000000,0,0,0,0,100,100,0,0,1,2,0,2,72,72,48,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:04.84,Default,Annette,0,0,0,,雅妮特：比想象中花了更久呢，梅洁。
+Dialogue: 0,0:00:05.02,0:00:08.00,Default,Mercedes,0,0,0,,梅尔赛德司：是啊。
+Dialogue: 0,0:00:08.00,0:00:11.82,Default,Mercedes,0,0,0,,梅尔赛德司：感觉你差不多把市场里的东西都买下来了。
+Dialogue: 0,0:00:12.00,0:00:15.41,Default,Annette,0,0,0,,雅妮特：才不是全部呢。梅洁你也帮忙选了啊。
+Dialogue: 0,0:00:15.59,0:00:18.00,Default,Mercedes,0,0,0,,梅尔赛德司：这些袋子可不是这么说的。
+Dialogue: 0,0:00:18.00,0:00:23.68,Default,Annette,0,0,0,,雅妮特：和梅洁一起买东西，就会想起王都的学校呢。
+Dialogue: 0,0:00:23.86,0:00:27.55,Default,Mercedes,0,0,0,,梅尔赛德司：听起来像是很久以前的事了。
+Dialogue: 0,0:00:27.73,0:00:30.00,Default,Annette,0,0,0,,雅妮特：好多东西都变了。
+Dialogue: 0,0:00:30.00,0:00:35.41,Default,Annette,0,0,0,,雅妮特：不过，也有没变的东西吧。比如我们……
+Dialogue: 0,0:00:35.59,0:00:38.00,Default,Mercedes,0,0,0,,梅尔赛德司：当然了，安妮。
+Dialogue: 0,0:00:38.00,0:00:45.00,Default,Mercedes,0,0,0,,梅尔赛德司：我正要这么说呢。哎呀，有人来了。
+Dialogue: 0,0:00:45.00,0:00:47.04,Default,Mercedes,0,0,0,,梅尔赛德司：安妮，往这边。
+Dialogue: 0,0:00:47.22,0:00:51.80,Default,Annette,0,0,0,,雅妮特：等等，面包快掉了。洋葱可能也要掉了。
+Dialogue: 0,0:00:51.98,0:00:54.78,Default,Mercedes,0,0,0,,梅尔赛德司：那我们一起守住它们吧。
+Dialogue: 0,0:00:54.96,0:00:57.00,Default,Annette,0,0,0,,雅妮特：一起，对吧。

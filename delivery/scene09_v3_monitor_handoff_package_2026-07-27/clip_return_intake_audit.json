@@ -1,0 +1,10 @@
+{
+  "date": "2026-08-01",
+  "decision": "clip_return_intake_ready",
+  "batches_checked": 7,
+  "expected_clip_rows": 42,
+  "unique_custom_ids": 42,
+  "source_files_checked": 3,
+  "problems": [],
+  "manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake/clip_return_intake_manifest.json"
+}

@@ -84,15 +84,15 @@ const updatedBeats = {
   },
   Shot033B: {
     start:
-      "Start before the route command: Byleth stands side/back between student lanes and the northeast teacher platform, identifying the heal-tile objective while Ashe, Ingrid, Felix, Dimitri, and Dedue wait for the next instruction.",
+      "Start before the route command: Byleth stands side/back between student lanes and the northeast teacher platform, identifying two separated faculty objective markers. Hanneman is on the Black Eagles-side marker and Manuela is several paces away on the Golden Deer-side marker; they are parallel class faculty judges, not a paired fighting unit. Ashe, Ingrid, Felix, Dimitri, and Dedue wait for the next instruction.",
     key:
-      "Key beat: Byleth gives the clipped route command toward the teacher platform. Blue Lions visibly execute in separate routes: Ashe to a bow angle, Ingrid to Manuela's route, Felix toward Ferdinand at stair base, Dimitri and Dedue holding central pressure.",
+      "Key beat: Byleth gives the clipped route command toward the split teacher markers. Blue Lions visibly execute in separate routes: Ashe to Hanneman's Black Eagles-side bow angle, Ingrid to Manuela's Golden Deer-side route, Felix toward Ferdinand at stair base, Dimitri and Dedue holding the central gap.",
     motion:
-      "Byleth remains a tactical anchor, not a camera-facing portrait. The motion is command then reaction: Blue Lions peel into distinct nonlethal practice routes while Hanneman and Manuela remain objective judges/support teachers on the heal tile.",
+      "Byleth remains a tactical anchor, not a camera-facing portrait. The motion is command then reaction: Blue Lions peel into distinct nonlethal practice routes while Hanneman and Manuela stay separated at different faculty objective markers. Do not stage the teachers as a side-by-side combat pair.",
   },
   Shot033C: {
     start:
-      "Start before suppression: Ashe holds a lower-left bow angle toward Hanneman on the upper-right platform, reading the spell angle rather than aiming at a body.",
+      "Start before suppression: Ashe holds a lower-left bow angle toward Hanneman on the Black Eagles-side faculty marker, reading the spell angle rather than aiming at a body. Manuela is not part of this shot.",
     key:
       "Key beat: Ashe's practice arrow lands on the stone step or spell marker before Hanneman's casting line, breaking the spell geometry locally. Hanneman stays upright, composed, and unhurt.",
     motion:
@@ -100,9 +100,9 @@ const updatedBeats = {
   },
   Shot033D: {
     start:
-      "Start before route cut: Ingrid approaches from the Blue Lions side with long training lance while Manuela stands near the healing sigil as support judge.",
+      "Start before route cut: Ingrid approaches from the Blue Lions side with long training lance while Manuela stands at the Golden Deer-side faculty marker as support judge. Hanneman is not part of this shot.",
     key:
-      "Key beat: Ingrid is the active route cutter, holding a long training lance across Manuela's return path to the healing sigil. Manuela side-steps off tile with white support magic fading, composed and unhurt. Sylvain is background containment only.",
+      "Key beat: Ingrid is the active route cutter, holding a long training lance across Manuela's return path to her separate faculty marker. Manuela side-steps off her mark with white support magic fading, composed and unhurt. Sylvain is background containment only.",
     motion:
       "Ingrid cuts the path; Manuela yields the route under the rules. Do not make Manuela attack Sylvain or make Ingrid a passive observer.",
   },

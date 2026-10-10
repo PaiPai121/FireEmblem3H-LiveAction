@@ -1,0 +1,122 @@
+{
+  "date": "2026-08-04",
+  "decision": "handoff_control_reports_audit_passed",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "expected_shots": 42,
+  "required_reports_checked": 11,
+  "declared_required_reports": 11,
+  "rows": [
+    {
+      "id": "motion_probe_package_audit",
+      "file": "motion_probe_package_audit.json",
+      "exists": true,
+      "decision": "motion_probe_package_ready",
+      "declared_decision": "motion_probe_package_ready",
+      "problems": [],
+      "warnings": [],
+      "sha256": "e43f48e94b9a7e9bcc66347fb4cf45bef9b120e2eb995819492b80ea5e20ab5a"
+    },
+    {
+      "id": "motion_probe_provider_bundles_audit",
+      "file": "motion_probe_provider_bundles_audit.json",
+      "exists": true,
+      "decision": "motion_probe_provider_bundles_ready",
+      "declared_decision": "motion_probe_provider_bundles_ready",
+      "problems": [],
+      "warnings": [],
+      "sha256": "b9cd6c4b4412fe0727435216f19bf8ea3f8dbf1ec93ae2f500187823f77a2050"
+    },
+    {
+      "id": "motion_probe_submission_ready_gate",
+      "file": "motion_probe_submission_ready_gate.json",
+      "exists": true,
+      "decision": "motion_probe_submission_ready",
+      "declared_decision": "motion_probe_submission_ready",
+      "problems": [],
+      "warnings": [],
+      "sha256": "850d0ce41f4f9f71238a485305b01029becc2d9aa172fe07f7faa320f054406e"
+    },
+    {
+      "id": "motion_probe_operator_tracker",
+      "file": "motion_probe_operator_tracker.json",
+      "exists": true,
+      "decision": "motion_probe_operator_tracker_ready_clips_pending",
+      "declared_decision": "motion_probe_operator_tracker_ready_clips_pending_or_complete",
+      "problems": [],
+      "warnings": [],
+      "sha256": "8fc8da4f00cc1597f694f56018de9a3171f74e8f6cf9b83819bd72c851c7b4f9"
+    },
+    {
+      "id": "motion_probe_operator_tracker_audit",
+      "file": "motion_probe_operator_tracker_audit.json",
+      "exists": true,
+      "decision": "motion_probe_operator_tracker_audit_passed",
+      "declared_decision": "motion_probe_operator_tracker_audit_passed",
+      "problems": [],
+      "warnings": [],
+      "sha256": "2bf92aac5aba0edac32101209349c7d5cb6812bcf85d537fa286d246ceb49b95"
+    },
+    {
+      "id": "motion_probe_return_intake_audit",
+      "file": "motion_probe_return_intake_audit.json",
+      "exists": true,
+      "decision": "motion_probe_return_intake_ready",
+      "declared_decision": "motion_probe_return_intake_ready",
+      "problems": [],
+      "warnings": [],
+      "sha256": "dd96baf16494e45b1f3795c6ac2656946b3e30679da740e424b803d2afe55996"
+    },
+    {
+      "id": "motion_probe_return_roundtrip_audit",
+      "file": "motion_probe_return_roundtrip_audit.json",
+      "exists": true,
+      "decision": "motion_probe_return_roundtrip_passed",
+      "declared_decision": "motion_probe_return_roundtrip_passed",
+      "problems": [],
+      "warnings": [],
+      "sha256": "73dce3b39801bf7bbe1bb096fa72aa7805a53deb4886c36a77c83d409355b616"
+    },
+    {
+      "id": "full_local_visual_review",
+      "file": "full_local_visual_review.json",
+      "exists": true,
+      "decision": "full_local_visual_review_passed_for_motion_probe_not_video_approved",
+      "declared_decision": "full_local_visual_review_passed_for_motion_probe_not_video_approved",
+      "problems": [],
+      "warnings": [],
+      "sha256": "f12d2a2bc488ea8e81ecf7292473254199b6363c2eb71b1dbfabac5ecf88fc5e"
+    },
+    {
+      "id": "full_duration_release_gate",
+      "file": "full_duration_release_gate.json",
+      "exists": true,
+      "decision": "full_duration_release_blocked_probe_review_pending",
+      "declared_decision": "full_duration_release_blocked_probe_review_pending_or_passed",
+      "problems": [],
+      "warnings": [],
+      "sha256": "23652361d3903bc8b37fbc9cba45e780626e0a25c244d650ade55e7c69ef0ad1"
+    },
+    {
+      "id": "operator_preflight_status",
+      "file": "operator_preflight_status.json",
+      "exists": true,
+      "decision": "full_duration_release_pending_probe_review",
+      "declared_decision": "",
+      "problems": [],
+      "warnings": [],
+      "sha256": "5fd0070314266d92023c046e7ade16e9f300b18cca4829f0b6b897692915cc58"
+    },
+    {
+      "id": "OPERATOR_NEXT_STEPS",
+      "file": "OPERATOR_NEXT_STEPS.json",
+      "exists": true,
+      "decision": "clips_pending",
+      "declared_decision": "",
+      "problems": [],
+      "warnings": [],
+      "sha256": "5d9826ab4ed685285a129d08a061f34606bfa860a731900c95b9cc5788afbdbe"
+    }
+  ],
+  "problems": [],
+  "warnings": []
+}

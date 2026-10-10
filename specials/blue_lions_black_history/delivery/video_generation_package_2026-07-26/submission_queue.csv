@@ -1,0 +1,6 @@
+order,shot_id,duration_seconds,shot_dir,prompt,negative_prompt,start_frame,key_frame,end_frame,expected_clip,primary_check
+1,SIBH-SH001,10,shots/001_SIBH-SH001,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH001.mp4,Sylvain starts the social-skills lesson
+2,SIBH-SH002,10,shots/002_SIBH-SH002,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH002.mp4,Ingrid interrupts and claims more examples
+3,SIBH-SH003,12,shots/003_SIBH-SH003,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH003.mp4,Ingrid says she remembers everything
+4,SIBH-SH004,16,shots/004_SIBH-SH004,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH004.mp4,Ingrid stacks old examples while Sylvain lowers his voice
+5,SIBH-SH005,12,shots/005_SIBH-SH005,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH005.mp4,Ingrid says not to imitate Sylvain

@@ -1,0 +1,354 @@
+{
+  "date": "2026-08-04",
+  "decision": "web_submission_prompt_surface_passed",
+  "scene09_shots_checked": 42,
+  "package_shots_checked": 42,
+  "handoff_index_checked": true,
+  "handoff_model_prompt_submission_labels": 42,
+  "handoff_audit_prompt_labels": 42,
+  "provider_upload_bundles_decision": "provider_upload_bundles_ready",
+  "provider_prompt_contract_files_checked": 84,
+  "rows_with_model_ready_prompt_links": 42,
+  "problems": [],
+  "warnings": [],
+  "rows": [
+    {
+      "shot": "Shot025",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot025A",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot026",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot026B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot026C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot027",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot027B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot027C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot027D",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot028",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot028B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot028C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot029",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot029B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot029C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot029D",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot030",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot030B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot030C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot031",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot031B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032A",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032D",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032E",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032F",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot032G",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot033",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot033B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot033C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot033D",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot034",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot034B",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot034C",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot034D",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot034E",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot034F",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot034G",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot035",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/metadata.json",
+      "problems": []
+    },
+    {
+      "shot": "Shot036",
+      "model_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/model_prompt.md",
+      "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/negative_prompt.md",
+      "audit_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/prompt.md",
+      "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/metadata.json",
+      "problems": []
+    }
+  ],
+  "production_report_json": "production_system/scene09_v3_attrition_package/scene09_v3_web_submission_prompt_surface_audit_2026-08-04.json",
+  "production_report_md": "production_system/scene09_v3_attrition_package/scene09_v3_web_submission_prompt_surface_audit_2026-08-04.md"
+}

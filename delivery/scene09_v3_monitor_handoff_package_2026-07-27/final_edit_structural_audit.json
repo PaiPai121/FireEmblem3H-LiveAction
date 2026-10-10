@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-01",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "final_output": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+  "final_output_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+  "expected_duration_seconds": 252,
+  "decision": "final_edit_pending",
+  "final_edit": {
+    "exists": false,
+    "ok": false,
+    "issue": "final_edit_pending",
+    "detail": "Final edit mp4 does not exist yet."
+  },
+  "final_concat_binding": {
+    "ok": false,
+    "input_contract": {
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/final_concat_inputs_contract.json",
+      "decision": "final_concat_inputs_contract_passed",
+      "ordered_clip_signature_sha256": "96c7fa9ed9cafef60b73c4ccc4d59579e61357d12a8a5e54f3a6fa0a61e400f0",
+      "concat_list_preview_sha256": "9aa753edfb26b8105bbea72b40e682e865ff6e3776f0db220abd077b960292b6"
+    },
+    "final_concat_gate": {
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/final_concat_gate.json",
+      "decision": "final_concat_blocked_clips_pending",
+      "passed_checks": 2,
+      "total_checks": 8,
+      "direct_playable_clips": 0,
+      "direct_expected_clips": 42
+    },
+    "current_signatures": {
+      "ordered_clip_signature_sha256": "96c7fa9ed9cafef60b73c4ccc4d59579e61357d12a8a5e54f3a6fa0a61e400f0",
+      "concat_list_preview_sha256": "9aa753edfb26b8105bbea72b40e682e865ff6e3776f0db220abd077b960292b6"
+    },
+    "problems": [
+      "final_concat_gate decision final_concat_blocked_clips_pending",
+      "final_concat_gate checks 2/8 are not 8/8",
+      "final_concat_gate direct expected-clip probe is not 42/42 for current package"
+    ]
+  },
+  "final_concat_sidecar": {
+    "ok": false,
+    "file": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.concat.txt",
+    "file_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.concat.txt",
+    "exists": false,
+    "size_bytes": null,
+    "sha256": null,
+    "expected_sha256": "9aa753edfb26b8105bbea72b40e682e865ff6e3776f0db220abd077b960292b6",
+    "problems": [
+      "missing final concat sidecar episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.concat.txt"
+    ]
+  },
+  "final_concat_provenance": {
+    "ok": false,
+    "file": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.provenance.json",
+    "file_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.provenance.json",
+    "exists": false,
+    "generated_by": null,
+    "mode": null,
+    "final_output_sha256": null,
+    "concat_list_sha256": null,
+    "expected_clip_file_rows_digest_sha256": null,
+    "current_expected_clip_file_rows_digest_sha256": "387b61426fe034b3219ccbcd8e8d1c34233750e61cac6ee0f772af17b6473383",
+    "problems": [
+      "missing final concat provenance episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.provenance.json"
+    ]
+  },
+  "structural_checks": [
+    "final mp4 path exists",
+    "file is non-zero",
+    "ffprobe can parse container metadata",
+    "at least one video stream is present",
+    "duration is within +/-3s of package total duration",
+    "final concat input contract signatures match the current package manifest",
+    "final concat gate passed 8/8 against the current expected clip list before final edit approval",
+    "final edit concat sidecar exists beside the mp4 and matches the current concat list exactly",
+    "final edit concat provenance exists beside the mp4 and binds final SHA, concat-list SHA, source clip rows, and concat producer"
+  ]
+}

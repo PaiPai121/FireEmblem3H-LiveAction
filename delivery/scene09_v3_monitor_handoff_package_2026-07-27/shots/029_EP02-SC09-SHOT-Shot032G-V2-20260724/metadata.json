@@ -1,0 +1,531 @@
+{
+  "id": "EP02-SC09-SHOT-Shot032G-V2-20260724",
+  "shot": "Shot032G",
+  "order": 29,
+  "package_type": "monitor_handoff",
+  "status": "monitor_required_after_rebuild",
+  "decision": "rebuilt_pending_independent_visual_review",
+  "duration_seconds": 6,
+  "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4",
+  "edit_in": "use start_frame as first generated frame; preserve the declared screen direction and readable named-only roster",
+  "edit_out": "hold end_frame state for final 0.5 seconds; reject generated clips that do not land on this state",
+  "audio_anchor": "Claude: \"后排，我们收下了。\" Leonie: \"别再拉弓了。\" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words.",
+  "visible_named_only": [
+    "Claude",
+    "Leonie",
+    "Dorothea",
+    "Bernadetta"
+  ],
+  "title": "库罗德与雷欧妮截住多洛缇雅和贝尔娜提塔",
+  "titleZh": "库罗德与雷欧妮截住多洛缇雅和贝尔娜提塔",
+  "battle_state_after": {
+    "shot": "Shot032G",
+    "visible_named_only": [
+      "Claude",
+      "Leonie",
+      "Dorothea",
+      "Bernadetta"
+    ],
+    "active_after": [
+      "Byleth",
+      "Dimitri",
+      "Dedue",
+      "Felix",
+      "Ashe",
+      "Sylvain",
+      "Ingrid",
+      "Edelgard",
+      "Ferdinand",
+      "Claude",
+      "Hilda",
+      "Lorenz",
+      "Ignatz",
+      "Leonie",
+      "Hanneman",
+      "Manuela"
+    ],
+    "inactive_or_removed_after": [
+      "Annette",
+      "Mercedes",
+      "Hubert",
+      "Dorothea",
+      "Bernadetta"
+    ],
+    "active_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "inactive_by_house": {
+      "blue_lions": [
+        "Annette",
+        "Mercedes"
+      ],
+      "black_eagles": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ]
+    },
+    "no_active_combat_after": [
+      "Annette",
+      "Mercedes",
+      "Hubert",
+      "Dorothea",
+      "Bernadetta"
+    ],
+    "statuses_after": {
+      "Byleth": "active_available",
+      "Dimitri": "engaged",
+      "Dedue": "restored_frontline",
+      "Felix": "captor_active",
+      "Ashe": "captor_active",
+      "Annette": "spent_stood_down",
+      "Mercedes": "spent_stood_down",
+      "Sylvain": "active_available",
+      "Ingrid": "active_available",
+      "Edelgard": "pressured",
+      "Hubert": "captured_by_felix_and_ashe",
+      "Ferdinand": "active_available",
+      "Dorothea": "captured_by_leonie_and_claude",
+      "Bernadetta": "captured_by_leonie_and_claude",
+      "Claude": "captor_active",
+      "Hilda": "pressured",
+      "Lorenz": "active_available",
+      "Ignatz": "active_available",
+      "Leonie": "captor_active",
+      "Hanneman": "active_available",
+      "Manuela": "active_available"
+    },
+    "note": "Dorothea and Bernadetta are captured by Leonie and Claude on the Black Eagles backline.",
+    "result": "",
+    "battle_ledger_after": {
+      "rule_cn": "学籍模拟战账本：模拟战非致命，全部具名角色生命安全；击败/被俘/目标判负/退场只表示课堂规则下失去主动参战资格。",
+      "all_named_characters_alive": true,
+      "alive_by_house": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Annette",
+          "Mercedes",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Hubert",
+          "Ferdinand",
+          "Dorothea",
+          "Bernadetta"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "still_active_or_controlling_objective_by_house": {
+        "command": [
+          "Byleth"
+        ],
+        "blue_lions": [
+          "Dimitri",
+          "Dedue",
+          "Felix",
+          "Ashe",
+          "Sylvain",
+          "Ingrid"
+        ],
+        "black_eagles": [
+          "Edelgard",
+          "Ferdinand"
+        ],
+        "golden_deer": [
+          "Claude",
+          "Hilda",
+          "Lorenz",
+          "Ignatz",
+          "Leonie"
+        ],
+        "hanneman_faculty_lane": [
+          "Hanneman"
+        ],
+        "manuela_faculty_lane": [
+          "Manuela"
+        ]
+      },
+      "limited_but_not_defeated_by_house": {
+        "blue_lions": [
+          "Dimitri"
+        ],
+        "black_eagles": [
+          "Edelgard"
+        ],
+        "golden_deer": [
+          "Hilda"
+        ]
+      },
+      "mock_battle_defeated_or_removed_by_house": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "captured_or_objective_defeated_by_house": {
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "stood_down_or_post_battle_by_house": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ]
+      },
+      "must_not_return_active_by_house": {
+        "blue_lions": [
+          "Annette",
+          "Mercedes"
+        ],
+        "black_eagles": [
+          "Hubert",
+          "Dorothea",
+          "Bernadetta"
+        ]
+      },
+      "changed_this_shot": [
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude",
+          "label": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude",
+          "label": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Claude",
+          "status": "captor_active",
+          "label": "captor_active"
+        },
+        {
+          "name": "Leonie",
+          "status": "captor_active",
+          "label": "captor_active"
+        }
+      ],
+      "note_cn": "安全存活/非致命：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 仍可主动参战/控制目标：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Sylvain, Ingrid; black_eagles: Edelgard, Ferdinand; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 已击败/被俘/目标判负/退场，不可再主动战斗：blue_lions: Annette, Mercedes; black_eagles: Hubert, Dorothea, Bernadetta"
+    }
+  },
+  "continuity_previous": "EP02-SC09-SHOT-Shot032F-V2-20260724",
+  "continuity_next": "EP02-SC09-SHOT-Shot033-V2-20260721",
+  "source_prompt_path": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032G_production_video_prompt_v3.md",
+  "source_frames": {
+    "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_start.png",
+    "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_key.png",
+    "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_end.png"
+  },
+  "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_start.png",
+  "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_key.png",
+  "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_end.png",
+  "frames": {
+    "start": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_start.png"
+    },
+    "key": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_key.png"
+    },
+    "end": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_end.png"
+    },
+    "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_start.png",
+    "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_key.png",
+    "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_end.png"
+  },
+  "local_files": {
+    "prompt": "prompt.md",
+    "model_prompt": "model_prompt.md",
+    "negative_prompt": "negative_prompt.md",
+    "start_frame": "start_frame.png",
+    "key_frame": "key_frame.png",
+    "end_frame": "end_frame.png"
+  },
+  "model_notes": [
+    "V3 attrition prompt package; use this instead of old V2 motion_test_prompts.",
+    "Cleared for monitored video-model submission from this frame/prompt package; generated clips still require Codex motion self-audit before final edit delivery.",
+    "No unnamed extras; captured characters must not reappear, and spent, stood-down, or defeated characters must not reappear as active combatants.",
+    "Hanneman and Manuela are separate faculty examiners on separate lanes; keep them not side by side, never as a unit, never as allied combat partners, shared sigil defenders, or side-by-side objective defenders.",
+    "Nonlethal Garreg Mach mock-battle tone with training weapons only."
+  ],
+  "reject_if": [
+    "Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.",
+    "Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.",
+    "Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.",
+    "Reject if any face, age, costume, house color, or weapon changes from the input frames and named references.",
+    "Reject if the action becomes lethal, bloody, humiliating, or unrelated to the start/key/end chain.",
+    "Dorothea or Bernadetta look helpless, injured, overaged, or generic.",
+    "Claude or Leonie appear cruel, lethal, or physically striking down opponents.",
+    "Dorothea or Bernadetta still hold active attack posture at the end frame.",
+    "extra readable fighters obscure the Golden Deer containment logic.",
+    "Reject if this shot plays as a static pose or portrait instead of the declared start/key/end action chain.",
+    "Reject if the shot contradicts the 2026-08-12 critical re-audit required revision.",
+    "no extra people",
+    "no unnamed students",
+    "no spectators",
+    "no crowds",
+    "no readable silhouettes",
+    "no face drift",
+    "no costume drift",
+    "no weapon drift",
+    "no wrong weapons",
+    "no older faces",
+    "no generic mannequin faces",
+    "no Dorothea helpless or injured",
+    "no Bernadetta humiliated or collapsed",
+    "no Claude or Leonie cruel",
+    "no active casting at end",
+    "no bow raised to fire at end",
+    "no fired arrow",
+    "no projectile",
+    "no magic beam",
+    "no explosion",
+    "no contact hit",
+    "no injury",
+    "no blood",
+    "no gore",
+    "no humiliation",
+    "no lethal weapon focus",
+    "no static group portrait",
+    "no camera-facing pose",
+    "no text",
+    "no subtitles",
+    "no captions",
+    "no visible UI",
+    "no watermark",
+    "no letterbox",
+    "no pillarbox",
+    "no split panels"
+  ],
+  "primary_check": "2026-08-14 重做三帧：金鹿从右侧压入黑鹫后场，雷欧妮以低位木杆封住规则线，库罗德只用低位弓线标记路线；多洛缇雅和贝尔娜提塔在结束帧放低法具/弓并站到线外，体面退出主动战斗。账本保持 Dorothea/Bernadetta captured_by_leonie_and_claude，后续不得再主动参战。",
+  "command_argv": null,
+  "negative_prompt": "no extra people, no unnamed students, no spectators, no crowds, no readable silhouettes, no text, no subtitles, no captions, no visible text, no watermark, no camera spin, no screen-direction reversal, no face drift, no costume drift, no weapon drift, no lethal hits, no lethal hit, no gore, no blood, no paired Hanneman and Manuela, no shared teacher platform, no same-lane teacher duo, no readable Hanneman, no readable Manuela, no readable return of Annette, no active return of Annette, no readable return of Mercedes, no active return of Mercedes, no readable return of Hubert, no active return of Hubert, no renewed attack by Dorothea, no active-combat reset for Dorothea, no renewed attack by Bernadetta, no active-combat reset for Bernadetta, no uncaptured return of Hubert",
+  "visual_review_status": "rebuilt_pending_independent_visual_review",
+  "video_generation_readiness": "blocked_until_critical_reaudit_revisions_clear",
+  "critical_reaudit": {
+    "status": "monitor_required_after_rebuild",
+    "decision": "rebuilt_pending_independent_visual_review",
+    "previous_decision": "blocked_needs_revision",
+    "rebuilt_at": "2026-08-12T00:00:00.000Z",
+    "visual_assessment": "2026-08-14 重做三帧：金鹿从右侧压入黑鹫后场，雷欧妮以低位木杆封住规则线，库罗德只用低位弓线标记路线；多洛缇雅和贝尔娜提塔在结束帧放低法具/弓并站到线外，体面退出主动战斗。账本保持 Dorothea/Bernadetta captured_by_leonie_and_claude，后续不得再主动参战。",
+    "required_followup": "independent_visual_review_before_motion_probe_or_video_submission"
+  },
+  "supersedes_prior_visual_review": "production_system/reviews/scene09_critical_reaudit_2026-08-12/scene09_critical_reaudit_2026-08-12.json",
+  "full_local_visual_review_status": "rebuilt_pending_independent_visual_review",
+  "fullLocalVisualReviewStatus": "rebuilt_pending_independent_visual_review",
+  "full_local_visual_review_note": "2026-08-14 重做三帧：金鹿从右侧压入黑鹫后场，雷欧妮以低位木杆封住规则线，库罗德只用低位弓线标记路线；多洛缇雅和贝尔娜提塔在结束帧放低法具/弓并站到线外，体面退出主动战斗。账本保持 Dorothea/Bernadetta captured_by_leonie_and_claude，后续不得再主动参战。",
+  "productionQaStatus": "monitor_required_after_rebuild",
+  "productionQaChecks": [
+    "rebuilt_2026-08-14: start/key/end 已换为金鹿规则封路动作链",
+    "named_only: Claude, Leonie, Dorothea, Bernadetta",
+    "outcome_lock: Dorothea and Bernadetta exit active combat after this shot; Claude and Leonie remain active captors",
+    "blocking_lock: Golden Deer pressure comes from screen right toward Black Eagles backline on screen left",
+    "weapon_locks: Claude practice bow lowered/marking line; Leonie blunt wooden practice lance; Dorothea book/spell focus lowered; Bernadetta practice bow lowered",
+    "tone_lock: Golden Deer tactical high point, Black Eagles dignified and competent, no injury or humiliation",
+    "remaining_gate: independent visual review and motion probe still required"
+  ],
+  "battle_ledger_after": {
+    "rule_cn": "学籍模拟战账本：模拟战非致命，全部具名角色生命安全；击败/被俘/目标判负/退场只表示课堂规则下失去主动参战资格。",
+    "all_named_characters_alive": true,
+    "alive_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "still_active_or_controlling_objective_by_house": {
+      "command": [
+        "Byleth"
+      ],
+      "blue_lions": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "black_eagles": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "golden_deer": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "hanneman_faculty_lane": [
+        "Hanneman"
+      ],
+      "manuela_faculty_lane": [
+        "Manuela"
+      ]
+    },
+    "limited_but_not_defeated_by_house": {
+      "blue_lions": [
+        "Dimitri"
+      ],
+      "black_eagles": [
+        "Edelgard"
+      ],
+      "golden_deer": [
+        "Hilda"
+      ]
+    },
+    "mock_battle_defeated_or_removed_by_house": {
+      "blue_lions": [
+        "Annette",
+        "Mercedes"
+      ],
+      "black_eagles": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ]
+    },
+    "captured_or_objective_defeated_by_house": {
+      "black_eagles": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ]
+    },
+    "stood_down_or_post_battle_by_house": {
+      "blue_lions": [
+        "Annette",
+        "Mercedes"
+      ]
+    },
+    "must_not_return_active_by_house": {
+      "blue_lions": [
+        "Annette",
+        "Mercedes"
+      ],
+      "black_eagles": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ]
+    },
+    "changed_this_shot": [
+      {
+        "name": "Dorothea",
+        "status": "captured_by_leonie_and_claude",
+        "label": "captured_by_leonie_and_claude"
+      },
+      {
+        "name": "Bernadetta",
+        "status": "captured_by_leonie_and_claude",
+        "label": "captured_by_leonie_and_claude"
+      },
+      {
+        "name": "Claude",
+        "status": "captor_active",
+        "label": "captor_active"
+      },
+      {
+        "name": "Leonie",
+        "status": "captor_active",
+        "label": "captor_active"
+      }
+    ],
+    "note_cn": "安全存活/非致命：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 仍可主动参战/控制目标：command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Sylvain, Ingrid; black_eagles: Edelgard, Ferdinand; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela 已击败/被俘/目标判负/退场，不可再主动战斗：blue_lions: Annette, Mercedes; black_eagles: Hubert, Dorothea, Bernadetta"
+  },
+  "alive_safe_after": "command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid; black_eagles: Edelgard, Hubert, Ferdinand, Dorothea, Bernadetta; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "active_or_objective_after": "command: Byleth; blue_lions: Dimitri, Dedue, Felix, Ashe, Sylvain, Ingrid; black_eagles: Edelgard, Ferdinand; golden_deer: Claude, Hilda, Lorenz, Ignatz, Leonie; hanneman_faculty_lane: Hanneman; manuela_faculty_lane: Manuela",
+  "limited_after": "blue_lions: Dimitri; black_eagles: Edelgard; golden_deer: Hilda",
+  "defeated_removed_after": "blue_lions: Annette, Mercedes; black_eagles: Hubert, Dorothea, Bernadetta",
+  "captured_objective_defeated_after": "black_eagles: Hubert, Dorothea, Bernadetta",
+  "stood_down_post_battle_after": "blue_lions: Annette, Mercedes",
+  "must_not_return_active_after": "blue_lions: Annette, Mercedes; black_eagles: Hubert, Dorothea, Bernadetta",
+  "changed_this_shot": "Dorothea:captured_by_leonie_and_claude; Bernadetta:captured_by_leonie_and_claude; Claude:captor_active; Leonie:captor_active",
+  "no_active_combat_line": "Annette, Mercedes, Hubert, Dorothea, Bernadetta",
+  "visible_but_no_active_combat_after": "Dorothea, Bernadetta",
+  "dialogue_audio": "Claude: \"后排，我们收下了。\" Leonie: \"别再拉弓了。\" Sound design: field ambience, restrained breath, armor and wooden training weapon detail; no subtitles, captions, UI text, or readable on-screen words."
+}

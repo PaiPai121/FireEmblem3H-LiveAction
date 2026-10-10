@@ -1,0 +1,45 @@
+{
+  "total_duration_seconds": 60,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "SIBH-SH001",
+      "duration_seconds": 9,
+      "expected_clip": "clips/SIBH-SH001.mp4",
+      "edit_in": "cut from corridor ambience",
+      "edit_out": "cut on Ingrid saying Sylvain's name"
+    },
+    {
+      "order": 2,
+      "shot": "SIBH-SH002",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SIBH-SH002.mp4",
+      "edit_in": "from Ingrid's offscreen line",
+      "edit_out": "cut as Ingrid invokes apology history"
+    },
+    {
+      "order": 3,
+      "shot": "SIBH-SH003",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SIBH-SH003.mp4",
+      "edit_in": "from Ingrid's apology-history line",
+      "edit_out": "cut on Sylvain lowering his voice"
+    },
+    {
+      "order": 4,
+      "shot": "SIBH-SH004",
+      "duration_seconds": 15,
+      "expected_clip": "clips/SIBH-SH004.mp4",
+      "edit_in": "from Sylvain lowering his voice",
+      "edit_out": "cut after Sylvain accepts today's defeat"
+    },
+    {
+      "order": 5,
+      "shot": "SIBH-SH005",
+      "duration_seconds": 12,
+      "expected_clip": "clips/SIBH-SH005.mp4",
+      "edit_in": "cut from Sylvain asking if this is a trial",
+      "edit_out": "hold on failed recovery smile"
+    }
+  ]
+}

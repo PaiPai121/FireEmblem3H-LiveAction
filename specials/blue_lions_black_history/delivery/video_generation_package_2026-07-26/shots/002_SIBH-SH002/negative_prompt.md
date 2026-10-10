@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no jealousy acting, no flirtatious staging between Sylvain and Ingrid, no readable text on notes, no subtitles, no watermarks, no logos, no modern props, no extra visible crowd stealing focus, no costume drift, no camera spin.

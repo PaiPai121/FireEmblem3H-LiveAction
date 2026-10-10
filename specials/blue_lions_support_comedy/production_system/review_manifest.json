@@ -1,0 +1,29 @@
+{
+  "project": "blue_lions_support_comedy",
+  "reviews": [
+    {
+      "type": "package_completion_check",
+      "status": "passed",
+      "path": "independent_completion_check.json",
+      "episode": "EP01_dedue_ashe_c"
+    },
+    {
+      "type": "package_completion_check",
+      "status": "passed",
+      "path": "independent_completion_check.json",
+      "episode": "EP02_annette_mercedes_c"
+    },
+    {
+      "type": "package_completion_check",
+      "status": "passed",
+      "path": "independent_completion_check.json",
+      "episode": "EP03_felix_sylvain_c"
+    },
+    {
+      "type": "package_completion_check",
+      "status": "passed",
+      "path": "independent_completion_check.json",
+      "episode": "EP04_sylvain_mercedes_c"
+    }
+  ]
+}

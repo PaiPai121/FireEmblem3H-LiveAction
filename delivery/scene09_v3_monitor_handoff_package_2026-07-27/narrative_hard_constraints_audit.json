@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-01",
+  "decision": "narrative_hard_constraints_passed",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "active_manifest": "production_system/video_delivery_manifest.json",
+  "shots_checked": 42,
+  "checks_total": 1743,
+  "checks_passed": 1743,
+  "problems": [],
+  "warnings": [],
+  "evidence": {
+    "no_unknown_readable_people": "visible_named_only arrays only use the known named roster and every model/negative prompt bans unnamed readable people.",
+    "teacher_separation": "Hanneman and Manuela are never visible together; Shot034B locks both teachers absent/offscreen/silent/unpaired with empty objective markers.",
+    "capture_continuity": "Hubert capture, Dorothea/Bernadetta capture, and post-capture no-return checks are machine-verified.",
+    "visible_not_active_continuity": "Every model prompt states Visible But No Active Combat After, computed from visible_named_only minus active/objective-controlling after-state.",
+    "attrition_finish": "Shot034G keeps the exhausted Byleth/Dimitri/Dedue core; Shot036 ends as Dimitri/Byleth stand-down."
+  },
+  "production_report_json": "production_system/scene09_v3_attrition_package/scene09_v3_narrative_hard_constraints_audit_2026-08-01.json",
+  "production_report_md": "production_system/scene09_v3_attrition_package/scene09_v3_narrative_hard_constraints_audit_2026-08-01.md"
+}

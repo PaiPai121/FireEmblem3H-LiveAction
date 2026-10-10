@@ -1,0 +1,188 @@
+{
+  "episode": "EP03_felix_sylvain_c",
+  "title": "Felix x Sylvain - Training Interrupted",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "source_language": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; export-side only, not burned into video generation.",
+  "total_duration_seconds": 69,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BLSC03-SH001",
+      "start_seconds": 0.0,
+      "end_seconds": 7.0,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "フェリクス、暇か？",
+      "zh_Hans": "菲力克斯，有空吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BLSC03-SH002",
+      "start_seconds": 7.0,
+      "end_seconds": 13.632,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "忙しそうには見えないな。女の子に声をかけに行こうぜ。",
+      "zh_Hans": "看起来也不忙嘛。一起去找女孩子搭话吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BLSC03-SH002",
+      "start_seconds": 13.812,
+      "end_seconds": 18.0,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "一人で行け。稽古の邪魔だ。",
+      "zh_Hans": "你自己去。别妨碍我训练。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BLSC03-SH003",
+      "start_seconds": 18.0,
+      "end_seconds": 24.468,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "昔はディミトリと喧嘩するたび、俺の後ろをついてきただろ。",
+      "zh_Hans": "以前你每次和帝弥托利吵架，不都跟在我后面吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BLSC03-SH003",
+      "start_seconds": 24.648,
+      "end_seconds": 27.0,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "その話はやめろ。",
+      "zh_Hans": "别提那件事。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BLSC03-SH004",
+      "start_seconds": 27.0,
+      "end_seconds": 31.841,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "あの頃は素直で可愛かったのにな。",
+      "zh_Hans": "那时候你明明又听话又可爱。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BLSC03-SH004",
+      "start_seconds": 32.021,
+      "end_seconds": 35.0,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "黙れ。",
+      "zh_Hans": "闭嘴。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BLSC03-SH005",
+      "start_seconds": 35.0,
+      "end_seconds": 39.234,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "お前には何年も苛立たされている。",
+      "zh_Hans": "我已经被你烦了好几年了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BLSC03-SH005",
+      "start_seconds": 39.414,
+      "end_seconds": 44.0,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "長い一覧になりそうだな。",
+      "zh_Hans": "听起来会是一张很长的清单。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BLSC03-SH006",
+      "start_seconds": 44.0,
+      "end_seconds": 51.535,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "戦場でも人付き合いでも軽率だ。すぐ次の女に目を向ける。",
+      "zh_Hans": "无论战场还是人际关系，你都太轻率。马上就把眼睛转向下一个女人。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BLSC03-SH006",
+      "start_seconds": 51.715,
+      "end_seconds": 54.875,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "可愛い子を無視するのは失礼だろ。",
+      "zh_Hans": "无视可爱的女孩子才失礼吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BLSC03-SH006",
+      "start_seconds": 55.055,
+      "end_seconds": 57.0,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "救いようがないな。",
+      "zh_Hans": "真是没救了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BLSC03-SH007",
+      "start_seconds": 57.0,
+      "end_seconds": 59.348,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "俺のことは、もっとわかってるだろ。",
+      "zh_Hans": "你应该更了解我才对吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BLSC03-SH007",
+      "start_seconds": 59.528,
+      "end_seconds": 62.303,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "なら、それに見合う行動をしろ。",
+      "zh_Hans": "那就拿出配得上这话的行动。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BLSC03-SH007",
+      "start_seconds": 62.483,
+      "end_seconds": 66.112,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "はいはい。人形と仲良くな。",
+      "zh_Hans": "好好好。你就和训练人偶好好相处吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 16,
+      "shot_id": "BLSC03-SH007",
+      "start_seconds": 66.292,
+      "end_seconds": 68.0,
+      "speaker": "Felix",
+      "speaker_zh": "菲力克斯",
+      "ja": "余計な世話だ。",
+      "zh_Hans": "不用你多管闲事。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

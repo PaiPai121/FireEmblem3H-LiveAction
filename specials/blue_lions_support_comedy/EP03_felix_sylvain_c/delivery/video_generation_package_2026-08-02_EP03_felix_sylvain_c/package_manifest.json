@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "project": "blue_lions_support_comedy",
+  "episode": "EP03_felix_sylvain_c",
+  "package_id": "video_generation_package_2026-08-02_EP03_felix_sylvain_c",
+  "created_at": "2026-08-02",
+  "target": "video_generation_package",
+  "model_target": "Seedance image-to-video",
+  "total_shots": 4,
+  "total_duration_seconds": 60,
+  "shot_max_seconds": 15,
+  "frame_contract": [
+    "start_frame.png",
+    "key_frame.png",
+    "end_frame.png"
+  ],
+  "subtitles": "none",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "source": [
+    "https://wiki.serenesforest.net/index.php/Three_Houses_Supports/Felix_Sylvain",
+    "https://fireemblem.fandom.com/wiki/Felix/Supports#With_Sylvain"
+  ],
+  "source_summary": "Sylvain interrupts Felix's training to invite him to talk to girls; Felix refuses, Sylvain teases him with childhood memories of a softer Felix, and Felix snaps back that Sylvain's recklessness and womanizing hurt others.",
+  "dialogue_policy": "lightly bridged adapted English with one short source-anchored phrase; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "source_blockers": [
+    "Full official Japanese transcript was not available locally; package uses adapted English and does not mark dialogue as exact."
+  ],
+  "shots": [
+    {
+      "id": "BLSC03-SH001",
+      "order": 1,
+      "title": "Not Busy, Obviously",
+      "duration_seconds": 15,
+      "status": "approved_for_video",
+      "package_dir": "shots/001_BLSC03-SH001",
+      "expected_clip": "clips/BLSC03-SH001.mp4",
+      "continuity_previous": "",
+      "continuity_next": "BLSC03-SH002"
+    },
+    {
+      "id": "BLSC03-SH002",
+      "order": 2,
+      "title": "Cute Little Brother",
+      "duration_seconds": 15,
+      "status": "approved_for_video",
+      "package_dir": "shots/002_BLSC03-SH002",
+      "expected_clip": "clips/BLSC03-SH002.mp4",
+      "continuity_previous": "BLSC03-SH001",
+      "continuity_next": "BLSC03-SH003"
+    },
+    {
+      "id": "BLSC03-SH003",
+      "order": 3,
+      "title": "Years Of Patience",
+      "duration_seconds": 15,
+      "status": "approved_for_video",
+      "package_dir": "shots/003_BLSC03-SH003",
+      "expected_clip": "clips/BLSC03-SH003.mp4",
+      "continuity_previous": "BLSC03-SH002",
+      "continuity_next": "BLSC03-SH004"
+    },
+    {
+      "id": "BLSC03-SH004",
+      "order": 4,
+      "title": "Friendship Bruise",
+      "duration_seconds": 15,
+      "status": "approved_for_video",
+      "package_dir": "shots/004_BLSC03-SH004",
+      "expected_clip": "clips/BLSC03-SH004.mp4",
+      "continuity_previous": "BLSC03-SH003",
+      "continuity_next": ""
+    }
+  ],
+  "ai_frame_generation": {
+    "status_file": "AI_FRAME_GENERATION_STATUS.md",
+    "status": "complete",
+    "successful_imagegen_shots": [
+      "BLSC01-SH001",
+      "BLSC01-SH002",
+      "BLSC01-SH003",
+      "BLSC01-SH004",
+      "BLSC02-SH001",
+      "BLSC02-SH002",
+      "BLSC02-SH003",
+      "BLSC02-SH004",
+      "BLSC03-SH001",
+      "BLSC03-SH002",
+      "BLSC03-SH003",
+      "BLSC03-SH004",
+      "BLSC04-SH001",
+      "BLSC04-SH002",
+      "BLSC04-SH003",
+      "BLSC04-SH004"
+    ],
+    "blocker": null,
+    "frame_format": "1280x720 start/key/end anchors split from AI-generated triptychs"
+  }
+}

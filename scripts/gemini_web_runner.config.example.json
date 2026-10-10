@@ -1,0 +1,57 @@
+{
+  "geminiUrl": "https://gemini.google.com/",
+  "attachButtons": [
+    { "role": "button", "name": "上传和工具" },
+    { "role": "button", "name": "Add files" },
+    { "role": "button", "name": "Upload files" },
+    { "role": "button", "name": "上传" },
+    { "role": "button", "name": "添加" },
+    { "selector": "button[aria-label*=\"Upload\" i]" },
+    { "selector": "button[aria-label*=\"Add\" i]" },
+    { "selector": "button[aria-label*=\"上传和工具\" i]" },
+    { "selector": "button[aria-label*=\"上传\" i]" },
+    { "selector": "button[aria-label*=\"添加\" i]" }
+  ],
+  "uploadFileItems": [
+    { "text": "上传文件" },
+    { "text": "Upload files" },
+    { "text": "Upload from device" },
+    { "selector": "input[type=\"file\"]" }
+  ],
+  "videoModeItems": [
+    { "text": "制作视频" },
+    { "text": "Create video" },
+    { "text": "Make video" },
+    { "text": "Video" }
+  ],
+  "composerSelectors": [
+    "div[contenteditable=\"true\"][role=\"textbox\"]",
+    "div[contenteditable=\"true\"]",
+    "textarea"
+  ],
+  "submitButtons": [
+    { "role": "button", "name": "Submit" },
+    { "role": "button", "name": "Send" },
+    { "role": "button", "name": "Generate" },
+    { "role": "button", "name": "发送" },
+    { "role": "button", "name": "提交" },
+    { "role": "button", "name": "生成" },
+    { "selector": "button[aria-label*=\"Send\" i]" },
+    { "selector": "button[aria-label*=\"Submit\" i]" },
+    { "selector": "button[aria-label*=\"Generate\" i]" },
+    { "selector": "button[aria-label*=\"发送\" i]" }
+  ],
+  "quotaTextPatterns": [
+    "maximum I can do at one time",
+    "video generation requests running",
+    "maximum",
+    "limit",
+    "quota",
+    "try again later",
+    "已达到",
+    "上限",
+    "限额",
+    "稍后再试"
+  ],
+  "postSubmitWaitMs": 5000
+}

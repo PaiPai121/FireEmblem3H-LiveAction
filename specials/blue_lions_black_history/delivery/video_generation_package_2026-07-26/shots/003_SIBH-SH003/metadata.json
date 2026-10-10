@@ -1,0 +1,17 @@
+{
+  "id": "SIBH-SH003",
+  "order": 3,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH003.mp4",
+  "edit_in": "from Ingrid opening notes",
+  "edit_out": "cut on Sylvain's worried offscreen glance",
+  "audio_anchor": "Ingrid says she remembers everything",
+  "continuity_previous": "SIBH-SH002",
+  "continuity_next": "SIBH-SH004",
+  "model_notes": [],
+  "reject_if": [
+    "readable text appears",
+    "Ingrid becomes cruel"
+  ]
+}

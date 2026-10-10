@@ -1,0 +1,210 @@
+{
+  "episode": "EP01_dedue_ashe_c",
+  "title": "Dedue x Ashe - Fish, Advice, Friends",
+  "support_pair": "Dedue x Ashe",
+  "support_rank": "C",
+  "source_language": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; export-side only, not burned into video generation.",
+  "total_duration_seconds": 66,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BLSC01-SH001",
+      "start_seconds": 0.0,
+      "end_seconds": 6.343,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "この魚は、焼くか香草で蒸すのがいい。",
+      "zh_Hans": "这条鱼烤着吃，或者用香草蒸都不错。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BLSC01-SH001",
+      "start_seconds": 6.523,
+      "end_seconds": 11.0,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "ドゥドゥー、料理に詳しいんだね。",
+      "zh_Hans": "杜笃，你对料理好了解啊。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BLSC01-SH002",
+      "start_seconds": 11.0,
+      "end_seconds": 13.273,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "ただの料理だ。",
+      "zh_Hans": "只是做饭而已。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BLSC01-SH002",
+      "start_seconds": 13.453,
+      "end_seconds": 18.0,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "それなら僕は、まだまだ見習いだな。",
+      "zh_Hans": "那我就还差得远，还是见习水平呢。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BLSC01-SH003",
+      "start_seconds": 18.0,
+      "end_seconds": 22.527,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "城の料理人だったの？",
+      "zh_Hans": "你以前是城里的厨师吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BLSC01-SH003",
+      "start_seconds": 22.707,
+      "end_seconds": 26.0,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "違う。",
+      "zh_Hans": "不是。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BLSC01-SH004",
+      "start_seconds": 26.0,
+      "end_seconds": 28.52,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "じゃあ、宿屋とか？",
+      "zh_Hans": "那是旅店之类的吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BLSC01-SH004",
+      "start_seconds": 28.7,
+      "end_seconds": 32.9,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "いや。妹と家で作っていただけだ。",
+      "zh_Hans": "也不是。只是和妹妹在家里做饭。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BLSC01-SH004",
+      "start_seconds": 33.08,
+      "end_seconds": 37.0,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "それだけでそんなに上手いなんて、すごいよ。",
+      "zh_Hans": "只是这样就这么拿手，真厉害。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BLSC01-SH005",
+      "start_seconds": 37.0,
+      "end_seconds": 39.547,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "もっと教えてくれる？",
+      "zh_Hans": "能再多教教我吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BLSC01-SH005",
+      "start_seconds": 39.727,
+      "end_seconds": 42.273,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "望むなら。",
+      "zh_Hans": "你愿意的话。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BLSC01-SH005",
+      "start_seconds": 42.453,
+      "end_seconds": 45.0,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "うん、ぜひ。",
+      "zh_Hans": "嗯，当然愿意。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BLSC01-SH006",
+      "start_seconds": 45.0,
+      "end_seconds": 48.593,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "なぜ俺と過ごす。",
+      "zh_Hans": "为什么要和我待在一起？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BLSC01-SH006",
+      "start_seconds": 48.773,
+      "end_seconds": 54.0,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "友達だからだよ。もっと君のことを知りたいんだ。",
+      "zh_Hans": "因为我们是朋友啊。我想更了解你。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BLSC01-SH007",
+      "start_seconds": 54.0,
+      "end_seconds": 56.183,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "俺はダスカーの者だ。",
+      "zh_Hans": "我是达斯卡人。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 16,
+      "shot_id": "BLSC01-SH007",
+      "start_seconds": 56.363,
+      "end_seconds": 61.274,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "知ってる。それでも友達でいられるよ。",
+      "zh_Hans": "我知道。即便如此，我们也可以做朋友。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 17,
+      "shot_id": "BLSC01-SH007",
+      "start_seconds": 61.454,
+      "end_seconds": 63.637,
+      "speaker": "Dedue",
+      "speaker_zh": "杜笃",
+      "ja": "変わった奴だ。",
+      "zh_Hans": "真是个怪人。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 18,
+      "shot_id": "BLSC01-SH007",
+      "start_seconds": 63.817,
+      "end_seconds": 66.0,
+      "speaker": "Ashe",
+      "speaker_zh": "亚修",
+      "ja": "よく言われる。",
+      "zh_Hans": "经常有人这么说。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

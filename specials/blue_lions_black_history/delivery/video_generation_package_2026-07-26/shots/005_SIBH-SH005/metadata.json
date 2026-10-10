@@ -1,0 +1,17 @@
+{
+  "id": "SIBH-SH005",
+  "order": 5,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH005.mp4",
+  "edit_in": "cut from Sylvain asking if this is a trial",
+  "edit_out": "hold on failed recovery smile",
+  "audio_anchor": "Ingrid says not to imitate Sylvain",
+  "continuity_previous": "SIBH-SH004",
+  "continuity_next": "",
+  "model_notes": [],
+  "reject_if": [
+    "Sylvain looks devastated",
+    "ending becomes romantic"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "shot_id": "BLSC04-SH002",
+  "order": 2,
+  "title": "Worse Either Way",
+  "duration_seconds": 15,
+  "status": "approved_for_video",
+  "support_pair": "Sylvain x Mercedes",
+  "support_rank": "C",
+  "source": [
+    "https://fireemblem.fandom.com/wiki/Sylvain/Supports#With_Mercedes",
+    "https://fireemblem.fandom.com/wiki/Mercedes/Supports#With_Sylvain"
+  ],
+  "dialogue_policy": "lightly bridged adapted English; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "characters": [
+    "Sylvain",
+    "Mercedes"
+  ],
+  "cameo": null,
+  "location_reference": "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+  "character_references": {
+    "Sylvain": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+    "Mercedes": "assets/characters/blue_lions/Mercedes/academy/selected.png"
+  },
+  "identity_locks": {
+    "Sylvain": "Academy-era Sylvain: handsome red-haired noble student, relaxed smile with tired clever eyes, Blue Lions academy uniform worn slightly casually, charming but not oily, never modern playboy.",
+    "Mercedes": "Academy-era Mercedes: gentle young blonde healer, soft refined face, side-swept bangs, black-gold hair ribbon, white high collar, blue-black Blue Lions uniform with beige shoulder detail, warm sisterly presence, never nun-like elderly."
+  },
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "I do admire women, but with you I mean-- You're special. That sounds worse, doesn't it?",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "A little.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "I would like to know you better. As friends.",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "Then perhaps we can begin like friends. Ask me something ordinary.",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "bridge_actions": [
+    {
+      "policy": "silent_action_bridge",
+      "text": "Sylvain starts one sentence, abandons it, then tries again."
+    },
+    {
+      "policy": "silent_action_bridge",
+      "text": "Mercedes's smile never becomes mocking."
+    }
+  ],
+  "no_subtitles": true,
+  "expected_clip": "clips/BLSC04-SH002.mp4"
+}

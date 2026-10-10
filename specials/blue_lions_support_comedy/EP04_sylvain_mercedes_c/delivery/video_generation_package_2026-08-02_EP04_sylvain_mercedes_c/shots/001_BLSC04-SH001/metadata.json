@@ -1,0 +1,68 @@
+{
+  "shot_id": "BLSC04-SH001",
+  "order": 1,
+  "title": "Divine As Always",
+  "duration_seconds": 15,
+  "status": "approved_for_video",
+  "support_pair": "Sylvain x Mercedes",
+  "support_rank": "C",
+  "source": [
+    "https://fireemblem.fandom.com/wiki/Sylvain/Supports#With_Mercedes",
+    "https://fireemblem.fandom.com/wiki/Mercedes/Supports#With_Sylvain"
+  ],
+  "dialogue_policy": "lightly bridged adapted English; no claim of exact source quotation",
+  "language_used": "English adapted from official English support summary and short source audit; not a verbatim transcript package",
+  "characters": [
+    "Sylvain",
+    "Mercedes"
+  ],
+  "cameo": null,
+  "location_reference": "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+  "character_references": {
+    "Sylvain": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+    "Mercedes": "assets/characters/blue_lions/Mercedes/academy/selected.png"
+  },
+  "identity_locks": {
+    "Sylvain": "Academy-era Sylvain: handsome red-haired noble student, relaxed smile with tired clever eyes, Blue Lions academy uniform worn slightly casually, charming but not oily, never modern playboy.",
+    "Mercedes": "Academy-era Mercedes: gentle young blonde healer, soft refined face, side-swept bangs, black-gold hair ribbon, white high collar, blue-black Blue Lions uniform with beige shoulder detail, warm sisterly presence, never nun-like elderly."
+  },
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "dialogue": [
+    {
+      "speaker": "Sylvain",
+      "text": "Mercedes, you look divine as always. Off to pray?",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "Hello, Sylvain. I was. How did you guess?",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "Because I have been admiring your lovely--",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Mercedes",
+      "text": "Oh. You are the type who is always looking at girls, aren't you?",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "bridge_actions": [
+    {
+      "policy": "silent_action_bridge",
+      "text": "Mercedes closes the prayer book gently."
+    },
+    {
+      "policy": "silent_action_bridge",
+      "text": "Sylvain's confident smile stalls."
+    }
+  ],
+  "no_subtitles": true,
+  "expected_clip": "clips/BLSC04-SH001.mp4"
+}

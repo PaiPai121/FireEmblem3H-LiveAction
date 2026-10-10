@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-01",
+  "decision": "provider_ingest_provenance_contract_passed",
+  "fixture_root": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN",
+  "production_package_unchanged": true,
+  "positive": {
+    "ffmpeg": {
+      "command": [
+        "ffmpeg",
+        "-y",
+        "-v",
+        "error",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=c=blue:s=32x32:r=1:d=1",
+        "-pix_fmt",
+        "yuv420p",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/provider_downloads/001_TestShot_provider-return.mp4"
+      ],
+      "status": 0,
+      "stdout_tail": "",
+      "stderr_tail": "",
+      "ok": true,
+      "error": null
+    },
+    "ingest": {
+      "command": [
+        "/usr/local/bin/node",
+        "scripts/ingest_scene09_v3_generated_clips.js",
+        "--input",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/provider_downloads",
+        "--apply",
+        "--report-json",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/reports/ingest.json",
+        "--report-md",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/reports/ingest.md"
+      ],
+      "status": 0,
+      "stdout_tail": "{\n  \"decision\": \"clip_ingest_applied_run_pipeline_qa\",\n  \"total_shots\": 1,\n  \"scanned_video_files\": 1,\n  \"unique_matched_shots\": 1,\n  \"would_copy\": 0,\n  \"copied\": 1,\n  \"missing_source_shots\": 0,\n  \"blocked_shots\": 0,\n  \"ambiguous_files\": 0,\n  \"unsupported_video_files\": 0,\n  \"invalid_video_files\": 0,\n  \"unmatched_mp4_files\": 0,\n  \"report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/reports/ingest.json\",\n  \"report_md\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/reports/ingest.md\"\n}\n",
+      "stderr_tail": "",
+      "ok": true,
+      "error": null
+    },
+    "gate": {
+      "command": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_provenance_gate.js"
+      ],
+      "status": 0,
+      "stdout_tail": "{\n  \"decision\": \"clip_provenance_passed_all_expected_clips\",\n  \"expected_clips\": 1,\n  \"existing_clips\": 1,\n  \"missing_clips\": 0,\n  \"provenance_rows\": 1,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/reports/scene09_v3_clip_provenance_gate_2026-08-01.json\",\n  \"package_report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/package/clip_provenance_gate.json\"\n}\n",
+      "stderr_tail": "",
+      "ok": true,
+      "error": null
+    },
+    "source_digest": {
+      "bytes": 1557,
+      "sha256": "71458f9967d748106a0a4533bcba98322742c1eb0f5b613e33f6c0e2c6553abe"
+    },
+    "output_digest": {
+      "bytes": 1557,
+      "sha256": "71458f9967d748106a0a4533bcba98322742c1eb0f5b613e33f6c0e2c6553abe"
+    },
+    "provenance_row": {
+      "source_type": "provider_ingest",
+      "created_at": "2026-08-15T04:02:41.900Z",
+      "order": 1,
+      "shot": "TestShot",
+      "id": "TEST-SHOT-001",
+      "custom_id": "001_TestShot",
+      "expected_clip": "../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/expected_outputs/01_TestShot.mp4",
+      "source": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/provider_downloads/001_TestShot_provider-return.mp4",
+      "source_relative_to_input": "001_TestShot_provider-return.mp4",
+      "source_bytes": 1557,
+      "source_sha256": "71458f9967d748106a0a4533bcba98322742c1eb0f5b613e33f6c0e2c6553abe",
+      "source_video_probe": {
+        "ok": true,
+        "issue": null,
+        "duration_seconds": 1,
+        "codec_name": "h264",
+        "width": 32,
+        "height": 32
+      },
+      "match_reason": "starts_with_custom_id",
+      "ingest_report": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/reports/ingest.json",
+      "bytes": 1557,
+      "sha256": "71458f9967d748106a0a4533bcba98322742c1eb0f5b613e33f6c0e2c6553abe"
+    },
+    "problems": []
+  },
+  "negative": {
+    "removed_field": "source_sha256",
+    "gate": {
+      "command": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_provenance_gate.js"
+      ],
+      "status": 1,
+      "stdout_tail": "{\n  \"decision\": \"clip_provenance_blocked\",\n  \"expected_clips\": 1,\n  \"existing_clips\": 1,\n  \"missing_clips\": 0,\n  \"provenance_rows\": 1,\n  \"problems\": 1,\n  \"warnings\": 0,\n  \"report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/reports/scene09_v3_clip_provenance_gate_2026-08-01.json\",\n  \"package_report_json\": \"../../../var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-provider-ingest-contract-2dPCmN/package/clip_provenance_gate.json\"\n}\n",
+      "stderr_tail": "",
+      "ok": false,
+      "error": null
+    },
+    "rejected": true
+  },
+  "problems": []
+}

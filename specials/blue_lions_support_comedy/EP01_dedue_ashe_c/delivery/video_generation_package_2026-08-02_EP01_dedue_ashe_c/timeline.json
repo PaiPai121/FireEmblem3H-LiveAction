@@ -1,0 +1,26 @@
+[
+  {
+    "shot_id": "BLSC01-SH001",
+    "start_time": 0,
+    "end_time": 15,
+    "duration_seconds": 15
+  },
+  {
+    "shot_id": "BLSC01-SH002",
+    "start_time": 15,
+    "end_time": 30,
+    "duration_seconds": 15
+  },
+  {
+    "shot_id": "BLSC01-SH003",
+    "start_time": 30,
+    "end_time": 45,
+    "duration_seconds": 15
+  },
+  {
+    "shot_id": "BLSC01-SH004",
+    "start_time": 45,
+    "end_time": 60,
+    "duration_seconds": 15
+  }
+]

@@ -1,0 +1,1 @@
+No face drift, no recasting, no age-up, no predatory Sylvain, no offended or frightened Nian, no Nian after SH001, no readable tablet text, no subtitles, no captions, no watermarks, no logos, no visible crew becoming the focus, no modern props dominating the medieval academy setting, no romance framing, no camera spin, no mouth distortion.

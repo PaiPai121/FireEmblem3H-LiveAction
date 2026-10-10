@@ -1,0 +1,28 @@
+{
+  "episode": "EP04_sylvain_mercedes_c",
+  "title": "Sylvain x Mercedes - Divine Interruption",
+  "support_pair": "Sylvain x Mercedes",
+  "support_rank": "C",
+  "total_duration_seconds": 68,
+  "shot_count": 7,
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "no_subtitles": true,
+  "dialogue_policy": "lightly bridged Japanese adaptation; no claim of exact source quotation",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/%E4%BC%9A%E8%A9%B1%E9%9B%86/%E6%94%AF%E6%8F%B4%E4%BC%9A%E8%A9%B1/%E3%82%B7%E3%83%AB%E3%83%B4%E3%82%A1%E3%83%B3%28%E3%83%95%E3%82%A1%E3%83%BC%E3%82%AC%E3%82%B9%E7%A5%9E%E8%81%96%E7%8E%8B%E5%9B%BD%29",
+    "https://fireemblem.fandom.com/wiki/Sylvain/Supports#With_Mercedes"
+  ],
+  "mercedes_identity_lock": "Mercedes identity_v4 lock: every EP04 frame must preserve Mercedes's canon academy identifiers: soft youthful rounded face, warm blue-lavender eyes, pale-blonde side-swept bangs, long side ponytail over her right shoulder, black-and-gold striped hair ribbon, white high collar and scarf, gold geometric chest trim, beige cape with blue linework, and gentle slightly absent-minded student warmth. Reject if she looks like a generic blonde church student, adult noblewoman, model, nun, or motherly healer.",
+  "mercedes_identity_status": "mercedes_identity_v4_visual_review_passed",
+  "mercedes_identity_review_date": "2026-08-10",
+  "mercedes_identity_repaired_shots": [
+    "BLSC04-SH001",
+    "BLSC04-SH002",
+    "BLSC04-SH003",
+    "BLSC04-SH004",
+    "BLSC04-SH005",
+    "BLSC04-SH006",
+    "BLSC04-SH007"
+  ],
+  "visual_revision_notes": "EP04 Mercedes identity repair: regenerated all seven timing-safe shots after user feedback that the delivered woman did not read as Mercedes."
+}

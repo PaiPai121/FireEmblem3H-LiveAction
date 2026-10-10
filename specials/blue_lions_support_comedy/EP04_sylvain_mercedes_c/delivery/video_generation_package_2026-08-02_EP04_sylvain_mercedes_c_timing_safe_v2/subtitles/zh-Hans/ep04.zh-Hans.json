@@ -1,0 +1,177 @@
+{
+  "episode": "EP04_sylvain_mercedes_c",
+  "title": "Sylvain x Mercedes - Divine Interruption",
+  "support_pair": "Sylvain x Mercedes",
+  "support_rank": "C",
+  "source_language": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; export-side only, not burned into video generation.",
+  "total_duration_seconds": 68,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BLSC04-SH001",
+      "start_seconds": 0.0,
+      "end_seconds": 7.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "こんにちは、シルヴァン。お祈りに行くところだったの。",
+      "zh_Hans": "你好，希尔凡。我正要去祈祷。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BLSC04-SH002",
+      "start_seconds": 7.0,
+      "end_seconds": 12.565,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "メルセデス、今日も神々しいね。",
+      "zh_Hans": "梅尔赛德司，今天也像女神一样耀眼。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BLSC04-SH002",
+      "start_seconds": 12.745,
+      "end_seconds": 17.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "まあ。あなたはいつも女の子を見ているのね。",
+      "zh_Hans": "哎呀。你总是在看女孩子呢。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BLSC04-SH003",
+      "start_seconds": 17.0,
+      "end_seconds": 21.469,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "女性を敬っているだけさ。でも君には……",
+      "zh_Hans": "我只是尊敬女性而已。不过对你……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BLSC04-SH003",
+      "start_seconds": 21.649,
+      "end_seconds": 25.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "その言い方だと、もっと悪く聞こえるわ。",
+      "zh_Hans": "你这样说，听起来更糟了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BLSC04-SH004",
+      "start_seconds": 25.0,
+      "end_seconds": 29.602,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "君のことをもっと知りたいんだ。友達として。",
+      "zh_Hans": "我想更了解你。作为朋友。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BLSC04-SH004",
+      "start_seconds": 29.782,
+      "end_seconds": 34.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "それなら普通のことを聞いてちょうだい。",
+      "zh_Hans": "那就问些普通的问题吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BLSC04-SH005",
+      "start_seconds": 34.0,
+      "end_seconds": 38.41,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "じゃあ、好きなものは？",
+      "zh_Hans": "那，你喜欢什么？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BLSC04-SH005",
+      "start_seconds": 38.59,
+      "end_seconds": 43.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "お祈りが好きよ。",
+      "zh_Hans": "我喜欢祈祷。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BLSC04-SH006",
+      "start_seconds": 43.0,
+      "end_seconds": 47.108,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "子供の頃から、よくお祈りしていたの。",
+      "zh_Hans": "从小开始，我就经常祈祷。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BLSC04-SH006",
+      "start_seconds": 47.288,
+      "end_seconds": 50.712,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "教会で育ったんだよな？",
+      "zh_Hans": "你是在教会长大的吧？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BLSC04-SH006",
+      "start_seconds": 50.892,
+      "end_seconds": 55.0,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "ええ、それで……あっ、お祈り。",
+      "zh_Hans": "是啊，所以……啊，祈祷。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BLSC04-SH007",
+      "start_seconds": 55.0,
+      "end_seconds": 57.902,
+      "speaker": "Mercedes",
+      "speaker_zh": "梅尔赛德司",
+      "ja": "忘れないうちに行かなくちゃ。",
+      "zh_Hans": "趁还没忘，我得赶紧去了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BLSC04-SH007",
+      "start_seconds": 58.082,
+      "end_seconds": 60.5,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "そうだな。邪魔して悪かった。",
+      "zh_Hans": "也是。抱歉打扰你了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BLSC04-SH007",
+      "start_seconds": 60.68,
+      "end_seconds": 66.0,
+      "speaker": "Sylvain",
+      "speaker_zh": "希尔凡",
+      "ja": "紋章、家、期待……それで人生を壊される人もいる。",
+      "zh_Hans": "纹章、家族、期待……也有人会因此被毁掉人生。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

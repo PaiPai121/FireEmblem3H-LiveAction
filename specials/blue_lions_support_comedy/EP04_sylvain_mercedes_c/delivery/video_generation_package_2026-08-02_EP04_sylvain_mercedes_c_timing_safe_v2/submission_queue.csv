@@ -1,0 +1,8 @@
+order,shot_id,duration_seconds,timing_estimate_seconds,prompt,negative_prompt,start_frame,key_frame,end_frame,expected_clip
+1,BLSC04-SH001,7,5.6,shots/001_BLSC04-SH001/prompt.md,shots/001_BLSC04-SH001/negative_prompt.md,shots/001_BLSC04-SH001/start_frame.png,shots/001_BLSC04-SH001/key_frame.png,shots/001_BLSC04-SH001/end_frame.png,clips/BLSC04-SH001.mp4
+2,BLSC04-SH002,10,7.6,shots/002_BLSC04-SH002/prompt.md,shots/002_BLSC04-SH002/negative_prompt.md,shots/002_BLSC04-SH002/start_frame.png,shots/002_BLSC04-SH002/key_frame.png,shots/002_BLSC04-SH002/end_frame.png,clips/BLSC04-SH002.mp4
+3,BLSC04-SH003,9,8.0,shots/003_BLSC04-SH003/prompt.md,shots/003_BLSC04-SH003/negative_prompt.md,shots/003_BLSC04-SH003/start_frame.png,shots/003_BLSC04-SH003/key_frame.png,shots/003_BLSC04-SH003/end_frame.png,clips/BLSC04-SH003.mp4
+4,BLSC04-SH004,10,8.8,shots/004_BLSC04-SH004/prompt.md,shots/004_BLSC04-SH004/negative_prompt.md,shots/004_BLSC04-SH004/start_frame.png,shots/004_BLSC04-SH004/key_frame.png,shots/004_BLSC04-SH004/end_frame.png,clips/BLSC04-SH004.mp4
+5,BLSC04-SH005,9,4.7,shots/005_BLSC04-SH005/prompt.md,shots/005_BLSC04-SH005/negative_prompt.md,shots/005_BLSC04-SH005/start_frame.png,shots/005_BLSC04-SH005/key_frame.png,shots/005_BLSC04-SH005/end_frame.png,clips/BLSC04-SH005.mp4
+6,BLSC04-SH006,12,9.0,shots/006_BLSC04-SH006/prompt.md,shots/006_BLSC04-SH006/negative_prompt.md,shots/006_BLSC04-SH006/start_frame.png,shots/006_BLSC04-SH006/key_frame.png,shots/006_BLSC04-SH006/end_frame.png,clips/BLSC04-SH006.mp4
+7,BLSC04-SH007,11,10.6,shots/007_BLSC04-SH007/prompt.md,shots/007_BLSC04-SH007/negative_prompt.md,shots/007_BLSC04-SH007/start_frame.png,shots/007_BLSC04-SH007/key_frame.png,shots/007_BLSC04-SH007/end_frame.png,clips/BLSC04-SH007.mp4

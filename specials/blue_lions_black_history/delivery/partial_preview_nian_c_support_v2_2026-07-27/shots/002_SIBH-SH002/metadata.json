@@ -1,0 +1,18 @@
+{
+  "id": "SIBH-SH002",
+  "order": 2,
+  "status": "frames_complete",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH002.mp4",
+  "edit_in": "from Ingrid's offscreen line",
+  "edit_out": "cut as Ingrid invokes apology history",
+  "audio_anchor": "Ingrid catches Sylvain after Nian has left",
+  "primary_check": "Nian is gone; Ingrid reads as a youthful strict friend, not jealous; Sylvain pivots from charm to damage control.",
+  "continuity_previous": "SIBH-SH001",
+  "continuity_next": "SIBH-SH003",
+  "reject_if": [
+    "Nian is still visible",
+    "Ingrid reads as jealous",
+    "Sylvain flirts with Ingrid"
+  ]
+}

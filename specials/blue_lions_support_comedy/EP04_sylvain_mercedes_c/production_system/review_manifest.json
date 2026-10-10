@@ -1,0 +1,10 @@
+{
+  "episode": "EP04_sylvain_mercedes_c",
+  "reviews": [
+    {
+      "type": "strict_continuity",
+      "status": "passed",
+      "path": "specials/blue_lions_support_comedy/EP04_sylvain_mercedes_c/delivery/video_generation_package_2026-08-02_EP04_sylvain_mercedes_c/continuity_report.json"
+    }
+  ]
+}

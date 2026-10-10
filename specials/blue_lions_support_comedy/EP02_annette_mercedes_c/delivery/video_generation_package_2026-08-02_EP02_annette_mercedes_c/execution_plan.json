@@ -1,0 +1,56 @@
+{
+  "package_id": "video_generation_package_2026-08-02_EP02_annette_mercedes_c",
+  "status": "clips_pending_external_seedance_execution",
+  "steps": [
+    "submit rows in order",
+    "save clips to expected_clip",
+    "run clip QA",
+    "assemble final edit"
+  ],
+  "queue": [
+    {
+      "order": 1,
+      "shot_id": "BLSC02-SH001",
+      "duration_seconds": 15,
+      "prompt": "shots/001_BLSC02-SH001/prompt.md",
+      "negative_prompt": "shots/001_BLSC02-SH001/negative_prompt.md",
+      "start_frame": "shots/001_BLSC02-SH001/start_frame.png",
+      "key_frame": "shots/001_BLSC02-SH001/key_frame.png",
+      "end_frame": "shots/001_BLSC02-SH001/end_frame.png",
+      "expected_clip": "clips/BLSC02-SH001.mp4"
+    },
+    {
+      "order": 2,
+      "shot_id": "BLSC02-SH002",
+      "duration_seconds": 15,
+      "prompt": "shots/002_BLSC02-SH002/prompt.md",
+      "negative_prompt": "shots/002_BLSC02-SH002/negative_prompt.md",
+      "start_frame": "shots/002_BLSC02-SH002/start_frame.png",
+      "key_frame": "shots/002_BLSC02-SH002/key_frame.png",
+      "end_frame": "shots/002_BLSC02-SH002/end_frame.png",
+      "expected_clip": "clips/BLSC02-SH002.mp4"
+    },
+    {
+      "order": 3,
+      "shot_id": "BLSC02-SH003",
+      "duration_seconds": 15,
+      "prompt": "shots/003_BLSC02-SH003/prompt.md",
+      "negative_prompt": "shots/003_BLSC02-SH003/negative_prompt.md",
+      "start_frame": "shots/003_BLSC02-SH003/start_frame.png",
+      "key_frame": "shots/003_BLSC02-SH003/key_frame.png",
+      "end_frame": "shots/003_BLSC02-SH003/end_frame.png",
+      "expected_clip": "clips/BLSC02-SH003.mp4"
+    },
+    {
+      "order": 4,
+      "shot_id": "BLSC02-SH004",
+      "duration_seconds": 15,
+      "prompt": "shots/004_BLSC02-SH004/prompt.md",
+      "negative_prompt": "shots/004_BLSC02-SH004/negative_prompt.md",
+      "start_frame": "shots/004_BLSC02-SH004/start_frame.png",
+      "key_frame": "shots/004_BLSC02-SH004/key_frame.png",
+      "end_frame": "shots/004_BLSC02-SH004/end_frame.png",
+      "expected_clip": "clips/BLSC02-SH004.mp4"
+    }
+  ]
+}

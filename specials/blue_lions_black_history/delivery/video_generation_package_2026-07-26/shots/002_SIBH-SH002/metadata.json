@@ -1,0 +1,17 @@
+{
+  "id": "SIBH-SH002",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 10,
+  "expected_clip": "clips/SIBH-SH002.mp4",
+  "edit_in": "from Sylvain turning screen-left",
+  "edit_out": "cut as Ingrid opens her notes",
+  "audio_anchor": "Ingrid interrupts and claims more examples",
+  "continuity_previous": "SIBH-SH001",
+  "continuity_next": "SIBH-SH003",
+  "model_notes": [],
+  "reject_if": [
+    "Ingrid reads as jealous",
+    "Sylvain flirts with Ingrid"
+  ]
+}

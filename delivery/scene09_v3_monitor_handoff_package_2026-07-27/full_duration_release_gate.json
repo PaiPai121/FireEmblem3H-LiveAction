@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-01",
+  "decision": "full_duration_release_blocked_probe_review_pending",
+  "can_release_full_duration": false,
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "expected_probe_clips": 42,
+  "playable_probe_clips": 0,
+  "review_frame_sets_ready": 0,
+  "full_duration_approvals": 0,
+  "probe_apply_gate": {
+    "decision": "motion_probe_review_apply_blocked_clips_pending",
+    "release_written": false,
+    "passed_rows": 0,
+    "counters": {
+      "proposal_rows": 42,
+      "probe_clip_signature_matched_rows": 0,
+      "review_frame_signature_matched_rows": 0,
+      "review_evidence_complete_rows": 0,
+      "ledger_matched_rows": 42,
+      "required_checks_complete_rows": 0,
+      "full_duration_approved_rows": 0,
+      "codex_reviewed_rows": 0
+    }
+  },
+  "release": {
+    "exists": false,
+    "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_full_duration_release.json",
+    "decision": null,
+    "rows": 0,
+    "rows_digest_sha256": null,
+    "current_rows_digest_sha256": null,
+    "rows_digest_ok": false
+  },
+  "positive_contract": {
+    "decision": "motion_probe_review_apply_positive_contract_passed",
+    "temp_positive_decision": "motion_probe_review_apply_passed",
+    "temp_release_written": true,
+    "production_release_exists_at_positive_audit": false,
+    "problems": 0
+  },
+  "blocking_items": [
+    "probe clips incomplete: playable 0/42, missing 42, failed 0",
+    "probe review evidence incomplete: review frame sets 0/42, full-duration approvals 0/42",
+    "probe apply gate not passed: motion_probe_review_apply_blocked_clips_pending, passed rows 0/42",
+    "production full-duration release manifest is absent"
+  ],
+  "problems": [],
+  "warnings": [],
+  "source_files": {
+    "package_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+      "sha256": "d87fb9fba65c403c9e2fcfad7f1deead3285eefab5e690dfb68e3c53250e4c1f"
+    },
+    "motion_probe_clip_structural_audit": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_clip_structural_audit.json",
+      "sha256": "8904511a7ed169c36a865ba0438b100c06adced2074612f36787c7fb63a1d7b0"
+    },
+    "motion_probe_review_packet_audit": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_review_packet_audit.json",
+      "sha256": "36c1796c27db60dd8cf223f63461a925ee53bbff185287c64c61ade5e7025b15"
+    },
+    "motion_probe_review_apply_gate": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_review_apply_gate.json",
+      "sha256": "f09feb8f629a4701c57d58e752107f5357fa7372f7164139617df2f73ddde68d"
+    },
+    "motion_probe_review_apply_positive_contract": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_review_apply_positive_contract.json",
+      "sha256": "b85206425a87aa4a86f9d877310f5e5738fbfe8559eb73f16860280857f2f28a"
+    },
+    "motion_probe_full_duration_release": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_full_duration_release.json",
+      "sha256": null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[Script Info]
+Title: Dedue x Ashe - Fish, Advice, Friends zh-Hans subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Noto Sans CJK SC,48,&H00FFFFFF,&H000000FF,&HAA000000,&H66000000,0,0,0,0,100,100,0,0,1,2,0,2,72,72,48,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:06.34,Default,Dedue,0,0,0,,杜笃：这条鱼烤着吃，或者用香草蒸都不错。
+Dialogue: 0,0:00:06.52,0:00:11.00,Default,Ashe,0,0,0,,亚修：杜笃，你对料理好了解啊。
+Dialogue: 0,0:00:11.00,0:00:13.27,Default,Dedue,0,0,0,,杜笃：只是做饭而已。
+Dialogue: 0,0:00:13.45,0:00:18.00,Default,Ashe,0,0,0,,亚修：那我就还差得远，还是见习水平呢。
+Dialogue: 0,0:00:18.00,0:00:22.53,Default,Ashe,0,0,0,,亚修：你以前是城里的厨师吗？
+Dialogue: 0,0:00:22.71,0:00:26.00,Default,Dedue,0,0,0,,杜笃：不是。
+Dialogue: 0,0:00:26.00,0:00:28.52,Default,Ashe,0,0,0,,亚修：那是旅店之类的吗？
+Dialogue: 0,0:00:28.70,0:00:32.90,Default,Dedue,0,0,0,,杜笃：也不是。只是和妹妹在家里做饭。
+Dialogue: 0,0:00:33.08,0:00:37.00,Default,Ashe,0,0,0,,亚修：只是这样就这么拿手，真厉害。
+Dialogue: 0,0:00:37.00,0:00:39.55,Default,Ashe,0,0,0,,亚修：能再多教教我吗？
+Dialogue: 0,0:00:39.73,0:00:42.27,Default,Dedue,0,0,0,,杜笃：你愿意的话。
+Dialogue: 0,0:00:42.45,0:00:45.00,Default,Ashe,0,0,0,,亚修：嗯，当然愿意。
+Dialogue: 0,0:00:45.00,0:00:48.59,Default,Dedue,0,0,0,,杜笃：为什么要和我待在一起？
+Dialogue: 0,0:00:48.77,0:00:54.00,Default,Ashe,0,0,0,,亚修：因为我们是朋友啊。我想更了解你。
+Dialogue: 0,0:00:54.00,0:00:56.18,Default,Dedue,0,0,0,,杜笃：我是达斯卡人。
+Dialogue: 0,0:00:56.36,0:01:01.27,Default,Ashe,0,0,0,,亚修：我知道。即便如此，我们也可以做朋友。
+Dialogue: 0,0:01:01.45,0:01:03.64,Default,Dedue,0,0,0,,杜笃：真是个怪人。
+Dialogue: 0,0:01:03.82,0:01:06.00,Default,Ashe,0,0,0,,亚修：经常有人这么说。

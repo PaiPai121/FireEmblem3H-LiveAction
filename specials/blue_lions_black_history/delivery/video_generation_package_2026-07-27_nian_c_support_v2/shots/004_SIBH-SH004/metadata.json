@@ -1,0 +1,24 @@
+{
+  "id": "SIBH-SH004",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "expected_clip": "clips/SIBH-SH004.mp4",
+  "edit_in": "from Sylvain lowering his voice",
+  "edit_out": "cut after Sylvain accepts today's defeat",
+  "audio_anchor": "scarecrow and noble-apology examples",
+  "continuity_previous": "SIBH-SH003",
+  "continuity_next": "SIBH-SH005",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese adapted dialogue is in prompt audio lines; do not add subtitles.",
+    "Nian must not appear in this shot."
+  ],
+  "reject_if": [
+    "dialogue lip-sync distorts faces",
+    "Nian reappears",
+    "extra students take focus"
+  ],
+  "primary_check": "Ingrid calmly lists the scarecrow and noble-apology incidents; Sylvain shrinks under public pressure; Nian does not reappear."
+}

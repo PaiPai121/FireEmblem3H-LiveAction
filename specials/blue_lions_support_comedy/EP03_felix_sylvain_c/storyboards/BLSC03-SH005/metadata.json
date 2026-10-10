@@ -1,0 +1,43 @@
+{
+  "shot_id": "BLSC03-SH005",
+  "parent_shot": "BLSC03-SH003",
+  "segment": 1,
+  "segments_from_parent": 2,
+  "order": 5,
+  "title": "Years Of Patience",
+  "duration_seconds": 9,
+  "timing_estimate_seconds": 6.7,
+  "timing_status": "passed",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Felix",
+      "text": "お前には何年も苛立たされている。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "長い一覧になりそうだな。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC03-SH005.mp4",
+  "no_subtitles": true,
+  "visual_status": "widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png generated as three stacked horizontal widescreen frames",
+  "anchor_mean_abs_diff": {
+    "start_key": 18.78,
+    "key_end": 16.38,
+    "start_end": 21.01
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue"
+}

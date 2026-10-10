@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "strict_continuity_gate": "passed",
+  "checks": [
+    "all adjacent shot ids linked in order",
+    "same recurring character references used across episode",
+    "all shots <= 15s",
+    "no subtitle policy present in prompt and negative prompt",
+    "start/key/end frames present and visually distinct by local render variant"
+  ]
+}

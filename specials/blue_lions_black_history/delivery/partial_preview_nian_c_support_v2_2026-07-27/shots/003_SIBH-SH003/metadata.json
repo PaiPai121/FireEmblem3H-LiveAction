@@ -1,0 +1,18 @@
+{
+  "id": "SIBH-SH003",
+  "order": 3,
+  "status": "frames_complete",
+  "duration_seconds": 12,
+  "expected_clip": "clips/SIBH-SH003.mp4",
+  "edit_in": "from Ingrid's apology-history line",
+  "edit_out": "cut on Sylvain lowering his voice",
+  "audio_anchor": "old friend accountability and grandmother incident",
+  "primary_check": "The old-friend black-history beat lands; Ingrid stays calm, Sylvain gets embarrassed, and Nian does not reappear.",
+  "continuity_previous": "SIBH-SH002",
+  "continuity_next": "SIBH-SH004",
+  "reject_if": [
+    "Ingrid becomes cruel",
+    "Sylvain becomes angry",
+    "Nian reappears"
+  ]
+}

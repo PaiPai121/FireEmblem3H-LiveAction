@@ -1,0 +1,6 @@
+order,shot_id,duration_seconds,shot_dir,prompt,negative_prompt,start_frame,key_frame,end_frame,expected_clip,primary_check
+1,SIBH-SH001,9,shots/001_SIBH-SH001,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH001.mp4,Sylvain approaches Nian; Ingrid calls him offscreen
+2,SIBH-SH002,12,shots/002_SIBH-SH002,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH002.mp4,Ingrid catches Sylvain after Nian has left
+3,SIBH-SH003,12,shots/003_SIBH-SH003,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH003.mp4,old friend accountability and grandmother incident
+4,SIBH-SH004,15,shots/004_SIBH-SH004,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH004.mp4,scarecrow and noble-apology examples
+5,SIBH-SH005,12,shots/005_SIBH-SH005,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/SIBH-SH005.mp4,Ingrid tells Sylvain to start changing now

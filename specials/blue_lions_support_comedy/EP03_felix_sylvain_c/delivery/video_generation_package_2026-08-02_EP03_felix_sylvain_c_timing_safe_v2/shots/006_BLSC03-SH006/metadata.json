@@ -1,0 +1,48 @@
+{
+  "shot_id": "BLSC03-SH006",
+  "parent_shot": "BLSC03-SH003",
+  "segment": 2,
+  "segments_from_parent": 2,
+  "order": 6,
+  "title": "Reckless Charm",
+  "duration_seconds": 13,
+  "timing_estimate_seconds": 11.3,
+  "timing_status": "passed",
+  "support_pair": "Felix x Sylvain",
+  "support_rank": "C",
+  "language_used": "Japanese adapted dialogue, source-order timing-safe revision; not exact official transcript",
+  "dialogue_policy": "timing-safe adapted Japanese; not exact official transcript",
+  "dialogue": [
+    {
+      "speaker": "Felix",
+      "text": "戦場でも人付き合いでも軽率だ。すぐ次の女に目を向ける。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Sylvain",
+      "text": "可愛い子を無視するのは失礼だろ。",
+      "policy": "adapted_dialogue"
+    },
+    {
+      "speaker": "Felix",
+      "text": "救いようがないな。",
+      "policy": "adapted_dialogue"
+    }
+  ],
+  "frames": {
+    "start": "start_frame.png",
+    "key": "key_frame.png",
+    "end": "end_frame.png"
+  },
+  "expected_clip": "clips/BLSC03-SH006.mp4",
+  "no_subtitles": true,
+  "visual_status": "widescreen_sheet_frames_applied",
+  "frame_source": "raw_widescreen_sheet.png generated as three stacked horizontal widescreen frames",
+  "anchor_mean_abs_diff": {
+    "start_key": 32.65,
+    "key_end": 31.89,
+    "start_end": 16.2
+  },
+  "no_artificial_side_fill": true,
+  "dialogue_language": "Japanese adapted dialogue"
+}

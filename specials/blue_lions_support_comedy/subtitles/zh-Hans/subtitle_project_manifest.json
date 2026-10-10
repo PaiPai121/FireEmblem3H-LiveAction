@@ -1,0 +1,39 @@
+{
+  "project": "blue_lions_support_comedy_zh-Hans_subtitles",
+  "language": "zh-Hans",
+  "policy": "Chinese working subtitle translation for editor/export use. Not burned into video generation. Not claimed as official localization.",
+  "episodes": [
+    {
+      "episode": "EP01_dedue_ashe_c",
+      "title": "Dedue x Ashe - Fish, Advice, Friends",
+      "package": "EP01_dedue_ashe_c/delivery/video_generation_package_2026-08-02_EP01_dedue_ashe_c_timing_safe_v2",
+      "cue_count": 18,
+      "markdown": "EP01_dedue_ashe_c/delivery/video_generation_package_2026-08-02_EP01_dedue_ashe_c_timing_safe_v2/zh_subtitles.md.html",
+      "srt": "EP01_dedue_ashe_c/delivery/video_generation_package_2026-08-02_EP01_dedue_ashe_c_timing_safe_v2/subtitles/zh-Hans/ep01.zh-Hans.srt"
+    },
+    {
+      "episode": "EP02_annette_mercedes_c",
+      "title": "Annette x Mercedes - Too Many Bags",
+      "package": "EP02_annette_mercedes_c/delivery/video_generation_package_2026-08-02_EP02_annette_mercedes_c_timing_safe_v2",
+      "cue_count": 15,
+      "markdown": "EP02_annette_mercedes_c/delivery/video_generation_package_2026-08-02_EP02_annette_mercedes_c_timing_safe_v2/zh_subtitles.md.html",
+      "srt": "EP02_annette_mercedes_c/delivery/video_generation_package_2026-08-02_EP02_annette_mercedes_c_timing_safe_v2/subtitles/zh-Hans/ep02.zh-Hans.srt"
+    },
+    {
+      "episode": "EP03_felix_sylvain_c",
+      "title": "Felix x Sylvain - Training Interrupted",
+      "package": "EP03_felix_sylvain_c/delivery/video_generation_package_2026-08-02_EP03_felix_sylvain_c_timing_safe_v2",
+      "cue_count": 16,
+      "markdown": "EP03_felix_sylvain_c/delivery/video_generation_package_2026-08-02_EP03_felix_sylvain_c_timing_safe_v2/zh_subtitles.md.html",
+      "srt": "EP03_felix_sylvain_c/delivery/video_generation_package_2026-08-02_EP03_felix_sylvain_c_timing_safe_v2/subtitles/zh-Hans/ep03.zh-Hans.srt"
+    },
+    {
+      "episode": "EP04_sylvain_mercedes_c",
+      "title": "Sylvain x Mercedes - Divine Interruption",
+      "package": "EP04_sylvain_mercedes_c/delivery/video_generation_package_2026-08-02_EP04_sylvain_mercedes_c_timing_safe_v2",
+      "cue_count": 15,
+      "markdown": "EP04_sylvain_mercedes_c/delivery/video_generation_package_2026-08-02_EP04_sylvain_mercedes_c_timing_safe_v2/zh_subtitles.md.html",
+      "srt": "EP04_sylvain_mercedes_c/delivery/video_generation_package_2026-08-02_EP04_sylvain_mercedes_c_timing_safe_v2/subtitles/zh-Hans/ep04.zh-Hans.srt"
+    }
+  ]
+}
