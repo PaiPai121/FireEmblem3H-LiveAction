@@ -1,0 +1,67 @@
+{
+  "id": "Shot012",
+  "order": 12,
+  "status": "frames_pending",
+  "duration_seconds": 10,
+  "scene": "死神骑士",
+  "title": "威胁保持礼貌",
+  "purpose": "Keep the Death Knight frightening without turning him into a poster or exposition machine.",
+  "source_timecode": "00:07:00",
+  "source_reference": "source_refs/game_frame_0420s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Seiros Tomb archway",
+  "characters": [
+    "DeathKnight",
+    "Byleth",
+    "Dimitri",
+    "Dedue"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/SeirosTomb_reference.png",
+    "source/reference_pack/characters/DeathKnight_identity.png",
+    "source/reference_pack/characters/BylethFemale_face.png",
+    "source/reference_pack/characters/BylethFemale_fullbody.png",
+    "source/reference_pack/characters/Dimitri_face.png",
+    "source/reference_pack/characters/Dimitri_fullbody.png",
+    "source/reference_pack/characters/Dedue_face.png",
+    "source/reference_pack/characters/Dedue_fullbody.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot012/frames_pending/start_frame.png",
+    "key": "storyboards/Shot012/frames_pending/key_frame.png",
+    "end": "storyboards/Shot012/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot012_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot012_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot012/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot012.md",
+  "dialogue_line_ids": [
+    "DL-EP04-012"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese_probe_pending",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Dimitri's recognition",
+  "continuity_next": "weapon contact/near-miss chain in Shot013",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": {
+    "line_id": "DL-EP04-012",
+    "speaker": "DeathKnight",
+    "text": "退け。儀式の夜は、まだ終わらぬ。",
+    "local_start_seconds": 6.25,
+    "local_speech_end_seconds": 9.25,
+    "local_end_seconds": 9.55,
+    "speech_seconds": 3,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  }
+}

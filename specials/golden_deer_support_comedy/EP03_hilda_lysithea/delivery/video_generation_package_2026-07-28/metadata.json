@@ -1,0 +1,16 @@
+{
+  "episode": "GDSC-EP03",
+  "title": "Hilda x Lysithea - Coaxing Expert Meets Serious Kid",
+  "support_pair": "Hilda x Lysithea",
+  "support_rank": "C excerpt",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/リシテア(レスター諸侯同盟)#ヒルダ",
+    "https://fireemblem.fandom.com/wiki/Hilda_(Three_Houses)/Supports#With_Lysithea"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "total_duration_seconds": 60,
+  "shot_count": 4,
+  "target_model": "Seedance",
+  "status": "approved_for_video"
+}

@@ -1,0 +1,59 @@
+{
+  "shot": "Shot013",
+  "review_date": "2026-08-15",
+  "reviewer_role": "visual_qa_continuity_reviewer",
+  "decision": "monitor_required",
+  "supersedes": {
+    "candidate": "local_asset_final_candidate_v1_2026-08-02",
+    "decision": "blocked_needs_revision",
+    "reason": "Rendered START/KEY/END read as male or ambiguous black-haired Byleth, contradicting the user-confirmed female-Byleth-only lock."
+  },
+  "current_candidate": {
+    "frame_set_id": "Shot013_critical_reaudit_regen_v1_2026-08-15",
+    "frames": {
+      "start": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "source_refs": [
+      "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-15/shot013_local_character_reference_board_2026-08-15.jpg",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "episodes/EP03/storyboards/Shot012/end_frame.png",
+      "episodes/EP03/source_refs/Shot013_source.png"
+    ]
+  },
+  "visual_checks": {
+    "female_byleth_only": "pass_in_still_frames_monitor_in_motion",
+    "old_male_byleth_path": "not_used",
+    "start_key_end_distinct": "pass",
+    "local_reference_usage": "pass",
+    "pasted_cutout_check": "pass_in_still_frames",
+    "web_executable_prompt_contract": "rewritten_no_local_paths_in_prompt",
+    "japanese_dialogue_only": "pass",
+    "no_burned_subtitles": "required_in_prompt_and_negative"
+  },
+  "positive_findings": [
+    "START establishes the Blue Lions around female Byleth on a wet Magdred fog-road briefing beat.",
+    "KEY makes the physical mud sketch and two-route stone markers readable.",
+    "END changes state into deployment/listen blocking before Shot014 first arrow.",
+    "Female Byleth remains readable across START, KEY, and END."
+  ],
+  "remaining_risks": [
+    "Five-character density may cause motion face drift.",
+    "Byleth and Felix dark silhouettes may merge during generation.",
+    "Mud route sketch may drift into UI, glowing lines, or text.",
+    "Arrow impact must not appear before Shot014."
+  ],
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth becomes ambiguous, war-phase, older, or sexualized",
+    "Byleth merges with Felix",
+    "Ashe fires or advances alone",
+    "mud sketch becomes UI/grid/text/glowing markers",
+    "arrow impact appears before Shot014",
+    "subtitles, captions, UI, Chinese voice, or Mandarin voice appear",
+    "START/KEY/END collapse into a static hold"
+  ],
+  "required_next_gate": "Run 3-second motion probe before approved_for_video promotion."
+}

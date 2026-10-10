@@ -1,0 +1,210 @@
+{
+  "episode_id": "EP03",
+  "title": "Bernadetta x Caspar C - The Scenic View",
+  "support_pair": "Caspar & Bernadetta",
+  "support_rank": "C",
+  "source_language": "Japanese original",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; no subtitles are burned into video prompts or frames.",
+  "total_duration_seconds": 60,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BE-SC-EP03-SH001",
+      "start_seconds": 0,
+      "end_seconds": 2.892,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "……えーと。この薬はこっち、と。",
+      "zh_Hans": "……嗯，这瓶药放这边。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BE-SC-EP03-SH001",
+      "start_seconds": 3.072,
+      "end_seconds": 7.155,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "……お？ ベルナデッタじゃねえか。何してんだ？",
+      "zh_Hans": "……哦？这不是贝尔娜提塔吗。你在干什么？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BE-SC-EP03-SH001",
+      "start_seconds": 7.335,
+      "end_seconds": 11.928,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "……て、敵襲ううううう！ 誰！ 何！ 助けてえええ！",
+      "zh_Hans": "……敌、敌袭啊啊啊！谁！什么！救命啊啊啊！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BE-SC-EP03-SH001",
+      "start_seconds": 12.108,
+      "end_seconds": 15,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "はあ？ 助けが欲しいのはオレなんだけど。",
+      "zh_Hans": "哈？需要帮忙的是我才对吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BE-SC-EP03-SH002",
+      "start_seconds": 15,
+      "end_seconds": 17.86,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "おい、ベルナデッタ。お前、喧嘩したことあるか？",
+      "zh_Hans": "喂，贝尔娜提塔。你打过架吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BE-SC-EP03-SH002",
+      "start_seconds": 18.04,
+      "end_seconds": 22.013,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "ひええっ！？ 喧嘩！？ あたし、喧嘩売られてるんですかああ！？",
+      "zh_Hans": "咿呀！？打架！？我这是被人找茬了吗！？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BE-SC-EP03-SH002",
+      "start_seconds": 22.193,
+      "end_seconds": 26.006,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "引き籠もってねえで外に出れば、すぐに友達なんかできるぜ！",
+      "zh_Hans": "别老窝着，出去走走，很快就能交到朋友的！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BE-SC-EP03-SH002",
+      "start_seconds": 26.186,
+      "end_seconds": 30,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "外に出れば、すぐに……！？ そんなわけないじゃないですか！",
+      "zh_Hans": "出去走走，很快就……！？怎么可能嘛！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BE-SC-EP03-SH003",
+      "start_seconds": 30,
+      "end_seconds": 33.261,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "一緒にすんげえ景色を見てたら仲良くなっちまったんだよなあ……。",
+      "zh_Hans": "以前我和别人一起看了超厉害的景色，结果就变熟了……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BE-SC-EP03-SH003",
+      "start_seconds": 33.441,
+      "end_seconds": 35.577,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "とりあえずその景色、見せてやる。よし！",
+      "zh_Hans": "总之我先带你去看那个景色。好！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BE-SC-EP03-SH003",
+      "start_seconds": 35.757,
+      "end_seconds": 38.906,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "えっ！ ちょ、ちょっと……！ どこ触って……ぎえええっ！？",
+      "zh_Hans": "诶！等、等一下……！你碰哪里……咿呀啊啊！？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BE-SC-EP03-SH003",
+      "start_seconds": 39.086,
+      "end_seconds": 42.571,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "何やってるんですかあああ！ あたし、う、浮いて、浮いて……！？",
+      "zh_Hans": "你在做什么啊啊啊！我、我浮起来了，浮起来了……！？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BE-SC-EP03-SH003",
+      "start_seconds": 42.751,
+      "end_seconds": 45,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "うっせーな、担いでるだけだろ。ほら、行くぜ！",
+      "zh_Hans": "吵死了，我只是扛着你而已。走啦！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BE-SC-EP03-SH004",
+      "start_seconds": 45,
+      "end_seconds": 46.962,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "よっしゃー！ 着いたな！ どうよ、この景色。",
+      "zh_Hans": "好嘞！到了！怎么样，这景色。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BE-SC-EP03-SH004",
+      "start_seconds": 47.142,
+      "end_seconds": 50.63,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "死んだ……あたし、死にました……。すごい勢いで天地を駆け抜けました……。",
+      "zh_Hans": "死了……我已经死了……刚才以惊人的速度穿越了天地……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 16,
+      "shot_id": "BE-SC-EP03-SH004",
+      "start_seconds": 50.81,
+      "end_seconds": 54.081,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "ああ……お迎えが来てます……。魂が洗われるような夕焼けです……。",
+      "zh_Hans": "啊啊……有人来接我了……这是能洗净灵魂的夕阳……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 17,
+      "shot_id": "BE-SC-EP03-SH004",
+      "start_seconds": 54.261,
+      "end_seconds": 56.768,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "おい！ 逝くな、ベルナデッタ！ あの夕焼けは本物だ！",
+      "zh_Hans": "喂！别走啊，贝尔娜提塔！那夕阳是真的！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 18,
+      "shot_id": "BE-SC-EP03-SH004",
+      "start_seconds": 56.948,
+      "end_seconds": 60,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "あ、でも、すごく綺麗……。素敵な場所ですね、ここ！",
+      "zh_Hans": "啊，不过真的好漂亮……这里是个很棒的地方呢！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

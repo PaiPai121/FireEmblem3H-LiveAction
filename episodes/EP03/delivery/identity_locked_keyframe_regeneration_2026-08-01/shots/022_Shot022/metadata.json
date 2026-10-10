@@ -1,0 +1,90 @@
+{
+  "id": "Shot022",
+  "order": 22,
+  "scene": "Ashe 上前",
+  "purpose": "Ashe 主动要求对话，证明他不是被剧情拖着走。",
+  "duration_seconds": 18,
+  "characters": [
+    "Ashe",
+    "Lonato",
+    "Dimitri",
+    "Byleth"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Ashe",
+      "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Lonato",
+      "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Dimitri",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot022_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot022/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot022/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot022/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {},
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot022_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot022_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot022_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot022/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot022/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/022_Shot022/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/022_Shot022/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/022_Shot022/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "visual_blocked",
+  "visual_audit_decision": "visual_blocked",
+  "required_revision": "Regenerate real live-action start/key/end frames with integrated lighting, shot-specific blocking, readable named identities, and a clear key action peak.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from Lonato reveal",
+  "edit_out": "cut to Lonato refusal",
+  "audio_anchor": "Ashe, in Japanese: ロナート様、どうか止まってください。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for Ashe 上前; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: Ashe 放低弓，走到 Byleth 允许的距离，Dimitri 半步跟住。",
+    "end": "Land on the state needed for the next cut: cut to Lonato refusal."
+  }
+}

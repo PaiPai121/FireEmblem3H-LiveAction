@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "episode": "EP04",
+  "reviews": [
+    {
+      "id": "EP04-review-assets-v1",
+      "gate": "asset_gate",
+      "reviewer_role": "asset-qa-agent",
+      "decision": "asset_review_passed",
+      "reviewed_paths": [
+        "production_system/asset_manifest.json",
+        "source/reference_pack/reference_manifest.json"
+      ],
+      "notes": "Local reference pack is hash-recorded and inside the EP04 boundary. Main cast has face/full-body where available; faculty and helmeted roles are identity references for downstream lookdev.",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "id": "EP04-review-story-v1",
+      "gate": "story_gate",
+      "reviewer_role": "story-editor-agent",
+      "decision": "story_review_passed",
+      "reviewed_paths": [
+        "source/project_bible.md",
+        "script.md",
+        "planning/dialogue_timeline.json"
+      ],
+      "notes": "Source order is preserved; adaptation text is original; each spoken line has one authoritative shot-local window.",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "id": "EP04-review-sequence-v1",
+      "gate": "sequence_gate",
+      "reviewer_role": "sequence-editor-agent",
+      "decision": "sequence_review_passed",
+      "reviewed_paths": [
+        "shot_list.md",
+        "planning/coverage_plan.md",
+        "planning/transition_map.json"
+      ],
+      "notes": "28 ordered shots cover ceremony, tomb geography, Death Knight action, aftermath, forest conspiracy, and coda with explicit handoffs.",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "id": "EP04-review-animatic-v1",
+      "gate": "animatic_gate",
+      "reviewer_role": "animatic-reviewer-agent",
+      "decision": "animatic_review_passed",
+      "reviewed_paths": [
+        "planning/animatic_plan.json",
+        "generated/source_contact_sheet_02_planning_only.jpg"
+      ],
+      "notes": "Planning animatic is complete as an ordered timing board; source contact sheet is clearly planning_only and does not stand in for final frames.",
+      "reviewed_at": "2026-08-27"
+    },
+    {
+      "id": "EP04-review-combat-v1",
+      "gate": "combat_gate",
+      "reviewer_role": "combat-choreography-reviewer-agent",
+      "decision": "combat_review_passed",
+      "reviewed_paths": [
+        "planning/action_choreography.json",
+        "generated/action_choreography_board_planning_only.jpg"
+      ],
+      "notes": "Planning-level action choreography has attacker, defender, target, distance, direction, contact/near-miss, reaction, recovery, state_after and camera_read. The board uses game stills only for layout research; final frame review remains pending.",
+      "reviewed_at": "2026-08-27"
+    }
+  ]
+}

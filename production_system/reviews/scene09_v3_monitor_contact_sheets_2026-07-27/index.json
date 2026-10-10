@@ -1,0 +1,13 @@
+{
+  "source_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "source_package": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "frame_source_policy": "package-local start_frame.png/key_frame.png/end_frame.png are rendered, not upstream source candidates",
+  "monitor_shots": 42,
+  "outputs": [
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part5.png"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "shot_id": "Shot024",
+  "review_date": "2026-08-22",
+  "review_type": "byleth_command_two_wing_integrated_sequential_reaudit",
+  "previous_display_frame_set": "critical_reaudit_regen_v1_2026-08-14",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot023",
+  "next_shot": "Shot025",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Ingrid/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+  ],
+  "prior_rejection": [
+    "The frozen v1 set predates the Shot023 v3 two-person refusal and did not prove continuity from the current Lonato turn.",
+    "Its frame spec was still frames_pending and its executable prompt allowed source/layout fallback.",
+    "The old prompt carried unrelated Rhea/Catherine locks and did not strictly encode the female-Byleth-only, Dedue-braid, or two-wing handoff requirements."
+  ],
+  "passes": [
+    "START receives Shot023 v3 END's wet road, blue banner, fog depth, Ashe-left/Lonato-ahead geography, and moral pressure.",
+    "Female Byleth is the readable command focal point and remains academy-era in the integrated stills.",
+    "KEY makes the low sword-tip lane command readable without pointing at a body or beginning an attack.",
+    "Dimitri, Dedue, and Ingrid are integrated into the same muddy battlefield; Dedue's compact nape braid is visible in the chain.",
+    "END begins two distinct flank directions and leaves the center road open for Shot025.",
+    "START, KEY, and END are distinct action states: observation, command, first split.",
+    "The executable prompt is upload-only and Japanese dialogue only."
+  ],
+  "monitor_risks": [
+    "Motion may make Byleth robotic or turn the low sword-tip command into an attack; inspect the probe.",
+    "Female Byleth identity, academy age, and black professor outfit must hold through motion.",
+    "Dedue's braid and student ages may drift in a wide moving shot.",
+    "Ashe or Lonato may disappear as the flank lanes move; reject if the moral pressure is erased.",
+    "Shot025 must receive the two lane directions without a formation reset.",
+    "Japanese dialogue timing, no subtitles, and no Chinese/Mandarin voice must survive generation."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "male or war-phase Byleth appears",
+    "Byleth points the sword at a body or attacks",
+    "Dedue loses the visible nape braid or students age up",
+    "Ashe raises/fires the bow or Lonato attacks",
+    "the frames become pasted plates, a flat lineup, or an unreadable fog wall",
+    "the two-wing handoff to Shot025 is not visible",
+    "Chinese/Mandarin voice, subtitles, UI, borders, or readable text appear"
+  ]
+}

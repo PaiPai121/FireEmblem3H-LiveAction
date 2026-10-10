@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>specials/golden_deer_support_comedy/EP02_hilda_marianne/production_system/video_delivery_manifest.json</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101215; --panel:#181c21; --line:#303742; --ink:#eef3f8; --muted:#9eaab7; --accent:#e0b34d; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,"Segoe UI",sans-serif; }
+    header { position:sticky; top:0; z-index:2; padding:14px clamp(14px,4vw,30px); border-bottom:1px solid var(--line); background:rgba(16,18,21,.94); backdrop-filter:blur(12px); }
+    a { color:var(--accent); text-decoration:none; font-weight:800; }
+    p { margin:6px 0 0; color:var(--muted); font-size:12px; overflow-wrap:anywhere; }
+    main { padding:18px clamp(14px,4vw,30px) 34px; }
+    pre { margin:0; padding:16px; border:1px solid var(--line); border-radius:8px; background:var(--panel); color:var(--ink); white-space:pre-wrap; overflow-wrap:anywhere; line-height:1.55; font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,"Hiragino Sans","Yu Gothic",Meiryo,monospace; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="video_delivery_manifest.json">raw source</a>
+    <p>specials/golden_deer_support_comedy/EP02_hilda_marianne/production_system/video_delivery_manifest.json</p>
+  </header>
+  <main><pre>{
+  &quot;version&quot;: 1,
+  &quot;project&quot;: &quot;EP02_hilda_marianne&quot;,
+  &quot;package_id&quot;: &quot;video_generation_package_2026-07-28&quot;,
+  &quot;episode&quot;: &quot;GDSC-EP02&quot;,
+  &quot;shots&quot;: [
+    {
+      &quot;id&quot;: &quot;GDSC02-SH001&quot;,
+      &quot;order&quot;: 1,
+      &quot;status&quot;: &quot;approved_for_video&quot;,
+      &quot;duration_seconds&quot;: 15,
+      &quot;prompt_path&quot;: &quot;video_prompts/GDSC02-SH001_prompt.md&quot;,
+      &quot;negative_prompt_path&quot;: &quot;video_prompts/GDSC02-SH001_negative_prompt.md&quot;,
+      &quot;start_frame&quot;: &quot;storyboards/GDSC02-SH001/start_frame.png&quot;,
+      &quot;key_frame&quot;: &quot;storyboards/GDSC02-SH001/key_frame.png&quot;,
+      &quot;end_frame&quot;: &quot;storyboards/GDSC02-SH001/end_frame.png&quot;,
+      &quot;expected_clip&quot;: &quot;clips/GDSC02-SH001.mp4&quot;,
+      &quot;edit_in&quot;: &quot;cut from quiet library ambience&quot;,
+      &quot;edit_out&quot;: &quot;cut as Hilda seeks agreement&quot;,
+      &quot;audio_anchor&quot;: &quot;Hilda&#x27;s pastry complaint.&quot;,
+      &quot;continuity_previous&quot;: &quot;&quot;,
+      &quot;continuity_next&quot;: &quot;GDSC02-SH002&quot;,
+      &quot;model_notes&quot;: [
+        &quot;Target Seedance image-to-video workflow.&quot;,
+        &quot;Use start/key/end frames as hard visual anchors.&quot;,
+        &quot;Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.&quot;,
+        &quot;Preserve academy-phase face, hair, uniform, and age identity from references.&quot;
+      ],
+      &quot;reject_if&quot;: [
+        &quot;library gains modern signage&quot;,
+        &quot;Marianne smiles broadly&quot;,
+        &quot;Hilda looks cruel&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;GDSC02-SH002&quot;,
+      &quot;order&quot;: 2,
+      &quot;status&quot;: &quot;approved_for_video&quot;,
+      &quot;duration_seconds&quot;: 15,
+      &quot;prompt_path&quot;: &quot;video_prompts/GDSC02-SH002_prompt.md&quot;,
+      &quot;negative_prompt_path&quot;: &quot;video_prompts/GDSC02-SH002_negative_prompt.md&quot;,
+      &quot;start_frame&quot;: &quot;storyboards/GDSC02-SH002/start_frame.png&quot;,
+      &quot;key_frame&quot;: &quot;storyboards/GDSC02-SH002/key_frame.png&quot;,
+      &quot;end_frame&quot;: &quot;storyboards/GDSC02-SH002/end_frame.png&quot;,
+      &quot;expected_clip&quot;: &quot;clips/GDSC02-SH002.mp4&quot;,
+      &quot;edit_in&quot;: &quot;cut on Hilda inviting agreement&quot;,
+      &quot;edit_out&quot;: &quot;cut to Marianne alone&quot;,
+      &quot;audio_anchor&quot;: &quot;Hilda says she will only get in the way.&quot;,
+      &quot;continuity_previous&quot;: &quot;GDSC02-SH001&quot;,
+      &quot;continuity_next&quot;: &quot;GDSC02-SH003&quot;,
+      &quot;model_notes&quot;: [
+        &quot;Target Seedance image-to-video workflow.&quot;,
+        &quot;Use start/key/end frames as hard visual anchors.&quot;,
+        &quot;Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.&quot;,
+        &quot;Preserve academy-phase face, hair, uniform, and age identity from references.&quot;
+      ],
+      &quot;reject_if&quot;: [
+        &quot;Marianne looks angry&quot;,
+        &quot;Hilda shoves her&quot;,
+        &quot;dialogue becomes bullying&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;GDSC02-SH003&quot;,
+      &quot;order&quot;: 3,
+      &quot;status&quot;: &quot;approved_for_video&quot;,
+      &quot;duration_seconds&quot;: 15,
+      &quot;prompt_path&quot;: &quot;video_prompts/GDSC02-SH003_prompt.md&quot;,
+      &quot;negative_prompt_path&quot;: &quot;video_prompts/GDSC02-SH003_negative_prompt.md&quot;,
+      &quot;start_frame&quot;: &quot;storyboards/GDSC02-SH003/start_frame.png&quot;,
+      &quot;key_frame&quot;: &quot;storyboards/GDSC02-SH003/key_frame.png&quot;,
+      &quot;end_frame&quot;: &quot;storyboards/GDSC02-SH003/end_frame.png&quot;,
+      &quot;expected_clip&quot;: &quot;clips/GDSC02-SH003.mp4&quot;,
+      &quot;edit_in&quot;: &quot;cut from Marianne alone&quot;,
+      &quot;edit_out&quot;: &quot;cut on Hilda deciding to show the method&quot;,
+      &quot;audio_anchor&quot;: &quot;Hilda&#x27;s surprised line.&quot;,
+      &quot;continuity_previous&quot;: &quot;GDSC02-SH002&quot;,
+      &quot;continuity_next&quot;: &quot;GDSC02-SH004&quot;,
+      &quot;model_notes&quot;: [
+        &quot;Target Seedance image-to-video workflow.&quot;,
+        &quot;Use start/key/end frames as hard visual anchors.&quot;,
+        &quot;Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.&quot;,
+        &quot;Preserve academy-phase face, hair, uniform, and age identity from references.&quot;
+      ],
+      &quot;reject_if&quot;: [
+        &quot;books fly magically&quot;,
+        &quot;Hilda yells viciously&quot;,
+        &quot;Marianne becomes slapstick clown&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;GDSC02-SH004&quot;,
+      &quot;order&quot;: 4,
+      &quot;status&quot;: &quot;approved_for_video&quot;,
+      &quot;duration_seconds&quot;: 15,
+      &quot;prompt_path&quot;: &quot;video_prompts/GDSC02-SH004_prompt.md&quot;,
+      &quot;negative_prompt_path&quot;: &quot;video_prompts/GDSC02-SH004_negative_prompt.md&quot;,
+      &quot;start_frame&quot;: &quot;storyboards/GDSC02-SH004/start_frame.png&quot;,
+      &quot;key_frame&quot;: &quot;storyboards/GDSC02-SH004/key_frame.png&quot;,
+      &quot;end_frame&quot;: &quot;storyboards/GDSC02-SH004/end_frame.png&quot;,
+      &quot;expected_clip&quot;: &quot;clips/GDSC02-SH004.mp4&quot;,
+      &quot;edit_in&quot;: &quot;cut on Hilda accepting responsibility&quot;,
+      &quot;edit_out&quot;: &quot;hold on tidy table and Hilda&#x27;s sigh&quot;,
+      &quot;audio_anchor&quot;: &quot;Marianne&#x27;s impressed reaction, then Hilda&#x27;s punchline.&quot;,
+      &quot;continuity_previous&quot;: &quot;GDSC02-SH003&quot;,
+      &quot;continuity_next&quot;: &quot;&quot;,
+      &quot;model_notes&quot;: [
+        &quot;Target Seedance image-to-video workflow.&quot;,
+        &quot;Use start/key/end frames as hard visual anchors.&quot;,
+        &quot;Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.&quot;,
+        &quot;Preserve academy-phase face, hair, uniform, and age identity from references.&quot;
+      ],
+      &quot;reject_if&quot;: [
+        &quot;Hilda looks smugly cruel&quot;,
+        &quot;readable book text appears&quot;,
+        &quot;subtitles appear&quot;
+      ]
+    }
+  ]
+}
+</pre></main>
+</body>
+</html>

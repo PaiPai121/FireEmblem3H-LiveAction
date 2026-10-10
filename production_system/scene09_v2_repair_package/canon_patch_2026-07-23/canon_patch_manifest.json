@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "date": "2026-07-23",
+  "status": "monitor_required",
+  "purpose": "additive canon patch frames for user-confirmed Scene09 capture continuity",
+  "source_continuity": "../established_video_continuity_2026-07-23.json",
+  "shots": [
+    {
+      "shot": "Shot032_HEALER_TANK",
+      "placement": "replace or intercut inside Shot032 before Shot032A",
+      "beat": "Mercedes restores Dedue's shield line in a healer-and-frontline-guardian partnership beat.",
+      "visible_named_only": ["Dedue", "Mercedes"],
+      "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/22B_Shot032_healer_tank_start.png",
+      "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/22B_Shot032_healer_tank_key.png",
+      "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/22B_Shot032_healer_tank_end.png",
+      "battle_state_after": {
+        "Dedue": "restored_frontline",
+        "Mercedes": "spent_after_heal"
+      },
+      "qa_status": "monitor_required",
+      "qa_notes": [
+        "Start/key frames have only Dedue and Mercedes as readable humans.",
+        "The composition now carries the requested healer-tank partnership beat.",
+        "Dedicated end frame now exists; final video approval still requires visual review and strict adjacent-shot continuity."
+      ]
+    },
+    {
+      "shot": "Shot032F",
+      "placement": "insert after Shot032E or replace the unresolved capture implication inside Shot032E",
+      "beat": "Hubert is repelled and captured by Felix and Ashe.",
+      "visible_named_only": ["Felix", "Ashe", "Hubert"],
+      "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/41_Shot032F_start.png",
+      "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/41_Shot032F_key.png",
+      "battle_state_after": {
+        "Hubert": "captured_by_felix_and_ashe",
+        "Felix": "captor_then_stood_down_after_whistle",
+        "Ashe": "captor_then_stood_down_after_whistle"
+      },
+      "qa_status": "monitor_required",
+      "qa_notes": [
+        "No unnamed readable humans detected in generated frames.",
+        "Key frame uses nonlethal capture staging; monitor Ashe arrow/prop sharpness before final video."
+      ]
+    },
+    {
+      "shot": "Shot032G",
+      "placement": "insert immediately after Shot032F or intercut as simultaneous Golden Deer flank",
+      "beat": "Leonie and Claude capture Dorothea and Bernadetta on the Black Eagles backline.",
+      "visible_named_only": ["Leonie", "Claude", "Dorothea", "Bernadetta"],
+      "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/42_Shot032G_start.png",
+      "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/42_Shot032G_key.png",
+      "battle_state_after": {
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Leonie": "captor_then_stood_down_after_whistle",
+        "Claude": "captor_then_stood_down_after_whistle"
+      },
+      "qa_status": "monitor_required",
+      "qa_notes": [
+        "No unnamed readable humans detected in generated frames.",
+        "Start frame weapon reads too metallic/sharp; regenerate or apply strict negative prompt before final approval.",
+        "Key frame improves weapon safety with padded training pole but Leonie identity should remain under identity QA."
+      ]
+    }
+  ],
+  "promotion_blockers": [
+    "Patch frames are additive candidates and not yet integrated into the canonical 40-shot queue.",
+    "No end-frame locks or strict adjacent-shot continuity pass exist for Shot032E->Shot032F->Shot032G->Shot033.",
+    "Existing late stand-down frames still need visual replacement/review to avoid resetting captured characters."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "shot_id": "Shot007",
+  "review_date": "2026-08-15",
+  "review_type": "critical_reaudit_current_web_candidate",
+  "previous_display_frame_set": "local_asset_final_candidate_v1",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "status": "monitor_required",
+  "downgrade": {
+    "decision": "blocked_needs_revision_for_byleth_gender_identity",
+    "reason": "The prior rendered web candidate showed Byleth mostly as a black-haired back silhouette that could read as male Byleth."
+  },
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+  },
+  "reference_assets": [
+    "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-15/shot007_local_character_reference_board_2026-08-15.jpg",
+    "assets/props/EP02/training_weapons/training_weapons_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "decision": "monitor_required",
+  "passes": [
+    "female Byleth is readable across START/KEY/END",
+    "equipment-preparation insert group matches shot purpose",
+    "KEY focuses on hands, lanterns, weapons, and buckles",
+    "END prepares Catherine entrance without showing Catherine early",
+    "no visible UI, subtitle, dialogue box, or watermark"
+  ],
+  "monitor_risks": [
+    "dense group composition may drift named student identities",
+    "Byleth may become male or ambiguous in motion",
+    "gear may become modern or overly lethal",
+    "model may add speech or subtitles to a no-dialogue shot"
+  ],
+  "required_next_gate": "3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth gender or face changes across anchors",
+    "students become war-phase adults",
+    "Catherine appears before Shot008",
+    "modern weapons or gore appear",
+    "the clip adds subtitles, UI, voiceover, borders, or watermark"
+  ]
+}

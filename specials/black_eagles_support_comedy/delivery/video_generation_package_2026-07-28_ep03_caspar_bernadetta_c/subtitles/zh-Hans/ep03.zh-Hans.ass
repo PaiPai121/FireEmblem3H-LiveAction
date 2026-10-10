@@ -1,0 +1,31 @@
+[Script Info]
+Title: Bernadetta x Caspar C - The Scenic View zh-Hans subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Noto Sans CJK SC,48,&H00FFFFFF,&H000000FF,&HAA000000,&H66000000,0,0,0,0,100,100,0,0,1,2,0,2,72,72,48,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:02.89,Default,Bernadetta,0,0,0,,贝尔娜提塔：……嗯，这瓶药放这边。
+Dialogue: 0,0:00:03.07,0:00:07.16,Default,Caspar,0,0,0,,卡斯帕：……哦？这不是贝尔娜提塔吗。你在干什么？
+Dialogue: 0,0:00:07.34,0:00:11.93,Default,Bernadetta,0,0,0,,贝尔娜提塔：……敌、敌袭啊啊啊！谁！什么！救命啊啊啊！
+Dialogue: 0,0:00:12.11,0:00:15.00,Default,Caspar,0,0,0,,卡斯帕：哈？需要帮忙的是我才对吧。
+Dialogue: 0,0:00:15.00,0:00:17.86,Default,Caspar,0,0,0,,卡斯帕：喂，贝尔娜提塔。你打过架吗？
+Dialogue: 0,0:00:18.04,0:00:22.01,Default,Bernadetta,0,0,0,,贝尔娜提塔：咿呀！？打架！？我这是被人找茬了吗！？
+Dialogue: 0,0:00:22.19,0:00:26.01,Default,Caspar,0,0,0,,卡斯帕：别老窝着，出去走走，很快就能交到朋友的！
+Dialogue: 0,0:00:26.19,0:00:30.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：出去走走，很快就……！？怎么可能嘛！
+Dialogue: 0,0:00:30.00,0:00:33.26,Default,Caspar,0,0,0,,卡斯帕：以前我和别人一起看了超厉害的景色，结果就变熟了……
+Dialogue: 0,0:00:33.44,0:00:35.58,Default,Caspar,0,0,0,,卡斯帕：总之我先带你去看那个景色。好！
+Dialogue: 0,0:00:35.76,0:00:38.91,Default,Bernadetta,0,0,0,,贝尔娜提塔：诶！等、等一下……！你碰哪里……咿呀啊啊！？
+Dialogue: 0,0:00:39.09,0:00:42.57,Default,Bernadetta,0,0,0,,贝尔娜提塔：你在做什么啊啊啊！我、我浮起来了，浮起来了……！？
+Dialogue: 0,0:00:42.75,0:00:45.00,Default,Caspar,0,0,0,,卡斯帕：吵死了，我只是扛着你而已。走啦！
+Dialogue: 0,0:00:45.00,0:00:46.96,Default,Caspar,0,0,0,,卡斯帕：好嘞！到了！怎么样，这景色。
+Dialogue: 0,0:00:47.14,0:00:50.63,Default,Bernadetta,0,0,0,,贝尔娜提塔：死了……我已经死了……刚才以惊人的速度穿越了天地……
+Dialogue: 0,0:00:50.81,0:00:54.08,Default,Bernadetta,0,0,0,,贝尔娜提塔：啊啊……有人来接我了……这是能洗净灵魂的夕阳……
+Dialogue: 0,0:00:54.26,0:00:56.77,Default,Caspar,0,0,0,,卡斯帕：喂！别走啊，贝尔娜提塔！那夕阳是真的！
+Dialogue: 0,0:00:56.95,0:01:00.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：啊，不过真的好漂亮……这里是个很棒的地方呢！

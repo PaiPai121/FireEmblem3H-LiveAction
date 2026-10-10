@@ -1,0 +1,56 @@
+{
+  "id": "GDSC01-SH001",
+  "episode": "GDSC-EP01",
+  "title": "Lorenz Training Hook",
+  "order": 1,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach training yard",
+  "characters": [
+    "Hilda",
+    "Lorenz"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC01-SH001/start_frame.png",
+    "key": "storyboards/GDSC01-SH001/key_frame.png",
+    "end": "storyboards/GDSC01-SH001/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC01-SH001_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC01-SH001_negative_prompt.md",
+  "expected_clip": "clips/GDSC01-SH001.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/ローレンツ(レスター諸侯同盟)#ヒルダ",
+    "https://fireemblem.fandom.com/wiki/Hilda_(Three_Houses)/Supports#With_Lorenz"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hilda",
+      "line": "あー、ローレンツくん。また訓練？　頑張るわねー。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lorenz",
+      "line": "やあ、ヒルダさん。まさか君も訓練か？　見直したぞ！",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "ううん、忘れ物を取りに来ただけー。あなたみたいに頑張れないよー。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Lorenz lowers a practice lance; Hilda strolls in with empty hands."
+  ],
+  "identity_references": {
+    "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+    "Lorenz": "assets/characters/golden_deer/Lorenz/academy/selected.png"
+  },
+  "reject_if": [
+    "Hilda looks malicious",
+    "Lorenz becomes a parody",
+    "characters look war-era or older"
+  ]
+}

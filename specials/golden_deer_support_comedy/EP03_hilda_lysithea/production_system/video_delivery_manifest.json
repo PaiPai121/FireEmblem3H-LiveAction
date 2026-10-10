@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "project": "EP03_hilda_lysithea",
+  "package_id": "video_generation_package_2026-07-28",
+  "episode": "GDSC-EP03",
+  "shots": [
+    {
+      "id": "GDSC03-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC03-SH001_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC03-SH001_negative_prompt.md",
+      "start_frame": "storyboards/GDSC03-SH001/start_frame.png",
+      "key_frame": "storyboards/GDSC03-SH001/key_frame.png",
+      "end_frame": "storyboards/GDSC03-SH001/end_frame.png",
+      "expected_clip": "clips/GDSC03-SH001.mp4",
+      "edit_in": "cut from courtyard ambience",
+      "edit_out": "cut on Hilda noticing Lysithea",
+      "audio_anchor": "Hilda thanking the helper.",
+      "continuity_previous": "",
+      "continuity_next": "GDSC03-SH002",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Lysithea looks adult",
+        "Hilda looks cruel",
+        "offscreen helper becomes a named focus"
+      ]
+    },
+    {
+      "id": "GDSC03-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC03-SH002_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC03-SH002_negative_prompt.md",
+      "start_frame": "storyboards/GDSC03-SH002/start_frame.png",
+      "key_frame": "storyboards/GDSC03-SH002/key_frame.png",
+      "end_frame": "storyboards/GDSC03-SH002/end_frame.png",
+      "expected_clip": "clips/GDSC03-SH002.mp4",
+      "edit_in": "cut from Hilda's pivot",
+      "edit_out": "cut to Lysithea's visual inspection",
+      "audio_anchor": "Lysithea's analytic question.",
+      "continuity_previous": "GDSC03-SH001",
+      "continuity_next": "GDSC03-SH003",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Lysithea becomes sarcastic adult",
+        "Hilda bullies her",
+        "the scene adds romance"
+      ]
+    },
+    {
+      "id": "GDSC03-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC03-SH003_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC03-SH003_negative_prompt.md",
+      "start_frame": "storyboards/GDSC03-SH003/start_frame.png",
+      "key_frame": "storyboards/GDSC03-SH003/key_frame.png",
+      "end_frame": "storyboards/GDSC03-SH003/end_frame.png",
+      "expected_clip": "clips/GDSC03-SH003.mp4",
+      "edit_in": "cut on Lysithea beginning analysis",
+      "edit_out": "cut on scent discovery",
+      "audio_anchor": "Hilda's confused question.",
+      "continuity_previous": "GDSC03-SH002",
+      "continuity_next": "GDSC03-SH004",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Lysithea looks predatory or adult",
+        "Hilda's twin-tails disappear",
+        "visible text appears"
+      ]
+    },
+    {
+      "id": "GDSC03-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC03-SH004_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC03-SH004_negative_prompt.md",
+      "start_frame": "storyboards/GDSC03-SH004/start_frame.png",
+      "key_frame": "storyboards/GDSC03-SH004/key_frame.png",
+      "end_frame": "storyboards/GDSC03-SH004/end_frame.png",
+      "expected_clip": "clips/GDSC03-SH004.mp4",
+      "edit_in": "cut from the scent discovery",
+      "edit_out": "hold on Hilda's fond reaction",
+      "audio_anchor": "Lysithea says she feels a little more grown-up.",
+      "continuity_previous": "GDSC03-SH003",
+      "continuity_next": "",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "the oil becomes magic",
+        "Lysithea ages up physically",
+        "Hilda acts condescending"
+      ]
+    }
+  ]
+}

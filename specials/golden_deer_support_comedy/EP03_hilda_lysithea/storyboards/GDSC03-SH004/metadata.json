@@ -1,0 +1,61 @@
+{
+  "id": "GDSC03-SH004",
+  "episode": "GDSC-EP03",
+  "title": "A Little More Grown-Up",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach courtyard",
+  "characters": [
+    "Hilda",
+    "Lysithea"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC03-SH004/start_frame.png",
+    "key": "storyboards/GDSC03-SH004/key_frame.png",
+    "end": "storyboards/GDSC03-SH004/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC03-SH004_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC03-SH004_negative_prompt.md",
+  "expected_clip": "clips/GDSC03-SH004.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/リシテア(レスター諸侯同盟)#ヒルダ",
+    "https://fireemblem.fandom.com/wiki/Hilda_(Three_Houses)/Supports#With_Lysithea"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hilda",
+      "line": "これは夜にしか咲かないお花の精油よ。あなたにもつけてあげるねー。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lysithea",
+      "line": "……うふふ。嬉しい。ヒルダと同じ匂いがします。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lysithea",
+      "line": "少し、大人になった気がします。ありがとう、ヒルダ。",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "でも……あの笑顔、可愛いじゃないの……。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Hilda dabs oil on Lysithea's wrist; Lysithea rubs wrists together."
+  ],
+  "identity_references": {
+    "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+    "Lysithea": "assets/characters/golden_deer/Lysithea/academy/selected.png"
+  },
+  "reject_if": [
+    "the oil becomes magic",
+    "Lysithea ages up physically",
+    "Hilda acts condescending"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-07-31",
+  "decision": "model_submission_batches_ready",
+  "package_dir": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "batch_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json",
+  "source_battle_ledger": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json",
+  "total_shots": 42,
+  "total_batches": 7,
+  "batch_size": 6,
+  "expected_downloads_csv": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/expected_downloads.csv"
+}

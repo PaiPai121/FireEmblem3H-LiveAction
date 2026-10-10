@@ -1,0 +1,32 @@
+{
+  "shot_id": "Shot020",
+  "review_date": "2026-08-23",
+  "review_type": "catherine_thunderbrand_motion_handoff_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v3_2026-08-21",
+  "current_display_frame_set": "critical_reaudit_regen_v4_2026-08-23",
+  "previous_shot": "Shot019",
+  "next_shot": "Shot021",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after user-directed continuity re-audit: v3 had correct weapon identity but START/END still read as a static three-person tableau. v3 is historical evidence only."
+  ],
+  "finding": "2026-08-23 critical re-audit: user feedback requires live-action frames that do not read as static game-like portraits. Shot020 v3 had correct female Byleth and Thunderbrand identity, but START and END still read as a posed trio. v4 regenerates the chain as moving entry, one localized Thunderbrand cut, and a layered forward handoff: Catherine enters at left, Byleth and Ashe move through different depths, and END leaves the route open for Shot021.",
+  "passes": [
+    "START catches Catherine entering from the left with Byleth and Ashe moving in separate depths.",
+    "KEY contains one readable single-handed Thunderbrand cut with a narrow blade-linked lightning lane.",
+    "END lowers Thunderbrand and sends Byleth/Ashe into an open upper-left route without forming a row.",
+    "Female Byleth remains the only Byleth identity; Ashe keeps the only bow; distant rebels remain indistinct.",
+    "No spoken dialogue; Japanese-production ambience only; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Byleth becomes male/ambiguous/war-phase, Thunderbrand becomes a polearm, Catherine becomes a superhero pose, lightning becomes a beam or full-frame effect, Byleth and Ashe freeze as a background pair, the trio forms a horizontal row, any named character enters early, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-01",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "target_stage": "video_generation_run",
+  "configured": false,
+  "can_execute_with_local_cli": false,
+  "decision": "model_cli_template_not_configured",
+  "problems": [],
+  "warnings": [
+    "VIDEO_MODEL_CLI_ARGV_JSON is not configured; provider upload and external generation remain the current path."
+  ],
+  "checks": [],
+  "argv_template": null,
+  "sample_command_argv": null
+}

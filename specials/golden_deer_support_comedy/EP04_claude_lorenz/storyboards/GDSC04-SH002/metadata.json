@@ -1,0 +1,56 @@
+{
+  "id": "GDSC04-SH002",
+  "episode": "GDSC-EP04",
+  "title": "Not Innocent",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach main cloister",
+  "characters": [
+    "Claude",
+    "Lorenz"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC04-SH002/start_frame.png",
+    "key": "storyboards/GDSC04-SH002/key_frame.png",
+    "end": "storyboards/GDSC04-SH002/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC04-SH002_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC04-SH002_negative_prompt.md",
+  "expected_clip": "clips/GDSC04-SH002.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/クロード(レスター諸侯同盟)#ローレンツ",
+    "https://fireemblem.fandom.com/wiki/Lorenz_(Three_Houses)/Supports#With_Claude"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Claude",
+      "line": "俺はこの、ガルグ＝マク大修道院が大好きなんだ。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lorenz",
+      "line": "違うな。先ほどの驚きようは、何かやましいことをしていたに相違あるまい。",
+      "type": "source"
+    },
+    {
+      "speaker": "Claude",
+      "line": "おいおいおい、ローレンツくん。人聞きの悪いことを言わないでくれたまえ。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Claude opens both hands innocently while still hiding the note's edge."
+  ],
+  "identity_references": {
+    "Claude": "assets/characters/golden_deer/Claude/academy/selected.png",
+    "Lorenz": "assets/characters/golden_deer/Lorenz/academy/selected.png"
+  },
+  "reject_if": [
+    "Claude becomes villain-coded",
+    "Lorenz physically threatens him",
+    "new plot object is explained"
+  ]
+}

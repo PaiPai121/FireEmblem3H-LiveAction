@@ -1,0 +1,1446 @@
+{
+  "schema": "cinematic-review-panel-v1",
+  "project_root": ".",
+  "package_id": "EP04_prompt_asset_package_v1",
+  "project": {
+    "title": "EP4 女神再生仪式 · Blue Lions live-action prompt asset package",
+    "package_status": "frames_pending",
+    "completion_target": "prompt_asset_package",
+    "runtime_seconds": 285,
+    "spoken_language": "Japanese",
+    "subtitle_delivery": "none",
+    "visual_review": "pending actual integrated live-action frame generation",
+    "motion_readiness": "not_approved",
+    "frame_readiness": "0/84",
+    "asset_status": "0/84 frame inputs",
+    "sequence_status": "28 ordered shots",
+    "continuity_status": "0/28 cards linked",
+    "delivery_status": "frames_pending"
+  },
+  "package_dir": "",
+  "canonical_entry": "web/index.html",
+  "preview_revision": 1,
+  "generated_at": "2026-08-26T16:59:50.099Z",
+  "changed_shot_ids": [
+    "Shot001",
+    "Shot002",
+    "Shot003",
+    "Shot004",
+    "Shot005",
+    "Shot006",
+    "Shot007",
+    "Shot008",
+    "Shot009",
+    "Shot010",
+    "Shot011",
+    "Shot012",
+    "Shot013",
+    "Shot014",
+    "Shot015",
+    "Shot016",
+    "Shot017",
+    "Shot018",
+    "Shot019",
+    "Shot020",
+    "Shot021",
+    "Shot022",
+    "Shot023",
+    "Shot024",
+    "Shot025",
+    "Shot026",
+    "Shot027",
+    "Shot028"
+  ],
+  "superseded_entries": [],
+  "public_paths": {},
+  "live_update": {
+    "mode": "revision_poll",
+    "manifest": "review_panel_manifest.json",
+    "interval_ms": 2000
+  },
+  "required_fields": [
+    "project-title",
+    "package-id",
+    "package-status",
+    "completion-target",
+    "shot-progress",
+    "spoken-language",
+    "subtitle-delivery",
+    "model-target",
+    "frame-readiness",
+    "visual-review",
+    "motion-readiness",
+    "asset-status",
+    "sequence-status",
+    "continuity-status",
+    "delivery-status"
+  ],
+  "shot_count": 28,
+  "shots": [
+    {
+      "id": "Shot001",
+      "order": 1,
+      "title": "门后的光",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "beat": "Turn source ritual imagery into Byleth's private unease.",
+      "characters": "Byleth, Sothis",
+      "audio": "Low bell, cloth, distant wind; no speech.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot001.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot002",
+      "order": 2,
+      "title": "钟声落地",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Move from chapter-scale ceremony to a physical call to action.",
+      "characters": "Byleth",
+      "audio": "Bell decay, footfalls, faint armor and air.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot002.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot003",
+      "order": 3,
+      "title": "Rhea 定义威胁",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "beat": "Let Rhea define the rite as an institutional security problem.",
+      "characters": "Rhea, Byleth, Dimitri, Dedue",
+      "audio": "Japanese line, one continuous utterance, candle room tone.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot003.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-003",
+          "speaker": "Rhea",
+          "text": "女神再生の儀式、すでに狙われている。",
+          "start_seconds": 27.25,
+          "end_seconds": 30.55,
+          "listener_reaction": "Dimitri's attention hardens while Dedue checks the exits.",
+          "visible_action": "Rhea moves one hand from the crest to the stair rail.",
+          "cut_relation": "cut after the group receives the threat, before Seteth translates it into logistics."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot004",
+      "order": 4,
+      "title": "Seteth 把信仰翻译成封锁",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Translate sacred language into guard positions and a clear boundary.",
+      "characters": "Seteth, Byleth, Dimitri, Dedue",
+      "audio": "Japanese line once, leather and small metal movement under the room tone.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot004.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-004",
+          "speaker": "Seteth",
+          "text": "今夜、聖墓の入口を離れるな。",
+          "start_seconds": 37.75,
+          "end_seconds": 40.55,
+          "listener_reaction": "Byleth accepts the boundary without nodding theatrically.",
+          "visible_action": "Seteth marks the tomb direction with one controlled gesture.",
+          "cut_relation": "cut on the students' shared turn toward preparation."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot005",
+      "order": 5,
+      "title": "Dimitri 接住命令",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "beat": "Make Dimitri's loyalty a protective spatial action, not a declaration of heroism.",
+      "characters": "Dimitri, Byleth, Dedue",
+      "audio": "Japanese line, restrained breath, cloth and distant bell.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot005.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-005",
+          "speaker": "Dimitri",
+          "text": "先生、私たちはあなたの指示に従います。",
+          "start_seconds": 48.25,
+          "end_seconds": 51.55,
+          "listener_reaction": "Byleth registers the commitment but does not reward it with a smile.",
+          "visible_action": "Dimitri turns his torso to make a shield line behind Byleth.",
+          "cut_relation": "cut on the protective repositioning rather than on a heroic pose."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot006",
+      "order": 6,
+      "title": "Byleth 接管队伍",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "beat": "Give Byleth a short operational rule that will govern the tomb sequence.",
+      "characters": "Byleth, Dimitri, Dedue",
+      "audio": "Japanese line, buckle click, controlled breathing.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot006.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-006",
+          "speaker": "Byleth",
+          "text": "足音を数えろ。光を追うな。",
+          "start_seconds": 57.75,
+          "end_seconds": 60.55,
+          "listener_reaction": "Dimitri and Dedue lower their gaze to the floor and thresholds.",
+          "visible_action": "Byleth tightens one strap and signals the first walking mark.",
+          "cut_relation": "cut on the group beginning the same movement."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot007",
+      "order": 7,
+      "title": "圣墓门槛",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "beat": "Replace a mission map with a real threshold and the first physical geography lock.",
+      "characters": "Byleth, Dimitri, Dedue",
+      "audio": "Water drops, door hinge, cloth and metal; no speech.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot007.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot008",
+      "order": 8,
+      "title": "队伍的视线交接",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Make the group readable as a team before the threat appears.",
+      "characters": "Byleth, Dimitri, Dedue",
+      "audio": "Echoing footsteps, breath, faint water.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot008.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot009",
+      "order": 9,
+      "title": "墙上的擦痕",
+      "status": "frames_pending",
+      "duration_seconds": 8,
+      "beat": "Give Dedue the first evidence that the intrusion came through an internal route.",
+      "characters": "Dedue, Byleth, Dimitri",
+      "audio": "Japanese line, fingertip on grit, one low breath.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot009.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-009",
+          "speaker": "Dedue",
+          "text": "左の壁に、外から触れた跡があります。",
+          "start_seconds": 86.25,
+          "end_seconds": 89.55,
+          "listener_reaction": "Dimitri turns his head toward the wall without stepping into Dedue's mark.",
+          "visible_action": "Dedue reveals the scraped dust and then points only with his eyes.",
+          "cut_relation": "cut on Byleth receiving the warning, not on the hand detail."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot010",
+      "order": 10,
+      "title": "不散列",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Change the rhythm from exploration to disciplined containment.",
+      "characters": "Byleth, Dimitri, Dedue",
+      "audio": "Japanese line once, stone resonance, held breath.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot010.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-010",
+          "speaker": "Byleth",
+          "text": "ここから先は、列を崩さない。",
+          "start_seconds": 96.75,
+          "end_seconds": 99.55,
+          "listener_reaction": "Dimitri lowers his weapon line and Dedue angles his shield toward the opening.",
+          "visible_action": "Byleth raises one hand and sets three separate stopping marks.",
+          "cut_relation": "cut just as the unowned footfall begins, preserving the suspense."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot011",
+      "order": 11,
+      "title": "先听见死神骑士",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "beat": "Let the Death Knight enter as an acoustic and spatial violation before he becomes a face or armor read.",
+      "characters": "Byleth, Dimitri, Dedue, DeathKnight",
+      "audio": "Japanese line, one footfall, metal resonance.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot011.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-011",
+          "speaker": "Dimitri",
+          "text": "あれは……死神騎士。",
+          "start_seconds": 106.45,
+          "end_seconds": 108.55,
+          "listener_reaction": "Byleth turns the sword angle toward the arch while Dedue anchors the rear.",
+          "visible_action": "The Death Knight enters one step and stops in a pool of practical light.",
+          "cut_relation": "cut on recognition before the threat advances."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot012",
+      "order": 12,
+      "title": "威胁保持礼貌",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Keep the Death Knight frightening without turning him into a poster or exposition machine.",
+      "characters": "DeathKnight, Byleth, Dimitri, Dedue",
+      "audio": "Japanese line once, scythe shaft, damp armor, low room tone.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot012.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-012",
+          "speaker": "DeathKnight",
+          "text": "退け。儀式の夜は、まだ終わらぬ。",
+          "start_seconds": 115.25,
+          "end_seconds": 118.55,
+          "listener_reaction": "Byleth keeps the face unreadable and shifts one foot to the safe side of the column.",
+          "visible_action": "The Death Knight lowers the scythe into a threatening horizontal line without charging.",
+          "cut_relation": "cut on the final syllable into the first physical attack beat."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot013",
+      "order": 13,
+      "title": "改线",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Deliver one auditable weapon contact with a clear attacker, defender, result and recovery.",
+      "characters": "Byleth, DeathKnight, Dimitri, Dedue",
+      "audio": "Metal impact, stone chip, breath; no gore, no damage number.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot013.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot014",
+      "order": 14,
+      "title": "等下一次落点",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "beat": "Show the tactical decision to withdraw rather than escalate.",
+      "characters": "Byleth, Dimitri, Dedue, DeathKnight",
+      "audio": "Japanese line, retreating boots, cloth, low scythe scrape.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot014.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-014",
+          "speaker": "Byleth",
+          "text": "退け。次の一撃を待つ。",
+          "start_seconds": 134.95,
+          "end_seconds": 137.55,
+          "listener_reaction": "Dimitri obeys immediately; Dedue keeps his body between the rear and the open passage.",
+          "visible_action": "Byleth walks backward while keeping the sword line pointed at the safe gap.",
+          "cut_relation": "cut on the group clearing the threshold, not on a chase."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot015",
+      "order": 15,
+      "title": "湿石上的余波",
+      "status": "frames_pending",
+      "duration_seconds": 8,
+      "beat": "Let the physical cost of the encounter land before the church reframes it.",
+      "characters": "Byleth, Dimitri, Dedue",
+      "audio": "Door latch, wet cloth, breath; no speech.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot015.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot016",
+      "order": 16,
+      "title": "先报告事实",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "beat": "Return to symmetry, but make the symmetry feel administrative rather than safe.",
+      "characters": "Rhea, Byleth, Dimitri, Dedue",
+      "audio": "Japanese line, paper, candle and distant corridor.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot016.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-016",
+          "speaker": "Rhea",
+          "text": "まず、事実だけを報告しなさい。",
+          "start_seconds": 154.45,
+          "end_seconds": 157.55,
+          "listener_reaction": "Byleth pauses before naming intent; Dimitri looks down at the wet edge of the sheet.",
+          "visible_action": "Rhea sets the report flat and removes one subjective mark with her finger.",
+          "cut_relation": "cut to Manuela's observation as the institution opens a second lane."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot017",
+      "order": 17,
+      "title": "知道内部道路",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Make the faculty report reveal knowledge of the internal route.",
+      "characters": "Manuela, Rhea, Byleth",
+      "audio": "Japanese line once, paper, small breath, no music swell.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot017.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-017",
+          "speaker": "Manuela",
+          "text": "侵入者は、儀式の中心を知っていたわ。",
+          "start_seconds": 164.45,
+          "end_seconds": 167.55,
+          "listener_reaction": "Byleth looks from the damp route note to the closed door.",
+          "visible_action": "Manuela traces the internal path with one finger and stops at the central mark.",
+          "cut_relation": "cut when the finger stops, before anyone explains the implication."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot018",
+      "order": 18,
+      "title": "不是偶然",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "beat": "Let Hanneman convert evidence into a dangerous inference without overexplaining.",
+      "characters": "Hanneman, Manuela, Rhea",
+      "audio": "Japanese line once, paper friction, faint candle wick.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot018.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-018",
+          "speaker": "Hanneman",
+          "text": "偶然ではない。誰かが道を開けた。",
+          "start_seconds": 175.45,
+          "end_seconds": 178.55,
+          "listener_reaction": "Manuela's hand stops; Rhea's expression remains calm but her eyes leave the paper.",
+          "visible_action": "Hanneman pins the route paper under the book without opening it.",
+          "cut_relation": "cut on the unlit candle, leaving the implication unresolved."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot019",
+      "order": 19,
+      "title": "学生看见代价",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "beat": "Show three different responses to institutional silence without explanatory dialogue.",
+      "characters": "Byleth, Dimitri, Dedue",
+      "audio": "No speech; door, cloth, distant bell.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot019.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot020",
+      "order": 20,
+      "title": "秘密作为保护",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "beat": "Let Rhea close the discussion under the language of protection.",
+      "characters": "Rhea, Byleth, Dimitri, Dedue",
+      "audio": "Japanese line, robe movement, cathedral air.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot020.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-020",
+          "speaker": "Rhea",
+          "text": "信仰を守るため、秘密は必要です。",
+          "start_seconds": 196.45,
+          "end_seconds": 199.55,
+          "listener_reaction": "Dimitri watches Rhea leave; Dedue looks to Byleth for the next safe movement.",
+          "visible_action": "Rhea keeps one hand on the stair rail and turns away after the line.",
+          "cut_relation": "cut on the institutional retreat, before the students choose whether to follow."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot021",
+      "order": 21,
+      "title": "走廊里的同行",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Shrink the institution into the physical distance between companions.",
+      "characters": "Byleth, Dimitri, Dedue",
+      "audio": "Footfalls, banner, low night wind; no speech.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot021.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot022",
+      "order": 22,
+      "title": "没有人安心",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "beat": "Give Dimitri a private admission that the encounter changed the meaning of victory.",
+      "characters": "Dimitri, Byleth",
+      "audio": "Japanese line, night insects, wet stone.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot022.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-022",
+          "speaker": "Dimitri",
+          "text": "私たちは勝ったのに、誰も安心していない。",
+          "start_seconds": 217.15,
+          "end_seconds": 220.55,
+          "listener_reaction": "Byleth listens without turning the admission into reassurance.",
+          "visible_action": "Dimitri releases the weapon grip and lowers his eyes to the wet floor.",
+          "cut_relation": "cut on the unresolved pause into a different red-lit space."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot023",
+      "order": 23,
+      "title": "红色从树后出现",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "beat": "Change color and social rules without explaining how the conspirators got there.",
+      "characters": "FlameEmperor",
+      "audio": "No speech; wet branch, metal, low fire.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot023.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot024",
+      "order": 24,
+      "title": "两层树干之间",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "beat": "Stage the antagonist exchange as a strategic distance, not an intimate villain tableau.",
+      "characters": "FlameEmperor, DeathKnight",
+      "audio": "Armor creak, low fire, distant rain; no speech.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot024.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot025",
+      "order": 25,
+      "title": "仪式属于谁",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "Make Flame Emperor ask about ownership of the rite while keeping the plan opaque.",
+      "characters": "FlameEmperor, DeathKnight",
+      "audio": "Japanese line once, controlled fire and rain.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot025.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-025",
+          "speaker": "Flame Emperor",
+          "text": "女神の儀式を、教会だけのものにするな。",
+          "start_seconds": 248.25,
+          "end_seconds": 251.55,
+          "listener_reaction": "The distant armored presence does not answer; its helmet turns toward the forest edge.",
+          "visible_action": "Flame Emperor takes one half-step into the practical red side light.",
+          "cut_relation": "cut on the listener's turn rather than explaining the claim."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot026",
+      "order": 26,
+      "title": "使命尚未结束",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "beat": "Connect the Death Knight to the conspiracy without a plot dump.",
+      "characters": "FlameEmperor, DeathKnight",
+      "audio": "Japanese line once, boot in wet ground, armor, wind.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot026.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-026",
+          "speaker": "FlameEmperor",
+          "text": "死神騎士は、まだ使命を終えていない。",
+          "start_seconds": 259.25,
+          "end_seconds": 262.55,
+          "listener_reaction": "The armored presence pauses on the slope and does not reveal a face.",
+          "visible_action": "Flame Emperor remains behind the tree while the other figure takes one measured step.",
+          "cut_relation": "cut on the step stopping, withholding the identity reveal."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot027",
+      "order": 27,
+      "title": "问题回到长廊",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "beat": "Return the conspiracy question to Byleth's private perception.",
+      "characters": "Byleth, Sothis",
+      "audio": "Japanese line once, soft room tone, no music explanation.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot027.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [
+        {
+          "id": "DL-EP04-027",
+          "speaker": "Sothis",
+          "text": "教会は、何を隠している？",
+          "start_seconds": 271.75,
+          "end_seconds": 274.55,
+          "listener_reaction": "Byleth looks at the sealed door rather than at Sothis.",
+          "visible_action": "Sothis gathers as a brief reflection along the column and then loses definition.",
+          "cut_relation": "cut on the question hanging over Byleth's stopped body."
+        }
+      ],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    },
+    {
+      "id": "Shot028",
+      "order": 28,
+      "title": "黑门不回答",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "beat": "End on withheld trust rather than a victory statement.",
+      "characters": "Byleth, Sothis",
+      "audio": "No speech; bell is cut before its final decay.",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot028.mp4",
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ],
+      "dialogue": [],
+      "assets": {
+        "start_frame": false,
+        "key_frame": false,
+        "end_frame": false,
+        "prompt": true,
+        "negative_prompt": true,
+        "metadata": true,
+        "operator_notes": false
+      }
+    }
+  ],
+  "preview_shots": [
+    {
+      "shot_id": "Shot001",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "68238ec92024640ac7abfe564f523870893c95123c2f8606296823896c3f9233",
+        "negative_prompt": "f5e6b52467ca4f5b95276ec1ca127faeb01e567da5e5f1dc971f188f7a33b0fe",
+        "metadata": "05470b78307f10c6df69e7a6ed528341e8fd0bdc13d6866a69844e4b5f137fc8",
+        "frame_spec": "d8a63711eef0fe8b71676a777f3b8e6fe95f3f379527c93cea3aa6c747d3ef4c",
+        "shot_record": "d828132e81665b89ffef59e9600ce27b06d67c364a307802705611087426ddfb"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot002",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "b2c5f42b52f7b90740a02b336014cbae49c11cd76084949d46718fa03f823131",
+        "negative_prompt": "ef78610f89cfa773ddea7e308c487f7194de713ebe44b31d06924aae772b2ece",
+        "metadata": "83faca5acbf129993d5d38cdb24f8b0f3fe704abf5ce7d4f47ce546d09e1aec4",
+        "frame_spec": "1a4d2f6899d9651823a547a3886bf96cda8430373a63eb5dfc7136e2ea03870b",
+        "shot_record": "c048bf49dbc2d81abf3e93514f5c85ff95f491adae9a94d962e7a7491f4cec65"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot003",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "4a2452515c5148e38437c5b7f25682bc0c4c248c4983f5d971d86776b7e3559d",
+        "negative_prompt": "66085e68d898eff7b023c9e4cc792b191468d95237be3520db70dcec24405b12",
+        "metadata": "79d482973286ebceeeddaf9bf7105a5638a8b313091267326c1f4a1f73807c9f",
+        "frame_spec": "8394e4d166f66169efead4278f35ae4be58d36a6b573959d0bacac9726e36060",
+        "shot_record": "10665f8078510aeb47e6bac9124757fc2c81a7c401abca512e6f342eb5360349"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot004",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "44365e7124dd5c354e43a01b17572dd831329df3871d172a386a126dec8c8a83",
+        "negative_prompt": "ddc30201c0601e673ea9b4e443968bdfd9fec4f28f15e21fb3ada3f4974f8a47",
+        "metadata": "86f9527d70092c9916d3da9c32c8e44e9ddf16db4056c4a9622fd3f343a6c743",
+        "frame_spec": "00813b316b00f90a0927a84f16d02b0bce91a6c0b283ba71bfbdf28c4a758c7d",
+        "shot_record": "08247de6972e188be8397fdc85a2808ee771d64e9af7f54aed7e3643635543ed"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot005",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "c65510008301bf66167a90fc93b5625c4108ca96a135e460fd306e21d060e65a",
+        "negative_prompt": "d860d73cdd2e4ccd92ba6dd25aea55e739185d4a16c26670e585b7ffa7695688",
+        "metadata": "cecd587452d1cab7a780ab24fea87c36b65a6f6b17a4431e4a20bc2306441a57",
+        "frame_spec": "90ba303f99fe0b39e199be6e6b9735de07328e49f280e2dba8ee6ff923c22e19",
+        "shot_record": "b379544fac3f9407af663bb2c19d6e4a0e9c4e9098535c0b159f69d23b3073d3"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot006",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "d5255965d28a4714c951165c51380beb4e6dc745959fc3944a6b6df1a9eeda54",
+        "negative_prompt": "388f303ae67e11e130c7d677857419189c29ab4b15af61269269ceeada668e9f",
+        "metadata": "79ad9cd510d9cb5bf70a98416a1d1a69b4c1be156f9afb30dbfe8b25a6bdc7a4",
+        "frame_spec": "6b258c3ab376766662cc0f9b85a624760b02b366762db95c99a3ea181bef9048",
+        "shot_record": "8a17411d2f26682d157214063c2b138e45ee4d19e62b62c07a6a86a8fe76c86a"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot007",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "a2f23755c4a298ea6cf69225a03a48f018510fa4eaa8c0754e50ada677b5aa1d",
+        "negative_prompt": "5aedb7404857d22ab5df7a2477c0c2ef67f7782b40cf21191b25727a644b323d",
+        "metadata": "102fb42a40a6febca107ccf8ee288b1cae1e86c5a0b44651b058b35480f536d0",
+        "frame_spec": "28e8e88d42ddd4a778f958727a64943bbf6001b9952653934da4b4573ce1af26",
+        "shot_record": "150aa0dccb5f3f8fe932d5f028b87b4d4f503856f403cc836b57b7d1c0ad680f"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot008",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "d2adff071e38dc18b51c3bb7f88348f04d22bdb56f7e49c6b94640faf2e91071",
+        "negative_prompt": "e7b39c09a0f506db09f0b30fdf5b2eda5042d7386606cbc5f91cb15871f40e49",
+        "metadata": "d6cdde66ffce2b8c2d5d157be053bada70acbd78236ad7259447e21c5fe02423",
+        "frame_spec": "57cc0e652167a43a9fed872cca5a77a077c8c226ecb33ee72ddae969e56b4fa6",
+        "shot_record": "5d63c69bfc79317b177683c5d5727980b32f7d7341e3e462e686414f49501445"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot009",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "db4b45892b9a9a04b799aaf7761e976f9267e464b9a177f61ef097ad2ee9e0ef",
+        "negative_prompt": "8b0cce1e77c6c97f44b730c1f9922354661776780d4bab962f76ce608f874b0b",
+        "metadata": "8a6fb3898951580f2caf23f96c3117b6571e40ac0bc1affcf6c7752a998900a5",
+        "frame_spec": "dfed2c1b8f18db28de864bf3c963d9cced8103026d00244129414bf7dfa3ca2a",
+        "shot_record": "064c35f532f6dfacfbfa90e5b5d71828523024321c768e593f4a6fb54ca82584"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot010",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "4cdc89ef45afd2a0c15a1ee7f8461c22b32d1dcae58a876e8d5e5faa380e2d6a",
+        "negative_prompt": "866c85e9246144f0ecc0a6d6cd25099e2625ddbaa654735471a1bb62ca846d6e",
+        "metadata": "37a290c2ebed1c29855efee277b942074f556f698e1809c53838f84753a2999d",
+        "frame_spec": "aa15db51a38045fb5a53cb7a200ab174e639eb6de5733c4c67af023fa9f6c4f4",
+        "shot_record": "6f2d1647f0678e65bab6f65d638da1d01cbcad37554559ae6cae92ef43cc7d32"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot011",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "bd3a953e20b24ab60a8dcbbd1edf302633577cd90d0d8ac7c8a2d9a7170b4d3a",
+        "negative_prompt": "3b4cbb4280725399e3a3b413cb0fa051a30f854b5b08b115f313b4a924929455",
+        "metadata": "4b464843ccd7dae85125c59e2094cbfc86203d967caca3fc802011f857a59584",
+        "frame_spec": "54150fe119b1eb947f02da34a28799df7f29be85e337038e6970277379281f76",
+        "shot_record": "7a6829e0423fad46ac8539c5fe0a421ff876dfdb13888cf831a50c4327c09f09"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot012",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "2103bcad14944d95b3bab00ef57e043d4246c4527b8a66dbc0d66c2f7cd1a500",
+        "negative_prompt": "768c49a86f0f62a1625abef68a015cd6e756c21d9d33394c60add8c4b113a7ee",
+        "metadata": "413c67561293ab9c1941d4299de4c2ef83e0ee27b5a6dcbc3be6009a1da8bd43",
+        "frame_spec": "013ef448a26eb6e976acadba42dae50a0bca5ef2cad29adafe7ec267186baa74",
+        "shot_record": "cff2a186914a64edbc0053321418b8020d99f56e46ee6393a5b874dcc5fb9948"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot013",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "5c1dcbca9f4801ad4c1dbc65e3afc047166eae41bd1fba5b3e38b0d09ca3a014",
+        "negative_prompt": "9555e15dfa970c806f2e1bfac6e579437ea500da2187758f750f676a48fe3ac9",
+        "metadata": "53d00b66eea8f114cf257e2e576ef6c9d7f38b3ea3646c0376911be3785c6ab4",
+        "frame_spec": "23894158916df5c8b086e7d68dcf008a91a816ac7791e08e53f72a87073595a6",
+        "shot_record": "796f56d6ea9e88e3e54c2c10cc7359b8f6fb2539dbf0271b6d7b812c1c4345a7"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot014",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "a97657a297c3e18f128010efb1ccb1683457e03cec7d542095941c7f4d1e33b4",
+        "negative_prompt": "455f9828a3c13cfffd4aca8bba85b21abc3e67d0f40d0ad7e2829201a0cb87ae",
+        "metadata": "c58041366a41ff227552ccf58416738f05f68cb5abd34217ea46340f028e51dc",
+        "frame_spec": "2f31ee5ef7b9e557d32f3589e6aa64b7f50f72742c715e93b9d764543424f9a6",
+        "shot_record": "0f7b7ff33aad4857e707d5fb36946aacaee79a89a3ebc3285259184d0250cff7"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot015",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "f1c35e9d7266c51707cdb209f4addf81b37a8e700f91e24fb373178e8b3171b8",
+        "negative_prompt": "6e53a2eed8b800a4735f8adb3cb42be625fbd154cd11e6bdbb0c20c7672dbdb4",
+        "metadata": "e85450646cdbe7799f7d60608fb79831a84087568f03ecadf837e35bbd800eb3",
+        "frame_spec": "c6486516bb1b63dbbfd6057b6b7c8e2c1caa6fa2138bb33990fc35f2bcdb3406",
+        "shot_record": "6e9c80160ad3454b1f77f8c2dade6446c351843b009144df0635b133e8fce4fa"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot016",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "2647e2dceefe05cada018c79206a0c421167d7da51906889ee6f8e0be3ea9a47",
+        "negative_prompt": "b4de695b4a3c6c5b9c25b08cd82cd3296854d27190900e2e80847a8feba9c072",
+        "metadata": "b9a07e57ce6cbc98f47eb145996f7c88c638dd70b7fff96e9f53d477975da95a",
+        "frame_spec": "fc9d2eb05125da5b5e58b102088a28ad69da2e3f19571427d7c98f608cf7415d",
+        "shot_record": "c3bf8ceb4a52b9954ae00616a34934d67c6de285fc4c2c2b89e47998b5360bd0"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot017",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "d663004a50885bbf08a07e3db75e3a7dafc1c8256d4d653e3a04e5fe1c6da5f3",
+        "negative_prompt": "1800f3916de1446e75a765496a0d938ba88ced843704e9eb690fa6184580360d",
+        "metadata": "0f598db02c4d57089b33d8406d08795e5a3ccbb92ad212e0be96ecc806d2dcb0",
+        "frame_spec": "0ae4220eb780da86e056afd4b15e643f25df8c0bceee8f22faf04050f8653ce2",
+        "shot_record": "ef7b83320817aef1ce7f501764fbaa2a725a9355b67094ae81e11486a8114640"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot018",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "f892c62144cb209501f60391dff26ce081f1d290c005bb746b1afb835cb10bde",
+        "negative_prompt": "e0b4ae555bfdc3d4bbaeb873105564a5bf2de582dac935237cc44ef3ae57060e",
+        "metadata": "0d430b591c47904d7b6bc78eb7e42656349be5d12505b0e8225f90da8f94c2ee",
+        "frame_spec": "13e9f9d9dadc912449f8154df43410166b00dcbb44349825302b358255176de4",
+        "shot_record": "ff41a7c0826b82f60bf7eb24b024e793ef9f189b0f1b353795f4c68551d157b7"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot019",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "1e4fe9fe86d8576eb9875bd2a3e7866c45d85ae5c3066c71bf73d3c60d60fb71",
+        "negative_prompt": "173df582c6f72637748e97729f7256d753d5067f8929a7e1037b23d8dfe52c55",
+        "metadata": "83c16aaec3b6e41c217b9de6f6083659f709cd6a91211c0b54493da1245cc90e",
+        "frame_spec": "3189424161305ca9992dbe2c88de9b89e0c493384c6e17c497bb80c6c7060695",
+        "shot_record": "de1ff6ed3a067d7795e2f25584fd190c29e06d2fe46eb2cd1506ac1b2c4fafda"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot020",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "b026b74db7460b6be5623525d55052939517bdad1c423c714cf0c87efb11727e",
+        "negative_prompt": "d5ed37e744800d965143a52a58e177ac296e290db8d66aa69996fa3218ef96bf",
+        "metadata": "ac13aa070ab9f06907ad58e922fe2443971f101f905d4a32a614a4052619cc58",
+        "frame_spec": "12bbb5239fadc0eea7e3a6cd50305b68e1f188daa468c326a8d91422967d9831",
+        "shot_record": "30a3cf9089b5740090c8e1bcd34e07716aad8e12d9ce8a8a5484d7b0810da57a"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot021",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "99544895a727688dd561618910a771b1fd1d24cad9fa642b32f0aa1b05ca8f6f",
+        "negative_prompt": "771e57309f51fefc2c47f63062eb7468aa18ccdfe760ae338d2885ddf6c9ae18",
+        "metadata": "f745e5855b614f2a3f175e2a4780dd1a994f4f08b080ec2539ef537346e1b612",
+        "frame_spec": "e6db4c8f0d593d2ae8ffddb2489f4af62dc39f4b1213ff900480a94221d384dc",
+        "shot_record": "5f9494fd330a03357de01849a267abe92b5b7ced0148709a9e340d293f446680"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot022",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "38e929cdbf21f60126add7c1186d608e93be645793cc532d2511d9711808a723",
+        "negative_prompt": "b598642fe4451037ec20f19c0f0b99ca2b6d7de98af864be286c72bce1ac5a03",
+        "metadata": "5986bba0992e2451d60fd377e1152c1164fa4ac09ab9413e954c39cb010c1f9d",
+        "frame_spec": "0513a190d108fd939bb366308de9e37cd4a0eb6181c71e13499b1423fc9f1cbf",
+        "shot_record": "4c1e5dd64484ed7f62d1962b5b869f5360914ebe7053dbf9482314e93334088d"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot023",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "4b6bb37bdb0abd2656a56e50e95c46ef7329ad08dbb2f92c5e03e9dfc4d8fa21",
+        "negative_prompt": "cc8af500555c5de59acd5df34eba8d9c9f88292da9acd950e18d9160018aed26",
+        "metadata": "135fa9920cbbda65da042e7d02c302edc33549e6484a2ba1dc01ca04eeb7d634",
+        "frame_spec": "aa6b902207446bf800c2d66b2772ed14869637ff41c2c1cffac97d79e6dbdd1f",
+        "shot_record": "fce956c8a105da4a92445f94b674bc4e5d08ec526b1457dfcc1d11b66afeba1a"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot024",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "23619eb8f41efd6e67b82d8901352373ee0b0d466275fcd415bace0f854bc483",
+        "negative_prompt": "f7f9efd81fef518f1def794667124da02e67b36ac63bc16373a523c6992d370a",
+        "metadata": "1afeb17dab0595eedff20e2e84055a69ac1dc1fd4c0ddc7c1972d0b32434685d",
+        "frame_spec": "501a83945593634eff17c1d3e7b2c2020b7fafcf7dc9bb7599747b9e10a858ee",
+        "shot_record": "f737b1e9627563a73c076d8d38eed86dac9fab68336e6af39f446e997334442c"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot025",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "8787377b600ad2831a9812893a47c7a8094ccd62acbbf2ae23a9bfa11562200d",
+        "negative_prompt": "cd3467210c08cb2c82c7627964b3cb62841c6e215fe1cbcf127b42b4cd7e646a",
+        "metadata": "6b3c44339e2f9fce9755ee6c94290438fa19924db36c53d9e0da8f43107899fe",
+        "frame_spec": "f2c0dcb4f3db97b1e93045243047d0cb07a12e1a8bc173629455717278b0716c",
+        "shot_record": "befc5d7f8e17ba08c215474ee00a5b1d3a0e11ae92d2d55379c9208f82da974a"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot026",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "b24b49c102af8518e0157e524bf8451cc822fd727a0c90d5ac1c7eb0f96ae001",
+        "negative_prompt": "bd0d5eeddbbae1d4b75a5ff661e87d47f927c08f7c73349164028d0306802e61",
+        "metadata": "5c7696fda38578bc490d54b664e78e5733513c8105b6e9b9f50413b9658bce38",
+        "frame_spec": "d7f78104526dfcb9fb9a66b7e13382e9058a21e1db9db71cedc9e46311e335cb",
+        "shot_record": "acaf1ce6eaf318471b0a113f5413262fb15983b5d364c58fcae680efe31beaa2"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot027",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "8deb37db6b547f40d410c5f98c206ca2a133e9a703c96c52f990027e139446c0",
+        "negative_prompt": "7813d2c4ead74566f7fcc45d28e209d3ae863ed4bb6199c05d6b41d47c0233c8",
+        "metadata": "798c741d1c9d5e36624c0b4af4c5b8be594e0c436281105adea494972e5adfde",
+        "frame_spec": "63a1cee855d68f89dfa542db1a858619112e5553dba5de796524fb7e3a4b5bdd",
+        "shot_record": "e9c102b9867c421ae68afe5b08a748c906a90bcfe34ae7234d2a1fe2abc8a2d1"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    },
+    {
+      "shot_id": "Shot028",
+      "status": "pending",
+      "preview_paths": [],
+      "public_paths": [],
+      "source_signatures": {
+        "start_frame": null,
+        "key_frame": null,
+        "end_frame": null,
+        "prompt": "1eea646ad7985dfed5bdb67cd590b2550ae9a107facb44b32826716a4c915a5c",
+        "negative_prompt": "b3bb76e0e1318b395895a43e0d79d06b1ddfeefc5453f931c0293b8de02539ba",
+        "metadata": "887e0df81147d800d222ecfdb24d75a56075ff67a7e76cafae54ef1cc5751f40",
+        "frame_spec": "bfcd38b3c3448189a1c80d2d0a6cc6ac553487867a7fb32079784c1ddaac7d45",
+        "shot_record": "4f28318b2da9df3f41727481b04c2cf886bf5c45b0fe881b3ac512c1f9ada55f"
+      },
+      "revision": 1,
+      "updated_at": "2026-08-26T16:59:50.099Z"
+    }
+  ]
+}

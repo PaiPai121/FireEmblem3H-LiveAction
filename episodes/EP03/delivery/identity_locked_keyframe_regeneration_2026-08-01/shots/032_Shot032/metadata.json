@@ -1,0 +1,82 @@
+{
+  "id": "Shot032",
+  "order": 32,
+  "scene": "西方教会处置",
+  "purpose": "明确 Rhea 的温柔外表下有不可抗拒的制裁。",
+  "duration_seconds": 14,
+  "characters": [
+    "Rhea",
+    "Seteth",
+    "Byleth"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Rhea",
+      "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Seteth",
+      "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Seteth_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot032_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot032/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot032/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot032/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {},
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot032_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot032_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot032_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot032/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot032/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/032_Shot032/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/032_Shot032/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/032_Shot032/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "visual_blocked",
+  "visual_audit_decision": "visual_blocked",
+  "required_revision": "Regenerate real live-action start/key/end frames with integrated lighting, shot-specific blocking, readable named identities, and a clear key action peak.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from report",
+  "edit_out": "cut to students reacting",
+  "audio_anchor": "Rhea, in Japanese: 反逆者は裁きを受けねばなりません。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 西方教会处置; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: Seteth 递上名单，Rhea 平静下令处理西方教会煽动者。",
+    "end": "Land on the state needed for the next cut: cut to students reacting."
+  }
+}

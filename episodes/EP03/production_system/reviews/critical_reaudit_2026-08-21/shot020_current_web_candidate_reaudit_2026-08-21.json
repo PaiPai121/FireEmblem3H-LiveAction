@@ -1,0 +1,41 @@
+{
+  "shot_id": "Shot020",
+  "audit_date": "2026-08-21",
+  "decision": "monitor_required",
+  "current_display_frame_set": "critical_reaudit_regen_v3",
+  "frame_set_id": "Shot020_critical_reaudit_regen_v3_2026-08-21",
+  "frames": {
+    "start": "storyboards/Shot020/critical_reaudit_regen_v3_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot020/critical_reaudit_regen_v3_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot020/critical_reaudit_regen_v3_2026-08-21/end_frame.png",
+    "contact_sheet": "storyboards/Shot020/critical_reaudit_regen_v3_2026-08-21/contact_sheet.jpg"
+  },
+  "weapon_lock": {
+    "character": "Catherine",
+    "weapon": "Thunderbrand",
+    "type": "single-handed Heroes' Relic sword",
+    "reference": "assets/props/shared/hero_relics/thunderbrand_reference.png",
+    "polearm_rejected": true
+  },
+  "female_byleth_lock": {
+    "pass": true,
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "male_asset_present": false
+  },
+  "frame_chain": {
+    "distinct_anchor_hashes": true,
+    "integrated_blocking": true,
+    "start": "Catherine enters with Thunderbrand low; Byleth and Ashe move in the same fog-facing action line.",
+    "key": "One grounded Thunderbrand cut creates a narrow weapon-linked lightning lane.",
+    "end": "The sword is lowered and the students advance into the cleared space."
+  },
+  "prompt_contract": {
+    "prompt_path": "video_prompts/Shot020_prompt.md",
+    "uploaded_start_key_end_only": true,
+    "contains_local_paths": false,
+    "contains_positive_mandarin_instruction": false,
+    "spoken_dialogue": false
+  },
+  "video_prompt_qa": "pending",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v3_2026-08-21"
+}

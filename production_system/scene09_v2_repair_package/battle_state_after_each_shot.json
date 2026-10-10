@@ -1,0 +1,3747 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "date": "2026-07-22",
+  "scene": "EP02 Scene09",
+  "rule": "Mock battle removals are stateful. A character who is captured, defeated by rule, objective-defeated, or stood down must not reappear as an active combatant in later shots. Characters who are suppressed, displaced, blocked, contained, or restored remain alive/available only under the listed constraint.",
+  "roster": [
+    "Byleth",
+    "Dimitri",
+    "Dedue",
+    "Felix",
+    "Ashe",
+    "Annette",
+    "Mercedes",
+    "Sylvain",
+    "Ingrid",
+    "Edelgard",
+    "Hubert",
+    "Ferdinand",
+    "Dorothea",
+    "Bernadetta",
+    "Claude",
+    "Hilda",
+    "Lorenz",
+    "Ignatz",
+    "Leonie",
+    "Hanneman",
+    "Manuela"
+  ],
+  "shots": [
+    {
+      "order": 1,
+      "shot": "Shot025",
+      "purpose": "Establish rules and objective.",
+      "visible_named_only": [
+        "Manuela",
+        "Hanneman",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Rules are established: students exit only if down, disarmed, or judged suppressed; objective is moving both teachers off the healing sigil."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_available",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 2,
+      "shot": "Shot025A",
+      "purpose": "Tactical geography insert.",
+      "visible_named_only": [],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_available",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 3,
+      "shot": "Shot026",
+      "purpose": "Byleth assigns roles.",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_available",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 4,
+      "shot": "Shot026B",
+      "purpose": "Blue Lions read the field.",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_available",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 5,
+      "shot": "Shot026C",
+      "purpose": "First movement.",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_available",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 6,
+      "shot": "Shot027",
+      "purpose": "Ashe overwatch setup.",
+      "visible_named_only": [
+        "Ashe",
+        "Claude"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_available",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 7,
+      "shot": "Shot027B",
+      "purpose": "Black Eagles first wave.",
+      "visible_named_only": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_available",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 8,
+      "shot": "Shot027C",
+      "purpose": "First contact.",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Ferdinand",
+          "status": "active_yielded_half_step"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Ferdinand yields half a step but is not defeated and must not be shown collapsed."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_available",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_yielded_half_step",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 9,
+      "shot": "Shot027D",
+      "purpose": "Felix delayed side cut.",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Felix is delayed, not removed; Ferdinand remains active."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_available",
+        "Annette": "active_available",
+        "Mercedes": "active_available",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 10,
+      "shot": "Shot028",
+      "purpose": "Support line under discipline.",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Annette and Mercedes are forced lower behind cover, not defeated."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_available",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 11,
+      "shot": "Shot028B",
+      "purpose": "Black Eagles stabilize center.",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_available",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 12,
+      "shot": "Shot028C",
+      "purpose": "Felix sees future route.",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_available",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 13,
+      "shot": "Shot029",
+      "purpose": "Blue flank rotates west.",
+      "visible_named_only": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_available",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 14,
+      "shot": "Shot029C",
+      "purpose": "Claude reads two gaps.",
+      "visible_named_only": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_available",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_available",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 15,
+      "shot": "Shot029D",
+      "purpose": "Claude displaces Ashe.",
+      "visible_named_only": [
+        "Claude",
+        "Ashe"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Ashe leaves the half-height point after Claude's nonlethal arrow suppression; he may reappear only as repositioning until restored.",
+        "Established-video continuity: Leonie is already active offscreen as Claude's flanking partner against the Black Eagles backline."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 16,
+      "shot": "Shot029B",
+      "purpose": "Golden Deer full pressure.",
+      "visible_named_only": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 17,
+      "shot": "Shot030",
+      "purpose": "Felix overextension temptation.",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_delayed_by_command"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_delayed_by_command",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 18,
+      "shot": "Shot030B",
+      "purpose": "Route trigger close-up.",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_contained_at_contact_line"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Felix is stopped before overextension; he is still active but cannot be shown past the contact line."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_contained_at_contact_line",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 19,
+      "shot": "Shot030C",
+      "purpose": "Ignatz and Golden Deer cut routes.",
+      "visible_named_only": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_contained_at_contact_line"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_contained_at_contact_line",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_available",
+        "Bernadetta": "active_available",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 20,
+      "shot": "Shot031",
+      "purpose": "Byleth stops Felix.",
+      "visible_named_only": [
+        "Byleth",
+        "Felix"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Byleth stops Felix; no defeat blow occurs.",
+        "Golden Deer flank pressure is now canonically aimed at Dorothea and Bernadetta."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_backline_pressured",
+        "Bernadetta": "active_backline_pressured",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 21,
+      "shot": "Shot031B",
+      "purpose": "Byleth dual-line command.",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_available",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_in_cover",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_backline_pressured",
+        "Bernadetta": "active_backline_pressured",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 22,
+      "shot": "Shot032",
+      "purpose": "Dedue / Mercedes shield-line restoration.",
+      "visible_named_only": [
+        "Dedue",
+        "Mercedes",
+        "Dimitri",
+        "Ferdinand",
+        "Hubert"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_displaced_from_overwatch"
+        },
+        {
+          "name": "Annette",
+          "status": "active_in_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Dedue's shield line is restored; Dedue is standing and not defeated."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_displaced_from_overwatch",
+        "Annette": "active_in_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_backline_pressured",
+        "Bernadetta": "active_backline_pressured",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 23,
+      "shot": "Shot032A",
+      "purpose": "Annette dust cover.",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [
+        "Ashe regains a bow angle through Annette's dust cover."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_backline_pressured",
+        "Bernadetta": "active_backline_pressured",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 24,
+      "shot": "Shot032B",
+      "purpose": "Blue Lions hold below platform.",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman",
+        "Manuela"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_backline_pressured",
+        "Bernadetta": "active_backline_pressured",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 25,
+      "shot": "Shot032C",
+      "purpose": "Black Eagles counter Golden Deer.",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_backline_pressured",
+        "Bernadetta": "active_backline_pressured",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 26,
+      "shot": "Shot032D",
+      "purpose": "Three-line geography proof.",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "active_backline_pressured"
+        },
+        {
+          "name": "Leonie",
+          "status": "hidden_active_flanking_black_eagles_backline"
+        }
+      ],
+      "defeated_by_rule_after": [],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "active_available",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "active_backline_pressured",
+        "Bernadetta": "active_backline_pressured",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "hidden_active_flanking_black_eagles_backline",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 27,
+      "shot": "Shot032E",
+      "purpose": "Byleth exploits chaos.",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Established-video continuity locks here: after the two sides clash, Hubert is repelled and captured by Felix and Ashe; Dorothea and Bernadetta are captured by flanking Leonie and Claude.",
+        "This capture beat is underrepresented in the current 40-shot V2 assets and requires insert/replacement frames before video approval."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 28,
+      "shot": "Shot033",
+      "purpose": "Dimitri restraint near platform.",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 29,
+      "shot": "Shot033B",
+      "purpose": "Byleth calls teacher cut.",
+      "visible_named_only": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix",
+        "Hanneman",
+        "Manuela"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "active_available",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 30,
+      "shot": "Shot033C",
+      "purpose": "Ashe suppresses Hanneman.",
+      "visible_named_only": [
+        "Ashe",
+        "Hanneman"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        },
+        {
+          "name": "Hanneman",
+          "status": "active_spell_angle_suppressed"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Hanneman's spell angle is suppressed by Ashe; he is not injured."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "active_spell_angle_suppressed",
+        "Manuela": "active_available"
+      }
+    },
+    {
+      "order": 31,
+      "shot": "Shot033D",
+      "purpose": "Ingrid cuts Manuela.",
+      "visible_named_only": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_covering_route"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        },
+        {
+          "name": "Hanneman",
+          "status": "active_spell_angle_suppressed"
+        },
+        {
+          "name": "Manuela",
+          "status": "active_route_blocked_by_ingrid"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Manuela is halted by route control, unhurt and dignified."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_covering_route",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "active_spell_angle_suppressed",
+        "Manuela": "active_route_blocked_by_ingrid"
+      }
+    },
+    {
+      "order": 32,
+      "shot": "Shot034C",
+      "purpose": "Felix blocks Ferdinand.",
+      "visible_named_only": [
+        "Felix",
+        "Ferdinand"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_route_blocked_by_felix"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        },
+        {
+          "name": "Hanneman",
+          "status": "active_spell_angle_suppressed"
+        },
+        {
+          "name": "Manuela",
+          "status": "active_route_blocked_by_ingrid"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Ferdinand cannot return to the teacher platform but remains upright and competent."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_route_blocked_by_felix",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "active_spell_angle_suppressed",
+        "Manuela": "active_route_blocked_by_ingrid"
+      }
+    },
+    {
+      "order": 33,
+      "shot": "Shot034D",
+      "purpose": "Byleth interrupts Hanneman.",
+      "visible_named_only": [
+        "Byleth",
+        "Hanneman",
+        "Ashe"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_route_blocked_by_felix"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        },
+        {
+          "name": "Hanneman",
+          "status": "objective_neutralized_spell_broken"
+        },
+        {
+          "name": "Manuela",
+          "status": "active_route_blocked_by_ingrid"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Hanneman's casting wrist/forearm is tapped with a sheathed sword; spell breaks, no injury."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_route_blocked_by_felix",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "objective_neutralized_spell_broken",
+        "Manuela": "active_route_blocked_by_ingrid"
+      }
+    },
+    {
+      "order": 34,
+      "shot": "Shot034B",
+      "purpose": "Teachers leave sigil.",
+      "visible_named_only": [
+        "Hanneman",
+        "Manuela",
+        "Dimitri",
+        "Dedue",
+        "Byleth",
+        "Ingrid"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_route_blocked_by_felix"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Leonie",
+          "status": "active_captor_with_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [
+        "Hanneman",
+        "Manuela"
+      ],
+      "stood_down_after": [],
+      "must_not_reappear_active_after": [
+        "Hanneman",
+        "Manuela",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Objective win is achieved: both teachers step off the healing sigil. The already-captured students remain removed by mock-battle rule."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_route_blocked_by_felix",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "active_available",
+        "Hilda": "active_available",
+        "Lorenz": "active_available",
+        "Ignatz": "active_available",
+        "Leonie": "active_captor_with_claude",
+        "Hanneman": "objective_defeated_off_sigil",
+        "Manuela": "objective_defeated_off_sigil"
+      }
+    },
+    {
+      "order": 35,
+      "shot": "Shot034E",
+      "purpose": "Golden Deer stand-down.",
+      "visible_named_only": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Ingrid"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Ferdinand",
+          "status": "active_route_blocked_by_felix"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [
+        "Hanneman",
+        "Manuela"
+      ],
+      "stood_down_after": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "must_not_reappear_active_after": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Golden Deer concede/stand down; they must not re-enter active combat afterward."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "active_available",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "active_route_blocked_by_felix",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "stood_down",
+        "Hilda": "stood_down",
+        "Lorenz": "stood_down",
+        "Ignatz": "stood_down",
+        "Leonie": "stood_down",
+        "Hanneman": "objective_defeated_off_sigil",
+        "Manuela": "objective_defeated_off_sigil"
+      }
+    },
+    {
+      "order": 36,
+      "shot": "Shot034F",
+      "purpose": "Black Eagles stand-down.",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Ferdinand",
+        "Felix"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "constrained_after": [
+        {
+          "name": "Dedue",
+          "status": "active_shield_restored"
+        },
+        {
+          "name": "Felix",
+          "status": "active_contained_by_byleth"
+        },
+        {
+          "name": "Ashe",
+          "status": "active_overwatch_restored"
+        },
+        {
+          "name": "Annette",
+          "status": "active_dust_cover"
+        },
+        {
+          "name": "Mercedes",
+          "status": "active_support_healing_low"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [
+        "Hanneman",
+        "Manuela"
+      ],
+      "stood_down_after": [
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "must_not_reappear_active_after": [
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Black Eagles stand down; Hubert, Dorothea, and Bernadetta are already captured by the established-video continuity and must not be reset to normal active/stand-down combatants."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "active_available",
+        "Dedue": "active_shield_restored",
+        "Felix": "active_contained_by_byleth",
+        "Ashe": "active_overwatch_restored",
+        "Annette": "active_dust_cover",
+        "Mercedes": "active_support_healing_low",
+        "Sylvain": "active_available",
+        "Ingrid": "active_available",
+        "Edelgard": "stood_down",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "stood_down",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "stood_down",
+        "Hilda": "stood_down",
+        "Lorenz": "stood_down",
+        "Ignatz": "stood_down",
+        "Leonie": "stood_down",
+        "Hanneman": "objective_defeated_off_sigil",
+        "Manuela": "objective_defeated_off_sigil"
+      }
+    },
+    {
+      "order": 37,
+      "shot": "Shot034G",
+      "purpose": "Blue Lions stand-down.",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Ashe"
+      ],
+      "active_or_available_after": [
+        "Byleth"
+      ],
+      "constrained_after": [
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [
+        "Hanneman",
+        "Manuela"
+      ],
+      "stood_down_after": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "must_not_reappear_active_after": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Blue Lions lower weapons and stop chasing; combat is over."
+      ],
+      "statuses_after": {
+        "Byleth": "active_available",
+        "Dimitri": "stood_down",
+        "Dedue": "stood_down",
+        "Felix": "stood_down",
+        "Ashe": "stood_down",
+        "Annette": "stood_down",
+        "Mercedes": "stood_down",
+        "Sylvain": "stood_down",
+        "Ingrid": "stood_down",
+        "Edelgard": "stood_down",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "stood_down",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "stood_down",
+        "Hilda": "stood_down",
+        "Lorenz": "stood_down",
+        "Ignatz": "stood_down",
+        "Leonie": "stood_down",
+        "Hanneman": "objective_defeated_off_sigil",
+        "Manuela": "objective_defeated_off_sigil"
+      }
+    },
+    {
+      "order": 38,
+      "shot": "Shot034",
+      "purpose": "Full field resolution.",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hanneman",
+        "Manuela"
+      ],
+      "active_or_available_after": [
+        "Byleth"
+      ],
+      "constrained_after": [
+        {
+          "name": "Byleth",
+          "status": "postbattle_available"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [
+        "Hanneman",
+        "Manuela"
+      ],
+      "stood_down_after": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "must_not_reappear_active_after": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Full-field resolution: weapons lowered; no one resumes active combat."
+      ],
+      "statuses_after": {
+        "Byleth": "postbattle_available",
+        "Dimitri": "stood_down",
+        "Dedue": "stood_down",
+        "Felix": "stood_down",
+        "Ashe": "stood_down",
+        "Annette": "stood_down",
+        "Mercedes": "stood_down",
+        "Sylvain": "stood_down",
+        "Ingrid": "stood_down",
+        "Edelgard": "stood_down",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "stood_down",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "stood_down",
+        "Hilda": "stood_down",
+        "Lorenz": "stood_down",
+        "Ignatz": "stood_down",
+        "Leonie": "stood_down",
+        "Hanneman": "objective_defeated_off_sigil",
+        "Manuela": "objective_defeated_off_sigil"
+      }
+    },
+    {
+      "order": 39,
+      "shot": "Shot035",
+      "purpose": "Felix respect beat.",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Felix"
+      ],
+      "constrained_after": [
+        {
+          "name": "Byleth",
+          "status": "postbattle_focus"
+        },
+        {
+          "name": "Felix",
+          "status": "postbattle_focus"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [
+        "Hanneman",
+        "Manuela"
+      ],
+      "stood_down_after": [
+        "Dimitri",
+        "Dedue",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "must_not_reappear_active_after": [
+        "Dimitri",
+        "Dedue",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Only Felix and Byleth may remain active as dialogue focus; everyone else stays stood down/offscreen."
+      ],
+      "statuses_after": {
+        "Byleth": "postbattle_focus",
+        "Dimitri": "stood_down",
+        "Dedue": "stood_down",
+        "Felix": "postbattle_focus",
+        "Ashe": "stood_down",
+        "Annette": "stood_down",
+        "Mercedes": "stood_down",
+        "Sylvain": "stood_down",
+        "Ingrid": "stood_down",
+        "Edelgard": "stood_down",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "stood_down",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "stood_down",
+        "Hilda": "stood_down",
+        "Lorenz": "stood_down",
+        "Ignatz": "stood_down",
+        "Leonie": "stood_down",
+        "Hanneman": "objective_defeated_off_sigil",
+        "Manuela": "objective_defeated_off_sigil"
+      }
+    },
+    {
+      "order": 40,
+      "shot": "Shot036",
+      "purpose": "Dimitri aftermath.",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth"
+      ],
+      "active_or_available_after": [
+        "Byleth",
+        "Dimitri"
+      ],
+      "constrained_after": [
+        {
+          "name": "Byleth",
+          "status": "postbattle_focus"
+        },
+        {
+          "name": "Dimitri",
+          "status": "postbattle_focus"
+        },
+        {
+          "name": "Hubert",
+          "status": "captured_by_felix_and_ashe"
+        },
+        {
+          "name": "Dorothea",
+          "status": "captured_by_leonie_and_claude"
+        },
+        {
+          "name": "Bernadetta",
+          "status": "captured_by_leonie_and_claude"
+        }
+      ],
+      "defeated_by_rule_after": [
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "objective_defeated_after": [
+        "Hanneman",
+        "Manuela"
+      ],
+      "stood_down_after": [
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "must_not_reappear_active_after": [
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid",
+        "Edelgard",
+        "Ferdinand",
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie",
+        "Hanneman",
+        "Manuela",
+        "Hubert",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "notes": [
+        "Only Dimitri and Byleth may remain active as dialogue focus; everyone else stays stood down/offscreen."
+      ],
+      "statuses_after": {
+        "Byleth": "postbattle_focus",
+        "Dimitri": "postbattle_focus",
+        "Dedue": "stood_down",
+        "Felix": "stood_down",
+        "Ashe": "stood_down",
+        "Annette": "stood_down",
+        "Mercedes": "stood_down",
+        "Sylvain": "stood_down",
+        "Ingrid": "stood_down",
+        "Edelgard": "stood_down",
+        "Hubert": "captured_by_felix_and_ashe",
+        "Ferdinand": "stood_down",
+        "Dorothea": "captured_by_leonie_and_claude",
+        "Bernadetta": "captured_by_leonie_and_claude",
+        "Claude": "stood_down",
+        "Hilda": "stood_down",
+        "Lorenz": "stood_down",
+        "Ignatz": "stood_down",
+        "Leonie": "stood_down",
+        "Hanneman": "objective_defeated_off_sigil",
+        "Manuela": "objective_defeated_off_sigil"
+      }
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "contract_id": "EP03-full-current-frame-chain-2026-08-24",
+  "status": "partial",
+  "frames_required": true,
+  "stop_reason": "motion_probe_pending; video_model_cli_not_configured",
+  "last_updated": "2026-08-27",
+  "review_state": "EP03 current 36-shot chain: Shot025 v6, Shot026-029 v6, Shot030-035 v2, Shot036 v1; 108/108 frames present/reviewed; prompt contract 36/36 passed; semantic prompt-against-frame and motion probe pending",
+  "queue": [
+    {
+      "shot_id": "Shot001",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot001",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot001",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot002",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot002",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot002",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot003",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot003",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot003",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot004",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot004",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot004",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot005",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot005",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot005",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot006",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot006",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot006",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot007",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot007",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot007",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot008",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot008",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot008",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot009",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot009",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot009",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot010",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot010",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot010",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot011",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot011",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot011",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot012",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot012",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot012",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot013",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot013",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot013",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot014",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot014",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot014",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot015",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot015",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot015",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot016",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot016",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot016",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot017",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot017",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot017",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot018",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot018",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot018",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot019",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot019",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot019",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot020",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot020",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot020",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot021",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot021",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot021",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot022",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot022",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot022",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot023",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot023",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot023",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot024",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot024",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot024",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot025",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/start_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot025",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/key_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot025",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/end_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot026",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v6_2026-08-24/start_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot026",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v6_2026-08-24/key_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot026",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v6_2026-08-24/end_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot027",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v6_2026-08-24/start_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot027",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v6_2026-08-24/key_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot027",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v6_2026-08-24/end_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot028",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v6_2026-08-24/start_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot028",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v6_2026-08-24/key_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot028",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v6_2026-08-24/end_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot029",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v6_2026-08-24/start_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot029",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v6_2026-08-24/key_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot029",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v6_2026-08-24/end_frame.png",
+      "status": "visual_reviewed",
+      "reviewed": true
+    },
+    {
+      "shot_id": "Shot030",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot030",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot030",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot031",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot031",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot031",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot032",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot032",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot032",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot033",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot033",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot033",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot034",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot034",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot034",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot035",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot035",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot035",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot036",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot036",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "status": "visual_reviewed"
+    },
+    {
+      "shot_id": "Shot036",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "status": "visual_reviewed"
+    }
+  ]
+}

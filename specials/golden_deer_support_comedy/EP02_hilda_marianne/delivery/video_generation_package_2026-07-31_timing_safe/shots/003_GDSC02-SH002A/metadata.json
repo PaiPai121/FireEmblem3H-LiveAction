@@ -1,0 +1,66 @@
+{
+  "id": "GDSC02-SH002A",
+  "order": 3,
+  "status": "approved_for_video",
+  "duration_seconds": 9,
+  "expected_clip": "clips/GDSC02-SH002A.mp4",
+  "edit_in": "cut on Hilda inviting agreement",
+  "edit_out": "cut to Marianne alone",
+  "audio_anchor": "Hilda says she will only get in the way.",
+  "continuity_previous": "GDSC02-SH001",
+  "continuity_next": "GDSC02-SH003",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+    "Preserve academy-phase face, hair, uniform, and age identity from references."
+  ],
+  "reject_if": [
+    "Marianne looks angry",
+    "Hilda shoves her",
+    "dialogue becomes bullying"
+  ],
+  "visual_version": "v4_timing_safe_micro_frames",
+  "visual_status": "timing_repaired_imagegen_frames_applied",
+  "frame_provenance": {
+    "method": "copied timing-safe frame anchors from approved parent shot",
+    "parent_shot": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/002_GDSC02-SH002",
+    "frame_sources": {
+      "start_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/002_GDSC02-SH002/start_frame.png",
+      "key_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/002_GDSC02-SH002/key_frame.png",
+      "end_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/002_GDSC02-SH002/key_frame.png"
+    }
+  },
+  "updated_at": "2026-08-01T21:28:00",
+  "temporal_frame_provenance": {
+    "method": "independent image_gen temporal frame generation",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_BpKOzl6BCSN9rNaVdsUuSgCb.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_I78PrPyJoxSsK43cSGr3MWX5.png"
+    }
+  },
+  "title": "GDSC02-SH002 / timing split A",
+  "parent_shot_id": "GDSC02-SH002",
+  "dialogue_line_count": 2,
+  "dialogue_timing_estimate_seconds": 6.95,
+  "timing_status": "approved_for_video_timing_safe",
+  "timing_frame_repair": {
+    "method": "restored real imagegen frame anchors from the approved parent chain, with explicit regenerated frames where mapped; no copied duplicate frame anchors",
+    "frame_sources": {
+      "end_frame.png": "/Users/zekun/FireEmblem3H-LiveAction/specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/002_GDSC02-SH002/end_frame.png"
+    },
+    "updated_at": "2026-08-01T21:28:00"
+  },
+  "aspect_geometry_review_2026_08_04": {
+    "reviewed_at": "2026-08-04T23:38:04",
+    "review_surface": "EP02_hilda_marianne/aspect_review_contact_2026-08-04.jpg",
+    "result": "manual_visual_pass_no_flattening_observed",
+    "checks": [
+      "no obvious horizontal flattening of faces or bodies",
+      "no obvious vertical compression of people",
+      "architecture not visibly anamorphically stretched",
+      "video frames remain 1280x720 with no subtitles or letterbox added by this review"
+    ],
+    "limitations": "manual contact-sheet geometry review catches visible flattening; duplicate-frame and composition/story-readiness remain separate gates"
+  }
+}

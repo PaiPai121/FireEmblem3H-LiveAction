@@ -1,0 +1,53 @@
+{
+  "id": "Shot015",
+  "order": 15,
+  "status": "frames_pending",
+  "duration_seconds": 8,
+  "scene": "撤离",
+  "title": "湿石上的余波",
+  "purpose": "Let the physical cost of the encounter land before the church reframes it.",
+  "source_timecode": "00:08:30",
+  "source_reference": "source_refs/game_frame_0510s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Seiros Tomb exit",
+  "characters": [
+    "Byleth",
+    "Dimitri",
+    "Dedue"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/SeirosTomb_reference.png",
+    "source/reference_pack/characters/BylethFemale_face.png",
+    "source/reference_pack/characters/BylethFemale_fullbody.png",
+    "source/reference_pack/characters/Dimitri_face.png",
+    "source/reference_pack/characters/Dimitri_fullbody.png",
+    "source/reference_pack/characters/Dedue_face.png",
+    "source/reference_pack/characters/Dedue_fullbody.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot015/frames_pending/start_frame.png",
+    "key": "storyboards/Shot015/frames_pending/key_frame.png",
+    "end": "storyboards/Shot015/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot015_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot015_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot015/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot015.md",
+  "dialogue_line_ids": [],
+  "dialogue_mode": "silent",
+  "audio_source": "production_sound_only",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Shot014 safe exit",
+  "continuity_next": "hard cut to Rhea's dry report table",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": null
+}

@@ -1,0 +1,31 @@
+{
+  "shot_id": "Shot026",
+  "review_date": "2026-08-23",
+  "review_type": "nonlethal_arrow_ground_aim_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "root_candidate_2026-08-02",
+  "current_display_frame_set": "critical_reaudit_regen_v3_2026-08-23",
+  "previous_shot": "Shot025",
+  "next_shot": "Shot027",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after user re-audit: the root candidate was a stale candidate and did not make the non-lethal impact geometry legible. Retain as historical evidence only."
+  ],
+  "finding": "2026-08-23 distance-continuity re-audit: the prior root Shot026 frame set did not make the intended mud impact patch or arrow geometry explicit. v3 receives Shot025's same-axis sightline and shows the arrow line descending below Lonato's knees toward empty ground, with the full distance still readable.",
+  "passes": [
+    "START receives the same-side Ashe shooting mark from Shot025.",
+    "KEY makes the arrow line descend toward a visible mud patch below Lonato's knee line.",
+    "END holds the full draw and exact release geometry for Shot027.",
+    "No named extra, body target, or premature release is present; motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot025→026 continuity QA, and a 3-second motion probe. Reject if the arrow line intersects Lonato or his equipment, the patch is missing, Ashe advances/releases early, Lonato attacks, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

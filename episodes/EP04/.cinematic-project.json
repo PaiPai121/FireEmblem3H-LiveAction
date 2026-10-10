@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "project": "EP04",
+  "layout": "cinematic_sequence_v1",
+  "canonical_source_root": "source",
+  "generated_root": "generated",
+  "delivery_root": "delivery",
+  "web_root": "web"
+}

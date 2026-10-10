@@ -1,0 +1,11 @@
+{
+  "date": "2026-07-31",
+  "html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/index.html",
+  "batch_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json",
+  "links_checked": 530,
+  "missing_links": [],
+  "shot_cards": 42,
+  "batch_sections": 7,
+  "problems": [],
+  "decision": "model_submission_index_file_access_passed"
+}

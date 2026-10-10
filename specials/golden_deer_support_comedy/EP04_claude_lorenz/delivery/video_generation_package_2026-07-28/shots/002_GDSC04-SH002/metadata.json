@@ -1,0 +1,39 @@
+{
+  "id": "GDSC04-SH002",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "expected_clip": "clips/GDSC04-SH002.mp4",
+  "edit_in": "cut from Lorenz's pointing gesture",
+  "edit_out": "cut to Claude's history distraction",
+  "audio_anchor": "Lorenz says Claude must be hiding something.",
+  "continuity_previous": "GDSC04-SH001",
+  "continuity_next": "GDSC04-SH003",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+    "Preserve academy-phase face, hair, uniform, and age identity from references."
+  ],
+  "reject_if": [
+    "Claude becomes villain-coded",
+    "Lorenz physically threatens him",
+    "new plot object is explained"
+  ],
+  "visual_version": "v3_temporal",
+  "visual_status": "temporal_imagegen_frames_applied",
+  "frame_provenance": {
+    "source_image": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_VaCLJRfhrZkMUBAZ7KR0GYLq.png",
+    "method": "image_gen generated base frame with cinematic reframes",
+    "rejected_previous": "rejected_mockup_frames/",
+    "strict_native_three_frame_generation": false
+  },
+  "updated_at": "2026-07-31T01:16:53",
+  "temporal_frame_provenance": {
+    "method": "independent image_gen temporal frame generation",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_KpWBk2BLqsCAdgSCNanK8Pjm.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_ZPo7snoTWShuLMc7cQ3T8PMP.png"
+    }
+  }
+}

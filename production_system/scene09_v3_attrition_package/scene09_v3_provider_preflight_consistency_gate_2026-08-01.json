@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-01",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "decision": "provider_preflight_consistency_passed",
+  "can_submit_to_provider": false,
+  "computed_can_submit_to_provider": false,
+  "expected_shots": 42,
+  "ready_clips": 0,
+  "missing_clips": 42,
+  "provider_upload_status": "blocked_preflight_gate",
+  "problems": [],
+  "warnings": [],
+  "files": {
+    "operator_preflight_status": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.json",
+      "sha256": "5fd0070314266d92023c046e7ade16e9f300b18cca4829f0b6b897692915cc58"
+    },
+    "operator_preflight_status_md": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.md",
+      "sha256": "f0a3e92e6b902cc4c3500f6965e59ef4097b917333ecd318bc8f91ad2a8c02d0"
+    },
+    "provider_upload_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_manifest.json",
+      "sha256": "7846b254187fa88af623082a92471e45afcf2c7db0c20b20221fbc9dc4bbb6d8"
+    },
+    "package_manifest": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+      "sha256": "e0e76fec0024ca576d1f094805706eea0c94f9594703832d6bd02b47c9c0af6d"
+    },
+    "model_target_profile": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_target_profile.json",
+      "sha256": "58e73135aac0124d807a2dc6948f7ba9fc450d02a9c9244b422bbe624209ee6f"
+    },
+    "clip_motion_qa_checklist": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_motion_qa_checklist.csv",
+      "sha256": "75a82fd198e7bd92b712b9b6a48c6ea6618e027119f71b805ce9f140c12b283a"
+    },
+    "clip_revision_queue_csv": {
+      "path": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_revision_queue.csv",
+      "sha256": "f6dc22ecda41bd3a4329c572b6bacb00515a4834a374ad49a6a02cb6e123709e"
+    },
+    "clip_revision_queue_json": {
+      "path": "production_system/scene09_v3_attrition_package/scene09_v3_clip_revision_queue_2026-07-28.json",
+      "sha256": "cda94475936eb9ea54c644f937fe9d6c2a7e0033412f796269ce5bd26e7a074a"
+    }
+  },
+  "evidence_decisions": {
+    "execution_asset_integrity": "execution_asset_integrity_passed",
+    "actual_delivery_surface_audit": "actual_delivery_surface_passed",
+    "current_status_consistency_gate": "current_status_consistency_passed",
+    "batch_upload_audit": "model_submission_batches_ready_for_provider_upload",
+    "submission_contract_gate": "submission_contract_gate_passed",
+    "provider_upload_bundles": "provider_upload_bundles_ready",
+    "provider_submission_freshness_gate": "provider_submission_freshness_passed"
+  },
+  "full_duration_release_gate": {
+    "decision": "full_duration_release_blocked_probe_review_pending",
+    "can_release_full_duration": false,
+    "expected_probe_clips": 42,
+    "playable_probe_clips": 0,
+    "review_frame_sets_ready": 0,
+    "full_duration_approvals": 0,
+    "release_exists": false,
+    "blocking_items": 4,
+    "problems": 0
+  },
+  "full_post_shot_ledger_contract": {
+    "rows": 42,
+    "required_review_fields": [
+      "Alive / Safe After",
+      "Active / Controlling After",
+      "Limited But Not Defeated After",
+      "Defeated / Removed After",
+      "Captured / Objective-Defeated After",
+      "Stood Down / Post-Battle After",
+      "Must Not Return Active",
+      "Changed This Shot",
+      "No-Active-Combat Line"
+    ],
+    "critical_locks": {
+      "shot032F_hubert_captured_by_felix_and_ashe": true,
+      "shot032G_dorothea_and_bernadetta_captured_by_leonie_and_claude": true,
+      "shot034B_empty_objective_teachers_absent": true,
+      "shot034G_exhausted_dimitri_dedue_core": true
+    }
+  }
+}

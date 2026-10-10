@@ -1,0 +1,39 @@
+{
+  "id": "GDSC01-SH003",
+  "order": 3,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "expected_clip": "clips/GDSC01-SH003.mp4",
+  "edit_in": "cut on Hilda finally asking",
+  "edit_out": "cut on Hilda's sudden smile",
+  "audio_anchor": "Lorenz says he will keep Hilda from danger.",
+  "continuity_previous": "GDSC01-SH002",
+  "continuity_next": "GDSC01-SH004",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+    "Preserve academy-phase face, hair, uniform, and age identity from references."
+  ],
+  "reject_if": [
+    "battle starts inside the shot",
+    "Hilda looks manipulative or mean",
+    "subtitles appear"
+  ],
+  "visual_version": "v3_temporal",
+  "visual_status": "temporal_imagegen_frames_applied",
+  "frame_provenance": {
+    "source_image": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_CfC7rBJJWnGmSS1kyWWyLItD.png",
+    "method": "image_gen generated base frame with cinematic reframes",
+    "rejected_previous": "rejected_mockup_frames/",
+    "strict_native_three_frame_generation": false
+  },
+  "updated_at": "2026-07-31T01:16:53",
+  "temporal_frame_provenance": {
+    "method": "independent image_gen temporal frame generation",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_MNLDuggIwlpOrXTGDtNDLF6q.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_9U3eMCyJnDUhJcGz3xBDzc4F.png"
+    }
+  }
+}

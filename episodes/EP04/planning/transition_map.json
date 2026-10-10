@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "episode": "EP04",
+  "axis_policy": "Tomb shots use a north-side axis; the forest is a deliberate spatial reset; the final corridor returns to the monastery axis.",
+  "transitions": [
+    {
+      "from": "Shot001",
+      "to": "Shot002",
+      "type": "match_cut",
+      "from_state": "Byleth stops before contact, leaving the door closed and the corridor readable.",
+      "to_state": "Bell shadow moves across empty stone before Byleth enters the lower third.",
+      "visual_bridge": "Preserve the handoff from 门后的光 into 钟声落地; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot002",
+      "to": "Shot003",
+      "type": "match_cut",
+      "from_state": "The camera settles behind Byleth facing the briefing doors.",
+      "to_state": "The group is quiet below Rhea; her hand rests over the crest at sternum height.",
+      "visual_bridge": "Preserve the handoff from 钟声落地 into Rhea 定义威胁; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot003",
+      "to": "Shot004",
+      "type": "cut",
+      "from_state": "Dimitri's eyes move toward the tomb direction after the line; Rhea remains still.",
+      "to_state": "Seteth takes one measured step from Rhea's shadow, leaving a clean space between faculty and students.",
+      "visual_bridge": "Preserve the handoff from Rhea 定义威胁 into Seteth 把信仰翻译成封锁; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot004",
+      "to": "Shot005",
+      "type": "cut",
+      "from_state": "Byleth glances once toward the route, then back to Seteth; nobody moves early.",
+      "to_state": "Dimitri's hands stay away from the weapon; Dedue scans the side aisle.",
+      "visual_bridge": "Preserve the handoff from Seteth 把信仰翻译成封锁 into Dimitri 接住命令; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot005",
+      "to": "Shot006",
+      "type": "cut",
+      "from_state": "Byleth answers only with a small eye movement toward the preparation room.",
+      "to_state": "A buckle closes; Dimitri's long weapon remains low; Dedue checks the left wall.",
+      "visual_bridge": "Preserve the handoff from Dimitri 接住命令 into Byleth 接管队伍; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot006",
+      "to": "Shot007",
+      "type": "cut",
+      "from_state": "The frame ends with the corridor ahead, not a hero close-up.",
+      "to_state": "The party pauses outside the threshold, one hand-span of space between each body.",
+      "visual_bridge": "Preserve the handoff from Byleth 接管队伍 into 圣墓门槛; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot007",
+      "to": "Shot008",
+      "type": "match_cut",
+      "from_state": "The camera lands on the next stone turn, establishing the north-side axis.",
+      "to_state": "Byleth leads the turn; Dimitri watches the forward opening; Dedue watches the wall and rear.",
+      "visual_bridge": "Preserve the handoff from 圣墓门槛 into 队伍的视线交接; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot008",
+      "to": "Shot009",
+      "type": "cut",
+      "from_state": "A dark seam in the wall stays visible beside Dedue for the discovery in Shot009.",
+      "to_state": "Dedue's palm stops just before the mark; no magic scanner or game effect.",
+      "visual_bridge": "Preserve the handoff from 队伍的视线交接 into 墙上的擦痕; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot009",
+      "to": "Shot010",
+      "type": "cut",
+      "from_state": "The party remains on the same marks; the next door is still closed.",
+      "to_state": "Byleth's raised hand stops movement; the three sets of feet remain visible.",
+      "visual_bridge": "Preserve the handoff from 墙上的擦痕 into 不散列; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot010",
+      "to": "Shot011",
+      "type": "cut",
+      "from_state": "The blue flame flickers behind them as the dark door opens a sliver.",
+      "to_state": "The party stays in the foreground depth while a single heavy footfall arrives from the arch.",
+      "visual_bridge": "Preserve the handoff from 不散列 into 先听见死神骑士; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot011",
+      "to": "Shot012",
+      "type": "cut",
+      "from_state": "Dimitri's eyes identify him before the camera moves closer.",
+      "to_state": "Death Knight stands beyond a visible stone buffer; Byleth's line is nearer camera, Dimitri and Dedue behind.",
+      "visual_bridge": "Preserve the handoff from 先听见死神骑士 into 威胁保持礼貌; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot012",
+      "to": "Shot013",
+      "type": "cut",
+      "from_state": "After the line, nobody advances; the silence belongs to the tomb.",
+      "to_state": "Death Knight starts about 4.5 metres away; Byleth is at the south-side threshold with the stone pillar to her right.",
+      "visual_bridge": "Preserve the handoff from 威胁保持礼貌 into 改线; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot013",
+      "to": "Shot014",
+      "type": "cut",
+      "from_state": "Byleth and the two escorts recover behind the column; Death Knight resets with the scythe low.",
+      "to_state": "Byleth backs without turning; Dimitri matches her pace; Dedue checks the last stone step.",
+      "visual_bridge": "Preserve the handoff from 改线 into 等下一次落点; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot014",
+      "to": "Shot015",
+      "type": "cut",
+      "from_state": "Byleth holds the exit line for one beat, then lowers the sword slightly.",
+      "to_state": "A boot lands on wet stone; Dimitri's weapon remains low and Dedue checks the latch.",
+      "visual_bridge": "Preserve the handoff from 等下一次落点 into 湿石上的余波; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot015",
+      "to": "Shot016",
+      "type": "cut",
+      "from_state": "The party stays silent; the bell from the monastery is barely audible.",
+      "to_state": "Rhea receives the sheet without touching Byleth's wet sleeve; Dimitri and Dedue stand behind the report line.",
+      "visual_bridge": "Preserve the handoff from 湿石上的余波 into 先报告事实; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot016",
+      "to": "Shot017",
+      "type": "cut",
+      "from_state": "The group waits for a conclusion that Rhea refuses to provide.",
+      "to_state": "Manuela's thumb covers the wet corner, not the content; Byleth is a quiet witness behind her.",
+      "visual_bridge": "Preserve the handoff from 先报告事实 into 知道内部道路; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot017",
+      "to": "Shot018",
+      "type": "cut",
+      "from_state": "Rhea's eyes move briefly toward the tombward corridor.",
+      "to_state": "The paper's route and the untouched candle share the frame; Manuela stays across the table.",
+      "visual_bridge": "Preserve the handoff from 知道内部道路 into 不是偶然; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot018",
+      "to": "Shot019",
+      "type": "cut",
+      "from_state": "Rhea does not answer; the silence becomes the final beat.",
+      "to_state": "Dimitri's shoulder is nearest, Dedue recedes, Byleth remains the visual hinge.",
+      "visual_bridge": "Preserve the handoff from 不是偶然 into 学生看见代价; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot019",
+      "to": "Shot020",
+      "type": "cut",
+      "from_state": "Byleth is the last to look away from the tomb direction.",
+      "to_state": "Rhea's body occupies the upper third; Byleth's group remains separated by two stone steps.",
+      "visual_bridge": "Preserve the handoff from 学生看见代价 into 秘密作为保护; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot020",
+      "to": "Shot021",
+      "type": "cut",
+      "from_state": "The students do not follow until the cut.",
+      "to_state": "Byleth leads by half a pace, Dimitri right-rear, Dedue left-rear; the order matches the tomb.",
+      "visual_bridge": "Preserve the handoff from 秘密作为保护 into 走廊里的同行; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot021",
+      "to": "Shot022",
+      "type": "cut",
+      "from_state": "Dimitri's hand leaves the weapon grip, preparing the confession in Shot022.",
+      "to_state": "Dimitri stops, leaves a respectful arm's length, and does not touch the weapon.",
+      "visual_bridge": "Preserve the handoff from 走廊里的同行 into 没有人安心; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot022",
+      "to": "Shot023",
+      "type": "match_cut",
+      "from_state": "Byleth does not answer; the absence of an answer is the handoff to the forest cut.",
+      "to_state": "The camera never presents a full poster silhouette; a practical fire source stays off-frame.",
+      "visual_bridge": "Preserve the handoff from 没有人安心 into 红色从树后出现; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot023",
+      "to": "Shot024",
+      "type": "color_bridge",
+      "from_state": "The red reflection travels across wet bark as the unresolved metal tone dies.",
+      "to_state": "Neither performer crosses the central wet ground; both remain helmeted and physically grounded.",
+      "visual_bridge": "Preserve the handoff from 红色从树后出现 into 两层树干之间; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot024",
+      "to": "Shot025",
+      "type": "cut",
+      "from_state": "The space remains deliberately under-filled; the next line comes from the near plane.",
+      "to_state": "The open space between helmets remains visible; the firelight grazes practical metal and wet cloth.",
+      "visual_bridge": "Preserve the handoff from 两层树干之间 into 仪式属于谁; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot025",
+      "to": "Shot026",
+      "type": "cut",
+      "from_state": "The distant presence turns its head toward the trees, implying movement elsewhere.",
+      "to_state": "The armored presence takes one slow step up the slope; Flame Emperor remains behind the tree line.",
+      "visual_bridge": "Preserve the handoff from 仪式属于谁 into 使命尚未结束; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot026",
+      "to": "Shot027",
+      "type": "match_cut",
+      "from_state": "The step stops at the top of the slope, leaving identity and allegiance unresolved.",
+      "to_state": "Byleth moves past the first column and stops before the dark tombward door.",
+      "visual_bridge": "Preserve the handoff from 使命尚未结束 into 问题回到长廊; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    },
+    {
+      "from": "Shot027",
+      "to": "Shot028",
+      "type": "cut",
+      "from_state": "Byleth's face remains in profile; the dark door is still larger than either figure.",
+      "to_state": "Byleth remains still, hand lowered, while the last practical candle gutters.",
+      "visual_bridge": "Preserve the handoff from 问题回到长廊 into 黑门不回答; no unexplained teleport or axis reversal.",
+      "audio_bridge": "Carry or deliberately cut the stated sound bed so the transition is motivated by stone, bell, metal, breath, or forest air."
+    }
+  ]
+}

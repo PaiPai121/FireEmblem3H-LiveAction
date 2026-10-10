@@ -1,0 +1,49 @@
+{
+  "shot_id": "Shot020",
+  "audit_date": "2026-08-20",
+  "decision": "monitor_required",
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "frame_set_id": "Shot020_critical_reaudit_regen_v2_2026-08-20",
+  "frames": {
+    "start": "storyboards/Shot020/critical_reaudit_regen_v2_2026-08-20/start_frame.png",
+    "key": "storyboards/Shot020/critical_reaudit_regen_v2_2026-08-20/key_frame.png",
+    "end": "storyboards/Shot020/critical_reaudit_regen_v2_2026-08-20/end_frame.png",
+    "contact_sheet": "storyboards/Shot020/critical_reaudit_regen_v2_2026-08-20/contact_sheet.jpg"
+  },
+  "reference_assets": [
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/props/shared/hero_relics/hero_relics_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+  ],
+  "female_byleth_lock": {
+    "pass": true,
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "male_asset_present": false
+  },
+  "frame_chain": {
+    "distinct_anchor_hashes": true,
+    "integrated_blocking": true,
+    "start": "Catherine enters from flank; Byleth and Ashe move into the same fog-facing action line.",
+    "key": "One controlled weapon-linked lightning cut opens a narrow lane; the trio remains active in the same space.",
+    "end": "Lightning settles; Catherine lowers the weapon and the students advance toward a distant ridge silhouette."
+  },
+  "prompt_contract": {
+    "prompt_path": "video_prompts/Shot020_prompt.md",
+    "uploaded_start_key_end_only": true,
+    "contains_local_paths": false,
+    "contains_positive_mandarin_instruction": false,
+    "spoken_dialogue": false
+  },
+  "reject_risks_checked": [
+    "superhero Catherine pose",
+    "pasted/static Byleth or Ashe",
+    "oversized poster-like lightning",
+    "graphic gore",
+    "male or war-phase Byleth",
+    "duplicate START/KEY/END"
+  ],
+  "video_prompt_qa": "pending",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-20"
+}

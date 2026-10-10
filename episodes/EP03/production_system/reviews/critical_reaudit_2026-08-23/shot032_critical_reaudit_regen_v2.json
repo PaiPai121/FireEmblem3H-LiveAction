@@ -1,0 +1,32 @@
+{
+  "shot_id": "Shot032",
+  "review_date": "2026-08-23",
+  "review_type": "rhea_seteth_order_and_byleth_reaction_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v1_2026-08-13",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+  "previous_shot": "Shot031",
+  "next_shot": "Shot033",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 as the prior 2026-08-13 web review record: v2 is retained as the current visual chain because it replaces the repeated close report tableau with approach, order, and consequence states. The prior v1 remains historical evidence only."
+  ],
+  "finding": "2026-08-23 sequential re-audit: the existing v2 frames pass the still audit as a quiet institutional order rather than a villain tableau. START receives the cathedral authority axis from Shot031, KEY makes the closed folio transfer and Rhea's raised hand explicit, and END turns Rhea away while Seteth descends and female Byleth absorbs the consequence.",
+  "passes": [
+    "START preserves the three-character cathedral axis and keeps female Byleth low in the foreground while Seteth approaches Rhea with the folio.",
+    "KEY shows the folio handoff and one restrained raised-hand order without an aggressive point, magical effect, or villain pose.",
+    "END turns Rhea away and sends Seteth down the steps while female Byleth changes eyeline for the reaction cut.",
+    "Exactly three named performers are readable, with no extra student, soldier, or armed executioner.",
+    "Female Byleth, updated mature Seteth, and Japanese-only dialogue remain locked; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot031->032 and 032->033 continuity QA, and a 3-second motion probe. Reject if Byleth reads male or ambiguous, Seteth reads young or war-phase, the handoff is missing, Rhea becomes cartoonishly evil, START/KEY/END collapse into one pose, any unlisted named character enters, or Chinese/Mandarin/subtitles/UI/pasted plates appear."
+  ]
+}

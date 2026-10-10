@@ -1,0 +1,40 @@
+{
+  "shot_id": "Shot032",
+  "audit_date": "2026-08-21",
+  "decision": "monitor_required",
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "frame_set_id": "Shot032_critical_reaudit_regen_v2_2026-08-21",
+  "frames": {
+    "start": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "contact_sheet": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg"
+  },
+  "female_byleth_lock": {
+    "pass": true,
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "male_asset_present": false
+  },
+  "seteth_age_lock": {
+    "pass": true,
+    "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "reads_as": "mature academy adviser"
+  },
+  "frame_chain": {
+    "distinct_anchor_hashes": true,
+    "integrated_blocking": true,
+    "start": "Seteth approaches Rhea with the folio while Byleth remains below.",
+    "key": "The folio changes hands, Rhea raises a calm hand, and Byleth reacts.",
+    "end": "Rhea turns away, Seteth descends, and Byleth carries the reaction."
+  },
+  "prompt_contract": {
+    "prompt_path": "video_prompts/Shot032_prompt.md",
+    "uploaded_start_key_end_only": true,
+    "contains_local_paths": false,
+    "contains_positive_mandarin_instruction": false,
+    "spoken_dialogue": true,
+    "dialogue_language": "Japanese"
+  },
+  "video_prompt_qa": "pending",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "GDSC01-SH004",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "expected_clip": "clips/GDSC01-SH004.mp4",
+  "edit_in": "cut from Hilda's delighted face",
+  "edit_out": "hold on Hilda's amused exit",
+  "audio_anchor": "Lorenz's full-name request is the comic peak.",
+  "continuity_previous": "GDSC01-SH003",
+  "continuity_next": "",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+    "Preserve academy-phase face, hair, uniform, and age identity from references."
+  ],
+  "reject_if": [
+    "Lorenz looks foolish instead of proud",
+    "Hilda eats on camera in a messy way",
+    "new conflict is introduced"
+  ],
+  "visual_version": "v3_temporal",
+  "visual_status": "temporal_imagegen_frames_applied",
+  "frame_provenance": {
+    "source_image": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_oFJAbYwZWfQ2XW1dgTKj83jS.png",
+    "method": "image_gen generated base frame with cinematic reframes",
+    "rejected_previous": "rejected_mockup_frames/",
+    "strict_native_three_frame_generation": false
+  },
+  "updated_at": "2026-07-31T01:16:53",
+  "temporal_frame_provenance": {
+    "method": "independent image_gen temporal frame generation",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_k0jAtoylEC5BjkZa7z5o5XlZ.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_ZyCUby3YyYJ7EYjCNqnVakMn.png"
+    }
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "version": 2,
+  "project": "EP03",
+  "scenes": [
+    {
+      "id": "EP03_MAINLINE",
+      "title": "EP03 雾中的叛乱",
+      "start_seconds": 0,
+      "end_seconds": 382.20000000000005,
+      "shot_ids": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009",
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018",
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027",
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    }
+  ],
+  "shot_order": [
+    "Shot001",
+    "Shot002",
+    "Shot003",
+    "Shot004",
+    "Shot005",
+    "Shot006",
+    "Shot007",
+    "Shot008",
+    "Shot009",
+    "Shot010",
+    "Shot011",
+    "Shot012",
+    "Shot013",
+    "Shot014",
+    "Shot015",
+    "Shot016",
+    "Shot017",
+    "Shot018",
+    "Shot019",
+    "Shot020",
+    "Shot021",
+    "Shot022",
+    "Shot023",
+    "Shot024",
+    "Shot025",
+    "Shot026",
+    "Shot027",
+    "Shot028",
+    "Shot029",
+    "Shot030",
+    "Shot031",
+    "Shot032",
+    "Shot033",
+    "Shot034",
+    "Shot035",
+    "Shot036"
+  ],
+  "transitions": [
+    {
+      "from": "Shot001",
+      "to": "Shot002",
+      "type": "cut",
+      "from_state": "Shot001 END current integrated frame state",
+      "to_state": "Shot002 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot001 to Shot002.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot002",
+      "to": "Shot003",
+      "type": "cut",
+      "from_state": "Shot002 END current integrated frame state",
+      "to_state": "Shot003 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot002 to Shot003.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot003",
+      "to": "Shot004",
+      "type": "cut",
+      "from_state": "Shot003 END current integrated frame state",
+      "to_state": "Shot004 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot003 to Shot004.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot004",
+      "to": "Shot005",
+      "type": "cut",
+      "from_state": "Shot004 END current integrated frame state",
+      "to_state": "Shot005 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot004 to Shot005.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot005",
+      "to": "Shot006",
+      "type": "cut",
+      "from_state": "Shot005 END current integrated frame state",
+      "to_state": "Shot006 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot005 to Shot006.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot006",
+      "to": "Shot007",
+      "type": "cut",
+      "from_state": "Shot006 END current integrated frame state",
+      "to_state": "Shot007 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot006 to Shot007.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot007",
+      "to": "Shot008",
+      "type": "cut",
+      "from_state": "Shot007 END current integrated frame state",
+      "to_state": "Shot008 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot007 to Shot008.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot008",
+      "to": "Shot009",
+      "type": "cut",
+      "from_state": "Shot008 END current integrated frame state",
+      "to_state": "Shot009 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot008 to Shot009.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot009",
+      "to": "Shot010",
+      "type": "cut",
+      "from_state": "Shot009 END current integrated frame state",
+      "to_state": "Shot010 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot009 to Shot010.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot010",
+      "to": "Shot011",
+      "type": "cut",
+      "from_state": "Shot010 END current integrated frame state",
+      "to_state": "Shot011 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot010 to Shot011.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot011",
+      "to": "Shot012",
+      "type": "cut",
+      "from_state": "Shot011 END current integrated frame state",
+      "to_state": "Shot012 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot011 to Shot012.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot012",
+      "to": "Shot013",
+      "type": "cut",
+      "from_state": "Shot012 END current integrated frame state",
+      "to_state": "Shot013 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot012 to Shot013.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot013",
+      "to": "Shot014",
+      "type": "cut",
+      "from_state": "Shot013 END current integrated frame state",
+      "to_state": "Shot014 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot013 to Shot014.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot014",
+      "to": "Shot015",
+      "type": "cut",
+      "from_state": "Shot014 END current integrated frame state",
+      "to_state": "Shot015 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot014 to Shot015.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot015",
+      "to": "Shot016",
+      "type": "cut",
+      "from_state": "Shot015 END current integrated frame state",
+      "to_state": "Shot016 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot015 to Shot016.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot016",
+      "to": "Shot017",
+      "type": "cut",
+      "from_state": "Shot016 END current integrated frame state",
+      "to_state": "Shot017 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot016 to Shot017.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot017",
+      "to": "Shot018",
+      "type": "cut",
+      "from_state": "Shot017 END current integrated frame state",
+      "to_state": "Shot018 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot017 to Shot018.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot018",
+      "to": "Shot019",
+      "type": "cut",
+      "from_state": "Shot018 END current integrated frame state",
+      "to_state": "Shot019 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot018 to Shot019.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot019",
+      "to": "Shot020",
+      "type": "cut",
+      "from_state": "Shot019 END current integrated frame state",
+      "to_state": "Shot020 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot019 to Shot020.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot020",
+      "to": "Shot021",
+      "type": "cut",
+      "from_state": "Shot020 END current integrated frame state",
+      "to_state": "Shot021 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot020 to Shot021.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot021",
+      "to": "Shot022",
+      "type": "cut",
+      "from_state": "Shot021 END current integrated frame state",
+      "to_state": "Shot022 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot021 to Shot022.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot022",
+      "to": "Shot023",
+      "type": "cut",
+      "from_state": "Shot022 END current integrated frame state",
+      "to_state": "Shot023 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot022 to Shot023.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot023",
+      "to": "Shot024",
+      "type": "cut",
+      "from_state": "Shot023 END current integrated frame state",
+      "to_state": "Shot024 START current integrated frame state",
+      "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot023 to Shot024.",
+      "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+    },
+    {
+      "from": "Shot024",
+      "to": "Shot025",
+      "type": "geography_establish",
+      "from_state": "rear command pocket with open side lanes",
+      "to_state": "near academy formation held behind a terrain-and-guard barrier",
+      "visual_bridge": "same wet fog, ridge, blue banners, and north-side battlefield axis; the reboard makes the fork, guard screen, Ashe's right-side route, and far-ridge Lonato read as separate layers",
+      "audio_bridge": "Byleth's order resolves into distant boots, shield hardware, and fog-muted movement; no new spoken line"
+    },
+    {
+      "from": "Shot025",
+      "to": "Shot026",
+      "type": "protected_action_insert",
+      "from_state": "wide lower-right academy formation, two guards across the middle crossing, Lonato beyond the basin",
+      "to_state": "isolated Ashe warning position with the same two guards still between her and Lonato",
+      "visual_bridge": "Ashe's lower-right mark, Lonato's uphill-left direction, the two guard positions, and the blocked crossing are inherited; only the coverage scale changes",
+      "audio_bridge": "wide formation movement narrows to bow leather, breath, and guard hardware before the Japanese apology"
+    },
+    {
+      "from": "Shot026",
+      "to": "Shot027",
+      "type": "guard_intervention",
+      "from_state": "Ashe holds a lowered nocked arrow; two guards physically interrupt the crossing; Lonato remains far beyond them",
+      "to_state": "Catherine enters the left gap while Ashe stays back and the same two guards remain in the lane",
+      "visual_bridge": "same wet barriers, screen sides, ravine depth, and far upper-left Lonato mark; only the coverage scale and Catherine's entry change",
+      "audio_bridge": "Ashe's Japanese apology resolves into Catherine's wet footfalls, guard hardware, and a single practical metal redirection"
+    },
+    {
+      "from": "Shot027",
+      "to": "Shot028",
+      "type": "motivated_combat_escalation",
+      "from_state": "Catherine has displaced the nearer guard; the second guard retreats into Lonato's cover and Lonato is still untouched",
+      "to_state": "closer side coverage begins with Lonato's shield-led protective step and one controlled sword press; both guards remain visible",
+      "visual_bridge": "the cleared muddy lane, Catherine's low Thunderbrand, the retreating guard, Lonato's shield, and the same side axis survive the scale change",
+      "audio_bridge": "metal redirection decays into wet boots, shield shift, and one deliberate ordinary-sword press"
+    },
+    {
+      "from": "Shot028",
+      "to": "Shot029",
+      "type": "combat_recovery",
+      "from_state": "ordinary sword dropped; Lonato upright, shield forward, and losing balance; Catherine low and disengaging",
+      "to_state": "Lonato begins a controlled one-knee recovery while female Byleth, Dimitri, and Ashe hold separate distant marks",
+      "visual_bridge": "dropped sword, shield-led silhouette, mud lane, uphill-left screen direction, and the guard withdrawal are preserved; the observers enter as a measured wider coverage",
+      "audio_bridge": "metal drop settles into armor shift, wet knee contact, restrained breath, and the field's fighting receding"
+    },
+    {
+      "from": "Shot029",
+      "to": "Shot030",
+      "type": "aftermath_handoff",
+      "from_state": "Lonato fully kneeling and isolated; female Byleth, Dimitri, and Ashe hold staggered distant marks",
+      "to_state": "Shot030's empty battle-lane reaction begins after Lonato clears from frame",
+      "visual_bridge": "same wet battlefield, low weapons, mud residue, and non-rushing witness geography; Shot030 is a deliberate aftermath coverage change",
+      "audio_bridge": "kneel impact and armor settle into wind, damp cloth, and restrained post-battle silence"
+    },
+    {
+      "from": "Shot030",
+      "to": "Shot031",
+      "type": "aftermath_to_institutional_cut",
+      "from_state": "three witnesses hold a quiet muddy lane after Catherine exits; Lonato remains offscreen",
+      "to_state": "the same students enter the cathedral report space below Rhea and Seteth",
+      "visual_bridge": "damp academy hems, restrained faces and the female Byleth identity carry across a deliberate battlefield-to-cathedral hard cut",
+      "audio_bridge": "field wind and armor settle cut to wet cathedral footsteps and institutional room tone; Japanese dialogue remains in Shot031 only"
+    },
+    {
+      "from": "Shot031",
+      "to": "Shot032",
+      "type": "institutional_order_handoff",
+      "from_state": "Rhea has turned away and Seteth carries the closed folio down while the students remain below",
+      "to_state": "the order narrows to Rhea, mature Seteth, and female Byleth with Seteth approaching for the final handoff",
+      "visual_bridge": "same cathedral axis, wet floor, folio, altar elevation, and female Byleth identity; Dimitri and Ashe clear out without entering Shot032",
+      "audio_bridge": "cathedral reverb and folio close carry into measured steps and the Japanese order"
+    },
+    {
+      "from": "Shot032",
+      "to": "Shot033",
+      "type": "institutional_to_student_reaction_cut",
+      "from_state": "order carried down the steps; female Byleth remains unsettled below",
+      "to_state": "Ashe, Dimitri, Felix, and female Byleth separate into four quiet reaction marks",
+      "visual_bridge": "same wet cathedral stone, mud residue, academy uniforms, and moral pressure; Rhea and Seteth clear from frame Current v2 frame paths are the canonical handoff.",
+      "audio_bridge": "folio/step reverb resolves into a distant door closure and silent student breath"
+    },
+    {
+      "from": "Shot033",
+      "to": "Shot034",
+      "type": "eyeline_to_side_conversation",
+      "from_state": "female Byleth turns toward the open right corridor; Ashe remains bowed and the other students fall out of the side-talk lane",
+      "to_state": "Ashe has stopped at respectful distance from Catherine; Byleth observes from the rear doorway",
+      "visual_bridge": "rightward eyeline, wet-stone material, academy mud residue, and a clear corridor carry into a new cloister axis without a lineup",
+      "audio_bridge": "distant door closure and cathedral room tone give way to wet cloister ambience, lowered bow leather, and Catherine's single Japanese line"
+    },
+    {
+      "from": "Shot034",
+      "to": "Shot035",
+      "type": "conversation_to_walkaway_cut",
+      "from_state": "Catherine faces Ashe with Thunderbrand sheathed; female Byleth begins the rightward exit and the conversational distance remains open",
+      "to_state": "night cloister begins with Dimitri walking ahead and female Byleth several paces behind",
+      "visual_bridge": "the rightward exit lane, wet stone, academy wardrobe, and restrained moral pressure survive the time-of-day hard cut; Catherine and Ashe do not return",
+      "audio_bridge": "Catherine's final Japanese syllable and cloister reverb settle into night rain residue, wet boots, and Dimitri's later Japanese line"
+    },
+    {
+      "from": "Shot035",
+      "to": "Shot036",
+      "type": "night_exit_to_cathedral_mystery_cut",
+      "from_state": "Dimitri leaves the dark arch while female Byleth remains under the lamp",
+      "to_state": "female Byleth holds the cathedral threshold with Rhea distant; Sothis has not yet appeared",
+      "visual_bridge": "female Byleth identity, dark academy professor wardrobe, and restrained moral pressure carry through the time-of-day/interior cut; Dimitri, Catherine, and Ashe clear before the cathedral axis resets",
+      "audio_bridge": "night cloister room tone dissolves into cathedral reverb and candle hush; Sothis's single Japanese line enters only after the KEY reveal and resolves before the cut to black"
+    }
+  ]
+}

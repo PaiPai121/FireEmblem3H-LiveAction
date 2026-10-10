@@ -1,0 +1,49 @@
+{
+  "id": "Shot001",
+  "order": 1,
+  "status": "frames_pending",
+  "duration_seconds": 9,
+  "scene": "序幕",
+  "title": "门后的光",
+  "purpose": "Turn source ritual imagery into Byleth's private unease.",
+  "source_timecode": "00:00:00",
+  "source_reference": "source_refs/game_frame_0000s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Dream Sanctuary / cathedral threshold",
+  "characters": [
+    "Byleth",
+    "Sothis"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/DreamSanctuary_reference.png",
+    "source/reference_pack/characters/BylethFemale_face.png",
+    "source/reference_pack/characters/BylethFemale_fullbody.png",
+    "source/reference_pack/characters/Sothis_identity.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot001/frames_pending/start_frame.png",
+    "key": "storyboards/Shot001/frames_pending/key_frame.png",
+    "end": "storyboards/Shot001/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot001_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot001_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot001/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot001.md",
+  "dialogue_line_ids": [],
+  "dialogue_mode": "silent",
+  "audio_source": "production_sound_only",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "open from black",
+  "continuity_next": "bell resonance continues into Shot002",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": null
+}

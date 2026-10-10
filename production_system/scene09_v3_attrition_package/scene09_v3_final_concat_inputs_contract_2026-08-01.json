@@ -1,0 +1,437 @@
+{
+  "date": "2026-08-01",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "decision": "final_concat_inputs_contract_passed",
+  "expected_shots": 42,
+  "rows_checked": 42,
+  "unique_expected_clips": 42,
+  "expected_duration_seconds": 252,
+  "duration_sum_seconds": 252,
+  "ordered_clip_signature_sha256": "96c7fa9ed9cafef60b73c4ccc4d59579e61357d12a8a5e54f3a6fa0a61e400f0",
+  "concat_list_preview_sha256": "9aa753edfb26b8105bbea72b40e682e865ff6e3776f0db220abd077b960292b6",
+  "concat_list_preview": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4'\nfile '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4'\n",
+  "problems": [],
+  "rows": [
+    {
+      "order": 1,
+      "shot": "Shot025",
+      "id": "EP02-SC09-SHOT-Shot025-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4'",
+      "problems": []
+    },
+    {
+      "order": 2,
+      "shot": "Shot025A",
+      "id": "EP02-SC09-SHOT-Shot025A-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4'",
+      "problems": []
+    },
+    {
+      "order": 3,
+      "shot": "Shot026",
+      "id": "EP02-SC09-SHOT-Shot026-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4'",
+      "problems": []
+    },
+    {
+      "order": 4,
+      "shot": "Shot026B",
+      "id": "EP02-SC09-SHOT-Shot026B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 5,
+      "shot": "Shot026C",
+      "id": "EP02-SC09-SHOT-Shot026C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 6,
+      "shot": "Shot027",
+      "id": "EP02-SC09-SHOT-Shot027-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4'",
+      "problems": []
+    },
+    {
+      "order": 7,
+      "shot": "Shot027B",
+      "id": "EP02-SC09-SHOT-Shot027B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 8,
+      "shot": "Shot027C",
+      "id": "EP02-SC09-SHOT-Shot027C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 9,
+      "shot": "Shot027D",
+      "id": "EP02-SC09-SHOT-Shot027D-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4'",
+      "problems": []
+    },
+    {
+      "order": 10,
+      "shot": "Shot028",
+      "id": "EP02-SC09-SHOT-Shot028-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4'",
+      "problems": []
+    },
+    {
+      "order": 11,
+      "shot": "Shot028B",
+      "id": "EP02-SC09-SHOT-Shot028B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 12,
+      "shot": "Shot028C",
+      "id": "EP02-SC09-SHOT-Shot028C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 13,
+      "shot": "Shot029",
+      "id": "EP02-SC09-SHOT-Shot029-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4'",
+      "problems": []
+    },
+    {
+      "order": 14,
+      "shot": "Shot029C",
+      "id": "EP02-SC09-SHOT-Shot029C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 15,
+      "shot": "Shot029D",
+      "id": "EP02-SC09-SHOT-Shot029D-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4'",
+      "problems": []
+    },
+    {
+      "order": 16,
+      "shot": "Shot029B",
+      "id": "EP02-SC09-SHOT-Shot029B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 17,
+      "shot": "Shot030",
+      "id": "EP02-SC09-SHOT-Shot030-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4'",
+      "problems": []
+    },
+    {
+      "order": 18,
+      "shot": "Shot030B",
+      "id": "EP02-SC09-SHOT-Shot030B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 19,
+      "shot": "Shot030C",
+      "id": "EP02-SC09-SHOT-Shot030C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 20,
+      "shot": "Shot031",
+      "id": "EP02-SC09-SHOT-Shot031-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4'",
+      "problems": []
+    },
+    {
+      "order": 21,
+      "shot": "Shot031B",
+      "id": "EP02-SC09-SHOT-Shot031B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 22,
+      "shot": "Shot032",
+      "id": "EP02-SC09-SHOT-Shot032-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4'",
+      "problems": []
+    },
+    {
+      "order": 23,
+      "shot": "Shot032A",
+      "id": "EP02-SC09-SHOT-Shot032A-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4'",
+      "problems": []
+    },
+    {
+      "order": 24,
+      "shot": "Shot032B",
+      "id": "EP02-SC09-SHOT-Shot032B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 25,
+      "shot": "Shot032C",
+      "id": "EP02-SC09-SHOT-Shot032C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 26,
+      "shot": "Shot032D",
+      "id": "EP02-SC09-SHOT-Shot032D-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4'",
+      "problems": []
+    },
+    {
+      "order": 27,
+      "shot": "Shot032E",
+      "id": "EP02-SC09-SHOT-Shot032E-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4'",
+      "problems": []
+    },
+    {
+      "order": 28,
+      "shot": "Shot032F",
+      "id": "EP02-SC09-SHOT-Shot032F-V2-20260724",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4'",
+      "problems": []
+    },
+    {
+      "order": 29,
+      "shot": "Shot032G",
+      "id": "EP02-SC09-SHOT-Shot032G-V2-20260724",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4'",
+      "problems": []
+    },
+    {
+      "order": 30,
+      "shot": "Shot033",
+      "id": "EP02-SC09-SHOT-Shot033-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4'",
+      "problems": []
+    },
+    {
+      "order": 31,
+      "shot": "Shot033B",
+      "id": "EP02-SC09-SHOT-Shot033B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 32,
+      "shot": "Shot033C",
+      "id": "EP02-SC09-SHOT-Shot033C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 33,
+      "shot": "Shot033D",
+      "id": "EP02-SC09-SHOT-Shot033D-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4'",
+      "problems": []
+    },
+    {
+      "order": 34,
+      "shot": "Shot034C",
+      "id": "EP02-SC09-SHOT-Shot034C-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4'",
+      "problems": []
+    },
+    {
+      "order": 35,
+      "shot": "Shot034D",
+      "id": "EP02-SC09-SHOT-Shot034D-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4'",
+      "problems": []
+    },
+    {
+      "order": 36,
+      "shot": "Shot034B",
+      "id": "EP02-SC09-SHOT-Shot034B-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4'",
+      "problems": []
+    },
+    {
+      "order": 37,
+      "shot": "Shot034E",
+      "id": "EP02-SC09-SHOT-Shot034E-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4'",
+      "problems": []
+    },
+    {
+      "order": 38,
+      "shot": "Shot034F",
+      "id": "EP02-SC09-SHOT-Shot034F-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4'",
+      "problems": []
+    },
+    {
+      "order": 39,
+      "shot": "Shot034G",
+      "id": "EP02-SC09-SHOT-Shot034G-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4'",
+      "problems": []
+    },
+    {
+      "order": 40,
+      "shot": "Shot034",
+      "id": "EP02-SC09-SHOT-Shot034-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4'",
+      "problems": []
+    },
+    {
+      "order": 41,
+      "shot": "Shot035",
+      "id": "EP02-SC09-SHOT-Shot035-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4'",
+      "problems": []
+    },
+    {
+      "order": 42,
+      "shot": "Shot036",
+      "id": "EP02-SC09-SHOT-Shot036-V2-20260721",
+      "duration_seconds": 6,
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4",
+      "expected_clip_absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4",
+      "concat_list_line": "file '/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4'",
+      "problems": []
+    }
+  ]
+}

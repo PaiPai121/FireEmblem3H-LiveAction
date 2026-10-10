@@ -1,0 +1,85 @@
+{
+  "decision": "approved_for_video",
+  "episodes": [
+    {
+      "episode": "EP01_hilda_lorenz",
+      "pair": "Hilda x Lorenz",
+      "review": "specials/golden_deer_support_comedy/EP01_hilda_lorenz/delivery/video_generation_package_2026-07-31_timing_safe/prompt_qa_review.md",
+      "decision": "approved_for_video",
+      "shot_decisions": {
+        "001_GDSC01-SH001A": "approved_for_video",
+        "002_GDSC01-SH001B": "approved_for_video",
+        "003_GDSC01-SH002A": "approved_for_video",
+        "004_GDSC01-SH002B": "approved_for_video",
+        "005_GDSC01-SH002C": "approved_for_video",
+        "006_GDSC01-SH003A": "approved_for_video",
+        "007_GDSC01-SH003B": "approved_for_video",
+        "008_GDSC01-SH003C": "approved_for_video",
+        "009_GDSC01-SH004A": "approved_for_video",
+        "010_GDSC01-SH004B": "approved_for_video",
+        "011_GDSC01-SH004C": "approved_for_video"
+      },
+      "blocking_issues": [],
+      "monitor_risks": []
+    },
+    {
+      "episode": "EP02_hilda_marianne",
+      "pair": "Hilda x Marianne",
+      "review": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-31_timing_safe/prompt_qa_review.md",
+      "decision": "approved_for_video",
+      "shot_decisions": {
+        "001_GDSC02-SH001A": "approved_for_video",
+        "002_GDSC02-SH001B": "approved_for_video",
+        "003_GDSC02-SH002A": "approved_for_video",
+        "004_GDSC02-SH002B": "approved_for_video",
+        "005_GDSC02-SH003A": "approved_for_video",
+        "006_GDSC02-SH003B": "approved_for_video",
+        "007_GDSC02-SH003C": "approved_for_video",
+        "008_GDSC02-SH004A": "approved_for_video",
+        "009_GDSC02-SH004B": "approved_for_video",
+        "010_GDSC02-SH004C": "approved_for_video"
+      },
+      "blocking_issues": [],
+      "monitor_risks": []
+    },
+    {
+      "episode": "EP03_hilda_lysithea",
+      "pair": "Hilda x Lysithea",
+      "review": "specials/golden_deer_support_comedy/EP03_hilda_lysithea/delivery/video_generation_package_2026-07-31_timing_safe/prompt_qa_review.md",
+      "decision": "approved_for_video",
+      "shot_decisions": {
+        "001_GDSC03-SH001A": "approved_for_video",
+        "002_GDSC03-SH001B": "approved_for_video",
+        "003_GDSC03-SH002A": "approved_for_video",
+        "004_GDSC03-SH002B": "approved_for_video",
+        "005_GDSC03-SH002C": "approved_for_video",
+        "006_GDSC03-SH003A": "approved_for_video",
+        "007_GDSC03-SH003B": "approved_for_video",
+        "008_GDSC03-SH004A": "approved_for_video",
+        "009_GDSC03-SH004B": "approved_for_video",
+        "010_GDSC03-SH004C": "approved_for_video"
+      },
+      "blocking_issues": [],
+      "monitor_risks": []
+    },
+    {
+      "episode": "EP04_claude_lorenz",
+      "pair": "Claude x Lorenz",
+      "review": "specials/golden_deer_support_comedy/EP04_claude_lorenz/delivery/video_generation_package_2026-07-31_timing_safe/prompt_qa_review.md",
+      "decision": "approved_for_video",
+      "shot_decisions": {
+        "001_GDSC04-SH001A": "approved_for_video",
+        "002_GDSC04-SH001B": "approved_for_video",
+        "003_GDSC04-SH002A": "approved_for_video",
+        "004_GDSC04-SH002B": "approved_for_video",
+        "005_GDSC04-SH002C": "approved_for_video",
+        "006_GDSC04-SH003A": "approved_for_video",
+        "007_GDSC04-SH003B": "approved_for_video",
+        "008_GDSC04-SH004A": "approved_for_video",
+        "009_GDSC04-SH004B": "approved_for_video"
+      },
+      "blocking_issues": [],
+      "monitor_risks": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "shot_id": "Shot024",
+  "review_date": "2026-08-23",
+  "review_type": "rear_command_and_buffer_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "current_display_frame_set": "critical_reaudit_regen_v3_2026-08-23",
+  "previous_shot": "Shot023",
+  "next_shot": "Shot025",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after user re-audit: v2 did not make the rear command pocket and non-execution buffer explicit enough. v2 is historical evidence only."
+  ],
+  "finding": "2026-08-23 distance-continuity re-audit: v2 made the command readable but left the physical command pocket and Lonato distance too implicit. v3 moves Byleth behind Ashe, keeps the sword tip on empty flank lanes, and makes Dimitri/Dedue/Ingrid first movement establish a buffer rather than an execution surround.",
+  "passes": [
+    "START receives the wide refusal road and places Byleth in the rear command pocket.",
+    "KEY points the sword at empty side lanes and leaves the Lonato road buffer visible.",
+    "END starts the two flank lanes without completing the surround.",
+    "Female Byleth and Dedue's braid remain locked; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot023→024 continuity QA, and a 3-second motion probe. Reject if Byleth is close enough to execute Lonato, the sword targets a body, Ashe raises/fires, Lonato attacks, Dedue loses the braid, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

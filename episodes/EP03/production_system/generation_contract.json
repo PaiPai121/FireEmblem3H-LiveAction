@@ -1,0 +1,1563 @@
+{
+  "version": 2,
+  "contract_id": "EP03-full-current-frame-chain-2026-09-02",
+  "project": "EP03",
+  "project_root": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03",
+  "target": "prompt_asset_package",
+  "frames_required": true,
+  "asset_generation": false,
+  "age_lock_required": false,
+  "dialogue_pacing_required": true,
+  "native_dialogue_policy": "probe_then_approve",
+  "timing_policy": {
+    "required": true,
+    "default_speech_characters_per_second": 5,
+    "min_speech_characters_per_second": 3.5,
+    "max_speech_characters_per_second": 6.5,
+    "max_interline_silence_seconds": 0.25,
+    "max_tail_hold_seconds": 0.35,
+    "max_reaction_tail_seconds": 1,
+    "one_utterance_per_clip_by_default": true
+  },
+  "target_aspect": "16:9",
+  "visual_target": "integrated live-action human performers with physically grounded wet battlefield or monastery environments, continuous screen direction, and Japanese-production audio constraints",
+  "style_lock": {
+    "description": "photographed human performers, practical armor and cloth, real wet materials, motivated cinematic light, natural skin detail and contact shadows",
+    "forbidden_visuals": [
+      "game screenshot",
+      "3D render",
+      "concept-art illustration",
+      "anime",
+      "poster lineup",
+      "portrait-only frame",
+      "pasted cutout",
+      "Chinese/Mandarin voiceover",
+      "subtitles",
+      "UI"
+    ]
+  },
+  "expected_files_per_shot": [
+    "start_frame.png",
+    "key_frame.png",
+    "end_frame.png"
+  ],
+  "reference_sets": [
+    {
+      "id": "EP03-REF-02cb2f9ee2cf",
+      "path": "production_system/shared_references/assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png",
+      "role": "prop",
+      "generation_allowed": true,
+      "source_path": "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    },
+    {
+      "id": "EP03-REF-045a3c1850e8",
+      "path": "production_system/shared_references/assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png"
+    },
+    {
+      "id": "EP03-REF-0614a791d9f9",
+      "path": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-175ec394604c",
+      "path": "source_refs/Shot014_source.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "episodes/EP03/source_refs/Shot014_source.png"
+    },
+    {
+      "id": "EP03-REF-19a5ae7173f5",
+      "path": "production_system/shared_references/assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+    },
+    {
+      "id": "EP03-REF-228e40746fbc",
+      "path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-280b3525395b",
+      "path": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-2df8f3d26445",
+      "path": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-2e88154246db",
+      "path": "production_system/shared_references/assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png"
+    },
+    {
+      "id": "EP03-REF-336fbaf65bbb",
+      "path": "production_system/shared_references/assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/church_of_seiros/Catherine/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-3fd9b75e792d",
+      "path": "production_system/shared_references/assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png"
+    },
+    {
+      "id": "EP03-REF-4209d6a10c92",
+      "path": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-430104ea6d9b",
+      "path": "production_system/shared_references/assets/characters/blue_lions/Ashe/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/blue_lions/Ashe/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-48b604f2b573",
+      "path": "source_refs/Shot005_source.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "episodes/EP03/source_refs/Shot005_source.png"
+    },
+    {
+      "id": "EP03-REF-4f72f3212209",
+      "path": "production_system/shared_references/assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "role": "prop",
+      "generation_allowed": true,
+      "source_path": "assets/props/shared/hero_relics/thunderbrand_reference.png"
+    },
+    {
+      "id": "EP03-REF-4fcb0abfed5a",
+      "path": "production_system/shared_references/assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png"
+    },
+    {
+      "id": "EP03-REF-50c0874edd9c",
+      "path": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-50e43dcf8b46",
+      "path": "production_system/shared_references/assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/church_of_seiros/Seteth/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-5e6a753f6e95",
+      "path": "source_refs/Shot001_source.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "episodes/EP03/source_refs/Shot001_source.png"
+    },
+    {
+      "id": "EP03-REF-671e706cc4f7",
+      "path": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-6a17c767590b",
+      "path": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-6b1a0014836b",
+      "path": "production_system/shared_references/assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/protagonist/BylethFemale/professor/selected.png"
+    },
+    {
+      "id": "EP03-REF-6e88ee7416d0",
+      "path": "production_system/shared_references/assets/locations/DreamSanctuary/EP01_scene_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/DreamSanctuary/EP01_scene_reference.png"
+    },
+    {
+      "id": "EP03-REF-73e5d82dd245",
+      "path": "production_system/shared_references/assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "role": "style",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png"
+    },
+    {
+      "id": "EP03-REF-88217eeb0f19",
+      "path": "production_system/shared_references/assets/props/shared/sword_of_creator/selected.png",
+      "role": "prop",
+      "generation_allowed": true,
+      "source_path": "assets/props/shared/sword_of_creator/selected.png"
+    },
+    {
+      "id": "EP03-REF-8d6cad42c308",
+      "path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-9059d09a7c2b",
+      "path": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-939573f47531",
+      "path": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-94f531eaf0f3",
+      "path": "production_system/shared_references/assets/characters/extras/BanditSoldier/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/extras/BanditSoldier/selected.png"
+    },
+    {
+      "id": "EP03-REF-9d3fefc5466f",
+      "path": "production_system/shared_references/assets/characters/blue_lions/Felix/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/blue_lions/Felix/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-9d8796a3fc47",
+      "path": "production_system/shared_references/assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/church_of_seiros/Rhea/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-9db60fbdd84e",
+      "path": "production_system/shared_references/assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/blue_lions/Ingrid/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-9e3571f810fc",
+      "path": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-9eeeee253d4f",
+      "path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-a483b7c09b20",
+      "path": "production_system/shared_references/assets/props/shared/hero_relics/hero_relics_reference.png",
+      "role": "prop",
+      "generation_allowed": true,
+      "source_path": "assets/props/shared/hero_relics/hero_relics_reference.png"
+    },
+    {
+      "id": "EP03-REF-a88fc5a8ac9c",
+      "path": "source_refs/Shot004_source.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "episodes/EP03/source_refs/Shot004_source.png"
+    },
+    {
+      "id": "EP03-REF-adea0afa9093",
+      "path": "production_system/shared_references/assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png"
+    },
+    {
+      "id": "EP03-REF-b11f9b95c33d",
+      "path": "production_system/shared_references/assets/characters/blue_lions/Annette/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/blue_lions/Annette/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-b97b54f41054",
+      "path": "production_system/shared_references/assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/church_of_seiros/SeirosSoldier/selected.png"
+    },
+    {
+      "id": "EP03-REF-c0590d58d622",
+      "path": "production_system/shared_references/assets/props/EP02/training_weapons/training_weapons_reference.png",
+      "role": "prop",
+      "generation_allowed": true,
+      "source_path": "assets/props/EP02/training_weapons/training_weapons_reference.png"
+    },
+    {
+      "id": "EP03-REF-c05b20bdc1a0",
+      "path": "production_system/shared_references/assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png"
+    },
+    {
+      "id": "EP03-REF-d3b9d6081d8b",
+      "path": "production_system/shared_references/assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "role": "location",
+      "generation_allowed": true,
+      "source_path": "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+    },
+    {
+      "id": "EP03-REF-d525056df4ed",
+      "path": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "role": "planning_only",
+      "generation_allowed": false,
+      "source_path": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-d7e76bf480ee",
+      "path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-da9e7ada751c",
+      "path": "production_system/shared_references/assets/characters/blue_lions/Dedue/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/blue_lions/Dedue/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-df260f6db480",
+      "path": "production_system/shared_references/assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png"
+    },
+    {
+      "id": "EP03-REF-e8266799f241",
+      "path": "production_system/shared_references/assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/blue_lions/Dimitri/academy/selected.png"
+    },
+    {
+      "id": "EP03-REF-f4b83e596769",
+      "path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "role": "composition",
+      "generation_allowed": true,
+      "source_path": "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    {
+      "id": "EP03-REF-fe6920dd17cd",
+      "path": "production_system/shared_references/assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "role": "identity",
+      "generation_allowed": true,
+      "source_path": "assets/characters/blue_lions/Mercedes/academy/selected.png"
+    }
+  ],
+  "global_reject_if": [
+    "unresolved provenance",
+    "missing frame receipt",
+    "male Byleth in a female-Byleth shot",
+    "pasted cutout integration",
+    "unapproved motion drift"
+  ],
+  "reboard_plan": {
+    "revision": "manga_readability_reboard_v1_2026-09-09",
+    "status": "promoted_to_current",
+    "queue_file": "production_system/reboard_generation_queue_2026-09-09.json",
+    "shots": {
+      "Shot025": {
+        "frame_set_id": "Shot025_manga_readability_reboard_v1_2026-09-09",
+        "frames": {
+          "start": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+          "key": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+          "end": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "assets/characters/blue_lions/Dedue/academy/selected.png",
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+          "assets/characters/extras/BanditSoldier/selected.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+          "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+        ],
+        "source": "imagegen_integrated_live_action_command_split_guard_screen_v1_2026-09-09"
+      },
+      "Shot026": {
+        "frame_set_id": "Shot026_manga_readability_reboard_v1_2026-09-09",
+        "frames": {
+          "start": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+          "key": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+          "end": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+          "assets/characters/extras/BanditSoldier/selected.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+          "episodes/EP03/storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        ],
+        "source": "imagegen_integrated_live_action_ashe_empty_ground_warning_v1_2026-09-09"
+      },
+      "Shot027": {
+        "frame_set_id": "Shot027_manga_readability_reboard_v1_2026-09-09",
+        "frames": {
+          "start": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+          "key": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+          "end": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+          "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+          "assets/characters/extras/BanditSoldier/selected.png",
+          "assets/props/shared/hero_relics/thunderbrand_reference.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+          "episodes/EP03/storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        ],
+        "source": "imagegen_integrated_live_action_catherine_guard_first_intervention_v1_2026-09-09"
+      },
+      "Shot028": {
+        "frame_set_id": "Shot028_manga_readability_reboard_v1_2026-09-09",
+        "frames": {
+          "start": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+          "key": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+          "end": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+          "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+          "assets/characters/extras/BanditSoldier/selected.png",
+          "assets/props/shared/hero_relics/thunderbrand_reference.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+          "episodes/EP03/storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        ],
+        "source": "imagegen_integrated_live_action_lonato_protective_press_thunderbrand_disarm_v1_2026-09-09"
+      },
+      "Shot029": {
+        "frame_set_id": "Shot029_manga_readability_reboard_v1_2026-09-09",
+        "frames": {
+          "start": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+          "key": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+          "end": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+          "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+          "episodes/EP03/storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        ],
+        "source": "imagegen_integrated_live_action_lonato_moral_aftermath_female_byleth_v1_2026-09-09"
+      }
+    },
+    "prerequisite": "The rough readability thumbnail must pass before final-looking frames are promoted."
+  },
+  "external_film_staging_reboard": {
+    "revision": "external_film_staging_reboard_v1_2026-09-10",
+    "status": "promoted_to_current_pending_downstream_qa",
+    "queue_file": "production_system/reboard_generation_queue_2026-09-10.json",
+    "rough_thumbnail": "planning/external_film_staging_thumbnail_030_036_2026-09-10.svg",
+    "method_references": [
+      {
+        "title": "Disney Animation Story",
+        "url": "https://www.disneyanimation.com/process/story/",
+        "lesson": "thumbnail narrative, emotion, timing, staging, and framing before final layout"
+      },
+      {
+        "title": "Disney Animation Layout",
+        "url": "https://disneyanimation.com/process/layout/",
+        "lesson": "stage characters, sets, props, camera, point of view, cut relation, and continuity shot by shot"
+      },
+      {
+        "title": "Academy: How To Storyboard Star Trek",
+        "url": "https://www.oscars.org/news/how-storyboard-star-trek",
+        "lesson": "make approach, conflict, recovery, and payoff legible as a physical sequence"
+      },
+      {
+        "title": "Star Wars Jedi Videomatics",
+        "url": "https://www.starwars.com/video/jedi-videomatics-a-moving-storyboard",
+        "lesson": "test screen direction, action flow, and edit rhythm before final imagery"
+      },
+      {
+        "title": "ILM Art Department: Concept Art and Storyboarding",
+        "url": "https://www.ilm.com/ilm-evolutions-50-concept-art-storyboarding/",
+        "lesson": "treat storyboards as an action and logistics blueprint"
+      },
+      {
+        "title": "Jump Manga School Lecture 3",
+        "url": "https://jump-manga-school.hatenablog.com/entry/03",
+        "lesson": "use wide views for position and distance, closer views for hands and emotion, and keep each panel instantly readable"
+      }
+    ],
+    "quality_reference_policy": {
+      "allowed": [
+        "public feature-film and animation production notes",
+        "professional storyboard, layout, and videomatic breakdowns",
+        "published editorial and screen-staging craft references"
+      ],
+      "excluded": [
+        "local support mini-theater packages",
+        "local EP02 shot packages",
+        "all prior local frames as quality or blocking templates"
+      ],
+      "local_asset_boundary": "Local selected assets constrain identity, wardrobe, weapon, and geography only. They are not visual-quality, pose, lens, or blocking references."
+    },
+    "shots": {
+      "Shot030": {
+        "frame_set_id": "Shot030_external_film_staging_reboard_v1_2026-09-10",
+        "frames": {
+          "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+          "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+          "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        ],
+        "source": ""
+      },
+      "Shot031": {
+        "frame_set_id": "Shot031_external_film_staging_reboard_v1_2026-09-10",
+        "frames": {
+          "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+          "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+          "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        ],
+        "source": ""
+      },
+      "Shot032": {
+        "frame_set_id": "Shot032_external_film_staging_reboard_v1_2026-09-10",
+        "frames": {
+          "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+          "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+          "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        ],
+        "source": ""
+      },
+      "Shot033": {
+        "frame_set_id": "Shot033_external_film_staging_reboard_v1_2026-09-10",
+        "frames": {
+          "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "assets/characters/blue_lions/Felix/academy/selected.png",
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+          "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        ],
+        "source": ""
+      },
+      "Shot034": {
+        "frame_set_id": "Shot034_external_film_staging_reboard_v1_2026-09-10",
+        "frames": {
+          "start": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "key": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "end": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+          "assets/characters/blue_lions/Ashe/academy/selected.png",
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+          "assets/props/shared/hero_relics/thunderbrand_reference.png",
+          "episodes/EP03/storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        ],
+        "source": ""
+      },
+      "Shot035": {
+        "frame_set_id": "Shot035_external_film_staging_reboard_v1_2026-09-10",
+        "frames": {
+          "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/blue_lions/Dimitri/academy/selected.png",
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+          "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        ],
+        "source": ""
+      },
+      "Shot036": {
+        "frame_set_id": "Shot036_external_film_staging_reboard_v1_2026-09-10",
+        "frames": {
+          "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+          "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+          "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        },
+        "reference_assets": [
+          "assets/characters/protagonist/BylethFemale/professor/selected.png",
+          "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+          "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+          "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+          "assets/props/shared/sword_of_creator/selected.png",
+          "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        ],
+        "source": ""
+      }
+    },
+    "prerequisite": "The external film-staging rough thumbnail must pass before final-looking frames are promoted."
+  },
+  "shots": [
+    {
+      "id": "Shot001",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-2e88154246db",
+        "EP03-REF-6e88ee7416d0"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot002",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-4fcb0abfed5a",
+        "EP03-REF-02cb2f9ee2cf"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot003",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-9d8796a3fc47",
+        "EP03-REF-50e43dcf8b46",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-045a3c1850e8",
+        "EP03-REF-02cb2f9ee2cf"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot004",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-045a3c1850e8"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot005",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-3fd9b75e792d"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot006",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-3fd9b75e792d",
+        "EP03-REF-2df8f3d26445"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot007",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-da9e7ada751c",
+        "EP03-REF-9d3fefc5466f",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-9db60fbdd84e",
+        "EP03-REF-c0590d58d622",
+        "EP03-REF-02cb2f9ee2cf"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot008",
+      "version": "critical_reaudit_regen_v2_2026-08-22",
+      "reference_ids": [
+        "EP03-REF-336fbaf65bbb",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-a483b7c09b20",
+        "EP03-REF-4f72f3212209"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot009",
+      "version": "critical_reaudit_regen_v1_2026-08-15",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-336fbaf65bbb",
+        "EP03-REF-02cb2f9ee2cf"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot010",
+      "version": "critical_reaudit_regen_v1_2026-08-15",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-da9e7ada751c",
+        "EP03-REF-9db60fbdd84e",
+        "EP03-REF-19a5ae7173f5"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot011",
+      "version": "critical_reaudit_regen_v1_2026-08-15",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-fe6920dd17cd",
+        "EP03-REF-c05b20bdc1a0"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot012",
+      "version": "critical_reaudit_regen_v1_2026-08-15",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-b97b54f41054",
+        "EP03-REF-adea0afa9093"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot013",
+      "version": "critical_reaudit_regen_v1_2026-08-15",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-9d3fefc5466f",
+        "EP03-REF-fe6920dd17cd",
+        "EP03-REF-19a5ae7173f5"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot014",
+      "version": "critical_reaudit_regen_v1_2026-08-14",
+      "reference_ids": [
+        "EP03-REF-da9e7ada751c",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot015",
+      "version": "critical_reaudit_regen_v3_2026-08-22",
+      "reference_ids": [
+        "EP03-REF-b97b54f41054",
+        "EP03-REF-d3b9d6081d8b",
+        "EP03-REF-02cb2f9ee2cf"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot016",
+      "version": "critical_reaudit_regen_v2_2026-08-22",
+      "reference_ids": [
+        "EP03-REF-e8266799f241",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-da9e7ada751c",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot017",
+      "version": "critical_reaudit_regen_v2_2026-08-22",
+      "reference_ids": [
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot018",
+      "version": "critical_reaudit_regen_v6_2026-08-23",
+      "reference_ids": [
+        "EP03-REF-9d3fefc5466f",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot019",
+      "version": "critical_reaudit_regen_v4_2026-08-23",
+      "reference_ids": [
+        "EP03-REF-fe6920dd17cd",
+        "EP03-REF-b11f9b95c33d",
+        "EP03-REF-19a5ae7173f5"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot020",
+      "version": "critical_reaudit_regen_v4_2026-08-23",
+      "reference_ids": [
+        "EP03-REF-336fbaf65bbb",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-4f72f3212209",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot021",
+      "version": "critical_reaudit_regen_v2_2026-08-21",
+      "reference_ids": [
+        "EP03-REF-df260f6db480",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot022",
+      "version": "critical_reaudit_regen_v4_2026-08-23",
+      "reference_ids": [
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-df260f6db480",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot023",
+      "version": "critical_reaudit_regen_v6_2026-08-23",
+      "reference_ids": [
+        "EP03-REF-df260f6db480",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-d3b9d6081d8b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot024",
+      "version": "critical_reaudit_regen_v3_2026-08-23",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-df260f6db480",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-da9e7ada751c"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot025",
+      "version": "manga_readability_reboard_v1_2026-09-09",
+      "reference_ids": [
+        "EP03-REF-e8266799f241",
+        "EP03-REF-da9e7ada751c",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-df260f6db480",
+        "EP03-REF-94f531eaf0f3",
+        "EP03-REF-d3b9d6081d8b",
+        "EP03-REF-73e5d82dd245",
+        "EP03-REF-4209d6a10c92"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot026",
+      "version": "manga_readability_reboard_v1_2026-09-09",
+      "reference_ids": [
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-df260f6db480",
+        "EP03-REF-94f531eaf0f3",
+        "EP03-REF-d3b9d6081d8b",
+        "EP03-REF-73e5d82dd245"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot027",
+      "version": "manga_readability_reboard_v1_2026-09-09",
+      "reference_ids": [
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-336fbaf65bbb",
+        "EP03-REF-df260f6db480",
+        "EP03-REF-94f531eaf0f3",
+        "EP03-REF-4f72f3212209",
+        "EP03-REF-d3b9d6081d8b",
+        "EP03-REF-73e5d82dd245"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot028",
+      "version": "manga_readability_reboard_v1_2026-09-09",
+      "reference_ids": [
+        "EP03-REF-336fbaf65bbb",
+        "EP03-REF-df260f6db480",
+        "EP03-REF-94f531eaf0f3",
+        "EP03-REF-4f72f3212209",
+        "EP03-REF-d3b9d6081d8b",
+        "EP03-REF-73e5d82dd245"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot029",
+      "version": "manga_readability_reboard_v1_2026-09-09",
+      "reference_ids": [
+        "EP03-REF-df260f6db480",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-d3b9d6081d8b",
+        "EP03-REF-73e5d82dd245"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot030",
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-336fbaf65bbb",
+        "EP03-REF-d3b9d6081d8b",
+        "EP03-REF-671e706cc4f7"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot031",
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "reference_ids": [
+        "EP03-REF-9d8796a3fc47",
+        "EP03-REF-50e43dcf8b46",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-045a3c1850e8",
+        "EP03-REF-8d6cad42c308"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot032",
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "reference_ids": [
+        "EP03-REF-9d8796a3fc47",
+        "EP03-REF-50e43dcf8b46",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-045a3c1850e8",
+        "EP03-REF-f4b83e596769"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot033",
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "reference_ids": [
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-e8266799f241",
+        "EP03-REF-9d3fefc5466f",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-045a3c1850e8",
+        "EP03-REF-d7e76bf480ee"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot034",
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "reference_ids": [
+        "EP03-REF-336fbaf65bbb",
+        "EP03-REF-430104ea6d9b",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-4fcb0abfed5a",
+        "EP03-REF-4f72f3212209",
+        "EP03-REF-9eeeee253d4f"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot035",
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "reference_ids": [
+        "EP03-REF-e8266799f241",
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-4fcb0abfed5a",
+        "EP03-REF-6a17c767590b"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        }
+      ]
+    },
+    {
+      "id": "Shot036",
+      "version": "external_film_staging_reboard_v1_2026-09-10",
+      "reference_ids": [
+        "EP03-REF-6b1a0014836b",
+        "EP03-REF-2e88154246db",
+        "EP03-REF-9d8796a3fc47",
+        "EP03-REF-045a3c1850e8",
+        "EP03-REF-88217eeb0f19",
+        "EP03-REF-228e40746fbc"
+      ],
+      "expected_frames": [
+        {
+          "role": "start",
+          "path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+        },
+        {
+          "role": "key",
+          "path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png"
+        },
+        {
+          "role": "end",
+          "path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+        }
+      ]
+    }
+  ]
+}

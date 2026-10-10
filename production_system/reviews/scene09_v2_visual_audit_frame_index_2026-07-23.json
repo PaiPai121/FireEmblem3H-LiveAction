@@ -1,0 +1,1115 @@
+{
+  "date": "2026-07-23",
+  "frames": [
+    {
+      "n": 1,
+      "shot": "Shot025",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/01_Shot025_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/001_Shot025_start.png",
+      "visible": [
+        "Manuela",
+        "Hanneman",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ]
+    },
+    {
+      "n": 2,
+      "shot": "Shot025",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/01_Shot025_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/002_Shot025_key.png",
+      "visible": [
+        "Manuela",
+        "Hanneman",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ]
+    },
+    {
+      "n": 3,
+      "shot": "Shot025A",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/003_Shot025A_start.png",
+      "visible": []
+    },
+    {
+      "n": 4,
+      "shot": "Shot025A",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/004_Shot025A_key.png",
+      "visible": []
+    },
+    {
+      "n": 5,
+      "shot": "Shot026",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/005_Shot026_start.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 6,
+      "shot": "Shot026",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/006_Shot026_key.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 7,
+      "shot": "Shot026B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/007_Shot026B_start.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 8,
+      "shot": "Shot026B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/008_Shot026B_key.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 9,
+      "shot": "Shot026C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/009_Shot026C_start.png",
+      "visible": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 10,
+      "shot": "Shot026C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/010_Shot026C_key.png",
+      "visible": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 11,
+      "shot": "Shot027",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/011_Shot027_start.png",
+      "visible": [
+        "Ashe",
+        "Claude"
+      ]
+    },
+    {
+      "n": 12,
+      "shot": "Shot027",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/012_Shot027_key.png",
+      "visible": [
+        "Ashe",
+        "Claude"
+      ]
+    },
+    {
+      "n": 13,
+      "shot": "Shot027B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/013_Shot027B_start.png",
+      "visible": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ]
+    },
+    {
+      "n": 14,
+      "shot": "Shot027B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/014_Shot027B_key.png",
+      "visible": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ]
+    },
+    {
+      "n": 15,
+      "shot": "Shot027C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/015_Shot027C_start.png",
+      "visible": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 16,
+      "shot": "Shot027C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/016_Shot027C_key.png",
+      "visible": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 17,
+      "shot": "Shot027D",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/017_Shot027D_start.png",
+      "visible": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ]
+    },
+    {
+      "n": 18,
+      "shot": "Shot027D",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/018_Shot027D_key.png",
+      "visible": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ]
+    },
+    {
+      "n": 19,
+      "shot": "Shot028",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/019_Shot028_start.png",
+      "visible": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ]
+    },
+    {
+      "n": 20,
+      "shot": "Shot028",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/020_Shot028_key.png",
+      "visible": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ]
+    },
+    {
+      "n": 21,
+      "shot": "Shot028B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/021_Shot028B_start.png",
+      "visible": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ]
+    },
+    {
+      "n": 22,
+      "shot": "Shot028B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/022_Shot028B_key.png",
+      "visible": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ]
+    },
+    {
+      "n": 23,
+      "shot": "Shot028C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/023_Shot028C_start.png",
+      "visible": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ]
+    },
+    {
+      "n": 24,
+      "shot": "Shot028C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/024_Shot028C_key.png",
+      "visible": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ]
+    },
+    {
+      "n": 25,
+      "shot": "Shot029",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/025_Shot029_start.png",
+      "visible": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ]
+    },
+    {
+      "n": 26,
+      "shot": "Shot029",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/026_Shot029_key.png",
+      "visible": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ]
+    },
+    {
+      "n": 27,
+      "shot": "Shot029C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/027_Shot029C_start.png",
+      "visible": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ]
+    },
+    {
+      "n": 28,
+      "shot": "Shot029C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/028_Shot029C_key.png",
+      "visible": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ]
+    },
+    {
+      "n": 29,
+      "shot": "Shot029D",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/029_Shot029D_start.png",
+      "visible": [
+        "Claude",
+        "Ashe"
+      ]
+    },
+    {
+      "n": 30,
+      "shot": "Shot029D",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/030_Shot029D_key.png",
+      "visible": [
+        "Claude",
+        "Ashe"
+      ]
+    },
+    {
+      "n": 31,
+      "shot": "Shot029B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/16_Shot029B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/031_Shot029B_start.png",
+      "visible": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 32,
+      "shot": "Shot029B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/16_Shot029B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/032_Shot029B_key.png",
+      "visible": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 33,
+      "shot": "Shot030",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/033_Shot030_start.png",
+      "visible": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ]
+    },
+    {
+      "n": 34,
+      "shot": "Shot030",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/034_Shot030_key.png",
+      "visible": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ]
+    },
+    {
+      "n": 35,
+      "shot": "Shot030B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/035_Shot030B_start.png",
+      "visible": [
+        "Felix",
+        "Byleth"
+      ]
+    },
+    {
+      "n": 36,
+      "shot": "Shot030B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/036_Shot030B_key.png",
+      "visible": [
+        "Felix",
+        "Byleth"
+      ]
+    },
+    {
+      "n": 37,
+      "shot": "Shot030C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/037_Shot030C_start.png",
+      "visible": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ]
+    },
+    {
+      "n": 38,
+      "shot": "Shot030C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/038_Shot030C_key.png",
+      "visible": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ]
+    },
+    {
+      "n": 39,
+      "shot": "Shot031",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/039_Shot031_start.png",
+      "visible": [
+        "Byleth",
+        "Felix"
+      ]
+    },
+    {
+      "n": 40,
+      "shot": "Shot031",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/040_Shot031_key.png",
+      "visible": [
+        "Byleth",
+        "Felix"
+      ]
+    },
+    {
+      "n": 41,
+      "shot": "Shot031B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/041_Shot031B_start.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ]
+    },
+    {
+      "n": 42,
+      "shot": "Shot031B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/042_Shot031B_key.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ]
+    },
+    {
+      "n": 43,
+      "shot": "Shot032",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/22_Shot032_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/043_Shot032_start.png",
+      "visible": [
+        "Dedue",
+        "Mercedes",
+        "Dimitri",
+        "Ferdinand",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 44,
+      "shot": "Shot032",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/22_Shot032_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/044_Shot032_key.png",
+      "visible": [
+        "Dedue",
+        "Mercedes",
+        "Dimitri",
+        "Ferdinand",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 45,
+      "shot": "Shot032A",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/045_Shot032A_start.png",
+      "visible": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ]
+    },
+    {
+      "n": 46,
+      "shot": "Shot032A",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/046_Shot032A_key.png",
+      "visible": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ]
+    },
+    {
+      "n": 47,
+      "shot": "Shot032B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/24_Shot032B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/047_Shot032B_start.png",
+      "visible": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman",
+        "Manuela"
+      ]
+    },
+    {
+      "n": 48,
+      "shot": "Shot032B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/24_Shot032B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/048_Shot032B_key.png",
+      "visible": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman",
+        "Manuela"
+      ]
+    },
+    {
+      "n": 49,
+      "shot": "Shot032C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/25_Shot032C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/049_Shot032C_start.png",
+      "visible": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ]
+    },
+    {
+      "n": 50,
+      "shot": "Shot032C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/25_Shot032C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/050_Shot032C_key.png",
+      "visible": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ]
+    },
+    {
+      "n": 51,
+      "shot": "Shot032D",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/051_Shot032D_start.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ]
+    },
+    {
+      "n": 52,
+      "shot": "Shot032D",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/052_Shot032D_key.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ]
+    },
+    {
+      "n": 53,
+      "shot": "Shot032E",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/053_Shot032E_start.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 54,
+      "shot": "Shot032E",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/054_Shot032E_key.png",
+      "visible": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 55,
+      "shot": "Shot033",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/055_Shot033_start.png",
+      "visible": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ]
+    },
+    {
+      "n": 56,
+      "shot": "Shot033",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/056_Shot033_key.png",
+      "visible": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ]
+    },
+    {
+      "n": 57,
+      "shot": "Shot033B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/057_Shot033B_start.png",
+      "visible": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix",
+        "Hanneman",
+        "Manuela"
+      ]
+    },
+    {
+      "n": 58,
+      "shot": "Shot033B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/058_Shot033B_key.png",
+      "visible": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix",
+        "Hanneman",
+        "Manuela"
+      ]
+    },
+    {
+      "n": 59,
+      "shot": "Shot033C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/059_Shot033C_start.png",
+      "visible": [
+        "Ashe",
+        "Hanneman"
+      ]
+    },
+    {
+      "n": 60,
+      "shot": "Shot033C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/060_Shot033C_key.png",
+      "visible": [
+        "Ashe",
+        "Hanneman"
+      ]
+    },
+    {
+      "n": 61,
+      "shot": "Shot033D",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/061_Shot033D_start.png",
+      "visible": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ]
+    },
+    {
+      "n": 62,
+      "shot": "Shot033D",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/062_Shot033D_key.png",
+      "visible": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ]
+    },
+    {
+      "n": 63,
+      "shot": "Shot034C",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/063_Shot034C_start.png",
+      "visible": [
+        "Felix",
+        "Ferdinand"
+      ]
+    },
+    {
+      "n": 64,
+      "shot": "Shot034C",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/064_Shot034C_key.png",
+      "visible": [
+        "Felix",
+        "Ferdinand"
+      ]
+    },
+    {
+      "n": 65,
+      "shot": "Shot034D",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/065_Shot034D_start.png",
+      "visible": [
+        "Byleth",
+        "Hanneman",
+        "Ashe"
+      ]
+    },
+    {
+      "n": 66,
+      "shot": "Shot034D",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/066_Shot034D_key.png",
+      "visible": [
+        "Byleth",
+        "Hanneman",
+        "Ashe"
+      ]
+    },
+    {
+      "n": 67,
+      "shot": "Shot034B",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/34_Shot034B_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/067_Shot034B_start.png",
+      "visible": [
+        "Hanneman",
+        "Manuela",
+        "Dimitri",
+        "Dedue",
+        "Byleth",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 68,
+      "shot": "Shot034B",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/34_Shot034B_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/068_Shot034B_key.png",
+      "visible": [
+        "Hanneman",
+        "Manuela",
+        "Dimitri",
+        "Dedue",
+        "Byleth",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 69,
+      "shot": "Shot034E",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/35_Shot034E_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/069_Shot034E_start.png",
+      "visible": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 70,
+      "shot": "Shot034E",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/35_Shot034E_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/070_Shot034E_key.png",
+      "visible": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Ingrid"
+      ]
+    },
+    {
+      "n": 71,
+      "shot": "Shot034F",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/36_Shot034F_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/071_Shot034F_start.png",
+      "visible": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Ferdinand",
+        "Felix"
+      ]
+    },
+    {
+      "n": 72,
+      "shot": "Shot034F",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/36_Shot034F_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/072_Shot034F_key.png",
+      "visible": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Ferdinand",
+        "Felix"
+      ]
+    },
+    {
+      "n": 73,
+      "shot": "Shot034G",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/37_Shot034G_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/073_Shot034G_start.png",
+      "visible": [
+        "Annette",
+        "Mercedes",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Ashe"
+      ]
+    },
+    {
+      "n": 74,
+      "shot": "Shot034G",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/37_Shot034G_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/074_Shot034G_key.png",
+      "visible": [
+        "Annette",
+        "Mercedes",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Ashe"
+      ]
+    },
+    {
+      "n": 75,
+      "shot": "Shot034",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/38_Shot034_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/075_Shot034_start.png",
+      "visible": [
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hanneman",
+        "Manuela"
+      ]
+    },
+    {
+      "n": 76,
+      "shot": "Shot034",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/38_Shot034_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/076_Shot034_key.png",
+      "visible": [
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hanneman",
+        "Manuela"
+      ]
+    },
+    {
+      "n": 77,
+      "shot": "Shot035",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/077_Shot035_start.png",
+      "visible": [
+        "Felix",
+        "Byleth"
+      ]
+    },
+    {
+      "n": 78,
+      "shot": "Shot035",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/078_Shot035_key.png",
+      "visible": [
+        "Felix",
+        "Byleth"
+      ]
+    },
+    {
+      "n": 79,
+      "shot": "Shot036",
+      "kind": "start",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/40_Shot036_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/079_Shot036_start.png",
+      "visible": [
+        "Dimitri",
+        "Byleth"
+      ]
+    },
+    {
+      "n": 80,
+      "shot": "Shot036",
+      "kind": "key",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/40_Shot036_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/080_Shot036_key.png",
+      "visible": [
+        "Dimitri",
+        "Byleth"
+      ]
+    },
+    {
+      "n": 81,
+      "shot": "Shot032F_start",
+      "kind": "canon_patch",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/41_Shot032F_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/081_41_Shot032F_start.png",
+      "visible": [
+        "Felix",
+        "Ashe",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 82,
+      "shot": "Shot032F_key",
+      "kind": "canon_patch",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/41_Shot032F_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/082_41_Shot032F_key.png",
+      "visible": [
+        "Felix",
+        "Ashe",
+        "Hubert"
+      ]
+    },
+    {
+      "n": 83,
+      "shot": "Shot032G_start",
+      "kind": "canon_patch",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/42_Shot032G_start.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/083_42_Shot032G_start.png",
+      "visible": [
+        "Leonie",
+        "Claude",
+        "Dorothea",
+        "Bernadetta"
+      ]
+    },
+    {
+      "n": 84,
+      "shot": "Shot032G_key",
+      "kind": "canon_patch",
+      "src": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/42_Shot032G_key.png",
+      "file": "production_system/reviews/scene09_v2_visual_audit_frames_2026-07-23/084_42_Shot032G_key.png",
+      "visible": [
+        "Leonie",
+        "Claude",
+        "Dorothea",
+        "Bernadetta"
+      ]
+    }
+  ]
+}

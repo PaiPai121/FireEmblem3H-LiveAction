@@ -1,0 +1,589 @@
+{
+  "date": "2026-07-28",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "payload": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_payload.jsonl",
+  "payload_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_payload_manifest.json",
+  "rows_checked": 42,
+  "expected_rows": 42,
+  "payload_sha256": "ed80293695460214682c0860c80638cd14272076ab96255fdf9cf5ab04f9c459",
+  "problems": [],
+  "row_summaries": [
+    {
+      "shot": "Shot025",
+      "custom_id": "001_Shot025",
+      "prompt_chars": 5632,
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4",
+      "start_frame_sha256": "816d2e66d3e87e38c82f10c5bf96a5a6004c746d016ba50ab064e6ed03dae7fb",
+      "model_prompt_sha256": "b8df23c72d6ad5056fa677c6cb37c0b88d7dee47165437ab44129ce736bcff76"
+    },
+    {
+      "shot": "Shot025A",
+      "custom_id": "002_Shot025A",
+      "prompt_chars": 5388,
+      "visible_named_only": [],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4",
+      "start_frame_sha256": "fd9c2d2720d863fa590c2447e67af57d056e9c906bd071ea806d90b67acee9f6",
+      "model_prompt_sha256": "f84c9ad9933b3b02c97b16b930bc0f7d573ef54af2ea3e53bc8c328c06c6a702"
+    },
+    {
+      "shot": "Shot026",
+      "custom_id": "003_Shot026",
+      "prompt_chars": 6026,
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4",
+      "start_frame_sha256": "8d83a0b9377c8ea993c7e0cd77064b9fb5d80aa31d1ad925d1d258af29035aa2",
+      "model_prompt_sha256": "4f80f629b3b601e3be1c330410c5a6c319758563f176b440f1e354dc3b177716"
+    },
+    {
+      "shot": "Shot026B",
+      "custom_id": "004_Shot026B",
+      "prompt_chars": 5951,
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4",
+      "start_frame_sha256": "eaf7627d3fe86ee8f7ae9fe0e025ea4c2bf007d3807308738aad16f1b1c1644d",
+      "model_prompt_sha256": "5c533255fb6c9b11b4a5b217b08eacb75e6a4279832638088de627890b5218d7"
+    },
+    {
+      "shot": "Shot026C",
+      "custom_id": "005_Shot026C",
+      "prompt_chars": 5871,
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4",
+      "start_frame_sha256": "e80ea33dbf09996212e68726b89784a9bf56fda5fef9ba145d54e3ac11b537a5",
+      "model_prompt_sha256": "437810eb36de3d350c8663009017b7fa9fdd26839ef9febfc5fcd15cb14fed64"
+    },
+    {
+      "shot": "Shot027",
+      "custom_id": "006_Shot027",
+      "prompt_chars": 5544,
+      "visible_named_only": [
+        "Ashe",
+        "Claude"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4",
+      "start_frame_sha256": "a8e55744d65c9c83708c17f4e1cf71f89d15427f1dc8eebbd8fe5bbcef55280a",
+      "model_prompt_sha256": "98faa24d6dd8719c7ab136a59a800c288ba73efc2263e5aed2ded3bb04adde11"
+    },
+    {
+      "shot": "Shot027B",
+      "custom_id": "007_Shot027B",
+      "prompt_chars": 6136,
+      "visible_named_only": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4",
+      "start_frame_sha256": "0960f0451c43b91bd5d6651b60fb4668969eed91e5ae200cccf093b9d920af61",
+      "model_prompt_sha256": "a8f27c55998a2b53c0b816cb570e67e332c763b01c390a9e05b9cb403b58b822"
+    },
+    {
+      "shot": "Shot027C",
+      "custom_id": "008_Shot027C",
+      "prompt_chars": 6222,
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4",
+      "start_frame_sha256": "feeb60bd455a6a61274d21f11000540e3dc7c9d4072589724a818d3f68c7fba4",
+      "model_prompt_sha256": "319a979f6a832c2898abd519f79979842e18b4f492290703d92d0d19f2796de7"
+    },
+    {
+      "shot": "Shot027D",
+      "custom_id": "009_Shot027D",
+      "prompt_chars": 5721,
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4",
+      "start_frame_sha256": "952a975513071f48ca83e92e0652e355c3ab618e3a2bf7499d25fdfec4d1a570",
+      "model_prompt_sha256": "f3d43f79a6311eb864cba4c290471302610e38bdc751080e7716c8959e79f6c0"
+    },
+    {
+      "shot": "Shot028",
+      "custom_id": "010_Shot028",
+      "prompt_chars": 5685,
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4",
+      "start_frame_sha256": "3386ec61bd4b99998d887fe53f375a4b66f6e088fa5fe13486da6b5e98df0d3c",
+      "model_prompt_sha256": "8f741cd4727bb3fb65a3718261fff83e9eb49eac7eda4012093deaef0e404553"
+    },
+    {
+      "shot": "Shot028B",
+      "custom_id": "011_Shot028B",
+      "prompt_chars": 5776,
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4",
+      "start_frame_sha256": "708bd875aba4516c0e33cee1e8398f87c903ee682b4db84a3bf700c8b49ef4d5",
+      "model_prompt_sha256": "1f566b10fd244d85cf468780b7b816ec2a8ebea34c17cc068d5bf97c37fc2ed5"
+    },
+    {
+      "shot": "Shot028C",
+      "custom_id": "012_Shot028C",
+      "prompt_chars": 5689,
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4",
+      "start_frame_sha256": "716a4bdeaa72fc8c96ea0c0851d5b4159d9171d5dad29f58f265d2e3fd26356b",
+      "model_prompt_sha256": "c478c29f0d01b4a8bd967a3fe2c956ef7d21036002fdd5bf9ad0ad3586171e5e"
+    },
+    {
+      "shot": "Shot029",
+      "custom_id": "013_Shot029",
+      "prompt_chars": 6266,
+      "visible_named_only": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4",
+      "start_frame_sha256": "9c7c2ecb00821b62268fc3ee4d2a773ca430614a3ed57599b0772696813ac69a",
+      "model_prompt_sha256": "c6dcc131bdead09f6cbd166c80a94f03e3b564e469f66caca3631eb5ad64cffb"
+    },
+    {
+      "shot": "Shot029C",
+      "custom_id": "014_Shot029C",
+      "prompt_chars": 6066,
+      "visible_named_only": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4",
+      "start_frame_sha256": "ea259ddff748d6e9b73b2b6551fc576a483ecf14a219175cee0dcf7d004069d1",
+      "model_prompt_sha256": "fd4a273912ece7a6669072c65329134c9f3201377ca464f123fa2493ab64533b"
+    },
+    {
+      "shot": "Shot029D",
+      "custom_id": "015_Shot029D",
+      "prompt_chars": 5564,
+      "visible_named_only": [
+        "Claude",
+        "Ashe"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4",
+      "start_frame_sha256": "0849f5eda8fd30cb6a816ab345c83c8ff41ea2aad559b41c649b19dbce30e433",
+      "model_prompt_sha256": "7c5afa92ef2620e08c3689fd1b91de6b5de3b4d594cf51bc4ed165ed63739baf"
+    },
+    {
+      "shot": "Shot029B",
+      "custom_id": "016_Shot029B",
+      "prompt_chars": 6567,
+      "visible_named_only": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4",
+      "start_frame_sha256": "89e07bbecf513024de66ff827e02f61edd3302b79fdb980447cf9c4946e2713d",
+      "model_prompt_sha256": "c06b1413e43848d7890523655f5a193778ef4c6fc9c54743770c3b344c7e7bfe"
+    },
+    {
+      "shot": "Shot030",
+      "custom_id": "017_Shot030",
+      "prompt_chars": 5699,
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4",
+      "start_frame_sha256": "0d376679049e540c781e21cfc21a06216ef09ead51e92523a1bf883c94becfb5",
+      "model_prompt_sha256": "0df449e0022ad2a9b014951b824df5858f1d4ba505ddee07af259f3ad27f6541"
+    },
+    {
+      "shot": "Shot030B",
+      "custom_id": "018_Shot030B",
+      "prompt_chars": 5735,
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4",
+      "start_frame_sha256": "dc60834f666834fa7c5d25ac04d515bc57cf0ef5cea279bb97f80a3a93d551f4",
+      "model_prompt_sha256": "316a05d644fdcb0f1d16fc4bab3717a8a9a3e05291912df202eef0c0130a42e4"
+    },
+    {
+      "shot": "Shot030C",
+      "custom_id": "019_Shot030C",
+      "prompt_chars": 5825,
+      "visible_named_only": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4",
+      "start_frame_sha256": "d89a2326079013770c0fc1235b8750ede2259bf9cd2c2d25db05e7a0c42672ba",
+      "model_prompt_sha256": "0fc0f9088273383adac88f0b3667ea4ed5ecd69cd3b7a829d7e26d5a2b1bfd4d"
+    },
+    {
+      "shot": "Shot031",
+      "custom_id": "020_Shot031",
+      "prompt_chars": 5766,
+      "visible_named_only": [
+        "Byleth",
+        "Felix"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4",
+      "start_frame_sha256": "90d5213b5b55482f85d696dd220cd2fbb22a0bbc80e22d677d111ebbc7512978",
+      "model_prompt_sha256": "528a6fe2069f6de4d3c91219154029367ce7a66771ea8a09ac2bae80602a25fe"
+    },
+    {
+      "shot": "Shot031B",
+      "custom_id": "021_Shot031B",
+      "prompt_chars": 5994,
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4",
+      "start_frame_sha256": "d685d58545de6dcd718ff6eb6ac78f2f4578ef43a89cf940239dce34195b8c2c",
+      "model_prompt_sha256": "5bd03902312f5a9715768c7f9a4288c1fedbd25444e43e5f4085307ee749fc5d"
+    },
+    {
+      "shot": "Shot032",
+      "custom_id": "022_Shot032",
+      "prompt_chars": 7089,
+      "visible_named_only": [
+        "Dedue",
+        "Mercedes"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4",
+      "start_frame_sha256": "99f2e654557dc70c345cb9c1ca4acb985ca55c62ab9aa16d8b365afa4d6f2f50",
+      "model_prompt_sha256": "af8cd38a0fc238b62e423bf44fd452eeb141cba6e038769ade458bbddd82b1a1"
+    },
+    {
+      "shot": "Shot032A",
+      "custom_id": "023_Shot032A",
+      "prompt_chars": 6061,
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4",
+      "start_frame_sha256": "f5d96c70f22dcb72d8b009e944a9815e393c719ba2521ff13774be634bd92920",
+      "model_prompt_sha256": "822ccc0a2747c79410229e4c8304ab092a97176dbf7a8f29f7ff0bc1b6807796"
+    },
+    {
+      "shot": "Shot032B",
+      "custom_id": "024_Shot032B",
+      "prompt_chars": 5667,
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4",
+      "start_frame_sha256": "3700d33d6ee30234774dc3ca62d5e55d9ce6f05f2f15b31a6366c2a7b282ced5",
+      "model_prompt_sha256": "d47b1af8242b2dbc717165e362bc3cee61db0cb1504d8fa9227e010708cf6aa7"
+    },
+    {
+      "shot": "Shot032C",
+      "custom_id": "025_Shot032C",
+      "prompt_chars": 6490,
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4",
+      "start_frame_sha256": "4fed4bbec8ffa2de8c01cd63c9d28d1a6b3ab926ccb0868cad1498978bba269a",
+      "model_prompt_sha256": "1279d6ca7e0ee04ec39697f588bac36ad8c595ea6cd5c7181286c891e7b38033"
+    },
+    {
+      "shot": "Shot032D",
+      "custom_id": "026_Shot032D",
+      "prompt_chars": 5976,
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4",
+      "start_frame_sha256": "3066f5172152a3e46369023f556b07c305ceece89c0b8a39d2459a6c2782583c",
+      "model_prompt_sha256": "ed22926b02f507f54dd3d519e1fef5fa0a10582f53a918392c9aca42331323ed"
+    },
+    {
+      "shot": "Shot032E",
+      "custom_id": "027_Shot032E",
+      "prompt_chars": 6232,
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4",
+      "start_frame_sha256": "9761ee61588d85d8c9e62d1f9dc6fad1d3a431746ffb730efdcfc3ae4b094494",
+      "model_prompt_sha256": "660933320ebda6e527d6bef613f9f8a4323f0d306b18586f867536895fdd7bb7"
+    },
+    {
+      "shot": "Shot032F",
+      "custom_id": "028_Shot032F",
+      "prompt_chars": 6429,
+      "visible_named_only": [
+        "Felix",
+        "Ashe",
+        "Hubert"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4",
+      "start_frame_sha256": "e2ea7e966db989b98d2bccc6f03ee9aa2035ae7c82b71b33b693e6a7d0d4188c",
+      "model_prompt_sha256": "19585584a5ca35950bc1ff8c6eeebc5b6b9e6f091bbbab1dc01334e93ea6d013"
+    },
+    {
+      "shot": "Shot032G",
+      "custom_id": "029_Shot032G",
+      "prompt_chars": 7239,
+      "visible_named_only": [
+        "Claude",
+        "Leonie",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4",
+      "start_frame_sha256": "abd65f09dff15cd8273954fd4c9b830273d19691d4be4a9b5cdfa00b78d4c6e7",
+      "model_prompt_sha256": "cd1ed60428fc0fa5c6200df000e238c4f6561c4f933c87c7e216754c492ab13d"
+    },
+    {
+      "shot": "Shot033",
+      "custom_id": "030_Shot033",
+      "prompt_chars": 6325,
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4",
+      "start_frame_sha256": "2cebf3eda1e17c2028eaa16d17e8b2b75ab3c67d087f9376c69ec490ffb358ab",
+      "model_prompt_sha256": "d6af5957c05de619934d85b5b96a93961f0a5251c940a9e8ac299a13f66f1916"
+    },
+    {
+      "shot": "Shot033B",
+      "custom_id": "031_Shot033B",
+      "prompt_chars": 6796,
+      "visible_named_only": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4",
+      "start_frame_sha256": "1726d171588f7557052cb13ea6d2b1b2ac49a539ca9642f93e49c2b93ee3532e",
+      "model_prompt_sha256": "9a9f5dc4286a1c2ec95ac74ad3639d65180f9822f96c7f07c7a3c4eb3fef7480"
+    },
+    {
+      "shot": "Shot033C",
+      "custom_id": "032_Shot033C",
+      "prompt_chars": 6717,
+      "visible_named_only": [
+        "Ashe",
+        "Hanneman"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4",
+      "start_frame_sha256": "af288c01345204b4e8c59b80244f1ac0efe92325a387dce3e1d6f4ee5c701f82",
+      "model_prompt_sha256": "10213ed5bfc07de67c2bcb230aafd12bd33ff1dc0e8d59ae2c7c5b564d0230bd"
+    },
+    {
+      "shot": "Shot033D",
+      "custom_id": "033_Shot033D",
+      "prompt_chars": 7211,
+      "visible_named_only": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4",
+      "start_frame_sha256": "96b222b2011bbc5e1454ea75776e53fe8702c7f00fa1fa8b388677ff74ee4401",
+      "model_prompt_sha256": "d847a03654f572e2bc5bb810c4f8687404ac0d91234b0c9b1a1865830ca6f660"
+    },
+    {
+      "shot": "Shot034C",
+      "custom_id": "034_Shot034C",
+      "prompt_chars": 7725,
+      "visible_named_only": [
+        "Felix",
+        "Ferdinand"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4",
+      "start_frame_sha256": "b247af737ef9a6d9079c00ec4e424d8186a37947cbb88c45dd4425e03b7f49f4",
+      "model_prompt_sha256": "1eae893aff67c7d987d8e0c7193d9da45ca92860b5dbfa998820c7c97d863943"
+    },
+    {
+      "shot": "Shot034D",
+      "custom_id": "035_Shot034D",
+      "prompt_chars": 7472,
+      "visible_named_only": [
+        "Byleth",
+        "Hanneman"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4",
+      "start_frame_sha256": "9e580f356bb36c005c8a59033504bfb56838507962832cfae2ff356ad6c0307a",
+      "model_prompt_sha256": "c7f13e99e0f89ff1abed3ae679a15c8125e152a8738cbd65f1007a49dc3447c0"
+    },
+    {
+      "shot": "Shot034B",
+      "custom_id": "036_Shot034B",
+      "prompt_chars": 8004,
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4",
+      "start_frame_sha256": "5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422",
+      "model_prompt_sha256": "daacf786cb26600d65ac6b7df7681e7be671c28c6d10b8a6cd48a80fe2880d14"
+    },
+    {
+      "shot": "Shot034E",
+      "custom_id": "037_Shot034E",
+      "prompt_chars": 8974,
+      "visible_named_only": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4",
+      "start_frame_sha256": "275060633458ec8fc0157739cb677afde9a76f8bbf73dfca518ca213fa28a89b",
+      "model_prompt_sha256": "62e75ad38f2e60fa78767c5fd497618a0c94bd8a6cfa1b0f435659f8d95e8ef3"
+    },
+    {
+      "shot": "Shot034F",
+      "custom_id": "038_Shot034F",
+      "prompt_chars": 8169,
+      "visible_named_only": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4",
+      "start_frame_sha256": "f4fe0cde174606d4b98f3a4cc1c3b4b425346820d6c7921eca17ef506626f376",
+      "model_prompt_sha256": "33cd2c863c8b7a2098d3916224cce3e9e63350b2853041ffccd44adce6760594"
+    },
+    {
+      "shot": "Shot034G",
+      "custom_id": "039_Shot034G",
+      "prompt_chars": 8178,
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4",
+      "start_frame_sha256": "50b9c2954992e2549c6b3d00387a54a5bbc29391459af818b5e135ba510a91a3",
+      "model_prompt_sha256": "c33dc868a31e786d0be1ba69684981cdbaa6706e462d0f55358073056c79dd40"
+    },
+    {
+      "shot": "Shot034",
+      "custom_id": "040_Shot034",
+      "prompt_chars": 7857,
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4",
+      "start_frame_sha256": "d9ebe04d8eecf2a53f9e5bcfd69c22957b6236b857cc7695c10351836eb08b8c",
+      "model_prompt_sha256": "3195c60af1e6a26d04ebdaac17e26f2b2458cf6b26a2defcf79ff63bdd0682ae"
+    },
+    {
+      "shot": "Shot035",
+      "custom_id": "041_Shot035",
+      "prompt_chars": 8014,
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4",
+      "start_frame_sha256": "e8a0d8f59da042e1ed9551d81f2a541147f019890295454b7d404547a6b73d07",
+      "model_prompt_sha256": "5aae581ad29d71ebd1e9ff8f4a13b13ff4b16c873437bf84a0cb9533c0e7c141"
+    },
+    {
+      "shot": "Shot036",
+      "custom_id": "042_Shot036",
+      "prompt_chars": 7447,
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth"
+      ],
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4",
+      "start_frame_sha256": "7b2721e6bb8765ee64d65028cbf8a16149b907055dcca3a859bcfea2cad346d7",
+      "model_prompt_sha256": "a5f6409636dd2ba61160114f09dc73d72c1b10b2823d435831fa2de0b0810ad8"
+    }
+  ],
+  "decision": "submission_payload_ready_for_monitored_video_model_run"
+}

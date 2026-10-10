@@ -1,0 +1,57 @@
+{
+  "id": "BE-SC-EP04-SH009",
+  "order": 9,
+  "episode_id": "EP04",
+  "episode_title": "Petra x Bernadetta C - Like Prey",
+  "support_pair": "Bernadetta & Petra",
+  "support_rank": "C",
+  "source": "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C",
+  "source_summary": "Bernadetta tries to ask Petra whether they can be friends; Petra sincerely says Bernadetta resembles prey, explains rabbit-like alertness, and accidentally terrifies her with bow safety talk.",
+  "language_used": "Japanese original",
+  "dialogue_policy": "excerpted / lightly bridged",
+  "duration_seconds": 6,
+  "model_target": "Seedance image-to-video",
+  "status": "approved_for_video",
+  "no_subtitles": true,
+  "characters": [
+    {
+      "name": "Petra",
+      "reference": "assets/characters/black_eagles/Petra/academy/selected.png",
+      "identity_lock": "Academy-era Petra: warm brown skin, long purple braid, face markings, white high-collar blouse with gold trim, black fitted waist bodice, black skirt, light shoulder strap; sincere and direct without caricature."
+    },
+    {
+      "name": "Bernadetta",
+      "reference": "assets/characters/black_eagles/Bernadetta/academy/selected.png",
+      "identity_lock": "Academy-era Bernadetta: short purple hair, small guarded posture, anxious but readable eyes, Black Eagles academy uniform; comic nervousness through posture and hesitation, not horror and not meme-faced."
+    }
+  ],
+  "location_reference": "assets/locations/EP02/act01/ThreeHousesCourtyard/ThreeHousesCourtyard_reference.png",
+  "frame_intents": {
+    "start": "Bernadetta forces a shaky smile.",
+    "key": "Bernadetta nods too many times, trying to convince herself this is fine.",
+    "end": "Her smile collapses into dread."
+  },
+  "dialogue": [
+    {
+      "speaker": "Bernadetta",
+      "kind": "source_line",
+      "text": "へ、へえええ……。注意してくれてるんだね。ふーん……。"
+    }
+  ],
+  "expected_clip": "clips/BE-SC-EP04-SH009.mp4",
+  "primary_check": "Give Bernadetta a small comic beat where she tries to treat Petra's warning as kindness.",
+  "motion_risk_status": "monitor_required",
+  "required_probe_before_full_generation": true,
+  "probe_duration_seconds": 3,
+  "frame_aspect_policy": "clean 16:9 single-frame images; no contact-sheet crop, no synthetic border, no letterbox, no pillarbox, no blurred side fill",
+  "reject_if": [
+    "Subtitles or visible text appear.",
+    "Character identity, age, costume, or face drifts from reference.",
+    "Character wardrobe topology changes from the input frames.",
+    "The clip generates robes, wrap tunics, casual clothing, armor, pajamas, or simplified plain-black outfits.",
+    "The clip generates cartoonish, bug-eyed, giant-mouthed, meme-like, or overacted expressions.",
+    "The clip contains rounded corners, UI, black container, letterbox, pillarbox, or artificial side fill.",
+    "Shot exceeds 15 seconds.",
+    "Prompt invents new dialogue or new plot."
+  ]
+}

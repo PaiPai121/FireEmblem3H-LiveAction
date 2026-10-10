@@ -1,0 +1,43 @@
+{
+  "shot_id": "Shot008",
+  "review_date": "2026-08-15",
+  "review_type": "critical_reaudit_current_web_candidate",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "status": "monitor_required",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/props/shared/hero_relics/hero_relics_reference.png",
+    "episodes/EP03/source_refs/Shot008_source.png"
+  ],
+  "decision": "monitor_required",
+  "passes": [
+    "female Byleth only across START/KEY/END",
+    "Catherine reads as adult Church knight",
+    "Ashe remains the reaction endpoint",
+    "no visible game UI, subtitles, dialogue boxes, or watermark",
+    "START/KEY/END are not duplicate still variants"
+  ],
+  "monitor_risks": [
+    "motion model may weaken Catherine crossing into a static pose",
+    "Thunderbrand may become too visible or glowing",
+    "Catherine armor or age may drift",
+    "Ashe may age up in motion"
+  ],
+  "required_next_gate": "3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth gender or face changes across anchors",
+    "Catherine becomes student-like",
+    "Thunderbrand becomes a glowing weapon advertisement",
+    "Ashe becomes an adult soldier",
+    "the clip adds subtitles, UI, borders, or watermark"
+  ]
+}

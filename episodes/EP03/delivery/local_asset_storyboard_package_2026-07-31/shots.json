@@ -1,0 +1,2764 @@
+[
+  {
+    "id": "Shot001",
+    "order": 1,
+    "scene": "梦境残响",
+    "purpose": "把上一章的神秘意识延续到本章，并用一个真正的回应动作而不是换光粒暗示 Byleth 的身世不只属于教会。",
+    "duration_seconds": 6.3,
+    "source_timecode": "00:01:30",
+    "previous_source_timecode": "00:00:20",
+    "source_timecode_audit": {
+      "source_match": "Sothis dream closeup",
+      "adaptation_gap": "matches dream residue beat",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot001_source.png",
+    "characters": [
+      "Byleth",
+      "Sothis"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/locations/DreamSanctuary/EP01_scene_reference.png",
+      "episodes/EP03/source_refs/Shot001_source.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Sothis",
+        "asset": "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/divine_Sothis_dream_legacy_ep01_candidate_03_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot001/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot001/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot001/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot001/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot001/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot001/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot001/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot001_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot001_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot001/Shot001_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot001/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot001/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot001_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot001_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the previous face-to-face tableau. The three frames now progress from distant waiting to reciprocal reach to an interrupted turn and disappearance.",
+    "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if the dream becomes a flat collage, the hand reach is absent, Sothis becomes an adult glamorous woman, Byleth becomes male, magic only changes brightness, or START/KEY/END collapse into one stare.",
+    "edit_in": "cut from black",
+    "edit_out": "hard cut to morning bell",
+    "audio_anchor": "Sothis, softly in Japanese: そなたは、また何を聞いたのじゃ？",
+    "expected_clip": "clips/Shot001.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot002",
+    "order": 2,
+    "scene": "晨钟与修道院",
+    "purpose": "建立本章从学院日常转入教会军事命令，用一段真实走动和推门把空间推进到 Shot003。",
+    "duration_seconds": 10,
+    "source_timecode": "00:01:50",
+    "previous_source_timecode": "00:00:55",
+    "source_timecode_audit": {
+      "source_match": "chapter title / transition into chapter",
+      "adaptation_gap": "monastery morning establishing is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot002_source.png",
+    "characters": [
+      "Byleth"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot002/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot002/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot002/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot002/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot002/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot002/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot002/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot002_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot002_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot002/Shot002_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot002/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot002/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot002_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot002_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the previous corridor tableau. The three frames now form a geographic move: enter the cloister, cross the arcade, push the council door.",
+    "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if Byleth floats, turns male, looks pasted onto the cloister, if the shot becomes three static monastery views, if the distant group becomes a lineup, or if any spoken dialogue, subtitle, or UI appears.",
+    "edit_in": "cut from dream eye closeup",
+    "edit_out": "match cut to council doors",
+    "audio_anchor": "No spoken dialogue. Morning bell, wet footsteps, distant armor, and the door hinge only.",
+    "expected_clip": "clips/Shot002.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot003",
+    "order": 3,
+    "scene": "任务召集",
+    "purpose": "让任务召集成为一次具有权力转移的教会命令，而不是人物对着镜头站定说明。",
+    "duration_seconds": 10.3,
+    "source_timecode": "00:02:30",
+    "previous_source_timecode": "00:01:30",
+    "source_timecode_audit": {
+      "source_match": "Rhea and Seteth mission briefing begins",
+      "adaptation_gap": "matches council/mission authority beat",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot003_source.png",
+    "characters": [
+      "Rhea",
+      "Seteth",
+      "Byleth",
+      "Dimitri"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Rhea",
+        "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Seteth",
+        "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Seteth_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot003/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot003/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot003/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot003/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot003/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot003/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot003/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot003_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot003_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot003/Shot003_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot003/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot003/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot003_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot003_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the previous council lineup. Seteth now performs a readable folio handoff, Rhea receives it, and the end frame turns the authority away from the students.",
+    "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if Seteth looks young or generic, if female Byleth becomes male, if the folio handoff is absent, if Rhea only changes expression, or if the four characters remain a static symmetrical tableau.",
+    "edit_in": "doors open into cathedral",
+    "edit_out": "cut on Ashe name being spoken",
+    "audio_anchor": "Rhea, in Japanese: 西方教会が、ガスパール領主ロナートを扇動し、兵を挙げさせました。",
+    "expected_clip": "clips/Shot003.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot004",
+    "order": 4,
+    "scene": "养父的名字",
+    "purpose": "把任务说明压成 Ashe 的身体反应和离队方向，让信息改变人物关系和行走路线。",
+    "duration_seconds": 8.9,
+    "source_timecode": "00:03:40",
+    "previous_source_timecode": "00:02:05",
+    "source_timecode_audit": {
+      "source_match": "Ashe reaction during briefing",
+      "adaptation_gap": "matches personal wound around Lonato name",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot004_source.png",
+    "characters": [
+      "Ashe",
+      "Byleth",
+      "Dimitri"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/source_refs/Shot004_source.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot004/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot004/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot004/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot004/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot004/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot004/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot004/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot004_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot004_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot004/Shot004_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot004/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot004/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot004_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot004_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-21 critical re-audit v2 keeps Ashe ahead of the group and uses a stop, recognition, and departure chain instead of a three-person cathedral portrait.",
+    "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if Ashe remains in a neutral pose, if he looks adult or generic, if Byleth becomes male, if the bow disappears or becomes a sword, or if the shot only alternates close-ups without a stop-and-go action.",
+    "edit_in": "cut from Rhea order",
+    "edit_out": "cut to Ashe avoiding the class gaze",
+    "audio_anchor": "Seteth, in Japanese: ロナート卿は、かつてアッシュを養子として迎えた人物だ。",
+    "expected_clip": "clips/Shot004.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot005",
+    "order": 5,
+    "scene": "同行请求",
+    "purpose": "用支援小剧场式的门口阻挡、请求、让路完成同伴关系变化。",
+    "duration_seconds": 11.7,
+    "source_timecode": "00:04:30",
+    "previous_source_timecode": "00:02:45",
+    "source_timecode_audit": {
+      "source_match": "field dialogue with Ashe and Blue Lions",
+      "adaptation_gap": "classroom silence is adaptation expansion from field dialogue",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot005_source.png",
+    "characters": [
+      "Byleth",
+      "Dimitri",
+      "Ashe"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "episodes/EP03/source_refs/Shot005_source.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot005/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot005/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot005/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot005/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot005/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot005/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot005/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot005_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot005_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot005/Shot005_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot005/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot005/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot005_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot005_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the classroom lineup with a three-stage handoff: Ashe waits, Dimitri closes the door and asks, then Ashe rises and is given the exit.",
+    "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if the classroom becomes a posed group portrait, if Dimitri looks out the window instead of addressing Byleth, if Ashe never rises, if the exit does not become usable, or if Byleth becomes male.",
+    "edit_in": "cut from cathedral formality",
+    "edit_out": "cut to Ashe speaking",
+    "audio_anchor": "Dimitri, in Japanese: 先生、今日は彼と共に行かせてください。",
+    "expected_clip": "clips/Shot005.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot006",
+    "order": 6,
+    "scene": "Ashe 讲出旧恩",
+    "purpose": "Ashe 选择面对任务，而不是被保护在队伍外。",
+    "duration_seconds": 13,
+    "source_timecode": "00:05:40",
+    "previous_source_timecode": "00:03:20",
+    "source_timecode_audit": {
+      "source_match": "Ashe discusses Lord Lonato",
+      "adaptation_gap": "matches Ashe old-debt beat",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot006_source.png",
+    "characters": [
+      "Ashe",
+      "Byleth",
+      "Dimitri"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot006/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot006/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot006/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot006/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot006/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot006/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot006/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot006_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot006_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot006/Shot006_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot006/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot006/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot006_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot006_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-21 adjacent-continuity re-audit: the first Shot006 v2 attempt reset Ashe from Shot005 doorway exit back to the window. Current v2 matches Shot005 END at the threshold, then uses a stop-and-turn line and a corridor departure.",
+    "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if Shot006 reverses Shot005 exit direction, resets to the window, loses the door axis, makes Byleth male, changes the bow, or collapses into a static conversation.",
+    "edit_in": "cut from Dimitri request",
+    "edit_out": "cut to march preparation",
+    "audio_anchor": "Ashe, in Japanese: 彼は、僕と弟妹に居場所をくれました。でも今の僕は、あなたの生徒です。",
+    "expected_clip": "clips/Shot006.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot007",
+    "order": 7,
+    "scene": "出征准备",
+    "purpose": "显示这是学生第一次进入真实镇压任务。",
+    "duration_seconds": 12,
+    "source_timecode": "00:06:10",
+    "previous_source_timecode": "00:03:55",
+    "source_timecode_audit": {
+      "source_match": "knights and mission preparation",
+      "adaptation_gap": "weapon/armor prep is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot007_source.png",
+    "characters": [
+      "Byleth",
+      "Dimitri",
+      "Dedue",
+      "Felix",
+      "Ashe",
+      "Ingrid"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/props/EP02/training_weapons/training_weapons_reference.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dedue",
+        "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Felix",
+        "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Felix_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ingrid",
+        "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ingrid_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot007/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot007/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot007/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot007/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot007/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot007/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot007/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot007_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot007_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot007/Shot007_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot007/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot007/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot007_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot007_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "The previous Shot007 candidate jumped from Shot006's doorway exit to a pre-formed courtyard lineup and then from a static insert to a departure wide. The v2 preserves the door at START, gives KEY a real handoff chain, and gives END a motivated turn toward the next entrance.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe; reject if the doorway handoff, lantern/strap/sword contacts, female Byleth identity, academy age, or Shot008 eyeline drifts.",
+    "edit_in": "cut from Ashe choice",
+    "edit_out": "cut to Catherine entrance",
+    "audio_anchor": "Belt buckles, soft metal clicks, and no idle chatter. No spoken dialogue.",
+    "expected_clip": "clips/Shot007.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot008",
+    "order": 8,
+    "scene": "Catherine 入队",
+    "purpose": "引入教会武力的真实尺度，和学生的陌生感形成对照。",
+    "duration_seconds": 11,
+    "source_timecode": "00:08:20",
+    "previous_source_timecode": "00:04:20",
+    "source_timecode_audit": {
+      "source_match": "Catherine uses Thunderbrand",
+      "adaptation_gap": "supports Catherine force-scale beat",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot008_source.png",
+    "characters": [
+      "Catherine",
+      "Byleth",
+      "Ashe"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/props/shared/hero_relics/hero_relics_reference.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Catherine",
+        "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot008/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot008/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot008/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot008/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot008/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot008/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot008/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot008_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot008_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot008/Shot008_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot008/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot008/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot008_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot008_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "The previous Shot008 chain had workable courtyard action but did not lock Catherine's unique weapon strongly enough. The v2 uses the local Thunderbrand reference and preserves the Shot007 entrance axis and Shot009 departure direction.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe; reject if Thunderbrand loses its jagged gold guard/purple crest, becomes a generic sword or glow, Catherine ages/drifts, or the adjacent eyelines reverse.",
+    "edit_in": "cut from equipment inserts",
+    "edit_out": "cut on Ashe recognizing her certainty",
+    "audio_anchor": "Catherine, in Japanese: 霧の中では、私から離れすぎるな。",
+    "expected_clip": "clips/Shot008.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot009",
+    "order": 9,
+    "scene": "离开修道院",
+    "purpose": "从秩序空间转入边境雾区。",
+    "duration_seconds": 10,
+    "source_timecode": "00:06:20",
+    "previous_source_timecode": "00:04:50",
+    "source_timecode_audit": {
+      "source_match": "group preparing to move into mission map",
+      "adaptation_gap": "departure from monastery is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot009_source.png",
+    "characters": [
+      "Byleth",
+      "Dimitri",
+      "Ashe",
+      "Catherine"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Catherine",
+        "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot009/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot009/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot009/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot009/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot009/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot009/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot009/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot009_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot009_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot009/Shot009_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot009/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot009/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot009_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot009_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot009 web candidate because the previous START/KEY/END relied on male or ambiguous black-cloak Byleth back silhouettes and Catherine was not consistently readable. New START/KEY/END use attached local selected assets for female Byleth, Dimitri, Ashe, Catherine, and Church banners. The chain now reads as gate pause, road departure, and dissolve toward a fog road; female Byleth is visible as the academy-era female professor in START/KEY and remains female-coded in the distant END silhouette.",
+    "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, END turns into anonymous back silhouettes, Catherine/Dimitri/Ashe identities swap, the shot becomes a battle beat, or START/KEY/END collapse into repeated stills.",
+    "edit_in": "cut from Catherine",
+    "edit_out": "dissolve to fog road",
+    "audio_anchor": "Marching footsteps and wind overwhelming the fading bell. No spoken dialogue.",
+    "expected_clip": "clips/Shot009.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot010",
+    "order": 10,
+    "scene": "马格德雷德雾道",
+    "purpose": "建立战场核心危险：能见度和误判。",
+    "duration_seconds": 10.9,
+    "source_timecode": "00:06:30",
+    "previous_source_timecode": "00:05:15",
+    "source_timecode_audit": {
+      "source_match": "Magdred fog tactical map begins",
+      "adaptation_gap": "matches fog geography",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot010_source.png",
+    "characters": [
+      "Byleth",
+      "Dimitri",
+      "Dedue",
+      "Ingrid"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dedue",
+        "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ingrid",
+        "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ingrid_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot010/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot010/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot010/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot010/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot010/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot010/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot010/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot010_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot010_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot010/Shot010_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot010/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot010/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot010_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot010_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot010 web candidate because the previous START/KEY/END reduced the party to anonymous back silhouettes, made Byleth read as male or ambiguous, and turned Dedue into a generic soldier. New START/KEY/END use Shot009 fog-road continuity, a local character reference board, and the Magdred Way fog-road reference. The chain now reads as cautious entry, two-column advance, and village-sign cut-out while female Byleth remains visibly female and the four named party members remain readable.",
+    "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, Dedue becomes a bald generic soldier, Ingrid costume drifts further into non-academy armor, fog swallows identity, or START/KEY/END collapse into repeated fog-road stills.",
+    "edit_in": "dissolve from monastery road",
+    "edit_out": "cut to village sign",
+    "audio_anchor": "Ingrid, in Japanese: 霧が濃すぎるわ。 Dedue, in Japanese: 足音を聞け。",
+    "expected_clip": "clips/Shot010.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot011",
+    "order": 11,
+    "scene": "边境村痕迹",
+    "purpose": "证明叛乱已影响平民，不只是教会内部争斗。",
+    "duration_seconds": 12,
+    "source_timecode": "00:06:50",
+    "previous_source_timecode": "00:05:45",
+    "source_timecode_audit": {
+      "source_match": "fog battlefield with village-area pressure implied",
+      "adaptation_gap": "civilian village traces are adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot011_source.png",
+    "characters": [
+      "Byleth",
+      "Ashe",
+      "Mercedes"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Mercedes",
+        "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Mercedes_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot011/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot011/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot011/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot011/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot011/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot011/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot011/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot011_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot011_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot011/Shot011_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot011/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot011/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot011_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot011_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot011 web candidate because the previous START/KEY/END staged Byleth mostly as a black-cloak back view that could read as male or ambiguous, repeated similar door-facing blocking, and carried weak named-character readability. New START/KEY/END use Shot010 village-edge continuity, a local character reference board, and the Faerghus border village reference. The chain now reads as entering the village, witnessing a door bar drop shut, then turning toward distant rebel-camp smoke while female Byleth remains visibly female.",
+    "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, Mercedes drifts into war-phase armor or oversized ceremonial cloak, Ashe identity drifts, villagers become a spectacle crowd, or START/KEY/END collapse into repeated door-facing stills.",
+    "edit_in": "cut from fog road",
+    "edit_out": "cut to rebel camp smoke",
+    "audio_anchor": "No spoken dialogue; a door bar drops shut.",
+    "expected_clip": "clips/Shot011.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot012",
+    "order": 12,
+    "scene": "叛军营地远望",
+    "purpose": "让观众先看到 Lonato 的人不是普通盗匪。",
+    "duration_seconds": 14,
+    "source_timecode": "00:07:20",
+    "previous_source_timecode": "00:06:15",
+    "source_timecode_audit": {
+      "source_match": "enemy formation in fog",
+      "adaptation_gap": "rebel camp detail is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot012_source.png",
+    "characters": [
+      "Byleth",
+      "Ashe",
+      "SeirosSoldier"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+      "assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "SeirosSoldier",
+        "asset": "assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/assets_characters_church_of_seiros_SeirosSoldier_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot012/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot012/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot012/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot012/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot012/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot012/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot012/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot012_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot012_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot012/Shot012_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot012/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot012/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot012_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot012_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot012 integrated candidate because the previous END redesigned female Byleth into a sexualized leather/glamor costume with exposed chest/fishnet-like styling risk, while the prompt carried template contamination and the frame chain remained too similar in fog-camp surveillance mood. New START/KEY/END use Shot011 smoke continuity, a local character reference board, and the Western Church rebel camp reference. The chain now reads as discovery from cover, organized faith-marked camp evidence, then Byleth/Ashe silently pulling back for a tactical halt while female Byleth stays academy-professor coded.",
+    "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous or sexualized, Ashe identity drifts, the camp becomes generic bandits, Seiros/Western Church organization clues disappear, or START/KEY/END collapse into a static surveillance hold.",
+    "edit_in": "cut from village",
+    "edit_out": "cut to Blue Lions tactical halt",
+    "audio_anchor": "Distant prayers and armor friction. No spoken dialogue.",
+    "expected_clip": "clips/Shot012.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot013",
+    "order": 13,
+    "scene": "雾中部署",
+    "purpose": "Byleth 把学生从情绪里拉回战术。",
+    "duration_seconds": 13,
+    "source_timecode": "00:07:10",
+    "previous_source_timecode": "00:06:45",
+    "source_timecode_audit": {
+      "source_match": "tactical deployment map",
+      "adaptation_gap": "mud-map briefing is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot013_source.png",
+    "characters": [
+      "Byleth",
+      "Dimitri",
+      "Ashe",
+      "Felix",
+      "Mercedes"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Felix",
+        "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Felix_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Mercedes",
+        "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Mercedes_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot013/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot013/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot013/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot013/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot013/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot013/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot013/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot013_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot013_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot013/Shot013_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot013/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot013/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot013_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot013_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "Critical re-audit 2026-08-15: prior Shot013 local_asset_final_candidate_v1 is downgraded because START/KEY/END visually used male or ambiguous black-haired Byleth, violating the user-confirmed female-Byleth-only lock. New critical_reaudit_regen_v1 frames use the local female Byleth selected asset, Blue Lions academy selected assets, Shot012 continuity, and the Magdred fog-road reference. START shows the group gathering around Byleth, KEY clarifies two muddy route lines and stone markers, and END lands on deployment/listen state for the first-arrow cut. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe prove identity, costume, route-map, and restrained acting stability.",
+    "required_revision": "Run a 3-second motion probe before any approved_for_video promotion. Reject if Byleth becomes male/ambiguous/war-phase/sexualized, Byleth merges with Felix, Ashe fires or advances alone, the mud sketch becomes UI/grid/text/glowing markers, arrow impact appears before Shot014, START/KEY/END collapse into a static hold, or subtitles/UI/Chinese voice appear.",
+    "edit_in": "cut from rebel camp",
+    "edit_out": "cut to first arrow",
+    "audio_anchor": "Byleth, in Japanese: 影を追うな。仲間の声を聞け。霧に惑わされるな。",
+    "expected_clip": "clips/Shot013.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot014",
+    "order": 14,
+    "scene": "第一箭",
+    "purpose": "把战斗从潜伏推入不可逆。",
+    "duration_seconds": 8,
+    "source_timecode": "00:07:50",
+    "previous_source_timecode": "00:07:20",
+    "source_timecode_audit": {
+      "source_match": "fog cutscene with soldiers under attack",
+      "adaptation_gap": "first arrow is adaptation from battle start",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot014_source.png",
+    "characters": [
+      "Dedue",
+      "Dimitri"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "episodes/EP03/source_refs/Shot014_source.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Dedue",
+        "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot014/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot014/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot014/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot014/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot014/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot014/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot014/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot014_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot014_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot014/Shot014_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot014/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot014/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot014_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot014_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "Critical re-audit 2026-08-14: previous Shot014 web candidate falsely relied on a Dedue-like shield bearer who did not match the local Dedue selected asset closely enough; the action was readable but identity lock was unsafe. Replaced with local-reference imagegen frames where Dedue has dark skin, very short bleached hair, broad academy build, and shields Dimitri from the first arrow. Still monitor_required because KEY/END are compositionally close and need a 3-second motion probe before promotion. Byleth gender consistency lock 2026-08-14: EP03 must use female Byleth only from assets/characters/protagonist/BylethFemale/professor/selected.png. Existing candidates generated from old male/ambiguous Byleth references are monitor-only and must be visually re-audited or regenerated before video use.",
+    "required_revision": "Run 3-second motion probe only. Reject if Dedue becomes pale, long-haired, generic, or adult war-phase; if the arrow hits a body or becomes bloody; if the shield/Blue Lions uniform drifts; if subtitles/UI/Chinese voice appear; or if KEY-to-END collapses into a static hold.",
+    "edit_in": "cut on Byleth hand signal",
+    "edit_out": "cut to advancing rebels",
+    "audio_anchor": "An arrow strikes a shield; Dedue gives one short breath. No spoken dialogue.",
+    "expected_clip": "clips/Shot014.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot015",
+    "order": 15,
+    "scene": "叛军压上",
+    "purpose": "让敌方有纪律和信念，避免变成杂兵靶子。",
+    "duration_seconds": 8.9,
+    "source_timecode": "00:07:40",
+    "previous_source_timecode": "00:07:35",
+    "source_timecode_audit": {
+      "source_match": "enemy pressure in tactical formation",
+      "adaptation_gap": "matches rebels pressing through fog",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot015_source.png",
+    "characters": [
+      "SeirosSoldier"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "SeirosSoldier",
+        "asset": "assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/assets_characters_church_of_seiros_SeirosSoldier_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot015/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot015/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot015/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot015/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot015/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot015/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot015/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot015_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot015_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot015/Shot015_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot015/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot015/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot015_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot015_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-22 sequential re-audit: v2 still invented a Byleth stop gesture inside the rebel-pressure shot and did not carry the original fog-front action cleanly. v3 returns Shot015 to the script beat: a small four-to-five-person Western Church vanguard enters after the arrow impact, advances in real depth, braces at KEY, and holds a rightward spear handoff for Shot016. No named character appears in Shot015.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe; reject if the unit becomes a clone wall/endless army, a named character enters early, the arrow echo disappears, feet lose ground contact, the spear strikes, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from arrow impact",
+    "edit_out": "cut to Dimitri counterline",
+    "audio_anchor": "Rebels, in Japanese: ロナート卿のために！",
+    "expected_clip": "clips/Shot015.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot016",
+    "order": 16,
+    "scene": "Dimitri 克制锋芒",
+    "purpose": "展示 Dimitri 已有危险力量，但仍听从 Byleth。",
+    "duration_seconds": 11.6,
+    "source_timecode": "00:10:10",
+    "previous_source_timecode": "00:08:00",
+    "source_timecode_audit": {
+      "source_match": "Dimitri field dialogue after engagement",
+      "adaptation_gap": "Dimitri spear restraint is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot016_source.png",
+    "characters": [
+      "Dimitri",
+      "Byleth",
+      "Dedue"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dedue",
+        "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot016/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot016/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot016/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot016/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot016/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot016/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot016/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot016_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot016_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot016/Shot016_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot016/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot016/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot016_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot016_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-22 sequential re-audit: the frozen Shot016 v1 frames did not make Dedue's newly corrected nape braid readable, and the action chain still read too much like a generic line hold. v2 uses the canonical braid-repaired Dedue asset with local female Byleth and Dimitri references. START establishes the handoff from Shot015, KEY makes Dimitri's over-pursuit meet Byleth's raised stop hand, and END lowers the spear into a clean Shot017 eyeline handoff. All three performers are integrated into the same wet battlefield rather than pasted portrait plates.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe; reject if Byleth becomes male or war-phase, Dedue's braid disappears or detaches, Dimitri strikes a visible person, the spear geometry mutates, the trio becomes a posed lineup, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from rebel pressure",
+    "edit_out": "cut to Ashe sees sigil",
+    "audio_anchor": "Byleth, in Japanese: 戦線を守れ。 Dimitri, in Japanese: 承知しました。",
+    "expected_clip": "clips/Shot016.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot017",
+    "order": 17,
+    "scene": "Ashe 认出旧徽记",
+    "purpose": "把战斗压力重新压回 Ashe 的选择。",
+    "duration_seconds": 11.7,
+    "source_timecode": "00:08:30",
+    "previous_source_timecode": "00:08:30",
+    "source_timecode_audit": {
+      "source_match": "Lonato/Gaspard tactical dialogue",
+      "adaptation_gap": "Gaspard crest recognition is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot017_source.png",
+    "characters": [
+      "Ashe",
+      "Byleth"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot017/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot017/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot017/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot017/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot017/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot017/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot017/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot017_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot017_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot017/Shot017_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "episodes/EP03/storyboards/Shot017/key_frame_identity_locked_probe_2026-08-01.png",
+    "identity_locked_probe_review": "episodes/EP03/production_system/reviews/shot017_identity_locked_probe_2026-08-01.jpg",
+    "frame_spec": "episodes/EP03/storyboards/Shot017/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot017/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot017_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot017_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-22 sequential re-audit: the frozen Shot017 v1 chain repeated Shot016's raised-hand gesture in END and did not focus the recognition beat tightly enough on Ashe and the physical worn shield emblem. v2 uses the canonical local Ashe and female Byleth references, Shot016 v2 END, and the frozen Shot018 entry lane. START holds Ashe half-ready, KEY lands the emblem recognition with a softened bowstring, and the regenerated END lowers the bow nearly vertical with a visibly slack string before Ashe turns back toward Byleth. The performers are integrated into the same wet foggy ridge rather than pasted portrait plates.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe; reject if Byleth becomes male or war-phase, Ashe fires or ages up, the bow remains taut in END, the shield emblem becomes text or a glowing icon, Shot016's stop-hand gesture repeats, Felix appears early, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from Dimitri halt",
+    "edit_out": "cut to Felix covering him",
+    "audio_anchor": "Ashe, in Japanese: あれは……ガスパール家の紋章。",
+    "expected_clip": "clips/Shot017.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot018",
+    "order": 18,
+    "scene": "Felix 补位",
+    "purpose": "让队友关系通过动作建立，而不是靠安慰对白。",
+    "duration_seconds": 8.9,
+    "source_timecode": "00:09:00",
+    "previous_source_timecode": "00:09:00",
+    "source_timecode_audit": {
+      "source_match": "battle map pressure and ally positioning",
+      "adaptation_gap": "Felix cover beat is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot018_source.png",
+    "characters": [
+      "Felix",
+      "Ashe"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Felix",
+        "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Felix_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot018/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot018/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot018/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot018/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot018/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot018/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot018/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot018_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot018_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot018/Shot018_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot018/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot018/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot018_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot018_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-23 critical re-audit: user again rejected Shot018 because the prior web candidate still read as a wide action diagram. v6 rebuilds the visual grammar as three materially different live-action states: START is a hard lateral entry across Ashe, KEY is a tight single-blade bind with Felix's body torque, and END is a grounded recovery that physically sends Ashe toward the open exit.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Felix does not cross in front of Ashe, the left danger is mirrored, Felix looks right, Ashe fires/overtakes, the block becomes a killing blow, any named attacker enters, the chain becomes a static lineup or pasted character plates, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from Ashe hesitation",
+    "edit_out": "cut to Annette/Mercedes support",
+    "audio_anchor": "Felix, in Japanese: ぼんやりするな。お前の代わりに誰かが傷つくぞ。",
+    "expected_clip": "clips/Shot018.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot019",
+    "order": 19,
+    "scene": "支援线稳住",
+    "purpose": "让后排不是背景板，承担安全撤退与视野控制。",
+    "duration_seconds": 9.4,
+    "source_timecode": "00:09:30",
+    "previous_source_timecode": "00:09:25",
+    "source_timecode_audit": {
+      "source_match": "tactical-map support positioning",
+      "adaptation_gap": "Mercedes/Annette support action is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot019_source.png",
+    "characters": [
+      "Mercedes",
+      "Annette"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Mercedes",
+        "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Mercedes_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Annette",
+        "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Annette_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot019/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot019/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot019/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {
+      "start": "episodes/EP03/storyboards/Shot019/start_frame_imagegen_candidate_2026-07-29.png",
+      "key": "episodes/EP03/storyboards/Shot019/key_frame_imagegen_candidate_2026-07-29.png",
+      "end": "episodes/EP03/storyboards/Shot019/end_frame_imagegen_candidate_2026-07-29.png",
+      "contact_sheet": "episodes/EP03/storyboards/Shot019/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+    },
+    "imagegen_candidates_complete": true,
+    "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot019_identity_comparison_2026-07-31.jpg",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot019_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot019/Shot019_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot019/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot019/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot019_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot019_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-23 critical re-audit: user again rejected Shot019 because the prior three-person support line still read as a staging diagram and exceeded the source beat. v4 returns to the shot-list's two-person action: Mercedes physically guides one indistinct civilian into the fog while Annette crosses the near plane and opens a practical visibility lane; END leaves the center road empty for Catherine.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Ingrid or any unlisted named character appears, the two women collapse into a row, Annette creates spectacle magic, the civilian becomes a named or graphic subject, the center road is blocked, characters look pasted onto the road, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from Felix save",
+    "edit_out": "cut to Catherine charge",
+    "audio_anchor": "Mercedes, in Japanese: こちらです！ Annette, in Japanese: 道が見えた！",
+    "expected_clip": "clips/Shot019.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot020",
+    "order": 20,
+    "scene": "Catherine 破雾",
+    "purpose": "表现 Catherine 是教会王牌，也制造学生对力量的震动。",
+    "duration_seconds": 14,
+    "source_timecode": "00:08:20",
+    "previous_source_timecode": "00:09:55",
+    "source_timecode_audit": {
+      "source_match": "Catherine/Thunderbrand action cutscene",
+      "adaptation_gap": "matches Catherine force-scale beat",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot020_source.png",
+    "characters": [
+      "Catherine",
+      "Byleth",
+      "Ashe"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Catherine",
+        "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot020/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot020/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot020/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot020_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot020/Shot020_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot020/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot020/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot020_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot020_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-23 critical re-audit: user feedback requires live-action frames that do not read as static game-like portraits. Shot020 v3 had correct female Byleth and Thunderbrand identity, but START and END still read as a posed trio. v4 regenerates the chain as moving entry, one localized Thunderbrand cut, and a layered forward handoff: Catherine enters at left, Byleth and Ashe move through different depths, and END leaves the route open for Shot021.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Byleth becomes male/ambiguous/war-phase, Thunderbrand becomes a polearm, Catherine becomes a superhero pose, lightning becomes a beam or full-frame effect, Byleth and Ashe freeze as a background pair, the trio forms a horizontal row, any named character enters early, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from support line",
+    "edit_out": "cut to Lonato silhouette",
+    "audio_anchor": "Thunder; the rebel line is forced apart. No spoken dialogue.",
+    "expected_clip": "clips/Shot020.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot021",
+    "order": 21,
+    "scene": "Lonato 现身",
+    "purpose": "把敌方核心从叛军抽象化为 Ashe 的父亲替身。",
+    "duration_seconds": 11.7,
+    "source_timecode": "00:08:10",
+    "previous_source_timecode": "00:10:25",
+    "source_timecode_audit": {
+      "source_match": "Lonato closeup cutscene",
+      "adaptation_gap": "matches Lonato reveal",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot021_source.png",
+    "characters": [
+      "Lonato",
+      "Ashe",
+      "Dimitri"
+    ],
+    "asset_references": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot021/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot021/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot021/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot021_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot021/Shot021_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot021/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot021/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot021_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot021_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "Shot021 v2 replaces the static poster-like candidate: Lonato emerges from the fog, Ashe is pulled one step forward, Dimitri checks the path, and the END hands off to Ashe in the road.",
+    "required_revision": "Keep monitor_required until the Japanese dialogue prompt is reviewed against the uploaded START/KEY/END frames and a 3-second motion probe confirms Lonato age/identity, active student reactions, non-graphic restraint, and a moving tail hold.",
+    "edit_in": "cut from Catherine lightning",
+    "edit_out": "cut to Ashe stepping forward",
+    "audio_anchor": "Lonato, in Japanese: どけ。子供たちと戦うつもりはない。",
+    "expected_clip": "clips/Shot021.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot022",
+    "order": 22,
+    "scene": "Ashe 上前",
+    "purpose": "Ashe 主动要求对话，证明他不是被剧情拖着走。",
+    "duration_seconds": 13,
+    "source_timecode": "00:11:50",
+    "previous_source_timecode": "00:10:55",
+    "source_timecode_audit": {
+      "source_match": "post-battle Blue Lions field exchange",
+      "adaptation_gap": "Ashe direct plea is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot022_source.png",
+    "characters": [
+      "Ashe",
+      "Lonato",
+      "Dimitri",
+      "Byleth"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot022/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot022/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot022/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot022_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot022/Shot022_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot022/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot022/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot022_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot022_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-23 distance-continuity re-audit: v3 repaired the identity collision but still needed an explicit physical negotiation rule. v4 rebuilds START/KEY/END as wide, medium-long, respectful approach states: Ashe takes one step only, Lonato remains uphill beyond sword range, and Dimitri plus female Byleth stay behind Ashe as a control line.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Ashe/Lonato become sword-distance, Dimitri or Byleth stand beside Lonato as executioners, Dimitri gets a bow, Byleth becomes male, Lonato attacks, Ashe raises/fires, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from Lonato reveal",
+    "edit_out": "cut to Lonato refusal",
+    "audio_anchor": "Ashe, in Japanese: ロナート様、どうか止まってください。",
+    "expected_clip": "clips/Shot022.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot023",
+    "order": 23,
+    "scene": "Lonato 拒绝",
+    "purpose": "让 Lonato 的叛乱有道德痛点，但不能推翻本章教会权力事实。",
+    "duration_seconds": 13,
+    "source_timecode": "00:09:20",
+    "previous_source_timecode": "00:11:30",
+    "source_timecode_audit": {
+      "source_match": "Lonato battlefield dialogue",
+      "adaptation_gap": "matches principled rebel framing",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot023_source.png",
+    "characters": [
+      "Lonato",
+      "Ashe"
+    ],
+    "asset_references": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot023/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot023/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot023/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot023_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot023/Shot023_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot023/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot023/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot023_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot023_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-23 distance-continuity re-audit: v5 fixed the axis and scale progression but its KEY was still too close for the nearby Blue Lions' tactical geography. v6 keeps Lonato left/uphill and Ashe right/nearer while making every refusal state a medium-long two-plane exchange with an explicit open road buffer.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if KEY becomes sword-distance, the central gap disappears, the axis reverses, Lonato attacks, Ashe draws/fires, rebels become named, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from Ashe plea",
+    "edit_out": "cut to Byleth command",
+    "audio_anchor": "Lonato, in Japanese: 問われぬ罪は、聖なる名の陰に隠されるだけだ。",
+    "expected_clip": "clips/Shot023.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot024",
+    "order": 24,
+    "scene": "Byleth 下令包围",
+    "purpose": "Byleth 选择保护学生与平民，接受必须结束战斗。",
+    "duration_seconds": 7.6,
+    "source_timecode": "00:09:50",
+    "previous_source_timecode": "00:12:05",
+    "source_timecode_audit": {
+      "source_match": "Byleth/Dimitri tactical exchange",
+      "adaptation_gap": "Byleth order is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot024_source.png",
+    "characters": [
+      "Byleth",
+      "Ashe",
+      "Lonato",
+      "Dimitri",
+      "Dedue",
+      "Ingrid"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dedue",
+        "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot024/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot024/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot024/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot024_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot024/Shot024_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot024/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot024/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot024_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot024_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-23 distance-continuity re-audit: v2 made the command readable but left the physical command pocket and Lonato distance too implicit. v3 moves Byleth behind Ashe, keeps the sword tip on empty flank lanes, and makes Dimitri/Dedue/Ingrid first movement establish a buffer rather than an execution surround.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict Shot023→024 continuity QA, and a 3-second motion probe. Reject if Byleth is close enough to execute Lonato, the sword targets a body, Ashe raises/fires, Lonato attacks, Dedue loses the braid, or Chinese/Mandarin/subtitles/UI/borders appear.",
+    "edit_in": "cut from Lonato refusal",
+    "edit_out": "cut to two-wing move",
+    "audio_anchor": "Byleth, in Japanese: 護衛を分断しろ。村道へ近づけるな。",
+    "expected_clip": "clips/Shot024.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot025",
+    "order": 25,
+    "scene": "青狮两翼推进",
+    "purpose": "展示学生在 EP2 模拟战后学会真实协同。",
+    "duration_seconds": 14,
+    "source_timecode": "00:07:10",
+    "previous_source_timecode": "00:12:30",
+    "source_timecode_audit": {
+      "source_match": "Blue Lions tactical formation",
+      "adaptation_gap": "matches two-wing advance geography",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot025_source.png",
+    "characters": [
+      "BylethFemale",
+      "Dimitri",
+      "Dedue",
+      "Sylvain",
+      "Ingrid",
+      "Mercedes",
+      "Annette",
+      "Ashe",
+      "Lonato"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dedue",
+        "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Sylvain",
+        "asset": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Sylvain_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ingrid",
+        "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ingrid_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Mercedes",
+        "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Mercedes_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot025/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot025/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot025/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot025_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot025/Shot025_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot025/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot025/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot025_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot025_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "visual_audit_finding": "2026-09-03 user-triggered re-audit: v9 makes the non-approach legible through scale and terrain. The academy formation stays behind the near palisade; the deep ravine, drainage channel, middle gate with two guards, second ridge, and further fog depression separate it from tiny far-ridge Lonato. START/KEY/END are high open crossing, gate closure, and lateral sealed-line result.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict Shot024->025 and 025->026 continuity QA, and a 3-second motion probe. Reject if any performer enters the ravine, the middle gate or two guards disappear, Byleth reads as being on Lonato's ridge, the camera pushes toward Lonato, START/KEY/END collapse into one pose, or Lonato becomes a face-to-face target.",
+    "edit_in": "cut from command",
+    "edit_out": "cut to Ashe aim",
+    "audio_anchor": "Orders, footsteps, and fog-lantern impacts. No spoken dialogue.",
+    "expected_clip": "clips/Shot025.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot026",
+    "order": 26,
+    "scene": "Ashe 重新拉弓",
+    "purpose": "Ashe 做出痛苦但必要的选择：阻止 Lonato。",
+    "duration_seconds": 6,
+    "source_timecode": "00:04:30",
+    "previous_source_timecode": "00:12:58",
+    "source_timecode_audit": {
+      "source_match": "Ashe visible in mission dialogue",
+      "adaptation_gap": "Ashe drawing bow is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot026_source.png",
+    "characters": [
+      "Ashe",
+      "Lonato"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v9_2026-09-03/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot026/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot026/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot026/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot026_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot026/Shot026_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot026/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot026/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot026_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot026_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "visual_audit_finding": "2026-09-02 sequential re-audit: v7 rebuild: a wide side-offset battlefield keeps Ashe in the near-right foreground, exactly two rebel guards across the middle barriers, and Lonato tiny on a far upper-left ridge. Ashe holds a nocked arrow toward empty mud before the guard line and never gets a direct attack lane.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe. Reject if the declared distance, guard interaction, weapon state, action handoff breaks, or Chinese/Mandarin voice, subtitles, UI, borders, or pasted cutouts appear.",
+    "edit_in": "cut from protected guard geography",
+    "edit_out": "cut to Catherine entering the guard gap",
+    "audio_anchor": "Native Japanese audio only: Ashe says 「ごめんなさい。」 once after the drawn-bow beat, then releases the string without firing.",
+    "expected_clip": "clips/Shot026.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot027",
+    "order": 27,
+    "scene": "非致命拦截",
+    "purpose": "保持学生不直接处决养父，保留 Catherine/Byleth 承担最后武力。",
+    "duration_seconds": 5,
+    "source_timecode": "00:07:50",
+    "previous_source_timecode": "00:13:20",
+    "source_timecode_audit": {
+      "source_match": "fog battle cutscene action",
+      "adaptation_gap": "nonlethal arrow is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot027_source.png",
+    "characters": [
+      "Ashe",
+      "Catherine",
+      "Lonato"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Catherine",
+        "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot027/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot027/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot027/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot027_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot027/Shot027_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot027/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot027/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot027_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot027_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "visual_audit_finding": "2026-09-02 sequential re-audit: v7 rebuild: Catherine enters through the left barrier gap and redirects the nearer guard's long weapon with Thunderbrand. Ashe stays back, the second guard remains visible, and Lonato never becomes a close-range target in this intervention shot.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe. Reject if the declared distance, guard interaction, weapon state, action handoff breaks, or Chinese/Mandarin voice, subtitles, UI, borders, or pasted cutouts appear.",
+    "edit_in": "cut from Ashe's lowered nocked arrow",
+    "edit_out": "cut to Catherine/Lonato pre-contact coverage",
+    "audio_anchor": "An arrow hits the mud; Lonato stops. No spoken dialogue.",
+    "expected_clip": "clips/Shot027.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot028",
+    "order": 28,
+    "scene": "最后压制",
+    "purpose": "结束战斗，同时把学生从处决中心移开。",
+    "duration_seconds": 8,
+    "source_timecode": "00:08:20",
+    "previous_source_timecode": "00:13:40",
+    "source_timecode_audit": {
+      "source_match": "Catherine disarming force beat",
+      "adaptation_gap": "Byleth/Catherine final suppression is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot028_source.png",
+    "characters": [
+      "Catherine",
+      "Lonato"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Catherine",
+        "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot028/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot028/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot028/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot028_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot028/Shot028_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot028/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot028/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot028_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot028_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "visual_audit_finding": "2026-09-02 sequential re-audit: v7 rebuild: the guard line has already been displaced before this closer coverage. Catherine and Lonato perform one readable weapon-level bind; the ordinary sword settles into wet mud while Catherine keeps Thunderbrand low and Lonato remains upright until the next shot.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe. Reject if the declared distance, guard interaction, weapon state, action handoff breaks, or Chinese/Mandarin voice, subtitles, UI, borders, or pasted cutouts appear.",
+    "edit_in": "cut from the guard line cleared",
+    "edit_out": "cut to Lonato losing support",
+    "audio_anchor": "Metal falls; the fog goes briefly quiet. No spoken dialogue.",
+    "expected_clip": "clips/Shot028.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot029",
+    "order": 29,
+    "scene": "Lonato 倒下",
+    "purpose": "把胜利处理成创伤而不是爽点。",
+    "duration_seconds": 6,
+    "source_timecode": "00:09:20",
+    "previous_source_timecode": "00:14:05",
+    "source_timecode_audit": {
+      "source_match": "Lonato battlefield dialogue and defeat context",
+      "adaptation_gap": "Lonato kneeling beat is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot029_source.png",
+    "characters": [
+      "Lonato",
+      "Dimitri",
+      "Ashe",
+      "BylethFemale"
+    ],
+    "asset_references": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Lonato",
+        "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot029/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot029/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot029/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot029_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot029/Shot029_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot029/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot029/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot029_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot029_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "visual_audit_finding": "2026-09-02 sequential re-audit: v7 rebuild: Lonato receives the previous shot's dropped sword and upright imbalance, then settles onto one knee. Female Byleth, Dimitri, and Ashe remain staggered and outside sword range; Catherine does not return.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe. Reject if the declared distance, guard interaction, weapon state, female Byleth identity, or non-rushing witness geography breaks, or Chinese/Mandarin voice, subtitles, UI, borders, or pasted cutouts appear.",
+    "edit_in": "cut from the ordinary sword dropped, Lonato upright",
+    "edit_out": "cut to the quiet post-battle field",
+    "audio_anchor": "Ashe breathing; distant fighting stops. No spoken dialogue.",
+    "expected_clip": "clips/Shot029.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot030",
+    "order": 30,
+    "scene": "战后无声",
+    "purpose": "让青狮第一次理解真实战斗和模拟战的差距。",
+    "duration_seconds": 12,
+    "source_timecode": "00:12:10",
+    "previous_source_timecode": "00:14:28",
+    "source_timecode_audit": {
+      "source_match": "battlefield aftermath exchange",
+      "adaptation_gap": "matches aftermath silence before church return",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot030_source.png",
+    "characters": [
+      "BylethFemale",
+      "Dimitri",
+      "Ashe",
+      "Catherine"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Catherine",
+        "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot030/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot030/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot030/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot030_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot030/Shot030_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot030/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot030/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot030_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot030_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "visual_audit_finding": "2026-09-02 sequential re-audit: v3 rebuild: the silent aftermath is staged as one physically integrated muddy fog lane with three foreground witness layers and Catherine crossing only in the far background. START shows her entering, KEY shows Ashe's bowed head and Dimitri's turned shoulders as Catherine crosses right, and END leaves Catherine offscreen while the three witnesses hold a wider empty corridor. Lonato never returns to the frame.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe. Reject if the declared distance, guard interaction, weapon state, action handoff breaks, or Chinese/Mandarin voice, subtitles, UI, borders, or pasted cutouts appear.",
+    "edit_in": "cut from Lonato fully kneeling",
+    "edit_out": "cut to the cathedral report space",
+    "audio_anchor": "No spoken dialogue, only wind.",
+    "expected_clip": "clips/Shot030.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot031",
+    "order": 31,
+    "scene": "回到 Rhea 面前",
+    "purpose": "教会秩序重新覆盖战场创伤。",
+    "duration_seconds": 13.4,
+    "source_timecode": "00:12:30",
+    "previous_source_timecode": "00:12:10",
+    "source_timecode_audit": {
+      "source_match": "return to Rhea/Seteth in cathedral",
+      "adaptation_gap": "matches report-to-Rhea beat",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot031_source.png",
+    "characters": [
+      "Rhea",
+      "Seteth",
+      "BylethFemale",
+      "Dimitri",
+      "Ashe"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Rhea",
+        "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Seteth",
+        "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Seteth_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot031/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot031/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot031/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot031_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot031/Shot031_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot031/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot031/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot031_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot031_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-24 sequential re-audit: existing Shot031 v2 frames pass the still audit and now receive the corrected Shot030 v2 handoff. START carries mud-marked students below the altar, KEY makes Seteth's folio handoff to Rhea and her raised hand the action peak, and END turns Rhea away while Seteth descends. Female Byleth is consistent in every frame; motion remains monitor_required.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict Shot030->031 and 031->032 continuity QA, and a 3-second motion probe. Reject if Byleth reads male or ambiguous, Seteth reads young or war-phase, the folio handoff disappears, the five collapse into a static lineup, students look clean and reset, any unlisted named character enters, or Chinese/Mandarin/subtitles/UI/pasted plates appear.",
+    "edit_in": "cut from fog field",
+    "edit_out": "cut to execution order",
+    "audio_anchor": "Rhea, in Japanese: ご苦労さまでした。あなた方は信仰の安寧を守りました。",
+    "expected_clip": "clips/Shot031.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot032",
+    "order": 32,
+    "scene": "西方教会处置",
+    "purpose": "明确 Rhea 的温柔外表下有不可抗拒的制裁。",
+    "duration_seconds": 11.5,
+    "source_timecode": "00:13:00",
+    "previous_source_timecode": "00:12:50",
+    "source_timecode_audit": {
+      "source_match": "Rhea orders judgment",
+      "adaptation_gap": "matches Western Church punishment beat",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot032_source.png",
+    "characters": [
+      "Rhea",
+      "Seteth",
+      "BylethFemale"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Rhea",
+        "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Seteth",
+        "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Seteth_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot032/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot032/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot032/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot032_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot032/Shot032_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot032/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot032/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot032_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot032_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-24 sequential re-audit: existing Shot032 v2 frames pass as a quiet institutional order and receive Shot031 v2's closed-folio handoff. START keeps female Byleth low while Seteth approaches Rhea, KEY makes the folio transfer and calm raised hand explicit, and END turns Rhea away while Seteth descends and female Byleth absorbs the consequence. Motion remains monitor_required.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict Shot031->032 and 032->033 continuity QA, and a 3-second motion probe. Reject if Byleth reads male or ambiguous, Seteth reads young or war-phase, the handoff is missing, Rhea becomes cartoonishly evil, START/KEY/END collapse into one pose, any unlisted named character enters, or Chinese/Mandarin/subtitles/UI/pasted plates appear.",
+    "edit_in": "cut from report",
+    "edit_out": "cut to students reacting",
+    "audio_anchor": "Rhea, in Japanese: 反逆者は裁きを受けねばなりません。",
+    "expected_clip": "clips/Shot032.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot033",
+    "order": 33,
+    "scene": "学生目睹代价",
+    "purpose": "让 Dimitri/Ashe/Byleth 对教会权威产生不同沉默。",
+    "duration_seconds": 14,
+    "source_timecode": "00:11:40",
+    "previous_source_timecode": "00:13:15",
+    "source_timecode_audit": {
+      "source_match": "Dimitri/Blue Lions field reaction",
+      "adaptation_gap": "students witnessing cost is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot033_source.png",
+    "characters": [
+      "Ashe",
+      "Dimitri",
+      "Felix",
+      "BylethFemale"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Felix",
+        "asset": "assets/characters/blue_lions/Felix/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Felix_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot033/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot033/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot033/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot033_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot033/Shot033_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot033/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot033/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot033_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot033_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-24 v2 replaces the provenance-pending v1 display with a cache-backed integrated live-action chain. START receives Shot032 on the same cathedral material; KEY separates the four reaction marks; END closes the door and sends female Byleth toward the right corridor without adding a fifth performer.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict Shot032->Shot033 and Shot033->Shot034 continuity QA, and a 3-second motion probe. Reject if the four become a lineup or cutout plates, the door/eyeline handoff disappears, weapons rise, Byleth reads male, a fifth named person appears, or Chinese/Mandarin speech, subtitles, UI, borders, or pasted cutouts appear.",
+    "edit_in": "cut from Rhea order",
+    "edit_out": "cut to Catherine side talk",
+    "audio_anchor": "A distant door closes. No spoken dialogue.",
+    "expected_clip": "clips/Shot033.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot034",
+    "order": 34,
+    "scene": "Catherine 的信念",
+    "purpose": "补出教会武力的自我理解：忠诚、正义、危险混在一起。",
+    "duration_seconds": 12.6,
+    "source_timecode": "00:12:00",
+    "previous_source_timecode": "00:13:40",
+    "source_timecode_audit": {
+      "source_match": "Catherine with Byleth/Dimitri after battle",
+      "adaptation_gap": "Catherine faith dialogue is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot034_source.png",
+    "characters": [
+      "Catherine",
+      "Ashe",
+      "BylethFemale"
+    ],
+    "asset_references": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/end_frame.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Catherine",
+        "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Ashe",
+        "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot034/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot034/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot034/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot034_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot034/Shot034_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot034/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot034/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot034_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot034_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "visual_audit_finding": "2026-09-02 sequential re-audit: v3 rebuild: the prior v2 was rejected for near-identical staging. The new chain is one wet monastery cloister with Ashe left at respectful distance, Catherine right by the column, and female Byleth far behind. START settles the entry, KEY makes Catherine's low sheathed-Thunderbrand cleaning and Ashe's question visible, and END lowers the cloth, turns Catherine toward Ashe, and sends Byleth into the clear right exit lane.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe. Reject if the declared distance, guard interaction, weapon state, action handoff breaks, or Chinese/Mandarin voice, subtitles, UI, borders, or pasted cutouts appear.",
+    "edit_in": "cut from the right-corridor Byleth eyeline",
+    "edit_out": "cut to Dimitri night",
+    "audio_anchor": "Catherine, in Japanese: 私はレア様を信じている。迷いは、まだ決められない者に任せる。",
+    "expected_clip": "clips/Shot034.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot035",
+    "order": 35,
+    "scene": "杀意与正义",
+    "purpose": "把 Dimitri 的危险自省拍成行走、停下、离开，而不是两个人并排站着交换台词。",
+    "duration_seconds": 15,
+    "source_timecode": "00:11:20",
+    "previous_source_timecode": "00:14:05",
+    "source_timecode_audit": {
+      "source_match": "Dimitri moral reaction in field",
+      "adaptation_gap": "night talk is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot035_source.png",
+    "characters": [
+      "Dimitri",
+      "BylethFemale"
+    ],
+    "asset_references": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "Dimitri",
+        "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot035/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot035/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot035/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot035_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot035/Shot035_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot035/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot035/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot035_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot035_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-24 sequential re-audit: v2 remains the integrated wet night-cloister chain. START gives Dimitri a clear lead and female Byleth a several-pace delay; KEY removes one glove and presses wet stone; END sends Dimitri into the dark arch while Byleth stays under the warm lamp. Dimitri remains academy-era, Byleth is female only, and the distance changes materially across the triptych.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict Shot034->035 and 035->036 continuity QA, and a 3-second motion probe. Reject if Dimitri becomes war-phase, Byleth reads male or ambiguous, the hand-to-stone action disappears, the distance collapses into a static two-shot, an extra person enters, or Chinese/Mandarin/subtitles/UI/pasted plates/black borders appear.",
+    "edit_in": "cut from Catherine line",
+    "edit_out": "cut to Byleth alone",
+    "audio_anchor": "Dimitri, in Japanese: 殺意が正義をまとえば、とても静かになるのですね。",
+    "expected_clip": "clips/Shot035.mp4",
+    "package_status": "layout_reference"
+  },
+  {
+    "id": "Shot036",
+    "order": 36,
+    "scene": "章末圣墓阴影",
+    "purpose": "收束并抛出下章：教会让学生看见制裁，也准备让他们看见更深秘密。",
+    "duration_seconds": 9.3,
+    "source_timecode": "00:14:20",
+    "previous_source_timecode": "00:14:20",
+    "source_timecode_audit": {
+      "source_match": "Rhea/Seteth closing setup",
+      "adaptation_gap": "Saint's Tomb shadow is adaptation expansion",
+      "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+    },
+    "source_reference": "episodes/EP03/source_refs/Shot036_source.png",
+    "characters": [
+      "BylethFemale",
+      "Sothis",
+      "Rhea"
+    ],
+    "asset_references": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "assets/props/shared/sword_of_creator/selected.png"
+    ],
+    "local_identity_plates": [
+      {
+        "character_id": "BylethFemale",
+        "asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Sothis",
+        "asset": "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/divine_Sothis_dream_legacy_ep01_candidate_03_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      },
+      {
+        "character_id": "Rhea",
+        "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+        "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg",
+        "status": "layout_reference"
+      }
+    ],
+    "local_frames": {
+      "start": "episodes/EP03/storyboards/Shot036/start_frame.png",
+      "key": "episodes/EP03/storyboards/Shot036/key_frame.png",
+      "end": "episodes/EP03/storyboards/Shot036/end_frame.png"
+    },
+    "local_frames_complete": true,
+    "imagegen_candidates": {},
+    "imagegen_candidates_complete": false,
+    "identity_comparison": "",
+    "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot036_local_asset_previs_proof_2026-07-31.jpg",
+    "local_video_source_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot036/Shot036_local_video_source_evidence_2026-08-01.jpg",
+    "identity_locked_probe_key": "",
+    "identity_locked_probe_review": "",
+    "frame_spec": "episodes/EP03/storyboards/Shot036/frame_spec.md",
+    "metadata": "episodes/EP03/storyboards/Shot036/metadata.json",
+    "prompt": "episodes/EP03/video_prompts/Shot036_prompt.md",
+    "negative_prompt": "episodes/EP03/video_prompts/Shot036_negative_prompt.md",
+    "delivery_status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "visual_audit_finding": "2026-08-24 sequential re-audit: the current v1 chain keeps female Byleth canonical in all three frames, uses Sothis only as a translucent green inner-voice presence, and leaves Rhea distant toward the Holy Tomb. START establishes the cathedral threshold, KEY introduces the spectral voice without solid floor contact, and END darkens around Byleth before the cut to black. No Blue Lions, extra speaker, subtitles, or lore text enter.",
+    "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Byleth becomes male/older/war-phase, loses the covered high-collar black professor outfit, Sothis becomes a solid companion or duplicate, Rhea moves into close-up, green VFX overexposes the frame, subtitles/UI/text appear, or START/KEY/END collapse into a frozen hold.",
+    "edit_in": "cut from Dimitri night",
+    "edit_out": "cut to black",
+    "audio_anchor": "Sothis, in Japanese: そなたは、あの者を信じるのか？",
+    "expected_clip": "clips/Shot036.mp4",
+    "package_status": "layout_reference"
+  }
+]

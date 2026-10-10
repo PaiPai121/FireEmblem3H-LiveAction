@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "preview_id": "FireEmblem3H-LiveAction-canonical-preview",
+  "entry_kind": "static_html",
+  "canonical_entry": "",
+  "canonical_route": "/",
+  "data_source": "production_system/preview_manifest.json",
+  "update_mode": "in_place",
+  "status": "pending",
+  "revision": 0,
+  "last_updated_at": "",
+  "changed_shot_ids": [],
+  "shots": [],
+  "history": []
+}

@@ -1,0 +1,16 @@
+{
+  "episode": "GDSC-EP01",
+  "title": "Hilda x Lorenz - Hilda Lets Lorenz Do The Work",
+  "support_pair": "Hilda x Lorenz",
+  "support_rank": "C and C+ excerpt",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/ローレンツ(レスター諸侯同盟)#ヒルダ",
+    "https://fireemblem.fandom.com/wiki/Hilda_(Three_Houses)/Supports#With_Lorenz"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "total_duration_seconds": 60,
+  "shot_count": 4,
+  "target_model": "Seedance",
+  "status": "approved_for_video"
+}

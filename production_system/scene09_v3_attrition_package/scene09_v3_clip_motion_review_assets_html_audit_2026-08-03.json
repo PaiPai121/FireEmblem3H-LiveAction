@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-03",
+  "html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_motion_review_assets.html",
+  "mirror_html": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_motion_review_assets.html",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "links_checked": 6,
+  "missing_links": [],
+  "expected_shots": 42,
+  "rendered_cards": [
+    {
+      "html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_motion_review_assets.html",
+      "cards": 42
+    },
+    {
+      "html": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_motion_review_assets.html",
+      "cards": 42
+    }
+  ],
+  "problems": [],
+  "decision": "clip_motion_review_assets_html_passed"
+}

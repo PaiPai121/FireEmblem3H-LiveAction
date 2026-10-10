@@ -1,0 +1,65 @@
+{
+  "id": "Shot009",
+  "order": 9,
+  "status": "frames_pending",
+  "duration_seconds": 8,
+  "scene": "进入圣墓",
+  "title": "墙上的擦痕",
+  "purpose": "Give Dedue the first evidence that the intrusion came through an internal route.",
+  "source_timecode": "00:05:30",
+  "source_reference": "source_refs/game_frame_0330s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Seiros Tomb outer corridor",
+  "characters": [
+    "Dedue",
+    "Byleth",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/SeirosTomb_reference.png",
+    "source/reference_pack/characters/Dedue_face.png",
+    "source/reference_pack/characters/Dedue_fullbody.png",
+    "source/reference_pack/characters/BylethFemale_face.png",
+    "source/reference_pack/characters/BylethFemale_fullbody.png",
+    "source/reference_pack/characters/Dimitri_face.png",
+    "source/reference_pack/characters/Dimitri_fullbody.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot009/frames_pending/start_frame.png",
+    "key": "storyboards/Shot009/frames_pending/key_frame.png",
+    "end": "storyboards/Shot009/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot009_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot009_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot009/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot009.md",
+  "dialogue_line_ids": [
+    "DL-EP04-009"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese_probe_pending",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Shot008's listening stop",
+  "continuity_next": "Byleth freezes the line in Shot010",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": {
+    "line_id": "DL-EP04-009",
+    "speaker": "Dedue",
+    "text": "左の壁に、外から触れた跡があります。",
+    "local_start_seconds": 4.25,
+    "local_speech_end_seconds": 7.25,
+    "local_end_seconds": 7.55,
+    "speech_seconds": 3,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  }
+}

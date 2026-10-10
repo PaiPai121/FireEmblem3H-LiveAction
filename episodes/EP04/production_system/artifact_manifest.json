@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "episode": "EP04",
+  "artifacts": [
+    {
+      "id": "EP04-project_bible",
+      "type": "project_bible",
+      "path": "source/project_bible.md",
+      "stage": "plan",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-outline",
+      "type": "outline",
+      "path": "script.md",
+      "stage": "script",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-script_scene",
+      "type": "script_scene",
+      "path": "script.md",
+      "stage": "script",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-director_treatment",
+      "type": "director_treatment",
+      "path": "director_treatment.md",
+      "stage": "direction",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-shot_list",
+      "type": "shot_list",
+      "path": "shot_list.md",
+      "stage": "coverage",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-coverage_plan",
+      "type": "coverage_plan",
+      "path": "planning/coverage_plan.md",
+      "stage": "coverage",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-transition_map",
+      "type": "transition_map",
+      "path": "planning/transition_map.json",
+      "stage": "sequence",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-animatic_plan",
+      "type": "animatic_plan",
+      "path": "planning/animatic_plan.json",
+      "stage": "animatic",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-dialogue_timeline",
+      "type": "dialogue_timeline",
+      "path": "planning/dialogue_timeline.json",
+      "stage": "story",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-action_choreography",
+      "type": "action_choreography",
+      "path": "planning/action_choreography.json",
+      "stage": "combat",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-reference_pack",
+      "type": "reference_pack",
+      "path": "source/reference_pack/reference_manifest.json",
+      "stage": "assets",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-model_target_profile",
+      "type": "model_target_profile",
+      "path": "model_target_profile.md",
+      "stage": "prompt",
+      "status": "ready_for_independent_review"
+    },
+    {
+      "id": "EP04-prompt_asset_package",
+      "type": "prompt_asset_package",
+      "path": "prompt_asset_package_manifest.json",
+      "stage": "prompt",
+      "status": "ready_for_independent_review"
+    }
+  ]
+}

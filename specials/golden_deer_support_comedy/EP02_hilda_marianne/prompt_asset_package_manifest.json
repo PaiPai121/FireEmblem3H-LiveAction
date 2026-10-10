@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "project": "EP02_hilda_marianne",
+  "target_model": "Seedance image-to-video",
+  "episode": "GDSC-EP02",
+  "created_at": "2026-07-28",
+  "frame_generation_mode": "repository character-reference composited raster storyboard frames",
+  "shots": [
+    {
+      "id": "GDSC02-SH001",
+      "order": 1,
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH001_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH001_negative_prompt.md",
+      "frames": {
+        "start": "storyboards/GDSC02-SH001/start_frame.png",
+        "key": "storyboards/GDSC02-SH001/key_frame.png",
+        "end": "storyboards/GDSC02-SH001/end_frame.png"
+      },
+      "status": "approved_for_video"
+    },
+    {
+      "id": "GDSC02-SH002",
+      "order": 2,
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH002_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH002_negative_prompt.md",
+      "frames": {
+        "start": "storyboards/GDSC02-SH002/start_frame.png",
+        "key": "storyboards/GDSC02-SH002/key_frame.png",
+        "end": "storyboards/GDSC02-SH002/end_frame.png"
+      },
+      "status": "approved_for_video"
+    },
+    {
+      "id": "GDSC02-SH003",
+      "order": 3,
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH003_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH003_negative_prompt.md",
+      "frames": {
+        "start": "storyboards/GDSC02-SH003/start_frame.png",
+        "key": "storyboards/GDSC02-SH003/key_frame.png",
+        "end": "storyboards/GDSC02-SH003/end_frame.png"
+      },
+      "status": "approved_for_video"
+    },
+    {
+      "id": "GDSC02-SH004",
+      "order": 4,
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH004_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH004_negative_prompt.md",
+      "frames": {
+        "start": "storyboards/GDSC02-SH004/start_frame.png",
+        "key": "storyboards/GDSC02-SH004/key_frame.png",
+        "end": "storyboards/GDSC02-SH004/end_frame.png"
+      },
+      "status": "approved_for_video"
+    }
+  ]
+}

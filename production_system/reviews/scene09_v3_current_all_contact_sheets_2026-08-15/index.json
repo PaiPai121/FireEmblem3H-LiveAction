@@ -1,0 +1,15 @@
+{
+  "source_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "source_package": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "shots": 42,
+  "frames": 126,
+  "sheets": [
+    "production_system/reviews/scene09_v3_current_all_contact_sheets_2026-08-15/scene09_current_all_frames_part1.png",
+    "production_system/reviews/scene09_v3_current_all_contact_sheets_2026-08-15/scene09_current_all_frames_part2.png",
+    "production_system/reviews/scene09_v3_current_all_contact_sheets_2026-08-15/scene09_current_all_frames_part3.png",
+    "production_system/reviews/scene09_v3_current_all_contact_sheets_2026-08-15/scene09_current_all_frames_part4.png",
+    "production_system/reviews/scene09_v3_current_all_contact_sheets_2026-08-15/scene09_current_all_frames_part5.png",
+    "production_system/reviews/scene09_v3_current_all_contact_sheets_2026-08-15/scene09_current_all_frames_part6.png",
+    "production_system/reviews/scene09_v3_current_all_contact_sheets_2026-08-15/scene09_current_all_frames_part7.png"
+  ]
+}

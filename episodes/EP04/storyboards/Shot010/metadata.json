@@ -1,0 +1,65 @@
+{
+  "id": "Shot010",
+  "order": 10,
+  "status": "frames_pending",
+  "duration_seconds": 10,
+  "scene": "进入圣墓",
+  "title": "不散列",
+  "purpose": "Change the rhythm from exploration to disciplined containment.",
+  "source_timecode": "00:06:00",
+  "source_reference": "source_refs/game_frame_0360s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Seiros Tomb inner door",
+  "characters": [
+    "Byleth",
+    "Dimitri",
+    "Dedue"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/SeirosTomb_reference.png",
+    "source/reference_pack/characters/BylethFemale_face.png",
+    "source/reference_pack/characters/BylethFemale_fullbody.png",
+    "source/reference_pack/characters/Dimitri_face.png",
+    "source/reference_pack/characters/Dimitri_fullbody.png",
+    "source/reference_pack/characters/Dedue_face.png",
+    "source/reference_pack/characters/Dedue_fullbody.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot010/frames_pending/start_frame.png",
+    "key": "storyboards/Shot010/frames_pending/key_frame.png",
+    "end": "storyboards/Shot010/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot010_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot010_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot010/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot010.md",
+  "dialogue_line_ids": [
+    "DL-EP04-010"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese_probe_pending",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Dedue's warning handoff",
+  "continuity_next": "the wrong metallic footfall enters Shot011",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": {
+    "line_id": "DL-EP04-010",
+    "speaker": "Byleth",
+    "text": "ここから先は、列を崩さない。",
+    "local_start_seconds": 6.75,
+    "local_speech_end_seconds": 9.25,
+    "local_end_seconds": 9.55,
+    "speech_seconds": 2.5,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  }
+}

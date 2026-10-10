@@ -1,0 +1,16 @@
+{
+  "episode": "GDSC-EP02",
+  "title": "Hilda x Marianne - Library Cleanup Blame Pass",
+  "support_pair": "Hilda x Marianne",
+  "support_rank": "C excerpt",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/マリアンヌ(レスター諸侯同盟)#ヒルダ",
+    "https://gamefaqs.gamespot.com/switch/204445-fire-emblem-three-houses/faqs/77596"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "total_duration_seconds": 60,
+  "shot_count": 4,
+  "target_model": "Seedance",
+  "status": "approved_for_video"
+}

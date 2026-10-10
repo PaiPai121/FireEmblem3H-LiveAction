@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "date": "2026-07-22",
+  "status": "blocked_needs_revision",
+  "source_queue": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/frame_generation_queue.json",
+  "source_qa_manifest": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json",
+  "established_video_continuity": {
+    "json": "production_system/scene09_v2_repair_package/established_video_continuity_2026-07-23.json",
+    "markdown": "production_system/scene09_v2_repair_package/established_video_continuity_2026-07-23.md",
+    "status": "canonical_blocker_for_current_v2_until_revised"
+  },
+  "canon_patch_assets": {
+    "manifest": "production_system/scene09_v2_repair_package/canon_patch_2026-07-23/canon_patch_manifest.json",
+    "prompts": "production_system/scene09_v2_repair_package/canon_patch_2026-07-23/canon_patch_prompts.md",
+    "status": "monitor_required_not_integrated_into_40_shot_queue"
+  },
+  "total_required_shots": 40,
+  "generated_monitor_required": [
+    "Shot025",
+    "Shot025A",
+    "Shot026",
+    "Shot026B",
+    "Shot026C",
+    "Shot027",
+    "Shot027B",
+    "Shot027C",
+    "Shot027D",
+    "Shot028",
+    "Shot028B",
+    "Shot028C",
+    "Shot029",
+    "Shot029C",
+    "Shot029D",
+    "Shot029B",
+    "Shot030",
+    "Shot030B",
+    "Shot030C",
+    "Shot031",
+    "Shot031B",
+    "Shot032",
+    "Shot032A",
+    "Shot032B",
+    "Shot032C",
+    "Shot032D",
+    "Shot032E",
+    "Shot033",
+    "Shot033B",
+    "Shot033C",
+    "Shot033D",
+    "Shot034C",
+    "Shot034D",
+    "Shot034B",
+    "Shot034E",
+    "Shot034F",
+    "Shot034G",
+    "Shot034",
+    "Shot035",
+    "Shot036"
+  ],
+  "blocked_needs_generation": [],
+  "battle_state_manifest": "production_system/scene09_v2_repair_package/battle_state_after_each_shot.json",
+  "duplicate_candidate_groups": [
+    {
+      "shot": "Shot033B",
+      "selected": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_key.png"
+      },
+      "duplicates": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot033B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot033B_key.png"
+      ]
+    },
+    {
+      "shot": "Shot033C",
+      "selected": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_key.png"
+      },
+      "duplicates": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot033C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot033C_key.png"
+      ]
+    },
+    {
+      "shot": "Shot033D",
+      "selected": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_key.png"
+      },
+      "duplicates": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033D_key.png"
+      ]
+    },
+    {
+      "shot": "Shot034C",
+      "selected": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_key.png"
+      },
+      "duplicates": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot034C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot034C_key.png"
+      ]
+    },
+    {
+      "shot": "Shot034D",
+      "selected": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_key.png"
+      },
+      "duplicates": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot034D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot034D_key.png"
+      ]
+    }
+  ],
+  "continuity_pairs_created": 39,
+  "delivery_manifest_status": "repair_manifest_only_not_approved_for_video"
+}

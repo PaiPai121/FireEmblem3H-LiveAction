@@ -1,0 +1,52 @@
+{
+  "shot": "Shot009",
+  "review_date": "2026-08-15",
+  "review_mode": "critical_reaudit_current_web_candidate",
+  "decision": "monitor_required",
+  "display_frame_set": "critical_reaudit_regen_v1",
+  "display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg"
+  },
+  "reference_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "previous_candidate_downgrade": {
+    "frame_set": "local_asset_final_candidate_v1",
+    "decision": "blocked_needs_revision",
+    "reason": "Previous Shot009 START/KEY/END relied on male or ambiguous black-cloak Byleth back silhouettes and did not keep Catherine consistently readable."
+  },
+  "visual_findings": [
+    "START establishes rainy monastery gate with female Byleth visibly female in black academy professor attire.",
+    "KEY advances to a true walking departure beat with Catherine, Dimitri, female Byleth, and Ashe.",
+    "END is compositionally distinct and moves the group toward the fog road; female Byleth is distant but still female-coded by hair, silhouette, and party continuity."
+  ],
+  "prompt_findings": [
+    "Executable prompt refers only to uploaded START/KEY/END frames.",
+    "Prompt contains no local paths and no source-reference dependency.",
+    "Silent shot now forbids spoken dialogue, Chinese/Mandarin voiceover, subtitles, and visible text.",
+    "Negative prompt rejects male Byleth, gender drift, duplicate anchors, Lonato contamination, and battle action."
+  ],
+  "remaining_risks": [
+    "END-frame Byleth is distant and could drift during video interpolation.",
+    "Fog could swallow identity too early.",
+    "Named party order and costume details require a 3-second motion probe before promotion."
+  ],
+  "required_next_gate": "3s_motion_probe_before_approved_for_video",
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth becomes anonymous or gender-ambiguous",
+    "Byleth changes into war-phase/adult design",
+    "START/KEY/END collapse into repeated stills",
+    "Catherine, Dimitri, or Ashe identities swap",
+    "battle action or Lonato appears in this departure shot",
+    "Chinese/Mandarin voiceover, spoken narration, subtitles, captions, or game UI appear"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "shot": "Shot025",
+  "version": "critical_reaudit_regen_v10_2026-09-03",
+  "reviewer_role": "independent-critical-reaudit-visual-qa-agent",
+  "review_date": "2026-09-03",
+  "still_frame_decision": "visual_review_passed",
+  "downstream_decision": "monitor_required",
+  "rejection_addressed": "direct Byleth-to-Lonato attack read and straight gate-road staging",
+  "frames": {
+    "start": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/start_frame.png",
+    "key": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/key_frame.png",
+    "end": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/end_frame.png",
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/contact_sheet.jpg"
+  },
+  "visual_checks": {
+    "byleth_off_screen_after_command": "pass",
+    "near_academy_barricade": "pass",
+    "deep_ravine_and_washed_out_culvert": "pass",
+    "exactly_two_guards_work_gate": "pass",
+    "route_turns_behind_rock_outcrop": "pass",
+    "lonato_tiny_and_far": "pass",
+    "start_key_end_action_progression": "pass",
+    "integrated_live_action_contact": "pass",
+    "no_ui_subtitles_or_text": "pass"
+  },
+  "provenance": {
+    "start_source": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7e56c65a-a644-4545-af7d-f28a18bba501.png",
+    "key_source": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-9f9a4f22-51e1-4fd8-88d0-9b0860fc8c83.png",
+    "end_source": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-75c8b6d6-18cc-4e73-8785-3630014e5359.png",
+    "dimensions": "1672x941",
+    "copied_to_project": true
+  },
+  "required_downstream_gates": [
+    "prompt-against-frame QA",
+    "strict Shot024->025 continuity QA",
+    "strict Shot025->026 continuity QA",
+    "3-second motion probe",
+    "native Japanese audio verification for surrounding sequence"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-28",
+  "html": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_review.html",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "links_checked": 536,
+  "missing_links": [],
+  "expected_shots": 42,
+  "rendered_shot_cards": 42,
+  "missing_shot_cards": [],
+  "clip_qa_decision": "clips_pending",
+  "clip_qa_count_mismatch": false,
+  "required_text_missing": [],
+  "bare_english_shot_titles": false,
+  "decision": "clip_review_file_access_passed"
+}

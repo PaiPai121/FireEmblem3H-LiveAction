@@ -1,0 +1,49 @@
+{
+  "id": "Shot028",
+  "order": 28,
+  "status": "frames_pending",
+  "duration_seconds": 10,
+  "scene": "索蒂丝尾声",
+  "title": "黑门不回答",
+  "purpose": "End on withheld trust rather than a victory statement.",
+  "source_timecode": "00:18:00",
+  "source_reference": "source_refs/game_frame_1080s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Cathedral tombward corridor",
+  "characters": [
+    "Byleth",
+    "Sothis"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/CathedralInterior_reference.png",
+    "source/reference_pack/characters/BylethFemale_face.png",
+    "source/reference_pack/characters/BylethFemale_fullbody.png",
+    "source/reference_pack/characters/Sothis_identity.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot028/frames_pending/start_frame.png",
+    "key": "storyboards/Shot028/frames_pending/key_frame.png",
+    "end": "storyboards/Shot028/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot028_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot028_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot028/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot028.md",
+  "dialogue_line_ids": [],
+  "dialogue_mode": "silent",
+  "audio_source": "production_sound_only",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Shot027's unanswered question",
+  "continuity_next": "cut to black",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": null
+}

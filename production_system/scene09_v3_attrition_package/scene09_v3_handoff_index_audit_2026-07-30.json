@@ -1,0 +1,11 @@
+{
+  "date": "2026-07-30",
+  "html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "links_checked": 554,
+  "missing_links": [],
+  "shot_cards": 42,
+  "problems": [],
+  "warnings": [],
+  "decision": "handoff_index_file_access_passed"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-13",
+  "mode": "critical_reaudit_current_web_storyboard",
+  "shots": {
+    "Shot002": {
+      "version": "critical_reaudit_regen_v1_2026-08-13",
+      "setKey": "critical_reaudit_regen_v1",
+      "dir": "storyboards/Shot002/critical_reaudit_regen_v1_2026-08-13",
+      "prev": "local_asset_final_candidate_v1",
+      "finding": "Critical re-audit 2026-08-13: previous Shot002 current web candidate falsely carried visual_review_passed despite Byleth reading as a semi-transparent/pasted figure that did not share floor contact, lighting, or perspective with the monastery background. Replaced with local-reference imagegen frames where female professor Byleth is physically integrated in the cloister and moves from morning corridor to cathedral/council threshold. Still monitor_required because START/KEY are closely related and require a 3-second motion probe before promotion.",
+      "revision": "Run 3-second motion probe only. Reject if Byleth becomes male or ghostlike, floats over the floor, detaches from cloister lighting/reflection, adds subtitles/UI/Chinese voice, or the START->KEY change collapses into a static hold."
+    },
+    "Shot003": {
+      "version": "critical_reaudit_regen_v2_2026-08-13",
+      "setKey": "critical_reaudit_regen_v2",
+      "dir": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-13",
+      "prev": "critical_reaudit_regen_v1",
+      "finding": "Critical re-audit 2026-08-13: previous Shot003 current web candidate improved hierarchy but left Seteth functioning like a passive background figure looking away from the summons. Replaced with v2 frames where Seteth is an active aide holding mission paperwork, focused on Rhea/students, while Rhea names Lonato and Byleth/Dimitri absorb the order. Still monitor_required pending identity and motion probe review.",
+      "revision": "Run focused 3-second motion probe only. Reject if Seteth looks out the window or becomes passive guard/background decor, if Rhea turns villainous, if Byleth/Dimitri identity drifts, if subtitles/UI/Chinese voice appear, or if the START->KEY->END chain collapses into one tableau."
+    }
+  }
+}

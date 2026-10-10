@@ -1,0 +1,3750 @@
+{
+  "date": "2026-07-28",
+  "package_dir": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "execution_plan": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/execution_plan.json",
+  "submission_payload": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_payload.jsonl",
+  "submission_payload_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_payload_manifest.json",
+  "total_shots": 42,
+  "shots_ready": 42,
+  "shots_blocked": 0,
+  "dimension_groups": {
+    "1672x941": 99,
+    "1672x940": 27
+  },
+  "problems": [],
+  "warnings": [],
+  "rows": [
+    {
+      "order": 1,
+      "shot": "Shot025",
+      "id": "EP02-SC09-SHOT-Shot025-V2-20260721",
+      "package_dir": "shots/001_EP02-SC09-SHOT-Shot025-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5174,
+          "sha256": "f8190404eadc0e4f19dbf94656be55db73197c4bad8a4c500a7ef4588f0995db"
+        },
+        "model_prompt.md": {
+          "bytes": 8135,
+          "sha256": "2261c819601e44dc28f4e778523fd96a82c1089a767ba283599531e32739f1b5"
+        },
+        "negative_prompt.md": {
+          "bytes": 549,
+          "sha256": "d3e51c11d5e9e88f4588cff31eede661ea386d00881bfea23222e03a95cf395b"
+        },
+        "metadata.json": {
+          "bytes": 10457,
+          "sha256": "9e5f5b3a0a85426dfbcaa8c81744337dbd9fc87c7eefc028f06e2bf388a035f0"
+        },
+        "start_frame.png": {
+          "bytes": 3002415,
+          "sha256": "6f5e454132113d3923679eab0b99b2e9b90f9bd4548f7ce60f25a6a5b9e069a5"
+        },
+        "key_frame.png": {
+          "bytes": 2954189,
+          "sha256": "f8fc0b90ef0ffa9f6e8c71eb3105760ef3b88df8ea1c14d22d63f82c951ada4d"
+        },
+        "end_frame.png": {
+          "bytes": 3002415,
+          "sha256": "6f5e454132113d3923679eab0b99b2e9b90f9bd4548f7ce60f25a6a5b9e069a5"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/38D_Shot034_three_leaders_start.png",
+          "exists": true,
+          "source_sha256": "6f5e454132113d3923679eab0b99b2e9b90f9bd4548f7ce60f25a6a5b9e069a5",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/38D_Shot034_three_leaders_key.png",
+          "exists": true,
+          "source_sha256": "f8fc0b90ef0ffa9f6e8c71eb3105760ef3b88df8ea1c14d22d63f82c951ada4d",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/38D_Shot034_three_leaders_start.png",
+          "exists": true,
+          "source_sha256": "6f5e454132113d3923679eab0b99b2e9b90f9bd4548f7ce60f25a6a5b9e069a5",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4",
+      "prompt_chars": 8094,
+      "negative_chars": 548,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 2,
+      "shot": "Shot025A",
+      "id": "EP02-SC09-SHOT-Shot025A-V2-20260721",
+      "package_dir": "shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [],
+      "files": {
+        "prompt.md": {
+          "bytes": 5221,
+          "sha256": "04b89f3acf1c2705f88aacebf2c67d7df81fd118d5139461049d75fe99fa0f2c"
+        },
+        "model_prompt.md": {
+          "bytes": 7415,
+          "sha256": "a58d33d7a34eeacd38dbed8504ba9f267ee38cc1d3fc99d51bee85b436a6a8a0"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9454,
+          "sha256": "22f9ff8265293d389314ccef3a5daf361e7dec4640811e47d868e509d63d52de"
+        },
+        "start_frame.png": {
+          "bytes": 3191884,
+          "sha256": "fd9c2d2720d863fa590c2447e67af57d056e9c906bd071ea806d90b67acee9f6"
+        },
+        "key_frame.png": {
+          "bytes": 3058593,
+          "sha256": "6c42196c1cf534e3152ee29b81b7fee22c65f3d7ba0bc6928a51e99955726442"
+        },
+        "end_frame.png": {
+          "bytes": 3196167,
+          "sha256": "2512e04c08206e955e1fa459558da4b463cf785cdd6df8f115ca1778e355053b"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_start.png",
+          "exists": true,
+          "source_sha256": "fd9c2d2720d863fa590c2447e67af57d056e9c906bd071ea806d90b67acee9f6",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_key.png",
+          "exists": true,
+          "source_sha256": "6c42196c1cf534e3152ee29b81b7fee22c65f3d7ba0bc6928a51e99955726442",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_end.png",
+          "exists": true,
+          "source_sha256": "2512e04c08206e955e1fa459558da4b463cf785cdd6df8f115ca1778e355053b",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4",
+      "prompt_chars": 7414,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 3,
+      "shot": "Shot026",
+      "id": "EP02-SC09-SHOT-Shot026-V2-20260721",
+      "package_dir": "shots/003_EP02-SC09-SHOT-Shot026-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5789,
+          "sha256": "09516ea35ee283a9535d85bed6d78f74884716a3ee5e1c7b316809230d9564ee"
+        },
+        "model_prompt.md": {
+          "bytes": 9385,
+          "sha256": "e73714c39f95ac6a3664e8f2263cf1e41c9dc86e37ef530eb0e1aa21e05fdc78"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10198,
+          "sha256": "dbeb2171f33f2c0ad205f38e45d035d6c0b1e7e44398a01bb5febe52b2c28fed"
+        },
+        "start_frame.png": {
+          "bytes": 2646992,
+          "sha256": "8d83a0b9377c8ea993c7e0cd77064b9fb5d80aa31d1ad925d1d258af29035aa2"
+        },
+        "key_frame.png": {
+          "bytes": 2530109,
+          "sha256": "f1e3c2015afc25d0164b03b34fb51933312bcba512a9d4b1997188f3a6e52183"
+        },
+        "end_frame.png": {
+          "bytes": 2490021,
+          "sha256": "1e1ce4c5a34c9f1bd3c07e47b2824f5324cd08279a6cf20a012ced8a3ac38edf"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_start.png",
+          "exists": true,
+          "source_sha256": "8d83a0b9377c8ea993c7e0cd77064b9fb5d80aa31d1ad925d1d258af29035aa2",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_key.png",
+          "exists": true,
+          "source_sha256": "f1e3c2015afc25d0164b03b34fb51933312bcba512a9d4b1997188f3a6e52183",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_end.png",
+          "exists": true,
+          "source_sha256": "1e1ce4c5a34c9f1bd3c07e47b2824f5324cd08279a6cf20a012ced8a3ac38edf",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4",
+      "prompt_chars": 9370,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 4,
+      "shot": "Shot026B",
+      "id": "EP02-SC09-SHOT-Shot026B-V2-20260721",
+      "package_dir": "shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5700,
+          "sha256": "81d146810b9fa4ef05f9ba2d5a38676e15884b662b8711be8e54c3a2252fe878"
+        },
+        "model_prompt.md": {
+          "bytes": 9294,
+          "sha256": "9ee99298e1541b88dfc851234b00c70ee1bf27fe5407ffd3785d6ff7b3130353"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10149,
+          "sha256": "ce2bf5d50f678a0e1a1e9f3269a96256a793e10d79c486f39c19b4cc10b680e4"
+        },
+        "start_frame.png": {
+          "bytes": 2799985,
+          "sha256": "eaf7627d3fe86ee8f7ae9fe0e025ea4c2bf007d3807308738aad16f1b1c1644d"
+        },
+        "key_frame.png": {
+          "bytes": 2814182,
+          "sha256": "f2d0638cf2368a747e53bdff37d76ae9e79d437769b8a7f0554c69de2e354563"
+        },
+        "end_frame.png": {
+          "bytes": 2719188,
+          "sha256": "97fac6d79797f06b0befe450939e5be1c48a5e016841964b6b11007af4e94ee4"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_start.png",
+          "exists": true,
+          "source_sha256": "eaf7627d3fe86ee8f7ae9fe0e025ea4c2bf007d3807308738aad16f1b1c1644d",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_key.png",
+          "exists": true,
+          "source_sha256": "f2d0638cf2368a747e53bdff37d76ae9e79d437769b8a7f0554c69de2e354563",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_end.png",
+          "exists": true,
+          "source_sha256": "97fac6d79797f06b0befe450939e5be1c48a5e016841964b6b11007af4e94ee4",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4",
+      "prompt_chars": 9293,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 5,
+      "shot": "Shot026C",
+      "id": "EP02-SC09-SHOT-Shot026C-V2-20260721",
+      "package_dir": "shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5629,
+          "sha256": "4813a275bd70eb6ec5209f028df3437151c98f7f8eb07ee5fb48d84314201c24"
+        },
+        "model_prompt.md": {
+          "bytes": 8983,
+          "sha256": "0d24cd4376f44bfaa384085c4541b6e7b8bc1c42a6e3f44aca62354a09f7bfe3"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10050,
+          "sha256": "e1ad4ffcf7bd821adb6f0d34e34de7bb53ea889de81c173933989483c1321da3"
+        },
+        "start_frame.png": {
+          "bytes": 2794735,
+          "sha256": "e80ea33dbf09996212e68726b89784a9bf56fda5fef9ba145d54e3ac11b537a5"
+        },
+        "key_frame.png": {
+          "bytes": 2804681,
+          "sha256": "865de324a4e50c767ec24f5a9df98e38839dfe3ecf420e87dbd59e2d8f2b43aa"
+        },
+        "end_frame.png": {
+          "bytes": 2766504,
+          "sha256": "1e5d7aa89d5e3e717575bf78bd2d45b40ab22e36c7f875a51a24964f81b57708"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_start.png",
+          "exists": true,
+          "source_sha256": "e80ea33dbf09996212e68726b89784a9bf56fda5fef9ba145d54e3ac11b537a5",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_key.png",
+          "exists": true,
+          "source_sha256": "865de324a4e50c767ec24f5a9df98e38839dfe3ecf420e87dbd59e2d8f2b43aa",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_end.png",
+          "exists": true,
+          "source_sha256": "1e5d7aa89d5e3e717575bf78bd2d45b40ab22e36c7f875a51a24964f81b57708",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4",
+      "prompt_chars": 8982,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 6,
+      "shot": "Shot027",
+      "id": "EP02-SC09-SHOT-Shot027-V2-20260721",
+      "package_dir": "shots/006_EP02-SC09-SHOT-Shot027-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Ashe",
+        "Claude"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5319,
+          "sha256": "1c744cde08479736d45f12fc1a077af02eb007fb92e00320b6f5488c66b6407f"
+        },
+        "model_prompt.md": {
+          "bytes": 7807,
+          "sha256": "dda76a53f8aee6a7e37a91a9974d6bd620a31788ca0090b79ca7284449b48d03"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9586,
+          "sha256": "d7433734d7233bf4197de02e5b72e80bd21b37ffc8328919e128ddc8f35dc566"
+        },
+        "start_frame.png": {
+          "bytes": 2941647,
+          "sha256": "a8e55744d65c9c83708c17f4e1cf71f89d15427f1dc8eebbd8fe5bbcef55280a"
+        },
+        "key_frame.png": {
+          "bytes": 2969162,
+          "sha256": "9db7074605a914034e097f6d72228ba4f90773db128dd8cb1b0c6af1b9d2220a"
+        },
+        "end_frame.png": {
+          "bytes": 2562647,
+          "sha256": "83d30c3ad9b05c66a9e50bffe23ad1ab0d6cdcd43dd59dfe8f7e5e8ab30bc4f9"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_start.png",
+          "exists": true,
+          "source_sha256": "a8e55744d65c9c83708c17f4e1cf71f89d15427f1dc8eebbd8fe5bbcef55280a",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_key.png",
+          "exists": true,
+          "source_sha256": "9db7074605a914034e097f6d72228ba4f90773db128dd8cb1b0c6af1b9d2220a",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_end.png",
+          "exists": true,
+          "source_sha256": "83d30c3ad9b05c66a9e50bffe23ad1ab0d6cdcd43dd59dfe8f7e5e8ab30bc4f9",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4",
+      "prompt_chars": 7806,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 7,
+      "shot": "Shot027B",
+      "id": "EP02-SC09-SHOT-Shot027B-V2-20260721",
+      "package_dir": "shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Ferdinand",
+        "Edelgard",
+        "Hubert",
+        "Dorothea"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5469,
+          "sha256": "7993c6b924ab4640bd60d23099bc13408ceb51f54a3e395b4e8f9391778f304b"
+        },
+        "model_prompt.md": {
+          "bytes": 8315,
+          "sha256": "68a4ea45c8dd6f7e4d37944d7195f5c8cea49424ffce917ee62f05b9559a740e"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9799,
+          "sha256": "3bb79ac077a0ee6901637cc0d9362a1590418a5a46da3b085460a0da69f0932b"
+        },
+        "start_frame.png": {
+          "bytes": 2808245,
+          "sha256": "8288ba8b1c8aebeb2bdb15e2faae3ff23506f08f1135c06da0ab15379cdb84c1"
+        },
+        "key_frame.png": {
+          "bytes": 2806313,
+          "sha256": "de9dd7872bbe74349f131597d0975be0f753a0820bdaecef8919757ceea74c7a"
+        },
+        "end_frame.png": {
+          "bytes": 2679379,
+          "sha256": "87302c49e54ba10b3b3755a75efb493144a4f46340e79e0ed5afd156d77cbb66"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_start.png",
+          "exists": true,
+          "source_sha256": "8288ba8b1c8aebeb2bdb15e2faae3ff23506f08f1135c06da0ab15379cdb84c1",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_key.png",
+          "exists": true,
+          "source_sha256": "de9dd7872bbe74349f131597d0975be0f753a0820bdaecef8919757ceea74c7a",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_end.png",
+          "exists": true,
+          "source_sha256": "87302c49e54ba10b3b3755a75efb493144a4f46340e79e0ed5afd156d77cbb66",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4",
+      "prompt_chars": 8314,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 8,
+      "shot": "Shot027C",
+      "id": "EP02-SC09-SHOT-Shot027C-V2-20260721",
+      "package_dir": "shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Ferdinand",
+        "Edelgard",
+        "Hubert"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5545,
+          "sha256": "8f141d086da23801460b54a915b243193380f0bdac8a4f94e430ec0e03a181c6"
+        },
+        "model_prompt.md": {
+          "bytes": 8535,
+          "sha256": "29f4a83a05bab7a90cd12e571df4d03f771dbcefb6484617845e1275f9792ef5"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9888,
+          "sha256": "3ba1599213ebee778969525ed585932438560624e41cefe75c7941920dda732c"
+        },
+        "start_frame.png": {
+          "bytes": 2751542,
+          "sha256": "7ceaf397595731626c59f8dd89f56fe5db4fc2d8d02c7302a450a9ff45ec0bce"
+        },
+        "key_frame.png": {
+          "bytes": 2702147,
+          "sha256": "9790b38c9e275346a9094e7a0e65f28dfa25ee52d078397533fd03e953873d35"
+        },
+        "end_frame.png": {
+          "bytes": 2658527,
+          "sha256": "d89751d9101dcc95384ac1b508987a24003d7f5ee1921f9804b7aa982ddbbe76"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_start.png",
+          "exists": true,
+          "source_sha256": "7ceaf397595731626c59f8dd89f56fe5db4fc2d8d02c7302a450a9ff45ec0bce",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_key.png",
+          "exists": true,
+          "source_sha256": "9790b38c9e275346a9094e7a0e65f28dfa25ee52d078397533fd03e953873d35",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_end.png",
+          "exists": true,
+          "source_sha256": "d89751d9101dcc95384ac1b508987a24003d7f5ee1921f9804b7aa982ddbbe76",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4",
+      "prompt_chars": 8512,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 9,
+      "shot": "Shot027D",
+      "id": "EP02-SC09-SHOT-Shot027D-V2-20260721",
+      "package_dir": "shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5474,
+          "sha256": "8d8746d11011b5b5637bffed95a508991b8ea320c9874e9307ce823ce880c704"
+        },
+        "model_prompt.md": {
+          "bytes": 8428,
+          "sha256": "e93280b4f789ee17f050b4200dd3ef731b8ab92534cf1147b1ee62d006e1a482"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9817,
+          "sha256": "940ea71f52be10c0517c088292dc2ef32044c74f473eb8cdbbb9c87e450c85c0"
+        },
+        "start_frame.png": {
+          "bytes": 2559802,
+          "sha256": "952a975513071f48ca83e92e0652e355c3ab618e3a2bf7499d25fdfec4d1a570"
+        },
+        "key_frame.png": {
+          "bytes": 2274285,
+          "sha256": "e6554d2a0314a734f94e01b8b0286fe5f09f9c185038879071b6b46b53b8f50c"
+        },
+        "end_frame.png": {
+          "bytes": 2463821,
+          "sha256": "59a251115cf18329dabbf7e157cd2fc3be9b2d88175cc4640ee8879475d7d566"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+          "exists": true,
+          "source_sha256": "952a975513071f48ca83e92e0652e355c3ab618e3a2bf7499d25fdfec4d1a570",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+          "exists": true,
+          "source_sha256": "e6554d2a0314a734f94e01b8b0286fe5f09f9c185038879071b6b46b53b8f50c",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_end.png",
+          "exists": true,
+          "source_sha256": "59a251115cf18329dabbf7e157cd2fc3be9b2d88175cc4640ee8879475d7d566",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4",
+      "prompt_chars": 8419,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 10,
+      "shot": "Shot028",
+      "id": "EP02-SC09-SHOT-Shot028-V2-20260721",
+      "package_dir": "shots/010_EP02-SC09-SHOT-Shot028-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ignatz"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5485,
+          "sha256": "c0cc682c109c7ab52a077879960d5a1a84dedc9ffa74a49385a1c644a297e045"
+        },
+        "model_prompt.md": {
+          "bytes": 8225,
+          "sha256": "faeea177610923f0b1500f368d5bbfdd489456a6966bf312de41f7ca2cb604c9"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10048,
+          "sha256": "b41922ccc3a4f1b42a6c8ccf99391475091324125d39606a337a454e1c445159"
+        },
+        "start_frame.png": {
+          "bytes": 2651035,
+          "sha256": "3386ec61bd4b99998d887fe53f375a4b66f6e088fa5fe13486da6b5e98df0d3c"
+        },
+        "key_frame.png": {
+          "bytes": 2562106,
+          "sha256": "14788605ad970a514589971e6a4215b2eb378a70664852a157b614eb1288eddd"
+        },
+        "end_frame.png": {
+          "bytes": 2561011,
+          "sha256": "f5bf5baa4a070b58b4e2ce2504deafd2ee7d68b0bac869ff316c62d7bc13dc28"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_start.png",
+          "exists": true,
+          "source_sha256": "3386ec61bd4b99998d887fe53f375a4b66f6e088fa5fe13486da6b5e98df0d3c",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_key.png",
+          "exists": true,
+          "source_sha256": "14788605ad970a514589971e6a4215b2eb378a70664852a157b614eb1288eddd",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_end.png",
+          "exists": true,
+          "source_sha256": "f5bf5baa4a070b58b4e2ce2504deafd2ee7d68b0bac869ff316c62d7bc13dc28",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4",
+      "prompt_chars": 8212,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 11,
+      "shot": "Shot028B",
+      "id": "EP02-SC09-SHOT-Shot028B-V2-20260721",
+      "package_dir": "shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Dimitri",
+        "Dedue"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5543,
+          "sha256": "a566bd96e91ca93970ce7ce85792567381f27aaa43a042beb4f1f0150b59dad2"
+        },
+        "model_prompt.md": {
+          "bytes": 8569,
+          "sha256": "38e88e6ac4d8a47010346d5e4c2b671adb3c751f998846c0f47b0d83118a56d9"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9957,
+          "sha256": "29cacc982eee98bcd7acd81b44b94808b0a03e792aaa7e1d44253f91bb5f5b43"
+        },
+        "start_frame.png": {
+          "bytes": 2566256,
+          "sha256": "708bd875aba4516c0e33cee1e8398f87c903ee682b4db84a3bf700c8b49ef4d5"
+        },
+        "key_frame.png": {
+          "bytes": 2552104,
+          "sha256": "c7b2bb91e6ce161984f8aa7c2afd09453ee26e0e90ce4df359bddb79477248a2"
+        },
+        "end_frame.png": {
+          "bytes": 2448015,
+          "sha256": "9d8d23e630bab3f2b9c55b934167432f6528784be7e51a15b32aa71f20a73802"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_start.png",
+          "exists": true,
+          "source_sha256": "708bd875aba4516c0e33cee1e8398f87c903ee682b4db84a3bf700c8b49ef4d5",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_key.png",
+          "exists": true,
+          "source_sha256": "c7b2bb91e6ce161984f8aa7c2afd09453ee26e0e90ce4df359bddb79477248a2",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_end.png",
+          "exists": true,
+          "source_sha256": "9d8d23e630bab3f2b9c55b934167432f6528784be7e51a15b32aa71f20a73802",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4",
+      "prompt_chars": 8564,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 12,
+      "shot": "Shot028C",
+      "id": "EP02-SC09-SHOT-Shot028C-V2-20260721",
+      "package_dir": "shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand",
+        "Dedue"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5474,
+          "sha256": "ab1cf772a6942f473031fc48864d6b51104cad9cc34615cb06336e7901fb7415"
+        },
+        "model_prompt.md": {
+          "bytes": 8428,
+          "sha256": "2ee2b8e216d4e6482aa00ef8c5aad19f8fa57b2fba977f21eb662f2966672258"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9868,
+          "sha256": "0aa988e177f83646f620e8ebbea01a8300fe32f293de368913b111c4a9184bdd"
+        },
+        "start_frame.png": {
+          "bytes": 2625833,
+          "sha256": "716a4bdeaa72fc8c96ea0c0851d5b4159d9171d5dad29f58f265d2e3fd26356b"
+        },
+        "key_frame.png": {
+          "bytes": 2522535,
+          "sha256": "da3d1ef2b39f8dac1ab013c46bb18a37d185fc937d24a1f6702a5c3277d13ba0"
+        },
+        "end_frame.png": {
+          "bytes": 2462549,
+          "sha256": "f2823620308da582eef8e8a565ee17b3ebcbc75796a80c1e8ba89dcf3ebf54a6"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_start.png",
+          "exists": true,
+          "source_sha256": "716a4bdeaa72fc8c96ea0c0851d5b4159d9171d5dad29f58f265d2e3fd26356b",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_key.png",
+          "exists": true,
+          "source_sha256": "da3d1ef2b39f8dac1ab013c46bb18a37d185fc937d24a1f6702a5c3277d13ba0",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_end.png",
+          "exists": true,
+          "source_sha256": "f2823620308da582eef8e8a565ee17b3ebcbc75796a80c1e8ba89dcf3ebf54a6",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4",
+      "prompt_chars": 8427,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 13,
+      "shot": "Shot029",
+      "id": "EP02-SC09-SHOT-Shot029-V2-20260721",
+      "package_dir": "shots/013_EP02-SC09-SHOT-Shot029-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes",
+        "Hilda",
+        "Lorenz"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5582,
+          "sha256": "118bf18e4e09bbd164fbab86a4141b67db8a4c2bf83dfec2a2ccf7ab1fff1ea9"
+        },
+        "model_prompt.md": {
+          "bytes": 8746,
+          "sha256": "93ed84188d9956618e5e4c30b620edc363af9d625510dbe4aabec0908fad1d5a"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10008,
+          "sha256": "10ad22400dd5356bc5bf1d968a1f319bfe88dde8f5831ecf2bfe04d1ccb2d7cf"
+        },
+        "start_frame.png": {
+          "bytes": 2910883,
+          "sha256": "ad1b2d28623ffe375131149eadc6796825143c16c33a81728009c887ca691763"
+        },
+        "key_frame.png": {
+          "bytes": 3012461,
+          "sha256": "4576abb84db139ac1ef7ce4058ba26d23eb538a1d6371d204f1cd637ce3c5189"
+        },
+        "end_frame.png": {
+          "bytes": 2563734,
+          "sha256": "1a2097af085712a8c281c721526789d1d9390aa212711d123258a16929b6e903"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_start.png",
+          "exists": true,
+          "source_sha256": "ad1b2d28623ffe375131149eadc6796825143c16c33a81728009c887ca691763",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_key.png",
+          "exists": true,
+          "source_sha256": "4576abb84db139ac1ef7ce4058ba26d23eb538a1d6371d204f1cd637ce3c5189",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_end.png",
+          "exists": true,
+          "source_sha256": "1a2097af085712a8c281c721526789d1d9390aa212711d123258a16929b6e903",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4",
+      "prompt_chars": 8725,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 14,
+      "shot": "Shot029C",
+      "id": "EP02-SC09-SHOT-Shot029C-V2-20260721",
+      "package_dir": "shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Claude",
+        "Ashe",
+        "Edelgard"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5512,
+          "sha256": "8cfbe9b1f077d801d30cb9ef1113a9ed2b49ba2b315f98c85a037a2aa83eb177"
+        },
+        "model_prompt.md": {
+          "bytes": 8174,
+          "sha256": "e0998325a8caf3ab4cb9fb0bf728d46e37da616517cf19d3698880a9d05a5369"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9900,
+          "sha256": "b8db06955683b6ee6d14d72534497251e92ef82f193d11739589070bd3592860"
+        },
+        "start_frame.png": {
+          "bytes": 2539661,
+          "sha256": "b44642a03ab8bb3853c9c8e343910f42d28a25921616d7d7e7a5637f9a641711"
+        },
+        "key_frame.png": {
+          "bytes": 2550743,
+          "sha256": "07cb0d38ee396960777933db10b7c58f4aba6d3ab24bba434e51854630a94196"
+        },
+        "end_frame.png": {
+          "bytes": 2550743,
+          "sha256": "07cb0d38ee396960777933db10b7c58f4aba6d3ab24bba434e51854630a94196"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_start.png",
+          "exists": true,
+          "source_sha256": "b44642a03ab8bb3853c9c8e343910f42d28a25921616d7d7e7a5637f9a641711",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_key.png",
+          "exists": true,
+          "source_sha256": "07cb0d38ee396960777933db10b7c58f4aba6d3ab24bba434e51854630a94196",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_key.png",
+          "exists": true,
+          "source_sha256": "07cb0d38ee396960777933db10b7c58f4aba6d3ab24bba434e51854630a94196",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4",
+      "prompt_chars": 8153,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 15,
+      "shot": "Shot029D",
+      "id": "EP02-SC09-SHOT-Shot029D-V2-20260721",
+      "package_dir": "shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Claude",
+        "Ashe"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5419,
+          "sha256": "8c499465ddd46df14a7b7d5364c1c3497076eca43d4118de92dec7370efe4ecd"
+        },
+        "model_prompt.md": {
+          "bytes": 7921,
+          "sha256": "f2b5b2ed66c7ad86fad47f09f97d2f2772ca91c924dfb99bd355205034003b25"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10047,
+          "sha256": "f3500b3073d1df0100877ed0de7139421be97683cd3eb0598c77b7cea95116a8"
+        },
+        "start_frame.png": {
+          "bytes": 2474454,
+          "sha256": "0849f5eda8fd30cb6a816ab345c83c8ff41ea2aad559b41c649b19dbce30e433"
+        },
+        "key_frame.png": {
+          "bytes": 2480221,
+          "sha256": "275db8e9b208f13659cbb3b20f2e34bfad08e9086d896642a279b0a1525b5b03"
+        },
+        "end_frame.png": {
+          "bytes": 2433317,
+          "sha256": "6776b3c2cf70a22bf1d3737304255b16231866ab1ce76445a8d818f21919d45c"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_start.png",
+          "exists": true,
+          "source_sha256": "0849f5eda8fd30cb6a816ab345c83c8ff41ea2aad559b41c649b19dbce30e433",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_key.png",
+          "exists": true,
+          "source_sha256": "275db8e9b208f13659cbb3b20f2e34bfad08e9086d896642a279b0a1525b5b03",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_end.png",
+          "exists": true,
+          "source_sha256": "6776b3c2cf70a22bf1d3737304255b16231866ab1ce76445a8d818f21919d45c",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4",
+      "prompt_chars": 7910,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 16,
+      "shot": "Shot029B",
+      "id": "EP02-SC09-SHOT-Shot029B-V2-20260721",
+      "package_dir": "shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5656,
+          "sha256": "aa2a04983c55a716cd7cc8cc7a812102861886df2dd8cd351739fc1bb4635b51"
+        },
+        "model_prompt.md": {
+          "bytes": 8396,
+          "sha256": "ac78ec4d0d44c90ac8a7fe38e7f1c0a23ff7ee51f9555fbe808b8312d1d8d692"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10443,
+          "sha256": "9acba11374c22e6911d2dac95689c5f51481ac31e783a9691f3d823ff47e0d84"
+        },
+        "start_frame.png": {
+          "bytes": 2823703,
+          "sha256": "20b896cdc87f0aaaed8914d0d876ba1d5d9aab2a5b469fea4f8b1c3cff7d8ad6"
+        },
+        "key_frame.png": {
+          "bytes": 2716900,
+          "sha256": "52483a58b8e91a58ec21838c583121052d9d51f99f24376411f93596ac971702"
+        },
+        "end_frame.png": {
+          "bytes": 2660462,
+          "sha256": "bac76b8639d2026b8283f770d37ce72591a4e3c5017d035e2522ea98cbb84241"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/16E_Shot029B_logic_start.png",
+          "exists": true,
+          "source_sha256": "20b896cdc87f0aaaed8914d0d876ba1d5d9aab2a5b469fea4f8b1c3cff7d8ad6",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/16E_Shot029B_logic_key.png",
+          "exists": true,
+          "source_sha256": "52483a58b8e91a58ec21838c583121052d9d51f99f24376411f93596ac971702",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/16E_Shot029B_logic_end.png",
+          "exists": true,
+          "source_sha256": "bac76b8639d2026b8283f770d37ce72591a4e3c5017d035e2522ea98cbb84241",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4",
+      "prompt_chars": 8377,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 17,
+      "shot": "Shot030",
+      "id": "EP02-SC09-SHOT-Shot030-V2-20260721",
+      "package_dir": "shots/017_EP02-SC09-SHOT-Shot030-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Felix",
+        "Byleth",
+        "Ferdinand"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5444,
+          "sha256": "edf3d9d3c00f048ae1847ebad9ab8ce8c57c7b1d0ce0c4910323a14463cfc642"
+        },
+        "model_prompt.md": {
+          "bytes": 8232,
+          "sha256": "afc49ae3f138f7923cc2a5fa206c481e9e2ff4c860a196391028559e9a5f76f4"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9836,
+          "sha256": "58afda0627eb7fb4106b801491f28f54a1473b69617ca5416ad4eebd2c0f75fb"
+        },
+        "start_frame.png": {
+          "bytes": 2620183,
+          "sha256": "0d376679049e540c781e21cfc21a06216ef09ead51e92523a1bf883c94becfb5"
+        },
+        "key_frame.png": {
+          "bytes": 2422575,
+          "sha256": "007899d4be17343c0d16561410e5850cb7a5b23daa5552bd3507cba2dd6a4ace"
+        },
+        "end_frame.png": {
+          "bytes": 2739164,
+          "sha256": "9a0cd17655a49f644738c9abd0cf0891d6f8f510ac3bf821c0e56d10f65ec5fc"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_start.png",
+          "exists": true,
+          "source_sha256": "0d376679049e540c781e21cfc21a06216ef09ead51e92523a1bf883c94becfb5",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_key.png",
+          "exists": true,
+          "source_sha256": "007899d4be17343c0d16561410e5850cb7a5b23daa5552bd3507cba2dd6a4ace",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_end.png",
+          "exists": true,
+          "source_sha256": "9a0cd17655a49f644738c9abd0cf0891d6f8f510ac3bf821c0e56d10f65ec5fc",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4",
+      "prompt_chars": 8231,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 18,
+      "shot": "Shot030B",
+      "id": "EP02-SC09-SHOT-Shot030B-V2-20260721",
+      "package_dir": "shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5490,
+          "sha256": "4930238be77c56bc6b8b08c8b6fc1f0b8616538f2d9eb1fe1f70faa2adb215a0"
+        },
+        "model_prompt.md": {
+          "bytes": 8230,
+          "sha256": "5c1c26366f09ed3571a86b17379b5966ebe398c4e97ee4eb7a3edcb87e5db469"
+        },
+        "negative_prompt.md": {
+          "bytes": 541,
+          "sha256": "60aae0205b39a7d4d60ef34d595bd38291cd724c96e4b29e801a0c2ec859d5dd"
+        },
+        "metadata.json": {
+          "bytes": 9987,
+          "sha256": "26ad01ef83be8e1790d6a28ae528a3f35b18de2100d8dd7f8c3334b802ecd193"
+        },
+        "start_frame.png": {
+          "bytes": 2416148,
+          "sha256": "4fbc11d1a0f9006b9d736d62f92ddc15cdf0140ddade064f71aed6201ba03713"
+        },
+        "key_frame.png": {
+          "bytes": 2511247,
+          "sha256": "a32303588c5eb17e9dc12589e416be7e38cc7d7d3d547f8da03a4cf2c8014821"
+        },
+        "end_frame.png": {
+          "bytes": 2511247,
+          "sha256": "a32303588c5eb17e9dc12589e416be7e38cc7d7d3d547f8da03a4cf2c8014821"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_start.png",
+          "exists": true,
+          "source_sha256": "4fbc11d1a0f9006b9d736d62f92ddc15cdf0140ddade064f71aed6201ba03713",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_key.png",
+          "exists": true,
+          "source_sha256": "a32303588c5eb17e9dc12589e416be7e38cc7d7d3d547f8da03a4cf2c8014821",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_key.png",
+          "exists": true,
+          "source_sha256": "a32303588c5eb17e9dc12589e416be7e38cc7d7d3d547f8da03a4cf2c8014821",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4",
+      "prompt_chars": 8225,
+      "negative_chars": 540,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 19,
+      "shot": "Shot030C",
+      "id": "EP02-SC09-SHOT-Shot030C-V2-20260721",
+      "package_dir": "shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Ignatz",
+        "Annette",
+        "Mercedes",
+        "Dorothea"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5665,
+          "sha256": "e3f6fc6310043f2489a83017bfc94a3c4ec9d6def9e35a6c62852dbb1eb0d8b1"
+        },
+        "model_prompt.md": {
+          "bytes": 8518,
+          "sha256": "d99ea9515c3cfc76f26eb5d8b3c2c31669d9a6a0738be77e433a1ba81adc240b"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10522,
+          "sha256": "a8848eea0d4a29bf3eeea4be1513dfa0832adbbf31d303d7531e3b37a3d7fe3c"
+        },
+        "start_frame.png": {
+          "bytes": 2992152,
+          "sha256": "d89a2326079013770c0fc1235b8750ede2259bf9cd2c2d25db05e7a0c42672ba"
+        },
+        "key_frame.png": {
+          "bytes": 2957128,
+          "sha256": "32449d607dc26d98db4b84d17d115f5fc6bc2fb89d1faa37eeb6df8b0f67378e"
+        },
+        "end_frame.png": {
+          "bytes": 2903239,
+          "sha256": "268b8dd838fba657f9bea0ac4d1f9766623585db19da1a9b5041b4f95c83b582"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_start.png",
+          "exists": true,
+          "source_sha256": "d89a2326079013770c0fc1235b8750ede2259bf9cd2c2d25db05e7a0c42672ba",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_key.png",
+          "exists": true,
+          "source_sha256": "32449d607dc26d98db4b84d17d115f5fc6bc2fb89d1faa37eeb6df8b0f67378e",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_end.png",
+          "exists": true,
+          "source_sha256": "268b8dd838fba657f9bea0ac4d1f9766623585db19da1a9b5041b4f95c83b582",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4",
+      "prompt_chars": 8505,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 20,
+      "shot": "Shot031",
+      "id": "EP02-SC09-SHOT-Shot031-V2-20260721",
+      "package_dir": "shots/020_EP02-SC09-SHOT-Shot031-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Felix"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5443,
+          "sha256": "cb768b3f5e29550c6f8e1359e2c54d4579e1b8daed296758e02b47e66ed51a1d"
+        },
+        "model_prompt.md": {
+          "bytes": 8123,
+          "sha256": "612b4fa84fa1561a8a23cf3d9eec38c9c85bdb5db01cdd78e6bd56b4eba24b53"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 9858,
+          "sha256": "49f8626bfc83a22139378000a4119bc8216102e7cda2568c2ad6ba2caa99b6d7"
+        },
+        "start_frame.png": {
+          "bytes": 2538857,
+          "sha256": "bfd8a42202857e55e47a093fd3da3ec7c2f1f65f05710f2f56af2de598d5d058"
+        },
+        "key_frame.png": {
+          "bytes": 2420393,
+          "sha256": "8ab8a8dd3a0bf43165c04f4b2019c1ca1a9b9a0e532fb7cdf98a210fb313704a"
+        },
+        "end_frame.png": {
+          "bytes": 2359069,
+          "sha256": "5c5b20e294a9b5c36f04ca066a85ead88d09ad06886cec1faa33ab500865a835"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_start.png",
+          "exists": true,
+          "source_sha256": "bfd8a42202857e55e47a093fd3da3ec7c2f1f65f05710f2f56af2de598d5d058",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_key.png",
+          "exists": true,
+          "source_sha256": "8ab8a8dd3a0bf43165c04f4b2019c1ca1a9b9a0e532fb7cdf98a210fb313704a",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_end.png",
+          "exists": true,
+          "source_sha256": "5c5b20e294a9b5c36f04ca066a85ead88d09ad06886cec1faa33ab500865a835",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4",
+      "prompt_chars": 8100,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 21,
+      "shot": "Shot031B",
+      "id": "EP02-SC09-SHOT-Shot031B-V2-20260721",
+      "package_dir": "shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "Sylvain",
+        "Ingrid",
+        "Annette",
+        "Mercedes"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5727,
+          "sha256": "003b68691d48bcb475f79029fe47edd0f7bec3f8c3e718cd43f81e1ed7216d53"
+        },
+        "model_prompt.md": {
+          "bytes": 9121,
+          "sha256": "358947fd96150c79a6f350077d7ed877a86fcc41d9446fd8df574b38c5778859"
+        },
+        "negative_prompt.md": {
+          "bytes": 415,
+          "sha256": "b2c98c575369cf99883dbe7bfdacc7c1b7a69c81ed2d2892e012367ad8064019"
+        },
+        "metadata.json": {
+          "bytes": 10255,
+          "sha256": "15f895eb19790bb1332b0b645a8b5fdbfbe917bdb8bd510e42a3f01261796f44"
+        },
+        "start_frame.png": {
+          "bytes": 2587951,
+          "sha256": "d685d58545de6dcd718ff6eb6ac78f2f4578ef43a89cf940239dce34195b8c2c"
+        },
+        "key_frame.png": {
+          "bytes": 2515532,
+          "sha256": "09e9e19b509e2cd60cf78b8bbd431eeebac1f39aacb60d26c95a5c41989d8605"
+        },
+        "end_frame.png": {
+          "bytes": 2597583,
+          "sha256": "41c93f10dffbaf6d3e0e1fd51ea05e4151fe2c4c37feba55957ac02281c97bac"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_start.png",
+          "exists": true,
+          "source_sha256": "d685d58545de6dcd718ff6eb6ac78f2f4578ef43a89cf940239dce34195b8c2c",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_key.png",
+          "exists": true,
+          "source_sha256": "09e9e19b509e2cd60cf78b8bbd431eeebac1f39aacb60d26c95a5c41989d8605",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_end.png",
+          "exists": true,
+          "source_sha256": "41c93f10dffbaf6d3e0e1fd51ea05e4151fe2c4c37feba55957ac02281c97bac",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4",
+      "prompt_chars": 9100,
+      "negative_chars": 414,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 22,
+      "shot": "Shot032",
+      "id": "EP02-SC09-SHOT-Shot032-V2-20260721",
+      "package_dir": "shots/022_EP02-SC09-SHOT-Shot032-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dedue",
+        "Mercedes"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5926,
+          "sha256": "cb74129f503f455be1e83c581b5dae0e0706c16d63579711d661dcdf91829c91"
+        },
+        "model_prompt.md": {
+          "bytes": 8930,
+          "sha256": "232479901636b250f5ed89d92943aa13b9a345cb4798f2870a7f39119f537855"
+        },
+        "negative_prompt.md": {
+          "bytes": 483,
+          "sha256": "aef257e8ac04a189432e392d197d2dd62e138cb96e8f9a279c4a3eee66f84680"
+        },
+        "metadata.json": {
+          "bytes": 11011,
+          "sha256": "835aed86db08a07114f1638a73f711b1c207ed888d2732bfc76873dd02416d7e"
+        },
+        "start_frame.png": {
+          "bytes": 2393157,
+          "sha256": "3239d55b9d9e9747f5a1ea269eb02f0ca7c3d8c94112c0a057f5289f17824dd5"
+        },
+        "key_frame.png": {
+          "bytes": 2126067,
+          "sha256": "3252c553aa14441a5b65b2577075462cdff66177b5bfb4d718ba2d3306fa679d"
+        },
+        "end_frame.png": {
+          "bytes": 2291811,
+          "sha256": "4f2994e351252af978bdaed1bfa322abfa5dacec28280a77a2981044764122ff"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/22B_Shot032_healer_tank_start.png",
+          "exists": true,
+          "source_sha256": "3239d55b9d9e9747f5a1ea269eb02f0ca7c3d8c94112c0a057f5289f17824dd5",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/22B_Shot032_healer_tank_key.png",
+          "exists": true,
+          "source_sha256": "3252c553aa14441a5b65b2577075462cdff66177b5bfb4d718ba2d3306fa679d",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/canon_patch_2026-07-23/22B_Shot032_healer_tank_end.png",
+          "exists": true,
+          "source_sha256": "4f2994e351252af978bdaed1bfa322abfa5dacec28280a77a2981044764122ff",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4",
+      "prompt_chars": 8887,
+      "negative_chars": 482,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 23,
+      "shot": "Shot032A",
+      "id": "EP02-SC09-SHOT-Shot032A-V2-20260721",
+      "package_dir": "shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Annette",
+        "Mercedes",
+        "Ashe",
+        "Claude"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5707,
+          "sha256": "54b5a4775d9dad2695471a27fa64a55203c1f16b20cbff8c753db84b20da147d"
+        },
+        "model_prompt.md": {
+          "bytes": 8751,
+          "sha256": "9d1429517bd48a4a7fcfb279a89b17fa8e2eb92c9397217f3a42405fd46a255d"
+        },
+        "negative_prompt.md": {
+          "bytes": 549,
+          "sha256": "14b036f8907ae6b49b5a12d42cb1cd38ae944d6c93e51ce78074f18e6a9199cd"
+        },
+        "metadata.json": {
+          "bytes": 10933,
+          "sha256": "5117e57951fa8cad763ecd148b24d870b2be0d941e98eaf525d2feab6b85b28e"
+        },
+        "start_frame.png": {
+          "bytes": 2546705,
+          "sha256": "f5d96c70f22dcb72d8b009e944a9815e393c719ba2521ff13774be634bd92920"
+        },
+        "key_frame.png": {
+          "bytes": 2470190,
+          "sha256": "a6863de6351a23a3296ba83a67e434bf3c351fd46c2957a116af446c015c063a"
+        },
+        "end_frame.png": {
+          "bytes": 2412539,
+          "sha256": "3fa01d0564111146583462bc324cd534f0cfe1da795be8d918293cf7531802a2"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_start.png",
+          "exists": true,
+          "source_sha256": "f5d96c70f22dcb72d8b009e944a9815e393c719ba2521ff13774be634bd92920",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_key.png",
+          "exists": true,
+          "source_sha256": "a6863de6351a23a3296ba83a67e434bf3c351fd46c2957a116af446c015c063a",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_end.png",
+          "exists": true,
+          "source_sha256": "3fa01d0564111146583462bc324cd534f0cfe1da795be8d918293cf7531802a2",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4",
+      "prompt_chars": 8744,
+      "negative_chars": 548,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 24,
+      "shot": "Shot032B",
+      "id": "EP02-SC09-SHOT-Shot032B-V2-20260721",
+      "package_dir": "shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dimitri",
+        "Dedue",
+        "Hanneman"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5072,
+          "sha256": "dfb2533d561cc8b9a6529da755759e70bbfdf31e26f44fe624d047627bcd8e8e"
+        },
+        "model_prompt.md": {
+          "bytes": 7425,
+          "sha256": "b0dcac33c58efde03df887d412227f649865ed553f10bf0870b87c106d69aa69"
+        },
+        "negative_prompt.md": {
+          "bytes": 515,
+          "sha256": "827e939933e2a24aed334afe121cd6cbd98c7716b304d2f7d4b88e659ac9049c"
+        },
+        "metadata.json": {
+          "bytes": 10635,
+          "sha256": "e9492d145b25695b91df9e094a923e145d35c82c140cc97ac39a8a388d66a39d"
+        },
+        "start_frame.png": {
+          "bytes": 2525159,
+          "sha256": "3700d33d6ee30234774dc3ca62d5e55d9ce6f05f2f15b31a6366c2a7b282ced5"
+        },
+        "key_frame.png": {
+          "bytes": 2405635,
+          "sha256": "bc13bcfb5402e993eb0a66b795dbaec024c3fb39d73603bb32eb16c9dee431e7"
+        },
+        "end_frame.png": {
+          "bytes": 2389116,
+          "sha256": "1e4fe1321325c7a94ab1a3aafb7f9e3935a3fada7710a85f971fdad4bccf655d"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_start.png",
+          "exists": true,
+          "source_sha256": "3700d33d6ee30234774dc3ca62d5e55d9ce6f05f2f15b31a6366c2a7b282ced5",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_key.png",
+          "exists": true,
+          "source_sha256": "bc13bcfb5402e993eb0a66b795dbaec024c3fb39d73603bb32eb16c9dee431e7",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_end.png",
+          "exists": true,
+          "source_sha256": "1e4fe1321325c7a94ab1a3aafb7f9e3935a3fada7710a85f971fdad4bccf655d",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4",
+      "prompt_chars": 7402,
+      "negative_chars": 514,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 25,
+      "shot": "Shot032C",
+      "id": "EP02-SC09-SHOT-Shot032C-V2-20260721",
+      "package_dir": "shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Edelgard",
+        "Hubert",
+        "Dorothea",
+        "Claude",
+        "Hilda"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5790,
+          "sha256": "c55a764866ef13a79f03e8875c754fa52aac2df3c4dad94e4f5fa2d2d7f98d34"
+        },
+        "model_prompt.md": {
+          "bytes": 8855,
+          "sha256": "aa3e3a989415acd0580108a14533de82fe82a13296218d2ef7695dd03df8bdbb"
+        },
+        "negative_prompt.md": {
+          "bytes": 537,
+          "sha256": "8d599b95df81754b7634d0771568fe4eb16bd68fdb69a7f1cdbf39dfc45a1c81"
+        },
+        "metadata.json": {
+          "bytes": 10885,
+          "sha256": "1421d39b9891a7546ec5f09e084b21d30fa9a79d0b6830a2f8d3d7f7089e2050"
+        },
+        "start_frame.png": {
+          "bytes": 2808506,
+          "sha256": "517445a10bea144182d86e8a6d054cf820c6f769cf075f4cded0a7fe8534044d"
+        },
+        "key_frame.png": {
+          "bytes": 2725390,
+          "sha256": "abba63dfc739b71aa74669767875911a97484d222ff2cee9261255a0ee86a3b8"
+        },
+        "end_frame.png": {
+          "bytes": 2624774,
+          "sha256": "3589bf20b2888e8ada9056f23ab80b9c866a16e0a3c5f730559e196384e7f0a7"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/25C_Shot032C_quality_start.png",
+          "exists": true,
+          "source_sha256": "517445a10bea144182d86e8a6d054cf820c6f769cf075f4cded0a7fe8534044d",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/25C_Shot032C_quality_key.png",
+          "exists": true,
+          "source_sha256": "abba63dfc739b71aa74669767875911a97484d222ff2cee9261255a0ee86a3b8",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/25C_Shot032C_quality_end.png",
+          "exists": true,
+          "source_sha256": "3589bf20b2888e8ada9056f23ab80b9c866a16e0a3c5f730559e196384e7f0a7",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4",
+      "prompt_chars": 8816,
+      "negative_chars": 536,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 26,
+      "shot": "Shot032D",
+      "id": "EP02-SC09-SHOT-Shot032D-V2-20260721",
+      "package_dir": "shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5563,
+          "sha256": "9d9f5dac4b3349c2f511eefedd1375d465b86aadcdedaec4de40a9245c0025e4"
+        },
+        "model_prompt.md": {
+          "bytes": 8666,
+          "sha256": "ef43ac22a0927331f19e614fbded9a923487475387c8f6a28b5abf78f787e51b"
+        },
+        "negative_prompt.md": {
+          "bytes": 537,
+          "sha256": "8d599b95df81754b7634d0771568fe4eb16bd68fdb69a7f1cdbf39dfc45a1c81"
+        },
+        "metadata.json": {
+          "bytes": 10368,
+          "sha256": "12cf96d162e750312de911e6e644a1833ae5c4d751056d9fd3817153ea8a1e98"
+        },
+        "start_frame.png": {
+          "bytes": 3027897,
+          "sha256": "3066f5172152a3e46369023f556b07c305ceece89c0b8a39d2459a6c2782583c"
+        },
+        "key_frame.png": {
+          "bytes": 3121622,
+          "sha256": "4c03a195faa45eceb91d2e754bdc74220989090ba045c255710423d46f5feeec"
+        },
+        "end_frame.png": {
+          "bytes": 3030896,
+          "sha256": "597201d10148518d2a7dee5fc5f1602b2d041528963d91520cf9cb8fb9b6f863"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_start.png",
+          "exists": true,
+          "source_sha256": "3066f5172152a3e46369023f556b07c305ceece89c0b8a39d2459a6c2782583c",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_key.png",
+          "exists": true,
+          "source_sha256": "4c03a195faa45eceb91d2e754bdc74220989090ba045c255710423d46f5feeec",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_end.png",
+          "exists": true,
+          "source_sha256": "597201d10148518d2a7dee5fc5f1602b2d041528963d91520cf9cb8fb9b6f863",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4",
+      "prompt_chars": 8665,
+      "negative_chars": 536,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 27,
+      "shot": "Shot032E",
+      "id": "EP02-SC09-SHOT-Shot032E-V2-20260721",
+      "package_dir": "shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Edelgard",
+        "Claude",
+        "Hilda",
+        "Hubert"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5954,
+          "sha256": "1b6e37145a2589e8ec2dcdf4edc6756afa51d1426a8962fb5dab17770cc53f48"
+        },
+        "model_prompt.md": {
+          "bytes": 9393,
+          "sha256": "5b4449ef6b6c3fccde774c72dab554bb40a9cfd81efa0d6326f0886d8e48ce8b"
+        },
+        "negative_prompt.md": {
+          "bytes": 537,
+          "sha256": "8d599b95df81754b7634d0771568fe4eb16bd68fdb69a7f1cdbf39dfc45a1c81"
+        },
+        "metadata.json": {
+          "bytes": 11388,
+          "sha256": "7ed8a54e0f1bf376935cdd86fdb86f7a3e1e1a3f5ef3ebde833ed0dfe37af524"
+        },
+        "start_frame.png": {
+          "bytes": 3136052,
+          "sha256": "9761ee61588d85d8c9e62d1f9dc6fad1d3a431746ffb730efdcfc3ae4b094494"
+        },
+        "key_frame.png": {
+          "bytes": 2926703,
+          "sha256": "524f77d437258d02fcc2f600ffcc70fe79484a83c513aa6b0f56d2bd9bac24b7"
+        },
+        "end_frame.png": {
+          "bytes": 2867425,
+          "sha256": "0a19bf902d052a1becf8ce15c6196a7e256299ab086e85c5255cf2c19c0ba8cf"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_start.png",
+          "exists": true,
+          "source_sha256": "9761ee61588d85d8c9e62d1f9dc6fad1d3a431746ffb730efdcfc3ae4b094494",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_key.png",
+          "exists": true,
+          "source_sha256": "524f77d437258d02fcc2f600ffcc70fe79484a83c513aa6b0f56d2bd9bac24b7",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_end.png",
+          "exists": true,
+          "source_sha256": "0a19bf902d052a1becf8ce15c6196a7e256299ab086e85c5255cf2c19c0ba8cf",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4",
+      "prompt_chars": 9362,
+      "negative_chars": 536,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 28,
+      "shot": "Shot032F",
+      "id": "EP02-SC09-SHOT-Shot032F-V2-20260724",
+      "package_dir": "shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Felix",
+        "Ashe",
+        "Hubert"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5539,
+          "sha256": "bc09cc6764e16e01263c52de51d1ea99d15bc7e52379fd7d649c636e38c5befa"
+        },
+        "model_prompt.md": {
+          "bytes": 7579,
+          "sha256": "731aea78bbcd3d630255c9c39b28c3ce9df3f6209003aa2a555d0a2d32abd863"
+        },
+        "negative_prompt.md": {
+          "bytes": 601,
+          "sha256": "170142b85d4ac3e0e186d39a947700bb4c99ead75a0a18b5b72ed1aa06c9cd5a"
+        },
+        "metadata.json": {
+          "bytes": 11291,
+          "sha256": "26671e390451eb137cf74bcfaa23b3ee02f5bc3042387ca69376b4de15b3919d"
+        },
+        "start_frame.png": {
+          "bytes": 2431398,
+          "sha256": "27c96aef32fbb6a056b6a58c9d4bd509ee6a3853ce0b8523eb3f798c08b3e40d"
+        },
+        "key_frame.png": {
+          "bytes": 2402610,
+          "sha256": "2b4a9bfb19916e3d46d38648442126f02e784cbca6205c854f802f0c8a0f17d1"
+        },
+        "end_frame.png": {
+          "bytes": 2362473,
+          "sha256": "4b8e39651fa06a4172b5c55df8f38287e4af6f584025b993603518b435b12c24"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/27D_Shot032F_quality_start.png",
+          "exists": true,
+          "source_sha256": "27c96aef32fbb6a056b6a58c9d4bd509ee6a3853ce0b8523eb3f798c08b3e40d",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/27D_Shot032F_quality_key.png",
+          "exists": true,
+          "source_sha256": "2b4a9bfb19916e3d46d38648442126f02e784cbca6205c854f802f0c8a0f17d1",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/27D_Shot032F_quality_end.png",
+          "exists": true,
+          "source_sha256": "4b8e39651fa06a4172b5c55df8f38287e4af6f584025b993603518b435b12c24",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4",
+      "prompt_chars": 7536,
+      "negative_chars": 600,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 29,
+      "shot": "Shot032G",
+      "id": "EP02-SC09-SHOT-Shot032G-V2-20260724",
+      "package_dir": "shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Claude",
+        "Leonie",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5608,
+          "sha256": "cb3f073e86b80cf8e127167d709a7c6dd37599f662e9ea6b387525c7d1293f5f"
+        },
+        "model_prompt.md": {
+          "bytes": 8199,
+          "sha256": "5052d8697e44767e697aef1e7e6271453a02a23c25b4596d061406f3fa71f2f1"
+        },
+        "negative_prompt.md": {
+          "bytes": 767,
+          "sha256": "f4d5dc5bc8d5bc656edf38844509d631b7e9f04b0114b02f55173fcb837ad6b1"
+        },
+        "metadata.json": {
+          "bytes": 11519,
+          "sha256": "c92c7ec79d5ad6873c88b18427e5db33ffb581a8e7c8d58b9a30434ff9f4dfd1"
+        },
+        "start_frame.png": {
+          "bytes": 2739831,
+          "sha256": "88b4772edbc9326a918b1eb29879fe8019c76ff59b090f34115d95410c68b113"
+        },
+        "key_frame.png": {
+          "bytes": 2647772,
+          "sha256": "3acc758f54e0186f1a10bd0e6f8703b25a1213466c63341c42d7a677e8f2dc19"
+        },
+        "end_frame.png": {
+          "bytes": 2436955,
+          "sha256": "82183c556a98a201818128d05799a6763217f25b29d080e510db557062481359"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 940,
+          "aspect_ratio": 1.778723,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27C_Shot032G_start.png",
+          "exists": true,
+          "source_sha256": "88b4772edbc9326a918b1eb29879fe8019c76ff59b090f34115d95410c68b113",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27C_Shot032G_key.png",
+          "exists": true,
+          "source_sha256": "3acc758f54e0186f1a10bd0e6f8703b25a1213466c63341c42d7a677e8f2dc19",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27C_Shot032G_end.png",
+          "exists": true,
+          "source_sha256": "82183c556a98a201818128d05799a6763217f25b29d080e510db557062481359",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4",
+      "prompt_chars": 8138,
+      "negative_chars": 766,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 30,
+      "shot": "Shot033",
+      "id": "EP02-SC09-SHOT-Shot033-V2-20260721",
+      "package_dir": "shots/030_EP02-SC09-SHOT-Shot033-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth",
+        "Dedue",
+        "Hanneman"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5648,
+          "sha256": "0ccb3541d673da9b50a70ba2c7c63f815c230eb1542c948045500993e151b980"
+        },
+        "model_prompt.md": {
+          "bytes": 9065,
+          "sha256": "56d80b13b4f722cef392ce2ac68a6e1c4477853b7107be924e997474bc9b37af"
+        },
+        "negative_prompt.md": {
+          "bytes": 803,
+          "sha256": "c14eeb4015da7ffb32422e7affe2c0bb7bb307120a70f4878421273c6ecd53f2"
+        },
+        "metadata.json": {
+          "bytes": 10983,
+          "sha256": "396376a01c90066c27e5f15045dbeb76237851d4154e142e58ee10709d1fe523"
+        },
+        "start_frame.png": {
+          "bytes": 2247257,
+          "sha256": "2cebf3eda1e17c2028eaa16d17e8b2b75ab3c67d087f9376c69ec490ffb358ab"
+        },
+        "key_frame.png": {
+          "bytes": 2199307,
+          "sha256": "7a2be08b8955c448140b62283d853e5826fd2e7225988e3e38fec6c6edcaee33"
+        },
+        "end_frame.png": {
+          "bytes": 2169773,
+          "sha256": "f6ffd5c5b8545baf74a2f9ad6237c618464fab07a75272ae31be6edb2569d26b"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_start.png",
+          "exists": true,
+          "source_sha256": "2cebf3eda1e17c2028eaa16d17e8b2b75ab3c67d087f9376c69ec490ffb358ab",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_key.png",
+          "exists": true,
+          "source_sha256": "7a2be08b8955c448140b62283d853e5826fd2e7225988e3e38fec6c6edcaee33",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_end.png",
+          "exists": true,
+          "source_sha256": "f6ffd5c5b8545baf74a2f9ad6237c618464fab07a75272ae31be6edb2569d26b",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4",
+      "prompt_chars": 9064,
+      "negative_chars": 802,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 31,
+      "shot": "Shot033B",
+      "id": "EP02-SC09-SHOT-Shot033B-V2-20260721",
+      "package_dir": "shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Ashe",
+        "Ingrid",
+        "Felix"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5445,
+          "sha256": "5881c559845dc003723ef8708e78e2ac88c1741aaa7ad417fde5e3e5bd892a41"
+        },
+        "model_prompt.md": {
+          "bytes": 9203,
+          "sha256": "7426b8e826ee9d3e2bd3c5718611008605d90de1528288b6547839ee51c260c1"
+        },
+        "negative_prompt.md": {
+          "bytes": 825,
+          "sha256": "3c057ef5a1511021c9ddaa324e7bd594b822947c54213520324bfd894eabb196"
+        },
+        "metadata.json": {
+          "bytes": 11617,
+          "sha256": "e6199dde72ae139a6c03006771b6fe7c4b6ec99429da2bedba3fd02c4281aea2"
+        },
+        "start_frame.png": {
+          "bytes": 2768634,
+          "sha256": "4866b27c0cb4a039425af93fe1528b09bf1b9ce1474eec1e6360ad88644d4dd2"
+        },
+        "key_frame.png": {
+          "bytes": 2916079,
+          "sha256": "cb24c8d6b0c79dc77655210ea75143eadcdb94a6384e55ac990314c94b0259a5"
+        },
+        "end_frame.png": {
+          "bytes": 2880865,
+          "sha256": "4893c5af2eefbacc3eee86f729089b222d613b022e63f662bdcb0808d5fd32ef"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_separation_patch_2026-07-27/29E_Shot033B_no_teachers_start.png",
+          "exists": true,
+          "source_sha256": "4866b27c0cb4a039425af93fe1528b09bf1b9ce1474eec1e6360ad88644d4dd2",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_separation_patch_2026-07-27/29E_Shot033B_no_teachers_key.png",
+          "exists": true,
+          "source_sha256": "cb24c8d6b0c79dc77655210ea75143eadcdb94a6384e55ac990314c94b0259a5",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_separation_patch_2026-07-27/29E_Shot033B_no_teachers_end.png",
+          "exists": true,
+          "source_sha256": "4893c5af2eefbacc3eee86f729089b222d613b022e63f662bdcb0808d5fd32ef",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4",
+      "prompt_chars": 9202,
+      "negative_chars": 824,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 32,
+      "shot": "Shot033C",
+      "id": "EP02-SC09-SHOT-Shot033C-V2-20260721",
+      "package_dir": "shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Ashe",
+        "Hanneman"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5774,
+          "sha256": "c7c231726445dd6c7cc3ecca673a1b4328e2536c1d5b178bf0e8230e57245a5c"
+        },
+        "model_prompt.md": {
+          "bytes": 8824,
+          "sha256": "b4a1e872eaae64f38154a67094bc18f465cfd3eb016a5b5fe2f23f1d2202911f"
+        },
+        "negative_prompt.md": {
+          "bytes": 863,
+          "sha256": "6a82e5dd62a3487213a8ae5e2fb6c9cb07a2069aa788e1092ea0c66acc9f34a5"
+        },
+        "metadata.json": {
+          "bytes": 11448,
+          "sha256": "8b950e4e850145def245cb5a462c24095fb1982d7b8c1e5325c8b10187136bfa"
+        },
+        "start_frame.png": {
+          "bytes": 2631470,
+          "sha256": "132384b620332c1d2f1a361232fdb6661fc519457d31c57f13547dd1061fd89e"
+        },
+        "key_frame.png": {
+          "bytes": 2577676,
+          "sha256": "87241e030b0277e765f970ec9fd9012ddcc2a5fc8c941326f375b72b9bae7294"
+        },
+        "end_frame.png": {
+          "bytes": 2670653,
+          "sha256": "f10dcd30482dbc8616a8e51727322db364529442e39d65321f4e9ca1127c168f"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_start.png",
+          "exists": true,
+          "source_sha256": "132384b620332c1d2f1a361232fdb6661fc519457d31c57f13547dd1061fd89e",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_key.png",
+          "exists": true,
+          "source_sha256": "87241e030b0277e765f970ec9fd9012ddcc2a5fc8c941326f375b72b9bae7294",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/end_patch_2026-07-25/30B_Shot033C_end.png",
+          "exists": true,
+          "source_sha256": "f10dcd30482dbc8616a8e51727322db364529442e39d65321f4e9ca1127c168f",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4",
+      "prompt_chars": 8807,
+      "negative_chars": 862,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 33,
+      "shot": "Shot033D",
+      "id": "EP02-SC09-SHOT-Shot033D-V2-20260721",
+      "package_dir": "shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Ingrid",
+        "Manuela",
+        "Sylvain"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5354,
+          "sha256": "aea26c38f78802d7d8038ab1386945c3b263fa78974e25bd0edd0fe082a29eba"
+        },
+        "model_prompt.md": {
+          "bytes": 8833,
+          "sha256": "6e7d470d223b2986b4291bae50b14d9e3c4ed43bb50400909240d8f821432d2e"
+        },
+        "negative_prompt.md": {
+          "bytes": 1088,
+          "sha256": "ebbac8d04304d95c70edc8bd765448d3647ecc31a818941d6ce603a952e714d0"
+        },
+        "metadata.json": {
+          "bytes": 12302,
+          "sha256": "040a1c34b0fa7f41f511d04da20daa4b1ede0ee89c5ce11ba10247a8ab417567"
+        },
+        "start_frame.png": {
+          "bytes": 2536100,
+          "sha256": "bdd05b3ac263247f58771863a83b6fe8516de7f2015a3f14e43e5bfb0c687776"
+        },
+        "key_frame.png": {
+          "bytes": 2565356,
+          "sha256": "c486847292dae3c4dc9d9830d464b1d67f4f5cf1d72883547acf041ef6db77df"
+        },
+        "end_frame.png": {
+          "bytes": 2616531,
+          "sha256": "3479f5748139d9c05a8802432e95b723f6009c058707d4972d5597eccf137f56"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/safety_patch_2026-07-25/31C_Shot033D_safe_start.png",
+          "exists": true,
+          "source_sha256": "bdd05b3ac263247f58771863a83b6fe8516de7f2015a3f14e43e5bfb0c687776",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/safety_patch_2026-07-25/31C_Shot033D_safe_key.png",
+          "exists": true,
+          "source_sha256": "c486847292dae3c4dc9d9830d464b1d67f4f5cf1d72883547acf041ef6db77df",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/safety_patch_2026-07-25/31C_Shot033D_safe_end.png",
+          "exists": true,
+          "source_sha256": "3479f5748139d9c05a8802432e95b723f6009c058707d4972d5597eccf137f56",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4",
+      "prompt_chars": 8794,
+      "negative_chars": 1087,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 34,
+      "shot": "Shot034C",
+      "id": "EP02-SC09-SHOT-Shot034C-V2-20260721",
+      "package_dir": "shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Felix",
+        "Ferdinand"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5315,
+          "sha256": "014efea05f3ad18f12054a93303918ad68f2e82851b44619a8115f0d16c145be"
+        },
+        "model_prompt.md": {
+          "bytes": 8914,
+          "sha256": "9f4d5337c6ed71f47b5d2c8f2e78b358fa0038bd6f4191d9ebdc548766d274d8"
+        },
+        "negative_prompt.md": {
+          "bytes": 1223,
+          "sha256": "1ebd0f85f5bfb06d45d6f71fbdd107fd04169adc34d698f819bcbe5b114f2789"
+        },
+        "metadata.json": {
+          "bytes": 12410,
+          "sha256": "0a1ef2805629d1b694516defe0f2ae61ad1a0959e20c74fedf9ede5d5a57c55f"
+        },
+        "start_frame.png": {
+          "bytes": 2600093,
+          "sha256": "d012657a14d3e4164a97f015bc357dfcba4ad8b83855a25454528760c04cf37f"
+        },
+        "key_frame.png": {
+          "bytes": 2516038,
+          "sha256": "348bc9b257170d2038d478327f13a201b41fa312e3a2ca06bb73c10abe43f819"
+        },
+        "end_frame.png": {
+          "bytes": 2537780,
+          "sha256": "1bfd6524dd5f9334c8d84b1c2b160fcef31ee0bb9d8194e9a04cda635a49d6e5"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/safety_patch_2026-07-25/32C_Shot034C_safe_start.png",
+          "exists": true,
+          "source_sha256": "d012657a14d3e4164a97f015bc357dfcba4ad8b83855a25454528760c04cf37f",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/safety_patch_2026-07-25/32C_Shot034C_safe_key.png",
+          "exists": true,
+          "source_sha256": "348bc9b257170d2038d478327f13a201b41fa312e3a2ca06bb73c10abe43f819",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/safety_patch_2026-07-25/32C_Shot034C_safe_end.png",
+          "exists": true,
+          "source_sha256": "1bfd6524dd5f9334c8d84b1c2b160fcef31ee0bb9d8194e9a04cda635a49d6e5",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4",
+      "prompt_chars": 8901,
+      "negative_chars": 1222,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 35,
+      "shot": "Shot034D",
+      "id": "EP02-SC09-SHOT-Shot034D-V2-20260721",
+      "package_dir": "shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Hanneman"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5238,
+          "sha256": "008916aa2573b02472189621076ac839a39d4f5ce23f2611096c72f73dc34e7b"
+        },
+        "model_prompt.md": {
+          "bytes": 8789,
+          "sha256": "c82dfe6c208c0bad0e4885e6a4acfe156f5beded9d54e69c1ed86c3dec58e44e"
+        },
+        "negative_prompt.md": {
+          "bytes": 1223,
+          "sha256": "554713b540902457728d33d633c7d69af51cca43feec8f2b781fca6b91c46497"
+        },
+        "metadata.json": {
+          "bytes": 12053,
+          "sha256": "4201bccf00c7b311490397a3bd0f6db40775d4a09ab724ba8672e8b2e0d26d8e"
+        },
+        "start_frame.png": {
+          "bytes": 2301863,
+          "sha256": "bfe1a5d5be3711ddcbfbbad403b65e5abec779e65ca59c72c4edfc17e9d8201f"
+        },
+        "key_frame.png": {
+          "bytes": 2233909,
+          "sha256": "2443595075aeb7059f5a2a27756b7107ed8da734ae25e1799ccc2528e37e8c2c"
+        },
+        "end_frame.png": {
+          "bytes": 2216841,
+          "sha256": "7c1ec89b9e126c27b642eb8d8f1ebd0d333c5d860f6ad300df1019b2ae56d643"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_start.png",
+          "exists": true,
+          "source_sha256": "bfe1a5d5be3711ddcbfbbad403b65e5abec779e65ca59c72c4edfc17e9d8201f",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_key.png",
+          "exists": true,
+          "source_sha256": "2443595075aeb7059f5a2a27756b7107ed8da734ae25e1799ccc2528e37e8c2c",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/end_patch_2026-07-25/33B_Shot034D_end.png",
+          "exists": true,
+          "source_sha256": "7c1ec89b9e126c27b642eb8d8f1ebd0d333c5d860f6ad300df1019b2ae56d643",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4",
+      "prompt_chars": 8778,
+      "negative_chars": 1222,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 36,
+      "shot": "Shot034B",
+      "id": "EP02-SC09-SHOT-Shot034B-V2-20260721",
+      "package_dir": "shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 6827,
+          "sha256": "6548c7640ead73b4afe001ecd5732159973535ef88cd99d10aeca7ff9e5d81c2"
+        },
+        "model_prompt.md": {
+          "bytes": 7542,
+          "sha256": "889df3290fbbd8d6a8b92cf457216035d7c12f145f614988695f6ab59873abd8"
+        },
+        "negative_prompt.md": {
+          "bytes": 1437,
+          "sha256": "8f9813153f0a0e48d3d2bba07bc8c8821350a8a7c2e784fde975f3351d7dd6f2"
+        },
+        "metadata.json": {
+          "bytes": 17674,
+          "sha256": "f3baeca8c8c5cffe52f295f022969477de1c2902838f02d2c8a186cb766c2c5c"
+        },
+        "start_frame.png": {
+          "bytes": 2994915,
+          "sha256": "5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422"
+        },
+        "key_frame.png": {
+          "bytes": 2926872,
+          "sha256": "150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04"
+        },
+        "end_frame.png": {
+          "bytes": 2892349,
+          "sha256": "9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+          "exists": true,
+          "source_sha256": "5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+          "exists": true,
+          "source_sha256": "150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png",
+          "exists": true,
+          "source_sha256": "9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4",
+      "prompt_chars": 7447,
+      "negative_chars": 1436,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 37,
+      "shot": "Shot034E",
+      "id": "EP02-SC09-SHOT-Shot034E-V2-20260721",
+      "package_dir": "shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 6757,
+          "sha256": "e0e709995c624244a145f4d23a7894c129f6bb52ebfcbe902295c9406d61e3a7"
+        },
+        "model_prompt.md": {
+          "bytes": 8253,
+          "sha256": "f9b94ab497f9027ae417f2f64340d07fd29a5673ff0afdf1c2d991165706d5d4"
+        },
+        "negative_prompt.md": {
+          "bytes": 1707,
+          "sha256": "1af200451d7c6fd316dfca809374393af61b10f13e74cd6614be8cc4e71946cb"
+        },
+        "metadata.json": {
+          "bytes": 23523,
+          "sha256": "a2287678e13cf1fc42085506a05fbf7d1ca118c25e44515f21628ab1cdc5268c"
+        },
+        "start_frame.png": {
+          "bytes": 2500190,
+          "sha256": "bff60060cda459b9c295cdab276a7dd8b10cd755160ea0eff146b95c6b85af6b"
+        },
+        "key_frame.png": {
+          "bytes": 2397935,
+          "sha256": "71b4afc25c01d9b73e04de18960f1c902e5badcf0278c04d1b0b534f7dd9b05a"
+        },
+        "end_frame.png": {
+          "bytes": 2446537,
+          "sha256": "4ce652ac301e65ee8502a13ba24fa45ae6869d6dc5883d1918d2bd077cf1d316"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_start.png",
+          "exists": true,
+          "source_sha256": "bff60060cda459b9c295cdab276a7dd8b10cd755160ea0eff146b95c6b85af6b",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_key.png",
+          "exists": true,
+          "source_sha256": "71b4afc25c01d9b73e04de18960f1c902e5badcf0278c04d1b0b534f7dd9b05a",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_end.png",
+          "exists": true,
+          "source_sha256": "4ce652ac301e65ee8502a13ba24fa45ae6869d6dc5883d1918d2bd077cf1d316",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4",
+      "prompt_chars": 8238,
+      "negative_chars": 1706,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 38,
+      "shot": "Shot034F",
+      "id": "EP02-SC09-SHOT-Shot034F-V2-20260721",
+      "package_dir": "shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Edelgard",
+        "Ferdinand"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5480,
+          "sha256": "bc37d5ff25819adcbcb33677e991a7bd9568fb18d4a13506e40aab03fa190119"
+        },
+        "model_prompt.md": {
+          "bytes": 9281,
+          "sha256": "ac5a023fe2ac1d7516b22029a922ab4750fab56bedf7262548a94dcef9e885ef"
+        },
+        "negative_prompt.md": {
+          "bytes": 1635,
+          "sha256": "452679c3d9bdb1a3db79a40b274a6dc47aaa44fa6fefd33dc2100944cb9fdd4a"
+        },
+        "metadata.json": {
+          "bytes": 13368,
+          "sha256": "d77b9d29b5e0d567bb2914e0efa59f84a914deddfb0fd3f2a72ec6dedd792f3c"
+        },
+        "start_frame.png": {
+          "bytes": 2515554,
+          "sha256": "bb0ff78e082548925e53c114744c0d9782106d77e7c4a4dd1fe44129ea91201d"
+        },
+        "key_frame.png": {
+          "bytes": 2516616,
+          "sha256": "51d7722ce66f34441df65141a781ed08154d56be84e5bc1e925c0bd029808dc2"
+        },
+        "end_frame.png": {
+          "bytes": 2708341,
+          "sha256": "1580a8b6acb3ab3f5ee84a5bc67dfd8f258f679948c32224bc66128a20388b9f"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-08-07/38_Shot034F_safe_training_weapon_start.png",
+          "exists": true,
+          "source_sha256": "bb0ff78e082548925e53c114744c0d9782106d77e7c4a4dd1fe44129ea91201d",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-08-07/38_Shot034F_safe_training_weapon_key.png",
+          "exists": true,
+          "source_sha256": "51d7722ce66f34441df65141a781ed08154d56be84e5bc1e925c0bd029808dc2",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-08-07/38_Shot034F_safe_training_weapon_end.png",
+          "exists": true,
+          "source_sha256": "1580a8b6acb3ab3f5ee84a5bc67dfd8f258f679948c32224bc66128a20388b9f",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4",
+      "prompt_chars": 9250,
+      "negative_chars": 1634,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 39,
+      "shot": "Shot034G",
+      "id": "EP02-SC09-SHOT-Shot034G-V2-20260721",
+      "package_dir": "shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5571,
+          "sha256": "06b9e198c4690dcbc757e85367ef361aca6a553c6143502fd62b52f406a87658"
+        },
+        "model_prompt.md": {
+          "bytes": 12011,
+          "sha256": "ce69a5c367f8c780369c59c63e3ba4862c014ebae39b6e5d3ce38a7ab007d43e"
+        },
+        "negative_prompt.md": {
+          "bytes": 1623,
+          "sha256": "d9fe72c6f3dd635de1e068dfdeb4120cf8414975bdf7702721e759e5be0d05bf"
+        },
+        "metadata.json": {
+          "bytes": 18554,
+          "sha256": "8dc06634a26ae4d803d7f892dc5b7ad2110c8d96d066cae1fc630884f39d8e6a"
+        },
+        "start_frame.png": {
+          "bytes": 2188407,
+          "sha256": "50b9c2954992e2549c6b3d00387a54a5bbc29391459af818b5e135ba510a91a3"
+        },
+        "key_frame.png": {
+          "bytes": 2355109,
+          "sha256": "32fb2b560dc26350dcf7392c00b78d2c827389bcdc5503d107a017ad884c8186"
+        },
+        "end_frame.png": {
+          "bytes": 2244608,
+          "sha256": "70cba887051ae92617b3d2114f32346b3e3ae66d8dc4c485575f9d1ac7f6a804"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_start.png",
+          "exists": true,
+          "source_sha256": "50b9c2954992e2549c6b3d00387a54a5bbc29391459af818b5e135ba510a91a3",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_key.png",
+          "exists": true,
+          "source_sha256": "32fb2b560dc26350dcf7392c00b78d2c827389bcdc5503d107a017ad884c8186",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_end.png",
+          "exists": true,
+          "source_sha256": "70cba887051ae92617b3d2114f32346b3e3ae66d8dc4c485575f9d1ac7f6a804",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4",
+      "prompt_chars": 12010,
+      "negative_chars": 1622,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 40,
+      "shot": "Shot034",
+      "id": "EP02-SC09-SHOT-Shot034-V2-20260721",
+      "package_dir": "shots/040_EP02-SC09-SHOT-Shot034-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dimitri",
+        "Edelgard",
+        "Claude"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5853,
+          "sha256": "492dd21c56853e05006772a8b6482049195b9bddbfcaa2b549c54829bb332b5a"
+        },
+        "model_prompt.md": {
+          "bytes": 10865,
+          "sha256": "6ed2a688e8f4db87cac84a9909ccb0809b65373ebb9f121d2e3263de16b58c4b"
+        },
+        "negative_prompt.md": {
+          "bytes": 1635,
+          "sha256": "6af3f9ce5acb409b8a71b8c36cd915289dfc4dd739c0469fcb59c3945691a0d3"
+        },
+        "metadata.json": {
+          "bytes": 13557,
+          "sha256": "309fe6dc264a22c06ec3f546c6e911cabb215282d4d6a8c4a50d4433f9052a9d"
+        },
+        "start_frame.png": {
+          "bytes": 2353009,
+          "sha256": "d9ebe04d8eecf2a53f9e5bcfd69c22957b6236b857cc7695c10351836eb08b8c"
+        },
+        "key_frame.png": {
+          "bytes": 2273094,
+          "sha256": "8b0a94cc4f1a1fb9dac93c4da4b5da32a3fd2c35e58409e6a0b3212e730e1e0c"
+        },
+        "end_frame.png": {
+          "bytes": 2236471,
+          "sha256": "f3a89e438a542b0ce7ea3564a2950190de0d356a466fdac7ddc7a8e5f57ea33a"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_start.png",
+          "exists": true,
+          "source_sha256": "d9ebe04d8eecf2a53f9e5bcfd69c22957b6236b857cc7695c10351836eb08b8c",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_key.png",
+          "exists": true,
+          "source_sha256": "8b0a94cc4f1a1fb9dac93c4da4b5da32a3fd2c35e58409e6a0b3212e730e1e0c",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_end.png",
+          "exists": true,
+          "source_sha256": "f3a89e438a542b0ce7ea3564a2950190de0d356a466fdac7ddc7a8e5f57ea33a",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4",
+      "prompt_chars": 10864,
+      "negative_chars": 1634,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 41,
+      "shot": "Shot035",
+      "id": "EP02-SC09-SHOT-Shot035-V2-20260721",
+      "package_dir": "shots/041_EP02-SC09-SHOT-Shot035-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Felix",
+        "Byleth"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5848,
+          "sha256": "6f7bec1441b96b8302cc147b1865bd9d6905d24a96363b1fc4a77045938e2045"
+        },
+        "model_prompt.md": {
+          "bytes": 9884,
+          "sha256": "af2b23b325ba3852bb5c86a49b2014ca1caf3b1090bd6b5a3c41c307dc2484c5"
+        },
+        "negative_prompt.md": {
+          "bytes": 1629,
+          "sha256": "19b5162c39daeb5cb5d01d117c7ca2d61e99fba6e5c23e80e45b04be69709508"
+        },
+        "metadata.json": {
+          "bytes": 12676,
+          "sha256": "04bc53e87a5f1223e9b859c5459b2d9605547e15672ea8251c47579a0b5cfc92"
+        },
+        "start_frame.png": {
+          "bytes": 2123121,
+          "sha256": "17c801326b2a9c0eb0ead41b2e4b5a79b513bee472361679ac023b37513c566a"
+        },
+        "key_frame.png": {
+          "bytes": 1989920,
+          "sha256": "91999d97af85828389c565223130da00d0ea666fcb998c608049b14582bfb0a9"
+        },
+        "end_frame.png": {
+          "bytes": 1961459,
+          "sha256": "e140a8969ef2e520820f5aec849b65eeaaef998fa5468970dbab9e78c12fbe15"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_start.png",
+          "exists": true,
+          "source_sha256": "17c801326b2a9c0eb0ead41b2e4b5a79b513bee472361679ac023b37513c566a",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_key.png",
+          "exists": true,
+          "source_sha256": "91999d97af85828389c565223130da00d0ea666fcb998c608049b14582bfb0a9",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/end_patch_2026-07-25/39B_Shot035_end.png",
+          "exists": true,
+          "source_sha256": "e140a8969ef2e520820f5aec849b65eeaaef998fa5468970dbab9e78c12fbe15",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4",
+      "prompt_chars": 9865,
+      "negative_chars": 1628,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 42,
+      "shot": "Shot036",
+      "id": "EP02-SC09-SHOT-Shot036-V2-20260721",
+      "package_dir": "shots/042_EP02-SC09-SHOT-Shot036-V2-20260721",
+      "decision": "execution_assets_ready",
+      "visible_named_only": [
+        "Dimitri",
+        "Byleth"
+      ],
+      "files": {
+        "prompt.md": {
+          "bytes": 5732,
+          "sha256": "33f9cf84c034e5d98d7c09959507f498624bf9689d80830e9614ab552d76e97e"
+        },
+        "model_prompt.md": {
+          "bytes": 8905,
+          "sha256": "79d0c84688174704af1cb9e829bea635e158cebf4385511c8d3b8665043bdbd5"
+        },
+        "negative_prompt.md": {
+          "bytes": 1623,
+          "sha256": "d9fe72c6f3dd635de1e068dfdeb4120cf8414975bdf7702721e759e5be0d05bf"
+        },
+        "metadata.json": {
+          "bytes": 16578,
+          "sha256": "8ca876ad4015e18d67eb9c192239c1ab1f65b279dc353a61625ea86734b20b73"
+        },
+        "start_frame.png": {
+          "bytes": 2207378,
+          "sha256": "7b2721e6bb8765ee64d65028cbf8a16149b907055dcca3a859bcfea2cad346d7"
+        },
+        "key_frame.png": {
+          "bytes": 2017982,
+          "sha256": "6f818fe34c521b559df8ad84c790b8104dcce78aebda9f95fd73fed76bd0ad45"
+        },
+        "end_frame.png": {
+          "bytes": 2016132,
+          "sha256": "23c8bc1ff918474fc9e2132e4e843fb24bb753b765acb9d7ab8890feea9aa0aa"
+        }
+      },
+      "frame_dimensions": {
+        "start_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "key_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "end_frame.png": {
+          "ok": true,
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": 1.776833,
+          "is_16x9": true
+        },
+        "start_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png",
+          "exists": true,
+          "source_sha256": "7b2721e6bb8765ee64d65028cbf8a16149b907055dcca3a859bcfea2cad346d7",
+          "matches_packaged_copy": true
+        },
+        "key_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png",
+          "exists": true,
+          "source_sha256": "6f818fe34c521b559df8ad84c790b8104dcce78aebda9f95fd73fed76bd0ad45",
+          "matches_packaged_copy": true
+        },
+        "end_frame.source_check": {
+          "source": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png",
+          "exists": true,
+          "source_sha256": "23c8bc1ff918474fc9e2132e4e843fb24bb753b765acb9d7ab8890feea9aa0aa",
+          "matches_packaged_copy": true
+        }
+      },
+      "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4",
+      "prompt_chars": 8876,
+      "negative_chars": 1622,
+      "problems": [],
+      "warnings": []
+    }
+  ],
+  "package_copies": {
+    "markdown": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/execution_asset_integrity.md",
+    "csv": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/execution_asset_integrity.csv"
+  },
+  "decision": "execution_asset_integrity_passed"
+}

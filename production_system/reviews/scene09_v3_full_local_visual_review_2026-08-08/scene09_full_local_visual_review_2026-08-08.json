@@ -1,0 +1,1896 @@
+{
+  "review_id": "scene09_full_local_visual_review_2026-08-08",
+  "scene": "EP02 Scene09 学级模拟战",
+  "reviewed_at": "2026-08-08",
+  "reviewer_role": "codex_visual_reviewer_current_package",
+  "method": "local_file_contact_sheet_review_plus_per_frame_matrix",
+  "decision": "full_local_visual_review_passed_for_motion_probe_not_video_approved",
+  "source_manifest": "production_system/video_delivery_manifest.json",
+  "per_frame_visual_review_matrix": "production_system/scene09_v3_attrition_package/scene09_v3_per_frame_visual_review_matrix_2026-08-03.json",
+  "contact_sheets": [
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+    "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part5.png",
+    "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+    "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg",
+    "production_system/reviews/scene09_v3_local_visual_review_2026-08-07/Shot034F_safe_training_weapon_contact_sheet.jpg"
+  ],
+  "integrity_summary": {
+    "shots_expected": 42,
+    "shots_reviewed": 42,
+    "frames_expected": 126,
+    "frames_present": 126,
+    "missing_frame_refs": []
+  },
+  "visual_audit_coverage": {
+    "unavailable_shots": [],
+    "existing_shots_failed": [],
+    "layout_reference_only": [],
+    "monitor_required": [
+      "Shot025",
+      "Shot025A",
+      "Shot026",
+      "Shot026B",
+      "Shot026C",
+      "Shot027",
+      "Shot027B",
+      "Shot027C",
+      "Shot027D",
+      "Shot028",
+      "Shot028B",
+      "Shot028C",
+      "Shot029",
+      "Shot029C",
+      "Shot029D",
+      "Shot029B",
+      "Shot030",
+      "Shot030B",
+      "Shot030C",
+      "Shot031",
+      "Shot031B",
+      "Shot032",
+      "Shot032A",
+      "Shot032B",
+      "Shot032C",
+      "Shot032D",
+      "Shot032E",
+      "Shot032F",
+      "Shot032G",
+      "Shot033",
+      "Shot033B",
+      "Shot033C",
+      "Shot033D",
+      "Shot034C",
+      "Shot034D",
+      "Shot034B",
+      "Shot034E",
+      "Shot034F",
+      "Shot034G",
+      "Shot034",
+      "Shot035",
+      "Shot036"
+    ],
+    "visual_review_passed": []
+  },
+  "promotion_decision": "Do not submit full-duration video yet. Current still frames are accepted only for monitored short motion probes; returned clips must pass motion/identity/weapon/facing review before approved_for_video.",
+  "summary": "All 42 Scene09 current package shot rows were reviewed from refreshed local contact sheets and cross-checked against the 126-frame matrix. No missing frame files were found. The static frames are suitable for motion-probe submission, not final video approval.",
+  "problems": [],
+  "shots": {
+    "Shot025": {
+      "order": 1,
+      "shot": "Shot025",
+      "title_zh": "规则与三方目标确立",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/01B_Shot025_three_leaders_rules_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/01B_Shot025_three_leaders_rules_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/01B_Shot025_three_leaders_rules_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "规则和三学级目标成立；三位级长远景关系清楚。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "start/key/end 从听取规则、互相判断到转向各自路线，三帧有明确推进。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dimitri, Edelgard, Claude.",
+      "costume_weapon_prop_state": "三位级长必须保持学生年龄和各自学级颜色；教师只能作为离屏口令，不得入镜并肩。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "规则和三学级目标成立；三位级长远景关系清楚。 start/key/end 从听取规则、互相判断到转向各自路线，三帧有明确推进。 三位级长必须保持学生年龄和各自学级颜色；教师只能作为离屏口令，不得入镜并肩。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot025A": {
+      "order": 2,
+      "shot": "Shot025A",
+      "title_zh": "战场地形与三路插入",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "战场地形插入成立：林地、低墙、道路、高台和学院建筑关系清楚。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "三帧有从空场到彩色学级标记的变化。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: none.",
+      "costume_weapon_prop_state": "无命名人物，模型不能擅自生成可读学生或群众。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "战场地形插入成立：林地、低墙、道路、高台和学院建筑关系清楚。 三帧有从空场到彩色学级标记的变化。 无命名人物，模型不能擅自生成可读学生或群众。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot026": {
+      "order": 3,
+      "shot": "Shot026",
+      "title_zh": "贝雷特分配青狮职责",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "贝雷特分配职责成立，青狮全员围绕战场示意图。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "群像动作变化小但职责分配关系清楚。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid.",
+      "costume_weapon_prop_state": "多人近景存在脸部漂移风险，视频探针要锁定学院年龄和制服。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "贝雷特分配职责成立，青狮全员围绕战场示意图。 群像动作变化小但职责分配关系清楚。 多人近景存在脸部漂移风险，视频探针要锁定学院年龄和制服。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot026B": {
+      "order": 4,
+      "shot": "Shot026B",
+      "title_zh": "青狮观察敌方来路",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "青狮观察战场成立，人物朝向战场而不是背对威胁看镜头。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "由观察到准备下场的动作链成立。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid.",
+      "costume_weapon_prop_state": "远景人物可读度有限，不能在视频里新增无名人群。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "青狮观察战场成立，人物朝向战场而不是背对威胁看镜头。 由观察到准备下场的动作链成立。 远景人物可读度有限，不能在视频里新增无名人群。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot026C": {
+      "order": 5,
+      "shot": "Shot026C",
+      "title_zh": "青狮分线出发",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "第一轮推进成立，青狮从起点向战场中心推进。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "队形从观望转为行动。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid.",
+      "costume_weapon_prop_state": "远景队形要保留，不得把学生变成成人士兵。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "第一轮推进成立，青狮从起点向战场中心推进。 队形从观望转为行动。 远景队形要保留，不得把学生变成成人士兵。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot027": {
+      "order": 6,
+      "shot": "Shot027",
+      "title_zh": "亚修发现金鹿侧影",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "亚修架设掩护线、库罗德暗处观察成立。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "亚修保持警戒，库罗德仍是潜在干扰源。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Ashe, Claude.",
+      "costume_weapon_prop_state": "库罗德在背景小，模型容易漏掉或变成路人。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "亚修架设掩护线、库罗德暗处观察成立。 亚修保持警戒，库罗德仍是潜在干扰源。 库罗德在背景小，模型容易漏掉或变成路人。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot027B": {
+      "order": 7,
+      "shot": "Shot027B",
+      "title_zh": "黑鹫第一波压出",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/07R_Shot027B_black_eagles_advance_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/07R_Shot027B_black_eagles_advance_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/07R_Shot027B_black_eagles_advance_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "黑鹫第一波压上成立，艾黛尔贾特、斐迪南、休伯特、多洛缇雅各有站位。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "前压姿态从列阵到接近。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Ferdinand, Edelgard, Hubert, Dorothea.",
+      "costume_weapon_prop_state": "不能添加陌生人或把黑鹫压成杂兵。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "黑鹫第一波压上成立，艾黛尔贾特、斐迪南、休伯特、多洛缇雅各有站位。 前压姿态从列阵到接近。 不能添加陌生人或把黑鹫压成杂兵。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot027C": {
+      "order": 8,
+      "shot": "Shot027C",
+      "title_zh": "杜笃与帝国前排接触",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/08R_Shot027C_dedue_front_contact_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/08R_Shot027C_dedue_front_contact_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/08R_Shot027C_dedue_front_contact_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "首次接敌成立，青狮盾线与黑鹫进攻方向相对。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "接触线从远距到近距。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dimitri, Dedue, Ferdinand, Edelgard, Hubert.",
+      "costume_weapon_prop_state": "训练枪/盾必须非致命，不能出现身体穿刺。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "首次接敌成立，青狮盾线与黑鹫进攻方向相对。 接触线从远距到近距。 训练枪/盾必须非致命，不能出现身体穿刺。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot027D": {
+      "order": 9,
+      "shot": "Shot027D",
+      "title_zh": "菲力克斯切入费尔迪南特",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "菲力克斯延迟侧切成立，贝雷特在旁约束节奏。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "菲力克斯从等待到进入切线。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Felix, Byleth, Ferdinand, Dedue.",
+      "costume_weapon_prop_state": "不要让菲力克斯背对实际对手摆拍。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "菲力克斯延迟侧切成立，贝雷特在旁约束节奏。 菲力克斯从等待到进入切线。 不要让菲力克斯背对实际对手摆拍。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot028": {
+      "order": 10,
+      "shot": "Shot028",
+      "title_zh": "安娜特与梅尔塞德斯掩护亚修",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "支援线保持纪律成立，雅妮特、梅尔塞德斯、伊古纳兹的支援位可读。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "支援位稳定，前场交战在远处延续。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Annette, Mercedes, Ignatz.",
+      "costume_weapon_prop_state": "治疗/魔法特效要克制，不能变成杀伤魔法。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "支援线保持纪律成立，雅妮特、梅尔塞德斯、伊古纳兹的支援位可读。 支援位稳定，前场交战在远处延续。 治疗/魔法特效要克制，不能变成杀伤魔法。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot028B": {
+      "order": 11,
+      "shot": "Shot028B",
+      "title_zh": "艾黛尔贾特与修伯特压迫盾线",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "黑鹫稳住中央成立，多洛缇雅/休伯特施压但不碾压青狮。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "从施法准备到青狮接近。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Edelgard, Hubert, Dorothea, Dimitri, Dedue.",
+      "costume_weapon_prop_state": "紫色魔法不能把训练赛变成真实伤害。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "黑鹫稳住中央成立，多洛缇雅/休伯特施压但不碾压青狮。 从施法准备到青狮接近。 紫色魔法不能把训练赛变成真实伤害。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot028C": {
+      "order": 12,
+      "shot": "Shot028C",
+      "title_zh": "贝雷特止住菲力克斯越线",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "菲力克斯看见后续路线成立，贝雷特与杜笃控制他不冒进。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "视线和路线关系清楚。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Felix, Byleth, Ferdinand, Dedue.",
+      "costume_weapon_prop_state": "尾帧接近静止，探针需确认眼线和脚步变化。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "菲力克斯看见后续路线成立，贝雷特与杜笃控制他不冒进。 视线和路线关系清楚。 尾帧接近静止，探针需确认眼线和脚步变化。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot029": {
+      "order": 13,
+      "shot": "Shot029",
+      "title_zh": "金鹿夹击青狮后排",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/13R_Shot029_golden_deer_flank_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/13R_Shot029_golden_deer_flank_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/13R_Shot029_golden_deer_flank_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "青狮西侧轮转成立，金鹿压力加入而非单纯偷袭青狮。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "希尔凡/英谷莉特和金鹿对峙关系清楚。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz.",
+      "costume_weapon_prop_state": "多人镜头要防止脸漂和额外人物；希尔妲必须保持学院年龄。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "青狮西侧轮转成立，金鹿压力加入而非单纯偷袭青狮。 希尔凡/英谷莉特和金鹿对峙关系清楚。 多人镜头要防止脸漂和额外人物；希尔妲必须保持学院年龄。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot029C": {
+      "order": 14,
+      "shot": "Shot029C",
+      "title_zh": "库罗德读出双线缺口",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/14R_Shot029C_claude_two_lanes_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/14R_Shot029C_claude_two_lanes_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/14R_Shot029C_claude_two_lanes_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "库罗德读出两个缺口成立，亚修和艾黛尔贾特同时处在他的战术判断里。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "库罗德从观察到抬弓定线，再到维持压制但不造成击败。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Claude, Ashe, Edelgard.",
+      "costume_weapon_prop_state": "库罗德只能做战术牵制；亚修、艾黛尔贾特不可被替换成无名人，也不能出现命中击败。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "库罗德读出两个缺口成立，亚修和艾黛尔贾特同时处在他的战术判断里。 库罗德从观察到抬弓定线，再到维持压制但不造成击败。 库罗德只能做战术牵制；亚修、艾黛尔贾特不可被替换成无名人，也不能出现命中击败。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot029D": {
+      "order": 15,
+      "shot": "Shot029D",
+      "title_zh": "亚修跟丢库罗德",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "库罗德逼退亚修成立，亚修被迫离开掩护点但没有被羞辱。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "亚修从守位转为后撤。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Claude, Ashe.",
+      "costume_weapon_prop_state": "库罗德背景很小，视频可能漏掉战术来源。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "库罗德逼退亚修成立，亚修被迫离开掩护点但没有被羞辱。 亚修从守位转为后撤。 库罗德背景很小，视频可能漏掉战术来源。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot029B": {
+      "order": 16,
+      "shot": "Shot029B",
+      "title_zh": "金鹿压线，青狮守住侧翼",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/16R_Shot029B_golden_deer_blue_lions_route_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/16R_Shot029B_golden_deer_blue_lions_route_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/16R_Shot029B_golden_deer_blue_lions_route_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "金鹿全面施压成立，希尔妲、洛廉兹、伊古纳兹同时给青狮压力。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "队形压迫但不碾压。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Hilda, Lorenz, Ignatz, Sylvain, Ingrid.",
+      "costume_weapon_prop_state": "此镜是多人高风险，必须防止无名学生和错误武器。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "金鹿全面施压成立，希尔妲、洛廉兹、伊古纳兹同时给青狮压力。 队形压迫但不碾压。 此镜是多人高风险，必须防止无名学生和错误武器。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot030": {
+      "order": 17,
+      "shot": "Shot030",
+      "title_zh": "菲力克斯逼退费尔迪南特",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "菲力克斯过度前压的诱惑成立，贝雷特在轴线内阻止冒进。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "菲力克斯被叫停，斐迪南维持对位。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Felix, Byleth, Ferdinand.",
+      "costume_weapon_prop_state": "动作不能变成真实决斗刺击。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "菲力克斯过度前压的诱惑成立，贝雷特在轴线内阻止冒进。 菲力克斯被叫停，斐迪南维持对位。 动作不能变成真实决斗刺击。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot030B": {
+      "order": 18,
+      "shot": "Shot030B",
+      "title_zh": "贝雷特判定菲力克斯回线",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/18C_Shot030B_felix_straight_training_sword_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/18C_Shot030B_felix_straight_training_sword_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/18C_Shot030B_felix_straight_training_sword_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "菲力克斯触发路线后被贝雷特叫停成立，师生对位清楚。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "菲力克斯从前压、被贝雷特抬手制止，到降下直木制训练剑。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Felix, Byleth.",
+      "costume_weapon_prop_state": "菲力克斯只能持直木制训练剑；不能变成链剑、鞭剑、金属利刃或继续攻击贝雷特。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "菲力克斯触发路线后被贝雷特叫停成立，师生对位清楚。 菲力克斯从前压、被贝雷特抬手制止，到降下直木制训练剑。 菲力克斯只能持直木制训练剑；不能变成链剑、鞭剑、金属利刃或继续攻击贝雷特。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot030C": {
+      "order": 19,
+      "shot": "Shot030C",
+      "title_zh": "伊格纳兹牵制安娜特后排",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "伊古纳兹与金鹿切断路线成立，同时牵住黑鹫/青狮关系。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "箭线/站位从威慑到切断路线。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Ignatz, Annette, Mercedes, Dorothea.",
+      "costume_weapon_prop_state": "远景多角色要防止添加群众和魔法漂移。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "伊古纳兹与金鹿切断路线成立，同时牵住黑鹫/青狮关系。 箭线/站位从威慑到切断路线。 远景多角色要防止添加群众和魔法漂移。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot031": {
+      "order": 20,
+      "shot": "Shot031",
+      "title_zh": "贝雷特命令菲力克斯停手",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/20R_Shot031_byleth_stops_felix_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/20R_Shot031_byleth_stops_felix_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/20R_Shot031_byleth_stops_felix_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "贝雷特叫停菲力克斯成立，师生对位清晰。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "贝雷特手势从提醒到明确制止。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Felix.",
+      "costume_weapon_prop_state": "镜头较静，探针必须保留眼神和微动作。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "贝雷特叫停菲力克斯成立，师生对位清晰。 贝雷特手势从提醒到明确制止。 镜头较静，探针必须保留眼神和微动作。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot031B": {
+      "order": 21,
+      "shot": "Shot031B",
+      "title_zh": "贝雷特重排青狮防线",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "贝雷特双线指挥成立，帝弥托利、杜笃和后排支援听令调整。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "指挥手势牵动盾线和后排。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Dimitri, Dedue, Sylvain, Ingrid, Annette, Mercedes.",
+      "costume_weapon_prop_state": "背景人物多，不能让已被压制角色重新加入。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "贝雷特双线指挥成立，帝弥托利、杜笃和后排支援听令调整。 指挥手势牵动盾线和后排。 背景人物多，不能让已被压制角色重新加入。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot032": {
+      "order": 22,
+      "shot": "Shot032",
+      "title_zh": "杜笃受伤，梅尔塞德斯治疗重建盾线",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "杜笃受伤/吃压后由梅尔塞德斯治疗，盾线重新建立，正对应用户要借鉴的治疗镜头。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "杜笃从受压防御到恢复站位，梅尔塞德斯治疗动作清楚。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dedue, Mercedes.",
+      "costume_weapon_prop_state": "伤势必须非血腥、训练赛语境；不能让杜笃看成被真正重伤。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "杜笃受伤/吃压后由梅尔塞德斯治疗，盾线重新建立，正对应用户要借鉴的治疗镜头。 杜笃从受压防御到恢复站位，梅尔塞德斯治疗动作清楚。 伤势必须非血腥、训练赛语境；不能让杜笃看成被真正重伤。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot032A": {
+      "order": 23,
+      "shot": "Shot032A",
+      "title_zh": "安娜特接力掩护亚修",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "雅妮特扬尘掩护成立，支援角色不是击杀者。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "尘雾从低到高，亚修/梅尔塞德斯维持支援线。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Annette, Mercedes, Ashe, Claude.",
+      "costume_weapon_prop_state": "特效不能遮掉人物或新增路人。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "雅妮特扬尘掩护成立，支援角色不是击杀者。 尘雾从低到高，亚修/梅尔塞德斯维持支援线。 特效不能遮掉人物或新增路人。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot032B": {
+      "order": 24,
+      "shot": "Shot032B",
+      "title_zh": "迪米特里与杜笃逼近汉尼曼目标台",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "青狮守住平台下方成立，汉尼曼是远处独立目标，不与玛努艾拉同框。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "帝弥托利和杜笃稳住平台方向。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dimitri, Dedue, Hanneman.",
+      "costume_weapon_prop_state": "教师目标可见，视频必须严禁把汉尼曼拉近或加玛努艾拉。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "青狮守住平台下方成立，汉尼曼是远处独立目标，不与玛努艾拉同框。 帝弥托利和杜笃稳住平台方向。 教师目标可见，视频必须严禁把汉尼曼拉近或加玛努艾拉。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required_with_note"
+      ],
+      "problems": []
+    },
+    "Shot032C": {
+      "order": 25,
+      "shot": "Shot032C",
+      "title_zh": "黑鹫与金鹿互相牵制",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/25R_Shot032C_black_golden_cross_pressure_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/25R_Shot032C_black_golden_cross_pressure_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/25R_Shot032C_black_golden_cross_pressure_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "黑鹫反击金鹿成立，艾黛尔贾特/休伯特/多洛缇雅与库罗德/希尔妲构成第二战线。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "黑鹫从稳中反击，证明三学级势均力敌。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Edelgard, Hubert, Dorothea, Claude, Hilda.",
+      "costume_weapon_prop_state": "魔法线不能变成伤害命中或压倒性胜负。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "黑鹫反击金鹿成立，艾黛尔贾特/休伯特/多洛缇雅与库罗德/希尔妲构成第二战线。 黑鹫从稳中反击，证明三学级势均力敌。 魔法线不能变成伤害命中或压倒性胜负。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot032D": {
+      "order": 26,
+      "shot": "Shot032D",
+      "title_zh": "三方混战总览",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "三线战场关系证明成立，贝雷特看见青狮利用混战空隙。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "彩色路线关系由分散到交汇。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Dimitri, Edelgard, Claude.",
+      "costume_weapon_prop_state": "远景人物符号化强，只能作为战术说明锚点。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "三线战场关系证明成立，贝雷特看见青狮利用混战空隙。 彩色路线关系由分散到交汇。 远景人物符号化强，只能作为战术说明锚点。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot032E": {
+      "order": 27,
+      "shot": "Shot032E",
+      "title_zh": "贝雷特读出乱局机会",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "贝雷特利用混战空隙成立，三学级都还在发挥作用。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "指挥手势和路线光带说明青狮抓住间隙。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Dimitri, Edelgard, Claude, Hilda, Hubert.",
+      "costume_weapon_prop_state": "路线光效不能替代实际人物动作。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "贝雷特利用混战空隙成立，三学级都还在发挥作用。 指挥手势和路线光带说明青狮抓住间隙。 路线光效不能替代实际人物动作。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot032F": {
+      "order": 28,
+      "shot": "Shot032F",
+      "title_zh": "菲力克斯与亚修压制修伯特",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/28R_Shot032F_felix_ashe_contain_hubert_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/28R_Shot032F_felix_ashe_contain_hubert_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/28R_Shot032F_felix_ashe_contain_hubert_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "菲力克斯与亚修判定休伯特出局成立，休伯特非致命退场。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "围压关系清楚，休伯特不再继续主动战斗。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Felix, Ashe, Hubert.",
+      "costume_weapon_prop_state": "不要把休伯特打成受辱或真实受伤。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "菲力克斯与亚修判定休伯特出局成立，休伯特非致命退场。 围压关系清楚，休伯特不再继续主动战斗。 不要把休伯特打成受辱或真实受伤。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot032G": {
+      "order": 29,
+      "shot": "Shot032G",
+      "title_zh": "库罗德与雷欧妮截住多洛缇雅和贝尔娜提塔",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "库罗德与雷欧妮牵制多洛缇雅和贝尔娜提塔成立，金鹿也攻击黑鹫。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "金鹿压住黑鹫后排，给青狮机会。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Claude, Leonie, Dorothea, Bernadetta.",
+      "costume_weapon_prop_state": "多洛缇雅/贝尔娜提塔必须体面退场，不得被贬低。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "库罗德与雷欧妮牵制多洛缇雅和贝尔娜提塔成立，金鹿也攻击黑鹫。 金鹿压住黑鹫后排，给青狮机会。 多洛缇雅/贝尔娜提塔必须体面退场，不得被贬低。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot033": {
+      "order": 30,
+      "shot": "Shot033",
+      "title_zh": "青狮转向教师目标",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "帝弥托利在平台前克制收势成立，汉尼曼仍为单独教师目标。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "帝弥托利从冲势转为克制。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dimitri, Byleth, Dedue, Hanneman.",
+      "costume_weapon_prop_state": "汉尼曼可见，视频严禁把玛努艾拉放到同平台。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "帝弥托利在平台前克制收势成立，汉尼曼仍为单独教师目标。 帝弥托利从冲势转为克制。 汉尼曼可见，视频严禁把玛努艾拉放到同平台。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required_with_note"
+      ],
+      "problems": []
+    },
+    "Shot033B": {
+      "order": 31,
+      "shot": "Shot033B",
+      "title_zh": "贝雷特下令分切教师目标",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/31R_Shot033B_byleth_split_teacher_routes_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/31R_Shot033B_byleth_split_teacher_routes_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/31R_Shot033B_byleth_split_teacher_routes_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "贝雷特下令切向教师目标成立，亚修/英谷莉特/菲力克斯分路。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "三路拆分明确，教师不在此镜出现。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Ashe, Ingrid, Felix.",
+      "costume_weapon_prop_state": "角色必须看向任务方向，不要集体背对敌人看镜头。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "贝雷特下令切向教师目标成立，亚修/英谷莉特/菲力克斯分路。 三路拆分明确，教师不在此镜出现。 角色必须看向任务方向，不要集体背对敌人看镜头。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot033C": {
+      "order": 32,
+      "shot": "Shot033C",
+      "title_zh": "亚修压制汉尼曼目标",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/32R_Shot033C_ashe_suppresses_hanneman_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/32R_Shot033C_ashe_suppresses_hanneman_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/32R_Shot033C_ashe_suppresses_hanneman_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "亚修压制汉尼曼路线成立，汉尼曼是单线目标。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "亚修弓线从准备到压制。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Ashe, Hanneman.",
+      "costume_weapon_prop_state": "教师距离和位置必须保持，不得把汉尼曼变成同伴战斗者。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "亚修压制汉尼曼路线成立，汉尼曼是单线目标。 亚修弓线从准备到压制。 教师距离和位置必须保持，不得把汉尼曼变成同伴战斗者。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot033D": {
+      "order": 33,
+      "shot": "Shot033D",
+      "title_zh": "英谷莉特逼退玛努艾拉目标",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/33R_Shot033D_ingrid_sylvain_cut_manuela_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/33R_Shot033D_ingrid_sylvain_cut_manuela_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/33R_Shot033D_ingrid_sylvain_cut_manuela_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "英谷莉特切断玛努艾拉路线成立，希尔凡牵制，汉尼曼不出现。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "英谷莉特和希尔凡形成分工。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Ingrid, Manuela, Sylvain.",
+      "costume_weapon_prop_state": "玛努艾拉不能和汉尼曼并肩，治疗/魔法不能攻击化。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "英谷莉特切断玛努艾拉路线成立，希尔凡牵制，汉尼曼不出现。 英谷莉特和希尔凡形成分工。 玛努艾拉不能和汉尼曼并肩，治疗/魔法不能攻击化。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot034C": {
+      "order": 34,
+      "shot": "Shot034C",
+      "title_zh": "菲力克斯与费尔迪南特收招",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/34R_Shot034C_felix_blocks_ferdinand_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/34R_Shot034C_felix_blocks_ferdinand_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/34R_Shot034C_felix_blocks_ferdinand_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "菲力克斯挡下斐迪南成立，两人以训练武器礼貌收势。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "从路线封锁到对手停步。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Felix, Ferdinand.",
+      "costume_weapon_prop_state": "木制武器不能变成金属长枪/真剑。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "菲力克斯挡下斐迪南成立，两人以训练武器礼貌收势。 从路线封锁到对手停步。 木制武器不能变成金属长枪/真剑。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot034D": {
+      "order": 35,
+      "shot": "Shot034D",
+      "title_zh": "贝雷特确认汉尼曼判负",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/35R_Shot034D_byleth_rules_hanneman_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/35R_Shot034D_byleth_rules_hanneman_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/35R_Shot034D_byleth_rules_hanneman_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "贝雷特中断汉尼曼目标反扑成立，只有贝雷特和汉尼曼。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "贝雷特由接近到裁定，汉尼曼停止动作。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Hanneman.",
+      "costume_weapon_prop_state": "教师镜头高风险，不能让玛努艾拉入镜或让贝雷特攻击老师。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "贝雷特中断汉尼曼目标反扑成立，只有贝雷特和汉尼曼。 贝雷特由接近到裁定，汉尼曼停止动作。 教师镜头高风险，不能让玛努艾拉入镜或让贝雷特攻击老师。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot034B": {
+      "order": 36,
+      "shot": "Shot034B",
+      "title_zh": "空教师目标裁定",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "空教师目标裁定成立；青狮占住两个空置目标点，由贝雷特裁定险胜。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "贝雷特与帝弥托利面向空平台，教师缺席。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Dimitri.",
+      "costume_weapon_prop_state": "必须保持学生-only；汉尼曼和玛努艾拉不得出现、同框或发声。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "空教师目标裁定成立；青狮占住两个空置目标点，由贝雷特裁定险胜。 贝雷特与帝弥托利面向空平台，教师缺席。 必须保持学生-only；汉尼曼和玛努艾拉不得出现、同框或发声。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot034E": {
+      "order": 37,
+      "shot": "Shot034E",
+      "title_zh": "金鹿高光后体面收势",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/37R_Shot034E_golden_deer_stand_down_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/37R_Shot034E_golden_deer_stand_down_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/37R_Shot034E_golden_deer_stand_down_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "金鹿高光后体面收势成立，库罗德、希尔妲、洛廉兹、伊古纳兹、雷欧妮不是失败笑料。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "团队从战术高点转入听哨收势。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Claude, Hilda, Lorenz, Ignatz, Leonie.",
+      "costume_weapon_prop_state": "动作偏静，探针要保留体面收势和学院年龄。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "金鹿高光后体面收势成立，库罗德、希尔妲、洛廉兹、伊古纳兹、雷欧妮不是失败笑料。 团队从战术高点转入听哨收势。 动作偏静，探针要保留体面收势和学院年龄。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required_with_note"
+      ],
+      "problems": []
+    },
+    "Shot034F": {
+      "order": 38,
+      "shot": "Shot034F",
+      "title_zh": "黑鹫体面收势",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/38R_Shot034F_black_eagles_stand_down_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/38R_Shot034F_black_eagles_stand_down_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/38R_Shot034F_black_eagles_stand_down_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_local_visual_review_2026-08-07/Shot034F_safe_training_weapon_contact_sheet.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "黑鹫高光后收势成立，艾黛尔贾特和斐迪南保持尊严。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "艾黛尔贾特持钝头训练斧/槌，斐迪南远处持钝头训练杆，二人停止主动战斗。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Edelgard, Ferdinand.",
+      "costume_weapon_prop_state": "当前已修复锋利战斧问题；探针仍需严防武器变回金属利刃。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "黑鹫高光后收势成立，艾黛尔贾特和斐迪南保持尊严。 艾黛尔贾特持钝头训练斧/槌，斐迪南远处持钝头训练杆，二人停止主动战斗。 当前已修复锋利战斧问题；探针仍需严防武器变回金属利刃。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required_with_note"
+      ],
+      "problems": []
+    },
+    "Shot034G": {
+      "order": 39,
+      "shot": "Shot034G",
+      "title_zh": "迪米特里与杜笃疲惫守住",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "青狮核心险胜收势成立，贝雷特、帝弥托利、杜笃疲惫但站住。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "胜利不是碾压，杜笃回到盾线支持。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Byleth, Dimitri, Dedue.",
+      "costume_weapon_prop_state": "不能让青狮全员满血复活或把其他学级贬低。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "青狮核心险胜收势成立，贝雷特、帝弥托利、杜笃疲惫但站住。 胜利不是碾压，杜笃回到盾线支持。 不能让青狮全员满血复活或把其他学级贬低。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot034": {
+      "order": 40,
+      "shot": "Shot034",
+      "title_zh": "三位级长赛后互认",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part4.png",
+      "supplementary_contact_sheets": [
+        "production_system/reviews/scene09_v3_high_risk_contact_sheet_2026-08-01.jpg",
+        "production_system/reviews/scene09_v3_high_risk_regen_contact_sheet_2026-08-02.jpg"
+      ],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "全场胜负关系落定成立，三位级长同框确认青狮险胜。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "三学级从对抗转入认可。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dimitri, Edelgard, Claude.",
+      "costume_weapon_prop_state": "镜头偏静，最终视频需靠表演和哨声完成情绪转场。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "全场胜负关系落定成立，三位级长同框确认青狮险胜。 三学级从对抗转入认可。 镜头偏静，最终视频需靠表演和哨声完成情绪转场。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot035": {
+      "order": 41,
+      "shot": "Shot035",
+      "title_zh": "菲力克斯接受贝雷特提醒",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/41R_Shot035_felix_byleth_post_battle_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/41R_Shot035_felix_byleth_post_battle_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/41R_Shot035_felix_byleth_post_battle_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part5.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "菲力克斯的敬意成立，贝雷特和菲力克斯对话余韵清楚。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "菲力克斯从持剑戒备转为接受贝雷特判断。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Felix, Byleth.",
+      "costume_weapon_prop_state": "三帧变化较小，只能作为表演探针，不是动作镜头。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "菲力克斯的敬意成立，贝雷特和菲力克斯对话余韵清楚。 菲力克斯从持剑戒备转为接受贝雷特判断。 三帧变化较小，只能作为表演探针，不是动作镜头。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    },
+    "Shot036": {
+      "order": 42,
+      "shot": "Shot036",
+      "title_zh": "迪米特里承认险胜",
+      "status": "monitor_required",
+      "decision": "accepted_for_motion_probe_only_not_video_approved",
+      "reviewed_paths": {
+        "start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png",
+        "key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png",
+        "end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png"
+      },
+      "contact_sheet": "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part5.png",
+      "supplementary_contact_sheets": [],
+      "frame_availability": "start_key_end_present",
+      "story_beat_proven": "帝弥托利战后余韵成立，长木制训练枪可读，胜利疲惫而克制。",
+      "start_frame": "Checked in local contact sheet against current package start_frame path.",
+      "key_frame_action_peak": "帝弥托利从低头喘息到收枪面对贝雷特。",
+      "end_frame_edit_handoff": "End anchor supports the next cut at monitor stage.",
+      "character_identity": "Visible named-only lock: Dimitri, Byleth.",
+      "costume_weapon_prop_state": "不能把训练枪变成真枪或把帝弥托利演成战争篇狂暴状态。",
+      "facing_eyeline_screen_direction": "No reviewed contact-sheet row shows a hard contradiction where a character clearly ignores the active threat/route; high-risk rows remain monitor-only.",
+      "blocking_geography": "Battlefield side, route, platform, low-wall, and stand-down geography are readable at contact-sheet scale; full-size frames remain linked in package metadata.",
+      "camera_purpose": "Static frame chain is adequate for image-to-video prompt anchoring and motion probe triage.",
+      "video_generation_readiness": "monitor_required: submit short motion probe first; do not promote to approved_for_video until returned clips preserve identity, weapons, facing, and no-return roster state.",
+      "required_revision": [],
+      "checks": [
+        "local_contact_sheet_reviewed",
+        "start_key_end_paths_checked",
+        "visible_named_only_compared",
+        "training_weapon_safety_checked",
+        "facing_route_logic_checked",
+        "battle_ledger_no_return_risk_checked",
+        "not_approved_for_full_video_without_motion_probe"
+      ],
+      "notes": "帝弥托利战后余韵成立，长木制训练枪可读，胜利疲惫而克制。 帝弥托利从低头喘息到收枪面对贝雷特。 不能把训练枪变成真枪或把帝弥托利演成战争篇狂暴状态。",
+      "matrix_rows": 3,
+      "matrix_decisions": [
+        "visual_triage_passed_monitor_required"
+      ],
+      "problems": []
+    }
+  }
+}

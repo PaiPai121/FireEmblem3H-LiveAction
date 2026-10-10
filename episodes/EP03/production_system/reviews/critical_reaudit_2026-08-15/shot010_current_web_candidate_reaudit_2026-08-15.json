@@ -1,0 +1,49 @@
+{
+  "shot": "Shot010",
+  "review_date": "2026-08-15",
+  "review_mode": "critical_reaudit_current_web_candidate",
+  "decision": "monitor_required",
+  "display_frame_set": "critical_reaudit_regen_v1",
+  "display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg"
+  },
+  "reference_assets": [
+    "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+    "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-15/shot010_local_character_reference_board_2026-08-15.jpg",
+    "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+  ],
+  "previous_candidate_downgrade": {
+    "frame_set": "local_asset_final_candidate_v1",
+    "decision": "blocked_needs_revision",
+    "reason": "Previous Shot010 frames used anonymous back silhouettes, made Byleth male or ambiguous, and made Dedue read as a generic soldier."
+  },
+  "visual_findings": [
+    "START makes female Byleth, Dimitri, Dedue, and Ingrid readable at the Magdred fog-road entrance.",
+    "KEY advances the party into a two-column fog-road walk while preserving female Byleth readability.",
+    "END establishes the village-sign cut-out while keeping all four named characters present and more readable than the prior version."
+  ],
+  "prompt_findings": [
+    "Executable prompt refers only to uploaded START/KEY/END frames.",
+    "Prompt keeps Japanese lines for Ingrid and Dedue and rejects Chinese/Mandarin voiceover.",
+    "Prompt removes unrelated Rhea, Catherine, Lonato, Ashe-execution, local-path, and source-reference contamination."
+  ],
+  "remaining_risks": [
+    "Dedue hair is shorter/lighter than ideal and could drift into a generic soldier in motion.",
+    "Ingrid END wardrobe edges toward light armor and could drift into war-phase armor.",
+    "Fog could still swallow identity during interpolation."
+  ],
+  "required_next_gate": "3s_motion_probe_before_approved_for_video",
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth becomes anonymous or gender-ambiguous",
+    "Dedue becomes a bald generic soldier",
+    "Ingrid becomes fully armored or war-phase",
+    "START/KEY/END collapse into repeated stills",
+    "Lonato, Ashe, Catherine, enemies, or battle action appear in this fog-road setup shot",
+    "Chinese/Mandarin voiceover, added narration, subtitles, captions, readable sign text, or game UI appear"
+  ]
+}

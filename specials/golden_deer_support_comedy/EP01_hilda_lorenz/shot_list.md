@@ -1,0 +1,8 @@
+# Shot List
+
+| Shot | Beat | Purpose | Duration | Subject | Camera | Blocking | Dialogue/Audio | Risks |
+| --- | --- | --- | ---: | --- | --- | --- | --- | --- |
+| GDSC01-SH001 | Lorenz Training Hook | Establish Lorenz's self-serious diligence before Hilda spots an opening. | 15s | Hilda, Lorenz | Medium two-shot, slight low angle on Lorenz's formality, gentle pan to Hilda. | Lorenz foreground right with practice weapon; Hilda enters screen-left and stays relaxed. | Hilda's teasing greeting opens the scene. | face drift, subtitles, age drift |
+| GDSC01-SH002 | The Fragile Lady Pitch | Hilda turns flattery into a request while preserving the original comic pressure. | 15s | Hilda, Lorenz | Medium close two-shot with shallow depth; hold on Lorenz taking responsibility. | Hilda slightly closer to camera; Lorenz faces her in profile. | Lorenz's offer to solve any problem. | face drift, subtitles, age drift |
+| GDSC01-SH003 | Lorenz Accepts The Trap | Pay off the request: Lorenz agrees to do the fighting while Hilda promises to act busy. | 15s | Hilda, Lorenz | Stable medium shot, slight push at Lorenz's vow. | Hilda screen-left, Lorenz screen-right; Hilda's eyeline travels from field to Lorenz. | Lorenz says he will keep Hilda from danger. | face drift, subtitles, age drift |
+| GDSC01-SH004 | Full Name In The Letter | Extend the original joke through Lorenz's noble vanity and Hilda's easy exit. | 15s | Hilda, Lorenz | Medium/wide shot that lets Hilda exit while Lorenz keeps a ceremonial pose. | Lorenz center proud; Hilda drifts screen-left toward the cloister. | Lorenz's full-name request is the comic peak. | face drift, subtitles, age drift |

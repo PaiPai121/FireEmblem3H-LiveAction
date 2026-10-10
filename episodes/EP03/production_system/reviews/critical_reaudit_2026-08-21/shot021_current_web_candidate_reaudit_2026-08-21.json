@@ -1,0 +1,30 @@
+{
+  "shot_id": "Shot021",
+  "audit_date": "2026-08-21",
+  "decision": "monitor_required",
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "frame_set_id": "Shot021_critical_reaudit_regen_v2_2026-08-21",
+  "frames": {
+    "start": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "contact_sheet": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg"
+  },
+  "frame_chain": {
+    "distinct_anchor_hashes": true,
+    "integrated_blocking": true,
+    "start": "Distant Lonato silhouette; Ashe and Dimitri react on the near road.",
+    "key": "Lonato reveals; Ashe steps involuntarily and Dimitri checks the path.",
+    "end": "Ashe enters the road; Lonato yields with an open hand; Dimitri shifts behind."
+  },
+  "prompt_contract": {
+    "prompt_path": "video_prompts/Shot021_prompt.md",
+    "uploaded_start_key_end_only": true,
+    "contains_local_paths": false,
+    "contains_positive_mandarin_instruction": false,
+    "spoken_dialogue": true,
+    "dialogue_language": "Japanese"
+  },
+  "video_prompt_qa": "pending",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21"
+}

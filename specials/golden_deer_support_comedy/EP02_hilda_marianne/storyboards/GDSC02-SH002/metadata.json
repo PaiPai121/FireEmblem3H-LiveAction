@@ -1,0 +1,61 @@
+{
+  "id": "GDSC02-SH002",
+  "episode": "GDSC-EP02",
+  "title": "All Yours",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach library",
+  "characters": [
+    "Hilda",
+    "Marianne"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC02-SH002/start_frame.png",
+    "key": "storyboards/GDSC02-SH002/key_frame.png",
+    "end": "storyboards/GDSC02-SH002/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC02-SH002_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC02-SH002_negative_prompt.md",
+  "expected_clip": "clips/GDSC02-SH002.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/マリアンヌ(レスター諸侯同盟)#ヒルダ",
+    "https://gamefaqs.gamespot.com/switch/204445-fire-emblem-three-houses/faqs/77596"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hilda",
+      "line": "ね？　マリアンヌちゃんもそう思うでしょ？",
+      "type": "source"
+    },
+    {
+      "speaker": "Marianne",
+      "line": "あ、あの、私は、別に……。",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "わかった、あなたに任せるわ！　あたし、逆に邪魔しちゃいそうだしー！",
+      "type": "source"
+    },
+    {
+      "speaker": "Marianne",
+      "line": "あの……。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Hilda presses the cloth into Marianne's hands and slips away."
+  ],
+  "identity_references": {
+    "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+    "Marianne": "assets/characters/golden_deer/Marianne/academy/selected.png"
+  },
+  "reject_if": [
+    "Marianne looks angry",
+    "Hilda shoves her",
+    "dialogue becomes bullying"
+  ]
+}

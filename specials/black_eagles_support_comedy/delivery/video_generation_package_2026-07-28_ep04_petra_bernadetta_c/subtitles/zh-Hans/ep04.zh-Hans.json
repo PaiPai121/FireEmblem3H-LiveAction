@@ -1,0 +1,221 @@
+{
+  "episode_id": "EP04",
+  "title": "Petra x Bernadetta C - Like Prey",
+  "support_pair": "Bernadetta & Petra",
+  "support_rank": "C",
+  "source_language": "Japanese original",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; no subtitles are burned into video prompts or frames.",
+  "total_duration_seconds": 95,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BE-SC-EP04-SH001",
+      "start_seconds": 0,
+      "end_seconds": 4.326,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "ペトラさんって、良いよなあ。怒鳴らないし、悪口も言わないし……",
+      "zh_Hans": "佩托拉真好啊。不会大吼，也不会说坏话……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BE-SC-EP04-SH001",
+      "start_seconds": 4.506,
+      "end_seconds": 8,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "あ、ペトラさんだ。ちょっと話しかけてみよっと。",
+      "zh_Hans": "啊，是佩托拉。稍微去搭个话吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BE-SC-EP04-SH002",
+      "start_seconds": 8,
+      "end_seconds": 11.331,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "……ベルナデッタ、ですか？ 何か、わたし、用事、ありますか？",
+      "zh_Hans": "……是贝尔娜提塔吗？找我，有什么事吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BE-SC-EP04-SH002",
+      "start_seconds": 11.511,
+      "end_seconds": 16,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "ひえっ！？ な、なぜベルだと！？ 背中に目でもあるんですかいな！",
+      "zh_Hans": "咿！？你、你怎么知道是贝尔！？你背后也长眼睛了吗！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BE-SC-EP04-SH003",
+      "start_seconds": 16,
+      "end_seconds": 24,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "目、顔の上、２つです。背中、ないです。背後、気配、感じます、あなた。",
+      "zh_Hans": "眼睛，在脸上，两个。背后，没有。你在背后，我感觉到气息。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BE-SC-EP04-SH004",
+      "start_seconds": 24,
+      "end_seconds": 28.055,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "あたしたち、仲良くなれるかもっていうか、その、ペトラさんが……",
+      "zh_Hans": "我是觉得我们也许能变亲近，那个，佩托拉你……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BE-SC-EP04-SH004",
+      "start_seconds": 28.235,
+      "end_seconds": 32,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "あたしのことどう思ってるかなって。友達というか何というか……。",
+      "zh_Hans": "是怎么看我的呢。算朋友，还是别的什么……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BE-SC-EP04-SH005",
+      "start_seconds": 32,
+      "end_seconds": 35.948,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "あなた、どう思う、ですか？ ……まるで、獲物のよう、です。",
+      "zh_Hans": "我怎么看你，是吗？……就像猎物一样。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BE-SC-EP04-SH005",
+      "start_seconds": 36.128,
+      "end_seconds": 39,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "え……獲物おおおおおおっ！？",
+      "zh_Hans": "诶……猎物啊啊啊！？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BE-SC-EP04-SH006",
+      "start_seconds": 39,
+      "end_seconds": 47,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "あなた、狩りの獲物、似ています。草陰の、兎のごとし、です。",
+      "zh_Hans": "你很像狩猎的猎物。就像草丛里的兔子。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BE-SC-EP04-SH007",
+      "start_seconds": 47,
+      "end_seconds": 55,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "いつも、敵、探し、察知する、逃げ出す、即座。逃げ足、速い、です。",
+      "zh_Hans": "总是在寻找敌人，察觉到就立刻逃跑。逃跑，很快。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BE-SC-EP04-SH008",
+      "start_seconds": 55,
+      "end_seconds": 63,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "わたし、弓矢、持つ時……、間違って、あなた、狩らない、注意しています。",
+      "zh_Hans": "我拿弓箭的时候……会注意，不会误把你猎下。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BE-SC-EP04-SH009",
+      "start_seconds": 63,
+      "end_seconds": 69,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "へ、へえええ……。注意してくれてるんだね。ふーん……。",
+      "zh_Hans": "这、这样啊……原来你有在注意我啊。嗯……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BE-SC-EP04-SH010",
+      "start_seconds": 69,
+      "end_seconds": 72.91,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "つまり……いつかはあたし、狩られちゃうってことおおお！？",
+      "zh_Hans": "也就是说……总有一天我会被猎到吗啊啊！？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BE-SC-EP04-SH010",
+      "start_seconds": 73.09,
+      "end_seconds": 77,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "いいえ、心配、無用です。矢、射る瞬間、わたし、外せます。",
+      "zh_Hans": "不是，担心，没有必要。射箭的瞬间，我能射偏。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 16,
+      "shot_id": "BE-SC-EP04-SH011",
+      "start_seconds": 77,
+      "end_seconds": 81.124,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "あなた、動かなければ、矢、頬、かすめて、飛び去る、です。",
+      "zh_Hans": "只要你不动，箭会擦过脸颊，飞过去。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 17,
+      "shot_id": "BE-SC-EP04-SH011",
+      "start_seconds": 81.304,
+      "end_seconds": 87,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "ほっぺかすめてる時点で問題でしょおおお！ なぜ！ なぜなの！",
+      "zh_Hans": "擦到脸颊本身就是问题吧啊啊！为什么！为什么啊！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 18,
+      "shot_id": "BE-SC-EP04-SH012",
+      "start_seconds": 87,
+      "end_seconds": 91.326,
+      "speaker": "Bernadetta",
+      "speaker_zh": "贝尔娜提塔",
+      "ja": "ベルが何をしたって言うのおおおおお！ 許してえええええええ！",
+      "zh_Hans": "贝尔到底做了什么啊啊啊！饶了我吧啊啊啊！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 19,
+      "shot_id": "BE-SC-EP04-SH012",
+      "start_seconds": 91.506,
+      "end_seconds": 95,
+      "speaker": "Petra",
+      "speaker_zh": "佩托拉",
+      "ja": "何も、していません。しかし、許す、構いません。",
+      "zh_Hans": "你什么也没做。不过，原谅你，可以。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

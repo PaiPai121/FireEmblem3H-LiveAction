@@ -1,0 +1,37 @@
+{
+  "total_duration_seconds": 60,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "GDSC01-SH001",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC01-SH001.mp4",
+      "edit_in": "cut from monastery room tone",
+      "edit_out": "cut on Hilda's helpless pause"
+    },
+    {
+      "order": 2,
+      "shot": "GDSC01-SH002",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC01-SH002.mp4",
+      "edit_in": "match cut from Lorenz's receptive posture",
+      "edit_out": "cut before Hilda names the favor"
+    },
+    {
+      "order": 3,
+      "shot": "GDSC01-SH003",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC01-SH003.mp4",
+      "edit_in": "cut on Hilda finally asking",
+      "edit_out": "cut on Hilda's sudden smile"
+    },
+    {
+      "order": 4,
+      "shot": "GDSC01-SH004",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC01-SH004.mp4",
+      "edit_in": "cut from Hilda's delighted face",
+      "edit_out": "hold on Hilda's amused exit"
+    }
+  ]
+}

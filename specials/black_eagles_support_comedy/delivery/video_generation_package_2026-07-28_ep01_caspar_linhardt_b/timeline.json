@@ -1,0 +1,38 @@
+{
+  "episode_id": "EP01",
+  "total_duration_seconds": 60,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "BE-SC-EP01-SH001",
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP01-SH001.mp4",
+      "edit_in": "cold open",
+      "edit_out": "cut on reaction"
+    },
+    {
+      "order": 2,
+      "shot": "BE-SC-EP01-SH002",
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP01-SH002.mp4",
+      "edit_in": "cut from previous reaction",
+      "edit_out": "cut on reaction"
+    },
+    {
+      "order": 3,
+      "shot": "BE-SC-EP01-SH003",
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP01-SH003.mp4",
+      "edit_in": "cut from previous reaction",
+      "edit_out": "cut on reaction"
+    },
+    {
+      "order": 4,
+      "shot": "BE-SC-EP01-SH004",
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP01-SH004.mp4",
+      "edit_in": "cut from previous reaction",
+      "edit_out": "episode button"
+    }
+  ]
+}

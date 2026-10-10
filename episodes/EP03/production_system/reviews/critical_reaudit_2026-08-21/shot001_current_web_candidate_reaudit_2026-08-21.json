@@ -1,0 +1,27 @@
+{
+  "shot_id": "Shot001",
+  "version": "critical_reaudit_regen_v2_2026-08-21",
+  "decision": "monitor_required",
+  "local_reference_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+    "assets/locations/DreamSanctuary/EP01_scene_reference.png",
+    "episodes/EP03/source_refs/Shot001_source.png"
+  ],
+  "frame_set": {
+    "start": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "contact_sheet": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+  "start_finding": "在红色峡谷梦境的远台上，女贝老师背对镜头停在左前景，Sothis 还在远处等待；两人之间留出空旷的峡谷和圣像，像一场尚未回应的召唤。",
+  "key_finding": "女贝老师转成左侧面并抬起一只手，Sothis 在中远景伸手回应；绿色光粒沿两人之间形成一条短暂的联系，动作峰值是伸手而不是换光。",
+  "end_finding": "女贝老师突然向右侧异响转身，Sothis 在远处祭坛处分解成散开的光粒；两人不再处于对视构图，空出的中央空间交给下一镜。",
+  "blocking": "START 女贝老师左前景、Sothis 远台；KEY 女贝老师抬手、Sothis 伸手回应；END 女贝老师转向画外、Sothis 消散，中央关系被打断。",
+  "action_peak": "女贝老师与 Sothis 之间短暂建立的伸手回应，以及随后被异响打断的消散。",
+  "prompt_language_gate": "Japanese_dialogue_only",
+  "female_byleth_lock": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "prompt_qa": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "reject_if": "Reject if the dream becomes a flat collage, the hand reach is absent, Sothis becomes an adult glamorous woman, Byleth becomes male, magic only changes brightness, or START/KEY/END collapse into one stare."
+}

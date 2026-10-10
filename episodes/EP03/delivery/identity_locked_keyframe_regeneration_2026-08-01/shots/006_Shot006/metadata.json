@@ -1,0 +1,93 @@
+{
+  "id": "Shot006",
+  "order": 6,
+  "scene": "Ashe 讲出旧恩",
+  "purpose": "Ashe 选择面对任务，而不是被保护在队伍外。",
+  "duration_seconds": 18,
+  "characters": [
+    "Ashe",
+    "Byleth",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Ashe",
+      "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Dimitri",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot006_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot006_identity_comparison_2026-07-31.jpg",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot006/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot006/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot006/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {
+    "start": "episodes/EP03/storyboards/Shot006/start_frame_imagegen_candidate_2026-07-29.png",
+    "key": "episodes/EP03/storyboards/Shot006/key_frame_imagegen_candidate_2026-07-29.png",
+    "end": "episodes/EP03/storyboards/Shot006/end_frame_imagegen_candidate_2026-07-29.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot006/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+  },
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {
+    "start": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/006_Shot006/local_asset_locked_regen_v1_2026-08-01/start_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "key": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/006_Shot006/local_asset_locked_regen_v1_2026-08-01/key_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "end": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/006_Shot006/local_asset_locked_regen_v1_2026-08-01/end_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "review_sheet": "episodes/EP03/production_system/reviews/shot006_local_asset_locked_regen_v1_review_2026-08-01.jpg",
+    "review_markdown": "episodes/EP03/production_system/reviews/shot006_local_asset_locked_regen_v1_review_2026-08-01.md"
+  },
+  "source_reference": "episodes/EP03/source_refs/Shot006_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot006_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot006_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot006/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot006/metadata.json",
+  "expected_outputs": {
+    "start": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/006_Shot006/local_asset_locked_regen_v1_2026-08-01/start_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "key": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/006_Shot006/local_asset_locked_regen_v1_2026-08-01/key_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "end": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/006_Shot006/local_asset_locked_regen_v1_2026-08-01/end_frame_local_asset_locked_regen_v1_2026-08-01.png"
+  },
+  "generation_status": "candidate_frames_generated_visual_review_passed",
+  "delivery_status": "blocked_needs_revision",
+  "visual_audit_decision": "blocked_needs_revision",
+  "required_revision": "Reject current V1 as keyframe asset; regenerate from a dominant local Ashe selected.png/face crop with matching hair, age, uniform topology, and restrained expression.",
+  "video_prompt_qa_decision": "blocked_until_local_asset_truth_audit_passes",
+  "motion_probe_status": "blocked_until_local_asset_truth_audit_passes",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from Dimitri request",
+  "edit_out": "cut to march preparation",
+  "audio_anchor": "Ashe, in Japanese: 彼は、僕と弟妹に居場所をくれました。でも今の僕は、あなたの生徒です。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for Ashe 讲出旧恩; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: Ashe 看着窗外，讲 Lonato 曾给他与弟妹一个家。",
+    "end": "Land on the state needed for the next cut: cut to march preparation."
+  }
+}

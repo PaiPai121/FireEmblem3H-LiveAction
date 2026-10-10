@@ -1,0 +1,31 @@
+{
+  "shot_id": "Shot027",
+  "review_date": "2026-08-23",
+  "review_type": "arrow_release_and_mud_interception_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "root_candidate_2026-08-02",
+  "current_display_frame_set": "critical_reaudit_regen_v1_2026-08-23",
+  "previous_shot": "Shot026",
+  "next_shot": "Shot028",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v1_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after user re-audit: the root candidate was a layout/composite frame set with visible halos and no physical arrow impact chain. Retain as historical evidence only."
+  ],
+  "finding": "2026-08-23 distance-continuity re-audit: the old root Shot027 frames were a haloed layout composite with no credible release-to-impact chain. v1 is regenerated from Shot026's exact shooting mark: START holds, KEY releases one low arrow toward empty ground, and END shows the mud impact and Lonato's uninjured stop at the same distance.",
+  "passes": [
+    "START is the same full-draw position as Shot026 END.",
+    "KEY shows one arrow traveling low toward the empty mud patch before Lonato.",
+    "END shows practical mud impact and Lonato stopping without injury.",
+    "The old haloed composite is no longer the display candidate; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot026→027 continuity QA, and a 3-second motion probe. Reject if the arrow hits Lonato or equipment, the distance/axis changes, a haloed cutout returns, Lonato falls/bleeds/attacks, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

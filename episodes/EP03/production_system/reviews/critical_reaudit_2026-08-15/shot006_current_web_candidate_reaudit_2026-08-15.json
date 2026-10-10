@@ -1,0 +1,47 @@
+{
+  "shot_id": "Shot006",
+  "review_date": "2026-08-15",
+  "review_type": "critical_reaudit_current_web_candidate",
+  "previous_display_frame_set": "local_asset_final_candidate_v1",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "status": "monitor_required",
+  "downgrade": {
+    "decision": "blocked_needs_revision_for_byleth_gender_identity",
+    "reason": "The prior rendered web candidate showed Byleth as male or ambiguous in the classroom background."
+  },
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png"
+  ],
+  "decision": "monitor_required",
+  "passes": [
+    "female Byleth only across START/KEY/END",
+    "Ashe remains foreground emotional subject",
+    "Dimitri remains restrained witness",
+    "classroom setting remains consistent",
+    "START/KEY/END are visibly distinct"
+  ],
+  "monitor_risks": [
+    "dialogue-heavy shot may freeze in motion",
+    "Byleth may drift male or ambiguous in video",
+    "Ashe may age up or overact grief",
+    "model may incorrectly show Lonato or outdoor battle"
+  ],
+  "required_next_gate": "3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth gender or face changes across anchors",
+    "Ashe becomes an adult soldier",
+    "Dimitri steals focus from Ashe",
+    "Lonato appears on screen",
+    "the clip adds subtitles, UI, borders, or watermark"
+  ]
+}

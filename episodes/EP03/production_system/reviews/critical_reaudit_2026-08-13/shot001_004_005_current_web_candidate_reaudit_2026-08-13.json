@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-13",
+  "mode": "user_triggered_current_web_visual_reaudit",
+  "review_surface": "file:///Users/zekun/FireEmblem3H-LiveAction/index.html#storyboardView",
+  "decision": "replace_current_web_candidates_but_keep_monitor_required",
+  "shots": {
+    "Shot001": {
+      "previous_display_status": "unsafe_visual_review_passed",
+      "new_display_frame_set": "critical_reaudit_regen_v1",
+      "contact_sheet": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v1_2026-08-13/contact_sheet.jpg",
+      "decision": "monitor_required",
+      "reason": "Old candidate had wrong/old Byleth identity and pasted half-body dream composition. New frame set uses local female Byleth, Sothis dream, and EP03 source dream close-up."
+    },
+    "Shot004": {
+      "previous_display_status": "unsafe_visual_review_passed",
+      "new_display_frame_set": "critical_reaudit_regen_v1",
+      "contact_sheet": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v1_2026-08-13/contact_sheet.jpg",
+      "decision": "monitor_required",
+      "reason": "Old candidate read as pasted character-card cutouts. New frame set integrates Ashe, Byleth, and Dimitri in one cathedral space but still requires motion identity QA."
+    },
+    "Shot005": {
+      "previous_display_status": "unsafe_visual_review_passed",
+      "new_display_frame_set": "critical_reaudit_regen_v1",
+      "contact_sheet": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v1_2026-08-13/contact_sheet.jpg",
+      "decision": "monitor_required",
+      "reason": "Old candidate read as pasted classroom composition. New frame set integrates Byleth, Dimitri, and Ashe in one classroom support beat but still requires motion and dialogue timing QA."
+    }
+  },
+  "global_rejects_carried_forward": [
+    "no Chinese voice",
+    "Japanese voice only",
+    "no subtitles",
+    "no UI or watermarks",
+    "no pasted cutout or character-card look",
+    "START/KEY/END must be visibly distinct",
+    "use local selected assets as identity references",
+    "do not mark approved_for_video until real motion probe, prompt QA, and continuity pass"
+  ]
+}

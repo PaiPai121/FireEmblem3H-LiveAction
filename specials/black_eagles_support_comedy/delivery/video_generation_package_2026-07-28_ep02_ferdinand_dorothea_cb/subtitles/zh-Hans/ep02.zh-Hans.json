@@ -1,0 +1,243 @@
+{
+  "episode_id": "EP02",
+  "title": "Ferdinand x Dorothea C/B - Why Am I A Bee",
+  "support_pair": "Ferdinand & Dorothea",
+  "support_rank": "C/B",
+  "source_language": "Japanese original",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; no subtitles are burned into video prompts or frames.",
+  "total_duration_seconds": 60,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BE-SC-EP02-SH001",
+      "start_seconds": 0,
+      "end_seconds": 4.224,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "おお、ドロテア。やはり君がいると、食堂が華やぐね。",
+      "zh_Hans": "哦，多洛缇雅。果然有你在，食堂都变得华丽了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BE-SC-EP02-SH001",
+      "start_seconds": 4.404,
+      "end_seconds": 8.304,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "あら、フェルくん。相変わらずお世辞がお上手ですこと。",
+      "zh_Hans": "哎呀，菲尔君。你还是这么会说漂亮话呢。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BE-SC-EP02-SH001",
+      "start_seconds": 8.484,
+      "end_seconds": 12.383,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "私のことを嫌悪しているのかね？ あるいは避けたい理由でもあると？",
+      "zh_Hans": "你是在厌恶我吗？还是有什么理由想避开我？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BE-SC-EP02-SH001",
+      "start_seconds": 12.563,
+      "end_seconds": 15,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "そのとおりですよ。貴方を嫌ってるわ、私。",
+      "zh_Hans": "正是如此。我讨厌你。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BE-SC-EP02-SH002",
+      "start_seconds": 15,
+      "end_seconds": 18.427,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "貴方が訳を当てられたら、正直に認めてあげようかしら。",
+      "zh_Hans": "如果你能猜中原因，我倒是可以坦率承认。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BE-SC-EP02-SH002",
+      "start_seconds": 18.607,
+      "end_seconds": 21.178,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "挑まれたからには当ててみせよう。",
+      "zh_Hans": "既然受到挑战，我一定会猜中。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BE-SC-EP02-SH002",
+      "start_seconds": 21.358,
+      "end_seconds": 23.642,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "貴方が蜜蜂のようだから、かしらねえ。",
+      "zh_Hans": "大概是因为你像蜜蜂吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BE-SC-EP02-SH002",
+      "start_seconds": 23.822,
+      "end_seconds": 26.964,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "後は自分で考えて。じゃあねえ、フェルくん。",
+      "zh_Hans": "剩下的你自己想吧。再见啦，菲尔君。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BE-SC-EP02-SH002",
+      "start_seconds": 27.144,
+      "end_seconds": 30,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "ううむ、蜜蜂か……。自分の役割を全うしている、ということか？",
+      "zh_Hans": "唔，蜜蜂吗……意思是我尽忠职守？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BE-SC-EP02-SH003",
+      "start_seconds": 30,
+      "end_seconds": 32.29,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "手作りの焼き菓子はいかがかね？",
+      "zh_Hans": "要尝尝我亲手做的烤点心吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BE-SC-EP02-SH003",
+      "start_seconds": 32.47,
+      "end_seconds": 35.569,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "フェルくん……？ 貴方、いつの間に菓子職人になったの？",
+      "zh_Hans": "菲尔君……？你什么时候成点心师傅了？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BE-SC-EP02-SH003",
+      "start_seconds": 35.749,
+      "end_seconds": 38.712,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "君は私を蜜蜂と言った。蜜蜂は巣を持ち、甲斐甲斐しく働く。",
+      "zh_Hans": "你说我像蜜蜂。蜜蜂筑巢，也勤恳劳作。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BE-SC-EP02-SH003",
+      "start_seconds": 38.892,
+      "end_seconds": 42.799,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "この焼き菓子……材料から何からすべてを、私はこの腕一本で揃えたのだ。",
+      "zh_Hans": "这些烤点心……从材料到全部步骤，都是我亲手准备的。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BE-SC-EP02-SH003",
+      "start_seconds": 42.979,
+      "end_seconds": 45,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "あら、貴方、手、怪我してるわ！",
+      "zh_Hans": "哎呀，你的手受伤了！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BE-SC-EP02-SH004",
+      "start_seconds": 45,
+      "end_seconds": 47.819,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "ほら、これで大丈夫ですよ、フェルくん。貴族様は体も大事にしないと。",
+      "zh_Hans": "好了，这样就没事了，菲尔君。贵族大人也得爱惜身体才行。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 16,
+      "shot_id": "BE-SC-EP02-SH004",
+      "start_seconds": 47.999,
+      "end_seconds": 49.409,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "今回はいつものような棘がないな。",
+      "zh_Hans": "这次不像平常那样带刺呢。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 17,
+      "shot_id": "BE-SC-EP02-SH004",
+      "start_seconds": 49.589,
+      "end_seconds": 51.175,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "ちょっとだけ見直しましたし。",
+      "zh_Hans": "我只是稍微对你改观了一点。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 18,
+      "shot_id": "BE-SC-EP02-SH004",
+      "start_seconds": 51.355,
+      "end_seconds": 53.205,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "見直した！？ そうか、ようやくわかってくれたのだね！",
+      "zh_Hans": "改观了！？这样啊，你终于理解我了！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 19,
+      "shot_id": "BE-SC-EP02-SH004",
+      "start_seconds": 53.385,
+      "end_seconds": 55.94,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "あのね、ちょっとだけだから。蜜蜂の意味も間違ってます。",
+      "zh_Hans": "听好了，只是一点点。而且蜜蜂的意思你也理解错了。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 20,
+      "shot_id": "BE-SC-EP02-SH004",
+      "start_seconds": 56.12,
+      "end_seconds": 58.146,
+      "speaker": "Dorothea",
+      "speaker_zh": "多洛缇雅",
+      "ja": "貴方は、今も蜜蜂に見えるわねえ。それじゃ。",
+      "zh_Hans": "你现在看起来还是像蜜蜂呢。那么再见。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 21,
+      "shot_id": "BE-SC-EP02-SH004",
+      "start_seconds": 58.326,
+      "end_seconds": 60,
+      "speaker": "Ferdinand",
+      "speaker_zh": "斐迪南",
+      "ja": "くっ……いったい何だと言うのだ。ううむ……。",
+      "zh_Hans": "唔……到底是什么意思啊。嗯……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

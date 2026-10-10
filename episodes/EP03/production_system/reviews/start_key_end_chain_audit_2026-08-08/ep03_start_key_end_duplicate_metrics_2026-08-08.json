@@ -1,0 +1,724 @@
+{
+  "shots": [
+    {
+      "id": "Shot001",
+      "max_rms": 0.1414,
+      "min_hash": 53,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1175,
+          "hash": 53
+        },
+        "ke": {
+          "rms": 0.1414,
+          "hash": 90
+        },
+        "se": {
+          "rms": 0.1194,
+          "hash": 81
+        }
+      }
+    },
+    {
+      "id": "Shot002",
+      "max_rms": 0.2306,
+      "min_hash": 71,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2306,
+          "hash": 85
+        },
+        "ke": {
+          "rms": 0.1878,
+          "hash": 71
+        },
+        "se": {
+          "rms": 0.2151,
+          "hash": 84
+        }
+      }
+    },
+    {
+      "id": "Shot003",
+      "max_rms": 0.1114,
+      "min_hash": 3,
+      "duplicate_like": true,
+      "pairs": {
+        "sk": {
+          "rms": 0.0705,
+          "hash": 3
+        },
+        "ke": {
+          "rms": 0.104,
+          "hash": 21
+        },
+        "se": {
+          "rms": 0.1114,
+          "hash": 24
+        }
+      }
+    },
+    {
+      "id": "Shot004",
+      "max_rms": 0.1715,
+      "min_hash": 36,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1715,
+          "hash": 45
+        },
+        "ke": {
+          "rms": 0.1364,
+          "hash": 36
+        },
+        "se": {
+          "rms": 0.1704,
+          "hash": 45
+        }
+      }
+    },
+    {
+      "id": "Shot005",
+      "max_rms": 0.2224,
+      "min_hash": 50,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1491,
+          "hash": 50
+        },
+        "ke": {
+          "rms": 0.2224,
+          "hash": 105
+        },
+        "se": {
+          "rms": 0.199,
+          "hash": 71
+        }
+      }
+    },
+    {
+      "id": "Shot006",
+      "max_rms": 0.2157,
+      "min_hash": 65,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2097,
+          "hash": 75
+        },
+        "ke": {
+          "rms": 0.2157,
+          "hash": 65
+        },
+        "se": {
+          "rms": 0.1914,
+          "hash": 66
+        }
+      }
+    },
+    {
+      "id": "Shot007",
+      "max_rms": 0.2043,
+      "min_hash": 95,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1941,
+          "hash": 95
+        },
+        "ke": {
+          "rms": 0.2043,
+          "hash": 108
+        },
+        "se": {
+          "rms": 0.1923,
+          "hash": 140
+        }
+      }
+    },
+    {
+      "id": "Shot008",
+      "max_rms": 0.2157,
+      "min_hash": 64,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2003,
+          "hash": 84
+        },
+        "ke": {
+          "rms": 0.2157,
+          "hash": 84
+        },
+        "se": {
+          "rms": 0.1971,
+          "hash": 64
+        }
+      }
+    },
+    {
+      "id": "Shot009",
+      "max_rms": 0.2258,
+      "min_hash": 68,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2258,
+          "hash": 121
+        },
+        "ke": {
+          "rms": 0.155,
+          "hash": 68
+        },
+        "se": {
+          "rms": 0.1522,
+          "hash": 93
+        }
+      }
+    },
+    {
+      "id": "Shot010",
+      "max_rms": 0.1801,
+      "min_hash": 37,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1432,
+          "hash": 37
+        },
+        "ke": {
+          "rms": 0.131,
+          "hash": 66
+        },
+        "se": {
+          "rms": 0.1801,
+          "hash": 53
+        }
+      }
+    },
+    {
+      "id": "Shot011",
+      "max_rms": 0.1686,
+      "min_hash": 34,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1686,
+          "hash": 60
+        },
+        "ke": {
+          "rms": 0.1466,
+          "hash": 54
+        },
+        "se": {
+          "rms": 0.1373,
+          "hash": 34
+        }
+      }
+    },
+    {
+      "id": "Shot012",
+      "max_rms": 0.1082,
+      "min_hash": 30,
+      "duplicate_like": true,
+      "pairs": {
+        "sk": {
+          "rms": 0.1004,
+          "hash": 30
+        },
+        "ke": {
+          "rms": 0.0971,
+          "hash": 41
+        },
+        "se": {
+          "rms": 0.1082,
+          "hash": 33
+        }
+      }
+    },
+    {
+      "id": "Shot013",
+      "max_rms": 0.1963,
+      "min_hash": 79,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1963,
+          "hash": 128
+        },
+        "ke": {
+          "rms": 0.1715,
+          "hash": 79
+        },
+        "se": {
+          "rms": 0.1643,
+          "hash": 91
+        }
+      }
+    },
+    {
+      "id": "Shot014",
+      "max_rms": 0.1675,
+      "min_hash": 54,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1411,
+          "hash": 54
+        },
+        "ke": {
+          "rms": 0.1675,
+          "hash": 59
+        },
+        "se": {
+          "rms": 0.1503,
+          "hash": 55
+        }
+      }
+    },
+    {
+      "id": "Shot015",
+      "max_rms": 0.2045,
+      "min_hash": 40,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2005,
+          "hash": 51
+        },
+        "ke": {
+          "rms": 0.1717,
+          "hash": 40
+        },
+        "se": {
+          "rms": 0.2045,
+          "hash": 47
+        }
+      }
+    },
+    {
+      "id": "Shot016",
+      "max_rms": 0.2148,
+      "min_hash": 59,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2105,
+          "hash": 60
+        },
+        "ke": {
+          "rms": 0.1672,
+          "hash": 59
+        },
+        "se": {
+          "rms": 0.2148,
+          "hash": 71
+        }
+      }
+    },
+    {
+      "id": "Shot017",
+      "max_rms": 0.1843,
+      "min_hash": 73,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1813,
+          "hash": 88
+        },
+        "ke": {
+          "rms": 0.1775,
+          "hash": 73
+        },
+        "se": {
+          "rms": 0.1843,
+          "hash": 77
+        }
+      }
+    },
+    {
+      "id": "Shot018",
+      "max_rms": 0.1981,
+      "min_hash": 47,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1981,
+          "hash": 67
+        },
+        "ke": {
+          "rms": 0.1818,
+          "hash": 47
+        },
+        "se": {
+          "rms": 0.192,
+          "hash": 72
+        }
+      }
+    },
+    {
+      "id": "Shot019",
+      "max_rms": 0.2102,
+      "min_hash": 51,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1901,
+          "hash": 55
+        },
+        "ke": {
+          "rms": 0.1782,
+          "hash": 51
+        },
+        "se": {
+          "rms": 0.2102,
+          "hash": 68
+        }
+      }
+    },
+    {
+      "id": "Shot020",
+      "max_rms": 0.2256,
+      "min_hash": 60,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2256,
+          "hash": 108
+        },
+        "ke": {
+          "rms": 0.2124,
+          "hash": 60
+        },
+        "se": {
+          "rms": 0.2184,
+          "hash": 88
+        }
+      }
+    },
+    {
+      "id": "Shot021",
+      "max_rms": 0.2392,
+      "min_hash": 47,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2392,
+          "hash": 52
+        },
+        "ke": {
+          "rms": 0.2351,
+          "hash": 61
+        },
+        "se": {
+          "rms": 0.1857,
+          "hash": 47
+        }
+      }
+    },
+    {
+      "id": "Shot022",
+      "max_rms": 0.1976,
+      "min_hash": 43,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1906,
+          "hash": 43
+        },
+        "ke": {
+          "rms": 0.1976,
+          "hash": 53
+        },
+        "se": {
+          "rms": 0.1908,
+          "hash": 46
+        }
+      }
+    },
+    {
+      "id": "Shot023",
+      "max_rms": 0.117,
+      "min_hash": 13,
+      "duplicate_like": true,
+      "pairs": {
+        "sk": {
+          "rms": 0.1162,
+          "hash": 13
+        },
+        "ke": {
+          "rms": 0.114,
+          "hash": 19
+        },
+        "se": {
+          "rms": 0.117,
+          "hash": 20
+        }
+      }
+    },
+    {
+      "id": "Shot024",
+      "max_rms": 0.162,
+      "min_hash": 29,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.162,
+          "hash": 42
+        },
+        "ke": {
+          "rms": 0.137,
+          "hash": 29
+        },
+        "se": {
+          "rms": 0.1522,
+          "hash": 55
+        }
+      }
+    },
+    {
+      "id": "Shot025",
+      "max_rms": 0.1768,
+      "min_hash": 19,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1616,
+          "hash": 23
+        },
+        "ke": {
+          "rms": 0.1485,
+          "hash": 19
+        },
+        "se": {
+          "rms": 0.1768,
+          "hash": 26
+        }
+      }
+    },
+    {
+      "id": "Shot026",
+      "max_rms": 0.1636,
+      "min_hash": 20,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1636,
+          "hash": 22
+        },
+        "ke": {
+          "rms": 0.1488,
+          "hash": 24
+        },
+        "se": {
+          "rms": 0.1565,
+          "hash": 20
+        }
+      }
+    },
+    {
+      "id": "Shot027",
+      "max_rms": 0.189,
+      "min_hash": 12,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1778,
+          "hash": 51
+        },
+        "ke": {
+          "rms": 0.111,
+          "hash": 12
+        },
+        "se": {
+          "rms": 0.189,
+          "hash": 49
+        }
+      }
+    },
+    {
+      "id": "Shot028",
+      "max_rms": 0.1995,
+      "min_hash": 36,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1995,
+          "hash": 36
+        },
+        "ke": {
+          "rms": 0.1826,
+          "hash": 43
+        },
+        "se": {
+          "rms": 0.1934,
+          "hash": 45
+        }
+      }
+    },
+    {
+      "id": "Shot029",
+      "max_rms": 0.1627,
+      "min_hash": 28,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1538,
+          "hash": 33
+        },
+        "ke": {
+          "rms": 0.142,
+          "hash": 28
+        },
+        "se": {
+          "rms": 0.1627,
+          "hash": 37
+        }
+      }
+    },
+    {
+      "id": "Shot030",
+      "max_rms": 0.1394,
+      "min_hash": 10,
+      "duplicate_like": true,
+      "pairs": {
+        "sk": {
+          "rms": 0.1084,
+          "hash": 10
+        },
+        "ke": {
+          "rms": 0.1363,
+          "hash": 29
+        },
+        "se": {
+          "rms": 0.1394,
+          "hash": 27
+        }
+      }
+    },
+    {
+      "id": "Shot031",
+      "max_rms": 0.1258,
+      "min_hash": 10,
+      "duplicate_like": true,
+      "pairs": {
+        "sk": {
+          "rms": 0.1258,
+          "hash": 36
+        },
+        "ke": {
+          "rms": 0.0676,
+          "hash": 10
+        },
+        "se": {
+          "rms": 0.1216,
+          "hash": 38
+        }
+      }
+    },
+    {
+      "id": "Shot032",
+      "max_rms": 0.3174,
+      "min_hash": 63,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.3174,
+          "hash": 145
+        },
+        "ke": {
+          "rms": 0.3148,
+          "hash": 142
+        },
+        "se": {
+          "rms": 0.2406,
+          "hash": 63
+        }
+      }
+    },
+    {
+      "id": "Shot033",
+      "max_rms": 0.2385,
+      "min_hash": 84,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2108,
+          "hash": 84
+        },
+        "ke": {
+          "rms": 0.189,
+          "hash": 120
+        },
+        "se": {
+          "rms": 0.2385,
+          "hash": 116
+        }
+      }
+    },
+    {
+      "id": "Shot034",
+      "max_rms": 0.2373,
+      "min_hash": 92,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.2373,
+          "hash": 93
+        },
+        "ke": {
+          "rms": 0.2241,
+          "hash": 105
+        },
+        "se": {
+          "rms": 0.2319,
+          "hash": 92
+        }
+      }
+    },
+    {
+      "id": "Shot035",
+      "max_rms": 0.1131,
+      "min_hash": 67,
+      "duplicate_like": true,
+      "pairs": {
+        "sk": {
+          "rms": 0.1131,
+          "hash": 97
+        },
+        "ke": {
+          "rms": 0.1096,
+          "hash": 106
+        },
+        "se": {
+          "rms": 0.1102,
+          "hash": 67
+        }
+      }
+    },
+    {
+      "id": "Shot036",
+      "max_rms": 0.1432,
+      "min_hash": 101,
+      "duplicate_like": false,
+      "pairs": {
+        "sk": {
+          "rms": 0.1411,
+          "hash": 134
+        },
+        "ke": {
+          "rms": 0.1432,
+          "hash": 101
+        },
+        "se": {
+          "rms": 0.1206,
+          "hash": 125
+        }
+      }
+    }
+  ]
+}

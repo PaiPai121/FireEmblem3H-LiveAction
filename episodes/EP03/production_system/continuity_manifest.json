@@ -1,0 +1,1233 @@
+{
+  "version": 2,
+  "pairs": [
+    {
+      "id": "EP03-Shot001-FRAME-SPEC->EP03-Shot002-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot001-FRAME-SPEC",
+      "to": "EP03-Shot002-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot001 END current integrated frame state",
+        "to_state": "Shot002 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot001 to Shot002.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot002-FRAME-SPEC->EP03-Shot003-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot002-FRAME-SPEC",
+      "to": "EP03-Shot003-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot002 END current integrated frame state",
+        "to_state": "Shot003 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot002 to Shot003.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot003-FRAME-SPEC->EP03-Shot004-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot003-FRAME-SPEC",
+      "to": "EP03-Shot004-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot003 END current integrated frame state",
+        "to_state": "Shot004 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot003 to Shot004.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot004-FRAME-SPEC->EP03-Shot005-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot004-FRAME-SPEC",
+      "to": "EP03-Shot005-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot004 END current integrated frame state",
+        "to_state": "Shot005 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot004 to Shot005.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot005-FRAME-SPEC->EP03-Shot006-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot005-FRAME-SPEC",
+      "to": "EP03-Shot006-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot005 END current integrated frame state",
+        "to_state": "Shot006 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot005 to Shot006.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot006-FRAME-SPEC->EP03-Shot007-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot006-FRAME-SPEC",
+      "to": "EP03-Shot007-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-21 v2 adjacent audit: Shot006 END exits through the classroom door; Shot007 START keeps that door visible and continues Ashe/Dimitri/Byleth toward the wet preparation table. Keep monitor_required until motion probe.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot006 END current integrated frame state",
+        "to_state": "Shot007 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot006 to Shot007.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot007-FRAME-SPEC->EP03-Shot008-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot007-FRAME-SPEC",
+      "to": "EP03-Shot008-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-21 v2 adjacent audit: Shot007 END moves the group through the wet courtyard and lands female Byleth/Ashe on a leftward eyeline toward the open arch; Shot008 START introduces Catherine from that side. Keep monitor_required until motion probe.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot007 END current integrated frame state",
+        "to_state": "Shot008 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot007 to Shot008.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot008-FRAME-SPEC->EP03-Shot009-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot008-FRAME-SPEC",
+      "to": "EP03-Shot009-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot008 END current integrated frame state",
+        "to_state": "Shot009 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot008 to Shot009.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "to_start_frame": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot009-FRAME-SPEC->EP03-Shot010-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot009-FRAME-SPEC",
+      "to": "EP03-Shot010-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot009 END current integrated frame state",
+        "to_state": "Shot010 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot009 to Shot010.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "to_start_frame": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot010-FRAME-SPEC->EP03-Shot011-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot010-FRAME-SPEC",
+      "to": "EP03-Shot011-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot010 END current integrated frame state",
+        "to_state": "Shot011 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot010 to Shot011.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "to_start_frame": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot011-FRAME-SPEC->EP03-Shot012-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot011-FRAME-SPEC",
+      "to": "EP03-Shot012-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot011 END current integrated frame state",
+        "to_state": "Shot012 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot011 to Shot012.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "to_start_frame": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot012-FRAME-SPEC->EP03-Shot013-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot012-FRAME-SPEC",
+      "to": "EP03-Shot013-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot012 END current integrated frame state",
+        "to_state": "Shot013 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot012 to Shot013.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "to_start_frame": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot013-FRAME-SPEC->EP03-Shot014-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot013-FRAME-SPEC",
+      "to": "EP03-Shot014-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "Text/frame-spec continuity is planned; strict visual continuity requires generated frames.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot013 END current integrated frame state",
+        "to_state": "Shot014 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot013 to Shot014.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "to_start_frame": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot014-FRAME-SPEC->EP03-Shot015-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot014-FRAME-SPEC",
+      "to": "EP03-Shot015-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-22 v3 adjacent audit: frozen Shot014 END's arrow-in-blue-shield impact is carried into Shot015 START as a blurred lower-left shield/arrow echo. Shot015 reverse-cuts to a small Western Church vanguard; no Blue Lions named character enters the rebel-pressure shot. Keep monitor_required until motion probe.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot014 END current integrated frame state",
+        "to_state": "Shot015 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot014 to Shot015.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png",
+      "to_start_frame": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot015-FRAME-SPEC->EP03-Shot016-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot015-FRAME-SPEC",
+      "to": "EP03-Shot016-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-22 Shot016 v2 adjacency audit: Shot015 v3 END leaves a rightward pressure lane. Shot016 v2 START receives it with Dimitri's spear in the foreground, female Byleth in the lane, and braid-visible Dedue behind-left. The reverse angle preserves fog, mud, blue banners, and academy wardrobe without copying a rebel soldier into the Blue Lions action. Keep monitor_required until motion probe.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot015 END current integrated frame state",
+        "to_state": "Shot016 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot015 to Shot016.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+      "to_start_frame": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot016-FRAME-SPEC->EP03-Shot017-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot016-FRAME-SPEC",
+      "to": "EP03-Shot017-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-22 Shot017 v2 adjacency audit: Shot016 v2 END lowers Dimitri's spear and hands off the eyeline. Shot017 v2 START receives the same wet foggy ridge with Ashe as the new foreground subject and does not repeat the previous stop-hand gesture. KEY shifts attention to the physical shield emblem; END lowers the bow and turns Ashe back toward female Byleth. Keep monitor_required until motion probe.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot016 END current integrated frame state",
+        "to_state": "Shot017 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot016 to Shot017.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "to_start_frame": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot017-FRAME-SPEC->EP03-Shot018-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot017-FRAME-SPEC",
+      "to": "EP03-Shot018-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-23 Shot018 v6 adjacency audit: Shot017 END leaves Ashe's bow lowered and the right entry lane open. Shot018 v6 START catches Felix crossing that lane, KEY moves to a tight single left-entering blade bind, and END grounds Felix while physically cueing Ashe toward the right-rear exit.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot017 END current integrated frame state",
+        "to_state": "Shot018 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot017 to Shot018.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "to_start_frame": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot018-FRAME-SPEC->EP03-Shot019-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot018-FRAME-SPEC",
+      "to": "EP03-Shot019-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-23 Shot018 v6 to Shot019 v4 handoff: Felix's grounded recovery and rearward cue release into the fog-road support beat. Shot019 v4 intentionally returns to the source shot-list's two named women: Mercedes leads one indistinct civilian into fog while Annette crosses and clears the near visibility lane. Keep monitor_required until motion probes.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot018 END current integrated frame state",
+        "to_state": "Shot019 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot018 to Shot019.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "to_start_frame": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot019-FRAME-SPEC->EP03-Shot020-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot019-FRAME-SPEC",
+      "to": "EP03-Shot020-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-23 Shot019 v4 to Shot020 v4 handoff: Shot019 END leaves the central fog-road empty and Annette turned toward the route; Shot020 v4 hard-cuts to a wet battlefield response with Catherine entering left, female Byleth moving midground, and Ashe following at right. Do not carry Mercedes or Annette into Shot020.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot019 END current integrated frame state",
+        "to_state": "Shot020 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot019 to Shot020.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "to_start_frame": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot020-FRAME-SPEC->EP03-Shot021-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot020-FRAME-SPEC",
+      "to": "EP03-Shot021-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-23 Shot020 v4 to Shot021 v2 handoff: Catherine lowers Thunderbrand at the left while female Byleth and Ashe move toward the upper-left ridge. Shot021 START may introduce Dimitri at the cut and begins the Lonato recognition from a distant silhouette; do not add Lonato or Dimitri inside Shot020.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot020 END current integrated frame state",
+        "to_state": "Shot021 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot020 to Shot021.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "to_start_frame": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot021-FRAME-SPEC->EP03-Shot022-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot021-FRAME-SPEC",
+      "to": "EP03-Shot022-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-23 Shot021 v2 to Shot022 v4 handoff: Shot021 END leaves Lonato on the uphill ridge and Ashe/Dimitri moving toward him. Shot022 v4 converts that recognition into a protected negotiation line: Ashe takes one step only, Lonato remains 4–6 metres away, and Dimitri plus female Byleth stay behind Ashe.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot021 END current integrated frame state",
+        "to_state": "Shot022 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot021 to Shot022.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "to_start_frame": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot022-FRAME-SPEC->EP03-Shot023-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot022-FRAME-SPEC",
+      "to": "EP03-Shot023-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-23 Shot022 v4 to Shot023 v6 handoff: Shot022 END keeps Lonato left/uphill, Ashe right/nearer, and the central road open. Shot023 v6 receives the same axis and keeps the refusal medium-long, with no sword-distance face-to-face cut.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot022 END current integrated frame state",
+        "to_state": "Shot023 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot022 to Shot023.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "to_start_frame": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot023-FRAME-SPEC->EP03-Shot024-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot023-FRAME-SPEC",
+      "to": "EP03-Shot024-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-23 Shot023 v6 to Shot024 v3 handoff: Lonato's END turns toward distant rebel pressure while the road buffer remains open. Shot024 v3 introduces female Byleth from the rear command pocket and keeps Ashe/Lonato separated; the sword tip marks empty side lanes only.",
+      "transition": {
+        "type": "cut",
+        "from_state": "Shot023 END current integrated frame state",
+        "to_state": "Shot024 START current integrated frame state",
+        "visual_bridge": "Preserve the current integrated live-action location, screen direction, identity, and declared action handoff from Shot023 to Shot024.",
+        "audio_bridge": "Carry the declared environmental sound through the cut; native Japanese dialogue and motion remain downstream gates."
+      },
+      "from_end_frame": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "to_start_frame": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot024-FRAME-SPEC->EP03-Shot025-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot024-FRAME-SPEC",
+      "to": "EP03-Shot025-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-09 readability reboard: Shot024 END hands off the command and open road. Shot025 turns that command into a visible split: Dimitri and Dedue hold near cover, two guards close the fork, Ashe is routed to the right warning plane, and Lonato stays beyond the physical screen. The handoff is command-to-containment, not a direct approach.",
+      "transition": {
+        "type": "geography_establish",
+        "from_state": "rear command pocket with open side lanes",
+        "to_state": "near academy formation held behind a terrain-and-guard barrier",
+        "visual_bridge": "same wet fog, ridge, blue banners, and north-side battlefield axis; the reboard makes the fork, guard screen, Ashe's right-side route, and far-ridge Lonato read as separate layers",
+        "audio_bridge": "Byleth's order resolves into distant boots, shield hardware, and fog-muted movement; no new spoken line"
+      },
+      "from_end_frame": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+      "to_start_frame": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot025-FRAME-SPEC->EP03-Shot026-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot025-FRAME-SPEC",
+      "to": "EP03-Shot026-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-09 readability reboard: Shot025 END leaves two lanes and Ashe on the near-right warning mark. Shot026 hard-cuts to that decision plane without moving the formation; the same two guards remain the physical buffer and Lonato stays beyond them.",
+      "transition": {
+        "type": "protected_action_insert",
+        "from_state": "wide lower-right academy formation, two guards across the middle crossing, Lonato beyond the basin",
+        "to_state": "isolated Ashe warning position with the same two guards still between her and Lonato",
+        "visual_bridge": "Ashe's lower-right mark, Lonato's uphill-left direction, the two guard positions, and the blocked crossing are inherited; only the coverage scale changes",
+        "audio_bridge": "wide formation movement narrows to bow leather, breath, and guard hardware before the Japanese apology"
+      },
+      "from_end_frame": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "to_start_frame": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot026-FRAME-SPEC->EP03-Shot027-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot026-FRAME-SPEC",
+      "to": "EP03-Shot027-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-09 readability reboard: Shot026 END leaves Ashe's arrow lowered but nocked, two guards between him and Lonato, and a left entry gap. Shot027 START introduces Catherine into that gap; the nearer guard is the first threat.",
+      "transition": {
+        "type": "guard_intervention",
+        "from_state": "Ashe holds a lowered nocked arrow; two guards physically interrupt the crossing; Lonato remains far beyond them",
+        "to_state": "Catherine enters the left gap while Ashe stays back and the same two guards remain in the lane",
+        "visual_bridge": "same wet barriers, screen sides, ravine depth, and far upper-left Lonato mark; only the coverage scale and Catherine's entry change",
+        "audio_bridge": "Ashe's Japanese apology resolves into Catherine's wet footfalls, guard hardware, and a single practical metal redirection"
+      },
+      "from_end_frame": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "to_start_frame": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot027-FRAME-SPEC->EP03-Shot028-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot027-FRAME-SPEC",
+      "to": "EP03-Shot028-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-09 readability reboard: Shot027 END leaves Catherine owning the lane, the nearer guard displaced, and the second guard retreating toward Lonato. Shot028 START receives that retreat; Lonato crosses only to cover the guard, so the first contact has a visible cause.",
+      "transition": {
+        "type": "motivated_combat_escalation",
+        "from_state": "Catherine has displaced the nearer guard; the second guard retreats into Lonato's cover and Lonato is still untouched",
+        "to_state": "closer side coverage begins with Lonato's shield-led protective step and one controlled sword press; both guards remain visible",
+        "visual_bridge": "the cleared muddy lane, Catherine's low Thunderbrand, the retreating guard, Lonato's shield, and the same side axis survive the scale change",
+        "audio_bridge": "metal redirection decays into wet boots, shield shift, and one deliberate ordinary-sword press"
+      },
+      "from_end_frame": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "to_start_frame": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot028-FRAME-SPEC->EP03-Shot029-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot028-FRAME-SPEC",
+      "to": "EP03-Shot029-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-09 readability reboard: Shot028 END leaves the ordinary sword in the mud and Lonato upright but unsupported after covering the retreating guard. Shot029 START receives that exact imbalance; Catherine has exited and the three witnesses remain outside sword range.",
+      "transition": {
+        "type": "combat_recovery",
+        "from_state": "ordinary sword dropped; Lonato upright, shield forward, and losing balance; Catherine low and disengaging",
+        "to_state": "Lonato begins a controlled one-knee recovery while female Byleth, Dimitri, and Ashe hold separate distant marks",
+        "visual_bridge": "dropped sword, shield-led silhouette, mud lane, uphill-left screen direction, and the guard withdrawal are preserved; the observers enter as a measured wider coverage",
+        "audio_bridge": "metal drop settles into armor shift, wet knee contact, restrained breath, and the field's fighting receding"
+      },
+      "from_end_frame": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "to_start_frame": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot029-FRAME-SPEC->EP03-Shot030-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot029-FRAME-SPEC",
+      "to": "EP03-Shot030-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-02 v3 boundary repair: Shot029 END leaves Lonato fully kneeling against his shield with the ordinary sword foregrounded and the three witnesses still layered at distance. Shot030 cuts away from him into a distinct three-layer reaction: Catherine enters only in the far background while the female Byleth, Dimitri and Ashe hold the muddy lane; Lonato never returns.",
+      "transition": {
+        "type": "aftermath_handoff",
+        "from_state": "Lonato fully kneeling and isolated; female Byleth, Dimitri, and Ashe hold staggered distant marks",
+        "to_state": "Shot030's empty battle-lane reaction begins after Lonato clears from frame",
+        "visual_bridge": "same wet battlefield, low weapons, mud residue, and non-rushing witness geography; Shot030 is a deliberate aftermath coverage change",
+        "audio_bridge": "kneel impact and armor settle into wind, damp cloth, and restrained post-battle silence"
+      },
+      "from_end_frame": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+      "to_start_frame": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot030-FRAME-SPEC->EP03-Shot031-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot030-FRAME-SPEC",
+      "to": "EP03-Shot031-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-02 v3 adjacency repair: Shot030 END leaves Catherine offscreen and the female Byleth, Dimitri and Ashe in a separated, muddy, non-celebratory reaction hold. Shot031 then hard-cuts into the cathedral report space, carrying the damp hems and moral residue without bringing Lonato or Catherine into the report frame.",
+      "transition": {
+        "type": "aftermath_to_institutional_cut",
+        "from_state": "three witnesses hold a quiet muddy lane after Catherine exits; Lonato remains offscreen",
+        "to_state": "the same students enter the cathedral report space below Rhea and Seteth",
+        "visual_bridge": "damp academy hems, restrained faces and the female Byleth identity carry across a deliberate battlefield-to-cathedral hard cut",
+        "audio_bridge": "field wind and armor settle cut to wet cathedral footsteps and institutional room tone; Japanese dialogue remains in Shot031 only"
+      },
+      "from_end_frame": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "to_start_frame": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot031-FRAME-SPEC->EP03-Shot032-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot031-FRAME-SPEC",
+      "to": "EP03-Shot032-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-24 Shot031 v2 to Shot032 v2 handoff: Shot031 END leaves Rhea turned away, Seteth descending with the closed folio, and the muddy female Byleth/Dimitri/Ashe group below. Shot032 START narrows without resetting the authority axis: female Byleth remains low, Seteth approaches with the same folio, and no student or Catherine enters. Still-frame continuity review passed; motion probe remains pending. Normalized to monitor_required because motion probe remains pending.",
+      "transition": {
+        "type": "institutional_order_handoff",
+        "from_state": "Rhea has turned away and Seteth carries the closed folio down while the students remain below",
+        "to_state": "the order narrows to Rhea, mature Seteth, and female Byleth with Seteth approaching for the final handoff",
+        "visual_bridge": "same cathedral axis, wet floor, folio, altar elevation, and female Byleth identity; Dimitri and Ashe clear out without entering Shot032",
+        "audio_bridge": "cathedral reverb and folio close carry into measured steps and the Japanese order"
+      },
+      "from_end_frame": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "to_start_frame": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot032-FRAME-SPEC->EP03-Shot033-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot032-FRAME-SPEC",
+      "to": "EP03-Shot033-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-08-24 Shot032 v2 to Shot033 v2 handoff: Shot032 END leaves the institutional consequence in the cathedral; Shot033 v2 cuts to four separated student reactions on the same wet stone axis without reintroducing Rhea or Seteth. Still-frame continuity review passed; motion probe remains pending. Normalized to monitor_required because motion probe remains pending.",
+      "transition": {
+        "type": "institutional_to_student_reaction_cut",
+        "from_state": "order carried down the steps; female Byleth remains unsettled below",
+        "to_state": "Ashe, Dimitri, Felix, and female Byleth separate into four quiet reaction marks",
+        "visual_bridge": "same wet cathedral stone, mud residue, academy uniforms, and moral pressure; Rhea and Seteth clear from frame Current v2 frame paths are the canonical handoff.",
+        "audio_bridge": "folio/step reverb resolves into a distant door closure and silent student breath"
+      },
+      "from_end_frame": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "to_start_frame": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot033-FRAME-SPEC->EP03-Shot034-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot033-FRAME-SPEC",
+      "to": "EP03-Shot034-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-03 v3 conversation handoff: Shot033 END leaves female Byleth's eyeline aimed into the open right corridor while Ashe remains low and Dimitri/Felix fall away from the side talk. Shot034 START receives that direction in the wet cloister: Ashe settles in the left midground, Catherine owns the right column, and female Byleth stays far behind rather than entering their sword range.",
+      "transition": {
+        "type": "eyeline_to_side_conversation",
+        "from_state": "female Byleth turns toward the open right corridor; Ashe remains bowed and the other students fall out of the side-talk lane",
+        "to_state": "Ashe has stopped at respectful distance from Catherine; Byleth observes from the rear doorway",
+        "visual_bridge": "rightward eyeline, wet-stone material, academy mud residue, and a clear corridor carry into a new cloister axis without a lineup",
+        "audio_bridge": "distant door closure and cathedral room tone give way to wet cloister ambience, lowered bow leather, and Catherine's single Japanese line"
+      },
+      "from_end_frame": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "to_start_frame": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot034-FRAME-SPEC->EP03-Shot035-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot034-FRAME-SPEC",
+      "to": "EP03-Shot035-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-03 v3 night-cut handoff: Shot034 END finishes Catherine's answer with the cloth lowered and female Byleth already moving into the right corridor. Shot035 START changes time and coverage to Dimitri ahead in the night cloister, preserving Byleth as the trailing observer while excluding Catherine and Ashe.",
+      "transition": {
+        "type": "conversation_to_walkaway_cut",
+        "from_state": "Catherine faces Ashe with Thunderbrand sheathed; female Byleth begins the rightward exit and the conversational distance remains open",
+        "to_state": "night cloister begins with Dimitri walking ahead and female Byleth several paces behind",
+        "visual_bridge": "the rightward exit lane, wet stone, academy wardrobe, and restrained moral pressure survive the time-of-day hard cut; Catherine and Ashe do not return",
+        "audio_bridge": "Catherine's final Japanese syllable and cloister reverb settle into night rain residue, wet boots, and Dimitri's later Japanese line"
+      },
+      "from_end_frame": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "to_start_frame": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+    },
+    {
+      "id": "EP03-Shot035-FRAME-SPEC->EP03-Shot036-FRAME-SPEC",
+      "type": "continuity_pair",
+      "from": "EP03-Shot035-FRAME-SPEC",
+      "to": "EP03-Shot036-FRAME-SPEC",
+      "status": "approved_for_next_stage",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-independent-continuity-audit",
+      "created_at": "2026-09-10",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the declared still-frame handoff intact; prompt-against-frame QA, motion probes, and native Japanese audio remain downstream gates."
+      ],
+      "notes": "2026-09-03 v3 mystery-cut handoff: Shot035 END leaves female Byleth under the lamp after Dimitri exits into the dark arch. Shot036 START carries the same female academy professor identity through a deliberate cathedral cut; Byleth remains in the near plane, Rhea stays distant toward the Holy Tomb, and Sothis is withheld until the KEY reveal.",
+      "transition": {
+        "type": "night_exit_to_cathedral_mystery_cut",
+        "from_state": "Dimitri leaves the dark arch while female Byleth remains under the lamp",
+        "to_state": "female Byleth holds the cathedral threshold with Rhea distant; Sothis has not yet appeared",
+        "visual_bridge": "female Byleth identity, dark academy professor wardrobe, and restrained moral pressure carry through the time-of-day/interior cut; Dimitri, Catherine, and Ashe clear before the cathedral axis resets",
+        "audio_bridge": "night cloister room tone dissolves into cathedral reverb and candle hush; Sothis's single Japanese line enters only after the KEY reveal and resolves before the cut to black"
+      },
+      "from_end_frame": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+      "to_start_frame": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png"
+    }
+  ],
+  "project": "EP03",
+  "active_edge_scope": "current_frame_spec_chain",
+  "historical_pairs_retained_in_artifact_manifest": true
+}

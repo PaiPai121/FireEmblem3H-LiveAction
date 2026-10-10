@@ -1,0 +1,32 @@
+{
+  "shot_id": "Shot023",
+  "review_date": "2026-08-23",
+  "review_type": "lonato_refusal_axis_continuity_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v3_2026-08-22",
+  "current_display_frame_set": "critical_reaudit_regen_v4_2026-08-23",
+  "previous_shot": "Shot022",
+  "next_shot": "Shot024",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after user re-audit: v3 reversed the Shot022 END axis by placing Ashe left and Lonato right. v3 is historical evidence only."
+  ],
+  "finding": "2026-08-23 critical re-audit: Shot023 v3 reversed Shot022's left/right geography. v4 rebuilds the two-person refusal with Lonato left/uphill and Ashe right/nearer in START, KEY, and END, preserving one hard axis into the next shot.",
+  "passes": [
+    "START receives Shot022 v3 END with Lonato left/uphill and Ashe right/nearer.",
+    "KEY preserves the same hard axis while making the low guarded refusal readable.",
+    "END keeps the center road open and turns Lonato toward indistinct rebel pressure without an attack.",
+    "Exactly two named performers share the wet ridge, fog, scale, and contact shadows.",
+    "Japanese dialogue only; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if the Lonato-left/Ashe-right axis reverses, the frames become a static lineup, Lonato attacks, Ashe raises/fires the bow, rebels become named, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

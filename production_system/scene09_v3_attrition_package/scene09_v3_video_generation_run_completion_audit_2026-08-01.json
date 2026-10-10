@@ -1,0 +1,705 @@
+{
+  "date": "2026-08-01",
+  "package_id": "scene09_v3_monitor_handoff_package_2026-07-27",
+  "target": "video_generation_run",
+  "decision": "video_generation_run_blocked_clips_pending",
+  "highest_completed_target": "prompt_asset_package",
+  "expected_shots": 42,
+  "final_output": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+  "direct_expected_clip_probe": {
+    "playable_clips": 0,
+    "expected_clips": 42,
+    "rows": [
+      {
+        "order": 1,
+        "shot": "Shot025",
+        "id": "EP02-SC09-SHOT-Shot025-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/01_Shot025.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 2,
+        "shot": "Shot025A",
+        "id": "EP02-SC09-SHOT-Shot025A-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/02_Shot025A.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 3,
+        "shot": "Shot026",
+        "id": "EP02-SC09-SHOT-Shot026-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/03_Shot026.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 4,
+        "shot": "Shot026B",
+        "id": "EP02-SC09-SHOT-Shot026B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/04_Shot026B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 5,
+        "shot": "Shot026C",
+        "id": "EP02-SC09-SHOT-Shot026C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/05_Shot026C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 6,
+        "shot": "Shot027",
+        "id": "EP02-SC09-SHOT-Shot027-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/06_Shot027.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 7,
+        "shot": "Shot027B",
+        "id": "EP02-SC09-SHOT-Shot027B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/07_Shot027B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 8,
+        "shot": "Shot027C",
+        "id": "EP02-SC09-SHOT-Shot027C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/08_Shot027C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 9,
+        "shot": "Shot027D",
+        "id": "EP02-SC09-SHOT-Shot027D-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/09_Shot027D.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 10,
+        "shot": "Shot028",
+        "id": "EP02-SC09-SHOT-Shot028-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/10_Shot028.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 11,
+        "shot": "Shot028B",
+        "id": "EP02-SC09-SHOT-Shot028B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/11_Shot028B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 12,
+        "shot": "Shot028C",
+        "id": "EP02-SC09-SHOT-Shot028C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/12_Shot028C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 13,
+        "shot": "Shot029",
+        "id": "EP02-SC09-SHOT-Shot029-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/13_Shot029.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 14,
+        "shot": "Shot029C",
+        "id": "EP02-SC09-SHOT-Shot029C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/14_Shot029C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 15,
+        "shot": "Shot029D",
+        "id": "EP02-SC09-SHOT-Shot029D-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/15_Shot029D.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 16,
+        "shot": "Shot029B",
+        "id": "EP02-SC09-SHOT-Shot029B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/16_Shot029B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 17,
+        "shot": "Shot030",
+        "id": "EP02-SC09-SHOT-Shot030-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/17_Shot030.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 18,
+        "shot": "Shot030B",
+        "id": "EP02-SC09-SHOT-Shot030B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/18_Shot030B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 19,
+        "shot": "Shot030C",
+        "id": "EP02-SC09-SHOT-Shot030C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/19_Shot030C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 20,
+        "shot": "Shot031",
+        "id": "EP02-SC09-SHOT-Shot031-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/20_Shot031.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 21,
+        "shot": "Shot031B",
+        "id": "EP02-SC09-SHOT-Shot031B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/21_Shot031B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 22,
+        "shot": "Shot032",
+        "id": "EP02-SC09-SHOT-Shot032-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/22_Shot032.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 23,
+        "shot": "Shot032A",
+        "id": "EP02-SC09-SHOT-Shot032A-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/23_Shot032A.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 24,
+        "shot": "Shot032B",
+        "id": "EP02-SC09-SHOT-Shot032B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/24_Shot032B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 25,
+        "shot": "Shot032C",
+        "id": "EP02-SC09-SHOT-Shot032C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/25_Shot032C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 26,
+        "shot": "Shot032D",
+        "id": "EP02-SC09-SHOT-Shot032D-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/26_Shot032D.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 27,
+        "shot": "Shot032E",
+        "id": "EP02-SC09-SHOT-Shot032E-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/27_Shot032E.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 28,
+        "shot": "Shot032F",
+        "id": "EP02-SC09-SHOT-Shot032F-V2-20260724",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/28_Shot032F.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 29,
+        "shot": "Shot032G",
+        "id": "EP02-SC09-SHOT-Shot032G-V2-20260724",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/29_Shot032G.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 30,
+        "shot": "Shot033",
+        "id": "EP02-SC09-SHOT-Shot033-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/30_Shot033.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 31,
+        "shot": "Shot033B",
+        "id": "EP02-SC09-SHOT-Shot033B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/31_Shot033B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 32,
+        "shot": "Shot033C",
+        "id": "EP02-SC09-SHOT-Shot033C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/32_Shot033C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 33,
+        "shot": "Shot033D",
+        "id": "EP02-SC09-SHOT-Shot033D-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/33_Shot033D.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 34,
+        "shot": "Shot034C",
+        "id": "EP02-SC09-SHOT-Shot034C-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/34_Shot034C.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 35,
+        "shot": "Shot034D",
+        "id": "EP02-SC09-SHOT-Shot034D-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/35_Shot034D.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 36,
+        "shot": "Shot034B",
+        "id": "EP02-SC09-SHOT-Shot034B-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/36_Shot034B.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 37,
+        "shot": "Shot034E",
+        "id": "EP02-SC09-SHOT-Shot034E-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/37_Shot034E.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 38,
+        "shot": "Shot034F",
+        "id": "EP02-SC09-SHOT-Shot034F-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/38_Shot034F.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 39,
+        "shot": "Shot034G",
+        "id": "EP02-SC09-SHOT-Shot034G-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/39_Shot034G.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 40,
+        "shot": "Shot034",
+        "id": "EP02-SC09-SHOT-Shot034-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/40_Shot034.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 41,
+        "shot": "Shot035",
+        "id": "EP02-SC09-SHOT-Shot035-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      },
+      {
+        "order": 42,
+        "shot": "Shot036",
+        "id": "EP02-SC09-SHOT-Shot036-V2-20260721",
+        "expected_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4",
+        "probe": {
+          "exists": false,
+          "ok": false,
+          "issue": "missing_clip"
+        }
+      }
+    ]
+  },
+  "passed_checks": 23,
+  "total_checks": 30,
+  "failed_checks": [
+    "full_duration_release_gate_passed",
+    "all_expected_clips_structural_pass",
+    "motion_review_frames_complete",
+    "codex_motion_self_audit_passed",
+    "revision_queue_empty",
+    "final_concat_gate_passed",
+    "final_edit_structural_passed"
+  ],
+  "checks": [
+    {
+      "id": "package_execution_artifacts",
+      "label": "Package-local run artifacts exist",
+      "passed": true,
+      "detail": "Requires submission_queue.csv, RUNBOOK.md, execution_plan.json, and execution_commands.sh.",
+      "evidence": [
+        "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_queue.csv",
+        "delivery/scene09_v3_monitor_handoff_package_2026-07-27/RUNBOOK.md",
+        "delivery/scene09_v3_monitor_handoff_package_2026-07-27/execution_plan.json",
+        "delivery/scene09_v3_monitor_handoff_package_2026-07-27/execution_commands.sh"
+      ]
+    },
+    {
+      "id": "actual_delivery_surface_passed",
+      "label": "Current Shot034B empty faculty objective delivery surface is repaired across manifests, prompts, payload, and file:// viewers",
+      "passed": true,
+      "detail": "decision actual_delivery_surface_passed; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_actual_delivery_surface_audit_2026-08-01.json"
+    },
+    {
+      "id": "current_hanneman_contract_passed",
+      "label": "Shot034B current contract locks Byleth and Dimitri only with Hanneman/Manuela absent/offscreen/unpaired",
+      "passed": true,
+      "detail": "decision current_hanneman_contract_passed; shot Shot034B; visible Byleth, Dimitri; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_current_hanneman_contract_2026-08-01.json"
+    },
+    {
+      "id": "current_status_consistency_passed",
+      "label": "Current file-access status page matches machine-readable reports and old status files are marked superseded",
+      "passed": true,
+      "detail": "decision current_status_consistency_passed; problems 0; warnings 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_current_status_consistency_gate_2026-08-01.json"
+    },
+    {
+      "id": "provider_preflight_consistency_passed",
+      "label": "Provider preflight, upload manifest, package readiness, and model target profile agree before external submission",
+      "passed": true,
+      "detail": "decision provider_preflight_consistency_passed; can submit no; computed no; expected shots 42/42; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_provider_preflight_consistency_gate_2026-08-01.json"
+    },
+    {
+      "id": "submission_contract_gate_passed",
+      "label": "Package manifest, execution plan, submission queue, JSONL payload, and shot metadata agree before model submission",
+      "passed": true,
+      "detail": "decision submission_contract_gate_passed; rows 42/42; plan 42; queue 42; payload 42; submission ledger digest ok; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_submission_contract_gate_2026-08-01.json"
+    },
+    {
+      "id": "provider_submission_freshness_passed",
+      "label": "Model submission batches and provider upload bundles are rebuilt from the current submission payload",
+      "passed": true,
+      "detail": "decision provider_submission_freshness_passed; batch rows 42/42; provider rows 42/42; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_provider_submission_freshness_gate_2026-08-01.json"
+    },
+    {
+      "id": "full_duration_release_gate_passed",
+      "label": "Full-duration generation is released only after 42/42 signed Codex-reviewed motion probes pass",
+      "passed": false,
+      "detail": "decision full_duration_release_blocked_probe_review_pending; can release no; playable probes 0/42; review frames 0/42; approvals 0/42; release absent; blockers 4; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_full_duration_release_gate_2026-08-01.json"
+    },
+    {
+      "id": "all_expected_clips_structural_pass",
+      "label": "All 42 real expected clips exist and pass structural QA",
+      "passed": false,
+      "detail": "decision clips_pending; ready 0/42; direct playable 0/42; missing 42; failed 0; file digest ok; probe digest ok.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_generated_clip_structural_audit_2026-08-01.json"
+    },
+    {
+      "id": "motion_review_frames_complete",
+      "label": "Motion-review start/mid/end frames exist for every clip",
+      "passed": false,
+      "detail": "extracted 0/42; missing 42; failed 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_assets_2026-07-28.json"
+    },
+    {
+      "id": "codex_motion_self_audit_passed",
+      "label": "Codex motion self-audit passed every shot without user approval",
+      "passed": false,
+      "detail": "decision clips_pending; passed 0/42; blocked 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_decisions_2026-07-28.json"
+    },
+    {
+      "id": "revision_queue_empty",
+      "label": "No generation, repair, review, or regeneration action remains",
+      "passed": false,
+      "detail": "decision clip_generation_or_revision_actions_required; actionable 42.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_clip_revision_queue_2026-07-28.json"
+    },
+    {
+      "id": "motion_self_audit_packet_ready",
+      "label": "Codex motion self-audit packet and checklist are structurally ready",
+      "passed": true,
+      "detail": "decision motion_self_audit_packet_ready; rows 42/42; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_packet_audit_2026-08-01.json"
+    },
+    {
+      "id": "motion_self_audit_evidence_contract_passed",
+      "label": "Codex motion self-audit evidence requires current clip and start/mid/end frame signatures",
+      "passed": true,
+      "detail": "decision motion_self_audit_evidence_contract_passed; template rows 42/42; frame signature rows 42/42; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_evidence_contract_2026-08-01.json"
+    },
+    {
+      "id": "motion_self_audit_unsigned_evidence_rejected",
+      "label": "Apply gate rejects booleans-only Codex motion approvals without current clip/frame signatures",
+      "passed": true,
+      "detail": "decision motion_self_audit_unsigned_evidence_rejection_passed; frame signature rejections 126/126; clip signature rejections 42/42; restored yes; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_unsigned_evidence_rejection_2026-08-01.json"
+    },
+    {
+      "id": "motion_self_audit_apply_positive_contract_passed",
+      "label": "Apply gate accepts current signed Codex motion evidence in a temporary positive fixture",
+      "passed": true,
+      "detail": "decision motion_self_audit_apply_positive_contract_passed; proposal rows 42/42; applied yes; passed 42/42; clip sig 42/42; frame sig 42/42; evidence 42/42; ledger 42/42; ledger digest ok; active-return state ok; stale ledger rejected yes; stale active-return rejected yes; checks 42/42; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_apply_positive_contract_2026-08-01.json"
+    },
+    {
+      "id": "motion_self_audit_apply_gate_passed",
+      "label": "Codex motion self-audit decisions were applied through the strict apply gate",
+      "passed": true,
+      "detail": "decision motion_self_audit_apply_blocked_clips_pending; applied no; passed 0/42; blocked 0; clip sig 0/42; frame sig 0/42; evidence 0/42; ledger 42/42; ledger digest ok; active-return state ok; checks 42/42; problems 338.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_apply_gate_2026-08-01.json"
+    },
+    {
+      "id": "after_clip_return_resume_positive_contract_passed",
+      "label": "After-clip-return resume wrapper can ingest returned clips and apply signed Codex motion evidence to reach ready-for-concat in a temporary positive fixture",
+      "passed": true,
+      "detail": "decision after_clip_return_resume_positive_contract_passed; apply after_clip_return_ready_for_concat; clips 42/42; frames 42/42; concat final_concat_gate_passed_ready_for_project_pipeline_concat; production changed no; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_after_clip_return_resume_positive_contract_2026-08-01.json"
+    },
+    {
+      "id": "final_concat_positive_contract_passed",
+      "label": "Final concat gate accepts a complete upstream evidence set in a temporary positive fixture",
+      "passed": true,
+      "detail": "decision final_concat_positive_contract_passed; gate final_concat_gate_passed_ready_for_project_pipeline_concat; checks 8/8; direct ffprobe 42/42; tampered input rejected yes; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_final_concat_positive_contract_2026-08-01.json"
+    },
+    {
+      "id": "clip_return_intake_ready",
+      "label": "Provider clip return intake folders and dry-run/apply instructions are ready",
+      "passed": true,
+      "detail": "decision clip_return_intake_ready; batches 7/7; expected rows 42/42; custom ids 42/42; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_clip_return_intake_audit_2026-08-01.json"
+    },
+    {
+      "id": "clip_return_roundtrip_passed_strict",
+      "label": "Provider-returned clips roundtrip safely by expected filename/custom_id while rejecting bare shot names and invalid mp4 files",
+      "passed": true,
+      "detail": "decision clip_return_roundtrip_passed; scenarios expected_filename:42/42/invalid0, custom_id_prefix:42/42/invalid0, nested_intake_root_expected_filenames:42/42/invalid0, loose_shot_name_rejected:0/0/invalid0, invalid_mp4_rejected:0/0/invalid1, unsupported_format_rejected:0/0/invalid0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_clip_return_roundtrip_audit_2026-08-01.json"
+    },
+    {
+      "id": "model_cli_execution_provenance_contract_passed",
+      "label": "Local model CLI execution path writes model_cli_execute provenance with matching output SHA-256",
+      "passed": true,
+      "detail": "decision model_cli_execution_provenance_passed; rows 42/42; unique clips 42/42; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_model_cli_execution_provenance_audit_2026-08-01.json"
+    },
+    {
+      "id": "clip_provenance_gate_passed",
+      "label": "Existing expected clips have provider-ingest or local-model provenance matching current SHA-256",
+      "passed": true,
+      "detail": "decision clip_provenance_ready_clips_pending; existing 0/42; missing 42; provenance rows 0/42; matched 0/42; direct playable 0/42; rows digest ok; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_clip_provenance_gate_2026-08-01.json"
+    },
+    {
+      "id": "reports_align_with_current_manifest",
+      "label": "Package-local reports align with the current package manifest",
+      "passed": true,
+      "detail": "decision report_freshness_passed_current_manifest; problems 0; warnings 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_report_freshness_gate_2026-08-01.json"
+    },
+    {
+      "id": "proxy_assets_not_used_as_real_outputs",
+      "label": "Reference-only proxy animatic clips are not used as expected clips or final edit",
+      "passed": true,
+      "detail": "decision proxy_isolation_passed_clips_pending; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_proxy_misuse_gate_2026-08-01.json"
+    },
+    {
+      "id": "final_concat_gate_passed",
+      "label": "Final concat gate passed before assembly",
+      "passed": false,
+      "detail": "decision final_concat_blocked_clips_pending; checks 2/8.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_final_concat_gate_2026-08-01.json"
+    },
+    {
+      "id": "final_edit_positive_contract_passed",
+      "label": "Final edit structural audit accepts a valid package-duration mp4 in a temporary positive fixture",
+      "passed": true,
+      "detail": "decision final_edit_positive_contract_passed; structural final_edit_structural_passed; ok yes; concat binding ok; concat sidecar ok; concat provenance ok; sha yes; wrong-duration rejected yes; wrong-duration issue duration_out_of_tolerance; tampered provenance rejected yes; production changed no; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_final_edit_positive_contract_2026-08-01.json"
+    },
+    {
+      "id": "final_edit_structural_passed",
+      "label": "Final edit mp4 exists and passes ffprobe structural QA",
+      "passed": false,
+      "detail": "decision final_edit_pending; exists no; ok no; concat binding missing_or_blocked; concat sidecar missing_or_blocked; concat provenance missing_or_blocked; path bound; sha missing_or_mismatch; issue final_edit_pending.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_final_edit_structural_audit_2026-08-01.json"
+    },
+    {
+      "id": "positive_contract_isolation_passed",
+      "label": "Temporary positive-contract fixtures remain isolated from production expected clips and final edit output",
+      "passed": true,
+      "detail": "decision positive_contract_isolation_passed; contracts 6/6; production clips 0/42; production final absent; problems 0.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_positive_contract_isolation_gate_2026-08-01.json"
+    },
+    {
+      "id": "production_delivery_truth_gate_consistent",
+      "label": "Production delivery truth gate matches real clip/final-edit evidence and prevents fixture/proxy evidence from completing the run",
+      "passed": true,
+      "detail": "decision production_delivery_truth_blocked_clips_pending; truthful target prompt_asset_package; can claim no; real clips 0/42; clip digest ok; clip probe ok; final absent; final binding ok; blockers 9.",
+      "evidence": "production_system/scene09_v3_attrition_package/scene09_v3_production_delivery_truth_gate_2026-08-01.json"
+    }
+  ]
+}

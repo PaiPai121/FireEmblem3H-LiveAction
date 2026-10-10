@@ -1,0 +1,50 @@
+{
+  "shot": "Shot011",
+  "review_date": "2026-08-15",
+  "review_mode": "critical_reaudit_current_web_candidate",
+  "decision": "monitor_required",
+  "display_frame_set": "critical_reaudit_regen_v1",
+  "display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg"
+  },
+  "reference_assets": [
+    "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+    "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-15/shot011_local_character_reference_board_2026-08-15.jpg",
+    "assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png"
+  ],
+  "previous_candidate_downgrade": {
+    "frame_set": "local_asset_final_candidate_v1",
+    "decision": "blocked_needs_revision",
+    "reason": "Previous Shot011 frames staged Byleth mostly as a black-cloak back view that could read as male or ambiguous, repeated similar door-facing blocking, and carried unrelated prompt contamination."
+  },
+  "visual_findings": [
+    "START introduces the border village lane with female Byleth readable in three-quarter view.",
+    "KEY makes the door-bar action legible while the party keeps distance.",
+    "END shifts eyeline and edit handoff toward distant rebel-camp smoke, distinct from START and KEY."
+  ],
+  "prompt_findings": [
+    "Executable prompt refers only to uploaded START/KEY/END frames.",
+    "Prompt treats Shot011 as silent with natural sound only.",
+    "Prompt rejects Chinese/Mandarin voiceover and subtitles.",
+    "Prompt removes unrelated Rhea, Catherine, Lonato, Ashe-execution, local-path, and source-reference contamination."
+  ],
+  "remaining_risks": [
+    "Ashe hair trends lighter than the selected asset.",
+    "Mercedes trends toward light armor or ceremonial cloak in KEY/END.",
+    "Villager action must remain small and fearful, not a spectacle crowd."
+  ],
+  "required_next_gate": "3s_motion_probe_before_approved_for_video",
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth becomes anonymous or gender-ambiguous",
+    "Mercedes becomes war-phase armored, nun-like, or oversized ceremonial",
+    "Ashe becomes a generic archer or executioner",
+    "START/KEY/END collapse into repeated door-facing stills",
+    "Lonato, Catherine, Dimitri, Dedue, Ingrid, enemies, crowds, or battle action appear",
+    "Chinese/Mandarin voiceover, added narration, subtitles, captions, readable text, or game UI appear"
+  ]
+}

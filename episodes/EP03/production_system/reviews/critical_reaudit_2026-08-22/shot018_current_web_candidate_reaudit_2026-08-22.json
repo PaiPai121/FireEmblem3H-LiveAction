@@ -1,0 +1,54 @@
+{
+  "shot_id": "Shot018",
+  "review_date": "2026-08-22",
+  "review_type": "felix_protective_cover_sequential_continuity_and_prompt_reaudit",
+  "previous_display_frame_set": "critical_reaudit_regen_v1_2026-08-14",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot017",
+  "next_shot": "Shot019",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Felix/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+    "source_refs/Shot018_source.png"
+  ],
+  "prior_v1_rejection": [
+    "The frozen v1 frames showed a general ready stance but did not make Felix's physical cover of Ashe and the incoming strike read as one clear action.",
+    "The old executable prompt carried unrelated Byleth, Rhea, Catherine, and Lonato locks that could contaminate generation despite this shot containing only Felix and Ashe."
+  ],
+  "passes": [
+    "START directly receives Shot017 v2's lowered-bow Ashe state and uses the open right-side lane for Felix's entry.",
+    "Only canonical academy Felix and Ashe are readable in all three frames.",
+    "KEY clearly shows Felix between Ashe and danger, with one plain offscreen weapon edge meeting the drawn sword.",
+    "The defensive contact is non-graphic: no attacker face, injury, blood, impact flash, or second attack.",
+    "END lowers the sword into a guarded diagonal and leaves Ashe behind Felix rather than turning the beat into a victory pose.",
+    "A calm fog lane remains for the cut to Shot019's support line; support characters do not enter early.",
+    "The three frames are integrated live-action candidates with shared scale, contact shadows, fog, and wet-ground interaction.",
+    "START, KEY, and END are distinct action states rather than lighting or crop variants.",
+    "The executable video prompt is upload-only and requires Japanese dialogue only."
+  ],
+  "monitor_risks": [
+    "A motion model may fail to keep Felix between Ashe and the unseen threat; inspect body lane and sword line.",
+    "Sword geometry may mutate during the brief contact; inspect the blade and hands in the 3-second probe.",
+    "Ashe may raise or fire the bow after the block; reject if he overtakes Felix or loses the lowered-bow continuity.",
+    "The unseen weapon must remain unidentified and non-graphic.",
+    "Japanese dialogue timing, no subtitles, and no Chinese/Mandarin voice must survive generation."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Felix fails to cover Ashe or the frame becomes a posed lineup",
+    "the block becomes a killing blow, visible wound, gore, impact flash, or repeated attack",
+    "Ashe fires, overtakes Felix, or loses the lowered-bow state",
+    "a named attacker or any unrelated character appears",
+    "Chinese/Mandarin voice, subtitles, UI, borders, or a pasted collage appear"
+  ]
+}

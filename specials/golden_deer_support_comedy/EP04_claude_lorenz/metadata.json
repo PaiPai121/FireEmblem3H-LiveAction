@@ -1,0 +1,16 @@
+{
+  "episode": "GDSC-EP04",
+  "title": "Claude x Lorenz - Lorenz Suspects Claude Again",
+  "support_pair": "Claude x Lorenz",
+  "support_rank": "C excerpt",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/クロード(レスター諸侯同盟)#ローレンツ",
+    "https://fireemblem.fandom.com/wiki/Lorenz_(Three_Houses)/Supports#With_Claude"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "total_duration_seconds": 60,
+  "shot_count": 4,
+  "target_model": "Seedance",
+  "status": "approved_for_video"
+}

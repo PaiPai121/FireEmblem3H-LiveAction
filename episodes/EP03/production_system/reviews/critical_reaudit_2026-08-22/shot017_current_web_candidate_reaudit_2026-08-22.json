@@ -1,0 +1,55 @@
+{
+  "shot_id": "Shot017",
+  "review_date": "2026-08-22",
+  "review_type": "ashe_crest_recognition_sequential_continuity_and_prompt_reaudit",
+  "previous_display_frame_set": "critical_reaudit_regen_v1_2026-08-20",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot016",
+  "next_shot": "Shot018",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+    "storyboards/Shot018/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+    "source_refs/Shot017_source.png"
+  ],
+  "prior_v1_rejection": [
+    "The frozen v1 END repeated Shot016's raised stop-hand gesture, weakening the cut-to-cut action logic.",
+    "The recognition object and Ashe's physical change of state were not focused tightly enough for the beat to read immediately."
+  ],
+  "passes": [
+    "START receives Shot016 v2's wet battlefield, blue-banner, and eyeline continuity without importing Dimitri or Dedue.",
+    "Female Byleth is the only Byleth identity and remains in the covered academy professor silhouette.",
+    "The physical shield and worn heraldic mark are readable as an object, without glowing UI or readable text.",
+    "KEY focuses Ashe's eye-line on the emblem and softens the bowstring without firing.",
+    "Regenerated END makes the state change explicit: bow nearly vertical, string visibly slack, drawing hand open, shoulders turned back toward Byleth.",
+    "END keeps Felix absent and leaves a right-side entry lane for frozen Shot018 START.",
+    "The three frames are integrated live-action candidates with shared scale, contact shadows, fog, and wet-ground interaction.",
+    "START, KEY, and END are distinct action states rather than lighting or crop variants.",
+    "The executable video prompt is upload-only and requires Japanese dialogue only."
+  ],
+  "monitor_risks": [
+    "A motion model may make Ashe fire reflexively or keep the bow taut after recognition; inspect the string and hands through END.",
+    "Byleth's female academy identity must remain stable in the midground and during the final turn-back.",
+    "The worn shield emblem must remain physical and non-textual during camera movement.",
+    "The right-side lane must remain open until the cut so Felix can enter only in Shot018.",
+    "Japanese dialogue timing, no subtitles, and no Chinese/Mandarin voice must survive generation."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Byleth becomes male, ambiguous, adult, war-phase, or sexualized",
+    "Ashe fires, causes an impact, ages up, or remains taut and combat-ready through END",
+    "Shot016's raised stop-hand gesture repeats",
+    "Felix enters before Shot018 or the right-side lane is closed",
+    "the shield mark becomes readable text, glowing magic, UI, subtitles, Chinese/Mandarin voice, borders, or a pasted collage"
+  ]
+}

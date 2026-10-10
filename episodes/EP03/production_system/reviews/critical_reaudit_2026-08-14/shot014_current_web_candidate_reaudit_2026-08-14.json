@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-14",
+  "mode": "continued_current_web_visual_reaudit",
+  "review_surface": "file:///Users/zekun/FireEmblem3H-LiveAction/index.html#storyboardView",
+  "shot": "Shot014",
+  "previous_display_status": "unsafe_identity_monitor_candidate",
+  "new_display_frame_set": "critical_reaudit_regen_v1",
+  "contact_sheet": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/contact_sheet.jpg",
+  "decision": "monitor_required",
+  "reason": "Previous foreground defender did not match local Dedue selected asset closely enough. New frame set restores Dedue identity and the first-arrow shield beat, but remains motion-probe-only.",
+  "global_rejects_carried_forward": [
+    "Japanese voice only when dialogue exists",
+    "no Chinese voice",
+    "no subtitles",
+    "no UI or watermarks",
+    "no pasted cutout look",
+    "no body wound or blood effect for this shield impact",
+    "do not mark approved_for_video until motion probe, prompt QA, and continuity pass"
+  ]
+}

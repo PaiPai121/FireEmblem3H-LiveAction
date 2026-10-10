@@ -1,0 +1,14 @@
+{
+  "id": "shot024_current_web_candidate_reaudit_2026-08-14",
+  "decision": "replaced_monitor_required",
+  "old_current_display_frame_set": "local_asset_final_candidate_v1",
+  "new_current_display_frame_set": "critical_reaudit_regen_v1",
+  "reason": "Old current web candidate did not clearly read as canonical female Byleth after user locked EP03 to female Byleth only.",
+  "new_frames": {
+    "start": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+    "key": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+    "end": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+  },
+  "contact_sheet": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/contact_sheet.jpg",
+  "status": "monitor_required"
+}

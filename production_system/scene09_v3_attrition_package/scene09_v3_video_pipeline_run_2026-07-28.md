@@ -1,0 +1,234 @@
+# Scene09 V3 Video Pipeline Run
+
+Date: 2026-07-28
+Decision: monitor_handoff_ready_clips_pending
+Mode: dry_run
+Model CLI configured: no
+Final output: `episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4`
+
+## Status
+
+- Highest completed target: prompt_asset_package
+- Expected clips: 42
+- Ready clips: 0
+- Missing clips: 42
+- Failed clips: 0
+- Generated clip structural audit: clips_pending
+- Battle ledger timeline: battle_ledger_timeline_passed
+- Execution asset integrity: execution_asset_integrity_passed
+- Execution assets ready: 42/42
+- Attrition visibility timeline: attrition_visibility_timeline_passed
+- Motion review assets: clips_pending
+- Motion review frames extracted: 0
+- Motion review decisions: clips_pending
+- Motion review passed: 0
+- Clip revision queue: clip_generation_or_revision_actions_required
+- Actionable revision/generation shots: 42
+- Motion self-audit packet: motion_self_audit_packet_ready
+- Motion self-audit evidence contract: motion_self_audit_evidence_contract_passed
+- Motion self-audit unsigned evidence rejection: motion_self_audit_unsigned_evidence_rejection_passed
+- Clip ingest report: clip_ingest_no_matching_sources
+- Proxy animatic clips: proxy_animatic_reference_ready
+- Model submission batches: model_submission_batches_ready
+- Model submission batch audit: model_submission_batches_ready_for_provider_upload
+- Model submission index: model_submission_index_file_access_passed
+- Model CLI template audit: model_cli_template_not_configured
+- Model CLI template positive contract: model_cli_template_positive_contract_passed
+- High-risk contact sheet ASCII: high_risk_contact_sheet_ascii_passed
+- Frame evidence audit: frame_evidence_audit_passed_monitor_required
+- Submission contract gate: submission_contract_gate_passed
+- Provider upload bundles: provider_upload_bundles_ready; executable negative semantics 84
+- Provider submission freshness gate: provider_submission_freshness_passed
+- Full-duration release gate: full_duration_release_blocked_probe_review_pending; can release no
+- Narrative hard constraints: narrative_hard_constraints_passed
+- Executable prompt semantics: executable_prompt_semantics_passed
+- Actual delivery surface audit: actual_delivery_surface_passed
+- Current status consistency gate: current_status_consistency_blocked
+- Provider preflight consistency gate: provider_preflight_consistency_blocked
+- Clip return roundtrip: clip_return_roundtrip_passed
+- Clip provenance gate: clip_provenance_ready_clips_pending
+- After clip return resume positive contract: after_clip_return_resume_positive_contract_passed
+- After clip return fixture shape: nested_clip_return_intake_root_with_7_returned_mp4_dirs
+- Final concat positive contract: final_concat_positive_contract_passed
+- Final edit positive contract: final_edit_positive_contract_passed
+- Video generation run positive contract: video_generation_run_positive_contract_passed
+- Positive contract isolation gate: positive_contract_isolation_passed
+- Production delivery truth gate: production_delivery_truth_blocked_clips_pending
+- Report freshness gate: report_freshness_blocked
+- Proxy misuse gate: proxy_isolation_passed_clips_pending
+- Final concat gate: final_concat_blocked_clips_pending
+- Final edit structural audit: final_edit_pending
+- Video generation run completion audit: video_generation_run_blocked_clips_pending
+
+## Steps
+
+- PASS build_attrition_prompt_package
+- PASS restore_hanneman_lane_shims_after_prompt_build
+- PASS apply_hanneman_lane_contract_after_prompt_build
+- PASS apply_golden_deer_weapon_contract_after_prompt_build
+- PASS apply_blue_lions_core_victory_contract_after_prompt_build
+- PASS build_monitor_handoff_package
+- PASS restore_hanneman_lane_shims_after_monitor_handoff
+- PASS apply_hanneman_lane_contract_after_monitor_handoff
+- PASS apply_golden_deer_weapon_contract_after_monitor_handoff
+- PASS apply_blue_lions_core_victory_contract_after_monitor_handoff
+- PASS sync_delivery_payload_after_current_contracts
+- PASS restore_hanneman_lane_shims_after_sync
+- PASS apply_hanneman_lane_contract_after_sync
+- PASS sync_delivery_payload_after_034b_current_patch
+- PASS audit_shot034b_source_contract
+- PASS sync_delivery_payload_after_shot034b_source_contract
+- PASS build_battle_ledger_timeline
+- PASS build_execution_asset_integrity
+- PASS build_proxy_animatic_clips
+- PASS build_main_gallery
+- PASS patch_main_gallery_current_034b
+- PASS build_clip_review_gallery
+- PASS build_model_submission_batches
+- PASS build_model_submission_index
+- PASS patch_model_submission_index_current_034b
+- PASS build_p0_reference_boards_chinese_titles
+- PASS audit_p0_reference_boards_chinese_titles
+- PASS build_motion_probe_operator_tracker_before_web_media_refs
+- PASS audit_motion_probe_operator_tracker_before_web_media_refs
+- PASS build_motion_probe_submission_manifest_before_web_media_refs
+- PASS build_motion_probe_upload_pack_before_web_media_refs
+- PASS build_ep02_storyboard_data_before_web_media_refs
+- PASS validate_main_panel_smoke_before_handoff_index
+- PASS audit_ep02_web_battle_event_panel_before_handoff_index
+- PASS audit_ep02_web_media_refs_before_handoff_index
+- PASS audit_web_submission_prompt_surface_before_handoff_index
+- PASS build_operator_next_steps_before_handoff_index
+- PASS audit_handoff_control_reports_before_handoff_index
+- PASS build_handoff_index
+- PASS patch_handoff_index_current_034b
+- PASS sync_delivery_payload_after_index_patches
+- PASS rebuild_model_submission_batches_after_index_patches
+- PASS rebuild_model_submission_index_after_index_patches
+- PASS rebuild_operator_next_steps_after_index_patches
+- PASS rebuild_audit_handoff_control_reports_after_index_patches
+- PASS rebuild_handoff_index_after_index_patches
+- PASS audit_web_submission_prompt_surface_after_handoff_index
+- PASS rebuild_handoff_index_after_web_submission_prompt_surface
+- PASS audit_model_prompts
+- PASS audit_model_prompt_completeness
+- PASS audit_e2e_consistency
+- PASS audit_video_prompt_contract
+- PASS audit_submission_payload
+- PASS audit_submission_contract_gate
+- PASS build_high_risk_contact_sheet_ascii
+- PASS build_frame_evidence_audit
+- PASS build_per_frame_visual_review_matrix
+- PASS audit_per_frame_visual_review_matrix
+- PASS audit_model_submission_batches
+- PASS audit_model_submission_index
+- PASS audit_execution_asset_integrity
+- PASS audit_story_constraints
+- PASS audit_narrative_hard_constraints
+- PASS audit_executable_prompt_semantics
+- PASS audit_prompt_frame_consistency
+- PASS audit_actual_delivery_surface
+- PASS audit_battle_ledger_timeline
+- PASS audit_attrition_visibility_timeline
+- PASS audit_html_battle_ledgers
+- PASS audit_gallery_links
+- PASS audit_clip_review_links
+- PASS audit_handoff_index
+- PASS audit_model_cli_template
+- PASS audit_model_cli_template_positive_contract
+- PASS runner_dry_run_temp_package
+- PASS audit_full_duration_release_gate_before_execute
+- PASS audit_generated_clips
+- PASS build_clip_motion_review_assets
+- PASS audit_clip_motion_review_assets_html
+- PASS build_clip_motion_review_decision_template
+- PASS audit_clip_motion_review_decisions
+- PASS build_clip_revision_queue
+- PASS refresh_clip_review_after_clip_audit
+- PASS refresh_main_gallery_after_clip_audit
+- PASS patch_main_gallery_after_clip_audit_current_034b
+- PASS refresh_operator_next_steps_after_clip_audit
+- PASS refresh_handoff_index_after_clip_audit
+- PASS patch_handoff_index_after_clip_audit_current_034b
+- PASS audit_handoff_index_after_refresh
+- PASS completion_prompt_asset_package
+- EXPECTED BLOCK completion_video_generation_package_expected_monitor_block - video_generation_package is expected to remain blocked while clips are pending and motion review is monitor_required
+- PASS finalize_shot034b_current_surfaces
+- PASS build_operator_execution_profile_after_report
+- PASS build_provider_upload_bundles_after_report
+- PASS audit_provider_upload_bundles_after_report
+- PASS audit_provider_submission_freshness_after_provider_bundles
+- PASS build_clip_return_intake_after_report
+- PASS audit_clip_return_intake_after_report
+- PASS audit_clip_return_roundtrip_after_report
+- PASS audit_model_cli_execution_provenance_after_roundtrip
+- PASS audit_clip_provenance_gate_after_roundtrip
+- PASS build_motion_self_audit_packet_after_report
+- PASS audit_motion_self_audit_packet_after_report
+- PASS audit_motion_self_audit_evidence_contract_after_packet
+- PASS audit_motion_self_audit_unsigned_evidence_rejection
+- PASS audit_motion_self_audit_apply_positive_contract
+- EXPECTED BLOCK audit_motion_self_audit_apply_gate_after_report - motion self-audit apply gate must block until returned clips and signed review frames exist
+- PASS audit_after_clip_return_resume_positive_contract
+- PASS audit_final_concat_positive_contract
+- PASS audit_final_edit_positive_contract
+- PASS audit_video_generation_run_positive_contract
+- PASS audit_positive_contract_isolation_gate
+- PASS audit_final_concat_gate_after_report
+- PASS audit_final_edit_structural_after_report
+- PASS audit_proxy_misuse_gate_after_report
+- FAIL audit_report_freshness_gate_after_report
+- PASS audit_video_generation_run_completion_after_report
+- PASS refresh_operator_execution_profile_after_completion_audit
+- PASS refresh_operator_next_steps_after_completion_audit
+- PASS refresh_handoff_index_after_downstream_audits
+- PASS patch_handoff_index_after_downstream_audits_current_034b
+- PASS final_sync_submission_entrypoints_after_current_patches
+- PASS final_rebuild_model_submission_batches_after_submission_sync
+- PASS final_rebuild_model_submission_index_after_submission_sync
+- PASS final_rebuild_provider_upload_bundles_after_submission_sync
+- PASS final_audit_model_submission_batches_after_submission_sync
+- PASS final_audit_model_submission_index_after_submission_sync
+- PASS final_audit_provider_upload_bundles_after_submission_sync
+- PASS final_audit_provider_submission_freshness_gate
+- PASS final_audit_submission_contract_gate
+- FAIL final_audit_report_freshness_gate
+- PASS final_audit_video_generation_run_completion
+- PASS final_audit_production_delivery_truth_gate
+- PASS final_refresh_after_clip_return_resume_snapshot
+- FAIL final_audit_report_freshness_gate_after_resume_snapshot
+- PASS final_refresh_operator_execution_profile
+- FAIL final_audit_provider_preflight_consistency_gate
+- PASS final_audit_ep02_web_media_refs_before_handoff_refresh
+- PASS final_build_motion_probe_operator_tracker_before_storyboard_rebuild
+- PASS final_audit_motion_probe_operator_tracker_before_storyboard_rebuild
+- PASS final_build_motion_probe_submission_manifest_before_storyboard_rebuild
+- PASS final_build_motion_probe_upload_pack_before_storyboard_rebuild
+- PASS final_build_ep02_storyboard_data_before_web_media_refs
+- PASS final_validate_main_panel_smoke_before_handoff_refresh
+- PASS final_audit_ep02_web_battle_event_panel_before_handoff_refresh
+- PASS final_audit_ep02_web_media_refs_after_storyboard_rebuild
+- PASS final_audit_web_submission_prompt_surface_after_storyboard_rebuild
+- PASS final_refresh_operator_next_steps_after_media_refs
+- PASS final_audit_handoff_control_reports_after_operator_next_steps
+- PASS final_refresh_handoff_index_after_submission_sync
+- PASS final_audit_web_submission_prompt_surface_after_handoff_refresh
+- PASS final_refresh_handoff_index_after_web_submission_prompt_surface
+- PASS audit_handoff_index_after_downstream_audits
+- FAIL final_audit_current_status_consistency_gate
+- FAIL final_audit_report_freshness_gate_after_status_consistency
+- PASS final_audit_video_generation_run_completion_after_status_freshness
+- FAIL final_fixed_point_current_status_after_completion
+- FAIL final_fixed_point_report_freshness_after_status
+- PASS final_audit_production_delivery_truth_gate_after_completion
+- PASS final_refresh_operator_next_steps_after_truth_gate
+- PASS final_refresh_handoff_index_after_truth_gate
+- PASS final_audit_web_submission_prompt_surface_after_truth_gate_handoff_refresh
+- PASS final_refresh_handoff_index_after_truth_gate_web_submission_prompt_surface
+- PASS audit_handoff_index_after_truth_gate
+
+## Notes
+
+- No VIDEO_MODEL_CLI_ARGV_JSON is configured, so no external video model was executed.
+- Final video generation remains pending until all 42 expected clips exist and pass clip file QA.
+- Clip motion review start/mid/end frame assets are pending because no real clips exist yet.

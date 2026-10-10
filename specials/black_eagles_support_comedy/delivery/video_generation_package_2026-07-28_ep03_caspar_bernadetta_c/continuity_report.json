@@ -1,0 +1,47 @@
+{
+  "status": "strict_continuity_passed",
+  "pairs": [
+    {
+      "pair": "BE-SC-EP03-SH001->BE-SC-EP03-SH002",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      }
+    },
+    {
+      "pair": "BE-SC-EP03-SH002->BE-SC-EP03-SH003",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      }
+    },
+    {
+      "pair": "BE-SC-EP03-SH003->BE-SC-EP03-SH004",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      }
+    }
+  ]
+}

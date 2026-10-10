@@ -1,0 +1,53 @@
+{
+  "shot_id": "Shot015",
+  "review_date": "2026-08-22",
+  "review_type": "critical_reaudit_sequential_continuity_and_source_beat",
+  "previous_display_frame_set": "critical_reaudit_regen_v2_2026-08-20",
+  "current_display_frame_set": "critical_reaudit_regen_v3_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot014",
+  "next_shot": "Shot016",
+  "source_video_evidence": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/per_shot/Shot015/Shot015_local_video_source_evidence_2026-08-01.jpg",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png",
+    "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png",
+    "storyboards/Shot016/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "source_refs/Shot015_source.png"
+  ],
+  "prior_v2_rejection": [
+    "The prior v2 placed Byleth inside the rebel-pressure shot even though the source beat and shot list are about the vanguard entering through fog.",
+    "The prior v2 made the camera relationship to the frozen Shot014 arrow impact and the Shot016 counterline too abstract."
+  ],
+  "passes": [
+    "START carries a blurred blue shield/arrow foreground echo from the frozen Shot014 END.",
+    "The vanguard is limited to four or five human Western Church foot soldiers with visible depth and non-clone staging.",
+    "The primary soldier uses the local SeirosSoldier identity and church tabard/helmet/shield language.",
+    "START, KEY, and END are distinct action states: entering, bracing, and holding the pressure limit.",
+    "END preserves a rightward spear lane and negative space for the frozen Shot016 Dimitri counterline.",
+    "No Byleth or other named character appears in Shot015; female Byleth remains locked for her first appearance in Shot016.",
+    "The executable video prompt remains upload-only and specifies Japanese dialogue only."
+  ],
+  "monitor_risks": [
+    "Motion must preserve the four-to-five-person scale and avoid a clone wall or endless army.",
+    "The lower-left arrow/shield echo must remain an environmental continuity cue, not reveal a named character.",
+    "The spear must remain a held directional threat and must not strike before Shot016.",
+    "Japanese chant timing, no subtitles, and no Chinese/Mandarin voice must survive motion generation."
+  ],
+  "required_next_gate": "3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "named character enters Shot015 early",
+    "the vanguard becomes a flat row, clone wall, endless army, or generic raiders",
+    "the arrow/shield impact echo disappears",
+    "the right-side Shot016 handoff lane is closed or screen direction reverses",
+    "Chinese/Mandarin voiceover, subtitles, UI, borders, or magic appear"
+  ]
+}

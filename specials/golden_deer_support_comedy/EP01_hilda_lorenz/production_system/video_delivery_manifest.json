@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "project": "EP01_hilda_lorenz",
+  "package_id": "video_generation_package_2026-07-28",
+  "episode": "GDSC-EP01",
+  "shots": [
+    {
+      "id": "GDSC01-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC01-SH001_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC01-SH001_negative_prompt.md",
+      "start_frame": "storyboards/GDSC01-SH001/start_frame.png",
+      "key_frame": "storyboards/GDSC01-SH001/key_frame.png",
+      "end_frame": "storyboards/GDSC01-SH001/end_frame.png",
+      "expected_clip": "clips/GDSC01-SH001.mp4",
+      "edit_in": "cut from monastery room tone",
+      "edit_out": "cut on Hilda's helpless pause",
+      "audio_anchor": "Hilda's teasing greeting opens the scene.",
+      "continuity_previous": "",
+      "continuity_next": "GDSC01-SH002",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Hilda looks malicious",
+        "Lorenz becomes a parody",
+        "characters look war-era or older"
+      ]
+    },
+    {
+      "id": "GDSC01-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC01-SH002_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC01-SH002_negative_prompt.md",
+      "start_frame": "storyboards/GDSC01-SH002/start_frame.png",
+      "key_frame": "storyboards/GDSC01-SH002/key_frame.png",
+      "end_frame": "storyboards/GDSC01-SH002/end_frame.png",
+      "expected_clip": "clips/GDSC01-SH002.mp4",
+      "edit_in": "match cut from Lorenz's receptive posture",
+      "edit_out": "cut before Hilda names the favor",
+      "audio_anchor": "Lorenz's offer to solve any problem.",
+      "continuity_previous": "GDSC01-SH001",
+      "continuity_next": "GDSC01-SH003",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Hilda seems genuinely frightened",
+        "Lorenz ignores her",
+        "extra students become focus"
+      ]
+    },
+    {
+      "id": "GDSC01-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC01-SH003_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC01-SH003_negative_prompt.md",
+      "start_frame": "storyboards/GDSC01-SH003/start_frame.png",
+      "key_frame": "storyboards/GDSC01-SH003/key_frame.png",
+      "end_frame": "storyboards/GDSC01-SH003/end_frame.png",
+      "expected_clip": "clips/GDSC01-SH003.mp4",
+      "edit_in": "cut on Hilda finally asking",
+      "edit_out": "cut on Hilda's sudden smile",
+      "audio_anchor": "Lorenz says he will keep Hilda from danger.",
+      "continuity_previous": "GDSC01-SH002",
+      "continuity_next": "GDSC01-SH004",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "battle starts inside the shot",
+        "Hilda looks manipulative or mean",
+        "subtitles appear"
+      ]
+    },
+    {
+      "id": "GDSC01-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC01-SH004_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC01-SH004_negative_prompt.md",
+      "start_frame": "storyboards/GDSC01-SH004/start_frame.png",
+      "key_frame": "storyboards/GDSC01-SH004/key_frame.png",
+      "end_frame": "storyboards/GDSC01-SH004/end_frame.png",
+      "expected_clip": "clips/GDSC01-SH004.mp4",
+      "edit_in": "cut from Hilda's delighted face",
+      "edit_out": "hold on Hilda's amused exit",
+      "audio_anchor": "Lorenz's full-name request is the comic peak.",
+      "continuity_previous": "GDSC01-SH003",
+      "continuity_next": "",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Lorenz looks foolish instead of proud",
+        "Hilda eats on camera in a messy way",
+        "new conflict is introduced"
+      ]
+    }
+  ]
+}

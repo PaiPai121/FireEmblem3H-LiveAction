@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "scenes": [
+    {"id": "EP03", "title": "雾中的叛乱", "shot_count": 36}
+  ],
+  "shot_order": [
+    "Shot001", "Shot002", "Shot003", "Shot004", "Shot005", "Shot006",
+    "Shot007", "Shot008", "Shot009", "Shot010", "Shot011", "Shot012",
+    "Shot013", "Shot014", "Shot015", "Shot016", "Shot017", "Shot018",
+    "Shot019", "Shot020", "Shot021", "Shot022", "Shot023", "Shot024",
+    "Shot025", "Shot026", "Shot027", "Shot028", "Shot029", "Shot030",
+    "Shot031", "Shot032", "Shot033", "Shot034", "Shot035", "Shot036"
+  ],
+  "transitions": []
+}

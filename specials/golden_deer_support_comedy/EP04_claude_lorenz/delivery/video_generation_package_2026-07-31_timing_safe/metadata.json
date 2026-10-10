@@ -1,0 +1,12 @@
+{
+  "episode": "EP04_claude_lorenz",
+  "pair": "Claude x Lorenz",
+  "package_type": "timing_safe_video_generation_package",
+  "source_package": "delivery/video_generation_package_2026-07-28",
+  "shot_count": 9,
+  "frame_count": 27,
+  "total_duration_seconds": 82,
+  "max_shot_duration_seconds": 15,
+  "dialogue_timing_policy": "split original 15s parent shots into comfortable Seedance micro-shots; original Japanese line order preserved",
+  "no_subtitles_in_video_prompt": true
+}

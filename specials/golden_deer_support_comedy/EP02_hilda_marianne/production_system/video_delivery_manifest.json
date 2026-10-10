@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "project": "EP02_hilda_marianne",
+  "package_id": "video_generation_package_2026-07-28",
+  "episode": "GDSC-EP02",
+  "shots": [
+    {
+      "id": "GDSC02-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH001_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH001_negative_prompt.md",
+      "start_frame": "storyboards/GDSC02-SH001/start_frame.png",
+      "key_frame": "storyboards/GDSC02-SH001/key_frame.png",
+      "end_frame": "storyboards/GDSC02-SH001/end_frame.png",
+      "expected_clip": "clips/GDSC02-SH001.mp4",
+      "edit_in": "cut from quiet library ambience",
+      "edit_out": "cut as Hilda seeks agreement",
+      "audio_anchor": "Hilda's pastry complaint.",
+      "continuity_previous": "",
+      "continuity_next": "GDSC02-SH002",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "library gains modern signage",
+        "Marianne smiles broadly",
+        "Hilda looks cruel"
+      ]
+    },
+    {
+      "id": "GDSC02-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH002_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH002_negative_prompt.md",
+      "start_frame": "storyboards/GDSC02-SH002/start_frame.png",
+      "key_frame": "storyboards/GDSC02-SH002/key_frame.png",
+      "end_frame": "storyboards/GDSC02-SH002/end_frame.png",
+      "expected_clip": "clips/GDSC02-SH002.mp4",
+      "edit_in": "cut on Hilda inviting agreement",
+      "edit_out": "cut to Marianne alone",
+      "audio_anchor": "Hilda says she will only get in the way.",
+      "continuity_previous": "GDSC02-SH001",
+      "continuity_next": "GDSC02-SH003",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Marianne looks angry",
+        "Hilda shoves her",
+        "dialogue becomes bullying"
+      ]
+    },
+    {
+      "id": "GDSC02-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH003_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH003_negative_prompt.md",
+      "start_frame": "storyboards/GDSC02-SH003/start_frame.png",
+      "key_frame": "storyboards/GDSC02-SH003/key_frame.png",
+      "end_frame": "storyboards/GDSC02-SH003/end_frame.png",
+      "expected_clip": "clips/GDSC02-SH003.mp4",
+      "edit_in": "cut from Marianne alone",
+      "edit_out": "cut on Hilda deciding to show the method",
+      "audio_anchor": "Hilda's surprised line.",
+      "continuity_previous": "GDSC02-SH002",
+      "continuity_next": "GDSC02-SH004",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "books fly magically",
+        "Hilda yells viciously",
+        "Marianne becomes slapstick clown"
+      ]
+    },
+    {
+      "id": "GDSC02-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "prompt_path": "video_prompts/GDSC02-SH004_prompt.md",
+      "negative_prompt_path": "video_prompts/GDSC02-SH004_negative_prompt.md",
+      "start_frame": "storyboards/GDSC02-SH004/start_frame.png",
+      "key_frame": "storyboards/GDSC02-SH004/key_frame.png",
+      "end_frame": "storyboards/GDSC02-SH004/end_frame.png",
+      "expected_clip": "clips/GDSC02-SH004.mp4",
+      "edit_in": "cut on Hilda accepting responsibility",
+      "edit_out": "hold on tidy table and Hilda's sigh",
+      "audio_anchor": "Marianne's impressed reaction, then Hilda's punchline.",
+      "continuity_previous": "GDSC02-SH003",
+      "continuity_next": "",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Hilda looks smugly cruel",
+        "readable book text appears",
+        "subtitles appear"
+      ]
+    }
+  ]
+}

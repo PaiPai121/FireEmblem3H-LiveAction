@@ -1,0 +1,920 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "artifact_id": "BE-SC-OUTLINE",
+      "review_id": "BE-SC-OUTLINE-story-editor-agent-2026-07-28",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex-story-editor-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "canon_fidelity": "pass",
+        "visible_action": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-DIRECTOR-TREATMENT",
+      "review_id": "BE-SC-DIRECTOR-TREATMENT-direction-reviewer-agent-2026-07-28",
+      "reviewer_role": "direction-reviewer-agent",
+      "reviewer": "codex-direction-reviewer-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "staging": "pass",
+        "tone": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-SHOT-LIST",
+      "review_id": "BE-SC-SHOT-LIST-direction-reviewer-agent-2026-07-28",
+      "reviewer_role": "direction-reviewer-agent",
+      "reviewer": "codex-direction-reviewer-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "duration": "pass",
+        "shot_purpose": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-SHOT-LIST",
+      "review_id": "BE-SC-SHOT-LIST-cinematography-reviewer-agent-2026-07-28",
+      "reviewer_role": "cinematography-reviewer-agent",
+      "reviewer": "codex-cinematography-reviewer-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "camera_motivation": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "EP01-SCRIPT",
+      "review_id": "EP01-SCRIPT-story-editor-agent-2026-07-28",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex-story-editor-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "canon_fidelity": "pass",
+        "source_order": "pass",
+        "no_new_core_conflict": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH001",
+      "review_id": "BE-SC-EP01-SH001-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH001",
+      "review_id": "BE-SC-EP01-SH001-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH002",
+      "review_id": "BE-SC-EP01-SH002-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH002",
+      "review_id": "BE-SC-EP01-SH002-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH003",
+      "review_id": "BE-SC-EP01-SH003-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH003",
+      "review_id": "BE-SC-EP01-SH003-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH004",
+      "review_id": "BE-SC-EP01-SH004-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP01-SH004",
+      "review_id": "BE-SC-EP01-SH004-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "EP02-SCRIPT",
+      "review_id": "EP02-SCRIPT-story-editor-agent-2026-07-28",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex-story-editor-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "canon_fidelity": "pass",
+        "source_order": "pass",
+        "no_new_core_conflict": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH001",
+      "review_id": "BE-SC-EP02-SH001-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH001",
+      "review_id": "BE-SC-EP02-SH001-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH002",
+      "review_id": "BE-SC-EP02-SH002-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH002",
+      "review_id": "BE-SC-EP02-SH002-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH003",
+      "review_id": "BE-SC-EP02-SH003-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH003",
+      "review_id": "BE-SC-EP02-SH003-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH004",
+      "review_id": "BE-SC-EP02-SH004-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP02-SH004",
+      "review_id": "BE-SC-EP02-SH004-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "EP03-SCRIPT",
+      "review_id": "EP03-SCRIPT-story-editor-agent-2026-07-28",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex-story-editor-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "canon_fidelity": "pass",
+        "source_order": "pass",
+        "no_new_core_conflict": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH001",
+      "review_id": "BE-SC-EP03-SH001-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH001",
+      "review_id": "BE-SC-EP03-SH001-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH002",
+      "review_id": "BE-SC-EP03-SH002-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH002",
+      "review_id": "BE-SC-EP03-SH002-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH003",
+      "review_id": "BE-SC-EP03-SH003-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH003",
+      "review_id": "BE-SC-EP03-SH003-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH004",
+      "review_id": "BE-SC-EP03-SH004-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP03-SH004",
+      "review_id": "BE-SC-EP03-SH004-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "EP04-SCRIPT",
+      "review_id": "EP04-SCRIPT-story-editor-agent-2026-07-28",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex-story-editor-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "canon_fidelity": "pass",
+        "source_order": "pass",
+        "no_new_core_conflict": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH001",
+      "review_id": "BE-SC-EP04-SH001-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH001",
+      "review_id": "BE-SC-EP04-SH001-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH002",
+      "review_id": "BE-SC-EP04-SH002-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH002",
+      "review_id": "BE-SC-EP04-SH002-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH003",
+      "review_id": "BE-SC-EP04-SH003-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH003",
+      "review_id": "BE-SC-EP04-SH003-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH004",
+      "review_id": "BE-SC-EP04-SH004-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH004",
+      "review_id": "BE-SC-EP04-SH004-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH005",
+      "review_id": "BE-SC-EP04-SH005-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH005",
+      "review_id": "BE-SC-EP04-SH005-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH006",
+      "review_id": "BE-SC-EP04-SH006-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH006",
+      "review_id": "BE-SC-EP04-SH006-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH007",
+      "review_id": "BE-SC-EP04-SH007-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH007",
+      "review_id": "BE-SC-EP04-SH007-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH008",
+      "review_id": "BE-SC-EP04-SH008-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH008",
+      "review_id": "BE-SC-EP04-SH008-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH009",
+      "review_id": "BE-SC-EP04-SH009-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH009",
+      "review_id": "BE-SC-EP04-SH009-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH010",
+      "review_id": "BE-SC-EP04-SH010-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH010",
+      "review_id": "BE-SC-EP04-SH010-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH011",
+      "review_id": "BE-SC-EP04-SH011-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH011",
+      "review_id": "BE-SC-EP04-SH011-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH012",
+      "review_id": "BE-SC-EP04-SH012-production-manager-agent-2026-07-28",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-agent",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "integrity": "pass",
+        "duration": "pass",
+        "no_subtitles": "pass"
+      },
+      "reviewed_paths": []
+    },
+    {
+      "artifact_id": "BE-SC-EP04-SH012",
+      "review_id": "BE-SC-EP04-SH012-motion-qa-agent-2026-07-28",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-motion-qa-agent",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_locks": "pass",
+        "no_placeholders": "pass",
+        "required_probe": "3-second identity and wardrobe probe before full run"
+      },
+      "reviewed_paths": []
+    }
+  ]
+}

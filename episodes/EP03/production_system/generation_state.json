@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "project": "EP03",
+  "status": "partial",
+  "frames_required": true,
+  "expected_frames": 108,
+  "completed_frames": 108,
+  "reviewed_frames": 108,
+  "last_completed": "Shot036/end",
+  "last_updated": "2026-09-10",
+  "updated_at": "2026-09-10T12:00:00.000Z",
+  "stop_reason": "motion_probe_pending; video_model_cli_not_configured",
+  "review_state": "static_frames_visually_reviewed; prompt_against_frame_and_motion_probe_pending",
+  "queue": {
+    "frame_generation_queue": "frame_generation_queue.json",
+    "delivery_manifest": "production_system/video_delivery_manifest.json",
+    "prompt_qa_review": "production_system/reviews/video_prompt_qa_2026-08-27.json",
+    "motion_probe_queue": "delivery/motion_probe_package_2026-08-10/submission_queue.json",
+    "status": "partial",
+    "expected_frames": 108,
+    "completed_frames": 108,
+    "reviewed_frames": 108,
+    "pending_downstream": "3-second motion probes and native Japanese audio verification"
+  },
+  "reboard": {
+    "revision": "manga_readability_reboard_v1_2026-09-09",
+    "queue_file": "production_system/reboard_generation_queue_2026-09-09.json",
+    "shot_ids": [
+      "Shot025",
+      "Shot026",
+      "Shot027",
+      "Shot028",
+      "Shot029"
+    ],
+    "expected_frames": 15,
+    "completed_frames": 15,
+    "reviewed_frames": 0,
+    "status": "promoted_to_current_pending_downstream_qa",
+    "prerequisite": "rough_readability_thumbnail_passed"
+  },
+  "external_film_staging_reboard": {
+    "revision": "external_film_staging_reboard_v1_2026-09-10",
+    "queue_file": "production_system/reboard_generation_queue_2026-09-10.json",
+    "shot_ids": [
+      "Shot030",
+      "Shot031",
+      "Shot032",
+      "Shot033",
+      "Shot034",
+      "Shot035",
+      "Shot036"
+    ],
+    "expected_frames": 21,
+    "completed_frames": 21,
+    "reviewed_frames": 21,
+    "status": "promoted_to_current_pending_downstream_qa",
+    "prerequisite": "rough_external_film_staging_thumbnail_passed",
+    "method_references": [
+      {
+        "title": "Disney Animation Story",
+        "url": "https://www.disneyanimation.com/process/story/",
+        "lesson": "thumbnail narrative, emotion, timing, staging, and framing before final layout"
+      },
+      {
+        "title": "Disney Animation Layout",
+        "url": "https://disneyanimation.com/process/layout/",
+        "lesson": "stage characters, sets, props, camera, point of view, cut relation, and continuity shot by shot"
+      },
+      {
+        "title": "Academy: How To Storyboard Star Trek",
+        "url": "https://www.oscars.org/news/how-storyboard-star-trek",
+        "lesson": "make approach, conflict, recovery, and payoff legible as a physical sequence"
+      },
+      {
+        "title": "Star Wars Jedi Videomatics",
+        "url": "https://www.starwars.com/video/jedi-videomatics-a-moving-storyboard",
+        "lesson": "test screen direction, action flow, and edit rhythm before final imagery"
+      },
+      {
+        "title": "ILM Art Department: Concept Art and Storyboarding",
+        "url": "https://www.ilm.com/ilm-evolutions-50-concept-art-storyboarding/",
+        "lesson": "treat storyboards as an action and logistics blueprint"
+      },
+      {
+        "title": "Jump Manga School Lecture 3",
+        "url": "https://jump-manga-school.hatenablog.com/entry/03",
+        "lesson": "use wide views for position and distance, closer views for hands and emotion, and keep each panel instantly readable"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "total_duration_seconds": 60,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "GDSC04-SH001",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH001.mp4",
+      "edit_in": "cut from quiet cloister ambience",
+      "edit_out": "cut on Lorenz naming the suspicious wandering"
+    },
+    {
+      "order": 2,
+      "shot": "GDSC04-SH002",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH002.mp4",
+      "edit_in": "cut from Lorenz's pointing gesture",
+      "edit_out": "cut to Claude's history distraction"
+    },
+    {
+      "order": 3,
+      "shot": "GDSC04-SH003",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH003.mp4",
+      "edit_in": "cut from Claude's innocent palms",
+      "edit_out": "cut on Lorenz rejecting the distraction"
+    },
+    {
+      "order": 4,
+      "shot": "GDSC04-SH004",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH004.mp4",
+      "edit_in": "cut from failed distraction",
+      "edit_out": "hold on Claude's knowing grin"
+    }
+  ]
+}

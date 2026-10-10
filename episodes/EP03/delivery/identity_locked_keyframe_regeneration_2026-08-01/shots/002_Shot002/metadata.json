@@ -1,0 +1,84 @@
+{
+  "id": "Shot002",
+  "order": 2,
+  "scene": "晨钟与修道院",
+  "purpose": "建立本章从学院日常转入教会军事命令。",
+  "duration_seconds": 10,
+  "characters": [
+    "Byleth"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot002_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot002_identity_comparison_2026-07-31.jpg",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot002/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot002/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot002/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {
+    "start": "episodes/EP03/storyboards/Shot002/start_frame_imagegen_candidate_2026-07-29.png",
+    "key": "episodes/EP03/storyboards/Shot002/key_frame_imagegen_candidate_2026-07-29.png",
+    "end": "episodes/EP03/storyboards/Shot002/end_frame_imagegen_candidate_2026-07-29.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot002/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+  },
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {
+    "start": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/local_asset_locked_regen_v1_2026-08-01/start_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "key": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/local_asset_locked_regen_v1_2026-08-01/key_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "end": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/local_asset_locked_regen_v1_2026-08-01/end_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "review_sheet": "episodes/EP03/production_system/reviews/shot002_local_asset_locked_regen_v1_review_2026-08-01.jpg",
+    "review_markdown": "episodes/EP03/production_system/reviews/shot002_local_asset_locked_regen_v1_review_2026-08-01.md"
+  },
+  "source_reference": "episodes/EP03/source_refs/Shot002_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot002_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot002_negative_prompt.md",
+  "revised_prompt_paths": {
+    "start_prompt": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/start_frame_prompt_v2_2026-08-01.md",
+    "key_prompt": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/key_frame_prompt_v2_2026-08-01.md",
+    "end_prompt": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/end_frame_prompt_v2_2026-08-01.md",
+    "video_prompt": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/video_prompt_v2_2026-08-01.md",
+    "negative_prompt": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/negative_prompt_v2_2026-08-01.md"
+  },
+  "frame_spec_path": "episodes/EP03/storyboards/Shot002/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot002/metadata.json",
+  "expected_outputs": {
+    "start": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/local_asset_locked_regen_v1_2026-08-01/start_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "key": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/local_asset_locked_regen_v1_2026-08-01/key_frame_local_asset_locked_regen_v1_2026-08-01.png",
+    "end": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/local_asset_locked_regen_v1_2026-08-01/end_frame_local_asset_locked_regen_v1_2026-08-01.png"
+  },
+  "generation_status": "candidate_frames_generated_visual_review_passed",
+  "delivery_status": "layout_reference",
+  "visual_audit_decision": "layout_reference",
+  "required_revision": "Regenerate or composite from local Byleth selected.png/face plate with a visible identity match before any visual_review_passed promotion.",
+  "video_prompt_qa_decision": "blocked_until_local_asset_truth_audit_passes",
+  "motion_probe_status": "blocked_until_local_asset_truth_audit_passes",
+  "motion_probe_plan": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/motion_probe_plan_v2_2026-08-01.md",
+  "video_prompt_v2": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/video_prompt_v2_2026-08-01.md",
+  "negative_prompt_v2": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/002_Shot002/negative_prompt_v2_2026-08-01.md",
+  "edit_in": "cut from dream eye closeup",
+  "edit_out": "match cut to council doors",
+  "audio_anchor": "Morning bell, footsteps, and distant armor. No spoken dialogue.",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 晨钟与修道院; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: 加尔古玛库晨雾、钟楼、学生穿过回廊，远处教会骑士集合。",
+    "end": "Land on the state needed for the next cut: match cut to council doors."
+  }
+}

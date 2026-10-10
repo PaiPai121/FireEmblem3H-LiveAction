@@ -1,0 +1,98 @@
+{
+  "id": "Shot031",
+  "order": 31,
+  "scene": "回到 Rhea 面前",
+  "purpose": "教会秩序重新覆盖战场创伤。",
+  "duration_seconds": 16,
+  "characters": [
+    "Rhea",
+    "Seteth",
+    "Byleth",
+    "Dimitri",
+    "Ashe"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Rhea",
+      "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Seteth",
+      "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Seteth_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Dimitri",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Ashe",
+      "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot031_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot031/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot031/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot031/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {},
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot031_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot031_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot031_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot031/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot031/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/031_Shot031/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/031_Shot031/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/031_Shot031/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "visual_blocked",
+  "visual_audit_decision": "visual_blocked",
+  "required_revision": "Regenerate real live-action start/key/end frames with integrated lighting, shot-specific blocking, readable named identities, and a clear key action peak.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from fog field",
+  "edit_out": "cut to execution order",
+  "audio_anchor": "Rhea, in Japanese: ご苦労さまでした。あなた方は信仰の安寧を守りました。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 回到 Rhea 面前; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: 大教堂内，Rhea 接受报告，学生站在下方，衣角仍有雾水泥痕。",
+    "end": "Land on the state needed for the next cut: cut to execution order."
+  }
+}

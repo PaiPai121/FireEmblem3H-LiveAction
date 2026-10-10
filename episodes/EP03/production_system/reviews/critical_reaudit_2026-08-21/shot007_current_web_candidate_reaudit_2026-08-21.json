@@ -1,0 +1,51 @@
+{
+  "shot_id": "Shot007",
+  "review_date": "2026-08-21",
+  "review_type": "critical_reaudit_sequential_adjacent_continuity",
+  "previous_display_frame_set": "critical_reaudit_regen_v1",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot006",
+  "next_shot": "Shot008",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Felix/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/blue_lions/Ingrid/academy/selected.png",
+    "assets/props/EP02/training_weapons/training_weapons_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png",
+    "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+  ],
+  "passes": [
+    "START visibly continues from Shot006 END at the classroom door instead of resetting to a lineup.",
+    "KEY shows a physical lantern, strap, shield, and spare-sword handoff in one shared wet courtyard.",
+    "END preserves female Byleth and Ashe's leftward eyeline and leaves the Catherine entrance side open for Shot008.",
+    "Female Byleth is visibly female in all three stills.",
+    "START, KEY, and END are distinct physical action states.",
+    "No Catherine, Thunderbrand, subtitles, UI, or voiceover appears."
+  ],
+  "monitor_risks": [
+    "Dense multi-character motion can still drift local identities during video.",
+    "The door-to-yard movement must not teleport or reverse in the motion probe.",
+    "The lantern and short-sword contacts must remain grounded."
+  ],
+  "required_next_gate": "3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Shot007 START loses the Shot006 doorway handoff",
+    "the group becomes a static lineup or the KEY is only a still tabletop",
+    "female Byleth becomes male or ambiguous",
+    "Catherine appears before Shot008",
+    "Shot007 END loses the shared leftward eyeline",
+    "the clip adds subtitles, UI, voiceover, or modern/lethal weapons"
+  ]
+}

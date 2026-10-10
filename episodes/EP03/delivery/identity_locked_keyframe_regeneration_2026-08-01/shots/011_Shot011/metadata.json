@@ -1,0 +1,87 @@
+{
+  "id": "Shot011",
+  "order": 11,
+  "scene": "边境村痕迹",
+  "purpose": "证明叛乱已影响平民，不只是教会内部争斗。",
+  "duration_seconds": 12,
+  "characters": [
+    "Byleth",
+    "Ashe",
+    "Mercedes"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/blue_lions/Mercedes/academy/selected.png",
+    "assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Ashe",
+      "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Mercedes",
+      "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Mercedes_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot011_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot011_identity_comparison_2026-07-31.jpg",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot011/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot011/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot011/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {
+    "start": "episodes/EP03/storyboards/Shot011/start_frame_imagegen_candidate_2026-07-29.png",
+    "key": "episodes/EP03/storyboards/Shot011/key_frame_imagegen_candidate_2026-07-29.png",
+    "end": "episodes/EP03/storyboards/Shot011/end_frame_imagegen_candidate_2026-07-29.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot011/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+  },
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot011_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot011_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot011_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot011/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot011/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/011_Shot011/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/011_Shot011/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/011_Shot011/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "blocked_needs_revision",
+  "visual_audit_decision": "blocked_needs_revision",
+  "required_revision": "Regenerate with a stricter local-asset identity workflow before using this as an EP03 keyframe asset; keep current imagegen files only as blocked composition studies.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from fog road",
+  "edit_out": "cut to rebel camp smoke",
+  "audio_anchor": "No spoken dialogue; a door bar drops shut.",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 边境村痕迹; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: 空村路口、门板钉痕、村民远远关门，青狮不强行靠近。",
+    "end": "Land on the state needed for the next cut: cut to rebel camp smoke."
+  }
+}

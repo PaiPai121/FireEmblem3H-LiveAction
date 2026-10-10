@@ -1,0 +1,30 @@
+# Shot005 Critical Re-audit Review — critical_reaudit_regen_v2_2026-08-21
+
+Decision: monitor_required
+
+## Local reference lock
+
+- assets/characters/protagonist/BylethFemale/professor/selected.png
+- assets/characters/blue_lions/Dimitri/academy/selected.png
+- assets/characters/blue_lions/Ashe/academy/selected.png
+- assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png
+- episodes/EP03/source_refs/Shot005_source.png
+
+## Frame findings
+
+- START: 下课后的教室仍有书本和弓具，Ashe 坐在桌边，Dimitri 卡在敞开的门口，女贝老师在讲台侧；两个模糊学生走出远门，三人没有看镜头。
+- KEY: Dimitri 关上门并把手留在门闩上，向女贝老师迈一步提出同行请求；Ashe 从桌边转身合书，女贝老师在两人之间听取请求。
+- END: Ashe 站起并抓住弓袋肩带，女贝老师点头让出通道；Dimitri 退到门侧，让 Ashe 先经过空门。
+
+## Action-chain decision
+
+- Blocking: START Ashe 坐左、Dimitri 在门中、Byleth 在讲台侧；KEY Dimitri 关门迈步、Ashe 合书回身；END Ashe 起身取弓袋、Byleth 让路、Dimitri 退侧。
+- Action peak: Dimitri 关门后向老师提出同行请求，Ashe 的起身把口头请求转成实际行动。
+- Camera: 从教室深处的三角站位开始，靠近门闩和 Dimitri 的一步，再向打开的门和 Ashe 的离开动作回拉。
+- Dialogue/audio: Dimitri, in Japanese: 先生、今日は彼と共に行かせてください。
+
+## Gate
+
+The frames are physically integrated live-action candidates generated with the listed local references. They are current for web display but remain monitor_required. Prompt QA must be checked against the uploaded triptych, followed by a 3-second motion probe. Do not promote to approved_for_video from still frames alone.
+
+Reject if: Reject if the classroom becomes a posed group portrait, if Dimitri looks out the window instead of addressing Byleth, if Ashe never rises, if the exit does not become usable, or if Byleth becomes male.

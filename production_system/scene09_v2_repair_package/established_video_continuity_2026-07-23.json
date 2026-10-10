@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "date": "2026-07-23",
+  "scene": "EP02 Scene09 Mock Battle",
+  "source": "user-confirmed prior completed video design",
+  "status": "canonical_for_later_scene09_revision_and_downstream_story",
+  "canon_events": [
+    {
+      "event_id": "scene09_capture_hubert_by_blue_lions",
+      "placement": "after the main house-on-house engagement and before post-battle stand-down resolution",
+      "removed_character": "Hubert",
+      "removed_status": "captured_by_felix_and_ashe",
+      "captors": ["Felix", "Ashe"],
+      "constraints": [
+        "Hubert must not appear as an active Black Eagles combatant after this event.",
+        "Hubert may appear only as captured, controlled, escorted off, reacting post-battle, or explicitly released in a later shot."
+      ]
+    },
+    {
+      "event_id": "scene09_capture_dorothea_and_bernadetta_by_golden_deer_flank",
+      "placement": "after the main house-on-house engagement and before post-battle stand-down resolution",
+      "removed_characters": ["Dorothea", "Bernadetta"],
+      "removed_status": "captured_by_leonie_and_claude",
+      "captors": ["Leonie", "Claude"],
+      "constraints": [
+        "Dorothea and Bernadetta must not appear as active Black Eagles combatants after this event.",
+        "Leonie must be present or explicitly implied as Claude's flanking partner for the capture beat.",
+        "Dorothea and Bernadetta may appear only as captured, controlled, escorted off, reacting post-battle, or explicitly released in a later shot."
+      ]
+    }
+  ],
+  "downstream_story_locks": [
+    "Later EP02 continuity must treat Black Eagles backline as weakened by the capture of Hubert, Dorothea, and Bernadetta.",
+    "Golden Deer tactical result includes Claude and Leonie's successful flank, even if Blue Lions still achieve the teacher-objective win.",
+    "No revised shot, motion prompt, or edit may reset Hubert, Dorothea, or Bernadetta into active combat after the capture point."
+  ],
+  "current_v2_conflicts": [
+    "The current V2 shot queue omits Bernadetta and Leonie from the scene roster.",
+    "The current V2 shot sequence does not visibly stage Hubert's capture by Felix and Ashe.",
+    "The current V2 shot sequence does not visibly stage Dorothea and Bernadetta's capture by Leonie and Claude.",
+    "The current V2 post-battle Black Eagles stand-down includes Hubert and Dorothea as normal visible Black Eagles members, which can conflict with the capture state unless restaged as captured/controlled."
+  ],
+  "required_revision_assets": [
+    "Insert or replacement frame pair for Hubert being repelled and captured by Felix and Ashe.",
+    "Insert or replacement frame pair for Leonie and Claude flanking Dorothea and Bernadetta.",
+    "Revised Black Eagles stand-down frame or prompt lock that does not show Hubert, Dorothea, or Bernadetta as active standing combatants."
+  ]
+}

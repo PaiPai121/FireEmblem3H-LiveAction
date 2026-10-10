@@ -1,0 +1,87 @@
+{
+  "id": "Shot019",
+  "order": 19,
+  "scene": "支援线稳住",
+  "purpose": "让后排不是背景板，承担安全撤退与视野控制。",
+  "duration_seconds": 12,
+  "characters": [
+    "Mercedes",
+    "Annette",
+    "Ingrid"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Mercedes/academy/selected.png",
+    "assets/characters/blue_lions/Annette/academy/selected.png",
+    "assets/characters/blue_lions/Ingrid/academy/selected.png",
+    "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Mercedes",
+      "asset": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Mercedes_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Annette",
+      "asset": "assets/characters/blue_lions/Annette/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Annette_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Ingrid",
+      "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ingrid_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot019_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot019_identity_comparison_2026-07-31.jpg",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot019/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot019/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot019/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {
+    "start": "episodes/EP03/storyboards/Shot019/start_frame_imagegen_candidate_2026-07-29.png",
+    "key": "episodes/EP03/storyboards/Shot019/key_frame_imagegen_candidate_2026-07-29.png",
+    "end": "episodes/EP03/storyboards/Shot019/end_frame_imagegen_candidate_2026-07-29.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot019/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+  },
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot019_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot019_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot019_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot019/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot019/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/019_Shot019/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/019_Shot019/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/019_Shot019/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "blocked_needs_revision",
+  "visual_audit_decision": "blocked_needs_revision",
+  "required_revision": "Regenerate with a stricter local-asset identity workflow before using this as an EP03 keyframe asset; keep current imagegen files only as blocked composition studies.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from Felix save",
+  "edit_out": "cut to Catherine charge",
+  "audio_anchor": "Mercedes, in Japanese: こちらです！ Annette, in Japanese: 道が見えた！",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 支援线稳住; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: Mercedes 引导伤员撤到雾外，Annette 用风压吹开一段雾。",
+    "end": "Land on the state needed for the next cut: cut to Catherine charge."
+  }
+}

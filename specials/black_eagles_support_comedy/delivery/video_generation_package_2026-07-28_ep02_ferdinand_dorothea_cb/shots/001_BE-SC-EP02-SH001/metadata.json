@@ -1,0 +1,72 @@
+{
+  "id": "BE-SC-EP02-SH001",
+  "order": 1,
+  "episode_id": "EP02",
+  "episode_title": "Ferdinand x Dorothea C/B - Why Am I A Bee",
+  "support_pair": "Ferdinand & Dorothea",
+  "support_rank": "C/B",
+  "source": "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/C and https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/B",
+  "source_summary": "Dorothea challenges Ferdinand to guess why she dislikes him and says he is like a bee; in the B support he presents self-made pastries as his earnest but wrong solution.",
+  "language_used": "Japanese original",
+  "dialogue_policy": "excerpted / lightly bridged",
+  "duration_seconds": 15,
+  "model_target": "Seedance image-to-video",
+  "status": "approved_for_video",
+  "no_subtitles": true,
+  "characters": [
+    {
+      "name": "Ferdinand",
+      "reference": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+      "identity_lock": "Academy-era Ferdinand: refined orange hair, aristocratic posture, clean youthful face, immaculate Black Eagles academy uniform with gold trim and noble bearing; earnest and formal, not caricatured."
+    },
+    {
+      "name": "Dorothea",
+      "reference": "assets/characters/black_eagles/Dorothea/academy/selected.png",
+      "identity_lock": "Academy-era Dorothea: dark wavy hair under academy cap, mature clever expression, Black Eagles academy uniform; amused and perceptive, never cruel or exaggerated."
+    }
+  ],
+  "location_reference": "assets/locations/EP02/act01/DiningHall/DiningHall_reference.png",
+  "frame_intents": {
+    "start": "Ferdinand approaches Dorothea in the dining hall, proud and smiling.",
+    "key": "Dorothea smiles with cool sarcasm while Ferdinand realizes the chill is deliberate.",
+    "end": "Ferdinand stands upright, formally asking why she hates him."
+  },
+  "dialogue": [
+    {
+      "speaker": "Ferdinand",
+      "kind": "source_line",
+      "text": "おお、ドロテア。やはり君がいると、食堂が華やぐね。"
+    },
+    {
+      "speaker": "Dorothea",
+      "kind": "source_line",
+      "text": "あら、フェルくん。相変わらずお世辞がお上手ですこと。"
+    },
+    {
+      "speaker": "Ferdinand",
+      "kind": "source_line",
+      "text": "私のことを嫌悪しているのかね？ あるいは避けたい理由でもあると？"
+    },
+    {
+      "speaker": "Dorothea",
+      "kind": "source_line",
+      "text": "そのとおりですよ。貴方を嫌ってるわ、私。"
+    }
+  ],
+  "expected_clip": "clips/BE-SC-EP02-SH001.mp4",
+  "primary_check": "Establish Dorothea's pointed teasing and Ferdinand's noble earnestness.",
+  "motion_risk_status": "monitor_required",
+  "required_probe_before_full_generation": true,
+  "probe_duration_seconds": 3,
+  "frame_aspect_policy": "clean 16:9 single-frame images; no contact-sheet crop, no synthetic border, no letterbox, no pillarbox, no blurred side fill",
+  "reject_if": [
+    "Subtitles or visible text appear.",
+    "Character identity, age, costume, or face drifts from reference.",
+    "Character wardrobe topology changes from the input frames.",
+    "The clip generates robes, wrap tunics, casual clothing, armor, pajamas, or simplified plain-black outfits.",
+    "The clip generates cartoonish, bug-eyed, giant-mouthed, meme-like, or overacted expressions.",
+    "The clip contains rounded corners, UI, black container, letterbox, pillarbox, or artificial side fill.",
+    "Shot exceeds 15 seconds.",
+    "Prompt invents new dialogue or new plot."
+  ]
+}

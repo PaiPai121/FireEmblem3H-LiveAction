@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-01",
+  "decision": "regen_required_before_expensive_full_generation",
+  "scope": "High-risk Scene09 frames identified by local visual review.",
+  "output_dir": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01",
+  "shots": [
+    {
+      "shot": "Shot025",
+      "titleZh": "规则与目标确立 - 三位级长近景修复",
+      "problem": "Current frame is a wide battlefield geography view; Dimitri, Edelgard, and Claude are not readable enough for a leader/rules beat.",
+      "visible_named_only": ["Dimitri", "Edelgard", "Claude"],
+      "references": {
+        "Dimitri": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+        "Edelgard": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+        "Claude": "assets/characters/golden_deer/Claude/academy/selected.png",
+        "location": "assets/locations/EP02/act02/MockBattleGrounds_CanonMap/MockBattleGrounds_CanonMap_master_2026-07-19.png"
+      },
+      "frame_intent": {
+        "start": "Three house leaders stand in a triangular rules briefing around the mock battle objective markers; all faces readable.",
+        "key": "Dimitri, Edelgard, and Claude exchange tactical looks over the marked training field; the three-house balance is clear.",
+        "end": "The leaders turn their attention toward separate lanes, preparing for a fair three-way contest."
+      },
+      "hard_locks": [
+        "academy-age faces only",
+        "house colors and academy uniforms preserved",
+        "exactly Dimitri, Edelgard, Claude readable",
+        "no unnamed students, spectators, soldiers, crowds, or readable silhouettes",
+        "nonlethal mock battle training field",
+        "no subtitles, no visible text, no UI"
+      ]
+    },
+    {
+      "shot": "Shot029C",
+      "titleZh": "库罗德读出两个缺口 - 三人关系修复",
+      "problem": "Current frame works as Claude solo high point, but Ashe and Edelgard are too distant/weak to prove the intended three-character tactical relationship.",
+      "visible_named_only": ["Claude", "Ashe", "Edelgard"],
+      "references": {
+        "Claude": "assets/characters/golden_deer/Claude/academy/selected.png",
+        "Ashe": "assets/characters/blue_lions/Ashe/academy/selected.png",
+        "Edelgard": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+        "location": "assets/locations/EP02/act02/TrainingGround_ArcheryRange/TrainingGround_ArcheryRange_reference.png"
+      },
+      "frame_intent": {
+        "start": "Claude watches from cover with bow lowered; Ashe and Edelgard are visible across two lanes, not tiny background figures.",
+        "key": "Claude raises his training bow and reads two openings while Ashe reacts on one lane and Edelgard redirects on the other.",
+        "end": "Claude holds the angle without firing lethally; Ashe and Edelgard remain readable as separate tactical targets."
+      },
+      "hard_locks": [
+        "Claude remains the strongest foreground read",
+        "Ashe and Edelgard must be readable named characters, not distant specks",
+        "blunt/safe training bow posture only",
+        "no extra readable people",
+        "no lethal arrow impact, blood, or humiliation",
+        "no subtitles, no visible text, no UI"
+      ]
+    },
+    {
+      "shot": "Shot030B",
+      "titleZh": "路线触发特写 - 菲力克斯直木剑修复",
+      "problem": "Current Felix weapon can read as chain/segmented blade rather than a blunt straight academy training sword.",
+      "visible_named_only": ["Felix", "Byleth"],
+      "references": {
+        "Felix": "assets/characters/blue_lions/Felix/academy/selected.png",
+        "Byleth": "assets/characters/protagonist/Byleth/professor/selected.png",
+        "location": "assets/locations/EP02/act02/TrainingGround_FormationYard/TrainingGround_FormationYard_reference.png"
+      },
+      "frame_intent": {
+        "start": "Felix leans into the tempting route with a single straight blunt wooden training sword; Byleth watches the line.",
+        "key": "Byleth stops Felix with a precise hand gesture; Felix's straight wooden sword is visible and nonlethal.",
+        "end": "Felix checks his step and lowers the straight wooden sword, accepting the tactical call."
+      },
+      "hard_locks": [
+        "Felix weapon is one straight blunt wooden training sword",
+        "no chain blade, segmented blade, whip sword, metal edge, glowing relic, or sharp point",
+        "only Felix and Byleth readable",
+        "academy-age Felix; professor Byleth",
+        "no extra readable people",
+        "no subtitles, no visible text, no UI"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "BE-SC-EP01-SH004",
+  "order": 4,
+  "episode_id": "EP01",
+  "episode_title": "Caspar x Linhardt B - Tall Opponent Tactics",
+  "support_pair": "Linhardt & Caspar",
+  "support_rank": "B",
+  "source": "https://houses.fedatamine.com/ja/supports/Linhardt/Caspar/B",
+  "source_summary": "Caspar cannot beat taller opponents, begs Linhardt for a strategy, learns a defensive counterplan, then drags Linhardt into exhausting practice until Linhardt escapes.",
+  "language_used": "Japanese original",
+  "dialogue_policy": "excerpted / lightly bridged",
+  "duration_seconds": 15,
+  "model_target": "Seedance image-to-video",
+  "status": "approved_for_video",
+  "no_subtitles": true,
+  "characters": [
+    {
+      "name": "Caspar",
+      "reference": "assets/characters/black_eagles/Caspar/academy/selected.png",
+      "identity_lock": "Academy-era Caspar: youthful compact build, short pale-blue tousled hair, direct earnest face, Black Eagles black academy uniform with red cape and house sleeve patch; urgent body language but controlled mouth and eyes, never a mature bulky strongman."
+    },
+    {
+      "name": "Linhardt",
+      "reference": "assets/characters/black_eagles/Linhardt/academy/selected.png",
+      "identity_lock": "Academy-era Linhardt: sleepy green medium-length hair, soft intelligent face, slender student build, Black Eagles academy uniform with collar, gold trim, red/black mantle detail, and book when visible; tired and dry, not gloomy, not in robes."
+    }
+  ],
+  "location_reference": "assets/locations/EP02/act01/TrainingGround/TrainingGround_reference.png",
+  "frame_intents": {
+    "start": "Caspar pulls Linhardt toward practice with a wooden training weapon ready.",
+    "key": "Linhardt is exhausted, leaning on his knees while Caspar is still eager.",
+    "end": "Linhardt slips away toward water while Caspar slowly realizes he escaped."
+  },
+  "dialogue": [
+    {
+      "speaker": "Caspar",
+      "kind": "source_line",
+      "text": "君が疎かにしがちな守りを、まずは鍛えなきゃね。"
+    },
+    {
+      "speaker": "Caspar",
+      "kind": "source_line",
+      "text": "そうか。じゃあ早速、付き合ってくれよ。"
+    },
+    {
+      "speaker": "Linhardt",
+      "kind": "source_line",
+      "text": "やれやれ……。はあ……適当なとこで逃げよ。"
+    },
+    {
+      "speaker": "Caspar",
+      "kind": "source_line",
+      "text": "さあ、もう一度だ、リンハルト！ 来い！"
+    },
+    {
+      "speaker": "Linhardt",
+      "kind": "source_line",
+      "text": "水、取ってくる……じゃあね……。"
+    },
+    {
+      "speaker": "Caspar",
+      "kind": "source_line",
+      "text": "……しまった！ あいつ、逃げやがったな！？"
+    }
+  ],
+  "expected_clip": "clips/BE-SC-EP01-SH004.mp4",
+  "primary_check": "Pay off Linhardt's laziness after Caspar turns advice into mandatory sparring.",
+  "motion_risk_status": "monitor_required",
+  "required_probe_before_full_generation": true,
+  "probe_duration_seconds": 3,
+  "frame_aspect_policy": "clean 16:9 single-frame images; no contact-sheet crop, no synthetic border, no letterbox, no pillarbox, no blurred side fill",
+  "reject_if": [
+    "Subtitles or visible text appear.",
+    "Character identity, age, costume, or face drifts from reference.",
+    "Character wardrobe topology changes from the input frames.",
+    "The clip generates robes, wrap tunics, casual clothing, armor, pajamas, or simplified plain-black outfits.",
+    "The clip generates cartoonish, bug-eyed, giant-mouthed, meme-like, or overacted expressions.",
+    "The clip contains rounded corners, UI, black container, letterbox, pillarbox, or artificial side fill.",
+    "Shot exceeds 15 seconds.",
+    "Prompt invents new dialogue or new plot."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "shot_id": "Shot028",
+  "review_date": "2026-08-23",
+  "review_type": "female_byleth_thunderbrand_final_restraint_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "local_asset_final_candidate_v1_2026-08-02",
+  "current_display_frame_set": "critical_reaudit_regen_v1_2026-08-23",
+  "previous_shot": "Shot027",
+  "next_shot": "Shot029",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after sequential re-audit: the local candidate used a male-looking Byleth and did not prove the Catherine/Thunderbrand intervention. Retain as historical evidence only."
+  ],
+  "finding": "2026-08-23 sequential re-audit: the prior local candidate showed male Byleth and an unclear close sword clash. v1 rebuilds the handoff from Shot027 with female Byleth on the rear lane, academy Catherine using Thunderbrand for the single disarm, and Lonato settling into a controlled kneel without a blade at his body.",
+  "passes": [
+    "START receives the Shot027 mud impact and keeps Lonato uphill-left while female Byleth and Catherine enter from separate lanes.",
+    "KEY contains one physical contact beat: Catherine's Thunderbrand disarms Lonato; female Byleth remains visibly female and behind the buffer.",
+    "END settles Lonato to one knee with the ordinary sword on the mud and no blade at his body or neck.",
+    "Exactly three named performers are readable and the frame chain is integrated live-action rather than portrait plates.",
+    "Japanese-only audio lock; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot027->028 and 028->029 continuity QA, and a 3-second motion probe. Reject if male Byleth appears, Catherine loses Thunderbrand, Byleth touches Lonato, students enter the disarm, the shot becomes an execution tableau, or Chinese/Mandarin/subtitles/UI/borders/pasted cutouts appear."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "GDSC03-SH004A",
+  "order": 8,
+  "status": "approved_for_video",
+  "duration_seconds": 8,
+  "expected_clip": "clips/GDSC03-SH004A.mp4",
+  "edit_in": "cut from the scent discovery",
+  "edit_out": "hold on Hilda's fond reaction",
+  "audio_anchor": "Lysithea says she feels a little more grown-up.",
+  "continuity_previous": "GDSC03-SH003",
+  "continuity_next": "",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+    "Preserve academy-phase face, hair, uniform, and age identity from references."
+  ],
+  "reject_if": [
+    "the oil becomes magic",
+    "Lysithea ages up physically",
+    "Hilda acts condescending"
+  ],
+  "visual_version": "v4_timing_safe_micro_frames",
+  "visual_status": "timing_repaired_imagegen_frames_applied",
+  "frame_provenance": {
+    "method": "copied timing-safe frame anchors from approved parent shot",
+    "parent_shot": "specials/golden_deer_support_comedy/EP03_hilda_lysithea/delivery/video_generation_package_2026-07-28/shots/004_GDSC03-SH004",
+    "frame_sources": {
+      "start_frame.png": "specials/golden_deer_support_comedy/EP03_hilda_lysithea/delivery/video_generation_package_2026-07-28/shots/004_GDSC03-SH004/start_frame.png",
+      "key_frame.png": "specials/golden_deer_support_comedy/EP03_hilda_lysithea/delivery/video_generation_package_2026-07-28/shots/004_GDSC03-SH004/key_frame.png",
+      "end_frame.png": "specials/golden_deer_support_comedy/EP03_hilda_lysithea/delivery/video_generation_package_2026-07-28/shots/004_GDSC03-SH004/key_frame.png"
+    }
+  },
+  "updated_at": "2026-08-01T21:28:00",
+  "temporal_frame_provenance": {
+    "method": "independent image_gen temporal frame generation",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_Jll9Hrjx4iLL0xOKfj3bTYlu.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_fe9dGLD9mjgCJVh3n1EwXmbM.png"
+    }
+  },
+  "title": "GDSC03-SH004 / timing split A",
+  "parent_shot_id": "GDSC03-SH004",
+  "dialogue_line_count": 1,
+  "dialogue_timing_estimate_seconds": 6.38,
+  "timing_status": "approved_for_video_timing_safe",
+  "timing_frame_repair": {
+    "method": "restored real imagegen frame anchors from the approved parent chain, with explicit regenerated frames where mapped; no copied duplicate frame anchors",
+    "frame_sources": {
+      "end_frame.png": "/Users/zekun/FireEmblem3H-LiveAction/specials/golden_deer_support_comedy/EP03_hilda_lysithea/delivery/video_generation_package_2026-07-28/shots/004_GDSC03-SH004/end_frame.png"
+    },
+    "updated_at": "2026-08-01T21:28:00"
+  },
+  "aspect_geometry_review_2026_08_04": {
+    "reviewed_at": "2026-08-04T23:38:04",
+    "review_surface": "EP03_hilda_lysithea/aspect_review_contact_2026-08-04.jpg",
+    "result": "manual_visual_pass_no_flattening_observed",
+    "checks": [
+      "no obvious horizontal flattening of faces or bodies",
+      "no obvious vertical compression of people",
+      "architecture not visibly anamorphically stretched",
+      "video frames remain 1280x720 with no subtitles or letterbox added by this review"
+    ],
+    "limitations": "manual contact-sheet geometry review catches visible flattening; duplicate-frame and composition/story-readiness remain separate gates"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "package_id": "video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb",
+  "mode": "manual_seedance_submission",
+  "clips_pending": true,
+  "steps": [
+    {
+      "submit": "BE-SC-EP02-SH001",
+      "prompt": "shots/001_BE-SC-EP02-SH001/prompt.md",
+      "frames": {
+        "start": "shots/001_BE-SC-EP02-SH001/start_frame.png",
+        "key": "shots/001_BE-SC-EP02-SH001/key_frame.png",
+        "end": "shots/001_BE-SC-EP02-SH001/end_frame.png"
+      },
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP02-SH001.mp4"
+    },
+    {
+      "submit": "BE-SC-EP02-SH002",
+      "prompt": "shots/002_BE-SC-EP02-SH002/prompt.md",
+      "frames": {
+        "start": "shots/002_BE-SC-EP02-SH002/start_frame.png",
+        "key": "shots/002_BE-SC-EP02-SH002/key_frame.png",
+        "end": "shots/002_BE-SC-EP02-SH002/end_frame.png"
+      },
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP02-SH002.mp4"
+    },
+    {
+      "submit": "BE-SC-EP02-SH003",
+      "prompt": "shots/003_BE-SC-EP02-SH003/prompt.md",
+      "frames": {
+        "start": "shots/003_BE-SC-EP02-SH003/start_frame.png",
+        "key": "shots/003_BE-SC-EP02-SH003/key_frame.png",
+        "end": "shots/003_BE-SC-EP02-SH003/end_frame.png"
+      },
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP02-SH003.mp4"
+    },
+    {
+      "submit": "BE-SC-EP02-SH004",
+      "prompt": "shots/004_BE-SC-EP02-SH004/prompt.md",
+      "frames": {
+        "start": "shots/004_BE-SC-EP02-SH004/start_frame.png",
+        "key": "shots/004_BE-SC-EP02-SH004/key_frame.png",
+        "end": "shots/004_BE-SC-EP02-SH004/end_frame.png"
+      },
+      "duration_seconds": 15,
+      "expected_clip": "clips/BE-SC-EP02-SH004.mp4"
+    }
+  ]
+}

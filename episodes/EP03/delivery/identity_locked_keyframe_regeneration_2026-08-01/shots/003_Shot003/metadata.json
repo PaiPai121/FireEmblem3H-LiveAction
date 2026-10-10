@@ -1,0 +1,102 @@
+{
+  "id": "Shot003",
+  "order": 3,
+  "scene": "任务召集",
+  "purpose": "Rhea 将 Lonato 叛乱定义为必须镇压的教会危机。",
+  "duration_seconds": 14,
+  "characters": [
+    "Rhea",
+    "Seteth",
+    "Byleth",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Rhea",
+      "asset": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Seteth",
+      "asset": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Seteth_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Dimitri",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot003_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot003_identity_comparison_2026-07-31.jpg",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot003/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot003/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot003/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {
+    "start": "episodes/EP03/storyboards/Shot003/start_frame_imagegen_candidate_2026-07-29.png",
+    "key": "episodes/EP03/storyboards/Shot003/key_frame_imagegen_candidate_2026-07-29.png",
+    "end": "episodes/EP03/storyboards/Shot003/end_frame_imagegen_candidate_2026-07-29.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot003/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+  },
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {
+    "start": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/003_Shot003/local_source_locked_regen_v3_2026-08-01/start_frame_local_source_locked_regen_v3_2026-08-01.png",
+    "key": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/003_Shot003/local_source_locked_regen_v3_2026-08-01/key_frame_local_source_locked_regen_v3_2026-08-01.png",
+    "end": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/003_Shot003/local_source_locked_regen_v3_2026-08-01/end_frame_local_source_locked_regen_v3_2026-08-01.png",
+    "review_sheet": "episodes/EP03/production_system/reviews/shot003_local_source_locked_regen_v3_review_2026-08-01.jpg",
+    "review_markdown": "episodes/EP03/production_system/reviews/shot003_local_source_locked_regen_v3_review_2026-08-01.md"
+  },
+  "source_reference": "episodes/EP03/source_refs/Shot003_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot003_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot003_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot003/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot003/metadata.json",
+  "expected_outputs": {
+    "start": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/003_Shot003/local_source_locked_regen_v3_2026-08-01/start_frame_local_source_locked_regen_v3_2026-08-01.png",
+    "key": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/003_Shot003/local_source_locked_regen_v3_2026-08-01/key_frame_local_source_locked_regen_v3_2026-08-01.png",
+    "end": "episodes/EP03/delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/003_Shot003/local_source_locked_regen_v3_2026-08-01/end_frame_local_source_locked_regen_v3_2026-08-01.png"
+  },
+  "generation_status": "candidate_frames_generated_visual_review_passed",
+  "delivery_status": "monitor_required",
+  "visual_audit_decision": "monitor_required",
+  "required_revision": "Keep as a controlled council layout candidate only; require stricter identity proof or source-assisted compositing before visual_review_passed.",
+  "video_prompt_qa_decision": "blocked_until_local_asset_truth_audit_passes",
+  "motion_probe_status": "blocked_until_local_asset_truth_audit_passes",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "doors open into cathedral",
+  "edit_out": "cut on Ashe name being spoken",
+  "audio_anchor": "Rhea, in Japanese: 西方教会が、ガスパール領主ロナートを扇動し、兵を挙げさせました。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 任务召集; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: 大教堂内 Rhea 居中，Seteth 在侧，Byleth 和 Dimitri 站在下方。",
+    "end": "Land on the state needed for the next cut: cut on Ashe name being spoken."
+  }
+}

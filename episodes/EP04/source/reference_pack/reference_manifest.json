@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "reference_pack_id": "EP04-local-reference-pack-v1",
+  "project": "FireEmblem3H-LiveAction",
+  "episode": "EP04",
+  "provenance_policy": "Copied into the EP04 boundary from existing workspace assets; hashes freeze the exact local copies.",
+  "source_screenshot_policy": "source_refs/game_frame_*.jpg and generated/*planning_only.jpg are planning_only and never final frames.",
+  "files": [
+    {
+      "path": "source/reference_pack/style/live_action_style_reference.png",
+      "source": "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "role": "dedicated_live_action_style_reference",
+      "sha256": "875bf140382d3ffc3e9fefa229e2fb984a1207ee1d0f90f8a55eefaea8cc0374",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/locations/SeirosTomb_reference.png",
+      "source": "assets/locations/EP04/act01/SeirosTomb/SeirosTomb_reference.png",
+      "role": "holy_tomb_location_reference",
+      "sha256": "f243a5afd0d083a146afd8fc2d9a642f8f219a5ff727acad987dd126bbcf0c39",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/locations/CathedralInterior_reference.png",
+      "source": "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "role": "cathedral_location_reference",
+      "sha256": "dc16b12e58793aa709d1d8f86dc179d31ec61194dd9ce5ce8a062629a74c8d4c",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/locations/MonasteryMainCloister_reference.png",
+      "source": "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "role": "cloister_location_reference",
+      "sha256": "7d325d2182ae5f0bfe0c5b02f443b65bfa8ade68670d55e9a92d2d89bcc05eee",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/locations/MonasteryCathedralAntechamber_reference.png",
+      "source": "assets/locations/EP02/act01/MonasteryCathedralAntechamber/MonasteryCathedralAntechamber_reference.png",
+      "role": "cathedral_antechamber_location_reference",
+      "sha256": "5095cd005dbf5ab76822b005d1a2a608e6610441b39a5b59cdc42b11cc159c19",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/locations/MistForest_reference.png",
+      "source": "assets/locations/EP10/act01/SealedForest/SealedForest_reference.png",
+      "role": "forest_location_reference",
+      "sha256": "2d0f16cbe64e0751e14106fd94af5b345af4abb3badbf2f7c88e80cc6f1be4ef",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/locations/DreamSanctuary_reference.png",
+      "source": "assets/locations/EP01/dream/DreamSanctuary/DreamSanctuary_reference.png",
+      "role": "dream_palette_reference",
+      "sha256": "c763020dd3e67029332a5ec2199ff32b6c82582e86b2dbc719918e9a1fa4c58c",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/BylethFemale_face.png",
+      "source": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "role": "face_card",
+      "sha256": "6d426817a97ef845a3e6f1d32867eb06f5600fd4fd48addfee42c7cfcbffe51c",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/BylethFemale_fullbody.png",
+      "source": "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+      "role": "full_body_costume_card",
+      "sha256": "2cf24969817ff4419f43802fbb5c0832408257a1bff1246965eeb94a2497b7c6",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Dimitri_face.png",
+      "source": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "role": "face_card",
+      "sha256": "0c531b5e0f09060be9c2fa87b8cf78736446ec11eb28fb9dad5bfb3cd0523268",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Dimitri_fullbody.png",
+      "source": "assets/characters/blue_lions/Dimitri/weapon_fullbody/selected.png",
+      "role": "full_body_costume_card",
+      "sha256": "57b89fed79a80fe52efadd9b2b541ab138ea9b5162932e832005ec3901ac5d99",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Dedue_face.png",
+      "source": "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "role": "face_card",
+      "sha256": "c271db9f56b87a88c1fd02359b91d0f8e18e4413072ac26e00b3c7a72ece5f79",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Dedue_fullbody.png",
+      "source": "assets/characters/blue_lions/Dedue/weapon_fullbody/selected.png",
+      "role": "full_body_costume_card",
+      "sha256": "2d97446b9d1ec3b3852bcbf890104ccd283023d21d581e592f516fa439854033",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Rhea_face.png",
+      "source": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "role": "faculty_identity_card",
+      "sha256": "f5c3e4592d25d4459613536bf78ef1f6b55923dbc498e9aa1fb37307f4bd39ab",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Seteth_face.png",
+      "source": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "role": "faculty_identity_card",
+      "sha256": "4751aefe9724ecf708a4d27ed008071cfea556eb56364a773de72d4865e4a815",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Manuela_face.png",
+      "source": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+      "role": "faculty_identity_card",
+      "sha256": "e97a0c1dcb842dea6eb66c93928d259064d90758fe2340bff66c75e8601ec8a7",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Hanneman_face.png",
+      "source": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+      "role": "faculty_identity_card",
+      "sha256": "8b2c3a43f412e689be7fa175bed3c0e587fbe31099b0fbbb469a35383665a41f",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/DeathKnight_identity.png",
+      "source": "assets/characters/antagonists/DeathKnight/selected.png",
+      "role": "helmeted_identity_card",
+      "sha256": "a1ad17f4f02a8cefc4935f48ed158768bf75d19cfb00df3b2806f61e32853d61",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/FlameEmperor_identity.png",
+      "source": "assets/characters/antagonists/FlameEmperor/selected.png",
+      "role": "helmeted_identity_card",
+      "sha256": "e43242cdc4d1118239cf062dd48950c12d461e00f6dcb03c6d96ffb68d51e278",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    },
+    {
+      "path": "source/reference_pack/characters/Sothis_identity.png",
+      "source": "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "role": "dream_identity_card",
+      "sha256": "5433d13ce1a1d6720a5caeed6fa0ac8212c55b5551130585cc1c91c29be590e3",
+      "status": "local_reference_only",
+      "runtime_use": "operator builds uploaded frame anchors; not a runtime path"
+    }
+  ]
+}

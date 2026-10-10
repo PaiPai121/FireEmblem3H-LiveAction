@@ -1,0 +1,13 @@
+{
+  "model": "Seedance",
+  "mode": "image_to_video",
+  "clips_pending": true,
+  "reason": "No local Seedance CLI or API command is configured in this workspace.",
+  "queue": "submission_queue.csv",
+  "concat_order": [
+    "GDSC01-SH001",
+    "GDSC01-SH002",
+    "GDSC01-SH003",
+    "GDSC01-SH004"
+  ]
+}

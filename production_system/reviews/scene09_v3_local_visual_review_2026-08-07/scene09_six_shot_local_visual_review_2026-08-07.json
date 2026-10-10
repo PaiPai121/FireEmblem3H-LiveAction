@@ -1,0 +1,104 @@
+{
+  "review_id": "scene09_six_shot_local_visual_review_2026-08-07",
+  "scene": "EP02 Scene09 学级模拟战",
+  "reviewed_at": "2026-08-07",
+  "reviewer_role": "codex_visual_reviewer_after_generation",
+  "method": "local_file_contact_sheet_review",
+  "contact_sheets": [
+    "production_system/reviews/scene09_v3_local_visual_review_2026-08-07/Shot034F_safe_training_weapon_contact_sheet.jpg",
+    "/private/tmp/scene09_six_shot_local_review_contact_sheet.jpg"
+  ],
+  "scope": [
+    "Shot032A",
+    "Shot032F",
+    "Shot032G",
+    "Shot034E",
+    "Shot034F",
+    "Shot034G"
+  ],
+  "status": "visual_review_passed",
+  "summary": "Six previously non-final Scene09 shots were reviewed from local start/key/end frame files. Shot034F failed first-pass weapon safety because Edelgard's old axe read as a sharp metal war axe; it was regenerated on 2026-08-07 and passed second review with a blunt wooden/padded training axe or maul.",
+  "shots": {
+    "Shot032A": {
+      "status": "visual_review_passed",
+      "decision": "accept_existing_frames",
+      "checks": [
+        "three_frame_chain_present",
+        "Annette dust-cover action reads as support cover rather than active kill shot",
+        "Mercedes and Ashe remain in support posture behind cover",
+        "Claude remains distant/opposing-side readable without becoming an extra crowd",
+        "screen direction preserves battlefield depth and no character faces camera unnaturally"
+      ],
+      "notes": "Start/key/end frames show a coherent dust-cover support beat. No new asset generation required."
+    },
+    "Shot032F": {
+      "status": "visual_review_passed",
+      "decision": "accept_existing_frames",
+      "checks": [
+        "three_frame_chain_present",
+        "visible named-only reads as Felix, Ashe, Hubert",
+        "Hubert is contained nonlethally and does not continue active combat after this shot",
+        "Blue Lions pressure direction remains consistent",
+        "training weapons are lowered/controlled and not body-impacting"
+      ],
+      "notes": "Existing quality-patch frames are acceptable for monitored video submission."
+    },
+    "Shot032G": {
+      "status": "visual_review_passed",
+      "decision": "accept_existing_frames",
+      "checks": [
+        "three_frame_chain_present",
+        "Claude and Leonie hold Golden Deer pressure from the west/left lane",
+        "Dorothea and Bernadetta remain contained rather than humiliated",
+        "no unnamed extra students or teachers appear",
+        "both sides remain competent and the beat supports Blue Lions using the wider confusion"
+      ],
+      "notes": "Existing frames fit the intended two-front Golden Deer pressure beat."
+    },
+    "Shot034E": {
+      "status": "visual_review_passed",
+      "decision": "accept_existing_frames",
+      "checks": [
+        "three_frame_chain_present",
+        "visible named-only reads as Claude, Hilda, Lorenz, Ignatz, Leonie",
+        "Golden Deer stand down with dignity after their tactical high point",
+        "Hilda's weapon reads as safe rounded practice gear rather than a lethal sharp axe",
+        "no non-Golden-Deer figures appear in this defeated-house stand-down"
+      ],
+      "notes": "Existing 2026-07-30 Golden Deer weapons patch remains approved."
+    },
+    "Shot034F": {
+      "status": "visual_review_passed",
+      "decision": "regenerated_then_accepted",
+      "replaced_frames": {
+        "old_start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/36C_Shot034F_quality_start.png",
+        "old_key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/36C_Shot034F_quality_key.png",
+        "old_end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/36C_Shot034F_quality_end.png",
+        "new_start": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-08-07/38_Shot034F_safe_training_weapon_start.png",
+        "new_key": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-08-07/38_Shot034F_safe_training_weapon_key.png",
+        "new_end": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-08-07/38_Shot034F_safe_training_weapon_end.png"
+      },
+      "checks": [
+        "three_frame_chain_present",
+        "visible named-only reads as Edelgard and Ferdinand",
+        "Edelgard weapon now reads as blunt wooden/padded training axe or maul with no sharp metal blade",
+        "Ferdinand weapon reads as blunt wooden staff or capped practice pole with no spearhead",
+        "Hubert, Dorothea, and Bernadetta remain absent after capture",
+        "Black Eagles stand down with dignity and no active-combat reset"
+      ],
+      "notes": "Old 2026-07-25 frames were rejected for weapon-safety readability. New 2026-08-07 frames passed local review and are the authoritative source for package and web surfaces."
+    },
+    "Shot034G": {
+      "status": "visual_review_passed",
+      "decision": "accept_existing_frames",
+      "checks": [
+        "three_frame_chain_present",
+        "visible named-only reads as Byleth, Dimitri, Dedue",
+        "Blue Lions victory is exhausted and narrow rather than whole-class triumphal reset",
+        "Dimitri's weapon reads as controlled practice lance/pole",
+        "Dedue remains shield-line support and does not look re-injured or humiliated"
+      ],
+      "notes": "Existing 2026-07-30 Blue Lions core-victory patch remains approved."
+    }
+  }
+}

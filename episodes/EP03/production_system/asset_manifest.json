@@ -1,0 +1,548 @@
+{
+  "version": 2,
+  "project": "EP03",
+  "generated_at": "2026-09-10",
+  "shared_asset_root": "../../assets",
+  "local_reference_cache": "production_system/shared_references",
+  "source_policy": "Each listed file is copied from the repository's selected local asset bank; it is a generation reference, not a displayed frame plate.",
+  "assets": [
+    {
+      "id": "EP03-ASSET-0fbd3c40d1a1",
+      "type": "prop_reference",
+      "source_path": "assets/props/shared/sword_of_creator/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/props/shared/sword_of_creator/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve silhouette, hand scale, material, and canon-specific shape",
+        "do not replace the prop with a generic weapon or decorative overlay"
+      ],
+      "reject_if": [
+        "generic replacement weapon",
+        "duplicate prop",
+        "unreadable or floating prop"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-149977203245",
+      "type": "character_identity",
+      "source_path": "assets/characters/blue_lions/Felix/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/blue_lions/Felix/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-1de15cfe64ce",
+      "type": "location_reference",
+      "source_path": "assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-3b00718150ab",
+      "type": "character_identity",
+      "source_path": "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/blue_lions/Dedue/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-4f63f5d3cabb",
+      "type": "prop_reference",
+      "source_path": "assets/props/EP02/training_weapons/training_weapons_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/props/EP02/training_weapons/training_weapons_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve silhouette, hand scale, material, and canon-specific shape",
+        "do not replace the prop with a generic weapon or decorative overlay"
+      ],
+      "reject_if": [
+        "generic replacement weapon",
+        "duplicate prop",
+        "unreadable or floating prop"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-52b8477007cc",
+      "type": "character_identity",
+      "source_path": "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/blue_lions/Ashe/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-5fd655249032",
+      "type": "live_action_style_reference",
+      "source_path": "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "photographed adult performers, practical materials, natural skin, and contact shadows",
+        "no game screenshot, 3D render, poster lineup, or pasted cutout integration"
+      ],
+      "reject_if": [
+        "game screenshot",
+        "anime or illustration",
+        "3D render",
+        "pasted cutout"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-62060568e310",
+      "type": "location_reference",
+      "source_path": "assets/locations/DreamSanctuary/EP01_scene_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/DreamSanctuary/EP01_scene_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-7efd7c5dd7ad",
+      "type": "character_identity",
+      "source_path": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/church_of_seiros/Seteth/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-8833428078d7",
+      "type": "prop_reference",
+      "source_path": "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/props/shared/hero_relics/thunderbrand_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve silhouette, hand scale, material, and canon-specific shape",
+        "do not replace the prop with a generic weapon or decorative overlay"
+      ],
+      "reject_if": [
+        "generic replacement weapon",
+        "duplicate prop",
+        "unreadable or floating prop"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-8bbe178a4e5d",
+      "type": "character_identity",
+      "source_path": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/blue_lions/Ingrid/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-8db105869dfa",
+      "type": "prop_reference",
+      "source_path": "assets/props/shared/hero_relics/hero_relics_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/props/shared/hero_relics/hero_relics_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve silhouette, hand scale, material, and canon-specific shape",
+        "do not replace the prop with a generic weapon or decorative overlay"
+      ],
+      "reject_if": [
+        "generic replacement weapon",
+        "duplicate prop",
+        "unreadable or floating prop"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-9258acbfaa79",
+      "type": "character_identity",
+      "source_path": "assets/characters/blue_lions/Annette/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/blue_lions/Annette/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-9438052ec0bb",
+      "type": "character_identity",
+      "source_path": "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-9cc04fc9bfce",
+      "type": "character_identity",
+      "source_path": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/blue_lions/Mercedes/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-9e8cd6b61dbc",
+      "type": "character_identity",
+      "source_path": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/blue_lions/Dimitri/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-9fe75adee612",
+      "type": "character_identity",
+      "source_path": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/church_of_seiros/Rhea/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-a567644ae855",
+      "type": "character_identity",
+      "source_path": "assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/church_of_seiros/SeirosSoldier/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-afed5898b7b9",
+      "type": "location_reference",
+      "source_path": "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-c139d107de5e",
+      "type": "character_identity",
+      "source_path": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/church_of_seiros/Catherine/academy/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-c41b9f5beaae",
+      "type": "location_reference",
+      "source_path": "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-c570c3bb881f",
+      "type": "prop_reference",
+      "source_path": "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve silhouette, hand scale, material, and canon-specific shape",
+        "do not replace the prop with a generic weapon or decorative overlay"
+      ],
+      "reject_if": [
+        "generic replacement weapon",
+        "duplicate prop",
+        "unreadable or floating prop"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-c82e1035a9a6",
+      "type": "location_reference",
+      "source_path": "assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-caaaccdcb947",
+      "type": "character_identity",
+      "source_path": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/protagonist/BylethFemale/professor/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-cc988a87015c",
+      "type": "location_reference",
+      "source_path": "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-d2d3ef49de60",
+      "type": "location_reference",
+      "source_path": "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-ea301d547dc0",
+      "type": "character_identity",
+      "source_path": "assets/characters/extras/BanditSoldier/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/extras/BanditSoldier/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-f1649c7419ed",
+      "type": "character_identity",
+      "source_path": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "paths": [
+        "production_system/shared_references/assets/characters/kingdom/Lonato/legacy_ep01/selected.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve face shape, hair silhouette, age read, and academy wardrobe topology",
+        "keep the performer physically integrated with the set, lighting, and floor contact"
+      ],
+      "reject_if": [
+        "face drift",
+        "wrong age or wardrobe",
+        "pasted cutout",
+        "duplicate performer"
+      ]
+    },
+    {
+      "id": "EP03-ASSET-f43d87bcb7fa",
+      "type": "location_reference",
+      "source_path": "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "paths": [
+        "production_system/shared_references/assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png"
+      ],
+      "origin": "local_canonical_asset_bank",
+      "continuity_locks": [
+        "preserve set geometry, wet material response, depth layers, and motivated light direction",
+        "keep the camera axis and scale compatible with adjacent shot frames"
+      ],
+      "reject_if": [
+        "wrong geography",
+        "flat studio background",
+        "lighting-only transition"
+      ]
+    }
+  ]
+}

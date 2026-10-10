@@ -1,0 +1,1056 @@
+{
+  "version": 1,
+  "project": "Black Eagles Support Comedy Mini-Theaters",
+  "artifacts": [
+    {
+      "id": "BE-SC-PROJECT-BIBLE",
+      "type": "project_bible",
+      "stage": "project_bible",
+      "status": "approved_for_next_stage",
+      "created_by": "producer-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "project_bible.md"
+      ],
+      "source_refs": [],
+      "depends_on": [],
+      "risk_flags": []
+    },
+    {
+      "id": "BE-SC-OUTLINE",
+      "type": "outline",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "outline.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Linhardt/Caspar/B",
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/C and https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/B",
+        "https://houses.fedatamine.com/ja/supports/Caspar/Bernadetta/C",
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "BE-SC-PROJECT-BIBLE"
+      ],
+      "risk_flags": [
+        "adaptation_fidelity"
+      ]
+    },
+    {
+      "id": "BE-SC-DIRECTOR-TREATMENT",
+      "type": "director_treatment",
+      "stage": "director_treatment",
+      "status": "approved_for_next_stage",
+      "created_by": "director-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "director_treatment.md"
+      ],
+      "source_refs": [],
+      "depends_on": [
+        "BE-SC-OUTLINE"
+      ],
+      "risk_flags": [
+        "identity_drift"
+      ]
+    },
+    {
+      "id": "BE-SC-SHOT-LIST",
+      "type": "shot_list",
+      "stage": "shot_list",
+      "status": "approved_for_next_stage",
+      "created_by": "shotlist-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "shot_list.md"
+      ],
+      "source_refs": [],
+      "depends_on": [
+        "BE-SC-DIRECTOR-TREATMENT"
+      ],
+      "risk_flags": [
+        "timing"
+      ]
+    },
+    {
+      "id": "EP01-SCRIPT",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "episodes/ep01_caspar_linhardt_b/script.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Linhardt/Caspar/B"
+      ],
+      "depends_on": [
+        "BE-SC-OUTLINE"
+      ],
+      "risk_flags": [
+        "source_excerpt",
+        "copyright_scope"
+      ]
+    },
+    {
+      "id": "BE-SC-EP01-SH001",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/001_BE-SC-EP01-SH001/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/001_BE-SC-EP01-SH001/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/001_BE-SC-EP01-SH001/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/001_BE-SC-EP01-SH001/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/001_BE-SC-EP01-SH001/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/001_BE-SC-EP01-SH001/end_frame.png",
+        "storyboards/BE-SC-EP01-SH001/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Linhardt/Caspar/B"
+      ],
+      "depends_on": [
+        "EP01-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "",
+        "next": "BE-SC-EP01-SH002",
+        "in": "scene start",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP01-SH002",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/002_BE-SC-EP01-SH002/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/002_BE-SC-EP01-SH002/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/002_BE-SC-EP01-SH002/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/002_BE-SC-EP01-SH002/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/002_BE-SC-EP01-SH002/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/002_BE-SC-EP01-SH002/end_frame.png",
+        "storyboards/BE-SC-EP01-SH002/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Linhardt/Caspar/B"
+      ],
+      "depends_on": [
+        "EP01-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP01-SH001",
+        "next": "BE-SC-EP01-SH003",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP01-SH003",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/003_BE-SC-EP01-SH003/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/003_BE-SC-EP01-SH003/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/003_BE-SC-EP01-SH003/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/003_BE-SC-EP01-SH003/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/003_BE-SC-EP01-SH003/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/003_BE-SC-EP01-SH003/end_frame.png",
+        "storyboards/BE-SC-EP01-SH003/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Linhardt/Caspar/B"
+      ],
+      "depends_on": [
+        "EP01-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP01-SH002",
+        "next": "BE-SC-EP01-SH004",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP01-SH004",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/004_BE-SC-EP01-SH004/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/004_BE-SC-EP01-SH004/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/004_BE-SC-EP01-SH004/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/004_BE-SC-EP01-SH004/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/004_BE-SC-EP01-SH004/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b/shots/004_BE-SC-EP01-SH004/end_frame.png",
+        "storyboards/BE-SC-EP01-SH004/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Linhardt/Caspar/B"
+      ],
+      "depends_on": [
+        "EP01-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP01-SH003",
+        "next": "",
+        "in": "cut from previous reaction",
+        "out": "episode button"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "EP02-SCRIPT",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "episodes/ep02_ferdinand_dorothea_cb/script.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/C",
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/B"
+      ],
+      "depends_on": [
+        "BE-SC-OUTLINE"
+      ],
+      "risk_flags": [
+        "source_excerpt",
+        "copyright_scope"
+      ]
+    },
+    {
+      "id": "BE-SC-EP02-SH001",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/001_BE-SC-EP02-SH001/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/001_BE-SC-EP02-SH001/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/001_BE-SC-EP02-SH001/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/001_BE-SC-EP02-SH001/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/001_BE-SC-EP02-SH001/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/001_BE-SC-EP02-SH001/end_frame.png",
+        "storyboards/BE-SC-EP02-SH001/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/C",
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/B"
+      ],
+      "depends_on": [
+        "EP02-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "",
+        "next": "BE-SC-EP02-SH002",
+        "in": "scene start",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP02-SH002",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/002_BE-SC-EP02-SH002/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/002_BE-SC-EP02-SH002/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/002_BE-SC-EP02-SH002/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/002_BE-SC-EP02-SH002/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/002_BE-SC-EP02-SH002/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/002_BE-SC-EP02-SH002/end_frame.png",
+        "storyboards/BE-SC-EP02-SH002/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/C",
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/B"
+      ],
+      "depends_on": [
+        "EP02-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP02-SH001",
+        "next": "BE-SC-EP02-SH003",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP02-SH003",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/003_BE-SC-EP02-SH003/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/003_BE-SC-EP02-SH003/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/003_BE-SC-EP02-SH003/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/003_BE-SC-EP02-SH003/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/003_BE-SC-EP02-SH003/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/003_BE-SC-EP02-SH003/end_frame.png",
+        "storyboards/BE-SC-EP02-SH003/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/C",
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/B"
+      ],
+      "depends_on": [
+        "EP02-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP02-SH002",
+        "next": "BE-SC-EP02-SH004",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP02-SH004",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/004_BE-SC-EP02-SH004/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/004_BE-SC-EP02-SH004/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/004_BE-SC-EP02-SH004/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/004_BE-SC-EP02-SH004/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/004_BE-SC-EP02-SH004/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb/shots/004_BE-SC-EP02-SH004/end_frame.png",
+        "storyboards/BE-SC-EP02-SH004/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/C",
+        "https://houses.fedatamine.com/ja/supports/Ferdinand/Dorothea/B"
+      ],
+      "depends_on": [
+        "EP02-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP02-SH003",
+        "next": "",
+        "in": "cut from previous reaction",
+        "out": "episode button"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "EP03-SCRIPT",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "episodes/ep03_caspar_bernadetta_c/script.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Caspar/Bernadetta/C"
+      ],
+      "depends_on": [
+        "BE-SC-OUTLINE"
+      ],
+      "risk_flags": [
+        "source_excerpt",
+        "copyright_scope"
+      ]
+    },
+    {
+      "id": "BE-SC-EP03-SH001",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/001_BE-SC-EP03-SH001/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/001_BE-SC-EP03-SH001/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/001_BE-SC-EP03-SH001/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/001_BE-SC-EP03-SH001/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/001_BE-SC-EP03-SH001/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/001_BE-SC-EP03-SH001/end_frame.png",
+        "storyboards/BE-SC-EP03-SH001/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Caspar/Bernadetta/C"
+      ],
+      "depends_on": [
+        "EP03-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "",
+        "next": "BE-SC-EP03-SH002",
+        "in": "scene start",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP03-SH002",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/002_BE-SC-EP03-SH002/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/002_BE-SC-EP03-SH002/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/002_BE-SC-EP03-SH002/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/002_BE-SC-EP03-SH002/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/002_BE-SC-EP03-SH002/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/002_BE-SC-EP03-SH002/end_frame.png",
+        "storyboards/BE-SC-EP03-SH002/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Caspar/Bernadetta/C"
+      ],
+      "depends_on": [
+        "EP03-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP03-SH001",
+        "next": "BE-SC-EP03-SH003",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP03-SH003",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/003_BE-SC-EP03-SH003/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/003_BE-SC-EP03-SH003/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/003_BE-SC-EP03-SH003/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/003_BE-SC-EP03-SH003/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/003_BE-SC-EP03-SH003/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/003_BE-SC-EP03-SH003/end_frame.png",
+        "storyboards/BE-SC-EP03-SH003/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Caspar/Bernadetta/C"
+      ],
+      "depends_on": [
+        "EP03-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP03-SH002",
+        "next": "BE-SC-EP03-SH004",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP03-SH004",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/004_BE-SC-EP03-SH004/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/004_BE-SC-EP03-SH004/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/004_BE-SC-EP03-SH004/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/004_BE-SC-EP03-SH004/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/004_BE-SC-EP03-SH004/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c/shots/004_BE-SC-EP03-SH004/end_frame.png",
+        "storyboards/BE-SC-EP03-SH004/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Caspar/Bernadetta/C"
+      ],
+      "depends_on": [
+        "EP03-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP03-SH003",
+        "next": "",
+        "in": "cut from previous reaction",
+        "out": "episode button"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "EP04-SCRIPT",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "episodes/ep04_petra_bernadetta_c/script.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "BE-SC-OUTLINE"
+      ],
+      "risk_flags": [
+        "source_excerpt",
+        "copyright_scope"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH001",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/001_BE-SC-EP04-SH001/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/001_BE-SC-EP04-SH001/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/001_BE-SC-EP04-SH001/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/001_BE-SC-EP04-SH001/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/001_BE-SC-EP04-SH001/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/001_BE-SC-EP04-SH001/end_frame.png",
+        "storyboards/BE-SC-EP04-SH001/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "",
+        "next": "BE-SC-EP04-SH002",
+        "in": "scene start",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH002",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/002_BE-SC-EP04-SH002/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/002_BE-SC-EP04-SH002/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/002_BE-SC-EP04-SH002/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/002_BE-SC-EP04-SH002/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/002_BE-SC-EP04-SH002/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/002_BE-SC-EP04-SH002/end_frame.png",
+        "storyboards/BE-SC-EP04-SH002/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH001",
+        "next": "BE-SC-EP04-SH003",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH003",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/003_BE-SC-EP04-SH003/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/003_BE-SC-EP04-SH003/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/003_BE-SC-EP04-SH003/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/003_BE-SC-EP04-SH003/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/003_BE-SC-EP04-SH003/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/003_BE-SC-EP04-SH003/end_frame.png",
+        "storyboards/BE-SC-EP04-SH003/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH002",
+        "next": "BE-SC-EP04-SH004",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH004",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/004_BE-SC-EP04-SH004/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/004_BE-SC-EP04-SH004/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/004_BE-SC-EP04-SH004/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/004_BE-SC-EP04-SH004/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/004_BE-SC-EP04-SH004/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/004_BE-SC-EP04-SH004/end_frame.png",
+        "storyboards/BE-SC-EP04-SH004/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH003",
+        "next": "BE-SC-EP04-SH005",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH005",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/005_BE-SC-EP04-SH005/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/005_BE-SC-EP04-SH005/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/005_BE-SC-EP04-SH005/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/005_BE-SC-EP04-SH005/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/005_BE-SC-EP04-SH005/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/005_BE-SC-EP04-SH005/end_frame.png",
+        "storyboards/BE-SC-EP04-SH005/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH004",
+        "next": "BE-SC-EP04-SH006",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH006",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/006_BE-SC-EP04-SH006/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/006_BE-SC-EP04-SH006/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/006_BE-SC-EP04-SH006/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/006_BE-SC-EP04-SH006/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/006_BE-SC-EP04-SH006/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/006_BE-SC-EP04-SH006/end_frame.png",
+        "storyboards/BE-SC-EP04-SH006/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH005",
+        "next": "BE-SC-EP04-SH007",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH007",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/007_BE-SC-EP04-SH007/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/007_BE-SC-EP04-SH007/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/007_BE-SC-EP04-SH007/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/007_BE-SC-EP04-SH007/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/007_BE-SC-EP04-SH007/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/007_BE-SC-EP04-SH007/end_frame.png",
+        "storyboards/BE-SC-EP04-SH007/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH006",
+        "next": "BE-SC-EP04-SH008",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH008",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/008_BE-SC-EP04-SH008/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/008_BE-SC-EP04-SH008/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/008_BE-SC-EP04-SH008/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/008_BE-SC-EP04-SH008/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/008_BE-SC-EP04-SH008/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/008_BE-SC-EP04-SH008/end_frame.png",
+        "storyboards/BE-SC-EP04-SH008/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH007",
+        "next": "BE-SC-EP04-SH009",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH009",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/009_BE-SC-EP04-SH009/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/009_BE-SC-EP04-SH009/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/009_BE-SC-EP04-SH009/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/009_BE-SC-EP04-SH009/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/009_BE-SC-EP04-SH009/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/009_BE-SC-EP04-SH009/end_frame.png",
+        "storyboards/BE-SC-EP04-SH009/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH008",
+        "next": "BE-SC-EP04-SH010",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH010",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/010_BE-SC-EP04-SH010/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/010_BE-SC-EP04-SH010/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/010_BE-SC-EP04-SH010/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/010_BE-SC-EP04-SH010/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/010_BE-SC-EP04-SH010/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/010_BE-SC-EP04-SH010/end_frame.png",
+        "storyboards/BE-SC-EP04-SH010/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH009",
+        "next": "BE-SC-EP04-SH011",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH011",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/011_BE-SC-EP04-SH011/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/011_BE-SC-EP04-SH011/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/011_BE-SC-EP04-SH011/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/011_BE-SC-EP04-SH011/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/011_BE-SC-EP04-SH011/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/011_BE-SC-EP04-SH011/end_frame.png",
+        "storyboards/BE-SC-EP04-SH011/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH010",
+        "next": "BE-SC-EP04-SH012",
+        "in": "cut from previous reaction",
+        "out": "reaction handoff"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    },
+    {
+      "id": "BE-SC-EP04-SH012",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/012_BE-SC-EP04-SH012/prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/012_BE-SC-EP04-SH012/negative_prompt.md",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/012_BE-SC-EP04-SH012/metadata.json",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/012_BE-SC-EP04-SH012/start_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/012_BE-SC-EP04-SH012/key_frame.png",
+        "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c/shots/012_BE-SC-EP04-SH012/end_frame.png",
+        "storyboards/BE-SC-EP04-SH012/frame_spec.md"
+      ],
+      "source_refs": [
+        "https://houses.fedatamine.com/ja/supports/Bernadetta/Petra/C"
+      ],
+      "depends_on": [
+        "EP04-SCRIPT",
+        "BE-SC-SHOT-LIST"
+      ],
+      "continuity": {
+        "previous": "BE-SC-EP04-SH011",
+        "next": "",
+        "in": "cut from previous reaction",
+        "out": "episode button"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "wardrobe_topology_drift",
+        "expression_exaggeration",
+        "subtitle_hallucination",
+        "source_dialogue"
+      ]
+    }
+  ]
+}

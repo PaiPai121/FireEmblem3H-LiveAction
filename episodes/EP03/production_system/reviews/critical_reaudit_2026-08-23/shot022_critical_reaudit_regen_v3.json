@@ -1,0 +1,32 @@
+{
+  "shot_id": "Shot022",
+  "review_date": "2026-08-23",
+  "review_type": "ashe_advance_identity_and_dialogue_axis_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "current_display_frame_set": "critical_reaudit_regen_v3_2026-08-23",
+  "previous_shot": "Shot021",
+  "next_shot": "Shot023",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after user re-audit: v2 had an identity collision where Dimitri could read as a second Ashe and its Byleth foreground blocking read as one-versus-three. v2 is historical evidence only."
+  ],
+  "finding": "2026-08-23 critical re-audit: user correctly rejected Shot022 v2 because Dimitri was visually too Ashe-like and the Byleth foreground blocking could read as Byleth facing three people. v2 is blocked. v3 rebuilds the identity and blocking together: Ashe is the only silver-haired archer and owns the only bow; Dimitri is separated by blond hair, bright blue cape, high collar, and sword; the main eyeline is Ashe to Lonato; Byleth remains small in the far right rear.",
+  "passes": [
+    "START receives Shot021 geography while Byleth remains a small right-rear authority.",
+    "KEY makes Ashe's one deliberate step and Lonato eyeline primary.",
+    "END preserves one bow with Ashe, no bow with Dimitri, and the respectful exchange before refusal.",
+    "Dimitri's blond hair, bright royal-blue cape, high collar, and sword distinguish him from Ashe.",
+    "Japanese dialogue only; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if a second Ashe-like archer appears, Dimitri receives a bow or loses the blond/blue-cape/sword identity, Byleth becomes a large one-versus-three foreground opponent, Ashe does not advance, Lonato attacks, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

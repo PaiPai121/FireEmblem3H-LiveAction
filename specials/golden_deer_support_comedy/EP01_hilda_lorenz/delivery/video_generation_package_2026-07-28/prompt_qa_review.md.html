@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>specials/golden_deer_support_comedy/EP01_hilda_lorenz/delivery/video_generation_package_2026-07-28/prompt_qa_review.md</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101215; --panel:#181c21; --line:#303742; --ink:#eef3f8; --muted:#9eaab7; --accent:#e0b34d; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,"Segoe UI",sans-serif; }
+    header { position:sticky; top:0; z-index:2; padding:14px clamp(14px,4vw,30px); border-bottom:1px solid var(--line); background:rgba(16,18,21,.94); backdrop-filter:blur(12px); }
+    a { color:var(--accent); text-decoration:none; font-weight:800; }
+    p { margin:6px 0 0; color:var(--muted); font-size:12px; overflow-wrap:anywhere; }
+    main { padding:18px clamp(14px,4vw,30px) 34px; }
+    pre { margin:0; padding:16px; border:1px solid var(--line); border-radius:8px; background:var(--panel); color:var(--ink); white-space:pre-wrap; overflow-wrap:anywhere; line-height:1.55; font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,"Hiragino Sans","Yu Gothic",Meiryo,monospace; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="prompt_qa_review.md">raw source</a>
+    <p>specials/golden_deer_support_comedy/EP01_hilda_lorenz/delivery/video_generation_package_2026-07-28/prompt_qa_review.md</p>
+  </header>
+  <main><pre># Video Prompt QA Review - Hilda x Lorenz
+
+Blocking Issues
+- None.
+
+Monitor Risks
+- Downstream Seedance clip generation can still drift faces, hands, fabric trim, or mouth shapes; this is covered by the clip QA checklist and is not a prompt blocker.
+
+Prompt Contract Check
+- Episode prompt validator: passed
+- Shot prompt validators: 4/4 passed
+- Required sections present: Shot ID, Duration, Input Frames, Motion, Camera, Performance, Audio, Continuity Locks, Reject If.
+
+Frame Lock Check
+- Every shot prompt explicitly binds start_frame.png, key_frame.png, and end_frame.png as first frame, action/emotional peak, and final cut-out state.
+- Prompts instruct the model to animate approved frames rather than redesign characters, costumes, location, or props.
+
+Motion / Camera / Performance Check
+- Motion is small, physical, and character-specific; comedy is expressed through posture, eyeline, pauses, and restrained gestures.
+- Camera language stays compatible with the existing frame chain and does not ask for a new unrelated establishing shot.
+- Character acting constraints preserve the requested canon temperament and avoid malicious Hilda, villain Lorenz, sinister Claude, overaged Lysithea, or broad slapstick.
+
+Continuity / Edit Fit
+- Shot durations are 15 seconds or shorter, with 4 shots per episode and 60 seconds total.
+- Continuity locks preserve Garreg Mach location, academy-era uniforms, relative positions, prop state, and adjacent-shot handoff.
+
+Negative Prompt Check
+- Negative prompts ban subtitles, captions, readable text, watermarks, logos, face change, age-up, costume redesign, hair redesign, added named characters, modern objects, camera spin, gore, and new core conflict.
+
+Required Revisions
+- None.
+
+Decision
+- approved_for_video
+
+Per-Shot Decisions
+
+| Shot | Decision | Notes |
+| --- | --- | --- |
+| 001_GDSC01-SH001 | approved_for_video | no blocking issues |
+| 002_GDSC01-SH002 | approved_for_video | no blocking issues |
+| 003_GDSC01-SH003 | approved_for_video | no blocking issues |
+| 004_GDSC01-SH004 | approved_for_video | no blocking issues |
+</pre></main>
+</body>
+</html>

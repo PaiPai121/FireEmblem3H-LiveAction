@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-01",
+  "decision": "model_cli_execution_provenance_passed",
+  "scope": "temporary package copy; no current expected clips are written",
+  "source_package": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "temp_package": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_model_cli_provenance.fNyBGz/package",
+  "expected_shots": 42,
+  "runner": {
+    "ok": true,
+    "status": 0,
+    "stdout_tail": "- WARN EP02-SC09-SHOT-Shot032E-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032F-V2-20260724: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032G-V2-20260724: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033B-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033C-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033D-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034C-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034D-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034B-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034E-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034F-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034G-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot035-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot036-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\nModel CLI configured: yes\nModel CLI template: model_cli_template_ready\nMissing clips: 42\nPlan written: /var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_model_cli_provenance.fNyBGz/package/execution_plan.json",
+    "stderr_tail": ""
+  },
+  "provenance": {
+    "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_model_cli_provenance.fNyBGz/package/generated_clip_provenance.json",
+    "rows_checked": 42,
+    "unique_expected_clips": 42
+  },
+  "fake_cli": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_model_cli_provenance.fNyBGz/fake_video_model_cli.js",
+  "problems": [],
+  "temp_fixture_cleaned": true
+}

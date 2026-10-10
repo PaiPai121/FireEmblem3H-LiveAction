@@ -1,0 +1,230 @@
+{
+  "date": "2026-08-01",
+  "decision": "positive_contract_isolation_passed",
+  "expected_shots": 42,
+  "production_expected_clips_existing": 0,
+  "production_clip_structural_decision": "clips_pending",
+  "production_clip_structural_ready": 0,
+  "production_clip_provenance_decision": "clip_provenance_ready_clips_pending",
+  "production_final_output": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+  "production_final_output_exists": false,
+  "production_final_edit_decision": "final_edit_pending",
+  "production_completion_decision": "video_generation_run_blocked_clips_pending",
+  "production_completion_highest_target": "prompt_asset_package",
+  "production_truth_gate_decision": "production_delivery_truth_blocked_clips_pending",
+  "production_truth_gate_highest_target": "prompt_asset_package",
+  "production_truth_gate_can_claim_video_generation_run": false,
+  "contracts_checked": 6,
+  "contract_rows": [
+    {
+      "id": "motion_self_audit_apply_positive_contract",
+      "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_apply_positive_contract_2026-08-01.json",
+      "decision": "motion_self_audit_apply_positive_contract_passed",
+      "fixture_paths_checked": [
+        {
+          "key": "temp_package",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_apply_positive.EbovWp/package"
+        },
+        {
+          "key": "temp_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_apply_positive.EbovWp/report"
+        },
+        {
+          "key": "temp_package",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_apply_positive.EbovWp/package"
+        },
+        {
+          "key": "temp_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_apply_positive.EbovWp/report"
+        }
+      ],
+      "problems": []
+    },
+    {
+      "id": "after_clip_return_resume_positive_contract",
+      "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_after_clip_return_resume_positive_contract_2026-08-01.json",
+      "decision": "after_clip_return_resume_positive_contract_passed",
+      "fixture_paths_checked": [
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports"
+        },
+        {
+          "key": "fixture_download_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/clip_return_intake"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/final/scene09_v3_attrition_final_edit.mp4"
+        },
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/reports"
+        },
+        {
+          "key": "fixture_download_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/clip_return_intake"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-resume-positive-6dNEaO/final/scene09_v3_attrition_final_edit.mp4"
+        }
+      ],
+      "problems": []
+    },
+    {
+      "id": "final_concat_positive_contract",
+      "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_final_concat_positive_contract_2026-08-01.json",
+      "decision": "final_concat_positive_contract_passed",
+      "fixture_paths_checked": [
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-concat-positive-IxAo2U/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-concat-positive-IxAo2U/reports"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-concat-positive-IxAo2U/final/scene09_v3_attrition_final_edit.mp4"
+        },
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-concat-positive-IxAo2U/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-concat-positive-IxAo2U/reports"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-concat-positive-IxAo2U/final/scene09_v3_attrition_final_edit.mp4"
+        }
+      ],
+      "problems": []
+    },
+    {
+      "id": "final_edit_positive_contract",
+      "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_final_edit_positive_contract_2026-08-01.json",
+      "decision": "final_edit_positive_contract_passed",
+      "fixture_paths_checked": [
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/reports"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.mp4"
+        },
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/reports"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/final/scene09_v3_attrition_final_edit.mp4"
+        },
+        {
+          "key": "wrong_duration_rejection.fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/wrong_duration/scene09_v3_attrition_final_edit_wrong_duration.mp4"
+        },
+        {
+          "key": "tampered_provenance_rejection.fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-final-edit-positive-SD4fGC/tampered_provenance/scene09_v3_attrition_final_edit_tampered_provenance.mp4"
+        }
+      ],
+      "problems": []
+    },
+    {
+      "id": "video_generation_run_positive_contract",
+      "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_video_generation_run_positive_contract_2026-08-01.json",
+      "decision": "video_generation_run_positive_contract_passed",
+      "fixture_paths_checked": [
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/final/scene09_v3_attrition_final_edit.mp4"
+        },
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/package"
+        },
+        {
+          "key": "fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports"
+        },
+        {
+          "key": "fixture_final_output",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/final/scene09_v3_attrition_final_edit.mp4"
+        },
+        {
+          "key": "stale_concat_7_of_7_rejection.fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports_stale_concat_7_of_7"
+        },
+        {
+          "key": "stale_structural_digest_rejection.fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports_stale_structural_digest"
+        },
+        {
+          "key": "stale_provenance_digest_rejection.fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports_stale_provenance_digest"
+        },
+        {
+          "key": "stale_battle_ledger_digest_rejection.fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports_stale_battle_ledger_digest"
+        },
+        {
+          "key": "stale_active_return_state_machine_digest_rejection.fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports_stale_active_return_state_machine_digest"
+        },
+        {
+          "key": "stale_submission_ledger_digest_rejection.fixture_report_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09-v3-run-positive-2nxRFN/reports_stale_submission_ledger_digest"
+        }
+      ],
+      "problems": []
+    },
+    {
+      "id": "model_cli_template_positive_contract",
+      "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_model_cli_template_positive_contract_2026-08-01.json",
+      "decision": "model_cli_template_positive_contract_passed",
+      "fixture_paths_checked": [
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_v3_model_cli_contract.a4AGUH"
+        },
+        {
+          "key": "fixture_package_dir",
+          "path": "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_v3_model_cli_contract.a4AGUH"
+        }
+      ],
+      "problems": []
+    }
+  ],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "shot_id": "Shot026",
+  "review_date": "2026-08-23",
+  "review_type": "nonlethal_decision_chain_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v3_2026-08-23",
+  "current_display_frame_set": "critical_reaudit_regen_v4_2026-08-24",
+  "previous_shot": "Shot025",
+  "next_shot": "Shot027",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/start_frame.png",
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/key_frame.png",
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/end_frame.png",
+    "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-24 after user re-audit: v3 remained too long and ended on a near-duplicate full-draw hold. Retain as historical evidence only."
+  ],
+  "finding": "2026-08-24 action-chain rebuild: v3 still held full draw too long and gave KEY/END nearly the same pose. v4 shortens the shot to a lift→full draw→deliberately lowered aim chain so Ashe's Japanese apology lands on a real decision beat before Shot027 releases.",
+  "passes": [
+    "START receives the same-side Ashe shooting mark from Shot025.",
+    "KEY is one full draw with the arrow line visibly below Lonato's knee line.",
+    "END lowers the nocked arrow fractionally after the Japanese line; release belongs only to Shot027.",
+    "The line is timed as one continuous utterance with a short reaction tail; motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot025→026 continuity QA, dialogue timing QA, and a 3-second motion probe. Reject if the arrow points at Lonato, releases early, the patch disappears, the distance collapses, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

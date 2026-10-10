@@ -1,0 +1,62 @@
+{
+  "id": "Shot018",
+  "order": 18,
+  "status": "frames_pending",
+  "duration_seconds": 11,
+  "scene": "善后",
+  "title": "不是偶然",
+  "purpose": "Let Hanneman convert evidence into a dangerous inference without overexplaining.",
+  "source_timecode": "00:10:30",
+  "source_reference": "source_refs/game_frame_0630s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Cathedral book table",
+  "characters": [
+    "Hanneman",
+    "Manuela",
+    "Rhea"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/CathedralInterior_reference.png",
+    "source/reference_pack/characters/Hanneman_face.png",
+    "source/reference_pack/characters/Manuela_face.png",
+    "source/reference_pack/characters/Rhea_face.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot018/frames_pending/start_frame.png",
+    "key": "storyboards/Shot018/frames_pending/key_frame.png",
+    "end": "storyboards/Shot018/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot018_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot018_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot018/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot018.md",
+  "dialogue_line_ids": [
+    "DL-EP04-018"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese_probe_pending",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Shot017's route trace",
+  "continuity_next": "student reaction in Shot019",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": {
+    "line_id": "DL-EP04-018",
+    "speaker": "Hanneman",
+    "text": "偶然ではない。誰かが道を開けた。",
+    "local_start_seconds": 7.45,
+    "local_speech_end_seconds": 10.25,
+    "local_end_seconds": 10.55,
+    "speech_seconds": 2.8,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  }
+}

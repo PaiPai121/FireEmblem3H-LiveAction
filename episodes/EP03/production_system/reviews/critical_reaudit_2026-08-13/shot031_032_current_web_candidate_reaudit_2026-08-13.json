@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-13",
+  "mode": "critical_reaudit_current_web_storyboard",
+  "shots": {
+    "Shot031": {
+      "decision": "replace_current_web_candidate_monitor_required",
+      "replacement": "storyboards/Shot031/critical_reaudit_regen_v1_2026-08-13",
+      "finding": "Critical re-audit 2026-08-13: previous seteth_age_integrated_candidate_v2 was not acceptable as a current web candidate because START/KEY/END still read too close to one reporting tableau and did not carry battlefield residue/power shift clearly enough. Replaced with local-reference imagegen critical_reaudit_regen_v1 frames showing Rhea/Seteth elevated and Byleth/Dimitri below with mud/fog residue. Still monitor_required because START/END remain compositionally related and need a 3-second motion probe before promotion.",
+      "required_revision": "Run 3-second motion probe only. Reject if Rhea/Seteth/Byleth/Dimitri identity drifts, students become clean victory figures, Seteth becomes young, or the START->KEY->END order collapses into a static tableau."
+    },
+    "Shot032": {
+      "decision": "replace_current_web_candidate_monitor_required",
+      "replacement": "storyboards/Shot032/critical_reaudit_regen_v1_2026-08-13",
+      "finding": "Critical re-audit 2026-08-13: previous seteth_age_integrated_candidate_v2 was not acceptable as a current web candidate because the three anchors were mostly the same standing arrangement and did not stage Seteth presenting the list, Rhea giving the order, and Byleth carrying the reaction. Replaced with local-reference imagegen critical_reaudit_regen_v1 frames with older Seteth, report/list action, Rhea authority, and Byleth witness reaction. Still monitor_required pending motion probe and identity stability.",
+      "required_revision": "Run 3-second motion probe only. Reject if Seteth becomes young, the paper/list becomes readable text, Rhea turns villainous, Byleth costume drifts, subtitles/UI/Chinese voice appear, or the clip ignores the START->KEY->END document/order/reaction chain."
+    }
+  }
+}

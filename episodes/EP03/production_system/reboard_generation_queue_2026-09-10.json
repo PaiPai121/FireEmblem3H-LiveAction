@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "project": "EP03",
+  "revision": "external_film_staging_reboard_v1_2026-09-10",
+  "quality_reference_policy": "Use public professional film/animation production notes and storyboard/layout craft only; local selected assets constrain identity and geography, never visual quality or blocking.",
+  "prerequisite": "planning/external_film_staging_thumbnail_030_036_2026-09-10.png",
+  "status": "queued",
+  "shots": [
+    { "id": "Shot030", "order": 30, "frame_set_id": "Shot030_external_film_staging_reboard_v1_2026-09-10", "frames": { "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png", "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png", "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png" }, "status": "queued", "priority": "first" },
+    { "id": "Shot031", "order": 31, "frame_set_id": "Shot031_external_film_staging_reboard_v1_2026-09-10", "frames": { "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png", "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png", "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png" }, "status": "queued" },
+    { "id": "Shot032", "order": 32, "frame_set_id": "Shot032_external_film_staging_reboard_v1_2026-09-10", "frames": { "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png", "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png", "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png" }, "status": "queued" },
+    { "id": "Shot033", "order": 33, "frame_set_id": "Shot033_external_film_staging_reboard_v1_2026-09-10", "frames": { "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png", "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png", "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png" }, "status": "queued" },
+    { "id": "Shot034", "order": 34, "frame_set_id": "Shot034_external_film_staging_reboard_v1_2026-09-10", "frames": { "start": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png", "key": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png", "end": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png" }, "status": "queued" },
+    { "id": "Shot035", "order": 35, "frame_set_id": "Shot035_external_film_staging_reboard_v1_2026-09-10", "frames": { "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png", "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png", "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png" }, "status": "queued" },
+    { "id": "Shot036", "order": 36, "frame_set_id": "Shot036_external_film_staging_reboard_v1_2026-09-10", "frames": { "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png", "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png", "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png" }, "status": "queued" }
+  ]
+}

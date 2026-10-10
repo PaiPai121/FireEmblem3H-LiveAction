@@ -1,0 +1,225 @@
+{
+  "id": "GDSC02-SH003A",
+  "order": 5,
+  "status": "approved_for_video",
+  "duration_seconds": 8,
+  "expected_clip": "clips/GDSC02-SH003A.mp4",
+  "edit_in": "cut from Marianne alone",
+  "edit_out": "cut on Hilda deciding to show the method",
+  "audio_anchor": "Hilda's surprised line.",
+  "continuity_previous": "GDSC02-SH002",
+  "continuity_next": "GDSC02-SH004",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+    "Preserve academy-phase face, hair, uniform, and age identity from references."
+  ],
+  "reject_if": [
+    "books fly magically",
+    "Hilda yells viciously",
+    "Marianne becomes slapstick clown"
+  ],
+  "visual_version": "v9_ep02_flatness_repair_reference_locked",
+  "visual_status": "flatness_repaired_reference_locked_imagegen_frames_applied",
+  "frame_provenance": {
+    "method": "copied timing-safe frame anchors from approved parent shot",
+    "parent_shot": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/003_GDSC02-SH003",
+    "frame_sources": {
+      "start_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/003_GDSC02-SH003/start_frame.png",
+      "key_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/003_GDSC02-SH003/key_frame.png",
+      "end_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/003_GDSC02-SH003/key_frame.png"
+    }
+  },
+  "updated_at": "2026-08-07T00:00:00+08:00",
+  "temporal_frame_provenance": {
+    "method": "independent image_gen temporal frame generation",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_9gP5Nf1BwWXRSOH0KvvuzwXn.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_sveuYpfPtJMG9xTETYYTceKR.png"
+    }
+  },
+  "title": "GDSC02-SH003 / timing split A",
+  "parent_shot_id": "GDSC02-SH003",
+  "dialogue_line_count": 1,
+  "dialogue_timing_estimate_seconds": 6.47,
+  "timing_status": "approved_for_video_timing_safe",
+  "timing_frame_repair": {
+    "method": "restored real imagegen frame anchors from the approved parent chain, with explicit regenerated frames where mapped; no copied duplicate frame anchors",
+    "frame_sources": {
+      "end_frame.png": "/Users/zekun/FireEmblem3H-LiveAction/specials/golden_deer_support_comedy/EP02_hilda_marianne/delivery/video_generation_package_2026-07-28/shots/003_GDSC02-SH003/end_frame.png"
+    },
+    "updated_at": "2026-08-01T21:28:00"
+  },
+  "visual_revision_2026_08_03": {
+    "method": "regenerated shot-specific start/key/end storyboard anchors after visual audit rejected copied parent anchors",
+    "frame_sources": {
+      "start_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/visual_revisions_2026-08-03/005_GDSC02-SH003A/start_frame.png",
+      "key_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/visual_revisions_2026-08-03/005_GDSC02-SH003A/key_frame.png",
+      "end_frame.png": "specials/golden_deer_support_comedy/EP02_hilda_marianne/visual_revisions_2026-08-03/005_GDSC02-SH003A/end_frame.png"
+    },
+    "aspect_policy": "aspect_safe_crop_no_stretch",
+    "frame_aspect_report": {
+      "start_frame.png": {
+        "source_size": [
+          1280,
+          720
+        ],
+        "source_aspect": 1.777778,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch"
+      },
+      "key_frame.png": {
+        "source_size": [
+          1280,
+          720
+        ],
+        "source_aspect": 1.777778,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch"
+      },
+      "end_frame.png": {
+        "source_size": [
+          1280,
+          720
+        ],
+        "source_aspect": 1.777778,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch"
+      }
+    },
+    "distortion_review": "requires_manual_visual_review_after_2026_08_04_aspect_gate",
+    "audit": "specials/golden_deer_support_comedy/EP02_hilda_marianne/visual_revision_audit_2026-08-03.md",
+    "updated_at": "2026-08-04T23:35:02"
+  },
+  "aspect_geometry_repair_2026_08_04": {
+    "reason": "previous SH003A frames had visible flattened/stretched character geometry; replaced with individually generated native 16:9 frames, not a triptych split",
+    "aspect_policy": "aspect_safe_crop_no_stretch",
+    "distortion_review": "passed_single_frame_regeneration_no_flattening_observed",
+    "frame_aspect_report": {
+      "start_frame.png": {
+        "source": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_FKtPALHwfqZWv2uEWF8U2bTM.png",
+        "source_size": [
+          1672,
+          941
+        ],
+        "source_aspect": 1.776833,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch",
+        "visual_geometry_review": "passed_single_frame_regeneration_no_flattening_observed"
+      },
+      "key_frame.png": {
+        "source": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_XZ6irM3luxVqbCRrImmfay46.png",
+        "source_size": [
+          1672,
+          941
+        ],
+        "source_aspect": 1.776833,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch",
+        "visual_geometry_review": "passed_single_frame_regeneration_no_flattening_observed"
+      },
+      "end_frame.png": {
+        "source": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_5H5ddyCwcePAND2xA2ypVl53.png",
+        "source_size": [
+          1672,
+          941
+        ],
+        "source_aspect": 1.776833,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch",
+        "visual_geometry_review": "passed_single_frame_regeneration_no_flattening_observed"
+      }
+    },
+    "operator_note": "Video prompts remain no-subtitle; visual repair changed only frame anchors."
+  },
+  "aspect_geometry_review_2026_08_04": {
+    "reviewed_at": "2026-08-04T23:38:04",
+    "review_surface": "EP02_hilda_marianne/aspect_review_contact_2026-08-04.jpg",
+    "result": "manual_visual_pass_after_single_frame_regeneration",
+    "checks": [
+      "no obvious horizontal flattening of faces or bodies",
+      "no obvious vertical compression of people",
+      "architecture not visibly anamorphically stretched",
+      "video frames remain 1280x720 with no subtitles or letterbox added by this review"
+    ],
+    "limitations": "manual contact-sheet geometry review catches visible flattening; duplicate-frame and composition/story-readiness remain separate gates",
+    "repair_note": "Replaced old SH003A start/key/end with individually generated native 16:9 frames after flattened-geometry complaint."
+  },
+  "flatness_repair_2026_08_07": {
+    "method": "independent image_gen frame regeneration using Hilda and Marianne academy selected.png references",
+    "reason": "replace visually flat/wide SH003A frame chain with normal-proportion reveal of library mess and Hilda surprise",
+    "identity_reference_paths": {
+      "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+      "Marianne": "assets/characters/golden_deer/Marianne/academy/selected.png"
+    },
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_JjoeZ5mWm5j2qL0qsJhk3Vj2.png",
+      "key_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_TOEXOAFMQTFBHj0mkoRemkR3.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_tBJIvUUbBrAX4zGKSndbYxXE.png"
+    },
+    "frame_aspect_report": {
+      "start_frame.png": {
+        "source": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_JjoeZ5mWm5j2qL0qsJhk3Vj2.png",
+        "source_size": [
+          1672,
+          941
+        ],
+        "output_size": [
+          1280,
+          720
+        ],
+        "aspect_policy": "aspect-preserving center crop from native 16:9 source"
+      },
+      "key_frame.png": {
+        "source": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_TOEXOAFMQTFBHj0mkoRemkR3.png",
+        "source_size": [
+          1672,
+          941
+        ],
+        "output_size": [
+          1280,
+          720
+        ],
+        "aspect_policy": "aspect-preserving center crop from native 16:9 source"
+      },
+      "end_frame.png": {
+        "source": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_tBJIvUUbBrAX4zGKSndbYxXE.png",
+        "source_size": [
+          1672,
+          941
+        ],
+        "output_size": [
+          1280,
+          720
+        ],
+        "aspect_policy": "aspect-preserving center crop from native 16:9 source"
+      }
+    },
+    "visual_review": "manual_pass_no_subtitles_no_obvious_flattening_reference_locked_mess_reveal"
+  }
+}

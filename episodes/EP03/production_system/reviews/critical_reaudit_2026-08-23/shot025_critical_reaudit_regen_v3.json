@@ -1,0 +1,31 @@
+{
+  "shot_id": "Shot025",
+  "review_date": "2026-08-23",
+  "review_type": "formation_buffer_and_bow_handoff_reaudit",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "current_display_frame_set": "critical_reaudit_regen_v3_2026-08-23",
+  "previous_shot": "Shot024",
+  "next_shot": "Shot026",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+    "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+    "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-23 after user re-audit: v2 did not hand off the same target geography clearly enough for the subsequent bow shot. v2 is historical evidence only."
+  ],
+  "finding": "2026-08-23 distance-continuity re-audit: v2 showed the formation but its handoff to Ashe's distant bow did not prove the same geography. v3 keeps Lonato uphill and Ashe on the separate right-side mark while the six Blue Lions open front, flank, and rear layers around an empty central buffer.",
+  "passes": [
+    "START receives Byleth's first split as three depth layers on the same road.",
+    "KEY opens two controlled wings while the central buffer stays empty.",
+    "END leaves Ashe's same-side low-bow shooting mark and Lonato's distant scale intact.",
+    "Dedue braid, rear lantern line, and academy identities remain readable."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot024→025 and 025→026 continuity QA, and a 3-second motion probe. Reject if the formation closes the buffer, becomes a flat lineup, Ashe fires, Lonato is approached/attacked, Dedue loses the braid, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

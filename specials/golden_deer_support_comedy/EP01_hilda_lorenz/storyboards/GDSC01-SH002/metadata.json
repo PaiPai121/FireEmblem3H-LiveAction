@@ -1,0 +1,56 @@
+{
+  "id": "GDSC01-SH002",
+  "episode": "GDSC-EP01",
+  "title": "The Fragile Lady Pitch",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach training yard",
+  "characters": [
+    "Hilda",
+    "Lorenz"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC01-SH002/start_frame.png",
+    "key": "storyboards/GDSC01-SH002/key_frame.png",
+    "end": "storyboards/GDSC01-SH002/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC01-SH002_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC01-SH002_negative_prompt.md",
+  "expected_clip": "clips/GDSC01-SH002.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/ローレンツ(レスター諸侯同盟)#ヒルダ",
+    "https://fireemblem.fandom.com/wiki/Hilda_(Three_Houses)/Supports#With_Lorenz"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lorenz",
+      "line": "何か困りごとでもあるのかい？　僕に解決できないことはない。話したまえ。",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "実はあたし、戦うのが苦手で……訓練でも怖くて足が震えちゃうくらいなの。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lorenz",
+      "line": "ふむ、確かに君のような令嬢に、戦いは酷だろうな……。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Hilda folds her hands and sighs; Lorenz leans in with noble concern."
+  ],
+  "identity_references": {
+    "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+    "Lorenz": "assets/characters/golden_deer/Lorenz/academy/selected.png"
+  },
+  "reject_if": [
+    "Hilda seems genuinely frightened",
+    "Lorenz ignores her",
+    "extra students become focus"
+  ]
+}

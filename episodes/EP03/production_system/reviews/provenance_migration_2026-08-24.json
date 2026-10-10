@@ -1,0 +1,978 @@
+{
+  "generated_at": "2026-08-24",
+  "contract_id": "EP03-full-current-frame-chain-2026-08-24",
+  "current_frame_count": 108,
+  "cache_matched_frame_count": 102,
+  "unresolved_frame_count": 6,
+  "matched": [
+    {
+      "shot_id": "Shot001",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "cf4e75e0098b6d09e772e7da7b0a0fed2eb85db58a538440a97de9846b850f8c",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-cac2337f-7bab-4d62-95c5-ea02eee1fa79.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot001",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "79a3354a5e3fd1e6c846d9314c6929aa1f13189c777a6a87e6ce9505ebde55a3",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-8c77ec52-b37d-4196-8c60-9ef62e093632.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot001",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "9ebda68604874ea2dea319a9711dbfcc5e2562f641b3bed0c06999fb98a12f36",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7a82ea77-89ab-473e-a336-82f30f66de1d.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot002",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "82583aa8983590771571996d137627f305b04c26038816960d072504f1e346ba",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-95d8a59d-ec42-4e1e-a30a-77fc5e750ea3.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot002",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "546d314766f17f2d4c5bf1884653fc46b32520ecdb080be6e6576d6bd2dec7f9",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-17a4e6f6-eb15-4360-afc1-6e4eca5ce37d.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot002",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "7e600355e1c85653bffb9cac8a6072cc967a98ed7d4273e6b40fa10604400dfa",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-e8cecc98-cc23-4961-aaa4-f819ca251c0d.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot003",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "8c99ee088b74961b38549e9f2c4db22891c99746f813fc277bb19fa0e438a149",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7c121871-b7b2-4c53-9a04-73c68e8951a4.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot003",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "d58b41d3ad84866bbe121846be6a482157de8efa965029ddef64efc56ded8f60",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-c65187a8-e1a9-40b1-9217-9d4814eaaa55.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot003",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "a32d37a1d67aad17fa6e4c4a7008a7e6f2770b6bf5e68ddf0505d41b0a0ae1a4",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-06a68813-9370-4cb1-85f0-558d9ad3f78e.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot004",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "56dc8dc1024b7e7c55e87559b95a53c36518e7e2a5fe53ed5f9ffc7e43b8d6d6",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-2851e653-e344-4399-884b-45d5a32c1ac3.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot004",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "62bae42fd6b932069338d9c6ee29f53e7c461966b01de1580c1c6047f23af0d4",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-6fb27a3a-5e33-4a74-98a6-434fc9d35384.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot004",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "c4f50f5f041209291e04be1d961d725bfd1bf711bc7ff5b209b3a8df47bbf55f",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-038709d6-0b6e-4446-b907-74dae285480a.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot005",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "ed35d49f10075088eaf170ce236e731475310fb835cadc6597454f8065636ccc",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5c2e79dd-49b3-4b15-983d-202f94558bc7.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot005",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "d3ced7de7a2744ebf23e6a9e5fb4b11f3c898880bd158df988aefe505100f1c0",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-c760e2b0-2c53-44f6-b938-39a26933de0c.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot005",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "8b60334b63d42fd6e4d1f4dd2b01aa198bef6d9b26a713d66f8495f861a37829",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-489125f4-e4d9-43d3-9f59-b15622c1e402.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot006",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "f1b85289b934139237c3929aee8a9efd80a4419fbc25581b75d794e54869788e",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-6ea19a4d-eb91-413c-9a9f-0dbbd363c81b.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot006",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "663c10324f99a8b3371a5929847475b6fad7d68ac530b66e33f522562bbe728e",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-6b44cb8a-701e-4c8f-8595-b6ea3cb809de.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot006",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "63d476a9f6d66e3f08d22cc7472cc0fc8039d8ae6f49c5a914323271bb550751",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-0e2737a7-1091-4ef7-bc4f-85ee081288fa.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot007",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "0ca0e6baf18e955561a5ba597687ec4b5044e3024e605e0edf60694ff98b759a",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7291f0f0-fccf-43ec-9b60-5fbc9043ddfb.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot007",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "dc19c8d8e46e1e95c2775c20eaad4abb2a0288df6105daef89a4eb4abe1cbda9",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-9d7a1669-b6ad-46cd-8431-f0cb59ad31d4.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot007",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "9f42a8b849f8861a358390d32361b5cb2b138d986b00a6862ce1001eb2d960a9",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-c69f182c-5edb-48e8-ae6f-bcf14477ea34.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot008",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "sha256": "0b65ccdb35edc197496d0503e384e80862ab12ace53bf59f6ed0e628166b8ed9",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-1eb53526-9026-4b44-94ae-bdcc99774e48.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot008",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "sha256": "5297d76af35a99beef7e7abfe4c6f60cb5b6c829e75badcde2a787aa74abe846",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5eede60e-900f-4828-b54c-835048fa5833.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot008",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "sha256": "b8c096db445efe61fa5e7687bd47428b279570ac4c9459635dd5e9324e164651",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-cb45bf60-b052-4fdc-aa6c-4707999d71c7.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot009",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "sha256": "62c2bf680dd9bfdd19e85d37278d6217bbbd9b19a30d36f0f4a36a583fc4ddd3",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_bt9eWfRe62PV0qghs8wtybe6.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot009",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "sha256": "02fe6e3c01587e8cb3ab4bd3e8d08a8d789b074c78d457b2e669292f845909e1",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_0UnYfeR8EAfpSgi0WBTkTP0b.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot009",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "sha256": "932ce148b6411cfd8a01067b92ab55f35008a14b516af8d8da857c923081c0f5",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_UR5aop6r67UcplLb3qMT2OIx.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot010",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "sha256": "616c4ab84cd8e42a646f6bd8dad1acfee9eedef70441cb9d3f04904473e83e93",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_aqGnYGwnlKFWUx5ISXuWvhME.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot010",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "sha256": "23296a38246a3daf3bae14e4526858cecaeb3d1fe314b1f04606b5505eb23318",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_BysEVl26fvFJ4Y2kXo57LpqH.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot010",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "sha256": "2b0be11bf5296127f1486578c9710648aaa39ec00ddbb16f75c84dce2c994487",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_NcOahcP6Srjd1vXeOWYmVGWh.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot011",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "sha256": "bc662fa18e4f5078a5b611da1d0d586b06623ee114c3340fc19adf702195a4a5",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_1DPQpaVkZUqxH97FRcCdKZVm.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot011",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "sha256": "6d1b7b5d37e8e6c7aacf9dbf56d5ee89af3981eaa8480964cf163a86c50de155",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_8DVJJzeFBpOgAKr0lCUKGWT7.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot011",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "sha256": "82808b4904e4fb61bdb0eb965283555fa5701d5b0a4cd8ea7ab3514667cdf7df",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_fHfpqo8oJS5AJJX6ySFDPwG6.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot012",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "sha256": "9b82590c1aed3bf529ab087f538b4b4008b83c1e0877873978da6925b94ba660",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_pDhvgkUcrBHDnYL1V9hH19HK.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot012",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "sha256": "385ebbd99731c9f0acfa54caa91d0fe30b212a845f3c2a042f0cc248d5d59382",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_AKhqKqxZtiuNm1looqbzQbyF.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot012",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "sha256": "2cdd00f73528f25c121a3273e6839052e80f043f53c6dad569f870c0c9d6895a",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_4TQHKEescumEEa2zzIn0L5B9.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot013",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "sha256": "1f644f7779c64bed8a82757c8b1fec8874e187f5c8d0e05cb9979920b448f29c",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_texmiQbJa2IZSBYlNw1IsZqg.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot013",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "sha256": "fe30709def490ae6c8bcf982c52a2bc653251375ce8b1921fac3c78682ff7de3",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_W1NKVhQeG43lF9UZ9mWJ8YTN.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot013",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "sha256": "0c6d08966fae624de8daca66a7382237a3848dc744eebf573322390901958c19",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_nOVLLsVoZfrJcTfswauMiA3g.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot014",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+      "sha256": "f6d95d5bf55893b80cb5f45693689d85c785b5ef866033e13aac7d5bcdc509c4",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_SJVPPvvRryzg2Sw80URafcKb.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot014",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+      "sha256": "b379bf4ec2dfa68d5cb42580712fc1b79ebaffe6059dc1fe5cda475e30f8e589",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_rnNDs8NO97v66vAsZvZBIgWE.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot014",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png",
+      "sha256": "0c9edec664bf1af3c6f796c32f66d9dab4d802aef38746cff855998e0a036cc5",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_rAwVew14O8EvUnEE1NTZBJ2D.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot015",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+      "sha256": "28761310d579376bee17ebb790c974c2662608ecf36057df5fda22ee1689311c",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-43000139-2364-4df4-a07a-39c5d77c74c1.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot015",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+      "sha256": "eac5c01a435f8b3a87af7f981c970db8f41864e121c717e414d899eab2d3e45c",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-4aa535cf-edff-4112-a659-40bb10af728d.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot015",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+      "sha256": "e5599ebd3b706f53c80539c05f7a9398f5dad8fd154119cb57fcf16d2a1ac59c",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-84364d15-452a-45ed-8850-58897e42160d.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot016",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "sha256": "637ce9600fabbcacfc65f47e04b64b59207fbd8709fcf960e7c33254cbb94817",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-d1232b67-38fc-4b8e-8a46-2c27539941f7.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot016",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "sha256": "6916ef5ca453a8ab4ab4b3195a706d50dc22d0d234fc118d601b0c8d81fe8d60",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-faa5bd6e-679c-4524-aced-13c1e37b48d6.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot016",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "sha256": "9858a0c3cf0ac579a78657cfe998005db66eb16c341f72e10cce706fa3d7fedb",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-df61397f-ad04-43ff-aae7-d0e08109163c.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot017",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "sha256": "2a390771966c77dc81ee2e2d845b671f64b51dda2d64eb5c1c91ff505a393493",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-d623ee78-dc79-4fdf-8bc5-8febe4b4515f.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot017",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "sha256": "36a01403f508c1b8caa3c373a3015a0316c0f68e5e2ef765a47a400203c71138",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ba705b63-8fee-4581-a591-8f09f585e53d.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot017",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "sha256": "99fd2a47fe43519c97121a33d2f7374b722d006fc2e60e41145af2cade1768dd",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a91fb3f1-5471-4f9f-b9a4-82d31b9b71b4.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot018",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "sha256": "57b0cbc0a709ead2fcafa1fbe69c892b0147cdc5c0ce43d1d7f86c297e4d657f",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-1cb474bf-c2aa-492d-ad3b-e3cfe3beefb8.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot018",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "sha256": "89481fc640b67564275efbc5c0b1efd53a4d97315f677dd862827a1ad90558b8",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-50c4014b-eec8-4eae-813d-2fc592514ddf.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot018",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "sha256": "abb71b75bf42b9cbcd04a25d9fc9c34c820ad3d72ba5f38c5b2d181c165ecf6e",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-12d8a403-9e74-4442-bd00-588ce81d3138.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot019",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "sha256": "9253405f29ea3f8e411aa4d73cbba73e5270f1d888d5e58e4906402cc7baab4e",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-70407e5f-d6f6-48c9-9248-d94a76e754d2.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot019",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "sha256": "a636db55935f12f33264f73cd4daef0ed7ec7e03252db042244e325f66eaa77c",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-b36152f6-e434-4a57-b926-22555993d4d2.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot019",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "sha256": "0630b1368baf268f32f811c9787e99f2b52a6003a3c1bfd793eb3d3f8c06008f",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f243fe80-d861-4db7-ade7-3322a53280b4.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot020",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "sha256": "9d9bf1816188b4a6e4abe04de01d7797d633ad8878c21d9275281a48f7ae6499",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-400e9311-c99a-446f-ae4e-d8af88bc6573.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot020",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "sha256": "0286e403bbc453bcb0f7898e5a9c44031c4be0b2501f5cfc4f4385be4af1458a",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-1ec74c0b-7145-4d70-84eb-2f2d55d6f40e.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot020",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "sha256": "0c2cbe845661e74951951644915cf68da9c6d1b61034f13aeabd4582c79123dc",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f3510bd5-7449-410f-89ce-d3b035a9b1be.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot021",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "1cedb3529cd2a1b393ddbc95ff077808b9e81b53c067d309cbcec21b15e6a38a",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-3c268325-d43c-4c64-9318-aa46403c6876.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot021",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "59007c9a142da762ff521b51aeb7a22c157a3354a543cb74e1dbe3a1b086b132",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-11797497-e68d-40c0-ad28-ee5e19152ed1.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot021",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "81b2ebe8e3a2f829d1c755db967c455a0c291d587880487bded35caa23001f1f",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-d6be50f6-2e13-426c-8710-078b5d14b9a2.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot022",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "sha256": "537ed912dadbe54e288759fffd104d7b0045c6ee7a31888aeb4b09098568de10",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-c3a96b10-6e34-483a-bc4d-78a7dea81194.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot022",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "sha256": "83fae5cfad1f36c9c99944fcdd8418815e0cbd1a461aa4e434fa3b5bc7b99d14",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-406678ee-9797-443a-bc5e-3cf5026d2f6d.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot022",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+      "sha256": "875bf140382d3ffc3e9fefa229e2fb984a1207ee1d0f90f8a55eefaea8cc0374",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-caf2c69c-58de-41b1-a098-090a156dd51f.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot023",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "sha256": "f6bf3696f6bd7d7a27d472b6dbf2fa4ed2c3a67bfc79c378f2e378b0c9ac12f2",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-71043b2e-a93a-4131-9434-1f182c03f7ad.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot023",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "sha256": "d998b2fd2aee58925df279008c5b8ca58044a3ff1663909cb0c3a061f7c510cb",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-06fb42f4-401a-46e5-9d96-5771c53bf7cd.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot023",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+      "sha256": "f0d9ab0e70288c5ddba7d770ddc89c7fae7ce1fea0200b96178aa19c8ad30f27",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-3bafe27c-b2b6-44a5-9999-091be9f01ff4.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot024",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "sha256": "f7d109eb6a7230939ec42502a38a1a6e6e6742ab4e8fd79dc9f92d56c1d47e8b",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f3cd2572-0f18-4ec3-914c-eced745583d3.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot024",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "sha256": "7d3ea1c8ccc63dd82ee433aa491dfea0c8dd01bd8e22124bad6589644d127ba3",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-2b145a99-9ef3-4b4e-bd40-1bfe84c6d320.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot024",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+      "sha256": "b3b675bf6368247257e7f5e8e54835238d338841b06b879deb8c398ba78d07bc",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a5b7e578-dc4b-4d26-a933-e8ebb4767061.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot025",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "sha256": "42e7c2f84fec1df6e12ee5f703ab4772309a95242561aa31d85b908c4e0126f2",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-c21de15d-bb14-4f90-9364-c2d4b3743b00.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot025",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "sha256": "28c6fc9a502b66382b6682d2cd3b37d3f2268e74ee3d02c5900b263d399e0cda",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-aca2e124-1584-4077-8727-6021db0d15ae.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot025",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+      "sha256": "c7656d236029d729da9e38ffd293f3b4883d8d1420d613ec20e5ac031a202370",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-e52d1d50-134a-4f14-b924-12e41007dc75.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot026",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/start_frame.png",
+      "sha256": "fe5dce98014fac286cebd1ca012bdf5b2f78213bedbe34fe933bedef0261dc05",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-482d5252-dc6a-4af6-a49e-82f8cb203b99.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot026",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/key_frame.png",
+      "sha256": "3c72ad44ceb586c3dbd2b50bd9215c3fa622023067ea1cdccf5bea40cd236577",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-b1dbe148-6342-466c-bf85-c3067ae0c696.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot026",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/end_frame.png",
+      "sha256": "56420753d84288061c87c305ab450e7c11ea66ac0d653c8b3acc1d8ace954de9",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-bd9bca2b-15fb-4af1-add8-4920d150e253.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot027",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "sha256": "47ee8f284060f1cbf3ee3f974df182b47182bc2fdd4afc7af019f7472c2efead",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ea19ea8d-f1ec-41ea-85c9-a72b28893e60.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot027",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "sha256": "ca93e9fc7538a1c9196e9f7aa241e1b6093554e7d5c6a12f25130d4cd6e5c078",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-547fad6d-602b-4720-877a-30c45ef9e53b.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot027",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "sha256": "6ff6b52dbacdb15281d24593c68c567e42460523dbe802a83dae17634bbcf7c1",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-25d7b9a1-3096-4970-81bd-62b243bb83a7.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot028",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "sha256": "24fdbf32ad269bbe6d0766b54f67cb83c5142db96ab1b54800689bff270efc48",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-9df94bdd-d142-47f5-9794-9ed21dde54a0.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot028",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "sha256": "432aa0b7de804227c4768b3c3f5fd3e80963ccf934459da69ef670c590167004",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-fe2b0edb-7449-4e78-8909-860711f7efac.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot028",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "sha256": "573d681a9ee917e56de06f5ebebdbdeaac0ef3b49705806139a80d9571bfa465",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-caa689c6-023f-400d-a05f-e0ff4f293517.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot029",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "sha256": "a1f869852f205e055b189637b47004ecbb2d17559428d15cc112e83f19d9becd",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7b38d582-f090-4b1a-8289-56f2b3898ec9.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot029",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "sha256": "d0c30d3234d90a06fe0130547a4dd14735528efed3895d434c9151b4fe3ca6bd",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-d306627e-874a-4762-ab82-a1afaff01480.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot029",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "sha256": "e1f54298a43ed15b7bebffc493f0d802e230fef1de3407f887baf48fe7f5abb0",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-c0517b7d-8156-4b13-bcd9-8e1d7920a6c7.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot030",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "sha256": "824498a081cc7e169e39c84eb0ef6b4e6d201ae976d78db2c25632c40f0cfa39",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-1ff70b95-1368-4d65-ab41-2ad7b447366e.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot030",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "sha256": "51cac9845ba856f269beaa7af0b8b96634883863e2400660613ce54b90eee2ec",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-93e24621-1106-4f9c-9e4a-db0aa45cbd71.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot030",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "sha256": "eb6561db9e474a7e51b3f441d29c47c0519f673bf68bad21cb47bb5a0b76e183",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ba4d8caf-360c-4cc3-bcfe-116e8af66201.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot031",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "20045cbef6f5448110b963cb0d4bcd71c7848520cb22a65f733a634a552eff37",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-76a19639-02a8-41fa-afe9-6ca565a535af.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot031",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "5d40197618df1a15dc63679fb4c1fe294b41e9b288e7db646b3903fbc97a4100",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ce16ae7e-777a-4b6d-b923-d687f43607a3.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot031",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "8345b6266ed1bf2f899032011e2f96f2454804a81b960d8c353af7aca200cd19",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-c4c35ed4-2370-4240-a3eb-35bf1fe51136.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot032",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "0433176fa0b7addf1e2d812eecb7425240cfc74347775e062eb578cdaf1f2462",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-6d4663e3-3ae0-4841-877d-979e804fea02.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot032",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "a5708b4289bc69f2e7f997bdbee81cbcf83468a2aa08a84c3f0d9ae27c1d7282",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-1ef83928-3635-4cdf-90f8-ef9847b3aec6.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot032",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "fffb70bc2b5ebd799865e7fa9c148a847ceebfc69cc48006f224f0453b9cd995",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a4caca08-e4c2-4fd4-9036-787a50886330.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot035",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "sha256": "971d76a9b2c25d94b1a3c7587ce05545ff0ead6244cd8b5210f6e7f33a84f787",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-3ef988dd-d22b-4d11-85b2-3c115b9310e0.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot035",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "sha256": "d43c4ae32ed2b8eaef3afe75c94ecb6ffe2fa0119389d6fb147aba72dd434f89",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-cba2164e-2ab3-4ceb-a3a3-d236110066ac.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot035",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "sha256": "889152807d29770d8bbc60382b10e8321f8290eff27f6b47cacb92405e802b93",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-321bef78-707b-403e-8472-d92f1aa58566.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot036",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "sha256": "70cebf0a9a6ef2efb225541351125950c8e38dbf42391982655388205a08017e",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_3tDGwqkvlUDVLJ27O3yrh8pP.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot036",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "sha256": "5cecb1419eb197750182679b5cb87980f611b25ac19554d6a3c3fd23b59a0efd",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_WiXSXFpKEs2u4A1VnneNRIf0.png",
+      "review_evidence": true
+    },
+    {
+      "shot_id": "Shot036",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "sha256": "096d7adb633f58889ad0dbfa283efd0f69910d03830a318c5259aea985c0edd1",
+      "cache_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/call_7N6t2ia6iusghdEMm4p208Hn.png",
+      "review_evidence": true
+    }
+  ],
+  "unresolved": [
+    {
+      "shot_id": "Shot033",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+      "sha256": "92662e454ac22c73a3fb82edc72d163e483f50bf4a7adc2a40fad093f3571131",
+      "reason": "no matching local generated-image cache file"
+    },
+    {
+      "shot_id": "Shot033",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+      "sha256": "bfb085cbc433fadbc4cc14959e455cc4ef6a898e28f64b01c59ceda8277398aa",
+      "reason": "no matching local generated-image cache file"
+    },
+    {
+      "shot_id": "Shot033",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+      "sha256": "8b2a035ea8a3ba677fe0d2b67ba6318edd3ad1053d6d9e38857f5928dea74e4c",
+      "reason": "no matching local generated-image cache file"
+    },
+    {
+      "shot_id": "Shot034",
+      "frame_role": "start",
+      "path": "episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+      "sha256": "2f6db50063f3fe9057d72165f0f5ccdaebbf5257dbc36d73a67f28ca559bac5d",
+      "reason": "no matching local generated-image cache file"
+    },
+    {
+      "shot_id": "Shot034",
+      "frame_role": "key",
+      "path": "episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+      "sha256": "c1238d9e3fde224c2158440ee48939bdb3defa0a1b95259019963332e821185c",
+      "reason": "no matching local generated-image cache file"
+    },
+    {
+      "shot_id": "Shot034",
+      "frame_role": "end",
+      "path": "episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+      "absolute": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+      "sha256": "ed98bac6a813805a62e5b158d5bc00fad7d1e83f40693c42438cc396be57afd2",
+      "reason": "no matching local generated-image cache file"
+    }
+  ],
+  "policy": "Only exact SHA-256 matches to /Users/zekun/.codex/generated_images were migrated. Unmatched frames remain pending and are not promoted by this migration."
+}

@@ -1,0 +1,389 @@
+{
+  "date": "2026-07-28",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "checked_model_prompts": 42,
+  "max_chars": 9105,
+  "max_model_prompt_chars": 16000,
+  "problems": [],
+  "rows": [
+    {
+      "shot": "Shot025",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/model_prompt.md",
+      "chars": 6492,
+      "expected_visible": "Dimitri, Edelgard, Claude",
+      "visible_line": "Dimitri, Edelgard, Claude",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot025A",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/model_prompt.md",
+      "chars": 6071,
+      "expected_visible": "none",
+      "visible_line": "none",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot026",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/model_prompt.md",
+      "chars": 6225,
+      "expected_visible": "Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid",
+      "visible_line": "Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot026B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/model_prompt.md",
+      "chars": 6150,
+      "expected_visible": "Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid",
+      "visible_line": "Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot026C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/model_prompt.md",
+      "chars": 6613,
+      "expected_visible": "Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid",
+      "visible_line": "Byleth, Dimitri, Dedue, Felix, Ashe, Annette, Mercedes, Sylvain, Ingrid",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot027",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/model_prompt.md",
+      "chars": 6048,
+      "expected_visible": "Ashe, Claude",
+      "visible_line": "Ashe, Claude",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot027B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/model_prompt.md",
+      "chars": 6267,
+      "expected_visible": "Ferdinand, Edelgard, Hubert, Dorothea",
+      "visible_line": "Ferdinand, Edelgard, Hubert, Dorothea",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot027C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/model_prompt.md",
+      "chars": 6365,
+      "expected_visible": "Dimitri, Dedue, Ferdinand, Edelgard, Hubert",
+      "visible_line": "Dimitri, Dedue, Ferdinand, Edelgard, Hubert",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot027D",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/model_prompt.md",
+      "chars": 5840,
+      "expected_visible": "Felix, Byleth, Ferdinand, Dedue",
+      "visible_line": "Felix, Byleth, Ferdinand, Dedue",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot028",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/model_prompt.md",
+      "chars": 5792,
+      "expected_visible": "Annette, Mercedes, Ignatz",
+      "visible_line": "Annette, Mercedes, Ignatz",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot028B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/model_prompt.md",
+      "chars": 5917,
+      "expected_visible": "Edelgard, Hubert, Dorothea, Dimitri, Dedue",
+      "visible_line": "Edelgard, Hubert, Dorothea, Dimitri, Dedue",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot028C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/model_prompt.md",
+      "chars": 5808,
+      "expected_visible": "Felix, Byleth, Ferdinand, Dedue",
+      "visible_line": "Felix, Byleth, Ferdinand, Dedue",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot029",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/model_prompt.md",
+      "chars": 6421,
+      "expected_visible": "Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz",
+      "visible_line": "Sylvain, Ingrid, Annette, Mercedes, Hilda, Lorenz",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot029C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/model_prompt.md",
+      "chars": 6167,
+      "expected_visible": "Claude, Ashe, Edelgard",
+      "visible_line": "Claude, Ashe, Edelgard",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot029D",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/model_prompt.md",
+      "chars": 5645,
+      "expected_visible": "Claude, Ashe",
+      "visible_line": "Claude, Ashe",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot029B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/model_prompt.md",
+      "chars": 6700,
+      "expected_visible": "Hilda, Lorenz, Ignatz, Sylvain, Ingrid",
+      "visible_line": "Hilda, Lorenz, Ignatz, Sylvain, Ingrid",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot030",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/model_prompt.md",
+      "chars": 5804,
+      "expected_visible": "Felix, Byleth, Ferdinand",
+      "visible_line": "Felix, Byleth, Ferdinand",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot030B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/model_prompt.md",
+      "chars": 5818,
+      "expected_visible": "Felix, Byleth",
+      "visible_line": "Felix, Byleth",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot030C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/model_prompt.md",
+      "chars": 5952,
+      "expected_visible": "Ignatz, Annette, Mercedes, Dorothea",
+      "visible_line": "Ignatz, Annette, Mercedes, Dorothea",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot031",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/model_prompt.md",
+      "chars": 5849,
+      "expected_visible": "Byleth, Felix",
+      "visible_line": "Byleth, Felix",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot031B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/model_prompt.md",
+      "chars": 6563,
+      "expected_visible": "Byleth, Dimitri, Dedue, Sylvain, Ingrid, Annette, Mercedes",
+      "visible_line": "Byleth, Dimitri, Dedue, Sylvain, Ingrid, Annette, Mercedes",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/model_prompt.md",
+      "chars": 7176,
+      "expected_visible": "Dedue, Mercedes",
+      "visible_line": "Dedue, Mercedes",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032A",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/model_prompt.md",
+      "chars": 6180,
+      "expected_visible": "Annette, Mercedes, Ashe, Claude",
+      "visible_line": "Annette, Mercedes, Ashe, Claude",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/model_prompt.md",
+      "chars": 6174,
+      "expected_visible": "Dimitri, Dedue, Hanneman",
+      "visible_line": "Dimitri, Dedue, Hanneman",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/model_prompt.md",
+      "chars": 6629,
+      "expected_visible": "Edelgard, Hubert, Dorothea, Claude, Hilda",
+      "visible_line": "Edelgard, Hubert, Dorothea, Claude, Hilda",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032D",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/model_prompt.md",
+      "chars": 6648,
+      "expected_visible": "Byleth, Dimitri, Edelgard, Claude",
+      "visible_line": "Byleth, Dimitri, Edelgard, Claude",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032E",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/model_prompt.md",
+      "chars": 6952,
+      "expected_visible": "Byleth, Dimitri, Edelgard, Claude, Hilda, Hubert",
+      "visible_line": "Byleth, Dimitri, Edelgard, Claude, Hilda, Hubert",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032F",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/model_prompt.md",
+      "chars": 6524,
+      "expected_visible": "Felix, Ashe, Hubert",
+      "visible_line": "Felix, Ashe, Hubert",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot032G",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/model_prompt.md",
+      "chars": 7368,
+      "expected_visible": "Claude, Leonie, Dorothea, Bernadetta",
+      "visible_line": "Claude, Leonie, Dorothea, Bernadetta",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot033",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/model_prompt.md",
+      "chars": 6446,
+      "expected_visible": "Dimitri, Byleth, Dedue, Hanneman",
+      "visible_line": "Dimitri, Byleth, Dedue, Hanneman",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot033B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/model_prompt.md",
+      "chars": 6907,
+      "expected_visible": "Byleth, Ashe, Ingrid, Felix",
+      "visible_line": "Byleth, Ashe, Ingrid, Felix",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot033C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/model_prompt.md",
+      "chars": 6802,
+      "expected_visible": "Ashe, Hanneman",
+      "visible_line": "Ashe, Hanneman",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot033D",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/model_prompt.md",
+      "chars": 7316,
+      "expected_visible": "Ingrid, Manuela, Sylvain",
+      "visible_line": "Ingrid, Manuela, Sylvain",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot034C",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/model_prompt.md",
+      "chars": 7814,
+      "expected_visible": "Felix, Ferdinand",
+      "visible_line": "Felix, Ferdinand",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot034D",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/model_prompt.md",
+      "chars": 7561,
+      "expected_visible": "Byleth, Hanneman",
+      "visible_line": "Byleth, Hanneman",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot034B",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/model_prompt.md",
+      "chars": 8796,
+      "expected_visible": "Byleth, Dimitri",
+      "visible_line": "Byleth, Dimitri",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot034E",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/model_prompt.md",
+      "chars": 9105,
+      "expected_visible": "Claude, Hilda, Lorenz, Ignatz, Leonie",
+      "visible_line": "Claude, Hilda, Lorenz, Ignatz, Leonie",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot034F",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/model_prompt.md",
+      "chars": 8264,
+      "expected_visible": "Edelgard, Ferdinand",
+      "visible_line": "Edelgard, Ferdinand",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot034G",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/model_prompt.md",
+      "chars": 8861,
+      "expected_visible": "Byleth, Dimitri, Dedue",
+      "visible_line": "Byleth, Dimitri, Dedue",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot034",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/model_prompt.md",
+      "chars": 8609,
+      "expected_visible": "Dimitri, Edelgard, Claude",
+      "visible_line": "Dimitri, Edelgard, Claude",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot035",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/model_prompt.md",
+      "chars": 8097,
+      "expected_visible": "Felix, Byleth",
+      "visible_line": "Felix, Byleth",
+      "missing_sections": [],
+      "forbidden_hits": []
+    },
+    {
+      "shot": "Shot036",
+      "file": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/model_prompt.md",
+      "chars": 7534,
+      "expected_visible": "Dimitri, Byleth",
+      "visible_line": "Dimitri, Byleth",
+      "missing_sections": [],
+      "forbidden_hits": []
+    }
+  ],
+  "decision": "model_prompts_ready_for_monitored_submission"
+}

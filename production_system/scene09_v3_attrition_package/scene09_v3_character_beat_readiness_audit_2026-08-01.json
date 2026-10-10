@@ -1,0 +1,1368 @@
+{
+  "date": "2026-08-01",
+  "decision": "character_beat_ready",
+  "shots_checked": 42,
+  "characters_checked": 21,
+  "strict_video_cost_blockers": [],
+  "problems": [],
+  "warnings": [],
+  "house_checks": [
+    {
+      "house": "blue_lions",
+      "highlight_covered": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "exit_covered": [
+        "Dimitri",
+        "Dedue",
+        "Felix",
+        "Ashe",
+        "Annette",
+        "Mercedes",
+        "Sylvain",
+        "Ingrid"
+      ],
+      "total": 8
+    },
+    {
+      "house": "black_eagles",
+      "highlight_covered": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "exit_covered": [
+        "Edelgard",
+        "Hubert",
+        "Ferdinand",
+        "Dorothea",
+        "Bernadetta"
+      ],
+      "total": 5
+    },
+    {
+      "house": "golden_deer",
+      "highlight_covered": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "exit_covered": [
+        "Claude",
+        "Hilda",
+        "Lorenz",
+        "Ignatz",
+        "Leonie"
+      ],
+      "total": 5
+    }
+  ],
+  "special_checks": [
+    {
+      "id": "Shot034B current user-preferred contract",
+      "ok": true,
+      "detail": "Expected empty faculty objective ruling with Byleth/Dimitri only; current package must stay guarded by the authoritative empty-objective build and hard audits."
+    },
+    {
+      "id": "Three-house balance",
+      "ok": true,
+      "detail": "Each house should have highlights for every named student before video generation."
+    },
+    {
+      "id": "Blue Lions narrow win",
+      "ok": true,
+      "detail": "Ending must include Golden Deer concession, Black Eagles concession, exhausted Blue Lions core, result, and Dimitri/Byleth stand-down."
+    },
+    {
+      "id": "Dedue/Mercedes healer-restores-shield beat",
+      "ok": true,
+      "detail": "Shot032 must preserve the WoW-inspired wounded shield anchor restored by healer beat."
+    }
+  ],
+  "character_rows": [
+    {
+      "name": "Byleth",
+      "house": "command",
+      "role": "command",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot027D",
+        "Shot028C",
+        "Shot030",
+        "Shot030B",
+        "Shot031",
+        "Shot031B",
+        "Shot032D",
+        "Shot032E",
+        "Shot033",
+        "Shot033B",
+        "Shot034D",
+        "Shot034B",
+        "Shot034G",
+        "Shot035",
+        "Shot036"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot026",
+          "line": "杜笃守正面，英谷莉特看右线。"
+        },
+        {
+          "shot": "Shot026",
+          "line": "机会不等于命令。"
+        },
+        {
+          "shot": "Shot033",
+          "line": "保持三线。"
+        },
+        {
+          "shot": "Shot033B",
+          "line": "亚修左线，英谷莉特右线，菲力克斯封中。"
+        },
+        {
+          "shot": "Shot034D",
+          "line": "停止追击。"
+        },
+        {
+          "shot": "Shot035",
+          "line": "所以才值得复盘。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot026",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot031B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot032E",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot033B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034B",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": false
+        },
+        {
+          "shot": "Shot036",
+          "exists": true,
+          "visible": true,
+          "changed": false,
+          "no_active_line": false
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Dimitri",
+      "house": "blue_lions",
+      "role": "winner",
+      "visible_shots": [
+        "Shot025",
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot027C",
+        "Shot028B",
+        "Shot031B",
+        "Shot032B",
+        "Shot032D",
+        "Shot032E",
+        "Shot033",
+        "Shot034B",
+        "Shot034G",
+        "Shot034",
+        "Shot036"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot027",
+          "line": "稳住，先挡第一波。"
+        },
+        {
+          "shot": "Shot027C",
+          "line": "杜笃，正面挡住。"
+        },
+        {
+          "shot": "Shot030",
+          "line": "别追太深。"
+        },
+        {
+          "shot": "Shot032",
+          "line": "杜笃，撑住。"
+        },
+        {
+          "shot": "Shot032B",
+          "line": "谢谢你，梅尔塞德斯。"
+        },
+        {
+          "shot": "Shot033",
+          "line": "不要散，目标快到了。"
+        },
+        {
+          "shot": "Shot033B",
+          "line": "明白。"
+        },
+        {
+          "shot": "Shot034",
+          "line": "我也不会退。"
+        },
+        {
+          "shot": "Shot036",
+          "line": "所有人，归队。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot025",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot033",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034G",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot036",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot036",
+          "exists": true,
+          "visible": true,
+          "changed": false,
+          "no_active_line": false
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Dedue",
+      "house": "blue_lions",
+      "role": "shield anchor",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot027C",
+        "Shot027D",
+        "Shot028B",
+        "Shot028C",
+        "Shot031B",
+        "Shot032",
+        "Shot032B",
+        "Shot033",
+        "Shot034G"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot030",
+          "line": "我挡得住。"
+        },
+        {
+          "shot": "Shot032",
+          "line": "我还能站稳。"
+        },
+        {
+          "shot": "Shot036",
+          "line": "无人重伤。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot032",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034G",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034G",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": false
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Felix",
+      "house": "blue_lions",
+      "role": "duelist/capture",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot027D",
+        "Shot028C",
+        "Shot030",
+        "Shot030B",
+        "Shot031",
+        "Shot032F",
+        "Shot033B",
+        "Shot034C",
+        "Shot035"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot026",
+          "line": "那我呢？"
+        },
+        {
+          "shot": "Shot031",
+          "line": "别挡我的路。"
+        },
+        {
+          "shot": "Shot032D",
+          "line": "别让他再进来。"
+        },
+        {
+          "shot": "Shot032F",
+          "line": "到此为止。"
+        },
+        {
+          "shot": "Shot034C",
+          "line": "回路被封住了。"
+        },
+        {
+          "shot": "Shot035",
+          "line": "险胜而已。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot027D",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot032F",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot035",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034C",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Ashe",
+      "house": "blue_lions",
+      "role": "archer/suppression",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot027",
+        "Shot029C",
+        "Shot029D",
+        "Shot032A",
+        "Shot032F",
+        "Shot033B",
+        "Shot033C"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot027",
+          "line": "左前方有黑鹫。"
+        },
+        {
+          "shot": "Shot031B",
+          "line": "箭线封住了。"
+        },
+        {
+          "shot": "Shot032F",
+          "line": "修伯特，被包住了。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot027",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot029D",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot032F",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot033C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot033C",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Annette",
+      "house": "blue_lions",
+      "role": "support magic/smoke",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot028",
+        "Shot029",
+        "Shot030C",
+        "Shot031B",
+        "Shot032A"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot028",
+          "line": "风从右侧走。"
+        },
+        {
+          "shot": "Shot032C",
+          "line": "现在换我们推回去。"
+        },
+        {
+          "shot": "Shot033C",
+          "line": "风压只推线，不伤人。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot032A",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot032A",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Mercedes",
+      "house": "blue_lions",
+      "role": "healer",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot028",
+        "Shot029",
+        "Shot030C",
+        "Shot031B",
+        "Shot032",
+        "Shot032A"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot028",
+          "line": "我在你后面。"
+        },
+        {
+          "shot": "Shot032",
+          "line": "杜笃，手臂给我。"
+        },
+        {
+          "shot": "Shot032",
+          "line": "那就再撑一口气。"
+        },
+        {
+          "shot": "Shot032B",
+          "line": "还没结束，殿下。"
+        },
+        {
+          "shot": "Shot033C",
+          "line": "我看着大家。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot032",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot032",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Sylvain",
+      "house": "blue_lions",
+      "role": "flank redirection",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot029",
+        "Shot029B",
+        "Shot031B",
+        "Shot033D"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot027D",
+          "line": "等他回身。"
+        },
+        {
+          "shot": "Shot032C",
+          "line": "听你的。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot029",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot029B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot033D",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot033D",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Ingrid",
+      "house": "blue_lions",
+      "role": "route cut",
+      "visible_shots": [
+        "Shot026",
+        "Shot026B",
+        "Shot026C",
+        "Shot029",
+        "Shot029B",
+        "Shot031B",
+        "Shot033B",
+        "Shot033D"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot027D",
+          "line": "我已经看见破绽。"
+        },
+        {
+          "shot": "Shot032D",
+          "line": "右线收紧。"
+        },
+        {
+          "shot": "Shot033D",
+          "line": "老师，我只取目标线。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot029B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot033D",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot033D",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Edelgard",
+      "house": "black_eagles",
+      "role": "Black Eagles leader",
+      "visible_shots": [
+        "Shot025",
+        "Shot027B",
+        "Shot027C",
+        "Shot028B",
+        "Shot029C",
+        "Shot032C",
+        "Shot032D",
+        "Shot032E",
+        "Shot034F",
+        "Shot034"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot027B",
+          "line": "黑鹫，压住他们的中线。"
+        },
+        {
+          "shot": "Shot027C",
+          "line": "费尔迪南特，别让他们转身。"
+        },
+        {
+          "shot": "Shot030B",
+          "line": "保持队形。"
+        },
+        {
+          "shot": "Shot034F",
+          "line": "黑鹫认定退线。"
+        },
+        {
+          "shot": "Shot034",
+          "line": "还没结束。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot025",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot028B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034F",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034F",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Hubert",
+      "house": "black_eagles",
+      "role": "Black Eagles tactical pressure",
+      "visible_shots": [
+        "Shot027B",
+        "Shot027C",
+        "Shot028B",
+        "Shot032C",
+        "Shot032E",
+        "Shot032F"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot028B",
+          "line": "绕开盾牌。"
+        },
+        {
+          "shot": "Shot030B",
+          "line": "青狮的侧翼露出来了。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot028B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot032F",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Ferdinand",
+      "house": "black_eagles",
+      "role": "frontline counter",
+      "visible_shots": [
+        "Shot027B",
+        "Shot027C",
+        "Shot027D",
+        "Shot028C",
+        "Shot030",
+        "Shot034C",
+        "Shot034F"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot027B",
+          "line": "我来开路。"
+        },
+        {
+          "shot": "Shot031",
+          "line": "那就用剑证明。"
+        },
+        {
+          "shot": "Shot034C",
+          "line": "我承认，这一步被你抢先。"
+        },
+        {
+          "shot": "Shot034F",
+          "line": "下一次我会取回局面。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot027C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034C",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Dorothea",
+      "house": "black_eagles",
+      "role": "backline pressure",
+      "visible_shots": [
+        "Shot027B",
+        "Shot028B",
+        "Shot030C",
+        "Shot032C",
+        "Shot032G"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot028B",
+          "line": "别给他们喘息。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot032C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot032G",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Bernadetta",
+      "house": "black_eagles",
+      "role": "backline capture",
+      "visible_shots": [
+        "Shot032G"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot031B",
+          "line": "我、我知道了！"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot032G",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot032G",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Claude",
+      "house": "golden_deer",
+      "role": "Golden Deer strategist",
+      "visible_shots": [
+        "Shot025",
+        "Shot027",
+        "Shot029C",
+        "Shot029D",
+        "Shot032A",
+        "Shot032C",
+        "Shot032D",
+        "Shot032E",
+        "Shot032G",
+        "Shot034E",
+        "Shot034"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot029B",
+          "line": "两边都别放松。"
+        },
+        {
+          "shot": "Shot032E",
+          "line": "希尔妲，别只打蓝狮。"
+        },
+        {
+          "shot": "Shot032G",
+          "line": "后排，我们收下了。"
+        },
+        {
+          "shot": "Shot034B",
+          "line": "金鹿撤出主线。"
+        },
+        {
+          "shot": "Shot034E",
+          "line": "今天先到这里。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot029C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot029D",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot032G",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Hilda",
+      "house": "golden_deer",
+      "role": "Golden Deer pressure",
+      "visible_shots": [
+        "Shot029",
+        "Shot029B",
+        "Shot032C",
+        "Shot032E",
+        "Shot034E"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot029",
+          "line": "蓝狮也不能只盯着前面吧？"
+        },
+        {
+          "shot": "Shot032E",
+          "line": "知道啦，黑鹫也跑不掉。"
+        },
+        {
+          "shot": "Shot034B",
+          "line": "哎，差一点就赢了。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot029B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot032C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Lorenz",
+      "house": "golden_deer",
+      "role": "Golden Deer lane hold",
+      "visible_shots": [
+        "Shot029",
+        "Shot029B",
+        "Shot034E"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot029",
+          "line": "黑鹫那边也在我们的线里。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot029B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot030C",
+          "exists": true,
+          "visible": false,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Ignatz",
+      "house": "golden_deer",
+      "role": "Golden Deer route cut",
+      "visible_shots": [
+        "Shot028",
+        "Shot029B",
+        "Shot030C",
+        "Shot034E"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot029B",
+          "line": "我把黑鹫的退路封住。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot030C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Leonie",
+      "house": "golden_deer",
+      "role": "Golden Deer capture",
+      "visible_shots": [
+        "Shot032G",
+        "Shot034E"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot029B",
+          "line": "我压黑鹫后排。"
+        },
+        {
+          "shot": "Shot032G",
+          "line": "别再拉弓了。"
+        },
+        {
+          "shot": "Shot034E",
+          "line": "下次我会追到底。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot032G",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034E",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Hanneman",
+      "house": "faculty",
+      "role": "faculty objective",
+      "visible_shots": [
+        "Shot032B",
+        "Shot033",
+        "Shot033C",
+        "Shot034D"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot025",
+          "line": "非致命，判断优先。"
+        },
+        {
+          "shot": "Shot034D",
+          "line": "蓝狮目标判定成立。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot032B",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot033C",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034D",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        },
+        {
+          "shot": "Shot034B",
+          "exists": true,
+          "visible": false,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot034B",
+          "exists": true,
+          "visible": false,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    },
+    {
+      "name": "Manuela",
+      "house": "faculty",
+      "role": "faculty route objective",
+      "visible_shots": [
+        "Shot033D"
+      ],
+      "dialogue_lines": [
+        {
+          "shot": "Shot025",
+          "line": "目标计时开始，别抢线。"
+        },
+        {
+          "shot": "Shot033D",
+          "line": "判定有效，继续。"
+        }
+      ],
+      "highlight_evidence": [
+        {
+          "shot": "Shot033D",
+          "exists": true,
+          "visible": true,
+          "prompt_mentions": true
+        }
+      ],
+      "exit_evidence": [
+        {
+          "shot": "Shot033D",
+          "exists": true,
+          "visible": true,
+          "changed": true,
+          "no_active_line": true
+        }
+      ],
+      "highlight_ok": true,
+      "exit_ok": true,
+      "dialogue_ok": true,
+      "decision": "covered"
+    }
+  ]
+}

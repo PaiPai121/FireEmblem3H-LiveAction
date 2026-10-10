@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "episode": "EP04",
+  "mode": "combat",
+  "geography": {
+    "arena": "Seiros Tomb central crypt corridor",
+    "master_shot_id": "Shot013",
+    "axis": "north-side axis, party retreats toward south threshold",
+    "camera_side": "south wall with the pillar on Byleth's right",
+    "distance_policy": "Keep a visible 4.5 metre start buffer; contact occurs only at shoulder-height weapon line; no body penetration."
+  },
+  "fighters": [
+    {
+      "id": "Byleth",
+      "starting_position": "south-side threshold, one step in front of Dimitri and Dedue",
+      "facing": "north toward Death Knight",
+      "screen_side": "near-right",
+      "weapon_id": "Sword of the Creator",
+      "state_after": "balanced behind the stone pillar, sword low but ready"
+    },
+    {
+      "id": "DeathKnight",
+      "starting_position": "north archway beyond the blue flame pool",
+      "facing": "south toward Byleth",
+      "screen_side": "deep-left",
+      "weapon_id": "scythe",
+      "state_after": "scythe reset low, feet grounded, no pursuit"
+    }
+  ],
+  "beats": [
+    {
+      "id": "ACT-EP04-001",
+      "shot_id": "Shot013",
+      "attacker": "DeathKnight",
+      "defender": "Byleth",
+      "action": "one weighted horizontal scythe sweep from the attacker's right to left",
+      "target": "Byleth's upper-torso line",
+      "distance_before": "4.5 metres with a stone pillar offset to defender's right",
+      "attack_direction": "right-to-left horizontal at shoulder height",
+      "contact": true,
+      "contact_mode": "weapon_weapon",
+      "contact_point": "Byleth's blade intercepts the scythe shaft before the body line",
+      "contact_frame": "KEY",
+      "contact_result": "sweep is redirected into the stone pillar; no body hit",
+      "defender_reaction": "Byleth steps off the line and turns the blade through the shaft",
+      "recovery": "Byleth recovers behind the pillar; Death Knight takes the weight back to the rear foot",
+      "state_after": "party is protected behind the pillar and Death Knight remains beyond the buffer",
+      "camera_read": "wide enough for feet, weapon path, pillar and distance; follow once through contact",
+      "attacker_weapon": "scythe",
+      "defender_weapon": "Sword of the Creator",
+      "frame_chain": {
+        "start": "source_refs/game_frame_0390s.jpg",
+        "key": "source_refs/game_frame_0450s.jpg",
+        "end": "source_refs/game_frame_0480s.jpg"
+      }
+    },
+    {
+      "id": "ACT-EP04-002",
+      "shot_id": "Shot013",
+      "attacker": "Byleth",
+      "defender": "DeathKnight",
+      "action": "short disengage feint toward the open lane without pursuing",
+      "target": "space between the pillar and the scythe recovery",
+      "distance_before": "1.8 metres after the weapon contact",
+      "attack_direction": "forward diagonal feint, stopped before body range",
+      "contact": false,
+      "near_miss_result": "Death Knight withdraws half a step; the feint creates retreat time and no impact",
+      "defender_reaction": "Death Knight turns the helmet and keeps the scythe low",
+      "recovery": "Byleth returns the sword to the safe exit line",
+      "state_after": "both fighters remain standing, no injury, no pursuit",
+      "camera_read": "read the feint as a distance decision, not a second attack",
+      "frame_chain": {
+        "start": "source_refs/game_frame_0450s.jpg",
+        "key": "source_refs/game_frame_0480s.jpg",
+        "end": "source_refs/game_frame_0480s.jpg"
+      }
+    },
+    {
+      "id": "ACT-EP04-003",
+      "shot_id": "Shot014",
+      "attacker": "DeathKnight",
+      "defender": "Byleth",
+      "action": "scythe point tracks the retreating line but stops at the threshold",
+      "target": "empty space behind Byleth's guard line",
+      "distance_before": "3.5 metres and increasing",
+      "attack_direction": "forward tracking line, no swing",
+      "contact": false,
+      "near_miss_result": "the point never reaches the body line; Byleth clears the threshold",
+      "defender_reaction": "Byleth keeps the sword between the point and the escorts",
+      "recovery": "Death Knight plants the scythe and remains in the tomb light",
+      "state_after": "party outside, threat inside, action closed without a winner pose",
+      "camera_read": "preserve the threshold and the feet; do not cut to a weapon glamour insert",
+      "frame_chain": {
+        "start": "source_refs/game_frame_0480s.jpg",
+        "key": "source_refs/game_frame_0480s.jpg",
+        "end": "source_refs/game_frame_0510s.jpg"
+      }
+    }
+  ],
+  "previs_review_surface": "generated/action_choreography_board_planning_only.jpg",
+  "frame_source_policy": "The frame_chain references are game-recording stills for planning geography only. They are not final live-action frames.",
+  "review_status": "combat choreography reviewed at planning level; final frame-chain and motion probe pending"
+}

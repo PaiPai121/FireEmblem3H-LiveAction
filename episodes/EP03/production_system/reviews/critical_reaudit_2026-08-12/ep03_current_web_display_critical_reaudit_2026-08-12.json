@@ -1,0 +1,62 @@
+{
+  "review_id": "ep03_current_web_display_critical_reaudit_2026-08-12",
+  "date": "2026-08-12",
+  "trigger": "User challenged current web storyboard quality and pointed to visibly wrong candidates in index.html#storyboardView.",
+  "inspected_surface": {
+    "site_data": "site/ep03_storyboard_data.js",
+    "viewer": "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/current_web_display_reaudit_viewer.html",
+    "contact_sheet_index": "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/current_web_display_contact_sheet_index.json",
+    "contact_sheets": [
+      "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part1.jpg",
+      "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part2.jpg",
+      "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part3.jpg",
+      "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part4.jpg"
+    ]
+  },
+  "inspected_counts": {
+    "shots": 36,
+    "frames": 108,
+    "missing_files": 0
+  },
+  "findings": [
+    {
+      "shot": "Shot003",
+      "decision": "blocked_needs_revision",
+      "reason": "Visible web candidate reads as posed cathedral tableau, not a mission-declaration beat; local asset identity/role blocking not proven; source label was misleading."
+    },
+    {
+      "shot": "Shot035",
+      "decision": "blocked_needs_revision",
+      "reason": "Byleth wardrobe/body drift and weak start/key/end separation make the frame set unsafe for motion probe."
+    },
+    {
+      "shot": "Shot031",
+      "decision": "monitor_required_hold",
+      "reason": "Seteth-age integrated candidate must be rechecked; no longer treated as visual pass."
+    },
+    {
+      "shot": "Shot032",
+      "decision": "monitor_required_hold",
+      "reason": "Seteth-age integrated candidate must be rechecked for identity and action progression before motion."
+    }
+  ],
+  "duplicate_anchor_check": {
+    "method": "ffmpeg downscale to 64x36 rgb24; mean absolute pixel difference between START/KEY/END",
+    "result": "No exact duplicate anchors detected; Shot035 had the lowest differences and was also visually downgraded."
+  },
+  "applied_changes": [
+    "Updated video_delivery_manifest.json critical_reaudit_2026_08_12 block.",
+    "Downgraded Shot003 and Shot035 to blocked_needs_revision.",
+    "Reclassified Shot031 and Shot032 as monitor_required hold pending second visual review.",
+    "Fixed storyboard data builder so seteth_age_integrated_candidate_v2 is labeled as integrated_candidate_v2 instead of local_asset_final_candidate_v1."
+  ],
+  "inherited_user_constraints": [
+    "Use local assets and local game-video evidence; do not present generic or non-local-looking characters as final.",
+    "Avoid cutout/pasted portrait frames; frames must look like coherent generated/live-action cinematic frames.",
+    "Japanese spoken dialogue only; no Chinese/Mandarin voiceover; no burned-in subtitles.",
+    "Start/key/end must be meaningfully different anchors for a video shot.",
+    "Seteth must use the updated older academy selected asset direction.",
+    "Support-comedy/theater dialogue references should guide scene rhythm where relevant."
+  ],
+  "status": "downgrade_applied_web_rebuild_required"
+}

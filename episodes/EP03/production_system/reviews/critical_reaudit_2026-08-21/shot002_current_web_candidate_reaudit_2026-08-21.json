@@ -1,0 +1,26 @@
+{
+  "shot_id": "Shot002",
+  "version": "critical_reaudit_regen_v2_2026-08-21",
+  "decision": "monitor_required",
+  "local_reference_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "frame_set": {
+    "start": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "contact_sheet": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+  "start_finding": "高位广角建立雨后清晨的修道院回廊、钟楼和湿石地面；女贝老师从左下入口进入，远处模糊的教会人员和骑士正在集合，不形成表演式队列。",
+  "key_finding": "镜头降到肩高跟拍，女贝老师沿拱廊横向穿过画面，衣摆和脚步带出真实移动；远处拱门之间的集结被她经过时逐渐看见。",
+  "end_finding": "女贝老师抵达议事门前，把手放上厚重木门并推开；温暖的室内光切入冷湿回廊，形成明确的门口交接。",
+  "blocking": "START 女贝老师从左下进入；KEY 她沿回廊横向行走并经过拱柱；END 她在议事门前推门，远处集结只作背景压力。",
+  "action_peak": "女贝老师从晨雾回廊穿行到议事门，并亲手打开进入军事命令的门。",
+  "prompt_language_gate": "silent_audio_only",
+  "female_byleth_lock": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "prompt_qa": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "reject_if": "Reject if Byleth floats, turns male, looks pasted onto the cloister, if the shot becomes three static monastery views, if the distant group becomes a lineup, or if any spoken dialogue, subtitle, or UI appears."
+}

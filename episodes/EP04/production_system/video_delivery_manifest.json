@@ -1,0 +1,1277 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "episode": "EP04",
+  "package_id": "EP04_prompt_asset_package_v1",
+  "completion_target": "prompt_asset_package",
+  "status": "frames_pending",
+  "frame_generation_required": true,
+  "runtime_seconds": 285,
+  "spoken_language": "Japanese",
+  "subtitle_delivery": "none",
+  "source_reference_policy": "Game-recording stills are planning_only; final frame inputs must be generated integrated live-action frames.",
+  "shots": [
+    {
+      "id": "Shot001",
+      "order": 1,
+      "title": "门后的光",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "scene": "序幕",
+      "location": "Dream Sanctuary / cathedral threshold",
+      "characters": [
+        "Byleth",
+        "Sothis"
+      ],
+      "purpose": "Turn source ritual imagery into Byleth's private unease.",
+      "source_timecode": "00:00:00",
+      "source_reference": "source_refs/game_frame_0000s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot001/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot001/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot001/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot001_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot001_negative_prompt.md",
+      "frame_spec": "storyboards/Shot001/frame_spec.md",
+      "metadata_path": "storyboards/Shot001/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot001.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot001.mp4",
+      "edit_in": "open from black",
+      "edit_out": "bell resonance continues into Shot002",
+      "audio_anchor": "Low bell, cloth, distant wind; no speech.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/DreamSanctuary_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Sothis_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot002",
+      "order": 2,
+      "title": "钟声落地",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "序幕",
+      "location": "Cathedral interior",
+      "characters": [
+        "Byleth"
+      ],
+      "purpose": "Move from chapter-scale ceremony to a physical call to action.",
+      "source_timecode": "00:01:20",
+      "source_reference": "source_refs/game_frame_0090s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot002/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot002/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot002/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot002_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot002_negative_prompt.md",
+      "frame_spec": "storyboards/Shot002/frame_spec.md",
+      "metadata_path": "storyboards/Shot002/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot002.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot002.mp4",
+      "edit_in": "receive the door-light and bell",
+      "edit_out": "cut on the briefing doors opening",
+      "audio_anchor": "Bell decay, footfalls, faint armor and air.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot003",
+      "order": 3,
+      "title": "Rhea 定义威胁",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "scene": "召集",
+      "location": "Cathedral interior",
+      "characters": [
+        "Rhea",
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Let Rhea define the rite as an institutional security problem.",
+      "source_timecode": "00:02:30",
+      "source_reference": "source_refs/game_frame_0150s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot003/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot003/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot003/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot003_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot003_negative_prompt.md",
+      "frame_spec": "storyboards/Shot003/frame_spec.md",
+      "metadata_path": "storyboards/Shot003/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot003.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot003.mp4",
+      "edit_in": "receive Shot002 doors",
+      "edit_out": "Seteth steps into the side plane in Shot004",
+      "audio_anchor": "Japanese line, one continuous utterance, candle room tone.",
+      "dialogue_line_ids": [
+        "DL-EP04-003"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/Rhea_face.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot004",
+      "order": 4,
+      "title": "Seteth 把信仰翻译成封锁",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "召集",
+      "location": "Cathedral side stair",
+      "characters": [
+        "Seteth",
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Translate sacred language into guard positions and a clear boundary.",
+      "source_timecode": "00:03:00",
+      "source_reference": "source_refs/game_frame_0180s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot004/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot004/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot004/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot004_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot004_negative_prompt.md",
+      "frame_spec": "storyboards/Shot004/frame_spec.md",
+      "metadata_path": "storyboards/Shot004/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot004.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot004.mp4",
+      "edit_in": "receive Rhea's held silence",
+      "edit_out": "Byleth's hand checks the preparation strap in Shot005",
+      "audio_anchor": "Japanese line once, leather and small metal movement under the room tone.",
+      "dialogue_line_ids": [
+        "DL-EP04-004"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/Seteth_face.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot005",
+      "order": 5,
+      "title": "Dimitri 接住命令",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "scene": "召集",
+      "location": "Cathedral lower floor",
+      "characters": [
+        "Dimitri",
+        "Byleth",
+        "Dedue"
+      ],
+      "purpose": "Make Dimitri's loyalty a protective spatial action, not a declaration of heroism.",
+      "source_timecode": "00:03:30",
+      "source_reference": "source_refs/game_frame_0210s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot005/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot005/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot005/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot005_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot005_negative_prompt.md",
+      "frame_spec": "storyboards/Shot005/frame_spec.md",
+      "metadata_path": "storyboards/Shot005/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot005.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot005.mp4",
+      "edit_in": "receive Seteth's tomb gesture",
+      "edit_out": "hard cut to fastening straps",
+      "audio_anchor": "Japanese line, restrained breath, cloth and distant bell.",
+      "dialogue_line_ids": [
+        "DL-EP04-005"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot006",
+      "order": 6,
+      "title": "Byleth 接管队伍",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "scene": "准备",
+      "location": "Monastery antechamber",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Give Byleth a short operational rule that will govern the tomb sequence.",
+      "source_timecode": "00:04:00",
+      "source_reference": "source_refs/game_frame_0240s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot006/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot006/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot006/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot006_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot006_negative_prompt.md",
+      "frame_spec": "storyboards/Shot006/frame_spec.md",
+      "metadata_path": "storyboards/Shot006/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot006.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot006.mp4",
+      "edit_in": "receive Shot005's body turn",
+      "edit_out": "the same three-person axis enters Shot007",
+      "audio_anchor": "Japanese line, buckle click, controlled breathing.",
+      "dialogue_line_ids": [
+        "DL-EP04-006"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/MonasteryMainCloister_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot007",
+      "order": 7,
+      "title": "圣墓门槛",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "scene": "进入圣墓",
+      "location": "Seiros Tomb entrance",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Replace a mission map with a real threshold and the first physical geography lock.",
+      "source_timecode": "00:04:30",
+      "source_reference": "source_refs/game_frame_0270s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot007/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot007/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot007/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot007_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot007_negative_prompt.md",
+      "frame_spec": "storyboards/Shot007/frame_spec.md",
+      "metadata_path": "storyboards/Shot007/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot007.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot007.mp4",
+      "edit_in": "receive the preparation three-person axis",
+      "edit_out": "Shot008 tracks the same path deeper",
+      "audio_anchor": "Water drops, door hinge, cloth and metal; no speech.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot008",
+      "order": 8,
+      "title": "队伍的视线交接",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "进入圣墓",
+      "location": "Seiros Tomb outer corridor",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Make the group readable as a team before the threat appears.",
+      "source_timecode": "00:05:00",
+      "source_reference": "source_refs/game_frame_0300s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot008/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot008/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot008/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot008_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot008_negative_prompt.md",
+      "frame_spec": "storyboards/Shot008/frame_spec.md",
+      "metadata_path": "storyboards/Shot008/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot008.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot008.mp4",
+      "edit_in": "receive Shot007 tomb axis",
+      "edit_out": "Dedue's hand reaches the wall in Shot009",
+      "audio_anchor": "Echoing footsteps, breath, faint water.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot009",
+      "order": 9,
+      "title": "墙上的擦痕",
+      "status": "frames_pending",
+      "duration_seconds": 8,
+      "scene": "进入圣墓",
+      "location": "Seiros Tomb outer corridor",
+      "characters": [
+        "Dedue",
+        "Byleth",
+        "Dimitri"
+      ],
+      "purpose": "Give Dedue the first evidence that the intrusion came through an internal route.",
+      "source_timecode": "00:05:30",
+      "source_reference": "source_refs/game_frame_0330s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot009/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot009/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot009/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot009_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot009_negative_prompt.md",
+      "frame_spec": "storyboards/Shot009/frame_spec.md",
+      "metadata_path": "storyboards/Shot009/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot009.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot009.mp4",
+      "edit_in": "receive Shot008's listening stop",
+      "edit_out": "Byleth freezes the line in Shot010",
+      "audio_anchor": "Japanese line, fingertip on grit, one low breath.",
+      "dialogue_line_ids": [
+        "DL-EP04-009"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot010",
+      "order": 10,
+      "title": "不散列",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "进入圣墓",
+      "location": "Seiros Tomb inner door",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Change the rhythm from exploration to disciplined containment.",
+      "source_timecode": "00:06:00",
+      "source_reference": "source_refs/game_frame_0360s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot010/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot010/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot010/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot010_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot010_negative_prompt.md",
+      "frame_spec": "storyboards/Shot010/frame_spec.md",
+      "metadata_path": "storyboards/Shot010/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot010.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot010.mp4",
+      "edit_in": "receive Dedue's warning handoff",
+      "edit_out": "the wrong metallic footfall enters Shot011",
+      "audio_anchor": "Japanese line once, stone resonance, held breath.",
+      "dialogue_line_ids": [
+        "DL-EP04-010"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot011",
+      "order": 11,
+      "title": "先听见死神骑士",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "scene": "死神骑士",
+      "location": "Seiros Tomb archway",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "DeathKnight"
+      ],
+      "purpose": "Let the Death Knight enter as an acoustic and spatial violation before he becomes a face or armor read.",
+      "source_timecode": "00:06:30",
+      "source_reference": "source_refs/game_frame_0390s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot011/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot011/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot011/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot011_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot011_negative_prompt.md",
+      "frame_spec": "storyboards/Shot011/frame_spec.md",
+      "metadata_path": "storyboards/Shot011/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot011.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot011.mp4",
+      "edit_in": "receive Shot010's held door",
+      "edit_out": "Death Knight's direct line in Shot012",
+      "audio_anchor": "Japanese line, one footfall, metal resonance.",
+      "dialogue_line_ids": [
+        "DL-EP04-011"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png",
+        "source/reference_pack/characters/DeathKnight_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot012",
+      "order": 12,
+      "title": "威胁保持礼貌",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "死神骑士",
+      "location": "Seiros Tomb archway",
+      "characters": [
+        "DeathKnight",
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Keep the Death Knight frightening without turning him into a poster or exposition machine.",
+      "source_timecode": "00:07:00",
+      "source_reference": "source_refs/game_frame_0420s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot012/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot012/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot012/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot012_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot012_negative_prompt.md",
+      "frame_spec": "storyboards/Shot012/frame_spec.md",
+      "metadata_path": "storyboards/Shot012/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot012.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot012.mp4",
+      "edit_in": "receive Dimitri's recognition",
+      "edit_out": "weapon contact/near-miss chain in Shot013",
+      "audio_anchor": "Japanese line once, scythe shaft, damp armor, low room tone.",
+      "dialogue_line_ids": [
+        "DL-EP04-012"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/DeathKnight_identity.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot013",
+      "order": 13,
+      "title": "改线",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "死神骑士",
+      "location": "Seiros Tomb central crypt corridor",
+      "characters": [
+        "Byleth",
+        "DeathKnight",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Deliver one auditable weapon contact with a clear attacker, defender, result and recovery.",
+      "source_timecode": "00:07:30",
+      "source_reference": "source_refs/game_frame_0450s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot013/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot013/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot013/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot013_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot013_negative_prompt.md",
+      "frame_spec": "storyboards/Shot013/frame_spec.md",
+      "metadata_path": "storyboards/Shot013/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot013.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot013.mp4",
+      "edit_in": "receive Shot012's weapon line",
+      "edit_out": "Shot014 receives the retreat state",
+      "audio_anchor": "Metal impact, stone chip, breath; no gore, no damage number.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/DeathKnight_identity.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot014",
+      "order": 14,
+      "title": "等下一次落点",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "scene": "死神骑士",
+      "location": "Seiros Tomb central crypt corridor",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue",
+        "DeathKnight"
+      ],
+      "purpose": "Show the tactical decision to withdraw rather than escalate.",
+      "source_timecode": "00:08:00",
+      "source_reference": "source_refs/game_frame_0480s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot014/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot014/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot014/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot014_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot014_negative_prompt.md",
+      "frame_spec": "storyboards/Shot014/frame_spec.md",
+      "metadata_path": "storyboards/Shot014/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot014.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot014.mp4",
+      "edit_in": "receive Shot013 recovery",
+      "edit_out": "Shot015 crosses the tomb threshold",
+      "audio_anchor": "Japanese line, retreating boots, cloth, low scythe scrape.",
+      "dialogue_line_ids": [
+        "DL-EP04-014"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png",
+        "source/reference_pack/characters/DeathKnight_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot015",
+      "order": 15,
+      "title": "湿石上的余波",
+      "status": "frames_pending",
+      "duration_seconds": 8,
+      "scene": "撤离",
+      "location": "Seiros Tomb exit",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Let the physical cost of the encounter land before the church reframes it.",
+      "source_timecode": "00:08:30",
+      "source_reference": "source_refs/game_frame_0510s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot015/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot015/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot015/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot015_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot015_negative_prompt.md",
+      "frame_spec": "storyboards/Shot015/frame_spec.md",
+      "metadata_path": "storyboards/Shot015/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot015.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot015.mp4",
+      "edit_in": "receive Shot014 safe exit",
+      "edit_out": "hard cut to Rhea's dry report table",
+      "audio_anchor": "Door latch, wet cloth, breath; no speech.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/SeirosTomb_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot016",
+      "order": 16,
+      "title": "先报告事实",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "scene": "善后",
+      "location": "Cathedral interior",
+      "characters": [
+        "Rhea",
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Return to symmetry, but make the symmetry feel administrative rather than safe.",
+      "source_timecode": "00:09:30",
+      "source_reference": "source_refs/game_frame_0570s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot016/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot016/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot016/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot016_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot016_negative_prompt.md",
+      "frame_spec": "storyboards/Shot016/frame_spec.md",
+      "metadata_path": "storyboards/Shot016/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot016.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot016.mp4",
+      "edit_in": "receive Shot015's wet stone",
+      "edit_out": "Manuela enters from the side in Shot017",
+      "audio_anchor": "Japanese line, paper, candle and distant corridor.",
+      "dialogue_line_ids": [
+        "DL-EP04-016"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/Rhea_face.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot017",
+      "order": 17,
+      "title": "知道内部道路",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "善后",
+      "location": "Cathedral antechamber",
+      "characters": [
+        "Manuela",
+        "Rhea",
+        "Byleth"
+      ],
+      "purpose": "Make the faculty report reveal knowledge of the internal route.",
+      "source_timecode": "00:10:00",
+      "source_reference": "source_refs/game_frame_0600s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot017/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot017/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot017/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot017_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot017_negative_prompt.md",
+      "frame_spec": "storyboards/Shot017/frame_spec.md",
+      "metadata_path": "storyboards/Shot017/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot017.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot017.mp4",
+      "edit_in": "receive Rhea's fact rule",
+      "edit_out": "Hanneman presses the inference in Shot018",
+      "audio_anchor": "Japanese line once, paper, small breath, no music swell.",
+      "dialogue_line_ids": [
+        "DL-EP04-017"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/Manuela_face.png",
+        "source/reference_pack/characters/Rhea_face.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot018",
+      "order": 18,
+      "title": "不是偶然",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "scene": "善后",
+      "location": "Cathedral book table",
+      "characters": [
+        "Hanneman",
+        "Manuela",
+        "Rhea"
+      ],
+      "purpose": "Let Hanneman convert evidence into a dangerous inference without overexplaining.",
+      "source_timecode": "00:10:30",
+      "source_reference": "source_refs/game_frame_0630s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot018/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot018/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot018/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot018_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot018_negative_prompt.md",
+      "frame_spec": "storyboards/Shot018/frame_spec.md",
+      "metadata_path": "storyboards/Shot018/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot018.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot018.mp4",
+      "edit_in": "receive Shot017's route trace",
+      "edit_out": "student reaction in Shot019",
+      "audio_anchor": "Japanese line once, paper friction, faint candle wick.",
+      "dialogue_line_ids": [
+        "DL-EP04-018"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/Hanneman_face.png",
+        "source/reference_pack/characters/Manuela_face.png",
+        "source/reference_pack/characters/Rhea_face.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot019",
+      "order": 19,
+      "title": "学生看见代价",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "scene": "善后",
+      "location": "Cathedral rear aisle",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Show three different responses to institutional silence without explanatory dialogue.",
+      "source_timecode": "00:11:30",
+      "source_reference": "source_refs/game_frame_0690s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot019/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot019/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot019/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot019_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot019_negative_prompt.md",
+      "frame_spec": "storyboards/Shot019/frame_spec.md",
+      "metadata_path": "storyboards/Shot019/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot019.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot019.mp4",
+      "edit_in": "receive Shot018's unlit candle",
+      "edit_out": "Rhea reclaims the stair in Shot020",
+      "audio_anchor": "No speech; door, cloth, distant bell.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot020",
+      "order": 20,
+      "title": "秘密作为保护",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "scene": "善后",
+      "location": "Cathedral stair",
+      "characters": [
+        "Rhea",
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Let Rhea close the discussion under the language of protection.",
+      "source_timecode": "00:12:00",
+      "source_reference": "source_refs/game_frame_0720s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot020/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot020/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot020/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot020_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot020_negative_prompt.md",
+      "frame_spec": "storyboards/Shot020/frame_spec.md",
+      "metadata_path": "storyboards/Shot020/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot020.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot020.mp4",
+      "edit_in": "receive Shot019's door close",
+      "edit_out": "Shot021 descends to the three walking together",
+      "audio_anchor": "Japanese line, robe movement, cathedral air.",
+      "dialogue_line_ids": [
+        "DL-EP04-020"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/Rhea_face.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot021",
+      "order": 21,
+      "title": "走廊里的同行",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "夜谈前",
+      "location": "Monastery cloister",
+      "characters": [
+        "Byleth",
+        "Dimitri",
+        "Dedue"
+      ],
+      "purpose": "Shrink the institution into the physical distance between companions.",
+      "source_timecode": "00:13:00",
+      "source_reference": "source_refs/game_frame_0780s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot021/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot021/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot021/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot021_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot021_negative_prompt.md",
+      "frame_spec": "storyboards/Shot021/frame_spec.md",
+      "metadata_path": "storyboards/Shot021/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot021.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot021.mp4",
+      "edit_in": "receive Rhea's retreat",
+      "edit_out": "Dimitri stops in the lamp pool",
+      "audio_anchor": "Footfalls, banner, low night wind; no speech.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/MonasteryMainCloister_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot022",
+      "order": 22,
+      "title": "没有人安心",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "scene": "夜谈",
+      "location": "Monastery cloister at night",
+      "characters": [
+        "Dimitri",
+        "Byleth"
+      ],
+      "purpose": "Give Dimitri a private admission that the encounter changed the meaning of victory.",
+      "source_timecode": "00:13:30",
+      "source_reference": "source_refs/game_frame_0810s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot022/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot022/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot022/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot022_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot022_negative_prompt.md",
+      "frame_spec": "storyboards/Shot022/frame_spec.md",
+      "metadata_path": "storyboards/Shot022/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot022.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot022.mp4",
+      "edit_in": "receive Shot021's slowed walk",
+      "edit_out": "unresolved metal resonance carries into Shot023",
+      "audio_anchor": "Japanese line, night insects, wet stone.",
+      "dialogue_line_ids": [
+        "DL-EP04-022"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/MonasteryMainCloister_reference.png",
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot023",
+      "order": 23,
+      "title": "红色从树后出现",
+      "status": "frames_pending",
+      "duration_seconds": 9,
+      "scene": "雾林",
+      "location": "Mist forest",
+      "characters": [
+        "FlameEmperor"
+      ],
+      "purpose": "Change color and social rules without explaining how the conspirators got there.",
+      "source_timecode": "00:14:00",
+      "source_reference": "source_refs/game_frame_0840s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot023/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot023/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot023/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot023_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot023_negative_prompt.md",
+      "frame_spec": "storyboards/Shot023/frame_spec.md",
+      "metadata_path": "storyboards/Shot023/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot023.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot023.mp4",
+      "edit_in": "receive Shot022's metal resonance",
+      "edit_out": "Shot024 reveals the two-plane exchange",
+      "audio_anchor": "No speech; wet branch, metal, low fire.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/MistForest_reference.png",
+        "source/reference_pack/characters/FlameEmperor_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot024",
+      "order": 24,
+      "title": "两层树干之间",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "scene": "雾林",
+      "location": "Mist forest",
+      "characters": [
+        "FlameEmperor",
+        "DeathKnight"
+      ],
+      "purpose": "Stage the antagonist exchange as a strategic distance, not an intimate villain tableau.",
+      "source_timecode": "00:14:30",
+      "source_reference": "source_refs/game_frame_0870s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot024/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot024/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot024/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot024_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot024_negative_prompt.md",
+      "frame_spec": "storyboards/Shot024/frame_spec.md",
+      "metadata_path": "storyboards/Shot024/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot024.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot024.mp4",
+      "edit_in": "receive Shot023 red reflection",
+      "edit_out": "Flame Emperor's question in Shot025",
+      "audio_anchor": "Armor creak, low fire, distant rain; no speech.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/MistForest_reference.png",
+        "source/reference_pack/characters/FlameEmperor_identity.png",
+        "source/reference_pack/characters/DeathKnight_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot025",
+      "order": 25,
+      "title": "仪式属于谁",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "雾林",
+      "location": "Mist forest",
+      "characters": [
+        "FlameEmperor",
+        "DeathKnight"
+      ],
+      "purpose": "Make Flame Emperor ask about ownership of the rite while keeping the plan opaque.",
+      "source_timecode": "00:15:00",
+      "source_reference": "source_refs/game_frame_0900s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot025/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot025/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot025/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot025_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot025_negative_prompt.md",
+      "frame_spec": "storyboards/Shot025/frame_spec.md",
+      "metadata_path": "storyboards/Shot025/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot025.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot025.mp4",
+      "edit_in": "receive Shot024 two-plane geometry",
+      "edit_out": "the mission report becomes the next line in Shot026",
+      "audio_anchor": "Japanese line once, controlled fire and rain.",
+      "dialogue_line_ids": [
+        "DL-EP04-025"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/MistForest_reference.png",
+        "source/reference_pack/characters/FlameEmperor_identity.png",
+        "source/reference_pack/characters/DeathKnight_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot026",
+      "order": 26,
+      "title": "使命尚未结束",
+      "status": "frames_pending",
+      "duration_seconds": 11,
+      "scene": "雾林",
+      "location": "Mist forest side slope",
+      "characters": [
+        "FlameEmperor",
+        "DeathKnight"
+      ],
+      "purpose": "Connect the Death Knight to the conspiracy without a plot dump.",
+      "source_timecode": "00:15:30",
+      "source_reference": "source_refs/game_frame_0930s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot026/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot026/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot026/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot026_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot026_negative_prompt.md",
+      "frame_spec": "storyboards/Shot026/frame_spec.md",
+      "metadata_path": "storyboards/Shot026/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot026.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot026.mp4",
+      "edit_in": "receive Shot025's listener turn",
+      "edit_out": "cut back to the empty monastery corridor in Shot027",
+      "audio_anchor": "Japanese line once, boot in wet ground, armor, wind.",
+      "dialogue_line_ids": [
+        "DL-EP04-026"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/MistForest_reference.png",
+        "source/reference_pack/characters/FlameEmperor_identity.png",
+        "source/reference_pack/characters/DeathKnight_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot027",
+      "order": 27,
+      "title": "问题回到长廊",
+      "status": "frames_pending",
+      "duration_seconds": 12,
+      "scene": "索蒂丝尾声",
+      "location": "Cathedral corridor",
+      "characters": [
+        "Byleth",
+        "Sothis"
+      ],
+      "purpose": "Return the conspiracy question to Byleth's private perception.",
+      "source_timecode": "00:16:30",
+      "source_reference": "source_refs/game_frame_0990s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot027/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot027/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot027/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot027_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot027_negative_prompt.md",
+      "frame_spec": "storyboards/Shot027/frame_spec.md",
+      "metadata_path": "storyboards/Shot027/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot027.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot027.mp4",
+      "edit_in": "receive Shot026's forest wind",
+      "edit_out": "Shot028 holds the unanswered stop",
+      "audio_anchor": "Japanese line once, soft room tone, no music explanation.",
+      "dialogue_line_ids": [
+        "DL-EP04-027"
+      ],
+      "dialogue_mode": "single_turn",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Sothis_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    },
+    {
+      "id": "Shot028",
+      "order": 28,
+      "title": "黑门不回答",
+      "status": "frames_pending",
+      "duration_seconds": 10,
+      "scene": "索蒂丝尾声",
+      "location": "Cathedral tombward corridor",
+      "characters": [
+        "Byleth",
+        "Sothis"
+      ],
+      "purpose": "End on withheld trust rather than a victory statement.",
+      "source_timecode": "00:18:00",
+      "source_reference": "source_refs/game_frame_1080s.jpg",
+      "source_reference_status": "planning_only",
+      "start_frame": "storyboards/Shot028/frames_pending/start_frame.png",
+      "key_frame": "storyboards/Shot028/frames_pending/key_frame.png",
+      "end_frame": "storyboards/Shot028/frames_pending/end_frame.png",
+      "prompt_path": "video_prompts/Shot028_prompt.md",
+      "negative_prompt_path": "video_prompts/Shot028_negative_prompt.md",
+      "frame_spec": "storyboards/Shot028/frame_spec.md",
+      "metadata_path": "storyboards/Shot028/metadata.json",
+      "source_audit_path": "planning/source_audit/Shot028.md",
+      "expected_clip": "delivery/EP04_prompt_asset_package_v1/clips/Shot028.mp4",
+      "edit_in": "receive Shot027's unanswered question",
+      "edit_out": "cut to black",
+      "audio_anchor": "No speech; bell is cut before its final decay.",
+      "dialogue_line_ids": [],
+      "dialogue_mode": "silent",
+      "asset_references": [
+        "source/reference_pack/style/live_action_style_reference.png",
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png",
+        "source/reference_pack/characters/Sothis_identity.png"
+      ],
+      "reject_if": [
+        "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, the shot is promoted before actual frame review"
+      ]
+    }
+  ]
+}

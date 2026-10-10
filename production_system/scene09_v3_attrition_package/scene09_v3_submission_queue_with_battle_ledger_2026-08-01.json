@@ -1,0 +1,10 @@
+{
+  "date": "2026-08-01",
+  "decision": "submission_queue_with_battle_ledger_passed",
+  "source_queue": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_queue.csv",
+  "source_battle_ledger": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json",
+  "package_csv": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_queue_with_battle_ledger.csv",
+  "package_md": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_queue_with_battle_ledger.md",
+  "rows": 42,
+  "problems": []
+}

@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "pairs": [
+    {
+      "id": "GDSC01-SH001->GDSC01-SH002",
+      "type": "continuity_pair",
+      "from": "GDSC01-SH001",
+      "to": "GDSC01-SH002",
+      "status": "approved_for_video",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-review",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": []
+    },
+    {
+      "id": "GDSC01-SH002->GDSC01-SH003",
+      "type": "continuity_pair",
+      "from": "GDSC01-SH002",
+      "to": "GDSC01-SH003",
+      "status": "approved_for_video",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-review",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": []
+    },
+    {
+      "id": "GDSC01-SH003->GDSC01-SH004",
+      "type": "continuity_pair",
+      "from": "GDSC01-SH003",
+      "to": "GDSC01-SH004",
+      "status": "approved_for_video",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-review",
+      "created_at": "2026-07-28",
+      "decision": "approved_for_video",
+      "checks": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "blocking_issues": [],
+      "required_revisions": []
+    }
+  ]
+}

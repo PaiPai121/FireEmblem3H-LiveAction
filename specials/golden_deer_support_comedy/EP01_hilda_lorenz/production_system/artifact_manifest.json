@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "project": "EP01_hilda_lorenz",
+  "artifacts": [
+    {
+      "id": "GDSC-EP01-project_bible",
+      "type": "project_bible",
+      "stage": "writing",
+      "status": "approved_for_video",
+      "created_by": "writer-director-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "project_bible.md"
+      ],
+      "source_refs": [
+        "source_audit.md"
+      ],
+      "depends_on": [],
+      "risk_flags": [],
+      "notes": "Package source artifact."
+    },
+    {
+      "id": "GDSC-EP01-script",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "approved_for_video",
+      "created_by": "writer-director-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "script.md"
+      ],
+      "source_refs": [
+        "source_audit.md"
+      ],
+      "depends_on": [],
+      "risk_flags": [],
+      "notes": "Package source artifact."
+    },
+    {
+      "id": "GDSC-EP01-director",
+      "type": "director_treatment",
+      "stage": "director_treatment",
+      "status": "approved_for_video",
+      "created_by": "writer-director-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "director_treatment.md"
+      ],
+      "source_refs": [
+        "source_audit.md"
+      ],
+      "depends_on": [],
+      "risk_flags": [],
+      "notes": "Package source artifact."
+    },
+    {
+      "id": "GDSC-EP01-shot_list",
+      "type": "shot_list",
+      "stage": "shot_list",
+      "status": "approved_for_video",
+      "created_by": "shotlist-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "shot_list.md"
+      ],
+      "source_refs": [
+        "source_audit.md"
+      ],
+      "depends_on": [],
+      "risk_flags": [],
+      "notes": "Package source artifact."
+    },
+    {
+      "id": "GDSC01-SH001",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "storyboards/GDSC01-SH001/start_frame.png",
+        "storyboards/GDSC01-SH001/key_frame.png",
+        "storyboards/GDSC01-SH001/end_frame.png",
+        "video_prompts/GDSC01-SH001_prompt.md",
+        "video_prompts/GDSC01-SH001_negative_prompt.md",
+        "storyboards/GDSC01-SH001/metadata.json"
+      ],
+      "source_refs": [
+        "script.md",
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "GDSC-EP01-script",
+        "GDSC-EP01-shot_list"
+      ],
+      "continuity": {
+        "previous": "",
+        "next": "GDSC01-SH002",
+        "in": "cut from monastery room tone",
+        "out": "cut on Hilda's helpless pause"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "subtitle_risk",
+        "age_drift"
+      ],
+      "notes": "Establish Lorenz's self-serious diligence before Hilda spots an opening."
+    },
+    {
+      "id": "GDSC01-SH002",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "storyboards/GDSC01-SH002/start_frame.png",
+        "storyboards/GDSC01-SH002/key_frame.png",
+        "storyboards/GDSC01-SH002/end_frame.png",
+        "video_prompts/GDSC01-SH002_prompt.md",
+        "video_prompts/GDSC01-SH002_negative_prompt.md",
+        "storyboards/GDSC01-SH002/metadata.json"
+      ],
+      "source_refs": [
+        "script.md",
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "GDSC-EP01-script",
+        "GDSC-EP01-shot_list"
+      ],
+      "continuity": {
+        "previous": "GDSC01-SH001",
+        "next": "GDSC01-SH003",
+        "in": "match cut from Lorenz's receptive posture",
+        "out": "cut before Hilda names the favor"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "subtitle_risk",
+        "age_drift"
+      ],
+      "notes": "Hilda turns flattery into a request while preserving the original comic pressure."
+    },
+    {
+      "id": "GDSC01-SH003",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "storyboards/GDSC01-SH003/start_frame.png",
+        "storyboards/GDSC01-SH003/key_frame.png",
+        "storyboards/GDSC01-SH003/end_frame.png",
+        "video_prompts/GDSC01-SH003_prompt.md",
+        "video_prompts/GDSC01-SH003_negative_prompt.md",
+        "storyboards/GDSC01-SH003/metadata.json"
+      ],
+      "source_refs": [
+        "script.md",
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "GDSC-EP01-script",
+        "GDSC-EP01-shot_list"
+      ],
+      "continuity": {
+        "previous": "GDSC01-SH002",
+        "next": "GDSC01-SH004",
+        "in": "cut on Hilda finally asking",
+        "out": "cut on Hilda's sudden smile"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "subtitle_risk",
+        "age_drift"
+      ],
+      "notes": "Pay off the request: Lorenz agrees to do the fighting while Hilda promises to act busy."
+    },
+    {
+      "id": "GDSC01-SH004",
+      "type": "video_delivery_shot",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-28",
+      "paths": [
+        "storyboards/GDSC01-SH004/start_frame.png",
+        "storyboards/GDSC01-SH004/key_frame.png",
+        "storyboards/GDSC01-SH004/end_frame.png",
+        "video_prompts/GDSC01-SH004_prompt.md",
+        "video_prompts/GDSC01-SH004_negative_prompt.md",
+        "storyboards/GDSC01-SH004/metadata.json"
+      ],
+      "source_refs": [
+        "script.md",
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "GDSC-EP01-script",
+        "GDSC-EP01-shot_list"
+      ],
+      "continuity": {
+        "previous": "GDSC01-SH003",
+        "next": "",
+        "in": "cut from Hilda's delighted face",
+        "out": "hold on Hilda's amused exit"
+      },
+      "risk_flags": [
+        "identity_drift",
+        "subtitle_risk",
+        "age_drift"
+      ],
+      "notes": "Extend the original joke through Lorenz's noble vanity and Hilda's easy exit."
+    }
+  ]
+}

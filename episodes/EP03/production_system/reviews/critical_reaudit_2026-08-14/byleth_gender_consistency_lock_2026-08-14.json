@@ -1,0 +1,20 @@
+{
+  "id": "ep03_byleth_gender_consistency_lock_2026-08-14",
+  "created_at": "2026-08-14T01:15:00+08:00",
+  "source_feedback": "用户指出 EP3 有的帧是男贝老师、有的帧是女贝老师；若使用女性 Byleth，则全片必须统一使用女贝老师。",
+  "global_decision": "female_byleth_only",
+  "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "canonical_weapon_asset": "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+  "reject_if": [
+    "male Byleth / male professor appearance appears in any EP03 frame, prompt, metadata, viewer, manifest, or package-local copy",
+    "Byleth changes gender presentation between START, KEY, END, adjacent shots, or regenerated candidates",
+    "war-phase/adult/enlightened Byleth replaces academy-phase female professor look",
+    "web preview displays a candidate generated from the old male/ambiguous Byleth reference as final-like material"
+  ],
+  "downstream_requirement": "Apply to project bible, frame specs, video prompts, metadata, frame generation queue, delivery manifest, main web data, and generated package copies. Downgrade affected active visual candidates until visually re-audited or regenerated from the female local selected asset.",
+  "reject_asset_ids": [
+    "old_male_or_ambiguous_byleth_professor_selected",
+    "old_male_or_ambiguous_byleth_weapon_fullbody_selected",
+    "war_phase_enlightened_byleth_selected"
+  ]
+}

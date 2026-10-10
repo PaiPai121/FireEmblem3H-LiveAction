@@ -1,0 +1,83 @@
+{
+  "id": "Shot028",
+  "order": 28,
+  "scene": "最后压制",
+  "purpose": "结束战斗，同时把学生从处决中心移开。",
+  "duration_seconds": 16,
+  "characters": [
+    "Byleth",
+    "Catherine",
+    "Lonato"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/props/shared/hero_relics/hero_relics_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Catherine",
+      "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Lonato",
+      "asset": "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot028_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot028/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot028/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot028/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {},
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot028_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot028_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot028_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot028/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot028/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/028_Shot028/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/028_Shot028/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/028_Shot028/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "visual_blocked",
+  "visual_audit_decision": "visual_blocked",
+  "required_revision": "Regenerate real live-action start/key/end frames with integrated lighting, shot-specific blocking, readable named identities, and a clear key action peak.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from arrow stop",
+  "edit_out": "cut to Lonato collapse",
+  "audio_anchor": "Metal falls; the fog goes briefly quiet. No spoken dialogue.",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 最后压制; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: Byleth 与 Catherine 从两侧进入，Catherine 打掉武器，Byleth 用剑背压住 Lonato。",
+    "end": "Land on the state needed for the next cut: cut to Lonato collapse."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "GDSC04-SH004",
+  "episode": "GDSC-EP04",
+  "title": "Tail To Catch",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach main cloister",
+  "characters": [
+    "Claude",
+    "Lorenz"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC04-SH004/start_frame.png",
+    "key": "storyboards/GDSC04-SH004/key_frame.png",
+    "end": "storyboards/GDSC04-SH004/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC04-SH004_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC04-SH004_negative_prompt.md",
+  "expected_clip": "clips/GDSC04-SH004.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/クロード(レスター諸侯同盟)#ローレンツ",
+    "https://fireemblem.fandom.com/wiki/Lorenz_(Three_Houses)/Supports#With_Claude"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lorenz",
+      "line": "そもそも……君はどうも胡散臭いのだよ。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lorenz",
+      "line": "いつか君の尻尾を掴み、盟主の資格などないことを証明してやる。",
+      "type": "source"
+    },
+    {
+      "speaker": "Claude",
+      "line": "ったく……面倒臭い奴だなあ……。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Lorenz exits with a hard turn; Claude lets the folded note vanish into his sleeve."
+  ],
+  "identity_references": {
+    "Claude": "assets/characters/golden_deer/Claude/academy/selected.png",
+    "Lorenz": "assets/characters/golden_deer/Lorenz/academy/selected.png"
+  },
+  "reject_if": [
+    "Claude reveals a new conspiracy",
+    "Lorenz becomes hateful",
+    "ending creates a new plot twist"
+  ]
+}

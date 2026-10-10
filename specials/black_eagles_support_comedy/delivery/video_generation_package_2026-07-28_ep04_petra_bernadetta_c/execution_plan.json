@@ -1,0 +1,139 @@
+{
+  "package_id": "video_generation_package_2026-07-28_ep04_petra_bernadetta_c",
+  "mode": "manual_seedance_submission",
+  "clips_pending": true,
+  "steps": [
+    {
+      "submit": "BE-SC-EP04-SH001",
+      "prompt": "shots/001_BE-SC-EP04-SH001/prompt.md",
+      "frames": {
+        "start": "shots/001_BE-SC-EP04-SH001/start_frame.png",
+        "key": "shots/001_BE-SC-EP04-SH001/key_frame.png",
+        "end": "shots/001_BE-SC-EP04-SH001/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH001.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH002",
+      "prompt": "shots/002_BE-SC-EP04-SH002/prompt.md",
+      "frames": {
+        "start": "shots/002_BE-SC-EP04-SH002/start_frame.png",
+        "key": "shots/002_BE-SC-EP04-SH002/key_frame.png",
+        "end": "shots/002_BE-SC-EP04-SH002/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH002.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH003",
+      "prompt": "shots/003_BE-SC-EP04-SH003/prompt.md",
+      "frames": {
+        "start": "shots/003_BE-SC-EP04-SH003/start_frame.png",
+        "key": "shots/003_BE-SC-EP04-SH003/key_frame.png",
+        "end": "shots/003_BE-SC-EP04-SH003/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH003.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH004",
+      "prompt": "shots/004_BE-SC-EP04-SH004/prompt.md",
+      "frames": {
+        "start": "shots/004_BE-SC-EP04-SH004/start_frame.png",
+        "key": "shots/004_BE-SC-EP04-SH004/key_frame.png",
+        "end": "shots/004_BE-SC-EP04-SH004/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH004.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH005",
+      "prompt": "shots/005_BE-SC-EP04-SH005/prompt.md",
+      "frames": {
+        "start": "shots/005_BE-SC-EP04-SH005/start_frame.png",
+        "key": "shots/005_BE-SC-EP04-SH005/key_frame.png",
+        "end": "shots/005_BE-SC-EP04-SH005/end_frame.png"
+      },
+      "duration_seconds": 7,
+      "expected_clip": "clips/BE-SC-EP04-SH005.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH006",
+      "prompt": "shots/006_BE-SC-EP04-SH006/prompt.md",
+      "frames": {
+        "start": "shots/006_BE-SC-EP04-SH006/start_frame.png",
+        "key": "shots/006_BE-SC-EP04-SH006/key_frame.png",
+        "end": "shots/006_BE-SC-EP04-SH006/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH006.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH007",
+      "prompt": "shots/007_BE-SC-EP04-SH007/prompt.md",
+      "frames": {
+        "start": "shots/007_BE-SC-EP04-SH007/start_frame.png",
+        "key": "shots/007_BE-SC-EP04-SH007/key_frame.png",
+        "end": "shots/007_BE-SC-EP04-SH007/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH007.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH008",
+      "prompt": "shots/008_BE-SC-EP04-SH008/prompt.md",
+      "frames": {
+        "start": "shots/008_BE-SC-EP04-SH008/start_frame.png",
+        "key": "shots/008_BE-SC-EP04-SH008/key_frame.png",
+        "end": "shots/008_BE-SC-EP04-SH008/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH008.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH009",
+      "prompt": "shots/009_BE-SC-EP04-SH009/prompt.md",
+      "frames": {
+        "start": "shots/009_BE-SC-EP04-SH009/start_frame.png",
+        "key": "shots/009_BE-SC-EP04-SH009/key_frame.png",
+        "end": "shots/009_BE-SC-EP04-SH009/end_frame.png"
+      },
+      "duration_seconds": 6,
+      "expected_clip": "clips/BE-SC-EP04-SH009.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH010",
+      "prompt": "shots/010_BE-SC-EP04-SH010/prompt.md",
+      "frames": {
+        "start": "shots/010_BE-SC-EP04-SH010/start_frame.png",
+        "key": "shots/010_BE-SC-EP04-SH010/key_frame.png",
+        "end": "shots/010_BE-SC-EP04-SH010/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH010.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH011",
+      "prompt": "shots/011_BE-SC-EP04-SH011/prompt.md",
+      "frames": {
+        "start": "shots/011_BE-SC-EP04-SH011/start_frame.png",
+        "key": "shots/011_BE-SC-EP04-SH011/key_frame.png",
+        "end": "shots/011_BE-SC-EP04-SH011/end_frame.png"
+      },
+      "duration_seconds": 10,
+      "expected_clip": "clips/BE-SC-EP04-SH011.mp4"
+    },
+    {
+      "submit": "BE-SC-EP04-SH012",
+      "prompt": "shots/012_BE-SC-EP04-SH012/prompt.md",
+      "frames": {
+        "start": "shots/012_BE-SC-EP04-SH012/start_frame.png",
+        "key": "shots/012_BE-SC-EP04-SH012/key_frame.png",
+        "end": "shots/012_BE-SC-EP04-SH012/end_frame.png"
+      },
+      "duration_seconds": 8,
+      "expected_clip": "clips/BE-SC-EP04-SH012.mp4"
+    }
+  ]
+}

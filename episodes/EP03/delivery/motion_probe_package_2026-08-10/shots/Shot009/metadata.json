@@ -1,0 +1,24 @@
+{
+  "shot_id": "Shot009",
+  "order": 9,
+  "status": "pending_motion_probe",
+  "source_status": "monitor_required",
+  "probe_duration_seconds": 3,
+  "model_target": "Seedance image-to-video web workflow",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "start_frame": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+  "key_frame": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+  "end_frame": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+  "upload_contract": {
+    "start": "Upload as START frame; exact first-frame anchor.",
+    "key": "Upload as KEY frame; peak beat reference.",
+    "end": "Upload as END frame; final-frame target."
+  },
+  "prompt_path": "delivery/motion_probe_package_2026-08-10/shots/Shot009/prompt.md",
+  "negative_prompt_path": "delivery/motion_probe_package_2026-08-10/shots/Shot009/negative_prompt.md",
+  "source_prompt_path": "episodes/EP03/video_prompts/Shot009_prompt.md",
+  "source_negative_prompt_path": "episodes/EP03/video_prompts/Shot009_negative_prompt.md",
+  "expected_probe_clip": "episodes/EP03/clips/probes_2026-08-10/Shot009_probe_3s.mp4",
+  "reject_focus": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, END turns into anonymous back silhouettes, Catherine/Dimitri/Ashe identities swap, the shot becomes a battle beat, or START/KEY/END collapse into repeated stills.",
+  "promotion_rule": "Do not promote to approved_for_video from this package alone. A human or separate reviewer must inspect the generated 3-second clip and record motion_review_passed before full-duration generation."
+}

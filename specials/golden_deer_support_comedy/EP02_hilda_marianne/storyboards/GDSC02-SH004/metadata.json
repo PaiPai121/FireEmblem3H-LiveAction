@@ -1,0 +1,61 @@
+{
+  "id": "GDSC02-SH004",
+  "episode": "GDSC-EP02",
+  "title": "Hilda Does It Herself",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach library",
+  "characters": [
+    "Hilda",
+    "Marianne"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC02-SH004/start_frame.png",
+    "key": "storyboards/GDSC02-SH004/key_frame.png",
+    "end": "storyboards/GDSC02-SH004/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC02-SH004_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC02-SH004_negative_prompt.md",
+  "expected_clip": "clips/GDSC02-SH004.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/マリアンヌ(レスター諸侯同盟)#ヒルダ",
+    "https://gamefaqs.gamespot.com/switch/204445-fire-emblem-three-houses/faqs/77596"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hilda",
+      "line": "仕方ないなあ。やり方、教えるから聞いててね？",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "分類ごとに置き場を決めるの。魔道の本ならこっち、剣術の本ならあっち。",
+      "type": "source"
+    },
+    {
+      "speaker": "Marianne",
+      "line": "ヒ、ヒルダさん……すごい……！",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "結局、あたしがやってるじゃない。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Hilda slides books into neat piles; Marianne passes one book back."
+  ],
+  "identity_references": {
+    "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+    "Marianne": "assets/characters/golden_deer/Marianne/academy/selected.png"
+  },
+  "reject_if": [
+    "Hilda looks smugly cruel",
+    "readable book text appears",
+    "subtitles appear"
+  ]
+}

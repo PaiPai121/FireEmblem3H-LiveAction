@@ -1,0 +1,32 @@
+[Script Info]
+Title: Petra x Bernadetta C - Like Prey zh-Hans subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Noto Sans CJK SC,48,&H00FFFFFF,&H000000FF,&HAA000000,&H66000000,0,0,0,0,100,100,0,0,1,2,0,2,72,72,48,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:04.33,Default,Bernadetta,0,0,0,,贝尔娜提塔：佩托拉真好啊。不会大吼，也不会说坏话……
+Dialogue: 0,0:00:04.51,0:00:08.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：啊，是佩托拉。稍微去搭个话吧。
+Dialogue: 0,0:00:08.00,0:00:11.33,Default,Petra,0,0,0,,佩托拉：……是贝尔娜提塔吗？找我，有什么事吗？
+Dialogue: 0,0:00:11.51,0:00:16.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：咿！？你、你怎么知道是贝尔！？你背后也长眼睛了吗！
+Dialogue: 0,0:00:16.00,0:00:24.00,Default,Petra,0,0,0,,佩托拉：眼睛，在脸上，两个。背后，没有。你在背后，我感觉到气息。
+Dialogue: 0,0:00:24.00,0:00:28.06,Default,Bernadetta,0,0,0,,贝尔娜提塔：我是觉得我们也许能变亲近，那个，佩托拉你……
+Dialogue: 0,0:00:28.24,0:00:32.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：是怎么看我的呢。算朋友，还是别的什么……
+Dialogue: 0,0:00:32.00,0:00:35.95,Default,Petra,0,0,0,,佩托拉：我怎么看你，是吗？……就像猎物一样。
+Dialogue: 0,0:00:36.13,0:00:39.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：诶……猎物啊啊啊！？
+Dialogue: 0,0:00:39.00,0:00:47.00,Default,Petra,0,0,0,,佩托拉：你很像狩猎的猎物。就像草丛里的兔子。
+Dialogue: 0,0:00:47.00,0:00:55.00,Default,Petra,0,0,0,,佩托拉：总是在寻找敌人，察觉到就立刻逃跑。逃跑，很快。
+Dialogue: 0,0:00:55.00,0:01:03.00,Default,Petra,0,0,0,,佩托拉：我拿弓箭的时候……会注意，不会误把你猎下。
+Dialogue: 0,0:01:03.00,0:01:09.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：这、这样啊……原来你有在注意我啊。嗯……
+Dialogue: 0,0:01:09.00,0:01:12.91,Default,Bernadetta,0,0,0,,贝尔娜提塔：也就是说……总有一天我会被猎到吗啊啊！？
+Dialogue: 0,0:01:13.09,0:01:17.00,Default,Petra,0,0,0,,佩托拉：不是，担心，没有必要。射箭的瞬间，我能射偏。
+Dialogue: 0,0:01:17.00,0:01:21.12,Default,Petra,0,0,0,,佩托拉：只要你不动，箭会擦过脸颊，飞过去。
+Dialogue: 0,0:01:21.30,0:01:27.00,Default,Bernadetta,0,0,0,,贝尔娜提塔：擦到脸颊本身就是问题吧啊啊！为什么！为什么啊！
+Dialogue: 0,0:01:27.00,0:01:31.33,Default,Bernadetta,0,0,0,,贝尔娜提塔：贝尔到底做了什么啊啊啊！饶了我吧啊啊啊！
+Dialogue: 0,0:01:31.51,0:01:35.00,Default,Petra,0,0,0,,佩托拉：你什么也没做。不过，原谅你，可以。

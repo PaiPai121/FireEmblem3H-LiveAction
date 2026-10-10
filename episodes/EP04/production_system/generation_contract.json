@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "EP04",
+  "target": "prompt_asset_package",
+  "frames_required": false,
+  "asset_generation": false,
+  "age_lock_required": false,
+  "dialogue_pacing_required": true,
+  "native_dialogue_policy": "probe_then_approve",
+  "timing_policy": {
+    "required": true,
+    "default_speech_characters_per_second": 5,
+    "min_speech_characters_per_second": 3.5,
+    "max_speech_characters_per_second": 6.5,
+    "max_interline_silence_seconds": 0.25,
+    "max_tail_hold_seconds": 0.35,
+    "max_reaction_tail_seconds": 1,
+    "one_utterance_per_clip_by_default": true
+  },
+  "target_aspect": "",
+  "style_lock": {
+    "primary": "",
+    "forbidden_visuals": []
+  },
+  "character_locks": [],
+  "reference_sets": [],
+  "shots": []
+}

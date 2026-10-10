@@ -1,0 +1,336 @@
+{
+  "date": "2026-07-25",
+  "total": 42,
+  "passed": 42,
+  "failed": 0,
+  "rows": [
+    {
+      "shot": "Shot025",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot025_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot025A",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot025A_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot026",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot026_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot026B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot026B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot026C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot026C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot027",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot027B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot027C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot027D",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027D_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot028",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot028_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot028B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot028B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot028C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot028C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot029",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot029C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot029D",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029D_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot029B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot030",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot030_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot030B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot030B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot030C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot030C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot031",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot031_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot031B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot031B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032A",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032A_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032D",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032D_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032E",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032E_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032F",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032F_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot032G",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032G_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot033",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot033B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot033C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot033D",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033D_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot034C",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034C_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot034D",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034D_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot034B",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034B_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": [],
+      "start_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_start.png",
+      "key_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_key.png",
+      "end_frame": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/34D_Shot034B_hanneman_lane_end.png",
+      "visible_named_only": [
+        "Byleth",
+        "Dimitri",
+        "Hanneman"
+      ],
+      "audio_anchor": "Whistle tail. Byleth: \"判定，青狮守住。\" Dimitri tired breath. Hanneman: \"这一线，我认输。\" No Manuela voice in this shot.",
+      "video_prompt": "Single-lane Hanneman ruling. Byleth and Dimitri stop at Hanneman's separate faculty objective lane while Hanneman concedes the nonlethal mock-battle objective from his own marker only. Manuela is absent and route-cut offscreen; never stage Hanneman and Manuela as a pair, shared objective defenders, or allied combat partners. Dimitri lowers his blunt training lance and exhales, exhausted; Byleth gives a clipped nonlethal ruling gesture.",
+      "dialogue_audio": "Whistle tail. Byleth: \"判定，青狮守住。\" Dimitri tired breath. Hanneman: \"这一线，我认输。\" No Manuela voice in this shot.",
+      "note": "Byleth, Dimitri, and Hanneman resolve Hanneman's separate faculty lane; Manuela remains offscreen on her own route and never appears beside him.",
+      "primary_check": "Visible named-only: Byleth, Dimitri, Hanneman. Byleth and Dimitri resolve Hanneman's separate faculty lane; Manuela remains offscreen and never reads as paired with him. Reject if any extra readable human appears.",
+      "reject_if": [
+        "Reject if any extra readable human, anonymous student, spectator, soldier, crowd, or silhouette appears.",
+        "Reject if captured Hubert, captured Dorothea, or captured Bernadetta reappears in readable form after capture.",
+        "Reject if any spent, stood-down, objective-defeated, or defeated-house character resumes active combat.",
+        "Reject if anyone outside Byleth, Dimitri, and Hanneman appears.",
+        "Reject if Manuela appears in any readable form, or if any other teacher or student extra appears.",
+        "Reject if Hanneman and Manuela stand together, share a sigil, or are treated as allied combatants.",
+        "Reject if Dedue, Ingrid, or other spent/offscreen characters appear in readable form.",
+        "Reject if Hanneman keeps an active spell angle, appears injured, or is merged with Manuela into one shared objective marker."
+      ],
+      "characters": [
+        {
+          "name": "Byleth"
+        },
+        {
+          "name": "Dimitri"
+        },
+        {
+          "name": "Hanneman"
+        }
+      ]
+    },
+    {
+      "shot": "Shot034E",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034E_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot034F",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034F_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot034G",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034G_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot034",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot035",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot035_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    },
+    {
+      "shot": "Shot036",
+      "file": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot036_production_video_prompt_v3.md",
+      "passed": true,
+      "missing": [],
+      "weak_signals": []
+    }
+  ]
+}

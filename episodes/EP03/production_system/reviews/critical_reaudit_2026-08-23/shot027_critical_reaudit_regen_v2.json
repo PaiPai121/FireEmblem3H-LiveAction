@@ -1,0 +1,31 @@
+{
+  "shot_id": "Shot027",
+  "review_date": "2026-08-23",
+  "review_type": "arrow_release_and_mud_interception_reaudit_v2",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v1_2026-08-23",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-24",
+  "previous_shot": "Shot026",
+  "next_shot": "Shot028",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+    "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-24 after user re-audit: v1 still used a ten-second timing envelope for a single release-to-impact beat. Retain as historical evidence only."
+  ],
+  "finding": "2026-08-24 action-chain rebuild: v1 made the cause legible but stretched a four-second release/impact into a ten-second hold. v2 compresses the arc to inherited aim→single release→low flight→mud splash→delayed stop.",
+  "passes": [
+    "START receives Shot026's lowered nocked arrow and does not reset the geography.",
+    "KEY shows one arrow traveling low toward the empty mud patch before Lonato.",
+    "END shows practical mud impact and Lonato stopping without injury.",
+    "No fall, body hit, chase, or second arrow; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, strict Shot026→027 continuity QA, and a 3-second motion probe. Reject if the arrow hits Lonato or equipment, the distance/axis changes, a haloed cutout returns, Lonato falls/bleeds/attacks, or Chinese/Mandarin/subtitles/UI/borders appear."
+  ]
+}

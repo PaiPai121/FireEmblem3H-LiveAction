@@ -1,0 +1,29 @@
+{
+  "shot_id": "Shot003",
+  "version": "critical_reaudit_regen_v2_2026-08-21",
+  "decision": "monitor_required",
+  "local_reference_assets": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "frame_set": {
+    "start": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "contact_sheet": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+  "start_finding": "议事门打开后的湿冷大教堂中，女贝老师和 Dimitri 从下方进入，Rhea 在祭坛台阶上，成熟学院篇 Seteth 站在她侧后方并持有报告册；权力高差先成立。",
+  "key_finding": "Seteth 合上报告册并向 Rhea 迈步，把报告册递到她伸出的手里；Rhea 接过报告册，女贝老师和 Dimitri 在下方以目光反应，而不是排成一列。",
+  "end_finding": "Rhea 背向众人转向祭坛，Seteth 带着合上的报告册横向下阶；女贝老师保持左侧面，Dimitri 转向画外的 Ashe，中央通道被留空。",
+  "blocking": "START 学生低位进入、Rhea/Seteth 高位；KEY Seteth 两步交报告、Rhea 抬手接收；END Rhea 转身、Seteth 下阶、学生留在低位并分开反应。",
+  "action_peak": "报告册从 Seteth 手中移交到 Rhea 手中，随后 Rhea 以转身确认命令已成制度性决定。",
+  "prompt_language_gate": "Japanese_dialogue_only",
+  "female_byleth_lock": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "prompt_qa": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "reject_if": "Reject if Seteth looks young or generic, if female Byleth becomes male, if the folio handoff is absent, if Rhea only changes expression, or if the four characters remain a static symmetrical tableau."
+}

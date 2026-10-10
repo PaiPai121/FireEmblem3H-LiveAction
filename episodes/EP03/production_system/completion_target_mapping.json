@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "scope": "episodes/EP03",
+  "canonical_project_root": ".",
+  "canonical_scope_root": "episodes/EP03",
+  "target_mapping": {
+    "plan_package": {
+      "artifacts": "episodes/EP03/production_system/artifact_manifest.json",
+      "reviews": "episodes/EP03/production_system/review_manifest.json",
+      "timeline": "episodes/EP03/shot_list.md"
+    },
+    "prompt_asset_package": {
+      "delivery_manifest": "episodes/EP03/production_system/video_delivery_manifest.json",
+      "complete_viewer": "episodes/EP03/delivery/complete_script_shot_asset_package_2026-08-01/index.html",
+      "current_frame_policy": "delivery_manifest.current_display_frame_set + displayed_frame_set.frames",
+      "frame_gate": "../../production_system/generation_contract.json + ../../production_system/generation_state.json + ../../production_system/generation_receipts.json",
+      "web_gate": "all local href/src references in the three EP03 viewers must resolve"
+    },
+    "video_generation_package": {
+      "required": [
+        "all shots approved_for_video",
+        "prompt QA against current frames",
+        "strict adjacent-shot continuity",
+        "real motion probe before promotion"
+      ],
+      "current_truth": "not achieved; all 36 shots remain monitor_required and clips are absent"
+    }
+  },
+  "root_scope_note": "The repository root contains legacy EP02/scene09 delivery ledgers in addition to EP03. The generic root completion checker therefore reports unrelated EP02 shot IDs and is not the EP03 scope adapter. It must not be used to promote EP03; the named EP03 checks above are authoritative until the repository is split into separate project roots.",
+  "last_audited": "2026-08-27",
+  "current_state": {
+    "frame_expected": 108,
+    "frame_present": 108,
+    "frame_reviewed": 108,
+    "frame_state": "partial: 108 current frames present and visually reviewed; video clips remain absent",
+    "prompt_contracts": "36/36 passed; see production_system/reviews/video_prompt_qa_2026-08-27.json",
+    "viewer_link_audit": "current EP03 viewers rebuilt after frame/prompt sync; static local-path checks passed",
+    "combat_choreography": "passed for Shot026-029 in EP03 validation staging",
+    "dialogue_timing": "prompt timing blocks are present; repository-level dialogue join and native Japanese audio probe remain pending",
+    "motion_probe": "clips_pending"
+  }
+}

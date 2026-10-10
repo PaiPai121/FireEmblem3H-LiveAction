@@ -1,0 +1,60 @@
+{
+  "id": "Shot025",
+  "order": 25,
+  "status": "frames_pending",
+  "duration_seconds": 10,
+  "scene": "雾林",
+  "title": "仪式属于谁",
+  "purpose": "Make Flame Emperor ask about ownership of the rite while keeping the plan opaque.",
+  "source_timecode": "00:15:00",
+  "source_reference": "source_refs/game_frame_0900s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Mist forest",
+  "characters": [
+    "FlameEmperor",
+    "DeathKnight"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/MistForest_reference.png",
+    "source/reference_pack/characters/FlameEmperor_identity.png",
+    "source/reference_pack/characters/DeathKnight_identity.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot025/frames_pending/start_frame.png",
+    "key": "storyboards/Shot025/frames_pending/key_frame.png",
+    "end": "storyboards/Shot025/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot025_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot025_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot025/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot025.md",
+  "dialogue_line_ids": [
+    "DL-EP04-025"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese_probe_pending",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Shot024 two-plane geometry",
+  "continuity_next": "the mission report becomes the next line in Shot026",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": {
+    "line_id": "DL-EP04-025",
+    "speaker": "Flame Emperor",
+    "text": "女神の儀式を、教会だけのものにするな。",
+    "local_start_seconds": 6.25,
+    "local_speech_end_seconds": 9.25,
+    "local_end_seconds": 9.55,
+    "speech_seconds": 3,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  }
+}

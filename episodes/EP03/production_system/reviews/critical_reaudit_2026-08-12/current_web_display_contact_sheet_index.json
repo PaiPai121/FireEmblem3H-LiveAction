@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-12",
+  "source": "site/ep03_storyboard_data.js",
+  "shot_count": 36,
+  "frame_count": 108,
+  "contact_sheets": [
+    {
+      "part": 1,
+      "file": "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part1.jpg",
+      "shots": [
+        "Shot001",
+        "Shot002",
+        "Shot003",
+        "Shot004",
+        "Shot005",
+        "Shot006",
+        "Shot007",
+        "Shot008",
+        "Shot009"
+      ]
+    },
+    {
+      "part": 2,
+      "file": "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part2.jpg",
+      "shots": [
+        "Shot010",
+        "Shot011",
+        "Shot012",
+        "Shot013",
+        "Shot014",
+        "Shot015",
+        "Shot016",
+        "Shot017",
+        "Shot018"
+      ]
+    },
+    {
+      "part": 3,
+      "file": "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part3.jpg",
+      "shots": [
+        "Shot019",
+        "Shot020",
+        "Shot021",
+        "Shot022",
+        "Shot023",
+        "Shot024",
+        "Shot025",
+        "Shot026",
+        "Shot027"
+      ]
+    },
+    {
+      "part": 4,
+      "file": "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-12/ep03_current_web_display_contact_sheet_part4.jpg",
+      "shots": [
+        "Shot028",
+        "Shot029",
+        "Shot030",
+        "Shot031",
+        "Shot032",
+        "Shot033",
+        "Shot034",
+        "Shot035",
+        "Shot036"
+      ]
+    }
+  ],
+  "missing": [],
+  "order_note": "Each contact sheet row is one shot; columns are START, KEY, END."
+}

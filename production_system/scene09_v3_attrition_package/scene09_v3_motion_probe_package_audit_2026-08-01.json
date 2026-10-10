@@ -1,0 +1,601 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-15T04:50:43.978Z",
+  "decision": "motion_probe_package_ready",
+  "package_dir": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "probe_dir": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission",
+  "rows_checked": 42,
+  "expected_shots": 42,
+  "problems": [],
+  "warnings": [],
+  "rows": [
+    {
+      "order": 1,
+      "shot": "Shot025",
+      "custom_id": "001_Shot025_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/01_Shot025_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 2,
+      "shot": "Shot025A",
+      "custom_id": "002_Shot025A_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/02_Shot025A_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 3,
+      "shot": "Shot026",
+      "custom_id": "003_Shot026_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/03_Shot026_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 4,
+      "shot": "Shot026B",
+      "custom_id": "004_Shot026B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/04_Shot026B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 5,
+      "shot": "Shot026C",
+      "custom_id": "005_Shot026C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/05_Shot026C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 6,
+      "shot": "Shot027",
+      "custom_id": "006_Shot027_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/06_Shot027_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 7,
+      "shot": "Shot027B",
+      "custom_id": "007_Shot027B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/07_Shot027B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 8,
+      "shot": "Shot027C",
+      "custom_id": "008_Shot027C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/08_Shot027C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 9,
+      "shot": "Shot027D",
+      "custom_id": "009_Shot027D_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/09_Shot027D_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 10,
+      "shot": "Shot028",
+      "custom_id": "010_Shot028_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/10_Shot028_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 11,
+      "shot": "Shot028B",
+      "custom_id": "011_Shot028B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/11_Shot028B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 12,
+      "shot": "Shot028C",
+      "custom_id": "012_Shot028C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/12_Shot028C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 13,
+      "shot": "Shot029",
+      "custom_id": "013_Shot029_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/13_Shot029_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 14,
+      "shot": "Shot029C",
+      "custom_id": "014_Shot029C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/14_Shot029C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 15,
+      "shot": "Shot029D",
+      "custom_id": "015_Shot029D_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/15_Shot029D_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 16,
+      "shot": "Shot029B",
+      "custom_id": "016_Shot029B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/16_Shot029B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 17,
+      "shot": "Shot030",
+      "custom_id": "017_Shot030_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/17_Shot030_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 18,
+      "shot": "Shot030B",
+      "custom_id": "018_Shot030B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/18_Shot030B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 19,
+      "shot": "Shot030C",
+      "custom_id": "019_Shot030C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/19_Shot030C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 20,
+      "shot": "Shot031",
+      "custom_id": "020_Shot031_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/20_Shot031_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 21,
+      "shot": "Shot031B",
+      "custom_id": "021_Shot031B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/21_Shot031B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 22,
+      "shot": "Shot032",
+      "custom_id": "022_Shot032_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/22_Shot032_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 23,
+      "shot": "Shot032A",
+      "custom_id": "023_Shot032A_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/23_Shot032A_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 24,
+      "shot": "Shot032B",
+      "custom_id": "024_Shot032B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/24_Shot032B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 25,
+      "shot": "Shot032C",
+      "custom_id": "025_Shot032C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/25_Shot032C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 26,
+      "shot": "Shot032D",
+      "custom_id": "026_Shot032D_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/26_Shot032D_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 27,
+      "shot": "Shot032E",
+      "custom_id": "027_Shot032E_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/27_Shot032E_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 28,
+      "shot": "Shot032F",
+      "custom_id": "028_Shot032F_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/28_Shot032F_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 29,
+      "shot": "Shot032G",
+      "custom_id": "029_Shot032G_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/29_Shot032G_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 30,
+      "shot": "Shot033",
+      "custom_id": "030_Shot033_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/30_Shot033_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 31,
+      "shot": "Shot033B",
+      "custom_id": "031_Shot033B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/31_Shot033B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 32,
+      "shot": "Shot033C",
+      "custom_id": "032_Shot033C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/32_Shot033C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 33,
+      "shot": "Shot033D",
+      "custom_id": "033_Shot033D_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/33_Shot033D_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 34,
+      "shot": "Shot034C",
+      "custom_id": "034_Shot034C_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/34_Shot034C_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 35,
+      "shot": "Shot034D",
+      "custom_id": "035_Shot034D_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/35_Shot034D_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 36,
+      "shot": "Shot034B",
+      "custom_id": "036_Shot034B_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/36_Shot034B_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 37,
+      "shot": "Shot034E",
+      "custom_id": "037_Shot034E_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/37_Shot034E_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 38,
+      "shot": "Shot034F",
+      "custom_id": "038_Shot034F_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/38_Shot034F_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 39,
+      "shot": "Shot034G",
+      "custom_id": "039_Shot034G_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/39_Shot034G_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 40,
+      "shot": "Shot034",
+      "custom_id": "040_Shot034_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/40_Shot034_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 41,
+      "shot": "Shot035",
+      "custom_id": "041_Shot035_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/41_Shot035_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "order": 42,
+      "shot": "Shot036",
+      "custom_id": "042_Shot036_probe",
+      "probe_duration_seconds": 3,
+      "expected_probe_clip": "episodes/EP02/video_outputs/scene09_v3_attrition/motion_probes/42_Shot036_probe.mp4",
+      "files": {
+        "probe_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/probe_prompt.md",
+        "negative_prompt": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/negative_prompt.md",
+        "metadata": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/metadata.json"
+      },
+      "problems": [],
+      "warnings": []
+    }
+  ]
+}

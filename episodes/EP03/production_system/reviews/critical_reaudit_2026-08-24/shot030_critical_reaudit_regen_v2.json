@@ -1,0 +1,23 @@
+{
+  "shot_id": "Shot030",
+  "version": "critical_reaudit_regen_v2_2026-08-24",
+  "decision": "monitor_required",
+  "reviewer_role": "independent-critical-reaudit-visual-qa-agent",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+    "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+    "episodes/EP03/storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png"
+  ],
+  "checks": {
+    "female_byleth_identity": "pass",
+    "four_person_start_key_roster": "pass",
+    "catherine_background_crossing": "pass",
+    "catherine_exits_by_end": "pass",
+    "lonato_offscreen": "pass",
+    "layered_geography": "pass",
+    "live_action_integration": "pass",
+    "no_text_ui_borders": "pass"
+  },
+  "motion_probe_status": "pending",
+  "note": "Still-frame review passes. Prompt QA and the required 3-second motion probe remain before video approval."
+}

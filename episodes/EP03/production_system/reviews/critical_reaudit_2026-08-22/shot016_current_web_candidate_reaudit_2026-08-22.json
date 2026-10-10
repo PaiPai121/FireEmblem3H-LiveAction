@@ -1,0 +1,63 @@
+{
+  "shot_id": "Shot016",
+  "review_date": "2026-08-22",
+  "review_type": "dedue_braid_asset_repair_sequential_continuity_and_prompt_reaudit",
+  "previous_display_frame_set": "critical_reaudit_regen_v1_2026-08-15",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot015",
+  "next_shot": "Shot017",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/braid_repair_review_2026-08-22.md",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+    "storyboards/Shot017/critical_reaudit_regen_v1_2026-08-20/start_frame.png",
+    "source_refs/Shot016_source.png"
+  ],
+  "canonical_asset_repair": {
+    "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "repair_review": "assets/characters/blue_lions/Dedue/academy/braid_repair_review_2026-08-22.md",
+    "result": "The selected academy asset now has a compact white/silver braid attached at the nape. v2 frames deliberately keep Dedue in three-quarter positions so the braid is visible without turning it into a long ponytail or garment cord."
+  },
+  "prior_v1_rejection": [
+    "The frozen v1 frame chain showed Dedue without the newly required braid, so the updated character asset was not represented in the web candidate.",
+    "The old prompt retained unrelated template continuity locks and did not give the current three-frame action chain a clean upload-only contract."
+  ],
+  "passes": [
+    "START receives the rightward pressure lane from Shot015 v3 and keeps all three performers grounded in one muddy battlefield.",
+    "Female Byleth is the only Byleth identity and remains visibly female in all three stills.",
+    "Dedue's short nape braid is readable and physically attached in START, KEY, and END.",
+    "KEY clearly shows Dimitri's over-pursuit meeting Byleth's raised stop hand; no visible hit or gore occurs.",
+    "END lowers the spear and settles the command beat instead of creating a victory pose.",
+    "The frames are integrated live-action candidates with shared scale, contact shadows, fog, and wet-ground interaction.",
+    "START, KEY, and END are distinct action states rather than lighting or crop variants.",
+    "Shot017 remains frozen and receives only the final eyeline/action handoff.",
+    "The executable video prompt is rewritten upload-only and requires Japanese dialogue only."
+  ],
+  "monitor_risks": [
+    "A motion model may erase or lengthen Dedue's braid during turns; inspect the nape in the 3-second probe.",
+    "Byleth's gender and covered high-collar outfit must remain stable during the stop gesture.",
+    "The spear must stay a held directional prop and must not strike a visible person.",
+    "Dimitri's obedience and the final eyeline must survive motion without becoming a static group pose.",
+    "Japanese dialogue timing, no subtitles, and no Chinese/Mandarin voice must survive generation."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Dedue braid disappears, detaches, becomes a ponytail, or becomes a costume rope",
+    "Byleth becomes male, ambiguous, adult, war-phase, or sexualized",
+    "Dimitri strikes, wounds, or continues attacking after the command",
+    "the trio becomes a flat lineup or pasted portrait collage",
+    "Ashe enters Shot016 before the Shot017 cut",
+    "Chinese/Mandarin voiceover, subtitles, UI, borders, magic, or gore appear"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-01",
+  "decision": "actual_delivery_surface_superseded_by_current_pass",
+  "supersedes_stale_decision": "actual_delivery_surface_failed",
+  "current_report": "production_system/scene09_v3_attrition_package/scene09_v3_actual_delivery_surface_audit_2026-08-01.json",
+  "package_report": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/actual_delivery_surface_audit.json",
+  "problems": [],
+  "evidence": [
+    "Shot034B visible roster is Byleth, Dimitri across delivery surfaces.",
+    "Shot034B Chinese title is 空教师目标裁定 across web surfaces.",
+    "Shot034B start/key/end frames use the empty faculty objective frame set or package-local model-entry frames.",
+    "Hanneman and Manuela are absent/offscreen/silent/unpaired and banned in prompts.",
+    "Submission payload contains 42 rows; real mp4 clips remain pending."
+  ]
+}

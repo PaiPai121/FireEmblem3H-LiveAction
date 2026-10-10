@@ -1,0 +1,83 @@
+{
+  "id": "Shot020",
+  "order": 20,
+  "scene": "Catherine 破雾",
+  "purpose": "表现 Catherine 是教会王牌，也制造学生对力量的震动。",
+  "duration_seconds": 14,
+  "characters": [
+    "Catherine",
+    "Byleth",
+    "Ashe"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/props/shared/hero_relics/hero_relics_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Catherine",
+      "asset": "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Ashe",
+      "asset": "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot020_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot020/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot020/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot020/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {},
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot020_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot020_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot020_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot020/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot020/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/020_Shot020/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/020_Shot020/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/020_Shot020/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "visual_blocked",
+  "visual_audit_decision": "visual_blocked",
+  "required_revision": "Regenerate real live-action start/key/end frames with integrated lighting, shot-specific blocking, readable named identities, and a clear key action peak.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from support line",
+  "edit_out": "cut to Lonato silhouette",
+  "audio_anchor": "Thunder; the rebel line is forced apart. No spoken dialogue.",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for Catherine 破雾; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: Catherine 从侧翼切入，雷光照出雾里的敌阵，但不造成血腥屠杀。",
+    "end": "Land on the state needed for the next cut: cut to Lonato silhouette."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "shot_id": "Shot006",
+  "version": "critical_reaudit_regen_v2_2026-08-21",
+  "decision": "monitor_required",
+  "local_reference_assets": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+    "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  ],
+  "frame_set": {
+    "start": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "contact_sheet": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+  "adjacent_previous": {
+    "shot_id": "Shot005",
+    "frame": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "match_action": "Ashe continues through the open doorway; Dimitri holds the door; Byleth remains inside."
+  },
+  "start_finding": "Match action at the doorway; Ashe is halfway through the threshold.",
+  "key_finding": "Ashe stops and turns back while keeping one hand on the latch; Byleth receives the line.",
+  "end_finding": "Ashe crosses into the corridor; Dimitri follows and pulls the door inward; Byleth stays inside.",
+  "prompt_qa": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "female_byleth_lock": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "reject_if": "Reject if Shot006 reverses Shot005 exit direction, resets to the window, loses the door axis, makes Byleth male, changes the bow, or collapses into a static conversation."
+}

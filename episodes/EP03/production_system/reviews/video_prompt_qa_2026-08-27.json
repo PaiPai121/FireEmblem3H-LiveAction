@@ -1,0 +1,1168 @@
+{
+  "version": "2026-08-27",
+  "project": "FireEmblem3H-LiveAction",
+  "episode": "EP03",
+  "decision": "monitor_required",
+  "validator": "/Users/zekun/.codex/skills/video-prompt-qa/scripts/validate_prompt_contract.js",
+  "summary": {
+    "total_shots": 36,
+    "structural_pass": 36,
+    "integrity_pass": 36,
+    "semantic_prompt_against_frame": "pending_manual_or_model_review",
+    "motion_probe": "pending_3s_probe"
+  },
+  "shots": [
+    {
+      "shot_id": "Shot001",
+      "prompt_path": "episodes/EP03/video_prompts/Shot001_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot001_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot001/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+      "current_source": "built_in_imagegen_with_local_selected_character_and_location_references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot001_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot002",
+      "prompt_path": "episodes/EP03/video_prompts/Shot002_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot002_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot002/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+      "current_source": "built_in_imagegen_with_local_selected_character_and_location_references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot002_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot003",
+      "prompt_path": "episodes/EP03/video_prompts/Shot003_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot003_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot003/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+      "current_source": "built_in_imagegen_with_local_selected_character_and_location_references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot003_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot004",
+      "prompt_path": "episodes/EP03/video_prompts/Shot004_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot004_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot004/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+      "current_source": "built_in_imagegen_with_local_selected_character_and_location_references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot004_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot005",
+      "prompt_path": "episodes/EP03/video_prompts/Shot005_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot005_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot005/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+      "current_source": "built_in_imagegen_with_local_selected_character_and_location_references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot005_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot006",
+      "prompt_path": "episodes/EP03/video_prompts/Shot006_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot006_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot006/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+      "current_source": "built_in_imagegen_with_local_selected_character_and_previous_shot_match_reference",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot006_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot007",
+      "prompt_path": "episodes/EP03/video_prompts/Shot007_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot007_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot007/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-21",
+      "current_source": "built_in_imagegen_with_local_selected_identity_and_adjacent_shot_references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot007_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot008",
+      "prompt_path": "episodes/EP03/video_prompts/Shot008_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot008_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot008/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+      "current_source": "built_in_imagegen_with_local_catherine_female_byleth_ashe_thunderbrand_and_adjacent_shot_references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot008_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot009",
+      "prompt_path": "episodes/EP03/video_prompts/Shot009_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot009_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot009/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v1",
+      "current_source": "imagegen_from_attached_local_selected_assets_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot009_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot010",
+      "prompt_path": "episodes/EP03/video_prompts/Shot010_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot010_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot010/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v1",
+      "current_source": "imagegen_from_shot009_continuity_local_character_reference_board_and_magdred_fogroad_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot010_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot011",
+      "prompt_path": "episodes/EP03/video_prompts/Shot011_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot011_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot011/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v1",
+      "current_source": "imagegen_from_shot010_continuity_local_character_reference_board_and_faerghus_village_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot011_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot012",
+      "prompt_path": "episodes/EP03/video_prompts/Shot012_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot012_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot012/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v1",
+      "current_source": "imagegen_from_shot011_continuity_local_character_reference_board_and_western_church_rebel_camp_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot012_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot013",
+      "prompt_path": "episodes/EP03/video_prompts/Shot013_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot013_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot013/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v1",
+      "current_source": "imagegen_from_shot012_continuity_local_character_reference_board_and_magdred_fog_road_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot013_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot014",
+      "prompt_path": "episodes/EP03/video_prompts/Shot014_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot014_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot014/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v1_2026-08-14",
+      "current_source": "built_in_imagegen_with_local_dedue_dimitri_assets_location_and_source_reference",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot014_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot015",
+      "prompt_path": "episodes/EP03/video_prompts/Shot015_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot015_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot015/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v3_2026-08-22",
+      "current_source": "imagegen_from_local_seiros_soldier_battlefield_church_crest_and_adjacent_shot_references_v3_2026-08-22",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot015_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot016",
+      "prompt_path": "episodes/EP03/video_prompts/Shot016_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot016_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot016/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+      "current_source": "imagegen_sequential_action_chain_with_female_byleth_dimitri_and_braid_repaired_dedue_local_assets_v2_2026-08-22",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot016_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot017",
+      "prompt_path": "episodes/EP03/video_prompts/Shot017_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot017_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot017/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+      "current_source": "imagegen_sequential_recognition_chain_with_local_ashe_female_byleth_and_shot_adjacency_v2_2026-08-22",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot017_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot018",
+      "prompt_path": "episodes/EP03/video_prompts/Shot018_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot018_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot018/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v6_2026-08-23",
+      "current_source": "imagegen_integrated_live_action_felix_entry_bind_recovery_v6_2026-08-23",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot018_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot019",
+      "prompt_path": "episodes/EP03/video_prompts/Shot019_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot019_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot019/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v4_2026-08-23",
+      "current_source": "imagegen_integrated_live_action_mercedes_annette_two_person_route_clear_v4_2026-08-23",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot019_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot020",
+      "prompt_path": "episodes/EP03/video_prompts/Shot020_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot020_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot020/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v4_2026-08-23",
+      "current_source": "imagegen_integrated_live_action_catherine_thunderbrand_motion_handoff_v4_2026-08-23",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot020_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot021",
+      "prompt_path": "episodes/EP03/video_prompts/Shot021_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot021_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot021/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v2",
+      "current_source": "critical_reaudit_regen_v2 generated from local Lonato, Ashe, Dimitri, and Lonato ridge references",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot021_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot022",
+      "prompt_path": "episodes/EP03/video_prompts/Shot022_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot022_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot022/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v4_2026-08-23",
+      "current_source": "imagegen_integrated_live_action_ashe_lonato_safe_negotiation_distance_v4_2026-08-23",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot022_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot023",
+      "prompt_path": "episodes/EP03/video_prompts/Shot023_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot023_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot023/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v6_2026-08-23",
+      "current_source": "imagegen_integrated_live_action_lonato_refusal_safe_distance_v6_2026-08-23",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot023_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot024",
+      "prompt_path": "episodes/EP03/video_prompts/Shot024_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot024_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot024/metadata.json",
+      "current_frame_set": "critical_reaudit_regen_v3_2026-08-23",
+      "current_source": "imagegen_integrated_live_action_byleth_rear_command_buffer_v3_2026-08-23",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot024_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot025",
+      "prompt_path": "episodes/EP03/video_prompts/Shot025_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot025_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot025/metadata.json",
+      "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+      "current_source": "imagegen_integrated_live_action_command_split_guard_screen_v1_2026-09-09",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot025_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot026",
+      "prompt_path": "episodes/EP03/video_prompts/Shot026_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot026_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot026/metadata.json",
+      "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+      "current_source": "imagegen_integrated_live_action_ashe_empty_ground_warning_v1_2026-09-09",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot026_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot027",
+      "prompt_path": "episodes/EP03/video_prompts/Shot027_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot027_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot027/metadata.json",
+      "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+      "current_source": "imagegen_integrated_live_action_catherine_guard_first_intervention_v1_2026-09-09",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot027_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot028",
+      "prompt_path": "episodes/EP03/video_prompts/Shot028_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot028_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot028/metadata.json",
+      "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+      "current_source": "imagegen_integrated_live_action_lonato_protective_press_thunderbrand_disarm_v1_2026-09-09",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot028_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot029",
+      "prompt_path": "episodes/EP03/video_prompts/Shot029_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot029_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot029/metadata.json",
+      "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+      "current_source": "imagegen_integrated_live_action_lonato_moral_aftermath_female_byleth_v1_2026-09-09",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot029_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot030",
+      "prompt_path": "episodes/EP03/video_prompts/Shot030_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot030_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot030/metadata.json",
+      "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+      "current_source": "",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot030_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot031",
+      "prompt_path": "episodes/EP03/video_prompts/Shot031_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot031_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot031/metadata.json",
+      "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+      "current_source": "",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot031_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot032",
+      "prompt_path": "episodes/EP03/video_prompts/Shot032_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot032_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot032/metadata.json",
+      "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+      "current_source": "",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot032_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot033",
+      "prompt_path": "episodes/EP03/video_prompts/Shot033_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot033_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot033/metadata.json",
+      "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+      "current_source": "",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot033_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot034",
+      "prompt_path": "episodes/EP03/video_prompts/Shot034_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot034_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot034/metadata.json",
+      "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+      "current_source": "",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot034_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot035",
+      "prompt_path": "episodes/EP03/video_prompts/Shot035_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot035_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot035/metadata.json",
+      "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+      "current_source": "",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot035_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    },
+    {
+      "shot_id": "Shot036",
+      "prompt_path": "episodes/EP03/video_prompts/Shot036_prompt.md",
+      "negative_prompt_path": "episodes/EP03/video_prompts/Shot036_negative_prompt.md",
+      "metadata_path": "episodes/EP03/storyboards/Shot036/metadata.json",
+      "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+      "current_source": "",
+      "frames": {
+        "start": "episodes/EP03/storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "key": "episodes/EP03/storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "end": "episodes/EP03/storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+      },
+      "contact_sheet": "episodes/EP03/storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+      "prompt_contract": {
+        "prompt_path": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP03/video_prompts/Shot036_prompt.md",
+        "dialogue_detected": true,
+        "ok": true,
+        "missing_sections": [],
+        "blocking_signals": [],
+        "weak_signals": []
+      },
+      "integrity": {
+        "prompt_exists": true,
+        "negative_prompt_exists": true,
+        "frame_files_exist": true,
+        "contact_sheet_exists": true
+      },
+      "structural_pass": true,
+      "integrity_pass": true,
+      "semantic_prompt_against_frame": "pending_manual_or_model_review",
+      "motion_probe": "pending_3s_probe"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "version": 1,
+  "created_at": "2026-08-01",
+  "status": "source_timeline_reference",
+  "source_video": "/Users/zekun/FireEmblemMovie/originAssets/火焰纹章风花雪月【剧情合集·精简版】 (P4. 白云之章EP3雾中的叛乱（青狮）)[00].mp4",
+  "interval_seconds": 10,
+  "frames": [
+    {
+      "seconds": 0,
+      "timecode": "00:00:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0000.jpg"
+    },
+    {
+      "seconds": 10,
+      "timecode": "00:00:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0010.jpg"
+    },
+    {
+      "seconds": 20,
+      "timecode": "00:00:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0020.jpg"
+    },
+    {
+      "seconds": 30,
+      "timecode": "00:00:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0030.jpg"
+    },
+    {
+      "seconds": 40,
+      "timecode": "00:00:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0040.jpg"
+    },
+    {
+      "seconds": 50,
+      "timecode": "00:00:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0050.jpg"
+    },
+    {
+      "seconds": 60,
+      "timecode": "00:01:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0060.jpg"
+    },
+    {
+      "seconds": 70,
+      "timecode": "00:01:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0070.jpg"
+    },
+    {
+      "seconds": 80,
+      "timecode": "00:01:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0080.jpg"
+    },
+    {
+      "seconds": 90,
+      "timecode": "00:01:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0090.jpg"
+    },
+    {
+      "seconds": 100,
+      "timecode": "00:01:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0100.jpg"
+    },
+    {
+      "seconds": 110,
+      "timecode": "00:01:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0110.jpg"
+    },
+    {
+      "seconds": 120,
+      "timecode": "00:02:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0120.jpg"
+    },
+    {
+      "seconds": 130,
+      "timecode": "00:02:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0130.jpg"
+    },
+    {
+      "seconds": 140,
+      "timecode": "00:02:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0140.jpg"
+    },
+    {
+      "seconds": 150,
+      "timecode": "00:02:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0150.jpg"
+    },
+    {
+      "seconds": 160,
+      "timecode": "00:02:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0160.jpg"
+    },
+    {
+      "seconds": 170,
+      "timecode": "00:02:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0170.jpg"
+    },
+    {
+      "seconds": 180,
+      "timecode": "00:03:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0180.jpg"
+    },
+    {
+      "seconds": 190,
+      "timecode": "00:03:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0190.jpg"
+    },
+    {
+      "seconds": 200,
+      "timecode": "00:03:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0200.jpg"
+    },
+    {
+      "seconds": 210,
+      "timecode": "00:03:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0210.jpg"
+    },
+    {
+      "seconds": 220,
+      "timecode": "00:03:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0220.jpg"
+    },
+    {
+      "seconds": 230,
+      "timecode": "00:03:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0230.jpg"
+    },
+    {
+      "seconds": 240,
+      "timecode": "00:04:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0240.jpg"
+    },
+    {
+      "seconds": 250,
+      "timecode": "00:04:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0250.jpg"
+    },
+    {
+      "seconds": 260,
+      "timecode": "00:04:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0260.jpg"
+    },
+    {
+      "seconds": 270,
+      "timecode": "00:04:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0270.jpg"
+    },
+    {
+      "seconds": 280,
+      "timecode": "00:04:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0280.jpg"
+    },
+    {
+      "seconds": 290,
+      "timecode": "00:04:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0290.jpg"
+    },
+    {
+      "seconds": 300,
+      "timecode": "00:05:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0300.jpg"
+    },
+    {
+      "seconds": 310,
+      "timecode": "00:05:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0310.jpg"
+    },
+    {
+      "seconds": 320,
+      "timecode": "00:05:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0320.jpg"
+    },
+    {
+      "seconds": 330,
+      "timecode": "00:05:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0330.jpg"
+    },
+    {
+      "seconds": 340,
+      "timecode": "00:05:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0340.jpg"
+    },
+    {
+      "seconds": 350,
+      "timecode": "00:05:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0350.jpg"
+    },
+    {
+      "seconds": 360,
+      "timecode": "00:06:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0360.jpg"
+    },
+    {
+      "seconds": 370,
+      "timecode": "00:06:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0370.jpg"
+    },
+    {
+      "seconds": 380,
+      "timecode": "00:06:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0380.jpg"
+    },
+    {
+      "seconds": 390,
+      "timecode": "00:06:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0390.jpg"
+    },
+    {
+      "seconds": 400,
+      "timecode": "00:06:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0400.jpg"
+    },
+    {
+      "seconds": 410,
+      "timecode": "00:06:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0410.jpg"
+    },
+    {
+      "seconds": 420,
+      "timecode": "00:07:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0420.jpg"
+    },
+    {
+      "seconds": 430,
+      "timecode": "00:07:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0430.jpg"
+    },
+    {
+      "seconds": 440,
+      "timecode": "00:07:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0440.jpg"
+    },
+    {
+      "seconds": 450,
+      "timecode": "00:07:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0450.jpg"
+    },
+    {
+      "seconds": 460,
+      "timecode": "00:07:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0460.jpg"
+    },
+    {
+      "seconds": 470,
+      "timecode": "00:07:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0470.jpg"
+    },
+    {
+      "seconds": 480,
+      "timecode": "00:08:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0480.jpg"
+    },
+    {
+      "seconds": 490,
+      "timecode": "00:08:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0490.jpg"
+    },
+    {
+      "seconds": 500,
+      "timecode": "00:08:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0500.jpg"
+    },
+    {
+      "seconds": 510,
+      "timecode": "00:08:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0510.jpg"
+    },
+    {
+      "seconds": 520,
+      "timecode": "00:08:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0520.jpg"
+    },
+    {
+      "seconds": 530,
+      "timecode": "00:08:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0530.jpg"
+    },
+    {
+      "seconds": 540,
+      "timecode": "00:09:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0540.jpg"
+    },
+    {
+      "seconds": 550,
+      "timecode": "00:09:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0550.jpg"
+    },
+    {
+      "seconds": 560,
+      "timecode": "00:09:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0560.jpg"
+    },
+    {
+      "seconds": 570,
+      "timecode": "00:09:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0570.jpg"
+    },
+    {
+      "seconds": 580,
+      "timecode": "00:09:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0580.jpg"
+    },
+    {
+      "seconds": 590,
+      "timecode": "00:09:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0590.jpg"
+    },
+    {
+      "seconds": 600,
+      "timecode": "00:10:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0600.jpg"
+    },
+    {
+      "seconds": 610,
+      "timecode": "00:10:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0610.jpg"
+    },
+    {
+      "seconds": 620,
+      "timecode": "00:10:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0620.jpg"
+    },
+    {
+      "seconds": 630,
+      "timecode": "00:10:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0630.jpg"
+    },
+    {
+      "seconds": 640,
+      "timecode": "00:10:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0640.jpg"
+    },
+    {
+      "seconds": 650,
+      "timecode": "00:10:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0650.jpg"
+    },
+    {
+      "seconds": 660,
+      "timecode": "00:11:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0660.jpg"
+    },
+    {
+      "seconds": 670,
+      "timecode": "00:11:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0670.jpg"
+    },
+    {
+      "seconds": 680,
+      "timecode": "00:11:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0680.jpg"
+    },
+    {
+      "seconds": 690,
+      "timecode": "00:11:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0690.jpg"
+    },
+    {
+      "seconds": 700,
+      "timecode": "00:11:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0700.jpg"
+    },
+    {
+      "seconds": 710,
+      "timecode": "00:11:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0710.jpg"
+    },
+    {
+      "seconds": 720,
+      "timecode": "00:12:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0720.jpg"
+    },
+    {
+      "seconds": 730,
+      "timecode": "00:12:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0730.jpg"
+    },
+    {
+      "seconds": 740,
+      "timecode": "00:12:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0740.jpg"
+    },
+    {
+      "seconds": 750,
+      "timecode": "00:12:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0750.jpg"
+    },
+    {
+      "seconds": 760,
+      "timecode": "00:12:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0760.jpg"
+    },
+    {
+      "seconds": 770,
+      "timecode": "00:12:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0770.jpg"
+    },
+    {
+      "seconds": 780,
+      "timecode": "00:13:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0780.jpg"
+    },
+    {
+      "seconds": 790,
+      "timecode": "00:13:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0790.jpg"
+    },
+    {
+      "seconds": 800,
+      "timecode": "00:13:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0800.jpg"
+    },
+    {
+      "seconds": 810,
+      "timecode": "00:13:30",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0810.jpg"
+    },
+    {
+      "seconds": 820,
+      "timecode": "00:13:40",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0820.jpg"
+    },
+    {
+      "seconds": 830,
+      "timecode": "00:13:50",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0830.jpg"
+    },
+    {
+      "seconds": 840,
+      "timecode": "00:14:00",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0840.jpg"
+    },
+    {
+      "seconds": 850,
+      "timecode": "00:14:10",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0850.jpg"
+    },
+    {
+      "seconds": 860,
+      "timecode": "00:14:20",
+      "path": "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/source_0860.jpg"
+    }
+  ],
+  "sheets": [
+    "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/timeline_10s_sheet_01.jpg",
+    "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/timeline_10s_sheet_02.jpg",
+    "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/timeline_10s_sheet_03.jpg",
+    "episodes/EP03/production_system/reviews/local_video_source_frames_2026-08-01/timeline_10s/timeline_10s_sheet_04.jpg"
+  ]
+}

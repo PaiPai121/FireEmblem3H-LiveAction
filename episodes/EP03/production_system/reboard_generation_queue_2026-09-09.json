@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "EP03",
+  "revision": "manga_readability_reboard_v1_2026-09-09",
+  "status": "queued",
+  "purpose": "Replace the user-rejected 025-029 frame chain after an independent rough readability pass.",
+  "generation_policy": "one shot and one visual purpose per image-generation call; copy, inspect, receipt, and advance one frame at a time",
+  "shot_order": ["Shot025", "Shot026", "Shot027", "Shot028", "Shot029"],
+  "expected_frames": [
+    {"shot_id":"Shot025","role":"start","path":"storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png","purpose":"open fork; near cover, two guards mid-crossing, Ashe routed right, Lonato far ridge"},
+    {"shot_id":"Shot025","role":"key","path":"storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png","purpose":"shield and timber close the direct lane; Dimitri stops the formation"},
+    {"shot_id":"Shot025","role":"end","path":"storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png","purpose":"two-lane containment hold handed to Ashe"},
+    {"shot_id":"Shot026","role":"start","path":"storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png","purpose":"Ashe nocks one arrow toward empty mud"},
+    {"shot_id":"Shot026","role":"key","path":"storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png","purpose":"full draw toward empty ground before the guard screen"},
+    {"shot_id":"Shot026","role":"end","path":"storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png","purpose":"lowered nocked arrow after the Japanese apology"},
+    {"shot_id":"Shot027","role":"start","path":"storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png","purpose":"near guard steps toward Ashe; Catherine enters left"},
+    {"shot_id":"Shot027","role":"key","path":"storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/key_frame.png","purpose":"Catherine redirects the nearer guard's long weapon"},
+    {"shot_id":"Shot027","role":"end","path":"storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png","purpose":"Catherine owns the half-step; second guard retreats toward Lonato"},
+    {"shot_id":"Shot028","role":"start","path":"storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png","purpose":"retreating guard enters Lonato's shield cover before contact"},
+    {"shot_id":"Shot028","role":"key","path":"storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png","purpose":"one Thunderbrand-to-ordinary-sword bind at weapon level"},
+    {"shot_id":"Shot028","role":"end","path":"storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png","purpose":"ordinary sword dropped; Lonato upright and twisted"},
+    {"shot_id":"Shot029","role":"start","path":"storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png","purpose":"receive dropped sword and upright imbalance"},
+    {"shot_id":"Shot029","role":"key","path":"storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/key_frame.png","purpose":"Lonato catches himself on shield and one knee"},
+    {"shot_id":"Shot029","role":"end","path":"storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png","purpose":"quiet widened aftermath; female Byleth, Dimitri, and Ashe remain back"}
+  ],
+  "shared_reference_policy": "Use only the declared local selected character assets, the EP03 battlefield location reference, the dedicated live-action style reference, Thunderbrand reference where required, and the immediately preceding reboard END only for continuity. Never pass a contact sheet or rough board as an image-generation input.",
+  "downstream_gates": ["exact raster copy", "16:9 aspect", "local receipt", "visual semantic review", "adjacent continuity review", "prompt-against-frame QA", "motion probe"]
+}

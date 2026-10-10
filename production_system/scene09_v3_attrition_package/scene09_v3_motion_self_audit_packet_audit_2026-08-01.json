@@ -1,0 +1,7 @@
+{
+  "date": "2026-08-01",
+  "decision": "motion_self_audit_packet_ready",
+  "rows_checked": 42,
+  "problems": [],
+  "manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit/motion_self_audit_manifest.json"
+}

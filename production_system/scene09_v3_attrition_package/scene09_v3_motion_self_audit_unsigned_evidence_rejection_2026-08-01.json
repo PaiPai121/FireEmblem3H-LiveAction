@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-01",
+  "decision": "motion_self_audit_unsigned_evidence_rejection_passed",
+  "expected_rows": 42,
+  "bad_proposal_fixture": {
+    "rows": 42,
+    "intent": "motion_review_passed rows with booleans set true but null clip/frame signatures"
+  },
+  "probe": {
+    "exit_status": 1,
+    "decision": "motion_self_audit_apply_blocked_clips_pending",
+    "applied": false,
+    "problems": 254,
+    "frame_signature_rejections": 126,
+    "clip_signature_rejections": 42
+  },
+  "restored_default_apply_gate": {
+    "exit_status": 1,
+    "decision": "motion_self_audit_apply_blocked_clips_pending",
+    "applied": false,
+    "proposal_rows": 42,
+    "problems": 338
+  },
+  "reports_restored_to_default_proposal": true,
+  "problems": [],
+  "warnings": []
+}

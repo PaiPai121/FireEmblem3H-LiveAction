@@ -1,0 +1,61 @@
+{
+  "id": "GDSC03-SH002",
+  "episode": "GDSC-EP03",
+  "title": "The Analysis",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach courtyard",
+  "characters": [
+    "Hilda",
+    "Lysithea"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC03-SH002/start_frame.png",
+    "key": "storyboards/GDSC03-SH002/key_frame.png",
+    "end": "storyboards/GDSC03-SH002/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC03-SH002_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC03-SH002_negative_prompt.md",
+  "expected_clip": "clips/GDSC03-SH002.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/リシテア(レスター諸侯同盟)#ヒルダ",
+    "https://fireemblem.fandom.com/wiki/Hilda_(Three_Houses)/Supports#With_Lysithea"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hilda",
+      "line": "また誰かに頼み事してー！って思ってたんでしょう。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lysithea",
+      "line": "何で、みんなヒルダの言うことを聞いちゃうんだろうって思ってました。",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "押し付けてはいないのよー？",
+      "type": "source"
+    },
+    {
+      "speaker": "Lysithea",
+      "line": "そうみたいですね。そこが不思議で、考えてたんです。",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Hilda laughs defensively; Lysithea studies her like a research problem."
+  ],
+  "identity_references": {
+    "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+    "Lysithea": "assets/characters/golden_deer/Lysithea/academy/selected.png"
+  },
+  "reject_if": [
+    "Lysithea becomes sarcastic adult",
+    "Hilda bullies her",
+    "the scene adds romance"
+  ]
+}

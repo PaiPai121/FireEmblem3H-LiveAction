@@ -1,0 +1,61 @@
+{
+  "id": "GDSC03-SH003",
+  "episode": "GDSC-EP03",
+  "title": "No Gaps In The Hilda Method",
+  "order": 3,
+  "status": "approved_for_video",
+  "duration_seconds": 15,
+  "location": "Garreg Mach courtyard",
+  "characters": [
+    "Hilda",
+    "Lysithea"
+  ],
+  "dialogue_language": "Japanese original",
+  "dialogue_policy": "excerpted; exact Japanese source lines, with only silent action bridges",
+  "frames": {
+    "start": "storyboards/GDSC03-SH003/start_frame.png",
+    "key": "storyboards/GDSC03-SH003/key_frame.png",
+    "end": "storyboards/GDSC03-SH003/end_frame.png"
+  },
+  "prompt_path": "video_prompts/GDSC03-SH003_prompt.md",
+  "negative_prompt_path": "video_prompts/GDSC03-SH003_negative_prompt.md",
+  "expected_clip": "clips/GDSC03-SH003.mp4",
+  "source": [
+    "https://www.pegasusknight.com/wiki/fe16/会話集/支援会話/リシテア(レスター諸侯同盟)#ヒルダ",
+    "https://fireemblem.fandom.com/wiki/Hilda_(Three_Houses)/Supports#With_Lysithea"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lysithea",
+      "line": "こうして見る限り、あんたには隙が見当たりませんから。",
+      "type": "source"
+    },
+    {
+      "speaker": "Lysithea",
+      "line": "髪型も服の着こなしも、絶妙な印象を受けます。",
+      "type": "source"
+    },
+    {
+      "speaker": "Hilda",
+      "line": "褒められてるの？　責められてるの？",
+      "type": "source"
+    },
+    {
+      "speaker": "Lysithea",
+      "line": "それに、いい匂いがします……。これは、お花？",
+      "type": "source"
+    }
+  ],
+  "bridge_actions": [
+    "Lysithea leans in and notices the scent; Hilda blinks in surprise."
+  ],
+  "identity_references": {
+    "Hilda": "assets/characters/golden_deer/Hilda/academy/selected.png",
+    "Lysithea": "assets/characters/golden_deer/Lysithea/academy/selected.png"
+  },
+  "reject_if": [
+    "Lysithea looks predatory or adult",
+    "Hilda's twin-tails disappear",
+    "visible text appears"
+  ]
+}

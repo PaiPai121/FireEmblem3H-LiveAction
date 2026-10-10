@@ -1,0 +1,2602 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "artifact_id": "EP02-SC09-SCRIPT-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-story-editor",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the objective-win framing explicit when deriving prompts: Blue Lions win by moving Hanneman and Manuela off the healing sigil, not by defeating rival students."
+      ],
+      "rubric": {
+        "scene_purpose": "pass",
+        "conflict": "pass",
+        "emotional_turn": "pass",
+        "character_choice": "pass",
+        "visible_action": "pass",
+        "dialogue_subtext": "pass",
+        "continuity_hooks": "pass",
+        "canon_fidelity": "pass"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SCRIPT-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-canon-fidelity",
+      "reviewer_role": "canon-fidelity-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Maintain nonlethal academy-era rules, correct weapon locks, and three-house competence in all downstream frames."
+      ],
+      "rubric": {
+        "canon_fidelity": "pass",
+        "academy_era": "pass",
+        "faction_roles": "pass",
+        "nonlethal_training_tone": "pass"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOTLIST-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-direction",
+      "reviewer_role": "direction-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Before video promotion, add explicit end-frame or edit-out state for every V2 shot, especially the objective chain and stand-down beats.",
+        "Generate final frames for Shot032A and Shot034E/F/G so the V2 shot list has matching visual coverage."
+      ],
+      "rubric": {
+        "shot_purpose": "pass",
+        "blocking": "pass",
+        "screen_direction": "conditional",
+        "camera_motivation": "pass",
+        "start_key_end_chain": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOTLIST-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-cinematography",
+      "reviewer_role": "cinematography-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run adjacent-shot continuity review after final 40-shot start/key/end frames exist; current coverage cannot prove strict cut continuity.",
+        "Keep southeast-to-northeast Blue Lions pressure, west Golden Deer pressure, and north/northeast Black Eagles resistance stable in generated frames."
+      ],
+      "rubric": {
+        "screen_direction": "conditional",
+        "eyeline": "conditional",
+        "position": "conditional",
+        "lighting_time": "pass",
+        "audio_bridge": "conditional"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/contact_sheet_scene09_v2_p0_logic_previs.png"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-STARTKEY-CURRENT-20260719",
+      "review_id": "review-2026-07-22-ep02-sc09-storyboard-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Current start/key set has 36 shots, while the current V2 shot list requires 40 shots.",
+        "Shot032A, Shot034E, Shot034F, and Shot034G are missing final start/key frames.",
+        "The current image set is explicitly downgraded by prior audit and V2 source text to layout reference only."
+      ],
+      "required_revisions": [
+        "Generate final raster start/key frames for Shot032A, Shot034E, Shot034F, and Shot034G.",
+        "Replace layout-reference frames with fresh V2-aligned final frames before paid video generation.",
+        "After regeneration, rerun visual QA for identity, weapon, facing, tactical action, outcome coverage, and start/key continuity."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "fail",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "blocking": "conditional",
+        "camera_motivation": "conditional",
+        "motion_risk": "fail"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/scene09_start_key_contact_sheet_2026-07-19.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/qa_manifest.json",
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-STARTKEY-CURRENT-20260719",
+      "review_id": "review-2026-07-22-ep02-sc09-canon-visual",
+      "reviewer_role": "canon-fidelity-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Current visual approval is integrity-heavy and cannot guarantee academy-age identity, named-character readability, or weapon locks across motion.",
+        "Known prior risks remain active for Hilda youth read, Mercedes empty-hand support, Dedue shield-line restoration, and sheathed-sword Hanneman interruption unless freshly regenerated and reviewed."
+      ],
+      "required_revisions": [
+        "Use approved selected character assets for every named readable student or teacher.",
+        "Reject any generated frame where Hilda, Annette, Ashe, Ignatz, Lorenz, Dorothea, Ferdinand, or Mercedes read as adult mannequins or wrong-era characters.",
+        "Keep Mercedes empty-handed and Byleth using a sheathed sword for Hanneman interruption."
+      ],
+      "rubric": {
+        "canon_fidelity": "conditional",
+        "identity_locks": "conditional",
+        "academy_age": "conditional",
+        "weapon_locks": "conditional",
+        "nonlethal_training_tone": "pass",
+        "motion_risk": "fail"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/scene09_start_key_contact_sheet_2026-07-19.png",
+        "production/EP02_scene09_asset_truth_audit_2026-07-17.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-LOGIC-PREVIS-P0-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-logic-previs-storyboard-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Treat Shot032/Shot032A/Shot033B logic previs as layout and continuity references only.",
+        "Generate real cinematic start/key frames from the previs before any video package or promotion."
+      ],
+      "rubric": {
+        "shot_purpose": "pass",
+        "action_peak": "pass",
+        "start_key_end_chain": "pass",
+        "identity_locks": "conditional",
+        "screen_direction": "pass",
+        "blocking": "pass",
+        "camera_motivation": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/contact_sheet_scene09_v2_p0_logic_previs.png",
+        "episodes/EP02/scene09_v2_p0_logic_previs_review_2026-07-21.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-VIDEO-BATCH-EXPANDED-20260716",
+      "review_id": "review-2026-07-22-ep02-sc09-motion-qa",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "The expanded batch has 36 jobs and does not include V2-required Shot032A, Shot034E, Shot034F, or Shot034G.",
+        "Batch image_path values still point to older p1 PNGs or mock_battle_canon_map SVG layout files instead of the current production start/key frame set.",
+        "Expected video output directory episodes/EP02/video_outputs/cinematic_v2 does not exist, so no generated clips are available for motion review.",
+        "Jobs do not provide final start/key/end frame paths required for strict video delivery packaging."
+      ],
+      "required_revisions": [
+        "Regenerate the video batch from Scene09 V2 after all 40 final start/key frames exist.",
+        "Point each job to approved current start/key/end frame paths, not stale p1 PNGs or SVG layout diagrams.",
+        "Run low-cost motion tests for the high-risk shots named in the prior audit before full batch generation."
+      ],
+      "rubric": {
+        "prompt_start_key_locks": "fail",
+        "identity_motion_risk": "fail",
+        "weapon_motion_risk": "fail",
+        "screen_direction": "conditional",
+        "nonlethal_training_tone": "conditional",
+        "edit_fit": "fail"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/video_batches_cinematic_v2_expanded_2026-07-16/batch_07_mock_battle_expanded.json",
+        "episodes/EP02/video_batches_cinematic_v2_expanded_2026-07-16/batch_07_mock_battle_expanded.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-VIDEO-BATCH-EXPANDED-20260716",
+      "review_id": "review-2026-07-22-ep02-sc09-video-direction",
+      "reviewer_role": "direction-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "The batch predates the V2 source-of-truth changes and cannot prove the new Annette dust cover or separate Golden Deer / Black Eagles / Blue Lions stand-down beats.",
+        "Strict adjacent-shot continuity cannot be approved while the V2 shot set and current video batch disagree on shot count."
+      ],
+      "required_revisions": [
+        "Rebuild the batch order from the 40-shot V2 table.",
+        "Add continuity-pair reviews only after the regenerated 40-shot frame set exists."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "blocking": "fail",
+        "screen_direction": "conditional",
+        "camera_motivation": "conditional",
+        "motion_risk": "fail"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "episodes/EP02/video_batches_cinematic_v2_expanded_2026-07-16/batch_07_mock_battle_expanded.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-STARTKEY-CURRENT-20260719",
+      "review_id": "review-2026-07-22-ep02-sc09-existing-frame-substance",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Existing frames are not only incomplete; at least ten existing shot pairs fail the V2 beat or action-peak requirement.",
+        "Shot028 contradicts V2 by showing Mercedes healing light in the start frame instead of empty hands behind cover.",
+        "Felix discipline and route-control chain is underproved across Shot027D, Shot030B, Shot031B, and Shot034C.",
+        "Shot032E risks generic brawl and does not clearly show Byleth exploiting three-way pressure.",
+        "Shot034B, Shot035, and Shot036 do not sufficiently prove objective resolution, Felix respect, and Dimitri aftermath restraint."
+      ],
+      "required_revisions": [
+        "Treat the current 36 start/key pairs as layout reference only unless explicitly regenerated or low-cost motion-tested.",
+        "Rebuild Shot026, Shot027D, Shot028, Shot030B, Shot031B, Shot032E, Shot034C, Shot034B, Shot035, and Shot036 before video.",
+        "Use the detailed shot-by-shot findings in production_system/reviews/EP02_scene09_existing_start_key_substantive_audit_2026-07-22.md as the regeneration triage list."
+      ],
+      "rubric": {
+        "shot_purpose": "fail",
+        "action_peak": "fail",
+        "start_key_end_chain": "fail",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "blocking": "fail",
+        "camera_motivation": "conditional",
+        "motion_risk": "fail"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/scene09_start_key_contact_sheet_2026-07-19.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_start.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot028_keyframe.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot031B_keyframe.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot034C_keyframe.png",
+        "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/Shot036_keyframe.png",
+        "production_system/reviews/EP02_scene09_existing_start_key_substantive_audit_2026-07-22.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-REBUILD-V2-PARTIAL-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-v2-partial-rebuild-storyboard-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "The V2 rebuild QA manifest covers 17 generated/reviewed shot pairs, but 23 of the 40 required V2 shots remain blocked_needs_generation.",
+        "No generated V2 shot pair is ready for final promotion; all 17 reviewed pairs are monitor_required, not visual_review_passed or approved_for_video.",
+        "Strict continuity cannot pass because production_system/continuity_manifest.json still contains 0 adjacent-shot pairs.",
+        "The generated folder contains duplicate numbered files for Shot033B, Shot033C, and Shot033D outside the QA-selected frame paths, which should be treated as candidate leftovers until reconciled.",
+        "Several reviewed frames still carry motion risks: pose-like Black Eagles advance, Byleth hand-only restraint, static Ingrid/Manuela route control, faction stand-down portraiting, Felix identity drift, and training weapons drifting toward metal spearheads."
+      ],
+      "required_revisions": [
+        "Generate and review the remaining 23 V2 shots before rebuilding any full-scene video package.",
+        "Create explicit end-frame/edit-out locks for every shot, then add strict adjacent-shot continuity pairs across all 40 shots.",
+        "Reconcile or archive duplicate candidate files for Shot033B, Shot033C, and Shot033D so downstream scripts consume only QA-selected paths.",
+        "Run low-cost motion tests for the 17 monitor_required V2 pairs before paid full-resolution video generation.",
+        "Keep old 2026-07-17/19 start-key frames as layout reference only unless individually regenerated and reviewed against the V2 source."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "blocking": "conditional",
+        "camera_motivation": "conditional",
+        "motion_risk": "monitor_required",
+        "scene_coverage": "fail",
+        "strict_continuity": "fail"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/index.html",
+        "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+        "production_system/reviews/EP02_scene09_v2_partial_rebuild_audit_2026-07-22.md"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot025-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot025-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/01_Shot025_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/01_Shot025_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot025A-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot025a-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot026-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot026-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot026B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot026b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot026C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot026c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot027-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot027-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot027B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot027b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/07_Shot027B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot027C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot027c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/08_Shot027C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot027D-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot027d-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot028-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot028-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot028B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot028b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot028C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot028c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot029-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot029-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/13_Shot029_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot029C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot029c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/14_Shot029C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot029D-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot029d-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot029B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot029b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/16_Shot029B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/16_Shot029B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot030-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot030-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot030B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot030b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/18_Shot030B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot030C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot030c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot031-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot031-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/20_Shot031_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot031B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot031b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot032-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot032-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/22_Shot032_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/22_Shot032_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot032A-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot032a-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot032B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot032b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/24_Shot032B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/24_Shot032B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot032C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot032c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/25_Shot032C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/25_Shot032C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot032D-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot032d-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot032E-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot032e-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot033-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot033-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot033B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot033b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/29_Shot033B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot033C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot033c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/30_Shot033C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot033D-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot033d-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/31_Shot033D_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot034C-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot034c-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/32_Shot034C_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot034D-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot034d-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/33_Shot034D_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot034B-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot034b-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/34_Shot034B_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/34_Shot034B_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot034E-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot034e-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/35_Shot034E_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/35_Shot034E_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot034F-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot034f-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/36_Shot034F_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/36_Shot034F_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot034G-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot034g-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/37_Shot034G_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/37_Shot034G_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot034-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot034-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/38_Shot034_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/38_Shot034_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot035-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot035-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/39_Shot035_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-SHOT-Shot036-V2-20260721",
+      "review_id": "review-2026-07-22-ep02-sc09-shot-shot036-repair-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-22",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run low-cost motion test before any paid full-resolution video generation.",
+        "Add explicit end-frame/edit-out lock and strict continuity review before promotion.",
+        "Reject or regenerate any frame that contains unnamed readable students, spectators, or generic soldiers.",
+        "Reject or regenerate any continuation where defeated, objective-defeated, or stood-down characters re-enter active combat."
+      ],
+      "rubric": {
+        "shot_purpose": "conditional",
+        "action_peak": "conditional",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "screen_direction": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/40_Shot036_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/40_Shot036_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-END-FRAME-PROGRESS-20260724",
+      "review_id": "review-2026-07-24-ep02-sc09-end-frame-local-qa",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "main_agent_local_visual_review",
+      "created_at": "2026-07-24",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "Shot032E currently claims Hubert, Dorothea, and Bernadetta are captured/ruled out, but the current visual set does not sufficiently show those capture or retreat beats."
+      ],
+      "required_revisions": [
+        "Generate insert or replacement frames for Hubert checked by Felix/Ashe.",
+        "Generate insert or replacement frames for Dorothea and Bernadetta contained by Claude/Leonie.",
+        "Keep Shot032E and downstream stand-down shots below approved_for_video until those beats are visible."
+      ],
+      "rubric": {
+        "end_frame_presence": "partial",
+        "dedue_mercedes_heal_beat": "pass",
+        "three_house_dignity": "conditional",
+        "capture_exit_evidence": "fail",
+        "weapon_locks": "conditional",
+        "roster_continuity": "conditional"
+      },
+      "reviewed_paths": [
+        "episodes/EP02/scene09_end_frame_progress_2026-07-24.md",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/22_Shot032_end.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_end.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/24_Shot032B_end.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/25_Shot032C_end.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_end.png"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-V3-SAFETY-PATCH-FRAMES-20260725",
+      "review_id": "review-2026-07-25-ep02-sc09-v3-safety-patch-strict-continuity",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "main_agent_local_visual_review",
+      "created_at": "2026-07-25",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "Strict continuity gate remains failed because all 41 adjacent pairs are monitor_required/conditional rather than fully passing.",
+        "No generated video clips exist, so motion interpolation cannot be approved."
+      ],
+      "required_revisions": [
+        "Generate test clips for all 42 V3 shots.",
+        "Review Shot033D motion so Ingrid's guide pole remains a route marker and never becomes a thrust.",
+        "Promote shots and adjacent pairs only after clip-level motion and strict continuity checks pass."
+      ],
+      "rubric": {
+        "prompt_contract": "pass",
+        "path_integrity": "pass",
+        "captured_reappearance": "pass",
+        "safety_patch_visuals": "monitor_required",
+        "strict_continuity": "fail_until_pair_approval",
+        "video_delivery": "blocked_needs_revision"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/EP02_scene09_v3_safety_patch_and_strict_continuity_review_2026-07-25.md",
+        "production_system/reviews/scene09_v3_safety_patch_contact_sheet_2026-07-25.png",
+        "production_system/video_delivery_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-V3-VIDEO-GENERATION-PACKAGE-20260725",
+      "review_id": "review-2026-07-25-ep02-sc09-v3-video-generation-package-final-gate",
+      "reviewer_role": "producer-gate-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [
+        "After video generation, run clip-level motion QA before final edit delivery.",
+        "Reject any generated clip that adds unnamed students, revives captured characters, changes weapons, or turns route-control actions into injury."
+      ],
+      "rubric": {
+        "prompt_asset_package_gate": "pass",
+        "prompt_contract": "pass_42_of_42",
+        "strict_continuity_gate": "pass_41_of_41",
+        "delivery_package_built": "pass",
+        "captured_roster_continuity": "pass",
+        "final_clip_delivery": "pending_generation"
+      },
+      "reviewed_paths": [
+        "delivery/scene09_v3_video_generation_package_2026-07-25/package_manifest.json",
+        "production_system/video_delivery_manifest.json",
+        "production_system/continuity_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-PROFESSOR-20260726",
+      "review_id": "review-2026-07-26-byleth-female-asset-fidelity",
+      "reviewer_role": "asset-fidelity-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Add a local official female Byleth reference before final canon-locked promotion.",
+        "When using 女贝老师 in scene packages, explicitly reference assets/characters/protagonist/BylethFemale/professor/selected.png instead of the legacy Byleth path."
+      ],
+      "rubric": {
+        "identity": "pass",
+        "age": "pass",
+        "costume": "pass",
+        "role": "pass",
+        "style_reusability": "pass",
+        "official_reference_lineage": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/protagonist/BylethFemale/profile.md",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-26-byleth-female-weapon-continuity",
+      "reviewer_role": "canon-visual-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Scene prompts must lock the weapon as wooden training sword, training sword, or sheathed sword for academy mock-battle shots.",
+        "Do not mix male Byleth and Female Byleth references in adjacent shots unless the script explicitly calls for an alternate protagonist branch."
+      ],
+      "rubric": {
+        "identity": "pass",
+        "academy_age": "pass",
+        "costume": "pass",
+        "weapon_lock": "pass",
+        "nonlethal_training_tone": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/regeneration_prompt.md",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-PROFESSOR-20260726",
+      "review_id": "review-2026-07-26-byleth-female-youth-beauty-v2",
+      "reviewer_role": "asset-fidelity-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep candidate_02_youth_beauty.png as the selected professor portrait unless a future official-reference pass supersedes it.",
+        "Scene prompts should describe 女贝老师 as early-20s, youthful, beautiful, calm, teal-haired, green-eyed, and emotionally restrained."
+      ],
+      "rubric": {
+        "youth_read": "pass",
+        "beauty_read": "pass",
+        "identity": "pass",
+        "costume": "pass",
+        "role": "pass",
+        "official_reference_lineage": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/candidates_v1/candidate_02_youth_beauty.png",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-26-byleth-female-weapon-youth-beauty-v2",
+      "reviewer_role": "canon-visual-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the wooden training sword lock for academy mock-battle shots.",
+        "Avoid reverting to candidate_01 shoulder armor and mature commander face in downstream generations."
+      ],
+      "rubric": {
+        "youth_read": "pass",
+        "beauty_read": "pass",
+        "identity": "pass",
+        "academy_age": "pass",
+        "weapon_lock": "pass",
+        "nonlethal_training_tone": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_02_youth_beauty.png",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-PROFESSOR-20260726",
+      "review_id": "review-2026-07-26-byleth-female-sixteen-pretty-v3",
+      "reviewer_role": "asset-fidelity-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep candidate_03_sixteen_pretty.png as the selected professor portrait unless a future official-reference pass supersedes it.",
+        "Scene prompts should describe 女贝老师 as 16 years old, pretty, calm, teal-haired, green-eyed, emotionally restrained, and modestly dressed.",
+        "Avoid adult face drift, mature commander styling, or sensualized framing in downstream generation."
+      ],
+      "rubric": {
+        "sixteen_age_read": "pass",
+        "beauty_read": "pass",
+        "identity": "pass",
+        "modest_costume": "pass",
+        "role": "pass",
+        "official_reference_lineage": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/candidates_v1/candidate_03_sixteen_pretty.png",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-26-byleth-female-weapon-sixteen-pretty-v3",
+      "reviewer_role": "canon-visual-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep the wooden training sword lock for academy mock-battle shots.",
+        "Avoid reverting to v1 mature armor or v2 young-adult face in downstream generations.",
+        "Keep framing modest and character-reference oriented."
+      ],
+      "rubric": {
+        "sixteen_age_read": "pass",
+        "beauty_read": "pass",
+        "identity": "pass",
+        "academy_role": "pass",
+        "weapon_lock": "pass",
+        "nonlethal_training_tone": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_03_sixteen_pretty.png",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-PROFESSOR-20260726",
+      "review_id": "review-2026-07-26-byleth-female-balanced-sixteen-v4",
+      "reviewer_role": "asset-fidelity-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Post-review audit found face or weapon drift; see production_system/reviews/byleth_female_asset_audit_2026-07-26.md."
+      ],
+      "required_revisions": [
+        "Use candidate_04_balanced_sixteen_heroine.png as the selected professor portrait unless a future official-reference pass supersedes it.",
+        "Scene prompts should describe 女贝老师 as 16, pretty, calm, cold-prodigy, teal-haired, green-eyed, modestly dressed, and not doll-faced.",
+        "Avoid both adult face drift and low-age doll-face drift in downstream generation.",
+        "Regenerate before using as final selected asset."
+      ],
+      "rubric": {
+        "sixteen_age_read": "pass",
+        "beauty_read": "pass",
+        "non_doll_face_balance": "pass",
+        "cold_prodigy_gaze": "pass",
+        "identity": "pass",
+        "modest_costume": "pass",
+        "official_reference_lineage": "conditional",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/protagonist/BylethFemale/professor/candidates_v1/candidate_04_balanced_sixteen_heroine.png",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md",
+        "production_system/reviews/byleth_female_asset_audit_2026-07-26.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-26-byleth-female-weapon-balanced-sixteen-v4",
+      "reviewer_role": "canon-visual-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Post-review audit found face or weapon drift; see production_system/reviews/byleth_female_asset_audit_2026-07-26.md."
+      ],
+      "required_revisions": [
+        "Keep the wooden training sword lock for academy mock-battle shots.",
+        "For close-up identity continuity, use professor/selected.png as the primary face anchor because the fullbody v4 face remains slightly softer.",
+        "Avoid reverting to v3 doll-face softness in downstream generations.",
+        "Regenerate before using as final selected asset."
+      ],
+      "rubric": {
+        "sixteen_age_read": "pass",
+        "beauty_read": "pass",
+        "non_doll_face_balance": "conditional",
+        "identity": "pass",
+        "academy_role": "pass",
+        "weapon_lock": "pass",
+        "nonlethal_training_tone": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_04_balanced_sixteen_heroine.png",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md",
+        "production_system/reviews/byleth_female_asset_audit_2026-07-26.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-26-byleth-female-sword-of-creator-v5",
+      "reviewer_role": "canon-visual-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Post-review audit found face or weapon drift; see production_system/reviews/byleth_female_asset_audit_2026-07-26.md."
+      ],
+      "required_revisions": [
+        "Use weapon_fullbody/selected.png as the 天帝之剑 fullbody reference.",
+        "For close-up identity continuity, use professor/selected.png as the primary face anchor because the portrait v4 has the best balanced sixteen-year-old cold-prodigy read.",
+        "Lock the weapon as bone-white segmented sacred relic blade with red core accents, normal sword form unless a shot explicitly needs whip form.",
+        "Regenerate before using as final selected asset."
+      ],
+      "rubric": {
+        "sword_of_creator_read": "pass",
+        "normal_sword_form": "pass",
+        "sixteen_age_read": "pass",
+        "identity": "pass",
+        "modest_costume": "pass",
+        "weapon_visibility": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_05_sword_of_creator.png",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md",
+        "production_system/reviews/byleth_female_asset_audit_2026-07-26.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-26-byleth-female-correction-audit",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-26",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "Weapon reads as generic ornate gold fantasy blade, not Sword of the Creator.",
+        "Face reads too round/soft for the desired 16-17 cold prodigy heroine target."
+      ],
+      "required_revisions": [
+        "Use official Sword of the Creator visual traits before promotion.",
+        "Regenerate face with narrower refined oval/light heart shape, colder almond eyes, and less cheek roundness."
+      ],
+      "rubric": {
+        "weapon_fidelity": "fail",
+        "face_shape": "fail",
+        "age_read": "conditional",
+        "modest_costume": "pass",
+        "production_readiness": "fail"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "production_system/reviews/byleth_female_asset_audit_2026-07-26.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-27-byleth-female-v8-user-rejection",
+      "reviewer_role": "producer-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-27",
+      "decision": "blocked_needs_revision",
+      "blocking_issues": [
+        "User rejected v8 face direction: it returned too close to the prior baseline without improving beauty/face logic.",
+        "User rejected v8 weapon direction: the generated weapon is still visibly not the Sword of the Creator."
+      ],
+      "required_revisions": [
+        "Do not promote v8 selected assets.",
+        "Build and audit a standalone Sword of the Creator prop reference from official reference images before recompositing with the character.",
+        "For the face, use the prior user-liked image only as an aesthetic floor; improve beauty and plausibility without direct celebrity likeness or round-face drift."
+      ],
+      "rubric": {
+        "face_aesthetic": "fail",
+        "weapon_fidelity": "fail",
+        "process_gate": "fail",
+        "production_readiness": "fail"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/professor/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_main.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_blade.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_guard.png"
+      ]
+    },
+    {
+      "artifact_id": "PROP-SWORD-OF-CREATOR-20260727",
+      "review_id": "review-2026-07-27-sword-of-creator-prop",
+      "reviewer_role": "prop-canon-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-27",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Reject downstream composites where the weapon becomes a red-jeweled ornate fantasy greatsword, wood sword, plain steel sword, or oversized anime sword."
+      ],
+      "rubric": {
+        "official_reference_lineage": "pass",
+        "guard_ring": "pass",
+        "segmented_blade": "pass",
+        "notched_edge": "pass",
+        "normal_sword_form": "pass",
+        "composite_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/props/shared/sword_of_creator/selected.png",
+        "production_system/reviews/sword_of_creator_prop_review_2026-07-27.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-27-byleth-female-candidate13-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_13 as current best fullbody selected, not final approval.",
+        "Keep assets/props/shared/sword_of_creator/selected.png as the weapon authority in downstream prompts.",
+        "Reject future revisions that make the face uglier than the user-liked baseline or turn the sword into a generic fantasy blade."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_segmented_blade": "pass",
+        "weapon_exactness": "conditional",
+        "fullbody_reference_use": "pass",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_13_face_repair_weapon_locked.png",
+        "assets/props/shared/sword_of_creator/selected.png",
+        "production_system/reviews/byleth_female_asset_audit_2026-07-26.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-27-byleth-female-candidate15-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_15 as current selected fullbody, not final approval.",
+        "Keep assets/props/shared/sword_of_creator/selected.png as the weapon authority for any close-up or downstream generation.",
+        "Reject revisions that make the face rounder, more childlike, less attractive than the user-liked baseline, or turn the sword into a generic fantasy blade.",
+        "Before close-up video use, generate or composite a tighter weapon/hand close-up against the approved prop to verify chain-blade segmentation."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "face_shape": "pass",
+        "age_read": "conditional_pass",
+        "byleth_identity": "pass",
+        "modest_costume": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_hooked_guard": "pass",
+        "weapon_single_blade": "pass",
+        "weapon_segmented_blade": "conditional",
+        "weapon_exactness": "monitor_required",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_15_face_preserved_sword_refined.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_14_face_better_weapon_reference.png",
+        "assets/props/shared/sword_of_creator/selected.png",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/codex-clipboard-68670c4e-64fb-4431-9411-ee382ac20ea0.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-27-byleth-female-candidate16-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_16 as current selected fullbody, not final close-up weapon approval.",
+        "Keep official blade/guard crops and assets/props/shared/sword_of_creator/selected.png as weapon authority for any later close-up or video generation.",
+        "Reject revisions that make the face rounder, more childlike, less attractive than the user-liked baseline, or turn the sword into a generic fantasy blade.",
+        "Before close-up video use, create a dedicated weapon/hand close-up or prop composite to verify exact chain-blade segmentation."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "face_shape": "pass",
+        "age_read": "conditional_pass",
+        "byleth_identity": "pass",
+        "modest_costume": "pass",
+        "weapon_official_reference_lineage": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_hooked_guard": "pass",
+        "weapon_single_blade": "pass",
+        "weapon_segmented_blade": "conditional_pass",
+        "weapon_exactness": "monitor_required",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_16_official_weapon_lock.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_15_face_preserved_sword_refined.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_blade.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_guard.png",
+        "assets/props/shared/sword_of_creator/selected.png",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/codex-clipboard-68670c4e-64fb-4431-9411-ee382ac20ea0.png"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-V3-ATTRITION-PROMPT-PACKAGE-20260727",
+      "review_id": "review-2026-07-27-ep02-sc09-v3-monitor-visual-audit",
+      "reviewer_role": "visual-material-reviewer-agent",
+      "reviewer": "main_agent_local_visual_review",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Do not promote to video_generation_package until all 30 monitor_required frame chains receive full-size visual review or targeted regeneration.",
+        "Run strict adjacent-shot continuity and clip-level motion QA before any approved_for_video status.",
+        "Keep Shot034B as empty-objective ruling: Byleth and Dimitri only; no Hanneman/Manuela in frame."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "contact_sheet_triage": "pass",
+        "full_size_spot_review": "conditional",
+        "identity_locks": "monitor_required",
+        "weapon_locks": "monitor_required",
+        "screen_direction": "monitor_required",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/EP02_scene09_v3_monitor_visual_audit_2026-07-27.md",
+        "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part1.png",
+        "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part2.png",
+        "production_system/reviews/scene09_v3_monitor_contact_sheets_2026-07-27/monitor_contact_sheet_part3.png",
+        "production_system/video_delivery_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "EP02-SC09-V3-ATTRITION-PROMPT-PACKAGE-20260727",
+      "review_id": "review-2026-07-27-ep02-sc09-teacher-separation-patch",
+      "reviewer_role": "visual-material-reviewer-agent",
+      "reviewer": "main_agent_local_visual_review",
+      "created_at": "2026-07-27",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Do not show Hanneman and Manuela together as readable figures in Shot033B or later.",
+        "Keep Shot033B as student-only split-route command: Byleth, Ashe, Felix, Ingrid only.",
+        "Keep Shot034B as empty-objective ruling: Byleth and Dimitri only; no Hanneman/Manuela in frame.",
+        "Run clip-level motion QA before any approved_for_video promotion."
+      ],
+      "rubric": {
+        "teacher_separation": "pass",
+        "shot033b_visible_roster": "pass",
+        "shot033b_frame_chain": "pass",
+        "shot034b_empty_objective": "pass",
+        "prompt_contract": "pass",
+        "package_promotion": "monitor_required"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/EP02_scene09_teacher_separation_patch_review_2026-07-27.md",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_separation_patch_2026-07-27/29E_Shot033B_no_teachers_start.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_separation_patch_2026-07-27/29E_Shot033B_no_teachers_key.png",
+        "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_separation_patch_2026-07-27/29E_Shot033B_no_teachers_end.png",
+        "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033B_production_video_prompt_v3.md",
+        "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034B_production_video_prompt_v3.md",
+        "production_system/video_delivery_manifest.json"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-28-byleth-female-candidate17-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_17 as current selected fullbody, not final close-up weapon approval.",
+        "Keep official blade/guard crops and assets/props/shared/sword_of_creator/selected.png as weapon authority for later close-up or video generation.",
+        "Reject revisions that make the face rounder, babyish, flat, less attractive than the user-liked baseline, or turn the sword into a generic fantasy blade.",
+        "Before close-up video use, create a dedicated weapon/hand close-up or prop composite to verify exact chain-blade segmentation."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "beauty_lift": "pass",
+        "face_shape": "pass",
+        "age_read": "conditional_pass",
+        "byleth_identity": "pass",
+        "modest_costume": "pass",
+        "weapon_official_reference_lineage": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_hooked_guard": "pass",
+        "weapon_single_blade": "pass",
+        "weapon_segmented_blade": "conditional_pass",
+        "weapon_exactness": "monitor_required",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_17_beauty_lift_weapon_preserved.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_16_official_weapon_lock.png",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/codex-clipboard-68670c4e-64fb-4431-9411-ee382ac20ea0.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_blade.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_guard.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-28-byleth-female-candidate20-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_20 as current selected fullbody, not final close-up weapon approval.",
+        "Use the requested named-performer references only as abstract clear-beauty/cold-sweet type guidance; do not imitate a recognizable real person.",
+        "Keep official blade/guard crops and assets/props/shared/sword_of_creator/selected.png as weapon authority for later close-up or video generation.",
+        "Reject revisions that make the face rounder, babyish, adult-glamour, directly celebrity-like, flat, or less attractive than candidate_20.",
+        "Before close-up video use, create a dedicated weapon/hand close-up or prop composite to verify exact chain-blade segmentation."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "beauty_lift": "pass",
+        "japanese_clear_beauty_type": "pass",
+        "recognizable_real_person_likeness": "avoided",
+        "face_shape": "pass",
+        "age_read": "conditional_pass",
+        "byleth_identity": "pass",
+        "modest_costume": "pass",
+        "weapon_official_reference_lineage": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_hooked_guard": "pass",
+        "weapon_single_blade": "pass",
+        "weapon_segmented_blade": "conditional_pass",
+        "weapon_exactness": "monitor_required",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_20_clear_cold_sweet_best.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_18_japanese_clear_beauty_type.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_19_cold_sweet_face_attempt.png",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/codex-clipboard-68670c4e-64fb-4431-9411-ee382ac20ea0.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_blade.png",
+        "assets/props/shared/hero_relics/sword_of_creator_prtimes_guard.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-28-byleth-female-candidate22-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-28",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_22 as current selected fullbody anatomy-corrected reference, not final close-up weapon approval.",
+        "Keep candidate_20 as the face/aesthetic benchmark if future body fixes lose beauty.",
+        "Reject revisions that reintroduce elongated torso/legs, tiny head, floating feet, oversized boots, warped shoulders, or unnatural hand/sword grip.",
+        "Keep official blade/guard crops and assets/props/shared/sword_of_creator/selected.png as weapon authority for later close-up or video generation.",
+        "Before close-up video use, create a dedicated weapon/hand close-up or prop composite to verify exact chain-blade segmentation."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "face_quality_vs_candidate20": "conditional_pass",
+        "anatomy_proportion": "pass",
+        "stance_weight": "pass",
+        "hand_sword_grip": "conditional_pass",
+        "age_read": "conditional_pass",
+        "byleth_identity": "pass",
+        "modest_costume": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_hooked_guard": "pass",
+        "weapon_single_blade": "pass",
+        "weapon_segmented_blade": "conditional_pass",
+        "weapon_exactness": "monitor_required",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_22_anatomy_fixed_face_restored.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_21_anatomy_corrected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_20_clear_cold_sweet_best.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-29-byleth-female-candidate23-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-29",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_23 as current selected fullbody reference, not final close-up weapon approval.",
+        "Keep candidate_20 as the face/aesthetic benchmark and candidate_22 as the body/anatomy benchmark if future revisions drift.",
+        "Reject revisions that reintroduce elongated torso or legs, tiny head, floating feet, oversized boots, warped shoulders, or unnatural hand/sword grip.",
+        "Reject revisions that lose the cold-sweet face appeal, become round/babyish/adult-glamour, or imitate a recognizable real person.",
+        "Keep official blade/guard crops and assets/props/shared/sword_of_creator/selected.png as weapon authority for later close-up or video generation."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "face_quality_vs_candidate22": "pass",
+        "face_quality_vs_candidate20": "conditional_pass",
+        "anatomy_proportion": "pass",
+        "body_stability": "pass",
+        "stance_weight": "pass",
+        "hand_sword_grip": "conditional_pass",
+        "age_read": "conditional_pass",
+        "byleth_identity": "pass",
+        "modest_costume": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_hooked_guard": "pass",
+        "weapon_single_blade": "pass",
+        "weapon_segmented_blade": "conditional_pass",
+        "weapon_exactness": "monitor_required",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_23_body_stable_face_lift.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_22_anatomy_fixed_face_restored.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_20_clear_cold_sweet_best.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-30-byleth-female-candidate24-monitor",
+      "reviewer_role": "asset-qa-reviewer-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-30",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_24 as current selected fullbody reference, not final close-up weapon approval.",
+        "Keep candidate_23 as body and composition fallback if candidate_24 tighter framing becomes a problem.",
+        "Reject revisions that reintroduce elongated torso or legs, tiny head, floating feet, oversized boots, warped shoulders, or unnatural hand/sword grip.",
+        "Reject revisions that lose the cold-sweet face appeal, become round/babyish/adult-glamour, or imitate a recognizable real person.",
+        "Keep official blade/guard crops and assets/props/shared/sword_of_creator/selected.png as weapon authority for later close-up or video generation."
+      ],
+      "rubric": {
+        "face_aesthetic_floor": "pass",
+        "face_quality_vs_candidate23": "pass",
+        "anatomy_proportion": "pass",
+        "body_stability": "pass",
+        "composition_fullbody": "conditional_pass",
+        "stance_weight": "pass",
+        "hand_sword_grip": "pass",
+        "age_read": "conditional_pass",
+        "byleth_identity": "pass",
+        "modest_costume": "pass",
+        "weapon_ring_guard": "pass",
+        "weapon_hooked_guard": "pass",
+        "weapon_single_blade": "pass",
+        "weapon_segmented_blade": "conditional_pass",
+        "weapon_exactness": "monitor_required",
+        "final_approval": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_24_face_grip_refine.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_23_body_stable_face_lift.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-31-byleth-female-candidate31-asset-qa",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-31",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_31 as the current selected still/fullbody reference, but keep candidate_29 available as a body-readability fallback if a downstream shot needs more visible legs.",
+        "For video prompts, lock the Sword of the Creator before any motion instruction: round core, hooked crescent guard, ribbed hilt, central channel, segmented spine, and one irregular bone-tooth edge.",
+        "Run a short motion probe before full video generation because cape, weapon teeth, and lower-leg length may drift."
+      ],
+      "rubric": {
+        "identity": "pass",
+        "face_aesthetic": "pass",
+        "body_proportion": "pass",
+        "costume_silhouette": "conditional",
+        "weapon_fidelity": "conditional_pass",
+        "hands_and_grip": "pass",
+        "downstream_motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_29_cosplay_body_weapon_lock.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_30_final_pass_material_face.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_31_selected_cosplay_prop_balance.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_24_face_grip_refine.png",
+        "assets/props/shared/sword_of_creator/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/regeneration_prompt.md",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-31-byleth-female-candidate31-canon-fidelity",
+      "reviewer_role": "canon-fidelity-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-31",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Continue citing assets/props/shared/sword_of_creator/selected.png as the prop authority; candidate_31 improves but does not replace the standalone prop reference.",
+        "Avoid direct real-person likeness prompts; use only abstract East Asian cold-clear heroine descriptors for face refinements.",
+        "Keep Female Byleth and Male Byleth disambiguated in scene prompts to avoid protagonist continuity mixing."
+      ],
+      "rubric": {
+        "canon_identity": "pass",
+        "gender_disambiguation": "conditional",
+        "age_read": "conditional",
+        "sword_of_creator": "conditional_pass",
+        "nonsexual_presentation": "pass",
+        "official_reference_lineage": "conditional"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_29_cosplay_body_weapon_lock.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_30_final_pass_material_face.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_31_selected_cosplay_prop_balance.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_24_face_grip_refine.png",
+        "assets/props/shared/sword_of_creator/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/regeneration_prompt.md",
+        "assets/characters/protagonist/BylethFemale/fidelity_review.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-31-byleth-female-candidate35-body-correction",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-31",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_35 as the current selected fullbody reference instead of candidate_31; candidate_31 is preserved only as a prior monitored attempt with body-proportion issues.",
+        "Keep the short-cape/mid-thigh coat constraint in future generations; reject floor-length capes or robe-column silhouettes that hide hips, knees, calves, and boots.",
+        "Before video generation, run a short motion probe to confirm the Sword of the Creator and corrected body proportions do not drift."
+      ],
+      "rubric": {
+        "body_proportion": "pass",
+        "head_to_body_ratio": "conditional_pass",
+        "hip_knee_boot_readability": "pass",
+        "cape_silhouette": "pass",
+        "face_aesthetic": "pass",
+        "weapon_fidelity": "conditional_pass",
+        "downstream_motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_31_selected_cosplay_prop_balance.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_32_anatomy_hard_gate.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_33_anatomy_lock_visibility.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_34_short_cape_body_read.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_35_selected_body_fixed_short_cape.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-07-31-byleth-female-candidate40-anatomy-reference",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-07-31",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_40 as current selected instead of candidate_35 for body-proportion-sensitive references.",
+        "Keep the anatomy reference board in future prompts; reject any regeneration where head/body ratio returns to fashion/hero 8-head proportions or knees drop too low.",
+        "Run downstream shot or motion probes with explicit locks for head/body ratio, hip midpoint, knee placement, modest boots, and Sword of the Creator silhouette."
+      ],
+      "rubric": {
+        "anatomy_reference_created": "pass",
+        "head_body_ratio": "pass",
+        "hip_midpoint": "pass",
+        "knee_placement": "conditional_pass",
+        "leg_length": "pass",
+        "boot_scale": "conditional_pass",
+        "wardrobe_modesty": "pass",
+        "weapon_fidelity": "conditional_pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/references/anatomy/normal_female_6_8_head_body_reference.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_35_selected_body_fixed_short_cape.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_36_anatomy_reference_guided_barelegs.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_37_anatomy_reference_wardrobe_corrected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_38_anatomy_primary_fullbody.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_39_compact_proportion_refine.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_40_selected_anatomy_reference_locked.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-FACE-CASTING-20260801",
+      "review_id": "review-2026-08-01-byleth-female-face-casting-natural-beauty",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-08-01",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_02 as the current face authority for fullbody and close-up regeneration; candidate_01 is preserved as the natural-texture baseline but reads slightly tired.",
+        "Keep named real-person references abstracted into beauty-design vocabulary only; reject any prompt or output that becomes a recognizable actor, idol, cosplayer, model, or adult-performer likeness.",
+        "For downstream video, run a short motion/identity probe before approving final clips because natural skin texture, eyelids, and face shape may drift toward generic AI beauty."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "natural_skin_texture": "pass",
+        "face_beauty": "pass",
+        "face_not_round_or_babyish": "pass",
+        "nonsexual_presentation": "pass",
+        "recognizable_real_person_likeness": "avoided",
+        "ai_face_reduction": "pass",
+        "downstream_motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/face_casting/selected.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/candidates_v1/candidate_01_natural_face_reference.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/candidates_v1/candidate_02_beauty_natural_reference.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/regeneration_prompt.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-08-01-byleth-female-candidate43-face-anatomy-weapon",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-08-01",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_43 as the current selected still/fullbody reference instead of candidate_40 for face-quality-sensitive references.",
+        "Keep the selected face-casting reference, anatomy board, and Sword of the Creator prop as separate hard inputs in any future regeneration.",
+        "Reject outputs that reintroduce generic AI influencer face, porcelain smoothing, 8-head fashion proportion, long shins, oversized boots, cropped sword tip, or generic fantasy sword.",
+        "Run short downstream motion probes before video generation because face texture, body proportion, cape, and relic weapon teeth may drift."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "face_aesthetic": "pass",
+        "ai_face_reduction": "pass",
+        "natural_face_texture": "conditional_pass",
+        "body_proportion": "pass",
+        "head_body_ratio": "conditional_pass",
+        "leg_length": "pass",
+        "boot_scale": "conditional_pass",
+        "wardrobe_modesty": "pass",
+        "sword_of_creator_guard": "pass",
+        "sword_of_creator_blade": "conditional_pass",
+        "composition_fullbody": "pass",
+        "downstream_motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_41_face_casting_reference.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_42_beauty_face_casting_fullbody.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_43_selected_face_casting_anatomy_locked.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/selected.png",
+        "assets/characters/protagonist/BylethFemale/references/anatomy/normal_female_6_8_head_body_reference.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-FACE-CASTING-20260801",
+      "review_id": "review-2026-08-01-byleth-female-real-actor-anchor-face",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-08-01",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_03_real_actor_anchor.png as the current face authority when the target is a real-person/casting-photo-first workflow.",
+        "Do not use prompts or references that copy a recognizable real person. Keep the anchor original and non-identifying before downstream use.",
+        "For future revisions, preserve photographed-human eyelids, nose/lip structure, hair roots, skin texture, and asymmetry; reject generic AI influencer smoothing."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "real_actor_casting_quality": "pass",
+        "face_beauty": "pass",
+        "natural_texture": "pass",
+        "ai_face_reduction": "pass",
+        "nonsexual_presentation": "pass",
+        "recognizable_real_person_likeness": "monitor_required",
+        "deidentification": "conditional_pass",
+        "downstream_motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/face_casting/selected.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/candidates_v1/candidate_03_real_actor_anchor.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/regeneration_prompt.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-08-01-byleth-female-candidate45-real-actor-anchor",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-08-01",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_45 as the current selected still/fullbody reference instead of candidate_43 for the real-actor-anchor workflow.",
+        "Keep candidate_44 archived as a failed/partial pass: stronger face realism but mild tiny-head/long-leg drift and sword-tip crowding.",
+        "Future generations must use the selected real-actor face anchor, 6.8-head anatomy board, and Sword of the Creator prop as separate hard inputs.",
+        "Run downstream short motion probes before approving video because face realism, de-identification, body proportion, cape, and relic blade detail may drift."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "real_actor_face_anchor": "pass",
+        "deidentification": "conditional_pass",
+        "ai_face_reduction": "pass",
+        "body_proportion": "pass",
+        "head_body_ratio": "conditional_pass",
+        "leg_length": "conditional_pass",
+        "boot_scale": "conditional_pass",
+        "wardrobe_modesty": "pass",
+        "sword_of_creator_guard": "pass",
+        "sword_of_creator_blade": "conditional_pass",
+        "composition_fullbody": "pass",
+        "downstream_motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_44_real_actor_anchor_fullbody.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_45_selected_real_actor_anchor_anatomy_locked.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/candidates_v1/candidate_03_real_actor_anchor.png",
+        "assets/characters/protagonist/BylethFemale/references/anatomy/normal_female_6_8_head_body_reference.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-FACE-CASTING-20260801",
+      "review_id": "review-2026-08-01-byleth-female-specific-japanese-beauty-anchor",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-08-01",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "Directly selecting or reproducing the requested named real person as a reusable face authority is not allowed."
+      ],
+      "required_revisions": [
+        "Treat candidate_04 only as a non-identifying aesthetic candidate.",
+        "Do not promote candidate_04 as a named-person likeness; promotion requires user acceptance of it as an original de-identified face direction.",
+        "If used for fullbody generation, keep explicit negative constraints against recognizable actor, idol, cosplayer, model, or adult-performer likeness."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "specific_beauty_direction": "pass",
+        "ai_face_reduction": "conditional_pass",
+        "recognizable_real_person_likeness": "blocked_for_direct_copy",
+        "deidentified_candidate": "conditional_pass",
+        "promotion_status": "not_promoted"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/face_casting/candidates_v1/candidate_04_specific_japanese_beauty_anchor.png",
+        "assets/characters/protagonist/BylethFemale/face_casting/regeneration_prompt.md"
+      ]
+    },
+    {
+      "artifact_id": "CHAR-BYLETH-FEMALE-WEAPON-FULLBODY-20260726",
+      "review_id": "review-2026-08-01-byleth-female-candidate46-user-face-reversion",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex-cinematic-pipeline",
+      "created_at": "2026-08-01",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Use candidate_46 as the current selected fullbody reference for the user-preferred candidate_37 face direction.",
+        "Do not continue the real-actor-anchor branch unless the user asks for it again.",
+        "For future regeneration, use candidate_46 as face/aesthetic authority, the local 6.8-head anatomy board as body authority, and assets/props/shared/sword_of_creator/selected.png as weapon authority.",
+        "Run downstream motion probes before video because candidate_37/candidate_46 retains monitored body-proportion and relic-weapon drift risk."
+      ],
+      "rubric": {
+        "integrity": "pass",
+        "user_face_preference": "pass",
+        "face_aesthetic": "pass",
+        "body_proportion": "monitor_required",
+        "wardrobe_modesty": "pass",
+        "sword_of_creator": "conditional_pass",
+        "recognizable_real_person_likeness": "not_applicable",
+        "downstream_motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/selected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_37_anatomy_reference_wardrobe_corrected.png",
+        "assets/characters/protagonist/BylethFemale/weapon_fullbody/candidates_v1/candidate_46_selected_return_to_candidate37_face.png",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/codex-clipboard-3e086470-7bd8-43b6-a1ea-13e131d5a8b3.png",
+        "assets/characters/protagonist/BylethFemale/references/anatomy/normal_female_6_8_head_body_reference.png",
+        "assets/props/shared/sword_of_creator/selected.png"
+      ]
+    },
+    {
+      "artifact_id": "EP03-COMBAT-CHAIN-SHOTS026-029-20260824",
+      "review_id": "review-2026-08-24-ep03-combat-chain-shots026-029",
+      "gate": "combat_gate",
+      "reviewer_role": "combat-choreography-reviewer-agent",
+      "reviewer": "codex-combat-review",
+      "created_at": "2026-08-24",
+      "decision": "combat_review_passed",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Keep all four shots monitor_required until prompt-against-frame QA and a 3-second motion probe pass.",
+        "Do not promote to approved_for_video until the single-contact disarm and the 026 Japanese line are verified in motion."
+      ],
+      "rubric": {
+        "action_causality": "pass_in_ordered_stills",
+        "contact_contract": "pass_single_catherine_disarm",
+        "spatial_continuity": "pass_with_monitoring",
+        "start_key_end_progression": "pass_in_ordered_stills",
+        "video_readiness": "monitor_required"
+      },
+      "reviewed_paths": [
+        "planning/action_choreography.json",
+        "generated/action_choreography_board_shots026_029_2026-08-24.png",
+        "episodes/EP03/storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/contact_sheet.jpg",
+        "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg",
+        "episodes/EP03/storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg",
+        "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg"
+      ],
+      "notes": "Ordered still-frame review confirms: warning draw/apology without release -> mud impact -> Catherine-only disarm while female Byleth stays behind -> Lonato kneel and widened aftermath. This is a combat choreography pass, not a full-video approval."
+    }
+  ]
+}

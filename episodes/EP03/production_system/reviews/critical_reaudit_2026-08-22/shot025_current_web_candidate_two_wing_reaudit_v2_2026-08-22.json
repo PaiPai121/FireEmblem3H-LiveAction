@@ -1,0 +1,57 @@
+{
+  "shot_id": "Shot025",
+  "review_date": "2026-08-22",
+  "review_type": "blue_lions_two_wing_integrated_formation_sequential_reaudit",
+  "previous_display_frame_set": "local_asset_final_candidate_v1_2026-08-02",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot024",
+  "next_shot": "Shot026",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Sylvain/academy/selected.png",
+    "assets/characters/blue_lions/Ingrid/academy/selected.png",
+    "assets/characters/blue_lions/Mercedes/academy/selected.png",
+    "assets/characters/blue_lions/Annette/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  ],
+  "prior_rejection": [
+    "The frozen root START/KEY/END were deterministic selected.png composites with six upright character cutouts placed side by side against the ridge.",
+    "The old spec remained frames_pending and the prompt allowed source/layout fallback, so it could not control a video model against actual frames.",
+    "The old prompt carried unrelated Rhea/Catherine/Lonato locks and did not make the front/flank/rear formation or the Ashe-aim handoff strict."
+  ],
+  "passes": [
+    "START receives Shot024 v2's two-wing command and preserves the wet road, blue banners, fog, and distant moral pressure.",
+    "Only six Blue Lions are readable action performers; their academy identities and shared ground contact are integrated.",
+    "KEY makes the three layers legible: Dimitri/Dedue front, Ingrid/Sylvain flank, Mercedes/Annette rear.",
+    "END separates the wings and leaves a clean sightline for Shot026 Ashe aim without an early arrow release.",
+    "Dedue's visible compact nape braid and academy age are present in the still chain; motion remains monitor-only.",
+    "START, KEY, and END are distinct action states rather than crop or lighting variants.",
+    "The executable prompt is upload-only and contains no spoken dialogue; audio is environmental only."
+  ],
+  "monitor_risks": [
+    "A motion model may collapse the six-person formation into a muddy crowd; inspect each role in the probe.",
+    "Dedue's braid, academy age, and face may drift in a high-oblique wide shot.",
+    "The flank lanes may mirror or reset; reject if the 024 direction is lost.",
+    "Mercedes/Annette may disappear from the rear line or become generic extras.",
+    "Ashe may fire too early or Lonato may be attacked before Shot026/027; reject the premature escalation."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "six Blue Lions become pasted cutouts, a flat lineup, or a mismatched composite",
+    "front/flank/rear roles cannot be read",
+    "Dedue loses the visible nape braid or students age up",
+    "Ashe fires, Lonato is attacked, or graphic/triumphal violence appears",
+    "the road sightline for Shot026 Ashe aim is lost",
+    "Chinese/Mandarin voice, subtitles, UI, borders, or readable text appear"
+  ]
+}

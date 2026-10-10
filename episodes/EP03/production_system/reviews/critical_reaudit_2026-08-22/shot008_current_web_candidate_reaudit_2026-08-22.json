@@ -1,0 +1,46 @@
+{
+  "shot_id": "Shot008",
+  "review_date": "2026-08-22",
+  "review_type": "critical_reaudit_sequential_continuity_and_thunderbrand",
+  "previous_display_frame_set": "critical_reaudit_regen_v1",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot007",
+  "next_shot": "Shot009",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/props/shared/hero_relics/thunderbrand_reference.png",
+    "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+  ],
+  "passes": [
+    "START enters from Shot007's left arch and preserves the wet courtyard axis.",
+    "Catherine remains an adult Church knight with mature identity and white armor.",
+    "KEY and END keep the unique Thunderbrand attached, with jagged gold guard and purple crest stone readable.",
+    "Female Byleth remains visibly female in the reaction line.",
+    "END establishes the gateward direction for Shot009.",
+    "The Japanese line is specified with no subtitle/UI layer."
+  ],
+  "monitor_risks": [
+    "Motion must preserve the Thunderbrand guard and purple crest without turning it into a glow effect.",
+    "Catherine's mature identity and armor topology must hold through the walk.",
+    "The Shot008-to-Shot009 reverse angle must preserve the group direction."
+  ],
+  "required_next_gate": "3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Catherine enters from the wrong side or resets to a lineup",
+    "Thunderbrand becomes a generic sword, plain scabbard, floating prop, or glowing advertisement",
+    "female Byleth becomes male or ambiguous",
+    "the shot jumps to the road or battlefield",
+    "Chinese/Mandarin voiceover or subtitles appear"
+  ]
+}

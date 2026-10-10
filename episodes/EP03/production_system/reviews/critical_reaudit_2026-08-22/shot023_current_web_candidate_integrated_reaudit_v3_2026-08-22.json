@@ -1,0 +1,53 @@
+{
+  "shot_id": "Shot023",
+  "review_date": "2026-08-22",
+  "review_type": "lonato_refusal_integrated_two_person_sequential_reaudit",
+  "previous_display_frame_set": "integrated_candidate_v2_2026-08-10",
+  "current_display_frame_set": "critical_reaudit_regen_v3_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot022",
+  "next_shot": "Shot024",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot022/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  ],
+  "prior_rejection": [
+    "The frozen integrated_candidate_v2 contact sheet introduced an unlisted, ambiguous Byleth-like background figure even though the shot frame specification defined a two-person Ashe/Lonato refusal.",
+    "The older layout_reference and selected.png composite candidates are retained as audit history only and are not acceptable current cinematic frames.",
+    "The previous current prompt and metadata did not make the two-person presence constraint and the low guarded sword beat strict enough."
+  ],
+  "passes": [
+    "START receives Shot022 v2 END's wet ridge, road axis, fog, and restrained dialogue distance.",
+    "Only canonical academy Ashe and older white-haired armored Lonato are readable; background rebels remain indistinct.",
+    "KEY makes the refusal legible through direct eyeline and a low guarded sword boundary without an attack.",
+    "END turns Lonato toward the rebel pressure while Ashe remains visible and non-violent, opening the handoff to Byleth command.",
+    "The two performers share scale, perspective, wet ground contact, fog, and lighting; no pasted portrait plates are used.",
+    "START, KEY, and END are distinct action states: post-plea silence, refusal guard, tactical turn.",
+    "The executable prompt is upload-only and Japanese dialogue only."
+  ],
+  "monitor_risks": [
+    "A motion model may add Byleth or another named performer to the fog; reject any readable extra identity.",
+    "Lonato may escalate the low guarded sword into a swing or generic villain performance; inspect the probe.",
+    "Ashe may raise or fire the bow after the refusal; reject if the lowered-bow state breaks.",
+    "The 023→024 cut must preserve the open road and rebel-pressure direction while introducing female Byleth only in the next shot.",
+    "Japanese dialogue timing, no subtitles, and no Chinese/Mandarin voice must survive generation."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Byleth, Dimitri, or any other named character appears in this two-person shot",
+    "characters become pasted plates or a flat lineup",
+    "Lonato attacks, swings the sword, becomes generic, or shows gore",
+    "Ashe raises or fires the bow",
+    "the rebel silhouettes become identifiable or the open-road handoff is lost",
+    "Chinese/Mandarin voice, subtitles, UI, borders, or readable text appear"
+  ]
+}

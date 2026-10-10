@@ -1,0 +1,2817 @@
+{
+  "date": "2026-07-28",
+  "options": {
+    "execute": false,
+    "concat": false,
+    "skipRebuild": false,
+    "force": false,
+    "outFile": "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4"
+  },
+  "model_cli_configured": false,
+  "highest_completed_target": "prompt_asset_package",
+  "decision": "monitor_handoff_ready_clips_pending",
+  "steps": [
+    {
+      "label": "build_attrition_prompt_package",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_attrition_prompt_package.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:33.574Z",
+      "stdout_tail": "  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_034G_core_victory_lance_authoritative_applied\",\n  \"shot\": \"Shot034G\",\n  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\",\n    \"Dedue\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_end.png\"\n  }\n}\n{\n  \"outDir\": \"production_system/scene09_v3_attrition_package\",\n  \"prompts\": 42,\n  \"prompt_contract\": \"42/42\",\n  \"status\": \"prompt_asset_package_monitor_required_before_video\",\n  \"winner\": \"Blue Lions\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "restore_hanneman_lane_shims_after_prompt_build",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/restore_scene09_034B_hanneman_contract_shims_20260731.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:34.424Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "apply_hanneman_lane_contract_after_prompt_build",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/apply_scene09_034B_empty_objective_authoritative_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:34.460Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "apply_golden_deer_weapon_contract_after_prompt_build",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/apply_scene09_034E_golden_deer_weapons_authoritative.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:34.496Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"scene09_034E_golden_deer_weapons_authoritative_applied\",\n  \"shot\": \"Shot034E\",\n  \"title\": \"金鹿高光后收势\",\n  \"visible_named_only\": [\n    \"Claude\",\n    \"Hilda\",\n    \"Lorenz\",\n    \"Ignatz\",\n    \"Leonie\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_end.png\"\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "apply_blue_lions_core_victory_contract_after_prompt_build",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/apply_scene09_034G_core_victory_authoritative.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:34.536Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"scene09_034G_core_victory_lance_authoritative_applied\",\n  \"shot\": \"Shot034G\",\n  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\",\n    \"Dedue\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_end.png\"\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_monitor_handoff_package",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_monitor_handoff_package.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:34.574Z",
+      "stdout_tail": "    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_end.png\"\n  }\n}\n{\n  \"package_dir\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27\",\n  \"package_type\": \"monitor_handoff\",\n  \"shots\": 42,\n  \"total_duration_seconds\": 252,\n  \"model_cli_configured\": false,\n  \"model_cli_template_validation\": {\n    \"ok\": true,\n    \"configured\": false,\n    \"decision\": \"model_cli_template_not_configured\",\n    \"problems\": [],\n    \"warnings\": [\n      \"VIDEO_MODEL_CLI_ARGV_JSON is not configured.\"\n    ],\n    \"checks\": [],\n    \"placeholders_found\": []\n  },\n  \"validation_failures\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "restore_hanneman_lane_shims_after_monitor_handoff",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/restore_scene09_034B_hanneman_contract_shims_20260731.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:34.979Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "apply_hanneman_lane_contract_after_monitor_handoff",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/apply_scene09_034B_empty_objective_authoritative_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.015Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "apply_golden_deer_weapon_contract_after_monitor_handoff",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/apply_scene09_034E_golden_deer_weapons_authoritative.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.050Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"scene09_034E_golden_deer_weapons_authoritative_applied\",\n  \"shot\": \"Shot034E\",\n  \"title\": \"金鹿高光后收势\",\n  \"visible_named_only\": [\n    \"Claude\",\n    \"Hilda\",\n    \"Lorenz\",\n    \"Ignatz\",\n    \"Leonie\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_end.png\"\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "apply_blue_lions_core_victory_contract_after_monitor_handoff",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/apply_scene09_034G_core_victory_authoritative.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.089Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"scene09_034G_core_victory_lance_authoritative_applied\",\n  \"shot\": \"Shot034G\",\n  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\",\n    \"Dedue\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_end.png\"\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "sync_delivery_payload_after_current_contracts",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/sync_scene09_v3_delivery_payload_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.127Z",
+      "stdout_tail": "  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_036_dimitri_lance_authoritative_applied\",\n  \"shot\": \"Shot036\",\n  \"visible_named_only\": [\n    \"Dimitri\",\n    \"Byleth\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png\"\n  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_v3_delivery_payload_current_synced\",\n  \"rows\": 42,\n  \"prompts_patched\": 42,\n  \"payload_sha256\": \"0943645fc59bb07f04f3b55c92d6daf4e157284451a680e56609785e8cf0bd86\",\n  \"queue_synced\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "restore_hanneman_lane_shims_after_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/restore_scene09_034B_hanneman_contract_shims_20260731.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.470Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "apply_hanneman_lane_contract_after_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/two_students_patch.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.508Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "sync_delivery_payload_after_034b_current_patch",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/sync_scene09_v3_delivery_payload_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.545Z",
+      "stdout_tail": "  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_036_dimitri_lance_authoritative_applied\",\n  \"shot\": \"Shot036\",\n  \"visible_named_only\": [\n    \"Dimitri\",\n    \"Byleth\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png\"\n  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_v3_delivery_payload_current_synced\",\n  \"rows\": 42,\n  \"prompts_patched\": 42,\n  \"payload_sha256\": \"91e73dc2519055775537194999417b670876dd90a6c64aa857b714a27c97923c\",\n  \"queue_synced\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_shot034b_source_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_034B_source_contract_20260731.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.885Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "sync_delivery_payload_after_shot034b_source_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/sync_scene09_v3_delivery_payload_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:35.921Z",
+      "stdout_tail": "  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_036_dimitri_lance_authoritative_applied\",\n  \"shot\": \"Shot036\",\n  \"visible_named_only\": [\n    \"Dimitri\",\n    \"Byleth\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png\"\n  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_v3_delivery_payload_current_synced\",\n  \"rows\": 42,\n  \"prompts_patched\": 42,\n  \"payload_sha256\": \"61c1c6861e8475673008d6a60cf2c6993f8c36842785e0260aad477c079c3691\",\n  \"queue_synced\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_battle_ledger_timeline",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_battle_ledger_timeline.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:36.265Z",
+      "stdout_tail": "{\n  \"decision\": \"battle_ledger_timeline_passed\",\n  \"shots\": 42,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.md\",\n  \"report_csv\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.csv\",\n  \"package_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/battle_ledger_timeline.json\",\n  \"package_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/battle_ledger_timeline.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_execution_asset_integrity",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_execution_asset_integrity.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:36.294Z",
+      "stdout_tail": "{\n  \"decision\": \"execution_asset_integrity_passed\",\n  \"shots_ready\": 42,\n  \"total_shots\": 42,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_execution_asset_integrity_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_execution_asset_integrity_2026-07-28.md\",\n  \"report_csv\": \"production_system/scene09_v3_attrition_package/scene09_v3_execution_asset_integrity_2026-07-28.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_proxy_animatic_clips",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_proxy_animatic_clips.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:36.854Z",
+      "stdout_tail": "{\n  \"decision\": \"proxy_animatic_reference_ready\",\n  \"total_shots\": 42,\n  \"proxy_clips_ready\": 42,\n  \"proxy_clips_failed\": 0,\n  \"proxy_edit\": \"episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_proxy_animatic_edit_2026-07-28.mp4\",\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_proxy_animatic_clips_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_proxy_animatic_clips_2026-07-28.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_main_gallery",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_rebuild_v2_gallery.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.483Z",
+      "stdout_tail": "wrote episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/index.html (126/126 frames present)",
+      "stderr_tail": ""
+    },
+    {
+      "label": "patch_main_gallery_current_034b",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/patch_scene09_rebuild_v2_gallery_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.506Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_clip_review_gallery",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_clip_review_gallery.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.544Z",
+      "stdout_tail": "{\n  \"output\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_review.html\",\n  \"shots\": 42,\n  \"expected_clips\": 42,\n  \"ready_clips\": 0,\n  \"missing_clips\": 42,\n  \"handoff_decision\": \"monitor_handoff_ready_clips_pending\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_model_submission_batches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_model_submission_batches.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.575Z",
+      "stdout_tail": "{\n  \"date\": \"2026-07-31\",\n  \"decision\": \"model_submission_batches_ready\",\n  \"package_dir\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27\",\n  \"batch_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json\",\n  \"source_battle_ledger\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json\",\n  \"total_shots\": 42,\n  \"total_batches\": 7,\n  \"batch_size\": 6,\n  \"expected_downloads_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/expected_downloads.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_model_submission_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_model_submission_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.607Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"model_submission_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/index.html\",\n  \"batches\": 7,\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "patch_model_submission_index_current_034b",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/patch_scene09_v3_model_submission_index_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.634Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_p0_reference_boards_chinese_titles",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_p0_reference_boards.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.671Z",
+      "stdout_tail": "wrote 36 reference boards to episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/reference_boards",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_p0_reference_boards_chinese_titles",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_p0_reference_boards_titles.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.698Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-03\",\n  \"board_dir\": \"episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/reference_boards\",\n  \"html_files\": 37,\n  \"missing_links\": [],\n  \"problems\": [],\n  \"decision\": \"p0_reference_boards_titles_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_motion_probe_operator_tracker_before_web_media_refs",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_motion_probe_operator_tracker.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.720Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_probe_operator_tracker_ready_clips_pending\",\n  \"batches\": 7,\n  \"expected_probe_rows\": 42,\n  \"returned_mp4_ready\": 0,\n  \"ingested_probe_ready\": 0,\n  \"problems\": 0,\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html\",\n  \"json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.json\",\n  \"csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv\",\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_motion_probe_operator_tracker_2026-08-03.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_motion_probe_operator_tracker_before_web_media_refs",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_motion_probe_operator_tracker.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.741Z",
+      "stdout_tail": "  \"tracker_html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html\",\n  \"tracker_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv\",\n  \"provider_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/motion_probe_provider_bundles_manifest.json\",\n  \"expected_probe_map\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/expected_probe_map.csv\",\n  \"batches_checked\": 7,\n  \"expected_probe_rows\": 42,\n  \"csv_rows\": 42,\n  \"unique_custom_ids\": 42,\n  \"unique_expected_probe_filenames\": 42,\n  \"unique_shots\": 42,\n  \"returned_mp4_ready\": 0,\n  \"ingested_probe_ready\": 0,\n  \"html_links_checked\": 56,\n  \"provider_zip_total_bytes\": 324566574,\n  \"hashes\": {\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.json\": \"8fc8da4f00cc1597f694f56018de9a3171f74e8f6cf9b83819bd72c851c7b4f9\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html\": \"de02a8722bb7c328c304b38cd359f62cf928d64beb53170d257bf227ff758dd3\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv\": \"7defe23571046f22557af83c21fc37859543b8f7e4a7c86a60db52292b1984e2\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/motion_probe_provider_bundles_manifest.json\": \"2cc8b0668a940b99b7066de63c1af7962e2c078ca194edf4fb9cf84f194d2da3\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/expected_probe_map.csv\": \"6bb66f45e9189b768a92442cf25350c0969c4b55c67a4e1e64113e0e560e99ca\"\n  },\n  \"problems\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_motion_probe_submission_manifest_before_web_media_refs",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_motion_probe_submission_manifest.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.768Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_probe_submission_manifest_ready\",\n  \"total_batches\": 7,\n  \"total_probe_rows\": 42,\n  \"returned_mp4_total\": 0,\n  \"problems\": 0,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.md\",\n  \"out_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_motion_probe_upload_pack_before_web_media_refs",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_motion_probe_upload_pack.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:37.915Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_probe_upload_pack_ready\",\n  \"total_batches\": 7,\n  \"total_probe_rows\": 42,\n  \"total_upload_zip_bytes\": 324566574,\n  \"problems\": 0,\n  \"readme\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/README.md\",\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/upload_manifest.json\",\n  \"checksums\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/SHA256SUMS.txt\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_ep02_storyboard_data_before_web_media_refs",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_ep02_storyboard_data.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.422Z",
+      "stdout_tail": "wrote site/ep02_storyboard_data.js (72 shots)",
+      "stderr_tail": ""
+    },
+    {
+      "label": "validate_main_panel_smoke_before_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/validate_main_panel_smoke.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.459Z",
+      "stdout_tail": "  \"scene09FullPromptLinks\": 42,\n  \"scene09FullNegativeLinks\": 42,\n  \"scene09FullLocalVisualReviewLabels\": 42,\n  \"scene09FullLocalVisualReviewReportLinks\": 42,\n  \"scene09FullLocalVisualReviewJsonLinks\": 42,\n  \"scene09ReadinessChipSets\": 42,\n  \"scene09ReadinessChips\": 210,\n  \"scene09VideoPendingChips\": 42,\n  \"scene09ReviewQueueRows\": 0,\n  \"scene09ReviewQueueAnchors\": 0,\n  \"storyboardLinksHidden\": true,\n  \"hasChineseSceneTitle\": true,\n  \"hasChineseShotTitle\": true,\n  \"hasChineseFrameLabels\": true,\n  \"hasShotReviewBriefLabels\": true,\n  \"hasShotContinuityLockLabels\": true,\n  \"hasVideoPromptBriefLabels\": true,\n  \"hasBattleEventPanel\": true,\n  \"hasCleanScene09Header\": true,\n  \"hasNoScene09TopClutter\": true,\n  \"hasScene09SubmissionPromptSurface\": true,\n  \"hasScene09FullLocalVisualReviewSurface\": true,\n  \"errors\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_ep02_web_battle_event_panel_before_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_ep02_web_battle_event_panel.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.513Z",
+      "stdout_tail": "  \"rendered_full_prompt_links\": 42,\n  \"rendered_full_negative_links\": 42,\n  \"rendered_full_local_visual_review_labels\": 42,\n  \"rendered_full_local_visual_review_report_links\": 42,\n  \"rendered_full_local_visual_review_json_links\": 42,\n  \"rendered_video_prompt_brief_labels\": true,\n  \"rendered_readiness_chip_sets\": 42,\n  \"rendered_readiness_chips\": 210,\n  \"rendered_video_pending_chips\": 42,\n  \"rendered_priority_review_queue_rows\": 0,\n  \"rendered_priority_review_queue_anchors\": 0,\n  \"shots_with_model_ready_prompt_links\": 42,\n  \"operator_probe_zip_batches\": 7,\n  \"operator_probe_return_batches\": 7,\n  \"motion_probe_operator_tracker_decision\": \"motion_probe_operator_tracker_ready_clips_pending\",\n  \"motion_probe_operator_tracker_rows\": 42,\n  \"required_rendered_text_checked\": 21,\n  \"forbidden_top_clutter_checked\": 10,\n  \"scene09_top_surface\": \"latest_shot_cards_direct_no_priority_queue\",\n  \"storyboard_links_hidden\": true,\n  \"problems\": [],\n  \"report_json\": \"production_system/scene09_v3_attrition_package/ep02_web_battle_event_panel_audit_2026-08-03.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/ep02_web_battle_event_panel_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_ep02_web_media_refs_before_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_ep02_web_media_refs.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.576Z",
+      "stdout_tail": "{\n  \"decision\": \"ep02_web_media_refs_passed_videos_pending\",\n  \"refs_checked\": 629,\n  \"images_checked\": 284,\n  \"documents_checked\": 279,\n  \"videos_checked\": 66,\n  \"missing_required_assets\": 0,\n  \"pending_video_outputs\": 66,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/ep02_web_media_refs_audit_2026-08-02.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/ep02_web_media_refs_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_web_submission_prompt_surface_before_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_web_submission_prompt_surface.js",
+        "--skip-handoff-index"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.623Z",
+      "stdout_tail": "{\n  \"decision\": \"web_submission_prompt_surface_passed\",\n  \"scene09_shots_checked\": 42,\n  \"rows_with_model_ready_prompt_links\": 42,\n  \"handoff_index_checked\": false,\n  \"provider_prompt_contract_files_checked\": 84,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_web_submission_prompt_surface_audit_2026-08-04.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/web_submission_prompt_surface_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_operator_next_steps_before_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_next_steps.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.657Z",
+      "stdout_tail": "{\n  \"decision\": \"operator_next_steps_built\",\n  \"current_phase\": \"clips_pending\",\n  \"next_action\": \"submit_motion_probes\",\n  \"blocking_items\": 3,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_handoff_control_reports_before_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_handoff_control_reports.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.678Z",
+      "stdout_tail": "    {\n      \"id\": \"operator_preflight_status\",\n      \"file\": \"operator_preflight_status.json\",\n      \"exists\": true,\n      \"decision\": \"full_duration_release_pending_probe_review\",\n      \"declared_decision\": \"\",\n      \"problems\": [],\n      \"warnings\": [],\n      \"sha256\": \"65932892b99c67f55df5854e312ca98b9c2eb6b07ea0e5203cb92ce67921ef62\"\n    },\n    {\n      \"id\": \"OPERATOR_NEXT_STEPS\",\n      \"file\": \"OPERATOR_NEXT_STEPS.json\",\n      \"exists\": true,\n      \"decision\": \"clips_pending\",\n      \"declared_decision\": \"\",\n      \"problems\": [],\n      \"warnings\": [],\n      \"sha256\": \"97051ac87212e09267a011305bc1adc01c55c06f291a923ac4d4f6298bdf81e5\"\n    }\n  ],\n  \"problems\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.699Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "patch_handoff_index_current_034b",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/patch_scene09_v3_handoff_index_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.733Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "sync_delivery_payload_after_index_patches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/sync_scene09_v3_delivery_payload_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:38.771Z",
+      "stdout_tail": "  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_036_dimitri_lance_authoritative_applied\",\n  \"shot\": \"Shot036\",\n  \"visible_named_only\": [\n    \"Dimitri\",\n    \"Byleth\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png\"\n  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_v3_delivery_payload_current_synced\",\n  \"rows\": 42,\n  \"prompts_patched\": 42,\n  \"payload_sha256\": \"6035fb9fa66dfa5a7bb138201f6191dac59304387cf7b87c0498d7a629d3d529\",\n  \"queue_synced\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "rebuild_model_submission_batches_after_index_patches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_model_submission_batches.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.118Z",
+      "stdout_tail": "{\n  \"date\": \"2026-07-31\",\n  \"decision\": \"model_submission_batches_ready\",\n  \"package_dir\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27\",\n  \"batch_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json\",\n  \"source_battle_ledger\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json\",\n  \"total_shots\": 42,\n  \"total_batches\": 7,\n  \"batch_size\": 6,\n  \"expected_downloads_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/expected_downloads.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "rebuild_model_submission_index_after_index_patches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_model_submission_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.149Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"model_submission_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/index.html\",\n  \"batches\": 7,\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "rebuild_operator_next_steps_after_index_patches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_next_steps.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.177Z",
+      "stdout_tail": "{\n  \"decision\": \"operator_next_steps_built\",\n  \"current_phase\": \"clips_pending\",\n  \"next_action\": \"submit_motion_probes\",\n  \"blocking_items\": 3,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "rebuild_audit_handoff_control_reports_after_index_patches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_handoff_control_reports.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.198Z",
+      "stdout_tail": "    {\n      \"id\": \"operator_preflight_status\",\n      \"file\": \"operator_preflight_status.json\",\n      \"exists\": true,\n      \"decision\": \"full_duration_release_pending_probe_review\",\n      \"declared_decision\": \"\",\n      \"problems\": [],\n      \"warnings\": [],\n      \"sha256\": \"65932892b99c67f55df5854e312ca98b9c2eb6b07ea0e5203cb92ce67921ef62\"\n    },\n    {\n      \"id\": \"OPERATOR_NEXT_STEPS\",\n      \"file\": \"OPERATOR_NEXT_STEPS.json\",\n      \"exists\": true,\n      \"decision\": \"clips_pending\",\n      \"declared_decision\": \"\",\n      \"problems\": [],\n      \"warnings\": [],\n      \"sha256\": \"8e450179a4dcabdba78fdf66a513a7551237f647bfd04a218777a03446e92214\"\n    }\n  ],\n  \"problems\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "rebuild_handoff_index_after_index_patches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.219Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_web_submission_prompt_surface_after_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_web_submission_prompt_surface.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.252Z",
+      "stdout_tail": "{\n  \"decision\": \"web_submission_prompt_surface_passed\",\n  \"scene09_shots_checked\": 42,\n  \"rows_with_model_ready_prompt_links\": 42,\n  \"handoff_index_checked\": true,\n  \"provider_prompt_contract_files_checked\": 84,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_web_submission_prompt_surface_audit_2026-08-04.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/web_submission_prompt_surface_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "rebuild_handoff_index_after_web_submission_prompt_surface",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.285Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_model_prompts",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_prompts.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.318Z",
+      "stdout_tail": "      \"missing_sections\": [],\n      \"forbidden_hits\": []\n    },\n    {\n      \"shot\": \"Shot035\",\n      \"file\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/model_prompt.md\",\n      \"chars\": 9866,\n      \"expected_visible\": \"Felix, Byleth\",\n      \"visible_line\": \"Felix, Byleth\",\n      \"missing_sections\": [],\n      \"forbidden_hits\": []\n    },\n    {\n      \"shot\": \"Shot036\",\n      \"file\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/model_prompt.md\",\n      \"chars\": 8877,\n      \"expected_visible\": \"Dimitri, Byleth\",\n      \"visible_line\": \"Dimitri, Byleth\",\n      \"missing_sections\": [],\n      \"forbidden_hits\": []\n    }\n  ],\n  \"decision\": \"model_prompts_ready_for_monitored_submission\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_model_prompt_completeness",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_prompt_completeness.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.341Z",
+      "stdout_tail": "    {\n      \"order\": 40,\n      \"shot\": \"Shot034\",\n      \"package_dir\": \"shots/040_EP02-SC09-SHOT-Shot034-V2-20260721\",\n      \"source_prompt\": \"production_system/scene09_v3_attrition_package/production_video_prompts/Shot034_production_video_prompt_v3.md\",\n      \"problems\": []\n    },\n    {\n      \"order\": 41,\n      \"shot\": \"Shot035\",\n      \"package_dir\": \"shots/041_EP02-SC09-SHOT-Shot035-V2-20260721\",\n      \"source_prompt\": \"production_system/scene09_v3_attrition_package/production_video_prompts/Shot035_production_video_prompt_v3.md\",\n      \"problems\": []\n    },\n    {\n      \"order\": 42,\n      \"shot\": \"Shot036\",\n      \"package_dir\": \"shots/042_EP02-SC09-SHOT-Shot036-V2-20260721\",\n      \"source_prompt\": \"production_system/scene09_v3_attrition_package/production_video_prompts/Shot036_production_video_prompt_v3.md\",\n      \"problems\": []\n    }\n  ],\n  \"decision\": \"model_prompt_completeness_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_e2e_consistency",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_e2e_consistency.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.371Z",
+      "stdout_tail": "      \"problems\": []\n    },\n    {\n      \"shot\": \"Shot034F\",\n      \"problems\": []\n    },\n    {\n      \"shot\": \"Shot034G\",\n      \"problems\": []\n    },\n    {\n      \"shot\": \"Shot034\",\n      \"problems\": []\n    },\n    {\n      \"shot\": \"Shot035\",\n      \"problems\": []\n    },\n    {\n      \"shot\": \"Shot036\",\n      \"problems\": []\n    }\n  ]\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_video_prompt_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_video_prompt_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:39.403Z",
+      "stdout_tail": "{\n  \"decision\": \"video_prompt_contract_passed\",\n  \"checked_model_prompts\": 42,\n  \"passed\": 42,\n  \"failed\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_video_prompt_contract_audit_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_video_prompt_contract_audit_2026-07-28.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_submission_payload",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_submission_payload.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:40.145Z",
+      "stdout_tail": "      \"prompt_chars\": 9865,\n      \"visible_named_only\": [\n        \"Felix\",\n        \"Byleth\"\n      ],\n      \"expected_clip\": \"episodes/EP02/video_outputs/scene09_v3_attrition/41_Shot035.mp4\",\n      \"start_frame_sha256\": \"17c801326b2a9c0eb0ead41b2e4b5a79b513bee472361679ac023b37513c566a\",\n      \"model_prompt_sha256\": \"af2b23b325ba3852bb5c86a49b2014ca1caf3b1090bd6b5a3c41c307dc2484c5\"\n    },\n    {\n      \"shot\": \"Shot036\",\n      \"custom_id\": \"042_Shot036\",\n      \"prompt_chars\": 8876,\n      \"visible_named_only\": [\n        \"Dimitri\",\n        \"Byleth\"\n      ],\n      \"expected_clip\": \"episodes/EP02/video_outputs/scene09_v3_attrition/42_Shot036.mp4\",\n      \"start_frame_sha256\": \"7b2721e6bb8765ee64d65028cbf8a16149b907055dcca3a859bcfea2cad346d7\",\n      \"model_prompt_sha256\": \"79d0c84688174704af1cb9e829bea635e158cebf4385511c8d3b8665043bdbd5\"\n    }\n  ],\n  \"decision\": \"submission_payload_ready_for_monitored_video_model_run\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_submission_contract_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_submission_contract_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:40.304Z",
+      "stdout_tail": "{\n  \"decision\": \"submission_contract_gate_passed\",\n  \"expected_shots\": 42,\n  \"rows_checked\": 42,\n  \"execution_plan_rows\": 42,\n  \"submission_queue_rows\": 42,\n  \"submission_payload_rows\": 42,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_submission_contract_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_contract_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_high_risk_contact_sheet_ascii",
+      "argv": [
+        "python3",
+        "scripts/build_scene09_v3_high_risk_contact_sheet_ascii.py"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:40.342Z",
+      "stdout_tail": "{\n  \"decision\": \"high_risk_contact_sheet_ascii_passed\",\n  \"rows\": 5,\n  \"image\": \"production_system/reviews/scene09_v3_high_risk_contact_sheet_ascii_2026-08-01.jpg\",\n  \"package_image\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/high_risk_contact_sheet_ascii_2026-08-01.jpg\",\n  \"problems\": 0\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_frame_evidence_audit",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_frame_evidence_audit.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:40.864Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"frame_evidence_audit_passed_monitor_required\",\n  \"shots_checked\": 42,\n  \"frames_checked\": 126,\n  \"frames_passed\": 126,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_frame_evidence_audit_2026-08-01.json\",\n  \"package_report\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/frame_evidence_audit.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_per_frame_visual_review_matrix",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_per_frame_visual_review_matrix.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:56.634Z",
+      "stdout_tail": "{\n  \"decision\": \"per_frame_visual_review_matrix_passed_monitor_required\",\n  \"shots_checked\": 42,\n  \"frames_checked\": 126,\n  \"problems\": 0,\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.html\",\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_per_frame_visual_review_matrix_2026-08-03.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_per_frame_visual_review_matrix",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_per_frame_visual_review_matrix.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:56.660Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-03\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.html\",\n  \"json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.json\",\n  \"csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.csv\",\n  \"links_checked\": 381,\n  \"missing_links\": [],\n  \"frame_cards\": 126,\n  \"image_refs\": 126,\n  \"json_rows\": 126,\n  \"problems\": [],\n  \"decision\": \"per_frame_visual_review_matrix_audit_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_model_submission_batches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_submission_batches.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:56.682Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"package_dir\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27\",\n  \"batch_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json\",\n  \"source_battle_ledger\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json\",\n  \"batches_checked\": 7,\n  \"rows_checked\": 42,\n  \"source_rows\": 42,\n  \"problems\": [],\n  \"decision\": \"model_submission_batches_ready_for_provider_upload\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_model_submission_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_submission_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:56.713Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/index.html\",\n  \"batch_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json\",\n  \"links_checked\": 530,\n  \"missing_links\": [],\n  \"shot_cards\": 42,\n  \"batch_sections\": 7,\n  \"problems\": [],\n  \"decision\": \"model_submission_index_file_access_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_execution_asset_integrity",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_execution_asset_integrity.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:56.739Z",
+      "stdout_tail": "{\n  \"decision\": \"execution_asset_integrity_passed\",\n  \"shots_ready\": 42,\n  \"total_shots\": 42,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_execution_asset_integrity_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_execution_asset_integrity_2026-07-28.md\",\n  \"report_csv\": \"production_system/scene09_v3_attrition_package/scene09_v3_execution_asset_integrity_2026-07-28.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_story_constraints",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_story_constraints.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.309Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"prompt_contract\": \"42/42\",\n  \"shots\": 42,\n  \"report\": \"production_system/scene09_v3_attrition_package/scene09_v3_story_constraint_audit_2026-07-27.md\",\n  \"failures\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_narrative_hard_constraints",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_narrative_hard_constraints.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.329Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"narrative_hard_constraints_passed\",\n  \"shots_checked\": 42,\n  \"checks_passed\": 1743,\n  \"checks_total\": 1743,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_narrative_hard_constraints_audit_2026-08-01.json\",\n  \"package_report\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/narrative_hard_constraints_audit.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_executable_prompt_semantics",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_executable_prompt_semantics.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.369Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"executable_prompt_semantics_passed\",\n  \"shots_checked\": 42,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_executable_prompt_semantics_audit_2026-08-01.json\",\n  \"package_report\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/executable_prompt_semantics_audit.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_prompt_frame_consistency",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_prompt_frame_consistency.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.401Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"shots\": 42,\n  \"statusCounts\": {\n    \"monitor_required\": 42\n  },\n  \"problems\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_actual_delivery_surface",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_actual_delivery_surface_20260731.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.422Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"shot034b_empty_objective_passed\",\n  \"problems\": [],\n  \"evidence\": [\n    \"Shot034B visible roster is Byleth, Dimitri across delivery surfaces.\",\n    \"Shot034B Chinese title is 空教师目标裁定 across web surfaces.\",\n    \"Shot034B start/key/end frames use the empty faculty objective frame set or package-local model-entry frames.\",\n    \"Hanneman and Manuela are absent/offscreen/silent/unpaired and banned in prompts.\",\n    \"Submission payload contains 42 rows; real mp4 clips remain pending.\"\n  ]\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_battle_ledger_timeline",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_battle_ledger_timeline.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.449Z",
+      "stdout_tail": "{\n  \"decision\": \"battle_ledger_timeline_passed\",\n  \"shots\": 42,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.md\",\n  \"report_csv\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.csv\",\n  \"package_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/battle_ledger_timeline.json\",\n  \"package_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/battle_ledger_timeline.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_attrition_visibility_timeline",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_attrition_visibility_timeline.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.479Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"attrition_visibility_timeline_passed\",\n  \"shots\": 42,\n  \"problems\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_html_battle_ledgers",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_html_battle_ledgers.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.498Z",
+      "stdout_tail": "{\n  \"date\": \"2026-07-28\",\n  \"index\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/index.html\",\n  \"clip_review\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_review.html\",\n  \"manifest\": \"production_system/video_delivery_manifest.json\",\n  \"index_articles\": 42,\n  \"clip_review_articles\": 42,\n  \"ledger_titles\": {\n    \"index\": 42,\n    \"clip_review\": 42\n  },\n  \"problems\": [],\n  \"decision\": \"html_battle_ledger_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_gallery_links",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_gallery_links.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.520Z",
+      "stdout_tail": "{\n  \"date\": \"2026-07-28\",\n  \"html\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/index.html\",\n  \"links_checked\": 183,\n  \"missing_links\": [],\n  \"required_text_missing\": [],\n  \"decision\": \"gallery_file_access_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_clip_review_links",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_review_links.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.540Z",
+      "stdout_tail": "{\n  \"date\": \"2026-07-28\",\n  \"html\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_review.html\",\n  \"package_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json\",\n  \"links_checked\": 536,\n  \"missing_links\": [],\n  \"expected_shots\": 42,\n  \"rendered_shot_cards\": 42,\n  \"missing_shot_cards\": [],\n  \"clip_qa_decision\": \"clips_pending\",\n  \"clip_qa_count_mismatch\": false,\n  \"required_text_missing\": [],\n  \"bare_english_shot_titles\": false,\n  \"decision\": \"clip_review_file_access_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_handoff_index",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.565Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"package_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json\",\n  \"links_checked\": 705,\n  \"missing_links\": [],\n  \"shot_cards\": 42,\n  \"problems\": [],\n  \"warnings\": [],\n  \"decision\": \"handoff_index_file_access_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_model_cli_template",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_cli_template.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.593Z",
+      "stdout_tail": "{\n  \"decision\": \"model_cli_template_not_configured\",\n  \"configured\": false,\n  \"can_execute_with_local_cli\": false,\n  \"problems\": 0,\n  \"warnings\": 1,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_model_cli_template_audit_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_cli_template_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_model_cli_template_positive_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_cli_template_positive_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:57.613Z",
+      "stdout_tail": "{\n  \"decision\": \"model_cli_template_positive_contract_passed\",\n  \"expected_shots\": 42,\n  \"cases_checked\": 4,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_model_cli_template_positive_contract_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_cli_template_positive_contract.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "runner_dry_run_temp_package",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/run_video_generation_package.js",
+        "/var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_v3_runner_probe.QpF21s/package",
+        "--dry-run",
+        "--out",
+        "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:59.770Z",
+      "stdout_tail": "- WARN EP02-SC09-SHOT-Shot032A-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032B-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032C-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032D-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032E-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032F-V2-20260724: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot032G-V2-20260724: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033B-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033C-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot033D-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034C-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034D-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034B-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034E-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034F-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034G-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot034-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot035-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\n- WARN EP02-SC09-SHOT-Shot036-V2-20260721: monitor_required; submit only for monitored generation and run clip-level motion QA before promotion\nModel CLI configured: no\nModel CLI template: model_cli_template_not_configured\nMissing clips: 42\nPlan written: /var/folders/ty/bhcjhxhd6nq6mr95lsdlf8g40000gn/T/scene09_v3_runner_probe.QpF21s/package/execution_plan.json",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_full_duration_release_gate_before_execute",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_full_duration_release_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:14:59.984Z",
+      "stdout_tail": "{\n  \"decision\": \"full_duration_release_blocked_probe_review_pending\",\n  \"can_release_full_duration\": false,\n  \"expected_probe_clips\": 42,\n  \"playable_probe_clips\": 0,\n  \"review_frame_sets_ready\": 0,\n  \"release_exists\": false,\n  \"blocking_items\": 4,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_full_duration_release_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/full_duration_release_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_generated_clips",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_generated_clips.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.007Z",
+      "stdout_tail": "{\n  \"decision\": \"clips_pending\",\n  \"expected_clips\": 42,\n  \"ready_clips\": 0,\n  \"missing_clips\": 42,\n  \"failed_clips\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_generated_clip_structural_audit_2026-08-01.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_generated_clip_structural_audit_2026-08-01.md\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/generated_clip_structural_audit.json\",\n  \"legacy_report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_generated_clip_qa_status_2026-07-27.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_clip_motion_review_assets",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_clip_motion_review_assets.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.030Z",
+      "stdout_tail": "{\n  \"decision\": \"clips_pending\",\n  \"expected_clips\": 42,\n  \"extracted_clips\": 0,\n  \"missing_clips\": 42,\n  \"failed_clips\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_assets_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_assets_2026-07-28.md\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_motion_review_assets.html\",\n  \"mirror_html\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_motion_review_assets.html\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_clip_motion_review_assets_html",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_motion_review_assets_html.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.054Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-03\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_motion_review_assets.html\",\n  \"mirror_html\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_motion_review_assets.html\",\n  \"package_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json\",\n  \"links_checked\": 6,\n  \"missing_links\": [],\n  \"expected_shots\": 42,\n  \"rendered_cards\": [\n    {\n      \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_motion_review_assets.html\",\n      \"cards\": 42\n    },\n    {\n      \"html\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_motion_review_assets.html\",\n      \"cards\": 42\n    }\n  ],\n  \"problems\": [],\n  \"decision\": \"clip_motion_review_assets_html_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_clip_motion_review_decision_template",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_clip_motion_review_decision_template.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.075Z",
+      "stdout_tail": "{\n  \"decision\": \"clips_pending\",\n  \"summary\": {\n    \"expected_clips\": 42,\n    \"clip_exists\": 0,\n    \"pending_clip\": 42,\n    \"needs_codex_motion_review\": 0,\n    \"motion_review_passed\": 0,\n    \"blocked_or_rejected\": 0\n  },\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_decisions_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_decisions_2026-07-28.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_clip_motion_review_decisions",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_motion_review_decisions.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.101Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_review_pending_clips_missing\",\n  \"expected_clips\": 42,\n  \"ready_clips\": 0,\n  \"missing_clips\": 42,\n  \"failed_clips\": 0,\n  \"problems\": [],\n  \"decisions_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_decisions_2026-07-28.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_clip_revision_queue",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_clip_revision_queue.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.124Z",
+      "stdout_tail": "{\n  \"decision\": \"clip_generation_or_revision_actions_required\",\n  \"total_shots\": 42,\n  \"actionable_shots\": 42,\n  \"counts\": {\n    \"generation_pending\": 42\n  },\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_revision_queue_2026-07-28.json\",\n  \"report_md\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_revision_queue_2026-07-28.md\",\n  \"report_csv\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_revision_queue_2026-07-28.csv\",\n  \"package_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_revision_queue.json\",\n  \"package_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_revision_queue.md\",\n  \"package_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_revision_queue.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "refresh_clip_review_after_clip_audit",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_clip_review_gallery.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.149Z",
+      "stdout_tail": "{\n  \"output\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/clip_review.html\",\n  \"shots\": 42,\n  \"expected_clips\": 42,\n  \"ready_clips\": 0,\n  \"missing_clips\": 42,\n  \"handoff_decision\": \"monitor_handoff_ready_clips_pending\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "refresh_main_gallery_after_clip_audit",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_rebuild_v2_gallery.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.181Z",
+      "stdout_tail": "wrote episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/index.html (126/126 frames present)",
+      "stderr_tail": ""
+    },
+    {
+      "label": "patch_main_gallery_after_clip_audit_current_034b",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/patch_scene09_rebuild_v2_gallery_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.204Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "refresh_operator_next_steps_after_clip_audit",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_next_steps.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.242Z",
+      "stdout_tail": "{\n  \"decision\": \"operator_next_steps_built\",\n  \"current_phase\": \"clips_pending\",\n  \"next_action\": \"submit_motion_probes\",\n  \"blocking_items\": 3,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "refresh_handoff_index_after_clip_audit",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.263Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "patch_handoff_index_after_clip_audit_current_034b",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/patch_scene09_v3_handoff_index_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.297Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_handoff_index_after_refresh",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.334Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"package_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json\",\n  \"links_checked\": 705,\n  \"missing_links\": [],\n  \"shot_cards\": 42,\n  \"problems\": [],\n  \"warnings\": [],\n  \"decision\": \"handoff_index_file_access_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "completion_prompt_asset_package",
+      "argv": [
+        "/usr/local/bin/node",
+        "/Users/zekun/.codex/skills/cinematic-production-pipeline/scripts/check_completion_target.js",
+        "/Users/zekun/FireEmblem3H-LiveAction",
+        "prompt_asset_package"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.362Z",
+      "stdout_tail": "{\n  \"target\": \"prompt_asset_package\",\n  \"ok\": true,\n  \"project_root\": \"/Users/zekun/FireEmblem3H-LiveAction\",\n  \"artifacts\": 59,\n  \"reviews\": 86,\n  \"delivery_shots\": 42,\n  \"missing\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "completion_video_generation_package_expected_monitor_block",
+      "argv": [
+        "/usr/local/bin/node",
+        "/Users/zekun/.codex/skills/cinematic-production-pipeline/scripts/check_completion_target.js",
+        "/Users/zekun/FireEmblem3H-LiveAction",
+        "video_generation_package"
+      ],
+      "status": 1,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.385Z",
+      "stdout_tail": "    \"EP02-SC09-SHOT-Shot031B-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032A-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032B-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032C-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032D-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032E-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032F-V2-20260724 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot032G-V2-20260724 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot033-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot033B-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot033C-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot033D-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot034C-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot034D-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot034B-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot034E-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot034F-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot034G-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot034-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot035-V2-20260721 is monitor_required; final package must not be built\",\n    \"EP02-SC09-SHOT-Shot036-V2-20260721 is monitor_required; final package must not be built\"\n  ]\n}",
+      "stderr_tail": "",
+      "expected_failure": true,
+      "expected_failure_reason": "video_generation_package is expected to remain blocked while clips are pending and motion review is monitor_required"
+    },
+    {
+      "label": "finalize_shot034b_current_surfaces",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/finalize_scene09_034b_current_surfaces.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:00.408Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"scene09_034b_current_surfaces_finalized\",\n  \"includes_submission_queue_with_battle_ledger\": true\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_operator_execution_profile_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_execution_profile.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:09.962Z",
+      "stdout_tail": "      \"sha256\": \"9d8642c078b82bde2bee075da1509374eb06d892146cb1df53f9c36ec1b8cfc4\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_target_profile.md\",\n      \"bytes\": 4250,\n      \"sha256\": \"b770fee097592aec3e2d059566629bce4ef5ea9adb5bf184c718e18e87ea6f5c\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_manifest.json\",\n      \"bytes\": 144244,\n      \"sha256\": \"7846b254187fa88af623082a92471e45afcf2c7db0c20b20221fbc9dc4bbb6d8\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.json\",\n      \"bytes\": 14747,\n      \"sha256\": \"65932892b99c67f55df5854e312ca98b9c2eb6b07ea0e5203cb92ce67921ef62\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.md\",\n      \"bytes\": 4375,\n      \"sha256\": \"1015f7004eb4b3e22a7da2c204060c46635d2071a69d6836ec37687b57ae40c4\"\n    }\n  ]\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_provider_upload_bundles_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_provider_upload_bundles.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:09.994Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"provider_upload_bundles_ready\",\n  \"directory\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles\",\n  \"batches\": 7,\n  \"zips\": 7,\n  \"total_shots\": 42,\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles/provider_upload_bundles_manifest.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_provider_upload_bundles_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_provider_upload_bundles.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:16.339Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"provider_upload_bundles_ready\",\n  \"bundles_checked\": 7,\n  \"rows_checked\": 42,\n  \"unique_custom_ids\": 42,\n  \"zip_contents_checked\": 7,\n  \"expected_download_rows_checked\": 84,\n  \"manifest_digest_records_checked\": 672,\n  \"prompt_contract_files_checked\": 84,\n  \"negative_prompt_files_checked\": 84,\n  \"executable_negative_semantics_files_checked\": 84,\n  \"problems\": [],\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles/provider_upload_bundles_manifest.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_provider_submission_freshness_after_provider_bundles",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_provider_submission_freshness_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:18.558Z",
+      "stdout_tail": "{\n  \"decision\": \"provider_submission_freshness_passed\",\n  \"expected_shots\": 42,\n  \"model_submission_batch_rows\": 42,\n  \"provider_bundle_rows\": 42,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_provider_submission_freshness_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_submission_freshness_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_clip_return_intake_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_clip_return_intake_package.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:18.721Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"clip_return_intake_ready\",\n  \"directory\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake\",\n  \"batches\": 7,\n  \"expected_clips\": 42,\n  \"files\": [\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake/README.md\",\n      \"bytes\": 3315,\n      \"sha256\": \"8d112b700143ed964e330f35e0160341936fe2349e5c643b58c37e7f7737ec62\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake/expected_clip_map.csv\",\n      \"bytes\": 27068,\n      \"sha256\": \"936db49bed7df9d6f17ef72efbeb5210c4ccb5ffe4ea4e16842e4cb18000e445\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake/clip_return_intake_manifest.json\",\n      \"bytes\": 5794,\n      \"sha256\": \"2fadc66c2237e9f0f1dd9746d1d21e247dfe75ec8d525e70899d75687228b39f\"\n    }\n  ]\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_clip_return_intake_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_return_intake.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:18.752Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"clip_return_intake_ready\",\n  \"batches_checked\": 7,\n  \"expected_clip_rows\": 42,\n  \"unique_custom_ids\": 42,\n  \"source_files_checked\": 3,\n  \"problems\": [],\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake/clip_return_intake_manifest.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_clip_return_roundtrip_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_return_roundtrip.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:18.776Z",
+      "stdout_tail": "      \"strategy\": \"invalid_mp4_rejected\",\n      \"decision\": \"clip_ingest_needs_filename_resolution\",\n      \"unique_matched_shots\": 0,\n      \"would_copy\": 0,\n      \"copied\": 0,\n      \"unsupported_video_files\": 0,\n      \"invalid_video_files\": 1,\n      \"problems\": 0\n    },\n    {\n      \"strategy\": \"unsupported_format_rejected\",\n      \"decision\": \"clip_ingest_needs_filename_resolution\",\n      \"unique_matched_shots\": 0,\n      \"would_copy\": 0,\n      \"copied\": 0,\n      \"unsupported_video_files\": 1,\n      \"invalid_video_files\": 0,\n      \"problems\": 0\n    }\n  ],\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_return_roundtrip_audit_2026-08-01.json\",\n  \"package_report\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_roundtrip_audit.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_model_cli_execution_provenance_after_roundtrip",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_cli_execution_provenance.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:20.718Z",
+      "stdout_tail": "{\n  \"decision\": \"model_cli_execution_provenance_passed\",\n  \"expected_shots\": 42,\n  \"rows_checked\": 42,\n  \"unique_expected_clips\": 42,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_model_cli_execution_provenance_audit_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_cli_execution_provenance_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_clip_provenance_gate_after_roundtrip",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_clip_provenance_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:22.743Z",
+      "stdout_tail": "{\n  \"decision\": \"clip_provenance_ready_clips_pending\",\n  \"expected_clips\": 42,\n  \"existing_clips\": 0,\n  \"missing_clips\": 42,\n  \"provenance_rows\": 0,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_clip_provenance_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_provenance_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_motion_self_audit_packet_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_motion_self_audit_packet.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:22.765Z",
+      "stdout_tail": "  \"directory\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit\",\n  \"files\": [\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit/README.md\",\n      \"bytes\": 134081,\n      \"sha256\": \"5e4204d049ac39a9580d6275577426293d09c2b4647e517d4e7aa823b7c7e37c\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit/motion_self_audit_matrix.csv\",\n      \"bytes\": 188573,\n      \"sha256\": \"900572ed6eb15ba438c1de9c7f3a46e7a2c2812c12805436fc059a23c8248d20\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit/decision_update_template.jsonl\",\n      \"bytes\": 223621,\n      \"sha256\": \"a9164ae36ef41330b0fdfcd990f58317f1a5b7b193f8bbcb64e615ab0704d2ba\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit/motion_self_audit_manifest.json\",\n      \"bytes\": 663,\n      \"sha256\": \"ae36e397432795f88a4004ce56f9f6efad912bf35d82602c92ffe75cea4f3abb\"\n    }\n  ]\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_motion_self_audit_packet_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_motion_self_audit_packet.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:22.793Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"motion_self_audit_packet_ready\",\n  \"rows_checked\": 42,\n  \"problems\": [],\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit/motion_self_audit_manifest.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_motion_self_audit_evidence_contract_after_packet",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_motion_self_audit_evidence_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:22.820Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_self_audit_evidence_contract_passed\",\n  \"template_rows\": 42,\n  \"rows_with_review_frame_signature_keys\": 42,\n  \"problems\": 0,\n  \"warnings\": 1,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_evidence_contract_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit_evidence_contract.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_motion_self_audit_unsigned_evidence_rejection",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_motion_self_audit_unsigned_evidence_rejection.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:22.842Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_self_audit_unsigned_evidence_rejection_passed\",\n  \"rows_tested\": 42,\n  \"frame_signature_rejections\": 126,\n  \"clip_signature_rejections\": 42,\n  \"restored_default_apply_gate\": true,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_unsigned_evidence_rejection_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit_unsigned_evidence_rejection.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_motion_self_audit_apply_positive_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_motion_self_audit_apply_positive_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:22.922Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_self_audit_apply_positive_contract_passed\",\n  \"expected_shots\": 42,\n  \"proposal_rows\": 42,\n  \"applied\": true,\n  \"motion_review_passed\": 42,\n  \"battle_ledger_digest_ok\": true,\n  \"active_return_state_machine_digest_ok\": true,\n  \"stale_battle_ledger_rejected\": true,\n  \"stale_active_return_state_machine_rejected\": true,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_apply_positive_contract_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit_apply_positive_contract.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_motion_self_audit_apply_gate_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/apply_scene09_v3_motion_self_audit_decisions.js"
+      ],
+      "status": 1,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:24.283Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_self_audit_apply_blocked_clips_pending\",\n  \"applied\": false,\n  \"proposal_rows\": 42,\n  \"passed_rows\": 0,\n  \"blocked_or_rejected\": 0,\n  \"problems\": 338,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_apply_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_self_audit_apply_gate.json\"\n}",
+      "stderr_tail": "",
+      "expected_failure": true,
+      "expected_failure_reason": "motion self-audit apply gate must block until returned clips and signed review frames exist"
+    },
+    {
+      "label": "audit_after_clip_return_resume_positive_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_after_clip_return_resume_positive_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:24.312Z",
+      "stdout_tail": "{\n  \"decision\": \"after_clip_return_resume_positive_contract_passed\",\n  \"expected_shots\": 42,\n  \"ingest_decision\": \"after_clip_return_codex_motion_self_audit_required\",\n  \"apply_decision\": \"after_clip_return_ready_for_concat\",\n  \"clips_ready\": \"42/42\",\n  \"motion_frames\": \"42/42\",\n  \"final_concat_gate\": \"final_concat_gate_passed_ready_for_project_pipeline_concat\",\n  \"production_final_output_changed\": false,\n  \"fixture_download_shape\": \"nested_clip_return_intake_root_with_7_returned_mp4_dirs\",\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_after_clip_return_resume_positive_contract_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/after_clip_return_resume_positive_contract.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_final_concat_positive_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_final_concat_positive_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:43.585Z",
+      "stdout_tail": "{\n  \"decision\": \"final_concat_positive_contract_passed\",\n  \"expected_shots\": 42,\n  \"gate_decision\": \"final_concat_gate_passed_ready_for_project_pipeline_concat\",\n  \"gate_checks\": \"8/8\",\n  \"direct_expected_clip_probe\": \"42/42\",\n  \"tampered_input_rejected\": true,\n  \"tampered_provenance_rejected\": true,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_final_concat_positive_contract_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/final_concat_positive_contract.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_final_edit_positive_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_final_edit_positive_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:45.801Z",
+      "stdout_tail": "{\n  \"decision\": \"final_edit_positive_contract_passed\",\n  \"expected_shots\": 42,\n  \"expected_duration_seconds\": 252,\n  \"structural_decision\": \"final_edit_structural_passed\",\n  \"structural_ok\": true,\n  \"wrong_duration_rejected\": true,\n  \"production_final_output_changed\": false,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_final_edit_positive_contract_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/final_edit_positive_contract.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_video_generation_run_positive_contract",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_video_generation_run_positive_contract.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:46.015Z",
+      "stdout_tail": "{\n  \"decision\": \"video_generation_run_positive_contract_passed\",\n  \"expected_shots\": 42,\n  \"expected_duration_seconds\": 252,\n  \"completion_decision\": \"video_generation_run_complete\",\n  \"completion_checks\": \"30/30\",\n  \"highest_completed_target\": \"video_generation_run\",\n  \"stale_battle_ledger_rejected\": true,\n  \"stale_active_return_state_machine_rejected\": true,\n  \"stale_submission_ledger_rejected\": true,\n  \"production_final_output_changed\": false,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_video_generation_run_positive_contract_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/video_generation_run_positive_contract.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_positive_contract_isolation_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_positive_contract_isolation_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.104Z",
+      "stdout_tail": "{\n  \"decision\": \"positive_contract_isolation_passed\",\n  \"expected_shots\": 42,\n  \"production_expected_clips_existing\": \"0/42\",\n  \"production_final_output_exists\": false,\n  \"contracts_checked\": 6,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_positive_contract_isolation_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/positive_contract_isolation_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_final_concat_gate_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_final_concat_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.138Z",
+      "stdout_tail": "{\n  \"decision\": \"final_concat_blocked_clips_pending\",\n  \"passed_checks\": 2,\n  \"total_checks\": 8,\n  \"failed_checks\": [\n    \"clip_structural_integrity\",\n    \"motion_review_frames\",\n    \"motion_review_decisions\",\n    \"revision_queue_empty\",\n    \"clip_provenance_gate\",\n    \"motion_self_audit_apply_gate\"\n  ],\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_final_concat_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/final_concat_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_final_edit_structural_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_final_edit_structural.js",
+        "--file",
+        "/Users/zekun/FireEmblem3H-LiveAction/episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.168Z",
+      "stdout_tail": "{\n  \"decision\": \"final_edit_pending\",\n  \"final_output\": \"episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4\",\n  \"exists\": false,\n  \"ok\": false,\n  \"issue\": \"final_edit_pending\",\n  \"final_concat_binding_ok\": false,\n  \"final_concat_sidecar_ok\": false,\n  \"final_concat_provenance_ok\": false,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_final_edit_structural_audit_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/final_edit_structural_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_proxy_misuse_gate_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_proxy_misuse_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.191Z",
+      "stdout_tail": "{\n  \"decision\": \"proxy_isolation_passed_clips_pending\",\n  \"expected_clips_existing\": 0,\n  \"expected_clips_missing\": 42,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_proxy_misuse_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/proxy_misuse_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_report_freshness_gate_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_report_freshness_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:15:51.236Z",
+      "stdout_tail": "{\n  \"decision\": \"report_freshness_blocked\",\n  \"reports_checked\": 55,\n  \"problems\": 2,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_report_freshness_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/report_freshness_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_video_generation_run_completion_after_report",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_video_generation_run_completion.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.300Z",
+      "stdout_tail": "{\n  \"decision\": \"video_generation_run_blocked_clips_pending\",\n  \"highest_completed_target\": \"prompt_asset_package\",\n  \"passed_checks\": 21,\n  \"total_checks\": 30,\n  \"failed_checks\": [\n    \"current_status_consistency_passed\",\n    \"full_duration_release_gate_passed\",\n    \"all_expected_clips_structural_pass\",\n    \"motion_review_frames_complete\",\n    \"codex_motion_self_audit_passed\",\n    \"revision_queue_empty\",\n    \"reports_align_with_current_manifest\",\n    \"final_concat_gate_passed\",\n    \"final_edit_structural_passed\"\n  ],\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_video_generation_run_completion_audit_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/video_generation_run_completion_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "refresh_operator_execution_profile_after_completion_audit",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_execution_profile.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.345Z",
+      "stdout_tail": "      \"sha256\": \"9d8642c078b82bde2bee075da1509374eb06d892146cb1df53f9c36ec1b8cfc4\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_target_profile.md\",\n      \"bytes\": 4250,\n      \"sha256\": \"b770fee097592aec3e2d059566629bce4ef5ea9adb5bf184c718e18e87ea6f5c\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_manifest.json\",\n      \"bytes\": 144244,\n      \"sha256\": \"7846b254187fa88af623082a92471e45afcf2c7db0c20b20221fbc9dc4bbb6d8\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.json\",\n      \"bytes\": 14824,\n      \"sha256\": \"4b3aad0d1cc59be9222983cf2c3b815224b0283ed211ae9f5592cf030ab2b539\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.md\",\n      \"bytes\": 4360,\n      \"sha256\": \"0708ccf2d73f525eaa7763134d26d3c551c269467ae291e4838d46e0de641c17\"\n    }\n  ]\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "refresh_operator_next_steps_after_completion_audit",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_next_steps.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.378Z",
+      "stdout_tail": "{\n  \"decision\": \"operator_next_steps_built\",\n  \"current_phase\": \"clips_pending\",\n  \"next_action\": \"submit_motion_probes\",\n  \"blocking_items\": 4,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "refresh_handoff_index_after_downstream_audits",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.400Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "patch_handoff_index_after_downstream_audits_current_034b",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/patch_scene09_v3_handoff_index_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.433Z",
+      "stdout_tail": "  \"visible_named_only\": [\n    \"Byleth\",\n    \"Dimitri\"\n  ],\n  \"frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png\"\n  },\n  \"package_local_hashes\": {\n    \"start_frame\": {\n      \"bytes\": 2994915,\n      \"sha256\": \"5bd1ba1899110a4779c96555781116b0239eb03e38cdd701b84c872e50269422\"\n    },\n    \"key_frame\": {\n      \"bytes\": 2926872,\n      \"sha256\": \"150dcdfc01fabf1e7ef17f597a6c42433a4b8df74555a2ed63d8722f50f6ae04\"\n    },\n    \"end_frame\": {\n      \"bytes\": 2892349,\n      \"sha256\": \"9df14c2b918346dda69ff8651d610b952a7f46d2bf64c4ccc0a15fb781b2e8a4\"\n    }\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_sync_submission_entrypoints_after_current_patches",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/sync_scene09_v3_delivery_payload_current.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.472Z",
+      "stdout_tail": "  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_036_dimitri_lance_authoritative_applied\",\n  \"shot\": \"Shot036\",\n  \"visible_named_only\": [\n    \"Dimitri\",\n    \"Byleth\"\n  ],\n  \"source_frames\": {\n    \"start_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png\",\n    \"key_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png\",\n    \"end_frame\": \"episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png\"\n  }\n}\n{\n  \"ok\": true,\n  \"decision\": \"scene09_v3_delivery_payload_current_synced\",\n  \"rows\": 42,\n  \"prompts_patched\": 42,\n  \"payload_sha256\": \"5fc84b3547a07bae87ecc3e17d85dfc8a44feaf4490ae2b6a30126c5eb3e0a1b\",\n  \"queue_synced\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_rebuild_model_submission_batches_after_submission_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_model_submission_batches.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.831Z",
+      "stdout_tail": "{\n  \"date\": \"2026-07-31\",\n  \"decision\": \"model_submission_batches_ready\",\n  \"package_dir\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27\",\n  \"batch_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json\",\n  \"source_battle_ledger\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json\",\n  \"total_shots\": 42,\n  \"total_batches\": 7,\n  \"batch_size\": 6,\n  \"expected_downloads_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/expected_downloads.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_rebuild_model_submission_index_after_submission_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_model_submission_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.865Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"model_submission_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/index.html\",\n  \"batches\": 7,\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_rebuild_provider_upload_bundles_after_submission_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_provider_upload_bundles.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:51.893Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"provider_upload_bundles_ready\",\n  \"directory\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles\",\n  \"batches\": 7,\n  \"zips\": 7,\n  \"total_shots\": 42,\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles/provider_upload_bundles_manifest.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_model_submission_batches_after_submission_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_submission_batches.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:58.259Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"package_dir\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27\",\n  \"batch_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json\",\n  \"source_battle_ledger\": \"production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json\",\n  \"batches_checked\": 7,\n  \"rows_checked\": 42,\n  \"source_rows\": 42,\n  \"problems\": [],\n  \"decision\": \"model_submission_batches_ready_for_provider_upload\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_model_submission_index_after_submission_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_model_submission_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:58.292Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/index.html\",\n  \"batch_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json\",\n  \"links_checked\": 530,\n  \"missing_links\": [],\n  \"shot_cards\": 42,\n  \"batch_sections\": 7,\n  \"problems\": [],\n  \"decision\": \"model_submission_index_file_access_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_provider_upload_bundles_after_submission_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_provider_upload_bundles.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:15:58.319Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"decision\": \"provider_upload_bundles_ready\",\n  \"bundles_checked\": 7,\n  \"rows_checked\": 42,\n  \"unique_custom_ids\": 42,\n  \"zip_contents_checked\": 7,\n  \"expected_download_rows_checked\": 84,\n  \"manifest_digest_records_checked\": 672,\n  \"prompt_contract_files_checked\": 84,\n  \"negative_prompt_files_checked\": 84,\n  \"executable_negative_semantics_files_checked\": 84,\n  \"problems\": [],\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles/provider_upload_bundles_manifest.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_provider_submission_freshness_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_provider_submission_freshness_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:00.550Z",
+      "stdout_tail": "{\n  \"decision\": \"provider_submission_freshness_passed\",\n  \"expected_shots\": 42,\n  \"model_submission_batch_rows\": 42,\n  \"provider_bundle_rows\": 42,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_provider_submission_freshness_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_submission_freshness_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_submission_contract_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_submission_contract_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:00.717Z",
+      "stdout_tail": "{\n  \"decision\": \"submission_contract_gate_passed\",\n  \"expected_shots\": 42,\n  \"rows_checked\": 42,\n  \"execution_plan_rows\": 42,\n  \"submission_queue_rows\": 42,\n  \"submission_payload_rows\": 42,\n  \"problems\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_submission_contract_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/submission_contract_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_report_freshness_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_report_freshness_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:16:00.755Z",
+      "stdout_tail": "{\n  \"decision\": \"report_freshness_blocked\",\n  \"reports_checked\": 55,\n  \"problems\": 2,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_report_freshness_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/report_freshness_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_video_generation_run_completion",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_video_generation_run_completion.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:00.819Z",
+      "stdout_tail": "{\n  \"decision\": \"video_generation_run_blocked_clips_pending\",\n  \"highest_completed_target\": \"prompt_asset_package\",\n  \"passed_checks\": 21,\n  \"total_checks\": 30,\n  \"failed_checks\": [\n    \"current_status_consistency_passed\",\n    \"full_duration_release_gate_passed\",\n    \"all_expected_clips_structural_pass\",\n    \"motion_review_frames_complete\",\n    \"codex_motion_self_audit_passed\",\n    \"revision_queue_empty\",\n    \"reports_align_with_current_manifest\",\n    \"final_concat_gate_passed\",\n    \"final_edit_structural_passed\"\n  ],\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_video_generation_run_completion_audit_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/video_generation_run_completion_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_production_delivery_truth_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_production_delivery_truth_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:00.864Z",
+      "stdout_tail": "{\n  \"decision\": \"production_delivery_truth_blocked_clips_pending\",\n  \"can_claim_video_generation_run\": false,\n  \"expected_shots\": 42,\n  \"expected_clip_files_existing\": 0,\n  \"final_output_exists\": false,\n  \"blocking_items\": 9,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_production_delivery_truth_gate_2026-08-01.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_after_clip_return_resume_snapshot",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/resume_scene09_v3_after_clip_return.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:00.889Z",
+      "stdout_tail": "{\n  \"decision\": \"after_clip_return_clips_pending\",\n  \"steps\": 18,\n  \"completion_decision\": \"video_generation_run_blocked_clips_pending\",\n  \"completion_checks\": \"21/30\",\n  \"clips_ready\": \"0/42\",\n  \"motion_frames\": \"0/42\",\n  \"final_concat_gate\": \"final_concat_blocked_clips_pending\",\n  \"final_edit_audit\": \"final_edit_pending\",\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_after_clip_return_resume_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/after_clip_return_resume.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_report_freshness_gate_after_resume_snapshot",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_report_freshness_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:16:01.592Z",
+      "stdout_tail": "{\n  \"decision\": \"report_freshness_blocked\",\n  \"reports_checked\": 55,\n  \"problems\": 2,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_report_freshness_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/report_freshness_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_operator_execution_profile",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_execution_profile.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:01.656Z",
+      "stdout_tail": "      \"sha256\": \"9d8642c078b82bde2bee075da1509374eb06d892146cb1df53f9c36ec1b8cfc4\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_target_profile.md\",\n      \"bytes\": 4250,\n      \"sha256\": \"b770fee097592aec3e2d059566629bce4ef5ea9adb5bf184c718e18e87ea6f5c\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_manifest.json\",\n      \"bytes\": 144244,\n      \"sha256\": \"7846b254187fa88af623082a92471e45afcf2c7db0c20b20221fbc9dc4bbb6d8\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.json\",\n      \"bytes\": 14824,\n      \"sha256\": \"4b3aad0d1cc59be9222983cf2c3b815224b0283ed211ae9f5592cf030ab2b539\"\n    },\n    {\n      \"path\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.md\",\n      \"bytes\": 4360,\n      \"sha256\": \"0708ccf2d73f525eaa7763134d26d3c551c269467ae291e4838d46e0de641c17\"\n    }\n  ]\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_provider_preflight_consistency_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_provider_preflight_consistency_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:16:01.689Z",
+      "stdout_tail": "{\n  \"decision\": \"provider_preflight_consistency_blocked\",\n  \"can_submit_to_provider\": false,\n  \"expected_shots\": 42,\n  \"ready_clips\": 0,\n  \"missing_clips\": 42,\n  \"problems\": 3,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_provider_preflight_consistency_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_preflight_consistency_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_ep02_web_media_refs_before_handoff_refresh",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_ep02_web_media_refs.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:01.717Z",
+      "stdout_tail": "{\n  \"decision\": \"ep02_web_media_refs_passed_videos_pending\",\n  \"refs_checked\": 629,\n  \"images_checked\": 284,\n  \"documents_checked\": 279,\n  \"videos_checked\": 66,\n  \"missing_required_assets\": 0,\n  \"pending_video_outputs\": 66,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/ep02_web_media_refs_audit_2026-08-02.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/ep02_web_media_refs_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_build_motion_probe_operator_tracker_before_storyboard_rebuild",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_motion_probe_operator_tracker.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:01.766Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_probe_operator_tracker_ready_clips_pending\",\n  \"batches\": 7,\n  \"expected_probe_rows\": 42,\n  \"returned_mp4_ready\": 0,\n  \"ingested_probe_ready\": 0,\n  \"problems\": 0,\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html\",\n  \"json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.json\",\n  \"csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv\",\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_motion_probe_operator_tracker_2026-08-03.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_motion_probe_operator_tracker_before_storyboard_rebuild",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_motion_probe_operator_tracker.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:01.787Z",
+      "stdout_tail": "  \"tracker_html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html\",\n  \"tracker_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv\",\n  \"provider_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/motion_probe_provider_bundles_manifest.json\",\n  \"expected_probe_map\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/expected_probe_map.csv\",\n  \"batches_checked\": 7,\n  \"expected_probe_rows\": 42,\n  \"csv_rows\": 42,\n  \"unique_custom_ids\": 42,\n  \"unique_expected_probe_filenames\": 42,\n  \"unique_shots\": 42,\n  \"returned_mp4_ready\": 0,\n  \"ingested_probe_ready\": 0,\n  \"html_links_checked\": 56,\n  \"provider_zip_total_bytes\": 324566574,\n  \"hashes\": {\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.json\": \"8fc8da4f00cc1597f694f56018de9a3171f74e8f6cf9b83819bd72c851c7b4f9\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html\": \"de02a8722bb7c328c304b38cd359f62cf928d64beb53170d257bf227ff758dd3\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv\": \"7defe23571046f22557af83c21fc37859543b8f7e4a7c86a60db52292b1984e2\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/motion_probe_provider_bundles_manifest.json\": \"2cc8b0668a940b99b7066de63c1af7962e2c078ca194edf4fb9cf84f194d2da3\",\n    \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/expected_probe_map.csv\": \"6bb66f45e9189b768a92442cf25350c0969c4b55c67a4e1e64113e0e560e99ca\"\n  },\n  \"problems\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_build_motion_probe_submission_manifest_before_storyboard_rebuild",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_motion_probe_submission_manifest.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:01.815Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_probe_submission_manifest_ready\",\n  \"total_batches\": 7,\n  \"total_probe_rows\": 42,\n  \"returned_mp4_total\": 0,\n  \"problems\": 0,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.md\",\n  \"out_csv\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.csv\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_build_motion_probe_upload_pack_before_storyboard_rebuild",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_motion_probe_upload_pack.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:01.970Z",
+      "stdout_tail": "{\n  \"decision\": \"motion_probe_upload_pack_ready\",\n  \"total_batches\": 7,\n  \"total_probe_rows\": 42,\n  \"total_upload_zip_bytes\": 324566574,\n  \"problems\": 0,\n  \"readme\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/README.md\",\n  \"manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/upload_manifest.json\",\n  \"checksums\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/SHA256SUMS.txt\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_build_ep02_storyboard_data_before_web_media_refs",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_ep02_storyboard_data.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.504Z",
+      "stdout_tail": "wrote site/ep02_storyboard_data.js (72 shots)",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_validate_main_panel_smoke_before_handoff_refresh",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/validate_main_panel_smoke.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.543Z",
+      "stdout_tail": "  \"scene09FullPromptLinks\": 42,\n  \"scene09FullNegativeLinks\": 42,\n  \"scene09FullLocalVisualReviewLabels\": 42,\n  \"scene09FullLocalVisualReviewReportLinks\": 42,\n  \"scene09FullLocalVisualReviewJsonLinks\": 42,\n  \"scene09ReadinessChipSets\": 42,\n  \"scene09ReadinessChips\": 210,\n  \"scene09VideoPendingChips\": 42,\n  \"scene09ReviewQueueRows\": 0,\n  \"scene09ReviewQueueAnchors\": 0,\n  \"storyboardLinksHidden\": true,\n  \"hasChineseSceneTitle\": true,\n  \"hasChineseShotTitle\": true,\n  \"hasChineseFrameLabels\": true,\n  \"hasShotReviewBriefLabels\": true,\n  \"hasShotContinuityLockLabels\": true,\n  \"hasVideoPromptBriefLabels\": true,\n  \"hasBattleEventPanel\": true,\n  \"hasCleanScene09Header\": true,\n  \"hasNoScene09TopClutter\": true,\n  \"hasScene09SubmissionPromptSurface\": true,\n  \"hasScene09FullLocalVisualReviewSurface\": true,\n  \"errors\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_ep02_web_battle_event_panel_before_handoff_refresh",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_ep02_web_battle_event_panel.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.598Z",
+      "stdout_tail": "  \"rendered_full_prompt_links\": 42,\n  \"rendered_full_negative_links\": 42,\n  \"rendered_full_local_visual_review_labels\": 42,\n  \"rendered_full_local_visual_review_report_links\": 42,\n  \"rendered_full_local_visual_review_json_links\": 42,\n  \"rendered_video_prompt_brief_labels\": true,\n  \"rendered_readiness_chip_sets\": 42,\n  \"rendered_readiness_chips\": 210,\n  \"rendered_video_pending_chips\": 42,\n  \"rendered_priority_review_queue_rows\": 0,\n  \"rendered_priority_review_queue_anchors\": 0,\n  \"shots_with_model_ready_prompt_links\": 42,\n  \"operator_probe_zip_batches\": 7,\n  \"operator_probe_return_batches\": 7,\n  \"motion_probe_operator_tracker_decision\": \"motion_probe_operator_tracker_ready_clips_pending\",\n  \"motion_probe_operator_tracker_rows\": 42,\n  \"required_rendered_text_checked\": 21,\n  \"forbidden_top_clutter_checked\": 10,\n  \"scene09_top_surface\": \"latest_shot_cards_direct_no_priority_queue\",\n  \"storyboard_links_hidden\": true,\n  \"problems\": [],\n  \"report_json\": \"production_system/scene09_v3_attrition_package/ep02_web_battle_event_panel_audit_2026-08-03.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/ep02_web_battle_event_panel_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_ep02_web_media_refs_after_storyboard_rebuild",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_ep02_web_media_refs.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.663Z",
+      "stdout_tail": "{\n  \"decision\": \"ep02_web_media_refs_passed_videos_pending\",\n  \"refs_checked\": 629,\n  \"images_checked\": 284,\n  \"documents_checked\": 279,\n  \"videos_checked\": 66,\n  \"missing_required_assets\": 0,\n  \"pending_video_outputs\": 66,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/ep02_web_media_refs_audit_2026-08-02.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/ep02_web_media_refs_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_web_submission_prompt_surface_after_storyboard_rebuild",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_web_submission_prompt_surface.js",
+        "--skip-handoff-index"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.710Z",
+      "stdout_tail": "{\n  \"decision\": \"web_submission_prompt_surface_passed\",\n  \"scene09_shots_checked\": 42,\n  \"rows_with_model_ready_prompt_links\": 42,\n  \"handoff_index_checked\": false,\n  \"provider_prompt_contract_files_checked\": 84,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_web_submission_prompt_surface_audit_2026-08-04.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/web_submission_prompt_surface_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_operator_next_steps_after_media_refs",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_next_steps.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.745Z",
+      "stdout_tail": "{\n  \"decision\": \"operator_next_steps_built\",\n  \"current_phase\": \"clips_pending\",\n  \"next_action\": \"submit_motion_probes\",\n  \"blocking_items\": 4,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_handoff_control_reports_after_operator_next_steps",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_handoff_control_reports.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.767Z",
+      "stdout_tail": "    {\n      \"id\": \"operator_preflight_status\",\n      \"file\": \"operator_preflight_status.json\",\n      \"exists\": true,\n      \"decision\": \"full_duration_release_pending_probe_review\",\n      \"declared_decision\": \"\",\n      \"problems\": [],\n      \"warnings\": [],\n      \"sha256\": \"4b3aad0d1cc59be9222983cf2c3b815224b0283ed211ae9f5592cf030ab2b539\"\n    },\n    {\n      \"id\": \"OPERATOR_NEXT_STEPS\",\n      \"file\": \"OPERATOR_NEXT_STEPS.json\",\n      \"exists\": true,\n      \"decision\": \"clips_pending\",\n      \"declared_decision\": \"\",\n      \"problems\": [],\n      \"warnings\": [],\n      \"sha256\": \"878d55fb4ec1228ba6c1e0cb5de66a85ba987292435f9d168dcbdd7da2c17eab\"\n    }\n  ],\n  \"problems\": [],\n  \"warnings\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_handoff_index_after_submission_sync",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.789Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_web_submission_prompt_surface_after_handoff_refresh",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_web_submission_prompt_surface.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.823Z",
+      "stdout_tail": "{\n  \"decision\": \"web_submission_prompt_surface_passed\",\n  \"scene09_shots_checked\": 42,\n  \"rows_with_model_ready_prompt_links\": 42,\n  \"handoff_index_checked\": true,\n  \"provider_prompt_contract_files_checked\": 84,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_web_submission_prompt_surface_audit_2026-08-04.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/web_submission_prompt_surface_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_handoff_index_after_web_submission_prompt_surface",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.857Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_handoff_index_after_downstream_audits",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:02.891Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"package_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json\",\n  \"links_checked\": 705,\n  \"missing_links\": [],\n  \"shot_cards\": 42,\n  \"problems\": [],\n  \"warnings\": [],\n  \"decision\": \"handoff_index_file_access_passed\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_current_status_consistency_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_current_status_consistency_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:16:02.920Z",
+      "stdout_tail": "{\n  \"decision\": \"current_status_consistency_blocked\",\n  \"problems\": 1,\n  \"warnings\": 0,\n  \"current_status\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/CURRENT_STATUS_2026-08-01.md\",\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_current_status_consistency_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/current_status_consistency_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_report_freshness_gate_after_status_consistency",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_report_freshness_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:16:02.965Z",
+      "stdout_tail": "{\n  \"decision\": \"report_freshness_blocked\",\n  \"reports_checked\": 55,\n  \"problems\": 4,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_report_freshness_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/report_freshness_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_video_generation_run_completion_after_status_freshness",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_video_generation_run_completion.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:03.029Z",
+      "stdout_tail": "{\n  \"decision\": \"video_generation_run_blocked_clips_pending\",\n  \"highest_completed_target\": \"prompt_asset_package\",\n  \"passed_checks\": 20,\n  \"total_checks\": 30,\n  \"failed_checks\": [\n    \"current_status_consistency_passed\",\n    \"provider_preflight_consistency_passed\",\n    \"full_duration_release_gate_passed\",\n    \"all_expected_clips_structural_pass\",\n    \"motion_review_frames_complete\",\n    \"codex_motion_self_audit_passed\",\n    \"revision_queue_empty\",\n    \"reports_align_with_current_manifest\",\n    \"final_concat_gate_passed\",\n    \"final_edit_structural_passed\"\n  ],\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_video_generation_run_completion_audit_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/video_generation_run_completion_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_fixed_point_current_status_after_completion",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_current_status_consistency_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:16:03.073Z",
+      "stdout_tail": "{\n  \"decision\": \"current_status_consistency_blocked\",\n  \"problems\": 1,\n  \"warnings\": 0,\n  \"current_status\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/CURRENT_STATUS_2026-08-01.md\",\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_current_status_consistency_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/current_status_consistency_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_fixed_point_report_freshness_after_status",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_report_freshness_gate.js"
+      ],
+      "status": 1,
+      "ok": false,
+      "started_at": "2026-08-09T09:16:03.118Z",
+      "stdout_tail": "{\n  \"decision\": \"report_freshness_blocked\",\n  \"reports_checked\": 55,\n  \"problems\": 4,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_report_freshness_gate_2026-08-01.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/report_freshness_gate.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_production_delivery_truth_gate_after_completion",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_production_delivery_truth_gate.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:03.182Z",
+      "stdout_tail": "{\n  \"decision\": \"production_delivery_truth_blocked_clips_pending\",\n  \"can_claim_video_generation_run\": false,\n  \"expected_shots\": 42,\n  \"expected_clip_files_existing\": 0,\n  \"final_output_exists\": false,\n  \"blocking_items\": 9,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_production_delivery_truth_gate_2026-08-01.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_operator_next_steps_after_truth_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_operator_next_steps.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:03.207Z",
+      "stdout_tail": "{\n  \"decision\": \"operator_next_steps_built\",\n  \"current_phase\": \"clips_pending\",\n  \"next_action\": \"submit_motion_probes\",\n  \"blocking_items\": 4,\n  \"out_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.json\",\n  \"out_md\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.md\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_handoff_index_after_truth_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:03.228Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_audit_web_submission_prompt_surface_after_truth_gate_handoff_refresh",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_web_submission_prompt_surface.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:03.264Z",
+      "stdout_tail": "{\n  \"decision\": \"web_submission_prompt_surface_passed\",\n  \"scene09_shots_checked\": 42,\n  \"rows_with_model_ready_prompt_links\": 42,\n  \"handoff_index_checked\": true,\n  \"provider_prompt_contract_files_checked\": 84,\n  \"problems\": 0,\n  \"warnings\": 0,\n  \"report_json\": \"production_system/scene09_v3_attrition_package/scene09_v3_web_submission_prompt_surface_audit_2026-08-04.json\",\n  \"package_report_json\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/web_submission_prompt_surface_audit.json\"\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "final_refresh_handoff_index_after_truth_gate_web_submission_prompt_surface",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/build_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:03.298Z",
+      "stdout_tail": "{\n  \"ok\": true,\n  \"decision\": \"handoff_index_built\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"shots\": 42\n}",
+      "stderr_tail": ""
+    },
+    {
+      "label": "audit_handoff_index_after_truth_gate",
+      "argv": [
+        "/usr/local/bin/node",
+        "scripts/audit_scene09_v3_handoff_index.js"
+      ],
+      "status": 0,
+      "ok": true,
+      "started_at": "2026-08-09T09:16:03.333Z",
+      "stdout_tail": "{\n  \"date\": \"2026-08-01\",\n  \"html\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html\",\n  \"package_manifest\": \"delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json\",\n  \"links_checked\": 705,\n  \"missing_links\": [],\n  \"shot_cards\": 42,\n  \"problems\": [],\n  \"warnings\": [],\n  \"decision\": \"handoff_index_file_access_passed\"\n}",
+      "stderr_tail": ""
+    }
+  ],
+  "notes": [
+    "No VIDEO_MODEL_CLI_ARGV_JSON is configured, so no external video model was executed.",
+    "Final video generation remains pending until all 42 expected clips exist and pass clip file QA.",
+    "Clip motion review start/mid/end frame assets are pending because no real clips exist yet."
+  ],
+  "submission_contract_gate": {
+    "decision": "submission_contract_gate_passed",
+    "expected_shots": 42,
+    "rows_checked": 42,
+    "execution_plan_rows": 42,
+    "submission_queue_rows": 42,
+    "submission_payload_rows": 42,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_submission_contract_gate_2026-08-01.json"
+  },
+  "high_risk_contact_sheet_ascii": {
+    "decision": "high_risk_contact_sheet_ascii_passed",
+    "rows": 5,
+    "image": "production_system/reviews/scene09_v3_high_risk_contact_sheet_ascii_2026-08-01.jpg",
+    "package_image": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/high_risk_contact_sheet_ascii_2026-08-01.jpg",
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_high_risk_contact_sheet_ascii_2026-08-01.json"
+  },
+  "frame_evidence_audit": {
+    "decision": "frame_evidence_audit_passed_monitor_required",
+    "shots_checked": 42,
+    "frames_checked": 126,
+    "frames_passed": 126,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_frame_evidence_audit_2026-08-01.json"
+  },
+  "model_submission_batches": {
+    "decision": "model_submission_batches_ready",
+    "total_shots": 42,
+    "total_batches": 7,
+    "batch_size": 6,
+    "expected_downloads_csv": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/expected_downloads.csv",
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_model_submission_batches_2026-07-31.json"
+  },
+  "model_submission_batch_audit": {
+    "decision": "model_submission_batches_ready_for_provider_upload",
+    "batches_checked": 7,
+    "rows_checked": 42,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_model_submission_batches_audit_2026-07-31.json"
+  },
+  "model_submission_index": {
+    "decision": "model_submission_index_file_access_passed",
+    "links_checked": 530,
+    "shot_cards": 42,
+    "batch_sections": 7,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_model_submission_index_audit_2026-08-01.json"
+  },
+  "execution_asset_integrity": {
+    "decision": "execution_asset_integrity_passed",
+    "total_shots": 42,
+    "shots_ready": 42,
+    "shots_blocked": 0,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_execution_asset_integrity_2026-07-28.json"
+  },
+  "narrative_hard_constraints": {
+    "decision": "narrative_hard_constraints_passed",
+    "shots_checked": 42,
+    "checks_passed": 1743,
+    "checks_total": 1743,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_narrative_hard_constraints_audit_2026-08-01.json"
+  },
+  "executable_prompt_semantics": {
+    "decision": "executable_prompt_semantics_passed",
+    "shots_checked": 42,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_executable_prompt_semantics_audit_2026-08-01.json"
+  },
+  "actual_delivery_surface": {
+    "decision": "actual_delivery_surface_passed",
+    "problems": 0,
+    "evidence": [
+      "Shot034B visible roster is Byleth, Dimitri across delivery surfaces.",
+      "Shot034B Chinese title is 空教师目标裁定 across web surfaces.",
+      "Shot034B start/key/end frames use the empty faculty objective frame set or package-local model-entry frames.",
+      "Hanneman and Manuela are absent/offscreen/silent/unpaired and banned in prompts.",
+      "Submission payload contains 42 rows; real mp4 clips remain pending."
+    ],
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_actual_delivery_surface_audit_2026-08-01.json"
+  },
+  "battle_ledger_timeline": {
+    "decision": "battle_ledger_timeline_passed",
+    "shots": 42,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json"
+  },
+  "attrition_visibility_timeline": {
+    "decision": "attrition_visibility_timeline_passed",
+    "shots": 42,
+    "failures": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_attrition_visibility_timeline_audit_2026-07-28.json"
+  },
+  "model_cli_template_audit": {
+    "decision": "model_cli_template_not_configured",
+    "configured": false,
+    "can_execute_with_local_cli": false,
+    "problems": 0,
+    "warnings": 1,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_model_cli_template_audit_2026-08-01.json"
+  },
+  "model_cli_template_positive_contract": {
+    "decision": "model_cli_template_positive_contract_passed",
+    "expected_shots": 42,
+    "cases_checked": 4,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_model_cli_template_positive_contract_2026-08-01.json"
+  },
+  "runner_plan_validation": {
+    "ok": true,
+    "problems": []
+  },
+  "full_duration_release_gate": {
+    "decision": "full_duration_release_blocked_probe_review_pending",
+    "can_release_full_duration": false,
+    "expected_probe_clips": 42,
+    "playable_probe_clips": 0,
+    "review_frame_sets_ready": 0,
+    "full_duration_approvals": 0,
+    "release_exists": false,
+    "blocking_items": 4,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_full_duration_release_gate_2026-08-01.json"
+  },
+  "clip_status": {
+    "decision": "clips_pending",
+    "expected_clips": 42,
+    "ready_clips": 0,
+    "missing_clips": 42,
+    "failed_clips": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_generated_clip_structural_audit_2026-08-01.json"
+  },
+  "motion_review_assets": {
+    "decision": "clips_pending",
+    "expected_clips": 42,
+    "extracted_clips": 0,
+    "missing_clips": 42,
+    "failed_clips": 0,
+    "html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_motion_review_assets.html"
+  },
+  "motion_review_decisions": {
+    "decision": "clips_pending",
+    "summary": {
+      "expected_clips": 42,
+      "clip_exists": 0,
+      "pending_clip": 42,
+      "needs_codex_motion_review": 0,
+      "motion_review_passed": 0,
+      "blocked_or_rejected": 0
+    },
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_clip_motion_review_decisions_2026-07-28.json"
+  },
+  "clip_revision_queue": {
+    "decision": "clip_generation_or_revision_actions_required",
+    "actionable_shots": 42,
+    "counts": {
+      "generation_pending": 42
+    },
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_clip_revision_queue_2026-07-28.json"
+  },
+  "clip_ingest": {
+    "decision": "clip_ingest_no_matching_sources",
+    "scanned_video_files": 0,
+    "unique_matched_shots": 0,
+    "copied": 0,
+    "blocked_shots": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_clip_ingest_report_2026-07-28.json"
+  },
+  "proxy_animatic": {
+    "decision": "proxy_animatic_reference_ready",
+    "proxy_clips_ready": 42,
+    "proxy_clips_failed": 0,
+    "proxy_edit": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_proxy_animatic_edit_2026-07-28.mp4",
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_proxy_animatic_clips_2026-07-28.json"
+  },
+  "operator_preflight_status": {
+    "decision": "full_duration_release_pending_probe_review",
+    "can_submit_to_provider": false,
+    "can_execute_with_local_cli": false,
+    "can_claim_video_generation_package": false,
+    "evidence": {
+      "execution_asset_integrity": {
+        "decision": "execution_asset_integrity_passed",
+        "shots_ready": 42,
+        "total_shots": 42,
+        "problems": 0,
+        "warnings": 0
+      },
+      "actual_delivery_surface_audit": {
+        "decision": "actual_delivery_surface_passed",
+        "problems": 0,
+        "evidence": [
+          "Shot034B visible roster is Byleth, Dimitri across delivery surfaces.",
+          "Shot034B Chinese title is 空教师目标裁定 across web surfaces.",
+          "Shot034B start/key/end frames use the empty faculty objective frame set or package-local model-entry frames.",
+          "Hanneman and Manuela are absent/offscreen/silent/unpaired and banned in prompts.",
+          "Submission payload contains 42 rows; real mp4 clips remain pending."
+        ]
+      },
+      "executable_prompt_semantics": {
+        "decision": "executable_prompt_semantics_passed",
+        "shots_checked": 42,
+        "problems": 0,
+        "warnings": 0
+      },
+      "current_status_consistency_gate": {
+        "decision": "current_status_consistency_blocked",
+        "problems": 1,
+        "warnings": 0
+      },
+      "batch_upload_audit": {
+        "decision": "model_submission_batches_ready_for_provider_upload",
+        "rows_checked": 42,
+        "problems": 0
+      },
+      "submission_contract_gate": {
+        "decision": "submission_contract_gate_passed",
+        "expected_shots": 42,
+        "rows_checked": 42,
+        "execution_plan_rows": 42,
+        "submission_queue_rows": 42,
+        "submission_payload_rows": 42,
+        "problems": 0
+      },
+      "model_submission_index": {
+        "decision": "model_submission_index_file_access_passed",
+        "shot_cards": 42,
+        "links_checked": 530,
+        "problems": 0
+      },
+      "provider_upload_bundles": {
+        "decision": "provider_upload_bundles_ready",
+        "bundles_checked": 7,
+        "rows_checked": 42,
+        "unique_custom_ids": 42,
+        "zip_contents_checked": 7,
+        "expected_download_rows_checked": 84,
+        "manifest_digest_records_checked": 672,
+        "prompt_contract_files_checked": 84,
+        "negative_prompt_files_checked": 84,
+        "executable_negative_semantics_files_checked": 84,
+        "problems": 0
+      },
+      "provider_submission_freshness_gate": {
+        "decision": "provider_submission_freshness_passed",
+        "expected_shots": 42,
+        "model_submission_batch_rows": 42,
+        "provider_bundle_rows": 42,
+        "problems": 0,
+        "warnings": 0
+      },
+      "battle_ledger_timeline": {
+        "decision": "battle_ledger_timeline_passed",
+        "shots": 42,
+        "problems": 0
+      },
+      "model_cli_template_audit": {
+        "decision": "model_cli_template_not_configured",
+        "configured": false,
+        "can_execute_with_local_cli": false,
+        "problems": 0,
+        "warnings": 1
+      },
+      "model_cli_execution_provenance": {
+        "decision": "model_cli_execution_provenance_passed",
+        "expected_shots": 42,
+        "rows_checked": 42,
+        "unique_expected_clips": 42,
+        "problems": 0
+      },
+      "clip_status": {
+        "decision": "clips_pending",
+        "expected_clips": 42,
+        "ready_clips": 0,
+        "missing_clips": 42,
+        "failed_clips": 0
+      },
+      "clip_revision_queue": {
+        "decision": "clip_generation_or_revision_actions_required",
+        "actionable_shots": 42,
+        "counts": {
+          "generation_pending": 42
+        }
+      },
+      "clip_return_intake": {
+        "decision": "clip_return_intake_ready",
+        "batches_checked": 7,
+        "expected_clip_rows": 42,
+        "unique_custom_ids": 42,
+        "source_files_checked": 3,
+        "problems": 0
+      },
+      "clip_return_roundtrip": {
+        "decision": "clip_return_roundtrip_passed",
+        "scenarios": [
+          {
+            "strategy": "expected_filename",
+            "unique_matched_shots": 42,
+            "would_copy": 42,
+            "unsupported_video_files": 0,
+            "invalid_video_files": 0,
+            "problems": 0
+          },
+          {
+            "strategy": "custom_id_prefix",
+            "unique_matched_shots": 42,
+            "would_copy": 42,
+            "unsupported_video_files": 0,
+            "invalid_video_files": 0,
+            "problems": 0
+          },
+          {
+            "strategy": "nested_intake_root_expected_filenames",
+            "unique_matched_shots": 42,
+            "would_copy": 42,
+            "unsupported_video_files": 0,
+            "invalid_video_files": 0,
+            "problems": 0
+          },
+          {
+            "strategy": "loose_shot_name_rejected",
+            "unique_matched_shots": 0,
+            "would_copy": 0,
+            "unsupported_video_files": 0,
+            "invalid_video_files": 0,
+            "problems": 0
+          },
+          {
+            "strategy": "invalid_mp4_rejected",
+            "unique_matched_shots": 0,
+            "would_copy": 0,
+            "unsupported_video_files": 0,
+            "invalid_video_files": 1,
+            "problems": 0
+          },
+          {
+            "strategy": "unsupported_format_rejected",
+            "unique_matched_shots": 0,
+            "would_copy": 0,
+            "unsupported_video_files": 1,
+            "invalid_video_files": 0,
+            "problems": 0
+          }
+        ],
+        "problems": 0
+      },
+      "clip_provenance_gate": {
+        "decision": "clip_provenance_ready_clips_pending",
+        "expected_clips": 42,
+        "existing_clips": 0,
+        "missing_clips": 42,
+        "provenance_rows": 0,
+        "problems": 0,
+        "warnings": 0
+      },
+      "motion_self_audit_packet": {
+        "decision": "motion_self_audit_packet_ready",
+        "rows_checked": 42,
+        "full_post_shot_ledger_fields": [
+          "Alive / Safe After",
+          "Active / Controlling After",
+          "Limited But Not Defeated After",
+          "Defeated / Removed After",
+          "Captured / Objective-Defeated After",
+          "Stood Down / Post-Battle After",
+          "Must Not Return Active",
+          "Changed This Shot",
+          "No-Active-Combat Line"
+        ],
+        "critical_locks": {
+          "shot032F_hubert_captured_by_felix_and_ashe": true,
+          "shot032G_dorothea_and_bernadetta_captured_by_leonie_and_claude": true,
+          "shot034B_empty_objective_teachers_absent": true,
+          "shot034G_exhausted_dimitri_dedue_core": true
+        },
+        "problems": 0
+      },
+      "motion_self_audit_evidence_contract": {
+        "decision": "motion_self_audit_evidence_contract_passed",
+        "template_rows": 42,
+        "rows_with_review_frame_signature_keys": 42,
+        "problems": 0,
+        "warnings": 1
+      },
+      "motion_self_audit_unsigned_evidence_rejection": {
+        "decision": "motion_self_audit_unsigned_evidence_rejection_passed",
+        "rows_tested": 42,
+        "frame_signature_rejections": 126,
+        "clip_signature_rejections": 42,
+        "problems": 0,
+        "warnings": 0
+      },
+      "motion_self_audit_apply_positive_contract": {
+        "decision": "motion_self_audit_apply_positive_contract_passed",
+        "expected_shots": 42,
+        "proposal_rows": 42,
+        "applied": true,
+        "motion_review_passed": 42,
+        "problems": 0
+      },
+      "motion_self_audit_apply_gate": {
+        "decision": "motion_self_audit_apply_blocked_clips_pending",
+        "applied": false,
+        "proposal_rows": 42,
+        "passed_rows": 0,
+        "blocked_or_rejected": 0,
+        "problems": 338
+      },
+      "full_duration_release_gate": {
+        "decision": "full_duration_release_blocked_probe_review_pending",
+        "can_release_full_duration": false,
+        "expected_probe_clips": 42,
+        "playable_probe_clips": 0,
+        "review_frame_sets_ready": 0,
+        "full_duration_approvals": 0,
+        "release_exists": false,
+        "blocking_items": 4,
+        "problems": 0
+      },
+      "after_clip_return_resume_positive_contract": {
+        "decision": "after_clip_return_resume_positive_contract_passed",
+        "expected_shots": 42,
+        "fixture_download_shape": "nested_clip_return_intake_root_with_7_returned_mp4_dirs",
+        "ingest_decision": "after_clip_return_codex_motion_self_audit_required",
+        "apply_decision": "after_clip_return_ready_for_concat",
+        "clips_ready": 42,
+        "motion_frames": 42,
+        "final_concat_gate": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+        "production_final_output_changed": false,
+        "problems": 0
+      },
+      "final_concat_positive_contract": {
+        "decision": "final_concat_positive_contract_passed",
+        "expected_shots": 42,
+        "gate_decision": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+        "gate_passed_checks": 8,
+        "gate_total_checks": 8,
+        "problems": 0
+      },
+      "final_edit_positive_contract": {
+        "decision": "final_edit_positive_contract_passed",
+        "expected_shots": 42,
+        "expected_duration_seconds": 252,
+        "structural_decision": "final_edit_structural_passed",
+        "structural_ok": true,
+        "production_final_output_changed": false,
+        "problems": 0
+      },
+      "video_generation_run_positive_contract": {
+        "decision": "video_generation_run_positive_contract_passed",
+        "expected_shots": 42,
+        "expected_duration_seconds": 252,
+        "completion_decision": "video_generation_run_complete",
+        "completion_passed_checks": 30,
+        "completion_total_checks": 30,
+        "highest_completed_target": "video_generation_run",
+        "production_final_output_changed": false,
+        "problems": 0
+      },
+      "positive_contract_isolation_gate": {
+        "decision": "positive_contract_isolation_passed",
+        "expected_shots": 42,
+        "production_expected_clips_existing": 0,
+        "production_final_output_exists": false,
+        "contracts_checked": 6,
+        "problems": 0,
+        "warnings": 0
+      },
+      "report_freshness_gate": {
+        "decision": "report_freshness_blocked",
+        "reports_checked": 55,
+        "problems": 2,
+        "warnings": 0
+      },
+      "full_local_visual_review": {
+        "decision": "full_local_visual_review_passed_for_motion_probe_not_video_approved",
+        "shots_reviewed": 42,
+        "shots_expected": 42,
+        "frames_present": 126,
+        "frames_expected": 126,
+        "monitor_required": 42,
+        "problems": 0
+      },
+      "proxy_misuse_gate": {
+        "decision": "proxy_isolation_passed_clips_pending",
+        "expected_clips_existing": 0,
+        "expected_clips_missing": 42,
+        "problems": 0,
+        "warnings": 0
+      },
+      "video_generation_run_completion": {
+        "decision": "video_generation_run_blocked_clips_pending",
+        "highest_completed_target": "prompt_asset_package",
+        "passed_checks": 21,
+        "total_checks": 30,
+        "failed_checks": [
+          "current_status_consistency_passed",
+          "full_duration_release_gate_passed",
+          "all_expected_clips_structural_pass",
+          "motion_review_frames_complete",
+          "codex_motion_self_audit_passed",
+          "revision_queue_empty",
+          "reports_align_with_current_manifest",
+          "final_concat_gate_passed",
+          "final_edit_structural_passed"
+        ]
+      }
+    },
+    "report_json": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/operator_preflight_status.json"
+  },
+  "provider_upload_bundles": {
+    "decision": "provider_upload_bundles_ready",
+    "bundles_checked": 7,
+    "rows_checked": 42,
+    "unique_custom_ids": 42,
+    "zip_contents_checked": 7,
+    "expected_download_rows_checked": 84,
+    "manifest_digest_records_checked": 672,
+    "prompt_contract_files_checked": 84,
+    "negative_prompt_files_checked": 84,
+    "executable_negative_semantics_files_checked": 84,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_provider_upload_bundles_audit_2026-08-01.json"
+  },
+  "provider_submission_freshness_gate": {
+    "decision": "provider_submission_freshness_passed",
+    "expected_shots": 42,
+    "model_submission_batch_rows": 42,
+    "provider_bundle_rows": 42,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_provider_submission_freshness_gate_2026-08-01.json"
+  },
+  "clip_return_intake": {
+    "decision": "clip_return_intake_ready",
+    "batches_checked": 7,
+    "expected_clip_rows": 42,
+    "unique_custom_ids": 42,
+    "source_files_checked": 3,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_clip_return_intake_audit_2026-08-01.json"
+  },
+  "clip_return_roundtrip": {
+    "decision": "clip_return_roundtrip_passed",
+    "scenarios": [
+      {
+        "strategy": "expected_filename",
+        "decision": "clip_ingest_dry_run_ready_to_apply",
+        "unique_matched_shots": 42,
+        "would_copy": 42,
+        "copied": 0,
+        "unsupported_video_files": 0,
+        "invalid_video_files": 0,
+        "problems": 0
+      },
+      {
+        "strategy": "custom_id_prefix",
+        "decision": "clip_ingest_dry_run_ready_to_apply",
+        "unique_matched_shots": 42,
+        "would_copy": 42,
+        "copied": 0,
+        "unsupported_video_files": 0,
+        "invalid_video_files": 0,
+        "problems": 0
+      },
+      {
+        "strategy": "nested_intake_root_expected_filenames",
+        "decision": "clip_ingest_dry_run_ready_to_apply",
+        "unique_matched_shots": 42,
+        "would_copy": 42,
+        "copied": 0,
+        "unsupported_video_files": 0,
+        "invalid_video_files": 0,
+        "problems": 0
+      },
+      {
+        "strategy": "loose_shot_name_rejected",
+        "decision": "clip_ingest_no_matching_sources",
+        "unique_matched_shots": 0,
+        "would_copy": 0,
+        "copied": 0,
+        "unsupported_video_files": 0,
+        "invalid_video_files": 0,
+        "problems": 0
+      },
+      {
+        "strategy": "invalid_mp4_rejected",
+        "decision": "clip_ingest_needs_filename_resolution",
+        "unique_matched_shots": 0,
+        "would_copy": 0,
+        "copied": 0,
+        "unsupported_video_files": 0,
+        "invalid_video_files": 1,
+        "problems": 0
+      },
+      {
+        "strategy": "unsupported_format_rejected",
+        "decision": "clip_ingest_needs_filename_resolution",
+        "unique_matched_shots": 0,
+        "would_copy": 0,
+        "copied": 0,
+        "unsupported_video_files": 1,
+        "invalid_video_files": 0,
+        "problems": 0
+      }
+    ],
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_clip_return_roundtrip_audit_2026-08-01.json"
+  },
+  "model_cli_execution_provenance": {
+    "decision": "model_cli_execution_provenance_passed",
+    "expected_shots": 42,
+    "rows_checked": 42,
+    "unique_expected_clips": 42,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_model_cli_execution_provenance_audit_2026-08-01.json"
+  },
+  "clip_provenance_gate": {
+    "decision": "clip_provenance_ready_clips_pending",
+    "expected_clips": 42,
+    "existing_clips": 0,
+    "missing_clips": 42,
+    "provenance_rows": 0,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_clip_provenance_gate_2026-08-01.json"
+  },
+  "motion_self_audit_packet": {
+    "decision": "motion_self_audit_packet_ready",
+    "rows_checked": 42,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_packet_audit_2026-08-01.json"
+  },
+  "motion_self_audit_evidence_contract": {
+    "decision": "motion_self_audit_evidence_contract_passed",
+    "template_rows": 42,
+    "rows_with_review_frame_signature_keys": 42,
+    "problems": 0,
+    "warnings": 1,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_evidence_contract_2026-08-01.json"
+  },
+  "motion_self_audit_unsigned_evidence_rejection": {
+    "decision": "motion_self_audit_unsigned_evidence_rejection_passed",
+    "rows_tested": 42,
+    "frame_signature_rejections": 126,
+    "clip_signature_rejections": 42,
+    "restored_default_apply_gate": true,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_unsigned_evidence_rejection_2026-08-01.json"
+  },
+  "motion_self_audit_apply_positive_contract": {
+    "decision": "motion_self_audit_apply_positive_contract_passed",
+    "expected_shots": 42,
+    "proposal_rows": 42,
+    "applied": true,
+    "motion_review_passed": 42,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_apply_positive_contract_2026-08-01.json"
+  },
+  "motion_self_audit_apply_gate": {
+    "decision": "motion_self_audit_apply_blocked_clips_pending",
+    "applied": false,
+    "proposal_rows": 42,
+    "passed_rows": 0,
+    "blocked_or_rejected": 0,
+    "problems": 338,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_motion_self_audit_apply_gate_2026-08-01.json"
+  },
+  "after_clip_return_resume_positive_contract": {
+    "decision": "after_clip_return_resume_positive_contract_passed",
+    "expected_shots": 42,
+    "fixture_download_shape": "nested_clip_return_intake_root_with_7_returned_mp4_dirs",
+    "ingest_decision": "after_clip_return_codex_motion_self_audit_required",
+    "apply_decision": "after_clip_return_ready_for_concat",
+    "clips_ready": 42,
+    "motion_frames": 42,
+    "final_concat_gate": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+    "production_final_output_changed": false,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_after_clip_return_resume_positive_contract_2026-08-01.json"
+  },
+  "final_concat_positive_contract": {
+    "decision": "final_concat_positive_contract_passed",
+    "expected_shots": 42,
+    "gate_decision": "final_concat_gate_passed_ready_for_project_pipeline_concat",
+    "gate_passed_checks": 8,
+    "gate_total_checks": 8,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_final_concat_positive_contract_2026-08-01.json"
+  },
+  "final_edit_positive_contract": {
+    "decision": "final_edit_positive_contract_passed",
+    "expected_shots": 42,
+    "expected_duration_seconds": 252,
+    "structural_decision": "final_edit_structural_passed",
+    "structural_ok": true,
+    "production_final_output_changed": false,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_final_edit_positive_contract_2026-08-01.json"
+  },
+  "video_generation_run_positive_contract": {
+    "decision": "video_generation_run_positive_contract_passed",
+    "expected_shots": 42,
+    "expected_duration_seconds": 252,
+    "completion_decision": "video_generation_run_complete",
+    "completion_passed_checks": 30,
+    "completion_total_checks": 30,
+    "highest_completed_target": "video_generation_run",
+    "production_final_output_changed": false,
+    "problems": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_video_generation_run_positive_contract_2026-08-01.json"
+  },
+  "positive_contract_isolation_gate": {
+    "decision": "positive_contract_isolation_passed",
+    "expected_shots": 42,
+    "production_expected_clips_existing": 0,
+    "production_final_output_exists": false,
+    "contracts_checked": 6,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_positive_contract_isolation_gate_2026-08-01.json"
+  },
+  "final_concat_gate": {
+    "decision": "final_concat_blocked_clips_pending",
+    "passed_checks": 2,
+    "total_checks": 8,
+    "failed_checks": [
+      "clip_structural_integrity",
+      "motion_review_frames",
+      "motion_review_decisions",
+      "revision_queue_empty",
+      "clip_provenance_gate",
+      "motion_self_audit_apply_gate"
+    ],
+    "final_output_exists": false,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_final_concat_gate_2026-08-01.json"
+  },
+  "final_edit_structural_audit": {
+    "decision": "final_edit_pending",
+    "final_output": "episodes/EP02/video_outputs/scene09_v3_attrition/scene09_v3_attrition_final_edit.mp4",
+    "exists": false,
+    "ok": false,
+    "issue": "final_edit_pending",
+    "duration_seconds": null,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_final_edit_structural_audit_2026-08-01.json"
+  },
+  "proxy_misuse_gate": {
+    "decision": "proxy_isolation_passed_clips_pending",
+    "expected_clips_existing": 0,
+    "expected_clips_missing": 42,
+    "problems": 0,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_proxy_misuse_gate_2026-08-01.json"
+  },
+  "report_freshness_gate": {
+    "decision": "report_freshness_blocked",
+    "reports_checked": 55,
+    "problems": 4,
+    "warnings": 0,
+    "package_manifest_sha256": "cd4e77b89f11b45682dde2d406b32c339d04212bc62eea27ce9457e3dc62ff77",
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_report_freshness_gate_2026-08-01.json"
+  },
+  "video_generation_run_completion": {
+    "decision": "video_generation_run_blocked_clips_pending",
+    "highest_completed_target": "prompt_asset_package",
+    "passed_checks": 20,
+    "total_checks": 30,
+    "failed_checks": [
+      "current_status_consistency_passed",
+      "provider_preflight_consistency_passed",
+      "full_duration_release_gate_passed",
+      "all_expected_clips_structural_pass",
+      "motion_review_frames_complete",
+      "codex_motion_self_audit_passed",
+      "revision_queue_empty",
+      "reports_align_with_current_manifest",
+      "final_concat_gate_passed",
+      "final_edit_structural_passed"
+    ],
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_video_generation_run_completion_audit_2026-08-01.json"
+  },
+  "production_delivery_truth_gate": {
+    "decision": "production_delivery_truth_blocked_clips_pending",
+    "highest_truthful_target": "prompt_asset_package",
+    "can_claim_video_generation_run": false,
+    "expected_shots": 42,
+    "expected_clip_files_existing": 0,
+    "final_output_exists": false,
+    "blocking_items": 9,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_production_delivery_truth_gate_2026-08-01.json"
+  },
+  "provider_preflight_consistency_gate": {
+    "decision": "provider_preflight_consistency_blocked",
+    "can_submit_to_provider": false,
+    "computed_can_submit_to_provider": false,
+    "expected_shots": 42,
+    "problems": 3,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_provider_preflight_consistency_gate_2026-08-01.json"
+  },
+  "current_status_consistency_gate": {
+    "decision": "current_status_consistency_blocked",
+    "problems": 1,
+    "warnings": 0,
+    "report_json": "production_system/scene09_v3_attrition_package/scene09_v3_current_status_consistency_gate_2026-08-01.json"
+  }
+}

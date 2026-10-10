@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "episode": "EP04",
+  "reference_pack": "source/reference_pack/reference_manifest.json",
+  "source_screenshot_policy": "planning_only",
+  "assets": [
+    {
+      "id": "EP04-STYLE-LIVE",
+      "type": "style_reference",
+      "paths": [
+        "source/reference_pack/style/live_action_style_reference.png"
+      ],
+      "continuity_locks": [
+        "adult live-action performers",
+        "practical materials",
+        "16:9 cinematic depth"
+      ],
+      "reject_if": [
+        "anime",
+        "CGI render",
+        "poster",
+        "game screenshot"
+      ]
+    },
+    {
+      "id": "EP04-LOC-TOMB",
+      "type": "location_reference",
+      "paths": [
+        "source/reference_pack/locations/SeirosTomb_reference.png"
+      ],
+      "continuity_locks": [
+        "wet dark stone",
+        "cyan practical flame",
+        "north-side axis"
+      ],
+      "reject_if": [
+        "modern object",
+        "UI",
+        "bright daylight"
+      ]
+    },
+    {
+      "id": "EP04-LOC-CATHEDRAL",
+      "type": "location_reference",
+      "paths": [
+        "source/reference_pack/locations/CathedralInterior_reference.png",
+        "source/reference_pack/locations/MonasteryCathedralAntechamber_reference.png"
+      ],
+      "continuity_locks": [
+        "candlelit stone",
+        "Rhea above students",
+        "institutional symmetry"
+      ],
+      "reject_if": [
+        "lineup",
+        "game dialogue box",
+        "war ruin"
+      ]
+    },
+    {
+      "id": "EP04-LOC-CLOISTER",
+      "type": "location_reference",
+      "paths": [
+        "source/reference_pack/locations/MonasteryMainCloister_reference.png"
+      ],
+      "continuity_locks": [
+        "damp monastery corridor",
+        "night practical lamp",
+        "academy-era scale"
+      ],
+      "reject_if": [
+        "modern campus",
+        "empty black void",
+        "war-phase ruin"
+      ]
+    },
+    {
+      "id": "EP04-LOC-FOREST",
+      "type": "location_reference",
+      "paths": [
+        "source/reference_pack/locations/MistForest_reference.png"
+      ],
+      "continuity_locks": [
+        "wet trunks",
+        "green-black fog",
+        "controlled practical red source"
+      ],
+      "reject_if": [
+        "glowing villain aura",
+        "poster forest",
+        "daylight"
+      ]
+    },
+    {
+      "id": "EP04-BYLETH",
+      "type": "character_reference",
+      "paths": [
+        "source/reference_pack/characters/BylethFemale_face.png",
+        "source/reference_pack/characters/BylethFemale_fullbody.png"
+      ],
+      "continuity_locks": [
+        "female Byleth",
+        "blue-black hair",
+        "academy-era black outfit",
+        "adult-safe performer"
+      ],
+      "reject_if": [
+        "male Byleth",
+        "child",
+        "war-phase aging",
+        "second sword"
+      ]
+    },
+    {
+      "id": "EP04-DIMITRI",
+      "type": "character_reference",
+      "paths": [
+        "source/reference_pack/characters/Dimitri_face.png",
+        "source/reference_pack/characters/Dimitri_fullbody.png"
+      ],
+      "continuity_locks": [
+        "blond Dimitri",
+        "academy-era blue cape",
+        "adult-safe performer"
+      ],
+      "reject_if": [
+        "war-phase king",
+        "generic blond hero",
+        "weapon duplication"
+      ]
+    },
+    {
+      "id": "EP04-DEDUЕ",
+      "type": "character_reference",
+      "paths": [
+        "source/reference_pack/characters/Dedue_face.png",
+        "source/reference_pack/characters/Dedue_fullbody.png"
+      ],
+      "continuity_locks": [
+        "Dedue identity",
+        "academy-era navy/cream outfit",
+        "adult-safe performer"
+      ],
+      "reject_if": [
+        "generic soldier",
+        "child",
+        "wrong skin tone",
+        "weapon duplication"
+      ]
+    },
+    {
+      "id": "EP04-FACULTY",
+      "type": "faculty_identity_reference",
+      "paths": [
+        "source/reference_pack/characters/Rhea_face.png",
+        "source/reference_pack/characters/Seteth_face.png",
+        "source/reference_pack/characters/Manuela_face.png",
+        "source/reference_pack/characters/Hanneman_face.png"
+      ],
+      "continuity_locks": [
+        "adult faculty",
+        "canon identity separation",
+        "academy-era setting"
+      ],
+      "reject_if": [
+        "students in faculty roles",
+        "villain caricature",
+        "age drift"
+      ]
+    },
+    {
+      "id": "EP04-DEATH-KNIGHT",
+      "type": "helmeted_identity_reference",
+      "paths": [
+        "source/reference_pack/characters/DeathKnight_identity.png"
+      ],
+      "continuity_locks": [
+        "black-purple armor",
+        "single scythe",
+        "grounded helmeted silhouette"
+      ],
+      "reject_if": [
+        "generic knight",
+        "face reveal",
+        "scythe duplication",
+        "gore"
+      ]
+    },
+    {
+      "id": "EP04-FLAME-EMPEROR",
+      "type": "helmeted_identity_reference",
+      "paths": [
+        "source/reference_pack/characters/FlameEmperor_identity.png"
+      ],
+      "continuity_locks": [
+        "red-black horned armor",
+        "gold details",
+        "helmet remains on"
+      ],
+      "reject_if": [
+        "generic villain",
+        "face reveal",
+        "glowing eyes",
+        "poster pose"
+      ]
+    },
+    {
+      "id": "EP04-SOTHIS",
+      "type": "dream_identity_reference",
+      "paths": [
+        "source/reference_pack/characters/Sothis_identity.png"
+      ],
+      "continuity_locks": [
+        "green-white dream presence",
+        "brief reflection",
+        "no cutout"
+      ],
+      "reject_if": [
+        "UI apparition",
+        "giant glow",
+        "unmotivated physical body"
+      ]
+    }
+  ]
+}

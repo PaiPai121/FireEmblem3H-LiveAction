@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "project": "Black Eagles Support Comedy Mini-Theaters",
+  "target": "video_generation_package",
+  "packages": [
+    "delivery/video_generation_package_2026-07-28_ep01_caspar_linhardt_b",
+    "delivery/video_generation_package_2026-07-28_ep02_ferdinand_dorothea_cb",
+    "delivery/video_generation_package_2026-07-28_ep03_caspar_bernadetta_c",
+    "delivery/video_generation_package_2026-07-28_ep04_petra_bernadetta_c"
+  ],
+  "total_shots": 24,
+  "all_frames_complete": true,
+  "blockers": []
+}

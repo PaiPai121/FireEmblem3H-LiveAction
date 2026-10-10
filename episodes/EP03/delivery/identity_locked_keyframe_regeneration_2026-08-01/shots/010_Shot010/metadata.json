@@ -1,0 +1,95 @@
+{
+  "id": "Shot010",
+  "order": 10,
+  "scene": "马格德雷德雾道",
+  "purpose": "建立战场核心危险：能见度和误判。",
+  "duration_seconds": 14,
+  "characters": [
+    "Byleth",
+    "Dimitri",
+    "Dedue",
+    "Ingrid"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Ingrid/academy/selected.png",
+    "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Dimitri",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Dedue",
+      "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Ingrid",
+      "asset": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ingrid_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot010_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot010_identity_comparison_2026-07-31.jpg",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot010/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot010/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot010/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {
+    "start": "episodes/EP03/storyboards/Shot010/start_frame_imagegen_candidate_2026-07-29.png",
+    "key": "episodes/EP03/storyboards/Shot010/key_frame_imagegen_candidate_2026-07-29.png",
+    "end": "episodes/EP03/storyboards/Shot010/end_frame_imagegen_candidate_2026-07-29.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot010/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+  },
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot010_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot010_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot010_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot010/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot010/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/010_Shot010/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/010_Shot010/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/010_Shot010/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "blocked_needs_revision",
+  "visual_audit_decision": "blocked_needs_revision",
+  "required_revision": "Regenerate with a stricter local-asset identity workflow before using this as an EP03 keyframe asset; keep current imagegen files only as blocked composition studies.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "dissolve from monastery road",
+  "edit_out": "cut to village sign",
+  "audio_anchor": "Ingrid, in Japanese: 霧が濃すぎるわ。 Dedue, in Japanese: 足音を聞け。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for 马格德雷德雾道; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: 灰白雾道，断树、泥水、远处村庄烟线，队伍成两列前进。",
+    "end": "Land on the state needed for the next cut: cut to village sign."
+  }
+}

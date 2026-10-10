@@ -1,0 +1,74 @@
+{
+  "id": "Shot035",
+  "order": 35,
+  "scene": "Dimitri 夜谈",
+  "purpose": "让本章创伤落到青狮主线：正义与杀戮无法分开。",
+  "duration_seconds": 18,
+  "characters": [
+    "Dimitri",
+    "Byleth"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Dimitri",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot035_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot035/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot035/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot035/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {},
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot035_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot035_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot035_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot035/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot035/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/035_Shot035/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/035_Shot035/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/035_Shot035/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "visual_blocked",
+  "visual_audit_decision": "visual_blocked",
+  "required_revision": "Regenerate real live-action start/key/end frames with integrated lighting, shot-specific blocking, readable named identities, and a clear key action peak.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from Catherine line",
+  "edit_out": "cut to Byleth alone",
+  "audio_anchor": "Dimitri, in Japanese: 殺意が正義をまとえば、とても静かになるのですね。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for Dimitri 夜谈; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: 夜间回廊，Dimitri 承认自己知道战斗必要，却害怕太快习惯它。",
+    "end": "Land on the state needed for the next cut: cut to Byleth alone."
+  }
+}

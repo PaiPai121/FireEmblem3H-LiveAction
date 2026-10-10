@@ -1,0 +1,79 @@
+{
+  "series": "golden_deer_support_comedy",
+  "review_date": "2026-08-04",
+  "package": "delivery/video_generation_package_2026-07-31_timing_safe",
+  "overall_decision": "blocked_needs_revision",
+  "structural_gates": {
+    "check_gdsc_visual_gate": "passed",
+    "check_gdsc_delivery_contract": "passed",
+    "audit_gdsc_video_prompts": "approved_for_video",
+    "validate_gdsc_web_links": "passed",
+    "check_gdsc_aspect_safety": "passed"
+  },
+  "blocking_gate": {
+    "audit_gdsc_frame_reuse": "failed",
+    "reason": "cross-shot frame reuse remains in all four episodes"
+  },
+  "required_rebuild_queue": {
+    "P0": {
+      "EP01_hilda_lorenz": [
+        "011_GDSC01-SH004C"
+      ],
+      "EP02_hilda_marianne": [
+        "002_GDSC02-SH001B",
+        "003_GDSC02-SH002A"
+      ],
+      "EP03_hilda_lysithea": [
+        "002_GDSC03-SH001B",
+        "003_GDSC03-SH002A",
+        "004_GDSC03-SH002B",
+        "005_GDSC03-SH002C",
+        "007_GDSC03-SH003B",
+        "008_GDSC03-SH004A",
+        "009_GDSC03-SH004B",
+        "010_GDSC03-SH004C"
+      ],
+      "EP04_claude_lorenz": [
+        "001_GDSC04-SH001A",
+        "002_GDSC04-SH001B",
+        "004_GDSC04-SH002B",
+        "005_GDSC04-SH002C",
+        "007_GDSC04-SH003B",
+        "008_GDSC04-SH004A"
+      ]
+    },
+    "P1_monitor_after_rebuild": {
+      "EP01_hilda_lorenz": [
+        "009_GDSC01-SH004A"
+      ],
+      "EP02_hilda_marianne": [
+        "001_GDSC02-SH001A",
+        "010_GDSC02-SH004C"
+      ],
+      "EP03_hilda_lysithea": [
+        "001_GDSC03-SH001A",
+        "006_GDSC03-SH003A"
+      ],
+      "EP04_claude_lorenz": [
+        "003_GDSC04-SH002A",
+        "006_GDSC04-SH003A",
+        "009_GDSC04-SH004B"
+      ]
+    }
+  },
+  "human_review_report": "specials/golden_deer_support_comedy/full_package_review_2026-08-04.md",
+  "contact_sheets": [
+    "specials/golden_deer_support_comedy/review_contact_sheets_2026-08-04/EP01_hilda_lorenz_review_contact.jpg",
+    "specials/golden_deer_support_comedy/review_contact_sheets_2026-08-04/EP02_hilda_marianne_review_contact.jpg",
+    "specials/golden_deer_support_comedy/review_contact_sheets_2026-08-04/EP03_hilda_lysithea_review_contact.jpg",
+    "specials/golden_deer_support_comedy/review_contact_sheets_2026-08-04/EP04_claude_lorenz_review_contact.jpg"
+  ],
+  "aspect_geometry_audit": "specials/golden_deer_support_comedy/aspect_geometry_audit_2026-08-04.md",
+  "aspect_geometry_decision": {
+    "previous_review_gap": "frame dimensions were checked, visible flattened content was not independently gated",
+    "repair_applied": [
+      "EP02_hilda_marianne/005_GDSC02-SH003A start/key/end regenerated as native single-frame 16:9"
+    ],
+    "current_status": "aspect_distortion_gate_passed; overall package still blocked by cross-shot frame reuse"
+  }
+}

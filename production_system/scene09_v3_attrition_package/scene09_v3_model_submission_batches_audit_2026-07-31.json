@@ -1,0 +1,11 @@
+{
+  "date": "2026-08-01",
+  "package_dir": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "batch_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/model_submission_batches/batch_manifest.json",
+  "source_battle_ledger": "production_system/scene09_v3_attrition_package/scene09_v3_battle_ledger_timeline_2026-07-28.json",
+  "batches_checked": 7,
+  "rows_checked": 42,
+  "source_rows": 42,
+  "problems": [],
+  "decision": "model_submission_batches_ready_for_provider_upload"
+}

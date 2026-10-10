@@ -1,0 +1,51 @@
+{
+  "shot": "Shot012",
+  "review_date": "2026-08-15",
+  "review_mode": "critical_reaudit_current_web_candidate",
+  "decision": "monitor_required",
+  "display_frame_set": "critical_reaudit_regen_v1",
+  "display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg"
+  },
+  "reference_assets": [
+    "episodes/EP03/storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+    "episodes/EP03/production_system/reviews/critical_reaudit_2026-08-15/shot012_local_character_reference_board_2026-08-15.jpg",
+    "assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png"
+  ],
+  "previous_candidate_downgrade": {
+    "frame_set": "integrated_candidate_v2_2026-08-10",
+    "decision": "blocked_needs_revision",
+    "reason": "Prior END redesigned female Byleth into a sexualized leather/glamor costume with exposed chest/fishnet-like styling risk and the prompt retained path/template contamination."
+  },
+  "visual_findings": [
+    "START establishes Byleth and Ashe observing from wet forest cover while camp smoke connects to Shot011.",
+    "KEY reveals organized rebel evidence: faith flags, tired soldiers, campfires, and patrol discipline.",
+    "END shifts attention back to Byleth and Ashe deciding to pull back for the tactical halt."
+  ],
+  "prompt_findings": [
+    "Executable prompt refers only to uploaded START/KEY/END frames.",
+    "Prompt treats Shot012 as silent reconnaissance with natural sound only.",
+    "Prompt rejects Chinese/Mandarin voiceover and subtitles.",
+    "Prompt explicitly forbids sexualized Byleth costume drift and removes unrelated character contamination."
+  ],
+  "remaining_risks": [
+    "Cold fog palette could flatten the clip into a static surveillance hold.",
+    "END has less visible Seiros soldier detail and must preserve organized camp evidence in motion.",
+    "Ashe hair/lightness and Byleth black professor outfit must not drift."
+  ],
+  "required_next_gate": "3s_motion_probe_before_approved_for_video",
+  "reject_if": [
+    "male Byleth appears",
+    "Byleth becomes anonymous, gender-ambiguous, war-phase, or sexualized",
+    "Byleth gains exposed cleavage, fishnet tights, glamor leather armor, or pin-up styling",
+    "Ashe becomes generic, older, or executioner-coded",
+    "camp becomes generic bandits or chaotic raiders",
+    "old faith flags, disciplined layout, patrol, prayer/devotional evidence, or tired soldiers around fires disappear",
+    "Lonato closeup, Catherine, Dimitri, Mercedes, Dedue, Ingrid, battle action, or gore appear",
+    "Chinese/Mandarin voiceover, added narration, subtitles, captions, readable text, or game UI appear"
+  ]
+}

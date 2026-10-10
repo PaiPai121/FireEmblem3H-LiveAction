@@ -1,0 +1,110 @@
+{
+  "id": "GDSC01-SH004B",
+  "order": 10,
+  "status": "approved_for_video",
+  "duration_seconds": 10,
+  "expected_clip": "clips/GDSC01-SH004B.mp4",
+  "edit_in": "cut from Hilda's delighted face",
+  "edit_out": "hold on Hilda's amused exit",
+  "audio_anchor": "Lorenz's full-name request is the comic peak.",
+  "continuity_previous": "GDSC01-SH003",
+  "continuity_next": "",
+  "model_notes": [
+    "Target Seedance image-to-video workflow.",
+    "Use start/key/end frames as hard visual anchors.",
+    "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+    "Preserve academy-phase face, hair, uniform, and age identity from references."
+  ],
+  "reject_if": [
+    "Lorenz looks foolish instead of proud",
+    "Hilda eats on camera in a messy way",
+    "new conflict is introduced"
+  ],
+  "visual_version": "v4_timing_safe_micro_frames",
+  "visual_status": "timing_repaired_imagegen_frames_applied",
+  "frame_provenance": {
+    "method": "copied timing-safe frame anchors from approved parent shot",
+    "parent_shot": "specials/golden_deer_support_comedy/EP01_hilda_lorenz/delivery/video_generation_package_2026-07-28/shots/004_GDSC01-SH004",
+    "frame_sources": {
+      "start_frame.png": "specials/golden_deer_support_comedy/EP01_hilda_lorenz/delivery/video_generation_package_2026-07-28/shots/004_GDSC01-SH004/key_frame.png",
+      "key_frame.png": "specials/golden_deer_support_comedy/EP01_hilda_lorenz/delivery/video_generation_package_2026-07-28/shots/004_GDSC01-SH004/key_frame.png",
+      "end_frame.png": "specials/golden_deer_support_comedy/EP01_hilda_lorenz/delivery/video_generation_package_2026-07-28/shots/004_GDSC01-SH004/key_frame.png"
+    }
+  },
+  "updated_at": "2026-08-04T23:20:34",
+  "temporal_frame_provenance": {
+    "method": "independent image_gen temporal frame generation",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_k0jAtoylEC5BjkZa7z5o5XlZ.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_ZyCUby3YyYJ7EYjCNqnVakMn.png"
+    }
+  },
+  "title": "GDSC01-SH004 / timing split B",
+  "parent_shot_id": "GDSC01-SH004",
+  "dialogue_line_count": 1,
+  "dialogue_timing_estimate_seconds": 7.53,
+  "timing_status": "approved_for_video_timing_safe",
+  "timing_frame_repair": {
+    "method": "restored real imagegen frame anchors from the approved parent chain, with explicit regenerated frames where mapped; no copied duplicate frame anchors",
+    "frame_sources": {
+      "start_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_cx0HnuX0zpAWJfpoXZtpisck.png",
+      "end_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_lzlur2XYIwcehWrxJIk8yVT4.png",
+      "key_frame.png": "/Users/zekun/.codex/generated_images/019fa8f8-a16f-7da2-9454-18a56bb99e7c/call_a32TtZvzOMFeNDQHubSunpS7.png"
+    },
+    "updated_at": "2026-08-04T23:20:34",
+    "aspect_policy": "aspect_safe_crop_no_stretch",
+    "frame_aspect_report": {
+      "start_frame.png": {
+        "source_size": [
+          1672,
+          941
+        ],
+        "source_aspect": 1.776833,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch"
+      },
+      "key_frame.png": {
+        "source_size": [
+          1672,
+          941
+        ],
+        "source_aspect": 1.776833,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch"
+      },
+      "end_frame.png": {
+        "source_size": [
+          1672,
+          941
+        ],
+        "source_aspect": 1.776833,
+        "target_size": [
+          1280,
+          720
+        ],
+        "target_aspect": 1.777778,
+        "resize_policy": "aspect_safe_crop_no_stretch"
+      }
+    }
+  },
+  "aspect_geometry_review_2026_08_04": {
+    "reviewed_at": "2026-08-04T23:38:04",
+    "review_surface": "EP01_hilda_lorenz/aspect_review_contact_2026-08-04.jpg",
+    "result": "manual_visual_pass_no_flattening_observed",
+    "checks": [
+      "no obvious horizontal flattening of faces or bodies",
+      "no obvious vertical compression of people",
+      "architecture not visibly anamorphically stretched",
+      "video frames remain 1280x720 with no subtitles or letterbox added by this review"
+    ],
+    "limitations": "manual contact-sheet geometry review catches visible flattening; duplicate-frame and composition/story-readiness remain separate gates"
+  }
+}

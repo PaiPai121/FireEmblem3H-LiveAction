@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-03",
+  "decision": "motion_probe_operator_tracker_audit_passed",
+  "package_dir": "delivery/scene09_v3_monitor_handoff_package_2026-07-27",
+  "tracker_json": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.json",
+  "tracker_html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html",
+  "tracker_csv": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv",
+  "provider_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/motion_probe_provider_bundles_manifest.json",
+  "expected_probe_map": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/expected_probe_map.csv",
+  "batches_checked": 7,
+  "expected_probe_rows": 42,
+  "csv_rows": 42,
+  "unique_custom_ids": 42,
+  "unique_expected_probe_filenames": 42,
+  "unique_shots": 42,
+  "returned_mp4_ready": 0,
+  "ingested_probe_ready": 0,
+  "html_links_checked": 56,
+  "provider_zip_total_bytes": 324566574,
+  "hashes": {
+    "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.json": "8fc8da4f00cc1597f694f56018de9a3171f74e8f6cf9b83819bd72c851c7b4f9",
+    "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html": "de02a8722bb7c328c304b38cd359f62cf928d64beb53170d257bf227ff758dd3",
+    "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv": "7defe23571046f22557af83c21fc37859543b8f7e4a7c86a60db52292b1984e2",
+    "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/motion_probe_provider_bundles_manifest.json": "124ce37b82b607ee3b206d16dac549ee6303edcf21d3fefdb16974c079a53e34",
+    "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/expected_probe_map.csv": "6bb66f45e9189b768a92442cf25350c0969c4b55c67a4e1e64113e0e560e99ca"
+  },
+  "problems": [],
+  "warnings": []
+}

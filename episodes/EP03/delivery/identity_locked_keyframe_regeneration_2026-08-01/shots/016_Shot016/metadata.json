@@ -1,0 +1,87 @@
+{
+  "id": "Shot016",
+  "order": 16,
+  "scene": "Dimitri 克制锋芒",
+  "purpose": "展示 Dimitri 已有危险力量，但仍听从 Byleth。",
+  "duration_seconds": 15,
+  "characters": [
+    "Dimitri",
+    "Byleth",
+    "Dedue"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/Byleth/professor/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+  ],
+  "identity_plates": [
+    {
+      "character_id": "Dimitri",
+      "asset": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Byleth",
+      "asset": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_Byleth_professor_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    },
+    {
+      "character_id": "Dedue",
+      "asset": "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "plate": "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg",
+      "status": "layout_reference"
+    }
+  ],
+  "local_asset_proof_sheet": "episodes/EP03/production_system/reviews/local_asset_previs_proof_2026-07-31/Shot016_local_asset_previs_proof_2026-07-31.jpg",
+  "identity_comparison": "episodes/EP03/production_system/reviews/identity_lock_comparison_2026-07-31/Shot016_identity_comparison_2026-07-31.jpg",
+  "current_local_previs": {
+    "start": "episodes/EP03/storyboards/Shot016/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot016/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot016/end_frame.png"
+  },
+  "rejected_imagegen_candidates": {
+    "start": "episodes/EP03/storyboards/Shot016/start_frame_imagegen_candidate_2026-07-29.png",
+    "key": "episodes/EP03/storyboards/Shot016/key_frame_imagegen_candidate_2026-07-29.png",
+    "end": "episodes/EP03/storyboards/Shot016/end_frame_imagegen_candidate_2026-07-29.png",
+    "contact_sheet": "episodes/EP03/storyboards/Shot016/imagegen_frameset_contact_sheet_2026-07-29.jpg"
+  },
+  "blocked_identity_locked_probes": {},
+  "regenerated_frame_candidates": {},
+  "source_reference": "episodes/EP03/source_refs/Shot016_source.png",
+  "original_prompt_path": "episodes/EP03/video_prompts/Shot016_prompt.md",
+  "original_negative_prompt_path": "episodes/EP03/video_prompts/Shot016_negative_prompt.md",
+  "revised_prompt_paths": {},
+  "frame_spec_path": "episodes/EP03/storyboards/Shot016/frame_spec.md",
+  "source_metadata_path": "episodes/EP03/storyboards/Shot016/metadata.json",
+  "expected_outputs": {
+    "start": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/016_Shot016/start_frame_identity_locked_regen_2026-08-01.png",
+    "key": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/016_Shot016/key_frame_identity_locked_regen_2026-08-01.png",
+    "end": "delivery/identity_locked_keyframe_regeneration_2026-08-01/shots/016_Shot016/end_frame_identity_locked_regen_2026-08-01.png"
+  },
+  "generation_status": "frames_pending",
+  "delivery_status": "blocked_needs_revision",
+  "visual_audit_decision": "blocked_needs_revision",
+  "required_revision": "Regenerate with a stricter local-asset identity workflow before using this as an EP03 keyframe asset; keep current imagegen files only as blocked composition studies.",
+  "video_prompt_qa_decision": "",
+  "motion_probe_status": "",
+  "motion_probe_plan": "",
+  "video_prompt_v2": "",
+  "negative_prompt_v2": "",
+  "edit_in": "cut from rebel pressure",
+  "edit_out": "cut to Ashe sees sigil",
+  "audio_anchor": "Byleth, in Japanese: 戦線を守れ。 Dimitri, in Japanese: 承知しました。",
+  "reject_if": [
+    "game UI or subtitles appear",
+    "academy identities drift",
+    "Lonato becomes a generic villain",
+    "Ashe directly executes Lonato"
+  ],
+  "frame_intents": {
+    "start": "Establish the pre-action state for Dimitri 克制锋芒; preserve geography from the source reference and keep the viewer's first read clear.",
+    "key": "Capture the decisive visible beat: Dimitri 一枪逼退敌人，差点追深，Byleth 抬手，他停住。",
+    "end": "Land on the state needed for the next cut: cut to Ashe sees sigil."
+  }
+}

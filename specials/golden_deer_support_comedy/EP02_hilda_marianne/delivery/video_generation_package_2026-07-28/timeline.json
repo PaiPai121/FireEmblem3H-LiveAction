@@ -1,0 +1,37 @@
+{
+  "total_duration_seconds": 60,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "GDSC02-SH001",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC02-SH001.mp4",
+      "edit_in": "cut from quiet library ambience",
+      "edit_out": "cut as Hilda seeks agreement"
+    },
+    {
+      "order": 2,
+      "shot": "GDSC02-SH002",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC02-SH002.mp4",
+      "edit_in": "cut on Hilda inviting agreement",
+      "edit_out": "cut to Marianne alone"
+    },
+    {
+      "order": 3,
+      "shot": "GDSC02-SH003",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC02-SH003.mp4",
+      "edit_in": "cut from Marianne alone",
+      "edit_out": "cut on Hilda deciding to show the method"
+    },
+    {
+      "order": 4,
+      "shot": "GDSC02-SH004",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC02-SH004.mp4",
+      "edit_in": "cut on Hilda accepting responsibility",
+      "edit_out": "hold on tidy table and Hilda's sigh"
+    }
+  ]
+}

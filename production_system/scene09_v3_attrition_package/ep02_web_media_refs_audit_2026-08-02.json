@@ -1,0 +1,4613 @@
+{
+  "date": "2026-08-02",
+  "decision": "ep02_web_media_refs_passed_videos_pending",
+  "data_path": "site/ep02_storyboard_data.js",
+  "data_sha256": "8b33671267d21ece8d650f6f769b75447e1e04ee64136b0178ff2709c09c76a8",
+  "refs_checked": 755,
+  "images_checked": 410,
+  "documents_checked": 279,
+  "videos_checked": 66,
+  "missing_required_assets": 0,
+  "pending_video_outputs": 66,
+  "missing_required_asset_refs": [],
+  "pending_video_output_refs": [
+    "episodes/EP02/video_outputs/cinematic_v2/Shot001.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot002.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot003.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot004.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot005.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot006.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot007.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot008.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot009.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot010.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot011.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot012.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot013.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot014.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot015.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot016.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot017.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot018.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot019.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot020.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot021.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot022.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot023.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot024.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot025.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot025A.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot026.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot026B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot026C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot027.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot027B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot027C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot027D.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot028.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot028B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot028C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot029.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot029B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot029C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot029D.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot030.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot030B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot030C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot031.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot031B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot032.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot032B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot032C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot032D.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot032E.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot033.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot033B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot033C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot033D.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot034.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot034B.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot034C.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot034D.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot035.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot036.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot037.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot038.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot039.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot040.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot041.mp4",
+    "episodes/EP02/video_outputs/cinematic_v2/Shot042.mp4"
+  ],
+  "rows": [
+    {
+      "ref": "assets/characters/antagonists/Kostas/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/black_eagles/Bernadetta/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/black_eagles/Dorothea/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/black_eagles/Edelgard/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/black_eagles/Ferdinand/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/black_eagles/Hubert/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Annette/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Felix/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/church_of_seiros/Hanneman/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/church_of_seiros/Manuela/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/extras/AcademyStudentExtra/legacy_ep02/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/extras/ChurchKnightExtra/legacy_ep02/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/golden_deer/Claude/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/golden_deer/Hilda/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/golden_deer/Ignatz/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/golden_deer/Leonie/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/golden_deer/Lorenz/academy/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/characters/protagonist/Byleth/professor/selected.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act00/MonasteryGate_InteriorReverse/MonasteryGate_InteriorReverse_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/AudienceHall_ChoiceCeremony/AudienceHall_ChoiceCeremony_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/GarregMachMountainRoad/GarregMachMountainRoad_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/LibraryOrTeacherOffice/LibraryOrTeacherOffice_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/MonasteryCathedralAntechamber/MonasteryCathedralAntechamber_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/MonasteryMainCloister_DayStudentFlow/MonasteryMainCloister_DayStudentFlow_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/MonasteryMainGatePlaza/MonasteryMainGatePlaza_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/MountainRuinsNight/MountainRuinsNight_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/NightMainCloister/NightMainCloister_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/OfficersAcademyClassroom_StudentRows/OfficersAcademyClassroom_StudentRows_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/OfficersAcademyClassroom_TeacherPOV/OfficersAcademyClassroom_TeacherPOV_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act01/ThreeHousesCourtyard/ThreeHousesCourtyard_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act02/MockBattleGrounds/MockBattleGrounds_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act02/MockBattleGrounds_BlackVsGolden_Backfield/MockBattleGrounds_BlackVsGolden_Backfield_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act02/MockBattleGrounds_BlueVsBlack_TacticalLane/MockBattleGrounds_BlueVsBlack_TacticalLane_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act02/MockBattleGrounds_BlueVsGolden_FlankRange/MockBattleGrounds_BlueVsGolden_FlankRange_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act02/MockBattleGrounds_CanonMap/MockBattleGrounds_CanonMap_master_2026-07-19.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act02/TrainingGround_ObservationEdge/TrainingGround_ObservationEdge_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act03/NightMainCloister_EmptyLongHall/NightMainCloister_EmptyLongHall_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/locations/EP02/act03/NightMainCloister_GreenReflection/NightMainCloister_GreenReflection_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/props/EP02/mercenary_badge/mercenary_badge_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "assets/props/EP02/training_weapons/training_weapons_reference.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/OPERATOR_NEXT_STEPS.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/battle_ledger_timeline.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/battle_ledger_timeline.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake/README.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/clip_return_intake/expected_clip_map.csv",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/ep02_web_battle_event_panel_audit.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/handoff_control_reports_audit.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/handoff_control_reports_audit.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.csv",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.html",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker_audit.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_operator_tracker_audit.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/README.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_provider_bundles/index.html",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/README.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_return_intake/expected_probe_map.csv",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.csv",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_submission_manifest.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/README.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/RETURN_DIRECTORIES.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/upload_manifest.csv",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/motion_probe_upload_pack/upload_manifest.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.html",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles/README.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/provider_upload_bundles/RETURN_CONTRACT.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/001_EP02-SC09-SHOT-Shot025-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/002_EP02-SC09-SHOT-Shot025A-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/003_EP02-SC09-SHOT-Shot026-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/004_EP02-SC09-SHOT-Shot026B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/005_EP02-SC09-SHOT-Shot026C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/006_EP02-SC09-SHOT-Shot027-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/007_EP02-SC09-SHOT-Shot027B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/008_EP02-SC09-SHOT-Shot027C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/009_EP02-SC09-SHOT-Shot027D-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/010_EP02-SC09-SHOT-Shot028-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/011_EP02-SC09-SHOT-Shot028B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/012_EP02-SC09-SHOT-Shot028C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/013_EP02-SC09-SHOT-Shot029-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/014_EP02-SC09-SHOT-Shot029C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/015_EP02-SC09-SHOT-Shot029D-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/016_EP02-SC09-SHOT-Shot029B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/017_EP02-SC09-SHOT-Shot030-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/018_EP02-SC09-SHOT-Shot030B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/019_EP02-SC09-SHOT-Shot030C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/020_EP02-SC09-SHOT-Shot031-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/021_EP02-SC09-SHOT-Shot031B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/022_EP02-SC09-SHOT-Shot032-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/023_EP02-SC09-SHOT-Shot032A-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/024_EP02-SC09-SHOT-Shot032B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/025_EP02-SC09-SHOT-Shot032C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/026_EP02-SC09-SHOT-Shot032D-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/027_EP02-SC09-SHOT-Shot032E-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/028_EP02-SC09-SHOT-Shot032F-V2-20260724/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/029_EP02-SC09-SHOT-Shot032G-V2-20260724/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/030_EP02-SC09-SHOT-Shot033-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/031_EP02-SC09-SHOT-Shot033B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/032_EP02-SC09-SHOT-Shot033C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/033_EP02-SC09-SHOT-Shot033D-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/034_EP02-SC09-SHOT-Shot034C-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/035_EP02-SC09-SHOT-Shot034D-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/036_EP02-SC09-SHOT-Shot034B-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/037_EP02-SC09-SHOT-Shot034E-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/038_EP02-SC09-SHOT-Shot034F-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/039_EP02-SC09-SHOT-Shot034G-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/040_EP02-SC09-SHOT-Shot034-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/041_EP02-SC09-SHOT-Shot035-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/end_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/key_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/metadata.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/model_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/negative_prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/prompt.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/shots/042_EP02-SC09-SHOT-Shot036-V2-20260721/start_frame.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/cinematic_continuity_pass_2026-07-16.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/edit_timeline_cinematic_v2_expanded_2026-07-16.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/full_episode_storyboard_2026-07-14/00_full_episode_ordered.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/full_episode_storyboard_2026-07-14/01_arrival_church.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/full_episode_storyboard_2026-07-14/02_houses_choice.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/full_episode_storyboard_2026-07-14/03_warning_class.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/full_episode_storyboard_2026-07-14/05_ending.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/full_episode_storyboard_2026-07-14/review.html",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot001_GarregMachExteriorRoad_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot002_JeraltAndBylethTravel_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot003_MainGateArrival_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot004_DimitriFirstNod_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot005_RheaAuthority_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot006_OldAcquaintance_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot007_SetethSuspicion_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot008_TeacherAppointment_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot009_MainCloisterDailyLife_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot010_FacultyIntroduction_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot011_BlackEaglesComparison_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot012_GoldenDeerComparison_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot013_BlueLionsLineup_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot014_DimitriGreeting_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot015_FelixSylvainExchange_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot016_BlueLionsReaction_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot017_HouseChoiceCeremony_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot018_ChoiceMoment_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot019_DimitriAcceptsTeacher_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot020_JeraltPrivateWarning_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot021_MercenaryBadgeInsert_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot022_FirstClassWide_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot023_TrainingSwordInsert_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot024_FelixStands_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot037_ChurchObservation_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot038_GreenConsciousnessFlicker_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot039_EmptyNightCloisterEcho_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot040_KostasKneels_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot041_FlameEmperorMaskCloseUp_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/keyframes_v1/Shot042_HardCutToBlack_keyframe_v1.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot025A_Canon20x22FieldMap.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot026B_SoutheastRouteCall.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot026C_BlueLionsHornCharge.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027B_FirstMovingEnemyWave.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027C_DimitriDedueFirstContact.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot027D_DimitriForcesOneStepBack.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot028B_BlackEaglesStabilizeCenter.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot028C_FelixSideCutHeld.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029B_ThicketFlank.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029C_ClaudeReadsStretch.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot029D_AsheObservationSuppressed.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot030B_NortheastTrigger.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot030C_SupportRouteCut.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot031B_BylethRefusesRecall.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032B_NortheastHold.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032C_BlackEaglesPressureGoldenDeer.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032D_TwoAdjacentBattleLines.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot032E_FirstThreeWayEntanglement.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033B_BylethCallsCutTeachers.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033C_AsheSuppressesHanneman.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot033D_IngridDrivesManuela.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034B_FacultyHealTileRout.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034C_FelixOpensStairs.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/Shot034D_BylethBreaksHannemanSpell.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_canon_map_2026-07-17/contact_sheet_mock_battle_canon_map_2026-07-17.svg",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/mock_battle_production_keyframes_2026-07-17/reference_boards/index.html",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_church_identity_v2/Shot006_OldAcquaintance_RheaYouth_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_church_identity_v2/Shot007_SetethSuspicion_RheaYouth_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_church_identity_v2/Shot008_TeacherAppointment_RheaYouth_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_rhea_youth_v2/Shot005_RheaAuthority_youth_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_rhea_youth_v2/Shot017_HouseChoiceCeremony_identity_locked_v4.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_rhea_youth_v2/Shot037_ChurchObservation_RheaYouth_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_v1/Shot018_ChoiceMoment.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_v1/Shot040_KostasKneels.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p0_v1/Shot041_FlameEmperorMask.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot015_FelixSylvainExchange_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot030_FelixBreaksFormation_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot033_DimitriRestraint_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_blue_lions_identity_v2/Shot036_DimitriDarkLineBeat_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_grounded_identity_v3/Shot013_BlueLionsLineup_grounded_v3.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_grounded_identity_v3/Shot016_BlueLionsReaction_grounded_v3.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_grounded_identity_v3/Shot024_FelixStands_grounded_v3.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_grounded_identity_v3/Shot026_BlueLionsFormation_grounded_v3.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_grounded_identity_v3/Shot027_AsheArcherSupport_grounded_v3.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_grounded_identity_v3/Shot031_BylethStopsFelix_grounded_v3.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_grounded_identity_v3/Shot035_FelixRespectBeat_grounded_v3.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_mock_battle_v1/Shot025_MockBattleSetup.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_mock_battle_v1/Shot028_AnnetteMercedesSupport.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_mock_battle_v1/Shot029_SylvainIngridSideFlank.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_mock_battle_v1/Shot032_DedueGuardsDimitri.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_mock_battle_v1/Shot034_ExerciseEnds.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_student_intro_v1/Shot011_BlackEaglesComparison.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_student_intro_v1/Shot012_GoldenDeerComparison.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_student_intro_v1/Shot014_DimitriGreeting.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_student_intro_v1/Shot023_TrainingSwordInsert.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_youth_identity_v2/Shot019_DimitriAcceptsTeacher_youth_identity_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_youth_identity_v2/Shot022_FirstClassWide_youth_identity_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p1_youth_identity_v2/review.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot001_GarregMachExteriorRoad.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot002_JeraltBylethTravel.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot003_MainGateArrival.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot004_DimitriFirstNod.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot020_JeraltPrivateWarning.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot021_MercenaryBadgeInsert.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot038_GreenConsciousnessFlicker.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v1/Shot039_EmptyNightCloisterEcho.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v2/Shot009_MainCloisterDailyLife_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/p2_connectors_v2/Shot010_FacultyIntroduction_v2.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/02_Shot025A_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/03_Shot026_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/04_Shot026B_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/05_Shot026C_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/06_Shot027_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/09_Shot027D_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/10_Shot028_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/11_Shot028B_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/12_Shot028C_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/15_Shot029D_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/17_Shot030_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/19_Shot030C_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/21_Shot031B_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/23_Shot032A_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/26_Shot032D_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/27_Shot032E_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/28_Shot033_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/anchor_motion_patch_2026-08-15/05R_Shot026C_blue_lions_depart_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/anchor_motion_patch_2026-08-15/06R_Shot027_ashe_detects_claude_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/anchor_motion_patch_2026-08-15/21R_Shot031B_byleth_reorders_blue_lions_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/anchor_motion_patch_2026-08-15/24R_Shot032B_dimitri_dedue_approach_hanneman_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/07R_Shot027B_black_eagles_advance_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/07R_Shot027B_black_eagles_advance_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/07R_Shot027B_black_eagles_advance_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/08R_Shot027C_dedue_front_contact_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/08R_Shot027C_dedue_front_contact_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/08R_Shot027C_dedue_front_contact_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/13R_Shot029_golden_deer_flank_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/13R_Shot029_golden_deer_flank_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/13R_Shot029_golden_deer_flank_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/14R_Shot029C_claude_two_lanes_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/14R_Shot029C_claude_two_lanes_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/14R_Shot029C_claude_two_lanes_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/16R_Shot029B_golden_deer_blue_lions_route_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/16R_Shot029B_golden_deer_blue_lions_route_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/16R_Shot029B_golden_deer_blue_lions_route_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/20R_Shot031_byleth_stops_felix_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/20R_Shot031_byleth_stops_felix_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/20R_Shot031_byleth_stops_felix_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/25R_Shot032C_black_golden_cross_pressure_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/25R_Shot032C_black_golden_cross_pressure_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/25R_Shot032C_black_golden_cross_pressure_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/28R_Shot032F_felix_ashe_contain_hubert_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/28R_Shot032F_felix_ashe_contain_hubert_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/28R_Shot032F_felix_ashe_contain_hubert_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/29R_Shot032G_claude_leonie_capture_backline_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/31R_Shot033B_byleth_split_teacher_routes_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/31R_Shot033B_byleth_split_teacher_routes_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/31R_Shot033B_byleth_split_teacher_routes_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/32R_Shot033C_ashe_suppresses_hanneman_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/32R_Shot033C_ashe_suppresses_hanneman_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/32R_Shot033C_ashe_suppresses_hanneman_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/33R_Shot033D_ingrid_sylvain_cut_manuela_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/33R_Shot033D_ingrid_sylvain_cut_manuela_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/33R_Shot033D_ingrid_sylvain_cut_manuela_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/34R_Shot034C_felix_blocks_ferdinand_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/34R_Shot034C_felix_blocks_ferdinand_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/34R_Shot034C_felix_blocks_ferdinand_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/35R_Shot034D_byleth_rules_hanneman_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/35R_Shot034D_byleth_rules_hanneman_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/35R_Shot034D_byleth_rules_hanneman_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/37R_Shot034E_golden_deer_stand_down_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/37R_Shot034E_golden_deer_stand_down_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/37R_Shot034E_golden_deer_stand_down_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/38R_Shot034F_black_eagles_stand_down_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/38R_Shot034F_black_eagles_stand_down_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/38R_Shot034F_black_eagles_stand_down_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/41R_Shot035_felix_byleth_post_battle_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/41R_Shot035_felix_byleth_post_battle_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/critical_reaudit_rebuild_2026-08-12/41R_Shot035_felix_byleth_post_battle_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/frame_and_video_prompts.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/frame_generation_queue.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/01B_Shot025_three_leaders_rules_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/01B_Shot025_three_leaders_rules_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/01B_Shot025_three_leaders_rules_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/14B_Shot029C_claude_ashe_edelgard_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/14B_Shot029C_claude_ashe_edelgard_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/14B_Shot029C_claude_ashe_edelgard_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/18C_Shot030B_felix_straight_training_sword_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/18C_Shot030B_felix_straight_training_sword_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/high_risk_regen_2026-08-01/18C_Shot030B_felix_straight_training_sword_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/index.html",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/logic_patch_2026-07-28/38E_Shot034_three_leaders_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/qa_manifest.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-25/34D_Shot034B_empty_objective_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/35F_Shot034E_golden_deer_weapons_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/37E_Shot034G_core_victory_lance_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_key.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/quality_patch_2026-07-30/40C_Shot036_lance_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/roster_continuity_by_shot.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_end.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/teacher_lane_patch_2026-07-27/24D_Shot032B_teacher_lane_start.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/contact_sheet_scene09_v2_p0_logic_previs.png",
+      "kind": "image",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/generated/scene09_v2_logic_previs_2026-07-21/manifest.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/mock_battle_expanded_storyboard_2026-07-16.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/mock_battle_keyframe_production_queue_2026-07-17.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/mock_battle_subframe_plan_2026-07-17.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_animatic_timing_plan_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_audit_synthesis_2026-07-20.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_character_outcome_exit_plan_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_creative_logic_audit_2026-07-20.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_dialogue_performance_pass_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_direction_continuity_pass_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_full_frame_and_video_prompts_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_full_rebuild_scope_2026-07-20.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_manual_image_review_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_pre_video_deep_audit_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_roster_continuity_2026-07-23.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_script_shootability_audit_2026-07-21.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_secondary_visual_qa_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_shooting_script_v2_2026-07-21.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_shot_list_v2_2026-07-21.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_v2_p0_logic_previs_review_2026-07-21.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_video_failure_criteria_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_video_preflight_package_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/scene09_weapon_and_facing_audit_2026-07-19.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/video_generation_prompts_p0_spine_2026-07-14.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/video_generation_prompts_p1_act01_2026-07-13.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/video_generation_prompts_p2_connectors_2026-07-14.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot001.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot002.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot003.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot004.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot005.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot006.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot007.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot008.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot009.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot010.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot011.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot012.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot013.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot014.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot015.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot016.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot017.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot018.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot019.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot020.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot021.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot022.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot023.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot024.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot025.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot025A.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot026.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot026B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot026C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot027.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot027B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot027C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot027D.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot028.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot028B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot028C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot029.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot029B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot029C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot029D.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot030.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot030B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot030C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot031.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot031B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot032.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot032B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot032C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot032D.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot032E.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot033.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot033B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot033C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot033D.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot034.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot034B.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot034C.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot034D.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot035.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot036.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot037.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot038.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot039.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot040.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot041.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_outputs/cinematic_v2/Shot042.mp4",
+      "kind": "video",
+      "exists": false,
+      "status": "pending_video_output"
+    },
+    {
+      "ref": "episodes/EP02/video_production_runbook_cinematic_v2_expanded_2026-07-16.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/reviews/scene09_v3_full_local_visual_review_2026-08-08/scene09_full_local_visual_review_2026-08-08.json",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/reviews/scene09_v3_full_local_visual_review_2026-08-08/scene09_full_local_visual_review_2026-08-08.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot025A_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot025_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot026B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot026C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot026_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027D_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot027_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot028B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot028C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot028_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029D_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot029_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot030B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot030C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot030_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot031B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot031_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032A_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032D_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032E_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032F_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032G_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot032_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033D_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot033_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034B_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034C_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034D_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034E_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034F_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034G_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot034_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot035_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    },
+    {
+      "ref": "production_system/scene09_v3_attrition_package/production_video_prompts/Shot036_production_video_prompt_v3.md",
+      "kind": "document",
+      "exists": true,
+      "status": "present"
+    }
+  ]
+}

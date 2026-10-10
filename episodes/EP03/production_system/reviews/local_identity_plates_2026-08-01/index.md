@@ -1,0 +1,26 @@
+# EP03 Local Identity Plates
+
+Created: 2026-08-01
+Decision: layout_reference
+
+These plates are local asset truth references for keyframe regeneration. They do not approve any generated frame.
+
+Atlas: `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/EP03_local_identity_plate_atlas_2026-08-01.jpg`
+
+| Character | Faction | Era | Shots | Source Asset | Plate |
+| --- | --- | --- | --- | --- | --- |
+| Annette | blue_lions | academy | Shot019, Shot025, Shot030 | `assets/characters/blue_lions/Annette/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Annette_academy_selected_identity_plate_2026-08-01.jpg` |
+| Ashe | blue_lions | academy | Shot004, Shot005, Shot006, Shot007, Shot008, Shot009, Shot011, Shot012, Shot013, Shot017, Shot018, Shot020, Shot021, Shot022, Shot023, Shot026, Shot027, Shot029, Shot030, Shot031, Shot033, Shot034 | `assets/characters/blue_lions/Ashe/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ashe_academy_selected_identity_plate_2026-08-01.jpg` |
+| Dedue | blue_lions | academy | Shot007, Shot010, Shot014, Shot016, Shot024, Shot025 | `assets/characters/blue_lions/Dedue/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dedue_academy_selected_identity_plate_2026-08-01.jpg` |
+| Dimitri | blue_lions | academy | Shot003, Shot004, Shot005, Shot006, Shot007, Shot009, Shot010, Shot013, Shot014, Shot016, Shot021, Shot022, Shot024, Shot025, Shot029, Shot030, Shot031, Shot033, Shot035 | `assets/characters/blue_lions/Dimitri/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Dimitri_academy_selected_identity_plate_2026-08-01.jpg` |
+| Felix | blue_lions | academy | Shot007, Shot013, Shot018, Shot030, Shot033 | `assets/characters/blue_lions/Felix/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Felix_academy_selected_identity_plate_2026-08-01.jpg` |
+| Ingrid | blue_lions | academy | Shot007, Shot010, Shot019, Shot024, Shot025, Shot030 | `assets/characters/blue_lions/Ingrid/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Ingrid_academy_selected_identity_plate_2026-08-01.jpg` |
+| Mercedes | blue_lions | academy | Shot011, Shot013, Shot019, Shot025, Shot030 | `assets/characters/blue_lions/Mercedes/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Mercedes_academy_selected_identity_plate_2026-08-01.jpg` |
+| Sylvain | blue_lions | academy | Shot025 | `assets/characters/blue_lions/Sylvain/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_blue_lions_Sylvain_academy_selected_identity_plate_2026-08-01.jpg` |
+| Catherine | church_of_seiros | academy | Shot008, Shot009, Shot020, Shot028, Shot034 | `assets/characters/church_of_seiros/Catherine/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Catherine_academy_selected_identity_plate_2026-08-01.jpg` |
+| Rhea | church_of_seiros | academy | Shot003, Shot031, Shot032, Shot036 | `assets/characters/church_of_seiros/Rhea/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Rhea_academy_selected_identity_plate_2026-08-01.jpg` |
+| SeirosSoldier | church_of_seiros | selected | Shot012, Shot015 | `assets/characters/church_of_seiros/SeirosSoldier/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/assets_characters_church_of_seiros_SeirosSoldier_selected_identity_plate_2026-08-01.jpg` |
+| Seteth | church_of_seiros | academy | Shot003, Shot031, Shot032 | `assets/characters/church_of_seiros/Seteth/academy/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_church_of_seiros_Seteth_academy_selected_identity_plate_2026-08-01.jpg` |
+| Sothis | divine | dream/legacy_ep01 | Shot001, Shot036 | `assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/divine_Sothis_dream_legacy_ep01_candidate_03_identity_plate_2026-08-01.jpg` |
+| Lonato | kingdom | legacy_ep01 | Shot021, Shot022, Shot023, Shot026, Shot027, Shot028, Shot029 | `assets/characters/kingdom/Lonato/legacy_ep01/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_kingdom_Lonato_legacy_ep01_selected_identity_plate_2026-08-01.jpg` |
+| BylethFemale | protagonist | professor | Shot001, Shot002, Shot003, Shot004, Shot005, Shot006, Shot007, Shot008, Shot009, Shot010, Shot011, Shot012, Shot013, Shot015, Shot016, Shot017, Shot020, Shot022, Shot024, Shot028, Shot029, Shot031, Shot032, Shot033, Shot034, Shot035, Shot036 | `assets/characters/protagonist/BylethFemale/professor/selected.png` | `episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/characters_protagonist_BylethFemale_professor_selected_identity_plate_2026-08-01.jpg` |

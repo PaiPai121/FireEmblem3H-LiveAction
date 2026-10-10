@@ -1,0 +1,100 @@
+{
+  "id": "ep03_byleth_web_frame_visual_spotcheck_2026-08-14",
+  "created_at": "2026-08-14T01:25:00+08:00",
+  "inspected_surface": "site/ep03_storyboard_data.js current displayImagePath key frames, assembled as /private/tmp/ep03_byleth_web_keyframes_2026-08-14.jpg",
+  "decision": "visual_not_cleared",
+  "text_path_gate": "passed_after_cleanup",
+  "visual_gate": "failed_or_monitor_required_for_multiple_existing_candidates",
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "note": "The web data now points to BylethFemale assets, but several already-generated candidate images still visually read as male/ambiguous black-haired Byleth or do not clearly preserve the selected female professor look. These remain monitor-only and must be regenerated or visually replaced before video use.",
+  "visually_suspect_shots": [
+    {
+      "shot": "Shot002",
+      "reason": "distant black professor figure; gender/selected-face not readable"
+    },
+    {
+      "shot": "Shot003",
+      "reason": "Byleth mostly back-view; cannot verify female selected identity"
+    },
+    {
+      "shot": "Shot006",
+      "reason": "background Byleth reads ambiguous and competes with Dimitri/Ashe identity"
+    },
+    {
+      "shot": "Shot008",
+      "reason": "Byleth reads as black-robed ambiguous/male figure behind Catherine"
+    },
+    {
+      "shot": "Shot012",
+      "reason": "Byleth profile/back presence remains ambiguous"
+    },
+    {
+      "shot": "Shot013",
+      "reason": "kneeling tactical-map Byleth identity not clear enough"
+    },
+    {
+      "shot": "Shot016",
+      "reason": "battlefield Byleth reads as dark male/ambiguous commander"
+    },
+    {
+      "shot": "Shot017",
+      "reason": "background Byleth identity not clearly female"
+    },
+    {
+      "shot": "Shot020",
+      "reason": "Byleth witness figure remains small/ambiguous"
+    },
+    {
+      "shot": "Shot022",
+      "reason": "Byleth back/side figure does not prove female selected identity"
+    },
+    {
+      "shot": "Shot024",
+      "reason": "Byleth command close figure reads male/ambiguous rather than female professor"
+    },
+    {
+      "shot": "Shot028",
+      "reason": "black-clad Byleth in suppression beat reads ambiguous/male"
+    },
+    {
+      "shot": "Shot029",
+      "reason": "aftermath Byleth figure reads ambiguous"
+    },
+    {
+      "shot": "Shot030",
+      "reason": "Byleth is visible and not strongly female-selected locked"
+    },
+    {
+      "shot": "Shot033",
+      "reason": "Byleth/Felix dark costume separation weak; Byleth reads ambiguous"
+    },
+    {
+      "shot": "Shot034",
+      "reason": "Byleth observer in background reads ambiguous"
+    },
+    {
+      "shot": "Shot035",
+      "reason": "night cloister Byleth is dark/held observer; female identity not fully proven"
+    },
+    {
+      "shot": "Shot036",
+      "reason": "chapter-end Byleth close profile still reads too masculine/ambiguous"
+    }
+  ],
+  "visually_better_but_still_monitor": [
+    "Shot001",
+    "Shot004",
+    "Shot005",
+    "Shot031",
+    "Shot032"
+  ],
+  "immediate_next_recommended_batch": [
+    "Shot024",
+    "Shot036",
+    "Shot016",
+    "Shot008",
+    "Shot033",
+    "Shot034"
+  ],
+  "web_state_after_update": "main web updated; all above suspects remain visible only as monitor_required candidates, not approved_for_video."
+}

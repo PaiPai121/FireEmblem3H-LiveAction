@@ -1,0 +1,12 @@
+{
+  "episode": "EP03_hilda_lysithea",
+  "pair": "Hilda x Lysithea",
+  "package_type": "timing_safe_video_generation_package",
+  "source_package": "delivery/video_generation_package_2026-07-28",
+  "shot_count": 10,
+  "frame_count": 30,
+  "total_duration_seconds": 91,
+  "max_shot_duration_seconds": 15,
+  "dialogue_timing_policy": "split original 15s parent shots into comfortable Seedance micro-shots; original Japanese line order preserved",
+  "no_subtitles_in_video_prompt": true
+}

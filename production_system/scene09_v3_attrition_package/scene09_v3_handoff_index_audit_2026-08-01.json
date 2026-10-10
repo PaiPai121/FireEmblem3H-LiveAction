@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-01",
+  "html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/index.html",
+  "package_manifest": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/package_manifest.json",
+  "links_checked": 716,
+  "missing_links": [],
+  "shot_cards": 42,
+  "watchability": {
+    "audit_details_blocks": 2,
+    "default_open_audit_details": 0,
+    "direct_header_paragraphs_before_folded_qa": 2,
+    "quick_view_links_present": true
+  },
+  "problems": [],
+  "warnings": [],
+  "decision": "handoff_index_file_access_passed"
+}

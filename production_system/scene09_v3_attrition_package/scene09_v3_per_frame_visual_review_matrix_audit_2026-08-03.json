@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-03",
+  "html": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.html",
+  "json": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.json",
+  "csv": "delivery/scene09_v3_monitor_handoff_package_2026-07-27/per_frame_visual_review_matrix.csv",
+  "links_checked": 381,
+  "missing_links": [],
+  "frame_cards": 126,
+  "image_refs": 126,
+  "json_rows": 126,
+  "problems": [],
+  "decision": "per_frame_visual_review_matrix_audit_passed"
+}

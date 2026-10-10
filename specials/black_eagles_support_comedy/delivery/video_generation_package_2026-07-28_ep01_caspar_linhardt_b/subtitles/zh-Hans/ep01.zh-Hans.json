@@ -1,0 +1,199 @@
+{
+  "episode_id": "EP01",
+  "title": "Caspar x Linhardt B - Tall Opponent Tactics",
+  "support_pair": "Linhardt & Caspar",
+  "support_rank": "B",
+  "source_language": "Japanese original",
+  "subtitle_language": "zh-Hans",
+  "subtitle_policy": "Chinese working subtitle translation; no subtitles are burned into video prompts or frames.",
+  "total_duration_seconds": 60,
+  "cues": [
+    {
+      "index": 1,
+      "shot_id": "BE-SC-EP01-SH001",
+      "start_seconds": 0,
+      "end_seconds": 6.459,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "くそっ！ 力の差はないはずなのに、どうしても自分より背の高い奴に勝てねえ！",
+      "zh_Hans": "可恶！明明力量上没差多少，我就是赢不了比我高的家伙！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 2,
+      "shot_id": "BE-SC-EP01-SH001",
+      "start_seconds": 6.639,
+      "end_seconds": 11.375,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "なあ、リンハルト。何か勝つための策を考えてくれよ。",
+      "zh_Hans": "喂，林哈尔特。帮我想个能赢的办法吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 3,
+      "shot_id": "BE-SC-EP01-SH001",
+      "start_seconds": 11.555,
+      "end_seconds": 15,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "……それは無駄なんじゃないかな？",
+      "zh_Hans": "……那不是白费力气吗？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 4,
+      "shot_id": "BE-SC-EP01-SH002",
+      "start_seconds": 15,
+      "end_seconds": 19.357,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "たとえ策を教えたとしても、いつも君は策どおりに動かないじゃないか。",
+      "zh_Hans": "就算我教你策略，你也总是不按计划行动吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 5,
+      "shot_id": "BE-SC-EP01-SH002",
+      "start_seconds": 19.537,
+      "end_seconds": 24.591,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "そっ、それは、策が難しすぎるからで……。今度はちゃんとやるからよ。な、頼む！",
+      "zh_Hans": "那、那是因为策略太难了……这次我一定照做。拜托了！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 6,
+      "shot_id": "BE-SC-EP01-SH002",
+      "start_seconds": 24.771,
+      "end_seconds": 30,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "……仕方がないね。それなら、とっておきの秘策を授けよう。",
+      "zh_Hans": "……真拿你没办法。那我就传授你一个压箱底的秘策吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 7,
+      "shot_id": "BE-SC-EP01-SH003",
+      "start_seconds": 30,
+      "end_seconds": 33.665,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "まず、君が得意な先制攻撃、そして連打、こういったものをすべて我慢しよう。",
+      "zh_Hans": "首先，你擅长的先发制人和连续猛攻，全都忍住别用。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 8,
+      "shot_id": "BE-SC-EP01-SH003",
+      "start_seconds": 33.845,
+      "end_seconds": 34.995,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "ええー！？",
+      "zh_Hans": "诶诶！？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 9,
+      "shot_id": "BE-SC-EP01-SH003",
+      "start_seconds": 35.175,
+      "end_seconds": 39.345,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "相手の攻撃を避け、受け流し、耐え続け……そして必殺の一撃で急所を突くんだ。",
+      "zh_Hans": "避开对方攻击，卸力，持续防守……最后用必杀一击刺中要害。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 10,
+      "shot_id": "BE-SC-EP01-SH003",
+      "start_seconds": 39.525,
+      "end_seconds": 41.8,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "なるほど！ ……オレには向いてねえな。",
+      "zh_Hans": "原来如此！……这不适合我啊。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 11,
+      "shot_id": "BE-SC-EP01-SH003",
+      "start_seconds": 41.98,
+      "end_seconds": 45,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "じゃあそのまま負け続けていなよ。これしかないし。",
+      "zh_Hans": "那你就继续输下去吧。反正也只有这个办法。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 12,
+      "shot_id": "BE-SC-EP01-SH004",
+      "start_seconds": 45,
+      "end_seconds": 47.651,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "君が疎かにしがちな守りを、まずは鍛えなきゃね。",
+      "zh_Hans": "你总是疏忽防守，首先得把这个练起来。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 13,
+      "shot_id": "BE-SC-EP01-SH004",
+      "start_seconds": 47.831,
+      "end_seconds": 49.759,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "そうか。じゃあ早速、付き合ってくれよ。",
+      "zh_Hans": "这样啊。那马上陪我练吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 14,
+      "shot_id": "BE-SC-EP01-SH004",
+      "start_seconds": 49.939,
+      "end_seconds": 52.832,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "やれやれ……。はあ……適当なとこで逃げよ。",
+      "zh_Hans": "真是的……唉……找个合适的机会溜走吧。",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 15,
+      "shot_id": "BE-SC-EP01-SH004",
+      "start_seconds": 53.012,
+      "end_seconds": 55.663,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "さあ、もう一度だ、リンハルト！ 来い！",
+      "zh_Hans": "来吧，再来一次，林哈尔特！放马过来！",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 16,
+      "shot_id": "BE-SC-EP01-SH004",
+      "start_seconds": 55.843,
+      "end_seconds": 57.651,
+      "speaker": "Linhardt",
+      "speaker_zh": "林哈尔特",
+      "ja": "水、取ってくる……じゃあね……。",
+      "zh_Hans": "我去拿水……再见……",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    },
+    {
+      "index": 17,
+      "shot_id": "BE-SC-EP01-SH004",
+      "start_seconds": 57.831,
+      "end_seconds": 60,
+      "speaker": "Caspar",
+      "speaker_zh": "卡斯帕",
+      "ja": "……しまった！ あいつ、逃げやがったな！？",
+      "zh_Hans": "……糟了！那家伙逃跑了吧！？",
+      "translation_policy": "Chinese working subtitle translation; not claimed as official localization."
+    }
+  ]
+}

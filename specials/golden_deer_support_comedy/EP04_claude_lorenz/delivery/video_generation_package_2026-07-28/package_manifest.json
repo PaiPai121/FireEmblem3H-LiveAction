@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "project": "EP04_claude_lorenz",
+  "package_id": "video_generation_package_2026-07-28",
+  "created_at": "2026-07-28",
+  "total_shots": 4,
+  "total_duration_seconds": 60,
+  "shots": [
+    {
+      "id": "GDSC04-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH001.mp4",
+      "edit_in": "cut from quiet cloister ambience",
+      "edit_out": "cut on Lorenz naming the suspicious wandering",
+      "audio_anchor": "Lorenz's first accusation.",
+      "continuity_previous": "",
+      "continuity_next": "GDSC04-SH002",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Claude looks sinister",
+        "Lorenz looks villainous",
+        "the note has readable text"
+      ],
+      "package_dir": "shots/001_GDSC04-SH001"
+    },
+    {
+      "id": "GDSC04-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH002.mp4",
+      "edit_in": "cut from Lorenz's pointing gesture",
+      "edit_out": "cut to Claude's history distraction",
+      "audio_anchor": "Lorenz says Claude must be hiding something.",
+      "continuity_previous": "GDSC04-SH001",
+      "continuity_next": "GDSC04-SH003",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Claude becomes villain-coded",
+        "Lorenz physically threatens him",
+        "new plot object is explained"
+      ],
+      "package_dir": "shots/002_GDSC04-SH002"
+    },
+    {
+      "id": "GDSC04-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH003.mp4",
+      "edit_in": "cut from Claude's innocent palms",
+      "edit_out": "cut on Lorenz rejecting the distraction",
+      "audio_anchor": "Claude's thousand-year history line.",
+      "continuity_previous": "GDSC04-SH002",
+      "continuity_next": "GDSC04-SH004",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "walls become fantasy ruins unrelated to Garreg Mach",
+        "Claude monologues to camera",
+        "subtitles appear"
+      ],
+      "package_dir": "shots/003_GDSC04-SH003"
+    },
+    {
+      "id": "GDSC04-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 15,
+      "expected_clip": "clips/GDSC04-SH004.mp4",
+      "edit_in": "cut from failed distraction",
+      "edit_out": "hold on Claude's knowing grin",
+      "audio_anchor": "Lorenz's accusation, then Claude's weary punchline.",
+      "continuity_previous": "GDSC04-SH003",
+      "continuity_next": "",
+      "model_notes": [
+        "Target Seedance image-to-video workflow.",
+        "Use start/key/end frames as hard visual anchors.",
+        "Japanese dialogue is fully listed in prompt audio lines; do not add subtitles.",
+        "Preserve academy-phase face, hair, uniform, and age identity from references."
+      ],
+      "reject_if": [
+        "Claude reveals a new conspiracy",
+        "Lorenz becomes hateful",
+        "ending creates a new plot twist"
+      ],
+      "package_dir": "shots/004_GDSC04-SH004"
+    }
+  ]
+}

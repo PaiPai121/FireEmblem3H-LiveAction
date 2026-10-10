@@ -1,0 +1,32 @@
+{
+  "shot_id": "Shot029",
+  "review_date": "2026-08-23",
+  "review_type": "female_byleth_lonato_post_disarm_recovery_reaudit_v2",
+  "decision": "monitor_required",
+  "status": "monitor_required",
+  "previous_display_frame_set": "critical_reaudit_regen_v1_2026-08-23",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-24",
+  "previous_shot": "Shot028",
+  "next_shot": "Shot030",
+  "reviewed_paths": [
+    "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+    "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+    "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+    "episodes/EP03/storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg"
+  ],
+  "prior_rejection": [
+    "Superseded on 2026-08-24 after user re-audit: v1 duplicated Shot028's kneel and compressed the witnesses into a posed line. Retain as historical evidence only."
+  ],
+  "finding": "2026-08-24 action-chain rebuild: v1 began with Lonato already kneeling and turned the shot into a static lineup. v2 receives the dropped sword and upright imbalance, performs the one-knee recovery, then widens into layered aftermath with Dimitri and Ashe kept well outside sword range.",
+  "passes": [
+    "START receives the Shot028 dropped sword and beginning imbalance; Lonato is not already kneeling.",
+    "KEY makes Dimitri a lateral barrier, Ashe a far witness, and female Byleth a rear observer; no one touches Lonato.",
+    "END widens into a quiet battlefield hold with lowered weapons and no victory pose.",
+    "Exactly one Lonato and one clearly female Byleth are readable; no duplicate named performer appears.",
+    "Japanese-only audio lock; downstream motion remains monitor-only."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "Keep monitor_required. Run prompt-against-frame QA, ordered combat-board QA, strict Shot028->029 and 029->030 continuity QA, and a 3-second motion probe. Reject if male Byleth appears, Lonato is already kneeling in START, Ashe/Dimitri rush or attack, Catherine returns, the group becomes a row, or Chinese/Mandarin/subtitles/UI/borders/pasted cutouts appear."
+  ]
+}

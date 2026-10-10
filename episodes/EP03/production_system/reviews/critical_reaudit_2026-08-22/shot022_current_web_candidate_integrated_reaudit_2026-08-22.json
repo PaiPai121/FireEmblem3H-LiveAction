@@ -1,0 +1,54 @@
+{
+  "shot_id": "Shot022",
+  "review_date": "2026-08-22",
+  "review_type": "ashe_advance_integrated_live_action_sequential_reaudit",
+  "previous_display_frame_set": "local_asset_final_candidate_v1_2026-08-02",
+  "current_display_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+  "status": "monitor_required",
+  "decision": "monitor_required",
+  "previous_shot": "Shot021",
+  "next_shot": "Shot023",
+  "reviewed_contact_sheet": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+  "frames": {
+    "start": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "episodes/EP03/storyboards/Shot022/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  ],
+  "prior_rejection": [
+    "The frozen web candidate was a deterministic selected.png composite with visible cutout/plate behavior and was explicitly labeled layout_reference rather than an integrated cinematic frame set.",
+    "The earlier prompt carried unrelated Rhea and Catherine locks and allowed generation from source/layout references instead of the actual uploaded START/KEY/END frames.",
+    "Female Byleth was not visually cleared in the old candidate and required a fresh local female identity re-audit."
+  ],
+  "passes": [
+    "START receives Shot021 v2's wet ridge and recognition geography, with female Byleth giving one permission gesture from the right depth.",
+    "KEY makes Ashe's deliberate advance and lowered bow readable without turning Dimitri into a blocker.",
+    "END lands on a real three-quarter exchange: Ashe opens a restrained plea, Lonato lowers his weapon and opens one hand, and the road remains visible for the refusal cut.",
+    "All four named performers share perspective, fog, wet-ground contact, clothing light, and depth; no pasted portrait plates are used.",
+    "START, KEY, and END are distinct action states rather than lighting-only variants.",
+    "Female Byleth identity is present in the integrated still-frame chain; motion remains monitor-only.",
+    "The executable prompt is upload-only and Japanese dialogue only."
+  ],
+  "monitor_risks": [
+    "Motion may drift Byleth toward male/ambiguous presentation because her face is secondary in the over-shoulder composition.",
+    "Ashe may raise or fire the bow after the step; reject if the lowered-bow continuity breaks.",
+    "Lonato may become a generic villain or lift the sword during the plea; reject if restraint breaks.",
+    "The generated motion must preserve the shared mud contact and distinct START/KEY/END beats.",
+    "Japanese dialogue timing, no subtitles, and no Chinese/Mandarin voice must survive generation."
+  ],
+  "required_next_gate": "prompt-against-frame QA plus 3-second motion probe before any approved_for_video promotion",
+  "reject_if": [
+    "female Byleth becomes male or ambiguous",
+    "characters become pasted plates or a flat lineup",
+    "Ashe does not advance, raises the bow, or attacks",
+    "Lonato attacks, becomes generic, or shows gore",
+    "Chinese/Mandarin voice, subtitles, UI, borders, or readable text appear"
+  ]
+}

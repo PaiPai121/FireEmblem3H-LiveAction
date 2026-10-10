@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-10",
+  "shot": "Shot032",
+  "decision": "visual_review_passed_monitor_required_before_video",
+  "old_visual_decision": "blocked_needs_revision",
+  "old_visual_reasons": [
+    "old start/key/end read too much like posed stills instead of injury/intervention/recovery",
+    "old end frame became a calm standing portrait",
+    "offscreen pressure vector was too weak for expensive video generation"
+  ],
+  "reviewed_new_frames": {
+    "start_frame": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_start.png",
+      "bytes": 2425936,
+      "sha256": "99f2e654557dc70c345cb9c1ca4acb985ca55c62ab9aa16d8b365afa4d6f2f50"
+    },
+    "key_frame": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_key.png",
+      "bytes": 2501275,
+      "sha256": "82569c1037c27b9fb175aa279b1668a3e596a2b6bebfefe9b3487b54eb09bdf7"
+    },
+    "end_frame": {
+      "path": "episodes/EP02/generated/scene09_rebuild_v2_2026-07-21/healer_tank_homage_2026-08-10/22C_Shot032_healer_tank_homage_end.png",
+      "bytes": 2469945,
+      "sha256": "d391801687b4e65b6ec30079602e904231336436d0efcdb41f76c8b8653b6df8"
+    }
+  },
+  "visual_findings": [
+    "start frame now shows Dedue low under screen-right pressure while Mercedes moves in from behind-left",
+    "key frame now shows the healing pulse causing a physical recovery rather than a decorative glow",
+    "end frame now keeps Dedue low and shield-forward while Mercedes is spent and no longer active"
+  ],
+  "residual_risks": [
+    "video model may exaggerate healing VFX; prompt and negative prompt now ban oversized spell circles and blue/green lightning",
+    "video model may relax the end into a portrait; prompt now requires low shield-wall stance through the cut"
+  ]
+}

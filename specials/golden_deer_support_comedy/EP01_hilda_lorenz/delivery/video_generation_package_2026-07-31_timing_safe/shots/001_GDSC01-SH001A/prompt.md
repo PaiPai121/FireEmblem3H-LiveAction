@@ -1,0 +1,23 @@
+Shot ID: GDSC01-SH001A
+Duration: 12 seconds
+Input Frames: Use start_frame.png as this micro-shot's first frame, key_frame.png as the held action/emotional peak, and end_frame.png as the final cut-out state. These frames are copied from the approved parent shot frame chain.
+
+Identity Lock: Preserve the exact academy-phase faces, hair, uniforms, age impression, body type, and silhouette from these face references: Hilda = assets/characters/golden_deer/Hilda/academy/selected.png (pink twin-tails, bright youthful face, Golden Deer uniform), Lorenz = assets/characters/golden_deer/Lorenz/academy/selected.png (purple hair, refined noble posture, Golden Deer uniform). Keep the Fire Emblem: Three Houses live-action cinematic adaptation look. Do not redesign characters.
+
+Motion: Hilda steps in lightly; Lorenz stops training and turns toward her without losing posture.
+
+Camera: Medium two-shot, slight low angle on Lorenz's formality, gentle pan to Hilda.
+
+Performance: Hilda is soft and breezy; Lorenz is flattered and formal.
+
+Audio: Japanese spoken dialogue exactly as listed below, paced comfortably within this micro-shot duration with brief natural pauses; no omitted parent-shot lines, no added lines, no subtitles, no captions, no visible text.
+
+Dialogue / Vocal Lines:
+- Hilda: "あー、ローレンツくん。また訓練？　頑張るわねー。"
+- Lorenz: "やあ、ヒルダさん。まさか君も訓練か？　見直したぞ！"
+
+Continuity Locks: This is a timing-safe split from GDSC01-SH001; preserve the same Garreg Mach location, Academy-era uniforms, hair and face identity, prop state, and parent-shot left/right relationship. Do not reintroduce dialogue assigned to neighboring micro-shots.
+
+Reject If: Hilda looks malicious; Lorenz becomes a parody; characters look war-era or older; reject if any subtitles, captions, watermarks, logos, readable generated text, face changes, costume redesign, age drift, extra named characters, or new story conflict appear.
+
+Timing Safety: This micro-shot contains 2 dialogue line(s), estimated at 9.7s of spoken Japanese inside a 12s shot.

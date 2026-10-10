@@ -1,0 +1,48 @@
+{
+  "id": "Shot024",
+  "order": 24,
+  "status": "frames_pending",
+  "duration_seconds": 12,
+  "scene": "雾林",
+  "title": "两层树干之间",
+  "purpose": "Stage the antagonist exchange as a strategic distance, not an intimate villain tableau.",
+  "source_timecode": "00:14:30",
+  "source_reference": "source_refs/game_frame_0870s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Mist forest",
+  "characters": [
+    "FlameEmperor",
+    "DeathKnight"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/MistForest_reference.png",
+    "source/reference_pack/characters/FlameEmperor_identity.png",
+    "source/reference_pack/characters/DeathKnight_identity.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot024/frames_pending/start_frame.png",
+    "key": "storyboards/Shot024/frames_pending/key_frame.png",
+    "end": "storyboards/Shot024/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot024_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot024_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot024/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot024.md",
+  "dialogue_line_ids": [],
+  "dialogue_mode": "silent",
+  "audio_source": "production_sound_only",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Shot023 red reflection",
+  "continuity_next": "Flame Emperor's question in Shot025",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": null
+}

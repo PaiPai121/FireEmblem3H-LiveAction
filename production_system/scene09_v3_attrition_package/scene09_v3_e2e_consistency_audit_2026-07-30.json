@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-30",
+  "decision": "scene09_v3_e2e_consistency_passed",
+  "shots": 42,
+  "problems": [],
+  "warnings": [],
+  "evidence": [
+    "All 42 shots have matching order across manifest, frame queue, package manifest, and execution plan.",
+    "Visible named-only locks, start/key/end frames, expected clips, package metadata, and submission payload agree for every shot.",
+    "Empty faculty objective, capture, no-extra, no-reentry, 034B, 034G, and 036 locks are enforced across current delivery surfaces."
+  ],
+  "rows": [
+    {
+      "shot": "Shot025",
+      "problems": []
+    },
+    {
+      "shot": "Shot025A",
+      "problems": []
+    },
+    {
+      "shot": "Shot026",
+      "problems": []
+    },
+    {
+      "shot": "Shot026B",
+      "problems": []
+    },
+    {
+      "shot": "Shot026C",
+      "problems": []
+    },
+    {
+      "shot": "Shot027",
+      "problems": []
+    },
+    {
+      "shot": "Shot027B",
+      "problems": []
+    },
+    {
+      "shot": "Shot027C",
+      "problems": []
+    },
+    {
+      "shot": "Shot027D",
+      "problems": []
+    },
+    {
+      "shot": "Shot028",
+      "problems": []
+    },
+    {
+      "shot": "Shot028B",
+      "problems": []
+    },
+    {
+      "shot": "Shot028C",
+      "problems": []
+    },
+    {
+      "shot": "Shot029",
+      "problems": []
+    },
+    {
+      "shot": "Shot029C",
+      "problems": []
+    },
+    {
+      "shot": "Shot029D",
+      "problems": []
+    },
+    {
+      "shot": "Shot029B",
+      "problems": []
+    },
+    {
+      "shot": "Shot030",
+      "problems": []
+    },
+    {
+      "shot": "Shot030B",
+      "problems": []
+    },
+    {
+      "shot": "Shot030C",
+      "problems": []
+    },
+    {
+      "shot": "Shot031",
+      "problems": []
+    },
+    {
+      "shot": "Shot031B",
+      "problems": []
+    },
+    {
+      "shot": "Shot032",
+      "problems": []
+    },
+    {
+      "shot": "Shot032A",
+      "problems": []
+    },
+    {
+      "shot": "Shot032B",
+      "problems": []
+    },
+    {
+      "shot": "Shot032C",
+      "problems": []
+    },
+    {
+      "shot": "Shot032D",
+      "problems": []
+    },
+    {
+      "shot": "Shot032E",
+      "problems": []
+    },
+    {
+      "shot": "Shot032F",
+      "problems": []
+    },
+    {
+      "shot": "Shot032G",
+      "problems": []
+    },
+    {
+      "shot": "Shot033",
+      "problems": []
+    },
+    {
+      "shot": "Shot033B",
+      "problems": []
+    },
+    {
+      "shot": "Shot033C",
+      "problems": []
+    },
+    {
+      "shot": "Shot033D",
+      "problems": []
+    },
+    {
+      "shot": "Shot034C",
+      "problems": []
+    },
+    {
+      "shot": "Shot034D",
+      "problems": []
+    },
+    {
+      "shot": "Shot034B",
+      "problems": []
+    },
+    {
+      "shot": "Shot034E",
+      "problems": []
+    },
+    {
+      "shot": "Shot034F",
+      "problems": []
+    },
+    {
+      "shot": "Shot034G",
+      "problems": []
+    },
+    {
+      "shot": "Shot034",
+      "problems": []
+    },
+    {
+      "shot": "Shot035",
+      "problems": []
+    },
+    {
+      "shot": "Shot036",
+      "problems": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Shot006",
+  "order": 6,
+  "status": "frames_pending",
+  "duration_seconds": 9,
+  "scene": "准备",
+  "title": "Byleth 接管队伍",
+  "purpose": "Give Byleth a short operational rule that will govern the tomb sequence.",
+  "source_timecode": "00:04:00",
+  "source_reference": "source_refs/game_frame_0240s.jpg",
+  "source_reference_status": "planning_only",
+  "location": "Monastery antechamber",
+  "characters": [
+    "Byleth",
+    "Dimitri",
+    "Dedue"
+  ],
+  "asset_references": [
+    "source/reference_pack/style/live_action_style_reference.png",
+    "source/reference_pack/locations/MonasteryMainCloister_reference.png",
+    "source/reference_pack/characters/BylethFemale_face.png",
+    "source/reference_pack/characters/BylethFemale_fullbody.png",
+    "source/reference_pack/characters/Dimitri_face.png",
+    "source/reference_pack/characters/Dimitri_fullbody.png",
+    "source/reference_pack/characters/Dedue_face.png",
+    "source/reference_pack/characters/Dedue_fullbody.png"
+  ],
+  "planned_frames": {
+    "start": "storyboards/Shot006/frames_pending/start_frame.png",
+    "key": "storyboards/Shot006/frames_pending/key_frame.png",
+    "end": "storyboards/Shot006/frames_pending/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot006_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot006_negative_prompt.md",
+  "frame_spec_path": "storyboards/Shot006/frame_spec.md",
+  "source_audit_path": "planning/source_audit/Shot006.md",
+  "dialogue_line_ids": [
+    "DL-EP04-006"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese_probe_pending",
+  "max_silence_seconds": 0.25,
+  "audio_probe": {
+    "status": "pending",
+    "reason": "No downstream native-audio probe in prompt package stage."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "reason": "No actual START/KEY/END frames or clip yet."
+  },
+  "continuity_previous": "receive Shot005's body turn",
+  "continuity_next": "the same three-person axis enters Shot007",
+  "reject_if": "game screenshot, game UI, tactical grid, dialogue box, damage numbers, anime, illustration, 3D render, poster, collage, lineup, pasted portrait, subtitle, caption, readable text, watermark, logo, border, letterbox, pillarbox, child-coded or teenage performer, war-phase aging, elderly drift, sexualization, costume drift, face drift, weapon duplication, floating feet, missing contact shadows, axis flip, mirror, teleport, pose-only START/KEY/END, lighting-only transition, Chinese or Mandarin voiceover, repeated dialogue, echo, stutter, restart, source/game screenshots are planning-only",
+  "dialogue_timing": {
+    "line_id": "DL-EP04-006",
+    "speaker": "Byleth",
+    "text": "足音を数えろ。光を追うな。",
+    "local_start_seconds": 5.75,
+    "local_speech_end_seconds": 8.25,
+    "local_end_seconds": 8.55,
+    "speech_seconds": 2.5,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  }
+}
