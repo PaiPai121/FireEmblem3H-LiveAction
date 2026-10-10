@@ -1,0 +1,23 @@
+{
+  "id": "BTS-SH000",
+  "order": 1,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/BTS-SH000.mp4",
+  "edit_in": "cold open from apparent main-scene footage",
+  "edit_out": "cut to BTS-SH001",
+  "audio_anchor": "Nian global cut: 卡卡卡，拍的什么玩意",
+  "continuity_previous": "",
+  "continuity_next": "BTS-SH001",
+  "model_notes": [
+    "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+    "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+    "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+  ],
+  "reject_if": [
+    "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+    "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+    "Named character identity drifts or main faces are hidden.",
+    "Modern film-set equipment disappears."
+  ]
+}

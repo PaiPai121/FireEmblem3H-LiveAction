@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "pairs": [
+    {
+      "id": "continuity-2026-07-24-BTS-SH000-to-BTS-SH001",
+      "from": "BTS-SH000",
+      "to": "BTS-SH001",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "location_time_logic": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass",
+        "modern_set_readability": "pass",
+        "nian_throughline": "pass",
+        "humanized_blooper_logic": "pass"
+      },
+      "notes": "V3 adjacent handoff approved: BTS-SH000 to BTS-SH001."
+    },
+    {
+      "id": "continuity-2026-07-24-BTS-SH001-to-BTS-SH002",
+      "from": "BTS-SH001",
+      "to": "BTS-SH002",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "location_time_logic": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass",
+        "modern_set_readability": "pass",
+        "nian_throughline": "pass",
+        "humanized_blooper_logic": "pass"
+      },
+      "notes": "V3 adjacent handoff approved: BTS-SH001 to BTS-SH002."
+    },
+    {
+      "id": "continuity-2026-07-24-BTS-SH002-to-BTS-SH003",
+      "from": "BTS-SH002",
+      "to": "BTS-SH003",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "location_time_logic": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass",
+        "modern_set_readability": "pass",
+        "nian_throughline": "pass",
+        "humanized_blooper_logic": "pass"
+      },
+      "notes": "V3 adjacent handoff approved: BTS-SH002 to BTS-SH003."
+    },
+    {
+      "id": "continuity-2026-07-24-BTS-SH003-to-BTS-SH004",
+      "from": "BTS-SH003",
+      "to": "BTS-SH004",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "location_time_logic": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass",
+        "modern_set_readability": "pass",
+        "nian_throughline": "pass",
+        "humanized_blooper_logic": "pass"
+      },
+      "notes": "V3 adjacent handoff approved: BTS-SH003 to BTS-SH004."
+    },
+    {
+      "id": "continuity-2026-07-24-BTS-SH004-to-BTS-SH005",
+      "from": "BTS-SH004",
+      "to": "BTS-SH005",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "location_time_logic": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass",
+        "modern_set_readability": "pass",
+        "nian_throughline": "pass",
+        "humanized_blooper_logic": "pass"
+      },
+      "notes": "V3 adjacent handoff approved: BTS-SH004 to BTS-SH005."
+    },
+    {
+      "id": "continuity-2026-07-24-BTS-SH005-to-BTS-SH006",
+      "from": "BTS-SH005",
+      "to": "BTS-SH006",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "location_time_logic": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass",
+        "modern_set_readability": "pass",
+        "nian_throughline": "pass",
+        "humanized_blooper_logic": "pass"
+      },
+      "notes": "V3 adjacent handoff approved: BTS-SH005 to BTS-SH006."
+    }
+  ]
+}

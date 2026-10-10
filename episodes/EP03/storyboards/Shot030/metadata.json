@@ -1,0 +1,358 @@
+{
+  "id": "Shot030",
+  "order": 30,
+  "source_timecode": "00:12:10",
+  "status": "monitor_required",
+  "duration_seconds": 12,
+  "scene": "战后无声",
+  "purpose": "让青狮第一次理解真实战斗和模拟战的差距。",
+  "location": "battlefield",
+  "characters": [
+    "BylethFemale",
+    "Dimitri",
+    "Ashe",
+    "Catherine"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot030_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot030_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot030_negative_prompt.md",
+  "expected_clip": "clips/Shot030.mp4",
+  "edit_in": "cut from Lonato's controlled kneel into the witnesses choosing not to advance",
+  "edit_out": "cut on Byleth taking the return route toward the cathedral",
+  "audio_anchor": "Wind, wet cloth, a stop-hand gesture, an arrow returned to the quiver, and fading field ambience; no spoken dialogue.",
+  "risks": "the aftermath becomes a lineup, Catherine crosses the foreground, or the group resets into a victory tableau",
+  "previous_source_timecode": "00:14:28",
+  "source_timecode_audit": {
+    "source_match": "battlefield aftermath exchange",
+    "adaptation_gap": "matches aftermath silence before church return",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "external_film_staging_reboard_v1",
+  "integrated_candidate_v2_2026_08_10": {
+    "status": "blocked_needs_revision",
+    "start_frame": "storyboards/Shot030/integrated_candidate_v2_2026-08-10/start_frame.png",
+    "key_frame": "storyboards/Shot030/integrated_candidate_v2_2026-08-10/key_frame.png",
+    "end_frame": "storyboards/Shot030/integrated_candidate_v2_2026-08-10/end_frame.png",
+    "triptych": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot030_integrated_candidate_v2_triptych_2026-08-10.jpg",
+    "review": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot030_integrated_candidate_v2_review_2026-08-10.md",
+    "generated_at": "2026-08-10",
+    "aspect_policy": "aspect-preserving scale/crop to 1280x720; no non-uniform resize",
+    "required_next_gate": "3-second motion probe plus identity/continuity QA before any full-duration generation",
+    "visual_audit_decision": "blocked_needs_revision",
+    "note": "Superseded on 2026-08-23 after sequential re-audit: integrated v2 omitted Catherine while its metadata claimed a larger six-student report group, so the candidate did not match the source beat or its own roster. Retain as historical evidence only."
+  },
+  "current_display_frame_status": "monitor_required_external_film_staging_reboard_v1_2026-09-10",
+  "current_display_frame_source": "",
+  "current_display_frame_note": "Turn the aftermath into a moving reaction: Catherine crosses to check the offscreen site, Dimitri physically holds the line, Ashe unstrings his immediate attack impulse, and Byleth leads the group toward the cathedral route. Lonato never returns.",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Turn the aftermath into a moving reaction: Catherine crosses to check the offscreen site, Dimitri physically holds the line, Ashe unstrings his immediate attack impulse, and Byleth leads the group toward the cathedral route. Lonato never returns.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "video_prompt_qa_decision": "pending_review_against_external_film_staging_reboard_v1_2026-09-10",
+  "motion_probe_status": "pending_3s_probe_against_external_film_staging_reboard_v1_2026-09-10",
+  "character_presence_constraint": "Exactly four named performers are readable at START/KEY: female academy Byleth rear-left, academy Dimitri middle, academy Ashe near-right, and academy Catherine crossing in a separate far-background lane; by END only female Byleth, Dimitri, and Ashe remain, with Lonato and all other performers offscreen.",
+  "displayed_frame_set": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot030_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-4a6d4422-6368-452e-aa67-6d8a1e6bf79c.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f0ce3d26-79e0-4b04-a3ac-5aebaff281cd.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-96da329f-1166-4f55-9cec-a7c1020756e8.png"
+    },
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    ],
+    "focal_subject": "the witnesses choose not to advance",
+    "attention_path": "Catherine crossing behind -> Dimitri's stop-hand -> Ashe's released arrow -> Byleth turns toward the return route",
+    "note": "Turn the aftermath into a moving reaction: Catherine crosses to check the offscreen site, Dimitri physically holds the line, Ashe unstrings his immediate attack impulse, and Byleth leads the group toward the cathedral route. Lonato never returns.",
+    "states": {
+      "start": "Catherine is mid-crossing in the rear lane; Byleth, Dimitri, and Ashe remain staggered in the muddy foreground with weapons low.",
+      "key": "Dimitri's open palm stops any advance while Ashe slides one arrow back into the quiver; Catherine reaches the offscreen site and Byleth watches the boundary.",
+      "end": "Catherine exits; Byleth turns and takes the first step toward the cathedral route, Dimitri follows, and Ashe lingers one beat before joining."
+    },
+    "reject_if": [
+      "the three witnesses form a row or heroic tableau",
+      "Catherine crosses the foreground or Lonato reappears",
+      "any weapon rises into an attack",
+      "the frame reads as four cutout portraits on a battlefield"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-4a6d4422-6368-452e-aa67-6d8a1e6bf79c.png",
+        "output_sha256": "6c949909babec79d70d75bdcc61b22849658504b1e1f28edd44eb4db760d6604",
+        "source_sha256": "6c949909babec79d70d75bdcc61b22849658504b1e1f28edd44eb4db760d6604",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f0ce3d26-79e0-4b04-a3ac-5aebaff281cd.png",
+        "output_sha256": "cb38cdff3aaeea7d983335cdd9f26c1d8c0badc1d372245f18937129d9c849c7",
+        "source_sha256": "cb38cdff3aaeea7d983335cdd9f26c1d8c0badc1d372245f18937129d9c849c7",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-96da329f-1166-4f55-9cec-a7c1020756e8.png",
+        "output_sha256": "a220da98e1c9529bfc3fdf7428efc32d1e718bc82e20b41466a8c8dabe34c820",
+        "source_sha256": "a220da98e1c9529bfc3fdf7428efc32d1e718bc82e20b41466a8c8dabe34c820",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot030_reboard_review.md",
+    "source": ""
+  },
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-23",
+    "frame_set_id": "Shot030_critical_reaudit_regen_v1_2026-08-23",
+    "source": "imagegen_integrated_live_action_female_byleth_catherine_aftermath_reaction_v1_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot030/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot030/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot030/critical_reaudit_regen_v1_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot030/critical_reaudit_regen_v1_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "storyboards/Shot029/critical_reaudit_regen_v1_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot030_critical_reaudit_regen_v1_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot030_critical_reaudit_regen_v1.json",
+    "note": "critical_reaudit_regen_v1_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot029",
+    "previous_end_frame": "storyboards/Shot029/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot030 critical_reaudit_regen_v1_2026-08-23 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot031",
+    "next_start_frame": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "end_to_next_finding": "Shot030 critical_reaudit_regen_v1_2026-08-23 ends on a deliberate handoff state for Shot031; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot029->030 and 030->031 continuity QA, and a 3-second motion probe. Reject if Byleth reads male or ambiguous, Catherine is missing or joins the foreground lineup, Felix/Mercedes/Annette/Ingrid/Lonato or unnamed soldiers enter, weapons rise, the four collapse into a posed row, the live-action integration breaks into cutout plates, or Chinese/Mandarin/subtitles/UI/borders appear."
+    ]
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot030/prompt.md"
+  },
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-24",
+    "frame_set_id": "Shot030_critical_reaudit_regen_v2_2026-08-24",
+    "source": "imagegen_integrated_live_action_female_byleth_catherine_aftermath_reaction_v2_2026-08-24",
+    "frames": {
+      "start": "storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+      "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/start_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-24/shot030_critical_reaudit_regen_v2_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-24/shot030_critical_reaudit_regen_v2.json",
+    "note": "v2 supersedes Shot030 v1 as the current web/display frame set. Still-frame review passed; keep monitor_required until prompt QA and the 3-second motion probe."
+  },
+  "adjacent_continuity_review_2026_08_24": {
+    "previous_shot": "Shot029",
+    "previous_end_frame": "storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+    "previous_to_start_finding": "Shot030 v2 receives the kneeling aftermath as a widened, quiet battlefield reaction; Lonato is now offscreen and the witnesses do not rush or reset into a row.",
+    "next_shot": "Shot031",
+    "next_start_frame": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "end_to_next_finding": "Shot030 v2 END holds the three witnesses with mud and low weapons before the cathedral cut; Catherine and Lonato are absent from the foreground, so Shot031 can receive the held reaction without reintroducing them.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "male or ambiguous Byleth",
+      "Catherine missing from START/KEY or foregrounded",
+      "Lonato or unplanned extras visible",
+      "weapons raised",
+      "posed lineup or cutout integration",
+      "Chinese/Mandarin voiceover, subtitles, UI, logos, or borders"
+    ],
+    "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-24"
+  },
+  "output_frames": {
+    "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "critical_reaudit_regen_v7": {
+    "version": "critical_reaudit_regen_v3_2026-09-02",
+    "frame_set_id": "Shot030_critical_reaudit_regen_v3_2026-09-02",
+    "source": "imagegen_integrated_live_action_female_byleth_aftermath_reaction_v3_2026-09-02",
+    "frames": {
+      "start": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/start_frame.png",
+      "key": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/key_frame.png",
+      "end": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_aftermath_reaction_with_canonical_local_identity",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-02/shot030_critical_reaudit_regen_v3_2026-09-02_review.md",
+    "note": "v3 rebuild: the silent aftermath is staged as one physically integrated muddy fog lane with three foreground witness layers and Catherine crossing only in the far background. START shows her entering, KEY shows Ashe's bowed head and Dimitri's turned shoulders as Catherine crosses right, and END leaves Catherine offscreen while the three witnesses hold a wider empty corridor. Lonato never returns to the frame."
+  },
+  "reference_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  ],
+  "start_frame": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "key_frame": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+  "end_frame": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "model_notes": [
+    "Current displayed frames are the external_film_staging_reboard_v1_2026-09-10 sequential action-chain repair: Turn the aftermath into a moving reaction: Catherine crosses to check the offscreen site, Dimitri physically holds the line, Ashe unstrings his immediate attack impulse, and Byleth leads the group toward the cathedral route. Lonato never returns. Keep monitor_required until prompt QA and motion probe."
+  ],
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-09-02",
+    "frame_set_id": "Shot030_critical_reaudit_regen_v3_2026-09-02",
+    "source": "imagegen_integrated_live_action_female_byleth_aftermath_reaction_v3_2026-09-02",
+    "frames": {
+      "start": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/start_frame.png",
+      "key": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/key_frame.png",
+      "end": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot030/critical_reaudit_regen_v3_2026-09-02/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_aftermath_reaction_with_canonical_local_identity",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-02/shot030_critical_reaudit_regen_v3_2026-09-02_review.md",
+    "note": "v3 rebuild: the silent aftermath is staged as one physically integrated muddy fog lane with three foreground witness layers and Catherine crossing only in the far background. START shows her entering, KEY shows Ashe's bowed head and Dimitri's turned shoulders as Catherine crosses right, and END leaves Catherine offscreen while the three witnesses hold a wider empty corridor. Lonato never returns to the frame."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "previous_match_action_reference": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+    "previous_shot": "Shot029",
+    "previous_end_frame": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+    "next_shot": "Shot031",
+    "next_start_frame": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "external_film_staging_reboard_v1": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot030_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-4a6d4422-6368-452e-aa67-6d8a1e6bf79c.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f0ce3d26-79e0-4b04-a3ac-5aebaff281cd.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-96da329f-1166-4f55-9cec-a7c1020756e8.png"
+    },
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "episodes/EP03/storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    ],
+    "focal_subject": "the witnesses choose not to advance",
+    "attention_path": "Catherine crossing behind -> Dimitri's stop-hand -> Ashe's released arrow -> Byleth turns toward the return route",
+    "note": "Turn the aftermath into a moving reaction: Catherine crosses to check the offscreen site, Dimitri physically holds the line, Ashe unstrings his immediate attack impulse, and Byleth leads the group toward the cathedral route. Lonato never returns.",
+    "states": {
+      "start": "Catherine is mid-crossing in the rear lane; Byleth, Dimitri, and Ashe remain staggered in the muddy foreground with weapons low.",
+      "key": "Dimitri's open palm stops any advance while Ashe slides one arrow back into the quiver; Catherine reaches the offscreen site and Byleth watches the boundary.",
+      "end": "Catherine exits; Byleth turns and takes the first step toward the cathedral route, Dimitri follows, and Ashe lingers one beat before joining."
+    },
+    "reject_if": [
+      "the three witnesses form a row or heroic tableau",
+      "Catherine crosses the foreground or Lonato reappears",
+      "any weapon rises into an attack",
+      "the frame reads as four cutout portraits on a battlefield"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-4a6d4422-6368-452e-aa67-6d8a1e6bf79c.png",
+        "output_sha256": "6c949909babec79d70d75bdcc61b22849658504b1e1f28edd44eb4db760d6604",
+        "source_sha256": "6c949909babec79d70d75bdcc61b22849658504b1e1f28edd44eb4db760d6604",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-f0ce3d26-79e0-4b04-a3ac-5aebaff281cd.png",
+        "output_sha256": "cb38cdff3aaeea7d983335cdd9f26c1d8c0badc1d372245f18937129d9c849c7",
+        "source_sha256": "cb38cdff3aaeea7d983335cdd9f26c1d8c0badc1d372245f18937129d9c849c7",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-96da329f-1166-4f55-9cec-a7c1020756e8.png",
+        "output_sha256": "a220da98e1c9529bfc3fdf7428efc32d1e718bc82e20b41466a8c8dabe34c820",
+        "source_sha256": "a220da98e1c9529bfc3fdf7428efc32d1e718bc82e20b41466a8c8dabe34c820",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot030_reboard_review.md",
+    "source": ""
+  }
+}

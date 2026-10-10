@@ -1,0 +1,24 @@
+{
+  "id": "BTS-SH005",
+  "order": 6,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/BTS-SH005.mp4",
+  "edit_in": "cut from BTS-SH004",
+  "edit_out": "cut to BTS-SH006",
+  "audio_anchor": "see dialogue_audio_beats.md",
+  "continuity_previous": "BTS-SH004",
+  "continuity_next": "BTS-SH006",
+  "model_notes": [
+    "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+    "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+    "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+  ],
+  "reject_if": [
+    "The white-haired director is missing or replaced by a generic crew member.",
+    "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+    "Modern film-set equipment disappears or main faces become hidden.",
+    "Props become glossy, heavy, or unsafe-looking.",
+    "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+  ]
+}

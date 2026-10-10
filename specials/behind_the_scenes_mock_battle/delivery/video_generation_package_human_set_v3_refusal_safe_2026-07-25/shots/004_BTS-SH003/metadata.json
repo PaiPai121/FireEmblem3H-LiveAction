@@ -1,0 +1,24 @@
+{
+  "id": "BTS-SH003",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 14,
+  "expected_clip": "clips/BTS-SH003.mp4",
+  "edit_in": "cut from BTS-SH002",
+  "edit_out": "cut to BTS-SH004",
+  "audio_anchor": "Hidden line-geometry gag: 碰不到人的枪 / 拍电影就不怕工伤了 / 饭会凉",
+  "continuity_previous": "BTS-SH002",
+  "continuity_next": "BTS-SH004",
+  "model_notes": [
+    "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+    "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+    "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+  ],
+  "reject_if": [
+    "The white-haired director is missing or replaced by a generic crew member.",
+    "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+    "Modern film-set equipment disappears or main faces become hidden.",
+    "Props become glossy, heavy, or unsafe-looking.",
+    "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "Shot028",
+  "order": 28,
+  "source_timecode": "00:08:20",
+  "status": "monitor_required",
+  "duration_seconds": 8,
+  "scene": "护卫造成缴械",
+  "purpose": "让 Lonato 的近身行为有明确原因：他为了护住撤退的守卫才跨入 Catherine 的控制线，随后被一次武器级别的卡挡缴械。",
+  "location": "battlefield",
+  "characters": [
+    "Catherine",
+    "Lonato"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/extras/BanditSoldier/selected.png",
+    "assets/props/shared/hero_relics/thunderbrand_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+    "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot028_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "key": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+    "end": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot028_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot028_negative_prompt.md",
+  "expected_clip": "clips/Shot028.mp4",
+  "edit_in": "cut from the retreating guard entering Lonato's protective cover",
+  "edit_out": "cut to Lonato's dropped-sword recovery with him still upright before the kneel",
+  "audio_anchor": "Metal falls; the fog goes briefly quiet. No spoken dialogue.",
+  "risks": "the contact reads as an unmotivated attack on Lonato, a kill, or a guard-free duel",
+  "previous_source_timecode": "00:13:40",
+  "source_timecode_audit": {
+    "source_match": "Catherine disarming force beat",
+    "adaptation_gap": "reframed as a guard-mediated Catherine disarm in a separated lane; Lonato remains upright after the ordinary sword drops and Byleth/students stay outside contact coverage",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_set": "manga_readability_reboard_v1",
+  "current_display_frame_status": "monitor_required_manga_readability_reboard_v1_2026-09-09",
+  "current_display_frame_source": "imagegen_integrated_live_action_lonato_protective_press_thunderbrand_disarm_v1_2026-09-09",
+  "current_display_frame_note": "Reboard v1: the retreating guard remains the cause of the contact. Lonato steps across to cover that guard, his ordinary sword presses into Catherine's Thunderbrand at weapon level, and one controlled bind sends the ordinary sword to the mud. He remains upright; this is a disarm, not a killing blow.",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Reboard v1: the retreating guard remains the cause of the contact. Lonato steps across to cover that guard, his ordinary sword presses into Catherine's Thunderbrand at weapon level, and one controlled bind sends the ordinary sword to the mud. He remains upright; this is a disarm, not a killing blow.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "video_prompt_qa_decision": "pending_review_against_manga_readability_reboard_v1_2026-09-09",
+  "motion_probe_status": "pending_3s_probe_against_manga_readability_reboard_v1_2026-09-09",
+  "character_presence_constraint": "Exactly four human figures are allowed: Catherine, Lonato, and the same two unfeatured rebel guards retained from Shot027; the retreating guard visibly causes Lonato to cross into the one weapon-level bind. No Byleth, Ashe, Dimitri, third guard, or distant human silhouette enters the coverage.",
+  "displayed_frame_set": {
+    "version": "manga_readability_reboard_v1_2026-09-09",
+    "frame_set_id": "Shot028_manga_readability_reboard_v1_2026-09-09",
+    "source": "imagegen_integrated_live_action_lonato_protective_press_thunderbrand_disarm_v1_2026-09-09",
+    "frames": {
+      "start": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+      "key": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+      "end": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_guard_mediated_protective_disarm",
+    "review_markdown": "production_system/reviews/manga_readability_reboard_2026-09-09/shot028_reboard_review.md",
+    "note": "Reboard v1: the retreating guard remains the cause of the contact. Lonato steps across to cover that guard, his ordinary sword presses into Catherine's Thunderbrand at weapon level, and one controlled bind sends the ordinary sword to the mud. He remains upright; this is a disarm, not a killing blow."
+  },
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-23",
+    "frame_set_id": "Shot028_critical_reaudit_regen_v1_2026-08-23",
+    "source": "imagegen_integrated_live_action_female_byleth_catherine_thunderbrand_restraint_v1_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/critical_reaudit_regen_v1_2026-08-23/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "storyboards/Shot027/critical_reaudit_regen_v1_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot028_critical_reaudit_regen_v1_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot028_critical_reaudit_regen_v1.json",
+    "note": "Superseded on 2026-08-24 after user re-audit: v1 made the contact a static sword-cross pose and prematurely ended on a kneel. Retain as historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot027",
+    "previous_end_frame": "storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+    "previous_to_start_finding": "Shot028 critical_reaudit_regen_v2_2026-08-24 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot029",
+    "next_start_frame": "storyboards/Shot029/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+    "end_to_next_finding": "Shot028 critical_reaudit_regen_v2_2026-08-24 ends on a deliberate handoff state for Shot029; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, ordered combat-board QA, strict Shot027->028 and 028->029 continuity QA, and a 3-second motion probe. Reject if male Byleth appears, Catherine loses Thunderbrand, Byleth touches Lonato, the contact point is unclear, Lonato kneels in END, or Chinese/Mandarin/subtitles/UI/borders/pasted cutouts appear."
+    ]
+  },
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-24",
+    "frame_set_id": "Shot028_critical_reaudit_regen_v2_2026-08-24",
+    "source": "imagegen_integrated_live_action_female_byleth_catherine_single_disarm_v2_2026-08-24",
+    "frames": {
+      "start": "storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/props/shared/sword_of_creator/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-24/shot028_critical_reaudit_regen_v2_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-24/shot028_critical_reaudit_regen_v2.json",
+    "note": "critical_reaudit_regen_v2_2026-08-24 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot028/prompt.md"
+  },
+  "critical_reaudit_regen_v5": {
+    "version": "critical_reaudit_regen_v5_2026-08-24",
+    "frame_set_id": "Shot028_critical_reaudit_regen_v5_2026-08-24",
+    "source": "imagegen_integrated_live_action_catherine_thunderbrand_safe_disarm_v5_2026-08-24",
+    "frames": {
+      "start": "storyboards/Shot028/critical_reaudit_regen_v5_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot028/critical_reaudit_regen_v5_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot028/critical_reaudit_regen_v5_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/critical_reaudit_regen_v5_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot027/critical_reaudit_regen_v5_2026-08-24/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-24/shot028_critical_reaudit_regen_v5_2026-08-24_review.md",
+    "note": "Exact frames were visually reviewed as an integrated live-action chain. Downstream video remains monitor_required until prompt-against-frame QA and the 3-second motion probe pass."
+  },
+  "reference_assets": [
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/extras/BanditSoldier/selected.png",
+    "assets/props/shared/hero_relics/thunderbrand_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+    "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  ],
+  "critical_reaudit_regen_v6": {
+    "version": "critical_reaudit_regen_v6_2026-08-24",
+    "frame_set_id": "Shot028_critical_reaudit_regen_v6_2026-08-24",
+    "source": "imagegen_integrated_live_action_catherine_thunderbrand_disarm_v6_2026-08-27",
+    "frames": {
+      "start": "storyboards/Shot028/critical_reaudit_regen_v6_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot028/critical_reaudit_regen_v6_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot028/critical_reaudit_regen_v6_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/critical_reaudit_regen_v6_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v6_2026-08-24/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-27/shot028_critical_reaudit_regen_v6_2026-08-24_review.md",
+    "note": "Exact files were visually reviewed as an integrated live-action sequence. Prompt-against-frame QA, strict continuity QA and motion probes remain pending."
+  },
+  "output_frames": {
+    "start": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "key": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+    "end": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  },
+  "critical_reaudit_regen_v7": {
+    "version": "critical_reaudit_regen_v7_2026-09-02",
+    "frame_set_id": "Shot028_critical_reaudit_regen_v7_2026-09-02",
+    "source": "imagegen_integrated_live_action_catherine_thunderbrand_causal_disarm_v7_2026-09-02",
+    "frames": {
+      "start": "storyboards/Shot028/critical_reaudit_regen_v7_2026-09-02/start_frame.png",
+      "key": "storyboards/Shot028/critical_reaudit_regen_v7_2026-09-02/key_frame.png",
+      "end": "storyboards/Shot028/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/critical_reaudit_regen_v7_2026-09-02/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_causal_disarm",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-02/shot028_critical_reaudit_regen_v7_2026-09-02_review.md",
+    "note": "v7 rebuild: the guard line has already been displaced before this closer coverage. Catherine and Lonato perform one readable weapon-level bind; the ordinary sword settles into wet mud while Catherine keeps Thunderbrand low and Lonato remains upright until the next shot."
+  },
+  "start_frame": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+  "key_frame": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+  "end_frame": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+  "model_notes": [
+    "Current displayed frames are the manga_readability_reboard_v1_2026-09-09 sequential action-chain repair: Reboard v1: the retreating guard remains the cause of the contact. Lonato steps across to cover that guard, his ordinary sword presses into Catherine's Thunderbrand at weapon level, and one controlled bind sends the ordinary sword to the mud. He remains upright; this is a disarm, not a killing blow. Keep monitor_required until prompt QA and motion probe."
+  ],
+  "previous_match_action_reference": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+    "previous_shot": "Shot027",
+    "previous_end_frame": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+    "next_shot": "Shot029",
+    "next_start_frame": "storyboards/Shot029/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "critical_reaudit_regen_v8": {
+    "version": "critical_reaudit_regen_v8_2026-09-03",
+    "frame_set_id": "Shot028_critical_reaudit_regen_v8_2026-09-03",
+    "source": "imagegen_integrated_live_action_catherine_thunderbrand_guard_mediated_disarm_v8_2026-09-03",
+    "frames": {
+      "start": "storyboards/Shot028/critical_reaudit_regen_v8_2026-09-03/start_frame.png",
+      "key": "storyboards/Shot028/critical_reaudit_regen_v8_2026-09-03/key_frame.png",
+      "end": "storyboards/Shot028/critical_reaudit_regen_v8_2026-09-03/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/critical_reaudit_regen_v8_2026-09-03/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_guard_mediated_causal_disarm",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-03/shot028_critical_reaudit_regen_v8_2026-09-03_review.md",
+    "note": "v8 rebuild after rejecting v7: Shot028 START preserves both unfeatured rebel guards as the physical buffer between Catherine and Lonato. The sequence then advances through one readable weapon-level bind to the ordinary sword settling in wet mud; Catherine recovers laterally, Lonato remains upright, and both guards stay readable through the aftermath."
+  },
+  "critical_reaudit_regen_v9": {
+    "version": "critical_reaudit_regen_v9_2026-09-03",
+    "frame_set_id": "Shot028_critical_reaudit_regen_v9_2026-09-03",
+    "source": "imagegen_integrated_live_action_catherine_thunderbrand_four_person_disarm_v9_2026-09-03",
+    "frames": {
+      "start": "storyboards/Shot028/critical_reaudit_regen_v9_2026-09-03/start_frame.png",
+      "key": "storyboards/Shot028/critical_reaudit_regen_v9_2026-09-03/key_frame.png",
+      "end": "storyboards/Shot028/critical_reaudit_regen_v9_2026-09-03/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/critical_reaudit_regen_v9_2026-09-03/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot027/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_guard_mediated_causal_disarm",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-03/shot028_critical_reaudit_regen_v9_2026-09-03_review.md",
+    "note": "v9 rebuild after the visual audit found an extra distant human silhouette in v8: the entire frame now contains exactly Catherine, Lonato, and the same two unfeatured rebel guards, with no other human silhouette anywhere in the hills or fog. START is pre-contact, KEY is one weapon-level bind, and END is the ordinary sword on mud with Lonato still upright."
+  },
+  "key_action": "一名守卫向 Lonato 身后撤；Lonato 以盾跨过去替他承压，普通剑只做一次压迫，Catherine 用 Thunderbrand 在护手处卡住并卸掉普通剑；两名守卫继续退开。",
+  "camera": "16:9 同轴中远景，先让撤退守卫、Lonato 的盾和 Catherine 的低位关系同时可读，再跟进一次清楚的武器卡挡，最后停在落剑与站立失衡，不做贴脸处决构图。",
+  "manga_readability_reboard_v1": {
+    "version": "manga_readability_reboard_v1_2026-09-09",
+    "frame_set_id": "Shot028_manga_readability_reboard_v1_2026-09-09",
+    "source": "imagegen_integrated_live_action_lonato_protective_press_thunderbrand_disarm_v1_2026-09-09",
+    "frames": {
+      "start": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+      "key": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+      "end": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot028/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_guard_mediated_protective_disarm",
+    "review_markdown": "production_system/reviews/manga_readability_reboard_2026-09-09/shot028_reboard_review.md",
+    "note": "Reboard v1: the retreating guard remains the cause of the contact. Lonato steps across to cover that guard, his ordinary sword presses into Catherine's Thunderbrand at weapon level, and one controlled bind sends the ordinary sword to the mud. He remains upright; this is a disarm, not a killing blow."
+  }
+}

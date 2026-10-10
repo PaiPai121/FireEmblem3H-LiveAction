@@ -1,0 +1,6 @@
+order,shot_id,duration_seconds,shot_dir,prompt,negative_prompt,start_frame,key_frame,end_frame,expected_clip,primary_check
+1,BLFS-SH001,12,shots/001_BLFS-SH001,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BLFS-SH001.mp4,adapted English food song completes by 11s
+2,BLFS-SH002,8,shots/002_BLFS-SH002,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BLFS-SH002.mp4,Felix says Annette sounds hungry
+3,BLFS-SH003,12,shots/003_BLFS-SH003,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BLFS-SH003.mp4,Annette asks if Felix heard and saw the movements
+4,BLFS-SH004,14,shots/004_BLFS-SH004,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BLFS-SH004.mp4,Felix praises footwork
+5,BLFS-SH005,14,shots/005_BLFS-SH005,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BLFS-SH005.mp4,plant-singing deadpan payoff

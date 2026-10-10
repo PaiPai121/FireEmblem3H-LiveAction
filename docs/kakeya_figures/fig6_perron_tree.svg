@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .axis{stroke:#64748b;stroke-width:1.2;stroke-dasharray:5 5}
+      .thin{stroke:#334155;stroke-width:1.5;fill:none}
+      .needle{stroke:#dc2626;stroke-width:5;stroke-linecap:round}
+      .ghost{stroke:#2563eb;stroke-width:3;stroke-linecap:round;opacity:.55}
+      .region{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}
+      .region2{fill:#ecfeff;stroke:#0891b2;stroke-width:2}
+      .shade{fill:#fde68a;stroke:#b45309;stroke-width:1.5;opacity:.78}
+      .overlapA{fill:#38bdf8;stroke:#0369a1;stroke-width:1.4;opacity:.62}
+      .overlapB{fill:#f59e0b;stroke:#92400e;stroke-width:1.4;opacity:.62}
+      .green{fill:#dcfce7;stroke:#15803d;stroke-width:1.5}
+      .tube{fill:#bfdbfe;stroke:#1d4ed8;stroke-width:1.1;opacity:.35}
+      .label{font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#0f172a}
+      .small{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#475569}
+      .formula{font:13px Georgia,"Times New Roman",serif;fill:#0f172a}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+<text x="300" y="34" class="label" text-anchor="middle">Perron 树：多次切分、平移、重叠后的“方向簇”</text><polygon points="74.00,330.00 19.00,160.00 94.00,330.00" class="overlapA" /><polygon points="100.00,330.00 51.30,115.38 120.00,330.00" class="overlapB" /><polygon points="126.00,330.00 83.60,171.50 146.00,330.00" class="overlapA" /><polygon points="152.00,330.00 115.90,201.66 172.00,330.00" class="overlapB" /><polygon points="178.00,330.00 148.20,137.76 198.00,330.00" class="overlapA" /><polygon points="204.00,330.00 180.50,124.07 224.00,330.00" class="overlapB" /><polygon points="230.00,330.00 212.80,191.49 250.00,330.00" class="overlapA" /><polygon points="256.00,330.00 245.10,187.82 276.00,330.00" class="overlapB" /><polygon points="282.00,330.00 277.40,121.34 302.00,330.00" class="overlapA" /><polygon points="308.00,330.00 309.70,142.15 328.00,330.00" class="overlapB" /><polygon points="334.00,330.00 342.00,203.26 354.00,330.00" class="overlapA" /><polygon points="360.00,330.00 374.30,166.70 380.00,330.00" class="overlapB" /><polygon points="386.00,330.00 406.60,115.01 406.00,330.00" class="overlapA" /><polygon points="412.00,330.00 438.90,164.89 432.00,330.00" class="overlapB" /><polygon points="438.00,330.00 471.20,203.73 458.00,330.00" class="overlapA" /><polygon points="464.00,330.00 503.50,143.84 484.00,330.00" class="overlapB" /><polygon points="490.00,330.00 535.80,120.43 510.00,330.00" class="overlapA" /><polygon points="516.00,330.00 568.10,186.35 536.00,330.00" class="overlapB" />
+  <rect x="56" y="312" width="480" height="36" fill="#fff7ed" stroke="#fb923c" stroke-width="1.3" opacity=".55"/>
+  <text x="300" y="368" class="small" text-anchor="middle">许多方向的单位线段仍被保留；碎片大面积复用同一片空间</text>
+  <text x="300" y="392" class="small" text-anchor="middle">极限思想：面积可以趋近 0，但方向覆盖不丢失</text>
+  
+</svg>

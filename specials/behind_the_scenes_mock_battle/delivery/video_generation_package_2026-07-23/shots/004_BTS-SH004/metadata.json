@@ -1,0 +1,21 @@
+{
+  "id": "BTS-SH004",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 18,
+  "expected_clip": "clips/BTS-SH004.mp4",
+  "edit_in": "cut from prop test into active rehearsal",
+  "edit_out": "cut after group laugh settles",
+  "audio_anchor": "Claude line and director calling cut",
+  "continuity_previous": "BTS-SH003",
+  "continuity_next": "BTS-SH005",
+  "model_notes": [
+    "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+    "Use conservative wide framing to protect continuity and identity."
+  ],
+  "reject_if": [
+    "Anyone falls or gets hurt.",
+    "The mock battle becomes chaotic combat.",
+    "Cape, weapon, or face identity drifts."
+  ]
+}

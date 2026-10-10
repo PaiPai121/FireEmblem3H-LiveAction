@@ -1,0 +1,139 @@
+{
+  "id": "Shot004",
+  "order": 4,
+  "source_timecode": "00:03:40",
+  "status": "monitor_required",
+  "duration_seconds": 8.9,
+  "scene": "养父的名字",
+  "purpose": "把任务说明压成 Ashe 的身体反应和离队方向，让信息改变人物关系和行走路线。",
+  "location": "cathedral",
+  "characters": [
+    "Ashe",
+    "BylethFemale",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "episodes/EP03/source_refs/Shot004_source.png"
+  ],
+  "source_reference": "episodes/EP03/source_refs/Shot004_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot004_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot004_negative_prompt.md",
+  "expected_clip": "clips/Shot004.mp4",
+  "edit_in": "cut from Rhea order",
+  "edit_out": "cut to Ashe avoiding the class gaze",
+  "audio_anchor": "Seteth, in Japanese: ロナート卿は、かつてアッシュを養子として迎えた人物だ。",
+  "risks": "Ashe looks adult, overacted grief",
+  "previous_source_timecode": "00:02:05",
+  "source_timecode_audit": {
+    "source_match": "Ashe reaction during briefing",
+    "adaptation_gap": "matches personal wound around Lonato name",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-21",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-21 critical re-audit v2 keeps Ashe ahead of the group and uses a stop, recognition, and departure chain instead of a three-person cathedral portrait.",
+  "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if Ashe remains in a neutral pose, if he looks adult or generic, if Byleth becomes male, if the bow disappears or becomes a sword, or if the shot only alternates close-ups without a stop-and-go action.",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-13",
+    "frame_set_id": "Shot004_critical_reaudit_regen_v1_2026-08-13",
+    "source": "built_in_imagegen_with_local_selected_character_assets_location_and_source_reference",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/source_refs/Shot004_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot004/critical_reaudit_regen_v1_2026-08-13/start_frame.png",
+      "key": "storyboards/Shot004/critical_reaudit_regen_v1_2026-08-13/key_frame.png",
+      "end": "storyboards/Shot004/critical_reaudit_regen_v1_2026-08-13/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot004/critical_reaudit_regen_v1_2026-08-13/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "review_note": "production_system/reviews/critical_reaudit_2026-08-13/shot004_critical_reaudit_regen_v1_2026-08-13_review.md",
+    "reject_if": "Run 3-second motion probe only. Reject if Ashe reads as Dimitri/adult/generic blond prince, bow or Blue Lions archer uniform drifts, Byleth identity/gender drifts, characters detach from cathedral lighting/floor, subtitles/UI/Chinese voice appear, or the reaction becomes a static hold.",
+    "visual_audit_decision": "blocked_needs_revision",
+    "blocker": "Superseded by the 2026-08-21 action-chain re-audit: previous candidate was too static or repeated the same tableau."
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_source": "imagegen_from_local_selected_assets_action_chain_reaudit_v2_2026-08-21",
+  "current_display_frame_note": "2026-08-21 critical re-audit v2 keeps Ashe ahead of the group and uses a stop, recognition, and departure chain instead of a three-person cathedral portrait.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_risk_status": "monitor_required_after_static_reaudit_before_motion_probe",
+  "output_frames": {
+    "start": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "start_frame": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+  "key_frame": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+  "end_frame": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+  "frame_spec": "storyboards/Shot004/frame_spec.md",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot004_critical_reaudit_regen_v2_2026-08-21",
+    "source": "built_in_imagegen_with_local_selected_character_and_location_references",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/source_refs/Shot004_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot004/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-21/shot004_critical_reaudit_regen_v2_2026-08-21_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-21/shot004_current_web_candidate_reaudit_2026-08-21.json",
+    "note": "2026-08-21 critical re-audit v2 keeps Ashe ahead of the group and uses a stop, recognition, and departure chain instead of a three-person cathedral portrait.",
+    "reject_if": "Reject if Ashe remains in a neutral pose, if he looks adult or generic, if Byleth becomes male, if the bow disappears or becomes a sword, or if the shot only alternates close-ups without a stop-and-go action."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-004-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-004-1",
+    "speaker": "Seteth",
+    "text": "ロナート卿は、かつてアッシュを養子として迎えた人物だ。",
+    "local_start_seconds": 3.36,
+    "local_speech_end_seconds": 8.08,
+    "local_end_seconds": 8.85,
+    "speech_seconds": 4.72,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot004/prompt.md"
+  }
+}

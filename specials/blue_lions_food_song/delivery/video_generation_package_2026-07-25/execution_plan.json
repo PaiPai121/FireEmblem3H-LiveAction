@@ -1,0 +1,114 @@
+{
+  "package_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25",
+  "project": "blue_lions_food_song",
+  "package_id": "video_generation_package_2026-07-25",
+  "total_shots": 5,
+  "total_duration_seconds": 60,
+  "mode": "dry_run",
+  "concat_requested": false,
+  "final_output": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/final_edit.mp4",
+  "model_cli_configured": false,
+  "integrity": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "clip_status": {
+    "missing_count": 5,
+    "ready_for_concat": false,
+    "clips": [
+      {
+        "shot_id": "BLFS-SH001",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH001.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "BLFS-SH002",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH002.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "BLFS-SH003",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH003.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "BLFS-SH004",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH004.mp4",
+        "exists": false
+      },
+      {
+        "shot_id": "BLFS-SH005",
+        "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH005.mp4",
+        "exists": false
+      }
+    ]
+  },
+  "work_orders": [
+    {
+      "order": 1,
+      "shot_id": "BLFS-SH001",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/001_BLFS-SH001",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/001_BLFS-SH001/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/001_BLFS-SH001/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/001_BLFS-SH001/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/001_BLFS-SH001/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/001_BLFS-SH001/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH001.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 2,
+      "shot_id": "BLFS-SH002",
+      "duration_seconds": 8,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/002_BLFS-SH002",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/002_BLFS-SH002/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/002_BLFS-SH002/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/002_BLFS-SH002/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/002_BLFS-SH002/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/002_BLFS-SH002/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH002.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 3,
+      "shot_id": "BLFS-SH003",
+      "duration_seconds": 12,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/003_BLFS-SH003",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/003_BLFS-SH003/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/003_BLFS-SH003/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/003_BLFS-SH003/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/003_BLFS-SH003/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/003_BLFS-SH003/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH003.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 4,
+      "shot_id": "BLFS-SH004",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/004_BLFS-SH004",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/004_BLFS-SH004/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/004_BLFS-SH004/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/004_BLFS-SH004/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/004_BLFS-SH004/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/004_BLFS-SH004/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH004.mp4",
+      "command_argv": null
+    },
+    {
+      "order": 5,
+      "shot_id": "BLFS-SH005",
+      "duration_seconds": 14,
+      "shot_dir": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/005_BLFS-SH005",
+      "prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/005_BLFS-SH005/prompt.md",
+      "negative_prompt": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/005_BLFS-SH005/negative_prompt.md",
+      "start_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/005_BLFS-SH005/start_frame.png",
+      "key_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/005_BLFS-SH005/key_frame.png",
+      "end_frame": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/shots/005_BLFS-SH005/end_frame.png",
+      "expected_clip": "/Users/zekun/FireEmblem3H-LiveAction/specials/blue_lions_food_song/delivery/video_generation_package_2026-07-25/clips/BLFS-SH005.mp4",
+      "command_argv": null
+    }
+  ]
+}

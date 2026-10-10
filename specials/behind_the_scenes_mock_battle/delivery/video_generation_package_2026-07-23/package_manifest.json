@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "project": "behind_the_scenes_mock_battle",
+  "package_id": "video_generation_package_2026-07-23",
+  "created_at": "2026-07-23",
+  "total_shots": 6,
+  "total_duration_seconds": 78,
+  "shots": [
+    {
+      "id": "BTS-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 10,
+      "expected_clip": "clips/BTS-SH001.mp4",
+      "edit_in": "hard cut from black or title card",
+      "edit_out": "cut on crew movement toward lunch",
+      "audio_anchor": "slate clap at opening; assistant director calls lunch",
+      "continuity_previous": "",
+      "continuity_next": "BTS-SH002",
+      "model_notes": [
+        "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+        "Preserve film-set reveal, slate, crew, light stands, academy/professor costumes, and soft training weapons."
+      ],
+      "reject_if": [
+        "It reads as an in-world battle rather than a film set.",
+        "Slate, crew, or equipment disappears.",
+        "Weapons become lethal."
+      ],
+      "package_dir": "shots/001_BTS-SH001"
+    },
+    {
+      "id": "BTS-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 16,
+      "expected_clip": "clips/BTS-SH002.mp4",
+      "edit_in": "cut from crew heading to lunch",
+      "edit_out": "cut when Byleth's stillness resolves the table gag",
+      "audio_anchor": "soft dining ambience and small restrained laugh",
+      "continuity_previous": "BTS-SH001",
+      "continuity_next": "BTS-SH003",
+      "model_notes": [
+        "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+        "Keep character identities readable during the table scan."
+      ],
+      "reject_if": [
+        "Food or hands deform.",
+        "The table becomes a modern cafeteria.",
+        "Byleth talks or overreacts."
+      ],
+      "package_dir": "shots/002_BTS-SH002"
+    },
+    {
+      "id": "BTS-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH003.mp4",
+      "edit_in": "cut from lunch table reaction",
+      "edit_out": "cut on Dimitri's serious padded-lance balance test",
+      "audio_anchor": "soft prop clacks and prop master line",
+      "continuity_previous": "BTS-SH002",
+      "continuity_next": "BTS-SH004",
+      "model_notes": [
+        "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+        "Only soft or padded training weapons are allowed."
+      ],
+      "reject_if": [
+        "Weapons become sharp or lethal.",
+        "Claude becomes clownish.",
+        "Modern equipment overwhelms the fantasy backlot."
+      ],
+      "package_dir": "shots/003_BTS-SH003"
+    },
+    {
+      "id": "BTS-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 18,
+      "expected_clip": "clips/BTS-SH004.mp4",
+      "edit_in": "cut from prop test into active rehearsal",
+      "edit_out": "cut after group laugh settles",
+      "audio_anchor": "Claude line and director calling cut",
+      "continuity_previous": "BTS-SH003",
+      "continuity_next": "BTS-SH005",
+      "model_notes": [
+        "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+        "Use conservative wide framing to protect continuity and identity."
+      ],
+      "reject_if": [
+        "Anyone falls or gets hurt.",
+        "The mock battle becomes chaotic combat.",
+        "Cape, weapon, or face identity drifts."
+      ],
+      "package_dir": "shots/004_BTS-SH004"
+    },
+    {
+      "id": "BTS-SH005",
+      "order": 5,
+      "status": "approved_for_video",
+      "duration_seconds": 10,
+      "expected_clip": "clips/BTS-SH005.mp4",
+      "edit_in": "cut after laughter from rehearsal lane",
+      "edit_out": "cut on Byleth's approving nod",
+      "audio_anchor": "Claude says the take goes in extras",
+      "continuity_previous": "BTS-SH004",
+      "continuity_next": "BTS-SH006",
+      "model_notes": [
+        "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+        "Byleth's nod is the action peak."
+      ],
+      "reject_if": [
+        "Byleth talks or overacts.",
+        "Monitor shows unrelated footage.",
+        "Faces become unreadable."
+      ],
+      "package_dir": "shots/005_BTS-SH005"
+    },
+    {
+      "id": "BTS-SH006",
+      "order": 6,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH006.mp4",
+      "edit_in": "cut from monitor nod",
+      "edit_out": "freeze-like final pose then fade",
+      "audio_anchor": "crew countdown and shutter clicks",
+      "continuity_previous": "BTS-SH005",
+      "continuity_next": "",
+      "model_notes": [
+        "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+        "End frame should hold like a warm wrap photo.",
+        "Source frames were normalized to 1672x941 delivery variants for aspect-ratio continuity."
+      ],
+      "reject_if": [
+        "Main four are lost in a random crowd.",
+        "Modern gear dominates.",
+        "The ending loses warmth."
+      ],
+      "package_dir": "shots/006_BTS-SH006"
+    }
+  ]
+}

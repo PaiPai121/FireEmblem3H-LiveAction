@@ -1,0 +1,299 @@
+{
+  "id": "Shot035",
+  "order": 35,
+  "source_timecode": "00:11:20",
+  "status": "monitor_required",
+  "duration_seconds": 15,
+  "scene": "杀意与正义",
+  "purpose": "把 Dimitri 的危险自省拍成行走、停下、离开，而不是两个人并排站着交换台词。",
+  "location": "monastery",
+  "characters": [
+    "Dimitri",
+    "BylethFemale"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+    "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot035_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot035_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot035_negative_prompt.md",
+  "expected_clip": "clips/Shot035.mp4",
+  "edit_in": "cut from the empty right corridor into the night cloister walk",
+  "edit_out": "cut after Dimitri has left Byleth under the lamp in the dark arch",
+  "audio_anchor": "Night rain residue, glove against wet stone, Dimitri's single Japanese line, and a settled reverb tail.",
+  "risks": "the walk becomes a static two-shot, Dimitri never braces on stone, or the final distance does not increase",
+  "previous_source_timecode": "00:14:05",
+  "source_timecode_audit": {
+    "source_match": "Dimitri moral reaction in field",
+    "adaptation_gap": "night talk is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "external_film_staging_reboard_v1",
+  "integrated_candidate_v2_2026_08_10": {
+    "status": "blocked_needs_revision",
+    "start_frame": "storyboards/Shot035/integrated_candidate_v2_2026-08-10/start_frame.png",
+    "key_frame": "storyboards/Shot035/integrated_candidate_v2_2026-08-10/key_frame.png",
+    "end_frame": "storyboards/Shot035/integrated_candidate_v2_2026-08-10/end_frame.png",
+    "triptych": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot035_integrated_candidate_v2_triptych_2026-08-10.jpg",
+    "review": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot035_integrated_candidate_v2_review_2026-08-10.md",
+    "generated_at": "2026-08-10",
+    "aspect_policy": "aspect-preserving scale/crop to 1280x720; no non-uniform resize",
+    "required_next_gate": "3-second motion probe plus identity/continuity QA before any full-duration generation",
+    "visual_audit_decision": "blocked_needs_revision",
+    "blocker": "Superseded by the 2026-08-21 action-chain re-audit: previous candidate was too static or repeated the same tableau."
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_status": "monitor_required_external_film_staging_reboard_v1_2026-09-10",
+  "current_display_frame_source": "",
+  "current_display_frame_note": "Keep a true walking shot: Dimitri leads out of the cloister, removes one glove and braces on wet stone to speak, then deliberately leaves Byleth behind. The increasing distance is the changed state.",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Keep a true walking shot: Dimitri leads out of the cloister, removes one glove and braces on wet stone to speak, then deliberately leaves Byleth behind. The increasing distance is the changed state.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "video_prompt_qa_decision": "pending_review_against_external_film_staging_reboard_v1_2026-09-10",
+  "motion_probe_status": "pending_3s_probe_against_external_film_staging_reboard_v1_2026-09-10",
+  "motion_risk_status": "monitor_required_after_static_reaudit_before_motion_probe",
+  "output_frames": {
+    "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "start_frame": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "key_frame": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+  "end_frame": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "frame_spec": "storyboards/Shot035/frame_spec.md",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot035_critical_reaudit_regen_v2_2026-08-21",
+    "source": "existing_local_reference_imagegen_chain_2026-08-21",
+    "frames": {
+      "start": "storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot035_critical_reaudit_regen_v2_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot035_critical_reaudit_regen_v2.json",
+    "note": "The v2 chain is the current displayed frame set. It receives the rightward cloister exit as a night cut, makes the hand-to-stone action explicit, and ends with Dimitri deep in the dark arch while female Byleth remains under the lamp; keep monitor_required until motion probe."
+  },
+  "camera": "Motivated live-action long-lens follow: wide night walk, medium-close hand-to-stone action, then a pullback that increases Dimitri's distance while Byleth remains under the lamp.",
+  "character_presence_constraint": "Exactly two named academy-era performers are readable: academy Dimitri and female academy Byleth. Catherine, Ashe, Felix, Rhea, Seteth, Lonato, Sothis, extra students, soldiers, unnamed people, and duplicate characters remain absent.",
+  "displayed_frame_set": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot035_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-dfe8823b-f503-4278-af1c-268d197403a6.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7f9d137a-0770-4a16-8b9d-353e2d5fad35.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-52414c9b-a3bb-4f42-ae0e-b72004448042.png"
+    },
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "Dimitri turns an abstract thought into weight on stone",
+    "attention_path": "Dimitri walking ahead -> bare hand on wet balustrade -> Byleth stops under lamp -> Dimitri disappears into arch",
+    "note": "Keep a true walking shot: Dimitri leads out of the cloister, removes one glove and braces on wet stone to speak, then deliberately leaves Byleth behind. The increasing distance is the changed state.",
+    "states": {
+      "start": "Dimitri is already moving toward the night arch; female Byleth follows several paces behind with a clear wet corridor between them.",
+      "key": "Dimitri stops, removes one glove, and presses his bare hand to the balustrade; Byleth stops under the lamp without touching him.",
+      "end": "Dimitri resumes walking into the dark arch and becomes smaller; Byleth stays under the lamp and turns to watch."
+    },
+    "reject_if": [
+      "the two collapse into a static two-shot",
+      "Dimitri never walks or touches the stone",
+      "Byleth becomes male or war-phase",
+      "the final distance is not larger than the start distance"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-dfe8823b-f503-4278-af1c-268d197403a6.png",
+        "output_sha256": "bec3a11f476d1fe11c22f8e43a97f38281bf06bc6ebcfcda8011c915bf3b1beb",
+        "source_sha256": "bec3a11f476d1fe11c22f8e43a97f38281bf06bc6ebcfcda8011c915bf3b1beb",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7f9d137a-0770-4a16-8b9d-353e2d5fad35.png",
+        "output_sha256": "cd74d329a88f559cef77207faf22ab1125483df738bd3c7e3eb4de932182dc4e",
+        "source_sha256": "cd74d329a88f559cef77207faf22ab1125483df738bd3c7e3eb4de932182dc4e",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-52414c9b-a3bb-4f42-ae0e-b72004448042.png",
+        "output_sha256": "c3180febf7f3e001924dbbd871b5882f1313cfafcbe1deeacd2de153c873dc8a",
+        "source_sha256": "c3180febf7f3e001924dbbd871b5882f1313cfafcbe1deeacd2de153c873dc8a",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot035_reboard_review.md",
+    "source": ""
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot034",
+    "previous_end_frame": "storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot035 v2 receives Shot034 v1's right-corridor exit as a motivated night-cloister cut; Catherine and Ashe clear from the frame.",
+    "next_shot": "Shot036",
+    "next_start_frame": "storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "end_to_next_finding": "Shot035 critical_reaudit_regen_v2_2026-08-21 ends on a deliberate handoff state for Shot036; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot034->035 and 035->036 continuity QA, and a 3-second motion probe. Reject if Dimitri becomes war-phase, Byleth reads male or ambiguous, the hand-to-stone action disappears, the distance collapses into a static two-shot, an extra person enters, or Chinese/Mandarin/subtitles/UI/pasted plates/black borders appear."
+    ]
+  },
+  "adjacent_continuity_review_2026_08_24": {
+    "previous_shot": "Shot034",
+    "previous_end_frame": "storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot035 v2 receives Shot034 v1's right-corridor exit as a motivated night-cloister cut; Catherine and Ashe clear from the frame.",
+    "next_shot": "Shot036",
+    "next_start_frame": "storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "end_to_next_finding": "Shot035 END leaves female Byleth under the lamp after Dimitri disappears into the dark arch; Shot036 may receive Byleth alone without returning Dimitri or Catherine.",
+    "decision": "monitor_required",
+    "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21"
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-035-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-035-1",
+    "speaker": "Dimitri",
+    "text": "殺意が正義をまとえば、とても静かになるのですね。",
+    "local_start_seconds": 9.2,
+    "local_speech_end_seconds": 14.2,
+    "local_end_seconds": 14.95,
+    "speech_seconds": 5,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot035/prompt.md"
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "previous_match_action_reference": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+    "previous_shot": "Shot034",
+    "previous_end_frame": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+    "next_shot": "Shot036",
+    "next_start_frame": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "external_film_staging_reboard_v1": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot035_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-dfe8823b-f503-4278-af1c-268d197403a6.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7f9d137a-0770-4a16-8b9d-353e2d5fad35.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-52414c9b-a3bb-4f42-ae0e-b72004448042.png"
+    },
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "Dimitri turns an abstract thought into weight on stone",
+    "attention_path": "Dimitri walking ahead -> bare hand on wet balustrade -> Byleth stops under lamp -> Dimitri disappears into arch",
+    "note": "Keep a true walking shot: Dimitri leads out of the cloister, removes one glove and braces on wet stone to speak, then deliberately leaves Byleth behind. The increasing distance is the changed state.",
+    "states": {
+      "start": "Dimitri is already moving toward the night arch; female Byleth follows several paces behind with a clear wet corridor between them.",
+      "key": "Dimitri stops, removes one glove, and presses his bare hand to the balustrade; Byleth stops under the lamp without touching him.",
+      "end": "Dimitri resumes walking into the dark arch and becomes smaller; Byleth stays under the lamp and turns to watch."
+    },
+    "reject_if": [
+      "the two collapse into a static two-shot",
+      "Dimitri never walks or touches the stone",
+      "Byleth becomes male or war-phase",
+      "the final distance is not larger than the start distance"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-dfe8823b-f503-4278-af1c-268d197403a6.png",
+        "output_sha256": "bec3a11f476d1fe11c22f8e43a97f38281bf06bc6ebcfcda8011c915bf3b1beb",
+        "source_sha256": "bec3a11f476d1fe11c22f8e43a97f38281bf06bc6ebcfcda8011c915bf3b1beb",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-7f9d137a-0770-4a16-8b9d-353e2d5fad35.png",
+        "output_sha256": "cd74d329a88f559cef77207faf22ab1125483df738bd3c7e3eb4de932182dc4e",
+        "source_sha256": "cd74d329a88f559cef77207faf22ab1125483df738bd3c7e3eb4de932182dc4e",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-52414c9b-a3bb-4f42-ae0e-b72004448042.png",
+        "output_sha256": "c3180febf7f3e001924dbbd871b5882f1313cfafcbe1deeacd2de153c873dc8a",
+        "source_sha256": "c3180febf7f3e001924dbbd871b5882f1313cfafcbe1deeacd2de153c873dc8a",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot035_reboard_review.md",
+    "source": ""
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+    "episodes/EP03/storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "model_notes": [
+    "Current displayed frames are the external_film_staging_reboard_v1_2026-09-10 sequential action-chain repair: Keep a true walking shot: Dimitri leads out of the cloister, removes one glove and braces on wet stone to speak, then deliberately leaves Byleth behind. The increasing distance is the changed state. Keep monitor_required until prompt QA and motion probe."
+  ]
+}

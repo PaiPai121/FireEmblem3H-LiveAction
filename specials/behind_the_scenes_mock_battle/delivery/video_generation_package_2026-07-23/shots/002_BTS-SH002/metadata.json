@@ -1,0 +1,21 @@
+{
+  "id": "BTS-SH002",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 16,
+  "expected_clip": "clips/BTS-SH002.mp4",
+  "edit_in": "cut from crew heading to lunch",
+  "edit_out": "cut when Byleth's stillness resolves the table gag",
+  "audio_anchor": "soft dining ambience and small restrained laugh",
+  "continuity_previous": "BTS-SH001",
+  "continuity_next": "BTS-SH003",
+  "model_notes": [
+    "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+    "Keep character identities readable during the table scan."
+  ],
+  "reject_if": [
+    "Food or hands deform.",
+    "The table becomes a modern cafeteria.",
+    "Byleth talks or overreacts."
+  ]
+}

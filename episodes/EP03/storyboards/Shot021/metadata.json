@@ -1,0 +1,107 @@
+{
+  "id": "Shot021",
+  "order": 21,
+  "source_timecode": "00:08:10",
+  "status": "monitor_required",
+  "duration_seconds": 11.7,
+  "scene": "Lonato 现身",
+  "purpose": "把敌方核心从叛军抽象化为 Ashe 的父亲替身。",
+  "location": "battlefield",
+  "characters": [
+    "Lonato",
+    "Ashe",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+  ],
+  "source_reference": "source_refs/Shot021_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot021_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot021_negative_prompt.md",
+  "expected_clip": "clips/Shot021.mp4",
+  "edit_in": "cut from Catherine lightning",
+  "edit_out": "cut to Ashe stepping forward",
+  "audio_anchor": "Lonato, in Japanese: どけ。子供たちと戦うつもりはない。",
+  "risks": "generic elderly warlord",
+  "previous_source_timecode": "00:10:25",
+  "source_timecode_audit": {
+    "source_match": "Lonato closeup cutscene",
+    "adaptation_gap": "matches Lonato reveal",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "Shot021 v2 replaces the static poster-like candidate: Lonato emerges from the fog, Ashe is pulled one step forward, Dimitri checks the path, and the END hands off to Ashe in the road.",
+  "required_revision": "Keep monitor_required until the Japanese dialogue prompt is reviewed against the uploaded START/KEY/END frames and a 3-second motion probe confirms Lonato age/identity, active student reactions, non-graphic restraint, and a moving tail hold.",
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-21",
+  "current_display_frame_source": "critical_reaudit_regen_v2 generated from local Lonato, Ashe, Dimitri, and Lonato ridge references",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "character_presence_lock": "Lonato, Ashe, Dimitri, indistinct distant rebels, and the torn banner only; no extra named character",
+  "critical_reaudit_regen_v2": {
+    "frame_set_id": "Shot021_critical_reaudit_regen_v2_2026-08-21",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "frames": {
+      "start": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot021/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "references": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+    ],
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-21/shot021_critical_reaudit_regen_v2_2026-08-21_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-21/shot021_current_web_candidate_reaudit_2026-08-21.json",
+    "note": "Regenerated from local Lonato, Ashe, Dimitri, and battlefield references. START/KEY/END move from distant recognition to shared hesitation to Ashe stepping forward."
+  },
+  "legacy_current_candidate_downgrade_2026_08_21": {
+    "status": "blocked_needs_revision",
+    "superseded_by": "critical_reaudit_regen_v2_2026-08-21",
+    "reason": "Static repeated positions and weak recognition-to-step progression."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-021-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-021-1",
+    "speaker": "Lonato",
+    "text": "どけ。子供たちと戦うつもりはない。",
+    "local_start_seconds": 4.48,
+    "local_speech_end_seconds": 10.78,
+    "local_end_seconds": 11.649999999999999,
+    "speech_seconds": 6.3,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot021/prompt.md"
+  },
+  "previous_match_action_reference": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "Shot021_critical_reaudit_regen_v2_2026-08-21",
+    "previous_shot": "Shot020",
+    "previous_end_frame": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+    "next_shot": "Shot022",
+    "next_start_frame": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "decision": "monitor_required"
+  }
+}

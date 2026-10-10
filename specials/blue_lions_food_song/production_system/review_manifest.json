@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "artifact_id": "BLFS-SCRIPT",
+      "review_id": "review-2026-07-24-story",
+      "reviewer_role": "story-editor-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "scene_purpose": "pass",
+        "conflict": "pass",
+        "emotional_turn": "pass",
+        "character_choice": "pass",
+        "visible_action": "pass",
+        "dialogue_subtext": "conditional",
+        "continuity_hooks": "pass",
+        "canon_fidelity": "pass"
+      },
+      "reviewed_paths": ["outline.md", "script.md", "dialogue_audio_beats.md", "voice_subtitle_script.md"],
+      "notes": "Scene is short but has a playable before/after turn and visible action. Dialogue depends on licensed lyric insertion before staging."
+    },
+    {
+      "artifact_id": "BLFS-DIRECTOR-TREATMENT",
+      "review_id": "review-2026-07-24-direction",
+      "reviewer_role": "direction-reviewer-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "camera_motivation": "pass",
+        "blocking": "pass",
+        "tone_control": "pass",
+        "performance_direction": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": ["director_treatment.md"],
+      "notes": "Direction keeps comedy grounded. Motion risk remains for song/choreography and must be monitored during frame/video generation."
+    },
+    {
+      "artifact_id": "BLFS-SHOT-LIST",
+      "review_id": "review-2026-07-24-shotlist-direction",
+      "reviewer_role": "direction-reviewer-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "shot_purpose": "pass",
+        "action_peak": "pass",
+        "start_key_end_chain": "pass",
+        "identity_locks": "pass",
+        "screen_direction": "pass",
+        "blocking": "pass",
+        "camera_motivation": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": ["shot_list.md"],
+      "notes": "Five-shot chain clearly preserves the private song, Felix reveal, embarrassment, footwork praise, and action-based kindness."
+    },
+    {
+      "artifact_id": "BLFS-SHOT-LIST",
+      "review_id": "review-2026-07-24-shotlist-cinematography",
+      "reviewer_role": "cinematography-reviewer-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "shot_scale": "pass",
+        "eyeline": "pass",
+        "geography": "pass",
+        "edit_flow": "pass",
+        "camera_motivation": "pass"
+      },
+      "reviewed_paths": ["shot_list.md"],
+      "notes": "Camera plan supports the joke without decorative moves."
+    },
+    {
+      "artifact_id": "BLFS-ASSET-REFERENCES",
+      "review_id": "review-2026-07-24-asset-qa",
+      "reviewer_role": "asset-qa-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "annette_age": "pass",
+        "annette_identity": "pass",
+        "annette_costume": "pass",
+        "greenhouse_staging": "pass",
+        "greenhouse_world": "pass",
+        "downstream_reusability": "pass"
+      },
+      "reviewed_paths": [
+        "references/annette_young_comedy_reference.png",
+        "references/annette_young_comedy_reference_v2.png",
+        "references/greenhouse_interior_corner_reference.png"
+      ],
+      "notes": "Annette v2 reference is meaningfully younger and more comedy-readable than current selected while preserving identity markers. Greenhouse reference gives doorway and watering-row geography."
+    },
+    {
+      "artifact_id": "BLFS-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-24-prompt-package",
+      "reviewer_role": "motion-qa-agent",
+      "reviewer": "codex",
+      "created_at": "2026-07-24",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "Actual start/key/end frames are not generated yet.",
+        "Historical note: earlier lyric handling used a controlled slot. This has been superseded by the later adapted English food-song prompt revision."
+      ],
+      "required_revisions": [
+        "Generate start/key/end frames for all five shots.",
+        "Run visual review against the generated frame chain.",
+        "Insert licensed/internal lyric text only in the controlled voice/subtitle working copy."
+      ],
+      "rubric": {
+        "prompt_structure": "pass",
+        "motion_constraints": "pass",
+        "identity_locks": "pass",
+        "source_text_handling": "monitor_required",
+        "frame_readiness": "fail"
+      },
+      "reviewed_paths": [
+        "prompt_asset_package_manifest.json",
+        "frame_generation_queue.md",
+        "video_prompts/BLFS-SH001.md",
+        "video_prompts/BLFS-SH002.md",
+        "video_prompts/BLFS-SH003.md",
+        "video_prompts/BLFS-SH004.md",
+        "video_prompts/BLFS-SH005.md"
+      ],
+      "notes": "Text prompt package can guide frame generation but is not approved for video until real frames exist and pass visual/prompt QA."
+    },
+    {
+      "artifact_id": "BLFS-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-25-generated-frame-visual-audit",
+      "reviewer_role": "storyboard-qa-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "monitor_required",
+      "blocking_issues": [
+        "BLFS-SH003 end frame is 1672x940 while the other frames are 1672x941.",
+        "Historical note: earlier lyric handling used a controlled slot. This has been superseded by the later adapted English food-song prompt revision.",
+        "Video prompt QA against the actual generated frames has not yet been run."
+      ],
+      "required_revisions": [
+        "Normalize BLFS-SH003 end frame dimensions before immutable final packaging.",
+        "Historical note: earlier review requested controlled source lyric insertion. This has been superseded by the adapted English food-song prompt revision.",
+        "Run video prompt QA against these actual frames before promoting any shot to approved_for_video."
+      ],
+      "rubric": {
+        "shot_purpose": "pass",
+        "action_peak": "pass",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "pass",
+        "screen_direction": "pass",
+        "blocking": "pass",
+        "camera_motivation": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/visual_audit_generated_frames_2026-07-25.md",
+        "storyboards/BLFS-SH001/start_frame.png",
+        "storyboards/BLFS-SH001/key_frame.png",
+        "storyboards/BLFS-SH001/end_frame.png",
+        "storyboards/BLFS-SH002/start_frame.png",
+        "storyboards/BLFS-SH002/key_frame.png",
+        "storyboards/BLFS-SH002/end_frame.png",
+        "storyboards/BLFS-SH003/start_frame.png",
+        "storyboards/BLFS-SH003/key_frame.png",
+        "storyboards/BLFS-SH003/end_frame.png",
+        "storyboards/BLFS-SH004/start_frame.png",
+        "storyboards/BLFS-SH004/key_frame.png",
+        "storyboards/BLFS-SH004/end_frame.png",
+        "storyboards/BLFS-SH005/start_frame.png",
+        "storyboards/BLFS-SH005/key_frame.png",
+        "storyboards/BLFS-SH005/end_frame.png"
+      ],
+      "notes": "All five generated frame sets visually pass as stills and may proceed to narrow video-generation testing, but final video approval is blocked pending frame normalization, lyric working-copy insertion, prompt QA, and strict continuity."
+    },
+    {
+      "artifact_id": "BLFS-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-25-video-prompt-qa",
+      "reviewer_role": "video-prompt-qa-agent",
+      "reviewer": "codex-video-prompt-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "prompt_contract": "pass",
+        "frame_lock": "pass",
+        "motion_camera_performance": "pass",
+        "continuity_edit_fit": "pass",
+        "negative_prompt": "pass",
+        "source_text_handling": "monitor_required"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/video_prompt_qa_2026-07-25.md",
+        "video_prompts/BLFS-SH001.md",
+        "video_prompts/BLFS-SH001_negative.md",
+        "video_prompts/BLFS-SH002.md",
+        "video_prompts/BLFS-SH002_negative.md",
+        "video_prompts/BLFS-SH003.md",
+        "video_prompts/BLFS-SH003_negative.md",
+        "video_prompts/BLFS-SH004.md",
+        "video_prompts/BLFS-SH004_negative.md",
+        "video_prompts/BLFS-SH005.md",
+        "video_prompts/BLFS-SH005_negative.md"
+      ],
+      "notes": "All five prompts pass the required prompt contract against actual generated start/key/end frames. This review was later superseded by the dialogue-track revision that embeds the adapted English food song, keeps spoken dialogue Japanese, and removes subtitle intent."
+    },
+    {
+      "artifact_id": "BLFS-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-25-dialogue-track-revision",
+      "reviewer_role": "video-prompt-qa-agent",
+      "reviewer": "codex-video-prompt-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "dialogue_track": "pass",
+        "prompt_contract": "pass",
+        "frame_lock": "pass",
+        "motion_camera_performance": "pass",
+        "subtitle_intent_removed": "pass",
+        "source_text_handling": "pass"
+      },
+      "reviewed_paths": [
+        "video_prompts/BLFS-SH001.md",
+        "video_prompts/BLFS-SH002.md",
+        "video_prompts/BLFS-SH003.md",
+        "video_prompts/BLFS-SH004.md",
+        "video_prompts/BLFS-SH005.md",
+        "delivery/video_generation_package_2026-07-25/shots/001_BLFS-SH001/prompt.md",
+        "delivery/video_generation_package_2026-07-25/shots/002_BLFS-SH002/prompt.md",
+        "delivery/video_generation_package_2026-07-25/shots/003_BLFS-SH003/prompt.md",
+        "delivery/video_generation_package_2026-07-25/shots/004_BLFS-SH004/prompt.md",
+        "delivery/video_generation_package_2026-07-25/shots/005_BLFS-SH005/prompt.md"
+      ],
+      "notes": "Revised prompts now include complete dialogue/vocal instructions for a full video generation tool. SH001 uses a complete adapted English food song; spoken dialogue remains Japanese."
+    },
+    {
+      "artifact_id": "BLFS-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-25-face-lock-revision",
+      "reviewer_role": "video-prompt-qa-agent",
+      "reviewer": "codex-video-prompt-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_video",
+      "blocking_issues": [
+        "Generated clips are not available locally for frame-by-frame face drift review."
+      ],
+      "required_revisions": [
+        "Review generated clips against the updated face identity locks.",
+        "Reject and rerun any clip where lip-sync or expression changes the face."
+      ],
+      "rubric": {
+        "identity_lock": "pass",
+        "negative_prompt_face_drift": "pass",
+        "clip_qa_face_gate": "pass",
+        "generated_clip_review": "blocked_until_clips_exist"
+      },
+      "reviewed_paths": [
+        "video_prompts/BLFS-SH001.md",
+        "video_prompts/BLFS-SH001_negative.md",
+        "video_prompts/BLFS-SH002.md",
+        "video_prompts/BLFS-SH002_negative.md",
+        "video_prompts/BLFS-SH003.md",
+        "video_prompts/BLFS-SH003_negative.md",
+        "video_prompts/BLFS-SH004.md",
+        "video_prompts/BLFS-SH004_negative.md",
+        "video_prompts/BLFS-SH005.md",
+        "video_prompts/BLFS-SH005_negative.md",
+        "delivery/video_generation_package_2026-07-25/RUNBOOK.md",
+        "delivery/video_generation_package_2026-07-25/clip_qa_checklist.md"
+      ],
+      "notes": "Strengthened all source and delivery prompts with hard face identity locks, reduced lip-sync drift tolerance, and explicit face-drift rerun policy."
+    },
+    {
+      "artifact_id": "BLFS-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-25-strict-continuity",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "emotional_state": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "identity_continuity": "pass"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/strict_continuity_review_2026-07-25.md",
+        "production_system/continuity_manifest.json"
+      ],
+      "notes": "All four adjacent shot pairs pass strict continuity."
+    },
+    {
+      "artifact_id": "BLFS-VIDEO-EXECUTION-PACK",
+      "review_id": "review-2026-07-25-video-execution-readiness",
+      "reviewer_role": "production-manager-agent",
+      "reviewer": "codex-production-manager-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "execution_order": "pass",
+        "required_inputs": "pass",
+        "expected_outputs": "pass",
+        "rerun_policy": "pass",
+        "clip_qa_coverage": "pass",
+        "source_text_handling": "monitor_required"
+      },
+      "reviewed_paths": [
+        "delivery/video_generation_package_2026-07-25/asset_viewer.html",
+        "delivery/video_generation_package_2026-07-25/RUNBOOK.md",
+        "delivery/video_generation_package_2026-07-25/model_target_profile.md",
+        "delivery/video_generation_package_2026-07-25/submission_queue.csv",
+        "delivery/video_generation_package_2026-07-25/clip_qa_checklist.md",
+        "delivery/video_generation_package_2026-07-25/execution_plan.json",
+        "delivery/video_generation_package_2026-07-25/execution_commands.sh",
+        "production_system/reviews/video_execution_readiness_2026-07-25.md"
+      ],
+      "notes": "Execution package can be used to submit the five approved shots to a Seedance 2.0-class image-to-video workflow. Do not use Veo unchanged if the available endpoint is limited to shorter clips; build a split fallback package first. Actual clip QA remains pending until clips exist."
+    }
+  ]
+}

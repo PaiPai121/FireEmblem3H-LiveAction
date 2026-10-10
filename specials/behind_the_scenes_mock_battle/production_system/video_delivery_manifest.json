@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "project": "behind_the_scenes_mock_battle",
+  "package_id": "video_generation_package_human_set_v3_2026-07-24",
+  "shots": [
+    {
+      "id": "BTS-SH000",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/BTS-SH000.md",
+      "negative_prompt_path": "video_prompts/BTS-SH000_negative.md",
+      "start_frame": "storyboards_human_set_v3/BTS-SH000/start_frame.png",
+      "key_frame": "storyboards_human_set_v3/BTS-SH000/key_frame.png",
+      "end_frame": "storyboards_human_set_v3/BTS-SH000/end_frame.png",
+      "expected_clip": "clips/BTS-SH000.mp4",
+      "edit_in": "cold open from apparent main-scene footage",
+      "edit_out": "cut to BTS-SH001",
+      "audio_anchor": "Nian global cut: 卡卡卡，拍的什么玩意",
+      "continuity_previous": "",
+      "continuity_next": "BTS-SH001",
+      "model_notes": [
+        "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+        "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+        "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+      ],
+      "reject_if": [
+        "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+        "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+        "Named character identity drifts or main faces are hidden.",
+        "Modern film-set equipment disappears."
+      ]
+    },
+    {
+      "id": "BTS-SH001",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 10,
+      "prompt_path": "video_prompts/BTS-SH001.md",
+      "negative_prompt_path": "video_prompts/BTS-SH001_negative.md",
+      "start_frame": "storyboards_human_set_v3/BTS-SH001/start_frame.png",
+      "key_frame": "storyboards_human_set_v3/BTS-SH001/key_frame.png",
+      "end_frame": "storyboards_human_set_v3/BTS-SH001/end_frame.png",
+      "expected_clip": "clips/BTS-SH001.mp4",
+      "edit_in": "cut from BTS-SH000",
+      "edit_out": "cut to BTS-SH002",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH000",
+      "continuity_next": "BTS-SH002",
+      "model_notes": [
+        "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+        "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+        "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+      ],
+      "reject_if": [
+        "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+        "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+        "Named character identity drifts or main faces are hidden.",
+        "Modern film-set equipment disappears."
+      ]
+    },
+    {
+      "id": "BTS-SH002",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/BTS-SH002.md",
+      "negative_prompt_path": "video_prompts/BTS-SH002_negative.md",
+      "start_frame": "storyboards_human_set_v3/BTS-SH002/start_frame.png",
+      "key_frame": "storyboards_human_set_v3/BTS-SH002/key_frame.png",
+      "end_frame": "storyboards_human_set_v3/BTS-SH002/end_frame.png",
+      "expected_clip": "clips/BTS-SH002.mp4",
+      "edit_in": "cut from BTS-SH001",
+      "edit_out": "cut to BTS-SH003",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH001",
+      "continuity_next": "BTS-SH003",
+      "model_notes": [
+        "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+        "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+        "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+      ],
+      "reject_if": [
+        "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+        "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+        "Named character identity drifts or main faces are hidden.",
+        "Modern film-set equipment disappears."
+      ]
+    },
+    {
+      "id": "BTS-SH003",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 14,
+      "prompt_path": "video_prompts/BTS-SH003.md",
+      "negative_prompt_path": "video_prompts/BTS-SH003_negative.md",
+      "start_frame": "storyboards_human_set_v3/BTS-SH003/start_frame.png",
+      "key_frame": "storyboards_human_set_v3/BTS-SH003/key_frame.png",
+      "end_frame": "storyboards_human_set_v3/BTS-SH003/end_frame.png",
+      "expected_clip": "clips/BTS-SH003.mp4",
+      "edit_in": "cut from BTS-SH002",
+      "edit_out": "cut to BTS-SH004",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH002",
+      "continuity_next": "BTS-SH004",
+      "model_notes": [
+        "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+        "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+        "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+      ],
+      "reject_if": [
+        "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+        "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+        "Named character identity drifts or main faces are hidden.",
+        "Modern film-set equipment disappears."
+      ]
+    },
+    {
+      "id": "BTS-SH004",
+      "order": 5,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/BTS-SH004.md",
+      "negative_prompt_path": "video_prompts/BTS-SH004_negative.md",
+      "start_frame": "storyboards_human_set_v3/BTS-SH004/start_frame.png",
+      "key_frame": "storyboards_human_set_v3/BTS-SH004/key_frame.png",
+      "end_frame": "storyboards_human_set_v3/BTS-SH004/end_frame.png",
+      "expected_clip": "clips/BTS-SH004.mp4",
+      "edit_in": "cut from BTS-SH003",
+      "edit_out": "cut to BTS-SH005",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH003",
+      "continuity_next": "BTS-SH005",
+      "model_notes": [
+        "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+        "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+        "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+      ],
+      "reject_if": [
+        "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+        "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+        "Named character identity drifts or main faces are hidden.",
+        "Modern film-set equipment disappears."
+      ]
+    },
+    {
+      "id": "BTS-SH005",
+      "order": 6,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/BTS-SH005.md",
+      "negative_prompt_path": "video_prompts/BTS-SH005_negative.md",
+      "start_frame": "storyboards_human_set_v3/BTS-SH005/start_frame.png",
+      "key_frame": "storyboards_human_set_v3/BTS-SH005/key_frame.png",
+      "end_frame": "storyboards_human_set_v3/BTS-SH005/end_frame.png",
+      "expected_clip": "clips/BTS-SH005.mp4",
+      "edit_in": "cut from BTS-SH004",
+      "edit_out": "cut to BTS-SH006",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH004",
+      "continuity_next": "BTS-SH006",
+      "model_notes": [
+        "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+        "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+        "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+      ],
+      "reject_if": [
+        "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+        "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+        "Named character identity drifts or main faces are hidden.",
+        "Modern film-set equipment disappears."
+      ]
+    },
+    {
+      "id": "BTS-SH006",
+      "order": 7,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "prompt_path": "video_prompts/BTS-SH006.md",
+      "negative_prompt_path": "video_prompts/BTS-SH006_negative.md",
+      "start_frame": "storyboards_human_set_v3/BTS-SH006/start_frame.png",
+      "key_frame": "storyboards_human_set_v3/BTS-SH006/key_frame.png",
+      "end_frame": "storyboards_human_set_v3/BTS-SH006/end_frame.png",
+      "expected_clip": "clips/BTS-SH006.mp4",
+      "edit_in": "cut from BTS-SH005",
+      "edit_out": "freeze-like final pose then fade",
+      "audio_anchor": "Nian closes: 好，收工。今天就到这",
+      "continuity_previous": "BTS-SH005",
+      "continuity_next": "",
+      "model_notes": [
+        "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+        "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+        "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+      ],
+      "reject_if": [
+        "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+        "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+        "Named character identity drifts or main faces are hidden.",
+        "Modern film-set equipment disappears."
+      ]
+    }
+  ]
+}

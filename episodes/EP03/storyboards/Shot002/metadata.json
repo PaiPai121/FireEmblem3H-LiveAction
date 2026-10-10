@@ -1,0 +1,88 @@
+{
+  "id": "Shot002",
+  "order": 2,
+  "source_timecode": "00:01:50",
+  "status": "monitor_required",
+  "duration_seconds": 10,
+  "scene": "晨钟与修道院",
+  "purpose": "建立本章从学院日常转入教会军事命令，用一段真实走动和推门把空间推进到 Shot003。",
+  "location": "monastery",
+  "characters": [
+    "BylethFemale"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "source_reference": "source_refs/Shot002_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot002_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot002_negative_prompt.md",
+  "expected_clip": "clips/Shot002.mp4",
+  "edit_in": "cut from dream eye closeup",
+  "edit_out": "match cut to council doors",
+  "audio_anchor": "No spoken dialogue. Morning bell, wet footsteps, distant armor, and the door hinge only.",
+  "risks": "generic monastery, unreadable geography",
+  "previous_source_timecode": "00:00:55",
+  "source_timecode_audit": {
+    "source_match": "chapter title / transition into chapter",
+    "adaptation_gap": "monastery morning establishing is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-21",
+  "current_display_frame_source": "imagegen_from_local_selected_assets_action_chain_reaudit_v2_2026-08-21",
+  "current_display_frame_note": "2026-08-21 critical re-audit v2 replaces the previous corridor tableau. The three frames now form a geographic move: enter the cloister, cross the arcade, push the council door.",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the previous corridor tableau. The three frames now form a geographic move: enter the cloister, cross the arcade, push the council door.",
+  "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if Byleth floats, turns male, looks pasted onto the cloister, if the shot becomes three static monastery views, if the distant group becomes a lineup, or if any spoken dialogue, subtitle, or UI appears.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "motion_risk_status": "monitor_required_after_static_reaudit_before_motion_probe",
+  "output_frames": {
+    "start": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "start_frame": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+  "key_frame": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+  "end_frame": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+  "frame_spec": "storyboards/Shot002/frame_spec.md",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot002_critical_reaudit_regen_v2_2026-08-21",
+    "source": "built_in_imagegen_with_local_selected_character_and_location_references",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/MonasteryMainCloister/MonasteryMainCloister_reference.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot002/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-21/shot002_critical_reaudit_regen_v2_2026-08-21_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-21/shot002_current_web_candidate_reaudit_2026-08-21.json",
+    "note": "2026-08-21 critical re-audit v2 replaces the previous corridor tableau. The three frames now form a geographic move: enter the cloister, cross the arcade, push the council door.",
+    "reject_if": "Reject if Byleth floats, turns male, looks pasted onto the cloister, if the shot becomes three static monastery views, if the distant group becomes a lineup, or if any spoken dialogue, subtitle, or UI appears."
+  }
+}

@@ -1,0 +1,1 @@
+No face drift, no recasting, no beautified alternate actor, no changed eye spacing, no changed nose, no changed lips, no changed jaw, no hairline drift, no costume drift, no mocking smile, no laughing Felix, no romantic glamour pose, no sudden jump scare, no extra characters, no text/subtitles in image, no greenhouse redesign, no camera orbit.

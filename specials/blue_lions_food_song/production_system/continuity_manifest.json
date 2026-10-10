@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "project": "blue_lions_food_song",
+  "pairs": [
+    {
+      "id": "continuity-2026-07-25-BLFS-SH001-to-BLFS-SH002",
+      "from": "BLFS-SH001",
+      "to": "BLFS-SH002",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass"
+      },
+      "notes": "Annette turns from song toward screen-left doorway and Felix is revealed there."
+    },
+    {
+      "id": "continuity-2026-07-25-BLFS-SH002-to-BLFS-SH003",
+      "from": "BLFS-SH002",
+      "to": "BLFS-SH003",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass"
+      },
+      "notes": "Annette notices Felix and remains holding the same watering can."
+    },
+    {
+      "id": "continuity-2026-07-25-BLFS-SH003-to-BLFS-SH004",
+      "from": "BLFS-SH003",
+      "to": "BLFS-SH004",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass"
+      },
+      "notes": "Annette's flustered explanation carries into the respectful two-shot."
+    },
+    {
+      "id": "continuity-2026-07-25-BLFS-SH004-to-BLFS-SH005",
+      "from": "BLFS-SH004",
+      "to": "BLFS-SH005",
+      "reviewer_role": "continuity-reviewer-agent",
+      "reviewer": "codex-continuity-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_next_stage",
+      "checks": {
+        "edit_handoff": "pass",
+        "character_identity": "pass",
+        "screen_direction": "pass",
+        "eyeline": "pass",
+        "position": "pass",
+        "action_match": "pass",
+        "lighting_time": "pass",
+        "audio_bridge": "pass",
+        "aspect_ratio": "pass"
+      },
+      "notes": "Felix moves from footwork praise into taking over the watering; Annette reacts from the right/background."
+    }
+  ]
+}

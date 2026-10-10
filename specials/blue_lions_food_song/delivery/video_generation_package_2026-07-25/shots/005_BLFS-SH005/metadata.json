@@ -1,0 +1,17 @@
+{
+  "id": "BLFS-SH005",
+  "order": 5,
+  "status": "approved_for_video",
+  "duration_seconds": 14,
+  "expected_clip": "clips/BLFS-SH005.mp4",
+  "edit_in": "cut from Annette protest",
+  "edit_out": "hold on Annette's reaction",
+  "audio_anchor": "plant-singing deadpan payoff",
+  "continuity_previous": "BLFS-SH004",
+  "continuity_next": "",
+  "model_notes": [],
+  "reject_if": [
+    "Felix hums or performs song",
+    "ending becomes overt romance"
+  ]
+}

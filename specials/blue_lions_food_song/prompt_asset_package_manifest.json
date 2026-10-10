@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "project": "blue_lions_food_song",
+  "package_id": "blue_lions_food_song_prompt_asset_package_2026-07-24",
+  "status": "approved_for_video",
+  "target": "prompt_asset_package",
+  "source_files": [
+    "brief.md",
+    "outline.md",
+    "script.md",
+    "director_treatment.md",
+    "shot_list.md",
+    "production_notes.md",
+    "dialogue_audio_beats.md",
+    "voice_subtitle_script.md",
+    "references/source_notes.md",
+    "references/asset_generation_prompts.md"
+  ],
+  "asset_references": [
+    "references/annette_young_comedy_reference_v2.png",
+    "references/greenhouse_interior_corner_reference.png",
+    "assets/characters/blue_lions/Felix/academy/selected.png"
+  ],
+  "shots": [
+    {
+      "id": "BLFS-SH001",
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/BLFS-SH001/frame_spec.md",
+      "prompt": "video_prompts/BLFS-SH001.md",
+      "negative_prompt": "video_prompts/BLFS-SH001_negative.md",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "BLFS-SH002",
+      "duration_seconds": 8,
+      "frame_spec": "storyboards/BLFS-SH002/frame_spec.md",
+      "prompt": "video_prompts/BLFS-SH002.md",
+      "negative_prompt": "video_prompts/BLFS-SH002_negative.md",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "BLFS-SH003",
+      "duration_seconds": 12,
+      "frame_spec": "storyboards/BLFS-SH003/frame_spec.md",
+      "prompt": "video_prompts/BLFS-SH003.md",
+      "negative_prompt": "video_prompts/BLFS-SH003_negative.md",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "BLFS-SH004",
+      "duration_seconds": 14,
+      "frame_spec": "storyboards/BLFS-SH004/frame_spec.md",
+      "prompt": "video_prompts/BLFS-SH004.md",
+      "negative_prompt": "video_prompts/BLFS-SH004_negative.md",
+      "status": "approved_for_video"
+    },
+    {
+      "id": "BLFS-SH005",
+      "duration_seconds": 14,
+      "frame_spec": "storyboards/BLFS-SH005/frame_spec.md",
+      "prompt": "video_prompts/BLFS-SH005.md",
+      "negative_prompt": "video_prompts/BLFS-SH005_negative.md",
+      "status": "approved_for_video"
+    }
+  ],
+  "lyrics_handling": {
+    "performance_plan": "Use the adapted English food-song line unless the user provides exact owned source text for replacement. Keep spoken dialogue in Japanese.",
+    "package_text_policy": "SH001 uses a complete adapted English food song for generation. Replace with user-provided exact source lyric only if exact fidelity is required."
+  },
+  "blockers_to_video_generation": []
+}

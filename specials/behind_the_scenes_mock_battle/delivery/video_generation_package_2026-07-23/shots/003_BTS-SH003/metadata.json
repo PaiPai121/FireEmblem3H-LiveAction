@@ -1,0 +1,21 @@
+{
+  "id": "BTS-SH003",
+  "order": 3,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/BTS-SH003.mp4",
+  "edit_in": "cut from lunch table reaction",
+  "edit_out": "cut on Dimitri's serious padded-lance balance test",
+  "audio_anchor": "soft prop clacks and prop master line",
+  "continuity_previous": "BTS-SH002",
+  "continuity_next": "BTS-SH004",
+  "model_notes": [
+    "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+    "Only soft or padded training weapons are allowed."
+  ],
+  "reject_if": [
+    "Weapons become sharp or lethal.",
+    "Claude becomes clownish.",
+    "Modern equipment overwhelms the fantasy backlot."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "project": "FireEmblem3H-LiveAction",
+  "layout": "legacy",
+  "canonical_source_root": ".",
+  "generated_root": "generated",
+  "delivery_root": "delivery",
+  "web_root": "web"
+}

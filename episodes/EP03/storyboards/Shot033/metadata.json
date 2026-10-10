@@ -1,0 +1,296 @@
+{
+  "id": "Shot033",
+  "order": 33,
+  "source_timecode": "00:11:40",
+  "status": "monitor_required",
+  "duration_seconds": 14,
+  "scene": "学生目睹代价",
+  "purpose": "让 Dimitri/Ashe/Byleth 对教会权威产生不同沉默。",
+  "camera": "一条连续的湿石侧廊中远景，镜头做克制横移；四个反应位置保持可读，不使用肖像插入。",
+  "location": "cathedral",
+  "characters": [
+    "Ashe",
+    "Dimitri",
+    "Felix",
+    "BylethFemale"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Felix/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot033_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot033_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot033_negative_prompt.md",
+  "expected_clip": "clips/Shot033.mp4",
+  "edit_in": "cut from the order carried down the altar steps",
+  "edit_out": "cut on Byleth taking the right corridor after the authority door closes",
+  "audio_anchor": "Door latch, wood settling, wet footsteps, and room tone only; no spoken dialogue.",
+  "risks": "the four stand shoulder-to-shoulder, the door handoff disappears, or the corridor lacks a departure direction",
+  "previous_source_timecode": "00:13:15",
+  "source_timecode_audit": {
+    "source_match": "Dimitri/Blue Lions field reaction",
+    "adaptation_gap": "students witnessing cost is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_set": "external_film_staging_reboard_v1",
+  "current_display_frame_status": "monitor_required_external_film_staging_reboard_v1_2026-09-10",
+  "current_display_frame_source": "",
+  "current_display_frame_note": "Make the reaction shot a departure, not four people waiting. Ashe touches the door and lets it close, Dimitri turns to Byleth for a response, Felix chooses the open right corridor, and Byleth follows after a held beat.",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Make the reaction shot a departure, not four people waiting. Ashe touches the door and lets it close, Dimitri turns to Byleth for a response, Felix chooses the open right corridor, and Byleth follows after a held beat.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "video_prompt_qa_decision": "pending_review_against_external_film_staging_reboard_v1_2026-09-10",
+  "motion_probe_status": "pending_3s_probe_against_external_film_staging_reboard_v1_2026-09-10",
+  "character_presence_constraint": "Exactly four named academy performers are readable: Ashe, Dimitri, Felix, and female academy Byleth. No Rhea, Seteth, Catherine, Lonato, soldier, extra student, or duplicate character enters.",
+  "displayed_frame_set": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot033_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-161f712b-c943-412a-8ab0-43dd57507cc1.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a06d2081-25fe-4f8d-995b-583346e90004.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-87365ca4-3660-46ba-8ea6-720af2099b26.png"
+    },
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "the group breaks into four different decisions",
+    "attention_path": "half-closed authority door -> Ashe's hand leaves the latch -> Dimitri looks to Byleth -> Felix chooses the right exit",
+    "note": "Make the reaction shot a departure, not four people waiting. Ashe touches the door and lets it close, Dimitri turns to Byleth for a response, Felix chooses the open right corridor, and Byleth follows after a held beat.",
+    "states": {
+      "start": "the authority door is half-open in the far background; Ashe is nearest it, Dimitri is turned toward Byleth, Felix is already angled toward the right corridor, and Byleth holds the near left.",
+      "key": "Ashe releases the door latch as it closes; Dimitri takes a small step toward Byleth; Felix has started through the right corridor while Byleth remains the still pivot.",
+      "end": "the door is fully closed, Felix has cleared the corridor, Byleth begins after him, Dimitri looks back once, and Ashe remains by the closed door before following."
+    },
+    "reject_if": [
+      "the four stand shoulder-to-shoulder",
+      "the door or right-corridor handoff is missing",
+      "a fifth student or any authority figure enters",
+      "the frame becomes a set of isolated portraits"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-161f712b-c943-412a-8ab0-43dd57507cc1.png",
+        "output_sha256": "3e5b2d89efa840dbdf3c5242e7e9ed5d1b7e80f9a0c639667f5957b5b0aab562",
+        "source_sha256": "3e5b2d89efa840dbdf3c5242e7e9ed5d1b7e80f9a0c639667f5957b5b0aab562",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a06d2081-25fe-4f8d-995b-583346e90004.png",
+        "output_sha256": "56cb1775beddfa3d337ff11650d0ac2c1e2587f1eb39dec5d233c8c05d2a5d26",
+        "source_sha256": "56cb1775beddfa3d337ff11650d0ac2c1e2587f1eb39dec5d233c8c05d2a5d26",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-87365ca4-3660-46ba-8ea6-720af2099b26.png",
+        "output_sha256": "1906fc53677e8132838c0940f831323985f66762627feab82b2cdb0d49fc5090",
+        "source_sha256": "1906fc53677e8132838c0940f831323985f66762627feab82b2cdb0d49fc5090",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot033_reboard_review.md",
+    "source": ""
+  },
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-23",
+    "frame_set_id": "Shot033_critical_reaudit_regen_v1_2026-08-23",
+    "source": "imagegen_integrated_live_action_four_student_cathedral_silence_v1_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot033_critical_reaudit_regen_v1_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot033_critical_reaudit_regen_v1.json",
+    "note": "The v1 chain is the current displayed frame set. It is a shared wet cathedral side aisle with four separated reaction positions, a closing-door beat, and a right-corridor eyeline handoff; keep monitor_required until motion probe."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot032",
+    "previous_end_frame": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "previous_to_start_finding": "Shot033 v1 receives Shot032 v2's order handoff as a separate student-reaction cut with no Rhea or Seteth re-entry.",
+    "next_shot": "Shot034",
+    "next_start_frame": "storyboards/Shot034/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot033 critical_reaudit_regen_v1_2026-08-23 ends on a deliberate handoff state for Shot034; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot032->033 and 033->034 continuity QA, and a 3-second motion probe. Reject if Byleth reads male or ambiguous, the four become a row or cutout plates, a fifth named character appears, weapons rise, Ashe looks triumphant, the door/eyeline handoff disappears, black borders or subtitles appear, or Chinese/Mandarin voice is generated."
+    ]
+  },
+  "adjacent_continuity_review_2026_08_24": {
+    "previous_shot": "Shot032",
+    "previous_end_frame": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "previous_to_start_finding": "Shot033 v2 receives the preceding shot on the documented axis and preserves the intended character separation.",
+    "next_shot": "Shot034",
+    "next_start_frame": "storyboards/Shot034/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+    "end_to_next_finding": "Shot033 v2 END preserves the documented handoff state for Shot034; no next-shot performer enters early.",
+    "decision": "monitor_required",
+    "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-24"
+  },
+  "output_frames": {
+    "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "start_frame": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "key_frame": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+  "end_frame": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "previous_match_action_reference": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-24",
+    "frame_set_id": "Shot033_critical_reaudit_regen_v2_2026-08-24",
+    "source": "imagegen_integrated_live_action_four_student_cathedral_silence_v2_2026-08-24",
+    "frames": {
+      "start": "storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot033/critical_reaudit_regen_v2_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-24/shot033_critical_reaudit_regen_v2_2026-08-24_review.md",
+    "note": "Exact v2 frames were visually reviewed as an integrated live-action chain. Downstream video remains monitor_required until prompt-against-frame QA and the 3-second motion probe pass."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+    "previous_shot": "Shot032",
+    "previous_end_frame": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+    "next_shot": "Shot034",
+    "next_start_frame": "storyboards/Shot034/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "external_film_staging_reboard_v1": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot033_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-161f712b-c943-412a-8ab0-43dd57507cc1.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a06d2081-25fe-4f8d-995b-583346e90004.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-87365ca4-3660-46ba-8ea6-720af2099b26.png"
+    },
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "the group breaks into four different decisions",
+    "attention_path": "half-closed authority door -> Ashe's hand leaves the latch -> Dimitri looks to Byleth -> Felix chooses the right exit",
+    "note": "Make the reaction shot a departure, not four people waiting. Ashe touches the door and lets it close, Dimitri turns to Byleth for a response, Felix chooses the open right corridor, and Byleth follows after a held beat.",
+    "states": {
+      "start": "the authority door is half-open in the far background; Ashe is nearest it, Dimitri is turned toward Byleth, Felix is already angled toward the right corridor, and Byleth holds the near left.",
+      "key": "Ashe releases the door latch as it closes; Dimitri takes a small step toward Byleth; Felix has started through the right corridor while Byleth remains the still pivot.",
+      "end": "the door is fully closed, Felix has cleared the corridor, Byleth begins after him, Dimitri looks back once, and Ashe remains by the closed door before following."
+    },
+    "reject_if": [
+      "the four stand shoulder-to-shoulder",
+      "the door or right-corridor handoff is missing",
+      "a fifth student or any authority figure enters",
+      "the frame becomes a set of isolated portraits"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-161f712b-c943-412a-8ab0-43dd57507cc1.png",
+        "output_sha256": "3e5b2d89efa840dbdf3c5242e7e9ed5d1b7e80f9a0c639667f5957b5b0aab562",
+        "source_sha256": "3e5b2d89efa840dbdf3c5242e7e9ed5d1b7e80f9a0c639667f5957b5b0aab562",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a06d2081-25fe-4f8d-995b-583346e90004.png",
+        "output_sha256": "56cb1775beddfa3d337ff11650d0ac2c1e2587f1eb39dec5d233c8c05d2a5d26",
+        "source_sha256": "56cb1775beddfa3d337ff11650d0ac2c1e2587f1eb39dec5d233c8c05d2a5d26",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-87365ca4-3660-46ba-8ea6-720af2099b26.png",
+        "output_sha256": "1906fc53677e8132838c0940f831323985f66762627feab82b2cdb0d49fc5090",
+        "source_sha256": "1906fc53677e8132838c0940f831323985f66762627feab82b2cdb0d49fc5090",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot033_reboard_review.md",
+    "source": ""
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Felix/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "episodes/EP03/storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "model_notes": [
+    "Current displayed frames are the external_film_staging_reboard_v1_2026-09-10 sequential action-chain repair: Make the reaction shot a departure, not four people waiting. Ashe touches the door and lets it close, Dimitri turns to Byleth for a response, Felix chooses the open right corridor, and Byleth follows after a held beat. Keep monitor_required until prompt QA and motion probe."
+  ]
+}

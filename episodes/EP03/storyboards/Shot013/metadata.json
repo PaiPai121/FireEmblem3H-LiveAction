@@ -1,0 +1,104 @@
+{
+  "id": "Shot013",
+  "order": 13,
+  "source_timecode": "00:07:10",
+  "status": "monitor_required",
+  "duration_seconds": 13,
+  "scene": "雾中部署",
+  "purpose": "Byleth 把学生从情绪里拉回战术。",
+  "location": "fogRoad",
+  "characters": [
+    "BylethFemale",
+    "Dimitri",
+    "Ashe",
+    "Felix",
+    "Mercedes"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/blue_lions/Felix/academy/selected.png",
+    "assets/characters/blue_lions/Mercedes/academy/selected.png",
+    "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+  ],
+  "source_reference": "source_refs/Shot013_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot013/start_frame.png",
+    "key": "storyboards/Shot013/key_frame.png",
+    "end": "storyboards/Shot013/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot013_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot013_negative_prompt.md",
+  "expected_clip": "clips/Shot013.mp4",
+  "edit_in": "cut from rebel camp",
+  "edit_out": "cut to first arrow",
+  "audio_anchor": "Byleth, in Japanese: 影を追うな。仲間の声を聞け。霧に惑わされるな。",
+  "risks": "game UI grid",
+  "previous_source_timecode": "00:06:45",
+  "source_timecode_audit": {
+    "source_match": "tactical deployment map",
+    "adaptation_gap": "mud-map briefing is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "Critical re-audit 2026-08-15: prior Shot013 local_asset_final_candidate_v1 is downgraded because START/KEY/END visually used male or ambiguous black-haired Byleth, violating the user-confirmed female-Byleth-only lock. New critical_reaudit_regen_v1 frames use the local female Byleth selected asset, Blue Lions academy selected assets, Shot012 continuity, and the Magdred fog-road reference. START shows the group gathering around Byleth, KEY clarifies two muddy route lines and stone markers, and END lands on deployment/listen state for the first-arrow cut. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe prove identity, costume, route-map, and restrained acting stability.",
+  "required_revision": "Run a 3-second motion probe before any approved_for_video promotion. Reject if Byleth becomes male/ambiguous/war-phase/sexualized, Byleth merges with Felix, Ashe fires or advances alone, the mud sketch becomes UI/grid/text/glowing markers, arrow impact appears before Shot014, START/KEY/END collapse into a static hold, or subtitles/UI/Chinese voice appear.",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "current_display_frame_source": "imagegen_from_shot012_continuity_local_character_reference_board_and_magdred_fog_road_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v1",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v1_2026-08-15",
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "byleth_visual_spotcheck_2026_08_15": "prior_current_web_candidate_failed_male_or_ambiguous_byleth_replaced_with_monitor_required_candidate",
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot013_critical_reaudit_regen_v1_2026-08-15",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "frames": {
+      "start": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot013/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "reference_assets": [
+      "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "production_system/reviews/critical_reaudit_2026-08-15/shot013_local_character_reference_board_2026-08-15.jpg",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "source_refs/Shot013_source.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_shot012_continuity_character_board_and_magdred_fog_road_reference",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot013_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot013_current_web_candidate_reaudit_2026-08-15.json",
+    "note": "Critical re-audit 2026-08-15: prior Shot013 local_asset_final_candidate_v1 is downgraded because START/KEY/END visually used male or ambiguous black-haired Byleth, violating the user-confirmed female-Byleth-only lock. New critical_reaudit_regen_v1 frames use the local female Byleth selected asset, Blue Lions academy selected assets, Shot012 continuity, and the Magdred fog-road reference. START shows the group gathering around Byleth, KEY clarifies two muddy route lines and stone markers, and END lands on deployment/listen state for the first-arrow cut. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe prove identity, costume, route-map, and restrained acting stability. Run a 3-second motion probe before any approved_for_video promotion. Reject if Byleth becomes male/ambiguous/war-phase/sexualized, Byleth merges with Felix, Ashe fires or advances alone, the mud sketch becomes UI/grid/text/glowing markers, arrow impact appears before Shot014, START/KEY/END collapse into a static hold, or subtitles/UI/Chinese voice appear."
+  },
+  "legacy_current_candidate_downgrade_2026_08_15": {
+    "decision": "blocked_needs_revision",
+    "candidate": "local_asset_final_candidate_v1_2026-08-02",
+    "reason": "Rendered frames show male or ambiguous Byleth, contradicting female-Byleth-only project lock.",
+    "superseded_by": "critical_reaudit_regen_v1_2026-08-15"
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-013-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-013-1",
+    "speaker": "Byleth",
+    "text": "影を追うな。仲間の声を聞け。霧に惑わされるな。",
+    "local_start_seconds": 5.04,
+    "local_speech_end_seconds": 12.12,
+    "local_end_seconds": 12.95,
+    "speech_seconds": 7.08,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot013/prompt.md"
+  }
+}

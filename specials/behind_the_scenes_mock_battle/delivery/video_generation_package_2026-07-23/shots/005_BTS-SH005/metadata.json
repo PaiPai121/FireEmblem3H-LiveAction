@@ -1,0 +1,21 @@
+{
+  "id": "BTS-SH005",
+  "order": 5,
+  "status": "approved_for_video",
+  "duration_seconds": 10,
+  "expected_clip": "clips/BTS-SH005.mp4",
+  "edit_in": "cut after laughter from rehearsal lane",
+  "edit_out": "cut on Byleth's approving nod",
+  "audio_anchor": "Claude says the take goes in extras",
+  "continuity_previous": "BTS-SH004",
+  "continuity_next": "BTS-SH006",
+  "model_notes": [
+    "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+    "Byleth's nod is the action peak."
+  ],
+  "reject_if": [
+    "Byleth talks or overacts.",
+    "Monitor shows unrelated footage.",
+    "Faces become unreadable."
+  ]
+}

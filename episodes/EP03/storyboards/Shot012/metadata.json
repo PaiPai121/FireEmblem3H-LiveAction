@@ -1,0 +1,87 @@
+{
+  "id": "Shot012",
+  "order": 12,
+  "source_timecode": "00:07:20",
+  "status": "monitor_required",
+  "duration_seconds": 14,
+  "scene": "叛军营地远望",
+  "purpose": "让观众先看到 Lonato 的人不是普通盗匪。",
+  "location": "rebelCamp",
+  "characters": [
+    "BylethFemale",
+    "Ashe",
+    "SeirosSoldier"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/church_of_seiros/SeirosSoldier/selected.png",
+    "assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png"
+  ],
+  "source_reference": "source_refs/Shot012_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot012/integrated_candidate_v2_2026-08-10/start_frame.png",
+    "key": "storyboards/Shot012/integrated_candidate_v2_2026-08-10/key_frame.png",
+    "end": "storyboards/Shot012/integrated_candidate_v2_2026-08-10/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot012_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot012_negative_prompt.md",
+  "expected_clip": "clips/Shot012.mp4",
+  "edit_in": "cut from village",
+  "edit_out": "cut to Blue Lions tactical halt",
+  "audio_anchor": "Distant prayers and armor friction. No spoken dialogue.",
+  "risks": "bandits instead of organized rebels",
+  "previous_source_timecode": "00:06:15",
+  "source_timecode_audit": {
+    "source_match": "enemy formation in fog",
+    "adaptation_gap": "rebel camp detail is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "integrated_candidate_v2_2026_08_10": {
+    "status": "monitor_required",
+    "start_frame": "storyboards/Shot012/integrated_candidate_v2_2026-08-10/start_frame.png",
+    "key_frame": "storyboards/Shot012/integrated_candidate_v2_2026-08-10/key_frame.png",
+    "end_frame": "storyboards/Shot012/integrated_candidate_v2_2026-08-10/end_frame.png",
+    "triptych": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot012_integrated_candidate_v2_triptych_2026-08-10.jpg",
+    "review": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot012_integrated_candidate_v2_review_2026-08-10.md",
+    "generated_at": "2026-08-10",
+    "aspect_policy": "aspect-preserving scale/crop to 1280x720; no non-uniform resize",
+    "required_next_gate": "3-second motion probe plus identity/continuity QA before any full-duration generation"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot012 integrated candidate because the previous END redesigned female Byleth into a sexualized leather/glamor costume with exposed chest/fishnet-like styling risk, while the prompt carried template contamination and the frame chain remained too similar in fog-camp surveillance mood. New START/KEY/END use Shot011 smoke continuity, a local character reference board, and the Western Church rebel camp reference. The chain now reads as discovery from cover, organized faith-marked camp evidence, then Byleth/Ashe silently pulling back for a tactical halt while female Byleth stays academy-professor coded.",
+  "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous or sexualized, Ashe identity drifts, the camp becomes generic bandits, Seiros/Western Church organization clues disappear, or START/KEY/END collapse into a static surveillance hold.",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "current_display_frame_source": "imagegen_from_shot011_continuity_local_character_reference_board_and_western_church_rebel_camp_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v1",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v1_2026-08-15",
+  "legacy_current_candidate_downgrade_2026_08_15": {
+    "downgraded_frame_set": "integrated_candidate_v2_2026-08-10",
+    "decision": "blocked_needs_revision_for_byleth_costume_identity_and_prompt_contamination",
+    "reason": "Rendered review showed END Byleth redesigned into a sexualized leather/glamor outfit with exposed chest/fishnet-like styling risk, and the executable prompt still contained local-path/source-reference/template contamination."
+  },
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot012_critical_reaudit_regen_v1_2026-08-15",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "frames": {
+      "start": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot012/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "reference_assets": [
+      "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "production_system/reviews/critical_reaudit_2026-08-15/shot012_local_character_reference_board_2026-08-15.jpg",
+      "assets/locations/EP03/act01/WesternChurchRebelCamp/WesternChurchRebelCamp_reference.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_shot011_continuity_character_board_and_location_reference",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot012_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot012_current_web_candidate_reaudit_2026-08-15.json",
+    "note": "Critical re-audit regen v1 replaces the prior Shot012 integrated candidate because the previous END redesigned female Byleth into a sexualized leather/glamor costume with exposed chest/fishnet-like styling risk, while the prompt carried template contamination and the frame chain remained too similar in fog-camp surveillance mood. New START/KEY/END use Shot011 smoke continuity, a local character reference board, and the Western Church rebel camp reference. The chain now reads as discovery from cover, organized faith-marked camp evidence, then Byleth/Ashe silently pulling back for a tactical halt while female Byleth stays academy-professor coded. Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous or sexualized, Ashe identity drifts, the camp becomes generic bandits, Seiros/Western Church organization clues disappear, or START/KEY/END collapse into a static surveillance hold."
+  },
+  "byleth_visual_spotcheck_2026_08_15": "previous_integrated_candidate_failed_sexualized_byleth_costume_replaced_with_monitor_required_candidate"
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="420" viewBox="0 0 620 420" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .axis{stroke:#64748b;stroke-width:1.2;stroke-dasharray:5 5}
+      .thin{stroke:#334155;stroke-width:1.5;fill:none}
+      .needle{stroke:#dc2626;stroke-width:5;stroke-linecap:round}
+      .ghost{stroke:#2563eb;stroke-width:3;stroke-linecap:round;opacity:.55}
+      .region{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}
+      .region2{fill:#ecfeff;stroke:#0891b2;stroke-width:2}
+      .shade{fill:#fde68a;stroke:#b45309;stroke-width:1.5;opacity:.78}
+      .overlapA{fill:#38bdf8;stroke:#0369a1;stroke-width:1.4;opacity:.62}
+      .overlapB{fill:#f59e0b;stroke:#92400e;stroke-width:1.4;opacity:.62}
+      .green{fill:#dcfce7;stroke:#15803d;stroke-width:1.5}
+      .tube{fill:#bfdbfe;stroke:#1d4ed8;stroke-width:1.1;opacity:.35}
+      .label{font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#0f172a}
+      .small{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#475569}
+      .formula{font:13px Georgia,"Times New Roman",serif;fill:#0f172a}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+<text x="310" y="35" class="label" text-anchor="middle">二维现代挂谷猜想：δ-管相交估计</text><polygon points="181.95,351.04 427.55,87.83 418.05,78.96 172.45,342.17" class="tube" /><polygon points="164.12,333.24 444.05,106.87 435.88,96.76 155.95,323.13" class="tube" /><polygon points="148.95,313.12 457.73,128.03 451.05,116.88 142.27,301.97" class="tube" /><polygon points="136.74,291.08 468.32,150.89 463.26,138.92 131.68,279.11" class="tube" /><polygon points="127.72,267.56 475.62,175.01 472.28,162.44 124.38,254.99" class="tube" /><polygon points="122.07,243.00 479.48,199.91 477.93,187.00 120.52,230.09" class="tube" /><polygon points="119.91,217.90 479.83,225.10 480.09,212.10 120.17,204.90" class="tube" /><polygon points="121.26,192.74 476.67,250.09 478.74,237.26 123.33,179.91" class="tube" /><polygon points="126.12,168.02 470.04,274.40 473.88,261.98 129.96,155.60" class="tube" /><polygon points="134.38,144.21 460.09,297.55 465.62,285.79 139.91,132.45" class="tube" /><polygon points="145.87,121.79 447.00,319.08 454.13,308.21 153.00,110.92" class="tube" /><polygon points="160.39,101.20 431.04,338.58 439.61,328.80 168.96,91.42" class="tube" /><polygon points="177.64,82.83 412.51,355.65 422.36,347.17 187.49,74.35" class="tube" />
+  <circle cx="300" cy="215" r="12" fill="#ef4444" opacity=".75"/>
+  <text x="89" y="90" class="small" text-anchor="start">角度分离：约 δ</text>
+  <line x1="102.00" y1="112.00" x2="198.00" y2="168.00" class="thin" marker-end="url(#arrow)"/>
+  <text x="438" y="341" class="formula" text-anchor="middle">交叠面积 ≲ δ² / angle</text>
+  <text x="310" y="390" class="small" text-anchor="middle">许多方向不能全挤进低维集合；由管并集下界推出 Hausdorff 维数为 2</text>
+  
+</svg>

@@ -1,0 +1,114 @@
+{
+  "id": "Shot010",
+  "order": 10,
+  "source_timecode": "00:06:30",
+  "status": "monitor_required",
+  "duration_seconds": 10.9,
+  "scene": "马格德雷德雾道",
+  "purpose": "建立战场核心危险：能见度和误判。",
+  "location": "fogRoad",
+  "characters": [
+    "BylethFemale",
+    "Dimitri",
+    "Dedue",
+    "Ingrid"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Ingrid/academy/selected.png",
+    "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+  ],
+  "source_reference": "source_refs/Shot010_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot010/start_frame.png",
+    "key": "storyboards/Shot010/key_frame.png",
+    "end": "storyboards/Shot010/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot010_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot010_negative_prompt.md",
+  "expected_clip": "clips/Shot010.mp4",
+  "edit_in": "dissolve from monastery road",
+  "edit_out": "cut to village sign",
+  "audio_anchor": "Ingrid, in Japanese: 霧が濃すぎるわ。 Dedue, in Japanese: 足音を聞け。",
+  "risks": "fog clears too much",
+  "previous_source_timecode": "00:05:15",
+  "source_timecode_audit": {
+    "source_match": "Magdred fog tactical map begins",
+    "adaptation_gap": "matches fog geography",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot010 web candidate because the previous START/KEY/END reduced the party to anonymous back silhouettes, made Byleth read as male or ambiguous, and turned Dedue into a generic soldier. New START/KEY/END use Shot009 fog-road continuity, a local character reference board, and the Magdred Way fog-road reference. The chain now reads as cautious entry, two-column advance, and village-sign cut-out while female Byleth remains visibly female and the four named party members remain readable.",
+  "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, Dedue becomes a bald generic soldier, Ingrid costume drifts further into non-academy armor, fog swallows identity, or START/KEY/END collapse into repeated fog-road stills.",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "current_display_frame_source": "imagegen_from_shot009_continuity_local_character_reference_board_and_magdred_fogroad_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v1",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v1_2026-08-15",
+  "legacy_current_candidate_downgrade_2026_08_15": {
+    "downgraded_frame_set": "local_asset_final_candidate_v1",
+    "decision": "blocked_needs_revision_for_byleth_gender_identity_and_named_party_readability",
+    "reason": "Rendered review showed Byleth as male or ambiguous black-cloak back silhouette, party members as anonymous silhouettes, and Dedue as a generic soldier rather than the local selected asset identity."
+  },
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot010_critical_reaudit_regen_v1_2026-08-15",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "frames": {
+      "start": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "reference_assets": [
+      "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "production_system/reviews/critical_reaudit_2026-08-15/shot010_local_character_reference_board_2026-08-15.jpg",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_shot009_continuity_character_board_and_location_reference",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot010_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot010_current_web_candidate_reaudit_2026-08-15.json",
+    "note": "Critical re-audit regen v1 replaces the prior Shot010 web candidate because the previous START/KEY/END reduced the party to anonymous back silhouettes, made Byleth read as male or ambiguous, and turned Dedue into a generic soldier. New START/KEY/END use Shot009 fog-road continuity, a local character reference board, and the Magdred Way fog-road reference. The chain now reads as cautious entry, two-column advance, and village-sign cut-out while female Byleth remains visibly female and the four named party members remain readable. Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, Dedue becomes a bald generic soldier, Ingrid costume drifts further into non-academy armor, fog swallows identity, or START/KEY/END collapse into repeated fog-road stills."
+  },
+  "byleth_visual_spotcheck_2026_08_15": "previous_web_candidate_failed_male_or_ambiguous_byleth_and_anonymous_party_replaced_with_monitor_required_candidate",
+  "dialogue_line_ids": [
+    "DL-EP03-010-1",
+    "DL-EP03-010-2"
+  ],
+  "dialogue_mode": "two_turn_exchange",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": [
+    {
+      "line_id": "DL-EP03-010-1",
+      "speaker": "Ingrid",
+      "text": "霧が濃すぎるわ。",
+      "local_start_seconds": 3.92,
+      "local_speech_end_seconds": 6.68,
+      "local_end_seconds": 7.03,
+      "speech_seconds": 2.76,
+      "cut_on": "reaction",
+      "repeat_policy": "no_repeat"
+    },
+    {
+      "line_id": "DL-EP03-010-2",
+      "speaker": "Dedue",
+      "text": "足音を聞け。",
+      "local_start_seconds": 7.28,
+      "local_speech_end_seconds": 10.04,
+      "local_end_seconds": 10.85,
+      "speech_seconds": 2.76,
+      "cut_on": "reaction",
+      "repeat_policy": "no_repeat"
+    }
+  ],
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot010/prompt.md"
+  }
+}

@@ -1,0 +1,3 @@
+# Shot007 Negative Prompt
+
+No continuity reset to a pre-formed courtyard lineup, no loss of the classroom doorway at START, no reversed movement from Shot006, no static tabletop insert, no static group portrait, no missing lantern handoff, no missing strap tightening, no missing walk-and-turn handoff, no male or ambiguous Byleth, no war-phase Byleth, no identity drift, no floating feet, no pasted cutout, no mismatched rain or stone, no modern weapons, no graphic combat, no gore, no Catherine before Shot008, no Thunderbrand, no subtitles, no captions, no dialogue boxes, no readable text, no game UI, no watermark, no borders, no voiceover, no spoken dialogue, no Chinese or Mandarin speech, no duplicate START/KEY/END stills, no zoom-only transition.

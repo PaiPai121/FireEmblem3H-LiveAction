@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-BRIEF",
+      "review_id": "review-2026-07-24-bts-mock-battle-brief-v3",
+      "reviewer_role": "production-reviewer-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "brief.md"
+      ],
+      "notes": "Defines the behind-the-scenes special as separate from EP02 main canon."
+    },
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-OUTLINE",
+      "review_id": "review-2026-07-24-bts-mock-battle-outline-v3",
+      "reviewer_role": "production-reviewer-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "outline.md"
+      ],
+      "notes": "Humanized V3 outline: real set bloopers only, no AI/monitor malfunction framing."
+    },
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-DIRECTOR-TREATMENT",
+      "review_id": "review-2026-07-24-bts-mock-battle-director-treatment-v3",
+      "reviewer_role": "production-reviewer-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "director_treatment.md"
+      ],
+      "notes": "Nian is the visible director/QA throughline; actors and Nian carry all dialogue."
+    },
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-SHOT-LIST",
+      "review_id": "review-2026-07-24-bts-mock-battle-shot-list-v3",
+      "reviewer_role": "production-reviewer-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "shot_list.md"
+      ],
+      "notes": "Seven V3 long-take shots totaling 84 seconds."
+    },
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-PRODUCTION-NOTES",
+      "review_id": "review-2026-07-24-bts-mock-battle-production-notes-v3",
+      "reviewer_role": "production-reviewer-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_next_stage",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "production_notes.md"
+      ],
+      "notes": "V3 production locks for real set bloopers, selected assets, and QA requirements."
+    },
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE",
+      "review_id": "review-2026-07-24-bts-mock-battle-prompt-asset-package-v3",
+      "reviewer_role": "production-reviewer-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "prompt_asset_package_manifest.json",
+        "dialogue_audio_beats.md",
+        "production_system/video_delivery_manifest.json",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md",
+        "production_system/reviews/contact_sheet_human_set_v3_2026-07-24.jpg"
+      ],
+      "notes": "Current V3 prompt/frame package approved for video generation after visual and prompt QA."
+    },
+    {
+      "artifact_id": "BTS-SH000",
+      "review_id": "review-2026-07-24-bts-sh000-v3",
+      "reviewer_role": "visual-reviewer-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards_human_set_v3/BTS-SH000/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH000/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH000/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH000/end_frame.png",
+        "video_prompts/BTS-SH000.md",
+        "video_prompts/BTS-SH000_negative.md"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH000."
+    },
+    {
+      "artifact_id": "BTS-SH001",
+      "review_id": "review-2026-07-24-bts-sh001-v3",
+      "reviewer_role": "visual-reviewer-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards_human_set_v3/BTS-SH001/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH001/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH001/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH001/end_frame.png",
+        "video_prompts/BTS-SH001.md",
+        "video_prompts/BTS-SH001_negative.md"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH001."
+    },
+    {
+      "artifact_id": "BTS-SH002",
+      "review_id": "review-2026-07-24-bts-sh002-v3",
+      "reviewer_role": "visual-reviewer-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards_human_set_v3/BTS-SH002/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH002/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH002/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH002/end_frame.png",
+        "video_prompts/BTS-SH002.md",
+        "video_prompts/BTS-SH002_negative.md"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH002."
+    },
+    {
+      "artifact_id": "BTS-SH003",
+      "review_id": "review-2026-07-24-bts-sh003-v3",
+      "reviewer_role": "visual-reviewer-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards_human_set_v3/BTS-SH003/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH003/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH003/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH003/end_frame.png",
+        "video_prompts/BTS-SH003.md",
+        "video_prompts/BTS-SH003_negative.md"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH003."
+    },
+    {
+      "artifact_id": "BTS-SH004",
+      "review_id": "review-2026-07-24-bts-sh004-v3",
+      "reviewer_role": "visual-reviewer-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards_human_set_v3/BTS-SH004/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH004/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH004/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH004/end_frame.png",
+        "video_prompts/BTS-SH004.md",
+        "video_prompts/BTS-SH004_negative.md"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH004."
+    },
+    {
+      "artifact_id": "BTS-SH005",
+      "review_id": "review-2026-07-24-bts-sh005-v3",
+      "reviewer_role": "visual-reviewer-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards_human_set_v3/BTS-SH005/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH005/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH005/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH005/end_frame.png",
+        "video_prompts/BTS-SH005.md",
+        "video_prompts/BTS-SH005_negative.md"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH005."
+    },
+    {
+      "artifact_id": "BTS-SH006",
+      "review_id": "review-2026-07-24-bts-sh006-v3",
+      "reviewer_role": "visual-reviewer-agent",
+      "reviewer": "codex-visual-reviewer",
+      "created_at": "2026-07-24",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "humanized_set_logic": "pass",
+        "identity_locks": "pass",
+        "modern_set_readability": "pass",
+        "no_ai_or_monitor_fault_framing": "pass"
+      },
+      "reviewed_paths": [
+        "storyboards_human_set_v3/BTS-SH006/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH006/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH006/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH006/end_frame.png",
+        "video_prompts/BTS-SH006.md",
+        "video_prompts/BTS-SH006_negative.md"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH006."
+    },
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-EXTENSION-FUN-SHOTS-V1",
+      "review_id": "review-2026-07-25-bts-extension-fun-shots-v1",
+      "reviewer_role": "story-director-reviewer-agent",
+      "reviewer": "codex-production-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "monitor_required",
+      "blocking_issues": [],
+      "required_revisions": [
+        "Run a director pass before frame generation, especially BTS-EX004 so the retreat gag is visible rather than dialogue-only.",
+        "Generate start/key/end frames and run visual audit before adding these shots to any delivery package.",
+        "Run video-prompt QA with strong locks on Nian visibility, wooden prop texture, set gear, and restrained laughter."
+      ],
+      "rubric": {
+        "scene_purpose": "pass",
+        "conflict": "pass",
+        "emotional_turn": "pass",
+        "character_choice": "pass",
+        "visible_action": "pass",
+        "dialogue_subtext": "conditional",
+        "continuity_hooks": "pass",
+        "canon_fidelity": "pass",
+        "shot_purpose": "pass",
+        "action_peak": "pass",
+        "start_key_end_chain": "conditional",
+        "identity_locks": "conditional",
+        "camera_motivation": "pass",
+        "motion_risk": "monitor_required"
+      },
+      "reviewed_paths": [
+        "extension_fun_shots_v1.md"
+      ],
+      "notes": "Creative direction is usable as a post-wrap tag after BTS-SH006, but it is not approved for video until visual and prompt gates pass."
+    },
+    {
+      "artifact_id": "BTS-MOCK-BATTLE-REFUSAL-SAFE-PROMPT-PASS",
+      "review_id": "review-2026-07-25-bts-refusal-safe-video-prompts",
+      "reviewer_role": "video-prompt-qa-reviewer-agent",
+      "reviewer": "codex-video-prompt-qa-reviewer",
+      "created_at": "2026-07-25",
+      "decision": "approved_for_video",
+      "blocking_issues": [],
+      "required_revisions": [],
+      "rubric": {
+        "required_sections": "pass",
+        "frame_locks": "pass",
+        "identity_locks": "pass",
+        "motion_specificity": "pass",
+        "camera_specificity": "pass",
+        "audio_anchor": "pass",
+        "continuity_locks": "pass",
+        "negative_prompt_concrete_risks": "pass",
+        "refusal_safety": "pass"
+      },
+      "reviewed_paths": [
+        "production_system/reviews/video_prompt_qa_refusal_safe_2026-07-25.md"
+      ],
+      "notes": "All seven prompts validate structurally and have been rewritten to reduce provider refusal risk while preserving the approved frame chain."
+    }
+  ]
+}

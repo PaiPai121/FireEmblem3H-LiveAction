@@ -1,0 +1,45 @@
+{
+  "total_duration_seconds": 60,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "BLFS-SH001",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BLFS-SH001.mp4",
+      "edit_in": "cut from title or greenhouse detail",
+      "edit_out": "cut/rack into Felix reveal"
+    },
+    {
+      "order": 2,
+      "shot": "BLFS-SH002",
+      "duration_seconds": 8,
+      "expected_clip": "clips/BLFS-SH002.mp4",
+      "edit_in": "from Annette's turn",
+      "edit_out": "cut to Annette close reaction"
+    },
+    {
+      "order": 3,
+      "shot": "BLFS-SH003",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BLFS-SH003.mp4",
+      "edit_in": "hard cut from Felix reveal",
+      "edit_out": "cut to two-shot"
+    },
+    {
+      "order": 4,
+      "shot": "BLFS-SH004",
+      "duration_seconds": 14,
+      "expected_clip": "clips/BLFS-SH004.mp4",
+      "edit_in": "cut from Annette close",
+      "edit_out": "cut on Annette's protest"
+    },
+    {
+      "order": 5,
+      "shot": "BLFS-SH005",
+      "duration_seconds": 14,
+      "expected_clip": "clips/BLFS-SH005.mp4",
+      "edit_in": "cut from Annette protest",
+      "edit_out": "hold on Annette's reaction"
+    }
+  ]
+}

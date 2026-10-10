@@ -1,0 +1,291 @@
+{
+  "id": "Shot031",
+  "order": 31,
+  "source_timecode": "00:12:30",
+  "status": "monitor_required",
+  "duration_seconds": 13.4,
+  "scene": "回到 Rhea 面前",
+  "purpose": "教会秩序重新覆盖战场创伤。",
+  "location": "cathedral",
+  "characters": [
+    "Rhea",
+    "Seteth",
+    "BylethFemale",
+    "Dimitri",
+    "Ashe"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot031_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot031_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot031_negative_prompt.md",
+  "expected_clip": "clips/Shot031.mp4",
+  "edit_in": "cut from the muddy return route through the cathedral threshold",
+  "edit_out": "cut on Rhea turning back toward the altar with the report",
+  "audio_anchor": "Wet shoes, a closing door, folio movement, and Rhea's single Japanese line; no Chinese or Mandarin voice.",
+  "risks": "the five become a ceremonial lineup, Seteth reads young, or the muddy threshold is erased",
+  "previous_source_timecode": "00:12:10",
+  "source_timecode_audit": {
+    "source_match": "return to Rhea/Seteth in cathedral",
+    "adaptation_gap": "matches report-to-Rhea beat",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Make the return a physical threshold: the cathedral door closes behind the students, Seteth crosses one step down to meet them and receives the folio from Byleth's side, then Rhea takes it and sends the group into stillness. Keep mature Seteth and female Byleth exact.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "current_display_frame_set": "external_film_staging_reboard_v1",
+  "current_display_frame_status": "monitor_required_external_film_staging_reboard_v1_2026-09-10",
+  "current_display_frame_source": "",
+  "video_prompt_qa_decision": "pending_review_against_external_film_staging_reboard_v1_2026-09-10",
+  "motion_probe_status": "pending_3s_probe_against_external_film_staging_reboard_v1_2026-09-10",
+  "character_presence_lock": "Rhea, mature academy Seteth, female academy Byleth, Dimitri, Ashe only; no Catherine, Lonato, or extra named student.",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot031_critical_reaudit_regen_v2_2026-08-21",
+    "source": "existing_local_reference_imagegen_chain_2026-08-21",
+    "frames": {
+      "start": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot031_critical_reaudit_regen_v2_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot031_critical_reaudit_regen_v2.json",
+    "note": "The v2 chain is the current displayed frame set. It receives the corrected Shot030 v2 aftermath via a hard institutional cut, retains mud/fog residue, and keeps monitor_required until prompt QA and a 3-second motion probe."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "current_display_frame_note": "Make the return a physical threshold: the cathedral door closes behind the students, Seteth crosses one step down to meet them and receives the folio from Byleth's side, then Rhea takes it and sends the group into stillness. Keep mature Seteth and female Byleth exact.",
+  "character_presence_constraint": "Exactly five named performers are readable: Rhea, mature academy Seteth, female academy Byleth, academy Dimitri, and academy Ashe. Catherine, Lonato, Felix, Mercedes, Annette, Ingrid, soldiers, and any generic foreground speaker remain absent.",
+  "displayed_frame_set": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot031_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a8b5204d-d2c4-4bcb-bf27-b0aedb78301d.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-431cb150-220d-45bb-aa3d-5341bb3b4ee0.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5e55f391-ff0e-4d09-9393-d68dbf7f9c54.png"
+    },
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "the report crosses from muddy students to institutional hands",
+    "attention_path": "closing cathedral door -> Seteth's folio -> Rhea's descending hand -> students held below",
+    "note": "Make the return a physical threshold: the cathedral door closes behind the students, Seteth crosses one step down to meet them and receives the folio from Byleth's side, then Rhea takes it and sends the group into stillness. Keep mature Seteth and female Byleth exact.",
+    "states": {
+      "start": "the five enter from the wet threshold in staggered depth; the door is still moving toward closed and Rhea waits above.",
+      "key": "Seteth is one step down with the closed folio extended; Rhea steps down to receive it while Byleth, Dimitri, and Ashe stop below.",
+      "end": "Rhea turns back toward the altar with the folio; Seteth remains between levels and the three students are left at the closed door with changed eyelines."
+    },
+    "reject_if": [
+      "the five become a ceremonial lineup",
+      "Seteth reads young or war-phase",
+      "the muddy threshold and folio handoff disappear",
+      "Rhea is framed as a theatrical villain"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a8b5204d-d2c4-4bcb-bf27-b0aedb78301d.png",
+        "output_sha256": "c98f1e729b48982aeb6c6354a58a65a00232f56b09551f7beaec11d249426160",
+        "source_sha256": "c98f1e729b48982aeb6c6354a58a65a00232f56b09551f7beaec11d249426160",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-431cb150-220d-45bb-aa3d-5341bb3b4ee0.png",
+        "output_sha256": "91c3a1fff039edbe579cd8fa912b86f4b1a00842edb07f5becc28b1d2ac1de75",
+        "source_sha256": "91c3a1fff039edbe579cd8fa912b86f4b1a00842edb07f5becc28b1d2ac1de75",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5e55f391-ff0e-4d09-9393-d68dbf7f9c54.png",
+        "output_sha256": "833902c93491b9296c9b99824fa3b48b5fb68072e2018685475ba8cbaf5a6a6e",
+        "source_sha256": "833902c93491b9296c9b99824fa3b48b5fb68072e2018685475ba8cbaf5a6a6e",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot031_reboard_review.md",
+    "source": ""
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot030",
+    "previous_end_frame": "storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+    "previous_to_start_finding": "Shot031 v2 receives the corrected Shot030 v2 END through a deliberate battlefield-to-cathedral cut: female Byleth, Dimitri, and Ashe carry mud, lowered weapons, and unsettled reaction into the lower cathedral foreground.",
+    "next_shot": "Shot032",
+    "next_start_frame": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "end_to_next_finding": "Shot031 critical_reaudit_regen_v2_2026-08-21 ends on a deliberate handoff state for Shot032; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot030->031 and 031->032 continuity QA, and a 3-second motion probe. Reject if Byleth reads male or ambiguous, Seteth reads young or war-phase, the folio handoff disappears, the five collapse into a static lineup, students look clean and reset, any unlisted named character enters, or Chinese/Mandarin/subtitles/UI/pasted plates appear."
+    ]
+  },
+  "adjacent_continuity_review_2026_08_24": {
+    "previous_shot": "Shot030",
+    "previous_end_frame": "storyboards/Shot030/critical_reaudit_regen_v2_2026-08-24/end_frame.png",
+    "previous_to_start_finding": "Shot031 v2 receives the corrected Shot030 v2 END through a deliberate battlefield-to-cathedral cut: female Byleth, Dimitri, and Ashe carry mud, lowered weapons, and unsettled reaction into the lower cathedral foreground.",
+    "next_shot": "Shot032",
+    "next_start_frame": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "end_to_next_finding": "Shot031 END leaves Rhea turned toward the altar and Seteth descending with the closed folio; the students remain below so Shot032 can narrow to the authority/reaction exchange without replaying the handoff.",
+    "decision": "monitor_required",
+    "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21"
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-031-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-031-1",
+    "speaker": "Rhea",
+    "text": "ご苦労さまでした。あなた方は信仰の安寧を守りました。",
+    "local_start_seconds": 9.15,
+    "local_speech_end_seconds": 12.55,
+    "local_end_seconds": 13.35,
+    "speech_seconds": 3.4,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot031/prompt.md"
+  },
+  "previous_match_action_reference": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+    "previous_shot": "Shot030",
+    "previous_end_frame": "storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+    "next_shot": "Shot032",
+    "next_start_frame": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "output_frames": {
+    "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "external_film_staging_reboard_v1": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot031_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a8b5204d-d2c4-4bcb-bf27-b0aedb78301d.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-431cb150-220d-45bb-aa3d-5341bb3b4ee0.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5e55f391-ff0e-4d09-9393-d68dbf7f9c54.png"
+    },
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "the report crosses from muddy students to institutional hands",
+    "attention_path": "closing cathedral door -> Seteth's folio -> Rhea's descending hand -> students held below",
+    "note": "Make the return a physical threshold: the cathedral door closes behind the students, Seteth crosses one step down to meet them and receives the folio from Byleth's side, then Rhea takes it and sends the group into stillness. Keep mature Seteth and female Byleth exact.",
+    "states": {
+      "start": "the five enter from the wet threshold in staggered depth; the door is still moving toward closed and Rhea waits above.",
+      "key": "Seteth is one step down with the closed folio extended; Rhea steps down to receive it while Byleth, Dimitri, and Ashe stop below.",
+      "end": "Rhea turns back toward the altar with the folio; Seteth remains between levels and the three students are left at the closed door with changed eyelines."
+    },
+    "reject_if": [
+      "the five become a ceremonial lineup",
+      "Seteth reads young or war-phase",
+      "the muddy threshold and folio handoff disappear",
+      "Rhea is framed as a theatrical villain"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-a8b5204d-d2c4-4bcb-bf27-b0aedb78301d.png",
+        "output_sha256": "c98f1e729b48982aeb6c6354a58a65a00232f56b09551f7beaec11d249426160",
+        "source_sha256": "c98f1e729b48982aeb6c6354a58a65a00232f56b09551f7beaec11d249426160",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-431cb150-220d-45bb-aa3d-5341bb3b4ee0.png",
+        "output_sha256": "91c3a1fff039edbe579cd8fa912b86f4b1a00842edb07f5becc28b1d2ac1de75",
+        "source_sha256": "91c3a1fff039edbe579cd8fa912b86f4b1a00842edb07f5becc28b1d2ac1de75",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-5e55f391-ff0e-4d09-9393-d68dbf7f9c54.png",
+        "output_sha256": "833902c93491b9296c9b99824fa3b48b5fb68072e2018685475ba8cbaf5a6a6e",
+        "source_sha256": "833902c93491b9296c9b99824fa3b48b5fb68072e2018685475ba8cbaf5a6a6e",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot031_reboard_review.md",
+    "source": ""
+  },
+  "reference_assets": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "episodes/EP03/storyboards/Shot030/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "start_frame": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "key_frame": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+  "end_frame": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "model_notes": [
+    "Current displayed frames are the external_film_staging_reboard_v1_2026-09-10 sequential action-chain repair: Make the return a physical threshold: the cathedral door closes behind the students, Seteth crosses one step down to meet them and receives the folio from Byleth's side, then Rhea takes it and sends the group into stillness. Keep mature Seteth and female Byleth exact. Keep monitor_required until prompt QA and motion probe."
+  ]
+}

@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一根针怎样打碎面积直觉</title>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(", "\\)"]],
+        displayMath: [["\\[", "\\]"]]
+      },
+      chtml: {
+        matchFontHeight: false
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #111827;
+      --muted: #64748b;
+      --paper: #fffdf8;
+      --panel: #ffffff;
+      --line: #d7dee8;
+      --accent: #b42318;
+      --accent-soft: #fff1eb;
+      --blue: #075985;
+      --code: #f6f8fb;
+      --shadow: 0 14px 40px rgba(17, 24, 39, .08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(180, 35, 24, .045) 0 1px, transparent 1px 80px),
+        linear-gradient(0deg, rgba(7, 89, 133, .04) 0 1px, transparent 1px 80px),
+        var(--paper);
+      font-family: ui-serif, "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", Georgia, serif;
+      line-height: 1.8;
+    }
+
+    .progress {
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 10;
+      height: 4px;
+      background: linear-gradient(90deg, #b42318, #0f766e, #075985);
+      transform: scaleX(0);
+      transform-origin: left;
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 36px;
+      width: min(1320px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: 42px 0 70px;
+    }
+
+    aside {
+      position: sticky;
+      top: 24px;
+      align-self: start;
+      max-height: calc(100vh - 48px);
+      padding: 22px;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .82);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .brand {
+      margin: 0 0 16px;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 13px;
+      font-weight: 750;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .toc {
+      display: grid;
+      gap: 4px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .toc a {
+      display: block;
+      padding: 8px 10px;
+      border-radius: 6px;
+      color: #334155;
+      text-decoration: none;
+    }
+
+    .toc a:hover,
+    .toc a.active {
+      color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .tools {
+      display: flex;
+      gap: 8px;
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    button {
+      min-height: 36px;
+      padding: 0 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      color: #0f172a;
+      background: #fff;
+      font: 650 13px ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    main {
+      min-width: 0;
+      padding: 52px clamp(24px, 5vw, 80px);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .94);
+      box-shadow: var(--shadow);
+    }
+
+    article {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-size: clamp(34px, 4.8vw, 58px);
+      font-weight: 850;
+    }
+
+    h2 {
+      margin: 58px 0 18px;
+      padding-top: 12px;
+      border-top: 2px solid #eef2f7;
+      font-size: clamp(25px, 3vw, 36px);
+      color: #152238;
+    }
+
+    h3 {
+      margin: 34px 0 12px;
+      font-size: 21px;
+      color: var(--blue);
+    }
+
+    p,
+    li {
+      font-size: 17px;
+    }
+
+    p {
+      margin: 14px 0;
+    }
+
+    strong {
+      font-weight: 760;
+      color: #111827;
+    }
+
+    blockquote {
+      margin: 0 0 34px;
+      padding: 18px 22px;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      background: var(--accent-soft);
+      color: #334155;
+    }
+
+    blockquote p,
+    blockquote li {
+      font-size: 16px;
+    }
+
+    ul,
+    ol {
+      padding-left: 1.55em;
+    }
+
+    figure {
+      margin: 30px 0 34px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+    }
+
+    figcaption {
+      margin-top: 10px;
+      color: var(--muted);
+      font: 13px ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      text-align: center;
+    }
+
+    .math {
+      overflow-x: auto;
+      margin: 18px 0;
+      padding: 14px 18px;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      background: var(--code);
+      color: #0f172a;
+      font-family: "Times New Roman", ui-serif, serif;
+      font-size: 18px;
+      line-height: 1.55;
+      text-align: center;
+      white-space: pre-wrap;
+    }
+
+    .inline-math {
+      padding: 0 .15em;
+      color: #7f1d1d;
+      font-family: "Times New Roman", ui-serif, serif;
+    }
+
+    table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    th,
+    td {
+      padding: 11px 12px;
+      border: 1px solid #dbe3ee;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      color: #0f172a;
+      background: #f8fafc;
+      font-weight: 750;
+    }
+
+    a {
+      color: var(--blue);
+    }
+
+    code {
+      padding: .12em .32em;
+      border-radius: 4px;
+      background: var(--code);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .92em;
+    }
+
+    .loading,
+    .error {
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    @media (max-width: 940px) {
+      .shell {
+        display: block;
+        width: min(100% - 24px, 860px);
+        padding-top: 18px;
+      }
+
+      aside {
+        position: static;
+        max-height: none;
+        margin-bottom: 16px;
+      }
+
+      .toc {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      }
+
+      main {
+        padding: 32px 18px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .progress,
+      aside {
+        display: none;
+      }
+
+      .shell,
+      main,
+      article {
+        display: block;
+        width: auto;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+      }
+
+      figure {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="shell">
+    <aside aria-label="文章目录">
+      <p class="brand">Needle Reader</p>
+      <ol class="toc" id="toc"></ol>
+      <div class="tools">
+        <button type="button" id="topButton">回到顶部</button>
+        <button type="button" id="printButton">打印</button>
+      </div>
+    </aside>
+    <main>
+      <article id="article">
+        <div class="loading">正在载入转针问题讲稿...</div>
+      </article>
+    </main>
+  </div>
+
+  <script>
+    const article = document.querySelector("#article");
+    const toc = document.querySelector("#toc");
+    const progress = document.querySelector("#progress");
+
+    function escapeHtml(value) {
+      return value
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function slugify(text, fallback) {
+      const ascii = text
+        .toLowerCase()
+        .replace(/<[^>]+>/g, "")
+        .replace(/[^\p{Letter}\p{Number}]+/gu, "-")
+        .replace(/^-+|-+$/g, "");
+      return ascii || `section-${fallback}`;
+    }
+
+    function inlineFormat(raw) {
+      let text = escapeHtml(raw);
+      text = text.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => {
+        const imageSrc = src.startsWith("http") ? src : `../${src}`;
+        return `<figure><img src="${escapeHtml(imageSrc)}" alt="${escapeHtml(alt)}"><figcaption>${escapeHtml(alt)}</figcaption></figure>`;
+      });
+      text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>');
+      text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+      text = text.replace(/`([^`]+)`/g, "<code>$1</code>");
+      text = text.replace(/\\\((.+?)\\\)/g, '<span class="inline-math">\\($1\\)</span>');
+      return text;
+    }
+
+    function renderMarkdown(markdown) {
+      const lines = markdown.split(/\r?\n/);
+      const html = [];
+      let i = 0;
+      let headingIndex = 0;
+      const headings = [];
+
+      function consumeParagraph() {
+        const parts = [];
+        while (i < lines.length && lines[i].trim() && !/^#{1,3}\s/.test(lines[i]) && !/^>\s?/.test(lines[i]) && !/^[-*]\s+/.test(lines[i]) && !/^\d+\.\s+/.test(lines[i]) && !/^!\[/.test(lines[i]) && !/^\\\[/.test(lines[i]) && !/^\|/.test(lines[i])) {
+          parts.push(lines[i].replace(/\s{2}$/, ""));
+          i += 1;
+        }
+        html.push(`<p>${inlineFormat(parts.join(" "))}</p>`);
+      }
+
+      while (i < lines.length) {
+        const line = lines[i];
+        const trimmed = line.trim();
+
+        if (!trimmed) {
+          i += 1;
+          continue;
+        }
+
+        if (/^\\\[/.test(trimmed)) {
+          const math = [];
+          i += 1;
+          while (i < lines.length && !/^\\\]/.test(lines[i].trim())) {
+            math.push(lines[i]);
+            i += 1;
+          }
+          i += 1;
+          html.push(`<div class="math">\\[${escapeHtml(math.join("\n"))}\\]</div>`);
+          continue;
+        }
+
+        const heading = /^(#{1,3})\s+(.+)$/.exec(trimmed);
+        if (heading) {
+          const level = heading[1].length;
+          const content = inlineFormat(heading[2]);
+          const id = slugify(heading[2], headingIndex);
+          headingIndex += 1;
+          html.push(`<h${level} id="${id}">${content}</h${level}>`);
+          if (level === 2) headings.push({ id, text: heading[2] });
+          i += 1;
+          continue;
+        }
+
+        if (/^>\s?/.test(trimmed)) {
+          const items = [];
+          while (i < lines.length && /^>\s?/.test(lines[i].trim())) {
+            items.push(lines[i].trim().replace(/^>\s?/, ""));
+            i += 1;
+          }
+          const block = items.join("\n").split(/\n(?=-\s+)/);
+          const body = block.map((part) => {
+            if (/^-\s+/.test(part.trim())) {
+              const li = part.split("\n").filter(Boolean).map((v) => v.replace(/^-\s+/, ""));
+              return `<ul>${li.map((v) => `<li>${inlineFormat(v)}</li>`).join("")}</ul>`;
+            }
+            return `<p>${inlineFormat(part.replace(/\n/g, " "))}</p>`;
+          }).join("");
+          html.push(`<blockquote>${body}</blockquote>`);
+          continue;
+        }
+
+        if (/^!\[/.test(trimmed)) {
+          html.push(inlineFormat(trimmed));
+          i += 1;
+          continue;
+        }
+
+        if (/^\d+\.\s+/.test(trimmed) || /^[-*]\s+/.test(trimmed)) {
+          const ordered = /^\d+\.\s+/.test(trimmed);
+          const tag = ordered ? "ol" : "ul";
+          const items = [];
+          const pattern = ordered ? /^\d+\.\s+/ : /^[-*]\s+/;
+          while (i < lines.length && pattern.test(lines[i].trim())) {
+            items.push(lines[i].trim().replace(pattern, ""));
+            i += 1;
+          }
+          html.push(`<${tag}>${items.map((item) => `<li>${inlineFormat(item)}</li>`).join("")}</${tag}>`);
+          continue;
+        }
+
+        if (/^\|/.test(trimmed)) {
+          const rows = [];
+          while (i < lines.length && /^\|/.test(lines[i].trim())) {
+            rows.push(lines[i].trim());
+            i += 1;
+          }
+          const cleanRows = rows.filter((row) => !/^\|\s*-+/.test(row));
+          const table = cleanRows.map((row, index) => {
+            const cells = row.replace(/^\||\|$/g, "").split("|").map((cell) => inlineFormat(cell.trim()));
+            const tag = index === 0 ? "th" : "td";
+            return `<tr>${cells.map((cell) => `<${tag}>${cell}</${tag}>`).join("")}</tr>`;
+          }).join("");
+          html.push(`<table>${table}</table>`);
+          continue;
+        }
+
+        consumeParagraph();
+      }
+
+      return { html: html.join("\n"), headings };
+    }
+
+    function buildToc(headings) {
+      toc.innerHTML = headings.map((heading) => `<li><a href="#${heading.id}">${escapeHtml(heading.text)}</a></li>`).join("");
+    }
+
+    function updateProgress() {
+      const scrollTop = window.scrollY;
+      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const ratio = scrollHeight > 0 ? scrollTop / scrollHeight : 0;
+      progress.style.transform = `scaleX(${Math.min(1, Math.max(0, ratio))})`;
+    }
+
+    function observeHeadings() {
+      const links = [...toc.querySelectorAll("a")];
+      const byId = new Map(links.map((link) => [link.getAttribute("href").slice(1), link]));
+      const observer = new IntersectionObserver((entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (!visible) return;
+        links.forEach((link) => link.classList.remove("active"));
+        byId.get(visible.target.id)?.classList.add("active");
+      }, { rootMargin: "-15% 0px -70% 0px", threshold: 0 });
+      document.querySelectorAll("h2").forEach((heading) => observer.observe(heading));
+    }
+
+    document.querySelector("#topButton").addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    document.querySelector("#printButton").addEventListener("click", () => window.print());
+    window.addEventListener("scroll", updateProgress, { passive: true });
+
+    fetch("../kakeya_2d_history_with_proofs.md")
+      .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.text();
+      })
+      .then((markdown) => {
+        const rendered = renderMarkdown(markdown);
+        article.innerHTML = rendered.html;
+        buildToc(rendered.headings);
+        observeHeadings();
+        updateProgress();
+        if (window.MathJax?.typesetPromise) {
+          window.MathJax.typesetPromise([article]).catch(() => {});
+        }
+      })
+      .catch((error) => {
+        article.innerHTML = `<div class="error">讲稿载入失败：${escapeHtml(error.message)}。请通过本地预览服务打开这个页面。</div>`;
+      });
+  </script>
+</body>
+</html>

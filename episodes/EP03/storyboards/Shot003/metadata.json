@@ -1,0 +1,119 @@
+{
+  "id": "Shot003",
+  "order": 3,
+  "source_timecode": "00:02:30",
+  "status": "monitor_required",
+  "duration_seconds": 10.3,
+  "scene": "任务召集",
+  "purpose": "让任务召集成为一次具有权力转移的教会命令，而不是人物对着镜头站定说明。",
+  "location": "cathedral",
+  "characters": [
+    "Rhea",
+    "Seteth",
+    "BylethFemale",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "source_reference": "source_refs/Shot003_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot003_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot003_negative_prompt.md",
+  "expected_clip": "clips/Shot003.mp4",
+  "edit_in": "doors open into cathedral",
+  "edit_out": "cut on Ashe name being spoken",
+  "audio_anchor": "Rhea, in Japanese: 西方教会が、ガスパール領主ロナートを扇動し、兵を挙げさせました。",
+  "risks": "Rhea too villainous, Seteth too old",
+  "previous_source_timecode": "00:01:30",
+  "source_timecode_audit": {
+    "source_match": "Rhea and Seteth mission briefing begins",
+    "adaptation_gap": "matches council/mission authority beat",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-21",
+  "current_display_frame_source": "imagegen_from_local_selected_assets_action_chain_reaudit_v2_2026-08-21",
+  "current_display_frame_note": "2026-08-21 critical re-audit v2 replaces the previous council lineup. Seteth now performs a readable folio handoff, Rhea receives it, and the end frame turns the authority away from the students.",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the previous council lineup. Seteth now performs a readable folio handoff, Rhea receives it, and the end frame turns the authority away from the students.",
+  "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if Seteth looks young or generic, if female Byleth becomes male, if the folio handoff is absent, if Rhea only changes expression, or if the four characters remain a static symmetrical tableau.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "motion_risk_status": "monitor_required_after_static_reaudit_before_motion_probe",
+  "output_frames": {
+    "start": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "start_frame": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+  "key_frame": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+  "end_frame": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+  "frame_spec": "storyboards/Shot003/frame_spec.md",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot003_critical_reaudit_regen_v2_2026-08-21",
+    "source": "built_in_imagegen_with_local_selected_character_and_location_references",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot003/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-21/shot003_critical_reaudit_regen_v2_2026-08-21_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-21/shot003_current_web_candidate_reaudit_2026-08-21.json",
+    "note": "2026-08-21 critical re-audit v2 replaces the previous council lineup. Seteth now performs a readable folio handoff, Rhea receives it, and the end frame turns the authority away from the students.",
+    "reject_if": "Reject if Seteth looks young or generic, if female Byleth becomes male, if the folio handoff is absent, if Rhea only changes expression, or if the four characters remain a static symmetrical tableau."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-003-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-003-1",
+    "speaker": "Rhea",
+    "text": "西方教会が、ガスパール領主ロナートを扇動し、兵を挙げさせました。",
+    "local_start_seconds": 3.92,
+    "local_speech_end_seconds": 9.43,
+    "local_end_seconds": 10.25,
+    "speech_seconds": 5.51,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot003/prompt.md"
+  }
+}

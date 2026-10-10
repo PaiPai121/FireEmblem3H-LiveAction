@@ -1,0 +1,5 @@
+# Shot010 Negative Prompt
+
+No male Byleth, no ambiguous black-cloak male silhouette for Byleth, no Byleth gender drift, no war-phase/adult redesign, no anonymous party silhouettes, no Dedue as a bald generic soldier, no Dedue identity swap, no Ingrid as a war-phase armored knight, no extra students, no Catherine, no Ashe, no Lonato, no enemies appearing in this shot, no attack poses, no battle action, no victory march, no cheerful academy tone, no Chinese voiceover, no Mandarin dialogue, no added narration, no subtitles, no captions, no readable text on the village sign, no game UI, no dialogue box, no tactical grid, no health bars, no damage numbers, no watermark, no logo, no black frame, no letterbox, no pillarbox, no rounded frame, no artificial side fill, no pasted cutout look, no duplicate START/KEY/END stills, no camera spin, no fisheye, no modern objects, no modern weapons, no firearms, no graphic gore.
+
+No repeat, no echo, no stutter, no restart, no duplicated syllables.

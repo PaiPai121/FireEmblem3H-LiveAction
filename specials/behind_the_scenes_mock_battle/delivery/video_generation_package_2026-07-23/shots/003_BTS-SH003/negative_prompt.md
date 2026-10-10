@@ -1,0 +1,1 @@
+No sharp blades, no lethal weapons, no combat, no weapon transformation, no added arrows, no face changes, no costume redesign, no excessive modern equipment, no crowded prop chaos, no industrial warehouse background, no slapstick, no injury, no subtitles, no watermarks, no logos.

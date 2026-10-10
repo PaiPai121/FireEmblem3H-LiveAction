@@ -1,0 +1,21 @@
+{
+  "id": "BTS-SH001",
+  "order": 1,
+  "status": "approved_for_video",
+  "duration_seconds": 10,
+  "expected_clip": "clips/BTS-SH001.mp4",
+  "edit_in": "hard cut from black or title card",
+  "edit_out": "cut on crew movement toward lunch",
+  "audio_anchor": "slate clap at opening; assistant director calls lunch",
+  "continuity_previous": "",
+  "continuity_next": "BTS-SH002",
+  "model_notes": [
+    "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+    "Preserve film-set reveal, slate, crew, light stands, academy/professor costumes, and soft training weapons."
+  ],
+  "reject_if": [
+    "It reads as an in-world battle rather than a film set.",
+    "Slate, crew, or equipment disappears.",
+    "Weapons become lethal."
+  ]
+}

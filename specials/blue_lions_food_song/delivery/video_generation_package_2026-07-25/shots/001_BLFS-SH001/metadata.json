@@ -1,0 +1,18 @@
+{
+  "id": "BLFS-SH001",
+  "order": 1,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/BLFS-SH001.mp4",
+  "edit_in": "cut from title or greenhouse detail",
+  "edit_out": "cut/rack into Felix reveal",
+  "audio_anchor": "adapted English food song completes by 11s",
+  "continuity_previous": "",
+  "continuity_next": "BLFS-SH002",
+  "model_notes": [],
+  "reject_if": [
+    "Annette reads as mature adult",
+    "song becomes public stage performance",
+    "greenhouse geography is unclear"
+  ]
+}

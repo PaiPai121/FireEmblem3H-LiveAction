@@ -1,0 +1,1 @@
+No detailed unrelated monitor footage, no modern office, no laptops replacing the director monitor, no Byleth speaking, no exaggerated laughter, no face changes, no costume redesign, no added main characters, no crowded unreadable faces, no camera spin, no subtitles, no watermarks, no logos.

@@ -1,0 +1,1 @@
+No injury, no falling to the ground, no blood, no gore, no lethal combat, no weapon strikes, no arrow firing, no cape tearing, no face changes, no costume redesign, no crowd explosion, no chaotic battle, no camera pan, no zoom, no orbit, no slow motion blur, no humiliation, no subtitles, no watermarks, no logos.

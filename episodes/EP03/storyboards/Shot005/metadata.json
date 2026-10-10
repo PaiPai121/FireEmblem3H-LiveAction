@@ -1,0 +1,139 @@
+{
+  "id": "Shot005",
+  "order": 5,
+  "source_timecode": "00:04:30",
+  "status": "monitor_required",
+  "duration_seconds": 11.7,
+  "scene": "同行请求",
+  "purpose": "用支援小剧场式的门口阻挡、请求、让路完成同伴关系变化。",
+  "location": "classroom",
+  "characters": [
+    "BylethFemale",
+    "Dimitri",
+    "Ashe"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+    "episodes/EP03/source_refs/Shot005_source.png"
+  ],
+  "source_reference": "episodes/EP03/source_refs/Shot005_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot005_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot005_negative_prompt.md",
+  "expected_clip": "clips/Shot005.mp4",
+  "edit_in": "cut from cathedral formality",
+  "edit_out": "cut to Ashe speaking",
+  "audio_anchor": "Dimitri, in Japanese: 先生、今日は彼と共に行かせてください。",
+  "risks": "too much exposition",
+  "previous_source_timecode": "00:02:45",
+  "source_timecode_audit": {
+    "source_match": "field dialogue with Ashe and Blue Lions",
+    "adaptation_gap": "classroom silence is adaptation expansion from field dialogue",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-21",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the classroom lineup with a three-stage handoff: Ashe waits, Dimitri closes the door and asks, then Ashe rises and is given the exit.",
+  "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if the classroom becomes a posed group portrait, if Dimitri looks out the window instead of addressing Byleth, if Ashe never rises, if the exit does not become usable, or if Byleth becomes male.",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-13",
+    "frame_set_id": "Shot005_critical_reaudit_regen_v1_2026-08-13",
+    "source": "built_in_imagegen_with_local_selected_character_assets_location_and_source_reference",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "episodes/EP03/source_refs/Shot005_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot005/critical_reaudit_regen_v1_2026-08-13/start_frame.png",
+      "key": "storyboards/Shot005/critical_reaudit_regen_v1_2026-08-13/key_frame.png",
+      "end": "storyboards/Shot005/critical_reaudit_regen_v1_2026-08-13/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot005/critical_reaudit_regen_v1_2026-08-13/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "review_note": "production_system/reviews/critical_reaudit_2026-08-13/shot005_critical_reaudit_regen_v1_2026-08-13_review.md",
+    "reject_if": "Run 3-second motion probe only. Reject if Ashe reads as Dimitri/adult, Byleth gender/face drifts, classroom perspective detaches, the shot becomes a still hold, subtitles/UI/Chinese voice appear, or Japanese dialogue timing cannot land before cut.",
+    "visual_audit_decision": "blocked_needs_revision",
+    "blocker": "Superseded by the 2026-08-21 action-chain re-audit: previous candidate was too static or repeated the same tableau."
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_source": "imagegen_from_local_selected_assets_action_chain_reaudit_v2_2026-08-21",
+  "current_display_frame_note": "2026-08-21 critical re-audit v2 replaces the classroom lineup with a three-stage handoff: Ashe waits, Dimitri closes the door and asks, then Ashe rises and is given the exit.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_risk_status": "monitor_required_after_static_reaudit_before_motion_probe",
+  "output_frames": {
+    "start": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "start_frame": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+  "key_frame": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+  "end_frame": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+  "frame_spec": "storyboards/Shot005/frame_spec.md",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot005_critical_reaudit_regen_v2_2026-08-21",
+    "source": "built_in_imagegen_with_local_selected_character_and_location_references",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "episodes/EP03/source_refs/Shot005_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-21/shot005_critical_reaudit_regen_v2_2026-08-21_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-21/shot005_current_web_candidate_reaudit_2026-08-21.json",
+    "note": "2026-08-21 critical re-audit v2 replaces the classroom lineup with a three-stage handoff: Ashe waits, Dimitri closes the door and asks, then Ashe rises and is given the exit.",
+    "reject_if": "Reject if the classroom becomes a posed group portrait, if Dimitri looks out the window instead of addressing Byleth, if Ashe never rises, if the exit does not become usable, or if Byleth becomes male."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-005-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-005-1",
+    "speaker": "Dimitri",
+    "text": "先生、今日は彼と共に行かせてください。",
+    "local_start_seconds": 4.48,
+    "local_speech_end_seconds": 10.78,
+    "local_end_seconds": 11.649999999999999,
+    "speech_seconds": 6.3,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot005/prompt.md"
+  }
+}

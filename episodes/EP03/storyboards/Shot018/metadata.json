@@ -1,0 +1,261 @@
+{
+  "id": "Shot018",
+  "order": 18,
+  "source_timecode": "00:09:00",
+  "status": "monitor_required",
+  "duration_seconds": 8.9,
+  "scene": "Felix 补位",
+  "purpose": "让队友关系通过动作建立，而不是靠安慰对白。",
+  "location": "battlefield",
+  "characters": [
+    "Felix",
+    "Ashe"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Felix/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot018_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+    "key": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+    "end": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot018_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot018_negative_prompt.md",
+  "expected_clip": "clips/Shot018.mp4",
+  "edit_in": "cut from Ashe hesitation",
+  "edit_out": "cut to Annette/Mercedes support",
+  "audio_anchor": "Felix, in Japanese: ぼんやりするな。お前の代わりに誰かが傷つくぞ。",
+  "risks": "Felix cruel beyond repair",
+  "previous_source_timecode": "00:09:00",
+  "source_timecode_audit": {
+    "source_match": "battle map pressure and ally positioning",
+    "adaptation_gap": "Felix cover beat is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v6",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v6_2026-08-23",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-23 critical re-audit: user again rejected Shot018 because the prior web candidate still read as a wide action diagram. v6 rebuilds the visual grammar as three materially different live-action states: START is a hard lateral entry across Ashe, KEY is a tight single-blade bind with Felix's body torque, and END is a grounded recovery that physically sends Ashe toward the open exit.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Felix does not cross in front of Ashe, the left danger is mirrored, Felix looks right, Ashe fires/overtakes, the block becomes a killing blow, any named attacker enters, the chain becomes a static lineup or pasted character plates, or Chinese/Mandarin/subtitles/UI/borders appear.",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v6_2026-08-23",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-14",
+    "frames": {
+      "start": "storyboards/Shot018/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+      "key": "storyboards/Shot018/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+      "end": "storyboards/Shot018/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot018/critical_reaudit_regen_v1_2026-08-14/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "note": "Superseded on 2026-08-22: v1 did not make Felix's protective cover action physically legible and retained unrelated prompt locks. v1 is historical evidence only."
+  },
+  "current_display_frame_source": "imagegen_integrated_live_action_felix_entry_bind_recovery_v6_2026-08-23",
+  "current_display_frame_note": "2026-08-23 critical re-audit: user again rejected Shot018 because the prior web candidate still read as a wide action diagram. v6 rebuilds the visual grammar as three materially different live-action states: START is a hard lateral entry across Ashe, KEY is a tight single-blade bind with Felix's body torque, and END is a grounded recovery that physically sends Ashe toward the open exit.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v6_2026-08-23",
+  "character_presence_constraint": "Only youthful academy Felix and academy Ashe are named in Shot018. The incoming weapon is an anonymous offscreen blade only; no Byleth, Dimitri, Dedue, Lonato, Catherine, Rhea, Annette, Mercedes, Ingrid, soldiers, monsters, or other named character enters.",
+  "displayed_frame_set": {
+    "version": "critical_reaudit_regen_v6_2026-08-23",
+    "frame_set_id": "Shot018_critical_reaudit_regen_v6_2026-08-23",
+    "source": "imagegen_integrated_live_action_felix_entry_bind_recovery_v6_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v6_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v6.json",
+    "note": "critical_reaudit_regen_v6_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-22",
+    "frame_set_id": "Shot018_critical_reaudit_regen_v2_2026-08-22",
+    "source": "imagegen_sequential_felix_protective_cover_with_local_ashe_and_adjacency_v2_2026-08-22",
+    "frames": {
+      "start": "storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot018/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "source_refs/Shot018_source.png"
+    ],
+    "generation_mode": "imagegen_sequential_integrated_live_action_with_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot018_felix_cover_continuity_reaudit_v2_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot018_current_web_candidate_reaudit_2026-08-22.json",
+    "note": "Superseded on 2026-08-22: v2 was directionally invalid because the weapon entered from screen-left while Felix looked screen-right. v2 is historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_22": {
+    "previous_shot": "Shot017",
+    "previous_end_frame": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+    "previous_to_start_finding": "Shot018 v3 START receives Shot017 v2 END's wet fog, blue banners, and lowered-bow Ashe state. Felix enters from the open right-side lane instead of appearing as a static partner beside Ashe; the threat side is locked to screen-left.",
+    "next_shot": "Shot019",
+    "next_start_frame": "storyboards/Shot019/critical_reaudit_regen_v1_2026-08-20/start_frame.png",
+    "end_to_next_finding": "Shot018 v3 END lowers Felix's sword into a left-facing guarded diagonal, keeps Ashe behind him, and leaves a calm fog lane for the cut to the support line in Shot019. No support character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Felix does not cross in front of Ashe from the right-side entry lane or does not keep his attention screen-left",
+      "the KEY block becomes a named attacker reveal, killing blow, visible wound, or repeated attack",
+      "Ashe fires, overtakes Felix, or loses the lowered-bow state inherited from Shot017",
+      "Shot019 support characters enter before the cut"
+    ]
+  },
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-08-22",
+    "frame_set_id": "Shot018_critical_reaudit_regen_v3_2026-08-22",
+    "source": "imagegen_sequential_felix_protective_cover_left_danger_direction_lock_v3_2026-08-22",
+    "frames": {
+      "start": "storyboards/Shot018/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot018/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot018/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot018/critical_reaudit_regen_v3_2026-08-22/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+      "source_refs/Shot018_source.png"
+    ],
+    "generation_mode": "imagegen_sequential_integrated_live_action_with_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot018_felix_cover_direction_reaudit_v3_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot018_current_web_candidate_direction_reaudit_2026-08-22.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v3 corrected screen direction but still read as a stiff posed action demonstration. v3 is historical evidence only."
+  },
+  "critical_reaudit_regen_v4": {
+    "version": "critical_reaudit_regen_v4_2026-08-23",
+    "frame_set_id": "Shot018_critical_reaudit_regen_v4_2026-08-23",
+    "source": "imagegen_integrated_live_action_felix_crosses_from_right_left_danger_block_v4_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot018/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot018/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot018/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot018/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v4_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v4.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v4 still read as a stiff posed action demonstration. v4 is historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot017",
+    "previous_end_frame": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+    "previous_to_start_finding": "Shot018 critical_reaudit_regen_v6_2026-08-23 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot019",
+    "next_start_frame": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot018 critical_reaudit_regen_v6_2026-08-23 ends on a deliberate handoff state for Shot019; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Felix does not cross in front of Ashe, the left danger is mirrored, Felix looks right, Ashe fires/overtakes, the block becomes a killing blow, any named attacker enters, the chain becomes a static lineup or pasted character plates, or Chinese/Mandarin/subtitles/UI/borders appear."
+    ]
+  },
+  "critical_reaudit_regen_v5": {
+    "version": "critical_reaudit_regen_v5_2026-08-23",
+    "frame_set_id": "Shot018_critical_reaudit_regen_v5_2026-08-23",
+    "source": "imagegen_integrated_live_action_felix_motion_cover_parry_recovery_v5_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot018/critical_reaudit_regen_v5_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot018/critical_reaudit_regen_v5_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot018/critical_reaudit_regen_v5_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot018/critical_reaudit_regen_v5_2026-08-23/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v5_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v5.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v5 still read too much like a wide action demonstration. v5 is historical evidence only."
+  },
+  "critical_reaudit_regen_v6": {
+    "version": "critical_reaudit_regen_v6_2026-08-23",
+    "frame_set_id": "Shot018_critical_reaudit_regen_v6_2026-08-23",
+    "source": "imagegen_integrated_live_action_felix_entry_bind_recovery_v6_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Felix/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v6_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot018_critical_reaudit_regen_v6.json",
+    "note": "critical_reaudit_regen_v6_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-018-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-018-1",
+    "speaker": "Felix",
+    "text": "ぼんやりするな。お前の代わりに誰かが傷つくぞ。",
+    "local_start_seconds": 3.36,
+    "local_speech_end_seconds": 8.08,
+    "local_end_seconds": 8.85,
+    "speech_seconds": 4.72,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot018/prompt.md"
+  },
+  "previous_match_action_reference": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "critical_reaudit_regen_v6_2026-08-23",
+    "previous_shot": "Shot017",
+    "previous_end_frame": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+    "next_shot": "Shot019",
+    "next_start_frame": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "decision": "monitor_required"
+  }
+}

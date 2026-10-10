@@ -1,0 +1,5 @@
+# Shot006 Negative Prompt
+
+No continuity reset to the classroom window, no reversed exit direction, no missing doorway, no closed-door START, no static classroom tableau, no male or ambiguous Byleth, no war-phase Byleth, no face drift, no pasted cutout, no floating feet, no wrong bow, no sword replacing the bow, no missing stop-and-turn, no missing walk-out, no expression-only motion, no zoom-only transition, no posed lineup, no extra named character, no subtitles, no captions, no dialogue boxes, no readable text, no game UI, no watermark, no Chinese or Mandarin voiceover, no modern objects, no duplicate START/KEY/END stills.
+
+No repeat, no echo, no stutter, no restart, no duplicated syllables.

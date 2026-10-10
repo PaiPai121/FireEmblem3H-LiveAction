@@ -1,0 +1,17 @@
+{
+  "id": "BLFS-SH004",
+  "order": 4,
+  "status": "approved_for_video",
+  "duration_seconds": 14,
+  "expected_clip": "clips/BLFS-SH004.mp4",
+  "edit_in": "cut from Annette close",
+  "edit_out": "cut on Annette's protest",
+  "audio_anchor": "Felix praises footwork",
+  "continuity_previous": "BLFS-SH003",
+  "continuity_next": "BLFS-SH005",
+  "model_notes": [],
+  "reject_if": [
+    "Felix laughs at Annette",
+    "respectful distance is lost"
+  ]
+}

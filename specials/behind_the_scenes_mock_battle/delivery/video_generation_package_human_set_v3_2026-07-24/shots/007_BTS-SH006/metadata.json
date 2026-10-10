@@ -1,0 +1,23 @@
+{
+  "id": "BTS-SH006",
+  "order": 7,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/BTS-SH006.mp4",
+  "edit_in": "cut from BTS-SH005",
+  "edit_out": "freeze-like final pose then fade",
+  "audio_anchor": "Nian closes: 好，收工。今天就到这",
+  "continuity_previous": "BTS-SH005",
+  "continuity_next": "",
+  "model_notes": [
+    "Humanized V3: real film-set blooper logic only; no AI/model/monitor malfunction framing.",
+    "Nian remains the visible director throughline; dialogue is Nian and actors only.",
+    "Preserve selected character identities, academy/professor costumes, modern set gear, and safe wooden/padded weapons."
+  ],
+  "reject_if": [
+    "Nian is missing, replaced by generic crew, or becomes a combat participant.",
+    "The shot implies AI/model/monitor malfunction or uses subtitles/text overlays.",
+    "Named character identity drifts or main faces are hidden.",
+    "Modern film-set equipment disappears."
+  ]
+}

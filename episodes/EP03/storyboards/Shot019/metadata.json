@@ -1,0 +1,232 @@
+{
+  "id": "Shot019",
+  "order": 19,
+  "source_timecode": "00:09:30",
+  "status": "monitor_required",
+  "duration_seconds": 9.4,
+  "scene": "支援线稳住",
+  "purpose": "让后排不是背景板，承担安全撤退与视野控制。",
+  "location": "fogRoad",
+  "characters": [
+    "Mercedes",
+    "Annette"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Mercedes/academy/selected.png",
+    "assets/characters/blue_lions/Annette/academy/selected.png",
+    "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+    "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot019_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "key": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+    "end": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot019_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot019_negative_prompt.md",
+  "expected_clip": "clips/Shot019.mp4",
+  "edit_in": "cut from Felix save",
+  "edit_out": "cut to Catherine charge",
+  "audio_anchor": "Mercedes, in Japanese: こちらです！ Annette, in Japanese: 道が見えた！",
+  "risks": "magic spectacle overwhelms realism",
+  "previous_source_timecode": "00:09:25",
+  "source_timecode_audit": {
+    "source_match": "tactical-map support positioning",
+    "adaptation_gap": "Mercedes/Annette support action is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "character_presence_constraint": "Only academy Mercedes and academy Annette are named in Shot019. One indistinct exhausted civilian may remain a soft back-facing secondary silhouette on the uphill road. No Ingrid, Byleth, Felix, Ashe, Catherine, Rhea, Lonato, Dimitri, Dedue, other named character, soldier, monster, or duplicate woman enters.",
+  "byleth_gender_consistency_lock": "female_byleth_only_if_present; Shot019_contains_no_Byleth",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-23 critical re-audit: user again rejected Shot019 because the prior three-person support line still read as a staging diagram and exceeded the source beat. v4 returns to the shot-list's two-person action: Mercedes physically guides one indistinct civilian into the fog while Annette crosses the near plane and opens a practical visibility lane; END leaves the center road empty for Catherine.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Ingrid or any unlisted named character appears, the two women collapse into a row, Annette creates spectacle magic, the civilian becomes a named or graphic subject, the center road is blocked, characters look pasted onto the road, or Chinese/Mandarin/subtitles/UI/borders appear.",
+  "current_display_frame_set": "critical_reaudit_regen_v4",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v4_2026-08-23",
+  "current_display_frame_source": "imagegen_integrated_live_action_mercedes_annette_two_person_route_clear_v4_2026-08-23",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v4_2026-08-23",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v4_2026-08-23",
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot019_critical_reaudit_regen_v1_2026-08-20",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "frames": {
+      "start": "storyboards/Shot019/critical_reaudit_regen_v1_2026-08-20/start_frame.png",
+      "key": "storyboards/Shot019/critical_reaudit_regen_v1_2026-08-20/key_frame.png",
+      "end": "storyboards/Shot019/critical_reaudit_regen_v1_2026-08-20/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot019/critical_reaudit_regen_v1_2026-08-20/contact_sheet.jpg",
+    "reference_assets": [
+      "production_system/reviews/critical_reaudit_2026-08-15/shot019_local_character_reference_board_2026-08-20.jpg",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "source_refs/Shot019_source.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_local_mercedes_annette_ingrid_and_magdred_fog_road_references",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot019_critical_reaudit_regen_v1_2026-08-20_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot019_current_web_candidate_reaudit_2026-08-20.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v1 was visually too static and its magic/action hierarchy was weak. v1 is historical evidence only."
+  },
+  "legacy_current_candidate_downgrade_2026_08_20": {
+    "decision": "blocked_needs_revision",
+    "candidate": "local_asset_final_candidate_v1_2026-08-02",
+    "reason": "Rendered frame chain and executable prompt contain an unlisted dark central figure that can read as male or ambiguous Byleth; prompt also carries unrelated character locks.",
+    "superseded_by": "Shot019_critical_reaudit_regen_v1_2026-08-20"
+  },
+  "current_display_frame_note": "2026-08-23 critical re-audit: user again rejected Shot019 because the prior three-person support line still read as a staging diagram and exceeded the source beat. v4 returns to the shot-list's two-person action: Mercedes physically guides one indistinct civilian into the fog while Annette crosses the near plane and opens a practical visibility lane; END leaves the center road empty for Catherine.",
+  "displayed_frame_set": {
+    "version": "critical_reaudit_regen_v4_2026-08-23",
+    "frame_set_id": "Shot019_critical_reaudit_regen_v4_2026-08-23",
+    "source": "imagegen_integrated_live_action_mercedes_annette_two_person_route_clear_v4_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v4_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v4.json",
+    "note": "critical_reaudit_regen_v4_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-23",
+    "frame_set_id": "Shot019_critical_reaudit_regen_v2_2026-08-23",
+    "source": "imagegen_integrated_live_action_mercedes_annette_ingrid_support_roles_v2_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot019/critical_reaudit_regen_v2_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot019/critical_reaudit_regen_v2_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot019/critical_reaudit_regen_v2_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot019/critical_reaudit_regen_v2_2026-08-23/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "storyboards/Shot018/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v2_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v2.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v2 still read as a static three-person staging diagram. v2 is historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot018",
+    "previous_end_frame": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot019 critical_reaudit_regen_v4_2026-08-23 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot020",
+    "next_start_frame": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot019 critical_reaudit_regen_v4_2026-08-23 ends on a deliberate handoff state for Shot020; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if Ingrid or any unlisted named character appears, the two women collapse into a row, Annette creates spectacle magic, the civilian becomes a named or graphic subject, the center road is blocked, characters look pasted onto the road, or Chinese/Mandarin/subtitles/UI/borders appear."
+    ]
+  },
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-08-23",
+    "frame_set_id": "Shot019_critical_reaudit_regen_v3_2026-08-23",
+    "source": "imagegen_integrated_live_action_mercedes_annette_ingrid_moving_support_line_v3_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot019/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot019/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot019/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot019/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "storyboards/Shot018/critical_reaudit_regen_v5_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v3_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v3.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v3 was still a three-person staging diagram and did not stay faithful to the two-person Shot019 source beat. v3 is historical evidence only."
+  },
+  "critical_reaudit_regen_v4": {
+    "version": "critical_reaudit_regen_v4_2026-08-23",
+    "frame_set_id": "Shot019_critical_reaudit_regen_v4_2026-08-23",
+    "source": "imagegen_integrated_live_action_mercedes_annette_two_person_route_clear_v4_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot019/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/locations/EP03/act01/MagdredWayFogRoad/MagdredWayFogRoad_reference.png",
+      "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v4_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot019_critical_reaudit_regen_v4.json",
+    "note": "critical_reaudit_regen_v4_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-019-1",
+    "DL-EP03-019-2"
+  ],
+  "dialogue_mode": "two_turn_exchange",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": [
+    {
+      "line_id": "DL-EP03-019-1",
+      "speaker": "Mercedes",
+      "text": "こちらです！",
+      "local_start_seconds": 3.36,
+      "local_speech_end_seconds": 5.72,
+      "local_end_seconds": 6.07,
+      "speech_seconds": 2.36,
+      "cut_on": "reaction",
+      "repeat_policy": "no_repeat"
+    },
+    {
+      "line_id": "DL-EP03-019-2",
+      "speaker": "Annette",
+      "text": "道が見えた！",
+      "local_start_seconds": 6.24,
+      "local_speech_end_seconds": 8.6,
+      "local_end_seconds": 9.35,
+      "speech_seconds": 2.36,
+      "cut_on": "reaction",
+      "repeat_policy": "no_repeat"
+    }
+  ],
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot019/prompt.md"
+  },
+  "previous_match_action_reference": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "critical_reaudit_regen_v4_2026-08-23",
+    "previous_shot": "Shot018",
+    "previous_end_frame": "storyboards/Shot018/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+    "next_shot": "Shot020",
+    "next_start_frame": "storyboards/Shot020/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+    "decision": "monitor_required"
+  }
+}

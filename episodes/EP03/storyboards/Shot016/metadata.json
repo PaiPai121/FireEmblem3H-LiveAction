@@ -1,0 +1,194 @@
+{
+  "id": "Shot016",
+  "order": 16,
+  "source_timecode": "00:10:10",
+  "status": "monitor_required",
+  "duration_seconds": 11.6,
+  "scene": "Dimitri 克制锋芒",
+  "purpose": "展示 Dimitri 已有危险力量，但仍听从 Byleth。",
+  "location": "battlefield",
+  "characters": [
+    "Dimitri",
+    "BylethFemale",
+    "Dedue"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png"
+  ],
+  "source_reference": "source_refs/Shot016_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot016_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot016_negative_prompt.md",
+  "expected_clip": "clips/Shot016.mp4",
+  "edit_in": "cut from rebel pressure",
+  "edit_out": "cut to Ashe sees sigil",
+  "audio_anchor": "Byleth, in Japanese: 戦線を守れ。 Dimitri, in Japanese: 承知しました。",
+  "risks": "Dimitri bloodlust too explicit",
+  "previous_source_timecode": "00:08:00",
+  "source_timecode_audit": {
+    "source_match": "Dimitri field dialogue after engagement",
+    "adaptation_gap": "Dimitri spear restraint is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-22",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-22 sequential re-audit: the frozen Shot016 v1 frames did not make Dedue's newly corrected nape braid readable, and the action chain still read too much like a generic line hold. v2 uses the canonical braid-repaired Dedue asset with local female Byleth and Dimitri references. START establishes the handoff from Shot015, KEY makes Dimitri's over-pursuit meet Byleth's raised stop hand, and END lowers the spear into a clean Shot017 eyeline handoff. All three performers are integrated into the same wet battlefield rather than pasted portrait plates.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe; reject if Byleth becomes male or war-phase, Dedue's braid disappears or detaches, Dimitri strikes a visible person, the spear geometry mutates, the trio becomes a posed lineup, or Chinese/Mandarin/subtitles/UI/borders appear.",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-22",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-15",
+    "frame_set_id": "Shot016_critical_reaudit_regen_v1_2026-08-15",
+    "source": "built_in_imagegen_with_attached_local_selected_character_assets_and_battlefield_reference",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "episodes/EP03/source_refs/Shot016_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot016/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot016/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot016/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot016/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "generated_at": "2026-08-15",
+    "aspect_policy": "native 16:9 imagegen output, no non-uniform resize",
+    "review": "production_system/reviews/critical_reaudit_2026-08-15/shot016_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "replaces": "local_asset_final_candidate_v1_2026-08-02 for current web display only; old candidate retained as audit history",
+    "required_next_gate": "3-second motion probe plus prompt-against-frame QA before any full-duration generation",
+    "visual_audit_decision": "blocked_needs_revision",
+    "note": "Superseded on 2026-08-22: Dedue's updated canonical braid was not visible in the v1 frame chain, so v1 is retained as historical evidence only."
+  },
+  "current_display_frame_source": "imagegen_sequential_action_chain_with_female_byleth_dimitri_and_braid_repaired_dedue_local_assets_v2_2026-08-22",
+  "current_display_frame_note": "v2 uses the canonical braid-repaired Dedue asset and female Byleth throughout. START hands off from Shot015, KEY contains the over-pursuit/stop gesture, and END lowers Dimitri's spear into Shot017 without introducing Ashe early.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2_2026-08-22",
+  "character_presence_constraint": "Only Dimitri, female Byleth, and Dedue are readable in Shot016. Byleth is female-only and Dedue must retain one short white/silver braid physically attached at the nape. Ashe, Felix, Catherine, Lonato, Rhea, Seiros soldiers, and other named characters do not enter this shot.",
+  "displayed_frame_set": {
+    "version": "critical_reaudit_regen_v2_2026-08-22",
+    "frame_set_id": "Shot016_critical_reaudit_regen_v2_2026-08-22",
+    "source": "imagegen_sequential_action_chain_with_female_byleth_dimitri_and_braid_repaired_dedue_local_assets_v2_2026-08-22",
+    "frames": {
+      "start": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/braid_repair_review_2026-08-22.md",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+      "storyboards/Shot017/critical_reaudit_regen_v1_2026-08-20/start_frame.png",
+      "source_refs/Shot016_source.png"
+    ],
+    "generation_mode": "imagegen_sequential_integrated_live_action_with_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot016_dedue_braid_continuity_reaudit_v2_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot016_current_web_candidate_reaudit_2026-08-22.json",
+    "note": "v2 replaces the frozen v1 display set because the new canonical Dedue asset adds a readable short nape braid and the new START/KEY/END chain makes the Dimitri-Byleth-Dedue action physically distinct. Shot017 remains frozen; only its handoff reference is updated."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-22",
+    "frame_set_id": "Shot016_critical_reaudit_regen_v2_2026-08-22",
+    "source": "imagegen_sequential_action_chain_with_female_byleth_dimitri_and_braid_repaired_dedue_local_assets_v2_2026-08-22",
+    "frames": {
+      "start": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot016/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/braid_repair_review_2026-08-22.md",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+      "storyboards/Shot017/critical_reaudit_regen_v1_2026-08-20/start_frame.png",
+      "source_refs/Shot016_source.png"
+    ],
+    "generation_mode": "imagegen_sequential_integrated_live_action_with_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot016_dedue_braid_continuity_reaudit_v2_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot016_current_web_candidate_reaudit_2026-08-22.json",
+    "note": "v2 replaces the frozen v1 display set because the new canonical Dedue asset adds a readable short nape braid and the new START/KEY/END chain makes the Dimitri-Byleth-Dedue action physically distinct. Shot017 remains frozen; only its handoff reference is updated."
+  },
+  "adjacent_continuity_review_2026_08_22": {
+    "previous_shot": "Shot015",
+    "previous_end_frame": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+    "previous_to_start_finding": "Shot016 START inherits Shot015's rightward pressure lane, gray fog, wet mud, and blue-banner battlefield while introducing the Blue Lions counterline in a new reverse angle. No rebel soldier is copied into the foreground action.",
+    "next_shot": "Shot017",
+    "next_start_frame": "storyboards/Shot017/critical_reaudit_regen_v1_2026-08-20/start_frame.png",
+    "end_to_next_finding": "Shot016 END lowers Dimitri's spear, settles female Byleth's command, keeps Dedue's braid visible, and leaves the trio's eyelines and muddy lane available for the frozen Ashe recognition insert in Shot017.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Shot016 START breaks the rightward handoff or changes the battlefield weather and wardrobe",
+      "Byleth becomes male, ambiguous, older, or war-phase",
+      "Dedue's short nape braid disappears, detaches, or becomes a costume rope",
+      "Shot016 END introduces Ashe before the Shot017 cut or closes the eyeline lane"
+    ]
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-016-1",
+    "DL-EP03-016-2"
+  ],
+  "dialogue_mode": "two_turn_exchange",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": [
+    {
+      "line_id": "DL-EP03-016-1",
+      "speaker": "Byleth",
+      "text": "戦線を守れ。",
+      "local_start_seconds": 4.2,
+      "local_speech_end_seconds": 7.15,
+      "local_end_seconds": 7.5,
+      "speech_seconds": 2.95,
+      "cut_on": "reaction",
+      "repeat_policy": "no_repeat"
+    },
+    {
+      "line_id": "DL-EP03-016-2",
+      "speaker": "Dimitri",
+      "text": "承知しました。",
+      "local_start_seconds": 7.8,
+      "local_speech_end_seconds": 10.75,
+      "local_end_seconds": 11.549999999999999,
+      "speech_seconds": 2.95,
+      "cut_on": "reaction",
+      "repeat_policy": "no_repeat"
+    }
+  ],
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot016/prompt.md"
+  },
+  "previous_match_action_reference": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "critical_reaudit_regen_v2_2026-08-22",
+    "previous_shot": "Shot015",
+    "previous_end_frame": "storyboards/Shot015/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+    "next_shot": "Shot017",
+    "next_start_frame": "storyboards/Shot017/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "decision": "monitor_required"
+  }
+}

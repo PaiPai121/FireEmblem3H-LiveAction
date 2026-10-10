@@ -1,0 +1,125 @@
+{
+  "id": "Shot006",
+  "order": 6,
+  "source_timecode": "00:05:40",
+  "status": "monitor_required",
+  "duration_seconds": 13,
+  "scene": "Ashe 讲出旧恩",
+  "purpose": "Ashe 选择面对任务，而不是被保护在队伍外。",
+  "location": "classroom",
+  "characters": [
+    "Ashe",
+    "BylethFemale",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+    "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot006_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot006_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot006_negative_prompt.md",
+  "expected_clip": "clips/Shot006.mp4",
+  "edit_in": "cut from Dimitri request",
+  "edit_out": "cut to march preparation",
+  "audio_anchor": "Ashe, in Japanese: 彼は、僕と弟妹に居場所をくれました。でも今の僕は、あなたの生徒です。",
+  "risks": "melodrama, tears too early",
+  "previous_source_timecode": "00:03:20",
+  "source_timecode_audit": {
+    "source_match": "Ashe discusses Lord Lonato",
+    "adaptation_gap": "matches Ashe old-debt beat",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-21 adjacent-continuity re-audit: the first Shot006 v2 attempt reset Ashe from Shot005 doorway exit back to the window. Current v2 matches Shot005 END at the threshold, then uses a stop-and-turn line and a corridor departure.",
+  "required_revision": "Reject if Shot006 reverses Shot005 exit direction, resets to the window, loses the door axis, makes Byleth male, changes the bow, or collapses into a static conversation.",
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-21",
+  "current_display_frame_source": "imagegen_from_local_selected_assets_with_adjacent_shot_match_action_2026-08-21",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "legacy_current_candidate_downgrade_2026_08_15": {
+    "downgraded_frame_set": "local_asset_final_candidate_v1",
+    "decision": "blocked_needs_revision_for_byleth_gender_identity",
+    "reason": "Rendered review showed Byleth as male or ambiguous in the classroom background, violating the female-Byleth-only lock."
+  },
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot006_critical_reaudit_regen_v1_2026-08-15",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "frames": {
+      "start": "storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot006/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_attached_local_selected_assets",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot006_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot006_current_web_candidate_reaudit_2026-08-15.json",
+    "note": "Critical re-audit regen v1 replaces the prior Shot006 web candidate because the previous START/KEY/END visually read as male or ambiguous Byleth. New START/KEY/END use attached local references for Ashe, female Byleth, Dimitri, and the Officers Academy classroom. The chain now reads as Ashe gathering courage, looking to the window while speaking of Lonato giving his family a home, then turning back toward female Byleth with a steadier decision. Female Byleth is visibly female and consistent across all three anchors. Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, Ashe ages up or overacts grief, Dimitri steals focus, the classroom becomes an outdoor battle, or START/KEY/END collapse into a static dialogue portrait."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "byleth_visual_spotcheck_2026_08_15": "previous_web_candidate_failed_male_or_ambiguous_byleth_replaced_with_monitor_required_candidate",
+  "current_display_frame_note": "2026-08-21 adjacent-continuity re-audit: the first Shot006 v2 attempt reset Ashe from Shot005 doorway exit back to the window. Current v2 matches Shot005 END at the threshold, then uses a stop-and-turn line and a corridor departure.",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot006_critical_reaudit_regen_v2_2026-08-21",
+    "source": "built_in_imagegen_with_local_selected_character_and_previous_shot_match_reference",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP02/act01/OfficersAcademyClassroom/OfficersAcademyClassroom_reference.png",
+      "episodes/EP03/storyboards/Shot005/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot006/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-21/shot006_critical_reaudit_regen_v2_2026-08-21_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-21/shot006_current_web_candidate_reaudit_2026-08-21.json",
+    "note": "2026-08-21 adjacent-continuity re-audit: the first Shot006 v2 attempt reset Ashe from Shot005 doorway exit back to the window. Current v2 matches Shot005 END at the threshold, then uses a stop-and-turn line and a corridor departure.",
+    "reject_if": "Reject if Shot006 reverses Shot005 exit direction, resets to the window, loses the door axis, makes Byleth male, changes the bow, or collapses into a static conversation."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-006-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-006-1",
+    "speaker": "Ashe",
+    "text": "彼は、僕と弟妹に居場所をくれました。でも今の僕は、あなたの生徒です。",
+    "local_start_seconds": 5.04,
+    "local_speech_end_seconds": 12.12,
+    "local_end_seconds": 12.95,
+    "speech_seconds": 7.08,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot006/prompt.md"
+  }
+}

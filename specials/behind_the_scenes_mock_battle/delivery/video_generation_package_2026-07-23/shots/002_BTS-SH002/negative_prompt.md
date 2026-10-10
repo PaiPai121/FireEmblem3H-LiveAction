@@ -1,0 +1,1 @@
+No modern cafeteria branding, no smartphones, no microphones on the table, no food flying, no exaggerated mugging, no slapstick, no face changes, no costume redesign, no extra main characters, no hand deformation, no fork/finger fusion, no Byleth speaking, no Claude acting like a TV host, no subtitles, no watermarks, no logos.

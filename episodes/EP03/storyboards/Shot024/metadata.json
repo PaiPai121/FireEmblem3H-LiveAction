@@ -1,0 +1,233 @@
+{
+  "id": "Shot024",
+  "order": 24,
+  "source_timecode": "00:09:50",
+  "status": "monitor_required",
+  "duration_seconds": 7.6,
+  "scene": "Byleth 下令包围",
+  "purpose": "Byleth 选择保护学生与平民，接受必须结束战斗。",
+  "location": "battlefield",
+  "characters": [
+    "BylethFemale",
+    "Ashe",
+    "Lonato",
+    "Dimitri",
+    "Dedue",
+    "Ingrid"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png"
+  ],
+  "source_reference": "source_refs/Shot024_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "key": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+    "end": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot024_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot024_negative_prompt.md",
+  "expected_clip": "clips/Shot024.mp4",
+  "edit_in": "cut from Lonato refusal",
+  "edit_out": "cut to two-wing move",
+  "audio_anchor": "Byleth, in Japanese: 護衛を分断しろ。村道へ近づけるな。",
+  "risks": "Byleth emotionless robot",
+  "previous_source_timecode": "00:12:05",
+  "source_timecode_audit": {
+    "source_match": "Byleth/Dimitri tactical exchange",
+    "adaptation_gap": "Byleth order is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v3",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v3_2026-08-23",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-23 distance-continuity re-audit: v2 made the command readable but left the physical command pocket and Lonato distance too implicit. v3 moves Byleth behind Ashe, keeps the sword tip on empty flank lanes, and makes Dimitri/Dedue/Ingrid first movement establish a buffer rather than an execution surround.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict Shot023→024 continuity QA, and a 3-second motion probe. Reject if Byleth is close enough to execute Lonato, the sword targets a body, Ashe raises/fires, Lonato attacks, Dedue loses the braid, or Chinese/Mandarin/subtitles/UI/borders appear.",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v3_2026-08-23",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-14",
+    "frame_set_id": "Shot024_critical_reaudit_regen_v1_2026-08-14",
+    "source": "built_in_imagegen_with_attached_local_selected_character_assets_and_battlefield_reference",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "episodes/EP03/source_refs/Shot024_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+      "key": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+      "end": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "generated_at": "2026-08-14",
+    "aspect_policy": "native 16:9 imagegen output, no non-uniform resize",
+    "review": "production_system/reviews/critical_reaudit_2026-08-14/shot024_critical_reaudit_regen_v1_2026-08-14_review.md",
+    "replaces": "local_asset_final_candidate_v1_2026-08-02 for current web display only; old candidate retained as audit history",
+    "required_next_gate": "3-second motion probe plus prompt-against-frame QA before any full-duration generation",
+    "visual_audit_decision": "blocked_needs_revision",
+    "note": "Superseded on 2026-08-22: this historical Shot024 candidate predates Shot023 v3 and/or is a deterministic layout_reference set. Retain for audit history only; v2 is the current display set."
+  },
+  "current_display_frame_source": "imagegen_integrated_live_action_byleth_rear_command_buffer_v3_2026-08-23",
+  "current_display_frame_note": "2026-08-23 distance-continuity re-audit: v2 made the command readable but left the physical command pocket and Lonato distance too implicit. v3 moves Byleth behind Ashe, keeps the sword tip on empty flank lanes, and makes Dimitri/Dedue/Ingrid first movement establish a buffer rather than an execution surround.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v3_2026-08-23",
+  "character_presence_constraint": "Exactly six named readable performers: female academy-era Byleth, academy Ashe, older white-haired armored Lonato, academy Dimitri, academy Dedue with visible compact silver-white nape braid, and academy Ingrid. Byleth commands from the rear pocket; Lonato remains far uphill and no named Blue Lion reaches him.",
+  "displayed_frame_set": {
+    "version": "critical_reaudit_regen_v3_2026-08-23",
+    "frame_set_id": "Shot024_critical_reaudit_regen_v3_2026-08-23",
+    "source": "imagegen_integrated_live_action_byleth_rear_command_buffer_v3_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot024_critical_reaudit_regen_v3_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot024_critical_reaudit_regen_v3.json",
+    "note": "critical_reaudit_regen_v3_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-22",
+    "frame_set_id": "Shot024_critical_reaudit_regen_v2_2026-08-22",
+    "source": "imagegen_integrated_live_action_with_local_identity_and_shot023_continuity_v2_2026-08-22",
+    "frames": {
+      "start": "storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot024_byleth_command_two_wing_integrated_reaudit_v2_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot024_current_web_candidate_byleth_command_reaudit_v2_2026-08-22.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v2 did not make the rear command pocket and non-execution buffer explicit enough. v2 is historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_22": {
+    "previous_shot": "Shot023",
+    "previous_end_frame": "storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/end_frame.png",
+    "previous_to_start_finding": "Shot024 v2 START receives Shot023 v3 END's wet road, blue banner, fog depth, Ashe-left/Lonato-ahead geography, and restrained non-graphic pressure. Female Byleth enters as the next command focal point without erasing Ashe or Lonato.",
+    "next_shot": "Shot025",
+    "next_start_frame": "storyboards/Shot025/start_frame.png",
+    "end_to_next_finding": "Shot024 v2 END leaves Byleth central, the center road open, Dimitri/Dedue beginning the left/center lane, and Ingrid beginning the right fog lane. This is the intended receiving state for Shot025's full two-wing movement; keep strict screen-direction and motion continuity monitor-only.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "female Byleth becomes male, war-phase, or a pasted foreground plate",
+      "the sword-tip gesture reads as a strike or points at a body",
+      "Dedue loses the visible nape braid or students age up",
+      "the END does not establish two distinct flank lanes for Shot025"
+    ]
+  },
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-08-23",
+    "frame_set_id": "Shot024_critical_reaudit_regen_v3_2026-08-23",
+    "source": "imagegen_integrated_live_action_byleth_rear_command_buffer_v3_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot024_critical_reaudit_regen_v3_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot024_critical_reaudit_regen_v3.json",
+    "note": "critical_reaudit_regen_v3_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot023",
+    "previous_end_frame": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot024 critical_reaudit_regen_v3_2026-08-23 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot025",
+    "next_start_frame": "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot024 critical_reaudit_regen_v3_2026-08-23 ends on a deliberate handoff state for Shot025; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot023→024 continuity QA, and a 3-second motion probe. Reject if Byleth is close enough to execute Lonato, the sword targets a body, Ashe raises/fires, Lonato attacks, Dedue loses the braid, or Chinese/Mandarin/subtitles/UI/borders appear."
+    ]
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-024-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-024-1",
+    "speaker": "Byleth",
+    "text": "護衛を分断しろ。村道へ近づけるな。",
+    "local_start_seconds": 2.8,
+    "local_speech_end_seconds": 6.74,
+    "local_end_seconds": 7.55,
+    "speech_seconds": 3.94,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot024/prompt.md"
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "previous_match_action_reference": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "critical_reaudit_regen_v3_2026-08-23",
+    "previous_shot": "Shot023",
+    "previous_end_frame": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png",
+    "next_shot": "Shot025",
+    "next_start_frame": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "decision": "monitor_required"
+  }
+}

@@ -1,0 +1,3 @@
+# Shot021 Negative Prompt
+
+No young Lonato, no generic raider, no superhero Lonato, no adult or war-phase Ashe, no adult or war-phase Dimitri, no static character lineup, no pasted cutouts, no repeated START/KEY/END still, no charging, no sword swing, no execution, no gore, no blood spray, no celebratory violence, no extra named character, no extra weapon, no game UI, no subtitles, no captions, no dialogue boxes, no damage numbers, no health bars, no tactical grid, no readable text, no Chinese or Mandarin voiceover, no modern objects, no firearms, no camera spin, no fisheye, no crash zoom, no frozen tail hold, no looping pose.

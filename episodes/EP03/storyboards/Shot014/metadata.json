@@ -1,0 +1,65 @@
+{
+  "id": "Shot014",
+  "order": 14,
+  "source_timecode": "00:07:50",
+  "status": "monitor_required",
+  "duration_seconds": 8,
+  "scene": "第一箭",
+  "purpose": "把战斗从潜伏推入不可逆。",
+  "location": "battlefield",
+  "characters": [
+    "Dedue",
+    "Dimitri"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "episodes/EP03/source_refs/Shot014_source.png"
+  ],
+  "source_reference": "episodes/EP03/source_refs/Shot014_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot014/start_frame.png",
+    "key": "storyboards/Shot014/key_frame.png",
+    "end": "storyboards/Shot014/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot014_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot014_negative_prompt.md",
+  "expected_clip": "clips/Shot014.mp4",
+  "edit_in": "cut on Byleth hand signal",
+  "edit_out": "cut to advancing rebels",
+  "audio_anchor": "An arrow strikes a shield; Dedue gives one short breath. No spoken dialogue.",
+  "risks": "blood, lethal wound",
+  "previous_source_timecode": "00:07:20",
+  "source_timecode_audit": {
+    "source_match": "fog cutscene with soldiers under attack",
+    "adaptation_gap": "first arrow is adaptation from battle start",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-14",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "Critical re-audit 2026-08-14: previous Shot014 web candidate falsely relied on a Dedue-like shield bearer who did not match the local Dedue selected asset closely enough; the action was readable but identity lock was unsafe. Replaced with local-reference imagegen frames where Dedue has dark skin, very short bleached hair, broad academy build, and shields Dimitri from the first arrow. Still monitor_required because KEY/END are compositionally close and need a 3-second motion probe before promotion.",
+  "required_revision": "Run 3-second motion probe only. Reject if Dedue becomes pale, long-haired, generic, or adult war-phase; if the arrow hits a body or becomes bloody; if the shield/Blue Lions uniform drifts; if subtitles/UI/Chinese voice appear; or if KEY-to-END collapses into a static hold.",
+  "motion_probe_status": "pending_3s_probe_after_critical_reaudit_regen_v1_2026-08-14",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-14",
+    "frame_set_id": "Shot014_critical_reaudit_regen_v1_2026-08-14",
+    "source": "built_in_imagegen_with_local_dedue_dimitri_assets_location_and_source_reference",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "episodes/EP03/source_refs/Shot014_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+      "key": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/key_frame.png",
+      "end": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot014/critical_reaudit_regen_v1_2026-08-14/contact_sheet.jpg",
+    "status": "monitor_required_critical_reaudit_regen_v1_2026-08-14",
+    "review_note": "production_system/reviews/critical_reaudit_2026-08-14/shot014_critical_reaudit_regen_v1_2026-08-14_review.md",
+    "reject_if": "Run 3-second motion probe only. Reject if Dedue becomes pale, long-haired, generic, or adult war-phase; if the arrow hits a body or becomes bloody; if the shield/Blue Lions uniform drifts; if subtitles/UI/Chinese voice appear; or if KEY-to-END collapses into a static hold."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "BLFS-SH003",
+  "order": 3,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/BLFS-SH003.mp4",
+  "edit_in": "hard cut from Felix reveal",
+  "edit_out": "cut to two-shot",
+  "audio_anchor": "Annette asks whether Felix heard the song and saw the movements",
+  "continuity_previous": "BLFS-SH002",
+  "continuity_next": "BLFS-SH004",
+  "model_notes": [],
+  "reject_if": [
+    "water becomes slapstick spill",
+    "Annette becomes childish"
+  ]
+}

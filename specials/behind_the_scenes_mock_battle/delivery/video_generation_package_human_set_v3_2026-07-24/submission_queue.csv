@@ -1,0 +1,8 @@
+order,shot_id,duration_seconds,shot_dir,prompt,negative_prompt,start_frame,key_frame,end_frame,expected_clip,primary_check
+1,BTS-SH000,12,shots/001_BTS-SH000,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BTS-SH000.mp4,Nian global cut: 卡卡卡，拍的什么玩意
+2,BTS-SH001,10,shots/002_BTS-SH001,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BTS-SH001.mp4,see dialogue_audio_beats.md
+3,BTS-SH002,12,shots/003_BTS-SH002,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BTS-SH002.mp4,see dialogue_audio_beats.md
+4,BTS-SH003,14,shots/004_BTS-SH003,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BTS-SH003.mp4,see dialogue_audio_beats.md
+5,BTS-SH004,12,shots/005_BTS-SH004,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BTS-SH004.mp4,see dialogue_audio_beats.md
+6,BTS-SH005,12,shots/006_BTS-SH005,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BTS-SH005.mp4,see dialogue_audio_beats.md
+7,BTS-SH006,12,shots/007_BTS-SH006,prompt.md,negative_prompt.md,start_frame.png,key_frame.png,end_frame.png,clips/BTS-SH006.mp4,Nian closes: 好，收工。今天就到这

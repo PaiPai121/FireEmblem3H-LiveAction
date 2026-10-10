@@ -1,0 +1,470 @@
+{
+  "id": "Shot025",
+  "order": 25,
+  "source_timecode": "00:07:10",
+  "status": "monitor_required",
+  "duration_seconds": 8,
+  "scene": "命令造成分流",
+  "purpose": "把贝老师的包围命令变成一眼可读的两条物理路线；近侧只保留 Dimitri、Dedue 和 Ashe，洛纳托被守卫屏风与断裂地形隔在远处。",
+  "location": "battlefield",
+  "characters": [
+    "Dimitri",
+    "Dedue",
+    "Ashe",
+    "Lonato"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/extras/BanditSoldier/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+    "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot025_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "key": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+    "end": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot025_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot025_negative_prompt.md",
+  "expected_clip": "clips/Shot025.mp4",
+  "edit_in": "cut from Byleth's command into the command's physical split of the fork",
+  "edit_out": "cut to Ashe's right-side warning plane after the guard screen closes",
+  "audio_anchor": "Byleth's order resolves into boots, shield hardware, and wet wood. No new spoken dialogue.",
+  "risks": "the geography becomes a diagram, lineup, or direct Byleth-to-Lonato attack lane",
+  "previous_source_timecode": "00:12:30",
+  "source_timecode_audit": {
+    "source_match": "Blue Lions tactical formation",
+    "adaptation_gap": "reframed as the command consequence: students hold behind a barricade while two guards close a physical crossing and Lonato stays on a distant ridge; no direct Byleth-to-Lonato lane",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "manga_readability_reboard_v1",
+  "current_display_frame_status": "monitor_required_manga_readability_reboard_v1_2026-09-09",
+  "current_display_frame_source": "imagegen_integrated_live_action_command_split_guard_screen_v1_2026-09-09",
+  "current_display_frame_note": "Reboard v1: a clean side geography establishes Dimitri and Dedue holding the near cover while two guards close the fork and Ashe is visibly routed to the right; Lonato remains beyond the physical screen. START is open fork, KEY is the guard screen forming, END is the two-lane containment hold. No lineup and no direct execution lane.",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Reboard v1: a clean side geography establishes Dimitri and Dedue holding the near cover while two guards close the fork and Ashe is visibly routed to the right; Lonato remains beyond the physical screen. START is open fork, KEY is the guard screen forming, END is the two-lane containment hold. No lineup and no direct execution lane.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "video_prompt_qa_decision": "pending_review_against_manga_readability_reboard_v1_2026-09-09",
+  "motion_probe_status": "pending_3s_probe_against_manga_readability_reboard_v1_2026-09-09",
+  "character_presence_constraint": "Exactly four named performers are readable: Dimitri and Dedue hold near cover, Ashe owns the right-side warning plane, and Lonato is a small far-ridge presence; exactly two unfeatured rebel guards cross and close the fork. No other named student enters.",
+  "displayed_frame_set": {
+    "version": "manga_readability_reboard_v1_2026-09-09",
+    "frame_set_id": "Shot025_manga_readability_reboard_v1_2026-09-09",
+    "source": "imagegen_integrated_live_action_command_split_guard_screen_v1_2026-09-09",
+    "frames": {
+      "start": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+      "key": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+      "end": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_readable_command_split",
+    "review_markdown": "production_system/reviews/manga_readability_reboard_2026-09-09/shot025_reboard_review.md",
+    "note": "Reboard v1: a clean side geography establishes Dimitri and Dedue holding the near cover while two guards close the fork and Ashe is visibly routed to the right; Lonato remains beyond the physical screen. START is open fork, KEY is the guard screen forming, END is the two-lane containment hold. No lineup and no direct execution lane."
+  },
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-22",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v2_2026-08-22",
+    "source": "imagegen_integrated_live_action_with_local_identity_and_shot024_continuity_v2_2026-08-22",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot025_blue_lions_two_wing_integrated_reaudit_v2_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot025_current_web_candidate_two_wing_reaudit_v2_2026-08-22.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v2 did not hand off the same target geography clearly enough for the subsequent bow shot. v2 is historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_22": {
+    "previous_shot": "Shot024",
+    "previous_end_frame": "storyboards/Shot024/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+    "previous_to_start_finding": "Shot025 v2 START receives Shot024 v2's central command, first left/center movement, right fog lane, open road, wet mud, and blue-banner geography. The six Blue Lions remain the readable action focus while Byleth and the Ashe/Lonato pressure recede into context.",
+    "next_shot": "Shot026",
+    "next_start_frame": "storyboards/Shot026/start_frame.png",
+    "end_to_next_finding": "Shot025 v2 END separates the wings and leaves a clear road-edge sightline for Shot026's non-lethal Ashe aim. The formation does not fire, attack, or complete the capture before the cut.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "the three-layer formation is unreadable or reverses screen direction",
+      "the rear line disappears before Shot026",
+      "Ashe fires early or Lonato is attacked",
+      "the handoff sightline to Ashe aim is closed"
+    ]
+  },
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-08-23",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v3_2026-08-23",
+    "source": "imagegen_integrated_live_action_blue_lions_buffer_formation_v3_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot025_critical_reaudit_regen_v3_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot025_critical_reaudit_regen_v3.json",
+    "note": "critical_reaudit_regen_v3_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot024",
+    "previous_end_frame": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot025 critical_reaudit_regen_v3_2026-08-23 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot026",
+    "next_start_frame": "storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot025 critical_reaudit_regen_v3_2026-08-23 ends on a deliberate handoff state for Shot026; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot024→025 and 025→026 continuity QA, and a 3-second motion probe. Reject if the formation closes the buffer, becomes a flat lineup, Ashe fires, Lonato is approached/attacked, Dedue loses the braid, or Chinese/Mandarin/subtitles/UI/borders appear."
+    ]
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Dedue/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/extras/BanditSoldier/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+    "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+  ],
+  "critical_reaudit_regen_v4": {
+    "version": "critical_reaudit_regen_v4_2026-08-24",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v4_2026-08-24",
+    "source": "imagegen_integrated_live_action_formation_geography_v4_2026-08-27",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v4_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v4_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v4_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v4_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-27/shot025_critical_reaudit_regen_v4_2026-08-24_review.md",
+    "note": "Exact files were visually reviewed as an integrated live-action sequence. Prompt-against-frame QA, strict continuity QA and motion probes remain pending."
+  },
+  "critical_reaudit_regen_v5": {
+    "version": "critical_reaudit_regen_v5_2026-08-27",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v5_2026-08-27",
+    "source": "imagegen_integrated_live_action_formation_distance_v5_2026-08-27",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v5_2026-08-27/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v5_2026-08-27/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v5_2026-08-27/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v5_2026-08-27/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-27/shot025_critical_reaudit_regen_v5_2026-08-27_review.md",
+    "note": "Exact files were visually reviewed as an integrated live-action sequence. Prompt-against-frame QA, strict continuity QA and motion probes remain pending."
+  },
+  "critical_reaudit_regen_v6": {
+    "version": "critical_reaudit_regen_v6_2026-08-27",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v6_2026-08-27",
+    "source": "imagegen_integrated_live_action_formation_distance_v6_2026-08-27",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/production_system/reviews/local_identity_plates_2026-08-01/EP03_local_identity_plate_atlas_2026-08-01.jpg",
+      "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-27/shot025_critical_reaudit_regen_v6_2026-08-27_review.md",
+    "note": "Exact files were visually reviewed as an integrated live-action sequence. Prompt-against-frame QA, strict continuity QA and motion probes remain pending."
+  },
+  "output_frames": {
+    "start": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "key": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+    "end": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  },
+  "critical_reaudit_regen_v7": {
+    "version": "critical_reaudit_regen_v7_2026-09-02",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v7_2026-09-02",
+    "source": "imagegen_integrated_live_action_formation_geography_v7_2026-09-02",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v7_2026-09-02/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v7_2026-09-02/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v7_2026-09-02/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_terrain_separation",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-02/shot025_critical_reaudit_regen_v7_2026-09-02_review.md",
+    "note": "v7 rebuild: a side-offset extreme wide places the academy formation behind a foreground embankment, two rebel guards across the middle crossing, and Lonato beyond a broad basin and second ridge. There is no direct sword path from Byleth to Lonato. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "start_frame": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+  "key_frame": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+  "end_frame": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+  "model_notes": [
+    "Current displayed frames are the manga_readability_reboard_v1_2026-09-09 sequential action-chain repair: Reboard v1: a clean side geography establishes Dimitri and Dedue holding the near cover while two guards close the fork and Ashe is visibly routed to the right; Lonato remains beyond the physical screen. START is open fork, KEY is the guard screen forming, END is the two-lane containment hold. No lineup and no direct execution lane. Keep monitor_required until prompt QA and motion probe."
+  ],
+  "critical_reaudit_regen_v8": {
+    "version": "critical_reaudit_regen_v8_2026-09-02",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v8_2026-09-02",
+    "source": "imagegen_integrated_live_action_formation_geography_v8_2026-09-02",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v8_2026-09-02/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v8_2026-09-02/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v8_2026-09-02/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v8_2026-09-02/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_terrain_separation",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-02/shot025_critical_reaudit_regen_v8_2026-09-02_review.md",
+    "note": "v8 rebuild: the side-offset extreme wide makes the non-approach physical rather than merely verbal. Female Byleth and the academy formation are held behind the lower-right foreground barricade; the broad basin, drainage ditch, second rise, and two staggered rebel barriers occupy the entire crossing; Lonato remains a tiny isolated far-ridge figure. START/KEY/END now show command, guard lateral closure, and settled containment as separate beats. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "critical_reaudit_regen_v9": {
+    "version": "critical_reaudit_regen_v9_2026-09-03",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v9_2026-09-03",
+    "source": "imagegen_integrated_live_action_formation_geography_far_terrain_break_v9_2026-09-03",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v9_2026-09-03/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v9_2026-09-03/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v9_2026-09-03/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v9_2026-09-03/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_far_terrain_breaks",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-03/shot025_critical_reaudit_regen_v9_2026-09-03_review.md",
+    "note": "v9 rebuild: the shot is now a genuinely far, high geography insert. The academy formation is confined behind a near-side palisade; a deep ravine, drainage channel, separate middle terrace with a timber gate and two guards, a second rocky ridge, and a further fog depression sit between the formation and Lonato. Lonato remains a tiny far-left ridge figure. START is the high open-crossing map, KEY is the middle gate closure, and END is the lateral sealed-line result. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "previous_match_action_reference": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+    "previous_shot": "Shot024",
+    "previous_end_frame": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+    "next_shot": "Shot026",
+    "next_start_frame": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "critical_reaudit_regen_v10": {
+    "version": "critical_reaudit_regen_v10_2026-09-03",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v10_2026-09-03",
+    "source": "imagegen_integrated_live_action_blocked_crossing_no_direct_lane_v10_2026-09-03",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v10_2026-09-03/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_blocked_crossing",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-03/shot025_critical_reaudit_regen_v10_2026-09-03_review.md",
+    "note": "v10 rebuild after user re-audit: Byleth is off-screen after the preceding command, so Shot025 shows the command's physical consequence rather than a direct Byleth-to-Lonato axis. The Blue Lions hold behind a near barricade; a deep water-cut ravine, washed-out culvert, offset timber gate with exactly two guards, rock outcrop, second ridge, and fog bend block the route. Lonato is only a tiny far-ridge mark. START is the gate being shut, KEY is the two-guard crossbar lock, and END is the barred crossing with the route turning out of sight. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "key_action": "Dimitri 和 Dedue 在近侧掩体停住；两名叛军守卫从中央横切，关上通向 Lonato 的近路，Ashe 被明确引到右侧警戒位。",
+  "camera": "16:9 侧向地理远景，近侧掩体、分叉泥路、两名守卫的横向移动、右侧 Ashe 与远脊 Lonato 同时可读；镜头只做短侧移，不把人排成一行。",
+  "critical_reaudit_regen_v11": {
+    "version": "critical_reaudit_regen_v11_2026-09-03",
+    "frame_set_id": "Shot025_critical_reaudit_regen_v11_2026-09-03",
+    "source": "imagegen_integrated_live_action_blocked_crossing_far_ridge_left_v11_2026-09-03",
+    "frames": {
+      "start": "storyboards/Shot025/critical_reaudit_regen_v11_2026-09-03/start_frame.png",
+      "key": "storyboards/Shot025/critical_reaudit_regen_v11_2026-09-03/key_frame.png",
+      "end": "storyboards/Shot025/critical_reaudit_regen_v11_2026-09-03/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/critical_reaudit_regen_v11_2026-09-03/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Sylvain/academy/selected.png",
+      "assets/characters/blue_lions/Ingrid/academy/selected.png",
+      "assets/characters/blue_lions/Mercedes/academy/selected.png",
+      "assets/characters/blue_lions/Annette/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_blocked_crossing",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-03/shot025_critical_reaudit_regen_v11_2026-09-03_review.md",
+    "note": "v11 rebuild after user re-audit: Byleth is off-screen after the preceding command, and the far-ridge Lonato marker is kept on the upper-left beyond the blocked crossing so Shot025 cannot read as a close Byleth-to-Lonato attack lane. The Blue Lions hold behind a near barricade; a deep water-cut ravine, washed-out culvert, offset timber gate with exactly two guards, rock outcrop, second ridge, and fog bend block the route. The far upper-right ridge stays empty. START is the gate being shut, KEY is the two-guard crossbar lock, and END is the barred crossing with the route turning out of sight. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "manga_readability_reboard_v1": {
+    "version": "manga_readability_reboard_v1_2026-09-09",
+    "frame_set_id": "Shot025_manga_readability_reboard_v1_2026-09-09",
+    "source": "imagegen_integrated_live_action_command_split_guard_screen_v1_2026-09-09",
+    "frames": {
+      "start": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+      "key": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+      "end": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Dedue/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_readable_command_split",
+    "review_markdown": "production_system/reviews/manga_readability_reboard_2026-09-09/shot025_reboard_review.md",
+    "note": "Reboard v1: a clean side geography establishes Dimitri and Dedue holding the near cover while two guards close the fork and Ashe is visibly routed to the right; Lonato remains beyond the physical screen. START is open fork, KEY is the guard screen forming, END is the two-lane containment hold. No lineup and no direct execution lane."
+  }
+}

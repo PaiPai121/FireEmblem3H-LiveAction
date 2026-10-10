@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "project": "blue_lions_food_song",
+  "artifacts": [
+    {
+      "id": "BLFS-BRIEF",
+      "type": "project_bible",
+      "stage": "project_bible",
+      "status": "approved_for_next_stage",
+      "created_by": "producer-agent",
+      "created_at": "2026-07-24",
+      "paths": ["brief.md", "production_notes.md", "references/source_notes.md"],
+      "source_refs": [],
+      "depends_on": [],
+      "risk_flags": ["ip_fidelity", "lyrics_text_handling", "tone_drift"],
+      "notes": "Defines the Blue Lions Annette/Felix food-song comedy short and adapted English food-song / Japanese dialogue handling."
+    },
+    {
+      "id": "BLFS-SCRIPT",
+      "type": "script_scene",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-24",
+      "paths": ["outline.md", "script.md", "dialogue_audio_beats.md", "voice_subtitle_script.md"],
+      "source_refs": ["brief.md", "references/source_notes.md"],
+      "depends_on": ["BLFS-BRIEF"],
+      "risk_flags": ["canon_fidelity", "lyrics_text_handling"],
+      "notes": "One-minute scene built around the original support premise without reprinting the full lyric in package text."
+    },
+    {
+      "id": "BLFS-DIRECTOR-TREATMENT",
+      "type": "director_treatment",
+      "stage": "director_treatment",
+      "status": "approved_for_next_stage",
+      "created_by": "director-agent",
+      "created_at": "2026-07-24",
+      "paths": ["director_treatment.md"],
+      "source_refs": ["script.md"],
+      "depends_on": ["BLFS-SCRIPT"],
+      "risk_flags": ["motion_risk", "identity_drift", "tone_drift"],
+      "notes": "Direction rules for a restrained greenhouse character comedy."
+    },
+    {
+      "id": "BLFS-SHOT-LIST",
+      "type": "shot_list",
+      "stage": "shot_list",
+      "status": "approved_for_next_stage",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-24",
+      "paths": ["shot_list.md"],
+      "source_refs": ["script.md", "director_treatment.md"],
+      "depends_on": ["BLFS-DIRECTOR-TREATMENT"],
+      "risk_flags": ["identity_drift", "motion_risk", "screen_direction"],
+      "notes": "Five-shot 60-second structure."
+    },
+    {
+      "id": "BLFS-ASSET-REFERENCES",
+      "type": "asset_character",
+      "stage": "asset",
+      "status": "approved_for_next_stage",
+      "created_by": "asset-generation-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "references/annette_young_comedy_reference.png",
+        "references/annette_young_comedy_reference_v2.png",
+        "references/greenhouse_interior_corner_reference.png",
+        "references/asset_generation_prompts.md"
+      ],
+      "source_refs": [
+        "assets/characters/blue_lions/Annette/academy/selected.png",
+        "assets/characters/blue_lions/Annette/academy/candidates_youth18_2026-07-18/candidate_01.png",
+        "assets/locations/EP02/act01/Greenhouse/Greenhouse_reference.png"
+      ],
+      "depends_on": ["BLFS-BRIEF"],
+      "risk_flags": ["identity_drift", "canon_fidelity"],
+      "notes": "Project-local references for Annette comedy performance and greenhouse interior staging. Use v2 Annette as default; v1 retained as history."
+    },
+    {
+      "id": "BLFS-SH001",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards/BLFS-SH001/frame_spec.md",
+        "storyboards/BLFS-SH001/start_frame.png",
+        "storyboards/BLFS-SH001/key_frame.png",
+        "storyboards/BLFS-SH001/end_frame.png",
+        "video_prompts/BLFS-SH001.md",
+        "video_prompts/BLFS-SH001_negative.md"
+      ],
+      "source_refs": ["shot_list.md"],
+      "depends_on": ["BLFS-SHOT-LIST", "BLFS-ASSET-REFERENCES"],
+      "risk_flags": ["identity_drift", "motion_risk"],
+      "notes": "Start/key/end frames generated and visually passed as stills. Full-video prompt now includes dialogue/vocal lines and a complete adapted English food song.",
+      "continuity": {
+        "previous": "",
+        "next": "BLFS-SH002",
+        "in": "Annette is alone in the greenhouse before singing.",
+        "out": "Annette turns toward the screen-left doorway."
+      }
+    },
+    {
+      "id": "BLFS-SH002",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards/BLFS-SH002/frame_spec.md",
+        "storyboards/BLFS-SH002/start_frame.png",
+        "storyboards/BLFS-SH002/key_frame.png",
+        "storyboards/BLFS-SH002/end_frame.png",
+        "video_prompts/BLFS-SH002.md",
+        "video_prompts/BLFS-SH002_negative.md"
+      ],
+      "source_refs": ["shot_list.md"],
+      "depends_on": ["BLFS-SHOT-LIST", "BLFS-ASSET-REFERENCES"],
+      "risk_flags": ["identity_drift", "motion_risk", "held_reveal_frame"],
+      "notes": "Start/key/end frames generated, visually passed as stills, and prompt QA approved for video. Start/end include intentional held continuity frames.",
+      "continuity": {
+        "previous": "BLFS-SH001",
+        "next": "BLFS-SH003",
+        "in": "Annette turns toward the screen-left doorway.",
+        "out": "Annette sees Felix and freezes."
+      }
+    },
+    {
+      "id": "BLFS-SH003",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards/BLFS-SH003/frame_spec.md",
+        "storyboards/BLFS-SH003/start_frame.png",
+        "storyboards/BLFS-SH003/key_frame.png",
+        "storyboards/BLFS-SH003/end_frame.png",
+        "video_prompts/BLFS-SH003.md",
+        "video_prompts/BLFS-SH003_negative.md"
+      ],
+      "source_refs": ["shot_list.md"],
+      "depends_on": ["BLFS-SHOT-LIST", "BLFS-ASSET-REFERENCES"],
+      "risk_flags": ["identity_drift", "motion_risk"],
+      "notes": "Start/key/end frames generated, visually passed as stills, normalized to package dimensions, and prompt QA approved for video.",
+      "continuity": {
+        "previous": "BLFS-SH002",
+        "next": "BLFS-SH004",
+        "in": "Annette realizes Felix heard the song.",
+        "out": "Annette begins explaining while holding the watering can."
+      }
+    },
+    {
+      "id": "BLFS-SH004",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards/BLFS-SH004/frame_spec.md",
+        "storyboards/BLFS-SH004/start_frame.png",
+        "storyboards/BLFS-SH004/key_frame.png",
+        "storyboards/BLFS-SH004/end_frame.png",
+        "video_prompts/BLFS-SH004.md",
+        "video_prompts/BLFS-SH004_negative.md"
+      ],
+      "source_refs": ["shot_list.md"],
+      "depends_on": ["BLFS-SHOT-LIST", "BLFS-ASSET-REFERENCES"],
+      "risk_flags": ["identity_drift", "motion_risk"],
+      "notes": "Start/key/end frames generated, visually passed as stills, and prompt QA approved for video.",
+      "continuity": {
+        "previous": "BLFS-SH003",
+        "next": "BLFS-SH005",
+        "in": "Annette explains; Felix listens.",
+        "out": "Felix is positioned to take the watering can and help."
+      }
+    },
+    {
+      "id": "BLFS-SH005",
+      "type": "storyboard_frame",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards/BLFS-SH005/frame_spec.md",
+        "storyboards/BLFS-SH005/start_frame.png",
+        "storyboards/BLFS-SH005/key_frame.png",
+        "storyboards/BLFS-SH005/end_frame.png",
+        "video_prompts/BLFS-SH005.md",
+        "video_prompts/BLFS-SH005_negative.md"
+      ],
+      "source_refs": ["shot_list.md"],
+      "depends_on": ["BLFS-SHOT-LIST", "BLFS-ASSET-REFERENCES"],
+      "risk_flags": ["identity_drift", "motion_risk"],
+      "notes": "Start/key/end frames generated, visually passed as stills, and prompt QA approved for video.",
+      "continuity": {
+        "previous": "BLFS-SH004",
+        "next": "",
+        "in": "Felix has taken the watering can.",
+        "out": "Felix waters the flowers; Annette reacts to his plant-singing deadpan."
+      }
+    },
+    {
+      "id": "BLFS-PROMPT-ASSET-PACKAGE",
+      "type": "delivery_packet",
+      "stage": "delivery",
+      "status": "approved_for_video",
+      "created_by": "prompt-packager-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "prompt_asset_package_manifest.json",
+        "frame_generation_queue.md",
+        "production_system/video_delivery_manifest.json",
+        "production_system/reviews/visual_audit_generated_frames_2026-07-25.md",
+        "storyboards/BLFS-SH001/frame_spec.md",
+        "storyboards/BLFS-SH001/start_frame.png",
+        "storyboards/BLFS-SH001/key_frame.png",
+        "storyboards/BLFS-SH001/end_frame.png",
+        "storyboards/BLFS-SH002/frame_spec.md",
+        "storyboards/BLFS-SH002/start_frame.png",
+        "storyboards/BLFS-SH002/key_frame.png",
+        "storyboards/BLFS-SH002/end_frame.png",
+        "storyboards/BLFS-SH003/frame_spec.md",
+        "storyboards/BLFS-SH003/start_frame.png",
+        "storyboards/BLFS-SH003/key_frame.png",
+        "storyboards/BLFS-SH003/end_frame.png",
+        "storyboards/BLFS-SH004/frame_spec.md",
+        "storyboards/BLFS-SH004/start_frame.png",
+        "storyboards/BLFS-SH004/key_frame.png",
+        "storyboards/BLFS-SH004/end_frame.png",
+        "storyboards/BLFS-SH005/frame_spec.md",
+        "storyboards/BLFS-SH005/start_frame.png",
+        "storyboards/BLFS-SH005/key_frame.png",
+        "storyboards/BLFS-SH005/end_frame.png",
+        "video_prompts/BLFS-SH001.md",
+        "video_prompts/BLFS-SH002.md",
+        "video_prompts/BLFS-SH003.md",
+        "video_prompts/BLFS-SH004.md",
+        "video_prompts/BLFS-SH005.md",
+        "video_prompts/BLFS-SH001_negative.md",
+        "video_prompts/BLFS-SH002_negative.md",
+        "video_prompts/BLFS-SH003_negative.md",
+        "video_prompts/BLFS-SH004_negative.md",
+        "video_prompts/BLFS-SH005_negative.md"
+      ],
+      "source_refs": ["shot_list.md", "director_treatment.md", "production_notes.md"],
+      "depends_on": ["BLFS-SHOT-LIST", "BLFS-ASSET-REFERENCES"],
+      "risk_flags": ["clip_qa_required_after_generation", "lyrics_text_handling"],
+      "notes": "Start/key/end frames exist, visually pass as stills, strict continuity passed, and prompts now include dialogue/vocal lines with a complete adapted English food song and Japanese dialogue."
+    },
+    {
+      "id": "BLFS-VIDEO-EXECUTION-PACK",
+      "type": "execution_packet",
+      "stage": "video_generation_execution",
+      "status": "approved_for_next_stage",
+      "created_by": "production-manager-agent",
+      "created_at": "2026-07-25",
+      "paths": [
+        "delivery/video_generation_package_2026-07-25/asset_viewer.html",
+        "delivery/video_generation_package_2026-07-25/RUNBOOK.md",
+        "delivery/video_generation_package_2026-07-25/model_target_profile.md",
+        "delivery/video_generation_package_2026-07-25/submission_queue.csv",
+        "delivery/video_generation_package_2026-07-25/clip_qa_checklist.md",
+        "delivery/video_generation_package_2026-07-25/execution_plan.json",
+        "delivery/video_generation_package_2026-07-25/execution_commands.sh",
+        "voice_subtitle_script.md",
+        "production_system/reviews/video_execution_readiness_2026-07-25.md"
+      ],
+      "source_refs": [
+        "delivery/video_generation_package_2026-07-25/package_manifest.json",
+        "delivery/video_generation_package_2026-07-25/timeline.json",
+        "production_system/video_delivery_manifest.json"
+      ],
+      "depends_on": ["BLFS-PROMPT-ASSET-PACKAGE"],
+      "risk_flags": ["external_video_model_required", "clip_qa_required_after_generation", "lyrics_text_handling"],
+      "notes": "Producer runbook, model target profile, submission queue, and clip QA checklist for executing the approved video generation package. Current queue is Seedance 2.0-class oriented; Veo requires a split fallback package if limited to shorter clips."
+    }
+  ]
+}

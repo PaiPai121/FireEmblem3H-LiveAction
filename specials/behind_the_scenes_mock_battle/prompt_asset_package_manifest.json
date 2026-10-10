@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "project": "behind_the_scenes_mock_battle",
+  "package_id": "video_generation_package_human_set_v3_2026-07-24",
+  "status": "approved_for_video",
+  "total_duration_seconds": 84,
+  "frame_generation_queue": "frame_generation_queue.md",
+  "dialogue_audio_beats": "dialogue_audio_beats.md",
+  "shots": [
+    {
+      "id": "BTS-SH000",
+      "duration_seconds": 12,
+      "frame_spec": "storyboards_human_set_v3/BTS-SH000/frame_spec.md",
+      "prompt": "video_prompts/BTS-SH000.md",
+      "negative_prompt": "video_prompts/BTS-SH000_negative.md",
+      "frames": {
+        "start": "storyboards_human_set_v3/BTS-SH000/start_frame.png",
+        "key": "storyboards_human_set_v3/BTS-SH000/key_frame.png",
+        "end": "storyboards_human_set_v3/BTS-SH000/end_frame.png"
+      }
+    },
+    {
+      "id": "BTS-SH001",
+      "duration_seconds": 10,
+      "frame_spec": "storyboards_human_set_v3/BTS-SH001/frame_spec.md",
+      "prompt": "video_prompts/BTS-SH001.md",
+      "negative_prompt": "video_prompts/BTS-SH001_negative.md",
+      "frames": {
+        "start": "storyboards_human_set_v3/BTS-SH001/start_frame.png",
+        "key": "storyboards_human_set_v3/BTS-SH001/key_frame.png",
+        "end": "storyboards_human_set_v3/BTS-SH001/end_frame.png"
+      }
+    },
+    {
+      "id": "BTS-SH002",
+      "duration_seconds": 12,
+      "frame_spec": "storyboards_human_set_v3/BTS-SH002/frame_spec.md",
+      "prompt": "video_prompts/BTS-SH002.md",
+      "negative_prompt": "video_prompts/BTS-SH002_negative.md",
+      "frames": {
+        "start": "storyboards_human_set_v3/BTS-SH002/start_frame.png",
+        "key": "storyboards_human_set_v3/BTS-SH002/key_frame.png",
+        "end": "storyboards_human_set_v3/BTS-SH002/end_frame.png"
+      }
+    },
+    {
+      "id": "BTS-SH003",
+      "duration_seconds": 14,
+      "frame_spec": "storyboards_human_set_v3/BTS-SH003/frame_spec.md",
+      "prompt": "video_prompts/BTS-SH003.md",
+      "negative_prompt": "video_prompts/BTS-SH003_negative.md",
+      "frames": {
+        "start": "storyboards_human_set_v3/BTS-SH003/start_frame.png",
+        "key": "storyboards_human_set_v3/BTS-SH003/key_frame.png",
+        "end": "storyboards_human_set_v3/BTS-SH003/end_frame.png"
+      }
+    },
+    {
+      "id": "BTS-SH004",
+      "duration_seconds": 12,
+      "frame_spec": "storyboards_human_set_v3/BTS-SH004/frame_spec.md",
+      "prompt": "video_prompts/BTS-SH004.md",
+      "negative_prompt": "video_prompts/BTS-SH004_negative.md",
+      "frames": {
+        "start": "storyboards_human_set_v3/BTS-SH004/start_frame.png",
+        "key": "storyboards_human_set_v3/BTS-SH004/key_frame.png",
+        "end": "storyboards_human_set_v3/BTS-SH004/end_frame.png"
+      }
+    },
+    {
+      "id": "BTS-SH005",
+      "duration_seconds": 12,
+      "frame_spec": "storyboards_human_set_v3/BTS-SH005/frame_spec.md",
+      "prompt": "video_prompts/BTS-SH005.md",
+      "negative_prompt": "video_prompts/BTS-SH005_negative.md",
+      "frames": {
+        "start": "storyboards_human_set_v3/BTS-SH005/start_frame.png",
+        "key": "storyboards_human_set_v3/BTS-SH005/key_frame.png",
+        "end": "storyboards_human_set_v3/BTS-SH005/end_frame.png"
+      }
+    },
+    {
+      "id": "BTS-SH006",
+      "duration_seconds": 12,
+      "frame_spec": "storyboards_human_set_v3/BTS-SH006/frame_spec.md",
+      "prompt": "video_prompts/BTS-SH006.md",
+      "negative_prompt": "video_prompts/BTS-SH006_negative.md",
+      "frames": {
+        "start": "storyboards_human_set_v3/BTS-SH006/start_frame.png",
+        "key": "storyboards_human_set_v3/BTS-SH006/key_frame.png",
+        "end": "storyboards_human_set_v3/BTS-SH006/end_frame.png"
+      }
+    }
+  ],
+  "visual_audit": "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+  "contact_sheet": "production_system/reviews/contact_sheet_human_set_v3_2026-07-24.jpg",
+  "notes": "Humanized V3 rewrite: real set bloopers only, no AI/monitor malfunction framing, Nian and actors carry all dialogue.",
+  "revision_required": "human_set_v3_visual_prompt_qa",
+  "qa_reviews": [
+    "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+    "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+  ]
+}

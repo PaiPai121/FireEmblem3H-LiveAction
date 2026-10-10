@@ -1,0 +1,5 @@
+# Shot024 Negative Prompt
+
+No Byleth standing beside Lonato, no Byleth close enough for execution, no sword pointed at a body, no sword strike, no charge, no immediate surround, no Ashe bow raised or fired, no Lonato attack, no male Byleth, no war-phase Byleth, no missing Dedue nape braid, no Dedue age drift, no Catherine, Rhea, Felix, Mercedes, Annette, Sylvain, or named extras, no pasted cutouts, no halo edges, no flat lineup, no game-map aerial, no game screenshot, no UI, no tactical grid, no dialogue box, no subtitles, no captions, no logo, no watermark, no Chinese, no Mandarin voiceover, no readable text, no mirrored axis, no mismatched scale, no floating feet, no gore.
+
+No repeat, no echo, no stutter, no restart, no duplicated syllables.

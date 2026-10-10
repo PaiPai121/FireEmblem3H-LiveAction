@@ -1,0 +1,53 @@
+{
+  "total_duration_seconds": 78,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "BTS-SH001",
+      "duration_seconds": 10,
+      "expected_clip": "clips/BTS-SH001.mp4",
+      "edit_in": "hard cut from black or title card",
+      "edit_out": "cut on crew movement toward lunch"
+    },
+    {
+      "order": 2,
+      "shot": "BTS-SH002",
+      "duration_seconds": 16,
+      "expected_clip": "clips/BTS-SH002.mp4",
+      "edit_in": "cut from crew heading to lunch",
+      "edit_out": "cut when Byleth's stillness resolves the table gag"
+    },
+    {
+      "order": 3,
+      "shot": "BTS-SH003",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH003.mp4",
+      "edit_in": "cut from lunch table reaction",
+      "edit_out": "cut on Dimitri's serious padded-lance balance test"
+    },
+    {
+      "order": 4,
+      "shot": "BTS-SH004",
+      "duration_seconds": 18,
+      "expected_clip": "clips/BTS-SH004.mp4",
+      "edit_in": "cut from prop test into active rehearsal",
+      "edit_out": "cut after group laugh settles"
+    },
+    {
+      "order": 5,
+      "shot": "BTS-SH005",
+      "duration_seconds": 10,
+      "expected_clip": "clips/BTS-SH005.mp4",
+      "edit_in": "cut after laughter from rehearsal lane",
+      "edit_out": "cut on Byleth's approving nod"
+    },
+    {
+      "order": 6,
+      "shot": "BTS-SH006",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH006.mp4",
+      "edit_in": "cut from monitor nod",
+      "edit_out": "freeze-like final pose then fade"
+    }
+  ]
+}

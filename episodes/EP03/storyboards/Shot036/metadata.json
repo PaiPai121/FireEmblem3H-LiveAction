@@ -1,0 +1,303 @@
+{
+  "id": "Shot036",
+  "order": 36,
+  "source_timecode": "00:14:20",
+  "status": "monitor_required",
+  "duration_seconds": 9.3,
+  "scene": "章末圣墓阴影",
+  "purpose": "收束并抛出下章：教会让学生看见制裁，也准备让他们看见更深秘密。",
+  "location": "cathedral",
+  "characters": [
+    "BylethFemale",
+    "Sothis",
+    "Rhea"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "assets/props/shared/sword_of_creator/selected.png",
+    "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot036_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot036_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot036_negative_prompt.md",
+  "expected_clip": "clips/Shot036.mp4",
+  "edit_in": "cut from Byleth left under the night lamp into the cathedral threshold",
+  "edit_out": "cut to black after Sothis recedes into motes",
+  "audio_anchor": "Candle hush and cathedral reverb; Sothis speaks once in Japanese and no other voice enters.",
+  "risks": "Sothis becomes solid, Rhea approaches, or the mystery resolves into a lore tableau",
+  "previous_source_timecode": "00:14:20",
+  "source_timecode_audit": {
+    "source_match": "Rhea/Seteth closing setup",
+    "adaptation_gap": "Saint's Tomb shadow is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_set": "external_film_staging_reboard_v1",
+  "current_display_frame_status": "monitor_required_external_film_staging_reboard_v1_2026-09-10",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Use a physical threshold for the mystery: female Byleth walks into a dark chapel with the sheathed Sword of the Creator at her side, stops as the candle flame bends, Sothis resolves beside her without floor contact, and distant Rhea remains a turned-away authority silhouette.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "motion_probe_status": "pending_3s_probe_against_external_film_staging_reboard_v1_2026-09-10",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-15",
+    "frame_set_id": "Shot036_critical_reaudit_regen_v1_2026-08-15",
+    "source": "built_in_imagegen_with_attached_local_selected_character_assets_and_cathedral_reference",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/source_refs/Shot036_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot036/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "status": "monitor_required",
+    "generated_at": "2026-08-15",
+    "aspect_policy": "native 16:9 imagegen output, no non-uniform resize",
+    "review": "production_system/reviews/critical_reaudit_2026-08-15/shot036_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "replaces": "local_asset_final_candidate_v1_2026-08-02 for current web display only; old candidate retained as audit history",
+    "required_next_gate": "3-second motion probe plus prompt-against-frame QA before any full-duration generation"
+  },
+  "current_display_frame_source": "",
+  "current_display_frame_note": "Use a physical threshold for the mystery: female Byleth walks into a dark chapel with the sheathed Sword of the Creator at her side, stops as the candle flame bends, Sothis resolves beside her without floor contact, and distant Rhea remains a turned-away authority silhouette.",
+  "video_prompt_qa_decision": "pending_review_against_external_film_staging_reboard_v1_2026-09-10",
+  "character_presence_constraint": "Exactly three presences are readable: female academy Byleth grounded in the foreground, recognizable translucent Sothis beside her without floor contact, and distant Rhea oriented toward the Holy Tomb; no other performer enters.",
+  "displayed_frame_set": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot036_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-082cb9a8-43c6-48d5-bbd1-c98216c5a93c.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-8af5f83f-6430-42c7-ad9d-6fcf1476e894.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-99903b93-5a51-4416-bec5-a4c654bfb7e3.png"
+    },
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "assets/props/shared/sword_of_creator/selected.png",
+      "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "the human figure stops while the inner voice takes the air",
+    "attention_path": "Byleth crosses the empty chapel -> Sword of the Creator catches candlelight -> Sothis resolves beside her -> distant Rhea remains turned away",
+    "note": "Use a physical threshold for the mystery: female Byleth walks into a dark chapel with the sheathed Sword of the Creator at her side, stops as the candle flame bends, Sothis resolves beside her without floor contact, and distant Rhea remains a turned-away authority silhouette.",
+    "states": {
+      "start": "female Byleth crosses the near chapel threshold with the sheathed Sword of the Creator low; Rhea is distant and turned toward the Holy Tomb; Sothis is absent.",
+      "key": "Byleth stops and turns toward the bent candle flame; recognizable translucent Sothis resolves beside her in the air with no floor contact; Rhea stays distant.",
+      "end": "Sothis recedes into a small field of motes as the cathedral darkens; Byleth remains grounded and Rhea never turns to speak."
+    },
+    "reject_if": [
+      "Sothis becomes a solid companion or generic green flare",
+      "Byleth becomes male or duplicates",
+      "Rhea approaches or speaks",
+      "the Sword of the Creator is generic, duplicated, or floating"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-082cb9a8-43c6-48d5-bbd1-c98216c5a93c.png",
+        "output_sha256": "1db94d6411b41c002dd05a1e4b77b784314d62f0f6cf1db1a11510f0f5566007",
+        "source_sha256": "1db94d6411b41c002dd05a1e4b77b784314d62f0f6cf1db1a11510f0f5566007",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-8af5f83f-6430-42c7-ad9d-6fcf1476e894.png",
+        "output_sha256": "e0f616b39ccbd70f85e4e0289d61014adb08521133b38aeb704e9719700414af",
+        "source_sha256": "e0f616b39ccbd70f85e4e0289d61014adb08521133b38aeb704e9719700414af",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-99903b93-5a51-4416-bec5-a4c654bfb7e3.png",
+        "output_sha256": "af5ccb941b89b0ef0275ac1797001e7d1fc9809e3e239e3bbe3efc207f811409",
+        "source_sha256": "af5ccb941b89b0ef0275ac1797001e7d1fc9809e3e239e3bbe3efc207f811409",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot036_reboard_review.md",
+    "source": ""
+  },
+  "adjacent_continuity_review_2026_08_24": {
+    "previous_shot": "Shot035",
+    "previous_end_frame": "storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "previous_to_start_finding": "Shot036 v1 receives the Shot035 night exit through a deliberate cathedral cut: female Byleth remains the only near-plane professor while Dimitri and Catherine/Ashe are absent.",
+    "next_shot": null,
+    "next_start_frame": null,
+    "end_to_next_finding": "Shot036 END is the episode cut to black; no next-shot named character is introduced.",
+    "decision": "monitor_required",
+    "motion_probe_status": "pending_3s_probe_after_critical_reaudit_regen_v1_2026-08-15"
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-036-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-036-1",
+    "speaker": "Sothis",
+    "text": "そなたは、あの者を信じるのか？",
+    "local_start_seconds": 5.4,
+    "local_speech_end_seconds": 8.4,
+    "local_end_seconds": 9.25,
+    "speech_seconds": 3,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot036/prompt.md"
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "previous_match_action_reference": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "next_handoff_reference": null,
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+    "previous_shot": "Shot035",
+    "previous_end_frame": "storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+    "next_shot": null,
+    "next_start_frame": null,
+    "decision": "monitor_required"
+  },
+  "output_frames": {
+    "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-09-03",
+    "frame_set_id": "Shot036_critical_reaudit_regen_v3_2026-09-03",
+    "source": "imagegen_integrated_live_action_female_byleth_sothis_holy_tomb_shadow_v3_2026-09-03",
+    "frames": {
+      "start": "storyboards/Shot036/critical_reaudit_regen_v3_2026-09-03/start_frame.png",
+      "key": "storyboards/Shot036/critical_reaudit_regen_v3_2026-09-03/key_frame.png",
+      "end": "storyboards/Shot036/critical_reaudit_regen_v3_2026-09-03/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot036/critical_reaudit_regen_v3_2026-09-03/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "assets/props/shared/sword_of_creator/selected.png",
+      "episodes/EP03/storyboards/Shot035/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_spectral_reveal",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-03/shot036_critical_reaudit_regen_v3_2026-09-03_review.md",
+    "note": "v3 rebuild after rejecting the prior current set: START holds grounded female Byleth with distant Rhea; KEY makes recognizable translucent Sothis actually visible without floor contact; END lets the spectral presence recede into motes as the cathedral darkens for the cut to black. Keep monitor_required until prompt QA, Japanese audio QA, and motion probe."
+  },
+  "reference_assets": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "assets/props/shared/sword_of_creator/selected.png",
+    "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "start_frame": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "key_frame": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+  "end_frame": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "model_notes": [
+    "Current displayed frames are the external_film_staging_reboard_v1_2026-09-10 sequential action-chain repair: Use a physical threshold for the mystery: female Byleth walks into a dark chapel with the sheathed Sword of the Creator at her side, stops as the candle flame bends, Sothis resolves beside her without floor contact, and distant Rhea remains a turned-away authority silhouette. Keep monitor_required until prompt QA and motion probe."
+  ],
+  "external_film_staging_reboard_v1": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot036_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-082cb9a8-43c6-48d5-bbd1-c98216c5a93c.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-8af5f83f-6430-42c7-ad9d-6fcf1476e894.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-99903b93-5a51-4416-bec5-a4c654bfb7e3.png"
+    },
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "assets/props/shared/sword_of_creator/selected.png",
+      "episodes/EP03/storyboards/Shot035/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "the human figure stops while the inner voice takes the air",
+    "attention_path": "Byleth crosses the empty chapel -> Sword of the Creator catches candlelight -> Sothis resolves beside her -> distant Rhea remains turned away",
+    "note": "Use a physical threshold for the mystery: female Byleth walks into a dark chapel with the sheathed Sword of the Creator at her side, stops as the candle flame bends, Sothis resolves beside her without floor contact, and distant Rhea remains a turned-away authority silhouette.",
+    "states": {
+      "start": "female Byleth crosses the near chapel threshold with the sheathed Sword of the Creator low; Rhea is distant and turned toward the Holy Tomb; Sothis is absent.",
+      "key": "Byleth stops and turns toward the bent candle flame; recognizable translucent Sothis resolves beside her in the air with no floor contact; Rhea stays distant.",
+      "end": "Sothis recedes into a small field of motes as the cathedral darkens; Byleth remains grounded and Rhea never turns to speak."
+    },
+    "reject_if": [
+      "Sothis becomes a solid companion or generic green flare",
+      "Byleth becomes male or duplicates",
+      "Rhea approaches or speaks",
+      "the Sword of the Creator is generic, duplicated, or floating"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-082cb9a8-43c6-48d5-bbd1-c98216c5a93c.png",
+        "output_sha256": "1db94d6411b41c002dd05a1e4b77b784314d62f0f6cf1db1a11510f0f5566007",
+        "source_sha256": "1db94d6411b41c002dd05a1e4b77b784314d62f0f6cf1db1a11510f0f5566007",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-8af5f83f-6430-42c7-ad9d-6fcf1476e894.png",
+        "output_sha256": "e0f616b39ccbd70f85e4e0289d61014adb08521133b38aeb704e9719700414af",
+        "source_sha256": "e0f616b39ccbd70f85e4e0289d61014adb08521133b38aeb704e9719700414af",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot036/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-99903b93-5a51-4416-bec5-a4c654bfb7e3.png",
+        "output_sha256": "af5ccb941b89b0ef0275ac1797001e7d1fc9809e3e239e3bbe3efc207f811409",
+        "source_sha256": "af5ccb941b89b0ef0275ac1797001e7d1fc9809e3e239e3bbe3efc207f811409",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot036_reboard_review.md",
+    "source": ""
+  }
+}

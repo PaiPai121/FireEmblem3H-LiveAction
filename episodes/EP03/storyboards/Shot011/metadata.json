@@ -1,0 +1,76 @@
+{
+  "id": "Shot011",
+  "order": 11,
+  "source_timecode": "00:06:50",
+  "status": "monitor_required",
+  "duration_seconds": 12,
+  "scene": "边境村痕迹",
+  "purpose": "证明叛乱已影响平民，不只是教会内部争斗。",
+  "location": "village",
+  "characters": [
+    "BylethFemale",
+    "Ashe",
+    "Mercedes"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/blue_lions/Mercedes/academy/selected.png",
+    "assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png"
+  ],
+  "source_reference": "source_refs/Shot011_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot011/start_frame.png",
+    "key": "storyboards/Shot011/key_frame.png",
+    "end": "storyboards/Shot011/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot011_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot011_negative_prompt.md",
+  "expected_clip": "clips/Shot011.mp4",
+  "edit_in": "cut from fog road",
+  "edit_out": "cut to rebel camp smoke",
+  "audio_anchor": "No spoken dialogue; a door bar drops shut.",
+  "risks": "civilian panic becomes spectacle",
+  "previous_source_timecode": "00:05:45",
+  "source_timecode_audit": {
+    "source_match": "fog battlefield with village-area pressure implied",
+    "adaptation_gap": "civilian village traces are adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot011 web candidate because the previous START/KEY/END staged Byleth mostly as a black-cloak back view that could read as male or ambiguous, repeated similar door-facing blocking, and carried weak named-character readability. New START/KEY/END use Shot010 village-edge continuity, a local character reference board, and the Faerghus border village reference. The chain now reads as entering the village, witnessing a door bar drop shut, then turning toward distant rebel-camp smoke while female Byleth remains visibly female.",
+  "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, Mercedes drifts into war-phase armor or oversized ceremonial cloak, Ashe identity drifts, villagers become a spectacle crowd, or START/KEY/END collapse into repeated door-facing stills.",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "current_display_frame_source": "imagegen_from_shot010_continuity_local_character_reference_board_and_faerghus_village_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v1",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v1_2026-08-15",
+  "legacy_current_candidate_downgrade_2026_08_15": {
+    "downgraded_frame_set": "local_asset_final_candidate_v1",
+    "decision": "blocked_needs_revision_for_byleth_gender_identity_and_repeated_back_view_blocking",
+    "reason": "Rendered review showed Byleth mostly as a black-cloak back view that could read as male/ambiguous, with repeated door-facing blocking and weak named-character readability."
+  },
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot011_critical_reaudit_regen_v1_2026-08-15",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "frames": {
+      "start": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot011/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "reference_assets": [
+      "storyboards/Shot010/critical_reaudit_regen_v1_2026-08-15/end_frame.png",
+      "production_system/reviews/critical_reaudit_2026-08-15/shot011_local_character_reference_board_2026-08-15.jpg",
+      "assets/locations/EP03/act01/FaerghusBorderVillage/FaerghusBorderVillage_reference.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_shot010_continuity_character_board_and_location_reference",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot011_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot011_current_web_candidate_reaudit_2026-08-15.json",
+    "note": "Critical re-audit regen v1 replaces the prior Shot011 web candidate because the previous START/KEY/END staged Byleth mostly as a black-cloak back view that could read as male or ambiguous, repeated similar door-facing blocking, and carried weak named-character readability. New START/KEY/END use Shot010 village-edge continuity, a local character reference board, and the Faerghus border village reference. The chain now reads as entering the village, witnessing a door bar drop shut, then turning toward distant rebel-camp smoke while female Byleth remains visibly female. Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, Mercedes drifts into war-phase armor or oversized ceremonial cloak, Ashe identity drifts, villagers become a spectacle crowd, or START/KEY/END collapse into repeated door-facing stills."
+  },
+  "byleth_visual_spotcheck_2026_08_15": "previous_web_candidate_failed_male_or_ambiguous_back_view_replaced_with_monitor_required_candidate"
+}

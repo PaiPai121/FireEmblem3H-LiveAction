@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "project": "behind_the_scenes_mock_battle",
+  "artifacts": [
+    {
+      "id": "BTS-MOCK-BATTLE-BRIEF",
+      "type": "project_bible",
+      "stage": "project_bible",
+      "status": "approved_for_next_stage",
+      "created_by": "producer-agent",
+      "created_at": "2026-07-22",
+      "paths": [
+        "brief.md"
+      ],
+      "source_refs": [],
+      "depends_on": [],
+      "risk_flags": [
+        "ip_fidelity",
+        "tone_drift"
+      ],
+      "notes": "Defines the behind-the-scenes special as separate from EP02 main canon."
+    },
+    {
+      "id": "BTS-MOCK-BATTLE-OUTLINE",
+      "type": "outline",
+      "stage": "writing",
+      "status": "approved_for_next_stage",
+      "created_by": "writer-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "outline.md"
+      ],
+      "source_refs": [
+        "brief.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-BRIEF"
+      ],
+      "risk_flags": [
+        "tone_drift"
+      ],
+      "notes": "Humanized V3 outline: real set bloopers only, no AI/monitor malfunction framing."
+    },
+    {
+      "id": "BTS-MOCK-BATTLE-DIRECTOR-TREATMENT",
+      "type": "director_treatment",
+      "stage": "director_treatment",
+      "status": "approved_for_next_stage",
+      "created_by": "director-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "director_treatment.md"
+      ],
+      "source_refs": [
+        "outline.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-OUTLINE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk"
+      ],
+      "notes": "Nian is the visible director/QA throughline; actors and Nian carry all dialogue."
+    },
+    {
+      "id": "BTS-MOCK-BATTLE-SHOT-LIST",
+      "type": "shot_list",
+      "stage": "shot_list",
+      "status": "approved_for_next_stage",
+      "created_by": "storyboard-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "shot_list.md"
+      ],
+      "source_refs": [
+        "outline.md",
+        "director_treatment.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-DIRECTOR-TREATMENT"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "screen_direction",
+        "motion_risk"
+      ],
+      "notes": "Seven V3 long-take shots totaling 84 seconds."
+    },
+    {
+      "id": "BTS-MOCK-BATTLE-PRODUCTION-NOTES",
+      "type": "project_bible",
+      "stage": "project_bible",
+      "status": "approved_for_next_stage",
+      "created_by": "producer-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "production_notes.md"
+      ],
+      "source_refs": [
+        "shot_list.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-SHOT-LIST"
+      ],
+      "risk_flags": [
+        "asset_gap",
+        "identity_drift"
+      ],
+      "notes": "V3 production locks for real set bloopers, selected assets, and QA requirements."
+    },
+    {
+      "id": "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE",
+      "type": "delivery_packet",
+      "stage": "delivery",
+      "status": "approved_for_video",
+      "created_by": "prompt-packager-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "prompt_asset_package_manifest.json",
+        "dialogue_audio_beats.md",
+        "production_system/video_delivery_manifest.json",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md",
+        "production_system/reviews/contact_sheet_human_set_v3_2026-07-24.jpg"
+      ],
+      "source_refs": [
+        "brief.md",
+        "outline.md",
+        "director_treatment.md",
+        "shot_list.md",
+        "production_notes.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-SHOT-LIST",
+        "BTS-MOCK-BATTLE-PRODUCTION-NOTES"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Current V3 prompt/frame package approved for video generation after visual and prompt QA."
+    },
+    {
+      "id": "BTS-SH000",
+      "type": "storyboard_frame_set",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-frame-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards_human_set_v3/BTS-SH000/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH000/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH000/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH000/end_frame.png",
+        "video_prompts/BTS-SH000.md",
+        "video_prompts/BTS-SH000_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "dialogue_audio_beats.md",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH000.",
+      "continuity": {
+        "previous": "",
+        "next": "BTS-SH001"
+      }
+    },
+    {
+      "id": "BTS-SH001",
+      "type": "storyboard_frame_set",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-frame-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards_human_set_v3/BTS-SH001/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH001/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH001/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH001/end_frame.png",
+        "video_prompts/BTS-SH001.md",
+        "video_prompts/BTS-SH001_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "dialogue_audio_beats.md",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH001.",
+      "continuity": {
+        "previous": "BTS-SH000",
+        "next": "BTS-SH002"
+      }
+    },
+    {
+      "id": "BTS-SH002",
+      "type": "storyboard_frame_set",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-frame-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards_human_set_v3/BTS-SH002/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH002/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH002/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH002/end_frame.png",
+        "video_prompts/BTS-SH002.md",
+        "video_prompts/BTS-SH002_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "dialogue_audio_beats.md",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH002.",
+      "continuity": {
+        "previous": "BTS-SH001",
+        "next": "BTS-SH003"
+      }
+    },
+    {
+      "id": "BTS-SH003",
+      "type": "storyboard_frame_set",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-frame-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards_human_set_v3/BTS-SH003/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH003/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH003/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH003/end_frame.png",
+        "video_prompts/BTS-SH003.md",
+        "video_prompts/BTS-SH003_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "dialogue_audio_beats.md",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH003.",
+      "continuity": {
+        "previous": "BTS-SH002",
+        "next": "BTS-SH004"
+      }
+    },
+    {
+      "id": "BTS-SH004",
+      "type": "storyboard_frame_set",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-frame-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards_human_set_v3/BTS-SH004/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH004/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH004/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH004/end_frame.png",
+        "video_prompts/BTS-SH004.md",
+        "video_prompts/BTS-SH004_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "dialogue_audio_beats.md",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH004.",
+      "continuity": {
+        "previous": "BTS-SH003",
+        "next": "BTS-SH005"
+      }
+    },
+    {
+      "id": "BTS-SH005",
+      "type": "storyboard_frame_set",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-frame-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards_human_set_v3/BTS-SH005/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH005/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH005/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH005/end_frame.png",
+        "video_prompts/BTS-SH005.md",
+        "video_prompts/BTS-SH005_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "dialogue_audio_beats.md",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH005.",
+      "continuity": {
+        "previous": "BTS-SH004",
+        "next": "BTS-SH006"
+      }
+    },
+    {
+      "id": "BTS-SH006",
+      "type": "storyboard_frame_set",
+      "stage": "storyboard",
+      "status": "approved_for_video",
+      "created_by": "storyboard-frame-agent",
+      "created_at": "2026-07-24",
+      "paths": [
+        "storyboards_human_set_v3/BTS-SH006/frame_spec.md",
+        "storyboards_human_set_v3/BTS-SH006/start_frame.png",
+        "storyboards_human_set_v3/BTS-SH006/key_frame.png",
+        "storyboards_human_set_v3/BTS-SH006/end_frame.png",
+        "video_prompts/BTS-SH006.md",
+        "video_prompts/BTS-SH006_negative.md"
+      ],
+      "source_refs": [
+        "shot_list.md",
+        "dialogue_audio_beats.md",
+        "production_system/reviews/visual_audit_human_set_v3_2026-07-24.md",
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-PROMPT-ASSET-PACKAGE"
+      ],
+      "risk_flags": [
+        "identity_drift",
+        "motion_risk",
+        "clip_qa_required_after_generation"
+      ],
+      "notes": "Humanized V3 accepted frame chain for BTS-SH006.",
+      "continuity": {
+        "previous": "BTS-SH005",
+        "next": ""
+      }
+    },
+    {
+      "id": "BTS-MOCK-BATTLE-EXTENSION-FUN-SHOTS-V1",
+      "type": "script_scene_and_shot_list",
+      "stage": "writing_storyboard",
+      "status": "monitor_required",
+      "created_by": "writer-storyboard-agent",
+      "created_at": "2026-07-25",
+      "paths": [
+        "extension_fun_shots_v1.md"
+      ],
+      "source_refs": [
+        "outline.md",
+        "dialogue_audio_beats.md",
+        "shot_list.md",
+        "delivery/video_generation_package_human_set_v3_2026-07-24/package_manifest.json"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-SHOT-LIST",
+        "BTS-MOCK-BATTLE-VIDEO-GENERATION-PACKAGE-HUMAN-SET-V3"
+      ],
+      "risk_flags": [
+        "tone_drift",
+        "motion_risk",
+        "identity_drift",
+        "small_action_visibility"
+      ],
+      "notes": "Optional six-shot post-wrap tag adding character-driven set bloopers; requires director pass, frame generation, prompt QA, and continuity review before video promotion."
+    },
+    {
+      "id": "BTS-MOCK-BATTLE-REFUSAL-SAFE-PROMPT-PASS",
+      "type": "video_prompt_qa_revision",
+      "stage": "video_prompt",
+      "status": "approved_for_video",
+      "created_by": "video-prompt-qa-agent",
+      "created_at": "2026-07-25",
+      "paths": [
+        "video_prompts/BTS-SH000.md",
+        "video_prompts/BTS-SH000_negative.md",
+        "video_prompts/BTS-SH001.md",
+        "video_prompts/BTS-SH001_negative.md",
+        "video_prompts/BTS-SH002.md",
+        "video_prompts/BTS-SH002_negative.md",
+        "video_prompts/BTS-SH003.md",
+        "video_prompts/BTS-SH003_negative.md",
+        "video_prompts/BTS-SH004.md",
+        "video_prompts/BTS-SH004_negative.md",
+        "video_prompts/BTS-SH005.md",
+        "video_prompts/BTS-SH005_negative.md",
+        "video_prompts/BTS-SH006.md",
+        "video_prompts/BTS-SH006_negative.md",
+        "production_system/reviews/video_prompt_qa_refusal_safe_2026-07-25.md"
+      ],
+      "source_refs": [
+        "production_system/reviews/video_prompt_qa_human_set_v3_2026-07-24.md",
+        "storyboards_human_set_v3"
+      ],
+      "depends_on": [
+        "BTS-MOCK-BATTLE-VIDEO-PROMPT-QA-HUMAN-SET-V3"
+      ],
+      "risk_flags": [
+        "provider_refusal_safety",
+        "identity_drift",
+        "small_action_visibility"
+      ],
+      "notes": "Refusal-safe rewrite of the approved V3 video prompts: neutral descriptors, adult performers, safe film-set rehearsal, matte harmless props, contact-free motion."
+    }
+  ]
+}

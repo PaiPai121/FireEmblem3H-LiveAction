@@ -1,0 +1,17 @@
+{
+  "id": "BLFS-SH002",
+  "order": 2,
+  "status": "approved_for_video",
+  "duration_seconds": 8,
+  "expected_clip": "clips/BLFS-SH002.mp4",
+  "edit_in": "from Annette's turn",
+  "edit_out": "cut to Annette close reaction",
+  "audio_anchor": "final song note, then Felix says Annette sounds hungry",
+  "continuity_previous": "BLFS-SH001",
+  "continuity_next": "BLFS-SH003",
+  "model_notes": [],
+  "reject_if": [
+    "Felix mocks her",
+    "Annette does not notice Felix"
+  ]
+}

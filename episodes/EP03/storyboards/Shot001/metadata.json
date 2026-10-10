@@ -1,0 +1,135 @@
+{
+  "id": "Shot001",
+  "order": 1,
+  "source_timecode": "00:01:30",
+  "status": "monitor_required",
+  "duration_seconds": 6.3,
+  "scene": "梦境残响",
+  "purpose": "把上一章的神秘意识延续到本章，并用一个真正的回应动作而不是换光粒暗示 Byleth 的身世不只属于教会。",
+  "location": "dream",
+  "characters": [
+    "BylethFemale",
+    "Sothis"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+    "assets/locations/DreamSanctuary/EP01_scene_reference.png",
+    "episodes/EP03/source_refs/Shot001_source.png"
+  ],
+  "source_reference": "episodes/EP03/source_refs/Shot001_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot001_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot001_negative_prompt.md",
+  "expected_clip": "clips/Shot001.mp4",
+  "edit_in": "cut from black",
+  "edit_out": "hard cut to morning bell",
+  "audio_anchor": "Sothis, softly in Japanese: そなたは、また何を聞いたのじゃ？",
+  "risks": "identity_drift, over-bright magic",
+  "previous_source_timecode": "00:00:20",
+  "source_timecode_audit": {
+    "source_match": "Sothis dream closeup",
+    "adaptation_gap": "matches dream residue beat",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-21",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-21 critical re-audit v2 replaces the previous face-to-face tableau. The three frames now progress from distant waiting to reciprocal reach to an interrupted turn and disappearance.",
+  "required_revision": "Run prompt-against-frame QA and a 3-second motion probe. Reject if the dream becomes a flat collage, the hand reach is absent, Sothis becomes an adult glamorous woman, Byleth becomes male, magic only changes brightness, or START/KEY/END collapse into one stare.",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21",
+  "critical_reaudit_regen_v1": {
+    "version": "critical_reaudit_regen_v1_2026-08-13",
+    "frame_set_id": "Shot001_critical_reaudit_regen_v1_2026-08-13",
+    "source": "built_in_imagegen_with_local_selected_character_assets_location_and_source_reference",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/locations/DreamSanctuary/EP01_scene_reference.png",
+      "episodes/EP03/source_refs/Shot001_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot001/critical_reaudit_regen_v1_2026-08-13/start_frame.png",
+      "key": "storyboards/Shot001/critical_reaudit_regen_v1_2026-08-13/key_frame.png",
+      "end": "storyboards/Shot001/critical_reaudit_regen_v1_2026-08-13/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot001/critical_reaudit_regen_v1_2026-08-13/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "review_note": "production_system/reviews/critical_reaudit_2026-08-13/shot001_critical_reaudit_regen_v1_2026-08-13_review.md",
+    "reject_if": "Run 3-second motion probe only. Reject if Byleth becomes male or older, Sothis becomes adult/glamorous, particles overexpose faces, the dream frame becomes a flat collage, subtitles/UI/watermarks appear, or START/KEY/END collapse into a static hold.",
+    "visual_audit_decision": "blocked_needs_revision",
+    "blocker": "Superseded by the 2026-08-21 action-chain re-audit: previous candidate was too static or repeated the same tableau."
+  },
+  "byleth_gender_consistency_lock": {
+    "decision": "female_byleth_only",
+    "canonical_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "reject_if": [
+      "male Byleth appears",
+      "Byleth gender changes between anchors",
+      "war-phase/adult Byleth replaces academy female professor"
+    ],
+    "inherited_from": "user_feedback_2026-08-14"
+  },
+  "current_display_frame_source": "imagegen_from_local_selected_assets_action_chain_reaudit_v2_2026-08-21",
+  "current_display_frame_note": "2026-08-21 critical re-audit v2 replaces the previous face-to-face tableau. The three frames now progress from distant waiting to reciprocal reach to an interrupted turn and disappearance.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2",
+  "motion_risk_status": "monitor_required_after_static_reaudit_before_motion_probe",
+  "output_frames": {
+    "start": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+    "key": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+    "end": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+  },
+  "start_frame": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+  "key_frame": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+  "end_frame": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+  "frame_spec": "storyboards/Shot001/frame_spec.md",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot001_critical_reaudit_regen_v2_2026-08-21",
+    "source": "built_in_imagegen_with_local_selected_character_and_location_references",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/divine/Sothis/dream/legacy_ep01/candidate_03.png",
+      "assets/locations/DreamSanctuary/EP01_scene_reference.png",
+      "episodes/EP03/source_refs/Shot001_source.png"
+    ],
+    "frames": {
+      "start": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot001/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-21/shot001_critical_reaudit_regen_v2_2026-08-21_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-21/shot001_current_web_candidate_reaudit_2026-08-21.json",
+    "note": "2026-08-21 critical re-audit v2 replaces the previous face-to-face tableau. The three frames now progress from distant waiting to reciprocal reach to an interrupted turn and disappearance.",
+    "reject_if": "Reject if the dream becomes a flat collage, the hand reach is absent, Sothis becomes an adult glamorous woman, Byleth becomes male, magic only changes brightness, or START/KEY/END collapse into one stare."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-001-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-001-1",
+    "speaker": "Sothis",
+    "text": "そなたは、また何を聞いたのじゃ？",
+    "local_start_seconds": 2.24,
+    "local_speech_end_seconds": 5.39,
+    "local_end_seconds": 6.25,
+    "speech_seconds": 3.15,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot001/prompt.md"
+  }
+}

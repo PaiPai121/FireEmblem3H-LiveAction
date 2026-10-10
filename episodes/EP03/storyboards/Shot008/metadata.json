@@ -1,0 +1,161 @@
+{
+  "id": "Shot008",
+  "order": 8,
+  "source_timecode": "00:08:20",
+  "status": "monitor_required",
+  "duration_seconds": 11,
+  "scene": "Catherine 入队",
+  "purpose": "引入教会武力的真实尺度，和学生的陌生感形成对照。",
+  "location": "monastery",
+  "characters": [
+    "Catherine",
+    "BylethFemale",
+    "Ashe"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/props/shared/hero_relics/hero_relics_reference.png",
+    "assets/props/shared/hero_relics/thunderbrand_reference.png"
+  ],
+  "source_reference": "source_refs/Shot008_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+    "key": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+    "end": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot008_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot008_negative_prompt.md",
+  "expected_clip": "clips/Shot008.mp4",
+  "edit_in": "cut from equipment inserts",
+  "edit_out": "cut on Ashe recognizing her certainty",
+  "audio_anchor": "Catherine, in Japanese: 霧の中では、私から離れすぎるな。",
+  "risks": "Catherine too young student-like",
+  "previous_source_timecode": "00:04:20",
+  "source_timecode_audit": {
+    "source_match": "Catherine uses Thunderbrand",
+    "adaptation_gap": "supports Catherine force-scale beat",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "The previous Shot008 chain had workable courtyard action but did not lock Catherine's unique weapon strongly enough. The v2 uses the local Thunderbrand reference and preserves the Shot007 entrance axis and Shot009 departure direction.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe; reject if Thunderbrand loses its jagged gold guard/purple crest, becomes a generic sword or glow, Catherine ages/drifts, or the adjacent eyelines reverse.",
+  "current_display_frame_set": "critical_reaudit_regen_v2",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v2_2026-08-22",
+  "current_display_frame_source": "imagegen_from_local_catherine_female_byleth_ashe_thunderbrand_and_adjacent_shot_references_v2_2026-08-22",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v2_2026-08-22",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-22",
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot008_critical_reaudit_regen_v1_2026-08-15",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "frames": {
+      "start": "storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot008/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/props/shared/hero_relics/hero_relics_reference.png",
+      "source_refs/Shot008_source.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_attached_local_selected_assets",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot008_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot008_current_web_candidate_reaudit_2026-08-15.json",
+    "note": "Superseded by the 2026-08-22 v2 because the prior frame chain did not make Catherine's unique Thunderbrand sufficiently identifiable through the entrance/action handoff."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "byleth_visual_spotcheck_2026_08_15": "female_identity_visually_replaced_with_monitor_required_candidate",
+  "current_display_frame_note": "2026-08-22 sequential continuity and weapon repair: Shot008 enters from Shot007's left arch, carries Catherine through the group with the sheathed Thunderbrand visible, and ends on the gateward handoff to Shot009.",
+  "displayed_frame_set": {
+    "version": "critical_reaudit_regen_v2_2026-08-22",
+    "frame_set_id": "Shot008_critical_reaudit_regen_v2_2026-08-22",
+    "source": "built_in_imagegen_with_local_catherine_female_byleth_ashe_thunderbrand_and_adjacent_shot_references",
+    "frames": {
+      "start": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    ],
+    "generation_mode": "imagegen_action_chain_with_thunderbrand_identity_and_adjacent_shot_match_action",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot008_critical_reaudit_regen_v2_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot008_current_web_candidate_reaudit_2026-08-22.json",
+    "note": "The v2 keeps Catherine's left-arch entrance from Shot007, makes the sheathed Thunderbrand guard and purple crest stone readable during the walk, and stops on the gateward handoff for Shot009. It is monitor_required until prompt QA and a 3-second motion probe."
+  },
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-22",
+    "frame_set_id": "Shot008_critical_reaudit_regen_v2_2026-08-22",
+    "source": "built_in_imagegen_with_local_catherine_female_byleth_ashe_thunderbrand_and_adjacent_shot_references",
+    "frames": {
+      "start": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot008/critical_reaudit_regen_v2_2026-08-22/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/props/shared/hero_relics/thunderbrand_reference.png",
+      "episodes/EP03/storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+      "episodes/EP03/storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png"
+    ],
+    "generation_mode": "imagegen_action_chain_with_thunderbrand_identity_and_adjacent_shot_match_action",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot008_critical_reaudit_regen_v2_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot008_current_web_candidate_reaudit_2026-08-22.json",
+    "note": "The v2 keeps Catherine's left-arch entrance from Shot007, makes the sheathed Thunderbrand guard and purple crest stone readable during the walk, and stops on the gateward handoff for Shot009. It is monitor_required until prompt QA and a 3-second motion probe."
+  },
+  "adjacent_continuity_review_2026_08_22": {
+    "previous_shot": "Shot007",
+    "previous_end_frame": "storyboards/Shot007/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "previous_to_start_finding": "Catherine enters from the same left arch that Byleth and Ashe face at Shot007 END; the wet courtyard and blue-banner axis are preserved.",
+    "next_shot": "Shot009",
+    "next_start_frame": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+    "end_to_next_finding": "Catherine stops ahead of the students and establishes the gateward direction; Shot009 can reverse the angle into the monastery departure.",
+    "thunderbrand_finding": "The sheathed weapon remains attached at Catherine's hip with a jagged gold guard and purple crest stone visible in the action chain.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Catherine reverses the Shot007 entrance axis",
+      "Thunderbrand becomes a generic sword or glowing advertisement"
+    ]
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-008-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-008-1",
+    "speaker": "Catherine",
+    "text": "霧の中では、私から離れすぎるな。",
+    "local_start_seconds": 4.2,
+    "local_speech_end_seconds": 10.1,
+    "local_end_seconds": 10.95,
+    "speech_seconds": 5.9,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot008/prompt.md"
+  }
+}

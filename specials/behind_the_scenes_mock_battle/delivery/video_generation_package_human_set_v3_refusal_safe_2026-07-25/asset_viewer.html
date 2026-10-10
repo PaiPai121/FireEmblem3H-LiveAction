@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Behind The Scenes Mock Battle Asset Viewer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #20242a;
+      --muted: #6b7280;
+      --line: #d8dee8;
+      --panel: #f7f9fb;
+      --accent: #1d5f8f;
+      --warm: #8a5b22;
+      --ok: #2f6f4e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.45;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.94);
+      backdrop-filter: blur(12px);
+    }
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    .meta {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      font-size: 13px;
+    }
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 22px 24px 40px;
+    }
+    .status {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: var(--panel);
+    }
+    .stat b {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .stat span {
+      display: block;
+      margin-top: 4px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .shot {
+      border-top: 1px solid var(--line);
+      padding: 22px 0 28px;
+    }
+    .shot-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    .purpose {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid #b8d4c4;
+      background: #eef8f1;
+      color: var(--ok);
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .frames {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      background: #edf1f5;
+    }
+    figcaption {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 10px;
+      font-size: 13px;
+      border-top: 1px solid var(--line);
+    }
+    .caption-label { font-weight: 700; }
+    .caption-path {
+      color: var(--muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .shot-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+      font-size: 13px;
+    }
+    .shot-links a {
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--accent);
+      background: #fff;
+    }
+    .shot-links .pending {
+      padding: 5px 8px;
+      border: 1px solid #e1c58f;
+      border-radius: 6px;
+      color: #7b520f;
+      background: #fff8e8;
+      font-weight: 700;
+    }
+    .reject {
+      margin-top: 10px;
+      color: var(--warm);
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      header { grid-template-columns: 1fr; }
+      .links { justify-content: flex-start; }
+      .status { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .frames { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Behind The Scenes Mock Battle Asset Viewer</h1>
+      <div class="meta">Nian-directed film-set blooper special &#183; 7 shots &#183; 84 seconds &#183; refusal-safe one-pass video prompts</div>
+    </div>
+    <nav class="links" aria-label="Package links">
+      <a href="RUNBOOK.md">Runbook</a>
+      <a href="submission_queue.csv">Submission Queue</a>
+      <a href="continuity_report.json">Continuity</a>
+      <a href="execution_plan.json">Execution Plan</a>
+      <a href="package_manifest.json">Manifest</a>
+    </nav>
+  </header>
+  <main>
+    <section class="status" aria-label="Package status">
+      <div class="stat"><b>Package</b><span>video_generation_package_human_set_v3_refusal_safe_2026-07-25</span></div>
+      <div class="stat"><b>Shots</b><span>7</span></div>
+      <div class="stat"><b>Total Duration</b><span>84s</span></div>
+      <div class="stat"><b>Missing</b><span>7 clips pending</span></div>
+    </section>
+    
+    <section class="shot" id="BTS-SH000">
+      <div class="shot-head">
+        <div>
+          <h2>01 &#183; BTS-SH000 &#183; 12s</h2>
+          <div class="purpose">Director global cut: &#21345;&#21345;&#21345;&#65292;&#25293;&#30340;&#20160;&#20040;&#29609;&#24847;&#65311;</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/001_BTS-SH000/start_frame.png"><img src="shots/001_BTS-SH000/start_frame.png" alt="BTS-SH000 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/001_BTS-SH000/key_frame.png"><img src="shots/001_BTS-SH000/key_frame.png" alt="BTS-SH000 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/001_BTS-SH000/end_frame.png"><img src="shots/001_BTS-SH000/end_frame.png" alt="BTS-SH000 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links">
+        <a href="shots/001_BTS-SH000/prompt.md">Prompt</a>
+        <a href="shots/001_BTS-SH000/negative_prompt.md">Negative Prompt</a>
+        <a href="shots/001_BTS-SH000/metadata.json">Metadata</a>
+        <span class="pending">Clip Pending</span>
+      </div>
+      <div class="reject"><b>Watch:</b> The white-haired director is missing or replaced by a generic crew member.</div>
+    </section>
+
+    <section class="shot" id="BTS-SH001">
+      <div class="shot-head">
+        <div>
+          <h2>02 &#183; BTS-SH001 &#183; 10s</h2>
+          <div class="purpose">Reset notes: retreat line, tape mark, cape/fence fix</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/002_BTS-SH001/start_frame.png"><img src="shots/002_BTS-SH001/start_frame.png" alt="BTS-SH001 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/002_BTS-SH001/key_frame.png"><img src="shots/002_BTS-SH001/key_frame.png" alt="BTS-SH001 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/002_BTS-SH001/end_frame.png"><img src="shots/002_BTS-SH001/end_frame.png" alt="BTS-SH001 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links">
+        <a href="shots/002_BTS-SH001/prompt.md">Prompt</a>
+        <a href="shots/002_BTS-SH001/negative_prompt.md">Negative Prompt</a>
+        <a href="shots/002_BTS-SH001/metadata.json">Metadata</a>
+        <span class="pending">Clip Pending</span>
+      </div>
+      <div class="reject"><b>Watch:</b> The white-haired director is missing or replaced by a generic crew member.</div>
+    </section>
+
+    <section class="shot" id="BTS-SH002">
+      <div class="shot-head">
+        <div>
+          <h2>03 &#183; BTS-SH002 &#183; 12s</h2>
+          <div class="purpose">see dialogue_audio_beats.md</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/003_BTS-SH002/start_frame.png"><img src="shots/003_BTS-SH002/start_frame.png" alt="BTS-SH002 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/003_BTS-SH002/key_frame.png"><img src="shots/003_BTS-SH002/key_frame.png" alt="BTS-SH002 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/003_BTS-SH002/end_frame.png"><img src="shots/003_BTS-SH002/end_frame.png" alt="BTS-SH002 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links">
+        <a href="shots/003_BTS-SH002/prompt.md">Prompt</a>
+        <a href="shots/003_BTS-SH002/negative_prompt.md">Negative Prompt</a>
+        <a href="shots/003_BTS-SH002/metadata.json">Metadata</a>
+        <span class="pending">Clip Pending</span>
+      </div>
+      <div class="reject"><b>Watch:</b> The white-haired director is missing or replaced by a generic crew member.</div>
+    </section>
+
+    <section class="shot" id="BTS-SH003">
+      <div class="shot-head">
+        <div>
+          <h2>04 &#183; BTS-SH003 &#183; 14s</h2>
+          <div class="purpose">Lunch-table spear geometry gag, film-set safety punchline</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/004_BTS-SH003/start_frame.png"><img src="shots/004_BTS-SH003/start_frame.png" alt="BTS-SH003 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/004_BTS-SH003/key_frame.png"><img src="shots/004_BTS-SH003/key_frame.png" alt="BTS-SH003 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/004_BTS-SH003/end_frame.png"><img src="shots/004_BTS-SH003/end_frame.png" alt="BTS-SH003 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links">
+        <a href="shots/004_BTS-SH003/prompt.md">Prompt</a>
+        <a href="shots/004_BTS-SH003/negative_prompt.md">Negative Prompt</a>
+        <a href="shots/004_BTS-SH003/metadata.json">Metadata</a>
+        <span class="pending">Clip Pending</span>
+      </div>
+      <div class="reject"><b>Watch:</b> The white-haired director is missing or replaced by a generic crew member.</div>
+    </section>
+
+    <section class="shot" id="BTS-SH004">
+      <div class="shot-head">
+        <div>
+          <h2>05 &#183; BTS-SH004 &#183; 12s</h2>
+          <div class="purpose">see dialogue_audio_beats.md</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/005_BTS-SH004/start_frame.png"><img src="shots/005_BTS-SH004/start_frame.png" alt="BTS-SH004 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/005_BTS-SH004/key_frame.png"><img src="shots/005_BTS-SH004/key_frame.png" alt="BTS-SH004 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/005_BTS-SH004/end_frame.png"><img src="shots/005_BTS-SH004/end_frame.png" alt="BTS-SH004 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links">
+        <a href="shots/005_BTS-SH004/prompt.md">Prompt</a>
+        <a href="shots/005_BTS-SH004/negative_prompt.md">Negative Prompt</a>
+        <a href="shots/005_BTS-SH004/metadata.json">Metadata</a>
+        <span class="pending">Clip Pending</span>
+      </div>
+      <div class="reject"><b>Watch:</b> The white-haired director is missing or replaced by a generic crew member.</div>
+    </section>
+
+    <section class="shot" id="BTS-SH005">
+      <div class="shot-head">
+        <div>
+          <h2>06 &#183; BTS-SH005 &#183; 12s</h2>
+          <div class="purpose">see dialogue_audio_beats.md</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/006_BTS-SH005/start_frame.png"><img src="shots/006_BTS-SH005/start_frame.png" alt="BTS-SH005 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/006_BTS-SH005/key_frame.png"><img src="shots/006_BTS-SH005/key_frame.png" alt="BTS-SH005 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/006_BTS-SH005/end_frame.png"><img src="shots/006_BTS-SH005/end_frame.png" alt="BTS-SH005 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links">
+        <a href="shots/006_BTS-SH005/prompt.md">Prompt</a>
+        <a href="shots/006_BTS-SH005/negative_prompt.md">Negative Prompt</a>
+        <a href="shots/006_BTS-SH005/metadata.json">Metadata</a>
+        <span class="pending">Clip Pending</span>
+      </div>
+      <div class="reject"><b>Watch:</b> The white-haired director is missing or replaced by a generic crew member.</div>
+    </section>
+
+    <section class="shot" id="BTS-SH006">
+      <div class="shot-head">
+        <div>
+          <h2>07 &#183; BTS-SH006 &#183; 12s</h2>
+          <div class="purpose">Director closes: &#22909;&#65292;&#25910;&#24037;&#12290;&#20170;&#22825;&#23601;&#21040;&#36825;</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/007_BTS-SH006/start_frame.png"><img src="shots/007_BTS-SH006/start_frame.png" alt="BTS-SH006 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/007_BTS-SH006/key_frame.png"><img src="shots/007_BTS-SH006/key_frame.png" alt="BTS-SH006 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/007_BTS-SH006/end_frame.png"><img src="shots/007_BTS-SH006/end_frame.png" alt="BTS-SH006 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links">
+        <a href="shots/007_BTS-SH006/prompt.md">Prompt</a>
+        <a href="shots/007_BTS-SH006/negative_prompt.md">Negative Prompt</a>
+        <a href="shots/007_BTS-SH006/metadata.json">Metadata</a>
+        <span class="pending">Clip Pending</span>
+      </div>
+      <div class="reject"><b>Watch:</b> The white-haired director is missing or replaced by a generic crew member.</div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,280 @@
+{
+  "id": "Shot032",
+  "order": 32,
+  "source_timecode": "00:13:00",
+  "status": "monitor_required",
+  "duration_seconds": 11.5,
+  "scene": "西方教会处置",
+  "purpose": "明确 Rhea 的温柔外表下有不可抗拒的制裁。",
+  "camera": "大教堂中远景保持上下权力轴线；Byleth 在下层前景，Seteth 与 Rhea 在祭坛阶梯上，镜头只为递交动作做有限推进。",
+  "location": "cathedral",
+  "characters": [
+    "Rhea",
+    "Seteth",
+    "BylethFemale"
+  ],
+  "asset_references": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot032_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot032_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot032_negative_prompt.md",
+  "expected_clip": "clips/Shot032.mp4",
+  "edit_in": "cut from Rhea's turn and Seteth's held report between levels",
+  "edit_out": "cut on Byleth stepping back toward the students' side door",
+  "audio_anchor": "A folio closes under Rhea's palm, her Japanese order lands once, then cathedral reverb carries the turn-away tail.",
+  "risks": "the shot repeats Shot031's handoff, Rhea becomes theatrical, or the order has no visible physical consequence",
+  "previous_source_timecode": "00:12:50",
+  "source_timecode_audit": {
+    "source_match": "Rhea orders judgment",
+    "adaptation_gap": "matches Western Church punishment beat",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Separate the authority beat from Shot031: use a diagonal profile rather than a centered report pose. Rhea closes the folio against a stone rail, raises one hand to end debate, and turns away; Byleth reacts by turning toward the students' side door.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "current_display_frame_set": "external_film_staging_reboard_v1",
+  "current_display_frame_status": "monitor_required_external_film_staging_reboard_v1_2026-09-10",
+  "current_display_frame_source": "",
+  "video_prompt_qa_decision": "pending_review_against_external_film_staging_reboard_v1_2026-09-10",
+  "motion_probe_status": "pending_3s_probe_against_external_film_staging_reboard_v1_2026-09-10",
+  "character_presence_lock": "Rhea, mature academy Seteth, female academy Byleth only; no Catherine, Lonato, Dimitri, Ashe, or extra named student.",
+  "critical_reaudit_regen_v2": {
+    "version": "critical_reaudit_regen_v2_2026-08-21",
+    "frame_set_id": "Shot032_critical_reaudit_regen_v2_2026-08-21",
+    "source": "existing_local_reference_imagegen_chain_2026-08-21",
+    "frames": {
+      "start": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/start_frame.png",
+      "key": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/key_frame.png",
+      "end": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot032/critical_reaudit_regen_v2_2026-08-21/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot032_critical_reaudit_regen_v2_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot032_critical_reaudit_regen_v2.json",
+    "note": "The v2 chain is the current displayed frame set. It receives Shot031 v2 through the closed-folio report handoff, makes the order visible through body attention, and keeps monitor_required until prompt QA and a 3-second motion probe."
+  },
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "current_display_frame_note": "Separate the authority beat from Shot031: use a diagonal profile rather than a centered report pose. Rhea closes the folio against a stone rail, raises one hand to end debate, and turns away; Byleth reacts by turning toward the students' side door.",
+  "character_presence_constraint": "Exactly three named performers are readable: Rhea, mature academy Seteth, and female academy Byleth. Catherine, Lonato, Dimitri, Ashe, extra students, soldiers, and any armed executioner remain absent.",
+  "displayed_frame_set": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot032_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-185121f6-aaf8-42c6-8cf6-fc731464a934.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-0139160e-2559-4acf-8fb6-6b7277cd60e0.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ac160392-553e-4812-8267-3433a408c30a.png"
+    },
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "a calm hand closes the moral argument",
+    "attention_path": "closed folio -> Rhea's hand -> Byleth's turn toward the side door -> Seteth's descent",
+    "note": "Separate the authority beat from Shot031: use a diagonal profile rather than a centered report pose. Rhea closes the folio against a stone rail, raises one hand to end debate, and turns away; Byleth reacts by turning toward the students' side door.",
+    "states": {
+      "start": "Seteth places the closed folio on a stone rail while Rhea stands in profile and Byleth holds low below the altar.",
+      "key": "Rhea's palm closes the folio and her raised hand stops the room; Seteth waits one step below and Byleth's eyes lift.",
+      "end": "Rhea has turned away, Seteth takes the first step down, and Byleth steps backward toward the side door with the consequence understood."
+    },
+    "reject_if": [
+      "the frame repeats Shot031's front-facing handoff",
+      "Rhea points or performs broad villain emotion",
+      "Byleth becomes male or disappears",
+      "the folio action is only implied by a close-up"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-185121f6-aaf8-42c6-8cf6-fc731464a934.png",
+        "output_sha256": "3017cd1d260a529106e0e7b78df69b1164b601fee6697bf7b6398decdf81c68b",
+        "source_sha256": "3017cd1d260a529106e0e7b78df69b1164b601fee6697bf7b6398decdf81c68b",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-0139160e-2559-4acf-8fb6-6b7277cd60e0.png",
+        "output_sha256": "b6a3f7a24d4bc72362d2ab4ea7fa3fe476576f271193808022d6453c9769138e",
+        "source_sha256": "b6a3f7a24d4bc72362d2ab4ea7fa3fe476576f271193808022d6453c9769138e",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ac160392-553e-4812-8267-3433a408c30a.png",
+        "output_sha256": "12109ccddfc79df1d05349b0d54ef8c1a3f0b0f7e660a4be815fd613caebbac5",
+        "source_sha256": "12109ccddfc79df1d05349b0d54ef8c1a3f0b0f7e660a4be815fd613caebbac5",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot032_reboard_review.md",
+    "source": ""
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot031",
+    "previous_end_frame": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "previous_to_start_finding": "Shot032 v2 receives Shot031 v2's authority axis and closed folio; no student resets into a front-facing lineup.",
+    "next_shot": "Shot033",
+    "next_start_frame": "storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot032 critical_reaudit_regen_v2_2026-08-21 ends on a deliberate handoff state for Shot033; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot031->032 and 032->033 continuity QA, and a 3-second motion probe. Reject if Byleth reads male or ambiguous, Seteth reads young or war-phase, the handoff is missing, Rhea becomes cartoonishly evil, START/KEY/END collapse into one pose, any unlisted named character enters, or Chinese/Mandarin/subtitles/UI/pasted plates appear."
+    ]
+  },
+  "adjacent_continuity_review_2026_08_24": {
+    "previous_shot": "Shot031",
+    "previous_end_frame": "storyboards/Shot031/critical_reaudit_regen_v2_2026-08-21/end_frame.png",
+    "previous_to_start_finding": "Shot032 v2 receives Seteth's closed folio and Rhea's turn-away from Shot031 v2, then narrows the authority exchange to Rhea, mature Seteth, and female Byleth.",
+    "next_shot": "Shot033",
+    "next_start_frame": "storyboards/Shot033/critical_reaudit_regen_v1_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot032 END leaves Rhea turned away, Seteth descending with the folio, and female Byleth in an unsettled profile; Shot033 may cut to student reactions without replaying the order handoff.",
+    "decision": "monitor_required",
+    "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v2_2026-08-21"
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-032-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-032-1",
+    "speaker": "Rhea",
+    "text": "反逆者は裁きを受けねばなりません。",
+    "local_start_seconds": 8.2,
+    "local_speech_end_seconds": 10.65,
+    "local_end_seconds": 11.25,
+    "speech_seconds": 2.45,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot032/prompt.md"
+  },
+  "previous_match_action_reference": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "external_film_staging_reboard_v1_2026-09-10",
+    "previous_shot": "Shot031",
+    "previous_end_frame": "storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+    "next_shot": "Shot033",
+    "next_start_frame": "storyboards/Shot033/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "output_frames": {
+    "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+    "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+    "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  },
+  "external_film_staging_reboard_v1": {
+    "version": "external_film_staging_reboard_v1_2026-09-10",
+    "frame_set_id": "Shot032_external_film_staging_reboard_v1_2026-09-10",
+    "frames": {
+      "start": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+      "key": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+      "end": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/contact_sheet.jpg",
+    "source_paths": {
+      "start": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-185121f6-aaf8-42c6-8cf6-fc731464a934.png",
+      "key": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-0139160e-2559-4acf-8fb6-6b7277cd60e0.png",
+      "end": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ac160392-553e-4812-8267-3433a408c30a.png"
+    },
+    "reference_assets": [
+      "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+      "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+      "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+    ],
+    "focal_subject": "a calm hand closes the moral argument",
+    "attention_path": "closed folio -> Rhea's hand -> Byleth's turn toward the side door -> Seteth's descent",
+    "note": "Separate the authority beat from Shot031: use a diagonal profile rather than a centered report pose. Rhea closes the folio against a stone rail, raises one hand to end debate, and turns away; Byleth reacts by turning toward the students' side door.",
+    "states": {
+      "start": "Seteth places the closed folio on a stone rail while Rhea stands in profile and Byleth holds low below the altar.",
+      "key": "Rhea's palm closes the folio and her raised hand stops the room; Seteth waits one step below and Byleth's eyes lift.",
+      "end": "Rhea has turned away, Seteth takes the first step down, and Byleth steps backward toward the side door with the consequence understood."
+    },
+    "reject_if": [
+      "the frame repeats Shot031's front-facing handoff",
+      "Rhea points or performs broad villain emotion",
+      "Byleth becomes male or disappears",
+      "the folio action is only implied by a close-up"
+    ],
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "generation_mode": "imagegen_integrated_live_action_with_external_film_staging_method_and_canonical_local_assets",
+    "evidence": {
+      "start": {
+        "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-185121f6-aaf8-42c6-8cf6-fc731464a934.png",
+        "output_sha256": "3017cd1d260a529106e0e7b78df69b1164b601fee6697bf7b6398decdf81c68b",
+        "source_sha256": "3017cd1d260a529106e0e7b78df69b1164b601fee6697bf7b6398decdf81c68b",
+        "decision": "visual_review_passed"
+      },
+      "key": {
+        "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-0139160e-2559-4acf-8fb6-6b7277cd60e0.png",
+        "output_sha256": "b6a3f7a24d4bc72362d2ab4ea7fa3fe476576f271193808022d6453c9769138e",
+        "source_sha256": "b6a3f7a24d4bc72362d2ab4ea7fa3fe476576f271193808022d6453c9769138e",
+        "decision": "visual_review_passed"
+      },
+      "end": {
+        "output_path": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+        "source_path": "/Users/zekun/.codex/generated_images/019fa905-14b8-7523-8ffe-84b1cca2e055/exec-ac160392-553e-4812-8267-3433a408c30a.png",
+        "output_sha256": "12109ccddfc79df1d05349b0d54ef8c1a3f0b0f7e660a4be815fd613caebbac5",
+        "source_sha256": "12109ccddfc79df1d05349b0d54ef8c1a3f0b0f7e660a4be815fd613caebbac5",
+        "decision": "visual_review_passed"
+      }
+    },
+    "review_markdown": "production_system/reviews/external_film_staging_reboard_2026-09-10/shot032_reboard_review.md",
+    "source": ""
+  },
+  "reference_assets": [
+    "assets/characters/church_of_seiros/Rhea/academy/selected.png",
+    "assets/characters/church_of_seiros/Seteth/academy/selected.png",
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/locations/EP02/act01/CathedralInterior/CathedralInterior_reference.png",
+    "episodes/EP03/storyboards/Shot031/external_film_staging_reboard_v1_2026-09-10/end_frame.png"
+  ],
+  "start_frame": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/start_frame.png",
+  "key_frame": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/key_frame.png",
+  "end_frame": "storyboards/Shot032/external_film_staging_reboard_v1_2026-09-10/end_frame.png",
+  "model_notes": [
+    "Current displayed frames are the external_film_staging_reboard_v1_2026-09-10 sequential action-chain repair: Separate the authority beat from Shot031: use a diagonal profile rather than a centered report pose. Rhea closes the folio against a stone rail, raises one hand to end debate, and turns away; Byleth reacts by turning toward the students' side door. Keep monitor_required until prompt QA and motion probe."
+  ]
+}

@@ -1,0 +1,5 @@
+# Shot018 Negative Prompt
+
+No Chinese voiceover, no Mandarin speech, no subtitles, no captions, no dialogue boxes, no game UI, no tactical grid, no health bars, no damage numbers, no borders, no logos, no watermarks, no readable text, no second Ashe, no second bow, no extra named character, no named attacker reveal, no attacker face or body, no Felix looking screen-right, no mirrored action, no sword line facing away from the screen-left threat, no arrow release, no attack follow-through, no killing blow, no blood, no gore, no wound, no impact flash, no magic, no pasted portrait plates, no transparent cutouts, no flat lineup, no static lineup, no identical start-key-end pose, no floating feet, no missing contact shadows, no war-phase aging, no costume drift, no face drift, no modern objects, no firearms, no exaggerated anime reaction, no victory pose, no kneeling hero pose, no camera spin, no fisheye, no whip-pan, no artificial shake.
+
+No repeat, no echo, no stutter, no restart, no duplicated syllables.

@@ -1,0 +1,237 @@
+{
+  "id": "Shot023",
+  "order": 23,
+  "source_timecode": "00:09:20",
+  "status": "monitor_required",
+  "duration_seconds": 13,
+  "scene": "Lonato 拒绝",
+  "purpose": "让 Lonato 的叛乱有道德痛点，但不能推翻本章教会权力事实。",
+  "location": "battlefield",
+  "characters": [
+    "Lonato",
+    "Ashe"
+  ],
+  "asset_references": [
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot023_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+    "key": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+    "end": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot023_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot023_negative_prompt.md",
+  "expected_clip": "clips/Shot023.mp4",
+  "edit_in": "cut from Ashe plea",
+  "edit_out": "cut to Byleth command",
+  "audio_anchor": "Lonato, in Japanese: 問われぬ罪は、聖なる名の陰に隠されるだけだ。",
+  "risks": "turning Lonato into pure villain",
+  "previous_source_timecode": "00:11:30",
+  "source_timecode_audit": {
+    "source_match": "Lonato battlefield dialogue",
+    "adaptation_gap": "matches principled rebel framing",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "critical_reaudit_regen_v6",
+  "integrated_candidate_v2_2026_08_10": {
+    "status": "blocked_needs_revision",
+    "start_frame": "storyboards/Shot023/integrated_candidate_v2_2026-08-10/start_frame.png",
+    "key_frame": "storyboards/Shot023/integrated_candidate_v2_2026-08-10/key_frame.png",
+    "end_frame": "storyboards/Shot023/integrated_candidate_v2_2026-08-10/end_frame.png",
+    "triptych": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot023_integrated_candidate_v2_triptych_2026-08-10.jpg",
+    "review": "production_system/reviews/integrated_frame_repairs_2026-08-09/shot023_integrated_candidate_v2_review_2026-08-10.md",
+    "generated_at": "2026-08-10",
+    "aspect_policy": "aspect-preserving scale/crop to 1280x720; no non-uniform resize",
+    "required_next_gate": "3-second motion probe plus identity/continuity QA before any full-duration generation",
+    "visual_audit_decision": "blocked_needs_revision",
+    "note": "Superseded on 2026-08-22: this historical candidate is not the current display set. The prior Shot023 pass either carried a pasted/layout-reference treatment or introduced an unlisted ambiguous Byleth-like figure into a two-person refusal. Retain for audit history only."
+  },
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v6_2026-08-23",
+  "current_display_frame_source": "imagegen_integrated_live_action_lonato_refusal_safe_distance_v6_2026-08-23",
+  "current_display_frame_note": "2026-08-23 distance-continuity re-audit: v5 fixed the axis and scale progression but its KEY was still too close for the nearby Blue Lions' tactical geography. v6 keeps Lonato left/uphill and Ashe right/nearer while making every refusal state a medium-long two-plane exchange with an explicit open road buffer.",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "2026-08-23 distance-continuity re-audit: v5 fixed the axis and scale progression but its KEY was still too close for the nearby Blue Lions' tactical geography. v6 keeps Lonato left/uphill and Ashe right/nearer while making every refusal state a medium-long two-plane exchange with an explicit open road buffer.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if KEY becomes sword-distance, the central gap disappears, the axis reverses, Lonato attacks, Ashe draws/fires, rebels become named, or Chinese/Mandarin/subtitles/UI/borders appear.",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v6_2026-08-23",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v6_2026-08-23",
+  "character_presence_constraint": "Only older white-haired armored Lonato and academy-era Ashe are readable in Shot023. Indistinct rebel silhouettes may remain deep in fog only. No Byleth, Dimitri, Catherine, Felix, Dedue, Mercedes, Ingrid, Rhea, horse, or other named character enters. A 4–6 metre road buffer remains visible.",
+  "displayed_frame_set": {
+    "version": "critical_reaudit_regen_v6_2026-08-23",
+    "frame_set_id": "Shot023_critical_reaudit_regen_v6_2026-08-23",
+    "source": "imagegen_integrated_live_action_lonato_refusal_safe_distance_v6_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v6_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v6.json",
+    "note": "critical_reaudit_regen_v6_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-08-22",
+    "frame_set_id": "Shot023_critical_reaudit_regen_v3_2026-08-22",
+    "source": "imagegen_integrated_live_action_with_local_identity_and_shot022_continuity_v3_2026-08-22",
+    "frames": {
+      "start": "storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/start_frame.png",
+      "key": "storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/key_frame.png",
+      "end": "storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot023/critical_reaudit_regen_v3_2026-08-22/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot022/critical_reaudit_regen_v2_2026-08-22/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-22/shot023_lonato_refusal_integrated_reaudit_v3_2026-08-22_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-22/shot023_current_web_candidate_integrated_reaudit_v3_2026-08-22.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v3 reversed the Shot022 END axis by placing Ashe left and Lonato right. v3 is historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_22": {
+    "previous_shot": "Shot022",
+    "previous_end_frame": "storyboards/Shot022/critical_reaudit_regen_v2_2026-08-22/end_frame.png",
+    "previous_to_start_finding": "Shot023 v3 START receives Shot022 v2 END's wet ridge, blue banners, road axis, and restrained plea distance. Ashe remains on the left with a low bow; Lonato holds the right/middle lane with sword low; no Byleth or Dimitri enters the two-person refusal.",
+    "next_shot": "Shot024",
+    "next_start_frame": "storyboards/Shot024/critical_reaudit_regen_v1_2026-08-14/start_frame.png",
+    "end_to_next_finding": "Shot023 v3 END turns Lonato toward the indistinct rebel line and leaves the center road open. The next command shot can receive that tactical pressure with female Byleth as the command focal point; strict motion and visual continuity remain monitor-only.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "an unlisted named character enters the two-person refusal",
+      "Lonato's sword becomes an attack rather than a low guarded boundary",
+      "Ashe raises or fires the bow",
+      "the cut to Byleth command loses the open road and rebel-pressure direction"
+    ]
+  },
+  "critical_reaudit_regen_v4": {
+    "version": "critical_reaudit_regen_v4_2026-08-23",
+    "frame_set_id": "Shot023_critical_reaudit_regen_v4_2026-08-23",
+    "source": "imagegen_integrated_live_action_lonato_axis_refusal_scale_fix_v4_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot023/critical_reaudit_regen_v4_2026-08-23/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot022/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v4_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v4.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v4 fixed the axis but did not create enough start/key/end scale and action separation. v4 is historical evidence only."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot022",
+    "previous_end_frame": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot023 critical_reaudit_regen_v6_2026-08-23 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot024",
+    "next_start_frame": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "end_to_next_finding": "Shot023 critical_reaudit_regen_v6_2026-08-23 ends on a deliberate handoff state for Shot024; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA and a 3-second motion probe. Reject if KEY becomes sword-distance, the central gap disappears, the axis reverses, Lonato attacks, Ashe draws/fires, rebels become named, or Chinese/Mandarin/subtitles/UI/borders appear."
+    ]
+  },
+  "critical_reaudit_regen_v5": {
+    "version": "critical_reaudit_regen_v5_2026-08-23",
+    "frame_set_id": "Shot023_critical_reaudit_regen_v5_2026-08-23",
+    "source": "imagegen_integrated_live_action_lonato_axis_refusal_scale_progression_v5_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot023/critical_reaudit_regen_v5_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot023/critical_reaudit_regen_v5_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot023/critical_reaudit_regen_v5_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot023/critical_reaudit_regen_v5_2026-08-23/contact_sheet.jpg",
+    "status": "blocked_needs_revision",
+    "visual_audit_decision": "blocked_needs_revision",
+    "reference_assets": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot022/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v5_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v5.json",
+    "note": "Superseded on 2026-08-23 after user re-audit: v5's KEY still read as a sword-distance face-to-face exchange and weakened the tactical geography. v5 is historical evidence only."
+  },
+  "critical_reaudit_regen_v6": {
+    "version": "critical_reaudit_regen_v6_2026-08-23",
+    "frame_set_id": "Shot023_critical_reaudit_regen_v6_2026-08-23",
+    "source": "imagegen_integrated_live_action_lonato_refusal_safe_distance_v6_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot023/critical_reaudit_regen_v6_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v6_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot023_critical_reaudit_regen_v6.json",
+    "note": "critical_reaudit_regen_v6_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-023-1"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-023-1",
+    "speaker": "Lonato",
+    "text": "問われぬ罪は、聖なる名の陰に隠されるだけだ。",
+    "local_start_seconds": 5.04,
+    "local_speech_end_seconds": 12.12,
+    "local_end_seconds": 12.95,
+    "speech_seconds": 7.08,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot023/prompt.md"
+  },
+  "previous_match_action_reference": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "critical_reaudit_regen_v6_2026-08-23",
+    "previous_shot": "Shot022",
+    "previous_end_frame": "storyboards/Shot022/critical_reaudit_regen_v4_2026-08-23/end_frame.png",
+    "next_shot": "Shot024",
+    "next_start_frame": "storyboards/Shot024/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+    "decision": "monitor_required"
+  }
+}

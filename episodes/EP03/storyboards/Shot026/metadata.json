@@ -1,0 +1,282 @@
+{
+  "id": "Shot026",
+  "order": 26,
+  "source_timecode": "00:04:30",
+  "status": "monitor_required",
+  "duration_seconds": 6,
+  "scene": "亚修选择不射",
+  "purpose": "让 Ashe 的选择成为动作，而不是把他拍成已经瞄准 Lonato 的执行者。",
+  "location": "battlefield",
+  "characters": [
+    "Ashe",
+    "Lonato"
+  ],
+  "asset_references": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/extras/BanditSoldier/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+    "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  ],
+  "source_reference": "source_refs/Shot026_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "key": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+    "end": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot026_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot026_negative_prompt.md",
+  "expected_clip": "clips/Shot026.mp4",
+  "edit_in": "cut from the two-lane containment hold and Ashe's new right-side mark",
+  "edit_out": "cut on Ashe's restraint into the nearer guard's first step",
+  "audio_anchor": "Ashe, in Japanese: ごめんなさい。 He releases the string without firing; no other speech.",
+  "risks": "Ashe fires at Lonato, the arrow points through a person, or the guard line becomes decorative background",
+  "previous_source_timecode": "00:12:58",
+  "source_timecode_audit": {
+    "source_match": "Ashe visible in mission dialogue",
+    "adaptation_gap": "reframed as an arrow-line warning into empty mud before the guard line; Lonato remains on the far ridge and Ashe does not attack",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "current_display_frame_set": "manga_readability_reboard_v1",
+  "current_display_frame_status": "monitor_required_manga_readability_reboard_v1_2026-09-09",
+  "current_display_frame_source": "imagegen_integrated_live_action_ashe_empty_ground_warning_v1_2026-09-09",
+  "current_display_frame_note": "Reboard v1: Ashe owns the near-right decision plane, his arrow points to empty mud before the two-guard screen, and Lonato stays a distant witness beyond it. START nock, KEY full draw toward empty ground, END lowered nocked arrow after the single Japanese apology.",
+  "visual_audit_decision": "visual_review_passed",
+  "visual_audit_finding": "2026-09-02 sequential re-audit: Reboard v1: Ashe owns the near-right decision plane, his arrow points to empty mud before the two-guard screen, and Lonato stays a distant witness beyond it. START nock, KEY full draw toward empty ground, END lowered nocked arrow after the single Japanese apology.",
+  "required_revision": "Keep monitor_required. Run prompt-against-frame QA, strict adjacent continuity QA, and a 3-second motion probe before any video approval.",
+  "video_prompt_qa_decision": "pending_review_against_manga_readability_reboard_v1_2026-09-09",
+  "motion_probe_status": "pending_3s_probe_against_manga_readability_reboard_v1_2026-09-09",
+  "character_presence_constraint": "Exactly two named performers are readable: Ashe near-right and Lonato far upper-left, plus exactly two indistinct rebel guards physically between them; the arrow points only to empty mud before the guard line.",
+  "displayed_frame_set": {
+    "version": "manga_readability_reboard_v1_2026-09-09",
+    "frame_set_id": "Shot026_manga_readability_reboard_v1_2026-09-09",
+    "source": "imagegen_integrated_live_action_ashe_empty_ground_warning_v1_2026-09-09",
+    "frames": {
+      "start": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+      "key": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+      "end": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_readable_warning_choice",
+    "review_markdown": "production_system/reviews/manga_readability_reboard_2026-09-09/shot026_reboard_review.md",
+    "note": "Reboard v1: Ashe owns the near-right decision plane, his arrow points to empty mud before the two-guard screen, and Lonato stays a distant witness beyond it. START nock, KEY full draw toward empty ground, END lowered nocked arrow after the single Japanese apology."
+  },
+  "critical_reaudit_regen_v3": {
+    "version": "critical_reaudit_regen_v3_2026-08-23",
+    "frame_set_id": "Shot026_critical_reaudit_regen_v3_2026-08-23",
+    "source": "imagegen_integrated_live_action_ashe_nonlethal_ground_aim_v3_2026-08-23",
+    "frames": {
+      "start": "storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/start_frame.png",
+      "key": "storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/key_frame.png",
+      "end": "storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot026/critical_reaudit_regen_v3_2026-08-23/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-23/shot026_critical_reaudit_regen_v3_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-23/shot026_critical_reaudit_regen_v3.json",
+    "note": "critical_reaudit_regen_v3_2026-08-23 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "adjacent_continuity_review_2026_08_23": {
+    "previous_shot": "Shot025",
+    "previous_end_frame": "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png",
+    "previous_to_start_finding": "Shot026 critical_reaudit_regen_v4_2026-08-24 receives the previous shot's geography and action handoff while correcting the user-identified staging risk.",
+    "next_shot": "Shot027",
+    "next_start_frame": "storyboards/Shot027/critical_reaudit_regen_v2_2026-08-24/start_frame.png",
+    "end_to_next_finding": "Shot026 critical_reaudit_regen_v4_2026-08-24 ends on a deliberate handoff state for Shot027; no next-shot named character enters early.",
+    "decision": "monitor_required",
+    "reject_if": [
+      "Keep monitor_required. Run prompt-against-frame QA, strict Shot025→026 continuity QA, dialogue timing QA, and a 3-second motion probe. Reject if the arrow points at Lonato, releases early, the patch disappears, the distance collapses, or Chinese/Mandarin/subtitles/UI/borders appear."
+    ]
+  },
+  "critical_reaudit_regen_v4": {
+    "version": "critical_reaudit_regen_v4_2026-08-24",
+    "frame_set_id": "Shot026_critical_reaudit_regen_v4_2026-08-24",
+    "source": "imagegen_integrated_live_action_ashe_nonlethal_decision_chain_v4_2026-08-24",
+    "frames": {
+      "start": "storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot026/critical_reaudit_regen_v4_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-24/shot026_critical_reaudit_regen_v4_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-24/shot026_critical_reaudit_regen_v4.json",
+    "note": "critical_reaudit_regen_v4_2026-08-24 replaces the prior web candidate after a user-triggered critical re-audit. It is an integrated live-action frame chain with a distinct START/KEY/END action progression. Keep monitor_required until prompt-against-frame QA and a 3-second motion probe."
+  },
+  "dialogue_line_ids": [
+    "DL-EP03-026"
+  ],
+  "dialogue_mode": "single_turn",
+  "audio_source": "native_japanese",
+  "max_silence_seconds": 0.25,
+  "dialogue_timing": {
+    "line_id": "DL-EP03-026",
+    "speaker": "Ashe",
+    "text": "ごめんなさい。",
+    "local_start_seconds": 3.9,
+    "local_speech_end_seconds": 5,
+    "local_end_seconds": 5.35,
+    "speech_seconds": 1.1,
+    "cut_on": "reaction",
+    "repeat_policy": "no_repeat"
+  },
+  "motion_probe": {
+    "status": "pending",
+    "duration_seconds": 3,
+    "package_path": "delivery/motion_probe_package_2026-08-10/shots/Shot026/prompt.md"
+  },
+  "critical_reaudit_regen_v5": {
+    "version": "critical_reaudit_regen_v5_2026-08-24",
+    "frame_set_id": "Shot026_critical_reaudit_regen_v5_2026-08-24",
+    "source": "imagegen_integrated_live_action_ashe_lonato_decision_chain_v5_2026-08-24",
+    "frames": {
+      "start": "storyboards/Shot026/critical_reaudit_regen_v5_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot026/critical_reaudit_regen_v5_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot026/critical_reaudit_regen_v5_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot026/critical_reaudit_regen_v5_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "storyboards/Shot025/critical_reaudit_regen_v3_2026-08-23/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-24/shot026_critical_reaudit_regen_v5_2026-08-24_review.md",
+    "note": "Exact frames were visually reviewed as an integrated live-action chain. Downstream video remains monitor_required until prompt-against-frame QA and the 3-second motion probe pass."
+  },
+  "reference_assets": [
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+    "assets/characters/extras/BanditSoldier/selected.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+    "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+    "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  ],
+  "critical_reaudit_regen_v6": {
+    "version": "critical_reaudit_regen_v6_2026-08-24",
+    "frame_set_id": "Shot026_critical_reaudit_regen_v6_2026-08-24",
+    "source": "imagegen_integrated_live_action_ashe_guard_line_decision_v6_2026-08-27",
+    "frames": {
+      "start": "storyboards/Shot026/critical_reaudit_regen_v6_2026-08-24/start_frame.png",
+      "key": "storyboards/Shot026/critical_reaudit_regen_v6_2026-08-24/key_frame.png",
+      "end": "storyboards/Shot026/critical_reaudit_regen_v6_2026-08-24/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot026/critical_reaudit_regen_v6_2026-08-24/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v6_2026-08-27/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_adjacent_shot_refs",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-27/shot026_critical_reaudit_regen_v6_2026-08-24_review.md",
+    "note": "Exact files were visually reviewed as an integrated live-action sequence. Prompt-against-frame QA, strict continuity QA and motion probes remain pending."
+  },
+  "output_frames": {
+    "start": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "key": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+    "end": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+  },
+  "critical_reaudit_regen_v7": {
+    "version": "critical_reaudit_regen_v7_2026-09-02",
+    "frame_set_id": "Shot026_critical_reaudit_regen_v7_2026-09-02",
+    "source": "imagegen_integrated_live_action_ashe_guard_line_decision_v7_2026-09-02",
+    "frames": {
+      "start": "storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/start_frame.png",
+      "key": "storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/key_frame.png",
+      "end": "storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot026/critical_reaudit_regen_v7_2026-09-02/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot025/critical_reaudit_regen_v11_2026-09-03/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_terrain_separation",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-09-02/shot026_critical_reaudit_regen_v7_2026-09-02_review.md",
+    "note": "v7 rebuild: a wide side-offset battlefield keeps Ashe in the near-right foreground, exactly two rebel guards across the middle barriers, and Lonato tiny on a far upper-left ridge. Ashe holds a nocked arrow toward empty mud before the guard line and never gets a direct attack lane."
+  },
+  "start_frame": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+  "key_frame": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+  "end_frame": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+  "model_notes": [
+    "Current displayed frames are the manga_readability_reboard_v1_2026-09-09 sequential action-chain repair: Reboard v1: Ashe owns the near-right decision plane, his arrow points to empty mud before the two-guard screen, and Lonato stays a distant witness beyond it. START nock, KEY full draw toward empty ground, END lowered nocked arrow after the single Japanese apology. Keep monitor_required until prompt QA and motion probe."
+  ],
+  "previous_match_action_reference": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+  "next_handoff_reference": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+  "current_continuity": {
+    "source": "derived_from_current_displayed_frame_sets",
+    "current_frame_set": "manga_readability_reboard_v1_2026-09-09",
+    "previous_shot": "Shot025",
+    "previous_end_frame": "storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png",
+    "next_shot": "Shot027",
+    "next_start_frame": "storyboards/Shot027/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+    "decision": "monitor_required"
+  },
+  "key_action": "Ashe 在近右把箭线放到守卫线前的空泥地，拉满后听见自己的呼吸并放低弓；两名守卫仍在中层，Lonato 只能从远脊看见。",
+  "camera": "16:9 斜向中远景，先给 Ashe 的弓、空泥地和两名守卫足够空间，再在同一轴线上收紧到他的全身拉弓与放低；不做瞄准人脸的特写。",
+  "manga_readability_reboard_v1": {
+    "version": "manga_readability_reboard_v1_2026-09-09",
+    "frame_set_id": "Shot026_manga_readability_reboard_v1_2026-09-09",
+    "source": "imagegen_integrated_live_action_ashe_empty_ground_warning_v1_2026-09-09",
+    "frames": {
+      "start": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/start_frame.png",
+      "key": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/key_frame.png",
+      "end": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot026/manga_readability_reboard_v1_2026-09-09/contact_sheet.jpg",
+    "status": "monitor_required",
+    "visual_audit_decision": "visual_review_passed",
+    "reference_assets": [
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/kingdom/Lonato/legacy_ep01/selected.png",
+      "assets/characters/extras/BanditSoldier/selected.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/LonatoBattlefieldRidge_reference.png",
+      "assets/locations/EP03/act01/LonatoBattlefieldRidge/live_action_style_reference_2026-08-23.png",
+      "episodes/EP03/storyboards/Shot025/manga_readability_reboard_v1_2026-09-09/end_frame.png"
+    ],
+    "generation_mode": "imagegen_integrated_live_action_with_canonical_local_identity_and_readable_warning_choice",
+    "review_markdown": "production_system/reviews/manga_readability_reboard_2026-09-09/shot026_reboard_review.md",
+    "note": "Reboard v1: Ashe owns the near-right decision plane, his arrow points to empty mud before the two-guard screen, and Lonato stays a distant witness beyond it. START nock, KEY full draw toward empty ground, END lowered nocked arrow after the single Japanese apology."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "total_duration_seconds": 84,
+  "clips": [
+    {
+      "order": 1,
+      "shot": "BTS-SH000",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH000.mp4",
+      "edit_in": "cold open from apparent main-scene footage",
+      "edit_out": "cut to BTS-SH001"
+    },
+    {
+      "order": 2,
+      "shot": "BTS-SH001",
+      "duration_seconds": 10,
+      "expected_clip": "clips/BTS-SH001.mp4",
+      "edit_in": "cut from BTS-SH000",
+      "edit_out": "cut to BTS-SH002"
+    },
+    {
+      "order": 3,
+      "shot": "BTS-SH002",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH002.mp4",
+      "edit_in": "cut from BTS-SH001",
+      "edit_out": "cut to BTS-SH003"
+    },
+    {
+      "order": 4,
+      "shot": "BTS-SH003",
+      "duration_seconds": 14,
+      "expected_clip": "clips/BTS-SH003.mp4",
+      "edit_in": "cut from BTS-SH002",
+      "edit_out": "cut to BTS-SH004"
+    },
+    {
+      "order": 5,
+      "shot": "BTS-SH004",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH004.mp4",
+      "edit_in": "cut from BTS-SH003",
+      "edit_out": "cut to BTS-SH005"
+    },
+    {
+      "order": 6,
+      "shot": "BTS-SH005",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH005.mp4",
+      "edit_in": "cut from BTS-SH004",
+      "edit_out": "cut to BTS-SH006"
+    },
+    {
+      "order": 7,
+      "shot": "BTS-SH006",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH006.mp4",
+      "edit_in": "cut from BTS-SH005",
+      "edit_out": "freeze-like final pose then fade"
+    }
+  ]
+}

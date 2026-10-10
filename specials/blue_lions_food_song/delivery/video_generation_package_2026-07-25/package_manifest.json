@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "project": "blue_lions_food_song",
+  "package_id": "video_generation_package_2026-07-25",
+  "created_at": "2026-07-25",
+  "total_shots": 5,
+  "total_duration_seconds": 60,
+  "execution_files": [
+    "asset_viewer.html",
+    "RUNBOOK.md",
+    "model_target_profile.md",
+    "submission_queue.csv",
+    "clip_qa_checklist.md",
+    "execution_plan.json",
+    "execution_commands.sh",
+    "../../voice_subtitle_script.md"
+  ],
+  "shots": [
+    {
+      "id": "BLFS-SH001",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BLFS-SH001.mp4",
+      "edit_in": "cut from title or greenhouse detail",
+      "edit_out": "cut/rack into Felix reveal",
+      "audio_anchor": "adapted English food song completes by 11s",
+      "continuity_previous": "",
+      "continuity_next": "BLFS-SH002",
+      "model_notes": [],
+      "reject_if": [
+        "Annette reads as mature adult",
+        "song becomes public stage performance",
+        "greenhouse geography is unclear"
+      ],
+      "package_dir": "shots/001_BLFS-SH001"
+    },
+    {
+      "id": "BLFS-SH002",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 8,
+      "expected_clip": "clips/BLFS-SH002.mp4",
+      "edit_in": "from Annette's turn",
+      "edit_out": "cut to Annette close reaction",
+      "audio_anchor": "final song note, then Felix says Annette sounds hungry",
+      "continuity_previous": "BLFS-SH001",
+      "continuity_next": "BLFS-SH003",
+      "model_notes": [],
+      "reject_if": [
+        "Felix mocks her",
+        "Annette does not notice Felix"
+      ],
+      "package_dir": "shots/002_BLFS-SH002"
+    },
+    {
+      "id": "BLFS-SH003",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BLFS-SH003.mp4",
+      "edit_in": "hard cut from Felix reveal",
+      "edit_out": "cut to two-shot",
+      "audio_anchor": "Annette asks whether Felix heard the song and saw the movements",
+      "continuity_previous": "BLFS-SH002",
+      "continuity_next": "BLFS-SH004",
+      "model_notes": [],
+      "reject_if": [
+        "water becomes slapstick spill",
+        "Annette becomes childish"
+      ],
+      "package_dir": "shots/003_BLFS-SH003"
+    },
+    {
+      "id": "BLFS-SH004",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 14,
+      "expected_clip": "clips/BLFS-SH004.mp4",
+      "edit_in": "cut from Annette close",
+      "edit_out": "cut on Annette's protest",
+      "audio_anchor": "Felix praises footwork",
+      "continuity_previous": "BLFS-SH003",
+      "continuity_next": "BLFS-SH005",
+      "model_notes": [],
+      "reject_if": [
+        "Felix laughs at Annette",
+        "respectful distance is lost"
+      ],
+      "package_dir": "shots/004_BLFS-SH004"
+    },
+    {
+      "id": "BLFS-SH005",
+      "order": 5,
+      "status": "approved_for_video",
+      "duration_seconds": 14,
+      "expected_clip": "clips/BLFS-SH005.mp4",
+      "edit_in": "cut from Annette protest",
+      "edit_out": "hold on Annette's reaction",
+      "audio_anchor": "plant-singing deadpan payoff",
+      "continuity_previous": "BLFS-SH004",
+      "continuity_next": "",
+      "model_notes": [],
+      "reject_if": [
+        "Felix hums or performs song",
+        "ending becomes overt romance"
+      ],
+      "package_dir": "shots/005_BLFS-SH005"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "BTS-SH006",
+  "order": 6,
+  "status": "approved_for_video",
+  "duration_seconds": 12,
+  "expected_clip": "clips/BTS-SH006.mp4",
+  "edit_in": "cut from monitor nod",
+  "edit_out": "freeze-like final pose then fade",
+  "audio_anchor": "crew countdown and shutter clicks",
+  "continuity_previous": "BTS-SH005",
+  "continuity_next": "",
+  "model_notes": [
+    "Use the packaged start_frame.png, key_frame.png, and end_frame.png as fixed visual anchors; do not redesign characters, wardrobe, setting, or props.",
+    "End frame should hold like a warm wrap photo.",
+    "Source frames were normalized to 1672x941 delivery variants for aspect-ratio continuity."
+  ],
+  "reject_if": [
+    "Main four are lost in a random crowd.",
+    "Modern gear dominates.",
+    "The ending loses warmth."
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "project": "behind_the_scenes_mock_battle",
+  "package_id": "video_generation_package_human_set_v3_refusal_safe_2026-07-25",
+  "created_at": "2026-07-25",
+  "total_shots": 7,
+  "total_duration_seconds": 84,
+  "shots": [
+    {
+      "id": "BTS-SH000",
+      "order": 1,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH000.mp4",
+      "edit_in": "cold open from apparent main-scene footage",
+      "edit_out": "cut to BTS-SH001",
+      "audio_anchor": "Director global cut: 卡卡卡，拍的什么玩意？",
+      "continuity_previous": "",
+      "continuity_next": "BTS-SH001",
+      "model_notes": [
+        "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+        "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+        "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+      ],
+      "reject_if": [
+        "The white-haired director is missing or replaced by a generic crew member.",
+        "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+        "Modern film-set equipment disappears or main faces become hidden.",
+        "Props become glossy, heavy, or unsafe-looking.",
+        "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+      ],
+      "package_dir": "shots/001_BTS-SH000"
+    },
+    {
+      "id": "BTS-SH001",
+      "order": 2,
+      "status": "approved_for_video",
+      "duration_seconds": 10,
+      "expected_clip": "clips/BTS-SH001.mp4",
+      "edit_in": "cut from BTS-SH000",
+      "edit_out": "cut to BTS-SH002",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH000",
+      "continuity_next": "BTS-SH002",
+      "model_notes": [
+        "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+        "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+        "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+      ],
+      "reject_if": [
+        "The white-haired director is missing or replaced by a generic crew member.",
+        "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+        "Modern film-set equipment disappears or main faces become hidden.",
+        "Props become glossy, heavy, or unsafe-looking.",
+        "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+      ],
+      "package_dir": "shots/002_BTS-SH001"
+    },
+    {
+      "id": "BTS-SH002",
+      "order": 3,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH002.mp4",
+      "edit_in": "cut from BTS-SH001",
+      "edit_out": "cut to BTS-SH003",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH001",
+      "continuity_next": "BTS-SH003",
+      "model_notes": [
+        "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+        "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+        "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+      ],
+      "reject_if": [
+        "The white-haired director is missing or replaced by a generic crew member.",
+        "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+        "Modern film-set equipment disappears or main faces become hidden.",
+        "Props become glossy, heavy, or unsafe-looking.",
+        "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+      ],
+      "package_dir": "shots/003_BTS-SH002"
+    },
+    {
+      "id": "BTS-SH003",
+      "order": 4,
+      "status": "approved_for_video",
+      "duration_seconds": 14,
+      "expected_clip": "clips/BTS-SH003.mp4",
+      "edit_in": "cut from BTS-SH002",
+      "edit_out": "cut to BTS-SH004",
+      "audio_anchor": "Hidden line-geometry gag: 碰不到人的枪 / 拍电影就不怕工伤了 / 饭会凉",
+      "continuity_previous": "BTS-SH002",
+      "continuity_next": "BTS-SH004",
+      "model_notes": [
+        "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+        "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+        "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+      ],
+      "reject_if": [
+        "The white-haired director is missing or replaced by a generic crew member.",
+        "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+        "Modern film-set equipment disappears or main faces become hidden.",
+        "Props become glossy, heavy, or unsafe-looking.",
+        "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+      ],
+      "package_dir": "shots/004_BTS-SH003"
+    },
+    {
+      "id": "BTS-SH004",
+      "order": 5,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH004.mp4",
+      "edit_in": "cut from BTS-SH003",
+      "edit_out": "cut to BTS-SH005",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH003",
+      "continuity_next": "BTS-SH005",
+      "model_notes": [
+        "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+        "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+        "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+      ],
+      "reject_if": [
+        "The white-haired director is missing or replaced by a generic crew member.",
+        "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+        "Modern film-set equipment disappears or main faces become hidden.",
+        "Props become glossy, heavy, or unsafe-looking.",
+        "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+      ],
+      "package_dir": "shots/005_BTS-SH004"
+    },
+    {
+      "id": "BTS-SH005",
+      "order": 6,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH005.mp4",
+      "edit_in": "cut from BTS-SH004",
+      "edit_out": "cut to BTS-SH006",
+      "audio_anchor": "see dialogue_audio_beats.md",
+      "continuity_previous": "BTS-SH004",
+      "continuity_next": "BTS-SH006",
+      "model_notes": [
+        "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+        "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+        "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+      ],
+      "reject_if": [
+        "The white-haired director is missing or replaced by a generic crew member.",
+        "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+        "Modern film-set equipment disappears or main faces become hidden.",
+        "Props become glossy, heavy, or unsafe-looking.",
+        "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+      ],
+      "package_dir": "shots/006_BTS-SH005"
+    },
+    {
+      "id": "BTS-SH006",
+      "order": 7,
+      "status": "approved_for_video",
+      "duration_seconds": 12,
+      "expected_clip": "clips/BTS-SH006.mp4",
+      "edit_in": "cut from BTS-SH005",
+      "edit_out": "freeze-like final pose then fade",
+      "audio_anchor": "Director closes: 好，收工。今天就到这",
+      "continuity_previous": "BTS-SH005",
+      "continuity_next": "",
+      "model_notes": [
+        "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+        "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+        "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+      ],
+      "reject_if": [
+        "The white-haired director is missing or replaced by a generic crew member.",
+        "Named faces, costumes, hairstyles, or relative positions drift from the input frames.",
+        "Modern film-set equipment disappears or main faces become hidden.",
+        "Props become glossy, heavy, or unsafe-looking.",
+        "Subtitles, captions, logos, watermarks, or readable fake screens appear."
+      ],
+      "package_dir": "shots/007_BTS-SH006"
+    }
+  ],
+  "refusal_safe": true,
+  "safety_notes": [
+    "Refusal-safe pass: modern behind-the-scenes rehearsal with adult performers in costume.",
+    "Use neutral visual descriptors from the prompt text; identity is preserved from the exact input frames.",
+    "Keep all props matte, harmless, and clearly for rehearsal; movement stays contact-free and modest."
+  ]
+}

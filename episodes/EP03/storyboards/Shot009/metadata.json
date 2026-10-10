@@ -1,0 +1,80 @@
+{
+  "id": "Shot009",
+  "order": 9,
+  "source_timecode": "00:06:20",
+  "status": "monitor_required",
+  "duration_seconds": 10,
+  "scene": "离开修道院",
+  "purpose": "从秩序空间转入边境雾区。",
+  "location": "monastery",
+  "characters": [
+    "BylethFemale",
+    "Dimitri",
+    "Ashe",
+    "Catherine"
+  ],
+  "asset_references": [
+    "assets/characters/protagonist/BylethFemale/professor/selected.png",
+    "assets/characters/blue_lions/Dimitri/academy/selected.png",
+    "assets/characters/blue_lions/Ashe/academy/selected.png",
+    "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+    "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+  ],
+  "source_reference": "source_refs/Shot009_source.png",
+  "planned_frames": {
+    "start": "storyboards/Shot009/start_frame.png",
+    "key": "storyboards/Shot009/key_frame.png",
+    "end": "storyboards/Shot009/end_frame.png"
+  },
+  "prompt_path": "video_prompts/Shot009_prompt.md",
+  "negative_prompt_path": "video_prompts/Shot009_negative_prompt.md",
+  "expected_clip": "clips/Shot009.mp4",
+  "edit_in": "cut from Catherine",
+  "edit_out": "dissolve to fog road",
+  "audio_anchor": "Marching footsteps and wind overwhelming the fading bell. No spoken dialogue.",
+  "risks": "cheerful academy tone",
+  "previous_source_timecode": "00:04:50",
+  "source_timecode_audit": {
+    "source_match": "group preparing to move into mission map",
+    "adaptation_gap": "departure from monastery is adaptation expansion",
+    "audit_path": "production_system/source_timecode_audit_2026-08-01.json"
+  },
+  "byleth_gender_consistency_lock": "female_byleth_only_2026-08-14",
+  "canonical_byleth_asset": "assets/characters/protagonist/BylethFemale/professor/selected.png",
+  "visual_audit_decision": "monitor_required",
+  "visual_audit_finding": "Critical re-audit regen v1 replaces the prior Shot009 web candidate because the previous START/KEY/END relied on male or ambiguous black-cloak Byleth back silhouettes and Catherine was not consistently readable. New START/KEY/END use attached local selected assets for female Byleth, Dimitri, Ashe, Catherine, and Church banners. The chain now reads as gate pause, road departure, and dissolve toward a fog road; female Byleth is visible as the academy-era female professor in START/KEY and remains female-coded in the distant END silhouette.",
+  "required_revision": "Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, END turns into anonymous back silhouettes, Catherine/Dimitri/Ashe identities swap, the shot becomes a battle beat, or START/KEY/END collapse into repeated stills.",
+  "current_display_frame_set": "critical_reaudit_regen_v1",
+  "current_display_frame_status": "monitor_required_critical_reaudit_regen_v1_2026-08-15",
+  "current_display_frame_source": "imagegen_from_attached_local_selected_assets_female_byleth_lock_critical_reaudit_regen_v1_2026-08-15",
+  "video_prompt_qa_decision": "pending_review_against_critical_reaudit_regen_v1",
+  "motion_probe_status": "pending_3s_probe_against_critical_reaudit_regen_v1_2026-08-15",
+  "legacy_current_candidate_downgrade_2026_08_15": {
+    "downgraded_frame_set": "local_asset_final_candidate_v1",
+    "decision": "blocked_needs_revision_for_byleth_gender_identity_and_unclear_named_party",
+    "reason": "Rendered review showed Byleth mostly as a male or ambiguous black-cloak back silhouette, with Catherine not consistently readable across the departure frames."
+  },
+  "critical_reaudit_regen_v1": {
+    "frame_set_id": "Shot009_critical_reaudit_regen_v1_2026-08-15",
+    "status": "monitor_required",
+    "visual_audit_decision": "monitor_required",
+    "frames": {
+      "start": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/start_frame.png",
+      "key": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/key_frame.png",
+      "end": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/end_frame.png"
+    },
+    "contact_sheet": "storyboards/Shot009/critical_reaudit_regen_v1_2026-08-15/contact_sheet.jpg",
+    "reference_assets": [
+      "assets/characters/protagonist/BylethFemale/professor/selected.png",
+      "assets/characters/blue_lions/Dimitri/academy/selected.png",
+      "assets/characters/blue_lions/Ashe/academy/selected.png",
+      "assets/characters/church_of_seiros/Catherine/academy/selected.png",
+      "assets/props/shared/church_of_seiros_crest_flags/church_of_seiros_crest_flags_reference.png"
+    ],
+    "generation_mode": "built_in_imagegen_with_attached_local_selected_assets",
+    "review_markdown": "production_system/reviews/critical_reaudit_2026-08-15/shot009_critical_reaudit_regen_v1_2026-08-15_review.md",
+    "review_json": "production_system/reviews/critical_reaudit_2026-08-15/shot009_current_web_candidate_reaudit_2026-08-15.json",
+    "note": "Critical re-audit regen v1 replaces the prior Shot009 web candidate because the previous START/KEY/END relied on male or ambiguous black-cloak Byleth back silhouettes and Catherine was not consistently readable. New START/KEY/END use attached local selected assets for female Byleth, Dimitri, Ashe, Catherine, and Church banners. The chain now reads as gate pause, road departure, and dissolve toward a fog road; female Byleth is visible as the academy-era female professor in START/KEY and remains female-coded in the distant END silhouette. Keep monitor_required before video: run 3-second motion probe and reject if Byleth becomes male/ambiguous, END turns into anonymous back silhouettes, Catherine/Dimitri/Ashe identities swap, the shot becomes a battle beat, or START/KEY/END collapse into repeated stills."
+  },
+  "byleth_visual_spotcheck_2026_08_15": "previous_web_candidate_failed_male_or_ambiguous_back_silhouette_replaced_with_monitor_required_candidate"
+}

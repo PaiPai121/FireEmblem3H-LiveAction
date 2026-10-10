@@ -1,0 +1,3 @@
+# Shot014 Negative Prompt
+
+No subtitles, no captions, no Chinese-language voiceover, no Mandarin spoken dialogue, no game UI, no dialogue boxes, no damage numbers, no health bars, no tactical grid, no chibi proportions, no anime screencap style, no modern clothing, no modern weapons, no firearms, no graphic gore, no dismemberment, no blood spray, no celebratory execution, no random monsters, no extra named students, no face drift, no age-up, no war-phase costumes, no beard or stubble on students, no generic medieval extras replacing named characters, no Rhea villain-smirk, no Catherine cruelty, no Ashe triumphant kill, no Lonato as bandit, no camera spin, no fisheye, no unreadable fog wall, no text on props.

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blue Lions Food Song Asset Viewer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #20242a;
+      --muted: #6b7280;
+      --line: #d8dee8;
+      --panel: #f7f9fb;
+      --accent: #1d5f8f;
+      --warm: #8a5b22;
+      --ok: #2f6f4e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.45;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.94);
+      backdrop-filter: blur(12px);
+    }
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    .meta {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      font-size: 13px;
+    }
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 22px 24px 40px;
+    }
+    .status {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: var(--panel);
+    }
+    .stat b {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .stat span {
+      display: block;
+      margin-top: 4px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .shot {
+      border-top: 1px solid var(--line);
+      padding: 22px 0 28px;
+    }
+    .shot-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    .purpose {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid #b8d4c4;
+      background: #eef8f1;
+      color: var(--ok);
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .frames {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      background: #edf1f5;
+    }
+    figcaption {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 10px;
+      font-size: 13px;
+      border-top: 1px solid var(--line);
+    }
+    .caption-label {
+      font-weight: 700;
+    }
+    .caption-path {
+      color: var(--muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .shot-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+      font-size: 13px;
+    }
+    .shot-links a {
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--accent);
+      background: #fff;
+    }
+    .reject {
+      margin-top: 10px;
+      color: var(--warm);
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      header { grid-template-columns: 1fr; }
+      .links { justify-content: flex-start; }
+      .status { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .frames { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Blue Lions Food Song Asset Viewer</h1>
+      <div class="meta">Annette food-song comedy short · 5 shots · 60 seconds · approved for video</div>
+    </div>
+    <nav class="links" aria-label="Package links">
+      <a href="RUNBOOK.md">Runbook</a>
+      <a href="submission_queue.csv">Submission Queue</a>
+      <a href="clip_qa_checklist.md">Clip QA</a>
+      <a href="execution_plan.json">Execution Plan</a>
+    </nav>
+  </header>
+  <main>
+    <section class="status" aria-label="Package status">
+      <div class="stat"><b>Package</b><span>video_generation_package_2026-07-25</span></div>
+      <div class="stat"><b>Shots</b><span>5</span></div>
+      <div class="stat"><b>Total Duration</b><span>60s</span></div>
+      <div class="stat"><b>Preflight</b><span>ready, 5 clips pending</span></div>
+    </section>
+
+    <section class="shot" id="BLFS-SH001">
+      <div class="shot-head">
+        <div>
+          <h2>01 · BLFS-SH001 · 12s</h2>
+          <div class="purpose">Private song and step-turn-pour rhythm.</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/001_BLFS-SH001/start_frame.png"><img src="shots/001_BLFS-SH001/start_frame.png" alt="BLFS-SH001 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/001_BLFS-SH001/key_frame.png"><img src="shots/001_BLFS-SH001/key_frame.png" alt="BLFS-SH001 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/001_BLFS-SH001/end_frame.png"><img src="shots/001_BLFS-SH001/end_frame.png" alt="BLFS-SH001 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/001_BLFS-SH001/prompt.md">Prompt</a><a href="shots/001_BLFS-SH001/negative_prompt.md">Negative Prompt</a><a href="shots/001_BLFS-SH001/metadata.json">Metadata</a></div>
+      <div class="reject">Primary reject: Annette face drift, lip-sync mouth distortion, mature aging, stage-performance singing, or unclear greenhouse geography.</div>
+    </section>
+
+    <section class="shot" id="BLFS-SH002">
+      <div class="shot-head">
+        <div>
+          <h2>02 · BLFS-SH002 · 8s</h2>
+          <div class="purpose">Felix reveal without mockery.</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/002_BLFS-SH002/start_frame.png"><img src="shots/002_BLFS-SH002/start_frame.png" alt="BLFS-SH002 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/002_BLFS-SH002/key_frame.png"><img src="shots/002_BLFS-SH002/key_frame.png" alt="BLFS-SH002 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/002_BLFS-SH002/end_frame.png"><img src="shots/002_BLFS-SH002/end_frame.png" alt="BLFS-SH002 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/002_BLFS-SH002/prompt.md">Prompt</a><a href="shots/002_BLFS-SH002/negative_prompt.md">Negative Prompt</a><a href="shots/002_BLFS-SH002/metadata.json">Metadata</a></div>
+      <div class="reject">Primary reject: Felix mocks her, smiles broadly, or Annette does not clearly notice him.</div>
+    </section>
+
+    <section class="shot" id="BLFS-SH003">
+      <div class="shot-head">
+        <div>
+          <h2>03 · BLFS-SH003 · 12s</h2>
+          <div class="purpose">Contained embarrassment and tiny over-pour.</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/003_BLFS-SH003/start_frame.png"><img src="shots/003_BLFS-SH003/start_frame.png" alt="BLFS-SH003 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/003_BLFS-SH003/key_frame.png"><img src="shots/003_BLFS-SH003/key_frame.png" alt="BLFS-SH003 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/003_BLFS-SH003/end_frame.png"><img src="shots/003_BLFS-SH003/end_frame.png" alt="BLFS-SH003 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/003_BLFS-SH003/prompt.md">Prompt</a><a href="shots/003_BLFS-SH003/negative_prompt.md">Negative Prompt</a><a href="shots/003_BLFS-SH003/metadata.json">Metadata</a></div>
+      <div class="reject">Primary reject: water becomes slapstick, Annette becomes childish, or identity drifts.</div>
+    </section>
+
+    <section class="shot" id="BLFS-SH004">
+      <div class="shot-head">
+        <div>
+          <h2>04 · BLFS-SH004 · 14s</h2>
+          <div class="purpose">Felix gives unsmiling, sincere footwork praise.</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/004_BLFS-SH004/start_frame.png"><img src="shots/004_BLFS-SH004/start_frame.png" alt="BLFS-SH004 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/004_BLFS-SH004/key_frame.png"><img src="shots/004_BLFS-SH004/key_frame.png" alt="BLFS-SH004 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/004_BLFS-SH004/end_frame.png"><img src="shots/004_BLFS-SH004/end_frame.png" alt="BLFS-SH004 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/004_BLFS-SH004/prompt.md">Prompt</a><a href="shots/004_BLFS-SH004/negative_prompt.md">Negative Prompt</a><a href="shots/004_BLFS-SH004/metadata.json">Metadata</a></div>
+      <div class="reject">Primary reject: Felix laughs, crowds Annette, or becomes overtly romantic.</div>
+    </section>
+
+    <section class="shot" id="BLFS-SH005">
+      <div class="shot-head">
+        <div>
+          <h2>05 · BLFS-SH005 · 14s</h2>
+          <div class="purpose">Watering payoff and plant-singing deadpan.</div>
+        </div>
+        <span class="badge">approved_for_video</span>
+      </div>
+      <div class="frames">
+        <figure><a href="shots/005_BLFS-SH005/start_frame.png"><img src="shots/005_BLFS-SH005/start_frame.png" alt="BLFS-SH005 start frame"></a><figcaption><span class="caption-label">Start</span><span class="caption-path">start_frame.png</span></figcaption></figure>
+        <figure><a href="shots/005_BLFS-SH005/key_frame.png"><img src="shots/005_BLFS-SH005/key_frame.png" alt="BLFS-SH005 key frame"></a><figcaption><span class="caption-label">Key</span><span class="caption-path">key_frame.png</span></figcaption></figure>
+        <figure><a href="shots/005_BLFS-SH005/end_frame.png"><img src="shots/005_BLFS-SH005/end_frame.png" alt="BLFS-SH005 end frame"></a><figcaption><span class="caption-label">End</span><span class="caption-path">end_frame.png</span></figcaption></figure>
+      </div>
+      <div class="shot-links"><a href="shots/005_BLFS-SH005/prompt.md">Prompt</a><a href="shots/005_BLFS-SH005/negative_prompt.md">Negative Prompt</a><a href="shots/005_BLFS-SH005/metadata.json">Metadata</a></div>
+      <div class="reject">Primary reject: Felix hums or performs the song, ending becomes overt romance, or the watering can drifts.</div>
+    </section>
+  </main>
+</body>
+</html>
